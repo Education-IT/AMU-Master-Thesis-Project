@@ -1,0 +1,1939 @@
+{
+    "task": "mmlu_sociology",
+    "dataset": "web_access_sociology_final",
+    "questions": 201,
+    "noWebContextCount": 0,
+    "contaminated_queries": 118,
+    "contaminated_urls": 272,
+    "valid_urls": 201,
+    "avg_contaminated_before_valid": 2.353233830845771,
+    "contaminated_data_ratio": 0.5750528541226215,
+    "most_contaminated_urls": {
+        "pakmcqs.com": 28,
+        "mcqtimes.com": 15,
+        "praxis.ets.org": 5
+    },
+    "noWebContext": [],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "the case of the former soviet union supports kerr et als 1960 claim that",
+            "content": "the case of the former soviet union supports kerr et als 1960 claims that a totalitarian regimes are incompatible with the requirements of",
+            "url": "https://pakmcqs.com/sociology-mcqs/the-case-of-the-former-soviet-union-supports-kerr-et-als-1960-claims-that___________",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "scientific theories in the nineteenth century tried to explain race in naturalistic terms which of the following ideas was not considered",
+            "content": "scientific theories in the nineteenth century tried to explain race in naturalistic terms which of the following ideas was not considered a genetics",
+            "url": "https://pakmcqs.com/sociology-mcqs/scientific-theories-in-the-nineteenth-century-tried-to-explain-race-in-naturalistic-terms-which-of-the-following-ideas-was-not-considered",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "scientific theories in the nineteenth century tried to explain race in naturalistic terms which of the following ideas was not considered",
+            "content": "scientific theories in the nineteenth century tried to explain race in naturalistic terms which of the following ideas was not considered genetics a b",
+            "url": "https://www.cavehill.uwi.edu/ExamPapers/PastPapers/SOCI1002201130.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "scientific theories in the nineteenth century tried to explain race in naturalistic terms which of the following ideas was not considered",
+            "content": "scientific theories in the nineteenth century tried to explain race in naturalistic terms which of the following ideas was not considered a genetics b",
+            "url": "https://pakmcqs.com/sociology-mcqs/the-middle-classes-that-developed-over-the-nineteenth-century-were_____________",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the term intergenerational mobility refers to",
+            "content": "intergenerational mobility refers to the relationship between a specific socioeconomic factor of parents and the same factor of their offspring",
+            "url": "https://www.sciencedirect.com/topics/social-sciences/intergenerational-mobility",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following sociological perspectives views society as a system of interdependent and coordinated parts",
+            "content": "q 21 which of the following sociological perspectives view society as a system of interdependent and coordinated part a functionalism b symbolic",
+            "url": "https://www.examrace.com/GATE/GATE-Practice-Questions/GATE-Model-Paper-2021-XH-C6-Sociology.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the class polarization that marx predicted referred to",
+            "content": "the class polarization that marx predicted referred to a the division of each social class into the more or less privileged",
+            "url": "https://pakmcqs.com/sociology-mcqs/the-class-polarization-that-marx-predicted-referred-to________________",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "environmentalist social movements are global in the sense that",
+            "content": "environmentalist social movements are global in the sense that they increase our awareness of risks that affect the whole planet they appeal to universal",
+            "url": "https://mcqtimes.com/environmentalist-social-movements-are-global-in-the-sense-that/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a researcher mailed 1000 questionnaires to members of a labor union and received 300 back most of those who returned the questionnaires indicated that they were dissatisfied with the union results based only on the returned questionnaires are most likely contaminated by",
+            "content": "questionnaires indicated that they were dissatisfied with the union results based only on the returned questionnaires are most likely contaminated by a",
+            "url": "https://praxis.ets.org/on/demandware.static/-/Library-Sites-ets-praxisLibrary/default/pdfs/5952.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the third age of the life course is said to involve",
+            "content": "the third age of the life course is said to involve a active nonwork and independence after retirement b full time employment familybuilding and adult",
+            "url": "https://pakmcqs.com/sociology-mcqs/the-third-age-of-the-life-course-is-said-to-involve",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the third age of the life course is said to involve",
+            "content": "the third age of the life course is said to involve active nonwork and independence after retirement illness isolation and increasing dependence on others",
+            "url": "https://mcqtimes.com/the-third-age-of-the-life-course-is-said-to-involve/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "ethnographic research produces qualitative data because",
+            "content": "ethnographic research produces qualitative data because a the findings are amenable to statistical analysis b it is conducted over a period of",
+            "url": "https://pakmcqs.com/sociology-mcqs/ethnographic-research-produces-qualitative-data-because_____________",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "dahrendorf rex and habermas focused their attention on",
+            "content": "related mcqs dahrendorf rex and habermas focused their attention on a social solidarity and cohesion b the interpretive understanding of",
+            "url": "https://pakmcqs.com/sociology-mcqs/dahrendorf-rex-and-habermas-focused-their-attention-on_____________-2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "dahrendorf rex and habermas focused their attention on",
+            "content": "dahrendorf rex and habermas focused their attention on a social solidarity and cohesion b the interpretive understanding of action c",
+            "url": "https://pakmcqs.com/sociology-mcqs/dahrendorf-rex-and-habermas-focused-their-attention-on_____________",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "dahrendorf rex and habermas focused their attention on",
+            "content": "the best social theory was developed in prague 10 dahrendorf rex and habermas focused their attention on a social solidarity and cohesion b the",
+            "url": "https://sde.uoc.ac.in/sites/default/files/sde_videos/MCQ-%20INVITATION%20TO%20SOCIOLOGICAL%20THEORY.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "dahrendorf rex and habermas focused their attention on",
+            "content": "the best social theory was developed in prague 8 dahrendorf rex and habermas focused their attention on social solidarity and cohesion a b c d the",
+            "url": "https://www.cavehill.uwi.edu/ExamPapers/PastPapers/SOCI1002201130.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "dahrendorf rex and habermas focused their attention on",
+            "content": "dahrendorf rex and habermas focused their attention on on max which of the following is the term that giddens uses to describe the",
+            "url": "https://mcqmate.com/discussion/261704/according-to-habermas-the-system-is-becoming-increasingly-by-delinguistified-media",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "dahrendorf rex and habermas focused their attention on",
+            "content": "d the best social theory was developed in prague 42dahrendorf rex and habermas focused their attention on a social solidarity and cohesion b the",
+            "url": "https://www.mgu.ac.in/uploads/2020/05/SO5-CRT09-contemporary-social-theories.pdf?x15334",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "dahrendorf rex and habermas focused their attention on",
+            "content": "dahrendorf rex and habermas focused their attention on a1 social solidarity and cohesion a2 the interpretive understanding of action a3 womens",
+            "url": "https://lib.pondiuni.edu.in/oldqp/Phd_Sociology_2020.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the term collective consumption castells 1977 refers to",
+            "content": "the term collective consumption castells 1977 refers to a the privatisation of public services by the conservative government",
+            "url": "https://www.examveda.com/the-term-collective-consumption-castells-1977-refers-to-189860/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "marx proclaimed that religion would disappear when",
+            "content": "marx proclaimed that religion would disappear when a a new trend of moral individualism became established b a socialist revolution removed the need for",
+            "url": "https://pakmcqs.com/sociology-mcqs/marx-proclaimed-that-religion-would-disappear-when",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a sociologist is conducting research on institutional power relations at a local hospital the sociologist is on staff at the hospital for several weeks recording data as field notes this method of research is called",
+            "content": "the sociologist is on staff at the hospital for several weeks recording data as field notes this method of research is called a experimentation b",
+            "url": "https://praxis.ets.org/on/demandware.static/-/Library-Sites-ets-praxisLibrary/default/pdfs/5952.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following is not a feature of globalization",
+            "content": "contrary to popular belief the adoption of similar strategies by a firm in all markets is not a feature of globalization",
+            "url": "https://edurev.in/question/3053839/The-following-is-not-a-feature-of-globalization-------a-Similar-strategies-are-adopted-by-a-firm-in-",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following is not a feature of globalization",
+            "content": "chapter 1 globalization 1 of the following is not characteristic of globalization a national economies are turning into independent economic systems",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-fpt/international-buisness/chapter-1-practice/70075619",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "warner and myrdal claimed that black former slaves were not joining the ethnic melting pot of the north american cities because",
+            "content": "warner and myrdal claimed that black former slaves were not joining the ethnic melting pot of the north american cities because a the",
+            "url": "https://www.socialworkin.com/2021/10/60-mcq-on-culture-and-ethnic-study-with-answer.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what is the name of the process by which we acquire a sense of identity and become members of society",
+            "content": "what is the name of the process by which we acquire a sense of identity and become members of society a rationalization b colonization",
+            "url": "https://pakmcqs.com/sociology-mcqs/what-is-the-name-of-the-process-by-which-we-acquire-a-sense-of-identity-and-become-members-of-society",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "according to davis 1995 women may seek cosmetic surgery because",
+            "content": "according to davis 1995 women may seek cosmetic surgery because they have a deeprooted sense of ineffectiveness and are striving for control they are",
+            "url": "https://mcqtimes.com/according-to-davis-1995-women-may-seek-cosmetic-surgery-because/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "warners study of the city of natchez in the american deep south showed that the colour line there was",
+            "content": "warners study of the city of natchez in the american deep south showed that the colour line there was a no longer a powerful influence",
+            "url": "https://www.socialworkin.com/2021/10/60-mcq-on-culture-and-ethnic-study-with-answer.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the human relations approach emphasized the importance of",
+            "content": "the human relations theory emphasizes the importance of social structures at work and that workers will often follow the norms and rules that are set by their",
+            "url": "https://getmarlee.com/blog/human-relations-theory",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "giselle graduated from college with high honors in management she was recruited immediately following college by a large corporation and accepted a position in junior management she quickly advanced to middle management ten years later giselle was still in a middlemanagement position and had witnessed junior male colleagues promoted over her which of the following is a phenomenon that is most likely to explain giselles lack of promotion",
+            "content": "she quickly advanced to middle management ten years later giselle was still in a middlemanagement position and had witnessed junior male colleagues promoted",
+            "url": "https://praxis.ets.org/on/demandware.static/-/Library-Sites-ets-praxisLibrary/default/pdfs/5952.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "srebernymohammadi 1996 argues that national cultures can resist american cultural domination of the media by",
+            "content": "srebernymohammadi 1996 argues that national cultures can resist american cultural domination of the media by a domesticating its content",
+            "url": "https://pakmcqs.com/sociology-mcqs/sreberny-mohammadi-1996-argues-that-national-cultures-can-resist-american-cultural-domination-of-the-media-by_____________",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "srebernymohammadi 1996 argues that national cultures can resist american cultural domination of the media by",
+            "content": "srebernymohammadi 1996 argues that national cultures can resist american cultural domination of the media by a domesticating its content",
+            "url": "https://pakmcqs.com/sociology-mcqs/diffusion-of-innovations-among-the-cultures-means______________",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the ecological approach to urban sociology involved studying",
+            "content": "the ecological approach to urban sociology involved studying a how social groups colonized different areas of the city and competed for resources b the",
+            "url": "https://pakmcqs.com/sociology-mcqs/the-ecological-approach-to-urban-sociology-involved-studying-2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in idealized views of science the experimental method is said to involve",
+            "content": "in idealized views of science the experimental method is said to involve a testing out new research methods to see which one works best b isolating and",
+            "url": "https://pakmcqs.com/sociology-mcqs/in-idealized-views-of-science-the-experimental-method-is-said-to-involve",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "in idealized views of science the experimental method is said to involve",
+            "content": "in idealized views of science the experimental method is said to involve testing out new research methods to see which one works best isolating and",
+            "url": "https://mcqtimes.com/in-idealized-views-of-science-the-experimental-method-is-said-to-involve-2/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "in idealized views of science the experimental method is said to involve",
+            "content": "in idealized views of science the experimental method is said to involve a testing out new research methods to see which one works best b isolating and",
+            "url": "https://pakmcqs.com/sociology-mcqs/in-idealized-views-of-science-the-experimental-method-is-said-to-involve_____________",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "freuds notion of the ego referred to",
+            "content": "the ego according to freud the ego develops from the id and ensures that the impulses of the id can be expressed in a manner acceptable in",
+            "url": "https://www.verywellmind.com/the-id-ego-and-superego-2795951",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "freuds notion of the ego referred to",
+            "content": "by s mcleod freuds ego is the rational part of the psyche that mediates between the instinctual desires of the id and the moral constraints of the superego",
+            "url": "https://www.simplypsychology.org/psyche.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is not recognised as a level of society",
+            "content": "which of the following is not recognized as a level of society a the household b the office c the global village d the nation",
+            "url": "https://pakmcqs.com/sociology-mcqs/which-of-the-following-is-not-recognized-as-a-level-of-society-2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is not recognised as a level of society",
+            "content": "which of the following is not recognized as a level of society a the household b the office c the global village d the nation states",
+            "url": "https://pakmcqs.com/sociology-mcqs/which-of-the-following-is-not-recognized-as-a-level-of-society",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "children who are still sucking their thumbs when they enter kindergarten are often subject to teasing and ridicule for this behavior what type of social sanction is applied in this instance",
+            "content": "children who are still sucking their thumbs when they enter kindergarten are often subject to teasing and ridicule for this behavior what type of social",
+            "url": "https://praxis.ets.org/on/demandware.static/-/Library-Sites-ets-praxisLibrary/default/pdfs/5952.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is a personal document with closed access",
+            "content": "which of the following is a personal document with closed access government white paper confidential medical records household account book",
+            "url": "https://mcqsforum.com/subject-related/sociology/mcqsbank/113104/Which-of-the-following-is-a-personal-document-with-closed-access-?",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "stones research suggests that prior to industrialization the nuclear family",
+            "content": "stones research suggests that prior to industrialization the nuclear family a a did not exist in any form b had begun to disappear as extended networks",
+            "url": "https://pakmcqs.com/sociology-mcqs/stones-research-suggests-that-prior-to-industrialization-the-nuclear-family",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "stones research suggests that prior to industrialization the nuclear family",
+            "content": "stones research suggests that prior to industrialization the nuclear family did not exist in any form had begun to disappear as extended networks of kin",
+            "url": "https://mcqtimes.com/stones-research-suggests-that-prior-to-industrialization-the-nuclear-family/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "stones research suggests that prior to industrialization the nuclear family",
+            "content": "stones research suggests that prior to industrialization the nuclear family did not exist in any form had begun to disappear as extended networks of kin",
+            "url": "https://mcqtimes.com/stones-research-suggests-that-prior-to-industrialization-the-nuclear-family-2/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "stones research suggests that prior to industrialization the nuclear family",
+            "content": "stones research suggests that prior to industrialization the nuclear family a did not exist in any form had begun to disappear as extended networks of kin",
+            "url": "https://mcqsforum.com/subject-related/sociology/mcqsbank/113936/Stones-research-suggests-that-prior-to-industrialization-the-nuclear-family-?",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "theories of racialized discourse suggest that",
+            "content": "theories of racialized discourse suggest that a race is an objective way of categorizing people on biological grounds b the idea of race",
+            "url": "https://pakmcqs.com/sociology-mcqs/theories-of-racialized-discourse-suggest-that________________",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "theories of racialized discourse suggest that",
+            "content": "theories of racialized discourse suggest that a race is an objective way of categorizing people on biological grounds b the idea of race",
+            "url": "https://pakmcqs.com/sociology-mcqs/theories-of-racialized-discourse-suggest-that________________?amp=1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "one of the difficulties in operationalizing concepts like social class is that",
+            "content": "one of the difficulties in operationalizing concepts like social class is that definitions and indicators can vary making valid comparisons problematic",
+            "url": "https://mcqtimes.com/one-of-the-difficulties-in-operationalizing-concepts-like-social-class-is-that/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the extension pattern that parker 1976 identified was said to be",
+            "content": "solved answer of mcq the extension pattern that parker 1976 identified was said to be a the lifestyle of clerical and unskilled manual workers",
+            "url": "https://mcqtimes.com/the-extension-pattern-that-parker-1976-identified-was-said-to-be/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "walt disney sony and time warner are examples of",
+            "content": "walt disney sony and time warner are examples of a transnational corporations b multimedia empires c ownership concentrated within one",
+            "url": "https://pakmcqs.com/sociology-mcqs/walt-disney-sony-and-time-warner-are-examples-of________________",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "walt disney sony and time warner are examples of",
+            "content": "walt disney sony and time warner are examples of transnational corporations ownership concentrated within one medium multimedia empires",
+            "url": "https://mcqtimes.com/walt-disney-sony-and-time-warner-are-examples-of________________/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "walt disney sony and time warner are examples of",
+            "content": "walt disney sony and time warner are examples of transnational corporations ownership concentrated within one medium multimedia empires",
+            "url": "https://mcqtimes.com/walt-disney-sony-and-time-warner-are-examples-of________________//",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "in the debate about the managerial revolution john scott 1997 argued that",
+            "content": "in the debate about the managerial revolution john scott 1997 argued that owners still exercised control through groups of shareholders and",
+            "url": "https://mcqtimes.com/in-the-debate-about-the-managerial-revolution-john-scott-1997-argued-that/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the mediathemes model of media influence claims that",
+            "content": "the media themes model of media influence claims that a audiences selectively interpret what they want to hear b content analysis is the",
+            "url": "https://www.examveda.com/the-media-themes-model-of-media-influence-claims-that-24628/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "bowlbys maternal deprivation thesis claimed that",
+            "content": "bowlbys maternal deprivation thesis claimed that mothering is a socially constructed activity identified in the narratives of new mothers",
+            "url": "https://mcqtimes.com/bowlbys-maternal-deprivation-thesis-claimed-that_______________/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sociologists like bordo 1993 have attributed the epidemic of anorexia in western cultures to",
+            "content": "sociologists like bordo 1993 have attributed the epidemic of anorexia in western cultures to a generally ascetic frugal lifestyle that can",
+            "url": "https://mcqsforum.com/subject-related/sociology/mcqsbank/113619/Sociologists-like-Bordo-(1993)-have-attributed-the-epidemic-of-anorexia-in-Western-cultures-to_____________?",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sociologists like bordo 1993 have attributed the epidemic of anorexia in western cultures to",
+            "content": "sociologists like bordo 1993 have attributed the epidemic of anorexia in western cultures to a a generally ascetic frugal lifestyle that",
+            "url": "https://pakmcqs.com/sociology-mcqs/which-one-of-the-following-is-not-one-of-the-four-migration-trends-identified-by-castles-and-miller-1993",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "sociologists like bordo 1993 have attributed the epidemic of anorexia in western cultures to",
+            "content": "sociologists like bordo 1993 have attributed the epidemic of anorexia in western cultures to a a generally ascetic frugal lifestyle that",
+            "url": "https://pakmcqs.com/sociology-mcqs/diffusion-of-innovations-among-the-cultures-means______________",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "sociologists like bordo 1993 have attributed the epidemic of anorexia in western cultures to",
+            "content": "sociologists like bordo 1993 have attributed the epidemic of anorexia in western cultures to a generally ascetic frugal lifestyle that can",
+            "url": "https://mcqsforum.com/subject-related/sociology/85",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is not identified by fulcher scott as a criterion of community",
+            "content": "online mcqs practice questions on which of the following is not identified by fulcher and scott as a criterion of community for sociology optional",
+            "url": "https://abhipedia.abhimanu.com/Article/sociology/MTU5NDk5/Which-of-the-following-is-not-identified-by-Fulcher-and-Scott-as-a-criterion-of-community-Sociology-Preliminary",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "whitecollar crime is low in visibility because",
+            "content": "whitecollar crime is low in visibility because a it involves only small amounts of money b the proletariat can outsmart the bourgeoisie",
+            "url": "https://pakmcqs.com/sociology-mcqs/white-collar-crime-is-low-in-visibility-because_____________",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "secularization involves the two related ideas of",
+            "content": "secularization involves the two related ideas of a disappointment and disproportion b disbelief and disintegration c disengagement and",
+            "url": "https://pakmcqs.com/sociology-mcqs/secularization-involves-the-two-related-ideas-of__________________",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "secularization involves the two related ideas of",
+            "content": "secularization involves the two related ideas of disappointment and disproportion disbelief and disintegration disengagement and disenchantment",
+            "url": "https://mcqtimes.com/secularization-involves-the-two-related-ideas-of/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "in contemporary societies social institutions are",
+            "content": "in contemporary societies social institutions are a highly specialized interrelated sets of social practices b disorganized social",
+            "url": "https://www.facebook.com/sociologist123/posts/708500304628999/?comment_id=340565148425403",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "in contemporary societies social institutions are",
+            "content": "in contemporary societies social institutions are a highly specialized interrelated sets of social practices b disorganized social relations",
+            "url": "https://pakmcqs.com/sociology-mcqs/in-contemporary-societies-social-institutions-are_______________-2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "with industrial capitalism leisure emerged as a concept that meant",
+            "content": "solved answer of mcq with industrial capitalism leisure emerged as a concept that meant a distinct periods of nonwork and relaxation b regulated",
+            "url": "https://mcqtimes.com/with-industrial-capitalism-leisure-emerged-as-a-concept-that-meant/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is the most important agent of socialization in early childhood",
+            "content": "the most important agent of socialization in early childhood is the family the family plays a crucial role in shaping a childs beliefs values behaviors",
+            "url": "https://edurev.in/question/1878598/The-most-important-agent-of-socialization-in-early-childhood-isa-The-mass-media-b-A-peer-group-c-The",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "according to scott 1990 a document is authentic if it",
+            "content": "according to scott 1990 a document is authentic if it is a sincere and accurate account free from political bias is representative of all the similar",
+            "url": "https://mcqtimes.com/according-to-scott-1990-a-document-is-authentic-if-it/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "according to scott 1990 a document is authentic if it",
+            "content": "according to scott 1990 a document is authentic if it a is a sincere and accurate account free from political bias b is representative",
+            "url": "https://pakmcqs.com/sociology-mcqs/according-to-scott-1990-a-document-is-authentic-if-it________________",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "leroy visits his parents who live in a primarily african american workingclass neighborhood during his visit he notices that the community is changing several developments have been built to accommodate singlefamily homes and upscale shopping centers have been added while leroy appreciates these changes he is worried that his parents will not be able to afford to continue living in their neighborhood because property values are rising which of the following best explains what is happening to leroys old neighborhood",
+            "content": "leroy visits his parents who live in a primarily african american workingclass neighborhood during his visit he notices that the community is changing",
+            "url": "https://praxis.ets.org/on/demandware.static/-/Library-Sites-ets-praxisLibrary/default/pdfs/5952.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "when sociologists study the structure of layers in society and peoples movement between them they call this",
+            "content": "when sociologists study the structure of layers in society and peoples movement between them they call this a social stratification b social",
+            "url": "https://pakmcqs.com/sociology-mcqs/when-sociologists-study-the-structure-of-layers-in-society-and-peoples-movement-between-them-they-call-this____________",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following best describes the practice of placing the blame for the problems of a society on one particular group",
+            "content": "which of the following best describes the practice of placing the blame for the problems of a society on one particular group",
+            "url": "https://www.transtutors.com/questions/which-of-the-following-best-describes-the-practice-of-placing-the-blame-for-the-prob-4557584.htm",
+            "engine": "google"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 5,
+            "query": "seven people standing silently while waiting for a bus at a bus stop is an example of which of the following",
+            "content": "our qualifications are based on research into effective teaching and learning they motivate people of all ages and abilities to learn english and develop",
+            "url": "https://www.cambridgeenglish.org/Images/168194-c2-proficiency-teachers-handbook.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "postfordist forms of media production and consumption involve",
+            "content": "smallbatch production economies of scope specialized products and jobs new information technologies emphasis on types of consumers in contrast to the",
+            "url": "https://en.wikipedia.org/wiki/Post-Fordism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the case of the former soviet union supports kerr et als 1960 claim that",
+            "content": "totalitarian regimes are incompatible with the requirements of advanced industrial technology democratic governments serve the interests of a ruling elite",
+            "url": "https://mcqsforum.com/subject-related/sociology/mcqsbank/113467/The-case-of-the-former-Soviet-Union-supports-Kerr-et-al,s-(1960)-claims-that___________?",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "scientific theories in the nineteenth century tried to explain race in naturalistic terms which of the following ideas was not considered",
+            "content": "abstract in the nineteenth century the polish reflection on race and derivative terms was strongly influenced by the western thought",
+            "url": "https://ejournals.eu/pliki_artykulu_czasopisma/pelny_tekst/018e9e52-a814-7172-a1f6-6925bcf759be/pobierz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following did thatchers government not strive to achieve",
+            "content": "at the time thatcher claimed it was necessary to tackle the culture of dependency by government intervention to stop socialised welfare in 1988 she caused",
+            "url": "https://en.wikipedia.org/wiki/Thatcherism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the four ideal types of social action that weber identified were as follows instrumentallyrational valuerational traditional and",
+            "content": "which are as follow goal rational social action value rational social action affective social action and traditional social action before moving on to the",
+            "url": "http://www.govtgirlsekbalpur.com/Study_Materials/Sociology/Sociology_Sem-V_CC-11_Social_Action_and_Ideal_Types.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the term intergenerational mobility refers to",
+            "content": "intergenerational mobility happens when the social position changes from one generation to another the change can be upward or downward for example a father",
+            "url": "https://corporatefinanceinstitute.com/resources/economics/social-mobility/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following sociological perspectives views society as a system of interdependent and coordinated parts",
+            "content": "in structural functionalism social change is regarded as an adaptive response to some tension within the social system when some part of an",
+            "url": "https://www.britannica.com/topic/structural-functionalism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the class polarization that marx predicted referred to",
+            "content": "many marxists attempt to show that the middle class is declining and polarization of society into two classes is a strong tendency within",
+            "url": "https://uregina.ca/~gingrich/o402.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the mafia is an example of",
+            "content": "mafia as an informal or general term is often used to describe criminal organizations that bear a strong similarity to the original mafia in sicily",
+            "url": "https://en.wikipedia.org/wiki/Mafia",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "environmentalist social movements are global in the sense that",
+            "content": "it has been argued that by following the path of global solutions the environmental movement lost its vitality and strength uprooted out of the concrete",
+            "url": "https://ciaotest.cc.columbia.edu/conf/wim01/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a researcher mailed 1000 questionnaires to members of a labor union and received 300 back most of those who returned the questionnaires indicated that they were dissatisfied with the union results based only on the returned questionnaires are most likely contaminated by",
+            "content": "finding ways to increase response to postal and electronic questionnaires would improve the quality of epidemiological research",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10687884/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the print revolution of the nineteenth century resulted in",
+            "content": "the production of pictures like the population and most goods and services increased exponentially in the wake of the industrial revolution",
+            "url": "https://www.metmuseum.org/essays/the-print-in-the-nineteenth-century",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is not a regular national survey carried out by the british government",
+            "content": "national surveys refer to largescale studies conducted to gather information on the health habits and behaviors of the general population within a country",
+            "url": "https://www.sciencedirect.com/topics/social-sciences/national-surveys",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "one of the ethical problems with covert participant observation is",
+            "content": "ethical problems covert research does not allow for the participants to give informed consent because it involves deception",
+            "url": "https://revisesociology.com/2017/07/08/covert-participant-observation-examples-strengths-limitations/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "masssociety theory suggests that",
+            "content": "the main idea of mass society theory is that society comprises individual groups that have become isolated or alienated additionally this theory believes",
+            "url": "https://study.com/academy/lesson/mass-society-theory-definition-examples-quiz.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "margaret mead suggested that",
+            "content": "mead believed childhood adolescence gender and sex relations were largely driven by cultural practices and expressions meads findings suggested that",
+            "url": "https://en.wikipedia.org/wiki/Margaret_Mead",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "rolelearning theory suggests that",
+            "content": "the theory suggests that learning occurs because people observe the consequences of other peoples behaviors banduras theory moves beyond",
+            "url": "https://www.verywellmind.com/social-learning-theory-2795074",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "telework is a form of employment that involves",
+            "content": "the basic difference between telework and remote work is that a teleworker uses personal electronic devices in addition to working physically remotely",
+            "url": "https://oxfordre.com/psychology/display/10.1093/acrefore/9780190236557.001.0001/acrefore-9780190236557-e-850?d=%2F10.1093%2Facrefore%2F9780190236557.001.0001%2Facrefore-9780190236557-e-850&p=emailAMJ4DAJp8mV2.",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "goldthorpe identified the service class as",
+            "content": "the main classes identified by the goldthorpe schema are the petty bourgeoisie small employers and selfemployed the service class or salariat",
+            "url": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/goldthorpe",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the third age of the life course is said to involve",
+            "content": "heralded as the emergence of a new period in the lifecourse standing between a second age of work and a fourth age of decline and dependency laslett saw the",
+            "url": "https://bristoluniversitypressdigital.com/downloadpdf/book/9781847423627/ch002.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the 1990 reform of the national health service hospitals became",
+            "content": "this interactive timeline brings 70 years of reform and change in the national health service to life charting the evolution of this public institution",
+            "url": "https://www.nuffieldtrust.org.uk/features/nhs-reform-timeline",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the term feminist standpoint suggests",
+            "content": "feminist standpoint theories place relations between political and social power and knowledge centerstage these theories are both descriptive and normative",
+            "url": "https://iep.utm.edu/fem-stan/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following industries did blauner 1964 suggest was most alienating to its employees",
+            "content": "actually blauners major emphasis was on the impact of technology on the nature of work and the extent of alienation see blauner 19648 alienation the",
+            "url": "https://www.jstor.org/stable/2945928",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the embourgeoisement thesis suggests that",
+            "content": "the result of this idea of embourgeoisement is that more people are incorporated into the middleclass as a result there is decreased class consciousness and",
+            "url": "https://en.wikipedia.org/wiki/Embourgeoisement",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "an ecclesia is",
+            "content": "the ecclesia or ekklesia greek ἐκκλησία was the assembly of the citizens in citystates of ancient greece constitution of the athenians 4th century bc",
+            "url": "https://en.wikipedia.org/wiki/Ecclesia_(ancient_Greece)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the term culture industry used by members of the frankfurt school referred to",
+            "content": "the term culture industry german kulturindustrie was coined by the critical theorists theodor adorno 19031969 and max horkheimer 18951973",
+            "url": "https://en.wikipedia.org/wiki/Culture_industry",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "law and order was privatized in the 1980s and 1990s through",
+            "content": "in modern politics law and order is an ideological approach focusing on harsher enforcement and penalties as ways to reduce crime",
+            "url": "https://en.wikipedia.org/wiki/Law_and_order_(politics)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "frank 1967 made the claim that underdeveloped societies were",
+            "content": "he claimed that there was an assumption that underdeveloped countries were simply behind the developed world and needed to catch up he said that this",
+            "url": "https://ncca.ie/media/2831/andre-gunder-frank.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "industrial production in the nineteenth century was characterized by",
+            "content": "industrial revolution in modern history the process of change from an agrarian and handicraft economy to one dominated by industry and machine manufacturing",
+            "url": "https://www.britannica.com/event/Industrial-Revolution",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "chodorow 1978 argued that gender socialization occurred through",
+            "content": "a both boys and girls being closely attached to their mothers but then boys breaking away b girls being attached to their mothers but then breaking away",
+            "url": "https://pakmcqs.com/sociology-mcqs/chodorow-1978-argued-that-gender-socialization-occurred-through____________",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "ethnographic research produces qualitative data because",
+            "content": "ethnographic research can uncover the qualities of a groups culture or experience in a way that other qualitative research methods cannot",
+            "url": "https://delvetool.com/blog/ethnography",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the decentralized city can be identified by",
+            "content": "theorists believe that local representative authorities with actual discretionary powers are the basis of decentralization that can lead to local efficiency",
+            "url": "https://en.wikipedia.org/wiki/Decentralization",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "women have been excluded from the public sphere because",
+            "content": "by w żybura the concept of political liberalism contains a contradiction between the ideal of individual freedom and the equality in the public sphere and the hidden",
+            "url": "https://ejournals.eu/pliki_artykulu_czasopisma/pelny_tekst/5afed8d5-5fae-4849-ad1d-1c198204f1b8/pobierz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the middle classes that developed over the nineteenth century were",
+            "content": "the victorian middleclass is largely associated with the growth of cities and the expansion of the economy the term was used from around the",
+            "url": "https://www.bbc.co.uk/history/british/victorians/middle_classes_01.shtml",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "according to hakim 1995 1996 the majority of parttime work is done by women because",
+            "content": "the great majority of women who transfer to parttime work after they have children are adaptive women who seek to devote as much time and effort to their",
+            "url": "http://www.catherinehakim.org/wp-content/uploads/2023/02/BJGC-2006-article.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "dahrendorf rex and habermas focused their attention on",
+            "content": "after a brief focus on marxism in the late 1960s the new topic of the 1970s was the discussion between luhman and habermas concerning “sociology as a social",
+            "url": "https://pubs.ufs.ac.za/index.php/tcw/article/download/119/116/231",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "bernstein thought that using restricted codes of language disadvantaged pupils at school because",
+            "content": "bernstein believed that students from workingclass backgrounds performed poorly in languagebased subjects due to their use of restricted code students who",
+            "url": "https://www.studysmarter.co.uk/explanations/english/language-and-social-groups/bernstein-elaborated-and-restricted-code/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the term collective consumption castells 1977 refers to",
+            "content": "a the privatization of public services by the conservative government b the lifestyle practice of shopping in peer groups c the form of tuberculosis",
+            "url": "https://pakmcqs.com/sociology-mcqs/the-term-collective-consumption-castells-1977-refers-to____________",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sullivans 2000 study suggested that the proportion of housework men did was greatest when",
+            "content": "by o sullivan mens absolute and proportionate contributions to household tasks increased substantially over the past three decades substantially lessening the burden on",
+            "url": "https://sites.utexas.edu/contemporaryfamilies/2008/04/25/mens-changing-contribution-to-housework-and-childcare-brief-report/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the trend of decarceration involves",
+            "content": "decarceration in the united states involves government policies and community campaigns aimed at reducing the number of people held in custody or custodial",
+            "url": "https://en.wikipedia.org/wiki/Decarceration_in_the_United_States",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "marx proclaimed that religion would disappear when",
+            "content": "that by way of theism a peoples need to believe in a deity as a spiritual reflection of the self religion would gradually disappear in the antidühring",
+            "url": "https://en.wikipedia.org/wiki/Marxist%E2%80%93Leninist_atheism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "lombroso claimed that",
+            "content": "lombrosos general theory suggested that criminals are distinguished from noncriminals by multiple physical anomalies he postulated that criminals",
+            "url": "https://en.wikipedia.org/wiki/Cesare_Lombroso",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "economic aid has largely failed to promote modernization in the developing countries because",
+            "content": "a there are no clearly defined projects into which the money can be directed b the united nations has refused to call on rich countries to provide it c",
+            "url": "https://mcqmate.com/discussion/263702/economic-aid-has-largely-failed-to-promote-modernization-in-the-developing-countries-because",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "after slavery was abolished in the usa and british empire policy makers claimed that former slaves migrating to these cities would experience",
+            "content": "the haitian revolution and the slave trade the campaign to end slavery coincided with the uprisings of the french revolution and the retaliation of enslaved",
+            "url": "https://www.rmg.co.uk/stories/topics/how-did-slave-trade-end-britain",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a sect is organised around",
+            "content": "a church organized around voluntary rather than compulsory membership c a sect or cult with a very small following d a hierarchy of priests or other",
+            "url": "https://pakmcqs.com/sociology-mcqs/a-sect-is-organized-around_______________",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a sociologist is conducting research on institutional power relations at a local hospital the sociologist is on staff at the hospital for several weeks recording data as field notes this method of research is called",
+            "content": "although claims and opinions are part of sociology sociologists use empirical evidence that is evidence corroborated by direct experience andor observation",
+            "url": "https://opentextbc.ca/introductiontosociology/chapter/chapter2-sociological-research/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "traditional working class identity was based around",
+            "content": "by a maguire a common construction of the twc is that it resides in exindustrial and mining towns in the northmidlands and south wales is largely comprised of white",
+            "url": "https://www.historicalmaterialism.org/what-is-the-traditional-working-class/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the deviant subculture of homosexuals who met in seventeenth and eighteenth century london was called the",
+            "content": "« from bugger to homosexual the english sodomite as criminally deviant 15331967 » revue française de civilisation britannique crecib",
+            "url": "https://cle.ens-lyon.fr/anglais/civilisation/domaine-britannique/the-perception-of-male-homosexuality-in-great-britain-from-the-19th-century-to-the-present",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the new man of the 1980s was alleged to be",
+            "content": "the new man was once a radical way to describe a male who wholeheartedly accepted equality in domestic life but 30 years on what has happened to the term",
+            "url": "https://www.bbc.com/news/magazine-25943326",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "marx said that the development of the labour movement through factorybased production would turn the working class into",
+            "content": "by working the latter becomes actually what before he only was potentially labourpower in action a labourer in order that his labour may reappear in a",
+            "url": "https://www.marxists.org/archive/marx/works/1867-c1/ch07.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "which of the following is not a feature of globalization",
+            "content": "the correct answer is option 4 global infrastructure of formal and informal institutional arrangements is a characteristic of globalization",
+            "url": "https://examrobot.com/content/which-following-not-characteristic-globalization",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "warner and myrdal claimed that black former slaves were not joining the ethnic melting pot of the north american cities because",
+            "content": "american slave experience into the distant african past a history to be did not favor the negro the peculiar conditions of american slavery so",
+            "url": "https://repozytorium.uwb.edu.pl/jspui/bitstream/11320/12961/1/Z_Glebocki_Enter_the_New_Negro.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "how is terrorism different from the types of crime described by the chicago school",
+            "content": "in such cases terrorists might not even claim credit as schmid wrote in the handbook of terrorism research 2011 terror is first of all a state of mind",
+            "url": "https://icct.nl/sites/default/files/2023-03/Schmidt%20-%20Defining%20Terrorism_1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "technological forms of surveillance have made it easier to",
+            "content": "in this learning package we will explore how different forms of surveillance technologies are used and what impacts they have on civic space",
+            "url": "https://learningcenter.ecnl.org/learning-package/surveillance-technology",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "what is the name of the process by which we acquire a sense of identity and become members of society",
+            "content": "in sociology socialization is the process of internalizing the norms and ideologies of society socialization encompasses both learning and teaching and is",
+            "url": "https://en.wikipedia.org/wiki/Socialization",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "according to davis 1995 women may seek cosmetic surgery because",
+            "content": "a they have a deeprooted sense of ineffectiveness and are striving for control b they are in pursuit of the perfect body fueled by images of beauty",
+            "url": "https://pakmcqs.com/sociology-mcqs/according-to-davis-1995-women-may-seek-cosmetic-surgery-because_____________",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "millions of immigrant children who entered the united states learned english and the duties of citizenship while attending public schools in the communities in which they settled this is an example of which of the following sociological concepts",
+            "content": "in 2021 the american community survey counted 649000 children ages 5 to 17 who had been in the united states for three years or less and",
+            "url": "https://www.migrationpolicy.org/sites/default/files/publications/mpi-recent-immigrant-children-2023_final.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "robert and tanya are married and live with their three children their family unit is called",
+            "content": "a nuclear family is a term for a family group consisting of parents and their children one or more typically living in one home residence",
+            "url": "https://en.wikipedia.org/wiki/Nuclear_family",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "émile durkheim believed the primary focus of sociology should be which of the following",
+            "content": "much of durkheims work was concerned with how societies can maintain their integrity and coherence in modernity an era in which traditional social and",
+            "url": "https://en.wikipedia.org/wiki/%C3%89mile_Durkheim",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "warners study of the city of natchez in the american deep south showed that the colour line there was",
+            "content": "deep south 1941 is an ethnography of racial caste and class in natchez mississippi in the 1930s this classic of functionalist social anthropology is",
+            "url": "https://www.jstor.org/stable/23011316",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "someone who gains a higher or lower social position than he or she was born into has experienced",
+            "content": "social status is the relative level of social value a person is considered to possess such social value includes respect honor assumed competence",
+            "url": "https://en.wikipedia.org/wiki/Social_status",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when berger luckmann said that reality is socially constructed they meant",
+            "content": "home nowości zestawy esencje zapachowe 500ml 1l lampy katalityczne patyczki świece zapachy do auta akcesoria lampy limitowane",
+            "url": "https://maisonbergerparis.com.pl/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the human relations approach emphasized the importance of",
+            "content": "the human relations management theory is a researched belief that people desire to be part of a supportive team that facilitates development and growth",
+            "url": "https://www.business.com/articles/human-relations-management-theory-basics/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "giselle graduated from college with high honors in management she was recruited immediately following college by a large corporation and accepted a position in junior management she quickly advanced to middle management ten years later giselle was still in a middlemanagement position and had witnessed junior male colleagues promoted over her which of the following is a phenomenon that is most likely to explain giselles lack of promotion",
+            "content": "i use my skills in coaching leadership and team building to mentor and support other scholars organize events and workshops and foster a sense of community",
+            "url": "https://www.linkedin.com/in/giselle-esparza",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "pretesting a questionnaire is useful for",
+            "content": "pretesting allows the responsible auditor to test solutions to problems with the questionnaire for example if considering different wordings for a question",
+            "url": "https://www.oag-bvg.gc.ca/internet/English/meth_gde_e_19734.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "srebernymohammadi 1996 argues that national cultures can resist american cultural domination of the media by",
+            "content": "still the concept of cultural imperialism was rooted in the notion that some national cultures will dominate others in a system of international exchange",
+            "url": "https://www.globalmediajournal.com/open-access/from-cultural-imperialism-to-transnational-commercialization-shifting-paradigms-in-international-media-studies.php?aid=35062",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the capitalist world economy is what wallerstein 1974 would call a world system this term refers to",
+            "content": "the worldsystem refers to the interregional and transnational division of labor which divides the world into core countries semiperiphery countries and",
+            "url": "https://en.wikipedia.org/wiki/World-systems_theory",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in durkheims work the term collective representations refers to",
+            "content": "a collective representation is an image or symbol that represents an idea value or ideology it also describes concepts that are shared by a social group",
+            "url": "https://study.com/academy/lesson/collective-representation-definition-examples.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "in the 1960s comprehensive schools did not eradicate class inequalities in education because",
+            "content": "they have been demolished though because of one fallacious objection that they segregate pupils at an early age thanks to the 11plus",
+            "url": "https://www.theguardian.com/commentisfree/2013/jan/04/comprehensive-schools-failed-working-class",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "allens 2001 study of nurses showed that",
+            "content": "my study showed that nurses draw on their relational knowledge of the social structures of healthcare systems and take the perspective of others to modify",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0020748917302420",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a survey should avoid asking",
+            "content": "leading and loaded questions are two of the most common sources of question bias learn about both question biases and get tips for avoiding",
+            "url": "https://www.surveymonkey.com/curiosity/how-to-avoid-asking-leading-and-loaded-questions/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following groups or organizations can be identified as having the characteristics of a bureaucracy",
+            "content": "in its ideal form bureaucracy is impersonal and rational and based on rules rather than ties of kinship friendship or patrimonial or charismatic authority",
+            "url": "https://www.britannica.com/topic/bureaucracy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following did domhoff not identify as a process of decisionmaking in the usa",
+            "content": "domination by the few does not mean complete control but rather the ability to set the terms under which other groups and classes must operate highly trained",
+            "url": "https://whorulesamerica.ucsc.edu/power/class_domination.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the ecological approach to urban sociology involved studying",
+            "content": "urban ecology is the study of community structure and organization as manifest in cities and other relatively dense human settlements",
+            "url": "https://sociology.iresearchnet.com/urban-sociology/urban-ecology/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "weber 1919 said that the states monopoly of the use of force was legitimated by",
+            "content": "undermining the state monopoly of force weber defines the state as “that human community which successfully lays claim to the monopoly of legitimate physical",
+            "url": "http://www.wulf-herbert.de/ACPACS-occ-paper9.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "class segregation was apparent in midtwentieth century britain insofar as",
+            "content": "the social structure of the united kingdom has historically been highly influenced by the concept of social class which continues to affect british society",
+            "url": "https://en.wikipedia.org/wiki/Social_class_in_the_United_Kingdom",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in symbolic interactionist theory mead defined the generalized other as",
+            "content": "the generalized other is a concept introduced by george herbert mead into the social sciences and used especially in the field of symbolic interactionism",
+            "url": "https://en.wikipedia.org/wiki/Generalized_other",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the context of the labour movement in the nineteenth century incorporation meant",
+            "content": "the labor movement led efforts to stop child labor give health benefits and provide aid to workers who were injured or retired",
+            "url": "https://www.history.com/topics/19th-century/labor",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following is not a characteristic of totalitarian societies",
+            "content": "it does not permit individual freedom traditional social institutions and organizations are discouraged and suppressed making people more",
+            "url": "https://www.britannica.com/topic/totalitarianism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "in idealized views of science the experimental method is said to involve",
+            "content": "1 neoduhemian paradigm idealization is basically a method of transforming raw empirical data into scientific facts a scientific fact is",
+            "url": "https://brill.com/display/book/9789004457249/B9789004457249_s002.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "socialization is",
+            "content": "in sociology socialization is the process of internalizing the norms and ideologies of society socialization encompasses both learning and teaching and is",
+            "url": "https://en.wikipedia.org/wiki/Socialization",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the theory of development which suggests that societies move from traditional to modern industrial forms of organization is called",
+            "content": "modernization theory or modernisation theory holds that as societies become more economically modernized wealthier and more educated their political",
+            "url": "https://en.wikipedia.org/wiki/Modernization_theory",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "pilcher 1999 identified soap operas as a feminine genre of media because",
+            "content": "while the soap opera audience contains men as well as women the genre soap opera carries heavily feminine connotations in contemporary",
+            "url": "https://www.colorado.edu/gendersarchive1998-2013/1998/07/25/feminine-intensities-soap-opera-viewing-technology-gender",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sutherlands study of the professional thief suggested that",
+            "content": "by rh vasoli in general it was stated that they found the book dated and were unwilling to concede that conwells idea of the thief still personified the profession a",
+            "url": "https://ojp.gov/ncjrs/virtual-library/abstracts/sutherlands-professional-thief",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the term secondary deviation refers to",
+            "content": "secondary deviance is the process of a deviant identity integrating it into conceptions of self potentially affecting the individual long term",
+            "url": "https://en.wikipedia.org/wiki/Secondary_deviance",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the social construction of childhood can be traced back to",
+            "content": "the argument of childhood as a social construct suggests that the concept of childhood is created by society and not determined by biological age",
+            "url": "https://www.studysmarter.co.uk/explanations/social-studies/families-and-households/childhood-as-a-social-construct/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "according to foucault carceral organizations",
+            "content": "in particular foucault explores the transition from what he terms a culture of spectacle to a carceral culture whereas in the former punishment was",
+            "url": "https://www.purdue.edu/guidetotheory/newhistoricism/modules/foucaultcarceral.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "freuds notion of the ego referred to",
+            "content": "caught between the superegos shoulds the ids wants and realitys musts the poor ego is the great balancer of many masters",
+            "url": "https://www.thelivingphilosophy.com/p/ego-id-superego",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "an open society is one that",
+            "content": "definition karl popper defined the open society as one in which an individual is confronted with personal decisions as opposed to a magical or tribal or",
+            "url": "https://en.wikipedia.org/wiki/Open_society",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the term assets refers to",
+            "content": "an asset is a resource with economic value that an individual or company owns or controls with the expectation that it will provide a future benefit",
+            "url": "https://www.investopedia.com/terms/a/asset.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "in modern societies social status is typically measured by a persons",
+            "content": "ascribed status is typically based on sex age race family relationships or birth while achieved status may be based on education",
+            "url": "https://www.britannica.com/topic/social-status",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of these was not one of townsends 1979 indicators of relative deprivation",
+            "content": "the relative deprivation approach to poverty examines the indicators of deprivation which are then related back to income levels and resources",
+            "url": "https://www.poverty.ac.uk/definitions-poverty/deprivation-and-poverty",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "becker proclaimed that cannabis use was",
+            "content": "hs becker cytowane przez 2304 an individual will be able to use marihuana for pleasure only when he 1 learns to smoke it in a way that will produce real effects 2 learns to recognize 9 stron",
+            "url": "https://www.sfu.ca/~palys/Becker-1953-BecomingAMarihuanaUser.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "judith butler 1999 suggested that",
+            "content": "butler says that it means that nobody is a gender prior to doing gendered acts butler 1999 23 states that “identity is assured through the stabilizing",
+            "url": "https://studenttheses.uu.nl/bitstream/handle/20.500.12932/30880/JTTON_BScThesis_Judith_Butler_Gender_Performativity_FINAL.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "mulholland 1998 argued that privatization changed the relationship between companies and managers in that",
+            "content": "topics covered include the revival of interest in regionalism privatization and contracting out the use of management techniques citizenlocal government",
+            "url": "https://www.jstor.org/stable/40861770",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which of the following is not recognised as a level of society",
+            "content": "a society is a group of individuals involved in persistent social interaction or a large social group sharing the same spatial or social territory",
+            "url": "https://en.wikipedia.org/wiki/Society",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following theories focuses on how society manages to carry out the activities necessary to maintain order and stability",
+            "content": "durkheims theory of functionalism is vital because it is the basis of structural functionalism theory one of the three major sociological theories",
+            "url": "https://study.com/learn/lesson/emile-durkheim-theory-functionalism.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the nation of islam group appealed to",
+            "content": "farrakhan toned down his racial rhetoric and moved the group toward orthodox islam after a bout with prostate cancer in 2000 an estimated 10000 to 50000",
+            "url": "https://www.britannica.com/topic/Nation-of-Islam",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the work of smart suggested that",
+            "content": "smart or smart is an acronym used as a mnemonic device to establish criteria for effective goalsetting and objective development",
+            "url": "https://en.wikipedia.org/wiki/SMART_criteria",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "sociology differs from common sense in that",
+            "content": "sociology is a social science all these disciplines use research to try to understand various aspects of human thought and behavior",
+            "url": "https://pressbooks.howardcc.edu/soci101/chapter/2-1-sociology-as-a-social-science/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "children who are still sucking their thumbs when they enter kindergarten are often subject to teasing and ridicule for this behavior what type of social sanction is applied in this instance",
+            "content": "older kids who constantly suck their thumb might be feeling a lot of stress or anxiety if kids are the subject of teasing at school or have trouble talking",
+            "url": "https://kidshealth.org/en/parents/five-habits.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following policies did the new labour government not pursue",
+            "content": "parts of new labours political philosophy linked crime with social exclusion and pursued policies to encourage partnerships between social and police",
+            "url": "https://en.wikipedia.org/wiki/New_Labour",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "patterns of drug use in britain reveal that",
+            "content": "the sectors with the highest rates of positive results were police forensics 78 medicolegal 62 and clinical 54 the common drugs in",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17614228/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "scott 1991 introduced the term power elite to describe",
+            "content": "the idea that societies can be seen in terms of dominant and competing elites was central to the research agendas of political and economic",
+            "url": "https://journals.sagepub.com/doi/full/10.1111/j.1467-954X.2008.00760.x",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "ethnic identity refers to",
+            "content": "ethnic identity is a personal selfcategorizing concept in which an individual identifies with an ethnic group and its cultural identity beliefs values",
+            "url": "https://study.com/learn/lesson/ethnic-identity-development-and-examples.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is a personal document with closed access",
+            "content": "a personal document checklist is a list of forms and documents you need to complete and send in with an application when you apply through your ircc secure",
+            "url": "https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=829&top=29",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "if a deviant act is normalized it is",
+            "content": "normalization of deviance according to american sociologist diane vaughan is the process in which deviance from correct or proper behavior or rule becomes",
+            "url": "https://en.wikipedia.org/wiki/Normalization_of_deviance",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "comtes term positivism refers to",
+            "content": "positivism in western philosophy generally any system that confines itself to the data of experience and excludes a priori or metaphysical speculations",
+            "url": "https://www.britannica.com/topic/positivism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the correspondence principle bowles gintis suggests that",
+            "content": "bowles and gintis a pair of marxist sociologists identified a correspondence between school and the workplace",
+            "url": "https://www.tutor2u.net/sociology/topics/correspondence-principle",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "worldaffirming religions",
+            "content": "world affirming new religious movements aim to help individuals achieve success within mainstream society by unleashing their spiritual potential",
+            "url": "https://revisesociology.com/2018/09/22/world-affirming-new-religious-movements/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the concept of political culture refers to the",
+            "content": "american political scientist lucian pye defined political culture as the composite of basic values feelings and knowledge that underlie the political process",
+            "url": "https://www.britannica.com/topic/political-culture",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "stones research suggests that prior to industrialization the nuclear family",
+            "content": "nuclear family no longer dominated by the male headofhousehold trumbach like stone argues that the change to more egalitarian family relationships was",
+            "url": "https://www.jstor.org/stable/3173369",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "murray thought that the underclass consisted of people who",
+            "content": "by hp michels¹ he believed that social inequality was determined by socioeconomic and structural differences he defined underclass as a class of",
+            "url": "https://sciendo.com/pdf/10.2478/scr-2013-0004",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is consistent with results of current research conducted in the area of gender roles and the workplace",
+            "content": "different gender roles are associated with women and men and a different value is given to each evidence shows that the same piece of work is assessed as",
+            "url": "https://eige.europa.eu/gender-mainstreaming/toolkits/gear/gender-equality-recruitment-and-career-progression?language_content_entity=en",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "marriage appears to be in decline because",
+            "content": "they feel like a major reason why dating and marriage rates are dropping is because were losing traditional values and they say its making the dating scene",
+            "url": "https://www.reddit.com/r/AskMen/comments/1eetwgd/what_do_you_think_is_causing_marriage_rates_to/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the tripartite system used the 11 exam to select pupils for",
+            "content": "pupils were allocated to their respective types of school according to their performance in the 11plus or the 13plus examination",
+            "url": "https://en.wikipedia.org/wiki/Tripartite_System_of_education_in_England,_Wales_and_Northern_Ireland",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "theories of racialized discourse suggest that",
+            "content": "racial formation theory is an analytical tool in sociology developed by michael omi and howard winant which is used to look at race as a socially",
+            "url": "https://en.wikipedia.org/wiki/Racial_formation_theory",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "one of the difficulties in operationalizing concepts like social class is that",
+            "content": "operational definitions of concepts can sometimes be problematic underdetermination many concepts vary across different time periods and",
+            "url": "https://www.scribbr.com/dissertation/operationalization/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the extension pattern that parker 1976 identified was said to be",
+            "content": "firstly there is a group of people who continue their working life into their leisure hours the extension pattern parker describes such people as stretched",
+            "url": "https://us.sagepub.com/sites/default/files/upm-binaries/27271_03_Best_Ch_02.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "walt disney sony and time warner are examples of",
+            "content": "the big 6 media companies 1 comcast 2 walt disney 3 warner bros discovery 4 paramount global 5 sony 6 amazon",
+            "url": "https://www.fool.com/investing/stock-market/market-sectors/communication/media-stocks/big-6/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "statistics about rural suburban and urban patterns of development and mobility are almost always reported based on a geographical area labeled as metropolitan statistical areas msa what constitutes an msa",
+            "content": "an msa is a city of at least 50000 persons with the surrounding county or counties or an urbanized area of at least 50000 with a total metropolitan",
+            "url": "https://www.sciencedirect.com/topics/social-sciences/metropolitan-population",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "religious organizations such as the church of norway islam the church of england and the church of greece have which of the following characteristics in common",
+            "content": "a state religion also called official religion is a religion or creed officially endorsed by a sovereign state",
+            "url": "https://en.wikipedia.org/wiki/State_religion",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in marxs theory the mode of production means",
+            "content": "in the marxist theory of historical materialism a mode of production is a specific combination of the productive forces these include human labour power",
+            "url": "https://en.wikipedia.org/wiki/Mode_of_production",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the market model of state welfare is based on the principle of",
+            "content": "a welfare state is a form of government in which the state protects and promotes the economic and social wellbeing of its citizens based upon the",
+            "url": "https://en.wikipedia.org/wiki/Welfare_state",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "durkheim defined social facts as",
+            "content": "a social fact as defined in rules is “a category of facts which present very special characteristics they consist of manners of acting thinking and feeling",
+            "url": "https://iep.utm.edu/emile-durkheim/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "in the debate about the managerial revolution john scott 1997 argued that",
+            "content": "the idea that societies can be seen in terms of dominant and competing elites was central to the research agendas of political and economic",
+            "url": "https://journals.sagepub.com/doi/full/10.1111/j.1467-954X.2008.00760.x",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the term sociology was coined in the early 1800s by which of the following",
+            "content": "the term sociology was first coined in 1780 by the french essayist emmanueljoseph sieyès 17481836 in an unpublished manuscript fauré et al",
+            "url": "https://openstax.org/books/introduction-sociology-3e/pages/1-2-the-history-of-sociology",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "social norms are",
+            "content": "a social norm is a shared standard of acceptable behavior by a group social norms can both be informal understandings that govern the behavior of members",
+            "url": "https://en.wikipedia.org/wiki/Social_norm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "weber defined a class situation as",
+            "content": "weber describes class as “a group of people with similar interests on a market” and gave examples like the police and people who rent apartments as classes",
+            "url": "https://www.reddit.com/r/sociology/comments/13wqsgx/what_does_max_weber_actually_mean_by_class_and/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "equilibrium theories of social change emphasize",
+            "content": "equilibrium theory whereas the equilibrium theories highlight the stabilizing processes at work in social systems socalled conflict theories highlight",
+            "url": "https://utkaluniversity.ac.in/wp-content/uploads/2022/08/Theories-of-Social-Change.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "there was a growth in income inequality in the 1980s because",
+            "content": "since 1980 incomes have increased faster for the most affluent families those in the top 5 than for families in the income strata below",
+            "url": "https://www.pewresearch.org/social-trends/2020/01/09/trends-in-income-and-wealth-inequality/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the shift from custodial to joint parenthood after divorce means that",
+            "content": "a fathers are more likely to be absent from their childrens lives b one parent has total responsibility for the childs welfare and socialization",
+            "url": "https://pakmcqs.com/sociology-mcqs/the-shift-from-custodial-to-joint-parenthood-after-divorce-means-that-__________",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "queer theory makes the claim that",
+            "content": "queer theory states that the reason the majority of people are straight and cisgender is because theyve been duped by other people who were also duped",
+            "url": "https://www.reddit.com/r/CriticalTheory/comments/uy8q70/does_queer_theory_make_the_claim_that_i_am_only/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the term feminization of poverty refers to",
+            "content": "feminization of poverty refers to a trend of increasing inequality in living standards between men and women due to the widening gender gap in poverty",
+            "url": "https://en.wikipedia.org/wiki/Feminization_of_poverty",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the mediathemes model of media influence claims that",
+            "content": "media influence theories explore how content and technologies shape our attitudes beliefs and behaviors from agendasetting to cultivation theory",
+            "url": "https://library.fiveable.me/understanding-media/unit-7",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "marxist feminists explain patriarchy in terms of",
+            "content": "marxist feminism contents theoretical background in marxism productive unproductive and reproductive labor intersectionality and marxist feminism",
+            "url": "https://en.wikipedia.org/wiki/Marxist_feminism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a major car accident occurs one man stops his car and starts helping people after seeing him stop others also stop and start helping which of the following theories best explains the scenario",
+            "content": "unfortunately couple nights ago my 2023 tesla model y lr was tboned while driving through an empty intersection a guy ran a red light and",
+            "url": "https://www.reddit.com/r/TeslaModelY/comments/19191ah/after_this_accident_i_wouldnt_get_any_other_car/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the nuclear family means",
+            "content": "a nuclear family is a term for a family group consisting of parents and their children one or more typically living in one home residence",
+            "url": "https://en.wikipedia.org/wiki/Nuclear_family",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the introduction of market principles to educational policy in the 1980s resulted in",
+            "content": "the 1988 education reform act was based on the principles of making schools more competitive marketisation and giving parents choice parentocracy",
+            "url": "https://revisesociology.com/2017/10/24/the-1988-education-reform-act-class-notes/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following best describes the definition of poverty used by the united states government",
+            "content": "the official poverty definition uses money income before taxes and does not include capital gains or noncash benefits such as public housing",
+            "url": "https://www.census.gov/topics/income-poverty/poverty/guidance/poverty-measures.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "mosca and pareto identified the ruling elite as",
+            "content": "in philosophy political science and sociology elite theory is a theory of the state that seeks to describe and explain power relations in society",
+            "url": "https://en.wikipedia.org/wiki/Elite_theory",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "charles cooleys theory of the lookingglass self emphasizes",
+            "content": "the lookingglass self describes the process wherein individuals base their sense of self on how they believe others view them",
+            "url": "https://lesley.edu/article/perception-is-reality-the-looking-glass-self",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is not identified as a new form of community",
+            "content": "my school is switching over from google classroom to canvas this year and we use getmarked to help us export all our google forms into 177571",
+            "url": "https://community.canvaslms.com/t5/Archived-Questions/ARCHIVED-Google-Form-to-a-Canvas-Quiz/m-p/531877",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "bowlbys maternal deprivation thesis claimed that",
+            "content": "the conclusion bowby reaches in his monograph is that the prolonged deprivation of the young child of maternal care may have grave and far reaching effects",
+            "url": "https://apps.who.int/iris/bitstream/handle/10665/37819/WHO_PHP_14.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following was not defined by giddens 1998 as part of new labours third way",
+            "content": "giddens criticised what he called labours halfway houses including the national health service and environmental and constitutional reform",
+            "url": "https://en.wikipedia.org/wiki/Third_Way",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a new highway extends from a major city though an area used for farmland which of the following is most likely to happen as a result",
+            "content": "road construction and expansion result in loss of wildlife habitat by transforming natural habitats to pavement dirt tracks and cleared roadsides or rightof",
+            "url": "https://www.fhwa.dot.gov/clas/ctip/wildlife_crossing_structures/ch_2.aspx",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the rise of new social movements indicates that",
+            "content": "there are two central claims of the nsm theory first that the rise of the postindustrial economy is responsible for a new wave of social movement and second",
+            "url": "https://en.wikipedia.org/wiki/New_social_movements",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "smith tomlinson argued that",
+            "content": "will smith urodził się 25 września 1968 roku w filadelfii pensylwania usa gdzie spędził swoje dzieciństwo jego matka caroline pracowała w zarządzie",
+            "url": "https://www.filmweb.pl/person/Will+Smith-214",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the absolute poverty line is drawn to show",
+            "content": "an absolute poverty line is one which is fixed in terms of living standards or welfare example cost of a bundle containing “basic commodities” however",
+            "url": "https://thedocs.worldbank.org/en/doc/20f02031de132cc3d76b91b5ed8737d0-0050012017/related/lecture-14-1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the concept of gemeinschaft developed by ferdinand tönnies describes basically the same relational characteristics as",
+            "content": "gemeinschaft refers to small and highly relational communities like agrarian societies these are typically rural communities that are very traditional and",
+            "url": "https://study.com/academy/lesson/gemeinschaft-definition-examples-quiz.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "booths 1901 study revealed that the percentage of people in london who were living in poverty was",
+            "content": "after interviews with the poor doctors teachers and priests he came to the conclusion that 30 of people in london lived in poverty booth claimed that",
+            "url": "https://www.bbc.co.uk/bitesize/guides/z83ggk7/revision/3",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the use of indentured labour in the nineteenth century involved",
+            "content": "by way of a system of indenture many millions of workers emigrated to european colonies in the americas the pacific or the indian ocean",
+            "url": "https://ehne.fr/en/encyclopedia/themes/europe-europeans-and-world/forced-migration-and-work-in-european-colonies/indentured-labour-in-european-colonies-during-19th-century",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "war became possible between nation states in the nineteenth century because",
+            "content": "of the civil war it could indeed be asserted in the nineteenth century that no nation in the true sense of the word could be born without war that no",
+            "url": "https://www.jstor.org/stable/20024637",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "antipsychiatrists like laing esterson believed that",
+            "content": "ronald david laing 7 october 1927 23 august 1989 usually cited as rd laing was a scottish psychiatrist who wrote extensively on mental illness",
+            "url": "https://en.wikipedia.org/wiki/R._D._Laing",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "according to w e b dubois progress for african americans in the aftermath of slavery",
+            "content": "our greatest danger is that in the great leap from slavery to freedom we may overlook the fact that the masses of us are to live by the productions of our hands",
+            "url": "https://www.americanyawp.com/reader/20-the-progressive-era/booker-t-washington-w-e-b-dubois-on-black-progress-1895-1903/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "sociologists like bordo 1993 have attributed the epidemic of anorexia in western cultures to",
+            "content": "by s haworthhoeppner 2005 anorexics are depicted as young primarily white middleclass females who are obsessed with thinness and who fear weight gain gordon 2000 hsu 19901",
+            "url": "https://www.jstor.org/stable/10.1525/si.2005.28.1.1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the postindustrial society identified by bell 1973 involved",
+            "content": "the postindustrial society is the stage of societys development when the service sector generates more wealth than the manufacturing sector of the economy",
+            "url": "https://en.wikipedia.org/wiki/Post-industrial_society",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "eyeballing is a technique that involves",
+            "content": "a reading a textual document quickly to understand the gist of it b gathering a sample from whoever you can see in a public place",
+            "url": "https://pakmcqs.com/sociology-mcqs/eyeballing-is-a-technique-that-involves________________",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "bourdieu attributed the reproduction of class to",
+            "content": "according to sociologist pierre bourdieu there are four types of capital that contribute to social reproduction in society economic capital cultural capital",
+            "url": "https://en.wikipedia.org/wiki/Social_reproduction",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the macpherson report highlighted the increasing problem of",
+            "content": "prompted by stephen lawrences racially motivated death it sparked debate about policing and racism",
+            "url": "https://www.theguardian.com/uk-news/2019/feb/22/macpherson-report-what-was-it-and-what-impact-did-it-have",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in stage 3 of the health transition the main causes of illness and death are",
+            "content": "the third transition in this phase it is theorized that infectious disease pandemics are replaced as major causes of death by degenerative diseases and",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2805833/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "cultural restructuring has involved",
+            "content": "cultural restructuring has involved a regenerating cities in economic decline b turning industrial landscapes into tourist attractions c selling sites and",
+            "url": "https://pakmcqs.com/sociology-mcqs/cultural-restructuring-has-involved",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following is not identified by fulcher scott as a criterion of community",
+            "content": "a a shared sense of identity and belonging together b common activities involving all round relationships c a fixed geographical location",
+            "url": "https://pakmcqs.com/sociology-mcqs/which-of-the-following-is-not-identified-by-fulcher-scott-as-a-criterion-of-community-2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "butler stokes 1969 suggested that working class support for the labour party arose from",
+            "content": "gerard butler ten znany ze swojego charakterystycznego szkockiego akcentu aktor karierę filmową zaczął dosyć późno urodził się 13 listopada 1969 roku w",
+            "url": "https://www.filmweb.pl/person/Gerard+Butler-31702",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in their study of depression brown harris 1978 found that",
+            "content": "by contrast to the findings of brown none of the following factors was associated with the onset of depression in the 12 months prior to interview social",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7100356/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "herbergs 1955 study of religion in america suggested that",
+            "content": "by dj obrien 2005 herbergs goal in 1955 was to explain how america could be at once the most religious and the most secular of nations 3 scholars had long expected that",
+            "url": "https://www.jstor.org/stable/25154944",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "whitecollar crime is low in visibility because",
+            "content": "drivers must be cautious in low visibility conditions as it can be challenging to determine who has the right of way confusing",
+            "url": "https://www.crumbylaw.com/preventing-and-detecting-white-collar-crime-in-the-workplace",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "snowballing is an example of",
+            "content": "a nonprobability sampling technique where existing study subjects recruit future subjects from among their acquaintances",
+            "url": "https://en.wikipedia.org/wiki/Snowball_sampling",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following was not a strategy used by the conservative government of 1979 to reduce the power of the labour movement",
+            "content": "the conservative campaign employed the advertising agency saatchi saatchi and pledged to control inflation as well as curbing the power of the trade unions",
+            "url": "https://en.wikipedia.org/wiki/1979_United_Kingdom_general_election",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "secularization involves the two related ideas of",
+            "content": "secularization british english secularisation is a multilayered concept that generally denotes a transition from a religious to a more worldly level",
+            "url": "https://en.wikipedia.org/wiki/Secularization",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the effect of the internet upon the public sphere has been to",
+            "content": "the theme of the internet and the public sphere now has a permanent place on research agendas and in intellectual inquiry it is entering the mainstream of",
+            "url": "https://www.tandfonline.com/doi/full/10.1080/10584600590933160",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the traditional hierarchy of status and precedence which of these members of the upper class are in the right order from highest to lowest status",
+            "content": "the five titles of the peerage in descending order of precedence or rank are duke marquess earl viscount baron",
+            "url": "https://debretts.com/peerage/the-peerage/ranks-and-privileges-of-the-peerage/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "which of the following was not part of webers ideal type of bureaucracy",
+            "content": "hierarchical approach is not ideal for a business org because of its unnecessary formality professional skills and transfers are given too much importance",
+            "url": "https://www.brainscape.com/flashcards/bureaucratic-theory-max-weber-13930280/packs/21549717",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the great migration of 19161919 meant that chicago became an ethnically diverse city the consequence of this was",
+            "content": "a assimilation all racial boundaries were dissolved by the ethnic melting pot b multiculturalism all ethnic identities were celebrated equally",
+            "url": "https://pakmcqs.com/sociology-mcqs/the-great-migration-of-1916-1919-meant-that-chicago-became-an-ethnically-diverse-city-the-consequence-of-this-was_____________",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "in contemporary societies social institutions are",
+            "content": "a social institution is an interrelated system of social norms and social roles that are organized and provide patterns of behaviors that contribute to meeting",
+            "url": "https://study.com/learn/lesson/social-institutions-functions-examples.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "pluralist theories suggest that",
+            "content": "pluralism is the theory that power shared between many groups produces the best outcomes in society and government",
+            "url": "https://study.com/academy/lesson/pluralist-view-of-interest-groups-on-american-politics.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "marx 1844 claimed that capitalism had alienated workers from",
+            "content": "the first aspect of alienation is alienation from the product of labour in capitalist society that which is produced the objectification of labour is lost",
+            "url": "https://www.yorku.ca/horowitz/courses/lectures/35_marx_alienation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "with industrial capitalism leisure emerged as a concept that meant",
+            "content": "the industrial revolution dramatically transformed the way humans lived their lives to a degree that is hard to exaggerate",
+            "url": "https://apworldipedia.com/index.php/Key_Concept_5.1_Industrialization_and_Global_Capitalism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the nineteenth century homosexuality was understood as",
+            "content": "towards the end of the nineteenth century however we can see the clear emergence of the concept of homosexuality as a separate medical condition although",
+            "url": "https://www.jstor.org/stable/4288046",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the general fertility rate fell between 1964 and 2000 because of",
+            "content": "following the baby boom from 1946 to 1964 birth rates plummeted through the early 1970s then fluctuated little in succeeding decades",
+            "url": "https://www.pewtrusts.org/en/research-and-analysis/issue-briefs/2022/12/the-long-term-decline-in-fertility-and-what-it-means-for-state-budgets",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the terms crisis of the 1970s is used to refer to",
+            "content": "the 1970s energy crisis occurred when the western world particularly the united states canada western europe australia and new zealand faced substantial",
+            "url": "https://en.wikipedia.org/wiki/1970s_energy_crisis",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "postmodernist writers have argued that",
+            "content": "a we live in a world of superficial fragmented images b no theory is better than any other anything goes c society has changed and we need new kinds",
+            "url": "https://pakmcqs.com/sociology-mcqs/post-modernist-writers-have-argued-that____________",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following is the most important agent of socialization in early childhood",
+            "content": "family closely followed by school peers and media are considered the primary agents of socialization in a childs life school in particular teaches",
+            "url": "https://study.com/learn/lesson/agents-of-socialization-types-examples.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "according to scott 1990 a document is authentic if it",
+            "content": "whether its genuine and according to scott this has two dimensions the first is whether the document is sound that is can you read it is it legible",
+            "url": "https://learninglink.oup.com/protected/files/content/file/1562166645454-Clip-4-Transcript.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the term emotion work hochschild 1983 refers to",
+            "content": "emotional labour is precisely defined by hochschild as “the management of feeling to create a publicly observable facial and bodily display",
+            "url": "https://www.citystgeorges.ac.uk/news-and-events/news/2022/08/what-is-emotional-labour-and-how-do-we-get-it-wrong",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the term overurbanization means that",
+            "content": "definition the concept of overurbanization first emerged in the mid20th century to describe cities whose rate of industrialization was growing more slowly",
+            "url": "https://en.wikipedia.org/wiki/Overurbanization",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "leroy visits his parents who live in a primarily african american workingclass neighborhood during his visit he notices that the community is changing several developments have been built to accommodate singlefamily homes and upscale shopping centers have been added while leroy appreciates these changes he is worried that his parents will not be able to afford to continue living in their neighborhood because property values are rising which of the following best explains what is happening to leroys old neighborhood",
+            "content": "the creative outburst of the artistic movement known as the harlem renaissance has recently attracted the attention of numerous scholars",
+            "url": "https://repozytorium.uwb.edu.pl/jspui/bitstream/11320/12961/1/Z_Glebocki_Enter_the_New_Negro.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a moral panic occurs when",
+            "content": "a moral panic is a widespread feeling of fear that some evil person or thing threatens the values interests or wellbeing of a community or society",
+            "url": "https://en.wikipedia.org/wiki/Moral_panic",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the population pyramid of a population that has had a slightly larger birth rate than death rate for several generations will most likely have which of the following shapes",
+            "content": "a population pyramid age structure diagram or agesex pyramid is a graphical illustration of the distribution of a population",
+            "url": "https://en.wikipedia.org/wiki/Population_pyramid",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "howards idea of the garden city consisted of",
+            "content": "these garden cities would contain proportionate areas of residences industry and agriculture ebenezer howard first posited the idea in 1898 as a way to",
+            "url": "https://en.wikipedia.org/wiki/Garden_city_movement",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "weber said that the spirit of capitalism could be traced back to",
+            "content": "a the movement towards religious pluralism b inspirational protestant groups who revived religious ideas c new religious movements who rejected",
+            "url": "https://pakmcqs.com/sociology-mcqs/weber-said-that-the-spirit-of-capitalism-could-be-traced-back-to_______________",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "structuralfunctionalists describe society as",
+            "content": "a framework for building theory that sees society as a complex system whose parts work together to promote solidarity and stability",
+            "url": "https://en.wikipedia.org/wiki/Structural_functionalism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is not a research purpose",
+            "content": "research is defined as the creation of new knowledge andor the use of existing knowledge in a new and creative way so as to generate new concepts",
+            "url": "https://www.westernsydney.edu.au/research/researchers/preparing_a_grant_application/dest_definition_of_research",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is not a consequence of global tourism",
+            "content": "by s gössling 2002 tourism contributes to 1 changes in land cover and land use 2 energy use 3 biotic exchange and extinction of wild species 4 exchange and dispersion of",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0959378002000444",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "when sociologists study the structure of layers in society and peoples movement between them they call this",
+            "content": "social stratification refers to a societys categorization of its people into groups based on socioeconomic factors like wealth income race education",
+            "url": "https://en.wikipedia.org/wiki/Social_stratification",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the alternative form of network organization means that",
+            "content": "coases key insight was that firms and markets were alternative means for organizing similar kinds of transactions this provocative paper however lay",
+            "url": "https://web.stanford.edu/~woodyp/powell_neither.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following best describes the practice of placing the blame for the problems of a society on one particular group",
+            "content": "sociology takes a different approach as it stresses that individual problems are often rooted in problems stemming from aspects of society itself",
+            "url": "https://courses.lumenlearning.com/suny-socialproblems/chapter/1-2-sociological-perspectives-on-social-problems/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the demographic transition is a social trend that involves",
+            "content": "the demographic transition model dtm is based on historical population trends of two demographic characteristics birth rate and death rate",
+            "url": "https://populationeducation.org/what-demographic-transition-model/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the new racism refers to",
+            "content": "although this is an aberrant result it is worth consideration because it supports the new racism argument in table 6 we saw that practicing a racial double",
+            "url": "https://www.jstor.org/stable/2111369",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the capitalist class of the midtwentieth century were said to join the upper class because they",
+            "content": "bankers merchants capitalists and factory owners could afford to buy all of the new industrial goods that factories were producing",
+            "url": "https://www.khanacademy.org/humanities/whp-1750/xcabef9ed3fc7da7b:unit-4-labor-and-society/xcabef9ed3fc7da7b:4-1-labor/a/class-structure-beta",
+            "engine": "google"
+        }
+    ]
+}

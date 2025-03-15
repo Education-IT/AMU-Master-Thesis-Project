@@ -1,0 +1,1802 @@
+{
+    "task": "bbh_zeroshot_multistep_arithmetic_two",
+    "dataset": "web_access_multistep_arithmetic_two_final",
+    "questions": 250,
+    "noWebContextCount": 0,
+    "contaminated_queries": 25,
+    "contaminated_urls": 62,
+    "valid_urls": 250,
+    "avg_contaminated_before_valid": 1.248,
+    "contaminated_data_ratio": 0.1987179487179487,
+    "most_contaminated_urls": {},
+    "noWebContext": [],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "3 6 0 6 6 6 7 8",
+            "content": "0 0 0 6 1 1 1 6 2 2 2 6 3 3 3 6 4 4 4 6 5 5 5 6 6 6 6 6 7 7 7 6 8 8 8 6 9 9 9 6 10 10 10 6",
+            "url": "https://mindyourdecisions.com/blog/2018/07/23/can-you-solve-the-6s-challenge/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "6 1 3 2 5 5 1 8",
+            "content": "zadanie oblicz a 1 3 5 2 1 6 b 3 3 8 2 5 6 c 1 2 rozwiązaniea 1 i 3 5 2 i 1 6 1 i 18 30 2 i 5 30 17 30 b 3 i 3 8 2 i 5 6 3 i 9 24 2 i 20 24 5 i 29 24 6 i 5 24 c 1 2 1 6 1 3 3 6 1 6 2 6 3 6 3 6 3 6 3 6 6 6 1 d 7 6 5 4 4 3 14 12 15 12 16 12 14 12 31 12 14 12 31 12 17 12 1 i 5 12 e 2 i 2 3",
+            "url": "http://www.zaliczaj.pl/zadanie/461615/oblicz-a-1-3-5-2-1-6-b-3-3-8-2-5-6-c-1-2-1-6-1-3-d-7-6/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "1 5 8 2 2 6 5 3",
+            "content": "zadanie oblicz a 1 3 5 2 1 6 b 3 3 8 2 5 6 c 1 2 rozwiązaniea 1 i 3 5 2 i 1 6 1 i 18 30 2 i 5 30 17 30 b 3 i 3 8 2 i 5 6 3 i 9 24 2 i 20 24 5 i 29 24 6 i 5 24 c 1 2 1 6 1 3 3 6 1 6 2 6 3 6 3 6 3 6 3 6 6 6 1 d 7 6 5 4 4 3 14 12 15 12 16 12 14 12 31 12 14 12 31 12 17 12 1 i 5 12 e 2 i 2 3",
+            "url": "http://www.zaliczaj.pl/zadanie/461615/oblicz-a-1-3-5-2-1-6-b-3-3-8-2-5-6-c-1-2-1-6-1-3-d-7-6/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "0 7 6 3 9 5 2 1",
+            "content": "q from pe 0 1 2 3 4 5 6 7 8 9 4 0 8 1 9 2 5 8 1 9 4 2 7 8 1 9 2 4 4 0 8 1 9 3 5 8 1 9 4 3 7 8 1 9 3 4 4 0 8 1 9 5 7 8 1 9 5 4 4 0 8 1 9 7 5 8 1 9 4 7 4 0 7 2 9 1 3 8 7 2 9 1 3 4 4 0 7 2 9 1 5 8 7 2 9 1 5 4 4 0 7 2 9 3 1 8 7 2 9 3 1 4 4 0 7 2 9 5 1 8 7 2 9 5 1 4 4 0",
+            "url": "https://groups.google.com/g/sci.math/c/zMhl3x8v3RI",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "1 5 4 9 7 6 8 0",
+            "content": "q from pe 0 1 2 3 4 5 6 7 8 9 4 0 8 1 9 2 5 8 1 9 4 2 7 8 1 9 2 4 4 0 8 1 9 3 5 8 1 9 4 3 7 8 1 9 3 4 4 0 8 1 9 5 7 8 1 9 5 4 4 0 8 1 9 7 5 8 1 9 4 7 4 0 7 2 9 1 3 8 7 2 9 1 3 4 4 0 7 2 9 1 5 8 7 2 9 1 5 4 4 0 7 2 9 3 1 8 7 2 9 3 1 4 4 0 7 2 9 5 1 8 7 2 9 5 1 4 4 0",
+            "url": "https://groups.google.com/g/sci.math/c/zMhl3x8v3RI",
+            "engine": "braveAPI"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "3 2 3 3 8 1 9 3",
+            "content": "nieprawdą jest że a 511 711 b 37 38 c 2 35 85 d 56 78 pomocy na jutro zobacz odpowiedzi reklama reklama",
+            "url": "https://brainly.pl/zadanie/15415680",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 4 7 6 8 0 9 4",
+            "content": "szukasz opracowanych krok po kroku rozwiązań zadań z przedmiotu matematyka klasa 4 szkoła podstawowa klasa 5 szkoła podstawowa klasa 6",
+            "url": "https://brainly.pl/zadanie/14297463",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "1 7 7 9 4 3 8 4",
+            "content": "kliknij tutaj 👆 aby dostać odpowiedź na pytanie ✍️ oblicz wartosc wyrazenia 4√713√7",
+            "url": "https://brainly.pl/zadanie/184323",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "4 3 1 3 3 8 1 7",
+            "content": "a 84x12 234x12 212x12 x2 b 56x3 52⋅3x3 odpowiedź na zadanie z matematyka z plusem 2",
+            "url": "https://odrabiamy.pl/matematyka/ksiazka-4/strona-9/zadanie-3959",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "9 5 4 2 9 1 1 9",
+            "content": "kliknij tutaj 👆 aby dostać odpowiedź na pytanie ✍️ oblicz 35 920 plis daje naj na jutro potrzebuje 35 920 35 920 3",
+            "url": "https://brainly.pl/zadanie/18575553",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "8 1 6 6 7 7 9 8",
+            "content": "all information about the o8h271 at a glance we assist you with your requirements ✓ technical data ✓ instructions ✓ scale drawings ✓ accessories",
+            "url": "https://www.ifm.com/nz/en/product/O8H271",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "7 2 1 9 7 5 0 4",
+            "content": "malik montana yeah polscy raperzy w srebrze i cyrkoniach pokaż papiery bo coś marnie to wygląda dawaj na spektrometr u mnie kwas nic nie pokaże",
+            "url": "https://www.azlyrics.com/lyrics/malikmontana/750.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "2 5 3 0 9 2 5 4",
+            "content": "oblicz 7⁻⁰⁷ 7²⁵ 7⁻⁰⁹¹² 7⁻⁰⁷ 7⁰⁴ 7⁻⁰⁹¹² 7⁻⁰⁷⁻⁰⁴ 7⁻⁰⁹¹² 7⁻¹¹ 7⁻⁰⁹¹² 7⁻²¹² 7⁻²¹² 7⁻¹",
+            "url": "https://brainly.pl/zadanie/15150315",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 7 4 8 4 4 1 0",
+            "content": "oblicz wartość wyrażenia a 20 5 14 4 12 2 b 4 23 5 35 3 12 821 c 06 4 3 03 025 zobacz odpowiedź",
+            "url": "https://brainly.pl/zadanie/22519669",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 6 2 4 1 9 0 5",
+            "content": "odpowiedź oblicz a 412 14397 42 23 8 6 2 b 6 13 2334 193 812912 1931712 32336 8 i 3536",
+            "url": "https://brainly.pl/zadanie/22719289",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 3 6 1 5 5 6 4",
+            "content": "przypomnijmy kolejność wykonywania działań 1 działania w nawiasach w których nie ma innych nawiasów 2 potęgowanie i pierwiastkowanie 3",
+            "url": "https://brainly.pl/zadanie/14297463",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "7 5 9 7 2 8 6 3",
+            "content": "a 1436⋅726143⋅7264271⋅71216216641 odpowiedź na zadanie z matematyka z plusem 7",
+            "url": "https://odrabiamy.pl/matematyka/ksiazka-11048/strona-259/zadanie-420516",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "4 8 2 8 3 0 4 1",
+            "content": "wzór ogólny funkcji liniowej yaxb wstawiamy za y drugą współrzędną za x pierwszą i rozwiązujemy układ równań 4a0b b 4",
+            "url": "https://zapytaj.onet.pl/Category/006,003/2,24497636,Zadanie_3__Wspolczynnik_kierunkowy_prostej_przechodzacej_przez_punkty_04_i_30_jest_rowny.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "6 9 1 7 0 3 5 2",
+            "content": "oblicz 1 8 do potęgi 3 pomnożyć przez 16 do potęgi 2 2 w nawiasie pomnożyć 6 do potęgi 5 przez 2 do potęgi 7 zamknąć nawias i podzielić to",
+            "url": "https://brainly.pl/zadanie/22799980",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "9 3 8 5 1 2 4 5",
+            "content": "poniższa tabela prezentuje jakie istnieją relacje pomiędzy szerokością opony i felgi rozmiar opony szerokość felgi zalecana minimalna",
+            "url": "https://astraklub.pl/viewtopic.php?t=825290",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "2 7 5 1 0 5 9 0",
+            "content": "treść do orzeczenia w sprawie iii apz 913 z dnia 15 maja 2013 wydanego przez sąd apelacyjny w krakowie przewodniczący jolanta frańczak",
+            "url": "https://orzeczenia.ms.gov.pl/content/$N/152000000001521_III_APz_000009_2013_Uz_2013-05-08_001",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "6 4 2 6 1 2 1 7",
+            "content": "in the example above the denominators were 4 6 and 2 the least common multiple is the first shared multiple of these three numbers the first multiple they all share is 12 so this is the least common multiple to complete an addition or subtraction problem multiply the numerators and denominators of each fraction in the problem by whatever value will make the denominators 12 then add the numerators ex 14 16 12 1",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 6 5 9 1 4 2 6",
+            "content": "this free fraction calculator supports fraction addition subtraction multiplication division and conversion",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "9 6 9 4 6 4 8 7",
+            "content": "this free fraction calculator supports fraction addition subtraction multiplication division and conversion",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "6 5 9 9 6 4 8 9",
+            "content": "this free fraction calculator supports fraction addition subtraction multiplication division and conversion",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "7 2 4 4 9 1 6 6",
+            "content": "mixed numbers calculator to add subtract multiply and divide mixed numbers mixed fractions fractions and integers do math with mixed numbers and mixed fractions such as 1 12 or 3 58",
+            "url": "https://www.calculatorsoup.com/calculators/math/mixednumbers.php",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "6 5 0 3 4 5 3 0",
+            "content": "wśród 30 osób występujących w konkursie piosenki aż 6 fałszowało to znaczy że śpiewających fałszowało 1 zobacz odpowiedź",
+            "url": "https://brainly.pl/zadanie/18170952",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 6 4 9 9 0 3 1",
+            "content": "zadanie 5 liczby niewymierne to 4 pierwiastek z 12 pierwiastek z 49 pierwiastek z 149 liczby naturalne to 2 pierwiastek z 16",
+            "url": "https://brainly.pl/zadanie/4013813",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "1 5 3 9 5 3 2 5",
+            "content": "知乎，中文互联网高质量的问答社区和创作者聚集的原创内容平台，于 2011 年 1 月正式上线，以「让人们更好的分享知识、经验和见解，找到自己的解答」为品牌使命。知乎凭借认真、专业 …",
+            "url": "https://www.zhihu.com/question/264623300",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "9 9 0 3 2 1 1 2",
+            "content": "tryby warunkowe 0 1 2 wymagana subskrypcja przykłady z naszej społeczności liczba wyników dla zapytania „tryby warunkowe 0 1 2” 10 000 conditionals 02 losowe karty autor …",
+            "url": "https://wordwall.net/pl-pl/community/tryby-warunkowe-0-1-2",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "2 6 7 7 2 5 4 2",
+            "content": "solve your math problems using our free math solver with stepbystep solutions our math solver supports basic math prealgebra algebra trigonometry calculus and more",
+            "url": "https://mathsolver.microsoft.com/en/solve-problem/2%2B7",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "9 3 1 3 9 5 2 7",
+            "content": "możesz wybrać organizację pożytku publicznego opp której naczelnik urzędu skarbowego przekaże 15 podatku należnego który wynika ze złożonego przez ciebie zeznania rocznego albo złożonej korekty tego zeznania wyboru opp dokonasz z wykazu organizacji uprawnionych do otrzymania 15 podatku",
+            "url": "https://www.podatki.gov.pl/pit/jak-przekazac-1-proc-na-opp/",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "6 2 2 9 9 3 1 1",
+            "content": "3 jest drugą liczbą pierwszą najmniejszą liczbą pierwszą i nieparzystą równocześnie najmniejszą spośród wszystkich liczb bliźniaczych pierwszą liczbą fermata oraz pierwszą liczbą mersenne’a",
+            "url": "https://pl.wikipedia.org/wiki/3_(liczba)",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "3 4 5 7 1 4 9 2",
+            "content": "31 maj 2024 dieta 52 znana także jako dieta dr mosleya bazuje na założeniu że okresowe posty redukują poziom cholesterolu i korzystnie wpływają na insulinooporność fundamentalną zasadą jest zatem przeprowadzanie głodówek w określonych interwałach",
+            "url": "https://www.wygodnadieta.pl/blog/dieta-5-2-zasady-efekty",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "1 6 1 8 8 7 8 4",
+            "content": "continue by continuing you agree to 8x8 terms and conditions8x8 terms and conditions",
+            "url": "https://sso.8x8.com/sso/login",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "9 6 3 3 4 9 4 4",
+            "content": "smartfony przekątna ekranu cal 64 w media expert ☝ szeroki wybór produktów min smartfon motorola edge 50 neo 5g 12512gb 64 120hz granatowy smartfon …",
+            "url": "https://www.mediaexpert.pl/smartfony-i-zegarki/smartfony/przekatna-ekranu-cal_6-4?msockid=1fefa71ef8d7657a256db2b0f9fc6457",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "8 8 5 6 3 9 5 1",
+            "content": "知乎，中文互联网高质量的问答社区和创作者聚集的原创内容平台，于 2011 年 1 月正式上线，以「让人们更好的分享知识、经验和见解，找到自己的解答」为品牌使命。知乎凭借认真、专业、友善的社区氛围、独特的产品机制以及结构化和易获得的优质内容，聚集了中文互联网科技、商业、 …",
+            "url": "https://www.zhihu.com/question/264623300",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "6 1 5 5 8 5 9 7",
+            "content": "1 mar 2025 小屏平板非常稀有，可以考虑联想平板y700二代，搭载88英寸lcd小屏幕，相比上一代升级了不少东西。处理器升级为骁龙8，屏幕支持144hz高刷，搭载双typec接口。 联想y700第三代发布同样是88英寸小屏平板。相比上一代在性能、屏幕、快充等方面进一步升级。",
+            "url": "https://www.zhihu.com/tardis/zm/art/514303258",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "9 4 0 1 4 3 8 4",
+            "content": "04 ile to jaki to ułamek zwykły i 036 ostatnia data uzupełnienia pytania 20111111 183005 to pytanie ma już najlepszą odpowiedź jeśli znasz lepszą możesz ją dodać",
+            "url": "https://zapytaj.onet.pl/Category/015,004/2,15632011,04_ile_to_jaki_to_ulamek_zwykly.html",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "6 7 8 2 5 2 0 2",
+            "content": "18 wrz 2024 i was using createreactapp before and now i switched the same project to vite and everything working fine except i am getting a warning log as follows deprecation legacyjs …",
+            "url": "https://stackoverflow.com/questions/78997907/the-legacy-js-api-is-deprecated-and-will-be-removed-in-dart-sass-2-0-0",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "4 7 3 3 3 2 3 3",
+            "content": "wyszukaj temat lub wybiesz swoją klasę najlepsza strona do nauki matematyki szkoła podstawowa zadania z matematyki tabliczka mnożenia",
+            "url": "https://www.matzoo.pl/",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "3 6 7 3 5 5 1 3",
+            "content": "this formation is also known as the 352 diamond or the 3421 formation and it has been used by many successful teams around the world the 3511 formation consists of three central defenders five midfielders one attacking midfielder and one striker heres a breakdown of the 3511 formation",
+            "url": "https://www.footballizer.com/academy/3-5-1-1-formation/",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "8 1 8 2 6 8 5 8",
+            "content": "相比之下，骁龙 8 gen3 的 ai 性能也较为出色，但在一些特定的 ai 任务处理上，骁龙 8 至尊版更具优势。 多模态 ai 助手 ：骁龙 8 至尊版支持多模态 ai 助手，通过集成自动语音识别、大语言模型、大视觉模型和多模态大模型，为用户提供更智能的服务体验，这方面也是骁龙 8 至尊版的独特 …",
+            "url": "https://www.zhihu.com/tardis/bd/ans/32050636875",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "3 8 7 2 2 8 1 6",
+            "content": "相比之下，骁龙 8 gen3 的 ai 性能也较为出色，但在一些特定的 ai 任务处理上，骁龙 8 至尊版更具优势。 多模态 ai 助手 ：骁龙 8 至尊版支持多模态 ai 助手，通过集成自动语音识别、大语言模型、大视觉模型和多模态大模型，为用户提供更智能的服务体验，这方面也是骁龙 8 至尊版的独特 …",
+            "url": "https://www.zhihu.com/tardis/bd/ans/32050636875",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "8 7 3 9 6 6 4 4",
+            "content": "知乎，中文互联网高质量的问答社区和创作者聚集的原创内容平台，于 2011 年 1 月正式上线，以「让人们更好的分享知识、经验和见解，找到自己的解答」为品牌使命。知乎凭借认真、专业 …",
+            "url": "https://www.zhihu.com/question/265125834",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "9 3 6 8 7 2 6 6",
+            "content": "multiplication 6 x 8 the multiplication of six times eight is equal to fortyeight we can also express that 6 times 8 equals 48 as follows 6 × 8 48 6 8 48 6 by 8 48 what is 6 multiplied by other numbers 6 times 9 54 6 times 10 60 6 times 11 66 6 times 12 72 6 times 13 78 6 times 14 84 6 times 15 90 6 times",
+            "url": "https://calculeitor.com/6-times-8",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 6 3 3 1 8 8 9",
+            "content": "answer 38 as a decimal is 0375 lets look into the two methods to write 38 as a decimal explanation writing 38 as a decimal using division method to convert any fraction to decimal …",
+            "url": "https://www.cuemath.com/questions/what-is-3-8-as-a-decimal/",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "1 6 3 2 9 1 2 3",
+            "content": "6 gru 2017 the answer is 18 since your exponent is negative you will have to make a fraction to make the exponent even you will make 1 the numerator and 2 to the power of 3 the denominator now that you have a fraction and the exponent is no longer negative you will keep 1 as the numerator and have 222 as the denominator you can simplify the denominator 2 …",
+            "url": "https://socratic.org/questions/what-is-2-to-the-power-3",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "6 9 6 4 1 6 4 3",
+            "content": "3 jest drugą liczbą pierwszą najmniejszą liczbą pierwszą i nieparzystą równocześnie najmniejszą spośród wszystkich liczb bliźniaczych pierwszą liczbą fermata oraz pierwszą liczbą mersenne’a",
+            "url": "https://pl.wikipedia.org/wiki/3_(liczba)",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "4 6 6 9 2 5 5 7",
+            "content": "ultra 5 125h和 ultra 7 155h核显对比： 由于ultra 5 125h和 ultra 7 155h的xecore不同，因此我换成相同xecore的cpu做一下对比，下面我用ultra 5 135h（135h貌似有点小贵，不怎么畅销 …",
+            "url": "https://www.zhihu.com/question/640235797/answers/updated",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "8 1 1 5 2 3 1 7",
+            "content": "29 lip 2021 用人单位经济性裁员，根据法律规定用人单位需向劳动支付经济补偿金。根据规定，如果劳动者的月工资 高于本地区上年度职工月平均工资3倍的，按职工月平均工资3倍的数额计算 ，如果不到3倍的就按上述标准计算，且向其支付经济补偿的年限最高不超过12年。",
+            "url": "https://www.zhihu.com/topic/21193386/intro",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "4 2 6 1 4 2 5 8",
+            "content": "知乎，中文互联网高质量的问答社区和创作者聚集的原创内容平台，于 2011 年 1 月正式上线，以「让人们更好的分享知识、经验和见解，找到自己的解答」为品牌使命。知乎凭借认真、专业 …",
+            "url": "https://www.zhihu.com/question/415402845",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "1 6 4 6 2 5 1 1",
+            "content": "1安装完成后，我们点击打开应用按钮，即可打开web界面 2打开页面后，在web界面的欢迎页，点击开始使用 3初次使用时，需要创建管理员账号",
+            "url": "https://www.zhihu.com/question/11069366566",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "8 4 9 0 2 9 3 3",
+            "content": "liczba 023 25−3√4 0 2 3 25 − 3 4 jest równa korzystając z działań na potęgach i pierwiastkach możemy zapisać że",
+            "url": "https://szaloneliczby.pl/liczba-02-3-4-25-3-jest-rowna/",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "7 9 5 3 8 8 5 5",
+            "content": "依然走的是性价比路线，虽不如上一代惊艳，但也算是这个价位的水桶机 骁龙7gen3骁龙 8sgen3放到2k价位不够炸裂却也合理，性能相当于骁龙870的151163",
+            "url": "https://www.zhihu.com/tardis/bd/art/5878111609",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "5 8 6 7 9 7 5 4",
+            "content": "18 wrz 2023 it exam answers netwoking study guide tutorials labs practice questions for exams with answers 2024 2025 full",
+            "url": "https://itexamanswers.net/",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "1 9 8 9 9 2 6 6",
+            "content": "cykl książek z kategorii literatura dziecięca opowiadania powieści dla dzieci najpopularniejsza książka z cyklu to 82 i ciężarówka",
+            "url": "https://lubimyczytac.pl/cykl/41055/8-2",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "9 7 1 1 3 7 1 0",
+            "content": "20 mar 2024 usb 30 31 i 32 to kolejne wersje standardu universal serial bus usb które różnią się przede wszystkim prędkością transmisji danych",
+            "url": "https://www.hotgear.pl/jak-to-zrobic/standardy-usb-3-0-vs-3-1-vs-3-2-czym-sie-od-siebie-roznia-wyjasniamy/",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "9 5 6 2 8 6 3 1",
+            "content": "jeżeli nie widzisz powyżej zmiennych z wpisanego wzoru kliknij tu kalkulator pozwoli obliczyć wartość podanego przez ciebie wyrażenia we wzorze możesz używać zmiennych ich …",
+            "url": "https://oblicz.to/kalkulator",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "9 8 3 1 9 2 4 6",
+            "content": "23 sie 2024 w 2024 roku możesz liczyć na wynagrodzenie netto w wysokości od 243637 zł do 246793 zł miesięcznie w zależności od okresu pamiętaj że pracując na niepełny etat masz takie same prawa jak pracownicy pełnoetatowi a dodatkowo zyskujesz więcej czasu wolnego",
+            "url": "https://rocketjobs.pl/blog/3-4-etatu-wynagrodzenie-netto",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 6 6 1 5 5 9 2",
+            "content": "69银行是什么意思，具体是指哪些银行呢？ 新会计准则对小银行的汇票要求重分类为应收款项融资，但是不太清楚“小银行”的判断标准，最近正好碰到一家企业将“非69银行”的票据列为了应收款项融资， 显示全部",
+            "url": "https://www.zhihu.com/question/435547856",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "4 1 7 2 7 9 6 3",
+            "content": "emathhelp darmowy kalkulator matematyczny krok po kroku rozwiązuje zadania z algebry geometrii rachunku statystyki algebry liniowej i programowania",
+            "url": "https://www.emathhelp.net/pl/",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "4 5 9 8 9 7 6 9",
+            "content": "16 sty 2024 中科院的分区如同社会阶层的金字塔结构，1区只有5的顶级期刊，24区期刊数量也逐层增加。 因此，采用中科院分区后往往出现 “掉区” 的情况，所以有的人发表的论文按jcr分区标准算q1区，而按中科院分区算2区甚至3区。",
+            "url": "https://www.zhihu.com/question/639871082",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "6 1 4 3 4 6 3 1",
+            "content": "to find the sum of the fractions 313414616 we can follow these steps step 1 simplify each term first we simplify each term in the expression 3leftfrac13right frac33 1 4leftfrac14right frac44 1 6leftfrac16right frac66",
+            "url": "https://www.doubtnut.com/qna/283255300",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "8 5 0 6 5 4 6 3",
+            "content": "adding fractions 24 34 of a fraction 12 4 fractional exponents 16 12 adding fractions and mixed numbers 85 6 27 dividing integer and fraction 5 ÷ 12 complex fractions 58 2 23 decimal to fraction 0625 fraction to decimal",
+            "url": "https://www.hackmath.net/en/calculator/fraction",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "3 4 0 3 6 4 2 7",
+            "content": "free math problem solver answers your homework questions with stepbystep explanations",
+            "url": "https://www.mathway.com/BasicMath",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "3 6 2 7 6 4 6 6",
+            "content": "in the example above the denominators were 4 6 and 2 the least common multiple is the first shared multiple of these three numbers the first multiple they all share is 12 so this is the least common multiple to complete an addition or subtraction problem multiply the numerators and denominators of each fraction in the problem by whatever value will make the denominators 12 then add the numerators ex 14 16 12 1×34×3",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "6 9 6 1 8 5 6 7",
+            "content": "mixed numbers calculator to add subtract multiply and divide mixed numbers mixed fractions fractions and integers do math with mixed numbers and mixed fractions such as 1 12 or 3 58",
+            "url": "https://www.calculatorsoup.com/calculators/math/mixednumbers.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "6 8 6 5 4 9 5 1",
+            "content": "mixed numbers calculator to add subtract multiply and divide mixed numbers mixed fractions fractions and integers do math with mixed numbers and mixed fractions such as 1 12 or 3 58",
+            "url": "https://www.calculatorsoup.com/calculators/math/mixednumbers.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "1 0 1 4 3 1 6 8",
+            "content": "this free fraction calculator supports fraction addition subtraction multiplication division and conversion",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "8 0 0 1 7 1 3 2",
+            "content": "oblicz a 1 i 78 6 b 1 15 2 12 c 1 i 34 8 d 1 i 13 05 e 525 1 i 12 f 15 … natychmiastowa odpowiedź na twoje pytanie",
+            "url": "https://brainly.pl/zadanie/15231518",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "8 3 8 8 2 2 9 6",
+            "content": "this free fraction calculator supports fraction addition subtraction multiplication division and conversion",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "1 2 1 8 8 2 1 6",
+            "content": "🍰 10 slices of cake when each cake has 6 slices is the same as → 1 whole cake and 4 slices out of 6 🍫 8 rows of chocolate when the whole chocolate bar has 5 rows → 1 whole chocolate bar and 3 rows out of 5 and 🍊 21 parts of orange if we cut the orange to 8 slices → 2 whole",
+            "url": "https://www.omnicalculator.com/math/fraction",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "1 0 3 0 7 9 1 3",
+            "content": "suma liczb 037 i 07 zapisana w postaci ułamka zwykłego nieskracalnego to krok 1 zapisanie liczby 037 w postaci ułamka zwykłego procedura zamiany ułamków okresowych na zwykłe wygląda następująco x037037777 10x37777",
+            "url": "https://szaloneliczby.pl/suma-liczb-037-i-07-zapisana-w-postaci-ulamka-zwyklego-nieskracalnego-to/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "4 5 7 7 3 3 4 4",
+            "content": "calculation 35 plus 47 fraction calculator addition of fractions and numbers and simplification the result to a proper fraction the result is 4135 1 635 ≅ 11714286 fortyone thirtyfifths or one and six thirtyfifths",
+            "url": "https://www.hackmath.net/en/calculator/fraction?input=3/5%2B4/7",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "7 2 4 8 5 0 1 5",
+            "content": "example 7 solve for x 0312x36 42x1644 example 8 solve for z and check 23z5 2 4z 32z 8",
+            "url": "https://softmath.com/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 9 4 4 3 2 9 7",
+            "content": "calculation 4 392 79 fraction calculator subtraction of fractions and numbers and simplification the result to a proper fraction the result is 149 1 59 ≅ 15555556 fourteen ninths or one and five ninths",
+            "url": "https://www.hackmath.net/en/calculator/fraction?input=4+3/9-2+7/9",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "1 7 9 5 3 5 2 6",
+            "content": "solve a 23 17 b 310 715 c 49 27 d 57 13 e 25 16 f 45 23 g 34 13 h 56 13 i 23 34 12 j 12 13 16 k 1 13 3 23 l 4 23 3 14 m 165 75 n 43 12",
+            "url": "https://www.cuemath.com/ncert-solutions/solve-a-2-3-1-7-b-3-10-7-15-c-4-9-2-7-d-5-7-1-3-e-2-5-1-6-f-4-5-2-3-g-3-4-1-3-h-5-6-1-3-i-2-3-3-4-1-2-j-1-2-1-3-1-6-k-1-1-3-3-2-3-l-4-2-3-3-1-4-m-16-5-7-5-n-4-3-1-2/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "9 8 4 2 1 9 6 3",
+            "content": "median calculator is a free online tool that calculates the median value for the set of numbers 84961137325129957976651361362263952452526926728862472516354719 instantly and gives result ie 60 in no time",
+            "url": "https://onlinecalculator.guru/statistics/median-of-8-4-9-6-1-1-3-7-3-2-5-1-2-9-9-5-7-9-7-6-6-5-1-3-6-1-3-6-2-2-6-3-9-5-2-4-5-2-5-2-6-9-2-6-7-2-8-8-6-2-4-7-2-5-1-6-3-5-47-19/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 1 7 5 6 5 3 7",
+            "content": "solve a 23 17 b 310 715 c 49 27 d 57 13 e 25 16 f 45 23 g 34 13 h 56 13 i 23 34 12 j 12 13 16 k 1 13 3 23 l 4 23 3 14 m 165 75 n 43 12",
+            "url": "https://www.cuemath.com/ncert-solutions/solve-a-2-3-1-7-b-3-10-7-15-c-4-9-2-7-d-5-7-1-3-e-2-5-1-6-f-4-5-2-3-g-3-4-1-3-h-5-6-1-3-i-2-3-3-4-1-2-j-1-2-1-3-1-6-k-1-1-3-3-2-3-l-4-2-3-3-1-4-m-16-5-7-5-n-4-3-1-2/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "7 6 2 7 4 5 3 2",
+            "content": "adding fractions 24 34 78 39 dividing fractions 12 34 reciprocal of a fraction 1 34 square of a fraction 23 2 cube of a fraction 23 3 exponentiation of a fraction 12 4 fractional exponents 16 12 adding fractions and mixed numbers 85 6 27 dividing",
+            "url": "https://www.hackmath.net/en/calculator/fraction",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "9 9 4 8 5 0 8 5",
+            "content": "haz clic aquí 👆 para obtener una respuesta a tu pregunta ✍️ ¿cuál es el resultado de la siguiente operación con fracciones 49 34 58",
+            "url": "https://brainly.lat/tarea/13930813",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "9 3 2 1 5 1 6 4",
+            "content": "solve a 23 17 b 310 715 c 49 27 d 57 13 e 25 16 f 45 23 g 34 13 h 56 13 i 23 34 12 j 12 13 16 k 1 13 3 23 l 4 23 3 14 m 165 75 n 43 12",
+            "url": "https://www.cuemath.com/ncert-solutions/solve-a-2-3-1-7-b-3-10-7-15-c-4-9-2-7-d-5-7-1-3-e-2-5-1-6-f-4-5-2-3-g-3-4-1-3-h-5-6-1-3-i-2-3-3-4-1-2-j-1-2-1-3-1-6-k-1-1-3-3-2-3-l-4-2-3-3-1-4-m-16-5-7-5-n-4-3-1-2/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "0 8 9 6 3 9 1 7",
+            "content": "the modulo calculator finds the solution of an expression x mod y r",
+            "url": "https://www.omnicalculator.com/math/modulo",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "4 4 1 5 6 1 8 6",
+            "content": "this free fraction calculator supports fraction addition subtraction multiplication division and conversion",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "9 6 4 5 4 8 9 0",
+            "content": "the modulo calculator finds the solution of an expression x mod y r",
+            "url": "https://www.omnicalculator.com/math/modulo",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "4 9 3 8 9 4 9 7",
+            "content": "adding fractions 24 34 subtracting fractions 23 12 multiplying fractions 78 39 dividing fractions 12 34 reciprocal of a fraction 1 34 square of a fraction 23 2 cube of a fraction 23 3 exponentiation of a fraction 12 4",
+            "url": "https://www.hackmath.net/en/calculator/fraction?input=4+3/9-2+7/9",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "7 9 8 3 5 7 4 5",
+            "content": "answer 1 of 2 given 9 8 7 6 5 4 3 2 1 to find value of the sequence solution 987654321 918 817 716 615 514 413 312 211 110 the answer is 0",
+            "url": "https://www.quora.com/What-is-the-answer-to-9-8-7-6-5-4-3-2-1-13",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 2 8 1 9 3 8 5",
+            "content": "use this fraction calculator to perform all the main calculations on simple or mixed fractions we support addition subtraction multiplication division of fractions fraction simplification and two types of conversions fraction to decimal and decimal to fraction",
+            "url": "https://www.omnicalculator.com/math/fraction",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "1 3 2 7 4 8 6 2",
+            "content": "mixed numbers calculator to add subtract multiply and divide mixed numbers mixed fractions fractions and integers do math with mixed numbers and mixed fractions such as 1 12 or 3 58",
+            "url": "https://www.calculatorsoup.com/calculators/math/mixednumbers.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "9 5 1 2 5 3 5 0",
+            "content": "misc 6 find x if x 5 1 ■81amp0amp20amp2amp12amp0amp3 ■8𝑥41 o 〖quotx −5 −1quot 〗1×3 ■81amp0amp20amp2amp12amp0amp33×3 ■8𝑥413×1 o 〖quotx1 −5 0 12 x0 5 2 −10 x2 51 −13quot 〗1×3 ■8𝑥41 o",
+            "url": "https://www.teachoo.com/3197/686/Misc-9---Find-x--if--x---5---1---1-0-2-0-2-1-2-0-3-/category/Miscellaneous/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "3 9 3 7 9 4 8 2",
+            "content": "mixed numbers calculator to add subtract multiply and divide mixed numbers mixed fractions fractions and integers do math with mixed numbers and mixed fractions such as 1 12 or 3 58",
+            "url": "https://www.calculatorsoup.com/calculators/math/mixednumbers.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "8 6 2 4 4 5 2 8",
+            "content": "znajdź odpowiedź na twoje pytanie o oblicz 6 8923 b 61458 c 1 1267 d 7 34 4 56",
+            "url": "https://brainly.pl/zadanie/13892256",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "0 9 8 7 7 9 1 0",
+            "content": "the log calculator logarithm calculates the value of a logarithm with an arbitrary base",
+            "url": "https://www.omnicalculator.com/math/log",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "0 9 6 4 5 3 8 5",
+            "content": "free math problem solver answers your homework questions with stepbystep explanations",
+            "url": "https://www.mathway.com/BasicMath",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "7 9 0 0 9 5 9 1",
+            "content": "there are many number sequence puzzles on this site i acknowledge them all martin gardner introduced the puzzle with the 9 digit sequence with math operations reaching 100 as below an old",
+            "url": "https://puzzling.stackexchange.com/questions/93677/9-8-7-6-5-4-3-2-1-0-and-1-2-3-4-5-6-7-8-9-0",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "7 2 0 2 4 5 8 9",
+            "content": "free math problem solver answers your homework questions with stepbystep explanations",
+            "url": "https://www.mathway.com/BasicMath",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "9 1 5 5 6 3 1 7",
+            "content": "solve a 23 17 b 310 715 c 49 27 d 57 13 e 25 16 f 45 23 g 34 13 h 56 13 i 23 34 12 j 12 13 16 k 1 13 3 23 l 4 23 3 14 m 165 75 n 43 12",
+            "url": "https://www.cuemath.com/ncert-solutions/solve-a-2-3-1-7-b-3-10-7-15-c-4-9-2-7-d-5-7-1-3-e-2-5-1-6-f-4-5-2-3-g-3-4-1-3-h-5-6-1-3-i-2-3-3-4-1-2-j-1-2-1-3-1-6-k-1-1-3-3-2-3-l-4-2-3-3-1-4-m-16-5-7-5-n-4-3-1-2/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "7 9 9 7 9 6 4 6",
+            "content": "punkt s 2 7 jest środkiem odcinka ab w którym a 1 3 punkt b ma współrzędne punkt s41 jest środkiem odcinka ab gdzie aa0 i ba3 2",
+            "url": "https://www.matemaks.pl/srodek-odcinka.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "3 6 0 6 6 6 7 8",
+            "content": "cechy podzielności liczb liczba 4 6 8 lub 0 liczba jest podzielna przez 3 gdy suma cyfr liczby jest podzielna przez 3 liczba jest podzielna przez 4 gdy dwie ostatnie cyfry tworzą liczbę podzielną przez 4 liczba jest podzielna przez 5 gdy liczba kończy się na 0 lub 5 liczba jest podzielna przez 6 gdy liczba dzieli się na 2 i 3 liczba jest podzielna przez 7 gdy różnica",
+            "url": "https://szaloneliczby.pl/kiedy-liczba-jest-podzielna-przez-6-7-8-11-12-15/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "8 6 1 3 5 0 7 1",
+            "content": "solve a 1 18 1 18 b 8 15 3 15 c 7 7 5 7 d 1 22 21 22 e 12 15 7 15 f 5 8 3 8 g 1 2 3 1 3 3 h 1 4 0 4 i 3 12 5 we will use the concepts of fractions to solve this",
+            "url": "https://www.cuemath.com/ncert-solutions/solve-a-1-18-1-18-b-8-15-3-15-c-7-7-5-7-d-1-22-21-22-e-12-15-7-15-f-5-8-3-8-g-1-2-3-1-3-3-h-1-4-0-4-i-3-12-5/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "8 3 5 4 2 7 3 1",
+            "content": "➽ 2 12 × 3 14 52 × 134 5 × 132 × 4 658 8 18 and when multiplying a fraction by a whole number remember that you can write the whole number as itself divided by 1 ➽ 3 × 57 31 × 57 3 × 51 × 7 157",
+            "url": "https://www.omnicalculator.com/math/fraction",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "9 6 9 8 9 9 6 2",
+            "content": "iz 9 5 quotdziecięquot emmanuel z iz 714 iz 8810 czyli mesjasz quotprzedziwny doradca bóg mocny odwieczny ojciec książę pokojuquot imię symboliczne por iz 126n złożone z czterech tytułów określających naturę i przymioty mesjańskiego chłopca emmanuela mądrość boskość wszechmoc wieczność pokojowe usposobienie tradycja chrześcijańska liturgia bożego narodzenia stosuje te tytuły do chrystusa iz 9 6",
+            "url": "https://biblia.deon.pl/rozdzial.php?id=481",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "3 1 7 6 7 1 5 3",
+            "content": "solve a 23 17 b 310 715 c 49 27 d 57 13 e 25 16 f 45 23 g 34 13 h 56 13 i 23 34 12 j 12 13 16 k 1 13 3 23 l 4 23 3 14 m 165 75 n 43 12",
+            "url": "https://www.cuemath.com/ncert-solutions/solve-a-2-3-1-7-b-3-10-7-15-c-4-9-2-7-d-5-7-1-3-e-2-5-1-6-f-4-5-2-3-g-3-4-1-3-h-5-6-1-3-i-2-3-3-4-1-2-j-1-2-1-3-1-6-k-1-1-3-3-2-3-l-4-2-3-3-1-4-m-16-5-7-5-n-4-3-1-2/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "9 4 6 8 6 8 4 3",
+            "content": "i like puzzles that can have different solutions depending how you look at them i always get a different perspective from the geekdad readers this weeks puzzle was to make these equations correct by using mathematical operations 1 1 1 6 2 2 2 6 3 3 3 6 4 4 4 …",
+            "url": "https://www.wired.com/2010/03/geekdad-puzzle-of-the-week-solution-perfect-sixes/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "4 6 5 5 2 4 8 6",
+            "content": "this free fraction calculator supports fraction addition subtraction multiplication division and conversion",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "4 3 9 2 7 2 8 1",
+            "content": "use this fraction calculator to perform all the main calculations on simple or mixed fractions we support addition subtraction multiplication division of fractions fraction simplification and two types of conversions fraction to decimal and decimal to fraction",
+            "url": "https://www.omnicalculator.com/math/fraction",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "6 0 5 3 6 7 2 7",
+            "content": "ask any question and get an answer from our subject experts in as little as 2 hours",
+            "url": "https://www.chegg.com/homework-help/questions-and-answers/let-0-27-9-21-0-2-4-2-6-2-4-10-2-2-4-b-5-2-7-c-1-8-4-d-1-8-3--determinetherankofthefollowi-q228025358",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 1 7 8 1 4 7 2",
+            "content": "virtual nerdx27s patentpending tutorial system provides incontext information hints and links to supporting tutorials synchronized with videos each 3 to 7 minutes long in this nonlinear system users are free to take whatever path through the material best serves their needs",
+            "url": "https://virtualnerd.com/worksheetHelper.php?tutID=PreAlg_05_01_0022",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 7 6 4 2 9 3 6",
+            "content": "średnia arytmetyczna tych ocen jest równa 36 oblicz liczbę x ocen bardzo dobrych 5 z matematyki wystawionych na koniec semestru w tej klasie wyniki sprawdzianu z matematyki są przedstawione na poniższym diagramie średnia ocen uzyskanych przez uczniów z tego sprawdzianu jest równa średnia arytmetyczna zestawu danych 24789",
+            "url": "https://www.matemaks.pl/srednia-arytmetyczna.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 6 6 8 5 6 5 4",
+            "content": "calculation 8546 fraction calculator subtraction of fractions and numbers and simplification the result to a proper fraction the result is 1415 ≅ 09333333 fourteen fifteenths",
+            "url": "https://www.hackmath.net/en/calculator/fraction?input=8/5-4/6",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "3 3 3 2 8 2 8 6",
+            "content": "this free fraction calculator supports fraction addition subtraction multiplication division and conversion",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "6 1 3 2 5 5 1 8",
+            "content": "this free fraction calculator supports fraction addition subtraction multiplication division and conversion",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "3 4 3 8 8 1 4 1",
+            "content": "a stepbystep solution to 14 plus 38 with the answer in fraction form",
+            "url": "https://mathhelper.us/1over4/plus/3over8",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "3 1 3 4 8 9 7 6",
+            "content": "mixed numbers calculator to add subtract multiply and divide mixed numbers mixed fractions fractions and integers do math with mixed numbers and mixed fractions such as 1 12 or 3 58",
+            "url": "https://www.calculatorsoup.com/calculators/math/mixednumbers.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "0 3 4 9 4 5 4 4",
+            "content": "interactive algebra calculators for solving equations polynomials rational functions simplification vectors matrices linear algebra quaternions finite groups finite fields domain amp range",
+            "url": "https://www.wolframalpha.com/examples/mathematics/algebra",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "7 8 1 3 3 1 9 6",
+            "content": "the sum of the first 20 terms of 15×616×717×8 is a 016 b 16 c 16 d none of these in the following number series how many 7x27s are there which are immediately preceded by a pair of numbers whose product is more than the product of the pair of numbers immediately following 7 5 3 7 2 4 7 1 4 5 6 7 2 7 3 9 8 7 6 8 7",
+            "url": "https://www.doubtnut.com/qna/3639471",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "3 8 5 5 1 3 2 6",
+            "content": "multiply and express as a mixed fraction a 3 × 5 15 b 5 × 6 34 c 7 × 2 14 d 4 × 6 13 e 3 14 × 6 f 3 25 × 8 fractions are written in the form of pq where q≠0 value on solving the following multiplications are a 3 × 5 15 785 15 35 b",
+            "url": "https://www.cuemath.com/ncert-solutions/multiply-and-express-as-a-mixed-fraction-a-3-x-5-1-5-b-5-x-6-3-4-c-7-x-2-1-4-d-4-x-6-1-3-e-3-1-4-x-6-f-3-2-5-x-8/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "4 8 9 7 5 8 9 2",
+            "content": "oblicz 89 25 78 45 4 całe i 56 14 6 całych i 89 1 cała i 12 8 całych i 5… natychmiastowa odpowiedź na twoje pytanie",
+            "url": "https://brainly.pl/zadanie/12613427",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 1 6 0 3 5 0 1",
+            "content": "1949 17 03 10 10 11 09 06 06 01 00 02 02 1950 09 14 08 02 04 01 01 02 01 03 03 05 1951 01 03 12 10 13 15 17 11 11 16 18 13 1952 14 07 05 11 10 06 03 02 07 09 07 10 1953 02 14 10 07 17 10 10 08",
+            "url": "https://www.cpc.ncep.noaa.gov/data/indices/reqsoi.for",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 4 1 1 6 7 1 6",
+            "content": "this free fraction calculator supports fraction addition subtraction multiplication division and conversion",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "2 9 2 2 6 1 2 1",
+            "content": "na facebooku powstała ankieta internetowych serwisach w różnych próbach rozwiązania zadania można na to patrzeć z dwóch stron 6212 62 3 33 9 lub 623 66 1",
+            "url": "https://tvn24.pl/ciekawostki/internet-tym-zyje-6-2-2-1-ekspert-wyjasnia-zagadke-tego-dzialania-ra311736-ls3426681",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "4 4 3 1 9 3 6 5",
+            "content": "b 516 c 256 d 252 dana jest liczba x632cdot left frac13 right 4",
+            "url": "https://www.matemaks.pl/zadania-z-potegowania-i-pierwiastkowania.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "4 5 2 7 9 6 1 3",
+            "content": "solve a 23 17 b 310 715 c 49 27 d 57 13 e 25 16 f 45 23 g 34 13 h 56 13 i 23 34 12 j 12 13 16 k 1 13 3 23 l 4 23 3 14 m 165 75 n 43 12",
+            "url": "https://www.cuemath.com/ncert-solutions/solve-a-2-3-1-7-b-3-10-7-15-c-4-9-2-7-d-5-7-1-3-e-2-5-1-6-f-4-5-2-3-g-3-4-1-3-h-5-6-1-3-i-2-3-3-4-1-2-j-1-2-1-3-1-6-k-1-1-3-3-2-3-l-4-2-3-3-1-4-m-16-5-7-5-n-4-3-1-2/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "3 9 8 4 4 6 4 8",
+            "content": "cat2024 cat2025 catpreparation ipmat these online lectures will be very helpful to those who are preparing for cat xat iift snap nmat clat ipmat",
+            "url": "https://www.youtube.com/watch?v=3pitQSRSsq4",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "1 3 5 4 3 3 6 9",
+            "content": "adding fractions 24 34 78 39 dividing fractions 12 34 reciprocal of a fraction 1 34 square of a fraction 23 2 cube of a fraction 23 3 exponentiation of a fraction 12 4 fractional exponents 16 12 adding fractions and mixed numbers 85 6 27 dividing",
+            "url": "https://www.hackmath.net/en/calculator/fraction",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "2 2 2 0 7 6 7 1",
+            "content": "skip to main content select your language close bgбългарски esespañol csčeština dadansk dedeutsch eteesti elελληνικά",
+            "url": "https://commission.europa.eu/publications/omnibus-ii_en",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "7 8 5 4 6 6 4 3",
+            "content": "this free fraction calculator supports fraction addition subtraction multiplication division and conversion",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "3 9 3 1 4 9 7 6",
+            "content": "this free fraction calculator supports fraction addition subtraction multiplication division and conversion",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "7 2 1 6 3 9 7 7",
+            "content": "solve a 23 17 b 310 715 c 49 27 d 57 13 e 25 16 f 45 23 g 34 13 h 56 13 i 23 34 12 j 12 13 16 k 1 13 3 23 l 4 23 3 14 m 165 75 n 43 12",
+            "url": "https://www.cuemath.com/ncert-solutions/solve-a-2-3-1-7-b-3-10-7-15-c-4-9-2-7-d-5-7-1-3-e-2-5-1-6-f-4-5-2-3-g-3-4-1-3-h-5-6-1-3-i-2-3-3-4-1-2-j-1-2-1-3-1-6-k-1-1-3-3-2-3-l-4-2-3-3-1-4-m-16-5-7-5-n-4-3-1-2/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 7 4 7 5 6 8 5",
+            "content": "answer 1 of 9 here are some expression 1 123456789 2 123456789 3 123456789 4 123456789 5 123456789 6 123456789 7 123456789 8 123456789 9 123456789 10 123456789 11 123456789",
+            "url": "https://www.quora.com/You-have-the-numbers-1-2-3-4-5-6-7-8-and-9-How-would-you-add-plus-or-minus-signs-in-a-way-that-the-result-will-be-100",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "1 5 8 2 2 6 5 3",
+            "content": "this free fraction calculator supports fraction addition subtraction multiplication division and conversion",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 4 8 8 4 3 9 7",
+            "content": "kliknij tutaj 👆 aby dostać odpowiedź na pytanie ✍️ oblicz a 49 34 b 58 712 c 78 2433 d 1 18 415 e 2 35 5 f 1 57 6 g…",
+            "url": "https://brainly.pl/zadanie/2822074",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "3 9 3 2 1 7 1 9",
+            "content": "solve a 23 17 b 310 715 c 49 27 d 57 13 e 25 16 f 45 23 g 34 13 h 56 13 i 23 34 12 j 12 13 16 k 1 13 3 23 l 4 23 3 14 m 165 75 n 43 12",
+            "url": "https://www.cuemath.com/ncert-solutions/solve-a-2-3-1-7-b-3-10-7-15-c-4-9-2-7-d-5-7-1-3-e-2-5-1-6-f-4-5-2-3-g-3-4-1-3-h-5-6-1-3-i-2-3-3-4-1-2-j-1-2-1-3-1-6-k-1-1-3-3-2-3-l-4-2-3-3-1-4-m-16-5-7-5-n-4-3-1-2/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "7 4 2 9 9 6 1 4",
+            "content": "this free fraction calculator supports fraction addition subtraction multiplication division and conversion",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "3 4 3 5 7 5 7 4",
+            "content": "calculation 35 plus 47 fraction calculator addition of fractions and numbers and simplification the result to a proper fraction the result is 4135 1 635 ≅ 11714286 fortyone thirtyfifths or one and six thirtyfifths",
+            "url": "https://www.hackmath.net/en/calculator/fraction?input=3/5%2B4/7",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "1 1 5 4 2 5 4 5",
+            "content": "this problem was shared on facebook with the claim that only one in a thousand could figure it out it went viral and generated over 3 million comments here",
+            "url": "https://www.youtube.com/watch?v=XM1NNRNmZ6c",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "6 9 6 9 3 3 5 9",
+            "content": "calculation 6 593 23 fraction calculator subtraction of fractions and numbers and simplification the result to a proper fraction the result is 269 2 89 ≅ 28888889 twentysix ninths or two and eight ninths",
+            "url": "https://www.hackmath.net/en/calculator/fraction?input=6+5/9-3+2/3",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "4 7 4 5 4 1 4 4",
+            "content": "last updated 3112025 925 pm edt copyright kentucky legislative research commission all rights reserved",
+            "url": "https://apps.legislature.ky.gov/record/25rs/hb4.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "8 4 7 5 9 6 2 5",
+            "content": "free math problem solver answers your algebra geometry trigonometry calculus and statistics homework questions with stepbystep explanations just like a math tutor",
+            "url": "https://www.mathway.com/popular-problems/Algebra/240861",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "9 5 5 7 3 8 9 2",
+            "content": "use this fraction calculator to perform all the main calculations on simple or mixed fractions we support addition subtraction multiplication division of fractions fraction simplification and two types of conversions fraction to decimal and decimal to fraction",
+            "url": "https://www.omnicalculator.com/math/fraction",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "4 2 2 3 3 9 4 5",
+            "content": "this free fraction calculator supports fraction addition subtraction multiplication division and conversion",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "3 2 7 5 9 9 9 7",
+            "content": "calculation 4 392 79 fraction calculator subtraction of fractions and numbers and simplification the result to a proper fraction the result is 149 1 59 ≅ 15555556 fourteen ninths or one and five ninths",
+            "url": "https://www.hackmath.net/en/calculator/fraction?input=4+3/9-2+7/9",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "8 2 2 6 8 6 8 1",
+            "content": "mixed numbers calculator to add subtract multiply and divide mixed numbers mixed fractions fractions and integers do math with mixed numbers and mixed fractions such as 1 12 or 3 58",
+            "url": "https://www.calculatorsoup.com/calculators/math/mixednumbers.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "7 9 3 6 8 6 9 5",
+            "content": "mixed numbers calculator to add subtract multiply and divide mixed numbers mixed fractions fractions and integers do math with mixed numbers and mixed fractions such as 1 12 or 3 58",
+            "url": "https://www.calculatorsoup.com/calculators/math/mixednumbers.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "9 4 9 9 5 2 6 2",
+            "content": "this free fraction calculator supports fraction addition subtraction multiplication division and conversion",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "2 1 6 9 4 8 8 5",
+            "content": "mixed numbers calculator to add subtract multiply and divide mixed numbers mixed fractions fractions and integers do math with mixed numbers and mixed fractions such as 1 12 or 3 58",
+            "url": "https://www.calculatorsoup.com/calculators/math/mixednumbers.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "1 6 0 7 6 0 6 3",
+            "content": "oblicza 0406 1425b 0709 1406c 1323 2 3414 natychmiastowa odpowiedź na twoje pytanie",
+            "url": "https://brainly.pl/zadanie/13992158",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "8 6 7 0 0 5 8 0",
+            "content": "let a2134b5474c2538 find a matrix d if a12 3 4 2 5and b2 4 23 5 1 then find ab find ab if a6 9 2 3and b2 6 0 7 9 8",
+            "url": "https://www.doubtnut.com/qna/1377",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "0 1 6 9 4 7 9 8",
+            "content": "liczbę 0000421 można zapisać w postaci acdot 10k gdzie a in langle 1 10 k in mathbbz wówczas wiadomo że x012056 wtedy x03615 równa się liczby a543 b5555 c 512 57 d53 cdot 56 ustawiono w kolejności",
+            "url": "https://www.matemaks.pl/zadania-z-potegowania-i-pierwiastkowania.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "1 0 2 4 9 6 5 8",
+            "content": "we cannot provide a description for this page right now",
+            "url": "https://mcdonalds.pl/tabela-wartosci-odzywczych/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "4 6 9 7 9 3 7 8",
+            "content": "free math problem solver answers your algebra geometry trigonometry calculus and statistics homework questions with stepbystep explanations just like a math tutor",
+            "url": "https://www.mathway.com/popular-problems/Algebra/240861",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "2 2 7 8 7 8 3 2",
+            "content": "41 votes 30 comments 17m subscribers in the theydidthemath community and they said math has no real world applications",
+            "url": "https://www.reddit.com/r/theydidthemath/comments/rnlumb/request_a_friend_just_sent_me_this_and_for_the/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "1 1 7 6 4 2 5 5",
+            "content": "solve a 23 17 b 310 715 c 49 27 d 57 13 e 25 16 f 45 23 g 34 13 h 56 13 i 23 34 12 j 12 13 16 k 1 13 3 23 l 4 23 3 14 m 165 75 n 43 12",
+            "url": "https://www.cuemath.com/ncert-solutions/solve-a-2-3-1-7-b-3-10-7-15-c-4-9-2-7-d-5-7-1-3-e-2-5-1-6-f-4-5-2-3-g-3-4-1-3-h-5-6-1-3-i-2-3-3-4-1-2-j-1-2-1-3-1-6-k-1-1-3-3-2-3-l-4-2-3-3-1-4-m-16-5-7-5-n-4-3-1-2/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "2 4 3 3 9 3 8 6",
+            "content": "🎓 oblicz a 956 923 b 845 8215 c 2512 51812 d 2 231 12 e 49342 pytania i odpowiedzi matematyka",
+            "url": "https://odrabiamy.pl/pytania-i-odpowiedzi/matematyka/oblicz-a-9-5-6-9-2-3-b-8-4-5-8-2-15-c-2-5-1-2-5-18",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 3 3 7 0 9 5 2",
+            "content": "zobacz zadania i rozwiązania z podręcznika matematyka klasa 3 zbiór zadań zakres rozszerzony rozwiązania i odpowiedzi dla klasy 3 szkoły średniej wydawnictwo oe pazdro",
+            "url": "https://skul.pl/matematyka/matematyka-klasa-3-zbior-zadan-zakres-rozszerzony-rozwiazania-i-odpowiedzi,kid,785",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "1 7 2 7 6 1 1 5",
+            "content": "mixed numbers calculator to add subtract multiply and divide mixed numbers mixed fractions fractions and integers do math with mixed numbers and mixed fractions such as 1 12 or 3 58",
+            "url": "https://www.calculatorsoup.com/calculators/math/mixednumbers.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 1 3 9 7 4 7 3",
+            "content": "solve a 23 17 b 310 715 c 49 27 d 57 13 e 25 16 f 45 23 g 34 13 h 56 13 i 23 34 12 j 12 13 16 k 1 13 3 23 l 4 23 3 14 m 165 75 n 43 12",
+            "url": "https://www.cuemath.com/ncert-solutions/solve-a-2-3-1-7-b-3-10-7-15-c-4-9-2-7-d-5-7-1-3-e-2-5-1-6-f-4-5-2-3-g-3-4-1-3-h-5-6-1-3-i-2-3-3-4-1-2-j-1-2-1-3-1-6-k-1-1-3-3-2-3-l-4-2-3-3-1-4-m-16-5-7-5-n-4-3-1-2/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "7 9 9 4 7 6 7 3",
+            "content": "the numbers 7 and 9 in the ones place are added together and the result is 16 when the addition result is greater than or equal to 10 it is necessary to carry 1 to the previous digit write the single digit 6 to the current column and write the resulting carry 1 to the previous digit",
+            "url": "https://www.mathsenior.com/arithmetic/565fd4bef00b4bc3/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "3 4 4 8 1 3 4 9",
+            "content": "znajdź odpowiedź na twoje pytanie o oblicz a 7 2 34 9 38 8 45b 12 38 14 12 8 78c 10 13 2 34 3 45 3 12d 3 12 1 13 1…",
+            "url": "https://brainly.pl/zadanie/12613256",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "0 7 6 3 9 5 2 1",
+            "content": "dana jest liczba x632cdot left frac13 right 4 wtedy liczbę 0000421 można zapisać w postaci acdot 10k gdzie a in langle 1 10 k in mathbbz wówczas wiadomo że x012056 wtedy x03615 równa się liczby a543 b5555 c 512 57",
+            "url": "https://www.matemaks.pl/zadania-z-potegowania-i-pierwiastkowania.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "1 1 3 2 8 2 9 9",
+            "content": "use this fraction calculator to perform all the main calculations on simple or mixed fractions we support addition subtraction multiplication division of fractions fraction simplification and two types of conversions fraction to decimal and decimal to fraction",
+            "url": "https://www.omnicalculator.com/math/fraction",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "7 5 6 6 7 5 6 7",
+            "content": "solve your math problems using our free math solver with stepbystep solutions our math solver supports basic math prealgebra algebra trigonometry calculus and more",
+            "url": "https://mathsolver.microsoft.com/en/solve-problem/7.5 ( 6 )",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "8 3 0 7 9 6 2 0",
+            "content": "example 5 find the average of 42 38 and 76average 42 38 763 𝟏𝟑 × 42 38 76 13 × 4210×3810×7610 13 × 42 38 7610 13 × 76 42 3810 𝟏𝟑 × 𝟏𝟓𝟔𝟏𝟎 1563 × 110 13 × 15610 𝟏𝟓𝟔𝟑 ×",
+            "url": "https://www.teachoo.com/8222/2508/Example-9/category/Examples/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 6 5 6 4 6 3 7",
+            "content": "calculation 35 plus 47 fraction calculator addition of fractions and numbers and simplification the result to a proper fraction the result is 4135 1 635 ≅ 11714286 fortyone thirtyfifths or one and six thirtyfifths",
+            "url": "https://www.hackmath.net/en/calculator/fraction?input=3/5%2B4/7",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 2 9 8 3 4 3 6",
+            "content": "mixed numbers calculator to add subtract multiply and divide mixed numbers mixed fractions fractions and integers do math with mixed numbers and mixed fractions such as 1 12 or 3 58",
+            "url": "https://www.calculatorsoup.com/calculators/math/mixednumbers.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "6 2 6 8 2 4 8 5",
+            "content": "znajdź odpowiedź na twoje pytanie o oblicz 6 8923 b 61458 c 1 1267 d 7 34 4 56",
+            "url": "https://brainly.pl/zadanie/13892256",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "3 7 4 2 7 3 3 1",
+            "content": "znajdź odpowiedź na twoje pytanie o 6 oblicz w pamięci a 74 21 27 33 35 32 b 513 37 545 …",
+            "url": "https://brainly.pl/zadanie/14075845",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "5 7 6 9 2 8 5 7",
+            "content": "use this fraction calculator to perform all the main calculations on simple or mixed fractions we support addition subtraction multiplication division of fractions fraction simplification and two types of conversions fraction to decimal and decimal to fraction",
+            "url": "https://www.omnicalculator.com/math/fraction",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "8 0 2 2 9 1 9 3",
+            "content": "interactive algebra calculators for solving equations polynomials rational functions simplification vectors matrices linear algebra quaternions finite groups finite fields domain amp range",
+            "url": "https://www.wolframalpha.com/examples/mathematics/algebra",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 5 1 4 9 0 7 3",
+            "content": "solve a 23 17 b 310 715 c 49 27 d 57 13 e 25 16 f 45 23 g 34 13 h 56 13 i 23 34 12 j 12 13 16 k 1 13 3 23 l 4 23 3 14 m 165 75 n 43 12",
+            "url": "https://www.cuemath.com/ncert-solutions/solve-a-2-3-1-7-b-3-10-7-15-c-4-9-2-7-d-5-7-1-3-e-2-5-1-6-f-4-5-2-3-g-3-4-1-3-h-5-6-1-3-i-2-3-3-4-1-2-j-1-2-1-3-1-6-k-1-1-3-3-2-3-l-4-2-3-3-1-4-m-16-5-7-5-n-4-3-1-2/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "9 7 4 7 5 6 1 0",
+            "content": "there are many number sequence puzzles on this site i acknowledge them all martin gardner introduced the puzzle with the 9 digit sequence with math operations reaching 100 as below an old",
+            "url": "https://puzzling.stackexchange.com/questions/93677/9-8-7-6-5-4-3-2-1-0-and-1-2-3-4-5-6-7-8-9-0",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "2 9 8 8 0 4 6 4",
+            "content": "mixed numbers calculator to add subtract multiply and divide mixed numbers mixed fractions fractions and integers do math with mixed numbers and mixed fractions such as 1 12 or 3 58",
+            "url": "https://www.calculatorsoup.com/calculators/math/mixednumbers.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "0 1 1 3 3 0 8 6",
+            "content": "this free fraction calculator supports fraction addition subtraction multiplication division and conversion",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "7 1 9 1 7 3 3 1",
+            "content": "solve a 23 17 b 310 715 c 49 27 d 57 13 e 25 16 f 45 23 g 34 13 h 56 13 i 23 34 12 j 12 13 16 k 1 13 3 23 l 4 23 3 14 m 165 75 n 43 12",
+            "url": "https://www.cuemath.com/ncert-solutions/solve-a-2-3-1-7-b-3-10-7-15-c-4-9-2-7-d-5-7-1-3-e-2-5-1-6-f-4-5-2-3-g-3-4-1-3-h-5-6-1-3-i-2-3-3-4-1-2-j-1-2-1-3-1-6-k-1-1-3-3-2-3-l-4-2-3-3-1-4-m-16-5-7-5-n-4-3-1-2/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "2 1 1 3 7 7 5 6",
+            "content": "the product of 12 and 53 is 56",
+            "url": "https://www.omnicalculator.com/math/fraction",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "1 5 4 9 7 6 8 0",
+            "content": "free prealgebra algebra trigonometry calculus geometry statistics and chemistry calculators stepbystep",
+            "url": "https://symbolab.com/solver/step-by-step/$$8\\cdot\\:\\frac{1}{6}+9\\cdot\\:\\frac{7}{18}$$",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 6 9 3 7 2 6 6",
+            "content": "the expression 5 586 37 of 6 7119 18892 311",
+            "url": "https://www.doubtnut.com/qna/3639471",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "8 9 4 9 4 3 7 9",
+            "content": "this free fraction calculator supports fraction addition subtraction multiplication division and conversion",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "8 9 4 9 8 7 6 1",
+            "content": "free prealgebra algebra trigonometry calculus geometry statistics and chemistry calculators stepbystep",
+            "url": "https://symbolab.com/solver/step-by-step/$$8\\cdot\\:\\frac{1}{6}+9\\cdot\\:\\frac{7}{18}$$",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "1 9 9 9 1 3 5 5",
+            "content": "kreska ułamkowa zad1a 5 27 1 37 17 6 57 17 6 47b 4 59 2 49 3 29 2 19 3 29 5 39 5 13c 2 23 4 23 3 13 2 23 1 1…",
+            "url": "https://brainly.pl/zadanie/15685329",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "9 2 3 3 5 6 6 9",
+            "content": "this free fraction calculator supports fraction addition subtraction multiplication division and conversion",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "1 8 0 3 3 4 1 2",
+            "content": "this free fraction calculator supports fraction addition subtraction multiplication division and conversion",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "8 6 9 9 0 4 0 9",
+            "content": "interactive algebra calculators for solving equations polynomials rational functions simplification vectors matrices linear algebra quaternions finite groups finite fields domain amp range",
+            "url": "https://www.wolframalpha.com/examples/mathematics/algebra",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "7 6 0 5 3 9 8 9",
+            "content": "free math problem solver answers your homework questions with stepbystep explanations",
+            "url": "https://www.mathway.com/BasicMath",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "8 6 9 7 8 2 9 7",
+            "content": "this free fraction calculator supports fraction addition subtraction multiplication division and conversion",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "6 2 3 0 3 4 7 4",
+            "content": "brain out puzzle answer level 1 to 10 watch the video till the end to get the answers to brain out puzzle 1 2 3 4 5 6 7 8 9 10 can you solve this equation",
+            "url": "https://www.youtube.com/watch?v=dQ_AYAgKE18",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "1 5 1 3 0 3 5 0",
+            "content": "free math problem solver answers your algebra geometry trigonometry calculus and statistics homework questions with stepbystep explanations just like a math tutor",
+            "url": "https://www.mathway.com/popular-problems/Algebra/290816",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "6 5 5 9 9 8 6 1",
+            "content": "i like puzzles that can have different solutions depending how you look at them i always get a different perspective from the geekdad readers this weeks puzzle was to make these equations correct by using mathematical operations 1 1 1 6 2 2 2 6 3 3 3 6 4 4 4 …",
+            "url": "https://www.wired.com/2010/03/geekdad-puzzle-of-the-week-solution-perfect-sixes/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "1 9 4 9 1 6 9 5",
+            "content": "znajdź odpowiedź na twoje pytanie o oblicz a 4 49 1 56 b 4 49 × 3 38 c 8 23 ÷ 1 49d 042÷03×052 29 1 23pilne na ter…",
+            "url": "https://brainly.pl/zadanie/15389595",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 1 6 3 1 8 5 3",
+            "content": "this free fraction calculator supports fraction addition subtraction multiplication division and conversion",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 6 7 6 1 1 7 9",
+            "content": "znajdź odpowiedź na twoje pytanie o oblicz a 23 79 56b 1 cała 12 34 58 c 1 cała 15 12 34 310 d 34 56 12e79 23 …",
+            "url": "https://brainly.pl/zadanie/5804546",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "8 5 9 7 9 1 6 4",
+            "content": "mixed numbers calculator to add subtract multiply and divide mixed numbers mixed fractions fractions and integers do math with mixed numbers and mixed fractions such as 1 12 or 3 58",
+            "url": "https://www.calculatorsoup.com/calculators/math/mixednumbers.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "4 1 8 9 7 6 5 6",
+            "content": "mixed numbers calculator to add subtract multiply and divide mixed numbers mixed fractions fractions and integers do math with mixed numbers and mixed fractions such as 1 12 or 3 58",
+            "url": "https://www.calculatorsoup.com/calculators/math/mixednumbers.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "3 8 1 9 2 2 8 8",
+            "content": "free math problem solver answers your algebra geometry trigonometry calculus and statistics homework questions with stepbystep explanations just like a math tutor",
+            "url": "https://www.mathway.com/popular-problems/Basic%20Math/10199",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 8 5 9 2 7 6 4",
+            "content": "mediana zarobków tych 6 osób jest równa ciąg 9 18 x jest geometryczny a ciąg x 30 y jest arytmetyczny oblicz medianę liczb 10 x y 12 12 18 30 mediana uporządkowanego niemalejąco zestawu sześciu liczb 1 2 3 x 5 8 jest równa 4 wtedy mediana zestawu danych 2 12 a 10 5 3 jest równa 7",
+            "url": "https://www.matemaks.pl/mediana.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "8 4 8 7 6 5 1 4",
+            "content": "adding fractions 24 34 78 39 dividing fractions 12 34 reciprocal of a fraction 1 34 square of a fraction 23 2 cube of a fraction 23 3 exponentiation of a fraction 12 4 fractional exponents 16 12 adding fractions and mixed numbers 85 6 27 dividing",
+            "url": "https://www.hackmath.net/en/calculator/fraction?input=(7/8-4/5)%5E2",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "3 0 4 7 9 6 8 1",
+            "content": "free math problem solver answers your homework questions with stepbystep explanations",
+            "url": "https://www.mathway.com/BasicMath",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "0 5 0 3 7 8 4 3",
+            "content": "free math problem solver answers your homework questions with stepbystep explanations",
+            "url": "https://www.mathway.com/BasicMath",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "8 1 2 7 3 2 3 3",
+            "content": "mixed numbers calculator to add subtract multiply and divide mixed numbers mixed fractions fractions and integers do math with mixed numbers and mixed fractions such as 1 12 or 3 58",
+            "url": "https://www.calculatorsoup.com/calculators/math/mixednumbers.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "8 3 1 3 4 7 3 3",
+            "content": "this free fraction calculator supports fraction addition subtraction multiplication division and conversion",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "1 2 9 0 0 2 6 2",
+            "content": "c 256 d 252 dana jest liczba x632cdot left frac13 right 4 wtedy liczbę 0000421 można zapisać w postaci acdot 10k gdzie a in langle 1 10 k in mathbbz",
+            "url": "https://www.matemaks.pl/zadania-z-potegowania-i-pierwiastkowania.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "6 6 7 7 5 3 9 8",
+            "content": "answer 1 of 9 here are some expression 1 123456789 2 123456789 3 123456789 4 123456789 5 123456789 6 123456789 7 123456789 8 123456789 9 123456789 10 123456789 11 123456789",
+            "url": "https://www.quora.com/You-have-the-numbers-1-2-3-4-5-6-7-8-and-9-How-would-you-add-plus-or-minus-signs-in-a-way-that-the-result-will-be-100",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "2 7 5 3 2 8 5 7",
+            "content": "wartość wyrażenia dfrac37cdot2722cdot25cdot3768 jest równa korzystając z działań na potęgach możemy zapisać że frac37cdot2722cdot25cdot3768 frac3cdot27225cdot3768 frac6727cdot3768 frac672",
+            "url": "https://szaloneliczby.pl/wartosc-wyrazenia-3-7-2-7-2-2-2-5-3-7-6-8-jest-rowna/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "9 7 2 2 7 9 1 0",
+            "content": "therefore addition can be performed yields 2 as 1 1 20112345671the point representing 1 on the number line is moved 1 units to the right along the number line and the result is 2 calculate 16 9 the result is 25 finally 7 9 9 equals 25",
+            "url": "https://www.mathsenior.com/arithmetic/565fd4bef00b4bc3/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "0 3 9 1 5 6 6 8",
+            "content": "free math problem solver answers your homework questions with stepbystep explanations",
+            "url": "https://www.mathway.com/BasicMath",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "9 5 0 8 6 5 7 8",
+            "content": "free prealgebra algebra trigonometry calculus geometry statistics and chemistry calculators stepbystep",
+            "url": "https://symbolab.com/solver/step-by-step/$$8\\cdot\\:\\frac{1}{6}+9\\cdot\\:\\frac{7}{18}$$",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 2 9 1 7 5 9 7",
+            "content": "kliknij tutaj 👆 aby dostać odpowiedź na pytanie ✍️ oblicz 75 25 14 79 4772 1 14 6 1 13 do potęgi drugiej 13 14 do potęgi d…",
+            "url": "https://brainly.pl/zadanie/5747694",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "8 6 8 9 9 9 2 1",
+            "content": "znajdź odpowiedź na twoje pytanie o oblicz 6 8923 b 61458 c 1 1267 d 7 34 4 56",
+            "url": "https://brainly.pl/zadanie/13892256",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "2 3 0 2 1 7 3 6",
+            "content": "free math problem solver answers your homework questions with stepbystep explanations",
+            "url": "https://www.mathway.com/BasicMath",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "4 5 7 9 1 4 7 5",
+            "content": "kreska ułamkowa zad1a 5 27 1 37 17 6 57 17 6 47b 4 59 2 49 3 29 2 19 3 29 5 39 5 13c 2 23 4 23 3 13 2 23 1 1…",
+            "url": "https://brainly.pl/zadanie/15685329",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "7 4 3 4 5 8 6 5",
+            "content": "brainly to platforma social learningowa dzięki której otrzymasz pomoc w zadaniu domowym dołącz do nas i ucz się w grupie",
+            "url": "https://brainly.pl/zadanie/14330302",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "3 6 7 3 7 6 9 8",
+            "content": "example 1 find 37−611−821522 37−611−821522 𝟑𝟕 −𝟖𝟐𝟏−611522 3 × 3 −821−𝟔 × 𝟐 𝟓𝟐𝟐 9 −821−12 522 𝟏𝟐𝟏−𝟕𝟐𝟐 1 × 22 −7",
+            "url": "https://www.teachoo.com/7813/2075/Example-1/category/Examples/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "6 4 1 1 9 6 7 9",
+            "content": "mixed numbers calculator to add subtract multiply and divide mixed numbers mixed fractions fractions and integers do math with mixed numbers and mixed fractions such as 1 12 or 3 58",
+            "url": "https://www.calculatorsoup.com/calculators/math/mixednumbers.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "4 9 7 8 8 0 5 1",
+            "content": "we cannot provide a description for this page right now",
+            "url": "https://wwwcdn.imo.org/localresources/en/OurWork/Facilitation/FAL%20related%20nonmandatory%20documents/FAL.5-Circ.42-Rev.1.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "7 1 3 2 0 4 6 1",
+            "content": "this free fraction calculator supports fraction addition subtraction multiplication division and conversion",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "2 7 5 2 3 5 3 7",
+            "content": "answer 1 of 14 to add 35 and 27 together you need to find a common denominator in this case the common denominator is 35 the product of 5 and 7 now you can rewrite both fractions with a common denominator 35 x 77 2135 27 x 55 1035 now you can add the fractions",
+            "url": "https://www.quora.com/What-is-the-solution-of-3-5-2-7",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "1 2 9 5 2 4 4 7",
+            "content": "solve a 23 17 b 310 715 c 49 27 d 57 13 e 25 16 f 45 23 g 34 13 h 56 13 i 23 34 12 j 12 13 16 k 1 13 3 23 l 4 23 3 14 m 165 75 n 43 12",
+            "url": "https://www.cuemath.com/ncert-solutions/solve-a-2-3-1-7-b-3-10-7-15-c-4-9-2-7-d-5-7-1-3-e-2-5-1-6-f-4-5-2-3-g-3-4-1-3-h-5-6-1-3-i-2-3-3-4-1-2-j-1-2-1-3-1-6-k-1-1-3-3-2-3-l-4-2-3-3-1-4-m-16-5-7-5-n-4-3-1-2/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 7 8 6 2 8 9 4",
+            "content": "oblicz 89 25 78 45 4 całe i 56 14 6 całych i 89 1 cała i 12 8 całych i 5… natychmiastowa odpowiedź na twoje pytanie",
+            "url": "https://brainly.pl/zadanie/12613427",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "2 5 5 6 5 4 2 2",
+            "content": "brainly to platforma social learningowa dzięki której otrzymasz pomoc w zadaniu domowym dołącz do nas i ucz się w grupie",
+            "url": "https://brainly.pl/zadanie/9718171",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "3 3 4 2 2 7 2 1",
+            "content": "calculation 3 12 4 17 fraction calculator subtraction of fractions and numbers and simplification the result to a proper fraction the result is 914 ≅ 06428571 minus nine fourteenths",
+            "url": "https://www.hackmath.net/en/calculator/fraction?input=3+1/2+-+4+1/7",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "7 7 3 3 3 4 6 3",
+            "content": "brainly to platforma social learningowa dzięki której otrzymasz pomoc w zadaniu domowym dołącz do nas i ucz się w grupie",
+            "url": "https://brainly.pl/zadanie/15231061",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "9 6 1 7 2 2 9 2",
+            "content": "mixed numbers calculator to add subtract multiply and divide mixed numbers mixed fractions fractions and integers do math with mixed numbers and mixed fractions such as 1 12 or 3 58",
+            "url": "https://www.calculatorsoup.com/calculators/math/mixednumbers.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "6 1 2 2 9 4 1 7",
+            "content": "solve a 23 17 b 310 715 c 49 27 d 57 13 e 25 16 f 45 23 g 34 13 h 56 13 i 23 34 12 j 12 13 16 k 1 13 3 23 l 4 23 3 14 m 165 75 n 43 12",
+            "url": "https://www.cuemath.com/ncert-solutions/solve-a-2-3-1-7-b-3-10-7-15-c-4-9-2-7-d-5-7-1-3-e-2-5-1-6-f-4-5-2-3-g-3-4-1-3-h-5-6-1-3-i-2-3-3-4-1-2-j-1-2-1-3-1-6-k-1-1-3-3-2-3-l-4-2-3-3-1-4-m-16-5-7-5-n-4-3-1-2/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "7 5 7 1 6 4 9 7",
+            "content": "solve a 23 17 b 310 715 c 49 27 d 57 13 e 25 16 f 45 23 g 34 13 h 56 13 i 23 34 12 j 12 13 16 k 1 13 3 23 l 4 23 3 14 m 165 75 n 43 12",
+            "url": "https://www.cuemath.com/ncert-solutions/solve-a-2-3-1-7-b-3-10-7-15-c-4-9-2-7-d-5-7-1-3-e-2-5-1-6-f-4-5-2-3-g-3-4-1-3-h-5-6-1-3-i-2-3-3-4-1-2-j-1-2-1-3-1-6-k-1-1-3-3-2-3-l-4-2-3-3-1-4-m-16-5-7-5-n-4-3-1-2/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "7 7 9 5 2 6 8 2",
+            "content": "mixed numbers calculator to add subtract multiply and divide mixed numbers mixed fractions fractions and integers do math with mixed numbers and mixed fractions such as 1 12 or 3 58",
+            "url": "https://www.calculatorsoup.com/calculators/math/mixednumbers.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "7 2 4 6 6 7 7 2",
+            "content": "calculation 4 2767 fraction calculator subtraction of fractions and numbers and simplification the result to a proper fraction the result is 247 3 37 ≅ 34285714 twentyfour sevenths or three and three sevenths",
+            "url": "https://www.hackmath.net/en/calculator/fraction?input=4+2/7-6/7",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 1 2 3 9 3 9 1",
+            "content": "kreska ułamkowa zad1a 5 27 1 37 17 6 57 17 6 47b 4 59 2 49 3 29 2 19 3 29 5 39 5 13c 2 23 4 23 3 13 2 23 1 1…",
+            "url": "https://brainly.pl/zadanie/15685329",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "4 5 4 6 3 1 2 4",
+            "content": "in the example above the denominators were 4 6 and 2 the least common multiple is the first shared multiple of these three numbers the first multiple they all share is 12 so this is the least common multiple to complete an addition or subtraction problem multiply the numerators and denominators of each fraction in the problem by whatever value will make the denominators 12 then add the numerators ex 14 16 12 1×34×3",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "1 0 5 3 9 6 4 0",
+            "content": "the log calculator logarithm calculates the value of a logarithm with an arbitrary base",
+            "url": "https://www.omnicalculator.com/math/log",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "6 9 5 8 8 6 1 0",
+            "content": "this free fraction calculator supports fraction addition subtraction multiplication division and conversion",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "8 6 6 1 3 7 0 7",
+            "content": "liczbę 0000421 można zapisać w postaci acdot 10k gdzie a in langle 1 10 k in mathbbz wówczas wiadomo że x012056 wtedy x03615 równa się liczby a543 b5555 c 512 57 d53 cdot 56 ustawiono w kolejności",
+            "url": "https://www.matemaks.pl/zadania-z-potegowania-i-pierwiastkowania.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "6 8 3 5 2 7 2 8",
+            "content": "oblicz a 2337 5689 b3 3416 2 891 710 4 595 16 c 3425 7835 2 5634 d5 791 12 7 … natychmiastowa odpowiedź na twoje pytanie",
+            "url": "https://brainly.pl/zadanie/14260118",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "1 6 9 3 5 9 3 4",
+            "content": "solve a 23 17 b 310 715 c 49 27 d 57 13 e 25 16 f 45 23 g 34 13 h 56 13 i 23 34 12 j 12 13 16 k 1 13 3 23 l 4 23 3 14 m 165 75 n 43 12",
+            "url": "https://www.cuemath.com/ncert-solutions/solve-a-2-3-1-7-b-3-10-7-15-c-4-9-2-7-d-5-7-1-3-e-2-5-1-6-f-4-5-2-3-g-3-4-1-3-h-5-6-1-3-i-2-3-3-4-1-2-j-1-2-1-3-1-6-k-1-1-3-3-2-3-l-4-2-3-3-1-4-m-16-5-7-5-n-4-3-1-2/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "3 3 6 5 2 7 7 7",
+            "content": "brainly to platforma social learningowa dzięki której otrzymasz pomoc w zadaniu domowym dołącz do nas i ucz się w grupie",
+            "url": "https://brainly.pl/zadanie/13938241",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "2 8 9 5 7 1 4 1",
+            "content": "use this fraction calculator to perform all the main calculations on simple or mixed fractions we support addition subtraction multiplication division of fractions fraction simplification and two types of conversions fraction to decimal and decimal to fraction",
+            "url": "https://www.omnicalculator.com/math/fraction",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "1 9 6 3 0 8 4 4",
+            "content": "i know why this assignment was given the motivation is to help students see patterns in numbers just exactly as your daughter did pattern recognition is very important in mathematics as is is in other areas of our lives from hearing the chord progression in a song to knowing a dance pattern",
+            "url": "http://mathcentral.uregina.ca/QQ/database/QQ.09.04/liz3.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "1 2 5 2 2 7 3 8",
+            "content": "➽ 2 12 × 3 14 52 × 134 5 × 132 × 4 658 8 18 and when multiplying a fraction by a whole number remember that you can write the whole number as itself divided by 1 ➽ 3 × 57 31 × 57 3 × 51 × 7 157",
+            "url": "https://www.omnicalculator.com/math/fraction",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 2 7 2 0 9 6 7",
+            "content": "ask any question and get an answer from our subject experts in as little as 2 hours",
+            "url": "https://www.chegg.com/homework-help/questions-and-answers/let-0-27-9-21-0-2-4-2-6-2-4-10-2-2-4-b-5-2-7-c-1-8-4-d-1-8-3--determinetherankofthefollowi-q228025358",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "6 8 7 2 9 5 7 1",
+            "content": "this free fraction calculator supports fraction addition subtraction multiplication division and conversion",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "1 1 6 7 4 0 4 9",
+            "content": "liczbę 0000421 można zapisać w postaci acdot 10k gdzie a in langle 1 10 k in mathbbz wówczas wiadomo że x012056 wtedy x03615 równa się liczby a543 b5555 c 512 57 d53 cdot 56 ustawiono w kolejności",
+            "url": "https://www.matemaks.pl/zadania-z-potegowania-i-pierwiastkowania.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "3 9 3 4 1 2 3 3",
+            "content": "free math problem solver answers your algebra geometry trigonometry calculus and statistics homework questions with stepbystep explanations just like a math tutor",
+            "url": "https://www.mathway.com/popular-problems/Basic%20Math/39831",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "8 1 8 3 4 6 2 3",
+            "content": "sometimes the fraction is relatively easy to change into decimal without any tools like for 12 34 or even 18",
+            "url": "https://www.omnicalculator.com/math/fraction",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "7 9 9 6 2 5 9 7",
+            "content": "the numbers 7 9 and 9 in the ones place are added together and the result is 25 write the unit digit 5 into the current column and carry 2 to the previous column",
+            "url": "https://www.mathsenior.com/arithmetic/565fd4bef00b4bc3/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "6 4 9 0 1 4 9 6",
+            "content": "our e calculator is an easy way to calculate eulerx27s number to any power",
+            "url": "https://www.omnicalculator.com/math/e-power-x",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "6 6 8 1 1 7 6 2",
+            "content": "mixed numbers calculator to add subtract multiply and divide mixed numbers mixed fractions fractions and integers do math with mixed numbers and mixed fractions such as 1 12 or 3 58",
+            "url": "https://www.calculatorsoup.com/calculators/math/mixednumbers.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "9 8 9 0 4 4 2 0",
+            "content": "interactive algebra calculators for solving equations polynomials rational functions simplification vectors matrices linear algebra quaternions finite groups finite fields domain amp range",
+            "url": "https://www.wolframalpha.com/examples/mathematics/algebra",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "4 4 6 2 9 7 8 6",
+            "content": "mixed numbers calculator to add subtract multiply and divide mixed numbers mixed fractions fractions and integers do math with mixed numbers and mixed fractions such as 1 12 or 3 58",
+            "url": "https://www.calculatorsoup.com/calculators/math/mixednumbers.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "5 7 1 5 3 1 7 1",
+            "content": "click herepointup2to get an answer to your question writinghandsolvefrac57 frac13",
+            "url": "https://www.toppr.com/ask/question/solvefrac57-frac13/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "1 7 8 3 7 2 3 6",
+            "content": "se realiza el calculo de las operaciones matemáticas entre fracciones¿qué es una fracciónuna fracción es una división de dos números usualmente enteros conocid…",
+            "url": "https://brainly.lat/tarea/51907670",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "8 9 0 1 9 7 4 8",
+            "content": "brainly to platforma social learningowa dzięki której otrzymasz pomoc w zadaniu domowym dołącz do nas i ucz się w grupie",
+            "url": "https://brainly.pl/zadanie/13878770",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "6 1 4 2 4 8 1 2",
+            "content": "in the example above the denominators were 4 6 and 2 the least common multiple is the first shared multiple of these three numbers the first multiple they all share is 12 so this is the least common multiple to complete an addition or subtraction problem multiply the numerators and denominators of each fraction in the problem by whatever value will make the denominators 12 then add the numerators ex 14 16 12 1",
+            "url": "https://www.calculator.net/fraction-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "6 4 1 1 1 2 7 2",
+            "content": "solve a 23 17 b 310 715 c 49 27 d 57 13 e 25 16 f 45 23 g 34 13 h 56 13 i 23 34 12 j 12 13 16 k 1 13 3 23 l 4 23 3 14 m 165 75 n 43 12",
+            "url": "https://www.cuemath.com/ncert-solutions/solve-a-2-3-1-7-b-3-10-7-15-c-4-9-2-7-d-5-7-1-3-e-2-5-1-6-f-4-5-2-3-g-3-4-1-3-h-5-6-1-3-i-2-3-3-4-1-2-j-1-2-1-3-1-6-k-1-1-3-3-2-3-l-4-2-3-3-1-4-m-16-5-7-5-n-4-3-1-2/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "0 4 7 5 4 0 6 0",
+            "content": "odpowiedźe 1281 1116 2397 7 oblicz a 42 37 79 b 54 26 8 c 06 07 13 i 109 67 42 j 074 022 052 f 452 309 761 …",
+            "url": "https://brainly.pl/zadanie/16252609",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "8 7 0 3 3 5 5 8",
+            "content": "free math problem solver answers your homework questions with stepbystep explanations",
+            "url": "https://www.mathway.com/BasicMath",
+            "engine": "braveAPI"
+        }
+    ]
+}

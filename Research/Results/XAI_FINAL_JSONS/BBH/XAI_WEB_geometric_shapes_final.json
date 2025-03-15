@@ -1,0 +1,1766 @@
+{
+    "task": "bbh_zeroshot_geometric_shapes",
+    "dataset": "web_access_geometric_shapes_final",
+    "questions": 250,
+    "noWebContextCount": 0,
+    "contaminated_queries": 19,
+    "contaminated_urls": 22,
+    "valid_urls": 250,
+    "avg_contaminated_before_valid": 1.088,
+    "contaminated_data_ratio": 0.08088235294117647,
+    "most_contaminated_urls": {},
+    "noWebContext": [],
+    "contaminated_WebContext": [],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 2,
+            "query": "this svg path element path dm 12646032 l 16362735 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "now i want to create some new path elements to add stripes to the creature i need the top portions of these path to coincide with the existing",
+            "url": "https://stackoverflow.com/questions/35016450/svg-path-to-coincide-with-a-segment-of-another-path",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 54006100 l 68405681 a 15001500 000 01 51827584 l 54006100 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 82487172 l 86867647 l 74693807 m 74693807 l 46364346 l 40466021 l 76977868 l 82487172 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 51001800 l 5006200 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "so from my understanding of svg paths you are starting from 39187540 drawing a horizontal line of 78357 length youre then drawing an",
+            "url": "https://stackoverflow.com/questions/56111923/draw-semicircle-at-the-end-of-an-svg-path-element",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 35703405 a 359359 28540 10 33794098 a 359359 28540 10 35703405 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k ellipse",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 86004700 a 28002800 000 10 30004700 a 28002800 000 10 86004700 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k ellipse",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 75625456 l 90256520 a 18091809 33871 01 74587262 l 75625456 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 19241678 l 35663880 l 35354796 l 28475502 l 24854548 l 14575870 l 19241678 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 23661278 a 908908 33596 10 7072019 a 908908 33596 10 23661278 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k ellipse",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 32897913 l 31585583 l 49273923 l 79903952 l 95176331 m 95176331 l 97288295 l 68079960 l 32897913 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 38006200 l 47005800 l 54004900 l 54006000 l 65006200 l 62006900 l 53007300 l 42007100 l 38006200 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 29258814 l 74917460 m 74917460 l 84134402 m 84134402 l 75161424 l 45196173 m 45196173 l 25898605 l 29258814 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 90548419 l 72033441 l 33904859 m 33904859 l 52419837 m 52419837 l 90548419 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k trapezoid",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 98969235 l 44272827 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "i am trying to create a shape using an svg path that follows the outline of an svg polygon i need to set the d attribute of the svg path",
+            "url": "https://stackoverflow.com/questions/52241876/and-an-svg-path-that-follows-the-outline-of-an-svg-polygon",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 73738722 l 79295906 l 53873889 l 73738722 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 64518970 a 26042604 4627 10 28525207 a 26042604 4627 10 64518970 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k ellipse",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 31828060 l 69445163 l 71484291 l 63734047 l 54894636 l 31828060 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 68003600 l 61008000 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "so from my understanding of svg paths you are starting from 39187540 drawing a horizontal line of 78357 length youre then drawing an",
+            "url": "https://stackoverflow.com/questions/56111923/draw-semicircle-at-the-end-of-an-svg-path-element",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 33841725 l 42641270 m 42641270 a 990990 10348 01 34312714 l 33841725 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 93006600 l 40006500 l 20001900 l 93006600 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 63397277 a 23432343 5643 10 37483373 a 23432343 5643 10 63397277 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k ellipse",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 45009700 l 87007800 l 80003100 l 3700900 l 3004600 l 9008200 l 45009700 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 65794649 l 45361710 l 22853275 l 43286214 l 65794649 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k trapezoid",
+            "content": "the path element is used to define a path paths are used to create simple or complex shapes combining several straight or curved lines",
+            "url": "https://www.w3schools.com/graphics/svg_path.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "this svg path element path dm 2106172 l 38864498 m 38864498 l 65796332 l 39631162 l 21253704 m 21253704 l 31133833 l 2106172 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 62007700 l 17003100 l 96003900 l 62007700 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 4819625 l 38922071 l 739506 m 739506 l 4819625 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 41417690 l 70555528 m 70555528 l 69153098 m 69153098 l 54951201 m 54951201 l 45925383 l 38467628 m 38467628 l 41417690 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 2008000 l 51005900 l 86008400 l 53001500 l 28004800 l 41005000 l 2008000 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 5466502 l 59481319 l 56182248 l 45062808 m 45062808 l 35122233 m 35122233 l 30701563 l 3815418 l 5466502 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "paths that are closed end with a z character but every path i make closes and fills regardless of whether i include a z or not",
+            "url": "https://stackoverflow.com/questions/10213155/unclosed-svg-path-appears-to-be-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 3184921 l 39792326 l 46031973 l 3809568 m 3809568 l 3184921 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k trapezoid",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 54803910 l 47355212 m 47355212 l 45843785 l 36252596 l 49963350 l 56842955 l 70143000 m 70143000 l 54803910 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "paths that are closed end with a z character but every path i make closes and fills regardless of whether i include a z or not",
+            "url": "https://stackoverflow.com/questions/10213155/unclosed-svg-path-appears-to-be-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "this svg path element path dm 12892763 l 16462141 m 16462141 l 23971993 m 23971993 l 28271691 l 36051839 l 35282822 m 35282822 l 27403633 l 25212677 l 12892763 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 57332585 a 18811881 35125 10 20153157 a 18811881 35125 10 57332585 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k ellipse",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 67454924 l 80192111 m 80192111 l 5588055 m 5588055 l 2451849 m 2451849 l 20744480 m 20744480 l 42705761 m 42705761 l 67454924 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 60007700 l 75005500 l 6006000 l 22007800 l 3009600 l 93009000 l 60007700 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 51786332 l 1419749 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "now i want to create some new path elements to add stripes to the creature i need the top portions of these path to coincide with the existing",
+            "url": "https://stackoverflow.com/questions/35016450/svg-path-to-coincide-with-a-segment-of-another-path",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 27916716 l 3815519 l 2281346 m 2281346 l 27916716 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "this svg path element path dm 52007200 l 3009500 l 53003000 l 52007200 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 41704116 a 366366 35566 10 34404172 a 366366 35566 10 41704116 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k ellipse",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 0586364 l 34424220 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "so from my understanding of svg paths you are starting from 39187540 drawing a horizontal line of 78357 length youre then drawing an",
+            "url": "https://stackoverflow.com/questions/56111923/draw-semicircle-at-the-end-of-an-svg-path-element",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 60525612 l 42845873 m 42845873 l 41144723 l 58824463 m 58824463 l 57133313 l 76534834 l 62216761 m 62216761 l 60525612 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "paths that are closed end with a z character but every path i make closes and fills regardless of whether i include a z or not",
+            "url": "https://stackoverflow.com/questions/10213155/unclosed-svg-path-appears-to-be-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 5307504 l 61701114 l 62832238 l 66682910 l 63414033 l 49093783 l 38282514 l 52622325 l 5307504 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 58003500 l 84003500 a 26002600 000 01 32263867 l 58003500 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 55465872 l 70255016 m 70255016 l 78355733 m 78355733 l 71186542 l 55465872 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 41972134 l 12233525 m 12233525 l 4621898 l 3436507 l 41972134 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k trapezoid",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 45543215 l 60293681 l 58874307 l 53014570 l 45543215 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 39382298 l 31752787 m 31752787 l 30451931 m 30451931 l 37391413 l 39382298 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 25003800 l 89005800 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "so from my understanding of svg paths you are starting from 39187540 drawing a horizontal line of 78357 length youre then drawing an",
+            "url": "https://stackoverflow.com/questions/56111923/draw-semicircle-at-the-end-of-an-svg-path-element",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 34004700 l 59004700 a 25002500 000 01 9255053 l 34004700 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 66841367 l 81502251 m 81502251 l 75763204 l 61092320 l 55353273 l 5026967 l 7258414 l 66841367 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "this svg path element path dm 4127294 l 38853538 m 38853538 l 50287712 l 30898059 m 30898059 l 31439013 l 22939201 m 22939201 l 4127294 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 66674689 a 24182418 35188 10 18805372 a 24182418 35188 10 66674689 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k ellipse",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 72253599 l 47912599 a 26322632 27585 01 67511010 l 72253599 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 47845333 l 50684565 l 67094091 l 56005391 l 47845333 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 42844537 l 48554535 m 48554535 l 49275161 l 55535089 l 56805646 m 56805646 l 51676148 m 51676148 l 42625998 l 39665081 l 42844537 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 41485575 l 33962996 m 33962996 l 54254575 m 54254575 l 81494818 l 54725647 l 51277026 l 34158684 m 34158684 l 41485575 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 2886740 l 5323240 m 5323240 a 24882488 6194 01 46232521 l 2886740 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 13001700 l 78002200 l 44005900 l 13001700 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 51001800 l 5006200 l 37006300 l 53007100 l 52005500 l 65003100 l 51001800 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 22006200 l 30007400 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is used to define a path paths are used to create simple or complex shapes combining several straight or curved lines",
+            "url": "https://www.w3schools.com/graphics/svg_path.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 68003600 l 61008000 l 50009000 l 34009000 l 41007500 l 14007800 l 68003600 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 24955983 l 44015816 l 57115131 m 57115131 l 75013290 l 72801881 m 72801881 l 36382258 l 24955983 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 4510967 l 15223395 l 77943748 l 4510967 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 41004200 l 37003400 l 41003000 l 45003400 l 41004200 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 22066518 l 22586452 l 7525261 l 7005326 l 22066518 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k trapezoid",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 64092948 l 52022269 l 48182951 l 60253630 l 64092948 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k trapezoid",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 26951195 a 830830 32218 10 13832213 a 830830 32218 10 26951195 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k ellipse",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 95207083 l 87797867 l 75597989 l 69027172 l 67786384 l 72645751 l 82815578 l 93466066 l 95207083 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 60003300 l 55424300 a 11001100 000 01 52812468 l 60003300 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "this svg path element path dm 49563061 l 43414044 l 37023644 l 43172661 l 36782262 l 53071845 l 55943461 l 49563061 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is used to define a path paths are used to create simple or complex shapes combining several straight or curved lines",
+            "url": "https://www.w3schools.com/graphics/svg_path.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 11791693 l 56178016 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "now i want to create some new path elements to add stripes to the creature i need the top portions of these path to coincide with the existing",
+            "url": "https://stackoverflow.com/questions/35016450/svg-path-to-coincide-with-a-segment-of-another-path",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 68306399 l 51755630 l 54654537 l 44784920 m 44784920 l 53452900 l 58013891 l 72033979 l 68306399 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "paths that are closed end with a z character but every path i make closes and fills regardless of whether i include a z or not",
+            "url": "https://stackoverflow.com/questions/10213155/unclosed-svg-path-appears-to-be-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 22621554 l 3801285 a 19951995 3402 01 41622164 l 22621554 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 46916820 l 41505724 a 12221222 25993 01 59126783 l 46916820 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "this svg path element path dm 76003000 l 58002500 l 42002600 l 41004100 l 47005400 l 76003000 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 40992944 l 35533854 l 29623500 m 29623500 l 35072590 l 32792453 l 43981825 l 43263080 l 40992944 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 22373709 l 19672362 l 28473197 l 28412518 m 28412518 l 36861898 l 37152675 l 35723389 l 27913838 m 27913838 l 22373709 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 72135574 l 66377694 a 21972197 10519 01 74833393 l 72135574 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 3502569 l 27032201 m 27032201 l 25133749 l 39294112 m 39294112 l 52793771 l 3502569 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the main problems that i am having are i cant seem to find a way to dynamically fit the path element onto the square the path element seems to",
+            "url": "https://stackoverflow.com/questions/19721574/cant-get-a-svg-path-to-fit-into-svg-box",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 31143062 l 27611681 l 36591451 l 44381620 l 49102603 l 38644268 l 22163291 l 31143062 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 50911841 l 57395834 l 25824512 l 33113136 l 26902704 l 29872084 m 29872084 l 50911841 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 53876190 l 52734916 a 12801280 20760 01 63985406 l 53876190 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 26971456 a 20062006 22794 10 53854434 a 20062006 22794 10 26971456 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k ellipse",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 90418238 l 45539784 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "so from my understanding of svg paths you are starting from 39187540 drawing a horizontal line of 78357 length youre then drawing an",
+            "url": "https://stackoverflow.com/questions/56111923/draw-semicircle-at-the-end-of-an-svg-path-element",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 40597140 l 40346566 m 40346566 l 46616469 m 46616469 l 45645842 l 51195691 m 51195691 l 56456188 l 55307105 l 46197438 l 40597140 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 10724556 l 30022689 m 30022689 l 71496244 m 71496244 l 10724556 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "this svg path element path dm 49472627 l 55286593 l 48517747 m 48517747 l 34788176 l 36766700 m 36766700 l 14387683 m 14387683 l 49472627 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 81975168 l 56452926 m 56452926 l 50052903 m 50052903 l 49413481 l 54754020 m 54754020 l 81975168 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 25003800 l 89005800 l 46009500 l 31007400 l 20008000 l 13007100 l 25003800 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the main problems that i am having are i cant seem to find a way to dynamically fit the path element onto the square the path element seems to",
+            "url": "https://stackoverflow.com/questions/19721574/cant-get-a-svg-path-to-fit-into-svg-box",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "this svg path element path dm 38994651 l 55712957 m 55712957 l 4362822 m 4362822 l 1882559 m 1882559 l 6413084 m 6413084 l 18874596 m 18874596 l 38994651 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 32431123 l 25243100 m 25243100 a 21042104 29807 01 11901587 l 32431123 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 25511964 l 19152605 m 19152605 a 903903 32287 01 30901239 l 25511964 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 73007200 l 9007200 l 9003700 l 73003700 l 73007200 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k trapezoid",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 21224376 l 1359793 l 49153584 m 49153584 l 21224376 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 50004000 a 18001800 000 10 14004000 a 18001800 000 10 50004000 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k ellipse",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 1851548 l 34192780 a 27272727 24303 01 8203073 l 1851548 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 50004500 l 77004500 l 77003300 l 50003300 l 50004500 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k trapezoid",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 93436932 l 68068858 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "now i want to create some new path elements to add stripes to the creature i need the top portions of these path to coincide with the existing",
+            "url": "https://stackoverflow.com/questions/35016450/svg-path-to-coincide-with-a-segment-of-another-path",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "this svg path element path dm 5413788 l 1691906 m 1691906 l 0304385 m 0304385 l 5413788 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 9804008 l 12271853 m 12271853 l 2917660 l 43193088 l 27014751 m 27014751 l 9804008 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the reason for this error there is an incomplete l relative lineto command missing a y coordinate you should also close your path by a z",
+            "url": "https://stackoverflow.com/questions/69917754/svg-error-path-attribute-d-unexpected-end-of-attribute",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 59435276 l 75492745 l 5492440 m 5492440 l 2370777 l 15154215 l 34515744 l 59435276 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 38006800 l 32005900 l 36004500 l 47003800 l 64003700 l 71005500 l 65006800 l 48007300 l 38006800 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 55645268 l 35525776 m 35525776 l 30043605 m 30043605 l 50163097 m 50163097 l 55645268 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k trapezoid",
+            "content": "the reason for this error there is an incomplete l relative lineto command missing a y coordinate you should also close your path by a z",
+            "url": "https://stackoverflow.com/questions/69917754/svg-error-path-attribute-d-unexpected-end-of-attribute",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 69244618 l 13173844 l 30156129 l 33427685 l 44016732 l 67926311 l 69244618 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 43582253 a 14291429 34779 10 15652857 a 14291429 34779 10 43582253 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k ellipse",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 57006200 l 80006200 l 80004900 l 57004900 l 57006200 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k trapezoid",
+            "content": "paths that are closed end with a z character but every path i make closes and fills regardless of whether i include a z or not",
+            "url": "https://stackoverflow.com/questions/10213155/unclosed-svg-path-appears-to-be-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 64006300 l 44006300 l 44005000 l 64005000 l 64003700 l 83005700 l 64007600 l 64006300 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 56654882 l 49885120 l 41544634 m 41544634 l 38843812 l 40982702 l 53702547 l 61073146 m 61073146 l 61504321 m 61504321 l 56654882 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "paths that are closed end with a z character but every path i make closes and fills regardless of whether i include a z or not",
+            "url": "https://stackoverflow.com/questions/10213155/unclosed-svg-path-appears-to-be-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "this svg path element path dm 73432701 l 6907925 l 49098471 l 69219737 l 69967608 m 69967608 l 90274602 m 90274602 l 73432701 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the main problems that i am having are i cant seem to find a way to dynamically fit the path element onto the square the path element seems to",
+            "url": "https://stackoverflow.com/questions/19721574/cant-get-a-svg-path-to-fit-into-svg-box",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 22341753 a 19211921 22048 10 51574247 a 19211921 22048 10 22341753 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k ellipse",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 15441580 l 2207746 m 2207746 l 3315717 l 43501657 m 43501657 l 41482932 m 41482932 l 36233666 m 36233666 l 21223346 l 15441580 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 39534066 l 36952064 l 49961896 m 49961896 l 52553898 l 65563730 l 47995890 l 26524234 l 39534066 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 53642971 l 61553355 m 61553355 l 65494275 m 65494275 l 60754985 m 60754985 l 54925275 l 48805052 m 48805052 l 44974303 m 44974303 l 46153355 m 46153355 l 53642971 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 32407823 l 57507624 m 57507624 l 74816736 l 98564333 l 95802476 m 95802476 l 47832933 m 47832933 l 32407823 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 62252753 l 52772660 m 52772660 l 47603211 m 47603211 l 41503436 l 33952967 l 41912119 l 49461314 l 62252753 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 83173203 l 87901901 l 7680819 l 69671238 l 72922211 m 72922211 l 83173203 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 56008400 l 63008400 l 63005100 l 56005100 l 56008400 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k trapezoid",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 64006300 l 36006300 l 36005000 l 64005000 l 64004500 l 85005700 l 64006800 l 64006300 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 26002300 l 19001600 l 40007400 l 83006400 l 91003800 l 34001200 l 26002300 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 34905587 l 47764758 m 47764758 l 10133479 m 10133479 l 14574790 l 0495317 m 0495317 l 49457012 m 49457012 l 34905587 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 83092307 l 79471276 l 59242073 l 46651567 l 62632974 l 83092307 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 65004200 a 21002100 000 10 23004200 a 21002100 000 10 65004200 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k ellipse",
+            "content": "paths that are closed end with a z character but every path i make closes and fills regardless of whether i include a z or not",
+            "url": "https://stackoverflow.com/questions/10213155/unclosed-svg-path-appears-to-be-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 72772683 l 76928168 l 35696011 l 47154232 m 47154232 l 39243575 l 43982769 m 43982769 l 72772683 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 4379346 l 66681086 l 56025865 l 4379346 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 26002300 l 19001600 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "so from my understanding of svg paths you are starting from 39187540 drawing a horizontal line of 78357 length youre then drawing an",
+            "url": "https://stackoverflow.com/questions/56111923/draw-semicircle-at-the-end-of-an-svg-path-element",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 41004300 l 40003600 l 41003300 l 42003600 l 41004300 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 16516921 l 1645799 m 1645799 a 18621862 21704 01 32807821 l 16516921 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 31971998 l 38554343 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "so from my understanding of svg paths you are starting from 39187540 drawing a horizontal line of 78357 length youre then drawing an",
+            "url": "https://stackoverflow.com/questions/56111923/draw-semicircle-at-the-end-of-an-svg-path-element",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 64391452 l 78742238 l 73633170 m 73633170 l 59282384 l 54173317 l 46961057 m 46961057 l 6950519 l 64391452 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 31002900 l 34007600 l 82001600 l 31002900 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 41638623 l 86158317 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "im putting together a sankey diagram via svg but suddenly under some unknown conditions one of the paths show a circle where there shouldnt be any",
+            "url": "https://stackoverflow.com/questions/72584917/how-to-fix-unwanted-circle-on-break-down-of-svg-path-element-for-sankey-links",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 51679918 l 78835546 l 77584583 l 68784631 l 62055564 m 62055564 l 51679918 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 4708515 l 2363714 l 18763634 m 18763634 l 21108435 l 4708515 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k trapezoid",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 29406939 l 51166708 l 65985897 l 86053754 l 83222148 m 83222148 l 41672657 l 29406939 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 36484606 l 35355414 l 73455946 l 74585138 l 36484606 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k trapezoid",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 14475489 l 36625257 m 36625257 l 45772911 l 14475489 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the relevant line from the svg specification regarding filling paths the fill operation fills open subpaths by performing the fill",
+            "url": "https://stackoverflow.com/questions/10213155/unclosed-svg-path-appears-to-be-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 60765559 l 73825906 l 78356306 l 72336258 l 60765559 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 41006200 l 46005800 l 51006300 l 56005800 l 61006200 l 60007000 l 51007500 l 42006900 l 41006200 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 12898725 a 28332833 12493 10 45334079 a 28332833 12493 10 12898725 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k ellipse",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 81338986 l 65204190 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "so from my understanding of svg paths you are starting from 39187540 drawing a horizontal line of 78357 length youre then drawing an",
+            "url": "https://stackoverflow.com/questions/56111923/draw-semicircle-at-the-end-of-an-svg-path-element",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 45533637 l 50554445 a 952952 7438 01 36093757 l 45533637 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 6685171 l 25836750 l 45787493 m 45787493 l 55105727 l 54843825 l 6685171 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 8105586 l 1742557 m 1742557 l 12082340 l 18445369 l 8105586 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k trapezoid",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 39784794 l 27243707 l 41813854 l 36743211 l 40221993 l 46252714 m 46252714 l 50163501 l 46024507 l 39784794 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 48482304 l 30684497 m 30684497 a 28252825 31718 01 20401991 l 48482304 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "paths that are closed end with a z character but every path i make closes and fills regardless of whether i include a z or not",
+            "url": "https://stackoverflow.com/questions/10213155/unclosed-svg-path-appears-to-be-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 31947863 l 66914950 l 68544107 l 61033902 m 61033902 l 52784498 m 52784498 l 31947863 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the main problems that i am having are i cant seem to find a way to dynamically fit the path element onto the square the path element seems to",
+            "url": "https://stackoverflow.com/questions/19721574/cant-get-a-svg-path-to-fit-into-svg-box",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 10597087 l 29762619 m 29762619 l 73721148 l 88187263 m 88187263 l 42749790 l 10597087 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the reason for this error there is an incomplete l relative lineto command missing a y coordinate you should also close your path by a z",
+            "url": "https://stackoverflow.com/questions/69917754/svg-error-path-attribute-d-unexpected-end-of-attribute",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 35503196 l 48543983 l 52993246 l 39952459 l 35503196 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k trapezoid",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 46151488 l 49412588 m 49412588 l 38552444 m 38552444 l 34701418 m 34701418 l 46151488 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is used to define a path paths are used to create simple or complex shapes combining several straight or curved lines",
+            "url": "https://www.w3schools.com/graphics/svg_path.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 37713046 l 40104562 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "so from my understanding of svg paths you are starting from 39187540 drawing a horizontal line of 78357 length youre then drawing an",
+            "url": "https://stackoverflow.com/questions/56111923/draw-semicircle-at-the-end-of-an-svg-path-element",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 25266586 l 39416615 l 17143690 m 17143690 l 13784925 l 0264602 l 29078432 l 25266586 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 27496687 l 19655641 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "so from my understanding of svg paths you are starting from 39187540 drawing a horizontal line of 78357 length youre then drawing an",
+            "url": "https://stackoverflow.com/questions/56111923/draw-semicircle-at-the-end-of-an-svg-path-element",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 34446027 l 75186591 l 32231436 m 32231436 l 34446027 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "paths that are closed end with a z character but every path i make closes and fills regardless of whether i include a z or not",
+            "url": "https://stackoverflow.com/questions/10213155/unclosed-svg-path-appears-to-be-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 32603855 l 36602984 l 39903212 l 41753568 l 32603855 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 24452322 l 30072010 l 38162315 l 41783000 l 31712918 m 31712918 l 30554339 l 23153921 l 21002890 m 21002890 l 24452322 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 60002000 l 75002500 l 87001200 l 8200400 l 7100800 l 60002000 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 34081965 l 43453098 l 38193533 l 28822400 l 26802567 l 24631316 l 36111798 m 36111798 l 34081965 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 64006300 l 44006300 l 44005000 l 64005000 l 64003700 l 85005700 l 64007600 l 64006300 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 89445148 a 13391339 34460 10 63625860 a 13391339 34460 10 89445148 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k ellipse",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 41004500 l 23184754 a 18001800 000 01 58283997 l 41004500 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 53283969 l 62673778 l 55554607 l 44804414 l 53283969 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 24292648 l 36713214 a 13641364 2451 01 11202263 l 24292648 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 27584070 l 35742214 a 20282028 29373 01 22126023 l 27584070 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 89633492 l 98156353 a 29852985 26153 01 7716780 l 89633492 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 79002000 l 60004100 l 1300700 l 79002000 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 50483530 l 66694068 m 66694068 l 65024757 l 58505037 m 58505037 l 50483530 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 54156187 l 55894826 l 65395582 l 66476792 l 54156187 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is used to define a path paths are used to create simple or complex shapes combining several straight or curved lines",
+            "url": "https://www.w3schools.com/graphics/svg_path.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 57004500 l 16004500 l 16003100 l 57003100 l 57004500 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k trapezoid",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "this svg path element path dm 55557133 l 51116445 l 42825985 l 51865844 m 51865844 l 52094914 m 52094914 l 58235071 m 58235071 l 62675759 m 62675759 l 62436689 m 62436689 l 55557133 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 32952092 l 31653507 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "so from my understanding of svg paths you are starting from 39187540 drawing a horizontal line of 78357 length youre then drawing an",
+            "url": "https://stackoverflow.com/questions/56111923/draw-semicircle-at-the-end-of-an-svg-path-element",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 38006200 l 48006000 l 51004900 l 54006000 l 65006200 l 54006400 l 51007400 l 48006400 l 38006200 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 46927861 l 46944583 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "now i want to create some new path elements to add stripes to the creature i need the top portions of these path to coincide with the existing",
+            "url": "https://stackoverflow.com/questions/35016450/svg-path-to-coincide-with-a-segment-of-another-path",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 33031870 l 36552589 m 36552589 l 33332683 m 33332683 l 30052613 m 30052613 l 33031870 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 46465732 l 58025327 l 49103059 m 49103059 l 54771649 l 38993440 l 46465732 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 27906474 l 34844447 l 47964651 l 42273546 l 66924308 m 66924308 l 55914964 m 55914964 l 56626611 l 27906474 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 55581752 l 53952614 l 47222995 m 47222995 l 48212228 l 55581752 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "this svg path element path dm 37733158 l 41813373 m 41813373 l 49193444 l 44694033 m 44694033 l 43494478 l 40074234 m 40074234 l 32694163 m 32694163 l 37193574 l 37733158 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path svg element is the generic element to define a shape all the basic shapes can be created with a path element",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/path",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 92144342 a 15261526 31012 10 72486676 a 15261526 31012 10 92144342 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k ellipse",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 14187473 l 7067765 l 54967997 l 60674613 l 44423260 l 8686569 l 14187473 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 27003000 l 83006200 l 95006000 l 94004900 l 82004100 l 27003000 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 63282583 l 51431465 m 51431465 l 46461991 l 58313109 m 58313109 l 63282583 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k trapezoid",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 41004200 l 37003200 l 41003000 l 45003200 l 41004200 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 88006700 l 70001800 l 38006000 l 73004800 l 60006200 l 88006700 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 12983192 l 92452458 m 92452458 l 59037623 l 12983192 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "paths that are closed end with a z character but every path i make closes and fills regardless of whether i include a z or not",
+            "url": "https://stackoverflow.com/questions/10213155/unclosed-svg-path-appears-to-be-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 68572035 l 6086944 m 6086944 l 69544549 m 69544549 l 71822636 m 71822636 l 83641916 m 83641916 l 68572035 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 14441199 l 76772248 l 40715525 m 40715525 l 14441199 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "paths that are closed end with a z character but every path i make closes and fills regardless of whether i include a z or not",
+            "url": "https://stackoverflow.com/questions/10213155/unclosed-svg-path-appears-to-be-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "this svg path element path dm 55578069 l 57386580 m 57386580 l 48905746 m 48905746 l 45584778 m 45584778 l 53253607 l 66294890 l 78696109 l 55578069 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "analytical problem solving 29 this task requires data analysis skills to interpret the svg path commands and deduce the shape they form",
+            "url": "https://langchain-ai.github.io/langgraph/tutorials/self-discover/self-discover/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 20002400 l 39005700 l 82005500 l 20002400 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 46355081 l 49766982 a 19311931 7981 01 40283248 l 46355081 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 45384231 a 16511651 980 10 12843669 a 16511651 980 10 45384231 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k ellipse",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 56955425 l 49395567 m 49395567 l 41354914 l 39833999 l 43922859 l 57652903 l 64493658 l 63024910 m 63024910 l 56955425 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 65972530 l 61733711 a 12551255 24058 01 57001654 l 65972530 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 38006200 l 43005300 l 54004900 l 62005500 l 65006200 l 62006900 l 53007300 l 42007100 l 38006200 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the main problems that i am having are i cant seem to find a way to dynamically fit the path element onto the square the path element seems to",
+            "url": "https://stackoverflow.com/questions/19721574/cant-get-a-svg-path-to-fit-into-svg-box",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "this svg path element path dm 64006300 l 44006300 l 44005000 l 64005000 l 64004500 l 85005700 l 64006800 l 64006300 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 41103910 l 37662053 l 49731829 l 59872121 m 59872121 l 65243462 l 49955571 l 29034134 l 41103910 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 99009700 l 10009700 l 10004900 l 99004900 l 99009700 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k trapezoid",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 88144782 l 88906007 l 96367216 l 83526738 l 76407935 l 69537280 l 68776055 m 68776055 l 75894858 m 75894858 l 88144782 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 3006000 l 55007400 l 82005000 l 91001600 l 34004400 l 1005600 l 3006000 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 1326910 l 76931590 l 11235980 l 1326910 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 88246926 l 80279500 a 26942694 10720 01 92494266 l 88246926 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is used to define a path paths are used to create simple or complex shapes combining several straight or curved lines",
+            "url": "https://www.w3schools.com/graphics/svg_path.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 14314536 l 17223711 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "now i want to create some new path elements to add stripes to the creature i need the top portions of these path to coincide with the existing",
+            "url": "https://stackoverflow.com/questions/35016450/svg-path-to-coincide-with-a-segment-of-another-path",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 17113749 l 43481353 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "so from my understanding of svg paths you are starting from 39187540 drawing a horizontal line of 78357 length youre then drawing an",
+            "url": "https://stackoverflow.com/questions/56111923/draw-semicircle-at-the-end-of-an-svg-path-element",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 7807366 l 43044962 l 74386387 m 74386387 l 37841476 m 37841476 l 23294453 l 33814410 l 7807366 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 78012113 l 69602272 l 77076239 l 85496081 l 78012113 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k trapezoid",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 82122130 l 27721389 m 27721389 l 50996431 m 50996431 l 57082588 m 57082588 l 63684485 m 63684485 l 82122130 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 22006200 l 46006500 l 64006000 l 91004200 l 92002400 l 46001900 l 22006200 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 18561857 l 23851642 m 23851642 l 26201917 m 26201917 l 23452152 l 18561857 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 24832051 l 28552410 l 33992217 l 30282659 l 32633174 l 28622775 l 23602938 l 26892525 l 24832051 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 58335218 l 34283110 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "now i want to create some new path elements to add stripes to the creature i need the top portions of these path to coincide with the existing",
+            "url": "https://stackoverflow.com/questions/35016450/svg-path-to-coincide-with-a-segment-of-another-path",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 50367074 l 58625821 a 15011501 31961 01 58328347 l 50367074 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 95004000 a 27002700 000 10 41004000 a 27002700 000 10 95004000 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k ellipse",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "this svg path element path dm 30174597 l 58794036 l 18101570 m 18101570 l 30174597 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 2275923 l 52456718 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "so from my understanding of svg paths you are starting from 39187540 drawing a horizontal line of 78357 length youre then drawing an",
+            "url": "https://stackoverflow.com/questions/56111923/draw-semicircle-at-the-end-of-an-svg-path-element",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 87949398 l 8628932 m 8628932 l 11174594 l 90495060 l 87949398 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k trapezoid",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 88155085 l 29106632 m 29106632 l 23824615 m 23824615 l 82873069 l 88155085 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k trapezoid",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 54748820 l 59548134 m 59548134 l 62506822 l 72087766 l 79828084 m 79828084 l 74658644 m 74658644 l 71709956 l 62129012 m 62129012 l 54748820 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 66809260 a 28152815 6471 10 42744170 a 28152815 6471 10 66809260 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k ellipse",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 33996012 a 11751175 15824 10 55815140 a 11751175 15824 10 33996012 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k ellipse",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 1767406 a 979979 24389 10 26292165 a 979979 24389 10 1767406 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k ellipse",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 38006800 l 32005900 l 36004500 l 47003800 l 47005500 l 71005500 l 65006800 l 48007300 l 38006800 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 45692531 l 40912982 m 40912982 l 38103067 m 38103067 l 39842830 l 45692531 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "paths that are closed end with a z character but every path i make closes and fills regardless of whether i include a z or not",
+            "url": "https://stackoverflow.com/questions/10213155/unclosed-svg-path-appears-to-be-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 39659557 a 27462746 9215 10 41704068 a 27462746 9215 10 39659557 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k ellipse",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 94113573 a 31403140 34431 10 33655271 a 31403140 34431 10 94113573 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k ellipse",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 21109794 l 22149744 l 10487334 l 9437384 l 21109794 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k trapezoid",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 38006800 l 39004100 l 52006100 l 55004800 l 74004000 l 71005500 l 65006800 l 48007300 l 38006800 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 48911478 l 36252710 m 36252710 l 834407 m 834407 l 48911478 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 72278113 l 74589735 l 85305315 l 72107275 l 55167399 m 55167399 l 72278113 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 16375245 l 42954207 m 42954207 l 19642505 l 26584404 m 26584404 l 18793709 l 16375245 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "paths that are closed end with a z character but every path i make closes and fills regardless of whether i include a z or not",
+            "url": "https://stackoverflow.com/questions/10213155/unclosed-svg-path-appears-to-be-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "this svg path element path dm 50557616 l 40007283 m 40007283 l 34225910 m 34225910 l 38514647 l 49406003 l 68544466 l 72085887 m 72085887 l 61727375 l 50557616 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 40562573 l 45833192 m 45833192 l 38733306 m 38733306 l 33002870 m 33002870 l 40562573 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the main problems that i am having are i cant seem to find a way to dynamically fit the path element onto the square the path element seems to",
+            "url": "https://stackoverflow.com/questions/19721574/cant-get-a-svg-path-to-fit-into-svg-box",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 6100300 l 89001500 l 70007400 l 6100300 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 38354941 l 3118915 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "now i want to create some new path elements to add stripes to the creature i need the top portions of these path to coincide with the existing",
+            "url": "https://stackoverflow.com/questions/35016450/svg-path-to-coincide-with-a-segment-of-another-path",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 63694606 l 61343105 l 52863237 l 55214739 l 63694606 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k trapezoid",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 74156582 l 62736982 m 62736982 l 70215822 l 84005877 m 84005877 l 74156582 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 82592992 l 82204938 m 82204938 l 65384146 l 64442289 l 82592992 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 32734782 l 41384800 m 41384800 l 45883943 m 45883943 l 46354910 l 55095277 m 55095277 l 45615241 l 41306014 l 40645131 l 32734782 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 51804418 l 62056640 l 14584269 m 14584269 l 67859220 m 67859220 l 79404832 l 51804418 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the relevant line from the svg specification regarding filling paths the fill operation fills open subpaths by performing the fill",
+            "url": "https://stackoverflow.com/questions/10213155/unclosed-svg-path-appears-to-be-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 74185965 l 50547120 m 50547120 l 38084569 m 38084569 l 61713414 m 61713414 l 74185965 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k trapezoid",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 15586868 l 0013609 m 0013609 l 9068194 l 15586868 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 31007300 l 26005500 l 37003900 l 61003400 l 77005000 l 82006500 l 62008300 l 31007300 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "this svg path element path dm 77372719 l 75571698 l 55392131 l 44391463 m 44391463 l 57183028 m 57183028 l 77372719 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the main problems that i am having are i cant seem to find a way to dynamically fit the path element onto the square the path element seems to",
+            "url": "https://stackoverflow.com/questions/19721574/cant-get-a-svg-path-to-fit-into-svg-box",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 37645186 l 2396887 m 2396887 l 38042148 m 38042148 l 37645186 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 72963263 l 7855783 m 7855783 l 39847232 l 52688715 l 58407053 l 81675169 l 72963263 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 90003600 a 25002500 000 10 40003600 a 25002500 000 10 90003600 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k ellipse",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 53736164 l 50594913 l 61505250 l 66596274 l 53736164 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 63871663 l 66664293 l 38284594 l 35491964 m 35491964 l 63871663 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle k trapezoid",
+            "content": "the d attribute defines a path to be drawn a path definition is a list of path commands where each command is composed of a command letter and numbers",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 38003500 l 4566911 a 27002700 000 01 63922746 l 38003500 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "the path element is the most powerful element in the svg library of basic shapes it can be used to create lines curves arcs and more",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "this svg path element path dm 59647772 l 75185650 m 75185650 l 6905913 m 6905913 l 22097744 m 22097744 l 2739457 m 2739457 l 91789166 m 91789166 l 59647772 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "i recently ran into a situation where i wanted an image’s color to be changed dynamically according to the theme selected by the end user here is how i solved it using reactnativesvg…",
+            "url": "https://surajmdurgad.medium.com/dynamic-colors-for-images-in-react-native-891abe117b28",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 35013797 l 42583163 l 55683387 l 63124316 l 47704484 l 50086662 m 50086662 l 37696246 m 37696246 l 31464754 l 35013797 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "httpwwwtheitvideoscoma tutorial teaches you step by step one how to set alternative row colors in crystal reports easy to follow and understandnote",
+            "url": "https://www.youtube.com/watch?v=-i2p5KPDl48",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this svg path element path dm 33222805 l 35204202 l 12902104 m 12902104 l 34125725 m 34125725 l 47793491 m 47793491 l 33222805 draws a options a circle b heptagon c hexagon d kite e line f octagon g pentagon h rectangle i sector j triangle",
+            "content": "communities for your favorite technologies explore all collectives ask questions find answers and collaborate at work with stack overflow for teams",
+            "url": "https://stackoverflow.com/questions/16255605/svg-path-position",
+            "engine": "braveAPI"
+        }
+    ]
+}

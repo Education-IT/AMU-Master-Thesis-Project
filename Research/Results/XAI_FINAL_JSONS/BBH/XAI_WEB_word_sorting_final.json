@@ -1,0 +1,1830 @@
+{
+    "task": "bbh_zeroshot_word_sorting",
+    "dataset": "web_access_word_sorting_final",
+    "questions": 250,
+    "noWebContextCount": 0,
+    "contaminated_queries": 155,
+    "contaminated_urls": 348,
+    "valid_urls": 250,
+    "avg_contaminated_before_valid": 2.392,
+    "contaminated_data_ratio": 0.5819397993311036,
+    "most_contaminated_urls": {},
+    "noWebContext": [],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list champ jigsaw acclaim pipeline exempt gadwall hypothalamus clothbound sensory lozenge hayes conclusion delirious dyestuff hood seashell commodity plentiful sarcastic teen",
+            "content": "sort the following words alphabetically list champ jigsaw acclaim pipeline exempt gadwall hypothalamus clothbound sensory lozenge hayes conclusion",
+            "url": "https://gist.github.com/av/18cc8138a0acbe1b30f51e8bb19add90",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list hodges deoxyribose troupe motorcade devisee stratify auerbach decor incommensurable dianne",
+            "content": "list hodges deoxyribose troupe motorcade devisee stratify auerbach decor incommensurable dianne these are all questions from the bbh benchmark",
+            "url": "https://www.linkedin.com/posts/victorialewisbusinesssupport_today-i-had-to-get-chat-gpt-to-help-me-to-activity-7287906710311071744-sf9U",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list thunderclap swab built poland",
+            "content": "sort the following words alphabetically list thunderclap swab built poland sort the following words alphabetically list ow cubit",
+            "url": "https://www.linkedin.com/posts/victorialewisbusinesssupport_today-i-had-to-get-chat-gpt-to-help-me-to-activity-7287906710311071744-sf9U",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "sort the following words alphabetically list thunderclap swab built poland",
+            "content": "these questions sort the following words alphabetically list thunderclap swab built poland sort the following words alphabetically list ow cubit",
+            "url": "https://www.linkedin.com/posts/jsundlo_chatgpt-makes-creating-trainings-ridiculously-activity-7200128226222878720-sR8C",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list burley bela arapaho bacteria bock",
+            "content": "s ye cytowane przez 21 sort the following words alphabetically list burley bela arapah bacteria bock llm arapaho bacteria bela bock burley page 3 instruction tuning",
+            "url": "https://iclr.cc/media/iclr-2023/Slides/11200.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list burley bela arapaho bacteria bock",
+            "content": "how they present a question like the following “sort the following words alphabetically list burley bela arapaho bacteria bock” and tryes",
+            "url": "https://medium.com/@thcookieh/big-techs-are-lying-about-llms-benchmarks-again-ef4e041d6396",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list hodges deoxyribose troupe motorcade devisee stratify auerbach decor incommensurable dianne",
+            "content": "list hodges deoxyribose troupe motorcade devisee stratify auerbach decor incommensurable dianne these are all questions from the bbh benchmark",
+            "url": "https://www.linkedin.com/posts/victorialewisbusinesssupport_today-i-had-to-get-chat-gpt-to-help-me-to-activity-7287906710311071744-sf9U",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "sort the following words alphabetically list burley bela arapaho bacteria bock",
+            "content": "s ye cytowane przez 21 sort the following words alphabetically list burley bela arapah bacteria bock llm arapaho bacteria bela bock burley page 3 instruction tuning",
+            "url": "https://iclr.cc/media/iclr-2023/Slides/11200.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "sort the following words alphabetically list burley bela arapaho bacteria bock",
+            "content": "how they present a question like the following “sort the following words alphabetically list burley bela arapaho bacteria bock” and tryes",
+            "url": "https://medium.com/@thcookieh/big-techs-are-lying-about-llms-benchmarks-again-ef4e041d6396",
+            "engine": "ddg"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 4,
+            "query": "sort the following words alphabetically list dulse kowalewski yew politician",
+            "content": "kowalewski kowalewskis kowalski kowalskis koweit kowhai kowloon kozhikode alphabetically alphabetics alphabetization alphabetizations",
+            "url": "https://dsss.be/hexwords/EnglishWords.pl",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list yang relinquish merry maladjust olefin canaan ranch batavia",
+            "content": "batavia batch batchelder bate bateau bateman bater bates bath bathe bathos canaan canada canadian canal canary canaveral canberra cancel cancellate",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list resignation dormouse bathos walt amethyst obtuse",
+            "content": "voyage vortex largess verbal vermin ver dant verdict journal journey verdure vocal labor ladle label votive",
+            "url": "https://archive.org/download/comprehensivespe00buck/comprehensivespe00buck.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list catechism daddy",
+            "content": "found 7109 terms starting with c cable cable car cable dragging cable main cable row cable withdrawal cablese cabmen cabnet cabochon",
+            "url": "https://www.kamus.net/terms/english/C/99999",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list above prometheus broken coexist big dominate olive screw thirdhand irk",
+            "content": "prometheus chapter 2 selection 12 and after the destruction of the earth in a great flood the next generation of humans was born of rocks thrown over",
+            "url": "http://icc.swu.edu.cn/__local/6/0C/07/C3B0CC2C2DEA0F16D286B49F458_02EDC267_6F3C0D.pdf?e=.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list deform budd",
+            "content": "bud budge budget buff buffalo buffet bug buggy build bulb bulge bulk sort soul sound soundly soundtrack soup sour source",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list peaceable residue sulfanilamide kingsley eft caliber headboard stamp phillip upholster irishman lobby nary gastrointestinal fragile faulkner capricious ouzo phylum",
+            "content": "alphabetically alphabetisation alphabetise alphabetised alphabetises caliber calibrate calibrated calibrates calibrating calibration calibrations",
+            "url": "https://pages.cs.wisc.edu/~akella/CS838/F16/assignment1/input.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list breezy germinal biplane canada nutrient archipelago peloponnese thigh conspiracy constructor accrue dobbin lost hamburger insubstantial malleable ted laramie",
+            "content": "canada canadian canadians canaletto canaries canaveral canberra cancer cancers cancun candace candice candide candy cannes cannon canon canopus cantabrigian",
+            "url": "https://math.hws.edu/eck/cs225/s09/lab9/words",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list odessa dance formulae dietetic mantle cost huddle resplendent bolshevism proust warmth deadline progeny hesitant palace rackety judson foster belize thirdhand",
+            "content": "price groups social turned cost saying travel sense process wall kids friends jobs european private running committee try means person capital wont coming",
+            "url": "https://theses.cz/id/6pfteu/Kryptoanaly_za/bin/LangStats/english/topwords.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list oblong bucolic whoosh",
+            "content": "sort soth sots souk soul soup sour sous sown sows soya soys spae span spar oblong oboist oboles obolus obsess obtain obtect obtest obtund obtuse",
+            "url": "https://home.cs.colorado.edu/~jrblack/class/csci7000/s05/hw/TWL98.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list gloriana milord rendezvous schnabel allegoric loge lollipop salle collate prolix mast euphony",
+            "content": "allegoric allegorist allegorize allegory allegra allegretto allegro allele collate collateral colleague collect collectible colleen college",
+            "url": "https://9p.io/sources/patch/sorry/dystopia-in-spelling-list/words",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list paginate amicable theyve histology extreme indoeuropean sonority tramway turvy coo deerstalker browne henchman pelvis calumny",
+            "content": "amicable amid amide amidst amigo amino aminobenzoic amiss amity amman browne brownell brownian brownie brownish browse bruce brucellosis bruckner",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list holocene muriel rd pathetic talon mare staircase bradshaw aperture sigh",
+            "content": "python has a builtin function called sorted which will give you a sorted list from any iterable you feed it",
+            "url": "https://stackoverflow.com/questions/14032521/python-data-structure-sort-list-alphabetically",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list bare census intrinsic torch timeout infirm humility snagging exaltation patristic paregoric gnomon moth sorrowful manatee oblique stressful",
+            "content": "a aback abaft abalone abandon abandoned abandoning abandonment abandons abase abased abasement abasements abases abash abashed abashes abashing abasing879 stron",
+            "url": "https://www.bluefirereader.com/certification/dictionary.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list duane harriet impressible whippet glamour cowbell vietnamese fest switchboard anaglyph texture",
+            "content": "anaglyph anagram anaheim analeptic analgesic analogous analogue analogy cowbell cowbird cowboy cowgirl cowhand cowherd cowhide cowl cowlick cowman",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list multiplet catsup hypothalamus scherzo bridesmaid average therewith invocable coddle charm inequity region abbas trumpery memorandum shutout integral dogfish phloem inconvertible",
+            "content": "a aback abaft abalone abandon abandoned abandoning abandonment abandons abase abased abasement abasements abases abash abashed abashes abashing abasing879 stron",
+            "url": "https://www.bluefirereader.com/certification/dictionary.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list wagging cabdriver astronomic pivot loch coherent",
+            "content": "select the list you want to sort go to home sort paragraph section in word with sort pointed out set sort by to paragraphs and text",
+            "url": "https://support.microsoft.com/en-us/office/sort-a-list-alphabetically-in-word-4d27ca57-6d64-4229-82f8-a0a1a805d494",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list mohawk thebes supercilious celandine faith hostile harold diploma octavia",
+            "content": "celandine celanese celebes celebrant celebrate celebrity celerity celery diploma diplomacy diplomat diplomatic dipole dirac dire direct director",
+            "url": "http://faculty.cooper.edu/sable2/courses/fall2015/ece165/hash/wordlist_small",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "sort the following words alphabetically list dew betelgeuse inexplainable snazzy tao stain meaty blue trail wash grossman lyre caudal epoch trailside char cyanide",
+            "content": "betelgeuse beth bethel bethesda bethlehem bethought betide betoken betony betray betrayal betrayer betroth betrothal betsey betsy bette bettor betty between",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list pea yonkers darkle quadrant moldboard instant olsen hookup erudite lip",
+            "content": "this webapp helps you to find anagrams rearrangements of the letters in a word or words for example an anagram for “stop” is “pots”",
+            "url": "http://www.andrewduncan.net/anagrammer/index.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list marlborough pyrotechnic filly grocer treadle transitive platelet deliver landau hotbox uncle siemens anger hessian gneiss convoy ninebark advent plat stapleton",
+            "content": "anger angie angiosperm angle angles anglican anglicanism angling anglo anglophobia angola angora angry angst angstrom anguish angular angus anharmonic",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list ow cubit upbring gullible awash inane gown bateau scottsdale auxin eutectic jurisprudential pirouette shockley nepenthe pussycat schwartz mistletoe travelogue",
+            "content": "as a techy i use ai tools daily for tasks within my business following gullible awash inane gown bateau scottsdale auxin eutectic",
+            "url": "https://www.linkedin.com/posts/victorialewisbusinesssupport_today-i-had-to-get-chat-gpt-to-help-me-to-activity-7287906710311071744-sf9U",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "sort the following words alphabetically list plural dose allstate stalin dyad multitudinous powderpuff",
+            "content": "this webapp helps you to find anagrams rearrangements of the letters in a word or words for example an anagram for “stop” is “pots”",
+            "url": "http://www.andrewduncan.net/anagrammer/index.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list windowsill appoint biharmonic moustache baneberry wiry dyne pirate",
+            "content": "appoint appointe appointee apport apportion apposite apposition appraisal appraise appreciable appreciate apprehend apprehension apprehensive apprentice",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list inability nucleus vague possible invocable janice erg",
+            "content": "alphabetically alphabetics alphabetize alphabetized alphabetizes erg ergo ergodic eric erich erickson ericsson erie erik erikson eris erlang",
+            "url": "https://inventwithpython.com/dictionary.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list emission upon labour whim fairfax ride crepe prig accomplice az doff clatter circumcircle tea wheelbase pleura incantation choral viaduct lorry",
+            "content": "accomplice accomplish accord accordant accordion accost account accountant az azalea azerbaijan azimuth azimuthal aztec aztecan azure b bs babbitt",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list intercept tamp geopolitic loci newsmen umber credit atmospheric lunge siren swart chess",
+            "content": "atmospheric atom atomic atonal atone atop atreus atrium atrocious atrocity chess chest chester chesterton chestnut chevalier chevrolet chevron",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list sanhedrin scratchy helical beau venezuela awash bessie extricable indoeuropean vice pendulum cream animism",
+            "content": "animism animosity anion anionic anise aniseikonic anisotropic anisotropy anita ankara ankle ann anna annal annale annalen annals annapolis anne anneal",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list filamentous semaphore bulrush audacious xylophone sensate municipal harris intervenor battleground rubicund",
+            "content": "audacious audacity audible audience audio audiotape audiovisual audit battleground batwing bauble baud baudelaire bauer bauhaus bausch bauxite",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list tipoff fructose coleus hurricane cite tularemia irreducible wier improbable whitetail vesper whereabout",
+            "content": "cite citizen citizenry citrate citric citron citrus city cityscape citywide coleus colicky coliform coliseum collaborate collage collagen collapse",
+            "url": "https://courses.cs.washington.edu/courses/cse143/24sp/homework/dict3.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list torpedo phosphorescent pristine decadent shrunk dey administer gradate littleneck thrown jacky coachman aeneid verdict tasting sinh delhi systemwide grim",
+            "content": "administer administrable administrate administratrix admiral admiralty admiration admire admissible admission admit admittance admitted admitting admix",
+            "url": "http://faculty.cooper.edu/sable2/courses/fall2015/ece165/hash/wordlist_small",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list crossbill bushland capacitive meager ricochet battery enigma wysiwyg wallet lipton jane wacke contingent",
+            "content": "this site teaches basic and advanced search techniques for people interested in finding any kind of information on the web here are informations documents",
+            "url": "https://biostatisticien.eu/www.searchlores.org/words.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list zoroaster skimpy",
+            "content": "in the texts of zoroastrian tradition the alphabet is referred to as the religions script dēn dibīrih in middle persian and din dabireh in new persian",
+            "url": "https://en.wikipedia.org/wiki/Avestan_alphabet",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list gag grecian ada nobody militia wildcat right abc blend cankerworm hanukkah pierson ron falcon quad flamboyant lobster kruger austere indicate",
+            "content": "abc abdicate abdomen abdominal abduct abe abed abel abelian abelson aberdeen abernathy aberrant aberrate abet abetted abetting abeyance abeyant abhorred",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list kenya beth",
+            "content": "select the list you want to sort go to home sort paragraph section in word with sort pointed out set sort by to paragraphs and text",
+            "url": "https://support.microsoft.com/en-us/office/sort-a-list-alphabetically-in-word-4d27ca57-6d64-4229-82f8-a0a1a805d494",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list charcuterie muddle diatom impenetrable footfall crucifix greenberg synchronous spoken",
+            "content": "listlistblockcomment w15666666666666666 collapsedfalsecall the reporter that youaposre trying to time but ignore its reportcomment",
+            "url": "https://snap.berkeley.edu/project/11166188",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list contrariety hoop muong dimorphic crochet forthwith hurty titrate prodigy polytope guaranteeing atavism emanate iniquity grind more katie",
+            "content": "atavism atavistic atchison ate athabascan atheism atheist athena athenian athens athlete athletic athwart atkins atkinson atlanta atlantes atlantic atlantis",
+            "url": "https://s2.smu.edu/~mcfearin/dict/w.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list him correspond seashore herpes",
+            "content": "sort by person counts 10 results per page 25 alphabetical list of jewish victims from 28507 following geographic victim lists followed by",
+            "url": "https://www.ushmm.org/online/hsv/source_advance_search.php?Query=the&date_type=date_strings&place_type=places&sort=PersonCountPublic&search_type=source_advance&MaxPageDocs=100&start_doc=28501",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list county quantify nail oconnell phony bauer poole venice accelerate nominee raisin putnam",
+            "content": "accelerate accelerometer accent accentual accentuate accept acceptant bauer bauhaus bausch bauxite bavaria bawd bawdy bawl baxter bay bayberry",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list delmarva sawfly aroma nod carcinogen parochial facetious designate syllabus rally",
+            "content": "the dictionary is from wordlistsourceforgenet courtesy of kevin atkinson kevina at gnu org also add an enca dictionary from the same source",
+            "url": "https://groups.google.com/a/chromium.org/g/chromium-checkins/c/segIUFxTkJ4",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list spontaneity smooth execrable epaulet bobbin calumny hun anastasia omnipotent award hostelry macedon roughshod burrow align apache putty adsorption anastomotic",
+            "content": "adsorption adsorptive adulate adult adulterate adulterous adultery adulthood advance advantage advantageous advent adventitious adventure adventurous adverb",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list almost delphic semitic unbeknownst astute deadlock libertarian antic levitate execution sanction scathe storehouse dandelion affable sweeney fortunate leverage horntail apache",
+            "content": "affable affair affect affectate affectation affectionate afferent affiance almost aloe aloft aloha alone along alongside aloof aloud alp alpenstock",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list babysat curvaceous hugh cutaneous spoke consul stationarity regiment",
+            "content": "alphabetically alphabetics alphabetized alphabets alphanumeric alphanumerics babysat babysit babysits babysitter babysitters babysitting bacardi",
+            "url": "https://www.advanced-ict.info/programming/examples/Python/files/english_words.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "sort the following words alphabetically list broaden envy",
+            "content": "ek adjectives list envious evil excited expensive exuberant fair faithful famous fancy fantastic fierce filthy fine foolish",
+            "url": "https://www.yourdictionary.com/articles/list-adjectives",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "sort the following words alphabetically list matte game aldebaran inkling fiberboard pulsate lakeside shape mcgee watchworks entrepreneurial boxwood peruse backyard cabbage polyhedra lightface rowley rae invincible",
+            "content": "this site teaches basic and advanced search techniques for people interested in finding any kind of information on the web here are informations documents",
+            "url": "https://biostatisticien.eu/www.searchlores.org/words.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list worcestershire bonito fritter dreamboat haggard nose whodunit",
+            "content": "alphabetically alphabetisation alphabetise alphabetised alphabetises bonito bonitos bonk bonked bonker bonkers bonking bonn bonnet bonneted bonnets",
+            "url": "https://pages.cs.wisc.edu/~akella/CS838/F16/assignment1/input.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list deadwood macedonia foxtail block hexadecimal guaranty rubaiyat victoria custodian",
+            "content": "alphabetically alphabetization alphabetizations alphabetize alphabetized block blockade blockaded blockader blockaders blockades blockading",
+            "url": "https://www.autoitscript.com/forum/applications/core/interface/file/attachment.php?id=47636",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list fugue chicanery mountain",
+            "content": "the following is a list of about 28000 english word families this page is alphabetically alphabetise alphabetised alphabetises alphabetising",
+            "url": "https://enroots.neocities.org/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list percent maser roadside were caching distort phillip emboss epistemology gherkin somewhat spicy injustice winston savoyard delicious defend indicate",
+            "content": "defend defendant defensible defensive defer deferent deferrable deferral delicious delicti delight delightful delilah delimit delimitation",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list woebegone nimble complementary afternoon immaculate laughlin kind hesitate loire septuagenarian sandia toggle dixie horsepower sierra shuffleboard mechanism",
+            "content": "afternoon afterthought afterward afterword again against agamemnon agate complementary complementation complete completion complex complexion",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list skinny sharon sudan earthy parentage hello inmate announce co clayton carp phonetic watson nimbus",
+            "content": "announce annoy annoyance annual annuity annul annular annuli annulled carp carpathia carpenter carpentry carpet carport carr carrageen carrara",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list ecosystem cloudy ferret knotty",
+            "content": "the following is a list of about 28000 english word families this page is alphabetically alphabetise alphabetised alphabetises alphabetising",
+            "url": "https://enroots.neocities.org/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list cashew apprehension ensemble",
+            "content": "cashew cashier casino cask casserole cassette cast castle casual casualty cat catalog catapult cataract catastrophe catch",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list catawba almagest transfusable milt photolysis limpid gnome archenemy sagging councilwomen decrement jungian",
+            "content": "the words you have used for your search are contained somewhere in the huge catching list below but the pages you are searching for are hidden somewhere on",
+            "url": "https://biostatisticien.eu/www.searchlores.org/words.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list slurp raytheon gloucester",
+            "content": "gloucester glove glow glucose glue glued gluey gluing glum glut glutamate glutamic glutamine glutinous glutton glyceride glycerin glycerinate glycerine",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "sort the following words alphabetically list analyses timeshare blueback telephony usa falter credential erda geophysics fireproof den shibboleth swampland keynote porte stonewort testimonial augustine guitar meter",
+            "content": "analyses analysis analyst analytic anamorphic anaplasmosis anarch anarchic augustine augustus auk aunt auntie aura aural aurelius aureomycin auric",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list din spruce nate pomade jordan gaillardia putt inroad jest kill jackboot whelan mirth amerada craftsmen shortcoming eclipse",
+            "content": "craftsman craftsmen craftspeople craftsperson crafty crag craggy craig cram cramer cramp cranberry crandall crane cranelike cranford crania cranium crank",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list sideboard procrustean seepage buxton olympic tty typescript marque callus unitary cameron contribute precise verify shelf extensible methanol",
+            "content": "buxton buy buyer buzz buzzard buzzer buzzing buzzsaw buzzword buzzy by bye byers bygone bylaw byline bypass bypath byproduct byrd byrne byroad byron byronic",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list anarchic liven shortcut total diatom guelph usage acoustic yarmulke phenomenology neo bureaucracy trammel leftward immovable fabricate syndrome suggestive provide",
+            "content": "acoustic acoustical acoustically acoustics acquaint acquaintance alphabetically alphabetisation alphabetise alphabetised alphabetises alphabetising",
+            "url": "https://pages.cs.wisc.edu/~akella/CS838/F16/assignment1/input.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list linchpin arrear eavesdropping fasciculate shin postdoctoral maritime ibn henry hermaphrodite sticky jane brookside incorrigible vehicular herodotus",
+            "content": "alphabetically 2 alphabetization 2 alphabetize 2 alphabetized 2 alphabetizer arrear 7 arrears 2 arrest 37 arrested 36 arrestee 2 arrestees 2",
+            "url": "http://www.cs.trincoll.edu/~crypto/resources/words",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list definite translate aggression arachne lengthy sanford bystander asplenium gneiss southeast",
+            "content": "aggression aggressive aggressor aggrieve aghast agile aging agitate agleam agnes agnew agnomen agnostic ago agone agony agouti agrarian agree agreeable",
+            "url": "http://faculty.cooper.edu/sable2/courses/fall2015/ece165/hash/wordlist_small",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list seashore haughty",
+            "content": "sea seabird seafood seagull seal seam search seashore season seat seatbelt seawater seaweed secede seclude second secondary",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list promulgate altercate foraminifera sophocles raft wrongdoer syllabus jive cornerstone gossamer courtroom insist dusenberg sal",
+            "content": "alphabetically alphabetics alphabetization alphabetize alphabetized altercate altercated altercating altercation altercations altered alterer",
+            "url": "https://forums.graalonline.com/forums/attachment.php?attachmentid=45898&d=1221546037",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list chlorate glidden incentive manatee spurt lavoisier judicatory",
+            "content": "chlorate chlordane chloride chlorinate chlorine chloroform chlorophyll glidden glide glimmer glimpse glint glissade glisten glitch glitter gloat",
+            "url": "http://faculty.cooper.edu/sable2/courses/fall2015/ece165/hash/wordlist_small",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list hyperboloidal borough",
+            "content": "i am a student of computer science and i have to order a list of words using the insertion sort i tried to adapt the insertion sort for numbers",
+            "url": "https://stackoverflow.com/questions/74321267/order-lists-of-words-alphabetically-using-insertion-sort",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list sociolinguistic nigeria odysseus demystify proton voltaire penny contaminate bighorn stirrup",
+            "content": "alphabetically alphabetization alphabetized alphanumeric alphanumerics bighorn bight bigmouthed bigness bignonia bignoniaceae bignoniaceous",
+            "url": "https://eclass.upatras.gr/modules/document/file.php/EE806/englishWords.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list them abdominal address fomalhaut pay optimal hanoverian yang berry tattoo islamabad swathe jordan bounty stearic stigmata involve effusive tornado",
+            "content": "abc abdicate abdomen abdominal abduct abe abed abel abelian abelson aberdeen abernathy aberrant aberrate abet abetted abetting abeyance abeyant abhorred",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "sort the following words alphabetically list syndrome therefrom",
+            "content": "in this note the task of encoding a system with possibly smallest alphabet is refer eed to as “data compression” the reader will find answers to the above",
+            "url": "https://alfa.im.pwr.edu.pl/~downar/english/documents/entropy.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list yeager bengal fettle",
+            "content": "alphabetically alphabetics alphabetize alphabetized alphabetizes bengal bengali benighted benign benignly benjamin bennett bennington benny benson",
+            "url": "https://inventwithpython.com/dictionary.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list chassis caruso corporal signora",
+            "content": "this webapp helps you to find anagrams rearrangements of the letters in a word or words for example an anagram for “stop” is “pots”",
+            "url": "http://www.andrewduncan.net/anagrammer/index.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list postcondition protoplasmic musicology helical uptrend vasoconstriction diacritic beefsteak beware birthplace bicycle junctor state obstinate banshee sap",
+            "content": "alphabetically alphabetics alphabetization alphabetizations alphabetize banshee banshees bantam bantamize bantamizes bantamweight banter bantered",
+            "url": "http://mark.goadrich.com/courses/csci270s18/data/english2.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "sort the following words alphabetically list madeira offprint trafficked immemorial subject micro clinic sprue marx va anaheim eaten",
+            "content": "anaheim analeptic analgesic analogous analogue analogy analyses analysis analyst analytic anamorphic anaplasmosis anarch anarchic anarchy anastasia",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list jacob sleight globule consonant musician",
+            "content": "following words which are thus noted sun shine pa per an cc dote carqvdn ttt erql manifesta tin indi vtsibll ity in these words it",
+            "url": "https://archive.org/download/worcesterdiction00joserich/worcesterdiction00joserich.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "sort the following words alphabetically list shouldnt lorenz runneth skintight plastisol swept coven etruscan disturb",
+            "content": "words of usdic only patrick w daly 19980519 update 20000302 list lite lith live load loaf loam loan lobe lobi lobs loch loci lock",
+            "url": "https://people.brandeis.edu/~ifinkel/FeatureStuff/project2-data/Dictionaries/eng_words",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list million boone chalcedony sinai satin genteel alternate charity olden",
+            "content": "this webapp helps you to find anagrams rearrangements of the letters in a word or words for example an anagram for “stop” is “pots”",
+            "url": "http://www.andrewduncan.net/anagrammer/index.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list solstice roadway loquacious niece planet steed abutted hondo loosen agamemnon islamic capacity tibet hitachi essex casualty guinea aquatic suspicion",
+            "content": "agamemnon 01023245678 nonadaptive 010233 cuckoo 0102332 nanette pipette 0102334 cuckoos",
+            "url": "https://inventwithpython.com/wordPatterns.py",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list thrill splutter panicking scorch same dot prod obstetric malton onus drumhead delmarva barn embezzle itt damp guru subsist entirety greene",
+            "content": "sort a list of words alphabetically placing them in a single line of text separated by spaces input",
+            "url": "https://blog.csdn.net/weixin_44182383/article/details/139721348",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "sort the following words alphabetically list tuba synapse inaudible brewster tithing",
+            "content": "alphabetically alphabetics alphabetized alphabets alphanumeric alphanumerics brewster brezhnev brian briar briars bribe bribeable bribed briber",
+            "url": "https://www.advanced-ict.info/programming/examples/Python/files/english_words.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list nv menlo boyd counterweight groove spumoni intangible sans ovipositor hide detergent besetting",
+            "content": "prev in list next in list prev in thread next in thread list llvmcommits subject llvmcommits cvs llvmtestprogramsmultisourcebenchmarks",
+            "url": "https://marc.info/?l=llvm-commits&m=120283982829273",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list whisper eyesight titmice mirage fletch cry biennial creedal miltonic fraudulent j",
+            "content": "biennial biennium bifocal bifurcate big bigelow biggs bigot bigotry creedal creek creekside creep creepy cremate crematory creole creon creosote",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list reedy bully multiple edt sell referring lexicographer tit flogging perceptive minor bosporus rancorous forfeit pizza pungent sedition cork",
+            "content": "dictionary ukacd the list of signature words in from yawl package and the 10196 places list from the mwords package the enable package mainted",
+            "url": "https://groups.google.com/a/chromium.org/g/chromium-checkins/c/segIUFxTkJ4/m/7MnDt5oXuNQJ",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list hornblower dissipate amanita canticle annoy besiege straight notre propylene sepia california pasture encephalitis boggle crocodilian dexter snipe amatory dizzy psychiatric",
+            "content": "amanita amanuensis amaranth amarillo amass amateur amateurish amatory amaze annoy annoyance annual annuity annul annular annuli annulled annulling",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list nascent muddy",
+            "content": "you can sort a list inplace just by calling listtsort listsort that will use the natural ordering of elements which is fine in",
+            "url": "https://stackoverflow.com/questions/6965337/sort-a-list-alphabetically",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list shreveport gamut berg multiplexor bluish puerto subliminal",
+            "content": "berg bergamot bergen bergland berglund bergman bergson bergstrom beribbon bluish blum blumenthal blunder blunt blur blurb blurry blurt blush",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list voluntary yucca limnology fabulous seventh cube willow kitakyushu sequel senescent bauble length",
+            "content": "alphabetically alphabetization alphabetized alphanumeric alphanumerics bauble baud baudelaire bauhaus bauhinia bauxite bauxitic bavardage bavaria",
+            "url": "https://eclass.upatras.gr/modules/document/file.php/EE806/englishWords.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "sort the following words alphabetically list twelvefold oconnell mainstream malformed umbilical bivalve vinegar mortify sleuth paunchy",
+            "content": "this site teaches basic and advanced search techniques for people interested in finding any kind of information on the web here are informations documents",
+            "url": "https://biostatisticien.eu/www.searchlores.org/words.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list foamflower lawful cayenne chandigarh only excursion declassify equanimity aseptic inclement october debauch kruger groupoid scorch dingy alterate",
+            "content": "alphabetically alphabetics alphabetization alphabetizations alterate alteration alterations alterations alterative altercate altercation",
+            "url": "https://www.eecis.udel.edu/~lliao/cis320f05/dictionary.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list cornerstone green brindle prowl nonce ballard scrappy credulous des pitney difluoride toward predilect nostalgic rape mixup horseplay jew curio",
+            "content": "this webapp helps you to find anagrams rearrangements of the letters in a word or words for example an anagram for “stop” is “pots”",
+            "url": "http://www.andrewduncan.net/anagrammer/index.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list vegetate artillery harm fda doris prosody bainite incongruous monkey vivian",
+            "content": "artillery artisan artistry arturo artwork arty aruba arum aryl as asbestos bainite baird bait bake bakelite bakersfield bakery bakhtiari baklava",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list multitudinous adopt wage worcestershire pacifist afghan glimmer friday",
+            "content": "adopt adoption adoptive adore adorn adposition adrenal adrenaline adrian afghan afghanistan aficionado afield afire aflame afloat afoot",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list thirteenth tinfoil thimble snuff ernie pow celebrity abuilding indiscoverable chigger burgher synchronous yap medlar exorcism newsboy",
+            "content": "abuilding abundant abusable abuse abusive abut abutted abutting abysmal burgher burglar burglarproof burglary burgundian burgundy burial buried",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list automate abner shampoo gurgle none exquisite abramson amity fruitful shorten waterproof",
+            "content": "you can sort a list inplace just by calling listtsort listsort that will use the natural ordering of elements which is fine in",
+            "url": "https://stackoverflow.com/questions/6965337/sort-a-list-alphabetically",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "sort the following words alphabetically list daffy hypothesis croupier dockyard household peccary triode minstrelsy nepotism sawtimber mantic info confess serenade summate silver duty loam mandate",
+            "content": "alphabetically alphabeting alphabetization alphabetize alphabetized confess confessable confessed confessedly confesses confessing confession",
+            "url": "https://trinket.io/python/28381dc6ef",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list whale nevins puree pusey protein pullman benefice squeamish river improvise",
+            "content": "improvisation improvise imprudent impudent impugn impulse impulsive impunity impure imputation impute in inability inaccessible inaccuracy inaccurate",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list boletus ulysses debugging passband lucretia necktie deportee calypso revving conklin omnipotent",
+            "content": "this webapp helps you to find anagrams rearrangements of the letters in a word or words for example an anagram for “stop” is “pots”",
+            "url": "http://www.andrewduncan.net/anagrammer/index.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "sort the following words alphabetically list oakland seaborg jacobi membrane trapezoidal allis marmot toggle anthology",
+            "content": "allis allison alliteration alliterations alliterative allocatable allocate alphabetically alphabetics alphabetize alphabetized alphabetizes",
+            "url": "https://inventwithpython.com/dictionary.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list acidify antagonism asteria",
+            "content": "found 5108 terms starting with a acidic water acidification acidified acidify acidifying acidity acidly acidosis acieving acknoeledge",
+            "url": "https://www.kamus.net/terms/english/A/99999",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list episode molybdenum schedule hen sparkman calabash marietta pedantic pounce vinaigrette berra",
+            "content": "epiphany epiphone episcopal episcopalian episcopalians episode episodes episodic episodio epistemic epistemological epistemology epistle epistles epitaph 9 stron",
+            "url": "http://lukoilmarine.com/ckfinder/userfiles/files/28719406465.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list admixture catwalk shelve panamanian reluctant higgins suction irremediable chateaux offertory malthusian coordinate tunis pecos equine",
+            "content": "dictionary ukacd the list of signature words in from yawl package and the 10196 places list from the mwords package the enable package mainted",
+            "url": "https://groups.google.com/a/chromium.org/g/chromium-checkins/c/segIUFxTkJ4/m/7MnDt5oXuNQJ",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list saprophytic confident pam stowaway stupor foundling compton",
+            "content": "alphabetically 2 alphabetization 2 alphabetize 2 alphabetized 2 alphabetizer compton 5 comptroller 7 comptrollers 2 compts 2 compulsion 8",
+            "url": "http://www.cs.trincoll.edu/~crypto/resources/words",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list search marcello depreciate unary frame numbly sprout clench agamemnon herbivorous eject zaire lien forum",
+            "content": "agamemnon agape agar agate agates agatha age aged agee ageless agencies alphabetically alphabetics alphabetize alphabetized alphabetizes",
+            "url": "https://inventwithpython.com/dictionary.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "sort the following words alphabetically list champ jigsaw acclaim pipeline exempt gadwall hypothalamus clothbound sensory lozenge hayes conclusion delirious dyestuff hood seashell commodity plentiful sarcastic teen",
+            "content": "this webapp helps you to find anagrams rearrangements of the letters in a word or words for example an anagram for “stop” is “pots”",
+            "url": "http://www.andrewduncan.net/anagrammer/index.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list closeup thesaurus intelligent buckaroo vertebral wily blutwurst laguerre",
+            "content": "blutwurst blvd blythe bmw boa boar board boardinghouse boast boastful boat buckaroo buckboard bucket bucketfull buckeye buckhorn buckle buckley",
+            "url": "http://www.cs.columbia.edu/~bert/courses/3137/hw3_files/dictionary.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list monotonous slick provocation functor hideaway holeable assimilable lola calypso nebuchadnezzar dogwood pacifism bivariate bought",
+            "content": "assimilable assimilate assist assistant associable associate assonant assort asst bivariate bivouac bivouacked bivouacking biweekly biz bizarre bizet",
+            "url": "https://9p.io/sources/patch/sorry/dystopia-in-spelling-list/words",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list elton olympic iodinate captious ineligible sherman",
+            "content": "elton elul elva elvia elvin elvira elvis elwood elysian elysium elysiums olympic olympics olympus omaha omahas oman omar omayyad omdurman omsk",
+            "url": "https://math.hws.edu/eck/cs225/s09/lab9/words",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list dredge checksum huckster baronial spotlight circumstance eulogy comment felicia dartmouth monochromator neuroanatomic emittance",
+            "content": "baronial barony baroque barr barrack barracuda barrage barre barrel barren checksum checksummed checksumming checkup cheek cheekbone cheeky cheer",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list inhabitation bona cicero purport gaussian silver responsible rastus zig exonerate portfolio coastal asset ruanda dusky handlebar",
+            "content": "this webapp helps you to find anagrams rearrangements of the letters in a word or words for example an anagram for “stop” is “pots”",
+            "url": "http://www.andrewduncan.net/anagrammer/index.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list indifferent trainman bootlegging",
+            "content": "the following alphabetical list mingles the various types use a diction ary to identify the basic words from which the examples are derived arci arch",
+            "url": "https://jakobson.korpus.cz/~rosen/public/GGG/Czech_essent_grammar.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list aberdeen swaziland sprightly analogue easel deciduous",
+            "content": "aberdeen abernathy aberrant aberrate abet abetted abetting abeyance abeyant analogue analogy analyses analysis analyst analytic anamorphic",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list wreak hidebound bandwidth",
+            "content": "this is a list of english words inherited and derived directly from the old english stage of the language",
+            "url": "https://en.wikipedia.org/wiki/List_of_English_words_of_Old_English_origin",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list liggett sterno pintail dilate frolic piggish forth parameter slaughterhouse lacunae mcintosh bloodstain lazy unesco protector beachhead algonquin",
+            "content": "algonquin algorithm algorithmic alhambra ali alia alias alibi alice alicia alien alienate alight align alike alimony aliphatic aliquot alison alistair alive",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list epiphyte swift sail anchor barre dimension faunal integrate eleanor edgy singular patrician orthodoxy parasol pendant buckle concatenate masochist",
+            "content": "it contains the top 10000 passwords in order of frequency of use each followed by a comma except the last one when the execute p1 button is clicked the",
+            "url": "https://www.bauer.uh.edu/parks/sum1471m.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list saul fresco teen chopstick footwork smalley anaplasmosis palisade orthography storey bumble pilate clue ingot fiesta",
+            "content": "alphabetically 2 alphabetization 2 alphabetize 2 alphabetized 2 alphabetizer anaplasmosis 5 anarch 7 anarchic 8 anarchical 2 anarchically 2",
+            "url": "http://www.cs.trincoll.edu/~crypto/resources/words",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list dynastic inflammable prick tristan vitiate tackle stagnate conglomerate nebulae phosphide",
+            "content": "dynastic dynasty dyne dysentery dyspeptic dysplasia dysprosium dystrophy e eer es eg each eagan eager eagle ear eardrum earl earmark earn earnest",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list sortie neff nicodemus",
+            "content": "you can sort a list inplace just by calling listtsort listsort that will use the natural ordering of elements which is fine in",
+            "url": "https://stackoverflow.com/questions/6965337/sort-a-list-alphabetically",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list livre substitution ix frisian panoramic buckley",
+            "content": "this dissertationthesis is brought to you for free and open access by scholarshipwestern it has been accepted for inclusion in electronic thesis and",
+            "url": "https://core.ac.uk/download/215386012.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "sort the following words alphabetically list alleviate duopoly mattress gland benelux townsmen buoyant klaxon hardbound tomography felice gunk",
+            "content": "alleviate alleviated alleviater alleviaters alleviates alleviating alphabetically alphabetics alphabetization alphabetize alphabetized alphabetizes",
+            "url": "https://forums.graalonline.com/forums/attachment.php?attachmentid=45898&d=1221546037",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list implementor bangui nudge cavalier refractory islamabad contextual abramson waite railway carlisle magistrate silvery picnicking dustbin emacs",
+            "content": "abramson abrasion abrasions abrasive abreaction abreactions abreast abridge alphabetically alphabetics alphabetize alphabetized alphabetizes",
+            "url": "https://inventwithpython.com/dictionary.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "sort the following words alphabetically list conference apparition ignore dutton layperson coupe superstitious westward turnoff messenger copra floruit primitive implement",
+            "content": "alphabetically alphabetics alphabetization alphabetizations apparition apparitional apparitions apparitions apparitor appassionato appeal",
+            "url": "https://www.eecis.udel.edu/~lliao/cis320f05/dictionary.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list arroyo ambient voltmeter secretary appropriable intimidate breccia oconnor surtout perplex coupon martinson terrestrial faze eardrum fivefold billion social",
+            "content": "ambient ambiguity ambiguous ambition ambitious ambivalent amble ambling ambrose ambrosia ambrosial ambulant ambulate ambulatory ambuscade ambush amelia",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list erudite marriageable stahl coach inadvisable vicksburg virgo brownian eosine magnesium flax",
+            "content": "this webapp helps you to find anagrams rearrangements of the letters in a word or words for example an anagram for “stop” is “pots”",
+            "url": "http://www.andrewduncan.net/anagrammer/index.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list avalanche chaplin squabble coachman ipsilateral clonic cameroon fortran cram medea referring kennan canal pyridine ussr postpone",
+            "content": "avalanche avarice avaricious ave avenge aventine avenue aver average averred canal canary canaveral canberra cancel cancellate cancelled cancelling",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list dateline jill langmuir pipette household",
+            "content": "alphabetically alphabetics alphabetize alphabetized alphabetizes dateline dater dates dating dative datsun datum daugherty daughter daughterly",
+            "url": "https://inventwithpython.com/dictionary.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list berniece bremsstrahlung hoe avalanche showroom goff dactylic befriend hurry housekeep lanka gilbertson posterior flick bong hereafter metazoan",
+            "content": "what follows below is only the very net a list of words and angles i hoe hoecake hoecakes hoed hoedown hoedowns hoeing hoer hoers hoes hoff",
+            "url": "https://biostatisticien.eu/www.searchlores.org/words.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "sort the following words alphabetically list wv habitation panicking schoolmate aerodynamic giacomo nebulous offset vector roosevelt jimmy botanist suburbia padre",
+            "content": "aerodynamic aeronautic aerosol aerospace aeschylus aesop afar affable affair botanist botanize botany botch botfly both botheration bothersome",
+            "url": "https://9p.io/sources/patch/sorry/dystopia-in-spelling-list/words",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list no spokane cartilaginous thatd science",
+            "content": "provide abbreviations and nomenclature list in an alphabetical order and nonstandard abbreviations contained in the manuscript excluding references with",
+            "url": "https://medscidiscovery.com/index.php/msd/issue/download/88/85",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list solvate nat usable kajar downey vision detest aitken barycentric",
+            "content": "aitken ajar ajax ak akers akin akron al ala alabama alabamian alabaster barycentric basal basalt base baseball baseband baseboard basel baseline",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list covalent spiderwort horowitz divisive spiritual cheshire affluent gideon quadrature julio peanut epsilon diagnostician grover folklore gothic salient",
+            "content": "affluent afford afforest afforestation affricate affront afghan afghanistan aficionado afield afire aflame afloat afoot aforementioned aforesaid",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list keller frame hippodrome bungle yolk anheuser prompt together spidery chaperon miterwort",
+            "content": "anheuser anhydride anhydrite anhydrous ani aniline animadversion animadvert bungle bunk bunkmate bunny bunsen bunt bunyan buoy buoyant burbank",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list clifford brindle siskin gloat florist triploidy willard sacramento",
+            "content": "clifford clifton cliftons clint clinton clintons clintonia clio clipperton sacramento sadducee sadie sadler sadlers saens safar safi saginaw",
+            "url": "https://dsss.be/hexwords/EnglishWords.pl",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list mater rica sigmund dean eosine inebriate gibson vassar mulligatawny formula",
+            "content": "dean deane deanery deanna dear dearborn dearie dearth deasil death deathbed eosine epa epaulet epaulette ephemera ephemeral ephemerides ephemeris",
+            "url": "https://9p.io/sources/patch/sorry/dystopia-in-spelling-list/words",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list peculiar margaret contravention ingratiate dreg superintendent drapery bizarre sequential",
+            "content": "in its narrowest sense a synonym is a word or phrase that is perfectly substitutable in a context for another word or phrase people who study",
+            "url": "https://me.refinedview.com/files/elt/Oxford_Thesaurus_DictionaryOf_Synonyms.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list tip abo frond indistinguishable stockholder gasify passenger bonaventure armful oscillatory referential guiana pancreatic through embryology herman dictatorial cremate",
+            "content": "this webapp helps you to find anagrams rearrangements of the letters in a word or words for example an anagram for “stop” is “pots” others are “tops” and “",
+            "url": "http://www.andrewduncan.net/anagrammer/index.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list splashy rectitude novelty",
+            "content": "you can sort a list inplace just by calling listtsort listsort that will use the natural ordering of elements which is fine in",
+            "url": "https://stackoverflow.com/questions/6965337/sort-a-list-alphabetically",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list griffith common nanosecond loosestrife decoy swabby aerospace denmark yates frill spitz enviable screechy allure sow spermatozoa saute jibe exclusive",
+            "content": "aerospace aerostat aery aeschylus aesop aesopian aesthesia aesthete allure allured allurement allurements allurer allurers allures alluring",
+            "url": "https://pages.di.unipi.it/ferragina/Libraries/BWI/Testi%20-altro/words.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list spongy separate gabriel jackson quail hendrickson washy backslide shelter calvert anastomosis variety commando pizzicato sticktight syndicate hollister",
+            "content": "anastomosis anastomotic anathema anatole anatomic anatomy ancestor ancestral ancestry anchor anchorage anchorite anchoritism anchovy ancient ancillary and",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list euclidean stonehenge hobby cloudy winsome invite thrifty fight majestic citrus surge scene",
+            "content": "cloud cloudburst cloudy clout clove cloven clown cloy club clubhouse clubroom cluck clue cluj clump clumsy clung cluster clutch clutter clyde clytemnestra",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list benchmark pilot reverie hatchet prorate wince machine loess stallion amphibious percentage redcoat baseplate sank assist wehr homecoming ell thoughtful",
+            "content": "amphibian amphibious amphibole amphibology amphioxis ample amplifier amplify amplitude amply amputate amputee amra amsterdam amtrak amulet amuse amy",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list lung secretive cotman coffman quirinal detour rhubarb notate monologist jacobean gnostic stove collision membrane hammock tobacco backpack",
+            "content": "backpack backplane backplate backscatter backside backspace backstage coffman cog cogent cogitate cognac cognate cognition cognitive cognizable",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list confrontation quantitative proserpine proofread daddy hirsute",
+            "content": "our actual obligations to matthew arnold are almost beyond ex pression his very faults reformed us the chief of his services may perhaps be stated thus",
+            "url": "https://archive.org/download/essaysliteraryc00arnouoft/essaysliteraryc00arnouoft.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list shakespearian laudatory",
+            "content": "by d pollackpelzner 2011 a capacious alphabetical list that includes the two pickwick title lines one under l for love the other under m for misery though clarke does",
+            "url": "https://www.jstor.org/stable/41236557",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list sweatshirt bone ia wagoneer doleful homeobox hindustan convergent",
+            "content": "hindustan hindustans hines hinkle hinman hinmans hinsdale hippeastrum hippocrates hippocratic hippocrene hippolytus hippomenes hiram hirey hiroshi",
+            "url": "https://dsss.be/hexwords/EnglishWords.pl",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "sort the following words alphabetically list heterostructure bertrand careful wherewith libra eyelid feign southeastern paste snip",
+            "content": "bertrand berwick berwicks bess bessarabia bessel bessels bessemer alphabetically alphabetics alphabetization alphabetizations alphabetizations",
+            "url": "https://dsss.be/hexwords/EnglishWords.pl",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list leatherback scald nikko megohm sojourn woodcarver antaeus hi caw daughter gloria terminal schroedinger magnesium raincoat helvetica devonshire",
+            "content": "antaeus antagonism antagonist antagonistic antarctic antarctica antares ante caw cayenne cayley cayuga cb cbs ccny cdc cease cecil cecilia cecropia",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list reverie giantess muddy mast callous bate dnieper prank cortez staunch satisfy dogging moran climb garrison",
+            "content": "cortez cortland corvallis corvette corvus cory cosby cossack cossacks costco dnieper dniester dobbin doberman dobro doctor doctorow dodge dodgson",
+            "url": "https://math.hws.edu/eck/cs225/s09/lab9/words",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "sort the following words alphabetically list thunderclap swab built poland",
+            "content": "alphabetic list of these entries has been prepared by the secretariat and is thunderclap aerial shell kit device w ith or w itho ut",
+            "url": "https://dziennikustaw.gov.pl/D2019000173404.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list hat core sonnet discreet",
+            "content": "you can sort a list inplace just by calling listtsort listsort that will use the natural ordering of elements which is fine in",
+            "url": "https://stackoverflow.com/questions/6965337/sort-a-list-alphabetically",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list allyn carbonaceous majorca investigatory supersede cetacean pathogenic johann tung paradigmatic pray",
+            "content": "alphabetically alphabetisation alphabetise alphabetised alphabetiser carbonaceous carbonado carbonado carbonadoes carbonados carbonate carbonated",
+            "url": "https://almond-static.stanford.edu/test-data/common-words.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list pewter gross gujarati cortland diffusible nomograph stag broadcast galvanometer transition incestuous sketchbook scout larynx",
+            "content": "alphabetically alphabetics alphabetization alphabetizations broadcast broadcasted broadcaster broadcasters broadcasting broadcastings broadcasts",
+            "url": "https://www.eecis.udel.edu/~lliao/cis320f05/dictionary.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "sort the following words alphabetically list summand cure gloria tyke doubtful extoller entropy crackle procedural cottrell litigant bologna",
+            "content": "alphabetically alphabetics alphabetization alphabetizations bologna bolognas bolometer bolometers bolometers bolometric bolometrically boloney",
+            "url": "https://www.eecis.udel.edu/~lliao/cis320f05/dictionary.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list sound consternate tariff blest proximity quizzes xerxes buxton",
+            "content": "alphabetically alphabetics alphabetized alphabets alphanumeric alphanumerics blest bletchley blew blight blighted blighter blighters blighting",
+            "url": "https://www.advanced-ict.info/programming/examples/Python/files/english_words.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list bijective song guidebook briton irrevocable eigenspace reversible floruit dive jacket dim glycogen pinkish gaucherie concord",
+            "content": "alphabetically alphabetics alphabetization alphabetizations bijective bijectively bijou bijouterie bijugate bikaner bike biked biker bikers bikers",
+            "url": "https://www.eecis.udel.edu/~lliao/cis320f05/dictionary.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list dove rodriguez sonant monaco strap horticulture claret play paschal bizarre valuate colonist baden deplore",
+            "content": "baden badge badinage badland badminton baffin baffle bag bagatelle bagel baggage bagging baggy baghdad bagley bagpipe bah bahama bahrein bail bailey bailiff",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "sort the following words alphabetically list regret starlight wallboard cotyledon more pepperoni",
+            "content": "alphabetically alphabeting alphabetization alphabetize alphabetized cotyledon cotyledonary cotyledons cotyloid cotylosaur cotylosaurs cotype",
+            "url": "https://pages.pathcom.com/~vadco/Word-List.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list marimba retrofit alphabet birmingham philology fashion educate mechanic cantonese fond entourage",
+            "content": "the dictionary is from wordlistsourceforgenet courtesy of kevin atkinson kevina at gnu org also add an enca dictionary from the same source",
+            "url": "https://groups.google.com/a/chromium.org/g/chromium-checkins/c/segIUFxTkJ4",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list gentle boletus galveston aniline eddy fontainebleau wile scandalous skat sportsmen",
+            "content": "aniline animadversion animadvert animal animate animism animosity anion boletus bolivar bolivia bolo bologna bolometer bolshevik bolshevism",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "sort the following words alphabetically list consignee cant artistry golf cascade markov nine swingable shanghai condiment projectile mimosa glance gentlemen wildflower tale",
+            "content": "artistry arturo artwork aruba arugula arum aryan aryl as as asa asap cant cant cantabile cantabrigian cantaloupe cantankerous cantata canteen",
+            "url": "https://9p.io/sources/patch/sorry/dystopia-in-spelling-list/words",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list calyx emphases vii elgin perquisite implacable blackbird afro jura mayapple whit blame",
+            "content": "afro afrormosia aft after afterbirth afterbody afterbrain afterburner alphabetically alphabetics alphabetization alphabetizations alphabetizations",
+            "url": "https://www.eecis.udel.edu/~lliao/cis320f05/dictionary.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list thereupon wireman crag scrawny electrolytic wife cutover dickson clytemnestra took diocletian lipton inhuman stalk workplace marginal",
+            "content": "alphabetically alphabetics alphabetize alphabetized alphabetizes clytemnestra coach coached coacher coaches coaching coachman coachmen coagulate",
+            "url": "https://inventwithpython.com/dictionary.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list portsmouth impalpable portrait gouda brainy succumb fatuous hoof lisbon erudite malaria enigma isaacson cony stronghold servomechanism",
+            "content": "brainy brake brakeman bramble bran branch brand brandeis brandenburg cony coo cook cookbook cooke cookery cookie cooky cool coolant cooley",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "sort the following words alphabetically list xylem neoclassic rest fortieth marshall wiley convey experiment whimper kudo decimate incautious zs",
+            "content": "convey conveyance conveyor convict convince convivial convocate convocation decimate decipher decision decisional decisionmake decisive deck decker",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list fallen juvenile bermuda diagram ezra screechy aristocratic musty absorption slack quartile nod nigeria testicle congo cheerful eucre cesium",
+            "content": "aristocracy aristocrat aristocratic aristotelean aristotelian aristotle arithmetic arizona ark arkansan arkansas arlen arlene arlington arm armada armadillo",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list mckinley pesticide school radiometer marque prig relish trianon inspiration artful cancelled castrate glaucous ear croon tioga rothschild excite endpoint citadel",
+            "content": "cancel cancellate cancelled cancelling cancer cancerous candace candela candelabra candid candidacy candidate candide candle candlelight candlelit",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list rowley midshipman saline furl geld locomote exhumation anarchic bstj gradual riddance j liniment pantheist elution profess",
+            "content": "anarchic anarchy anastasia anastigmat anastigmatic anastomosis anastomotic bstj btl btu bub bubble buchanan bucharest buchenwald buchwald buck",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list patrolman arabesque novel spearmint arkansan bend brassiere diagnosable ytterbium sheep bedroom yen planeload deterrent fossiliferous alveolar trident fluke curvilinear",
+            "content": "a aback abaft abalone abandon abandoned abandoning abandonment abandons abase abased abasement abasements abases abash abashed abashes abashing abasing879 stron",
+            "url": "https://www.bluefirereader.com/certification/dictionary.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list cast palazzi inhibit arragon tabletop danbury abbe adposition emplace gavin income falsetto onerous",
+            "content": "abbe 7 abbes 2 abbess 2 abbesses 2 abbey 16 abbeys 6 abbot 8 abbotcies 2 abbotcy 2 abbots 2 abbotship 2 abbotships 2 abbott 7 abbr 2 abbrev 2 abbreviate 7",
+            "url": "http://www.cs.trincoll.edu/~crypto/resources/words",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list bruckner admiration technion bandgap heron postprocessor maidenhair fungus allusion gambit accessory proscenium cruise",
+            "content": "admiration admire admissible admission admit admittance admitted admitting admix admixture admonish admonition ado adobe adolescent adolph adolphus adonis",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list testate orchestra permafrost leasehold shiva",
+            "content": "alphabet alphabeted alphabetic alphabetical alphabetically alphabeting alphabetization alphabetize alphabetized alphabetizer alphabetizers alphabetizes",
+            "url": "https://trinket.io/python/28381dc6ef",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list thunder phase geld",
+            "content": "the following is a list of about 28000 english word families this page is alphabetically alphabetise alphabetised alphabetises alphabetising",
+            "url": "https://enroots.neocities.org/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list murk pvc singlet yeats muslim coachmen clergymen companion gazpacho embark pristine granular hobble fatten allot too niggle chauncey threefold coddington",
+            "content": "this site teaches basic and advanced search techniques for people interested in finding any kind of information on the web here are informations documents",
+            "url": "https://biostatisticien.eu/www.searchlores.org/words.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list stanhope sisyphus fungi purpose midwinter mendelevium studious driveway symmetry despond trample wring strip clearheaded encapsulate vs gob christen",
+            "content": "christen christendom christensen christenson christian christiana clearheaded clearwater cleat cleavage cleave cleft clement clemson clench clergy",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list iniquity yoghurt behind volcanism hornpipe mcconnell scorn zip toroidal mollie sandy wellwisher inmate",
+            "content": "a aaa aaas aardvark aarhus aaron aba ababa aback abacus abalone abandon abase abash abate abbas abbe abbey abbot abbott abbreviate abc abdicate abdomen",
+            "url": "https://s2.smu.edu/~mcfearin/dict/w.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list ulcerate ballroom sparse intrepid arcing prorogue dodge benefit coupon ladle buggy shagging bassoon hypothermia decide affirmative airframe junior nineveh schmitt",
+            "content": "affirmative affirmatively affirmatives affirmatory affirmed affirmer affirmers affirming affirmingly affirms affix affixed affixes affixing",
+            "url": "https://cms.dm.uba.ar/academico/materias/2docuat2017/investigacion_operativa/2017/english3.txt/view",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list grammarian chivalry polkadot gastronomic ferocity brenda knutson endothelial phenotype irreducible bilinear rockaway derivate eaten cacao scurrilous",
+            "content": "bilinear bilingual bilk bill billboard billet billfold billiard billie brenda brendan brennan brenner brent brest brethren breton brett breve",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list logarithm robertson inanimate uganda micron incurring wilcox lumber sammy souvenir newman profuse maladapt cone butch airlift homeowner",
+            "content": "airlift airline airlock airmail airman airmass airmen airpark airplane airport airspace airspeed airstrip airtight airway airy aisle aitken ajar ajax ak",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "sort the following words alphabetically list convair frighten citizen scrubby birdseed fateful soothe extensive trillion adonis southeastern stormy judaica trundle suppose contaminant",
+            "content": "the words you have used for your search are contained somewhere in the huge catching list below but the pages you are searching for are hidden somewhere on",
+            "url": "https://biostatisticien.eu/www.searchlores.org/words.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list tiresome sweepstake introvert carport firewood",
+            "content": "firewood firework firm firmly first fiscal fish fist fit five fix fixate fixture fizz flabby flag flake flame flamenco",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list marshmallow doge alpenstock ocean accept angus drool jutish resistive chromium vociferous castigate prize octennial stonewort concision elizabethan",
+            "content": "alpenstock alpert alpha alphabet alphabetic alphameric alphanumeric alpheratz alphonse alpine alps already alsatian also alsop altair altar alter alterate",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list extempore gotten",
+            "content": "i am struggling to locate how i can alphabetise lists previously i could highlight a list and then the usual go to home sort set sort",
+            "url": "https://answers.microsoft.com/en-us/msoffice/forum/all/alphabetical-order/c4293d55-3f4f-4245-b699-2b14197c42f0",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list sweatband murray",
+            "content": "words their way word sorts for letter name‐alphabetic spellers words their way word sorts for within word pattern spellers words their way word sorts",
+            "url": "https://www.ecu.edu.au/__data/assets/pdf_file/0004/656518/From-Sounds-to-Spelling.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list haddock colossus sheepskin honeymoon candid pragmatic agrarian people applicate",
+            "content": "english word families the following is a list of about 28000 english word families this page is rather long but having all the families on a single web",
+            "url": "https://enroots.neocities.org/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list lucrative youve tunnel archery bride coquette polytypy barbudo radix arlen lockwood teem officious",
+            "content": "this webapp helps you to find anagrams rearrangements of the letters in a word or words for example an anagram for “stop” is “pots”",
+            "url": "http://www.andrewduncan.net/anagrammer/index.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list indicate quagmire predacious gut vantage marshal across smuggle flight directrix admixture",
+            "content": "across acrylate acrylic act actinic actinide actinium actinolite actinometer admixture admonish admonition ado adobe adolescent adopt adoption",
+            "url": "https://courses.cs.washington.edu/courses/cse143/24sp/homework/dict3.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "sort the following words alphabetically list falter tuscarora invigorate porridge wetland libya residuary wrapup ludlow landlady kamikaze christiana jot antler mallow",
+            "content": "this webapp helps you to find anagrams rearrangements of the letters in a word or words for example an anagram for “stop” is “pots”",
+            "url": "http://www.andrewduncan.net/anagrammer/index.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list statuette whiteface lauderdale encumber atonic specify olivia adipic neutrino antique catch persona athlete sovereignty",
+            "content": "adipic adirondack adjacent adject adjectival adjective adjoin adjoint antique antiquity antisemite antisemitic antisemitism antithetic antler",
+            "url": "https://www.dcs.gla.ac.uk/~pat/52233/Exercise3/dictionary.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list hyperboloid buckle liquidate alkali nagasaki breach falsetto parmesan mirth",
+            "content": "alkali alkalic alkaline alkalinity alkalis alkalise alphabetically alphabets alphanumeric alphas alpine alps",
+            "url": "https://userpages.umbc.edu/~park/cs341.f18/projects/proj5files/words.h",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list chrysalis wallaby",
+            "content": "genus kind sort class category gero to carry bear wear bear posterus postremo subsequent following next future posthabeo to put",
+            "url": "https://www.angelfire.com/extreme4/safer_sephiroth/EVERY_WORD_EVER.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "sort the following words alphabetically list stitch steelmake indomitable wigging cubby sheaf pique thymine exotica good mental brake nick rajah lineage choose bunny drone chevalier",
+            "content": "alphabetically alphabeting alphabetization alphabetize alphabetized brake brakeage brakeages braked brakeless brakeman brakemen brakes brakier",
+            "url": "https://trinket.io/python/28381dc6ef",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list zinc coriolanus leather easternmost highwaymen scavenge musky cutlet synaptic creak heaven paula astigmat muscular godson boyish",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list jocund flagellate bodyguard flotation commensal involve miff ineradicable postprocess",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list crowfoot scrupulous campfire contrast purgatory",
+            "content": "sort a bulleted or numbered list in ascending a to z or descending z to a alphabetical order",
+            "url": "https://support.microsoft.com/en-us/office/sort-a-list-alphabetically-in-word-4d27ca57-6d64-4229-82f8-a0a1a805d494",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list yves butt scribe seaworthy manumitted clapeyron lift blackguard reconnaissance agile woodcut lightfooted sawbelly meager geophysical wiseacre mathieu cognoscenti purposive flamboyant",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list yuh edt cheddar oblivion from poignant pang",
+            "content": "it turns out that there is a reason why conversations with npcs are awkward and oddlytimed in elder scrolls oblivion",
+            "url": "https://www.thegamer.com/elder-scrolls-oblivion-voice-acting-was-so-weird-the-voice-actors-given-lines-alphabetically/",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list plebiscite colombo inviolate quagmire garry satanic magnanimity aeneas notoriety nevada foothold glycerine lucre tennyson type scription pompey softball spleenwort fox",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list lise snipe miaow",
+            "content": "alphabetical order is a system whereby character strings are placed in order based on the position of the characters in the conventional ordering of an alphabet it is one of the methods of collation in mathematics a lexicographical order is the generalization of the alphabetical order to",
+            "url": "https://en.wikipedia.org/wiki/Alphabetical_order",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list zan natalie coplanar stevenson",
+            "content": "alphabetize list is a free online tool that puts any list in alphabetical order alphabetize lists last names friends remove duplicates reverse list strip html randomize and alphabetize titles",
+            "url": "https://alphabetizer.flap.tv",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list transgressor sidewinder tacky casualty shouldnt courtier leprosy avoidance gibbon merge",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list bust midshipmen musicale urinary chalk rocket resiny horror tangential sapient dumb serf pathway urea goucher fatty masonry dentistry cowboy roadrunner",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list foliate damon europa potpourri",
+            "content": "a big list of x27foliate papillax27 words wex27ve compiled all the words related to foliate papilla and organised them in terms of their relevance and association with foliate papilla",
+            "url": "https://relatedwords.io/foliate-papilla",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "sort the following words alphabetically list opinionate interior ebb seeable jurassic flatland mammary cardamom forthwith licensor landslide valkyrie cryptic bully insurmountable nassau",
+            "content": "ifndef wordsh define wordsh const int numwords 58109 const char wordsnumwords quotaardvarkquot quotaardwolfquot quotaaronquot quotabackquot quotabacusquot quotabaftquot quotabalonequot quotabandonquot quotabandonedquot quotabandonmentquot quotabandonsquot quotabasequot quotabasedquot quotabasementquot quotabashquot quotabashedquot quotabatequot quotabatedquot",
+            "url": "https://userpages.umbc.edu/~park/cs341.f18/projects/proj5files/words.h",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list regret uptake satisfy behold fumarole motif forth alcohol escutcheon pease hackberry walkie",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list bottle kenney chapati okinawa boon bedtime",
+            "content": "browse documents by alphabetical order browse documents in specific collections",
+            "url": "https://www.govinfo.gov/content/pkg/GOVPUB-GP-dd1b3221323c8729f4d0671a41a835f9/pdf/GOVPUB-GP-dd1b3221323c8729f4d0671a41a835f9.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list crystallography survey bindle rundown shipshape roadside strange chiang dent mambo savannah spew wont ram",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "sort the following words alphabetically list neal orthodontist soybean expatriate elliot unipolar ann cometh blake confirmatory casual crinkle carbondale hangable degum bishopric shenandoah telegraph allocate tuxedo",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list wink envious scotia planetaria pooh emancipate army",
+            "content": "a big list of x27winnie the poohx27 words wex27ve compiled all the words related to winnie the pooh and organised them in terms of their relevance and association with winnie the pooh",
+            "url": "https://relatedwords.io/winnie-the-pooh",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list corpulent diagnose code scalp bombproof fluorine blythe swipe honeybee damn pore maharaja cytolysis solicit",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list sibyl calligraph goat inverness form threadbare",
+            "content": "a big list of x27sibylx27 words wex27ve compiled all the words related to sibyl and organised them in terms of their relevance and association with sibyl",
+            "url": "https://relatedwords.io/sibyl",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list sloane molten equip hillman max cochran practise advisee kuwait chancery hoofprint cardigan evildoer retinue wuhan ape apostate acrobacy crowbait",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list condescend rampant percolate coltish date rochester placid significant",
+            "content": "a big list of x27percolatex27 words wex27ve compiled all the words related to percolate and organised them in terms of their relevance and association with percolate",
+            "url": "https://relatedwords.io/percolate",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list bituminous ami decadent knickerbocker exeter",
+            "content": "alphabetize list is a free online tool which will put any list you have into alphabetical order",
+            "url": "https://wordcounter.net/alphabetize",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list statutory feed spavin hecatomb pestle plume figural pasty giveth incense undulate middle blackstone tel obstinacy toothpaste hunt sinkhole",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list infantrymen knob yaounde aqueous deregulate lysergic gala",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "sort the following words alphabetically list blutwurst horizon uranyl arraign portentous faber rancho peste glacier convenient inconspicuous",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list inscribe upraise perceptive tragedian peculate cunard posterior crude danubian",
+            "content": "explore uwla crosse uwl is wisconsin’s topranked public university among peers according to us news amp world report’s best colleges list",
+            "url": "https://www.uwlax.edu/globalassets/academics/departments/educational-studies/wisconsin-foundations-of-reading-practice-test-analysis.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "sort the following words alphabetically list comet pincer snippet manley injun spokesperson hydrate heusen cocksure",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "sort the following words alphabetically list roadster earl metaphoric hollandaise supranational psyche pedro gloss granola quarantine inauspicious penis baccarat arenaceous mackenzie blare bowman",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list sinter cortex kangaroo pillage threshold insane mcleod roundabout stipulate marionette trammel incident",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list greasy lapidary mark",
+            "content": "alphabetize list is a free online tool that puts any list in alphabetical order alphabetize lists last names friends remove duplicates reverse list strip html randomize and alphabetize titles",
+            "url": "https://alphabetizer.flap.tv",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list maraud downtrodden hurst propane morphine parsonage gadgetry inertial gamin",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list soulful dnieper labile lease vehicular",
+            "content": "a big list of x27 vehiclesx27 words wex27ve compiled all the words related to vehicles and organised them in terms of their relevance and association with vehicles",
+            "url": "https://relatedwords.io/-vehicles",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list choreograph retardant multifarious pro carbonic equestrian wishful wigwam countersink libya authenticate metal have corvallis nitric petition obfuscatory",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "sort the following words alphabetically list wintertime mobster ugh brown fleabane longish ipsilateral cortex hair diminutive trapezoidal guy richfield highfalutin borough foot delphinium cosec abstract",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list betony bronzy charge cordial handicraft boar collet clemens bootleg possession mesh centaur contemporaneous macmahon underclassman monterey dorado contravariant regina",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list covenant thence davenport sonorant scoreboard densitometer noisy",
+            "content": "a big list of x27sonorant consonantx27 words wex27ve compiled all the words related to sonorant consonant and organised them in terms of their relevance and association with sonorant consonant",
+            "url": "https://relatedwords.io/sonorant-consonant",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "sort the following words alphabetically list sioux fortescue purloin percept helmsman",
+            "content": "the meaning of purloin is to appropriate wrongfully and often by a breach of trust how to use purloin in a sentence did you know synonym discussion of purloin",
+            "url": "https://www.merriam-webster.com/dictionary/purloin",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list lethe bilk perturb tactual",
+            "content": "alphabetize list is a free online tool that puts any list in alphabetical order alphabetize lists last names friends remove duplicates reverse list strip html randomize and alphabetize titles",
+            "url": "https://alphabetizer.flap.tv",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "sort the following words alphabetically list underclassmen pegging dale bartok goat martinson whoop badinage brunswick fraternity allele dar yourselves dun anthropocentric banish starkey morphemic monomer desolater",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "sort the following words alphabetically list faithful broom integer menu gondola deathward brainwash soc kinematic",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "sort the following words alphabetically list stephen amperage protocol crimea farther raillery tech insolent ping",
+            "content": "we cannot provide a description for this page right now",
+            "url": "https://web.ung.edu/media/university-press/ILSS%20Monograph%202017.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list butterscotch veterinarian kochab molybdate extoller amos farrell academia glance predatory beautiful ford fiducial metzler europium circuitous diatom monomer",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list strove hendrickson apostasy jacm indonesia vibrate afloat lanthanide grosbeak scavenge quark chattel conner bechtel melancholy ferment",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list frontage gunky indeterminable smokestack taint assure ostentatious sanderson contend paradigmatic lustrous butterball deaf dinosaur bully rhyme sashimi bye cornet",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list testy trench sin rheumatic shivery orphanage functor zorn butadiene spec racy heck flair snowball booby",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list labile crunchy highlight silage judaism allocable vale phenol dissipate bertram necessity champlain boutique hydrology facto often",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list hodges deoxyribose troupe motorcade devisee stratify auerbach decor incommensurable dianne",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sort the following words alphabetically list sediment varsity towel fracture",
+            "content": "an introduction to geology free textbook for collegelevel introductory geology courses",
+            "url": "https://opengeology.org/textbook/5-weathering-erosion-and-sedimentary-rocks/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list behold oxalic maybe hew steel termcap pray stiffen dissipate misogyny format dew",
+            "content": "wordnik list words with letters in alphabetical order",
+            "url": "https://www.wordnik.com/lists/words-with-letters-in-alphabetical-order",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "sort the following words alphabetically list coypu anharmonic inflammation beauteous",
+            "content": "a big list of x27beautifulnessx27 words wex27ve compiled all the words related to beautifulness and organised them in terms of their relevance and association with beautifulness",
+            "url": "https://relatedwords.io/beautifulness",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list fasciculate judicature presto",
+            "content": "alphabetical order is a system whereby character strings are placed in order based on the position of the characters in the conventional ordering of an alphabet it is one of the methods of collation in mathematics a lexicographical order is the generalization of the alphabetical order to",
+            "url": "https://en.wikipedia.org/wiki/Alphabetical_order",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list confidential ursa fiction heterozygous faery overture horehound",
+            "content": "a big list of x27faeryx27 words wex27ve compiled all the words related to faery and organised them in terms of their relevance and association with faery",
+            "url": "https://relatedwords.io/faery",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list avoid whimsey grassland elegy pitfall error gaillardia hostile caramel conclave stepchild accept carbuncle compressor utopia drib spectra rosa embower",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "sort the following words alphabetically list inflammation slump schiller jacqueline darkle piano fungi sojourn macaque joanne gobble boldface sst",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "sort the following words alphabetically list burley bela arapaho bacteria bock",
+            "content": "a big list of x27arapaho nationx27 words wex27ve compiled all the words related to arapaho nation and organised them in terms of their relevance and association with arapaho nation",
+            "url": "https://relatedwords.io/arapaho-nation",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "sort the following words alphabetically list walnut scoot jugoslavia retrorocket polyhedron",
+            "content": "sort a bulleted or numbered list in ascending a to z or descending z to a alphabetical order",
+            "url": "https://support.microsoft.com/en-us/office/sort-a-list-alphabetically-in-word-4d27ca57-6d64-4229-82f8-a0a1a805d494",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "sort the following words alphabetically list quench autocracy lodge exploitation custody ventricle annuity bruno thunderclap militant somatic dare acquisitive",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list hangout drafty supposable sushi proscenium anticonvulsant youd magnificent scrub embolden hasty pewee carrageen disseminate glamour discovery registrar acuity",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sort the following words alphabetically list papaw perfidious frugal labial feel sonar blunderbuss box dinnertime oresteia",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list scrumptious sidereal thermal yakima siena gorky saxon scottish figural hydroxyl seventeen neapolitan rampage nerve grapple fate plainfield stooge knives allotted",
+            "content": "alphabetical list aback abandon abate abbreviate abdomen abduct abhor abide ability",
+            "url": "https://www.manythings.org/sentences/words/_list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list impede appliance pulitzer superior",
+            "content": "a big list of x27appliancex27 words wex27ve compiled all the words related to appliance and organised them in terms of their relevance and association with appliance",
+            "url": "https://relatedwords.io/appliance",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sort the following words alphabetically list gazpacho indiscreet ballast erosible agglomerate ogle dollop spaniard oilcloth expiry manuel extensor",
+            "content": "welcome to “list of spanish words in english az” a comprehensive blog dedicated to exploring the rich and diverse world of spanish vocabulary from the vibrant colors of daily life to the intricate nuances of culture and expression spanish words carry a melody and rhythm that resonate",
+            "url": "https://engdic.org/spanish-words-list/",
+            "engine": "braveAPI"
+        }
+    ]
+}

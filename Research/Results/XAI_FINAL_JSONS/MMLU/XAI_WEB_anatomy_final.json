@@ -1,0 +1,1781 @@
+{
+    "task": "mmlu_anatomy",
+    "dataset": "web_access_anatomy_final",
+    "questions": 135,
+    "noWebContextCount": 1,
+    "contaminated_queries": 94,
+    "contaminated_urls": 337,
+    "valid_urls": 134,
+    "avg_contaminated_before_valid": 3.514925373134328,
+    "contaminated_data_ratio": 0.7154989384288747,
+    "most_contaminated_urls": {
+        "global.oup.com": 52,
+        "www.aama-ntl.org": 12,
+        "www.facebook.com": 11,
+        "medizzy.com": 6
+    },
+    "noWebContext": [
+        "Which of the following best describes the process whereby the stomach muscles contract to propel food through the digestive tract?"
+    ],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "a patient is admitted after a head injury and sinks rapidly into a coma an mri scan indicates an extradural haemorrhage because extravasated blood can be detected between the",
+            "content": "coma an mri scan indicates an extradural haemorrhage because extravasated blood can be detected between the a skull bones and dura mater b dura mater",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch15/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a patient is admitted after a head injury and sinks rapidly into a coma an mri scan indicates an extradural haemorrhage because extravasated blood can be detected between the",
+            "content": "by m atkinson 814 a patient is admitted after a head injury and sinks rapidly into a coma an mri scan indicates an extradural haemorrhage because extravasated blood can",
+            "url": "https://www.jr-press.co.uk/Documents_Forms/atkinsonweb.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the spinal cord motor neuron cell bodies are located in",
+            "content": "the large alpha motor neuron cell body can be either in the brainstem or spinal cord in the spinal cord the cell bodies are found in the",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK554616/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "in the spinal cord motor neuron cell bodies are located in",
+            "content": "the gray matter mainly contains the cell bodies of neurons and glia and is lower motor neuron nuclei are located in the ventral horn of the spinal cord",
+            "url": "https://nba.uth.tmc.edu/neuroscience/m/s2/chapter03.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "cerebrospinal fluid circulates around the brain between the",
+            "content": "cerebrospinal fluid circulates through a system of cavities found within the brain and spinal cord ventricles subarachnoid space of the brain and spinal cord",
+            "url": "https://www.kenhub.com/en/library/anatomy/circulation-of-the-cerebrospinal-fluid",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+            "content": "question 3 a lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral a paralysis of the facial muscles b",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch23/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is the large bone found superior to the patella and inferior to the ischium",
+            "content": "which of the following is the large bone found superior to the patella and inferior to the ischium triviatuesday femur 629 वोट tibia 35",
+            "url": "https://www.facebook.com/aamaorg/posts/which-of-the-following-is-the-large-bone-found-superior-to-the-patella-and-infer/1660429924005938/?locale=hi_IN",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which of the following is the large bone found superior to the patella and inferior to the ischium",
+            "content": "17 which of the following is the large bone found superior to the patella and inferior to the ischium a calcaneus b femur c symphysis pubis d",
+            "url": "https://www.aama-ntl.org/certification/prepare/anatomy-and-physiology-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "loss of somatic sensation over the anterior twothirds of the tongue indicates damage to the",
+            "content": "question 3 loss of somatic sensation over the anterior twothirds of the tongue indicates damage to the a lingual branch of the mandibular trigeminal nerve",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch18/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "loss of somatic sensation over the anterior twothirds of the tongue indicates damage to the",
+            "content": "entrapment of the lingual nerve can cause numbness and loss of taste from the anterior twothirds of the tongue loss of sensation from the lingual gingiva and",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK546652/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "loss of somatic sensation over the anterior twothirds of the tongue indicates damage to the",
+            "content": "damage to the olfactory nerve results in anosmia loss of olfactory sensation ○ loss of taste from the anterior twothirds of the tongue ○ hyperacusis",
+            "url": "https://katedra-anatomii.cm-uj.krakow.pl/cm/uploads/2019/12/8.-Cranial-nerves-clinical-apperances-1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete bilateral cleft palate is due to failure of fusion of the",
+            "content": "question 2 complete bilateral cleft palate is due to failure of fusion of the a palatine processes b palatine and frontonasal processes",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch32/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following foramina pierce the sphenoid bone",
+            "content": "question 3 which of the following foramina pierce the sphenoid bone a the foramen ovale",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch22/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a malignant tumour is damaging the patients glossopharyngeal nerve they will experience",
+            "content": "question 1 a malignant tumour is damaging the patients glossopharyngeal nerve they will experience a loss of taste over the anterior twothirds of the",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch18/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a malignant tumour is damaging the patients glossopharyngeal nerve they will experience",
+            "content": "a malignant tumour is damaging the patients glossopharyngeal nerve they will experience a loss of taste over the anterior twothirds of the tongue",
+            "url": "https://www.facebook.com/permalink.php/?story_fbid=872320329554413&id=605816449538137",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a patient cuts a peripheral motor nerve in their wrist when they fall through a plate glass window if the nerve does not regenerate after about 6 months the muscles it normally innervates will show signs of which of the four options below",
+            "content": "if the nerve does not regenerate after about 6 months the muscles it normally innervates will show signs of which of the four options below a spastic",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch03/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "in men specimens for gonococcal cultures are most commonly obtained from which of the following structures",
+            "content": "11 in men specimens for gonococcal cultures are most commonly obtained from which of the following structures a anus b bladder c skin",
+            "url": "https://www.facebook.com/mannatnursingacademyshimla/posts/11-in-men-specimens-for-gonococcal-cultures-are-most-commonly-obtained-from-whic/104701164716295/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "in men specimens for gonococcal cultures are most commonly obtained from which of the following structures",
+            "content": "40 in men specimens for gonococcal cultures are most commonly obtained from which of the following structures a anus b bladder c skin d testicle",
+            "url": "https://www.aama-ntl.org/certification/prepare/anatomy-and-physiology-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "in men specimens for gonococcal cultures are most commonly obtained from which of the following structures",
+            "content": "in men specimens for gonococcal cultures are most commonly obtained from which of the following a anus b bladder c skin d testicle e urethra",
+            "url": "https://www.studypool.com/documents/6576/in-men-specimens-for-gonococcal-cultures-are-most-commonly-obtained-from-which-of-the-following",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if you run your finger down the anterior midline of a patients extended neck from chin to sternal notch you should be able to palpate in order the",
+            "content": "question 3 if you run your finger down the anterior midline of a patients extended neck from chin to sternal notch you should be able to palpate",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch20/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following best describes the human bodys defense mechanism against environmental bacteria",
+            "content": "2 which of the following best describes the human bodys defense mechanism against environmental bacteria a hair in the nose b mucous membranes c",
+            "url": "https://www.aama-ntl.org/certification/prepare/anatomy-and-physiology-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following best describes the human bodys defense mechanism against environmental bacteria",
+            "content": "which of the following best describes the human bodys defense mechanism against environmental bacteria a hair in the nose b mucous",
+            "url": "https://www.brooklinecollege.edu/blog/how-to-pass-the-cma-exam/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "which of the following best describes the human bodys defense mechanism against environmental bacteria",
+            "content": "2 which of the following best describes the human bodys defense mechanism against environmental bacteria a hair in the nose b mucous",
+            "url": "https://www.eaglegatecollege.edu/blog/how-to-pass-the-cma-certification-exam/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a possible effect of damage to the third cranial nerve by trauma to the orbit is",
+            "content": "question 1 a possible effect of damage to the third cranial nerve by trauma to the orbit is a a convergent strabismus b ptosis c pupillary contriction",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch30/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following structures should be visible on a dental panoramic radiograph",
+            "content": "which of the following structures should be visible on a dental panoramic radiograph a the mandibular canal b the mandibular canal and maxillary sinus c",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch31/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following is located beneath the diaphragm in the left upper quadrant of the abdominal cavity",
+            "content": "which of the following is located beneath the diaphragm in the left upper quadrant of the abdominal cavity a appendix b duodenum c gallbladder d",
+            "url": "https://www.facebook.com/photo.php?fbid=389418533609625&id=100076244445013&set=a.178500524701428",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following is located beneath the diaphragm in the left upper quadrant of the abdominal cavity",
+            "content": "8 which of the following is located beneath the diaphragm in the left upper quadrant of the abdominal cavity a appendix b duodenum c gallbladder d",
+            "url": "https://www.aama-ntl.org/certification/prepare/anatomy-and-physiology-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following is located beneath the diaphragm in the left upper quadrant of the abdominal cavity",
+            "content": "which of the following is located beneath the diaphragm in the left upper quadrant of the abdominal cavity a appendix b duodenum c gallbladder d",
+            "url": "https://medizzy.com/feed/432429",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the major concentrations of proprioceptive receptors providing information about position of the tmj are located in",
+            "content": "question 4 the major concentrations of proprioceptive receptors providing information about position of the tmj are located in a the capsule and ligaments",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch24/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the major concentrations of proprioceptive receptors providing information about position of the tmj are located in",
+            "content": "4 the major concentrations of proprioceptive receptors providing information about position of the tmj are located in a the capsule and ligaments of the tmj",
+            "url": "https://thefuturedentistry.com/temporo-mandibular-joint-mcqs/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "a patient has a fracture in which the radius is bent but not displaced and the skin is intact this type of fracture is known as which of the following",
+            "content": "a patient has a fracture in which the radius is bent but not displaced and the skin is intact this type of fracture is known as which of the following a",
+            "url": "https://medizzy.com/feed/448723",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the palatine processes begin to fuse at",
+            "content": "the palatine processes begin to fuse at a six weeks postfertilization b eight weeks postfertilization c ten weeks postfertilization d twelve weeks",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch32/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the mucosa of the hard palate is",
+            "content": "the mucosa of the hard palate acts as a barrier against the external environment such as preventing injury water loss and microbial invasion",
+            "url": "https://www.elsevier.com/resources/anatomy/digestive-system/digestive-canal/mucosa-of-hard-palate/20653",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of one of the following statements about the postnatal growth of the maxilla is correct",
+            "content": "which of one of the following statements about the postnatal growth of the maxilla is correct a pneumatisation by enlargement of the developing maxillary",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch33/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a patient is stabbed in the neck you suspect damage to the accessory nerve in the posterior triangle you would test nerve function by asking the patient to",
+            "content": "accessory nerve in the posterior triangle you would test nerve function by asking the patient to a extend their neck against resistance b extend their",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch18/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following bony structures may be palpated in a live patient",
+            "content": "question 1 which of the following bony structures may be palpated in a live patient a the supraorbital foramen",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch20/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on which surfaces of the teeth is dental plaque most likely to accumulate in the mouth of a patient with poor oral hygiene",
+            "content": "on which surfaces of the teeth is dental plaque most likely to accumulate in the mouth of a patient with poor oral hygiene molars and labial surfaces",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch23/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a patient suffers a cva in the area of the left internal capsule conveying motor neurons to the right leg the patients leg will exhibit",
+            "content": "question 1 a patient suffers a cva in the area of the left internal capsule conveying motor neurons to the right leg the patients leg will exhibit spastic",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch16/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following structures accompany the oesophagus through the diaphragm",
+            "content": "which of the following structures accompany the oesophagus through the diaphragm a the phrenic nerves b the splanchnic nerves c the sympathetic trunks d",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch10/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following structures accompany the oesophagus through the diaphragm",
+            "content": "abdominal surface of the diaphragm in a cadaver the esophageal hiatus passes through the right crus of the diaphragm the foramen of the inferior vena cava",
+            "url": "https://www.kenhub.com/en/library/anatomy/diaphragm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in a patient with a normal healthy mouth you would expect the mucosa covering the alveolar process supporting the mandibular teeth to be",
+            "content": "patient with a normal healthy mouth you would expect the mucosa covering the alveolar process supporting the mandibular teeth to be a light pink in colour",
+            "url": "https://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch25/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in a patient with a normal healthy mouth you would expect the mucosa covering the alveolar process supporting the mandibular teeth to be",
+            "content": "in a patient with a normal healthy mouth you would expect the mucosa covering the alveolar process supporting the mandibular teeth to be a",
+            "url": "https://arogyakeralam.gov.in/wp-content/uploads/2020/04/BDS-ans-key-alp-14.10.22.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "in a patient with a normal healthy mouth you would expect the mucosa covering the alveolar process supporting the mandibular teeth to be",
+            "content": "in a patient with a normal healthy mouth you would expect the mucosa covering the alveolar process supporting the mandibular teeth to be a",
+            "url": "https://rcsc.gov.bt/wp-content/uploads/2025/02/TechnicalPaperIII-Dentistry.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in relation to the rib the corresponding intercostal nerve lies",
+            "content": "question 2 in relation to the rib the corresponding intercostal nerve lies a deep to its superior border",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch10/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which sequence describes the systemic circulation",
+            "content": "question 2 which sequence describes the systemic circulation a left ventricle → aorta → arteries → veins → capillaries",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch04/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "macrostomia results from failure of fusion of",
+            "content": "macrostomia results from a failure of fusion of the maxillary and the mandibular processes and may occur isolated or with other congenital abnormalities",
+            "url": "https://www.sciencedirect.com/topics/medicine-and-dentistry/macrostomia",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "macrostomia results from failure of fusion of",
+            "content": "we believe that both intrauterine trauma and failure of fusion of the mandibular and maxillary processes secondary to an aberration in fgf8 function are",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23657042/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "macrostomia results from failure of fusion of",
+            "content": "macrostomia is a congenital deformity resulting from failure of fusion of maxillary and mandibular process it is a rare congenital deformity",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1155/2014/471353",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "macrostomia results from failure of fusion of",
+            "content": "this macrostomia is due to failure of fusion of the maxillary and mandibular processes of the first and second branchial arch or due to disruption in the",
+            "url": "https://joraldiagnosis.com/revista/article/download/221/217/427",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "macrostomia results from failure of fusion of",
+            "content": "macrostomia results from failure of fusion of a maxillary and mandibular processes b left and right mandibular processes c maxillary and frontonasal",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch32/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following options completes the following statement the right atrioventricular valve…",
+            "content": "which of the following options completes the following statement the right atrioventricular valve… a is a semilunar valve b is prevented from everting",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch04/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following structures is derived from ectomesenchyme",
+            "content": "which of the following structures is derived from ectomesenchyme a motor neurons b skeletal muscles",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch08/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following muscles are derived from the first brachial arch",
+            "content": "question 3 which of the following muscles are derived from the first brachial arch a the muscles of mastication",
+            "url": "https://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch21/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a patient sustains severe blunt trauma to the left upper abdomen and requires surgery which one of the following organs is most likely to be involved",
+            "content": "a patient sustains severe blunt trauma to the left upper abdomen and requires surgery which one of the following organs is most likely to be",
+            "url": "https://www.facebook.com/aamaorg/posts/a-patient-sustains-severe-blunt-trauma-to-the-left-upper-abdomen-and-requires-su/2511548192227436/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a patient sustains severe blunt trauma to the left upper abdomen and requires surgery which one of the following organs is most likely to be involved",
+            "content": "a patient sustains severe blunt trauma to the left upper abdomen and requires surgery which one of the following organs is most likely to be involved",
+            "url": "https://medizzy.com/feed/3134284",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "a patient sustains severe blunt trauma to the left upper abdomen and requires surgery which one of the following organs is most likely to be involved",
+            "content": "25 a patient sustains severe blunt trauma to the left upper abdomen and requires surgery which one of the following organs is most likely to be involved",
+            "url": "https://www.aama-ntl.org/certification/prepare/anatomy-and-physiology-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "palatine shelf elevation is due to the effect of",
+            "content": "question 4 palatine shelf elevation is due to the effect of a descent of the tongue b changes in flexure of the developing brain c hydrophilic",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch32/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which one of the following brain areas is supplied by branches of the subclavian arteries",
+            "content": "which one of the following brain areas is supplied by branches of the subclavian arteries a the frontal lobe b the parietal lobe",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch15/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the regional lymphatic drainage of the left side of the tip of the tongue is to the",
+            "content": "lymphatic drainage of the left side of the tip of the tongue is to the a left submental lymph node b left and right submental lymph nodes c left",
+            "url": "https://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch25/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement concerning the atrioventricular bundle is correct",
+            "content": "question 3 which statement concerning the atrioventricular bundle is correct a it is formed of autonomic nerve processes and is the only electrical",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch12/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when an emergency opening into the airway is required the cricothyroid membrane should be pierced immediately",
+            "content": "emergency opening into the airway is required the cricothyroid membrane should be pierced immediately a superior to the thyroid cartilage b inferior to",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch28/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following statements is true of the temporomandibular joint",
+            "content": "3 which of the following statements is true of the temporomandibular joint a it has an articular disc of hyaline cartilage b its articular surfaces",
+            "url": "https://thefuturedentistry.com/temporo-mandibular-joint-mcqs/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following statements is true of the temporomandibular joint",
+            "content": "which of the following statements is true of the temporomandibular joint a it has an articular disc of hyaline cartilage b",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch24/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which of the following statements is true of the temporomandibular joint",
+            "content": "also 62 of dental interns failed to answer item which of the following statements is true regarding the temporomandibular joint correctly",
+            "url": "https://bbrc.in/knowledge-and-management-assessment-of-temporomandibular-joint-tmj-disorders-among-dental-interns-at-king-saud-university/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "which of the following statements is true of the temporomandibular joint",
+            "content": "the main function of the temporomandibular joint is to facilitate movements of the lower jaw this joint allows a range of movements of the lower jaw namely",
+            "url": "https://www.kenhub.com/en/library/anatomy/the-temporomandibular-joint",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the head of the sixth rib articulates with",
+            "content": "the head of the sixth rib contains two articular facets the superior articular facet articulates with the inferior costal facet of the fifth thoracic vertebra",
+            "url": "https://www.elsevier.com/resources/anatomy/skeletal-system/axial-skeleton/articular-facets-on-head-of-sixth-rib/19369",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the head of the sixth rib articulates with",
+            "content": "the head of the sixth rib articulates with a the inferior articular facet of t5 and superior articular facet of t6 b the inferior articular demifacet of",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch10/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the head of the sixth rib articulates with",
+            "content": "articulates with fifth and sixth thoracic vertebrae sixth costal cartilage articular facets on head of sixth rib sixth rib key features anatomical",
+            "url": "https://www.elsevier.com/resources/anatomy/skeletal-system/axial-skeleton/sixth-rib/17744",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a dished face profile is often associated with",
+            "content": "question 6 a dished face profile is often associated with a a protruding mandible due to reactivation of the condylar cartilage by acromegaly b a",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch33/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a dished face profile is often associated with",
+            "content": "profile is often classified broadly into three discrete categories profile in draft horses are independent of that of the dished face profile and are",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0737080623007967",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "during an inferior alveolar nerve block the needle ideally passes",
+            "content": "question 2 during an inferior alveolar nerve block the needle ideally passes a posterior and medial to medial pterygoid b anterior and lateral to medial",
+            "url": "https://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch25/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following paranasal sinuses open into the middle meatus",
+            "content": "which of the following paranasal sinuses open into the middle meatus a the anterior ethmoidal sinuses b the anterior ethmoidal and frontal sinuses c the",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch27/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "laryngoscopic examination of the vocal folds after suspected recurrent laryngeal nerve damage usually shows that the vocal fold on the injured side is tensed and in an intermediate position between adduction and abduction this is because",
+            "content": "question 7 laryngoscopic examination of the vocal folds after suspected recurrent laryngeal nerve damage usually shows that the vocal fold on the injured side",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch28/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following organs removes bilirubin from the blood manufactures plasma proteins and is involved with the production of prothrombin and fibrinogen",
+            "content": "6 which of the following organs removes bilirubin from the blood manufactures plasma proteins and is involved with the production of",
+            "url": "https://www.facebook.com/mannatacademychandigarh/posts/6-which-of-the-following-organs-removes-bilirubin-from-the-blood-manufactures-pl/908113566345717/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following organs removes bilirubin from the blood manufactures plasma proteins and is involved with the production of prothrombin and fibrinogen",
+            "content": "manufactures plasma proteins and is involved with the production of prothrombin and fibrinogen a gallbladder b kidney c liver d spleen e stomach",
+            "url": "https://www.aama-ntl.org/certification/prepare/anatomy-and-physiology-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "you notice that your patients submandibular lymph nodes are enlarged you would look for potential infection sites in the",
+            "content": "question 3 you notice that your patients submandibular lymph nodes are enlarged you would look for potential infection sites in the a hard palate b",
+            "url": "https://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch25/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "the thoracic cage is a structural unit important for which of the following functions",
+            "content": "29 the thoracic cage is a structural unit important for which of the following functions a alimentation b menstruation c mentation d respiration",
+            "url": "https://www.aama-ntl.org/certification/prepare/anatomy-and-physiology-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which one of the following statements about the growth of the mandible is correct",
+            "content": "which one of the following statements about the growth of the mandible is correct a the mental symphysis closes at about 1 year postnatally b the condylar",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch33/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following bones has a process that joins with the zygomatic bone to form the zygomatic arch",
+            "content": "question 2 which of the following bones has a process that joins with the zygomatic bone to form the zygomatic arch a the maxillary bone",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch22/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the crown of a very carious tooth suddenly fractures while the patient is standing eating at a takeaway food outlet and a fragment is inhaled it is more likely to enter the",
+            "content": "question 5 the crown of a very carious tooth suddenly fractures while the patient is standing eating at a takeaway food outlet and a fragment is inhaled",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch11/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a patient suffers damage to the orbit in a road traffic incident resulting in damage to the third cranial nerve which of the following signs will be present",
+            "content": "question 5 a patient suffers damage to the orbit in a road traffic incident resulting in damage to the third cranial nerve which of the following signs will",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch18/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a patient suffers damage to the orbit in a road traffic incident resulting in damage to the third cranial nerve which of the following signs will be present",
+            "content": "if a person suffers damage to the orbit in a road traffic incident resulting in damage to the third cranial nerve which of the following signs will be present",
+            "url": "https://www.brainscape.com/flashcards/practice-exam-2-5553746/packs/8398290",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "a patient suffers damage to the orbit in a road traffic incident resulting in damage to the third cranial nerve which of the following signs will be present",
+            "content": "damage to the orbit in a road traffic incident resulting in damage to the third cranial nerve which of the following signs will be present",
+            "url": "https://online.cbexams.com/RUHS2024/phdreg2024/images/Anatomy.pdf?t=1/2/2025%208:41:10%20PM",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "examination of a patient indicates that they have a medially directed strabismus squint this could be due to damage to the",
+            "content": "question 4 examination of a patient indicates that they have a medially directed strabismus squint this could be due to damage to the a oculomotor nerve",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch18/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "examination of a patient indicates that they have a medially directed strabismus squint this could be due to damage to the",
+            "content": "examination of a patient indicates that they have a medially directed strabismus squint this could be due to damage to the option a",
+            "url": "https://online.cbexams.com/RUHS2024/phdreg2024/images/Anatomy.pdf?t=1/2/2025%208:41:10%20PM",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following statements is true of the pupillary light reflex",
+            "content": "which of the following statements is true of the pupillary light reflex a its efferent limb is carried in the optic nerve b it is mediated by the",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch18/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "you notice a lesion on the labial alveolar mucosa of the lower right lateral incisor tooth of one of your patients and decide to take a biopsy to send for oral pathology report which nerve would require local anaesthesia in order to carry out a painfree biopsy",
+            "content": "question 4 you notice a lesion on the labial alveolar mucosa of the lower right lateral incisor tooth of one of your patients and decide to take a biopsy",
+            "url": "https://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch25/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "you notice a lesion on the labial alveolar mucosa of the lower right lateral incisor tooth of one of your patients and decide to take a biopsy to send for oral pathology report which nerve would require local anaesthesia in order to carry out a painfree biopsy",
+            "content": "10you notice a lesion on the labial alveolar mucosa of the lower right lateral incisor tooth of one of your patients and decide to take a",
+            "url": "https://uhs.edu.kh/questionaires/pdf/ODO_Year4_Semester2.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "you notice a lesion on the labial alveolar mucosa of the lower right lateral incisor tooth of one of your patients and decide to take a biopsy to send for oral pathology report which nerve would require local anaesthesia in order to carry out a painfree biopsy",
+            "content": "labial alveolar mucosa of the lower right lateral incisor tooth your patients and decide to take a biopsy to send for oral pathology report",
+            "url": "https://rcsc.gov.bt/wp-content/uploads/2025/02/TechnicalPaperIII-Dentistry.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following conditions is characterized by incompetence of the esophageal sphincter",
+            "content": "5 which of the following conditions is characterized by incompetence of the esophageal sphincter a crohns disease b esophageal varices c",
+            "url": "https://www.facebook.com/mannatnursingacademyshimla/posts/5-which-of-the-following-conditions-is-characterized-by-incompetence-of-the-esop/104697824716629/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "proprioceptive nerve endings in synovial joints are located in",
+            "content": "question 3 proprioceptive nerve endings in synovial joints are located in a articular cartilage and synovial membrane",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch02/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "you suspect that your patient has an enlarged submandibular salivary gland you expect the enlarged gland",
+            "content": "question 1 you suspect that your patient has an enlarged submandibular salivary gland you expect the enlarged gland a to be palpable intraorally b to",
+            "url": "https://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch25/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following best describes the process whereby the stomach muscles contract to propel food through the digestive tract",
+            "content": "9 which of the following best describes the process whereby the stomach muscles contract to propel food through the digestive tract a",
+            "url": "https://www.facebook.com/mannatacademychandigarh/posts/9-which-of-the-following-best-describes-the-process-whereby-the-stomach-muscles-/908115836345490/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following best describes the process whereby the stomach muscles contract to propel food through the digestive tract",
+            "content": "9 which of the following best describes the process whereby the stomach muscles contract to propel food through the digestive tract a",
+            "url": "https://www.facebook.com/107411264357860/posts/9-which-of-the-following-best-describes-the-process-whereby-the-stomach-muscles-/148023180296668/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following best describes the process whereby the stomach muscles contract to propel food through the digestive tract",
+            "content": "38 which of the following best describes the process whereby the stomach muscles contract to propel food through the digestive tract a absorption b",
+            "url": "https://www.aama-ntl.org/certification/prepare/anatomy-and-physiology-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the bones of the viscerocranium develop initially by",
+            "content": "question 4 the bones of the viscerocranium develop initially by a endochondral ossification and follow the somatic growth pattern b endochondral",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch33/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which orbital wall is most likely to collapse in a blow out fracture",
+            "content": "which orbital wall is most likely to collapse in a blow out fracture a the roof b the floor c the lateral wall d the medial wall reset a",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch30/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following anatomical regions of abdomen lies just distal to the sternum",
+            "content": "9 which of the following anatomical regions of abdomen lies just distal to the sternum a epigastric b hypochondriac c hypogastric d lumbar e",
+            "url": "https://www.aama-ntl.org/certification/prepare/anatomy-and-physiology-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which of the following anatomical regions of abdomen lies just distal to the sternum",
+            "content": "which of the following anatomical regions of abdomen lies just distal to the sternum a epigastric b hypochondriac c hypogastric d lumbar e umbilical",
+            "url": "https://medizzy.com/feed/432431?title=which_of_the_following_anatomical_regions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "food is prevented from entering the larynx during the pharyngeal phase of swallowing by",
+            "content": "question 1 food is prevented from entering the larynx during the pharyngeal phase of swallowing by a constriction of the laryngeal entrance",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch29/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when you examine a patient who has suffered an unfavourable fracture of the body of the mandible you would expect the",
+            "content": "question 6 when you examine a patient who has suffered an unfavourable fracture of the body of the mandible you would expect the a anterior fragment to",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch24/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "when you examine a patient who has suffered an unfavourable fracture of the body of the mandible you would expect the",
+            "content": "6 when you examine a patient who has suffered an unfavourable fracture of the body of the mandible you would expect the a anterior fragment to be",
+            "url": "https://thefuturedentistry.com/temporo-mandibular-joint-mcqs/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "laryngeal oedema is usually confined to the larynx above the vocal folds because",
+            "content": "question 4 laryngeal oedema is usually confined to the larynx above the vocal folds because a there are numerous mucous glands in the vestibular folds b",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch28/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following muscles initiates elevation of the mandible",
+            "content": "question 1 which of the following muscles initiates elevation of the mandible a masseter b temporalis c lateral pterygoid d medial pterygoid",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch26/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "which of the following is the large bone found superior to the patella and inferior to the ischium",
+            "content": "which of the following is the large bone found superior to the patella and inferior to the ischium",
+            "url": "https://medizzy.com/feed/448724",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "which of the following is the large bone found superior to the patella and inferior to the ischium",
+            "content": "job interview question which of the following is the large bone found superior to the patella and inferior to the ischiuma calcaneusb femurc symphysis pubisd tibiae",
+            "url": "https://globalguideline.com/interview_questions/Answer.php?a=Which_of_the_following_is_the_large_bone_found_superior_to_the_patella_and_inferior_to_the_ischiumA_",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "which of the following is the large bone found superior to the patella and inferior to the ischium",
+            "content": "which of the following is the large bone found superior to the patella and inferior to the ischium a calcaneus b femur © symphysis pubis d tibia e ulna",
+            "url": "https://www.medicaltalk.net/t/which-of-the-following-is-the-large-bone-found-superior-to-the-patella-and-inferior-to-the-ischium/52471",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "a patient has a fracture in which the radius is bent but not displaced and the skin is intact this type of fracture is known as which of the following",
+            "content": "job interview question a patient has a fracture in which the radius is bent but not displaced and the skin is intact this type of fracture is known as which of the followinga closed greenstick",
+            "url": "https://globalguideline.com/interview_questions/Answer.php?a=A_patient_has_a_fracture_in_which_the_radius_is_bent_but_not_displaced_and_the_skin_is_intact_This_t",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "which of the following organs removes bilirubin from the blood manufactures plasma proteins and is involved with the production of prothrombin and fibrinogen",
+            "content": "job interview question which of the following organs removes bilirubin from the blood manufactures plasma proteins and is involved with the production of prothrombin and fibrinogena gallbladder",
+            "url": "https://www.globalguideline.com/interview_questions/Answer.php?a=Which_of_the_following_organs_removes_bilirubin_from_the_blood_manufactures_plasma_proteins_and_is_i",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "the thoracic cage is a structural unit important for which of the following functions",
+            "content": "29 the thoracic cage is a structural unit important for which of the following functions a alimentation b menstruation c mentation d respiration",
+            "url": "https://www.aama-ntl.org/certification/prepare/anatomy-and-physiology-questions",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "which of the following best describes the process whereby the stomach muscles contract to propel food through the digestive tract",
+            "content": "9 which of the following best describes the process whereby the stomach muscles contract to propel food through the digestive tract a",
+            "url": "https://www.facebook.com/mannatacademychandigarh/posts/9-which-of-the-following-best-describes-the-process-whereby-the-stomach-muscles-/908115836345490/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "which of the following best describes the process whereby the stomach muscles contract to propel food through the digestive tract",
+            "content": "9 which of the following best describes the process whereby the stomach muscles contract to propel food through the digestive tract a",
+            "url": "https://www.facebook.com/107411264357860/posts/9-which-of-the-following-best-describes-the-process-whereby-the-stomach-muscles-/148023180296668/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "which of the following best describes the process whereby the stomach muscles contract to propel food through the digestive tract",
+            "content": "38 which of the following best describes the process whereby the stomach muscles contract to propel food through the digestive tract a absorption b",
+            "url": "https://www.aama-ntl.org/certification/prepare/anatomy-and-physiology-questions",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "which of the following anatomical regions of abdomen lies just distal to the sternum",
+            "content": "9 which of the following anatomical regions of abdomen lies just distal to the sternum a epigastric b hypochondriac c hypogastric d lumbar e",
+            "url": "https://www.aama-ntl.org/certification/prepare/anatomy-and-physiology-questions",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "which of the following anatomical regions of abdomen lies just distal to the sternum",
+            "content": "which of the following anatomical regions of abdomen lies just distal to the sternum a epigastric b hypochondriac c hypogastric d lumbar e umbilical",
+            "url": "https://medizzy.com/feed/432431?title=which_of_the_following_anatomical_regions",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "which of the following anatomical regions of abdomen lies just distal to the sternum",
+            "content": "which of the following anatomical regions of abdomen lies just distal to the sternum a epigastric b hypochondriac © hypogastric d lumbar e umbilical ans a",
+            "url": "https://www.medicaltalk.net/t/which-of-the-following-anatomical-regions-of-abdomen-lies-just-distal-to-the-sternum/51981",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "which of the following anatomical regions of abdomen lies just distal to the sternum",
+            "content": "job interview question which of the following anatomical regions of abdomen lies just distal to the sternuma epigastricb hypochondriacc hypogastricd lumbare umbilic",
+            "url": "https://www.globalguideline.com/interview_questions/Answer.php?a=Which_of_the_following_anatomical_regions_of_abdomen_lies_just_distal_to_the_sternumA_EpigastricB_Hy",
+            "engine": "braveAPI"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 2,
+            "query": "which cells in the blood do not have a nucleus",
+            "content": "in humans mature red blood cells are flexible biconcave disks they lack a cell nucleus which is expelled during development and organelles to accommodate",
+            "url": "https://en.wikipedia.org/wiki/Red_blood_cell",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the respiratory tract is crossed by the isthmus of the thyroid gland at the level of the",
+            "content": "the upper pole of the lobes reaches the level of the thyroid cartilage whereas the lower pole reaches the v to vi tracheal ring the isthmus is 12 to 20 mm",
+            "url": "https://www.sciencedirect.com/topics/neuroscience/thyroid-isthmus",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a patient is admitted after a head injury and sinks rapidly into a coma an mri scan indicates an extradural haemorrhage because extravasated blood can be detected between the",
+            "content": "answer d although traumatic subarachnoid haemorrhage is common in tbi this can be missed on early ct scan done within the first 68 hours from the time of",
+            "url": "https://your-doctor.net/quiz/quiz.php?page=2&records_number=5&id=295",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following allows air to pass into the lungs",
+            "content": "air enters the respiratory system through the nose and mouth and passes down the throat pharynx and through the voice box or larynx",
+            "url": "https://www.msdmanuals.com/home/lung-and-airway-disorders/biology-of-the-lungs-and-airways/overview-of-the-respiratory-system",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is an accessory organ of the gastrointestinal system that is responsible for secreting insulin",
+            "content": "the pancreas maintains constant blood glucose levels shown as the waving line when the blood glucose level is too high the pancreas secretes insulin and",
+            "url": "https://en.wikipedia.org/wiki/Pancreas",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "in the spinal cord motor neuron cell bodies are located in",
+            "content": "ventral roots consist of efferent fibers that arise from motor neurons whose cell bodies are found in the ventral or anterior gray horns of the spinal cord",
+            "url": "https://en.wikipedia.org/wiki/Spinal_cord",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is the master gland of the endocrine system",
+            "content": "your pituitary gland is a small peasized endocrine gland located at the base of your brain below your hypothalamus it releases several important hormones",
+            "url": "https://my.clevelandclinic.org/health/body/21459-pituitary-gland",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the coronal suture joins the",
+            "content": "the coronal suture is a dense and fibrous association of connection tissue located between the frontal and parietal bones of the skull",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK526011/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "cerebrospinal fluid circulates around the brain between the",
+            "content": "the csf flows over the surface of the brain and down the length of the spinal cord while in the subarachnoid space it leaves the subarachnoid",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK519007/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a successful infraorbital nerve block will produce anaesthesia of the",
+            "content": "the infraorbital nerve block provides effective analgesia by delivering anesthetic medication to the distribution of the infraorbital nerve",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK499881/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral",
+            "content": "forceps can directly compress the facial nerve at the stylomastoid foramen or the nerve can be compressed against the maternal sacral promontory or ischial",
+            "url": "https://www.sciencedirect.com/topics/neuroscience/stylomastoid-foramen",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following closes and seals off the lower airway during swallowing",
+            "content": "the flap that covers the trachea during swallowing so that food does not enter the lungs anatomy of the larynx drawing shows the epiglottis supraglottis",
+            "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/epiglottis",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "loss of somatic sensation over the anterior twothirds of the tongue indicates damage to the",
+            "content": "the lingual nerve carries sensory innervation from the anterior twothirds of the tongue it contains fibres from both the mandibular division of the",
+            "url": "https://en.wikipedia.org/wiki/Lingual_nerve",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete bilateral cleft palate is due to failure of fusion of the",
+            "content": "cleft lip and palate one of the most common congenital craniofacial abnormalities is characterized by failure of normal fusion of the palate",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK563128/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following bones develop by endochondral ossification",
+            "content": "endochondral ossification is responsible for development of most bones including long and short bones the bones of the axial ribs and vertebrae and the",
+            "url": "https://en.wikipedia.org/wiki/Endochondral_ossification",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following foramina pierce the sphenoid bone",
+            "content": "many foramina and fissures are located in the sphenoid that carry nerves and blood vessels of the head and neck such as the superior orbital fissure with",
+            "url": "https://en.wikipedia.org/wiki/Sphenoid_bone",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "where is the sinoatrial node located",
+            "content": "the sinuatrial node is found in the posterolateral wall of the sinus of venae cavae in the right atrium hence sinu atrial close to the junction of the",
+            "url": "https://www.kenhub.com/en/library/anatomy/sinoatrial-node",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a malignant tumour is damaging the patients glossopharyngeal nerve they will experience",
+            "content": "it helps you taste food and sense pain in your throat cn ix can become damaged due to cancer complications from medical procedures and more you can lower",
+            "url": "https://my.clevelandclinic.org/health/body/22269-glossopharyngeal-nerve",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a patient cuts a peripheral motor nerve in their wrist when they fall through a plate glass window if the nerve does not regenerate after about 6 months the muscles it normally innervates will show signs of which of the four options below",
+            "content": "ultrasound can assess the structural integrity of the nerve neuroma formation and other surrounding abnormalities of bone or foreign bodies impeding the nerve",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7823340/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "in men specimens for gonococcal cultures are most commonly obtained from which of the following structures",
+            "content": "urethral smears from men who have symptomatic gonorrhea usually contain intracellular gramnegative diplococci in polymorphonuclear leukocytes",
+            "url": "https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/gonococcal-urethritis",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "if you run your finger down the anterior midline of a patients extended neck from chin to sternal notch you should be able to palpate in order the",
+            "content": "put your finger on tip of your chin mentalis slide finger down the midline and the first hard structure you hit is the top of the thyroid cartilage",
+            "url": "https://stanfordmedicine25.stanford.edu/the25/thyroid.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is a disorder characterized by uncontrollable episodes of falling asleep during the day",
+            "content": "narcolepsy is a condition that makes people very sleepy during the day and can cause them to fall asleep suddenly",
+            "url": "https://www.mayoclinic.org/diseases-conditions/narcolepsy/symptoms-causes/syc-20375497",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a possible effect of damage to the third cranial nerve by trauma to the orbit is",
+            "content": "third cranial nerve disorders can impair ocular motility pupillary function or both symptoms and signs include diplopia ptosis and paresis of eye",
+            "url": "https://www.msdmanuals.com/professional/neurologic-disorders/neuro-ophthalmologic-and-cranial-nerve-disorders/third-cranial-oculomotor-nerve-disorders",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the coronary arteries",
+            "content": "your coronary arteries carry blood to your heart they supply your heart muscles with the oxygen and nutrients they need to pump blood through your body",
+            "url": "https://my.clevelandclinic.org/health/body/22973-coronary-arteries",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following structures should be visible on a dental panoramic radiograph",
+            "content": "further the least dense structures in the head like foramina passing through bones sinuses and nerve canals will appear on the radiograph",
+            "url": "https://pocketdentistry.com/structures-visible-on-a-panoramic-radiograph/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following is the lymphoid organ that is a reservoir for red blood cells and filters organisms from the blood",
+            "content": "about 25 to 30 of red blood cells rbcs are stored in the spleen along with about 25 of platelets normally sequestered in the spleen",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK537307/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following is a structural fibrous protein found in the dermis",
+            "content": "the dermis is composed of a meshwork of collagenrich fibrous connective tissue collagen is the primary structural protein of the dermis",
+            "url": "https://med.libretexts.org/Bookshelves/Veterinary_Medicine/Veterinary_Histology_(Jennings_and_Premanandan)/07%3A_Integument/7.07%3A_Structure_of_the_Dermis",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following allows gas exchange in the lungs",
+            "content": "during gas exchange oxygen moves from the lungs gas exchange allows the body to replenish the oxygen and eliminate the carbon dioxide",
+            "url": "https://medlineplus.gov/ency/anatomyvideos/000059.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following best describes the structure that collects urine in the body",
+            "content": "the organs of the urinary system include the kidneys renal pelvis ureters bladder and urethra urinary diagram the body takes nutrients from food and",
+            "url": "https://www.hopkinsmedicine.org/health/wellness-and-prevention/anatomy-of-the-urinary-system",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "blood flows from the right ventricle of the heart into which of the following structures",
+            "content": "when your right ventricle is full it squeezes which closes your tricuspid valve and opens your pulmonary valve blood flows through your main pulmonary artery",
+            "url": "https://my.clevelandclinic.org/health/articles/17060-how-does-the-blood-flow-through-your-heart",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following is located beneath the diaphragm in the left upper quadrant of the abdominal cavity",
+            "content": "the liver occupies the upper part of the abdominal cavity just beneath the diaphragm its convex superior surface is molded to the under",
+            "url": "https://www.kenhub.com/en/library/anatomy/right-upper-quadrant",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following terms describes the motion of bending the forearm toward the body",
+            "content": "pronation at the forearm is a rotational movement where the hand and upper arm are turned so the thumbs point towards the body",
+            "url": "https://en.wikipedia.org/wiki/Anatomical_terms_of_motion",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the major concentrations of proprioceptive receptors providing information about position of the tmj are located in",
+            "content": "proprioceptors or mechanoreceptors in the tmj are strategically located peripherically and posteriorly in the joint disk articular capsule in",
+            "url": "https://www.iosrjournals.org/iosr-jdms/papers/Vol21-issue8/Ser-5/I2108056376.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the palatine processes begin to fuse at",
+            "content": "the secondary palate forms from outgrowths of the maxillary prominences called palatal shelves or palatine processes these palatal shelves fuse at the midline",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3265826/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "at which of the following locations does bile enter the digestive tract",
+            "content": "it joins the cystic duct carrying bile to and from the gallbladder to form the common bile duct which then opens into the intestine",
+            "url": "https://en.wikipedia.org/wiki/Bile_duct",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the mucosa of the hard palate is",
+            "content": "on the anterior portion of the hard palate are the plicae irregular ridges in the mucous membrane that help hold food while the teeth are biting into it",
+            "url": "https://en.wikipedia.org/wiki/Hard_palate",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the walls of bronchioles contain",
+            "content": "the bronchioles are lined by simple cuboidal ciliated epithelium have no hyaline cartilage or submucosal glands and are surrounded by elastic fibers and",
+            "url": "https://www.sciencedirect.com/topics/immunology-and-microbiology/bronchiole",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of one of the following statements about the postnatal growth of the maxilla is correct",
+            "content": "postnatal growth of the maxilla follows a growth pattern that is thought to be intermediate between a neural and a somatic growth pattern see fig 6",
+            "url": "https://codental.uobaghdad.edu.iq/wp-content/uploads/sites/14/2020/03/Growth-3.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "fertilization of an ovum by a spermatozoon occurs in which of the following structures",
+            "content": "fallopian tube fertilization typically occurs in the ampulla of the fallopian tube where the sperm meets the ovum d cervix the cervix is",
+            "url": "https://www.naxlex.com/nursing/question/in-which-of-the-following-structures-does-fertilization-of-an-ovum-by",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a patient is stabbed in the neck you suspect damage to the accessory nerve in the posterior triangle you would test nerve function by asking the patient to",
+            "content": "ask the patient to turn the head to the left resisting the pressure you are exerting in the opposite direction at the same time observe and palpate the right",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK387/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which muscle is the most active during a right lateral excursion of the mandible",
+            "content": "the lateral pterygoid muscle is attached to the pterygoid fovea on the anterior aspect of the condylar neck of the mandible and its principal action is",
+            "url": "https://thefuturedentistry.com/temporo-mandibular-joint-mcqs/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following bony structures may be palpated in a live patient",
+            "content": "1 6 palpation of the capitate and lunate is further complicated due to the overlying flexor retinaculum and finger flexor tendons despite this difficulty in",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S089411301730323X",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on which surfaces of the teeth is dental plaque most likely to accumulate in the mouth of a patient with poor oral hygiene",
+            "content": "poor oral hygiene resulting in increasing amounts of plaque at the gingival margin will cause an inflammatory response in the host characterised by",
+            "url": "https://www.sciencedirect.com/topics/medicine-and-dentistry/tooth-plaque",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "ectoderm gives rise to",
+            "content": "the surface ectoderm gives rise to most epithelial tissues and the neural plate gives rise to most neural tissues for this reason the neural plate and",
+            "url": "https://en.wikipedia.org/wiki/Ectoderm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a patient suffers a broken neck with damage to the spinal cord at the level of the sixth cervical vertebra",
+            "content": "injury to the spinal cord at the level of the cervical spine can lead to temporary or permanent paralysis of the entire body from the neck down related media",
+            "url": "https://orthoinfo.aaos.org/en/diseases--conditions/cervical-fracture-broken-neck/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the auditory tube",
+            "content": "the eustachian tube also called the auditory tube or pharyngotympanic tube is a tube that links the nasopharynx to the middle ear of which it is also a",
+            "url": "https://en.wikipedia.org/wiki/Eustachian_tube",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a patient suffers a cva in the area of the left internal capsule conveying motor neurons to the right leg the patients leg will exhibit",
+            "content": "a pure motor stroke is possible and is symptomatic of a lacunar stroke causing an infarct of the posterior limb of the internal capsule",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK542188/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "calcium potassium and sodium are classified as which of the following",
+            "content": "what are the key electrolyte components sodium magnesium potassium calcium chloride phosphate bicarbonate",
+            "url": "https://my.clevelandclinic.org/health/diagnostics/21790-electrolytes",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following structures accompany the oesophagus through the diaphragm",
+            "content": "the lower esophageal sphincter encircles the 3 to 4 cm of the esophagus that pass through an opening in the diaphragm called the diaphragmatic",
+            "url": "https://www.britannica.com/science/human-digestive-system/Esophagus",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "in a patient with a normal healthy mouth you would expect the mucosa covering the alveolar process supporting the mandibular teeth to be",
+            "content": "the alveolar bone is covered by specialized oral mucosa known as gingiva or more commonly gums the remainder of the oral cavity is covered with an oral",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK234/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in men which of the following structures is located at the neck of the bladder and surrounds the urethra",
+            "content": "the prostate lies just under the bladder and surrounds the urethra walnutsized approximately 2 × 3 × 4 cm in young men the prostate enlarges with age when",
+            "url": "https://www.msdmanuals.com/home/men-s-health-issues/biology-of-the-male-reproductive-system/structure-of-the-male-reproductive-system",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in relation to the rib the corresponding intercostal nerve lies",
+            "content": "this nerve courses in the first intercostal space below the first rib and ends as the first anterior cutaneous branch on the anterior chest wall",
+            "url": "https://www.kenhub.com/en/library/anatomy/intercostal-nerves",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a successful inferior alveolar nerve block will produce anaesthesia of the",
+            "content": "the inferior alveolar nerve block when correctly performed provides excellent anesthesia of the ipsilateral mandibular teeth gingiva",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK564368/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the seventh cranial nerve supplies",
+            "content": "the course of the facial nerve is very complex there are many branches which transmit a combination of sensory motor and parasympathetic fibres",
+            "url": "https://teachmeanatomy.info/head/cranial-nerves/facial-nerve/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which sequence describes the systemic circulation",
+            "content": "in the systemic loop oxygenated blood is pumped from the left ventricle of the heart through the aorta the largest artery in the body the blood moves from",
+            "url": "https://www.visiblebody.com/learn/circulatory/circulatory-pulmonary-systemic-circulation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "macrostomia results from failure of fusion of",
+            "content": "failure or disruption of fusion along the orotragal line forms the anatomic basis of macrostomia",
+            "url": "https://gsmile.org/wp-content/uploads/2020/08/Hamdan_Macrostomia-JCFS-January-2016.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which of the following options completes the following statement the right atrioventricular valve…",
+            "content": "the right atrioventricular valve has attachments that straddle the ventricular septal defect there are two important regions of the complete ventricular",
+            "url": "https://www.sciencedirect.com/topics/medicine-and-dentistry/atrioventricular-septum",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following structures is derived from ectomesenchyme",
+            "content": "the major dental structures are derived from the dental ectomesenchyme the dental ectomesenchyme is the zone of condensed cells derived from the oral",
+            "url": "https://www.sciencedirect.com/topics/medicine-and-dentistry/ectomesenchyme",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following muscles are derived from the first brachial arch",
+            "content": "by m vujović from the paraxial mesoderm of the first pharyngeal arch the muscles of mastication mylohyoid anterior belly of digastric tensor veli palatini and the tensor",
+            "url": "https://www.kenhub.com/en/library/anatomy/the-pharyngeal-arches",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the phrenic nerves innervate the",
+            "content": "the phrenic nerve is a bilateral mixed nerve that originates from the cervical nerves in the neck and descends through the thorax to innervate the diaphragm",
+            "url": "https://teachmeanatomy.info/neck/nerves/phrenic/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "palatine shelf elevation is due to the effect of",
+            "content": "palatal shelf elevation is an essential morphogenetic process that results from palatal shelf movement caused by an intrinsic elevating force",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6935322/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which one of the following brain areas is supplied by branches of the subclavian arteries",
+            "content": "the vertebral artery supplies the upper spinal cord brainstem cerebellum and posterior part of the brain the internal thoracic artery in contrast to the",
+            "url": "https://www.kenhub.com/en/library/anatomy/the-subclavian-artery",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the regional lymphatic drainage of the left side of the tip of the tongue is to the",
+            "content": "the submental nodes are found in the submental triangle below the chin and drain the tip of the tongue the floor of the anterior part of the mouth the",
+            "url": "https://www.kenhub.com/en/library/anatomy/lymphatic-drainage-of-the-oral-and-nasal-cavities",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which statement concerning the atrioventricular bundle is correct",
+            "content": "the atrioventricular av node is a small structure in the heart located in the koch triangle1 near the coronary sinus on the interatrial septum",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK557664/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "when an emergency opening into the airway is required the cricothyroid membrane should be pierced immediately",
+            "content": "a percutaneous airway must be established immediately in a cico scenario9 the emergency cricothyrotomy is indicated in any cico scenario",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK537350/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the anatomic location of the spinal canal is",
+            "content": "the spinal canal vertebral canal or spinal cavity is an elongated body cavity enclosed within the dorsal bony arches of the vertebral column",
+            "url": "https://en.wikipedia.org/wiki/Spinal_canal",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the head of the sixth rib articulates with",
+            "content": "the head is wedge shaped and has two articular facets separated by a wedge of bone one facet articulates with the numerically corresponding",
+            "url": "https://teachmeanatomy.info/thorax/bones/ribcage/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following structures is part of the small intestine",
+            "content": "the jejunum this section of your small intestine is 8 feet long it lays in many coils inside the lower abdominal cavity the jejunum is dark red because it",
+            "url": "https://my.clevelandclinic.org/health/body/22135-small-intestine",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a dished face profile is often associated with",
+            "content": "the dished face arched neck and high tail carriage their light coloration often accentuates these traits making them particularly popular in shows and",
+            "url": "https://irideegypt.com/the-complete-guide-to-arabian-horse-characteristics-from-dished-profile-to-show-circuit/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following best describes the location where the carotid pulse can be found",
+            "content": "the carotid pulse is characterized by a smooth relatively rapid upstroke and a smooth more gradual downstroke interrupted only briefly at the pulse peak",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK312/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "parasympathetic preganglionic nerves leave the central nervous system with the",
+            "content": "the preganglionic fibers depart cn ix as the tympanic nerve and continue to the middle ear where they make up a tympanic plexus on the cochlear promontory of",
+            "url": "https://en.wikipedia.org/wiki/Parasympathetic_nervous_system",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the parotid duct runs",
+            "content": "it emerges from the parotid gland it runs forward along the lateral side of the masseter muscle for around 7 cm",
+            "url": "https://en.wikipedia.org/wiki/Parotid_duct",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following are mucusproducing glands located on each side of the vaginal opening",
+            "content": "bartholin glands are very small round glands that are located in the vulva which consists of the labia and other tissues around the opening to the vagina",
+            "url": "https://www.msdmanuals.com/home/women-s-health-issues/miscellaneous-gynecologic-abnormalities/bartholin-gland-cyst-and-bartholin-gland-abscess",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "during an inferior alveolar nerve block the needle ideally passes",
+            "content": "the needle will encounter resistance as it passes through muscle and connective tissue slowly inject about 2 to 4 ml anesthetic but leave about 05 ml in",
+            "url": "https://www.msdmanuals.com/professional/dental-disorders/how-to-do-dental-procedures/how-to-do-an-inferior-alveolar-nerve-block",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "gastrulation is the process of",
+            "content": "gastrulation occurs when a blastula made up of one layer folds inward and enlarges to create a gastrula this diagram is colorcoded ectoderm blue endoderm",
+            "url": "https://en.wikipedia.org/wiki/Gastrulation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the brain stem pathways for",
+            "content": "ten pairs of cranial nerves come from the brainstem other roles include the regulation of the central nervous system and the bodys sleep cycle",
+            "url": "https://en.wikipedia.org/wiki/Brainstem",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following paranasal sinuses open into the middle meatus",
+            "content": "ethmoidal sinuses anterior opens onto the hiatus semilunaris middle meatus middle opens onto the lateral wall of the middle meatus",
+            "url": "https://teachmeanatomy.info/head/organs/the-nose/paranasal-sinuses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "laryngoscopic examination of the vocal folds after suspected recurrent laryngeal nerve damage usually shows that the vocal fold on the injured side is tensed and in an intermediate position between adduction and abduction this is because",
+            "content": "recurrent laryngeal nerve injuries are a common cause of vocal cord paresis and resulting in voice changes or hoarseness",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK560832/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "osteoclasts",
+            "content": "an osteoclast is a type of bone cell that breaks down bone tissue this function is critical in the maintenance repair and remodeling of bones of the",
+            "url": "https://en.wikipedia.org/wiki/Osteoclast",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "patients with which of the following diseases are treated with injections of vitamin b12",
+            "content": "vitamin b12 deficiency in people with crohns disease is typically treated with intramuscular cobalamin injections but high doses of oral",
+            "url": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "you notice that your patients submandibular lymph nodes are enlarged you would look for potential infection sites in the",
+            "content": "salivary gland infections affect the glands that produce spit parotid submandibular or sublingual glands and may be due to bacteria or viruses",
+            "url": "https://www.pennmedicine.org/for-patients-and-visitors/patient-information/conditions-treated-a-to-z/salivary-gland-infection",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following cavities are separated by the diaphragm",
+            "content": "the diaphragm is a muscular structure that separates the thoracic cavity which contains the heart and lungs from the abdominal cavity which contains",
+            "url": "https://quizgecko.com/q/which-of-the-following-cavities-are-separated-by-the-diaphragm-a-abdominal-an-yc6ct",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which one of the following statements about the growth of the mandible is correct",
+            "content": "the morphological posterior position of the mandible is characterized by 1 inhibition of anterior mandibular growth 2 elongation of the mandibular ramus",
+            "url": "https://cem.edu.pl/pytcem/pdf/ldek_a/LDEK-orthodontics.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "if the foot is abducted it is moved in which direction",
+            "content": "abduction moves the limb laterally away from the midline of the body while adduction is the opposing movement that brings the limb toward the body or across",
+            "url": "https://courses.lumenlearning.com/suny-ap1/chapter/types-of-body-movements/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the lateral pterygoid muscle",
+            "content": "j vasković cytowane przez 1 lateral pterygoid is a twoheaded fanshaped muscle located laterally in the infratemporal fossa of the skull it is one of the four masticatory muscles",
+            "url": "https://www.kenhub.com/en/library/anatomy/lateral-pterygoid-muscle",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following bones has a process that joins with the zygomatic bone to form the zygomatic arch",
+            "content": "the zygomatic arch colloquially known as the cheek bone is a part of the skull formed by the zygomatic process of the temporal bone",
+            "url": "https://en.wikipedia.org/wiki/Zygomatic_arch",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the dorsal roots of all spinal nerves contain",
+            "content": "the dorsal root ganglia contain the pseudounipolar cell bodies of the nerve fibres which travel from the ganglia through the root into the spinal cord",
+            "url": "https://en.wikipedia.org/wiki/Dorsal_root_of_spinal_nerve",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the sphenooccipital synchondrosis",
+            "content": "fusion of the sphenooccipital synchondrosis initiates in girls at 1213 years and in boys at 1415 years and is complete by 1718 years",
+            "url": "https://radiopaedia.org/articles/spheno-occipital-synchondrosis",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the crown of a very carious tooth suddenly fractures while the patient is standing eating at a takeaway food outlet and a fragment is inhaled it is more likely to enter the",
+            "content": "he car ried out the restoration work of some objects in historic buildings 2003 2010 he participated in many international conferences",
+            "url": "https://scispace.com/pdf/the-impact-of-air-pollution-on-health-economy-environment-2nzrjrgez5.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "a patient suffers damage to the orbit in a road traffic incident resulting in damage to the third cranial nerve which of the following signs will be present",
+            "content": "question 1 a possible effect of damage to the third cranial nerve by trauma to the orbit is a a convergent strabismus b ptosis",
+            "url": "http://global.oup.com/uk/orc/dentistry/atkinson/student/mcqs/ch30/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in which of the following positions does a patient lie face down",
+            "content": "the supine position means lying horizontally with the face and torso facing up as opposed to the prone position which is face down when used in surgical",
+            "url": "https://en.wikipedia.org/wiki/Supine_position",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the fetus the ductus arteriosus passes blood from the",
+            "content": "the ductus arteriosus sends the oxygenpoor blood to the organs in the lower half of the fetal body this allows for the oxygenpoor blood to",
+            "url": "https://www.heart.org/en/health-topics/congenital-heart-defects/symptoms--diagnosis-of-congenital-heart-defects/fetal-circulation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "parasympathetic preganglionic axons leave the cns with the",
+            "content": "the preganglionic fibers depart cn ix as the tympanic nerve and continue to the middle ear where they make up a tympanic plexus on the cochlear promontory of",
+            "url": "https://en.wikipedia.org/wiki/Parasympathetic_nervous_system",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "examination of a patient indicates that they have a medially directed strabismus squint this could be due to damage to the",
+            "content": "strabismus often called crossed eyes is a common visual disorder affecting millions worldwide this condition disrupts the normal alignment of the eyes",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK560782/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "primary motor cortex activity results in",
+            "content": "primary motor cortex neurons fire 5100 msec before the onset of a movement thus rather than firing as the result of muscle activity these neurons are",
+            "url": "https://nba.uth.tmc.edu/neuroscience/m/s3/chapter03.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following statements is true of the pupillary light reflex",
+            "content": "the pupillary light reflex constricts the pupil in response to light and pupillary constriction is achieved through the innervation of the iris sphincter",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK537180/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the infraorbital nerve",
+            "content": "the infraorbital nerve is a branch of the maxillary nerve it arises in the pterygopalatine fossa it passes through the inferior orbital fissure to enter",
+            "url": "https://en.wikipedia.org/wiki/Infraorbital_nerve",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "you notice a lesion on the labial alveolar mucosa of the lower right lateral incisor tooth of one of your patients and decide to take a biopsy to send for oral pathology report which nerve would require local anaesthesia in order to carry out a painfree biopsy",
+            "content": "the oral examination comprises a uniform and consistent inspection of the head and neck and an intraoral evaluation of the hard and soft tissues",
+            "url": "https://emedicine.medscape.com/article/1080850-overview",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a patient with damage to their cervical sympathetic chain will show the following signs and symptoms",
+            "content": "horner syndrome is a rare condition classically presenting with partial ptosis drooping or falling of upper eyelid miosis constricted pupil and facial",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK500000/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following substances is found in greater quantity in exhaled air",
+            "content": "exhaled air contains nitrogen 78 oxygen 17 carbon dioxide 4 other gases 1 inhaled and exhaled",
+            "url": "https://airly.org/en/the-composition-of-inhaled-and-exhaled-air/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is a substance that aids the transmission of nerve impulses to the muscles",
+            "content": "acetylcholine an ester of choline and acetic acid that serves as a neurotransmitter within the central and peripheral nervous systems",
+            "url": "https://www.britannica.com/science/acetylcholine",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which muscles are normally active during quiet inspiration",
+            "content": "the primary inspiratory muscles are the diaphragm and external intercostals relaxed normal expiration is a passive process happens because of the elastic",
+            "url": "https://www.physio-pedia.com/Muscles_of_Respiration",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following conditions is characterized by incompetence of the esophageal sphincter",
+            "content": "incompetence of the lower esophageal sphincter allows reflux of gastric contents into the esophagus causing burning pain prolonged reflux may lead to",
+            "url": "https://www.msdmanuals.com/professional/gastrointestinal-disorders/esophageal-and-swallowing-disorders/gastroesophageal-reflux-disease-gerd",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "proprioceptive nerve endings in synovial joints are located in",
+            "content": "the sensory nerves of the articular capsule and ligaments articular nerves provide proprioceptive feedback from ruffini endings and pacinian corpuscles",
+            "url": "https://www.physio-pedia.com/Synovial_Joints",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following cranial nerves is related to the sense of smell",
+            "content": "olfactory nerve cn i providing the sense of smell optic nerve cn ii providing vision oculomotor nerve cn iii opening and moving your eyes and",
+            "url": "https://my.clevelandclinic.org/health/body/21998-cranial-nerves",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following conditions is characterized by the presence of kidney stones renal calculi",
+            "content": "renal calculi are a common cause of blood in the urine hematuria and pain in the abdomen flank or groin they occur in 1 in 11 people at some time in their",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK442014/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the mucosa of the upper larynx is innervated by the",
+            "content": "innervation the larynx is innervated by the vagus nerve via 2 major branches the superior laryngeal nerve and the recurrent or inferior laryngeal nerve",
+            "url": "https://www.sciencedirect.com/topics/medicine-and-dentistry/larynx-mucosa",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "you suspect that your patient has an enlarged submandibular salivary gland you expect the enlarged gland",
+            "content": "salivary glands can malfunction become infected or blocked by stones that form in their ducts malfunctioning salivary glands produce less saliva which",
+            "url": "https://www.msdmanuals.com/home/ear-nose-and-throat-disorders/mouth-and-throat-disorders/salivary-gland-disorders",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "male hormones are produced by which of the following",
+            "content": "testosterone is a hormone that your gonads testicles or ovaries mainly produce testosterone levels are naturally much higher in males",
+            "url": "https://my.clevelandclinic.org/health/articles/24101-testosterone",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "noradrenaline is the neurotransmitter between which of the two structures below",
+            "content": "as the primary neurotransmitter of the sympathetic nervous system it is released from postganglionic sympathetic nerve endings and comprises 10 to 20 of the",
+            "url": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/norepinephrine",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "where are the vital centres located in the brainstem",
+            "content": "it sits at the bottom of your brain and includes the midbrain pons and medulla oblongata your brainstem sends messages to the rest of your body to regulate",
+            "url": "https://my.clevelandclinic.org/health/body/21598-brainstem",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a pulse may be felt on a patients face where the",
+            "content": "the best places to check the pulse are on the wrist or the side of the neck adults generally have a resting heart rate of 60 to 100 beats per minute bpm",
+            "url": "https://www.medicalnewstoday.com/articles/258118",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the bones of the viscerocranium develop initially by",
+            "content": "the bones of the skull are formed in two different ways intramembranous ossification and endochondral ossification are responsible for creating compact",
+            "url": "https://www.kenhub.com/en/library/anatomy/development-of-the-skull",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which orbital wall is most likely to collapse in a blow out fracture",
+            "content": "orbital blowout fractures occur when there is a fracture of one of the walls of orbit but the orbital rim remains intact",
+            "url": "https://radiopaedia.org/articles/orbital-blow-out-fracture-2?lang=us",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is the point at which an impulse is transmitted from one neuron to another neuron",
+            "content": "the binding of neurotransmitter to the receptors stimulates the second neuron to transmit an electrical impulse along its axon close axonthe long part of a",
+            "url": "https://www.bbc.co.uk/bitesize/guides/ztjrng8/revision/4",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the walls of the maxillary sinus are sinus is related to",
+            "content": "walls the nasal wall of the maxillary sinus or base presents in the disarticulated bone a large irregular aperture that communicates with the nasal",
+            "url": "https://en.wikipedia.org/wiki/Maxillary_sinus",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "saliva contains an enzyme that acts upon which of the following nutrients",
+            "content": "the most abundant protein in human saliva is the digestive enzyme αamylase 8 this enzyme cleaves large starch molecules into dextrin and subsequently into",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6825871/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following describes the cluster of blood capillaries found in each nephron in the kidney",
+            "content": "the glomerulus pl glomeruli is a network of small blood vessels capillaries known as a tuft located at the beginning of a nephron in the kidney",
+            "url": "https://en.wikipedia.org/wiki/Glomerulus_(kidney)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "food is prevented from entering the larynx during the pharyngeal phase of swallowing by",
+            "content": "in the pharyngeal phase the first of the involuntary phases the mechanism that prevents food from entering the larynx respiratory system",
+            "url": "https://www.hospitaldaluz.pt/cerveira/en/health-dictionary/swallowing-and-dysphagia",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "when you examine a patient who has suffered an unfavourable fracture of the body of the mandible you would expect the",
+            "content": "the mandible should be palpated bimanually to assess for fracture mobility the patient should be asked if their bite feels different this can identify",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8604616/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "oxygenated blood is carried to the heart by which of the following structures",
+            "content": "oxygenrich blood travels from your lungs to your left atrium through large veins called pulmonary veins your mitral valve opens to send blood from your left",
+            "url": "https://my.clevelandclinic.org/health/articles/17060-how-does-the-blood-flow-through-your-heart",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the muscles of the soft palate are innervated by branches of the",
+            "content": "the motor innervation for the muscles of the soft palate comes from the pharyngeal plexus derived from the vagus nerve cn x the only exception is the tensor",
+            "url": "https://www.kenhub.com/en/library/anatomy/the-soft-palate",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "laryngeal oedema is usually confined to the larynx above the vocal folds because",
+            "content": "dthe mucosa above the vocal folds is more vascular than that below the vocal folds 50 studentsanswered this correctly",
+            "url": "https://www.embibe.com/questions/Laryngeal-oedema-is-usually-confined-to-the-larynx-above-the-vocal-folds-because-____-.-/EM8388492",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "during swallowing the",
+            "content": "the process of swallowing also known as deglutition involves the movement of substances from the mouth oral cavity to the stomach via the pharynx and",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK541071/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following muscles initiates elevation of the mandible",
+            "content": "the muscles of mastication are a group of muscles associated with movements of the jaw there are four muscles the masseter temporalis",
+            "url": "https://teachmeanatomy.info/head/muscles/mastication/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "which of the following is the large bone found superior to the patella and inferior to the ischium",
+            "content": "american association of medical assistants aama chicago illinois 52330 likes 240 talking about this 526 were here the aama represents a passionate dedicated group of medical assisting",
+            "url": "https://www.facebook.com/aamaorg/posts/which-of-the-following-is-the-large-bone-found-superior-to-the-patella-and-infer/1660429924005938/",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "which of the following best describes the human bodys defense mechanism against environmental bacteria",
+            "content": "the human body has three primary lines of defense to fight against foreign invaders including viruses bacteria and fungi",
+            "url": "https://www.news-medical.net/health/What-are-the-Three-Lines-of-Defense.aspx",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "a patient has a fracture in which the radius is bent but not displaced and the skin is intact this type of fracture is known as which of the following",
+            "content": "open compound fracture the skin may be pierced by the bone or by a blow that breaks the skin at the time of the fracture",
+            "url": "https://orthoinfo.aaos.org/en/diseases--conditions/fractures-broken-bones/",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "a patient sustains severe blunt trauma to the left upper abdomen and requires surgery which one of the following organs is most likely to be involved",
+            "content": "",
+            "url": "https://www.answersarena.com/ExpertAnswers/5-a-patient-sustains-severe-blunt-trauma-to-the-left-upper-abdomen-and-requires-surgery-which-on-pa543",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "which of the following statements is true of the temporomandibular joint",
+            "content": "the stomatognathic system includes various anatomical structures which allow the mouth to open swallow breathe phonate suck and perform different facial expressions these structures are the temporomandibular joint tmj jaw and mandible muscle tissues and tendons dental arches salivary",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK538486/",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "which of the following organs removes bilirubin from the blood manufactures plasma proteins and is involved with the production of prothrombin and fibrinogen",
+            "content": "the bone marrow degenerating blood cells general body tissue cells and the spleen also contribute to the formation of plasma proteins gamma globulins originate from b lymphocytes which in turn form immunoglobulins the origin of plasma which constitutes 55 of total blood is interesting",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK531504/",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 22,
+            "query": "the thoracic cage is a structural unit important for which of the following functions",
+            "content": "instant access to millions of study resources course notes test prep 247 homework help tutors and more learn teach and study with course hero get unstuck",
+            "url": "https://www.coursehero.com/tutors-problems/Physiology/9482583-The-thoracic-cage-is-a-structural-unit-important-for/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 27,
+            "query": "the physician directs the medical assistant to complete a request form for an xray study of the fibula the procedure will be performed on which of the following structures",
+            "content": "transparent oklahoma performance the metrics will inform how we budget spend and make decisions about resources oklahoma has set out to use existing resources to drive change and progress oklahoma tax commission find the latest tax information for individuals and businesses",
+            "url": "https://oklahoma.gov/content/dam/ok/en/careertech/testing-centers/testing/study-guides/medical-assistant-sg.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 23,
+            "query": "which of the following anatomical regions of abdomen lies just distal to the sternum",
+            "content": "free flashcards to help memorize facts about anatomy and physiology other activities to help include hangman crossword word scramble games matching quizes and tests",
+            "url": "https://www.studystack.com/flashcard-629616",
+            "engine": "braveAPI"
+        }
+    ]
+}

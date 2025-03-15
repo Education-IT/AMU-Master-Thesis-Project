@@ -1,0 +1,1689 @@
+{
+    "task": "mmlu_business_ethics",
+    "dataset": "web_access_business_ethics_final",
+    "questions": 100,
+    "noWebContextCount": 4,
+    "contaminated_queries": 82,
+    "contaminated_urls": 508,
+    "valid_urls": 96,
+    "avg_contaminated_before_valid": 6.291666666666667,
+    "contaminated_data_ratio": 0.8410596026490066,
+    "most_contaminated_urls": {
+        "learninglink.oup.com": 76,
+        "www.studocu.vn": 13,
+        "mcqmate.com": 11,
+        "www.gkseries.com": 6,
+        "www.mbamcq.com": 6,
+        "www.studeersnel.nl": 5,
+        "www.worldsupporter.org": 5
+    },
+    "noWebContext": [
+        "_____ is a key driving force shaping the current and future state of business ethics, in particular regarding _____, ______ and _____ related issues.",
+        "Businesses have _____ within society and have the potential to provide a ____ to society while ____ has the potential to inflict enormous harm on individuals, communities and the environment.",
+        "Better access to certain markets, differentiation of products, and the sale of pollution-control technology are ways in which better environmental performance can:",
+        " The ________ perspective on sustainability resulted from growth models that analysed the carrying capacity of the planet, overall concluding that the finite capacity of the earth and_______, ________ and _______ by current and past generations could reduce quality of life for future generations. This contrasts with the environmental perspective with focuses on the need to maintain and preserve the natural environment."
+    ],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "the extent to which an individual is able to creatively consider the consequences of resolutions to and issues associated with moral decision making is known as",
+            "content": "7 the extent to which an individual is able to creatively consider the consequences of resolutions to and issues associated with moral decision making is",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-4-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following would most effectively act as the primary objective of a business organisation",
+            "content": "which of the following would most effectively act as the primary objective of a business organization a to communicate with shareholders",
+            "url": "https://mcqmate.com/discussion/180255/which-of-the-following-would-most-effectively-act-as-the-primary-objective-of-a-business-organization",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following would most effectively act as the primary objective of a business organisation",
+            "content": "q which of the following would most effectively act as the primary objective of a business organisation a to make a profit",
+            "url": "https://www.gkseries.com/blog/which-of-the-following-would-most-effectively-act-as-the-primary-objective-of-a-business-organisation/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following would most effectively act as the primary objective of a business organisation",
+            "content": "which of the following would most effectively act as the primary objective of a business organization a to communicate with shareholders b to make a profit",
+            "url": "https://mdcollege.in/wp-content/uploads/2020/09/Ethics-Multiple-Choice-Questions.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "they are too irrational and uncodified",
+            "content": "theory can be described as a code of conduct to which all rational beings should adhere they are too irrational and uncodified 34 correct incorrect",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-3-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "they are too irrational and uncodified",
+            "content": "1342341231234c they are too irrational and uncodified34132341b the purposes for which the information is used is in the",
+            "url": "https://twitter.com/AIExplainedYT/status/1782687112367608157",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when negotiating using unethical practices businesses can risk if the negotiations are part of a longerterm business association as well as a and as negotiations can impact company image and stymy progress",
+            "content": "4 when negotiating using unethical practices businesses can risk if the negotiations are part of a longerterm business association as well as a",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-9-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "such as bitcoin are becoming increasingly mainstream and have a whole host of associated ethical implications for example they are and more however they have also been used to engage in",
+            "content": "9 such as bitcoin are becoming increasingly mainstream and have a whole host of associated ethical implications for example they are and more",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-6-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "refers to a strategic process involving stakeholder assessment to create longterm relationships with customers while maintaining supporting and enhancing the natural environment",
+            "content": "relationships with customers while maintaining supporting and enhancing the natural environment a ecostrategy b green marketing c",
+            "url": "https://mcqmate.com/discussion/192952/refers-to-a-strategic-process-involving-stakeholder-assessment-to-create-long-term-relationships-with-customers-while-maintaining-supporting-and-enhancing-the-natural-environment",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the socalled bric countries brazil russia india and tend to follow a approach to corporate governance however recently this has tended to move towards more based mechanisms",
+            "content": "3 the socalled bric countries brazil russia india and tend to follow a approach to corporate governance however recently this",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-6-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "where actors are convinced that their actions harms nobody where actors argue that their norm violation is an attempt to realize higherorder values and where actors argue they are owed something are all strategies for justifying or denying unethical behaviour",
+            "content": "10 where actors are convinced that their actions harms nobody where actors argue that their norm violation is an attempt to realize higher",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-4-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the use of language of to mask or expose the ethical nature of decisions actions and behaviours",
+            "content": "is the use of language of to mask or expose the ethical nature of decisions actions and behaviours ethical splicing correct incorrect moral",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-4-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is an employees preferred ratio between workrelated and nonworkrelated activities which due to intensification of work and technological shifts has become a hotly contested issue in recent years",
+            "content": "10 is an employees preferred ratio between workrelated and nonworkrelated activities which due to intensification of work and technological shifts",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-7-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following is not one the underlying principles of the corporate governance combined code of practice",
+            "content": "which of the following is not one the underlying principles of the corporate governance combined code of practice openness integrity accountability",
+            "url": "https://www.mbamcq.com/business-ethics-and-governance/6.php",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following is not one the underlying principles of the corporate governance combined code of practice",
+            "content": "which of the following is not one of the underlying principles of the corporate governance combined code of practice accountability incorrect answer",
+            "url": "https://abhipedia.abhimanu.com/Article/1042/MzU3NDgw/Which-of-the-following-is-not-one-of-the-underlying-principles-of-the-corporate-governance-Corporate-Governance-",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "which of the following is not one the underlying principles of the corporate governance combined code of practice",
+            "content": "q which of the following is not one the underlying principles of the corporate governance combined code of practice a integrity",
+            "url": "https://mcqmate.com/discussion/180724/which-of-the-following-is-not-one-the-underlying-principles-of-the-corporate-governance-combined-code-of-practice",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "postmodern ethics assert that ethics are context and individual specific and as such have an internal guide to ethics",
+            "content": "3 postmodern ethics assert that ethics are context and individual specific and as such have an internal guide to ethics",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-3-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "ethical issues related to marketing communications include the fact that they are and unavoidable they create needs reinforce and perpetuate and",
+            "content": "4 ethical issues related to marketing communications include the fact that they are and unavoidable they create needs reinforce and",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-8-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "reasoning is considered by many to be prevalent within society and particularly within businesses where it is often referred to in the form of a",
+            "content": "2 reasoning is considered by many to be prevalent within society and particularly within businesses where it is often referred to in the form of a",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-4-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the right of a consumer to control what information companies can collect about them and how it is stored used and shared",
+            "content": "is the right of a consumer to control what information companies can collect about them and how it is stored used and shared consumer inclusion",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-8-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "factors that impact ethical decision making can be broadly broken down into factors related to the unique characteristics of a person and factors which are features of the persons environment or the particular issue",
+            "content": "3 factors that impact ethical decision making can be broadly broken down into factors related to the unique characteristics of a person and",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-4-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "can be a likened to their natural counterparts comprising of a balanced network of interdependent organisms and their environments thus adding value to sustainability thinking due to the consideration of companies and industries as being bound together and interdependent due to all kinds of resources and wastes",
+            "content": "10 can be a likened to their natural counterparts comprising of a balanced network of interdependent organisms and their environments thus adding value",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-9-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is a key driving force shaping the current and future state of business ethics in particular regarding and related issues",
+            "content": "7 is a key driving force shaping the current and future state of business ethics in particular regarding and related issues",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-1-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "is a key driving force shaping the current and future state of business ethics in particular regarding and related issues",
+            "content": "is a key driving force shaping the current and future state of business ethics in particular regarding and related issues a",
+            "url": "https://www.studocu.vn/vn/document/dai-hoc-ha-noi/business-ethics/bue1-bue-mcps-chapter-3/51983598",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "locate morality beyond the sphere of rationality in an emotional moral impulse towards others",
+            "content": "locate morality beyond the sphere of rationality in an emotional moral impulse towards others virtue ethics correct incorrect ethical egoism",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-3-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "locate morality beyond the sphere of rationality in an emotional moral impulse towards others",
+            "content": "ethics approach that locates morality beyond the sphere of rationality beyond the sphere of rationality in an emotional “moral impulse” towards others",
+            "url": "https://www.studeersnel.nl/nl/document/universiteit-van-amsterdam/business-ethics/summary-ethics-the-future-of-business-6614zb003y/17913104",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "locate morality beyond the sphere of rationality in an emotional moral impulse towards others",
+            "content": "a definition postmodern ethics locates morality beyond the sphere of rationality in an emotional moral impulse towards others it encourages individual",
+            "url": "https://www.worldsupporter.org/en/summary/summary-4th-edition-business-ethics-managing-corporate-citizenship-and-sustainability-age",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "locate morality beyond the sphere of rationality in an emotional moral impulse towards others",
+            "content": "ethics this locates morality beyond the sphere of rationality in an emotional towards others it encourages one to question everyday practices and rules and to",
+            "url": "https://www.studeersnel.nl/nl/document/rijksuniversiteit-groningen/business-ethics/summary-business-ethics-chapter-1-9/460208",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "locate morality beyond the sphere of rationality in an emotional moral impulse towards others",
+            "content": "a definition postmodern ethics locates morality beyond the sphere of rationality in an emotional moral impulse towards others it encourages individual",
+            "url": "https://www.worldsupporter.org/en/summary/summary-ethics-and-international-business-midterm-part-1-41518",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "locate morality beyond the sphere of rationality in an emotional moral impulse towards others",
+            "content": "this approach “locates morality beyond the sphere of rationality in an emotional moral impulse towards others” crane and matten 2016 115",
+            "url": "https://link.springer.com/doi/10.1007/978-3-319-63951-2_272-1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "csos frequently spend too much time communicating their performance measures and too much time devising them with input from beneficiaries",
+            "content": "4 csos frequently spend too much time communicating their performance measures and too much time devising them with input from beneficiaries",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-10-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the focus on issues the intended audience extending beyond shareholders and the voluntary nature of distinguish it from",
+            "content": "7 the focus on issues the intended audience extending beyond shareholders and the voluntary nature of distinguish it from",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-5-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the enforcement of company privacy is complex as corporations are somewhat as there are few clear barriers to define their limits it is difficult to due to the number of individuals involved and much corporate activity takes place in",
+            "content": "6 the enforcement of company privacy is complex as corporations are somewhat as there are few clear barriers to define their limits it is difficult to",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-9-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "typical advertising regulatory bodies suggest for example that adverts must not encourage cause unnecessary or and must not cause offence",
+            "content": "3 typical advertising regulatory bodies suggest for example that adverts must not encourage cause unnecessary or and must not cause",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-8-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "typical advertising regulatory bodies suggest for example that adverts must not encourage cause unnecessary or and must not cause offence",
+            "content": "typical advertising regulatory bodies suggest for example that adverts must not encourage cause unnecessary or and must not cause",
+            "url": "https://app.airtrain.ai/dataset/290ba84d-da8b-4358-9cf4-9e51506faa80/%7B%22AND%22:[[4,2,%22e9e6836d-ff67-41fe-965c-f09100100e14%22]]%7D/1/29",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "typical advertising regulatory bodies suggest for example that adverts must not encourage cause unnecessary or and must not cause offence",
+            "content": "typical advertising regulatory bodies suggest for example that adverts must not encourage cause unnecessary or and must not",
+            "url": "https://app.airtrain.ai/dataset/290ba84d-da8b-4358-9cf4-9e51506faa80/%7B%22AND%22%3A%5B%5B4%2C3%2C%22cluster%22%5D%5D%7D/1/0",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a stakeholder orientation includes all of the following activities except",
+            "content": "a stakeholder orientation includes all of the following activities except a generating data about stakeholder groups b assessing the firms",
+            "url": "https://mcqmate.com/discussion/180242/a-stakeholder-orientation-includes-all-of-the-following-activities-except",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a stakeholder orientation includes all of the following activities except",
+            "content": "8 a stakeholder orientation includes all of the following activities except generating data about stakeholder groups assessing the firms effects on",
+            "url": "https://www.mbamcq.com/business-ethics-and-governance/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "a stakeholder orientation includes all of the following activities except",
+            "content": "q a stakeholder orientation includes all of the following activities except a generating data about stakeholder groups",
+            "url": "https://www.gkseries.com/blog/a-stakeholder-orientation-includes-all-of-the-following-activities-except/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "are a business ethics management tool that have grown over the last few decades areas which these typically cover are compliance corruption and environmental issues however they are constantly evolving with for example the onus on having grown in recent years",
+            "content": "3 are a business ethics management tool that have grown over the last few decades areas which these typically cover are compliance corruption and",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-5-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what term can be used to describe the hypothetical agreement between member of society and those who govern it which establishes the interrelationships rights and responsibilities on a fair basis",
+            "content": "what term can be used to describe the hypothetical agreement between member of society and those who govern it which establishes the interrelationships",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-3-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the angloamerican model being considered the best model in light of the recession in the late 2000s",
+            "content": "4 the angloamerican model being considered the best model in light of the recession in the late 2000s",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-6-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sustainability can broadly be defined as",
+            "content": "sustainability can broadly be defined as the shortterm maintenance of systems according to environmental economic and social considerations correct incorrect",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-1-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "under ethical objective moral principles can be rationally determined while ethical under morality is both context dependant and subjective",
+            "content": "2 under ethical objective moral principles can be rationally determined while ethical under morality is both context dependant and subjective",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-3-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "businesses have within society and have the potential to provide a to society while has the potential to inflict enormous harm on individuals communities and the environment",
+            "content": "3 businesses have within society and have the potential to provide a to society while has the potential to inflict enormous harm on individuals",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-1-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "businesses have within society and have the potential to provide a to society while has the potential to inflict enormous harm on individuals communities and the environment",
+            "content": "while has the potential to inflict enormous harm on individuals communities and the environment a little power small contribution business malpractice",
+            "url": "https://www.studocu.vn/vn/document/dai-hoc-ha-noi/business-ethics/bue1-bue-mcps-chapter-3/51983598",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the rise in business led private regulation can be attributed to encouragement of a approach from industry and achievement of objectives",
+            "content": "the rise in business led private regulation can be attributed to encouragement of a approach from industry and achievement of objectives",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-11-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "are the obligations of workers towards their employer based on individual contracts and wider employment laws",
+            "content": "are the obligations of workers towards their employer based on individual contracts and wider employment laws employee rights correct incorrect",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-7-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the race to the is when due to increased countries compete for foreign investment through companies relocation decisions by weakening their and standards",
+            "content": "8 the race to the is when due to increased countries compete for foreign investment through companies relocation decisions by weakening their",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-7-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "negative advertising stealing or poaching customers and predatory pricing are all strategies employed by businesses described using the umbrella term",
+            "content": "negative advertising stealing or poaching customers and predatory pricing are all strategies employed by businesses described using the umbrella term",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-9-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "economy is the term used to describe individuals being hired for a specific task rather than on a longterm basis while this results in which is beneficial for businesses issues for those employed in such a manner relate to increased uncertainty and a lack of",
+            "content": "1 economy is the term used to describe individuals being hired for a specific task rather than on a longterm basis while this results in",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-7-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "managers are entrusted to run the company in the best interest of specifically they have a duty to act for the benefit of the company as well as a duty of and of",
+            "content": "1 managers are entrusted to run the company in the best interest of specifically they have a duty to act for the benefit of the company",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-6-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the otherwise known as was launched in 1997 and is a global workplace standard that covers key labour rights such as working hours forced labour and discrimination with compliance being certified by independent auditors",
+            "content": "hours forced labour and discrimination with compliance being certified by independent auditors social accountability standard sa 8000 correct incorrect",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-5-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "affirmative action involves attempts to target who are within an organisations workforce for instance by trying to the proportion of women disabled or racial minorities in senior management positions",
+            "content": "4 affirmative action involves attempts to target who are within an organisations workforce for instance by trying to the",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-7-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in a business to business context conflicts of interest can arise in two main ways conflict of and interests which might arise for example when a firm is hired as a supplier of professional services by another firm or conflict of and interests such as where an individuals interests may conflict with that of their employer",
+            "content": "2 in a business to business context conflicts of interest can arise in two main ways conflict of and interests which might arise for",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-9-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the theory of posits that 3 three levels of moral reasoning exist which an individual can engage in to assess ethical issues dependant on their cognitive capacity",
+            "content": "4 the theory of posits that 3 three levels of moral reasoning exist which an individual can engage in to assess ethical issues dependant on their",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-4-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the theory of posits that 3 three levels of moral reasoning exist which an individual can engage in to assess ethical issues dependant on their cognitive capacity",
+            "content": "the theory of posits that three levels of moral reasoning exist which an individual can engage in to assess ethical issues dependent on their cognitive",
+            "url": "https://mcqmate.com/topic/business-ethics-and-corporate-social-responsibility-becsr/c/more-mcqs",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "replacing supply chains with enhances the importance of product as well as a fundamental redesign of every activity a firm engages in that produces",
+            "content": "9 replacing supply chains with enhances the importance of product as well as a fundamental redesign of every activity a firm engages in that",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-9-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the workplace involves empowering employees through for example job enrichment where employees are given a larger scope for deciding how to organize their work or job enlargement where employees are given a wider range of tasks to do",
+            "content": "9 the workplace involves empowering employees through for example job enrichment where employees are given a larger scope for deciding how to",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-7-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "traditionally consumer rights were based on the notion of or where the responsibility lay with consumer to avoid subpar products however this has gradually eroded due to increased at a eu and un level",
+            "content": "1 traditionally consumer rights were based on the notion of or where the responsibility lay with consumer to avoid subpar products however this",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-8-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the iso 26000 standard on is emblematic of a number of trends emerging within the shared global governance space specifically these trends concern more deliberation and greater focus on the rather than outcomes and more rather than specific norms",
+            "content": "9 the iso 26000 standard on is emblematic of a number of trends emerging within the shared global governance space specifically these trends concern",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-11-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "theory can be described as a code of conduct to which all rational beings should adhere this contrasts with morality which is the code of conduct adopted by a particular group or society",
+            "content": "this contrasts with morality which is the code of conduct adopted by a particular group or society descriptive normative correct incorrect",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-3-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a company may become insolvent if it",
+            "content": "businesses might become insolvent if they cant repay creditors pay their employees or continue to operate businesses have options if they become insolvent",
+            "url": "https://www.investopedia.com/terms/i/insolvency.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "some of key differences between islamic finance and conventional finance include prohibition of charging and paying prohibition on and transactions prohibition of sinful investment and requirement for all financial products to be backed by",
+            "content": "10 some of key differences between islamic finance and conventional finance include prohibition of charging and paying prohibition on and",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-6-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "regulation goes further than the that csos have with businesses as it also concerns of such processes",
+            "content": "regulation goes further than the that csos have with businesses as it also concerns of such processes legal interactions mechanics",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-10-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "healthy eating particularly relating to sugar and salt consumption food and packaging waste and supply chain co2 emissions are all business ethics issues facing the",
+            "content": "4 healthy eating particularly relating to sugar and salt consumption food and packaging waste and supply chain co2 emissions are all business ethics issues",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-1-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "healthy eating particularly relating to sugar and salt consumption food and packaging waste and supply chain co2 emissions are all business ethics issues facing the",
+            "content": "4 healthy relating to sugar and salt consumption food and packaging waste and supply chain co2 emissions are all business ethics issues facing the",
+            "url": "https://www.studocu.vn/vn/document/dai-hoc-ha-noi/business-ethics/bue1-bue-mcps-chapter-3/51983598",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in order to try and align the interest of shareholders and senior management of a company are often made available to of a company to ensure that it is in their interests to increase and dividend performance",
+            "content": "7 in order to try and align the interest of shareholders and senior management of a company are often made available to of a company to",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-6-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "working practices refer to working patterns which involve temporal spatial and task related fluidity",
+            "content": "working practices refer to working patterns which involve temporal spatial and task related fluidity dynamic correct incorrect fluid correct",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-7-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the state of being unable to make an informed reasoned decision about a product purchase is known as",
+            "content": "the state of being unable to make an informed reasoned decision about a product purchase is known as consumer inclusion correct incorrect consumer",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-8-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is a system of exchange based on guaranteeing producers in developing countries a living wage decent working conditions and opportunities for community development",
+            "content": "8 is a system of exchange based on guaranteeing producers in developing countries a living wage decent working conditions and opportunities for",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-9-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following statements is correct",
+            "content": "which of the following statements isare correct i accept me for being myself i accept myself for being me i accept me for being me",
+            "url": "https://www.reddit.com/r/EnglishLearning/comments/q15qfn/which_of_the_following_statements_isare_correct/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "which of the following statements is correct",
+            "content": "which of the following statements is correct setting limits gives children skills in problem solving is correct",
+            "url": "https://www.weegy.com/?ConversationId=ELZ3JP6B&Link=i&ModeType=2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "what according to schnackenberg and tomlinson 2014 are the three criteria which can be used to assess the quality of corporate transparency",
+            "content": "10 what according to schnackenberg and tomlinson 2014 are the three criteria which can be used to assess the quality of corporate transparency",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-2-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "what according to schnackenberg and tomlinson 2014 are the three criteria which can be used to assess the quality of corporate transparency",
+            "content": "what according to schnackenberg and tomlinson 2014 are the three criteria which can be used to assess the quality of corporate transparency abreadth",
+            "url": "https://www.studocu.vn/vn/quiz/bue2-bue-chapter-2-mcqs/511934",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "are individual beliefs about desirable behaviours and goals that are stable over time and which influence decision making",
+            "content": "are individual beliefs about desirable behaviours and goals that are stable over time and which influence decision making character traits",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-4-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "where for example one party possess more resources unfair distribution of where one party gains more from the relationship and csos being are all limitations and risks of businesscso collaborations",
+            "content": "7 where for example one party possess more resources unfair distribution of where one party gains more from the relationship and csos being",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-10-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "according to mitchell et al 1997 the perceived ability of a stakeholder to influence organisational action whether the organisation perceives the stakeholders actions as desirable proper and appropriate and the immediacy of attention the stakeholder claims require determine stakeholder",
+            "content": "5 according to mitchell et al 1997 the perceived ability of a stakeholder to influence organisational action whether the organisation",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-5-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "better access to certain markets differentiation of products and the sale of pollutioncontrol technology are ways in which better environmental performance can",
+            "content": "sale of pollutioncontrol technology are ways in which better environmental performance can a increase revenue b increase costs c decrease revenue d",
+            "url": "https://www.gkseries.com/business-ethics/better-access-to-certain-markets-differentiation-of-products-12",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "better access to certain markets differentiation of products and the sale of pollutioncontrol technology are ways in which better environmental performance can",
+            "content": "sale of pollutioncontrol technology are ways in which better environmental performance can a increase revenue b increase costs c",
+            "url": "https://mcqmate.com/discussion/186478/better-access-to-certain-markets-differentiation-of-products-and-the-sale-of-pollution-control-technology-are-ways-in-which-better-environmental-performance-can",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "better access to certain markets differentiation of products and the sale of pollutioncontrol technology are ways in which better environmental performance can",
+            "content": "sale of pollutioncontrol technology are ways in which better environmental performance can increase revenue increase costs decrease revenue decrease costs",
+            "url": "https://www.mbamcq.com/business-ethics-and-governance/2.php",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "better access to certain markets differentiation of products and the sale of pollutioncontrol technology are ways in which better environmental performance can",
+            "content": "sale of pollutioncontrol technology are ways in which better environmental performance can a increase revenue b increase costs c",
+            "url": "https://mcqmate.com/discussion/107187/better-access-to-certain-markets-differentiation-of-products-and-the-sale-of-pollution-control-technology-are-ways-in-which-better-environmental-performance-can",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "although the benefit and contribution of civil society in encouraging sustainability lobbying on important issues and helping the needy are taken for granted in many places in many other countries such as and civil society is far less developed than in for instance",
+            "content": "10 although the benefit and contribution of civil society in encouraging sustainability lobbying on important issues and helping the needy are taken for",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-10-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the corporate role in governing citizenship rights for the individual",
+            "content": "is the corporate role in governing citizenship rights for the individual political corporate social responsibility correct incorrect triple bottom",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-2-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the uk public services social value act 2013 requires those procuring to consider how they can secure wider and benefits",
+            "content": "6 the uk public services social value act 2013 requires those procuring to consider how they can secure wider and benefits",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-1-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the uk public services social value act 2013 requires those procuring to consider how they can secure wider and benefits",
+            "content": "6 the uk public services social value act 2013 requires those procuring to consider how they can secure wider and benefits",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-1-multiple-choice-questions/1000",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the uk public services social value act 2013 requires those procuring to consider how they can secure wider and benefits",
+            "content": "the uk public services social value act 2013 requires those procuring to consider how they can secure wider and benefits a",
+            "url": "https://www.studocu.vn/vn/document/dai-hoc-ha-noi/business-ethics/bue1-bue-mcps-chapter-3/51983598",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the three following organisational characteristics of small businesses tend to characterise their engagement with business related issues",
+            "content": "which of the three following organisational characteristics of small businesses tend to characterise their engagement with business related issues size and",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-1-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the three following organisational characteristics of small businesses tend to characterise their engagement with business related issues",
+            "content": "which of the three following organisational characteristics of small businesses tend to characterise their engagement with business related issues a size",
+            "url": "https://www.studocu.vn/vn/document/dai-hoc-ha-noi/business-ethics/bue1-bue-mcps-chapter-3/51983598",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the perspective on sustainability resulted from growth models that analysed the carrying capacity of the planet overall concluding that the finite capacity of the earth and and by current and past generations could reduce quality of life for future generations this contrasts with the environmental perspective with focuses on the need to maintain and preserve the natural environment",
+            "content": "10 the perspective on sustainability resulted from growth models that analysed the carrying capacity of the planet overall concluding that the finite",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-1-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the perspective on sustainability resulted from growth models that analysed the carrying capacity of the planet overall concluding that the finite capacity of the earth and and by current and past generations could reduce quality of life for future generations this contrasts with the environmental perspective with focuses on the need to maintain and preserve the natural environment",
+            "content": "concluding that the finite capacity of the earth and and by current and past generations could reduce quality of life for future",
+            "url": "https://www.studocu.vn/vn/document/dai-hoc-ha-noi/business-ethics/bue1-bue-mcps-chapter-3/51983598",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when the true cost an item is deliberately obscured by a company this is known as",
+            "content": "when the true cost an item is deliberately obscured by a company this is known as predatory pricing correct incorrect deceptive pricing correct incorrect",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-8-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the degree to which corporate decisions policies activities and impacts are acknowledged and made visible to relevant stakeholders is known as",
+            "content": "the degree to which corporate decisions policies activities and impacts are acknowledged and made visible to relevant stakeholders is known as",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-2-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the degree to which corporate decisions policies activities and impacts are acknowledged and made visible to relevant stakeholders is known as",
+            "content": "the degree to which corporate decisions policies activities and impacts are acknowledged and made visible to relevant stakeholders is known as a",
+            "url": "https://www.studocu.vn/vn/document/dai-hoc-ha-noi/business-ethics/bue2-bue-chapter-2-mcqs/51983898",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the degree to which corporate decisions policies activities and impacts are acknowledged and made visible to relevant stakeholders is known as",
+            "content": "transparency the degree to which corporate decisions policies activities and impacts are acknowledged and made visible to relevant stakeholders",
+            "url": "https://www.studeersnel.nl/nl/document/universiteit-van-amsterdam/corporate-social-responsibility/business-ethics-corporate-social-responsibility-summary-book/290520",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the degree to which corporate decisions policies activities and impacts are acknowledged and made visible to relevant stakeholders is known as",
+            "content": "corporate transparency is ´the degree to which corporate decisions policies activities and impacts are acknowledged and made visible to relevant stakeholders",
+            "url": "https://www.worldsupporter.org/en/summary/summary-4th-edition-business-ethics-managing-corporate-citizenship-and-sustainability-age",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "there are two main issues associated with sizing is a key issue as due to the information policy of the corporation it can be argued that employees have a right to know if they are being made redundant is a second issue particularly the package that employees receive when laid off",
+            "content": "5 there are two main issues associated with sizing is a key issue as due to the information policy of the corporation it can be argued that",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-7-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "an is a framework which goes beyond linear functions operations and transactions to produce a certain commodity or product",
+            "content": "an is a framework which goes beyond linear functions operations and transactions to produce a certain commodity or product",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-9-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the right to has been a longstanding ethical concern for employees which today are addressed in most developed countries through a dense network of occupational health safety and environmental regulations companies must abide by",
+            "content": "6 the right to has been a longstanding ethical concern for employees which today are addressed in most developed countries through a dense network of",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-7-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "cognitive models such as the theory of serve to try and explain consumer behaviour but arguably somewhat oversimplify and overestimate individual",
+            "content": "9 cognitive models such as the theory of serve to try and explain consumer behaviour but arguably somewhat oversimplify and overestimate",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-8-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "businesses engage in social accounting due to demands from in order to identify to improve and to encourage and",
+            "content": "businesses engage in social accounting due to demands order to identify to improve and to encourage and",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-5-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "such as bitcoin are becoming increasingly mainstream and have a whole host of associated ethical implications for example they are and more however they have also been used to engage in",
+            "content": "9 such as bitcoin are becoming increasingly mainstream and have a whole host of associated ethical implications for example they are and more",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-6-multiple-choice-questions",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "is the use of language of to mask or expose the ethical nature of decisions actions and behaviours",
+            "content": "is the use of language of to mask or expose the ethical nature of decisions actions and behaviours ethical splicing correct incorrect moral",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-4-multiple-choice-questions",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "which of the following is not one the underlying principles of the corporate governance combined code of practice",
+            "content": "which of the following is not one the underlying principles of the corporate governance combined code of practice openness integrity accountability",
+            "url": "https://www.mbamcq.com/business-ethics-and-governance/6.php",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "which of the following is not one the underlying principles of the corporate governance combined code of practice",
+            "content": "which of the following is not one of the underlying principles of the corporate governance combined code of practice accountability incorrect answer",
+            "url": "https://abhipedia.abhimanu.com/Article/1042/MzU3NDgw/Which-of-the-following-is-not-one-of-the-underlying-principles-of-the-corporate-governance-Corporate-Governance-",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "which of the following is not one the underlying principles of the corporate governance combined code of practice",
+            "content": "q which of the following is not one the underlying principles of the corporate governance combined code of practice a integrity",
+            "url": "https://mcqmate.com/discussion/180724/which-of-the-following-is-not-one-the-underlying-principles-of-the-corporate-governance-combined-code-of-practice",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "is a key driving force shaping the current and future state of business ethics in particular regarding and related issues",
+            "content": "7 is a key driving force shaping the current and future state of business ethics in particular regarding and related issues",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-1-multiple-choice-questions",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "is a key driving force shaping the current and future state of business ethics in particular regarding and related issues",
+            "content": "is a key driving force shaping the current and future state of business ethics in particular regarding and related issues a",
+            "url": "https://www.studocu.vn/vn/document/dai-hoc-ha-noi/business-ethics/bue1-bue-mcps-chapter-3/51983598",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "locate morality beyond the sphere of rationality in an emotional moral impulse towards others",
+            "content": "locate morality beyond the sphere of rationality in an emotional moral impulse towards others virtue ethics correct incorrect ethical egoism",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-3-multiple-choice-questions",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "locate morality beyond the sphere of rationality in an emotional moral impulse towards others",
+            "content": "ethics approach that locates morality beyond the sphere of rationality beyond the sphere of rationality in an emotional “moral impulse” towards others",
+            "url": "https://www.studeersnel.nl/nl/document/universiteit-van-amsterdam/business-ethics/summary-ethics-the-future-of-business-6614zb003y/17913104",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "locate morality beyond the sphere of rationality in an emotional moral impulse towards others",
+            "content": "a definition postmodern ethics locates morality beyond the sphere of rationality in an emotional moral impulse towards others it encourages individual",
+            "url": "https://www.worldsupporter.org/en/summary/summary-4th-edition-business-ethics-managing-corporate-citizenship-and-sustainability-age",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "locate morality beyond the sphere of rationality in an emotional moral impulse towards others",
+            "content": "ethics this locates morality beyond the sphere of rationality in an emotional towards others it encourages one to question everyday practices and rules and to",
+            "url": "https://www.studeersnel.nl/nl/document/rijksuniversiteit-groningen/business-ethics/summary-business-ethics-chapter-1-9/460208",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "locate morality beyond the sphere of rationality in an emotional moral impulse towards others",
+            "content": "a definition postmodern ethics locates morality beyond the sphere of rationality in an emotional moral impulse towards others it encourages individual",
+            "url": "https://www.worldsupporter.org/en/summary/summary-ethics-and-international-business-midterm-part-1-41518",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "locate morality beyond the sphere of rationality in an emotional moral impulse towards others",
+            "content": "this approach “locates morality beyond the sphere of rationality in an emotional moral impulse towards others” crane and matten 2016 115",
+            "url": "https://link.springer.com/doi/10.1007/978-3-319-63951-2_272-1",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "typical advertising regulatory bodies suggest for example that adverts must not encourage cause unnecessary or and must not cause offence",
+            "content": "3 typical advertising regulatory bodies suggest for example that adverts must not encourage cause unnecessary or and must not cause",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-8-multiple-choice-questions",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "typical advertising regulatory bodies suggest for example that adverts must not encourage cause unnecessary or and must not cause offence",
+            "content": "typical advertising regulatory bodies suggest for example that adverts must not encourage cause unnecessary or and must not cause",
+            "url": "https://app.airtrain.ai/dataset/290ba84d-da8b-4358-9cf4-9e51506faa80/%7B%22AND%22:[[4,2,%22e9e6836d-ff67-41fe-965c-f09100100e14%22]]%7D/1/29",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "typical advertising regulatory bodies suggest for example that adverts must not encourage cause unnecessary or and must not cause offence",
+            "content": "typical advertising regulatory bodies suggest for example that adverts must not encourage cause unnecessary or and must not",
+            "url": "https://app.airtrain.ai/dataset/290ba84d-da8b-4358-9cf4-9e51506faa80/%7B%22AND%22%3A%5B%5B4%2C3%2C%22cluster%22%5D%5D%7D/1/0",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "a stakeholder orientation includes all of the following activities except",
+            "content": "a stakeholder orientation includes all of the following activities except a generating data about stakeholder groups b assessing the firms",
+            "url": "https://mcqmate.com/discussion/180242/a-stakeholder-orientation-includes-all-of-the-following-activities-except",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "a stakeholder orientation includes all of the following activities except",
+            "content": "8 a stakeholder orientation includes all of the following activities except generating data about stakeholder groups assessing the firms effects on",
+            "url": "https://www.mbamcq.com/business-ethics-and-governance/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "a stakeholder orientation includes all of the following activities except",
+            "content": "q a stakeholder orientation includes all of the following activities except a generating data about stakeholder groups",
+            "url": "https://www.gkseries.com/blog/a-stakeholder-orientation-includes-all-of-the-following-activities-except/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "businesses have within society and have the potential to provide a to society while has the potential to inflict enormous harm on individuals communities and the environment",
+            "content": "3 businesses have within society and have the potential to provide a to society while has the potential to inflict enormous harm on individuals",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-1-multiple-choice-questions",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "businesses have within society and have the potential to provide a to society while has the potential to inflict enormous harm on individuals communities and the environment",
+            "content": "while has the potential to inflict enormous harm on individuals communities and the environment a little power small contribution business malpractice",
+            "url": "https://www.studocu.vn/vn/document/dai-hoc-ha-noi/business-ethics/bue1-bue-mcps-chapter-3/51983598",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "which of the following statements is correct",
+            "content": "which of the following statements isare correct i accept me for being myself i accept myself for being me i accept me for being me",
+            "url": "https://www.reddit.com/r/EnglishLearning/comments/q15qfn/which_of_the_following_statements_isare_correct/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "which of the following statements is correct",
+            "content": "which of the following statements is correct setting limits gives children skills in problem solving is correct",
+            "url": "https://www.weegy.com/?ConversationId=ELZ3JP6B&Link=i&ModeType=2",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "better access to certain markets differentiation of products and the sale of pollutioncontrol technology are ways in which better environmental performance can",
+            "content": "sale of pollutioncontrol technology are ways in which better environmental performance can a increase revenue b increase costs c decrease revenue d",
+            "url": "https://www.gkseries.com/business-ethics/better-access-to-certain-markets-differentiation-of-products-12",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "better access to certain markets differentiation of products and the sale of pollutioncontrol technology are ways in which better environmental performance can",
+            "content": "sale of pollutioncontrol technology are ways in which better environmental performance can a increase revenue b increase costs c",
+            "url": "https://mcqmate.com/discussion/186478/better-access-to-certain-markets-differentiation-of-products-and-the-sale-of-pollution-control-technology-are-ways-in-which-better-environmental-performance-can",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "better access to certain markets differentiation of products and the sale of pollutioncontrol technology are ways in which better environmental performance can",
+            "content": "sale of pollutioncontrol technology are ways in which better environmental performance can increase revenue increase costs decrease revenue decrease costs",
+            "url": "https://www.mbamcq.com/business-ethics-and-governance/2.php",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "better access to certain markets differentiation of products and the sale of pollutioncontrol technology are ways in which better environmental performance can",
+            "content": "sale of pollutioncontrol technology are ways in which better environmental performance can a increase revenue b increase costs c",
+            "url": "https://mcqmate.com/discussion/107187/better-access-to-certain-markets-differentiation-of-products-and-the-sale-of-pollution-control-technology-are-ways-in-which-better-environmental-performance-can",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "the uk public services social value act 2013 requires those procuring to consider how they can secure wider and benefits",
+            "content": "6 the uk public services social value act 2013 requires those procuring to consider how they can secure wider and benefits",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-1-multiple-choice-questions",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "the uk public services social value act 2013 requires those procuring to consider how they can secure wider and benefits",
+            "content": "6 the uk public services social value act 2013 requires those procuring to consider how they can secure wider and benefits",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-1-multiple-choice-questions/1000",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "the uk public services social value act 2013 requires those procuring to consider how they can secure wider and benefits",
+            "content": "the uk public services social value act 2013 requires those procuring to consider how they can secure wider and benefits a",
+            "url": "https://www.studocu.vn/vn/document/dai-hoc-ha-noi/business-ethics/bue1-bue-mcps-chapter-3/51983598",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "which of the three following organisational characteristics of small businesses tend to characterise their engagement with business related issues",
+            "content": "which of the three following organisational characteristics of small businesses tend to characterise their engagement with business related issues size and",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-1-multiple-choice-questions",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "which of the three following organisational characteristics of small businesses tend to characterise their engagement with business related issues",
+            "content": "which of the three following organisational characteristics of small businesses tend to characterise their engagement with business related issues a size",
+            "url": "https://www.studocu.vn/vn/document/dai-hoc-ha-noi/business-ethics/bue1-bue-mcps-chapter-3/51983598",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "the perspective on sustainability resulted from growth models that analysed the carrying capacity of the planet overall concluding that the finite capacity of the earth and and by current and past generations could reduce quality of life for future generations this contrasts with the environmental perspective with focuses on the need to maintain and preserve the natural environment",
+            "content": "10 the perspective on sustainability resulted from growth models that analysed the carrying capacity of the planet overall concluding that the finite",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-1-multiple-choice-questions",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "the perspective on sustainability resulted from growth models that analysed the carrying capacity of the planet overall concluding that the finite capacity of the earth and and by current and past generations could reduce quality of life for future generations this contrasts with the environmental perspective with focuses on the need to maintain and preserve the natural environment",
+            "content": "concluding that the finite capacity of the earth and and by current and past generations could reduce quality of life for future",
+            "url": "https://www.studocu.vn/vn/document/dai-hoc-ha-noi/business-ethics/bue1-bue-mcps-chapter-3/51983598",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "cognitive models such as the theory of serve to try and explain consumer behaviour but arguably somewhat oversimplify and overestimate individual",
+            "content": "9 cognitive models such as the theory of serve to try and explain consumer behaviour but arguably somewhat oversimplify and overestimate",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-8-multiple-choice-questions",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 27,
+            "query": "which of the following statements is correct",
+            "content": "which of the following statements is correct select all that apply a generator converts mechanical energy into electrical energy a motor converts electrical energy into mechanical energy a motor converts mechanical energy into electrical energy the operation of a motor is opposite to that of a generator a generator converts mechanical energy into electrical energy …",
+            "url": "https://asvab-prep.com/question/which-of-the-following-statements-is-correct-select-all-that-apply-6037103970353152",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 30,
+            "query": "which of the following statements is correct",
+            "content": "apr 6 2020 which of the following statements is correct a viscosity is a vector quantity b surface tension is a vector quantity c reynolds number is a dimensionless quantity d angle of contact is a vector quantity class11 mechanicalpropertiesoffluids share it …",
+            "url": "https://www.sarthaks.com/1551237/which-of-the-following-statements-is-correct",
+            "engine": "bing"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "which of the following is not one the underlying principles of the corporate governance combined code of practice",
+            "content": "which of the following is not one the underlying principles of the corporate governance combined code of practice",
+            "url": "https://www.gkseries.com/blog/which-of-the-following-is-not-one-the-underlying-principles-of-the-corporate-governance-combined-code-of-practice/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 31,
+            "query": "which of the following statements is correct",
+            "content": "click herepointup2to get an answer to your question writinghandwhich of the following statements is correct 85",
+            "url": "https://www.toppr.com/ask/question/which-of-the-following-statements-is-correct-85/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 32,
+            "query": "which of the following statements is correct",
+            "content": "click herepointup2to get an answer to your question writinghandwhich of the following statement is correct 20",
+            "url": "https://www.toppr.com/ask/question/which-of-the-following-statement-is-correct-20/",
+            "engine": "braveAPI"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 4,
+            "query": "the extent to which an individual is able to creatively consider the consequences of resolutions to and issues associated with moral decision making is known as",
+            "content": "this document is designed as an introduction to thinking ethically read more about what the framework can and cannot do",
+            "url": "https://www.scu.edu/ethics/ethics-resources/a-framework-for-ethical-decision-making/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the purposes for which the information is used is in the publics interest",
+            "content": "this guidance discusses the public interest test pit under the freedom of information act foia in detail and is written for use by public authorities",
+            "url": "https://ico.org.uk/for-organisations/foi/freedom-of-information-and-environmental-information-regulations/the-public-interest-test/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which of the following would most effectively act as the primary objective of a business organisation",
+            "content": "a to make a profit b to procure resources c to communicate with shareholders d to mediate between the organisation and the environment",
+            "url": "https://www.gkseries.com/business-ethics/which-of-the-following-would-most-effectively-act-as-the-primary-5",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "such as the in the united states is a key factor in driving ethical business practices",
+            "content": "business ethics is the system of moral and ethical beliefs that guides the values behaviors and decisions of a business organization and the individuals",
+            "url": "https://www.investopedia.com/ask/answers/040815/why-are-business-ethics-important.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "they are too irrational and uncodified",
+            "content": "rational v irrational recruitment and training of ministers referendums and how they are used reforms since 2015 relations between the branches",
+            "url": "https://sites.google.com/site/thepoliticsteacherorg/arguments-for-and-against-a-codified-constitution",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "when negotiating using unethical practices businesses can risk if the negotiations are part of a longerterm business association as well as a and as negotiations can impact company image and stymy progress",
+            "content": "some negotiators seem to believe that hardbargaining negotiation tactics are the key to success they resort to threats extreme demands and even unethical",
+            "url": "https://www.pon.harvard.edu/tag/negotiation-tactics/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "managers and directors have a fiduciary responsibility to protect the investment of shareholders",
+            "content": "a fiduciary duty is a responsibility to honor investors trust in your company its related to how you use investments and maintain integrity",
+            "url": "https://online.hbs.edu/blog/post/fiduciary-duty-to-investors",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "refers to a strategic process involving stakeholder assessment to create longterm relationships with customers while maintaining supporting and enhancing the natural environment",
+            "content": "a ecostrategy b green marketing c superfund reauthorization d recycle and reprocess management",
+            "url": "https://www.gkseries.com/business-ethics/refers-to-a-strategic-process-involving-stakeholder-assessment-20",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "cultural homogenization",
+            "content": "david e oconnor defines it as the process by which local cultures are transformed or absorbed by a dominant outside culture",
+            "url": "https://en.wikipedia.org/wiki/Cultural_homogenization",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the socalled bric countries brazil russia india and tend to follow a approach to corporate governance however recently this has tended to move towards more based mechanisms",
+            "content": "among the five brics countries the corporate governance codes of brazil russia and south africa are those most closely aligned with the recommendations set",
+            "url": "https://revistacgg.org/index.php/contabil/article/download/723/pdf/4931",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "according to evan and freeman 1993 the principle of and the principle of can be used in a specific situation to determine who constitutes a",
+            "content": "is there is no agreement on what freeman 1994 calls the principle of who or what really counts that is who or what are the stakeholders of the firm",
+            "url": "https://www.jstor.org/stable/259247",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "what is the enlightened selfinterest model of csr",
+            "content": "38 corporate social responsibility an assessment of the enlightened selfinterest model can red cross if national corporations can local ize their",
+            "url": "https://www.jstor.org/stable/257574",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "where actors are convinced that their actions harms nobody where actors argue that their norm violation is an attempt to realize higherorder values and where actors argue they are owed something are all strategies for justifying or denying unethical behaviour",
+            "content": "we explore how corporate elites accused of corruption in the context of weak institutions engage in their justification works",
+            "url": "https://link.springer.com/article/10.1007/s10551-024-05703-1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the relationship between ethics and the law can be described as…",
+            "content": "fundamentally the law and ethics serve a similar purpose and share many important characteristics in establishing boundaries and in guiding human behavior",
+            "url": "https://www.ethicsatkentplace.org/about-ethics/ethics-institute-blog/individual-blog-page/~board/blog-posts/post/the-relationship-between-ethics-and-the-law",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "is an employees preferred ratio between workrelated and nonworkrelated activities which due to intensification of work and technological shifts has become a hotly contested issue in recent years",
+            "content": "burnout is defined as continuous emotional pressures and depletion of the employees coping resources that occur as a result of a prolonged exposure to",
+            "url": "https://bip.amu.edu.pl/__data/assets/pdf_file/0018/407322/Azulay-Vered_rozprawa-doktorska.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "postmodern ethics assert that ethics are context and individual specific and as such have an internal guide to ethics",
+            "content": "peter singers universal ethics come under fire we cannot reasonably argue there is an ultimate impartial set of moral rules to guide our lives",
+            "url": "https://www.reddit.com/r/philosophy/comments/16v80ez/peter_singers_universal_ethics_come_under_fire_we/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "ethical issues related to marketing communications include the fact that they are and unavoidable they create needs reinforce and perpetuate and",
+            "content": "the purpose of this course is to introduce the reader to communication principles and tools as they relate to what we have called emergency risk",
+            "url": "https://www.asset-scienceinsociety.eu/sites/default/files/cdc_risk_communication_book.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "reasoning is considered by many to be prevalent within society and particularly within businesses where it is often referred to in the form of a",
+            "content": "reason is sometimes referred to as rationality reasoning involves using moreorless rational processes of thinking and cognition to extrapolate from ones",
+            "url": "https://en.wikipedia.org/wiki/Reason",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "is the right of a consumer to control what information companies can collect about them and how it is stored used and shared",
+            "content": "exercising the optout right you must give consumers and customers a reasonable opportunity to exercise their right to opt out for example 30 days after",
+            "url": "https://www.ftc.gov/business-guidance/resources/how-comply-privacy-consumer-financial-information-rule-gramm-leach-bliley-act",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "factors that impact ethical decision making can be broadly broken down into factors related to the unique characteristics of a person and factors which are features of the persons environment or the particular issue",
+            "content": "this chapter surveys the components of ethical behaviormoral sensitivity moral judgment moral motivation and moral characterand introduces",
+            "url": "https://uk.sagepub.com/sites/default/files/upm-binaries/39590_Chapter7.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the extent to which an individual believes they can control their life is determined by their",
+            "content": "locus of control is how in control you feel about the events that influence your life learn about an internal vs external locus of control",
+            "url": "https://www.verywellmind.com/what-is-locus-of-control-2795434",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the private sector social enterprise model",
+            "content": "social enterprises adopt different business models to create social value while simultaneously engage in commercial activities to achieve economic viability",
+            "url": "https://www.cranfield.ac.uk/som/research-degrees/doctoral-opportunities/social-enterprise-private-sector-business-relationships-building-a-social-impact-ecosystem",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "can be a likened to their natural counterparts comprising of a balanced network of interdependent organisms and their environments thus adding value to sustainability thinking due to the consideration of companies and industries as being bound together and interdependent due to all kinds of resources and wastes",
+            "content": "nature is defined as the “natural world with an emphasis on the diversity of living organisms and their interactions among themselves and with",
+            "url": "https://www.elibrary.imf.org/view/journals/066/2024/002/article-A001-en.xml",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "predatory pricing",
+            "content": "predatory pricing is a commercial pricing strategy which involves the use of large scale undercutting to eliminate competition",
+            "url": "https://en.wikipedia.org/wiki/Predatory_pricing",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "csos frequently spend too much time communicating their performance measures and too much time devising them with input from beneficiaries",
+            "content": "many in the sector consider functioning feedback loops as indicators of broader accountability practice and as mechanisms for improving relevance and",
+            "url": "https://alnap.org/documents/11959/Beneficiary-Feedback-how-we-hinder-enable-good-practice-pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "the focus on issues the intended audience extending beyond shareholders and the voluntary nature of distinguish it from",
+            "content": "sasb standards are designed for voluntary use in disclosures required by existing us regulation in filings with the securities and exchange commission sec",
+            "url": "http://sasb.ifrs.org/wp-content/uploads/2019/05/SASB-Conceptual-Framework.pdf?source=post_page",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the enforcement of company privacy is complex as corporations are somewhat as there are few clear barriers to define their limits it is difficult to due to the number of individuals involved and much corporate activity takes place in",
+            "content": "individual privacy rights are often at the heart of information privacy and data protection laws the most comprehensive set of rights from the european",
+            "url": "https://scholarship.law.gwu.edu/context/faculty_publications/article/2856/viewcontent/Solove___Limitations_of_Privacy_Rights_FINAL.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what are according to wood 1991 the three outcomes of csr",
+            "content": "this article defines corporate social performance csp and reformu lates the csp model to build a coherent integrative framework for",
+            "url": "https://www.jstor.org/stable/258977",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "are a business ethics management tool that have grown over the last few decades areas which these typically cover are compliance corruption and environmental issues however they are constantly evolving with for example the onus on having grown in recent years",
+            "content": "these lawyers advisors and consultants from around the world specialize in private funds anticorruption data privacy cybersecurity private",
+            "url": "https://ionanalytics.com/insights/mergermarket/contributions-achievements-and-observations-of-outstanding-female-professionals-women-to-watch-part-vii/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "what term can be used to describe the hypothetical agreement between member of society and those who govern it which establishes the interrelationships rights and responsibilities on a fair basis",
+            "content": "put simply normative ethical theory provides guidelines based on notions such as duty rights justice and consequence for application in the context of",
+            "url": "https://www.elgaronline.com/display/book/9781800880344/ch03.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the need to head off negative publicity",
+            "content": "one of your worst fears as a business professional has been realized your brand received negative publicity now what read on to find out",
+            "url": "https://www.newswire.com/blog/how-to-handle-negative-publicity-in-a-positive-manner",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "the angloamerican model being considered the best model in light of the recession in the late 2000s",
+            "content": "the angloamerican or the shareholderoriented model of corporate governance has strong capital markets relatively collaborative managementlabour relations a",
+            "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID4375692_code1712747.pdf?abstractid=4375692&type=2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sustainability can broadly be defined as",
+            "content": "in 1987 the united nations brundtland commission defined sustainability as “meeting the needs of the present without compromising the ability of future",
+            "url": "https://www.un.org/en/academic-impact/sustainability",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "under ethical objective moral principles can be rationally determined while ethical under morality is both context dependant and subjective",
+            "content": "morality refers to a code of conduct that would be endorsed by anyone who meets certain intellectual and volitional conditions almost always including the",
+            "url": "https://plato.stanford.edu/entries/morality-definition/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the rise in business led private regulation can be attributed to encouragement of a approach from industry and achievement of objectives",
+            "content": "we found good evidence that innovationfriendly approaches to regulation can support businessled innovation through two key routes increasing",
+            "url": "https://assets.publishing.service.gov.uk/media/5e2efd76ed915d1f26a7427f/regulator-approaches-facilitate-support-enable-innovation.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "are the obligations of workers towards their employer based on individual contracts and wider employment laws",
+            "content": "a code of ethics is a set of principles intended to guide professionals in conducting business with honesty and integrity",
+            "url": "https://www.investopedia.com/terms/c/code-of-ethics.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "the race to the is when due to increased countries compete for foreign investment through companies relocation decisions by weakening their and standards",
+            "content": "employment of funds with the aim of achieving additional income is known as a investment b speculation c gambling d betting",
+            "url": "https://sde.uoc.ac.in/sites/default/files/sde_videos/MCQ%20-%20BBA%20-%20%20INVESTMENT%20MANAGEMENT.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "negative advertising stealing or poaching customers and predatory pricing are all strategies employed by businesses described using the umbrella term",
+            "content": "make all pricing decisions many small businesses use digital marketing strategies such as promotional emails and influencer marketing",
+            "url": "https://competition-bureau.canada.ca/en/how-we-foster-competition/compliance-and-enforcement/specific-areas-enforcement-bureau",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "according carroll what four categories or aspects can corporate social responsibility be broken down into",
+            "content": "stated in the form of an equation it would read as follows economic responsibilities legal responsibilities ethical responsibilities",
+            "url": "https://jcsr.springeropen.com/articles/10.1186/s40991-016-0004-6",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following areas is not covered by the principles enshrined in the un global compact",
+            "content": "the ten principles of the un global compact take into account the fundamental responsibilities of business in the areas of human rights labour environment and",
+            "url": "https://unglobalcompact.org/what-is-gc/mission/principles",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "economy is the term used to describe individuals being hired for a specific task rather than on a longterm basis while this results in which is beneficial for businesses issues for those employed in such a manner relate to increased uncertainty and a lack of",
+            "content": "the gig economy can result in benefits for businesses workers and consumers in the gig economy employers usually have access to a wide range of talent they",
+            "url": "https://reference.nlb.gov.sg/guides/business/management/gig-economy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "managers are entrusted to run the company in the best interest of specifically they have a duty to act for the benefit of the company as well as a duty of and of",
+            "content": "the duties of directors under maltese law can be classified under two categories acting in good faith and in the best interests of the company",
+            "url": "https://mbr.mt/duties-and-liabilities-of-directors/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the otherwise known as was launched in 1997 and is a global workplace standard that covers key labour rights such as working hours forced labour and discrimination with compliance being certified by independent auditors",
+            "content": "elements of the standard child labor forced or compulsory labor health and safety freedom of association right to collective bargaining discrimination",
+            "url": "https://sa-intl.org/programs/sa8000/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what does milton friedman believe to be the sole responsibility of business",
+            "content": "there is one and only one social responsibility of businessto use its resources and engage in activities designed to increase its profits",
+            "url": "https://www.nytimes.com/1970/09/13/archives/a-friedman-doctrine-the-social-responsibility-of-business-is-to.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "affirmative action involves attempts to target who are within an organisations workforce for instance by trying to the proportion of women disabled or racial minorities in senior management positions",
+            "content": "affirmative action refers to a set of policies and practices within a government or organization seeking to address systemic discrimination",
+            "url": "https://en.wikipedia.org/wiki/Affirmative_action",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "in a business to business context conflicts of interest can arise in two main ways conflict of and interests which might arise for example when a firm is hired as a supplier of professional services by another firm or conflict of and interests such as where an individuals interests may conflict with that of their employer",
+            "content": "a conflict of interest arises when personal interests or relationships may affect professional duties causing potential bias in decisionmaking",
+            "url": "https://www.investopedia.com/terms/c/conflict-of-interest.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "the theory of posits that 3 three levels of moral reasoning exist which an individual can engage in to assess ethical issues dependant on their cognitive capacity",
+            "content": "this chapter surveys the components of ethical behaviormoral sensitivity moral judgment moral motivation and moral characterand introduces",
+            "url": "https://uk.sagepub.com/sites/default/files/upm-binaries/39590_Chapter7.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "replacing supply chains with enhances the importance of product as well as a fundamental redesign of every activity a firm engages in that produces",
+            "content": "certification exam answers ✓ free online calculators tools functions and explanations of terms which save time to everyone ✓ calculators conversion",
+            "url": "https://www.justfreetools.com/en/certification-exam-answers",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the workplace involves empowering employees through for example job enrichment where employees are given a larger scope for deciding how to organize their work or job enlargement where employees are given a wider range of tasks to do",
+            "content": "what is the scope of hrm a training and development of employees for their growth b maintenance of good industrial relations and workers high morale",
+            "url": "https://www.jsscacs.edu.in/sites/default/files/Files/MCQ3.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "traditionally consumer rights were based on the notion of or where the responsibility lay with consumer to avoid subpar products however this has gradually eroded due to increased at a eu and un level",
+            "content": "the present report arrives in direct succession of the eu consumer protection 20 eucp20 project and builds on the conceptual framework",
+            "url": "https://www.beuc.eu/sites/default/files/publications/BEUC-X-2024-032_Digital_fairness_for_consumers_Report.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the iso 26000 standard on is emblematic of a number of trends emerging within the shared global governance space specifically these trends concern more deliberation and greater focus on the rather than outcomes and more rather than specific norms",
+            "content": "the international organization for standardizations iso 26000 on social responsibility supports organizations of all types and sizes in their",
+            "url": "https://www.um.edu.mt/library/oar/bitstream/123456789/44345/1/A%20Cost%20Benefit%20Analysis%20of%20ISO%20Standard%2026000.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "theory can be described as a code of conduct to which all rational beings should adhere this contrasts with morality which is the code of conduct adopted by a particular group or society",
+            "content": "also called moral philosophy it investigates normative questions about what people ought to do or which behavior is morally right its main branches include",
+            "url": "https://en.wikipedia.org/wiki/Ethics",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a company may become insolvent if it",
+            "content": "a company becomes insolvent when it is unable to pay its debts when they are due",
+            "url": "https://asic.gov.au/for-consumers/dealing-with-insolvent-companies/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "some of key differences between islamic finance and conventional finance include prohibition of charging and paying prohibition on and transactions prohibition of sinful investment and requirement for all financial products to be backed by",
+            "content": "islamic banks cannot involve in ribainterest related transactions they cannot lend money to earn additional amount on it",
+            "url": "https://www.sbp.org.pk/IB/FAQ.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "regulation goes further than the that csos have with businesses as it also concerns of such processes",
+            "content": "as noted in the ecs better regulation guidelines ec 2022 and the coes code of good practice for civil participation in the decision making process 2009",
+            "url": "http://documents1.worldbank.org/curated/en/099102924121939771/pdf/P17897514590140031aece135282ca162c7.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "there are a number of means by which can influence these include to decision maker varying from very direct modes to indirect modes being either public or private and of communication",
+            "content": "the study of culture and decision making addresses variations in how and why people from different cultures sometimes tend to decide differently",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7126161/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "healthy eating particularly relating to sugar and salt consumption food and packaging waste and supply chain co2 emissions are all business ethics issues facing the",
+            "content": "these pivotal topics include ghg emissions sustainable packaging responsible procurement and consumer health and nutrition customers puratos zeelandia",
+            "url": "https://www.zeelandia.com/sustainable-commitments/images-and-files/csr-benchmark-report-2023.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "although corporate profit maximization is not directly prescribed by major normative theories to which normative theory is it most similar",
+            "content": "normative theories of decision making have provided prescriptions of how people should make decisions the theories provide prescriptive functions or decision",
+            "url": "https://www.sciencedirect.com/topics/psychology/normative-theory",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "in order to try and align the interest of shareholders and senior management of a company are often made available to of a company to ensure that it is in their interests to increase and dividend performance",
+            "content": "corporate governance the system of rules and practices that direct a company requires balancing the interests of employees shareholders the community",
+            "url": "https://www.investopedia.com/terms/c/corporategovernance.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "working practices refer to working patterns which involve temporal spatial and task related fluidity",
+            "content": "full article flexible lives spatial temporal and behavioural boundaries in a fluid world of work and home find guidance on author services",
+            "url": "https://www.tandfonline.com/doi/full/10.1080/14759551.2023.2211375",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the state of being unable to make an informed reasoned decision about a product purchase is known as",
+            "content": "article 1 purpose and scope of the law 1 this law shall impose prohibition on unfair businesstoconsumer commercial practices and establish the types",
+            "url": "https://e-seimas.lrs.lt/rs/legalact/TAD/TAIS.315866/format/ISO_PDF/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "is a system of exchange based on guaranteeing producers in developing countries a living wage decent working conditions and opportunities for community development",
+            "content": "fairtrade delivers many benefits to producers and consumers around the globe here are some facts and figures from the fairtrade foundation",
+            "url": "https://www.uwe.ac.uk/about/values-vision-strategy/sustainability/fairtrade-facts-and-benefits",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "and are all factors which can impact the moral intensity",
+            "content": "factors that impact ethical decision making can be broadly broken down into factors related to the unique characteristics of a person and",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-4-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "what according to schnackenberg and tomlinson 2014 are the three criteria which can be used to assess the quality of corporate transparency",
+            "content": "thus in the formation of perceptions about transparency we would expect disclosure clarity and accuracy to be cognitively “grouped together”",
+            "url": "https://journals.sagepub.com/doi/10.1177/0018726720933317?icid=int.sj-full-text.similar-articles.3",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "are individual beliefs about desirable behaviours and goals that are stable over time and which influence decision making",
+            "content": "by aligning your decisionmaking process with your values you create outcomes that are more aligned with your ethical beliefs and aspirations",
+            "url": "https://primeast.com/insights/understanding-your-personal-values/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "where for example one party possess more resources unfair distribution of where one party gains more from the relationship and csos being are all limitations and risks of businesscso collaborations",
+            "content": "it explains that flawed elections including the creation of an uneven playing field for opposition parties for example cso representatives",
+            "url": "https://www.oscepa.org/en/documents/special-representatives/gender-issues/report-17/4995-2024-gender-report-fostering-free-and-inclusive-societies-the-role-of-civil-society-organizations-in-a-time-of-democratic-decline-eng/file",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a corporation is from its managers employees investors and customers it therefore has succession and also",
+            "content": "a corporation or body corporate is an individual or a group of people such as an association or company that has been authorized by the state to act as a",
+            "url": "https://en.wikipedia.org/wiki/Corporation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "according to mitchell et al 1997 the perceived ability of a stakeholder to influence organisational action whether the organisation perceives the stakeholders actions as desirable proper and appropriate and the immediacy of attention the stakeholder claims require determine stakeholder",
+            "content": "recipient at least at work mitchell et al 1997 this observation legitimacy ie perceived to be desirable proper or appropriate as defined by",
+            "url": "https://scispace.com/pdf/you-ve-got-mail-but-is-it-important-and-or-urgent-an-4ccq28jy2m.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how the code is enforced",
+            "content": "an authority usually enforces a civil code a set of rules or a body of laws and compel those subject to their authority to behave in a certain way",
+            "url": "https://en.wikipedia.org/wiki/Code_enforcement",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "although the benefit and contribution of civil society in encouraging sustainability lobbying on important issues and helping the needy are taken for granted in many places in many other countries such as and civil society is far less developed than in for instance",
+            "content": "perceptions of governments commitment to sustainable development while other important uncedrelated actions are needed in our view the",
+            "url": "https://openaccess.city.ac.uk/7580/1/The_impact_of_civil_society_networks_on_the_global_politics_of_sustainable_development.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the corporate role in governing citizenship rights for the individual",
+            "content": "corporate citizenship refers to the extent to which businesses are socially responsible for meeting legal ethical and economic standards",
+            "url": "https://www.investopedia.com/terms/c/corporatecitizenship.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "pick the correct description of the following term utilitarianism is…",
+            "content": "utilitarianism is a consequentialist ethical theory focusing on outcomes and collective welfare 2 egoism is a duty based ethical theory based on the",
+            "url": "https://learninglink.oup.com/access/content/cranebe5e-student-resources/cranebe5e-chapter-3-multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "is the term used to describe the ongoing approval and acceptance of a companys activities by society especially among local communities and civil societies",
+            "content": "the social license has been defined as existing when a project has the ongoing approval within the local community and other stakeholders",
+            "url": "http://socialicense.com/definition.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "when the true cost an item is deliberately obscured by a company this is known as",
+            "content": "deceptive pricing the true cost to consumers is deliberately obscured for example many airlines have been criticized in the past by advertising prices",
+            "url": "https://www.studeersnel.nl/nl/document/universiteit-van-amsterdam/corporate-social-responsibility/summary-business-ethics-chapter-8-consumers-and-business-ethics/203057",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "and are both examples of based theories which are based on basic universal principles of right and wrong",
+            "content": "iii in developing a theory of right and wrong utilitarians begin by asking what if anything is good in and of itself something that is not",
+            "url": "https://ocw.mit.edu/courses/24-03-good-food-ethics-and-politics-of-food-spring-2017/7140ce8c933049452724b1bc75683ba3_MIT24_03S17_lec03.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "the degree to which corporate decisions policies activities and impacts are acknowledged and made visible to relevant stakeholders is known as",
+            "content": "corporate social responsibility csr or corporate social impact is a form of international private business selfregulation",
+            "url": "https://en.wikipedia.org/wiki/Corporate_social_responsibility",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "demand reduction",
+            "content": "demand reduction refers to efforts aimed at reducing the public desire for illegal and illicit drugs the drug policy is in contrast to the reduction of",
+            "url": "https://en.wikipedia.org/wiki/Demand_reduction",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "insider trading undermines the fiduciary relationship",
+            "content": "it can ruin a companys reputation and what they stand for it may also set a precedent that fosters a culture of corruption further it can",
+            "url": "https://www.wrightgreenhill.com/blog/2023/10/how-can-insider-trading-breach-fiduciary-duties/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what are the three differing types of stakeholder theory according to donaldson and preston 1995",
+            "content": "these three aspects of the theory although interrelated are quite distinct they involve different types of evidence and argument and have different",
+            "url": "https://www.jstor.org/stable/258887",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the complexity of the theory",
+            "content": "complexity theory implies approaches that focus on flatter more flexible organizations rather than topdown commandandcontrol styles of management",
+            "url": "https://en.wikipedia.org/wiki/Complexity_theory_and_organizations",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "there are two main issues associated with sizing is a key issue as due to the information policy of the corporation it can be argued that employees have a right to know if they are being made redundant is a second issue particularly the package that employees receive when laid off",
+            "content": "the procedure in which relevant information relating to a job and its management can know employees feelings b employee gets grievances",
+            "url": "https://www.jsscacs.edu.in/sites/default/files/Files/MCQ3.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "such as and are processes by which organisations implement environmental goals policies and responsibilities and ensure regular auditing and reporting which go beyond legal compliance",
+            "content": "csr is a business model that encourages companies to integrate social and environmental concerns into their business operations and decisionmaking processes",
+            "url": "https://www.sweep.net/insights/what-is-corporate-social-responsibility-csr-how-does-it-differ-from-esg",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "an is a framework which goes beyond linear functions operations and transactions to produce a certain commodity or product",
+            "content": "the legal framework see section 71 plays an important role in enabling transactions in the market and balancing the legal rights of buyers and sellers of",
+            "url": "https://climatecooperation.cn/wp-content/uploads/2022/03/Emissions-Trading-In-Practice-Second-Edition.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the right to has been a longstanding ethical concern for employees which today are addressed in most developed countries through a dense network of occupational health safety and environmental regulations companies must abide by",
+            "content": "academic defenders of sweatshops argue that disregarding labour rights will result in increased welfare in the developing nations where",
+            "url": "https://www.cambridge.org/core/journals/business-and-human-rights-journal/article/sweatshops-and-labour-law-the-ethical-and-legal-implications-of-ignoring-labour-law-in-developing-countries/CD6843AE4C95CA1755E5348530851175",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "businesses engage in social accounting due to demands from in order to identify to improve and to encourage and",
+            "content": "corporate social responsibility csr is a business model that helps a company be socially accountable to itself its stakeholders and the public",
+            "url": "https://www.investopedia.com/terms/c/corp-social-responsibility.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is any business effort to influence government or public policy it includes activities such as political advertising financial contributions action and political",
+            "content": "lobbying is a form of advocacy which lawfully attempts to directly influence legislators or government officials such as regulatory agencies or judiciary",
+            "url": "https://en.wikipedia.org/wiki/Lobbying",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "such as bitcoin are becoming increasingly mainstream and have a whole host of associated ethical implications for example they are and more however they have also been used to engage in",
+            "content": "some see crypto as a positive good and others see it as nogood a polarized debate about whether blockchain is merely a tool or a shaper of moral outcomes whether we should restrict the technology directly like pharmaceuticals or just regulate users based on what they do with it",
+            "url": "https://www.forbes.com/sites/georgecalhoun/2022/10/11/the-ethics-of-crypto-sorting-out-good-intentions-and-bad-actors/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "is the use of language of to mask or expose the ethical nature of decisions actions and behaviours",
+            "content": "step by step guidance on ethical decision making including identifying stakeholders getting the facts and applying classic ethical approaches",
+            "url": "https://www.scu.edu/ethics/ethics-resources/a-framework-for-ethical-decision-making/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "which of the following is not one the underlying principles of the corporate governance combined code of practice",
+            "content": "the framework for establishing good corporate governance and accountability was originally set up by the according to the private property defense of the classical model of corporate social responsibility managers who use corporate funds for projects that are not directly devoted to maximizing profits are stealing from their owners which statement supports this view which of these are key principles of the code",
+            "url": "https://mcqmate.com/discussion/180724/which-of-the-following-is-not-one-the-underlying-principles-of-the-corporate-governance-combined-code-of-practice",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "locate morality beyond the sphere of rationality in an emotional moral impulse towards others",
+            "content": "real life issues that need solutions do need both rationality and emotion to be sufficiently moral one uses rationality as a pathway to the ultimate decision but the environment and emotions towards the environment at the moment must be a factor for the result to be truly moral as morality",
+            "url": "https://en.wikipedia.org/wiki/Morality",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "typical advertising regulatory bodies suggest for example that adverts must not encourage cause unnecessary or and must not cause offence",
+            "content": "the views expressed are those of the commissioner and do not necessarily reflect those of the federal trade commission or any other commissioner",
+            "url": "https://www.ftc.gov/news-events/news/speeches/role-advertising-advertising-regulation-free-market",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "a stakeholder orientation includes all of the following activities except",
+            "content": "study ch 2 flashcards from foziyah sx27s class online or in brainscapex27s iphone or android app ✓ learn faster with spaced repetition",
+            "url": "https://www.brainscape.com/flashcards/ch-2-13387678/packs/21388538",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 33,
+            "query": "which of the following statements is correct",
+            "content": "use your right foot for both braking and accelerating you should apply the brakes gently with increasing pressure so that your vehicle stops gradually and smoothly 992 of people who use the cheat sheet pass the first time",
+            "url": "https://www.dmv-written-test.com/question/which-of-the-following-statements-is-correct_VzXzgxrl.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "the uk public services social value act 2013 requires those procuring to consider how they can secure wider and benefits",
+            "content": "an act to require public authorities to have regard to economic social and environmental wellbeing in connection with public services contracts and for connected purposes",
+            "url": "https://www.legislation.gov.uk/ukpga/2012/3",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "which of the three following organisational characteristics of small businesses tend to characterise their engagement with business related issues",
+            "content": "answer to which of the three following factors characterise public sector organisations engagement with ethical issues informal o",
+            "url": "https://www.chegg.com/homework-help/questions-and-answers/three-following-factors-characterise-public-sector-organisations-engagement-ethical-issues-q59957064",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "cognitive models such as the theory of serve to try and explain consumer behaviour but arguably somewhat oversimplify and overestimate individual",
+            "content": "in the area of company economy consumer behaviour and consumer attitudes to consumption and debt have been the subject of study ever since this discipline came into practice this publication is a result of an initial work that provides a",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10006455/",
+            "engine": "braveAPI"
+        }
+    ]
+}

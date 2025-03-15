@@ -1,0 +1,1823 @@
+{
+    "task": "bbh_zeroshot_web_of_lies",
+    "dataset": "web_access_web_of_lies_final",
+    "questions": 250,
+    "noWebContextCount": 0,
+    "contaminated_queries": 249,
+    "contaminated_urls": 850,
+    "valid_urls": 250,
+    "avg_contaminated_before_valid": 4.4,
+    "contaminated_data_ratio": 0.7727272727272727,
+    "most_contaminated_urls": {},
+    "noWebContext": [],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "question ka tells the truth fletcher says ka tells the truth maybelle says fletcher lies lorine says maybelle lies crista says lorine tells the truth does crista tell the truth",
+            "content": "question ka tells the truth fletcher says ka tells the truth maybelle says fletcher lies lorine says maybelle lies does crista tell the truth criteria",
+            "url": "https://gist.github.com/av/18cc8138a0acbe1b30f51e8bb19add90",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "question sherrie tells the truth vernell says sherrie tells the truth alexis says vernell lies michaela says alexis tells the truth elanor says michaela tells the truth does elanor tell the truth",
+            "content": "vernell says sherrie tells the truth alexis says vernell lies michaela says alexis tells the truth elanor says michaela tells the truth does elanor tell",
+            "url": "https://dataloop.ai/library/model/genezc_minima-3b/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "question sherrie tells the truth vernell says sherrie tells the truth alexis says vernell lies michaela says alexis tells the truth elanor says michaela tells the truth does elanor tell the truth",
+            "content": "vernell says sherrie tells the truth alexis says vernell lies michaela says alexis tells the truth elanor says michaela tells the truth does elanor tell",
+            "url": "https://opencsg.com/models/AIWizards/MiniMA-2-3B/commit/a7437704a819742a35761d71b2f37945793412e1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question kristian lies sherrie says kristian lies delbert says sherrie lies jerry says delbert tells the truth shalonda says jerry tells the truth does shalonda tell the truth",
+            "content": "sherrie says kristian lies delbert says sherrie lies jerry says delbert tells the truth shalonda says jerry tells the truth does shalonda tell the truth",
+            "url": "https://dataloop.ai/library/model/genezc_minima-2-3b/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "question kristian lies sherrie says kristian lies delbert says sherrie lies jerry says delbert tells the truth shalonda says jerry tells the truth does shalonda tell the truth",
+            "content": "sherrie says kristian lies delbert says sherrie lies jerry says delbert tells the truth shalonda says jerry tells the truth does shalonda tell the truth",
+            "url": "https://opencsg.com/models/AIWizards/MiniMA-2-3B/commit/a7437704a819742a35761d71b2f37945793412e1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question vina tells the truth helene says vina lies kandi says helene tells the truth jamey says kandi lies ka says jamey lies does ka tell the truth",
+            "content": "truthnanswer nonnquestion vina tells the truth helene says vina lies kandi says helene tells the truth jamey says kandi lies ka says jamey lies",
+            "url": "https://opencsg.com/models/AIWizards/MiniMA-2-3B/commit/a7437704a819742a35761d71b2f37945793412e1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "question christie tells the truth ka says christie tells the truth delbert says ka lies leda says delbert tells the truth lorine says leda tells the truth does lorine tell the truth",
+            "content": "ka says christie tells the truth delbert says ka lies leda says delbert tells the truth lorine says leda tells the truth does lorine tell the truthnanswer",
+            "url": "https://opencsg.com/models/AIWizards/MiniMA-2-3B/commit/a7437704a819742a35761d71b2f37945793412e1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "question vernell tells the truth fidel says vernell tells the truth amberly says fidel lies lorine says amberly lies elanor says lorine lies does elanor tell the truth",
+            "content": "amberly says fidel lies lorine says amberly lies elanor says lorine lies does elanor tell the truth criteria correctness the answer is no",
+            "url": "https://gist.github.com/av/18cc8138a0acbe1b30f51e8bb19add90",
+            "engine": "google"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 3,
+            "query": "question delfina tells the truth willian says delfina tells the truth crista says willian lies shalonda says crista lies shenna says shalonda tells the truth does shenna tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "question millicent lies shenna says millicent lies willian says shenna tells the truth kandi says willian lies vernell says kandi lies does vernell tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question osvaldo lies ryan says osvaldo lies andree says ryan tells the truth rashida says andree tells the truth millie says rashida tells the truth does millie tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "question antwan tells the truth jaymie says antwan tells the truth maybelle says jaymie tells the truth alexis says maybelle lies millicent says alexis lies does millicent tell the truth",
+            "content": "did i ever tell you how lucky you are seuss dr 35 05 doctora judy moody mcdonald megan 35 2 down comes the rain branley franklyn m 35 05",
+            "url": "https://monteschools.squarespace.com/s/Beacon-AR-List-book-level.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question fletcher lies jerry says fletcher lies raymond says jerry lies conception says raymond lies amberly says conception tells the truth does amberly tell the truth",
+            "content": "childrens teenage true stories told as fiction 5 childrens teenage literature studies general 1 childrens activity books hidden object 37",
+            "url": "https://archwaybookshop.co.uk/index.php/product-tag/true-stories-childrens-teenage/page/2/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question fletcher lies tamika says fletcher tells the truth ka says tamika lies sima says ka tells the truth ryan says sima tells the truth does ryan tell the truth",
+            "content": "elements of analytical geometry and of the differential and integral calculusgerardus beekman docharty orafiy 2024 elements of analytical geometry",
+            "url": "https://marine.copernicus.eu/marine-paragraph/iframe-render/https%3A%7C%7Cgorodvp.ru%7Cjlqiyenbdpzzfe46j",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question millie tells the truth millicent says millie lies phoebe says millicent tells the truth sherrie says phoebe lies raymond says sherrie tells the truth does raymond tell the truth",
+            "content": "reading practice quizzes int book point fiction id title author level level value language nonfiction 61130 100 school days anne rockwell",
+            "url": "https://www.galenaparkisd.com/cms/lib/TX02217083/Centricity/Domain/1308/RPQuizList.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question andree lies amberly says andree tells the truth gwenn says amberly tells the truth willian says gwenn lies alexis says willian tells the truth does alexis tell the truth",
+            "content": "a scholarly book exploring the experiences of war for women in a wide range of countries is robin chandler linda k fuller and lihua wang eds women war and",
+            "url": "https://www.degruyter.com/document/doi/10.1525/9780520397682-014/pdf?licenseType=restricted&srsltid=AfmBOoo8_D1yauy2LsG2_VnoWHbk6aM4sYOYfNDwXvpS2mn4mmcybDD_",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "question jamey tells the truth delfina says jamey lies vina says delfina tells the truth teressa says vina tells the truth conception says teressa lies does conception tell the truth",
+            "content": "the abstract book is ordered by session numbers which were allocated during the session submission ie the number sequence is discon",
+            "url": "https://textileseals.uw.edu.pl/wp-content/uploads/2020/08/EAA2020virtual_Abstract-Book_19-August.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question ka lies lorine says ka tells the truth sal says lorine lies amberly says sal lies conception says amberly lies does conception tell the truth",
+            "content": "3 he told halftruth when saying that augustine will ingly walked away from manichaeism instead of having been forced by the roman emperor under threat of",
+            "url": "https://0432788d23.clvaw-cdnwnd.com/59415ae452624e63809f7a1af7826c70/200007389-997f3997f5/250128_DISCERNMENT_LIST_package.pdf?ph=0432788d23",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "question vina tells the truth alejandro says vina lies maybelle says alejandro tells the truth millicent says maybelle lies elanor says millicent tells the truth does elanor tell the truth",
+            "content": "vina tells the truth so alejandro is lying maybelle says alejandro tells the truth but alejandro is lying so maybelle is lying millicent says",
+            "url": "https://dev.datascienceassn.org/sites/default/files/pdf_files/LogicPro%20Improving%20Complex%20Logical%20Reasoning%20via%20Program-Guided%20Learning.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question ka lies rashida says ka tells the truth sherrie says rashida tells the truth tamika says sherrie tells the truth elanor says tamika tells the truth does elanor tell the truth",
+            "content": "doesdoeskindoesndoesntdoestdoethdofdofedoffdofollowdogdogapossdogedogendogfightdogfightingdogfishdoggdoggeddoggedlydoggettdoggie",
+            "url": "https://snap.berkeley.edu/project/11166188",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "question jerry lies helene says jerry lies alexis says helene tells the truth sherrie says alexis tells the truth michael says sherrie tells the truth does michael tell the truth",
+            "content": "when he returns to the sanctuary dwight lies to negan that he saw sherry being devoured by walkers so that negan would stop looking for her he later frames",
+            "url": "https://walkingdead.fandom.com/wiki/Sherry_(TV_Universe)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question jamey tells the truth raymond says jamey lies audrie says raymond lies michaela says audrie lies rashida says michaela lies does rashida tell the truth",
+            "content": "hes most famous as the star of the cbs sitcom everybody loves raymond one of the most successful recent examples of the oldfashioned multicamera tv",
+            "url": "https://norcalpublicmedia.org/fresh-air/ray-romano-on-fame-and-finding-his-bearings-after-raymond-wrapped",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question yoland tells the truth michaela says yoland tells the truth sima says michaela tells the truth shaunda says sima tells the truth osvaldo says shaunda lies does osvaldo tell the truth",
+            "content": "is there remove the item but keep the slot ifcharequipslotid charequipslotidnull return true else item does not match a known slot",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question delfina tells the truth fidel says delfina tells the truth helene says fidel lies crista says helene lies ka says crista lies does ka tell the truth",
+            "content": "wednesday 25 november 5 sessions 0800 0855 registration opens 0855 0900 welcome chair senthil senniappan please see cme programme",
+            "url": "https://www.endocrine-abstracts.org/ea/0039/programme/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question kristian lies millie says kristian lies amberly says millie lies osvaldo says amberly tells the truth kandi says osvaldo tells the truth does kandi tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "question shaunda lies andree says shaunda tells the truth jaymie says andree lies inga says jaymie lies millicent says inga tells the truth does millicent tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question inga tells the truth shenna says inga lies rashida says shenna tells the truth ka says rashida tells the truth shalonda says ka tells the truth does shalonda tell the truth",
+            "content": "toolbar will then look just like the outlook toolbar pc datasheet your resource for help with access excel and word applications resopcdatasheetcom",
+            "url": "https://groups.google.com/g/comp.databases.ms-access/c/3owxiU9YUsk",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question bernita tells the truth michael says bernita tells the truth fidel says michael lies dallas says fidel tells the truth millicent says dallas lies does millicent tell the truth",
+            "content": "is there remove the item but keep the slot ifcharequipslotid charequipslotidnull return true else item does not match a known slot",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question phoebe tells the truth helene says phoebe lies sima says helene lies alejandro says sima tells the truth michaela says alejandro lies does michaela tell the truth",
+            "content": "with this epigrammatic affirmation reintegrating mimesis in the complex ge nealogy of homo sapiens the transdisciplinary thinker edgar morin 1921",
+            "url": "https://philpapers.org/archive/LAWHMI.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question jerry tells the truth raymond says jerry tells the truth yoland says raymond tells the truth elanor says yoland tells the truth jamey says elanor lies does jamey tell the truth",
+            "content": "the por trayal of the child in medieval literature is often as idealized as the portrayal of women and like the conventional portraits of woman in medieval",
+            "url": "https://www.jstor.org/stable/1347355",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "question shaunda tells the truth conception says shaunda lies shenna says conception lies delbert says shenna lies jerry says delbert tells the truth does jerry tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question antwan tells the truth audrie says antwan tells the truth inga says audrie lies shenna says inga tells the truth christie says shenna lies does christie tell the truth",
+            "content": "a competent translator will tweak it to say making up a story to hide the truth roy chowdhurys poems are culturally rich and they",
+            "url": "https://www.asymptotejournal.com/blog/2025/01/20/a-paradoxical-man-of-letters-in-conversation-with-kiriti-sengupta/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question fidel tells the truth tamika says fidel lies shenna says tamika lies audrie says shenna lies jim says audrie tells the truth does jim tell the truth",
+            "content": "we are a worker cooperative radical bookstore cafe and community events space in baltimore",
+            "url": "https://redemmas.org/categories/17-feminism-and-women-s-studies/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "question osvaldo tells the truth andree says osvaldo tells the truth willian says andree lies vina says willian tells the truth jaymie says vina tells the truth does jaymie tell the truth",
+            "content": "the historical record does not tell us whether these workers were taught the song by cio organizers or whether they adapted it from their own religious",
+            "url": "https://library.oapen.org/bitstream/handle/20.500.12657/30051/1/650048.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question conception lies rashida says conception tells the truth alejandro says rashida tells the truth sherrie says alejandro lies amberly says sherrie tells the truth does amberly tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question jim lies yoland says jim lies willian says yoland tells the truth delbert says willian lies shalonda says delbert tells the truth does shalonda tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question willian lies raymond says willian tells the truth rashida says raymond lies gwenn says rashida lies ka says gwenn lies does ka tell the truth",
+            "content": "the 2013 comparative education review bibliography of refereed journal articles on topics relevant to comparative and international education covers all 12",
+            "url": "https://www.jstor.org/stable/10.1086/677294",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question rashida lies fletcher says rashida lies antwan says fletcher lies willian says antwan tells the truth vina says willian tells the truth does vina tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question amberly lies shenna says amberly tells the truth willian says shenna tells the truth raymond says willian lies sal says raymond lies does sal tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "question fletcher tells the truth ka says fletcher tells the truth elanor says ka lies vernell says elanor lies delfina says vernell tells the truth does delfina tell the truth",
+            "content": "where this book is distributed in the uk europe and the rest of the world this is by palgrave macmillan a division of macmillan publishers limited",
+            "url": "https://link.springer.com/content/pdf/10.1007%2F978-0-230-10216-3.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question sima tells the truth teressa says sima tells the truth vina says teressa lies crista says vina lies phoebe says crista tells the truth does phoebe tell the truth",
+            "content": "tell and son inc hayashida architects the executive learning lab does architecture cheese steak on clay smithverse holdings llc",
+            "url": "https://data.sfgov.org/api/views/wr8i-kpa5/rows.csv?accessType=DOWNLOAD&bom=true&format=true&wGruc7C9f=w2QEfO&WGyoT=qZMk7QGS27W",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question helene tells the truth raymond says helene lies andree says raymond tells the truth michael says andree tells the truth amberly says michael tells the truth does amberly tell the truth",
+            "content": "but at the core of the problem is the psychological truth that time as such is unbearable any possible conception of time must be depressing for any",
+            "url": "https://repozytorium.uwb.edu.pl/jspui/bitstream/11320/11858/1/G_Moroz_Recontextualising_Huxley.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question jerry tells the truth jaymie says jerry tells the truth elanor says jaymie tells the truth helene says elanor tells the truth sherrie says helene tells the truth does sherrie tell the truth",
+            "content": "this project has been funded at least in part with federal funds from the us department of education under contract number ed01co0013",
+            "url": "https://scispace.com/pdf/tapestry-of-tales-stories-of-self-family-and-community-48dp9o8n5v.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question teressa lies michael says teressa tells the truth fidel says michael tells the truth leda says fidel lies lorine says leda lies does lorine tell the truth",
+            "content": "michael fulltext duke university press monograph 2009 2009 p available words in motion toward a global lexicon 9780822345367 9780822391104",
+            "url": "https://assets-us-01.kc-usercontent.com/f7ca9afb-82c2-002a-a423-84e111d5b498/82e48ed6-34e0-437a-9c78-352539022134/DukeUniversityPress_Global_eDukeBooksAllTitles_20250303.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question andree tells the truth audrie says andree tells the truth jerry says audrie lies helene says jerry lies bernita says helene tells the truth does bernita tell the truth",
+            "content": "question classic reprintrussian liberation committee ito jinsais gomo jigi and the philosophical definition of early modern japan",
+            "url": "https://www.athle.fr/asp.net/main.pdf/pdf.aspx?path=https://xn--80aafff7ahwbdaxs9f.xn--p1ai/1659740328affe88vj",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question leda tells the truth shalonda says leda lies shenna says shalonda tells the truth christie says shenna lies crista says christie tells the truth does crista tell the truth",
+            "content": "is there remove the item but keep the slot ifcharequipslotid charequipslotidnull return true else item does not match a known slot",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question teressa tells the truth vernell says teressa lies sherrie says vernell tells the truth tamika says sherrie lies millicent says tamika tells the truth does millicent tell the truth",
+            "content": "johnson c smith university has prevailed during one of the most trying times in recent history our mission is to provide an affordable",
+            "url": "https://www.jcsu.edu/sites/default/files/2023-01/Binder1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question elanor lies millicent says elanor tells the truth millie says millicent lies michaela says millie tells the truth kandi says michaela lies does kandi tell the truth",
+            "content": "75796 en 100 days of cool murphy stuart j 26 05 57450 en 100 days of school harris trudy 23 05 64468 en 100 monsters in my school",
+            "url": "https://www.mylakelibrary.org/virtual_library/arlistdocs/28_Bytitle.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "question jamey tells the truth michael says jamey lies sherrie says michael lies bernita says sherrie lies amberly says bernita tells the truth does amberly tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question jerry lies kandi says jerry lies fletcher says kandi lies ryan says fletcher lies delfina says ryan lies does delfina tell the truth",
+            "content": "euler project 150 in a cool ruby dsl github gist instantly share code notes and snippets",
+            "url": "https://gist.github.com/946501/90c5ec9d9c89b7b66249dcebcbe6350ce0ae0cd3",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question willian lies inga says willian tells the truth fidel says inga lies gwenn says fidel tells the truth crista says gwenn tells the truth does crista tell the truth",
+            "content": "nonfictions is dedicated to expanding and deepening the range of contemporary documentary studies it aims to engage in the theoretical conversation about",
+            "url": "https://cdn.oujdalibrary.com/books/723/723-the-essay-film-dialogue-politics-utopia-(www.tawcer.com).pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question kandi tells the truth alejandro says kandi tells the truth millicent says alejandro lies shalonda says millicent lies conception says shalonda lies does conception tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question jamey lies michaela says jamey tells the truth millicent says michaela lies elanor says millicent tells the truth rashida says elanor lies does rashida tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question willian tells the truth crista says willian tells the truth vina says crista lies fidel says vina lies fletcher says fidel lies does fletcher tell the truth",
+            "content": "we have a chance to show solidarity with cuba and help the cuban people in their fight against coronavirus at home and abroad",
+            "url": "https://cuba-solidarity.org.uk/end-the-blockade/messages/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question millicent tells the truth ka says millicent tells the truth conception says ka lies sal says conception lies tamika says sal lies does tamika tell the truth",
+            "content": "question the de goldi kate 830 54 18 72103 fiction 10 smartest animals the downey glen 900 62 6 8148 nonfiction 10 1",
+            "url": "https://bpb-us-w2.wpmucdn.com/blogs.egusd.net/dist/d/377/files/2014/08/Scholastic_-List-of-Selected-Quizzes-189srj3.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question antwan tells the truth elanor says antwan tells the truth bernita says elanor tells the truth osvaldo says bernita lies christie says osvaldo tells the truth does christie tell the truth",
+            "content": "is there remove the item but keep the slot ifcharequipslotid charequipslotidnull return true else item does not match a known slot",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question fidel lies fletcher says fidel tells the truth yoland says fletcher lies raymond says yoland lies leda says raymond lies does leda tell the truth",
+            "content": "truth memory and representation 9780822344056 9780822392361 httpdoiorg1012159780822392361 hinton alexander fulltext duke",
+            "url": "https://assets-us-01.kc-usercontent.com/f7ca9afb-82c2-002a-a423-84e111d5b498/82e48ed6-34e0-437a-9c78-352539022134/DukeUniversityPress_Global_eDukeBooksAllTitles_20250303.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question conception tells the truth teressa says conception lies sal says teressa tells the truth fidel says sal tells the truth shenna says fidel lies does shenna tell the truth",
+            "content": "his research focuses on formations of power affect and citizenship in brazil sexual and transgender politics urban governmentality and relations of",
+            "url": "https://library.oapen.org/bitstream/handle/20.500.12657/47123/1/ts4751_1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question vernell lies michael says vernell lies dallas says michael lies shalonda says dallas tells the truth jamey says shalonda lies does jamey tell the truth",
+            "content": "johnson c smith university has prevailed during one of the most trying times in recent history our mission is to provide an affordable",
+            "url": "https://www.jcsu.edu/sites/default/files/2023-01/Binder1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question jerry tells the truth yoland says jerry lies tamika says yoland tells the truth alexis says tamika tells the truth ryan says alexis tells the truth does ryan tell the truth",
+            "content": "im not saying that everyone with traction alopecia should go natural but you should certainly not dismiss the idea without fair consideration",
+            "url": "https://blackhairinformation.com/general-articles/opinion/lessons-to-be-learned-from-naomi-campbells-hairline/2/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question shaunda tells the truth jim says shaunda lies alexis says jim lies phoebe says alexis tells the truth sherrie says phoebe tells the truth does sherrie tell the truth",
+            "content": "dealing honestly wisely and compassionately with human pain is an integral part of our job description as followers of jesus christ",
+            "url": "https://shereadstruth.com/trust-when-all-seems-lost/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question shaunda tells the truth phoebe says shaunda tells the truth ryan says phoebe tells the truth christie says ryan tells the truth vina says christie tells the truth does vina tell the truth",
+            "content": "tell see someone go too bad any actually long around only mean anything little pretty let other say hope even friend after talk maybe new probably thanks",
+            "url": "https://osf.io/mepkc/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question ka lies christie says ka tells the truth jerry says christie lies crista says jerry lies yoland says crista tells the truth does yoland tell the truth",
+            "content": "truth telling leadership challenges for servant leadersjohn j sullivan lies i toldmichelle zink new poemswilliam watson adware spyware",
+            "url": "https://marine.copernicus.eu/marine-paragraph/iframe-render/https%3A%7C%7Cgorodvp.ru%7Cfvwksrtmazfe85m",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question millicent tells the truth millie says millicent tells the truth michael says millie tells the truth antwan says michael lies alexis says antwan tells the truth does alexis tell the truth",
+            "content": "millicent garrett fawcett selected writings invites the reader to delve into the life and passions of this great suffragist leader millicent fawcett",
+            "url": "https://library.oapen.org/bitstream/20.500.12657/57811/1/9781787358638.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question lorine tells the truth michaela says lorine lies millicent says michaela tells the truth fletcher says millicent tells the truth shaunda says fletcher tells the truth does shaunda tell the truth",
+            "content": "the series focuses on murders committed by women it is hosted by former fbi criminal profiler candice delong and narrated by lynnanne zager",
+            "url": "https://en.wikipedia.org/wiki/Deadly_Women",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question shaunda lies fletcher says shaunda lies jaymie says fletcher lies millie says jaymie lies gwenn says millie tells the truth does gwenn tell the truth",
+            "content": "this proposed special session aims to explore the latest developments in data analysis challenges and opportunities in ai across diverse domains",
+            "url": "https://jointmathematicsmeetings.org/meetings/national/jmm2025/2314_progfull.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question inga tells the truth elanor says inga lies millicent says elanor tells the truth willian says millicent tells the truth alejandro says willian tells the truth does alejandro tell the truth",
+            "content": "reading practice quizzes int book point fiction id title author level level value language nonfiction 61130 100 school days anne rockwell",
+            "url": "https://www.galenaparkisd.com/cms/lib/TX02217083/Centricity/Domain/1308/RPQuizList.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question tamika tells the truth ka says tamika tells the truth fidel says ka tells the truth elanor says fidel tells the truth amberly says elanor tells the truth does amberly tell the truth",
+            "content": "exploring identity through picture books and truthtelling stories examining and embracing ourselves speakers joshua cabat sovandara chhin birch lane",
+            "url": "https://s1.goeshow.com/ncte/annual/2023/conference_program_sessions.cfm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question ryan tells the truth helene says ryan tells the truth kandi says helene tells the truth inga says kandi tells the truth delbert says inga lies does delbert tell the truth",
+            "content": "title artist 22 taylor swift another love xx tom odell aplin home gabrielle applause lady gaga art of letting go mariah carey atlas coldplay",
+            "url": "https://gogoodfellow.com/wp-content/uploads/2024/03/Karaoke-Song-List-by-Song-Title.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "question jim tells the truth ryan says jim tells the truth millicent says ryan tells the truth audrie says millicent tells the truth elanor says audrie tells the truth does elanor tell the truth",
+            "content": "maleficent is the main antagonist of disneys 1959 animated feature film sleeping beauty a malevolent fairy she is an incarnation of pure evil and is",
+            "url": "https://disney.fandom.com/wiki/Maleficent",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question sima tells the truth jerry says sima tells the truth sal says jerry lies inga says sal lies willian says inga lies does willian tell the truth",
+            "content": "title author the mount rushmore calamity macky pamintuan funny animals rita golden gelman room on the broom julia donaldson",
+            "url": "https://www.dcstn.org/Downloads/CENT%20Classroom%20Library%20List.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question millicent lies ka says millicent lies sima says ka tells the truth dallas says sima tells the truth jamey says dallas lies does jamey tell the truth",
+            "content": "james naremore editor 230 pp 27 b w illus paper 1500 cloth 4000 at your local bookstore or 8004469323 visa or mastercard a question of",
+            "url": "https://www.jstor.org/stable/pdf/462928.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question alexis tells the truth amberly says alexis tells the truth andree says amberly tells the truth vina says andree tells the truth helene says vina tells the truth does helene tell the truth",
+            "content": "an investigation into the british governments efforts to muster civilian womens support for british soldiers during the british military involve ment in both",
+            "url": "https://www.degruyter.com/document/doi/10.1525/9780520397682-014/pdf?licenseType=restricted&srsltid=AfmBOoqXw7ooPvc2R48KAj8Mrxrqk00KCayhPNCM4ihio8yBHxYLEc16",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question ka lies andree says ka tells the truth audrie says andree lies antwan says audrie tells the truth millie says antwan tells the truth does millie tell the truth",
+            "content": "reading practice quizzes int book point fiction quiz no title author level level value language nonfiction 1199 abraham lincoln",
+            "url": "https://www.fidelitybanknc.com/wp-content/uploads/2014/04/AR_Author_Quizzes.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question jerry lies helene says jerry lies kandi says helene tells the truth jaymie says kandi lies shalonda says jaymie lies does shalonda tell the truth",
+            "content": "the best western plaza inn is ideally located in the center of pigeon forge come and experience our hotel near the major tourist attractions",
+            "url": "https://www.bestwestern.fr/en/hotel-Pigeon-Forge-Best-Western-Plaza-Inn-43029",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question jaymie lies christie says jaymie tells the truth alejandro says christie lies gwenn says alejandro tells the truth sal says gwenn lies does sal tell the truth",
+            "content": "addressing the attribution of birth of merlin to shakespeare argues that the nature of the imitation between the play and king lear as well as the credibility",
+            "url": "https://www.jstor.org/stable/pdf/3648719.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question jerry lies gwenn says jerry lies fidel says gwenn lies millicent says fidel tells the truth lorine says millicent tells the truth does lorine tell the truth",
+            "content": "instead of admitting there is a problem our civic leaders they will destroy a reputation by spreading vicious lies and damaging rumors",
+            "url": "https://www.prayerrequest.com/threads/dear-brothers-and-sisters-in-christ-please-pray-for.3568979/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question christie lies amberly says christie tells the truth bernita says amberly tells the truth kristian says bernita lies delfina says kristian lies does delfina tell the truth",
+            "content": "toolbar will then look just like the outlook toolbar pc datasheet your resource for help with access excel and word applications resopcdatasheetcom",
+            "url": "https://groups.google.com/g/comp.databases.ms-access/c/3owxiU9YUsk",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question sherrie lies elanor says sherrie tells the truth michael says elanor tells the truth sima says michael tells the truth shaunda says sima lies does shaunda tell the truth",
+            "content": "this proposed special session aims to explore the latest developments in data analysis challenges and opportunities in ai across diverse domains",
+            "url": "https://jointmathematicsmeetings.org/meetings/national/jmm2025/2314_progfull.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question ryan lies christie says ryan lies amberly says christie tells the truth shenna says amberly tells the truth jamey says shenna lies does jamey tell the truth",
+            "content": "sheena allen is a visionary entrepreneur soughtafter keynote speaker author and creative architect who has transformed the intersection of technology",
+            "url": "https://www.gravityspeakers.com/gravitys-exclusive",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question elanor lies dallas says elanor tells the truth fletcher says dallas lies jamey says fletcher tells the truth delfina says jamey lies does delfina tell the truth",
+            "content": "as all of you who have been following the newswhether in oldfashioned news papers as i do or on some electronic device know many colleges founded",
+            "url": "https://supremecourthistory.org/wp-content/uploads/2025/02/Volume-43-Number-3-2018.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question willian tells the truth shalonda says willian tells the truth helene says shalonda tells the truth millicent says helene lies andree says millicent lies does andree tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question christie tells the truth fidel says christie lies jerry says fidel tells the truth maybelle says jerry lies delfina says maybelle tells the truth does delfina tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "question gwenn lies maybelle says gwenn tells the truth raymond says maybelle tells the truth jamey says raymond tells the truth andree says jamey lies does andree tell the truth",
+            "content": "episode 164 of a history of rock music in five hundred songs looks at white lightwhite heat and the career of the velvet underground",
+            "url": "https://500songs.com/podcast/episode-164-white-light-white-heat-by-the-velvet-underground/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question shalonda tells the truth alexis says shalonda tells the truth christie says alexis lies inga says christie tells the truth crista says inga tells the truth does crista tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question tamika tells the truth sima says tamika tells the truth rashida says sima lies delfina says rashida lies jerry says delfina lies does jerry tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question michael lies leda says michael lies delbert says leda tells the truth tamika says delbert tells the truth fidel says tamika lies does fidel tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question millie lies jaymie says millie tells the truth jamey says jaymie tells the truth sal says jamey lies christie says sal lies does christie tell the truth",
+            "content": "1 carl and the passions changed band name to what beach boys 2 how many rings on the olympic flag five 3 what colour is vermilion a shade of",
+            "url": "https://www.scoutingpolaris.nl/downloads/spellen/10.000vragen.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question leda lies fidel says leda lies crista says fidel tells the truth ka says crista lies jim says ka tells the truth does jim tell the truth",
+            "content": "3 random samples commodity culture and reality in margaret atwoods fiction garry m leonard univ",
+            "url": "https://www.jstor.org/stable/pdf/462748.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question tamika lies conception says tamika tells the truth kristian says conception lies alejandro says kristian tells the truth shaunda says alejandro lies does shaunda tell the truth",
+            "content": "dear howanl family i am truly proud of what we have accomplished in the 20042005 bison yearbook it was both a privilege and an honor to contribute to a",
+            "url": "https://core.ac.uk/download/234737830.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question kristian tells the truth dallas says kristian tells the truth osvaldo says dallas lies millie says osvaldo tells the truth vina says millie tells the truth does vina tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question alejandro tells the truth shenna says alejandro tells the truth christie says shenna tells the truth shalonda says christie lies jerry says shalonda lies does jerry tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question ryan tells the truth amberly says ryan tells the truth kristian says amberly lies bernita says kristian lies alejandro says bernita tells the truth does alejandro tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "question sima lies maybelle says sima tells the truth audrie says maybelle lies leda says audrie tells the truth shaunda says leda lies does shaunda tell the truth",
+            "content": "is there remove the item but keep the slot ifcharequipslotid charequipslotidnull return true else item does not match a known slot",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question kandi tells the truth ryan says kandi lies michaela says ryan tells the truth sima says michaela lies andree says sima tells the truth does andree tell the truth",
+            "content": "i began by saying that i was reluctant to generalize across a very diverse student body with a dazzling array of talents princeton students",
+            "url": "https://paw.princeton.edu/sites/default/files/pdf/Sept2022_issue_noCNs.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question ka tells the truth fletcher says ka tells the truth maybelle says fletcher lies lorine says maybelle lies crista says lorine tells the truth does crista tell the truth",
+            "content": "bloomability creech sharon 52 70 461 en blossom promise a byars betsy 41 40 306 en blossoms and the green phantom the byars betsy",
+            "url": "https://www.nellholcomb.k12.mo.us/pages/uploaded_files/QuizInfo8-6-10.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "question leda tells the truth vina says leda lies delfina says vina tells the truth alejandro says delfina lies shaunda says alejandro tells the truth does shaunda tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question shalonda lies crista says shalonda tells the truth yoland says crista tells the truth ka says yoland tells the truth michaela says ka lies does michaela tell the truth",
+            "content": "i know about creating custom toolbars but how do i put the outlook icons on the access toolbars is there a place to find them i couldnt find them in",
+            "url": "https://groups.google.com/g/comp.databases.ms-access/c/3owxiU9YUsk",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question leda lies millicent says leda tells the truth rashida says millicent lies maybelle says rashida tells the truth shaunda says maybelle lies does shaunda tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question helene lies delfina says helene lies christie says delfina tells the truth jerry says christie lies tamika says jerry tells the truth does tamika tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question fidel tells the truth kandi says fidel lies christie says kandi tells the truth leda says christie lies sima says leda lies does sima tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "question christie tells the truth jamey says christie tells the truth michael says jamey lies rashida says michael tells the truth teressa says rashida tells the truth does teressa tell the truth",
+            "content": "first pin down everything you can remember about the book plot character names time period in which the book may have been published genre etc",
+            "url": "https://live-legacy-admin.nypl.org/blog/2017/11/22/finding-book-forgotten-title?page=17",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question osvaldo lies phoebe says osvaldo lies kandi says phoebe tells the truth crista says kandi tells the truth delbert says crista lies does delbert tell the truth",
+            "content": "the third question helps you know whether the author is right or misere or we should instead ask ourselves is what william lane craig saying true",
+            "url": "http://thanhlapcongtykiengiang.com/upload/ck/files/72979803080.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question vernell tells the truth rashida says vernell lies christie says rashida tells the truth sherrie says christie tells the truth jim says sherrie lies does jim tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question vernell lies conception says vernell lies kandi says conception lies michael says kandi tells the truth osvaldo says michael tells the truth does osvaldo tell the truth",
+            "content": "the comfort of these sheets will have you cominng back theyre softer than egyptian cotton and organic cotton sheets best for any room in your house bedroom",
+            "url": "http://www.zs-strzyzow.itl.pl/index.php?html=news&id=2d640e551d&cId=2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question fletcher tells the truth alexis says fletcher lies jerry says alexis lies elanor says jerry tells the truth jim says elanor lies does jim tell the truth",
+            "content": "75796 en 100 days of cool murphy stuart j 26 05 57450 en 100 days of school harris trudy 23 05 64468 en 100 monsters in my school",
+            "url": "https://www.mylakelibrary.org/virtual_library/arlistdocs/28_Bytitle.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "question raymond tells the truth sal says raymond lies alexis says sal lies helene says alexis lies elanor says helene lies does elanor tell the truth",
+            "content": "the routledge handbook of trans literature examines the intersection of transgender studies and literary studies bringing together essays from global",
+            "url": "https://share.swps.edu.pl/bitstreams/e1259d0a-8fdd-4d7f-a0bd-ee12b152b26f/download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "question delbert tells the truth delfina says delbert lies antwan says delfina tells the truth helene says antwan lies sima says helene lies does sima tell the truth",
+            "content": "is there remove the item but keep the slot ifcharequipslotid charequipslotidnull return true else item does not match a known slot",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "question andree lies delfina says andree lies jim says delfina tells the truth gwenn says jim lies delbert says gwenn lies does delbert tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question maybelle tells the truth antwan says maybelle tells the truth audrie says antwan tells the truth ryan says audrie lies delfina says ryan lies does delfina tell the truth",
+            "content": "is there remove the item but keep the slot ifcharequipslotid charequipslotidnull return true else item does not match a known slot",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question rashida lies osvaldo says rashida tells the truth sherrie says osvaldo tells the truth gwenn says sherrie tells the truth jerry says gwenn lies does jerry tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question conception lies shenna says conception tells the truth maybelle says shenna tells the truth michael says maybelle lies amberly says michael lies does amberly tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "question jamey lies vernell says jamey tells the truth millicent says vernell lies rashida says millicent tells the truth vina says rashida tells the truth does vina tell the truth",
+            "content": "is there remove the item but keep the slot ifcharequipslotid charequipslotidnull return true else item does not match a known slot",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question rashida lies ryan says rashida tells the truth vernell says ryan tells the truth shaunda says vernell lies amberly says shaunda lies does amberly tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "question bernita lies jerry says bernita tells the truth delbert says jerry lies jamey says delbert tells the truth shenna says jamey lies does shenna tell the truth",
+            "content": "is there remove the item but keep the slot ifcharequipslotid charequipslotidnull return true else item does not match a known slot",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question shaunda lies elanor says shaunda lies fidel says elanor tells the truth lorine says fidel tells the truth raymond says lorine lies does raymond tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question millicent lies lorine says millicent lies rashida says lorine lies sima says rashida lies phoebe says sima tells the truth does phoebe tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question shaunda tells the truth delbert says shaunda tells the truth bernita says delbert lies yoland says bernita tells the truth christie says yoland tells the truth does christie tell the truth",
+            "content": "is there remove the item but keep the slot ifcharequipslotid charequipslotidnull return true else item does not match a known slot",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "question sherrie tells the truth ryan says sherrie lies bernita says ryan tells the truth tamika says bernita lies jerry says tamika lies does jerry tell the truth",
+            "content": "i know about creating custom toolbars but how do i put the outlook icons on the access toolbars is there a place to find them i couldnt find them in",
+            "url": "https://groups.google.com/g/comp.databases.ms-access/c/3owxiU9YUsk",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question ryan tells the truth sal says ryan tells the truth leda says sal tells the truth rashida says leda tells the truth alejandro says rashida tells the truth does alejandro tell the truth",
+            "content": "is there remove the item but keep the slot ifcharequipslotid charequipslotidnull return true else item does not match a known slot",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question maybelle tells the truth bernita says maybelle tells the truth inga says bernita tells the truth tamika says inga lies helene says tamika tells the truth does helene tell the truth",
+            "content": "the outlook toolbar wont work in access but what you can do is create a custom access toolbar with the buttons you want to give you the functionality you want",
+            "url": "https://groups.google.com/g/comp.databases.ms-access/c/3owxiU9YUsk",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question andree lies jamey says andree lies shaunda says jamey lies delfina says shaunda lies christie says delfina lies does christie tell the truth",
+            "content": "euler project 150 in a cool ruby dsl github gist instantly share code notes and snippets",
+            "url": "https://gist.github.com/946501/90c5ec9d9c89b7b66249dcebcbe6350ce0ae0cd3",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question bernita tells the truth ka says bernita lies yoland says ka lies gwenn says yoland lies fidel says gwenn lies does fidel tell the truth",
+            "content": "bernitam bernoulli bernstein bernym berram berrim berriem berry bertm bertam bertem bertelsmannm bertham berthem bertim bertiem bertillonm",
+            "url": "https://dendro.cornell.edu/svn/corina/branches/oldtrunk/native/linux/xulrunner/dictionaries/en-US.dic",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question bernita tells the truth audrie says bernita lies millie says audrie tells the truth kandi says millie lies fletcher says kandi tells the truth does fletcher tell the truth",
+            "content": "is there remove the item but keep the slot ifcharequipslotid charequipslotidnull return true else item does not match a known slot",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question kristian tells the truth jamey says kristian tells the truth millicent says jamey lies fidel says millicent lies tamika says fidel lies does tamika tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "question sherrie tells the truth vernell says sherrie tells the truth alexis says vernell lies michaela says alexis tells the truth elanor says michaela tells the truth does elanor tell the truth",
+            "content": "toolbar will then look just like the outlook toolbar pc datasheet your resource for help with access excel and word applications resopcdatasheetcom",
+            "url": "https://groups.google.com/g/comp.databases.ms-access/c/3owxiU9YUsk",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question maybelle lies jamey says maybelle tells the truth phoebe says jamey lies willian says phoebe lies shalonda says willian lies does shalonda tell the truth",
+            "content": "toolbar will then look just like the outlook toolbar pc datasheet your resource for help with access excel and word applications resopcdatasheetcom",
+            "url": "https://groups.google.com/g/comp.databases.ms-access/c/3owxiU9YUsk",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "question elanor lies tamika says elanor lies ka says tamika tells the truth shaunda says ka lies conception says shaunda lies does conception tell the truth",
+            "content": "dear howanl family i am truly proud of what we have accomplished in the 20042005 bison yearbook it was both a privilege and an honor to contribute to a",
+            "url": "https://core.ac.uk/download/234737830.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question willian tells the truth phoebe says willian lies alejandro says phoebe lies lorine says alejandro tells the truth christie says lorine tells the truth does christie tell the truth",
+            "content": "one girls gym teacher did tell white students to “shut up” when one black girl came into class eason possibly referenced the gym class where melba",
+            "url": "https://scispace.com/pdf/and-they-entered-as-ladies-when-race-class-and-black-4qc5opl1cl.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question gwenn tells the truth lorine says gwenn lies antwan says lorine tells the truth elanor says antwan tells the truth delfina says elanor tells the truth does delfina tell the truth",
+            "content": "it tells of a young marquis who does not wish to get married preferring instead to spend his time hunting until his subjects pressure him to find a wife",
+            "url": "https://www.degruyter.com/document/doi/10.1515/9783110628715/pdf?licenseType=open-access&srsltid=AfmBOoo-_BZzHBtlXLItEhSwp4ozFbA3oO0eyGno6z-vkEwmmYf2IeYm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question inga tells the truth shalonda says inga tells the truth phoebe says shalonda tells the truth crista says phoebe lies alejandro says crista lies does alejandro tell the truth",
+            "content": "cindy aspiring actress 53 tammi unemployed waitress 57 sue high school athlete 511 leona homeless excon 52 lisa galactic super",
+            "url": "https://n4.kemono.su/data/c3/a1/c3a1594955c9303f3ea7c78fd38817487f5a6cee4d242ce32a65341486b923b6.html?f=HardLife+v0.26682+%28private+beta%29.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question sima tells the truth jim says sima lies gwenn says jim tells the truth phoebe says gwenn tells the truth rashida says phoebe lies does rashida tell the truth",
+            "content": "appended below are the names of 43669 individuals who have submitted public comments urging the environmental protection agency not to delay the amendments",
+            "url": "https://downloads.regulations.gov/EPA-HQ-OEM-2015-0725-0856/attachment_1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question sima lies millie says sima tells the truth jerry says millie tells the truth vina says jerry lies maybelle says vina tells the truth does maybelle tell the truth",
+            "content": "titlesubtitle addys cookbook a peek at dining in the past with meals you can cook today author edited by jodi evert written by 1",
+            "url": "https://www.wanee.org/Downloads/WES%20Library%20Books%202023.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question delfina lies leda says delfina lies fidel says leda lies sal says fidel tells the truth andree says sal lies does andree tell the truth",
+            "content": "pécuchet im inclined to say that learning a tech nique is a fiction it requires trust on the part of the stu dent and passion in the teacher",
+            "url": "https://brill.com/display/book/9789004392939/BP000012.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question crista tells the truth shalonda says crista lies millicent says shalonda lies vernell says millicent lies inga says vernell tells the truth does inga tell the truth",
+            "content": "toolbar will then look just like the outlook toolbar pc datasheet your resource for help with access excel and word applications resopcdatasheetcom",
+            "url": "https://groups.google.com/g/comp.databases.ms-access/c/3owxiU9YUsk",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question audrie tells the truth ryan says audrie lies rashida says ryan lies fletcher says rashida tells the truth shaunda says fletcher tells the truth does shaunda tell the truth",
+            "content": "this article reviews 22 studies that test a variety of interventions to decrease aids stigma in developed and developing countries",
+            "url": "http://guilfordjournals.com/doi/pdfplus/10.1521/aeap.15.1.49.23844",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question rashida tells the truth jim says rashida lies tamika says jim tells the truth lorine says tamika tells the truth vina says lorine tells the truth does vina tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "question jamey lies sal says jamey tells the truth teressa says sal lies maybelle says teressa tells the truth ka says maybelle lies does ka tell the truth",
+            "content": "340 15 1 100th day of school the lois lowry 690 55 6 100th thing about caroline steve young 650 35 9 p 15 minutes",
+            "url": "https://www.greenville.k12.sc.us/oakview/Upload/uploads/readingcountsquizzes.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "question kristian lies sherrie says kristian lies delbert says sherrie lies jerry says delbert tells the truth shalonda says jerry tells the truth does shalonda tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question alejandro lies amberly says alejandro tells the truth osvaldo says amberly lies vernell says osvaldo lies shenna says vernell lies does shenna tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "question teressa lies willian says teressa lies jamey says willian lies ryan says jamey lies kandi says ryan lies does kandi tell the truth",
+            "content": "wingspan is a competitive mediumweight carddriven enginebuilding board game from designer elizabeth hargrave and stonemaier games it is the 2019",
+            "url": "https://stonemaiergames.com/games/wingspan/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question millicent tells the truth vernell says millicent lies tamika says vernell tells the truth osvaldo says tamika tells the truth shenna says osvaldo lies does shenna tell the truth",
+            "content": "is there remove the item but keep the slot ifcharequipslotid charequipslotidnull return true else item does not match a known slot",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question shenna tells the truth antwan says shenna lies tamika says antwan lies elanor says tamika lies rashida says elanor tells the truth does rashida tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question fidel lies millicent says fidel tells the truth crista says millicent lies leda says crista lies tamika says leda tells the truth does tamika tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question phoebe tells the truth christie says phoebe tells the truth fletcher says christie tells the truth amberly says fletcher lies raymond says amberly tells the truth does raymond tell the truth",
+            "content": "the historical novel society lists mainstream and small press titles for historical novels set in eras from ancient times to the mid1970s",
+            "url": "https://historicalnovelsociety.org/forthcoming-historical-novels-for-2025/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question jerry tells the truth elanor says jerry tells the truth gwenn says elanor tells the truth kandi says gwenn tells the truth dallas says kandi tells the truth does dallas tell the truth",
+            "content": "betsy ross and the american flag olson kay melchisedech 37 05 820 en betsy ross designer of our flag weil ann 38 30 459 en betsys busy summer",
+            "url": "https://www.washington.k12.pa.us/cms/lib/PA50010844/Centricity/Domain/219/UpdatedQuizList-2012.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "question conception tells the truth elanor says conception tells the truth alexis says elanor tells the truth fidel says alexis tells the truth delbert says fidel lies does delbert tell the truth",
+            "content": "the third question helps you know whether the author is right or misere or we should instead ask ourselves is what william lane craig saying true",
+            "url": "http://lukoilmarine.com/ckfinder/userfiles/files/28719406465.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question delfina lies teressa says delfina lies amberly says teressa tells the truth ryan says amberly lies millie says ryan lies does millie tell the truth",
+            "content": "toolbar will then look just like the outlook toolbar pc datasheet your resource for help with access excel and word applications resopcdatasheetcom",
+            "url": "https://groups.google.com/g/comp.databases.ms-access/c/3owxiU9YUsk",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question delbert lies shalonda says delbert tells the truth tamika says shalonda lies sal says tamika lies helene says sal lies does helene tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question maybelle lies crista says maybelle tells the truth bernita says crista lies kandi says bernita tells the truth delbert says kandi tells the truth does delbert tell the truth",
+            "content": "is there remove the item but keep the slot ifcharequipslotid charequipslotidnull return true else item does not match a known slot",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question lorine lies amberly says lorine lies fletcher says amberly lies millie says fletcher tells the truth antwan says millie lies does antwan tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "question vina tells the truth helene says vina lies kandi says helene tells the truth jamey says kandi lies ka says jamey lies does ka tell the truth",
+            "content": "abstract this book details the history of the dorlandbell school a residential school in rural western north carolina the book is based on",
+            "url": "https://scispace.com/pdf/the-season-of-dorland-bell-history-of-an-appalachian-mission-yhb5avhhhm.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "question jaymie tells the truth millicent says jaymie lies millie says millicent tells the truth vina says millie lies leda says vina tells the truth does leda tell the truth",
+            "content": "the third question helps you know whether the author is right or misere or we should instead ask ourselves is what william lane craig saying true",
+            "url": "http://thanhlapcongtykiengiang.com/upload/ck/files/72979803080.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question audrie lies jaymie says audrie tells the truth phoebe says jaymie lies conception says phoebe tells the truth michael says conception lies does michael tell the truth",
+            "content": "do they feel comfortable to raise any question at all with you how do you achieve that ensure listening to them is a regular occurrence tell",
+            "url": "https://www.adoptchange.org.au/when-you-think-your-ears-may-drop-off/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question amberly lies shalonda says amberly tells the truth helene says shalonda tells the truth sima says helene tells the truth christie says sima tells the truth does christie tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question andree lies rashida says andree tells the truth amberly says rashida lies tamika says amberly lies leda says tamika lies does leda tell the truth",
+            "content": "toolbar will then look just like the outlook toolbar pc datasheet your resource for help with access excel and word applications resopcdatasheetcom",
+            "url": "https://groups.google.com/g/comp.databases.ms-access/c/3owxiU9YUsk",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question andree tells the truth christie says andree tells the truth fidel says christie lies antwan says fidel tells the truth alejandro says antwan lies does alejandro tell the truth",
+            "content": "birkos alexander s a bibliographical intro duction to foreign military periodicals mil aft dec i969 bordeaux m voies",
+            "url": "https://www.jstor.org/stable/pdf/1850880.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question delfina tells the truth fletcher says delfina lies amberly says fletcher lies audrie says amberly tells the truth lorine says audrie tells the truth does lorine tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question crista lies michael says crista tells the truth audrie says michael lies sherrie says audrie lies michaela says sherrie tells the truth does michaela tell the truth",
+            "content": "bloomability creech sharon 52 70 461 en blossom promise a byars betsy 41 40 306 en blossoms and the green phantom the byars betsy",
+            "url": "https://www.nellholcomb.k12.mo.us/pages/uploaded_files/QuizInfo8-6-10.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question elanor tells the truth leda says elanor lies osvaldo says leda tells the truth jim says osvaldo lies gwenn says jim lies does gwenn tell the truth",
+            "content": "the third question helps you know whether the author is right or misere or we should instead ask ourselves is what william lane craig saying true",
+            "url": "http://lukoilmarine.com/ckfinder/userfiles/files/28719406465.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question willian tells the truth michaela says willian tells the truth sima says michaela lies inga says sima tells the truth audrie says inga lies does audrie tell the truth",
+            "content": "mariusgeorgel sima faculty of law university of bucharest is there an algorithm for truth criteria for establishing the credibility of",
+            "url": "https://prawo.uwb.edu.pl/fcp/TFBsTMCQZEyUgCg4WSHd4aVtbb2RFMFI8OTkKbFkAJDYDFUEuKh0RZG53Fx5IYXgxHCYiNkU9XDoHJAchDUxrLh1MBj8/_global/public/prawo/projekty/przestepczosc_wiejska_w_polsce/20240927/esc_program.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question phoebe lies lorine says phoebe tells the truth dallas says lorine lies alexis says dallas lies jim says alexis tells the truth does jim tell the truth",
+            "content": "75796 en 100 days of cool murphy stuart j 26 05 57450 en 100 days of school harris trudy 23 05 64468 en 100 monsters in my school",
+            "url": "https://www.mylakelibrary.org/virtual_library/arlistdocs/28_Bytitle.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question alexis tells the truth elanor says alexis tells the truth sherrie says elanor lies audrie says sherrie tells the truth inga says audrie tells the truth does inga tell the truth",
+            "content": "reading practice quizzes int book point fiction quiz no title author level level value language nonfiction 122356 the 100yearold secret",
+            "url": "https://www-oes.stjohns.k12.fl.us/media/files/2012/10/arlist.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question christie tells the truth ka says christie tells the truth delbert says ka lies leda says delbert tells the truth lorine says leda tells the truth does lorine tell the truth",
+            "content": "the convention is open to persons who are not members of the association like members they must pay registration fees and must wear their registration badges",
+            "url": "https://www.jstor.org/stable/pdf/461502.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question fletcher tells the truth helene says fletcher lies elanor says helene tells the truth yoland says elanor tells the truth audrie says yoland lies does audrie tell the truth",
+            "content": "1 carl and the passions changed band name to what beach boys 2 how many rings on the olympic flag five 3 what colour is vermilion a shade of",
+            "url": "https://www.scoutingpolaris.nl/downloads/spellen/10.000vragen.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question bernita tells the truth audrie says bernita lies delfina says audrie tells the truth vina says delfina lies sal says vina tells the truth does sal tell the truth",
+            "content": "is there remove the item but keep the slot ifcharequipslotid charequipslotidnull return true else item does not match a known slot",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question christie lies jaymie says christie lies lorine says jaymie tells the truth bernita says lorine tells the truth delfina says bernita lies does delfina tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question osvaldo lies gwenn says osvaldo lies michael says gwenn lies elanor says michael lies sal says elanor tells the truth does sal tell the truth",
+            "content": "addressing the attribution of birth of merlin to shakespeare argues that the nature of the imitation between the play and king lear as well as the credibility",
+            "url": "https://www.jstor.org/stable/pdf/3648719.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question ryan lies jaymie says ryan lies michael says jaymie tells the truth ka says michael lies millicent says ka tells the truth does millicent tell the truth",
+            "content": "test book reading point number title author level value",
+            "url": "https://www.mcsflames.org/upload/documents/Elementary/AR_Book_LIst_for_Website.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question fletcher tells the truth willian says fletcher tells the truth jamey says willian lies leda says jamey lies jaymie says leda tells the truth does jaymie tell the truth",
+            "content": "gender and performance in shakespeares problem comedies drama and perfor mance studies bloomington indiana university press 1997 ix 205 pp see",
+            "url": "https://www.jstor.org/stable/pdf/2902383.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question amberly tells the truth jamey says amberly tells the truth shalonda says jamey lies antwan says shalonda tells the truth alejandro says antwan lies does alejandro tell the truth",
+            "content": "is there remove the item but keep the slot ifcharequipslotid charequipslotidnull return true else item does not match a known slot",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "question jim lies ka says jim lies jerry says ka tells the truth fletcher says jerry tells the truth kandi says fletcher lies does kandi tell the truth",
+            "content": "by m studdertkennedy 1985 is called the invariance problem because the presumptioh has been eg stevens blumstein1981 that its solution lies in discovering acoustic",
+            "url": "https://files.eric.ed.gov/fulltext/ED257159.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question ryan tells the truth shaunda says ryan tells the truth leda says shaunda lies teressa says leda lies christie says teressa tells the truth does christie tell the truth",
+            "content": "the third question helps you know whether the author is right or misere or we should instead ask ourselves is what william lane craig saying true",
+            "url": "http://thanhlapcongtykiengiang.com/upload/ck/files/72979803080.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question teressa tells the truth lorine says teressa lies antwan says lorine tells the truth fidel says antwan tells the truth phoebe says fidel lies does phoebe tell the truth",
+            "content": "reading practice quizzes int book point fiction quiz no title author level level value language nonfiction 1199 abraham lincoln",
+            "url": "https://www.easternchristian.org/wp-content/uploads/2014/04/AR_Author_Quizzes.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question audrie lies rashida says audrie tells the truth maybelle says rashida lies ka says maybelle lies shaunda says ka tells the truth does shaunda tell the truth",
+            "content": "toolbar will then look just like the outlook toolbar pc datasheet your resource for help with access excel and word applications resopcdatasheetcom",
+            "url": "https://groups.google.com/g/comp.databases.ms-access/c/3owxiU9YUsk",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "question fidel tells the truth teressa says fidel tells the truth willian says teressa tells the truth conception says willian tells the truth bernita says conception lies does bernita tell the truth",
+            "content": "with the right changes shelby said that “udc can be the university where dreams come true do this i know i can because i have” he says even so “i know i",
+            "url": "https://www.udc.edu/legacy/files/search/bookText.xml",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "question tamika lies raymond says tamika tells the truth willian says raymond tells the truth shaunda says willian lies elanor says shaunda tells the truth does elanor tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question millicent lies alexis says millicent lies inga says alexis tells the truth christie says inga lies gwenn says christie lies does gwenn tell the truth",
+            "content": "library ofcongress cataloginginpublication data fischer gayle v journal of womens history guide to periodical literature compiled",
+            "url": "https://library.oapen.org/bitstream/handle/20.500.12657/64114/9780253069108.pdf;jsessionid=6C7BEB7F821C48713FD9AC834A2DF442?sequence=1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question jamey lies raymond says jamey lies ka says raymond lies bernita says ka tells the truth teressa says bernita lies does teressa tell the truth",
+            "content": "some of these studies also argue implicitly or directly for the influence cinema can have on actual racial identity formations both individual and national",
+            "url": "https://thekeep.eiu.edu/cgi/viewcontent.cgi?article=1062&context=eng_fac",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question helene tells the truth teressa says helene tells the truth jamey says teressa lies alexis says jamey lies osvaldo says alexis tells the truth does osvaldo tell the truth",
+            "content": "this study focuses upon a selection of fiction biography and autobiography that narrates these identities these narratives both directly and indirectly",
+            "url": "https://scispace.com/pdf/who-josie-became-next-developing-narratives-of-ethnic-2lx1clpjp8.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question alejandro lies bernita says alejandro lies andree says bernita tells the truth sima says andree tells the truth inga says sima tells the truth does inga tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "question tamika lies jerry says tamika tells the truth delbert says jerry tells the truth leda says delbert tells the truth willian says leda lies does willian tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question leda tells the truth alexis says leda lies sal says alexis lies phoebe says sal tells the truth gwenn says phoebe tells the truth does gwenn tell the truth",
+            "content": "mac os user tabbing for mac os users there is a system setting that may not allow you to tab onto several types of elements in a web page",
+            "url": "https://www.pfp.sevier.org/6773_4",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question sima tells the truth michaela says sima lies leda says michaela tells the truth fletcher says leda lies vina says fletcher tells the truth does vina tell the truth",
+            "content": "is there remove the item but keep the slot ifcharequipslotid charequipslotidnull return true else item does not match a known slot",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question shaunda lies ryan says shaunda tells the truth shalonda says ryan lies bernita says shalonda lies michaela says bernita tells the truth does michaela tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question elanor tells the truth crista says elanor lies vernell says crista lies shalonda says vernell lies teressa says shalonda lies does teressa tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question osvaldo lies fletcher says osvaldo tells the truth michael says fletcher tells the truth dallas says michael tells the truth teressa says dallas tells the truth does teressa tell the truth",
+            "content": "addressing the attribution of birth of merlin to shakespeare argues that the nature of the imitation between the play and king lear as well as the credibility",
+            "url": "https://www.jstor.org/stable/pdf/3648719.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question jerry tells the truth lorine says jerry lies shenna says lorine lies gwenn says shenna lies shaunda says gwenn lies does shaunda tell the truth",
+            "content": "well its been said that the truth can sometimes hurt one way or another deb will be taking home some lovely parting gifts homer just had",
+            "url": "https://mcclellandryan184.wordpress.com/2023/10/20/nighttime-wof-closing-remarks/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question vernell tells the truth kandi says vernell tells the truth alexis says kandi tells the truth sima says alexis lies phoebe says sima tells the truth does phoebe tell the truth",
+            "content": "is there remove the item but keep the slot ifcharequipslotid charequipslotidnull return true else item does not match a known slot",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question sima tells the truth yoland says sima lies amberly says yoland tells the truth inga says amberly lies alexis says inga tells the truth does alexis tell the truth",
+            "content": "is there remove the item but keep the slot ifcharequipslotid charequipslotidnull return true else item does not match a known slot",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question teressa lies kristian says teressa lies sal says kristian tells the truth audrie says sal lies leda says audrie lies does leda tell the truth",
+            "content": "bloomability creech sharon 52 70 461 en blossom promise a byars betsy 41 40 306 en blossoms and the green phantom the byars betsy",
+            "url": "https://www.nellholcomb.k12.mo.us/pages/uploaded_files/QuizInfo8-6-10.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question willian tells the truth michaela says willian lies conception says michaela lies inga says conception tells the truth sal says inga lies does sal tell the truth",
+            "content": "telling stories from secondary and college english classrooms this book explores the new possibilities for teaching and learning generated by bringing",
+            "url": "https://scispace.com/pdf/literature-lives-a-response-based-cultural-studies-approach-1lp9kiptyc.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question shenna lies crista says shenna lies andree says crista tells the truth sherrie says andree lies ka says sherrie lies does ka tell the truth",
+            "content": "memoirist critic and translator daniel mendelsohn is perhaps best known for the application of mythic paradigms from the western classics to the analysis of",
+            "url": "https://www.asymptotejournal.com/blog/2017/09/22/in-conversation-with-daniel-mendelsohn/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question teressa lies sal says teressa tells the truth delbert says sal tells the truth tamika says delbert tells the truth gwenn says tamika tells the truth does gwenn tell the truth",
+            "content": "truth telling leadership challenges for servant leadersjohn j sullivan lies i toldmichelle zink new poemswilliam watson adware spyware",
+            "url": "https://marine.copernicus.eu/marine-paragraph/iframe-render/https%3A%7C%7Cgorodvp.ru%7Cfvwksrtmazfe85m",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question fletcher lies phoebe says fletcher tells the truth vina says phoebe tells the truth andree says vina tells the truth willian says andree tells the truth does willian tell the truth",
+            "content": "by long service be had built up in the minds of thousands of ohioans the conviction that frank willis was honest that he saw problems from the viewpoint of",
+            "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1928-pt8-v69/pdf/GPO-CRECB-1928-pt8-v69-4-2.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question vernell lies gwenn says vernell lies teressa says gwenn lies bernita says teressa tells the truth christie says bernita lies does christie tell the truth",
+            "content": "is there remove the item but keep the slot ifcharequipslotid charequipslotidnull return true else item does not match a known slot",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question alexis tells the truth shenna says alexis tells the truth yoland says shenna tells the truth ka says yoland tells the truth inga says ka tells the truth does inga tell the truth",
+            "content": "posthumanist performativity toward an understanding of how matter comes to matter womens studies program philosophy department and program in critical",
+            "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/345321",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question yoland tells the truth gwenn says yoland tells the truth michaela says gwenn lies jamey says michaela tells the truth amberly says jamey lies does amberly tell the truth",
+            "content": "is there remove the item but keep the slot ifcharequipslotid charequipslotidnull return true else item does not match a known slot",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question alexis tells the truth raymond says alexis tells the truth michaela says raymond tells the truth shalonda says michaela tells the truth amberly says shalonda tells the truth does amberly tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question inga lies audrie says inga lies rashida says audrie lies willian says rashida tells the truth amberly says willian lies does amberly tell the truth",
+            "content": "toolbar will then look just like the outlook toolbar pc datasheet your resource for help with access excel and word applications resopcdatasheetcom",
+            "url": "https://groups.google.com/g/comp.databases.ms-access/c/3owxiU9YUsk",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question shalonda lies teressa says shalonda tells the truth tamika says teressa lies lorine says tamika tells the truth jaymie says lorine lies does jaymie tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question millie tells the truth millicent says millie tells the truth raymond says millicent tells the truth crista says raymond lies ka says crista tells the truth does ka tell the truth",
+            "content": "amelias sixthgrade notebook moss marissa 89065 en mg 45 20 f 11037 y n america is borden louise 58871 en lg",
+            "url": "https://www.cvcsd.stier.org/Downloads/PD_Library_Book_List_for_AR_1-26-11.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question helene tells the truth lorine says helene lies raymond says lorine tells the truth ka says raymond tells the truth christie says ka tells the truth does christie tell the truth",
+            "content": "bloomability creech sharon 52 70 461 en blossom promise a byars betsy 41 40 306 en blossoms and the green phantom the byars betsy",
+            "url": "https://www.nellholcomb.k12.mo.us/pages/uploaded_files/QuizInfo8-6-10.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "question lorine lies osvaldo says lorine lies alejandro says osvaldo lies gwenn says alejandro tells the truth dallas says gwenn lies does dallas tell the truth",
+            "content": "accelerated reader titles n thru z quiz number language title author book levelpoints interest le 54384 en n 2 deep knowlton laurie lazzaro",
+            "url": "https://www.pgasd.com/cms/lib/PA50000222/Centricity/Domain/97/ARRPBookGuideExport2.xls%20-%20ARRP2.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question antwan lies jerry says antwan tells the truth delfina says jerry lies conception says delfina lies bernita says conception tells the truth does bernita tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "question jim lies delfina says jim tells the truth shaunda says delfina lies fidel says shaunda lies sal says fidel tells the truth does sal tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question ryan lies kristian says ryan lies teressa says kristian tells the truth amberly says teressa tells the truth jamey says amberly tells the truth does jamey tell the truth",
+            "content": "now that mama has figured how to “turn on the blog” as it were shes told a couple of her friends about it and now they “turn on the blog",
+            "url": "https://www.boomama.net/2007/01/28/book-em-she-says-cringing-at-the-punny-ness-of-it-all/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question fidel lies michael says fidel lies fletcher says michael lies inga says fletcher tells the truth andree says inga lies does andree tell the truth",
+            "content": "fletchermichael picardjoseph aloysius murphy 02082024 0900 19 does which question have validity tatjana rüger germany co",
+            "url": "https://publicum.umed.lodz.pl/docstore/download/AML9cf99abb8de74c08b892873eb5d4b0de/25_WCP.pdf?entityType=activity&entityId=AML012add927867427c918948386feac757",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "question delfina lies jerry says delfina tells the truth maybelle says jerry tells the truth dallas says maybelle lies kristian says dallas tells the truth does kristian tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question gwenn tells the truth millicent says gwenn lies antwan says millicent tells the truth teressa says antwan lies shenna says teressa lies does shenna tell the truth",
+            "content": "elements of analytical geometry and of the differential and integral calculusgerardus beekman docharty orafiy 2024 elements of analytical geometry",
+            "url": "https://marine.copernicus.eu/marine-paragraph/iframe-render/https%3A%7C%7Cgorodvp.ru%7Cjlqiyenbdpzzfe46j",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question raymond lies fletcher says raymond lies amberly says fletcher lies shenna says amberly tells the truth dallas says shenna tells the truth does dallas tell the truth",
+            "content": "october 1pledge captain places pledge program in mail to national chairman of pledge training also sends order for hand books to central office",
+            "url": "https://wiki.kkg.org/images/1/11/THE_KEY_VOL_64_NO_2_APR_1947.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question ka tells the truth inga says ka lies bernita says inga lies osvaldo says bernita tells the truth michaela says osvaldo lies does michaela tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "question jim lies crista says jim lies vernell says crista tells the truth bernita says vernell tells the truth millicent says bernita tells the truth does millicent tell the truth",
+            "content": "contact the commission on colleges at 1866 southern lane decatur georgia 300334097 or call 4046794500 for questions about the accreditation of johnson c",
+            "url": "https://www.jcsu.edu/sites/default/files/2023-01/Binder1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "question michaela lies millicent says michaela lies delbert says millicent lies bernita says delbert lies teressa says bernita tells the truth does teressa tell the truth",
+            "content": "is there remove the item but keep the slot ifcharequipslotid charequipslotidnull return true else item does not match a known slot",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question audrie lies conception says audrie lies teressa says conception tells the truth delfina says teressa lies helene says delfina tells the truth does helene tell the truth",
+            "content": "the artistic direction of the forthcoming documenta 16 has been decided naomi beckwith was selected by the international finding committee and appointed by",
+            "url": "https://www.documenta.de/en/news",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question ryan lies kandi says ryan lies lorine says kandi lies christie says lorine tells the truth fletcher says christie lies does fletcher tell the truth",
+            "content": "abbey whose brave cowboy and later works have earned him a reputation as one of the b novelists of the southwest is here seen as a writer with strong ties",
+            "url": "https://www.jstor.org/stable/pdf/3831137.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question christie tells the truth elanor says christie lies jaymie says elanor tells the truth jamey says jaymie lies alexis says jamey tells the truth does alexis tell the truth",
+            "content": "the above is an excerpt from chapter 1 of the book she reads truth holding tight to permanent in a world thats passing away written by raechel myers and",
+            "url": "https://shereadstruth.com/the-truest-truth/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "question audrie lies jerry says audrie tells the truth alejandro says jerry lies jaymie says alejandro lies lorine says jaymie tells the truth does lorine tell the truth",
+            "content": "title artist 22 taylor swift another love xx tom odell aplin home gabrielle applause lady gaga art of letting go mariah carey atlas coldplay",
+            "url": "https://gogoodfellow.com/wp-content/uploads/2024/03/Karaoke-Song-List-by-Song-Title.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question millie lies michael says millie tells the truth vina says michael lies conception says vina tells the truth sima says conception tells the truth does sima tell the truth",
+            "content": "any part of any judgment rendered hereunder which represents sums actually deposited to the credit of said klamath and modoc tribes and yahooskin band of snake",
+            "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1950-pt12/pdf/GPO-CRECB-1950-pt12-19-2.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question shalonda lies jaymie says shalonda tells the truth raymond says jaymie lies audrie says raymond lies sherrie says audrie lies does sherrie tell the truth",
+            "content": "god and prayer what does the bible say about praying and talking to god houdiniquestion realitydixie dooley a history of building types",
+            "url": "https://marine.copernicus.eu/marine-paragraph/iframe-render/https%3A%7C%7Cnekowrld.ru%7Cfshczuxaazfe85m",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question phoebe tells the truth jamey says phoebe lies audrie says jamey tells the truth michaela says audrie lies vina says michaela lies does vina tell the truth",
+            "content": "ferrante louis it begins with you the 9 hard truths about love that will change your life menopause is hot everything you need to know to thrive",
+            "url": "https://catalog.hendersonlibraries.com/Search/newreleases.aspx?ListingTypeID=26&ctx=1.1033.0.0.6",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question gwenn tells the truth andree says gwenn tells the truth yoland says andree lies sal says yoland lies crista says sal lies does crista tell the truth",
+            "content": "this volume the recipient of the 1995 irene samuel award of the milton society of america includes that old man eloquent",
+            "url": "https://www.jstor.org/stable/pdf/462925.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "question helene tells the truth leda says helene lies antwan says leda tells the truth andree says antwan lies shaunda says andree lies does shaunda tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question shalonda tells the truth sal says shalonda tells the truth helene says sal tells the truth kandi says helene lies lorine says kandi tells the truth does lorine tell the truth",
+            "content": "is there remove the item but keep the slot ifcharequipslotid charequipslotidnull return true else item does not match a known slot",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question jaymie lies jamey says jaymie tells the truth sal says jamey lies amberly says sal lies jerry says amberly tells the truth does jerry tell the truth",
+            "content": "with a great pleasure we would like to present the thirtysixth volume of maska it is the fourth volume of our periodical with all texts written in english we",
+            "url": "https://maska.psc.uj.edu.pl/documents/40768330/43096068/Maska_36.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question fletcher tells the truth conception says fletcher tells the truth bernita says conception tells the truth jamey says bernita tells the truth teressa says jamey lies does teressa tell the truth",
+            "content": "amanpour and company features conversations with leaders and decision makers",
+            "url": "https://www.kvie.org/programs/amanpour-co/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question audrie tells the truth yoland says audrie lies shaunda says yoland tells the truth raymond says shaunda lies maybelle says raymond lies does maybelle tell the truth",
+            "content": "toolbar will then look just like the outlook toolbar pc datasheet your resource for help with access excel and word applications resopcdatasheetcom",
+            "url": "https://groups.google.com/g/comp.databases.ms-access/c/3owxiU9YUsk",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question jamey lies gwenn says jamey tells the truth yoland says gwenn tells the truth kandi says yoland tells the truth osvaldo says kandi tells the truth does osvaldo tell the truth",
+            "content": "accelerated reader titles n thru z quiz number language title author book levelpoints interest le 54384 en n 2 deep knowlton laurie lazzaro",
+            "url": "https://www.pgasd.com/cms/lib/PA50000222/Centricity/Domain/97/ARRPBookGuideExport2.xls%20-%20ARRP2.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question maybelle tells the truth osvaldo says maybelle lies kandi says osvaldo lies jerry says kandi lies alejandro says jerry lies does alejandro tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question willian lies fidel says willian tells the truth crista says fidel tells the truth inga says crista tells the truth dallas says inga lies does dallas tell the truth",
+            "content": "not only does what one says shape human relationships osteen contends that words reveal the contours of ones past while they simulta neously shape ones",
+            "url": "https://muse.jhu.edu/pub/193/monograph/book/10731/pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question kandi lies millie says kandi tells the truth lorine says millie tells the truth michaela says lorine tells the truth amberly says michaela lies does amberly tell the truth",
+            "content": "is there remove the item but keep the slot ifcharequipslotid charequipslotidnull return true else item does not match a known slot",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question kandi tells the truth michaela says kandi lies vernell says michaela lies antwan says vernell tells the truth sal says antwan lies does sal tell the truth",
+            "content": "is there remove the item but keep the slot ifcharequipslotid charequipslotidnull return true else item does not match a known slot",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question kandi lies phoebe says kandi tells the truth yoland says phoebe tells the truth fletcher says yoland lies lorine says fletcher tells the truth does lorine tell the truth",
+            "content": "talking book topics is distributed free to people unable to read regular print and is available in an abridged form in braille",
+            "url": "https://www.loc.gov/nls/new-materials/talking-book-topics/talking-book-topics-july-august-2024/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question crista tells the truth jim says crista lies delfina says jim lies phoebe says delfina lies bernita says phoebe tells the truth does bernita tell the truth",
+            "content": "toolbar will then look just like the outlook toolbar pc datasheet your resource for help with access excel and word applications resopcdatasheetcom",
+            "url": "https://groups.google.com/g/comp.databases.ms-access/c/3owxiU9YUsk",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question sherrie tells the truth kandi says sherrie tells the truth conception says kandi tells the truth michael says conception tells the truth christie says michael tells the truth does christie tell the truth",
+            "content": "title artist 22 taylor swift another love xx tom odell aplin home gabrielle applause lady gaga art of letting go mariah carey atlas coldplay",
+            "url": "https://gogoodfellow.com/wp-content/uploads/2024/03/Karaoke-Song-List-by-Song-Title.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "question sal tells the truth alejandro says sal tells the truth raymond says alejandro lies conception says raymond lies elanor says conception lies does elanor tell the truth",
+            "content": "this is the key idea that allows us to understand a literary tradition that stretches from the troubadours through petrarch to shakespeare milton and beyond",
+            "url": "https://books.openedition.org/obp/4388?lang=en",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question millie lies andree says millie lies michaela says andree lies leda says michaela tells the truth shenna says leda lies does shenna tell the truth",
+            "content": "borden louise 650 27 ad 2 777 fiction k2 fall 2008 complete quiz collection k2 q25585 a my name is alice bayer jane",
+            "url": "https://www.lisd.net/cms/lib/TX01918037/Centricity/Domain/2794/Reading%20Counts%20Booklist%20K-2.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question rashida tells the truth jim says rashida lies alejandro says jim lies tamika says alejandro tells the truth fidel says tamika lies does fidel tell the truth",
+            "content": "dear howanl family i am truly proud of what we have accomplished in the 20042005 bison yearbook it was both a privilege and an honor to contribute to a",
+            "url": "https://core.ac.uk/download/234737830.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question fletcher lies teressa says fletcher lies vernell says teressa lies dallas says vernell lies millicent says dallas tells the truth does millicent tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question antwan tells the truth helene says antwan tells the truth gwenn says helene tells the truth sal says gwenn tells the truth shaunda says sal lies does shaunda tell the truth",
+            "content": "no more toxicalliance fao you are bound and mandated by the un charter to respect human rights and advance the sdgs supporting a global corporate4",
+            "url": "https://www.iitc.org/wp-content/uploads/FAO-sigs-combined2.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question alejandro lies vina says alejandro lies vernell says vina tells the truth fidel says vernell lies inga says fidel tells the truth does inga tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question sherrie lies gwenn says sherrie lies sima says gwenn lies tamika says sima tells the truth millicent says tamika tells the truth does millicent tell the truth",
+            "content": "elements of analytical geometry and of the differential and integral calculusgerardus beekman docharty orafiy 2024 elements of analytical geometry",
+            "url": "https://marine.copernicus.eu/marine-paragraph/iframe-render/https%3A%7C%7Cgorodvp.ru%7Cjlqiyenbdpzzfe46j",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question michael lies jerry says michael tells the truth delbert says jerry tells the truth sima says delbert lies alexis says sima lies does alexis tell the truth",
+            "content": "appended below are the names of 46274 individuals who have submitted public comments regarding the national oil and hazardous substances pollution",
+            "url": "https://downloads.regulations.gov/EPA-HQ-OPA-2006-0090-0574/attachment_1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question audrie lies sherrie says audrie lies willian says sherrie tells the truth conception says willian tells the truth gwenn says conception lies does gwenn tell the truth",
+            "content": "what does metaphoric language say about aggression the relationships between metaphoric language impulsivity and aggression rotem leshem",
+            "url": "https://prawo.uwb.edu.pl/fcp/TFBsTMCQZEyUgCg4WSHd4aVtbb2RFMFI8OTkKbFkAJDYDFUEuKh0RZG53Fx5IYXgxHCYiNkU9XDoHJAchDUxrLh1MBj8/_global/public/prawo/projekty/przestepczosc_wiejska_w_polsce/20240927/esc_program.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "question kandi tells the truth crista says kandi lies ryan says crista tells the truth gwenn says ryan tells the truth delfina says gwenn tells the truth does delfina tell the truth",
+            "content": "this fund was made possible by a challenge grant from the national endowment for the humanities it is an honor to recognize and record here our contributors",
+            "url": "https://www.jstor.org/stable/pdf/26455896.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question jim tells the truth alejandro says jim lies phoebe says alejandro lies shaunda says phoebe tells the truth kandi says shaunda lies does kandi tell the truth",
+            "content": "we can trust him with our pain when all seems lost because he does not abandon his own psalm 910 deuteronomy 316",
+            "url": "https://shereadstruth.com/trust-when-all-seems-lost/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question delbert tells the truth gwenn says delbert lies audrie says gwenn lies christie says audrie lies alexis says christie lies does alexis tell the truth",
+            "content": "this article analyzes data derived from the first detailed long‐term follow‐up of a sample of serious adolescent female delinquents and similarly situated",
+            "url": "https://www.journals.uchicago.edu/doi/full/10.1086/343191?mobileUi=0",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question shaunda tells the truth fidel says shaunda tells the truth delbert says fidel tells the truth bernita says delbert tells the truth lorine says bernita lies does lorine tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question shaunda tells the truth maybelle says shaunda tells the truth lorine says maybelle lies millie says lorine tells the truth vina says millie tells the truth does vina tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "question jerry lies millicent says jerry tells the truth sal says millicent tells the truth amberly says sal tells the truth shenna says amberly lies does shenna tell the truth",
+            "content": "is there remove the item but keep the slot ifcharequipslotid charequipslotidnull return true else item does not match a known slot",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question rashida tells the truth willian says rashida lies christie says willian lies ryan says christie lies shaunda says ryan lies does shaunda tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question jim tells the truth tamika says jim tells the truth helene says tamika tells the truth jaymie says helene tells the truth conception says jaymie tells the truth does conception tell the truth",
+            "content": "justice and the interstates the racist truth about urban highways edited by ryan reft amanda phillips de lucas and rebecca retzlaff",
+            "url": "https://islandpress.org/books/bookdata/NatServ.html?field_book_lists_tid=All&sort_by=field_pub_date_value&items_per_page=All",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "question millicent tells the truth willian says millicent lies crista says willian lies teressa says crista tells the truth rashida says teressa tells the truth does rashida tell the truth",
+            "content": "true fn54 but how does one know truth when one finds it truth isnt a property of an event itself truth is a property of an account of the event as",
+            "url": "https://www.keiabroad.org/documents/england/syllabus/lss/GenderJusticeLaw.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "question vernell tells the truth fidel says vernell tells the truth amberly says fidel lies lorine says amberly lies elanor says lorine lies does elanor tell the truth",
+            "content": "br br br h1 classtitleh a r d l i f e v print setupenginegameversionh1 br br p classsubtitleselect your characterp",
+            "url": "https://n3.kemono.su/data/db/9b/db9b98aac66d880723b097329074292e85b2cc49fd6579e4ea9621b90471896a.html?f=HardLife+v0.21-hotfix2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question sal lies kristian says sal lies helene says kristian lies inga says helene tells the truth michael says inga tells the truth does michael tell the truth",
+            "content": "by e kowal it is easy to imagine myself passing through a mirror every cell of my body thinning stretching be coming transparent forming and reforming in some other",
+            "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/e1d378ec-9ad4-43f8-bbef-71e99122a977/content",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "question elanor tells the truth ka says elanor lies delbert says ka tells the truth michaela says delbert lies sherrie says michaela lies does sherrie tell the truth",
+            "content": "elanor says michaela tells the truth does elanor tell the truthnanswer nonnquestion kristian lies sherrie says kristian lies delbert says sherrie lies",
+            "url": "https://opencsg.com/models/AIWizards/MiniMA-2-3B/commit/a7437704a819742a35761d71b2f37945793412e1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "question millicent tells the truth alexis says millicent lies jaymie says alexis lies willian says jaymie tells the truth leda says willian lies does leda tell the truth",
+            "content": "knights and knaves is a type of logic puzzle where some characters can only answer questions truthfully and others only falsely the name was coined by raymond smullyan in his 1978 work what is the name of this book the puzzles are set on a fictional island where all inhabitants are either",
+            "url": "https://en.wikipedia.org/wiki/Knights_and_Knaves",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "question fidel lies sal says fidel tells the truth osvaldo says sal lies alexis says osvaldo lies millie says alexis tells the truth does millie tell the truth",
+            "content": "you are a prisoner in a room with 2 doors and 2 guards one of the doors will guide you to freedom and behind the other is a hangmanyou donx27t know which is which but the guards do know one of the",
+            "url": "https://puzzling.stackexchange.com/questions/2188/two-doors-with-two-guards-one-lies-one-tells-the-truth",
+            "engine": "braveAPI"
+        }
+    ]
+}

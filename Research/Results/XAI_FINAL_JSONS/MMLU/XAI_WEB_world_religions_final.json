@@ -1,0 +1,1468 @@
+{
+    "task": "mmlu_world_religions",
+    "dataset": "web_access_world_religions_final",
+    "questions": 171,
+    "noWebContextCount": 0,
+    "contaminated_queries": 45,
+    "contaminated_urls": 97,
+    "valid_urls": 171,
+    "avg_contaminated_before_valid": 1.567251461988304,
+    "contaminated_data_ratio": 0.3619402985074627,
+    "most_contaminated_urls": {
+        "learninglink.oup.com": 33
+    },
+    "noWebContext": [],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "the first of the four noble truths teaches which of the following cannot be escaped",
+            "content": "the first of the four noble truths teaches which of the following cannot be escaped pride correct incorrect hatred correct incorrect suffering correct",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-10-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "according to jaina traditions who were the caityavasis",
+            "content": "according to jaina traditions who were the caityavasis householders who supported renouncers correct incorrect orthodox interpreters of the scriptures",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-9-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "what is the purpose for hearing the gurus vak in the morning",
+            "content": "what is the purpose for hearing the gurus vak in the morning prayers on behalf of people outside of the sikh community correct incorrect communal",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-8-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what was one of the distinctive beliefs or practices of the southerners digambara",
+            "content": "what was one of the distinctive beliefs or practices of the southerners digambara they worshipped exclusively outside of the temple correct incorrect",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-9-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "to whom is the yoga sutras attributed",
+            "content": "patanjali was a sage in india who is believed to have authored a number of sanskrit works the most prominent of which is the yoga sutras",
+            "url": "https://www.hinduamerican.org/blog/who-was-patanjali-and-what-are-the-yoga-sutras/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which confucian philosopher is described as a mystic due to his focus on qi or chi",
+            "content": "which confucian philosopher is described as a mystic due to his focus on qi or chi dao correct incorrect xunzi correct incorrect mencius correct",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-11-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in addition to jainism which other tradition began as a worldrenouncing movement",
+            "content": "in addition to jainism which other tradition began as a worldrenouncing movement buddhism correct incorrect hinduism correct incorrect judaism correct",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-9-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which jaina group only allows women to lead a life of semirenunciation",
+            "content": "which jaina group only allows women to lead a life of semirenunciation svetambara correct incorrect jina correct incorrect agama correct incorrect",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-9-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when was the major shift by greek philosophers who rejected the anthropomorphic view of the divine",
+            "content": "when was the major shift by greek philosophers who rejected the anthropomorphic view of the divine early third century bce correct incorrect second and",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-3-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the most important prayer in judaism",
+            "content": "many jews regard the shema as the most important prayer in judaism as it emphasises the key belief of judaism belief in one god monotheism",
+            "url": "https://www.bbc.co.uk/bitesize/guides/z4kg4qt/revision/3",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sacred literature originated with which of the following jina",
+            "content": "sacred literature originated with which of the following jina sri lakshmi correct incorrect mahavira correct incorrect rsabha correct incorrect nanak",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-9-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "selfsacrifice is an important theme for which buddhist thinker",
+            "content": "selfsacrifice is an important theme for which buddhist thinker thich nhat hanh correct incorrect the dalai lama correct incorrect daisetsu t suzuki",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-10-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the sociopolitical alliance between the kshatriyas and the shramanas was rooted in their shared opposition to which of the following",
+            "content": "the sociopolitical alliance between the kshatriyas and the shramanas was rooted in their shared opposition to which of the following brahminic orthodoxy",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-9-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "who is the woman mystic who exemplified the allconsuming love of the divine",
+            "content": "who is the woman mystic who exemplified the allconsuming love of the divine rumi correct incorrect rabia correct incorrect fatimah correct incorrect",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-6-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the widely adored egyptian goddess hathor was depicted as which of the following",
+            "content": "4 the widely adored egyptian goddess hathor was depicted as which of the following serpent correct incorrect",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-3-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the term for commentary on the quran which means unveiling",
+            "content": "what is the term for commentary on the quran which means unveiling fiqh correct incorrect dhikr correct incorrect ijtihad correct incorrect tafsir",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-6-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the central prayer in jainism is known by which of the following names",
+            "content": "the central prayer in jainism is known by which of the following names namokar mantra correct incorrect the liberation mantra correct incorrect",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-9-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what interior discipline must be adopted to achieve spiritual liberation within sikhism",
+            "content": "what interior discipline must be adopted to achieve spiritual liberation within sikhism remembering the divine name correct incorrect meditating on the",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-8-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how many female renouncers were under the tutelage of chandanbala",
+            "content": "how many female renouncers were under the tutelage of chandanbala 36000 how many jinas have appeared during our age 7 correct incorrect 42",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-9-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the term used to describe the pure as an order of loyal sikhs bound together",
+            "content": "what is the term used to describe the pure as an order of loyal sikhs bound together khalsa correct incorrect rahit correct incorrect panj kakke correct",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-8-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "guru nanak and his successors instructed the use of particular sikh ragas in order to promote which of the following",
+            "content": "guru nanak and his successors instructed the use of particular sikh ragas in order to promote which of the following harmony and balance correct incorrect",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-8-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what term refers the divine order as an ellembracing higher principle in sikhism",
+            "content": "what term refers the divine order as an ellembracing higher principle in sikhism sansar correct incorrect hukam correct incorrect mantar correct incorrect",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-8-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which form of buddhism focuses on social engagement that attracts lay participation",
+            "content": "which form of buddhism focuses on social engagement that attracts lay participation zen buddhism correct incorrect chan buddhism correct incorrect",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-11-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "guru nanak used what term to denote the divine word as part of divine revelation",
+            "content": "guru nanak used what term to denote the divine word as part of divine revelation shabad correct incorrect khalse correct incorrect nam correct incorrect",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-8-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which mystic believed that evil was a distortion that reveals divine love more clearly",
+            "content": "which mystic believed that evil was a distortion that reveals divine love more clearly julian of norwich correct incorrect catherine of siena correct",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-5-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which pope promoted the cults of st peter and st paul to bolster authority in rome",
+            "content": "which pope promoted the cults of st peter and st paul to bolster authority in rome gregory correct incorrect augustine correct incorrect athanasius",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-5-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the jaina traditions bad karma is known by which of the following terms",
+            "content": "in the jaina traditions bad karma is known by which of the following terms paap correct incorrect punya correct incorrect pudgala correct incorrect akash",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-9-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the zoroastrian tradition the term gathas refers to which of the following",
+            "content": "in the zoroastrian tradition the term gathas refers to which of the following hymns correct incorrect laws correct incorrect ethics correct incorrect",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-3-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the numen of augustus referred to which of the following characteristics",
+            "content": "aesthetics correct incorrect not completed 17 the numen of augustus referred to which of the following characteristics divine power correct incorrect",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-3-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the numen of augustus referred to which of the following characteristics",
+            "content": "the numen of augustus referred to which of the following characteristics divine power correct incorrect sexual virility correct incorrect military acumen",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-3-self-quiz/1000",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the numen of augustus referred to which of the following characteristics",
+            "content": "the numen of augustus referred to which of the following characteristics a divine power b sexual virility c military acumen d philosophical",
+            "url": "https://course.ccs.neu.edu/ds4440f24/lecture-materials/Ds4440-f24-posttraining-slides.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "who is the eighthcentury ce female poet worshipped throughout many south indian temples dedicated to vishnu",
+            "content": "who is the eighthcentury ce female poet worshipped throughout many south indian temples dedicated to vishnu andal correct incorrect devi correct incorrect",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-7-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the meaning ofsamyak jnanawithin the jaina traditions",
+            "content": "17 what is the meaning ofsamyak jnanawithin the jaina traditions correct knowledge",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-9-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "ghosa apala and lopamurda all named in the early vedas are which of the following",
+            "content": "ghosa apala and lopamurda all named in the early vedas are which of the following female princesses correct incorrect female warriors correct incorrect",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-7-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "to which tradition do the antihan rebel group known as the celestial masters belong",
+            "content": "9 to which tradition do the antihan rebel group known as the celestial masters belong buddhism correct incorrect",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-11-self-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "what is the meaning ofsamyak jnanawithin the jaina traditions",
+            "content": "17 what is the meaning ofsamyak jnanawithin the jaina traditions correct knowledge",
+            "url": "https://learninglink.oup.com/access/content/amore4e-student-resources/amore4e-chapter-9-self-quiz",
+            "engine": "ddg"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "rome claimed that their bishop pope was the director successor of which leader",
+            "content": "according to this principle the apostle peter was the first pope and his ministry was passed on to his successors as bishops of rome the",
+            "url": "https://www.britannica.com/topic/Petrine-theory",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what does mahavira mean",
+            "content": "mahavira devanagari महावीर mahāvīra also known as vardhamana devanagari वर्धमान vardhamāna was the 24th tirthankara of jainism",
+            "url": "https://en.wikipedia.org/wiki/Mahavira",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the name of a recent revivalist movement in turkey led by fetullah gülen",
+            "content": "since a failed attempt at a military coup on the night of 15 july 2016 the gülen movement henceforth gm which developed around the",
+            "url": "https://brill.com/display/book/9789004435544/BP000014.xml?language=en",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which roman statesman encouraged civic religion in his work the laws",
+            "content": "marcus tullius cicero was a roman statesman lawyer scholar philosopher orator writer and academic skeptic who tried to uphold optimate principles",
+            "url": "https://en.wikipedia.org/wiki/Cicero",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what does the term anatman mean",
+            "content": "anātman in sanskrit means that which is different from atman or nonself 1 in hinduism the former definition is found in some texts",
+            "url": "https://en.wikipedia.org/wiki/An%C4%81tman_(Hinduism)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which is one of the most fundamental themes of japanese culture and civilization",
+            "content": "culture of japan 1 identity 2 language 3 religion 31 shinto 32 buddhism 33 christianity 34 islam 4 national character 5 literature 6 visual arts",
+            "url": "https://en.wikipedia.org/wiki/Culture_of_Japan",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "during what japanese festival do the spirits of deceased family members return to receive ritual offerings of food made by their loved ones",
+            "content": "offerings of flowers incense food fruit and drinks are placed before them at the summer festival of the dead families light lanterns to",
+            "url": "https://mostlycitystuff.wordpress.com/2020/08/18/death-and-obon/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "icons are a main feature of which church",
+            "content": "in eastern christianity an iconostasis greek εἰκονοστάσιον is a wall of icons and religious paintings separating the nave from the sanctuary in a church",
+            "url": "https://en.wikipedia.org/wiki/Iconostasis",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when was the current dalai lama born",
+            "content": "the 14th dalai lama born 6 july 1935 full spiritual name jetsun jamphel ngawang lobsang yeshe tenzin gyatso shortened as tenzin gyatso né lhamo thondup is",
+            "url": "https://en.wikipedia.org/wiki/14th_Dalai_Lama",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what does the tripitaka mean",
+            "content": "the tripitaka is a name for the sacred texts of buddhism it contains the dharma or teachings of the buddha as well as commentary and rules for monks and nuns",
+            "url": "https://study.com/academy/lesson/the-three-baskets-and-the-dhammapada-description-overview.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "for whom are the hindu vedas most significant",
+            "content": "composed in vedic sanskrit the texts constitute the oldest layer of sanskrit literature and the oldest scriptures of hinduism",
+            "url": "https://en.wikipedia.org/wiki/Vedas",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what does svetambara mean",
+            "content": "svetambara or swetambara is one of the two main branches of jainism the other being the digambara śvetāmbara in sanskrit means whiteclad and refers",
+            "url": "https://en.wikipedia.org/wiki/%C5%9Avet%C4%81mbara",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when was the first buddhist temple constructed in japan",
+            "content": "shitennōji kongō gumi 593 1963 reconstruction",
+            "url": "https://en.wikipedia.org/wiki/Shitenn%C5%8D-ji",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "according to hindu tradition who is considered to be the ideal wife",
+            "content": "the woman is celebrated as the most powerful and empowering force in some hindu upanishads sastras and puranas",
+            "url": "https://en.wikipedia.org/wiki/Women_in_Hinduism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "who accompanies vishnu in many of his incarnations as his consort and is known as the goddess of good fortune",
+            "content": "whenever vishnu descended on the earth as an avatar lakshmi accompanied him as consort for example as sita and radha or rukmini as consorts of vishnus",
+            "url": "https://en.wikipedia.org/wiki/Lakshmi",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the first of the four noble truths teaches which of the following cannot be escaped",
+            "content": "life is unsatisfactory and full of suffering while desires might be temporarily fulfilled physical emotional or mental suffering cannot be avoided",
+            "url": "https://www.bbc.co.uk/bitesize/guides/zr3sv9q/revision/2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "after the bar kochba revolt where were the two main centres for jewish development",
+            "content": "roman rule in judaea had been deeply resented especially after the destruction of jerusalem and the second temple in 70 ce during the first jewishroman war",
+            "url": "https://en.wikipedia.org/wiki/Bar_Kokhba_revolt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the tibetan book of the dead is also known as which of the following",
+            "content": "the bardo thodol commonly known in the west as the tibetan book of the dead is a terma text from a larger corpus of teachings the profound dharma of",
+            "url": "https://en.wikipedia.org/wiki/Bardo_Thodol",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "according to the korean foundation myth who transformed into a human in order to father dangun",
+            "content": "everyday ungnyeo bear woman prayed under sindansu divine altar tree to conceive a child but there was no one for her to marry so hwanung turned into a man",
+            "url": "https://folkency.nfm.go.kr/en/topic/detail/5336",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is seen by europeans and many muslims as the symbol of islam",
+            "content": "the conjoined representation of a crescent and a star is used in various historical contexts including as a prominent symbol of the ottoman empire",
+            "url": "https://en.wikipedia.org/wiki/Crescent_and_star_(symbol)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what genre of sikh literature is denoted by the term janamsakhis",
+            "content": "in the context of modern sikhism the janamsakhis have alternately been understood as biographical pseudobiographical and hagiographical",
+            "url": "https://link.springer.com/10.1007/978-94-024-0846-1_548",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which goddess is worshipped during the festival of divali",
+            "content": "the primary deities worshipped during diwali include lord rama goddess lakshmi and lord krishna along with other gods and goddesses like lord ganesha",
+            "url": "https://vedanshcraft.com/blogs/news/which-god-is-worshipped-on-diwali",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which hindu festival involves decorating the house with lights setting off firecrackers and wearing new clothes",
+            "content": "diwali is also marked with fireworks as well as the decoration of floors with rangoli designs and other parts of the house with jhalars food is a major focus",
+            "url": "https://en.wikipedia.org/wiki/Diwali",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the continental reformation started in what year",
+            "content": "history heidelberg catechism 1563 belgic confession 1566 canons of dordrecht 1619",
+            "url": "https://en.wikipedia.org/wiki/Continental_Reformed_Protestantism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "according to jaina traditions who were the caityavasis",
+            "content": "history according to jain tradition in the first century vajrasensuri established four kulas subdivisions within the swetambara murtipujaka jain community",
+            "url": "https://en.wikipedia.org/wiki/Murtipujaka",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in buddhism what are ordained women known as",
+            "content": "ordain women as fully ordained buddhist nuns called bhikkhunis 2002 khenmo drolma an american woman became the first bhikkhuni fully ordained buddhist",
+            "url": "https://en.wikipedia.org/wiki/Women_in_Buddhism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "what is the purpose for hearing the gurus vak in the morning",
+            "content": "a vak also known as hukamnama ie order is taken each day in all gurdwaras and the words are displayed for everyone to read sikhs increasingly consult the",
+            "url": "https://smarthistory.org/sikh-prayer-and-worship/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what can murtis be translated as",
+            "content": "a murti is a form and manifestation of the formless absolute thus a literal translation of murti as idol is incorrect when idol is understood as",
+            "url": "https://en.wikipedia.org/wiki/Murti",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "where did people believe in the goddess known as holy mother of mount fairy peach",
+            "content": "the queen mother of the west known by various local names is a mother goddess in chinese religion and mythology also worshipped later in neighbouring",
+            "url": "https://en.wikipedia.org/wiki/Queen_Mother_of_the_West",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is bhakti often translated as",
+            "content": "the bhakti movement was a significant religious movement in medieval hinduism 1 that sought to bring religious reforms to all strata of society",
+            "url": "https://en.wikipedia.org/wiki/Bhakti_movement",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the minimalism of haiku is said to be derived from which tradition",
+            "content": "englishlanguage haiku has stressed the concepts of brevity and simplicity to a further extent than the japanese haiku pushing minimalism as far as humanly",
+            "url": "https://thehaikufoundation.org/juxta/juxta-4-1/the-pig-and-the-boar-the-limits-to-brevity-and-simplicity-in-haiku/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "zhuangzi describes a state as ziran which means which of the following",
+            "content": "this essay explores the core daoist concept of ziran commonly translated as spontaneity naturalness or selfso and its relationship to authenticity and",
+            "url": "https://www.mdpi.com/2077-1444/10/3/207",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "what was one of the distinctive beliefs or practices of the southerners digambara",
+            "content": "digambara one of the two principal sects of the indian religion jainism whose male ascetics shun all property and wear no clothes",
+            "url": "https://www.britannica.com/topic/Digambara",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the name of the most authoritative kabbalah text",
+            "content": "the zohar the foundational text of kabbalah was authored in the late 13th century likely by moses de león isaac luria 16th century is considered the",
+            "url": "https://en.wikipedia.org/wiki/Kabbalah",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what are the rabbinical commentaries produced after the mishnah called",
+            "content": "list of commentaries a the prominent commentary here is tiferet yisrael by rabbi israel lipschitz it is subdivided into two parts one more general and the",
+            "url": "https://en.wikipedia.org/wiki/Mishnah",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "pure land buddhism belongs to which school",
+            "content": "under the influence of the lotus sutra japanese buddhist schools like the tendai and nichiren schools saw śākyamunis pure land as being continuous with this",
+            "url": "https://en.wikipedia.org/wiki/Pure_Land",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "to whom is the yoga sutras attributed",
+            "content": "it is widely disputed whether patanjali was one man or if the sutras attributed to him are actually a compilation of ideas from many sages and practitioners",
+            "url": "https://wanderlust.com/journal/get-to-know-patanjali-a-founding-father-of-yoga/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "who is the founder of sikhism",
+            "content": "guru nanak the first sikh guru and the founder of sikhism was a bhakti saint he taught that the most important form of worship is bhakti devotion to",
+            "url": "https://en.wikipedia.org/wiki/Sikhism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which deity is the roman counterpart to the greek god zeus",
+            "content": "major gods of the greek and roman pantheons hera juno a marriage goddess and the wife of the king of the gods zeus hermes mercury a",
+            "url": "https://www.thoughtco.com/roman-equivalents-of-greek-gods-4067799",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the mudras which are an important feature of buddhist art are also known as what",
+            "content": "mudras are a set of hand gestures and finger positions that serve as symbols in buddhist art representing the buddhas various roles and states of mind",
+            "url": "https://www.khanacademy.org/humanities/art-asia/south-asia/south-asia-intro/a/mudras-in-buddhist-art",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "where is the largest network of confucian shrines in the world",
+            "content": "ancestral shrines of the kong family have also reopened as well as confucianteaching churches the hong kong confucian academy has expanded its activities to",
+            "url": "https://en.wikipedia.org/wiki/Confucian_church",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which confucian philosopher is described as a mystic due to his focus on qi or chi",
+            "content": "it is the psychological faculty that perceives and cognizes but it also possesses the affective dispositions to feel emotions mencius",
+            "url": "https://oxfordre.com/religion/display/10.1093/acrefore/9780199340378.001.0001/acrefore-9780199340378-e-695?d=%2F10.1093%2Facrefore%2F9780199340378.001.0001%2Facrefore-9780199340378-e-695&p=emailAgkjn9NOezrmo",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is a mohel",
+            "content": "a mohel is a jewish man trained in the practice of brit milah the covenant of male circumcision a woman who is trained in the practice is referred to as",
+            "url": "https://en.wikipedia.org/wiki/Mohel",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "naturalists who concentrated on natural elements and processes are associated with which of the following",
+            "content": "naturalism 18651914 was a literary movement that focused on the objective and detached observation of human nature using scientific principles naturalism",
+            "url": "https://www.studysmarter.co.uk/explanations/english-literature/american-literary-movements/naturalism/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following does not describe the kaba",
+            "content": "the kaaba sometimes referred to as alkaʽba almusharrafa is a stone building at the center of islams most important mosque and holiest site the masjid",
+            "url": "https://en.wikipedia.org/wiki/Kaaba",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is another name for enuma elish",
+            "content": "enūma eliš meaning when on high is a babylonian creation myth from the late 2nd millennium bce and the only complete surviving account of ancient near",
+            "url": "https://en.wikipedia.org/wiki/En%C5%ABma_Eli%C5%A1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the philosopher laozi is associated with which tradition",
+            "content": "a central figure in chinese culture laozi is generally considered the founder of taoism he was claimed and revered as the ancestor of the tang dynasty 618",
+            "url": "https://en.wikipedia.org/wiki/Laozi",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in addition to jainism which other tradition began as a worldrenouncing movement",
+            "content": "along with hinduism and buddhism jainism is one of the three most ancient indian religious traditions still in existence and an integral part",
+            "url": "https://www.britannica.com/topic/Jainism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in tendai buddhism what does the term honji mean",
+            "content": "in chinese and japanese its name is identical to tiantai meaning celestial platform its parent chinese buddhist tradition both traditions emphasize the",
+            "url": "https://en.wikipedia.org/wiki/Tendai",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following does the quran permit",
+            "content": "the catalyst for the statement that the quran permits or encourages marriage by older men to pubescent girls comes from verse 4 of surah 65",
+            "url": "https://medium.com/@jeremyboulter/does-the-quran-encourage-or-even-permit-marriage-to-pubescent-girls-36fa0311bf69",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the flower sermon is associated with which form of buddhism",
+            "content": "to understand the origins of chan or zen buddhism we have to go back to the “flower sermon” this sermon given by the buddha himself is at the heart of",
+            "url": "https://buddhaweekly.com/chan-buddhism-the-flower-sermon-and-the-profound-roots-of-chan-or-zen-the-open-hearted-path/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when was the state of israel established",
+            "content": "jump up to zionists proclaim new state of israel truman recognizes it and hopes for peace the new york times 15 may 1948 the declaration scroll",
+            "url": "https://en.wikipedia.org/wiki/Israeli_Declaration_of_Independence",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which jaina group only allows women to lead a life of semirenunciation",
+            "content": "jain monks and nuns completely renounce property and social relations own nothing and are attached to no one",
+            "url": "https://en.wikipedia.org/wiki/Jainism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which elephantheaded hindu deity is often described as the most beloved",
+            "content": "ganesha also spelled ganesh and also known as ganapati vinayaka pillaiyar and lambodara is one of the bestknown and most worshipped deities in the",
+            "url": "https://en.wikipedia.org/wiki/Ganesha",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which hindu god or goddess is speech incarnate the power of the word and the mother of the vedas",
+            "content": "sarasvati is one of the principal goddesses in hinduism revered as the goddess of knowledge education learning arts speech poetry music purification",
+            "url": "https://en.wikipedia.org/wiki/Saraswati",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which egyptian gods did akhenaten make a determined effort to eliminate",
+            "content": "as a pharaoh akhenaten is noted for abandoning traditional ancient egyptian religion of polytheism and introducing atenism or worship centered around aten",
+            "url": "https://en.wikipedia.org/wiki/Akhenaten",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the maccabean revolt is associated with which ruler",
+            "content": "seleucid king antiochus iv epiphanes launched a massive campaign of repression against the jewish religion in 168 bce the reason he did so is not entirely",
+            "url": "https://en.wikipedia.org/wiki/Maccabean_Revolt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when did the first jaina temples appear",
+            "content": "for over 1000 years the basic layout of a hindu or most jain temples has consisted of a small garbhagriha or sanctuary for the main murti or idol over which",
+            "url": "https://en.wikipedia.org/wiki/Jain_temple",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which is the main form of buddhism in sri lanka",
+            "content": "theravāda is the official religion of sri lanka myanmar and cambodia and the main dominant buddhist variant found in laos and thailand",
+            "url": "https://en.wikipedia.org/wiki/Theravada",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "when was the major shift by greek philosophers who rejected the anthropomorphic view of the divine",
+            "content": "during the sixth century bc various philosophers and other thinkers moved easily around greece especially visiting panhellenic festivals",
+            "url": "https://en.wikipedia.org/wiki/Pre-Socratic_philosophy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what is the most important prayer in judaism",
+            "content": "shema yisrael or the shema is the central affirmation of judaism the prayer expresses belief in the singularity of god that is in gods",
+            "url": "https://www.brandeis.edu/jewish-experience/holidays-religious-traditions/2022/may/shema-explained-kimelman.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sacred literature originated with which of the following jina",
+            "content": "jain literature is primarily divided between the canons of the digambara and śvētāmbara orders these two main sects of jainism do not always agree on which",
+            "url": "https://en.wikipedia.org/wiki/Jain_literature",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "selfsacrifice is an important theme for which buddhist thinker",
+            "content": "self sacrifice entails acting contrary to your gut in order to better someone else this is a kind of cognitive dissonance and is not the",
+            "url": "https://www.reddit.com/r/Buddhism/comments/8up17p/when_is_self_sacrifice_too_much/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which term is usually associated with women in hindu traditions",
+            "content": "the deity for arts music poetry speech culture and learning is goddess saraswati in the hindu tradition",
+            "url": "https://en.wikipedia.org/wiki/Women_in_Hinduism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the term xin refers to which of the following",
+            "content": "xin refers to the physical heart though it also refers to the mind as the ancient chinese believed the heart was the center of human cognition",
+            "url": "https://en.wikipedia.org/wiki/Xin_(heart-mind)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how old was guru nanak when he started to preach the message of the divine name",
+            "content": "nanak is believed to have had a revelatory experience when he was about 30 years old according to a janamsakhi text he disappeared while",
+            "url": "https://www.britannica.com/biography/Guru-Nanak",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the kshatriyas is the caste name assigned to which group",
+            "content": "kshatriya sanskrit क्षत्रिय romanized kṣatriya is one of the four varnas social orders of hindu society and is associated with the warrior aristocracy",
+            "url": "https://en.wikipedia.org/wiki/Kshatriya",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which leader is known for spreading the dharma of nonviolence",
+            "content": "thus for example tolstoyan and gandhism nonviolence is both a philosophy and strategy for social change that rejects the use of violence but at the same time",
+            "url": "https://en.wikipedia.org/wiki/Nonviolence",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "what is the foremost reason for wearing the hijab in the present day",
+            "content": "all claims secular and religious feminist and orthodox that hijab protects women from assault have been proven false many times the first",
+            "url": "https://muslimmatters.org/2022/03/10/the-purpose-of-hijab-reclaiming-the-narrative/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "the sociopolitical alliance between the kshatriyas and the shramanas was rooted in their shared opposition to which of the following",
+            "content": "ans aaccording to the dhramashastra only kshatriyas can become kings but it was also to be noted that important ruling lineages perhaps",
+            "url": "https://cdnbbsr.s3waas.gov.in/s3kv045f32efc7972294882dc50a9c79a8/uploads/2024/06/2024061836.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "who is the woman mystic who exemplified the allconsuming love of the divine",
+            "content": "saint catherine of siena is one of many early christian female mystics who dedicated her life to developing a theology accompanied by extreme ascetic practices",
+            "url": "https://feralfeminisms.com/eat-him-up/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how many books are in the new testament",
+            "content": "the new testament is a collection of 27 christian texts written in koine greek by various authors forming the second major division of the christian bible",
+            "url": "https://en.wikipedia.org/wiki/New_Testament",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which term in the dharma texts of the classical period denotes the four stages of life",
+            "content": "hindu philosophy traditionally observes four stages of life these stages are known as ashramas the idea is to provide structure and guidance",
+            "url": "https://www.hinduamerican.org/blog/what-are-the-four-stages-of-hindu-life/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the widely adored egyptian goddess hathor was depicted as which of the following",
+            "content": "she might be depicted as a cowheaded woman and sometimes she would even be depicted entirely in the form of a cow",
+            "url": "https://garstangmuseum.wordpress.com/2020/08/05/hathor-the-goddess-to-get-a-beer-or-glass-of-milk-with/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when was the old babylonian version of gilgamesh modified into the standard version",
+            "content": "the standard akkadian epic of gilgamesh was composed by a scribe named sînlēqiunninni probably during the middle babylonian period c 1600 c 1155 bc",
+            "url": "https://en.wikipedia.org/wiki/Gilgamesh",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what are the two sacraments that all christians celebrate",
+            "content": "in catholicism marriage is a sacrament that a baptized man and a baptized woman administer to each other through their marriage vows and lifelong partnership",
+            "url": "https://www.britannica.com/list/the-seven-sacraments-of-the-roman-catholic-church",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the oral torah in its written form is known as what",
+            "content": "known as the talmud both the babylonian talmud and the jerusalem talmud have been transmitted in written form to the present day although the more",
+            "url": "https://en.wikipedia.org/wiki/Oral_Torah",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which early battle led to the conversion of mecca",
+            "content": "the conquest of mecca was a military campaign undertaken by muhammad and his companions during the muslimquraysh war they led the early muslims in an",
+            "url": "https://en.wikipedia.org/wiki/Conquest_of_Mecca",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "who is the author of admonitions for women",
+            "content": "ban zhao made the admonitions for women for her daughters lessons for women traditional chinese 女誡 simplified chinese",
+            "url": "https://en.wikipedia.org/wiki/Lessons_for_Women",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the name of the jewish prayer used for mourning since the middle ages",
+            "content": "the term kaddish is often used to refer specifically to the mourners kaddish which is chanted as part of the mourning rituals in judaism in all prayer",
+            "url": "https://en.wikipedia.org/wiki/Kaddish",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what is the term for commentary on the quran which means unveiling",
+            "content": "1135 kashf alasrar the unveiling of the secrets rumi d 1273 wrote a vast amount of mystical poetry in his book mathnawi which some consider",
+            "url": "https://en.wikipedia.org/wiki/Quran",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what does the phrase gurupanth mean within the sikh traditions",
+            "content": "the guruship was also passed onto the guru panth consisting of the khalsa however this means of guruship went into decline following to rise of maharaja",
+            "url": "https://en.wikipedia.org/wiki/Sikh_gurus",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the central prayer in jainism is known by which of the following names",
+            "content": "parasparopagraho jīvānām the function of souls is to help one another is the faiths motto and the namokar mantra is its most common and strongest prayer",
+            "url": "https://en.wikipedia.org/wiki/Jainism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the most important festival for sikhs",
+            "content": "the most important of these are the martyrdom of both the younger sahibzadas of guru gobind singh at fatehgarh sahib",
+            "url": "https://en.wikipedia.org/wiki/List_of_Sikh_festivals",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "to whom did ordinary folk appeal during a drought in the time of the han dynasty",
+            "content": "the dragon was associated with rain and during the han dynasty a dance may be performed during a ritual to appeal for rain at time of drought according",
+            "url": "https://en.wikipedia.org/wiki/History_of_Chinese_dance",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what interior discipline must be adopted to achieve spiritual liberation within sikhism",
+            "content": "it is further laid down in the sikh scripture that the discipline of name must be constantly vitalised by bhakti devotion to god “increase",
+            "url": "https://sikhri.org/articles/essentials-of-sikhism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "how many female renouncers were under the tutelage of chandanbala",
+            "content": "female renouncer ﬁgures is chandanbala the ﬁrst woman to take ordination under mahavira meeting the spiritual mentor on the other hand there are many",
+            "url": "https://dokumen.pub/escaping-the-world-women-renouncers-among-jains-0415500818-9780415500814.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what is the term used to describe the pure as an order of loyal sikhs bound together",
+            "content": "khalsa meaning pure and sovereign is the collective name given by guru gobind singh to those sikhs who have been fully initiated by taking",
+            "url": "https://en.wikipedia.org/wiki/Sikhism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "with which branch of islam are the ismailis are associated",
+            "content": "ismailism is a branch of shia islam the ismaili get their name from their acceptance of imam ismail ibn jafar as the appointed spiritual successor",
+            "url": "https://en.wikipedia.org/wiki/Isma%27ilism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "guru nanak and his successors instructed the use of particular sikh ragas in order to promote which of the following",
+            "content": "the adi granth is the central object of worship in all gurdwaras sikh temples and is accorded the reverence paid a living guru",
+            "url": "https://www.britannica.com/topic/Adi-Granth-Sikh-sacred-scripture",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "after what event did the rabbinical period begin within judaism",
+            "content": "following the fall of the hasmonean kingdom it was directed against the roman administration of iudaea province which according to josephus began with the",
+            "url": "https://en.wikipedia.org/wiki/Rabbinic_Judaism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what hours are set aside as the ambrosial hours for the sikhs",
+            "content": "to summarize the debate many feel that amrit vela is a specific time of day roughly three hours before dawn where one is most attuned to",
+            "url": "https://spiritofthesikh.com/2010/03/27/an-amrit-vela-state-of-mind/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "who declared muhammad a prophet",
+            "content": "according to muslim tradition muhammads wife khadija was the first to believe he was a prophet she was followed by muhammads tenyearold cousin ali ibn",
+            "url": "https://en.wikipedia.org/wiki/Muhammad",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the classic text daodejing is known by what title in english",
+            "content": "daodejing in literary chinese and english translated by legge james wang bi ed via chinese text project legge translation at standard ebooks tao te",
+            "url": "https://en.wikipedia.org/wiki/Tao_Te_Ching",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "during japans occupation of korea 19101945 which of the following was imposed upon the koreans",
+            "content": "after forcing emperor gojong to abdicate in 1907 japan then formally colonized korea with the japankorea treaty of 1910 the territory was then administered",
+            "url": "https://en.wikipedia.org/wiki/Korea_under_Japanese_rule",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "according to the sikh tradition the mul mantar illuminates the nature of what",
+            "content": "the mool mantar became the foundation of sikhism summarizing the key beliefs about gods existence nature and relationship with the world it",
+            "url": "https://dvnetwork.org/page/mool-mantar",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "krishna and rama are incarnations of which hindu god",
+            "content": "from the sun god the incarnation of rama from the moon that of krishna from mars that of narasimha from mercury that of buddha from jupiter that of vamana",
+            "url": "https://en.wikipedia.org/wiki/Dashavatara",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the term mappo is associated with which of the following",
+            "content": "a japanese term meaning the end of the dharma during the medieval period in chinese buddhism see china the buddhist community came to accept that the",
+            "url": "https://www.oxfordreference.com/display/10.1093/oi/authority.20110803100132647",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which monk developed pure land buddhism as we know it today",
+            "content": "pure land developed which was more humanistic this development was led by the monk tàixū 太虛 18901947 who argued that buddhism should benefit humans in",
+            "url": "https://en.wikipedia.org/wiki/Pure_Land_Buddhism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why is mahavira a significant person in the jaina traditions",
+            "content": "according to the universal history in jain texts mahavira underwent many rebirths total 27 births before his birth in the 6thcentury bce",
+            "url": "https://en.wikipedia.org/wiki/Mahavira",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the jataka tales are a collection of which genre of stories",
+            "content": "the jātaka genre is based on the idea that the buddha was able to recollect all his past lives and thus could use these memories to tell a story and illustrate",
+            "url": "https://en.wikipedia.org/wiki/Jataka_tales",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the communidades de base is associated with which of the following",
+            "content": "a base christian community is a group of people who join together to study the bible and then act according to a social justice oriented form of christianity",
+            "url": "https://en.wikipedia.org/wiki/Basic_ecclesial_community",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what is the meaning of the punjabi word sikh",
+            "content": "punjab region of the indian subcontinent based on the revelation of guru nanak the term sikh has its origin in the sanskrit word śiṣya meaning seeker",
+            "url": "https://en.wikipedia.org/wiki/Sikhs",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "what term refers the divine order as an ellembracing higher principle in sikhism",
+            "content": "japji sahib is a universal sacred hymnprayer about god and creation composed by guru nanak dev ji the founder of the sikh faith the japji sahib consists of",
+            "url": "https://ftp.thepearlsf.com/Resources:8578/JapjiSahibInEnglish.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which form of buddhism focuses on social engagement that attracts lay participation",
+            "content": "the term socially engaged buddhism refers to an active involvement by buddhist members in society and its problems practitioners in this",
+            "url": "https://www.wisdomlib.org/buddhism/essay/socially-engaged-buddhism-australia/d/doc1119462.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the name of the bodhisattva in japan known for a commitment to alleviating suffering",
+            "content": "kṣitigarbha is a bodhisattva primarily revered in east asian buddhism and usually depicted as a buddhist monk his name may be translated as earth",
+            "url": "https://en.wikipedia.org/wiki/K%E1%B9%A3itigarbha",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "guru nanak used what term to denote the divine word as part of divine revelation",
+            "content": "he meditates upon nam or sabda the divine word while yet leading life as a householder earning through honest labour sharing his virtuals with the needy",
+            "url": "https://www.thesikhencyclopedia.com/content/god/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "according to hindu tradition which age are we in currently",
+            "content": "we are currently in the 28th kali yuga of the first day of the 51st year of the second parardha in the reign of the 7th vaivasvata manu this is the 51st year",
+            "url": "https://en.wikipedia.org/wiki/Yuga_cycle",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what type of buddhist organization is the bodu bala sena",
+            "content": "the ultranationalist sinhalese buddhist organization has emerged as a troubling presence on the sri lankan political landscape in recent years",
+            "url": "https://www.cnn.com/2014/07/17/world/asia/sri-lanka-bodu-bala-sena-profile/index.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is the timespan for japans closure to christianity and europe",
+            "content": "following a failed christian uprising in 1637 38 all japanese christians were forced to renounce their religion or be executed from 1639 under the",
+            "url": "https://www.vam.ac.uk/articles/japans-encounter-with-europe-1573-1853?srsltid=AfmBOopbXEAmkhkwswnY8xC0J3r-sfyzSsMtt1ZWaJP3sEim4o-Yt1mx",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what does the term matsuri mean",
+            "content": "matsuri are held to express gratitude to nature and the gods to enjoy life and to foster community knowing matsuri is knowing japan",
+            "url": "https://www.ana.co.jp/en/jp/japan-travel-planner/japanese-festival-omatsuri/0000001.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following terms denote the japanese art of flower arranging",
+            "content": "ikebana is the japanese art of flower arrangement it is also known as kadō 華道 way of flowers the origin of ikebana can be traced back to the",
+            "url": "https://en.wikipedia.org/wiki/Ikebana",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how does the egyptian composition ludul bel nemequi i will praise the lord of wisdom portray marduk",
+            "content": "the title of ludlulbelnemeqi translates to english as i will praise the lord of wisdom which in this case means the babylonian god marduk",
+            "url": "https://www.worldhistory.org/article/226/ludlul-bel-nemeqi/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which branch of judaism founded by zacharias frankel is known for its positivehistorical judaism",
+            "content": "he was the founder and the most eminent member of the school of positivehistorical judaism frankel in 1859 published his hebrew introduction to the mishnah",
+            "url": "https://en.wikipedia.org/wiki/Zecharias_Frankel",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "who was the first significant anchorite hermit",
+            "content": "in medieval england the earliest recorded anchorites lived in the 11th century their highest numberaround 200 anchoriteswas recorded in the 13th century",
+            "url": "https://en.wikipedia.org/wiki/Anchorite",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the miraj",
+            "content": "the israʾ and miʿraj in islamic culture it is the name given to the narrations that the prophet muhammad ascended to the sky during a night journey",
+            "url": "https://en.wikipedia.org/wiki/Isra%27_and_Mi%27raj",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which is the largest muslim country in the world with more than 200 million adherents",
+            "content": "about 13 of muslims live in indonesia the largest muslimmajority country 31 of muslims live in south asia the largest population of muslims in the world",
+            "url": "https://en.wikipedia.org/wiki/Muslim_world",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which mystic believed that evil was a distortion that reveals divine love more clearly",
+            "content": "the idea that evil is illusion and not real is modified somewhat by the belief of browning that evil is in the world for the purpose of",
+            "url": "https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=osu1729690501509623&disposition=inline",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in yiddish what is the word for covenant",
+            "content": "covenant 01285beritberithberiyth means covenant treaty compact agreement between two parties first use in gods covenant with noah",
+            "url": "https://www.preceptaustin.org/covenant_definition",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the theological term homoousios means which of the following",
+            "content": "same in being same in essence from ὁμός homós same and οὐσία ousía being or essence is a christian theological term most notably used in the",
+            "url": "https://en.wikipedia.org/wiki/Homoousion",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what does the word islam mean in arabic",
+            "content": "main article god in islam the central concept of islam is tawḥīd arabic توحيد the oneness of god it is usually thought of as a precise monotheism but",
+            "url": "https://en.wikipedia.org/wiki/Islam",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following shuns politics",
+            "content": "slovak prime minister robert fico presented a proposal to amend the countrys constitution fico announced that on monday he would present an official proposal",
+            "url": "https://www.euractiv.com/section/politics/news/fico-shuns-mounting-political-crisis-unveils-plans-to-change-constitution/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "how many times a day is the fatihah recited",
+            "content": "surah fatiha is recited every rakat of every prayer there are fiqh differences when praying in congregation on whether you have recite the it",
+            "url": "https://www.reddit.com/r/islam/comments/12a82gi/how_many_times_do_you_recite_surah_al_fatiha_in/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which are the synoptic gospels",
+            "content": "the synoptic gospels are the first three books of the new testament matthew mark and luke these three books plus john are called the",
+            "url": "https://www.gotquestions.org/Synoptic-Gospels.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the name of the most famous dharmashastras which probably dates from around the first century",
+            "content": "each of these texts exists in many different versions and each is rooted in dharmasutra texts dated to the 1st millennium bce that emerged from kalpa vedanga",
+            "url": "https://en.wikipedia.org/wiki/Dharma%C5%9B%C4%81stra",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which pope promoted the cults of st peter and st paul to bolster authority in rome",
+            "content": "against constantinople damasus promoted the primacy of the see of peter through the cult of the apostles saints peter and paul in the",
+            "url": "https://oxfordre.com/classics/display/10.1093/acrefore/9780199381135.001.0001/acrefore-9780199381135-e-2009?d=%2F10.1093%2Facrefore%2F9780199381135.001.0001%2Facrefore-9780199381135-e-2009&p=emailA8DEmCSojsxZ2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in the jaina traditions bad karma is known by which of the following terms",
+            "content": "for example papa bad karma can be converted into punya good karma as both subtypes belong to the same type of karma upaśamanā state of",
+            "url": "https://en.wikipedia.org/wiki/Karma_in_Jainism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "according to the sumerian king list where does kingship come from",
+            "content": "the sumerian king list abbreviated skl or chronicle of the one monarchy is an ancient literary composition written in sumerian that was likely created and",
+            "url": "https://en.wikipedia.org/wiki/Sumerian_King_List",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what has been a central focus of religious traditions in china and korea",
+            "content": "religion in china is diverse and most chinese people are either nonreligious or practice a combination of buddhism and taoism with a confucian worldview",
+            "url": "https://en.wikipedia.org/wiki/Religion_in_China",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the name of the ten day new year festival that celebrated babylons culture",
+            "content": "babylonian akitu the babylonian festival traditionally started on 4 nissan the priest of ésagila on the third day special craftsmen would create two puppets",
+            "url": "https://en.wikipedia.org/wiki/Akitu",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in islam what is the qiblah",
+            "content": "the qibla arabic قِبْلَة lit direction is the direction towards the kaaba in the sacred mosque in mecca which is used by muslims in various religious",
+            "url": "https://en.wikipedia.org/wiki/Qibla",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the english title for the divination text also known as the yijing",
+            "content": "the i ching or yijing usually translated book of changes or classic of changes is an ancient chinese divination text that is among the oldest of the",
+            "url": "https://en.wikipedia.org/wiki/I_Ching",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what does the term quran literally mean",
+            "content": "the word quran comes from the arabic word qaraa which means to readso the quran is a noun from the verb qaraa",
+            "url": "https://www.wyzant.com/resources/answers/623274/what-is-the-literal-meaning-of-the-word-qur-an",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following does the term arhats refer to",
+            "content": "the arhats or at least the senior arhats came to be widely regarded by theravada buddhists as moving beyond the state of personal freedom to join the",
+            "url": "https://en.wikipedia.org/wiki/Arhat",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is not included in the islamic understanding of jurisprudence",
+            "content": "principles of islamic jurisprudence are traditional methodological principles used in islamic jurisprudence fiqh for deriving the rulings of islamic law",
+            "url": "https://en.wikipedia.org/wiki/Principles_of_Islamic_jurisprudence",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the name of the hindu community associated with environmental activism",
+            "content": "the bishnoi is a religious community centered primarily in the great indian desert or thar desert with a centurieslong legacy of practicing environmental",
+            "url": "https://www.environmentandsociety.org/arcadia/bishnoi-revisiting-religious-environmentalism-and-traditional-forest-and-wildlife-management",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "according to the japanese origin myth who gives birth to amaterasu from his left eye",
+            "content": "amaterasu was born when izanagi washed his left eye tsukuyomi was born when he washed his right eye and susanoo was born when he washed his nose izanagi",
+            "url": "https://en.wikipedia.org/wiki/Amaterasu",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what does the hebrew word mashiach mean",
+            "content": "the word messiah mashiach comes from the verb mashach which means to smear or anoint with oil usually for the purpose of dedicating or consecrating",
+            "url": "https://hebrew4christians.com/Names_of_G-d/Messiah/messiah.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which christian denomination promotes a strippeddown christianity",
+            "content": "christian anarchism is a christian movement in political theology that claims anarchism is inherent in christianity and the gospels",
+            "url": "https://en.wikipedia.org/wiki/Christian_anarchism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the title for the religious and administrative leaders who succeeded the prophet",
+            "content": "abu bakr adopted the title of khalīfaṫ rasūl allāh خَلِيفةُ رَسُولِ اللهِ successor of the messenger of god or simply caliph",
+            "url": "https://en.wikipedia.org/wiki/Rashidun_Caliphate",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "where was the most famous site of the mystery cults in greece",
+            "content": "the eleusinian mysteries were initiations held every year for the cult of demeter and persephone based at the panhellenic sanctuary of eleusis in ancient",
+            "url": "https://en.wikipedia.org/wiki/Eleusinian_Mysteries",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "mani referred to god by which of the following names",
+            "content": "mani was an iranian prophet and the founder of manichaeism a religion most prevalent in late antiquity prophet mani مانی",
+            "url": "https://en.wikipedia.org/wiki/Mani_(prophet)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "in the zoroastrian tradition the term gathas refers to which of the following",
+            "content": "its oldest and most central component are the gathas purported to be the direct teachings of zoroaster and his account of conversations with ahura mazda these",
+            "url": "https://en.wikipedia.org/wiki/Zoroastrianism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "speaking in tongues is a feature of which christian denomination",
+            "content": "today some protestant churches believe that speaking in tongues is still a gift from the holy spirit however other protestant churches reject this idea",
+            "url": "https://www.bbc.co.uk/bitesize/guides/zbp7y9q/revision/12",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which bodhisattva is known for conducting the souls of dead children to salvation",
+            "content": "kṣitigarbha is known for his vow to take responsibility for the instruction of all beings in the six worlds between the death of gautama buddha and the rise of",
+            "url": "https://en.wikipedia.org/wiki/K%E1%B9%A3itigarbha",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the numen of augustus referred to which of the following characteristics",
+            "content": "by p wojciechowski abstract the imperial cult was a local phenomenon religious colleges like other social groups included various forms of the emperor cult in the rituals",
+            "url": "https://ruj.uj.edu.pl/server/api/core/bitstreams/fd4a7f02-c312-4d13-a2ad-30a7492f95c4/content",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "according to jaina traditions what does the term ajiva mean",
+            "content": "ajīva अजीव refers to the “nonsentient matter” and represents one of the seven reals tattvas according to the 11th century jñānārṇava",
+            "url": "https://www.wisdomlib.org/definition/ajiva",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "who is the eighthcentury ce female poet worshipped throughout many south indian temples dedicated to vishnu",
+            "content": "she was worshipped by women in ancient tamilakam for the return of the warriors their husbands with their soul in their body maha lakshmi has mentions in",
+            "url": "https://en.wikipedia.org/wiki/Vaishnavism_in_Ancient_Tamilakam",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when did the babylonian captivity of exile begin",
+            "content": "first campaign 597 bce second campaign 589587 bce aftermath in judah conditions in exile persian restoration",
+            "url": "https://en.wikipedia.org/wiki/Babylonian_captivity",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which tradition is known to promote gradual enlightenment",
+            "content": "recognized in other spiritual disciplines and traditions classical nd the northern chan school and sudden versus gradual enlightenment",
+            "url": "https://en.wikipedia.org/wiki/Sudden_awakening",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which guru was martyred when he refused to embrace islam",
+            "content": "guru tegh bahadur was the ninth sikh guru second sikh martyr and father of the tenth guru gobind singh tegh bahadur was executed on the",
+            "url": "https://www.britannica.com/biography/Guru-Tegh-Bahadur",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what was the most important femalecentered festival in cities throughout greece",
+            "content": "the thesmophoria was a festival held in greek cities in honour of the goddesses demeter and her daughter persephone the name derives from thesmoi or laws",
+            "url": "https://en.wikipedia.org/wiki/Athenian_festivals",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the gospel of john is associated with which theological concept",
+            "content": "because of its special theological character the gospel according to john was considered in ancient times to be the “spiritual gospel” and it wielded a",
+            "url": "https://www.britannica.com/topic/Gospel-According-to-John",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the japanese zen tradition what is zazen",
+            "content": "zazen is a meditative discipline that is typically the primary practice of the zen buddhist tradition",
+            "url": "https://en.wikipedia.org/wiki/Zazen",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in his final work laws plato shifted from cosmology to which of the following issues",
+            "content": "the laws is platos last longest and perhaps most loathed work the book is a conversation on political philosophy between three elderly men",
+            "url": "https://iep.utm.edu/pla-laws/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "ghosa apala and lopamurda all named in the early vedas are which of the following",
+            "content": "the rigveda mentions the names of some learned ladies like viswavara apala and ghosa who composed mantras and attained the rank of rishis the girls were",
+            "url": "https://epgp.inflibnet.ac.in/epgpdata/uploads/epgp_content/S000829IC/P001497/M015107/ET/14600120574ET.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the term vajrya means diamond and which of the following",
+            "content": "the vajra is a legendary and ritualistic tool symbolizing the properties of a diamond indestructibility and a thunderbolt irresistible force",
+            "url": "https://en.wikipedia.org/wiki/Vajra",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the communal meal offered at the place of worship called in sikhism",
+            "content": "in sikhism a langar is the community kitchen of a gurdwara which serves meals to all free of charge regardless of religion caste gender",
+            "url": "https://en.wikipedia.org/wiki/Langar_(Sikhism)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which guru donned the two swords symbolling temporal and spiritual authority",
+            "content": "after his fathers death guru hargobind introduced the two swords of miri and piri symbolizing both worldly political and spiritual authority where",
+            "url": "https://en.wikipedia.org/wiki/Miri_Piri",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how many jinas have appeared during our age",
+            "content": "in each half of the cycle exactly 24 tirthankaras grace this part of the universe there have been infinitely many tirthankaras in the past",
+            "url": "https://en.wikipedia.org/wiki/Tirthankara",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which god supplanted the earlier mesopotamian supreme god enil",
+            "content": "enlil later known as elil and ellil is an ancient mesopotamian god associated with wind air earth and storms he is first attested as the chief deity",
+            "url": "https://en.wikipedia.org/wiki/Enlil",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is a central component of tantric buddhism",
+            "content": "the importance of the theory of emptiness is central to the tantric buddhist view and practice the buddhist emptiness view sees the world as fluid without",
+            "url": "https://en.wikipedia.org/wiki/Vajrayana",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "who is associated with the stigmata and preaching to birds",
+            "content": "saint francis receiving the stigmata is a panel painting in tempera by the italian artist giotto painted around 12951300 for the church of saint francis in",
+            "url": "https://en.wikipedia.org/wiki/Saint_Francis_Receiving_the_Stigmata_(Giotto)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "charism can be defined as which of the following",
+            "content": "the meaning of charism is an extraordinary power as of healing given a christian by the holy spirit for the good of the church",
+            "url": "https://www.merriam-webster.com/dictionary/charism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in jainism what is the cycle that one must liberate oneself from",
+            "content": "the spiritual goal in jainism is to reach moksha for ascetics but for most jain laypersons it is to accumulate good karma that leads to better rebirth and a",
+            "url": "https://en.wikipedia.org/wiki/Jainism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "to which tradition do the antihan rebel group known as the celestial masters belong",
+            "content": "the first organized form of taoism was the way of the celestial masters which developed from the five pecks of rice movement at the end of the 2nd century ce",
+            "url": "https://en.wikipedia.org/wiki/Taoism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which form of buddhism taught the only hope for salvation was in the saving grace of amida",
+            "content": "pure land leaders teach that a person reaches salvation not by individual effort or the accumulation of merit but through faith in the grace of the buddha",
+            "url": "https://www.britannica.com/topic/Buddhism/Pure-Land",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the title dalai lama means which of the following",
+            "content": "dalai lama is a combination of the mongolic word dalai ocean and the tibetan word བླ་མ་ blama master guru",
+            "url": "https://en.wikipedia.org/wiki/Dalai_Lama",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following movements was founded by mordechai kaplan",
+            "content": "orthodox judaism conservative judaism reconstructionist judaism jewish theological seminary of america society for the advancement of judaism",
+            "url": "https://en.wikipedia.org/wiki/Mordecai_Kaplan",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "where is the key to liberation found within sikhism",
+            "content": "they refer to god as waheguru sikhs believe in rebirth and karma meaning their religion is a way of life and that in every action they should remember god",
+            "url": "https://www.bbc.co.uk/bitesize/guides/z4p7xfr/revision/6",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "what is the meaning ofsamyak jnanawithin the jaina traditions",
+            "content": "utmost importance is attached in jain tradition to right approach which is known as samyaktva in a way that is the principal objective for jains and it comprises the trio of samyag darshan the right perception samyag jnana the right knowledge and sam yak charitra the right practice",
+            "url": "https://jainworld.jainworld.com/jainbooks/images/22/SAMYAKTVA,_the_basis_of_Jai.htm",
+            "engine": "braveAPI"
+        }
+    ]
+}

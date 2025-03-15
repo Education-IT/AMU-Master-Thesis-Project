@@ -1,0 +1,15 @@
+curl -s --compressed "https://api.search.brave.com/res/v1/web/search?q=a+student+makes+a+fruit+drink+by+stirring+a+powdered+mix+into+cold+water+why+is+the+fruit+drink+a+solution&count=20&text_decorations=false&result_filter=web&extra_snippets=true" \
+  -H "Accept: application/json" \
+  -H "Accept-Encoding: gzip" \
+  -H "X-Subscription-Token: <token>"
+
+
+curl -s --compressed "https://api.search.brave.com/res/v1/web/search?q=UAM+University&count=20&text_decorations=false&result_filter=web&country=pl" \
+  -H "Accept: application/json" \
+  -H "Accept-Encoding: gzip" \
+  -H "X-Subscription-Token: <token>"
+
+
+
+curl -s --compressed "https://api.search.brave.com/res/v1/web/search?q=UAM+University&count=20&text_decorations=0&result_filter=discussions" -H "Accept: application/json" -H "Accept Encoding: gzip" -H "X-Subscription-Token: <token>"
+

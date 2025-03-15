@@ -1,0 +1,1915 @@
+{
+    "task": "wnli",
+    "dataset": "web_access_wnli_final",
+    "questions": 71,
+    "noWebContextCount": 1,
+    "contaminated_queries": 64,
+    "contaminated_urls": 454,
+    "valid_urls": 70,
+    "avg_contaminated_before_valid": 7.485714285714286,
+    "contaminated_data_ratio": 0.8664122137404581,
+    "most_contaminated_urls": {
+        "cs.nyu.edu": 72,
+        "josherich.github.io": 27,
+        "qz.com": 21,
+        "wandb.ai": 11,
+        "cdn.aaai.org": 6
+    },
+    "noWebContext": [
+        "Tatyana knew that Grandma always enjoyed serving an abundance of food to her guests. Now Tatyana watched as Grandma gathered Tatyana's small mother into a wide, scrawny embrace and then propelled her to the table, lifting her shawl from her shoulders, seating her in the place of honor, and saying simply: \"There's plenty.\""
+    ],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "the delivery truck zoomed by the school bus because it was going so slow",
+            "content": "the delivery truck zoomed by the school bus because it was going so fastslow what was going so fastslow answers the truckthe bus",
+            "url": "https://cs.nyu.edu/davise/papers/WinogradSchemas/WSCollection.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the delivery truck zoomed by the school bus because it was going so slow",
+            "content": "the delivery truck zoomed by the school bus because it was going so slow q what was going so slow answers the truckthe bus 7 frank",
+            "url": "https://qz.com/745104/easy-questions-that-computers-are-terrible-at-answering",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the delivery truck zoomed by the school bus because it was going so slow",
+            "content": "by d golovin the delivery truck zoomed by the school bus because it was going so slow the question is “what was going slow” ie the task is to disambiguate to which",
+            "url": "https://ceur-ws.org/Vol-2052/paper10.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the delivery truck zoomed by the school bus because it was going so slow",
+            "content": "the delivery truck zoomed by the school bus because it was going so fastslow what was going so fastslow answers the truckthe bus",
+            "url": "https://cs.nyu.edu/davise/papers/WSarchive/WS-09-16-2011.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the delivery truck zoomed by the school bus because it was going so slow",
+            "content": "the delivery truck zoomed by the school bus because it was going so slow again we interpret these sentences easily without ambiguity a",
+            "url": "https://mindmatters.ai/2019/06/ai-is-no-match-for-ambiguity/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the delivery truck zoomed by the school bus because it was going so slow",
+            "content": "by hj levesque the delivery truck zoomed by the school bus because it was going so what was going answer 0 the delivery truck answer 1 the school bus special",
+            "url": "https://scispace.com/pdf/the-winograd-schema-challenge-1nfu1ajcl2.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "the delivery truck zoomed by the school bus because it was going so slow",
+            "content": "the racecar zoomed by the school bus because it was going so what was going so answer 0 the racecar answer 1 the school bus special fast alternate slow",
+            "url": "https://cdn.aaai.org/ocs/2502/2502-10882-1-PB.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "the delivery truck zoomed by the school bus because it was going so slow",
+            "content": "knowing is only half the battle the delivery truck zoomed by the school bus because it was going so fast this schema is a good example of how knowledge",
+            "url": "https://artistdetective.wordpress.com/2016/06/15/how-to-teach-a-computer-common-sense/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "the delivery truck zoomed by the school bus because it was going so slow",
+            "content": "the delivery truck zoomed by the school bus because it was going so h i answer 0 the delivery truck answer 1 the school bus special fast alternate slow",
+            "url": "http://commonsensereasoning.org/2011/papers/Levesque.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "when they had eventually calmed down a bit and had gotten home mr farley put the magic pebble in an iron safe some day they might want to use it but really for now what more could they wish for",
+            "content": "they had eventually calmed down a bit and had gotten home mr farley put the magic pebble in an iron safe some day they might want to use txt1 pron",
+            "url": "https://cs.nyu.edu/~davise/papers/PDPChallenge.xml",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "when they had eventually calmed down a bit and had gotten home mr farley put the magic pebble in an iron safe some day they might want to use it but really for now what more could they wish for",
+            "content": "they had eventually calmed down a bit and had gotten home mr farley put the magic pebble in an iron safe some day they might want to use txt1 pron",
+            "url": "https://cs.nyu.edu/faculty/davise/papers/WinogradSchemas/PDPChallenge2016.xml",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "beth didnt get angry with sally who had cut her off because she stopped and counted to ten",
+            "content": "beth didnt get angry with sally who had cut her off because she stopped and apologized sally stopped and apologized 33 1 there is a pillar between me and",
+            "url": "https://josherich.github.io/nlp-dataset-explorer/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "beth didnt get angry with sally who had cut her off because she stopped and counted to ten",
+            "content": "beth didnt get angry with sally who had cut her off because she stopped and counted to tenapologized who counted to tenapologized",
+            "url": "https://cs.nyu.edu/davise/papers/WSOld.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "beth didnt get angry with sally who had cut her off because she stopped and counted to ten",
+            "content": "beth didnt get angry with sally who had cut her off because she stopped and counted to tenapologized who counted to tenapologized",
+            "url": "https://cs.nyu.edu/davise/papers/WSarchive/WS-08-19-2013.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "bob collapsed on the sidewalk soon he saw carl coming to help he was very ill",
+            "content": "q who was impressive answers johnthe juggler 59 bob collapsed on the sidewalk soon he saw carl coming to help he was very concerned",
+            "url": "https://qz.com/745104/easy-questions-that-computers-are-terrible-at-answering",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "bob collapsed on the sidewalk soon he saw carl coming to help he was very ill",
+            "content": "bob collapsed on the sidewalk soon he saw carl coming to help he was very illconcerned who was illconcerned answers bobcarl sam and",
+            "url": "https://cs.nyu.edu/davise/papers/WSOld.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "bob collapsed on the sidewalk soon he saw carl coming to help he was very ill",
+            "content": "bob collapsed on the sidewalk soon he saw carl coming to help he was very illconcerned who was illconcerned answers bobcarl sam and",
+            "url": "https://cs.nyu.edu/davise/papers/WinogradSchemas/WSCollection.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "bernard who had not told the government official that he was less than 21 when he filed for a homestead claim did not consider that he had done anything dishonest still anyone who knew that he was 19 years old could take his claim away from him",
+            "content": "homestead claim did not consider that he had done anything dishonest still anyone who knew that he was 19 years old could take his claim away from him",
+            "url": "https://wandb.ai/stacey/winograd/reports/Work-in-progress--Vmlldzo4NDYzMjE",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "bernard who had not told the government official that he was less than 21 when he filed for a homestead claim did not consider that he had done anything dishonest still anyone who knew that he was 19 years old could take his claim away from him",
+            "content": "homestead claim did not consider that he had done anything dishonest still anyone who knew that he was 19 years old could take his claim away from him",
+            "url": "https://josherich.github.io/nlp-dataset-explorer/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "bernard who had not told the government official that he was less than 21 when he filed for a homestead claim did not consider that he had done anything dishonest still anyone who knew that he was 19 years old could take his claim away from him",
+            "content": "than 21 when he filed for a homestead claim did not consider that he had done anything dishonest still anyone who knew that he was 19 years old could take",
+            "url": "https://cs.nyu.edu/~davise/papers/PDPChallenge.xml",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "bernard who had not told the government official that he was less than 21 when he filed for a homestead claim did not consider that he had done anything dishonest still anyone who knew that he was 19 years old could take his claim away from him",
+            "content": "than 21 when he filed for a homestead claim did not consider that he had done anything dishonest still anyone who knew that he was 19 years old could take",
+            "url": "https://cs.nyu.edu/faculty/davise/papers/WinogradSchemas/PDPChallenge2016.xml",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "i tried to paint a picture of an orchard with lemons in the lemon trees but they came out looking more like light bulbs",
+            "content": "i tried to paint a picture of an orchard with lemons in the lemon trees but they came out looking more like light bulbs i tried to paint a picture of",
+            "url": "https://wandb.ai/stacey/winograd/reports/Work-in-progress--Vmlldzo4NDYzMjE",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "i tried to paint a picture of an orchard with lemons in the lemon trees but they came out looking more like light bulbs",
+            "content": "i tried to paint a picture of an orchard with lemons in the lemon trees but they came out looking more like telephone poles the lemons came out looking more",
+            "url": "https://josherich.github.io/nlp-dataset-explorer/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "i tried to paint a picture of an orchard with lemons in the lemon trees but they came out looking more like light bulbs",
+            "content": "text i tried to paint a picture of an orchard lemons in the lemon trees but they came out looking more like light bulbs telephone poles",
+            "url": "https://hal.science/hal-02281982v1/document",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "i tried to paint a picture of an orchard with lemons in the lemon trees but they came out looking more like light bulbs",
+            "content": "i tried to paint a picture of an orchard with lemons in the lemon trees but they came out looking more like light bulbs telephone poles",
+            "url": "https://cs.nyu.edu/davise/papers/WSarchive/WS-08-19-2013.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "i tried to paint a picture of an orchard with lemons in the lemon trees but they came out looking more like light bulbs",
+            "content": "i tried to paint a picture of an orchard with lemons in the lemon trees but they came out looking more like light bulbs telephone poles",
+            "url": "https://cs.nyu.edu/davise/papers/WinogradSchemas/WSCollection.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sam took french classes from adam because he was known to speak it fluently",
+            "content": "sam took french classes from adam because he was known to speak it fluently sam was known to speak it fluently 5 i tried to paint a picture of",
+            "url": "https://wandb.ai/stacey/winograd/reports/Work-in-progress--Vmlldzo4NDYzMjE",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sam took french classes from adam because he was known to speak it fluently",
+            "content": "premise sam took french classes from adam because he was known to speak it fluently question who was known winograd schema challenge collection by",
+            "url": "https://pdfs.semanticscholar.org/7ddc/6ef3048ceb8dee4ee5b2231ac0bf8849e670.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "sam took french classes from adam because he was known to speak it fluently",
+            "content": "sam took french classes from adam because he was eagerknown to speak it fluently who was eagerknown to speak french fluently",
+            "url": "https://cs.nyu.edu/davise/papers/WSOld.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "sam took french classes from adam because he was known to speak it fluently",
+            "content": "sam took french classes from adam because he was eagerknown to speak it fluently who was eagerknown to speak french fluently",
+            "url": "https://cs.nyu.edu/davise/papers/WinogradSchemas/WSCollection.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "sam took french classes from adam because he was known to speak it fluently",
+            "content": "and the label is 0 for example sam took french classes from adam because he was known to speak it fluently sam was known to speak it fluently when",
+            "url": "https://wandb.ai/stacey/winograd/reports/Who-Is-Them-Text-Disambiguation-With-Transformers--VmlldzoxMDU1NTc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "look there is a minnow swimming right below that duck it had better get away to safety fast",
+            "content": "what should be betterunnecessary look there is a sharkminnow swimming right below that duck it had better get away to safety fast",
+            "url": "https://www.vice.com/en/article/this-alternative-to-the-turing-test-aims-to-find-common-sense-in-ai/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "look there is a minnow swimming right below that duck it had better get away to safety fast",
+            "content": "look there is a minnow swimming right below that duck it had better get away to safety fast the duck had better get away to safety fast 9 0 bernard who",
+            "url": "https://josherich.github.io/nlp-dataset-explorer/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "look there is a minnow swimming right below that duck it had better get away to safety fast",
+            "content": "look there is a minnow swimming right below that duck it had better get away to safety fast sentence 2 the duck had better get away to safety fast",
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3689217.3690621",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "look there is a minnow swimming right below that duck it had better get away to safety fast",
+            "content": "there is a sharkminnow swimming right below that duck it had better get away to safety fast davis et al 2015 ex93 what needs to get away to safety",
+            "url": "http://www.linguist.univ-paris-diderot.fr/~amsili/talks/slides_AmsiliSeminck_Corbon2017.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "look there is a minnow swimming right below that duck it had better get away to safety fast",
+            "content": "look there is a sharkminnow swimming right below that duck it had better get away to safety fast what needs to get away to safety",
+            "url": "https://cs.nyu.edu/davise/papers/WSOld.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane gave joan candy because she was hungry",
+            "content": "jane gave joan candy because she was hungry jane was hungry 8 madonna fired her trainer because she slept with her boyfriend she slept with the trainers",
+            "url": "https://wandb.ai/stacey/winograd/reports/Work-in-progress--Vmlldzo4NDYzMjE",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "jane gave joan candy because she was hungry",
+            "content": "jane gave joan candy because she waswasnt hungry who waswasnt hungry answers joanjane comment from the interesting collection",
+            "url": "https://cs.nyu.edu/davise/papers/WSOld.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "jane gave joan candy because she was hungry",
+            "content": "jane gave joan candy because she was hungry jane gave joan candy because she was not hungry i chose to approach this not as the test of intelligence that",
+            "url": "https://artistdetective.wordpress.com/2016/06/15/how-to-teach-a-computer-common-sense/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "jane gave joan candy because she was hungry",
+            "content": "what is too smalllarge answers the suitcasethe trophy jane gave joan candy because she waswasnt hungry who was",
+            "url": "https://www.vox.com/2014/11/30/7309879/turing-test",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "jane gave joan candy because she was hungry",
+            "content": "jane gave joan candy because she waswasnt hungry who waswasnt hungry answers joanjane comment from the interesting collection",
+            "url": "https://cs.nyu.edu/davise/papers/WinogradSchemas/WSCollection.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "jane gave joan candy because she was hungry",
+            "content": "jane gave joan candy because she was hungry jane gave joan candy because she was not hungry i chose to approach this not as the test of intelligence",
+            "url": "https://artistdetective.wordpress.com/category/winograd-schema-challenge/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "jane gave joan candy because she was hungry",
+            "content": "12 anaphora do this such things doing so jane gave joan candy because she was hungry jane",
+            "url": "https://www.site.uottawa.ca/tanka/files/complexities.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "jane gave joan candy because she was hungry",
+            "content": "jane gave joan candy because she waswasnt hungry who waswasnt but yes im using standard colemak as i have been since 2008 offline 0",
+            "url": "https://forum.colemak.com/topic/2429-invasion-of-the-forum-bots/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "no one joins facebook to be sad and lonely but a new study from the university of wisconsin psychologist george lincoln argues that thats exactly how it makes us feel",
+            "content": "no one joins facebook to be sad and lonely but a new study from the university of michigan psychologist ethan kross argues that thats exactly how it makes",
+            "url": "https://cdnsm5-ss19.sharpschool.com/UserFiles/Servers/Server_26809189/File/Departments/Student%20Support%20Services/Behavioral,%20Social%20and%20Emotional%20Health/2%20-%20How%20Facebook%20Makes%20Us%20Unhappy.docx",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "no one joins facebook to be sad and lonely but a new study from the university of wisconsin psychologist george lincoln argues that thats exactly how it makes us feel",
+            "content": "no one joins facebook to be sad and lonely but a new study from the university of wisconsin psychologist george lincoln argues that thats exactly how it makes",
+            "url": "https://josherich.github.io/nlp-dataset-explorer/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "no one joins facebook to be sad and lonely but a new study from the university of wisconsin psychologist george lincoln argues that thats exactly how it makes us feel",
+            "content": "no one joins facebook to be sad and lonely but a new study from the university of wisconsin psychologist george lincoln argues that thats exactly how",
+            "url": "https://cs.nyu.edu/~davise/papers/PDPChallenge.xml",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "no one joins facebook to be sad and lonely but a new study from the university of wisconsin psychologist george lincoln argues that thats exactly how it makes us feel",
+            "content": "no one joins facebook to be sad and lonely but a new study from the university of wisconsin psychologist george lincoln argues that thats exactly how",
+            "url": "https://cs.nyu.edu/faculty/davise/papers/WinogradSchemas/PDPChallenge2016.xml",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "mr moncrieff visited chesters luxurious new york apartment thinking that it belonged to his son edward the result was that mr moncrieff has decided to cancel edwards allowance on the ground that he no longer requires his financial support",
+            "content": "the result was that mr moncrieff has decided to cancel edwards allowance on the ground that he no longer requires his financial support he no longer requires",
+            "url": "https://josherich.github.io/nlp-dataset-explorer/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "mr moncrieff visited chesters luxurious new york apartment thinking that it belonged to his son edward the result was that mr moncrieff has decided to cancel edwards allowance on the ground that he no longer requires his financial support",
+            "content": "mr moncrieff visited chesters luxurious new york apartment thinking that it belonged to his son edward the result was that mr moncrieff has decided to",
+            "url": "https://cs.nyu.edu/~davise/papers/PDPChallenge.xml",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "mr moncrieff visited chesters luxurious new york apartment thinking that it belonged to his son edward the result was that mr moncrieff has decided to cancel edwards allowance on the ground that he no longer requires his financial support",
+            "content": "mr moncrieff visited chesters luxurious new york apartment thinking that it belonged to his son edward the result was that mr moncrieff has decided to",
+            "url": "https://cs.nyu.edu/faculty/davise/papers/WinogradSchemas/PDPChallenge2016.xml",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "bernard who had not told the government official that he was less than 21 when he filed for a homestead claim did not consider that he had done anything dishonest still anyone who knew that he was 19 years old could take his claim away from him",
+            "content": "homestead claim did not consider that he had done anything dishonest still anyone who knew that he was 19 years old could take his claim away from him",
+            "url": "https://wandb.ai/stacey/winograd/reports/Work-in-progress--Vmlldzo4NDYzMjE",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "bernard who had not told the government official that he was less than 21 when he filed for a homestead claim did not consider that he had done anything dishonest still anyone who knew that he was 19 years old could take his claim away from him",
+            "content": "homestead claim did not consider that he had done anything dishonest still anyone who knew that he was 19 years old could take his claim away from him",
+            "url": "https://josherich.github.io/nlp-dataset-explorer/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "bernard who had not told the government official that he was less than 21 when he filed for a homestead claim did not consider that he had done anything dishonest still anyone who knew that he was 19 years old could take his claim away from him",
+            "content": "than 21 when he filed for a homestead claim did not consider that he had done anything dishonest still anyone who knew that he was 19 years old could take",
+            "url": "https://cs.nyu.edu/~davise/papers/PDPChallenge.xml",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "bernard who had not told the government official that he was less than 21 when he filed for a homestead claim did not consider that he had done anything dishonest still anyone who knew that he was 19 years old could take his claim away from him",
+            "content": "than 21 when he filed for a homestead claim did not consider that he had done anything dishonest still anyone who knew that he was 19 years old could take",
+            "url": "https://cs.nyu.edu/faculty/davise/papers/WinogradSchemas/PDPChallenge2016.xml",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "mark heard steves feet going down the ladder the door of the shop closed after him he ran to look out the window",
+            "content": "mark heard steves feet going down the ladder the door of the shop closed after him txt1 pron he pron txt2 ran to look out the window txt2",
+            "url": "https://cs.nyu.edu/~davise/papers/PDPChallenge.xml",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "by rolling over in her upper berth tatyana could look over the edge of it and see her mother plainly how very small and straight and rigid she lay in the bunk below her eyes were closed but tatyana doubted if she slept",
+            "content": "by rolling over in her upper berth tatyana could look over the edge of it and see her mother plainly her eyes were closed but tatyana doubted if she slept",
+            "url": "https://josherich.github.io/nlp-dataset-explorer/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "alice looked for her friend jade in the crowd since she always wears a red turban alice spotted her quickly",
+            "content": "the bottle was empty 67 0 alice looked for her friend jade in the crowd since she always wears a red turban alice spotted her quickly",
+            "url": "https://josherich.github.io/nlp-dataset-explorer/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the man couldnt lift his son because he was so heavy",
+            "content": "8 the man couldnt lift his son because he was so weak q who was weak answers the manthe son",
+            "url": "https://qz.com/745104/easy-questions-that-computers-are-terrible-at-answering",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the man couldnt lift his son because he was so heavy",
+            "content": "the man couldnt lift his son because he was so h i who was h i answer 0 the man answer 1 his son special weak alternate heavy at the other extreme",
+            "url": "https://cdn.aaai.org/ocs/4492/4492-21843-1-PB.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "tatyana knew that grandma always enjoyed serving an abundance of food to her guests now tatyana watched as grandma gathered tatyanas small mother into a wide scrawny embrace and then propelled her to the table lifting her shawl from her shoulders seating her in the place of honor and saying simply theres plenty",
+            "content": "serving an abundance of food to her guests now tatyana watched as grandma gathered tatyanas small mother into a wide scrawny embrace",
+            "url": "https://answers.guidedtrack.com/310/color-a-single-word-in-a-question-html-tag-is-buggy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "tatyana knew that grandma always enjoyed serving an abundance of food to her guests now tatyana watched as grandma gathered tatyanas small mother into a wide scrawny embrace and then propelled her to the table lifting her shawl from her shoulders seating her in the place of honor and saying simply theres plenty",
+            "content": "grandma gathered tatyanas small mother into a wide scrawny embrace and then propelled tatyana to the table 21 0 ann asked mary what time the library closes",
+            "url": "https://josherich.github.io/nlp-dataset-explorer/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "tatyana knew that grandma always enjoyed serving an abundance of food to her guests now tatyana watched as grandma gathered tatyanas small mother into a wide scrawny embrace and then propelled her to the table lifting her shawl from her shoulders seating her in the place of honor and saying simply theres plenty",
+            "content": "here is one of the exemplary problems tatyana knew that grandma always enjoyed serving an abundance of food to her guests now tatyana watched",
+            "url": "http://haleyai.com/wordpress/2018/02/11/parsing-winograd-challenges/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "tatyana knew that grandma always enjoyed serving an abundance of food to her guests now tatyana watched as grandma gathered tatyanas small mother into a wide scrawny embrace and then propelled her to the table lifting her shawl from her shoulders seating her in the place of honor and saying simply theres plenty",
+            "content": "tatyana knew that grandma always enjoyed serving an abundance of food to her guests now tatyana watched as grandma gathered tatyanas small mother into a wide",
+            "url": "https://dash.harvard.edu/server/api/core/bitstreams/339c8a6a-890e-4696-acbe-b543bd07b032/content",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "tatyana knew that grandma always enjoyed serving an abundance of food to her guests now tatyana watched as grandma gathered tatyanas small mother into a wide scrawny embrace and then propelled her to the table lifting her shawl from her shoulders seating her in the place of honor and saying simply theres plenty",
+            "content": "tatyana knew that grandma always enjoyed serving an abundance of food to her guests now tatyana watched as grandma gathered tatyanas small mother into a wide",
+            "url": "https://dash.harvard.edu/bitstreams/339c8a6a-890e-4696-acbe-b543bd07b032/download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "tatyana knew that grandma always enjoyed serving an abundance of food to her guests now tatyana watched as grandma gathered tatyanas small mother into a wide scrawny embrace and then propelled her to the table lifting her shawl from her shoulders seating her in the place of honor and saying simply theres plenty",
+            "content": "him always enjoyed serving an abundance of food to her guests now tatyana watched as grandma gathered tatyanas small mother into a wide scrawny embrace",
+            "url": "https://cs.nyu.edu/faculty/davise/papers/WinogradSchemas/PDPChallenge2016.xml",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "grant worked hard to harvest his beans so he and his family would have enough to eat that winter his friend henry let him stack them in his barn where they would dry later he and tatyana would shell them and cook them for their sunday dinners",
+            "content": "grant worked hard to harvest his beans so he and his family would have enough his friend henry let him stack them in his barn where they would dry",
+            "url": "https://josherich.github.io/nlp-dataset-explorer/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "emma did not pass the ball to janie although she was open",
+            "content": "did not pass the ball to emma although she saw that she was open when switching the candidates emma and janie the correct answer changes as well from emma",
+            "url": "https://teaching.bb-ai.net/Student-Projects/Winograd-Challenge-Papers/Trichelair2018-Evaluation-of-commonsense-reasoning.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "emma did not pass the ball to janie although she was open",
+            "content": "emma did not pass the ball to janie although she was opensaw that she was open who was opensaw that the other player was open",
+            "url": "https://cs.nyu.edu/davise/papers/WSOld.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "emma did not pass the ball to janie although she was open",
+            "content": "keith fired blaine but he did not regret keith fired blaine although he is diligent emma did not pass the ball to janie although she was open emma did not",
+            "url": "https://personal.utdallas.edu/~vince/papers/emnlp12.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "emma did not pass the ball to janie although she was open",
+            "content": "emma did not pass the ball to janie although she was opensaw that she was open who was opensaw that the other player was open",
+            "url": "https://cs.nyu.edu/davise/papers/WinogradSchemas/WSCollection.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "emma did not pass the ball to janie although she was open",
+            "content": "what does this look like in practice an original sentence in winograd might be “emma did not pass the ball to janie although she saw that she",
+            "url": "https://jack-clark.net/2018/11/12/import-ai-120-the-winograd-test-for-commonsense-reasoning-is-not-as-hard-as-we-thought-tencent-learns-to-spot-malware-with-aidroid-dataand-what-a-million-people-think-about-the-trolley-problem/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "they broadcast an announcement but a subway came into the station and i couldnt hear it",
+            "content": "they broadcast an announcement but a subway came into the station and i couldnt hear it i couldnt hear the subway 58 1 fred and alice had very warm",
+            "url": "https://josherich.github.io/nlp-dataset-explorer/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "they broadcast an announcement but a subway came into the station and i couldnt hear it",
+            "content": "they broadcast an announcement but a subway came into the station and i couldnt hear over it advertisement q what couldnt i hear over",
+            "url": "https://qz.com/745104/easy-questions-that-computers-are-terrible-at-answering",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "they broadcast an announcement but a subway came into the station and i couldnt hear it",
+            "content": "they broadcast an announcement but a subway came into the station and i couldnt hearhear over it what couldnt i hearhear over",
+            "url": "https://cs.nyu.edu/davise/papers/WSarchive/WS-09-16-2011.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when the sponsors of the bill got to the town hall they were surprised to find that the room was full of opponents they were very much in the majority",
+            "content": "when the sponsors of the bill got to the town hall they were surprised to find that the room was full of opponents they were very much in the majority",
+            "url": "https://wandb.ai/stacey/winograd/reports/Work-in-progress--Vmlldzo4NDYzMjE",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "although they ran at about the same speed sue beat sally because she had such a good start",
+            "content": "although they ran at about the same speed sue beat sally because she had such a bad start q who had a bad start answers suesally 13",
+            "url": "https://qz.com/745104/easy-questions-that-computers-are-terrible-at-answering",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "although they ran at about the same speed sue beat sally because she had such a good start",
+            "content": "although they ran at about the same speed sue beat sally because she had such a good start sally had such a good start 0 3 the large ball crashed right",
+            "url": "https://wandb.ai/stacey/winograd/reports/Work-in-progress--Vmlldzo4NDYzMjE",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "although they ran at about the same speed sue beat sally because she had such a good start",
+            "content": "although they ran at about the same speed sue beat sally because she had such a goodbad start who had a goodbad start answers sue",
+            "url": "https://cs.nyu.edu/davise/papers/WSOld.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "although they ran at about the same speed sue beat sally because she had such a good start",
+            "content": "although they ran at about the same speed sue beat sally because she had such a goodbad start who had a goodbad start answers sue",
+            "url": "https://cs.nyu.edu/davise/papers/WinogradSchemas/WSCollection.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "although they ran at about the same speed sue beat sally because she had such a good start",
+            "content": "by hj levesque although they ran at about the same speed sue beat sally because she had such a goodbad start who had a goodbad start answers suesally 4 the",
+            "url": "https://scispace.com/pdf/the-winograd-schema-challenge-1nfu1ajcl2.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "although they ran at about the same speed sue beat sally because she had such a good start",
+            "content": "although they ran at about the same speed sue beat sally because she had such a goodbad start who had a goodbad start the sculpture rolled off the",
+            "url": "https://courses.cs.washington.edu/courses/cse446/16sp/slides/week_1_introduction.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "although they ran at about the same speed sue beat sally because she had such a good start",
+            "content": "although they ran at about the same speed sue beat sally because she had such a goodbad start who had a goodbad start answers suesally 4 the",
+            "url": "https://cdn.aaai.org/ocs/4492/4492-21843-1-PB.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "i tried to paint a picture of an orchard with lemons in the lemon trees but they came out looking more like telephone poles",
+            "content": "i tried to paint a picture of an orchard with lemons in the lemon trees but they came out looking more like light bulbs the lemon trees came out looking more",
+            "url": "https://josherich.github.io/nlp-dataset-explorer/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "i tried to paint a picture of an orchard with lemons in the lemon trees but they came out looking more like telephone poles",
+            "content": "text i tried to paint a picture of an orchard with lemons in the lemon trees but they came out looking more like light bulbs telephone",
+            "url": "https://hal.science/hal-02281982v1/document",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "i tried to paint a picture of an orchard with lemons in the lemon trees but they came out looking more like telephone poles",
+            "content": "by m gleize text i tried to paint a picture of an orchard with lemons in the lemon trees but they came out looking more like light bulbs telephone",
+            "url": "http://www.lrec-conf.org/proceedings/lrec2014/pdf/1168_Paper.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "susan knew that anns son had been in a car accident so she told her about it",
+            "content": "susan knew that anns son had been in a car accident so she told her about it advertisement q who told the other about the accident",
+            "url": "https://qz.com/745104/easy-questions-that-computers-are-terrible-at-answering",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "susan knew that anns son had been in a car accident so she told her about it",
+            "content": "susan knew that anns son had been in a car accident sobecause she told her about it who told the other about the accident answers susanann",
+            "url": "http://www.linguist.univ-paris-diderot.fr/~amsili/Ens17/pdf/poly-anasem-1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "ann asked mary what time the library closes because she had forgotten",
+            "content": "38 ann asked mary what time the library closes because she had forgotten q who had forgotten answers maryann 39",
+            "url": "https://qz.com/745104/easy-questions-that-computers-are-terrible-at-answering",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "ann asked mary what time the library closes because she had forgotten",
+            "content": "ann asked mary what time the library closes butbecause she had forgotten who had forgotten answersmaryann i took the water bottle",
+            "url": "https://cs.nyu.edu/davise/papers/WSOld.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "ann asked mary what time the library closes because she had forgotten",
+            "content": "ann asked mary what time the library closes butbecause she had forgotten who had forgotten answersmaryann i took the water bottle",
+            "url": "https://cs.nyu.edu/davise/papers/WSarchive/WS-09-16-2011.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "ann asked mary what time the library closes because she had forgotten",
+            "content": "who had forgotten based on the sentence ann asked mary what time the library closes but she had forgotten then she can easily resolve she to mary this",
+            "url": "https://www.public.asu.edu/~cbaral/papers/cs2015winograd.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "ann asked mary what time the library closes because she had forgotten",
+            "content": "ann asked mary what time the library closes butbecause she had forgotten who had forgotten sam broke both his ankles and hes walking with",
+            "url": "https://www.vice.com/en/article/this-alternative-to-the-turing-test-aims-to-find-common-sense-in-ai/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "ann asked mary what time the library closes because she had forgotten",
+            "content": "who had forgotten based on the sentence ann asked mary what time the library closes but she had forgotten then she can easily resolve she to mary this",
+            "url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=5e342791a70254b75d030b5787a051f614ada5be",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sam tried to paint a picture of shepherds with sheep but they ended up looking more like golfers",
+            "content": "sam tried to paint a picture of shepherds with sheep but they ended up looking more like golfers what looked like golfers a the shepherds",
+            "url": "https://www.newyorker.com/tech/annals-of-technology/why-cant-my-computer-understand-me",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sam tried to paint a picture of shepherds with sheep but they ended up looking more like golfers",
+            "content": "“sam tried to paint a picture of shepherds with sheep but they ended up looking more like dogsgolfers” what looked like dogsgolfers",
+            "url": "https://tylercecil.com/posts/2020/03/10/b-winograd.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sam tried to paint a picture of shepherds with sheep but they ended up looking more like golfers",
+            "content": "sam tried to paint a picture of shepherds with sheep but they ended up looking more like golfers the sheep ended up looking more like golfers 48 1 fred",
+            "url": "https://josherich.github.io/nlp-dataset-explorer/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "sam tried to paint a picture of shepherds with sheep but they ended up looking more like golfers",
+            "content": "sam tried to paint a picture of shepherds with sheep but they ended up looking more like dogsgolfers what looked like dogsgolfers",
+            "url": "https://cs.nyu.edu/davise/papers/WSarchive/WS-08-19-2013.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "sam tried to paint a picture of shepherds with sheep but they ended up looking more like golfers",
+            "content": "sam tried to paint a picture of shepherds with sheep but they ended up looking more like dogsgolfers what looked like dogsgolfers",
+            "url": "https://cs.nyu.edu/davise/papers/WSarchive/WS-09-16-2011.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "sam tried to paint a picture of shepherds with sheep but they ended up looking more like golfers",
+            "content": "by hj levesque sam tried to paint a picture of shepherds with sheep but they ended up looking more like golfers what looked like golfers the shepherds the sheep the",
+            "url": "https://www.cs.toronto.edu/~hector/Papers/ijcai-13-paper.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "mr taylor was a man of uncertain temper and his general tendency was to think that david was a poor chump and that whatever step he took in any direction on his own account was just another proof of his innate idiocy",
+            "content": "but it was pretty rotten for the poor chap there was the any direction on his own account was just another proof of his innate idiocy",
+            "url": "https://www.dailymail.co.uk/news/article-8279419/If-half-Jeevess-brain-Id-stab-Prime-Minister.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "mr taylor was a man of uncertain temper and his general tendency was to think that david was a poor chump and that whatever step he took in any direction on his own account was just another proof of his innate idiocy",
+            "content": "worple he was a man of extremely uncertain temper and his general tendency was to think that corky was a poor chump and that whatever step he",
+            "url": "https://www.gutenberg.org/files/8164/8164-h/8164-h.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "mr taylor was a man of uncertain temper and his general tendency was to think that david was a poor chump and that whatever step he took in any direction on his own account was just another proof of his innate idiocy",
+            "content": "worple he was a man of extremely uncertain temper and his general tendency was to think that corky was a poor chump and that whatever step he",
+            "url": "https://www.gutenberg.org/ebooks/8164.html.images",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "mr taylor was a man of uncertain temper and his general tendency was to think that david was a poor chump and that whatever step he took in any direction on his own account was just another proof of his innate idiocy",
+            "content": "to complete the characterstudy of mr worple he was a man of extremely uncertain temper and his general tendency was to think that corky was a poor chump and",
+            "url": "https://mason.gmu.edu/~efry/507/mymanjeeves.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "mr taylor was a man of uncertain temper and his general tendency was to think that david was a poor chump and that whatever step he took in any direction on his own account was just another proof of his innate idiocy",
+            "content": "corky was a poor chump and that whatever step he took in any direction on his own account was just another proof of his innate idiocy i should imagine",
+            "url": "http://www.dominiopublico.gov.br/pesquisa/DetalheObraDownload.do?select_action=&co_obra=39831&co_midia=2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "mr taylor was a man of uncertain temper and his general tendency was to think that david was a poor chump and that whatever step he took in any direction on his own account was just another proof of his innate idiocy",
+            "content": "by pg wodehouse corky was a poor chump and that whatever step he took in any direction on his own account was just another proof of his innate idiocy i should imagine",
+            "url": "https://freeclassicebooks.com/freeclassicebooks/P.G.%20Wodehouse/My%20Man%20Jeaves.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "mr taylor was a man of uncertain temper and his general tendency was to think that david was a poor chump and that whatever step he took in any direction on his own account was just another proof of his innate idiocy",
+            "content": "to complete the characterstudy of mr worple he was a man of extremely uncertain temper and his general tendency was to think that corky was a poor chump and",
+            "url": "https://ajhw.co.uk/books/book89a.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "mr taylor was a man of uncertain temper and his general tendency was to think that david was a poor chump and that whatever step he took in any direction on his own account was just another proof of his innate idiocy",
+            "content": "poor chump and that whatever step he took in any direction on his own account was just another proof of his innate idiocy i should imagine",
+            "url": "https://archive.org/download/ost-english--my-man-jeeves-by-p-g-wodehouse/The%20Project%20Gutenberg%20eBook%20of%20My%20Man%20Jeeves%2C%20by%20P.%20G.%20Wodehouse.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "beth didnt get angry with sally who had cut her off because she stopped and apologized",
+            "content": "beth didnt get angry with sally who had cut her off because she stopped and apologized sally stopped and apologized 33 1 there is a pillar between me and",
+            "url": "https://josherich.github.io/nlp-dataset-explorer/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "beth didnt get angry with sally who had cut her off because she stopped and apologized",
+            "content": "beth didnt get angry with sally who had cut her off because she stopped and counted to tenapologized who counted to tenapologized",
+            "url": "https://cs.nyu.edu/davise/papers/WinogradSchemas/WSCollection.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "beth didnt get angry with sally who had cut her off because she stopped and apologized",
+            "content": "beth didnt get angry with sally who had cut her off because she stopped and counted to tenapologized who counted to tenapologized",
+            "url": "https://cs.nyu.edu/davise/papers/WSOld.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "john was doing research in the library when he heard a man humming and whistling he was very annoying",
+            "content": "john was doing research in the library when he heard a man humming and whistling he was very annoyedannoying who was annoyedannoying",
+            "url": "https://cs.nyu.edu/davise/papers/WSarchive/WS-09-16-2011.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "john was doing research in the library when he heard a man humming and whistling he was very annoying",
+            "content": "john was doing research in the library when he heard a man humming and whistling he was very annoyed advertisement q who was annoyed",
+            "url": "https://qz.com/745104/easy-questions-that-computers-are-terrible-at-answering",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "john was doing research in the library when he heard a man humming and whistling he was very annoying",
+            "content": "wrong li john was doing research in the library when he heard a man humming and whistling he was very annoyed who was very annoyed john was very annoyed",
+            "url": "https://cs.nyu.edu/~davise/papers/GPT3-New/WSC273.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "fred and alice had very warm down coats but they were not enough for the cold in alaska",
+            "content": "fred and alice had very warm down coats but they were not enough for the cold in alaska coats were not enough for the cold in alaska 1 7 jane gave joan",
+            "url": "https://wandb.ai/stacey/winograd/reports/Work-in-progress--Vmlldzo4NDYzMjE",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "fred and alice had very warm down coats but they were not enough for the cold in alaska",
+            "content": "fred and alice had very warm down coats but they were not enoughprepared for the cold in alaska who or what were not enoughprepared",
+            "url": "https://cs.nyu.edu/davise/papers/WSOld.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "fred and alice had very warm down coats but they were not enough for the cold in alaska",
+            "content": "fred and alice had very warm down coats but they were not enoughprepared for the cold in alaska who or what were not enoughprepared",
+            "url": "https://cs.nyu.edu/davise/papers/WSarchive/WS-09-16-2011.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "fred and alice had very warm down coats but they were not enough for the cold in alaska",
+            "content": "by s chen fred and alice had very warm down coats but they were not enough for the cold in alaska the new chinese collection of winograd schemas comprises 284",
+            "url": "https://www.asianlp.sg/conferences/ialp2024/proceedings/papers/IALP2024_P095.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "fred and alice had very warm down coats but they were not enough for the cold in alaska",
+            "content": "fred and alice had very warm down coats but they were not enough for the cold in alaska coats were not enough for the cold in alaska 59 1 the father",
+            "url": "https://josherich.github.io/nlp-dataset-explorer/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "fred and alice had very warm down coats but they were not enough for the cold in alaska",
+            "content": "q who is going to sleep answers annemary 77 fred and alice had very warm down coats but they were not enough for the cold in alaska",
+            "url": "https://qz.com/745104/easy-questions-that-computers-are-terrible-at-answering",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "fred is the only man still alive who remembers my greatgrandfather he is a remarkable man",
+            "content": "fred is the only man still alive who remembers my greatgrandfather he is a remarkable man q who is a remarkable man answers fredmy",
+            "url": "https://qz.com/745104/easy-questions-that-computers-are-terrible-at-answering",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "fred is the only man still alive who remembers my greatgrandfather he is a remarkable man",
+            "content": "fred is the only man still alive who remembers my greatgrandfather he iswas a remarkable man who iswas a remarkable man answers fredmy great",
+            "url": "https://cs.nyu.edu/faculty/davise/papers/WSarchive/WS-12-12-2011.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "fred is the only man still alive who remembers my greatgrandfather he is a remarkable man",
+            "content": "fred is the only man still alive who remembers my greatgrandfather he iswas a remarkable man who iswas a remarkable man answers fredmy great",
+            "url": "https://cs.nyu.edu/faculty/davise/papers/WS-11-27",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sams drawing was hung just above tinas and it did look much better with another one below it",
+            "content": "sams drawing was hung just above tinas and it did look much better with another one belowabove it which looked better answers sams",
+            "url": "https://cs.nyu.edu/davise/papers/WinogradSchemas/WSCollection.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sams drawing was hung just above tinas and it did look much better with another one below it",
+            "content": "sams drawing was hung just above tinas and it did look much better with another one belowabove it which looked better answers sams",
+            "url": "https://cs.nyu.edu/davise/papers/WSarchive/WS-09-16-2011.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "sams drawing was hung just above tinas and it did look much better with another one below it",
+            "content": "14 sams drawing was hung just above tinas and it did look much better with another one below it q which looked better answers sams",
+            "url": "https://qz.com/745104/easy-questions-that-computers-are-terrible-at-answering",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "sams drawing was hung just above tinas and it did look much better with another one below it",
+            "content": "one example for such a schema is the following sams drawings was hung just above tinas ∅t and itst did look much better with another one below it",
+            "url": "https://cdn.aaai.org/ocs/7958/7958-36886-1-PB.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "sams drawing was hung just above tinas and it did look much better with another one below it",
+            "content": "he changed his mind and turned the dishwasher off 53 0 sams drawing was hung just above tinas and it did look much better with another one below it tinas",
+            "url": "https://josherich.github.io/nlp-dataset-explorer/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "it was a summer afternoon and the dog was sitting in the middle of the lawn after a while it got up and moved to a spot under the tree because it was hot",
+            "content": "47 it was a summer afternoon and the dog was sitting in the middle of the lawn after a while it got up and moved to a spot",
+            "url": "https://qz.com/745104/easy-questions-that-computers-are-terrible-at-answering",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when tommy dropped his ice cream timmy giggled so father gave him a stern look",
+            "content": "when tommy dropped his ice cream timmy giggled so father gave him a stern look the father carried the sleeping boy in the fathers arms 60 0 madonna",
+            "url": "https://josherich.github.io/nlp-dataset-explorer/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "when tommy dropped his ice cream timmy giggled so father gave him a stern look",
+            "content": "when tommy dropped his ice cream timmy giggled so father gave him a sternsympathetic look who got the look from father answers timmy",
+            "url": "https://cs.nyu.edu/davise/papers/WinogradSchemas/WSCollection.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "when tommy dropped his ice cream timmy giggled so father gave him a stern look",
+            "content": "when tommy dropped his ice cream timmy giggled so father gave him a sternsympathetic look who got the look from father answers timmy",
+            "url": "https://cs.nyu.edu/davise/papers/WSOld.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "fred covered his eyes with his hands because the wind was blowing sand around he opened them when the wind stopped",
+            "content": "fred covered his eyes with his hands because the wind was blowing sand around he openedlowered them when the wind stopped what did",
+            "url": "https://cs.nyu.edu/davise/papers/WSOld.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "fred covered his eyes with his hands because the wind was blowing sand around he opened them when the wind stopped",
+            "content": "fred covered his eyes with his hands because the wind was blowing sand around he openedlowered them when the wind stopped what did",
+            "url": "https://cs.nyu.edu/davise/papers/WSarchive/WS-08-19-2013.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this morning joey built a sand castle on the beach and put a toy flag in the highest tower but this afternoon the wind knocked it down",
+            "content": "this morning joey built a sand castle on the beach and put a toy flag in the highest tower but this afternoon a breezethe tide knocked it",
+            "url": "https://cs.nyu.edu/davise/papers/WinogradSchemas/WSCollection.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "this morning joey built a sand castle on the beach and put a toy flag in the highest tower but this afternoon the wind knocked it down",
+            "content": "this morning joey built a sand castle on the beach and put a toy flag in the highest tower but this afternoon a breeze knocked it down q",
+            "url": "https://qz.com/745104/easy-questions-that-computers-are-terrible-at-answering",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "this morning joey built a sand castle on the beach and put a toy flag in the highest tower but this afternoon the wind knocked it down",
+            "content": "this morning joey built a sand castle on the beach and put a toy flag in the highest tower but this afternoon the wind knocked it down down and",
+            "url": "https://josherich.github.io/nlp-dataset-explorer/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "this morning joey built a sand castle on the beach and put a toy flag in the highest tower but this afternoon the wind knocked it down",
+            "content": "this morning joey built a sand castle on the beach and put a toy flag in the highest tower but this afternoon a breezethe tide knocked it",
+            "url": "https://cs.nyu.edu/davise/papers/WSOld.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "jane knocked on susans door but she did not answer",
+            "content": "1 1 jane knocked on susans door but she did not answer susan did not answer 2 0 beth didnt get angry with sally who had cut her off because she",
+            "url": "https://josherich.github.io/nlp-dataset-explorer/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "jane knocked on susans door but she did not answer",
+            "content": "jane knocked on susans door but she did not answerget an answer who did not answerget an answer answers susanjane comment",
+            "url": "https://cs.nyu.edu/davise/papers/WSOld.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "jane knocked on susans door but she did not answer",
+            "content": "jane knocked on susans door but she did not answerget an answer who did not answerget an answer answers susanjane comment",
+            "url": "https://cs.nyu.edu/davise/papers/WSarchive/WS-08-19-2013.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "jane knocked on susans door but she did not answer",
+            "content": "jane knocked on susans door but there was no answer she was fred and alice had very warm down coats but they were not enough for the cold",
+            "url": "https://qz.com/745104/easy-questions-that-computers-are-terrible-at-answering",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the city councilmen refused the demonstrators a permit because they advocated violence",
+            "content": "the city councilmen refused the demonstrators a permit because they fearedadvocated violence if the word is feared then they presumably refers",
+            "url": "https://cs.nyu.edu/~davise/papers/WinogradSchemas/WS.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the large ball crashed right through the table because it was made of styrofoam",
+            "content": "the large ball crashed right through the table because it was made of styrofoam and a very large styrofoam ball can crash a comparatively small table",
+            "url": "https://news.ycombinator.com/item?id=6230746",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the large ball crashed right through the table because it was made of styrofoam",
+            "content": "the large ball crashed right through the table because it was made of steelstyrofoam what was made of steelstyrofoam answers the",
+            "url": "https://cs.nyu.edu/davise/papers/WinogradSchemas/WSCollection.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the large ball crashed right through the table because it was made of styrofoam",
+            "content": "for example the large ball crashed right through the table because it was made of styrofoam what was made of styrofoam the alternative",
+            "url": "https://www.newyorker.com/tech/annals-of-technology/why-cant-my-computer-understand-me",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "tatyana knew that grandma always enjoyed serving an abundance of food to her guests now tatyana watched as grandma gathered tatyanas small mother into a wide scrawny embrace and then propelled her to the table lifting her shawl from her shoulders seating her in the place of honor and saying simply theres plenty",
+            "content": "serving an abundance of food to her guests now tatyana watched as grandma gathered tatyanas small mother into a wide scrawny embrace",
+            "url": "https://answers.guidedtrack.com/310/color-a-single-word-in-a-question-html-tag-is-buggy",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "tatyana knew that grandma always enjoyed serving an abundance of food to her guests now tatyana watched as grandma gathered tatyanas small mother into a wide scrawny embrace and then propelled her to the table lifting her shawl from her shoulders seating her in the place of honor and saying simply theres plenty",
+            "content": "grandma gathered tatyanas small mother into a wide scrawny embrace and then propelled tatyana to the table 21 0 ann asked mary what time the library closes",
+            "url": "https://josherich.github.io/nlp-dataset-explorer/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "tatyana knew that grandma always enjoyed serving an abundance of food to her guests now tatyana watched as grandma gathered tatyanas small mother into a wide scrawny embrace and then propelled her to the table lifting her shawl from her shoulders seating her in the place of honor and saying simply theres plenty",
+            "content": "here is one of the exemplary problems tatyana knew that grandma always enjoyed serving an abundance of food to her guests now tatyana watched",
+            "url": "http://haleyai.com/wordpress/2018/02/11/parsing-winograd-challenges/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "tatyana knew that grandma always enjoyed serving an abundance of food to her guests now tatyana watched as grandma gathered tatyanas small mother into a wide scrawny embrace and then propelled her to the table lifting her shawl from her shoulders seating her in the place of honor and saying simply theres plenty",
+            "content": "tatyana knew that grandma always enjoyed serving an abundance of food to her guests now tatyana watched as grandma gathered tatyanas small mother into a wide",
+            "url": "https://dash.harvard.edu/server/api/core/bitstreams/339c8a6a-890e-4696-acbe-b543bd07b032/content",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "tatyana knew that grandma always enjoyed serving an abundance of food to her guests now tatyana watched as grandma gathered tatyanas small mother into a wide scrawny embrace and then propelled her to the table lifting her shawl from her shoulders seating her in the place of honor and saying simply theres plenty",
+            "content": "tatyana knew that grandma always enjoyed serving an abundance of food to her guests now tatyana watched as grandma gathered tatyanas small mother into a wide",
+            "url": "https://dash.harvard.edu/bitstreams/339c8a6a-890e-4696-acbe-b543bd07b032/download",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "tatyana knew that grandma always enjoyed serving an abundance of food to her guests now tatyana watched as grandma gathered tatyanas small mother into a wide scrawny embrace and then propelled her to the table lifting her shawl from her shoulders seating her in the place of honor and saying simply theres plenty",
+            "content": "him always enjoyed serving an abundance of food to her guests now tatyana watched as grandma gathered tatyanas small mother into a wide scrawny embrace",
+            "url": "https://cs.nyu.edu/faculty/davise/papers/WinogradSchemas/PDPChallenge2016.xml",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "emma did not pass the ball to janie although she was open",
+            "content": "emma did not pass the ball to janie although she was opensaw that she was open who was opensaw that the other player was open",
+            "url": "https://cs.nyu.edu/davise/papers/WSOld.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "emma did not pass the ball to janie although she was open",
+            "content": "did not pass the ball to emma although she saw that she was open when switching the candidates emma and janie the correct answer changes as well from emma",
+            "url": "https://teaching.bb-ai.net/Student-Projects/Winograd-Challenge-Papers/Trichelair2018-Evaluation-of-commonsense-reasoning.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "emma did not pass the ball to janie although she was open",
+            "content": "keith fired blaine but he did not regret keith fired blaine although he is diligent emma did not pass the ball to janie although she was open emma did not",
+            "url": "https://personal.utdallas.edu/~vince/papers/emnlp12.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "emma did not pass the ball to janie although she was open",
+            "content": "emma did not pass the ball to janie although she was opensaw that she was open who was opensaw that the other player was open",
+            "url": "https://cs.nyu.edu/davise/papers/WinogradSchemas/WSCollection.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "emma did not pass the ball to janie although she was open",
+            "content": "what does this look like in practice an original sentence in winograd might be “emma did not pass the ball to janie although she saw that she",
+            "url": "https://jack-clark.net/2018/11/12/import-ai-120-the-winograd-test-for-commonsense-reasoning-is-not-as-hard-as-we-thought-tencent-learns-to-spot-malware-with-aidroid-dataand-what-a-million-people-think-about-the-trolley-problem/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "they broadcast an announcement but a subway came into the station and i couldnt hear it",
+            "content": "they broadcast an announcement but a subway came into the station and i couldnt hear it i couldnt hear the subway 58 1 fred and alice had very warm",
+            "url": "https://josherich.github.io/nlp-dataset-explorer/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "they broadcast an announcement but a subway came into the station and i couldnt hear it",
+            "content": "they broadcast an announcement but a subway came into the station and i couldnt hear over it advertisement q what couldnt i hear over",
+            "url": "https://qz.com/745104/easy-questions-that-computers-are-terrible-at-answering",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "they broadcast an announcement but a subway came into the station and i couldnt hear it",
+            "content": "they broadcast an announcement but a subway came into the station and i couldnt hearhear over it what couldnt i hearhear over",
+            "url": "https://cs.nyu.edu/davise/papers/WSarchive/WS-09-16-2011.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "although they ran at about the same speed sue beat sally because she had such a good start",
+            "content": "although they ran at about the same speed sue beat sally because she had such a bad start q who had a bad start answers suesally 13",
+            "url": "https://qz.com/745104/easy-questions-that-computers-are-terrible-at-answering",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "although they ran at about the same speed sue beat sally because she had such a good start",
+            "content": "although they ran at about the same speed sue beat sally because she had such a good start sally had such a good start 0 3 the large ball crashed right",
+            "url": "https://wandb.ai/stacey/winograd/reports/Work-in-progress--Vmlldzo4NDYzMjE",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "although they ran at about the same speed sue beat sally because she had such a good start",
+            "content": "although they ran at about the same speed sue beat sally because she had such a goodbad start who had a goodbad start answers sue",
+            "url": "https://cs.nyu.edu/davise/papers/WSOld.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "although they ran at about the same speed sue beat sally because she had such a good start",
+            "content": "by hj levesque although they ran at about the same speed sue beat sally because she had such a goodbad start who had a goodbad start answers suesally 4 the",
+            "url": "https://scispace.com/pdf/the-winograd-schema-challenge-1nfu1ajcl2.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "although they ran at about the same speed sue beat sally because she had such a good start",
+            "content": "although they ran at about the same speed sue beat sally because she had such a goodbad start who had a goodbad start answers sue",
+            "url": "https://cs.nyu.edu/davise/papers/WinogradSchemas/WSCollection.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "although they ran at about the same speed sue beat sally because she had such a good start",
+            "content": "although they ran at about the same speed sue beat sally because she had such a goodbad start who had a goodbad start the sculpture rolled off the",
+            "url": "https://courses.cs.washington.edu/courses/cse446/16sp/slides/week_1_introduction.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "although they ran at about the same speed sue beat sally because she had such a good start",
+            "content": "although they ran at about the same speed sue beat sally because she had such a goodbad start who had a goodbad start answers suesally 4 the",
+            "url": "https://cdn.aaai.org/ocs/4492/4492-21843-1-PB.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "i tried to paint a picture of an orchard with lemons in the lemon trees but they came out looking more like telephone poles",
+            "content": "i tried to paint a picture of an orchard with lemons in the lemon trees but they came out looking more like light bulbs the lemon trees came out looking more",
+            "url": "https://josherich.github.io/nlp-dataset-explorer/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "i tried to paint a picture of an orchard with lemons in the lemon trees but they came out looking more like telephone poles",
+            "content": "text i tried to paint a picture of an orchard with lemons in the lemon trees but they came out looking more like light bulbs telephone",
+            "url": "https://hal.science/hal-02281982v1/document",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "i tried to paint a picture of an orchard with lemons in the lemon trees but they came out looking more like telephone poles",
+            "content": "by m gleize text i tried to paint a picture of an orchard with lemons in the lemon trees but they came out looking more like light bulbs telephone",
+            "url": "http://www.lrec-conf.org/proceedings/lrec2014/pdf/1168_Paper.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "ann asked mary what time the library closes because she had forgotten",
+            "content": "38 ann asked mary what time the library closes because she had forgotten q who had forgotten answers maryann 39",
+            "url": "https://qz.com/745104/easy-questions-that-computers-are-terrible-at-answering",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "ann asked mary what time the library closes because she had forgotten",
+            "content": "ann asked mary what time the library closes butbecause she had forgotten who had forgotten answersmaryann i took the water bottle",
+            "url": "https://cs.nyu.edu/davise/papers/WSOld.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "ann asked mary what time the library closes because she had forgotten",
+            "content": "ann asked mary what time the library closes butbecause she had forgotten who had forgotten answersmaryann i took the water bottle",
+            "url": "https://cs.nyu.edu/davise/papers/WSarchive/WS-09-16-2011.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "ann asked mary what time the library closes because she had forgotten",
+            "content": "who had forgotten based on the sentence ann asked mary what time the library closes but she had forgotten then she can easily resolve she to mary this",
+            "url": "https://www.public.asu.edu/~cbaral/papers/cs2015winograd.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "ann asked mary what time the library closes because she had forgotten",
+            "content": "ann asked mary what time the library closes butbecause she had forgotten who had forgotten sam broke both his ankles and hes walking with",
+            "url": "https://www.vice.com/en/article/this-alternative-to-the-turing-test-aims-to-find-common-sense-in-ai/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "ann asked mary what time the library closes because she had forgotten",
+            "content": "who had forgotten based on the sentence ann asked mary what time the library closes but she had forgotten then she can easily resolve she to mary this",
+            "url": "https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=5e342791a70254b75d030b5787a051f614ada5be",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "sam tried to paint a picture of shepherds with sheep but they ended up looking more like golfers",
+            "content": "sam tried to paint a picture of shepherds with sheep but they ended up looking more like golfers what looked like golfers a the shepherds",
+            "url": "https://www.newyorker.com/tech/annals-of-technology/why-cant-my-computer-understand-me",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "sam tried to paint a picture of shepherds with sheep but they ended up looking more like golfers",
+            "content": "“sam tried to paint a picture of shepherds with sheep but they ended up looking more like dogsgolfers” what looked like dogsgolfers",
+            "url": "https://tylercecil.com/posts/2020/03/10/b-winograd.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "sam tried to paint a picture of shepherds with sheep but they ended up looking more like golfers",
+            "content": "sam tried to paint a picture of shepherds with sheep but they ended up looking more like golfers the sheep ended up looking more like golfers 48 1 fred",
+            "url": "https://josherich.github.io/nlp-dataset-explorer/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "sam tried to paint a picture of shepherds with sheep but they ended up looking more like golfers",
+            "content": "sam tried to paint a picture of shepherds with sheep but they ended up looking more like dogsgolfers what looked like dogsgolfers",
+            "url": "https://cs.nyu.edu/davise/papers/WSarchive/WS-08-19-2013.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "sam tried to paint a picture of shepherds with sheep but they ended up looking more like golfers",
+            "content": "sam tried to paint a picture of shepherds with sheep but they ended up looking more like dogsgolfers what looked like dogsgolfers",
+            "url": "https://cs.nyu.edu/davise/papers/WSarchive/WS-09-16-2011.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "sam tried to paint a picture of shepherds with sheep but they ended up looking more like golfers",
+            "content": "by hj levesque sam tried to paint a picture of shepherds with sheep but they ended up looking more like golfers what looked like golfers the shepherds the sheep the",
+            "url": "https://www.cs.toronto.edu/~hector/Papers/ijcai-13-paper.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "john was doing research in the library when he heard a man humming and whistling he was very annoying",
+            "content": "john was doing research in the library when he heard a man humming and whistling he was very annoyedannoying who was annoyedannoying",
+            "url": "https://cs.nyu.edu/davise/papers/WSarchive/WS-09-16-2011.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "john was doing research in the library when he heard a man humming and whistling he was very annoying",
+            "content": "john was doing research in the library when he heard a man humming and whistling he was very annoyed advertisement q who was annoyed",
+            "url": "https://qz.com/745104/easy-questions-that-computers-are-terrible-at-answering",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "john was doing research in the library when he heard a man humming and whistling he was very annoying",
+            "content": "wrong li john was doing research in the library when he heard a man humming and whistling he was very annoyed who was very annoyed john was very annoyed",
+            "url": "https://cs.nyu.edu/~davise/papers/GPT3-New/WSC273.txt",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "fred and alice had very warm down coats but they were not enough for the cold in alaska",
+            "content": "fred and alice had very warm down coats but they were not enough for the cold in alaska coats were not enough for the cold in alaska 1 7 jane gave joan",
+            "url": "https://wandb.ai/stacey/winograd/reports/Work-in-progress--Vmlldzo4NDYzMjE",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "fred and alice had very warm down coats but they were not enough for the cold in alaska",
+            "content": "fred and alice had very warm down coats but they were not enoughprepared for the cold in alaska who or what were not enoughprepared",
+            "url": "https://cs.nyu.edu/davise/papers/WSOld.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "fred and alice had very warm down coats but they were not enough for the cold in alaska",
+            "content": "fred and alice had very warm down coats but they were not enoughprepared for the cold in alaska who or what were not enoughprepared",
+            "url": "https://cs.nyu.edu/davise/papers/WSarchive/WS-09-16-2011.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "fred and alice had very warm down coats but they were not enough for the cold in alaska",
+            "content": "by s chen fred and alice had very warm down coats but they were not enough for the cold in alaska the new chinese collection of winograd schemas comprises 284",
+            "url": "https://www.asianlp.sg/conferences/ialp2024/proceedings/papers/IALP2024_P095.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "fred and alice had very warm down coats but they were not enough for the cold in alaska",
+            "content": "fred and alice had very warm down coats but they were not enough for the cold in alaska coats were not enough for the cold in alaska 59 1 the father",
+            "url": "https://josherich.github.io/nlp-dataset-explorer/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "fred and alice had very warm down coats but they were not enough for the cold in alaska",
+            "content": "q who is going to sleep answers annemary 77 fred and alice had very warm down coats but they were not enough for the cold in alaska",
+            "url": "https://qz.com/745104/easy-questions-that-computers-are-terrible-at-answering",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "sams drawing was hung just above tinas and it did look much better with another one below it",
+            "content": "sams drawing was hung just above tinas and it did look much better with another one belowabove it which looked better answers sams",
+            "url": "https://cs.nyu.edu/davise/papers/WinogradSchemas/WSCollection.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "sams drawing was hung just above tinas and it did look much better with another one below it",
+            "content": "sams drawing was hung just above tinas and it did look much better with another one belowabove it which looked better answers sams",
+            "url": "https://cs.nyu.edu/davise/papers/WSarchive/WS-09-16-2011.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "sams drawing was hung just above tinas and it did look much better with another one below it",
+            "content": "14 sams drawing was hung just above tinas and it did look much better with another one below it q which looked better answers sams",
+            "url": "https://qz.com/745104/easy-questions-that-computers-are-terrible-at-answering",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "sams drawing was hung just above tinas and it did look much better with another one below it",
+            "content": "one example for such a schema is the following sams drawings was hung just above tinas ∅t and itst did look much better with another one below it",
+            "url": "https://cdn.aaai.org/ocs/7958/7958-36886-1-PB.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "sams drawing was hung just above tinas and it did look much better with another one below it",
+            "content": "he changed his mind and turned the dishwasher off 53 0 sams drawing was hung just above tinas and it did look much better with another one below it tinas",
+            "url": "https://josherich.github.io/nlp-dataset-explorer/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "jane knocked on susans door but she did not answer",
+            "content": "1 1 jane knocked on susans door but she did not answer susan did not answer 2 0 beth didnt get angry with sally who had cut her off because she",
+            "url": "https://josherich.github.io/nlp-dataset-explorer/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "jane knocked on susans door but she did not answer",
+            "content": "jane knocked on susans door but she did not answerget an answer who did not answerget an answer answers susanjane comment",
+            "url": "https://cs.nyu.edu/davise/papers/WSOld.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "jane knocked on susans door but she did not answer",
+            "content": "jane knocked on susans door but she did not answerget an answer who did not answerget an answer answers susanjane comment",
+            "url": "https://cs.nyu.edu/davise/papers/WSarchive/WS-08-19-2013.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "jane knocked on susans door but she did not answer",
+            "content": "jane knocked on susans door but there was no answer she was fred and alice had very warm down coats but they were not enough for the cold",
+            "url": "https://qz.com/745104/easy-questions-that-computers-are-terrible-at-answering",
+            "engine": "ddg"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 2,
+            "query": "there is a pillar between me and the stage and i cant see around it",
+            "content": "keep getting this bug usually around the third part of the trial where the monsters wont come down from the pillars i jumped up on the",
+            "url": "https://www.pathofexile.com/forum/view-thread/3620130",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "there is a pillar between me and the stage and i cant see it",
+            "content": "keep getting this bug usually around the third part of the trial where the monsters wont come down from the pillars",
+            "url": "https://www.pathofexile.com/forum/view-thread/3620130",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "when they had eventually calmed down a bit and had gotten home mr farley put the magic pebble in an iron safe some day they might want to use it but really for now what more could they wish for",
+            "content": "harry felt guilty remus had wrote that canini was probably the only wizard in existence that didnt know about what harry did as well as they",
+            "url": "https://harrypotter.fandom.com/f/p/4400000000003405005",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "always before larry had helped dad with his work but he could not help him now for dad said that his boss at the railroad company would not want anyone but him to work in the office",
+            "content": "after brakeman chris cole lost both his legs on the job railroad officials removed evidence before state regulators could see it omitted key facts in reports",
+            "url": "https://www.propublica.org/article/trains-railroad-kcs-kansas-city-southern-injuries-lawsuit",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the storm the tree fell down and crashed through the roof of my house now i have to get it repaired",
+            "content": "the first thing you need to do if your roof has been struck by a tree is to get out of the house evacuate you and your family and your pets as quickly as",
+            "url": "https://rennisonroofing.com/tree-falls-on-roof-what-to-do/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "bob collapsed on the sidewalk soon he saw carl coming to help he was very ill",
+            "content": "this document contains the full text of all comprehension passages in levels 12 to 20 of the lexia core5 reading student activities",
+            "url": "https://www.lexialearningresources.com/Core5/passages/Comp_Passages_US.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "i couldnt put the pot on the shelf because it was too high",
+            "content": "i believe the pot returns to your inventory if you place it on a fire and log out thats why only 1 probably you can run and get a bunch of",
+            "url": "https://steamcommunity.com/app/1326470/discussions/0/3834297051363144796/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "madonna fired her trainer because she slept with her boyfriend",
+            "content": "she fed my boyfriend so i fired her madonna blasts her expersonal trainer for affair in front of a 20000 crowd in the philippines",
+            "url": "https://www.dailymail.co.uk/news/article-3466556/She-f-ed-boyfriend-fired-Madonna-blasts-ex-personal-trainer-affair-20-000-crowd-Philippines.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "bernard who had not told the government official that he was less than 21 when he filed for a homestead claim did not consider that he had done anything dishonest still anyone who knew that he was 19 years old could take his claim away from him",
+            "content": "the senate public lands committee in 1850 issued a report describing the homestead bill as un unfair tax on those who could not move west and take free land and",
+            "url": "https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1049&context=historydiss",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "george got free tickets to the play but he gave them to eric because he was particularly eager to see it",
+            "content": "eric returns and confesses to being the father of evadaisys unborn child he describes how he drunkenly forced her to have sex with him got her pregnant and",
+            "url": "https://www.bishopfoxs.co.uk/wp-content/uploads/2018/03/AIC-Booklet-English-Literature.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the drain is clogged with hair it has to be cleaned",
+            "content": "how to unclog hair from the drain use boiling water try baking soda vinegar use your hand get a hook pour some chemicals down there",
+            "url": "https://trusteyman.com/blog/how-to-unclog-hair-from-the-shower-drain/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "sam took french classes from adam because he was known to speak it fluently",
+            "content": "reasons for learning polish language hello everyone i just wondered why did you start learning polish just for fun do you know some polish people",
+            "url": "http://e-polish.eu/fr/forum_dyskusyjne/general_discussions_about_poland/reasons_for_learning_polish_language",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the older students were bullying the younger ones so we rescued them",
+            "content": "they luckily all left 8th grade and there is another bullying story i have about my junior year but thats for another day im a senior now and things are okay",
+            "url": "https://pacerteensagainstbullying.org/advocacy-for-others/real-teens-speak-out/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the cat was lying by the mouse hole waiting for the mouse but it was too cautious",
+            "content": "if only the mouse could stay in his hole he would be happy but he cannot stay in his hole because of the need to find cheese it is not a",
+            "url": "https://www.newyorker.com/magazine/2004/04/19/cat-n-mouse",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "papa looked down at the childrens faces so puzzled and sad now it was bad enough that they had to be denied so many things because he couldnt afford them",
+            "content": "words can leave a great impact on children learn the most common things parents should never say to their child in this eyeopening article",
+            "url": "https://www.notconsumed.com/7-phrases-a-parent-should-never-say-or-yell-again/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "i poured water from the bottle into the cup until it was empty",
+            "content": "water pouring puzzles are a class of puzzle involving a finite collection of water jugs of known integer capacities in terms of a liquid measure such as",
+            "url": "https://en.wikipedia.org/wiki/Water_pouring_puzzle",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "no one joins facebook to be sad and lonely but a new study from the university of wisconsin psychologist george lincoln argues that thats exactly how it makes us feel",
+            "content": "michael kaplan graduated from the university of wisconsinmadison in 1970 with a major in history bs he subsequently attended uwmilwaukee",
+            "url": "https://mosseprogram.wisc.edu/2021/10/25/kaplan/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "mr moncrieff visited chesters luxurious new york apartment thinking that it belonged to his son edward the result was that mr moncrieff has decided to cancel edwards allowance on the ground that he no longer requires his financial support",
+            "content": "parent has in view when he makes his son an engineer is to enable him to earn his living in other words he wants to give the young man such a training",
+            "url": "https://repozytorium.biblos.pk.edu.pl/redo/resources/36204/file/scans/OCR_rezultaty/300000015958_A_v1_200dpi_q60.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the police arrested all of the gang members they were trying to run the drug trade in the neighborhood",
+            "content": "more than twenty people have been arrested during an operation targeting a county lines drugs gang",
+            "url": "https://www.herts.police.uk/news/hertfordshire/news/2025/march-2025/twenty-three-arrested-in-operation-targeting-county-lines-gang/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "papa looked down at the childrens faces so puzzled and sad now it was bad enough that they had to be denied so many things because he couldnt afford them",
+            "content": "words can leave a great impact on children learn the most common things parents should never say to their child in this eyeopening article",
+            "url": "https://www.notconsumed.com/7-phrases-a-parent-should-never-say-or-yell-again/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "george got free tickets to the play but he gave them to eric because he was not particularly eager to see it",
+            "content": "the author would like to thank the many schools and teachers who have commented on these materials also special thanks to peter sunderland and sarah curtis",
+            "url": "https://trainingintoeurope.com/wp-content/uploads/2019/03/advanced-language-practice.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "madonna fired her trainer because she slept with her boyfriend",
+            "content": "she fed my boyfriend so i fired her madonna blasts her expersonal trainer for affair in front of a 20000 crowd in the philippines",
+            "url": "https://www.dailymail.co.uk/news/article-3466556/She-f-ed-boyfriend-fired-Madonna-blasts-ex-personal-trainer-affair-20-000-crowd-Philippines.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "they broadcast an announcement but a subway came into the station and i couldnt hear over it",
+            "content": "you are going to hear a text about the subway in new york based on what you hear complete the gap in each sentence you will hear the",
+            "url": "https://www.dlamaturzysty.info/s/1625/36234-Matura-arkusze-maturalne/141275-Jezyk-angielski-matura-2019-poziom-dwujezyczny-pytania-i-odpowiedzi.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the drain is clogged with hair it has to be removed",
+            "content": "there are a number of effective ways to unblock drains from hair hair can be removed using a set of long nose tweezers or long nose pliers this is often",
+            "url": "https://laserplumbingteatatu.co.nz/how-to-unblock-a-drain-full-of-hair/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the journalists interviewed the stars of the new movie they were very persistent so the interview lasted for a long time",
+            "content": "our qualifications are based on research into effective teaching and learning they motivate people of all ages and abilities to learn english and develop",
+            "url": "https://www.cambridgeenglish.org/images/167792-b2-first-for-schools-handbook.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "bernard who had not told the government official that he was less than 21 when he filed for a homestead claim did not consider that he had done anything dishonest still anyone who knew that he was 19 years old could take his claim away from him",
+            "content": "the senate public lands committee in 1850 issued a report describing the homestead bill as un unfair tax on those who could not move west and take free land and",
+            "url": "https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1049&context=historydiss",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "mark heard steves feet going down the ladder the door of the shop closed after him he ran to look out the window",
+            "content": "this article is a script for episode 1 chrysalis nightmare lighthouse it is raining heavily the forest and the lighthouse pathway are lit up momentarily",
+            "url": "https://life-is-strange.fandom.com/wiki/Episode_1:_Chrysalis_-_Script",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "im sure that my map will show this building it is very famous",
+            "content": "to turn off labels completely in satellite view you need to use google maps on a computer in the left hand menu there is an option to switch to satellite",
+            "url": "https://support.google.com/maps/thread/10927656/how-do-i-turn-off-seeing-the-location-of-businesses-in-my-area?hl=en",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "by rolling over in her upper berth tatyana could look over the edge of it and see her mother plainly how very small and straight and rigid she lay in the bunk below her eyes were closed but tatyana doubted if she slept",
+            "content": "this is a story of one believers brokenness and how god reached into that pain and pulled him out and as such is a compelling story of gods redemption",
+            "url": "https://www.lifestream.org/is-the-shack-heresy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "alice looked for her friend jade in the crowd since she always wears a red turban alice spotted her quickly",
+            "content": "by g bystydzieńska 2018 the present article studies ęlfric of eynshams homily based on the biblical books of maccabees it uses barbara h rosenweins concept of an “emotional",
+            "url": "https://publisherspanel.com/api/files/view/1697707.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the man couldnt lift his son because he was so heavy",
+            "content": "this question tries to put a rule on god that he has never claimed as a part of who he is it puts god in a very specific and impossible situation",
+            "url": "https://onwardinthefaith.com/could-god-make-a-rock-so-heavy-he-couldnt-lift-it-answering-a-difficult-question-while-pointing-to-the-gospel/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the cat was lying by the mouse hole waiting for the mouse but it was too cautious",
+            "content": "if only the mouse could stay in his hole he would be happy but he cannot stay in his hole because of the need to find cheese it is not a",
+            "url": "https://www.newyorker.com/magazine/2004/04/19/cat-n-mouse",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "if the con artist has succeeded in fooling sam he would have gotten a lot of money",
+            "content": "whether learners are planning to live work or study in their own country or abroad our qualifications prove they have the english language skills to succeed",
+            "url": "https://www.cambridgeenglish.org/images/167792-b2-first-for-schools-handbook.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "if the con artist has succeeded in fooling sam he would have gotten a lot of money",
+            "content": "whether learners are planning to live work or study in their own country or abroad our qualifications prove they have the english language skills to succeed",
+            "url": "https://www.cambridgeenglish.org/images/167792-b2-first-for-schools-handbook.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "grant worked hard to harvest his beans so he and his family would have enough to eat that winter his friend henry let him stack them in his barn where they would dry later he and tatyana would shell them and cook them for their sunday dinners",
+            "content": "controversial belo monte dam project has failed to meet conditions to win its license say environmental groups the belo monte dam will",
+            "url": "https://www.climatechangenews.com/2015/07/14/brazil-mega-dam-disaster-for-tribes-as-it-nears-completion/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "when the sponsors of the bill got to the town hall they were surprised to find that the room was full of opponents they were very much in the majority",
+            "content": "a bill allowing tennessee public schools to exclude children without legal immigration status cleared a house subcommittee tuesday as protestors",
+            "url": "https://www.yahoo.com/news/gop-bill-bar-immigrant-kids-100056533.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "fred was supposed to run the dishwasher but he put it off because he wanted to watch tv but the show turned out to be boring so he changed his mind and turned it off",
+            "content": "this book provides presentation and practice of all the key grammar vocabulary and lexicogrammatical areas required for all main cl and c2 exams eg cambridge",
+            "url": "https://garysenglishmethod.com/wp-content/uploads/2020/11/Destination-C1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the dog chased the cat which ran up a tree it waited at the top",
+            "content": "firefighters rescue dog that chased cat up a tree and got stuck fox 10 phoenix weve all heard about cats needing to be rescued from trees",
+            "url": "https://www.usingenglish.com/forum/threads/a-cat-decided-to-exact-revenge-on-a-dog-that-had-chased-it-up-a-tree.298177/page-2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "susan knew that anns son had been in a car accident so she told her about it",
+            "content": "15th march were finally here the spaceship shook worryingly as we were going through mars atmosphere but we landed safely",
+            "url": "https://www.macmillan.pl/images/materials/1584386033_PR_B1P_U4_U6_WB.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "mr taylor was a man of uncertain temper and his general tendency was to think that david was a poor chump and that whatever step he took in any direction on his own account was just another proof of his innate idiocy",
+            "content": "chump and that whatever step he took in any direction on his own account was it was bad enough that they had to be denied so many things because he",
+            "url": "https://cs.nyu.edu/~davise/papers/PDPChallenge.xml",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the drain is clogged with hair it has to be cleaned",
+            "content": "how to unclog hair from the drain use boiling water try baking soda vinegar use your hand get a hook pour some chemicals down there",
+            "url": "https://trusteyman.com/blog/how-to-unclog-hair-from-the-shower-drain/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the lawyer asked the witness a question but he was reluctant to repeat it",
+            "content": "it is well sometimes in a case where you believe that the witness is reluctant to develop the whole truth so to put questions that the answers you know will",
+            "url": "https://www.ksiegarnia.beck.pl/media/product_custom_files/1/8/18037-the-art-of-cross-examination-sztuka-przesluchania-krzyzowego-francis-wellman-fragment.pdf?srsltid=AfmBOoqVDdWcCDCleXLQjs4k36pcE5g3soVwOvBNM4iAuozQMAxCqiNu",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "beth didnt get angry with sally who had cut her off because she stopped and apologized",
+            "content": "annabeth chase is the greek demigod daughter of athena and professor frederick chase the halfsister of bobby and matthew chase and the paternal cousin of",
+            "url": "https://riordan.fandom.com/wiki/Annabeth_Chase",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "i cant cut that tree down with that axe it is too thick",
+            "content": "simply because palm trees are really thick trees and we can cut them down no problem but a birch tree thin as a branch cant be cut down a",
+            "url": "https://steamcommunity.com/app/648800/discussions/0/4792394847122077972/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "fred is the only man still alive who remembers my greatgrandfather he is a remarkable man",
+            "content": "in january 1956 just before elvis presley became a national sensation papa fred had an exclusive chat with him by pj grisar",
+            "url": "https://www.elvis.com.au/presley/the-day-no-one-wanted-elvis-presley-but-my-grandfather.shtml",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "always before larry had helped dad with his work but he could not help him now for dad said that his boss at the railroad company would not want anyone but him to work in the office",
+            "content": "after brakeman chris cole lost both his legs on the job railroad officials removed evidence before state regulators could see it omitted key facts in reports",
+            "url": "https://www.propublica.org/article/trains-railroad-kcs-kansas-city-southern-injuries-lawsuit",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "it was a summer afternoon and the dog was sitting in the middle of the lawn after a while it got up and moved to a spot under the tree because it was hot",
+            "content": "the simple sentence may have a compound subject the dog and the cat howled it may have a compound verb the dog howled and barked it may have a compound",
+            "url": "https://www.houstonisd.org/cms/lib2/TX01001591/Centricity/Domain/26063/Study%20for%20Types%20of%20Sentences.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "when tommy dropped his ice cream timmy giggled so father gave him a stern look",
+            "content": "this book is designed to help the student of english whose only weapons in the battle against vocabulary have until now been a dictionary and a dog",
+            "url": "http://davydenkova.info/wp-content/uploads/2012/10/Wordbuilder.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "george got free tickets to the play but he gave them to eric even though he was particularly eager to see it",
+            "content": "the author would like to thank the many schools and teachers who have commented on these materials also special thanks to peter sunderland and sarah curtis",
+            "url": "https://trainingintoeurope.com/wp-content/uploads/2019/03/advanced-language-practice.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "fred covered his eyes with his hands because the wind was blowing sand around he opened them when the wind stopped",
+            "content": "carson opened his eyes and found himself looking upwards into a flickering blue dimness it was hot and he was lying on sand and a rock embedded in the",
+            "url": "https://userweb.ucs.louisiana.edu/~jjl5766/share/Arena.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "this morning joey built a sand castle on the beach and put a toy flag in the highest tower but this afternoon the wind knocked it down",
+            "content": "the wind howled ferociously all night and knocked down two trees the children built a sand castle 3 those apple turnovers were",
+            "url": "https://handleeducation.com/wp-content/uploads/sites/585/2018/03/HANDLE-ASSOCIATES-WORKBOOK-1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "everyone really loved the oatmeal cookies only a few people liked the chocolate chip cookies next time we should make fewer of them",
+            "content": "looking for the best oatmeal chocolate chip cookie recipe we tested 12 popular recipes in search of the best",
+            "url": "https://www.thepancakeprincess.com/the-best-oatmeal-chocolate-chip-cookie-bake-off/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the city councilmen refused the demonstrators a permit because they advocated violence",
+            "content": "the city councilmen refused the demonstrators a permit because they advocated violence the schema challenge question is does the pronoun they refer to",
+            "url": "https://en.wikipedia.org/wiki/Winograd_schema_challenge",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the father carried the sleeping boy in his arms",
+            "content": "man carrying his sleeping son newborn baby boy in his fathers arms closeup portrait of young asian indian father holding his newborn baby with copy space",
+            "url": "https://www.shutterstock.com/search/father-carrying-sleeping-child",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the large ball crashed right through the table because it was made of styrofoam",
+            "content": "“the large ball was made of styrofoam” you do not have to worry about whether the writing style is maintained between the questions and the prompt more",
+            "url": "https://nyu-mll.github.io/GLUE-human-performance/wnli.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "the delivery truck zoomed by the school bus because it was going so slow",
+            "content": "when you are driving a school bus it is very important to keep in mind its shape and size this page lists some tips for safe school bus driving",
+            "url": "https://dmv.ny.gov/more-info/school-bus-safety",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "beth didnt get angry with sally who had cut her off because she stopped and counted to ten",
+            "content": "3 days ago sally beth draper is the eldest child of don draper and betty hofstadt when betty was 22 and don was 28 she was conceived in the woods during a vacation with bettys parents to lake champlain the better half she was born in april 1954 it isnt until season 3 sally draper became more",
+            "url": "https://madmen.fandom.com/wiki/Sally_Draper",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "i tried to paint a picture of an orchard with lemons in the lemon trees but they came out looking more like light bulbs",
+            "content": "ive been in mallorca where i found this secluded tree within a lemon grove i thought it would work as a plein air sketch with acrylics",
+            "url": "https://willkempartschool.com/how-to-paint-a-plein-air-sketch-with-acrylics/",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "look there is a minnow swimming right below that duck it had better get away to safety fast",
+            "content": "tiktok video from whistle whistle",
+            "url": "https://www.tiktok.com/@whistle/video/7251330506715974958?lang=en",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "jane gave joan candy because she was hungry",
+            "content": "explore the world of knowledge with our educational qa platform chat with experts ask questions and share opinions join a global community committed to promoting limitless learning",
+            "url": "https://access.yjp.org/?question=19982844",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "emma did not pass the ball to janie although she was open",
+            "content": "frank is given to dancing and living although he fears his aunt will forbid the match because jane is not wealthy he manipulates and plays games with the other characters to ensure his engagement to jane remains concealed jane fairfax is an orphan whose only family consists of her aunt miss bates and her grandmother mrs bates she is a beautiful bright and elegant woman with the best of manners she is the same age as emma",
+            "url": "https://en.wikipedia.org/wiki/Emma_(novel)",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "they broadcast an announcement but a subway came into the station and i couldnt hear it",
+            "content": "subway conductors don’t make up those things they say there are scripts and the scripts are about to be revised",
+            "url": "https://www.nytimes.com/2018/11/08/nyregion/subway-announcements-are-changing-not-that-you-can-hear-them-anyway.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "although they ran at about the same speed sue beat sally because she had such a good start",
+            "content": "sally rooney born 20 february 1991 is an irish author and screenwriter she has published four novels conversations with friends 2017 normal people 2018 beautiful world where are you 2021 and intermezzo 2024 the first two were adapted into the television miniseries normal people",
+            "url": "https://en.wikipedia.org/wiki/Sally_Rooney",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "i tried to paint a picture of an orchard with lemons in the lemon trees but they came out looking more like telephone poles",
+            "content": "ix27ve been in mallorca where i found this secluded tree within a lemon grove i thought it would work as a plein air sketch with acrylics",
+            "url": "https://willkempartschool.com/how-to-paint-a-plein-air-sketch-with-acrylics/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "ann asked mary what time the library closes because she had forgotten",
+            "content": "mary anne and the library mystery is the thirteenth book in the babysitterx27s club mystery series the stoneybrook library childrenx27s room is holding a readathon to raise money for new books and mary anne who loves to read is helping out by finding good books for the kids to read",
+            "url": "https://babysittersclub.fandom.com/wiki/Mary_Anne_and_the_Library_Mystery",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "sam tried to paint a picture of shepherds with sheep but they ended up looking more like golfers",
+            "content": "examining a little about tending to sheep showing shepherds from france in the early 1800s",
+            "url": "https://www.anart4life.com/minding-the-flock/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "john was doing research in the library when he heard a man humming and whistling he was very annoying",
+            "content": "answer 1 of 43 firstly i reject your premise that people can be wrong people people can be wrong but there are not wrong people we’re different and sometimes those differences are confusing or annoying to other people but those differences are not wrong",
+            "url": "https://www.quora.com/What-is-wrong-with-people-who-must-constantly-whistle-sing-or-hum-tunes",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "fred and alice had very warm down coats but they were not enough for the cold in alaska",
+            "content": "don’t be afraid of the cold weather it’s easy for anyone to stay warm and dry during a winter trip to alaskajust follow these five rules",
+            "url": "https://www.alaska.org/advice/what-to-wear-in-alaska-in-winter",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "sams drawing was hung just above tinas and it did look much better with another one below it",
+            "content": "423 votes 27 comments 13k subscribers in the samandmax community for the sam amp max series of games comics and beyond",
+            "url": "https://www.reddit.com/r/SamandMax/comments/nhczkf/quick_drawing_of_baby_sam_max/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "jane knocked on susans door but she did not answer",
+            "content": "she only looks so after sophia jane” later on after some supper she became sleepier still and more giddy and confused so that she hardly knew that maria was undressing her and putting her to bed when there however she roused herself sufficiently to say “maria i can hear noises in the street here just like there are at home” maria’s answer was the last sound she heard that night “bless yer ’art miss susan",
+            "url": "https://gutenberg.org/files/21230/21230-h/21230-h.htm",
+            "engine": "braveAPI"
+        }
+    ]
+}

@@ -1,0 +1,787 @@
+{
+    "task": "mmlu_global_facts",
+    "dataset": "web_access_global_facts_final",
+    "questions": 100,
+    "noWebContextCount": 0,
+    "contaminated_queries": 16,
+    "contaminated_urls": 42,
+    "valid_urls": 100,
+    "avg_contaminated_before_valid": 1.42,
+    "contaminated_data_ratio": 0.29577464788732394,
+    "most_contaminated_urls": {},
+    "noWebContext": [],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 2,
+            "query": "world bank data show that in 1995 the poorest 20 of households accounted for 75 of household income in niger the next 20 of households accounted for 118 of income the middle 20 accounted for 155 of income the second richest 20 accounted for 211 of income and the top 20 accounted for 441 of income what was the cumulative income share of the bottom 60 of households in niger",
+            "content": "8 world bank data show that in 1995 the poorest 20 of households accounted for 75 of household income in niger the next 20 of households accounted for",
+            "url": "http://www.csun.edu/~hfeco002/Study%20Guide%20questions%20midterm%202010%20econ%20370.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the percentage of children aged 1315 in the united states who reported being bullied at least once in the past couple of months as of 2015",
+            "content": "share of children who report being bullied 2015 percentage of children aged 1315 who reported being bullied atleast once in the past couple of months",
+            "url": "https://ourworldindata.org/grapher/share-of-children-ages-13-15-who-report-being-bullied",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the greatest population growth rate has taken place",
+            "content": "ultimately the highest population growth rate is also found there the country with the highest population growth rate is syria this could be",
+            "url": "https://www.statista.com/statistics/264687/countries-with-the-highest-population-growth-rate/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2019 about what percentage of south koreans say it is necessary to believe in god in order to be moral and have good values",
+            "content": "a median of 45 say it is necessary to believe in god to be moral and have good values but there are large regional variations in answers to this question",
+            "url": "https://www.pewresearch.org/religion/2020/07/20/the-global-god-divide/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "worldwide 30 year old men have spent 10 years in school on average how many years have women of the same age spent in school as of 2020",
+            "content": "c worldwide 30yearold men have spent an average of 10 years in school how many years have women of the same age spent in school on average",
+            "url": "https://askgoodquestions.blog/2020/02/17/33-revealing-human-progress-part-1/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "worldwide 30 year old men have spent 10 years in school on average how many years have women of the same age spent in school as of 2020",
+            "content": "9 worldwide 30yearold men have spent 10 years in school on average how many years have women of the same age spent in school 9 years 6 years 3 years",
+            "url": "https://www.souloffinance.com/news/how-well-do-you-know-world-trends/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "worldwide 30 year old men have spent 10 years in school on average how many years have women of the same age spent in school as of 2020",
+            "content": "▫ worldwide 30yearold men have spent 10 years in school on average how many years have women of the same age spent in school on average ❑ 9 years ❑ 6",
+            "url": "https://askgoodquestions.blog/wp-content/uploads/2020/11/rossmanhumanprogressamatycnov20-1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2013 share of people in the ethiopia who think political parties are corrupt is",
+            "content": "by e ortizospina 2019 it shows the percentage of survey respondents in each country who think political parties are corrupt or extremely corrupt share of people who think",
+            "url": "https://ourworldindata.org/corruption",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2019 about what percentage of indians say it is necessary to believe in god in order to be moral and have good values",
+            "content": "a median of 45 say it is necessary to believe in god to be moral and have good values but there are large regional variations in answers to this question",
+            "url": "https://www.pewresearch.org/religion/2020/07/20/the-global-god-divide/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the percentage of children aged 1315 in the united states who reported being in a physical fight at school one or more times during the past 12 months as of 2015",
+            "content": "percentage of children aged 1315 who reported being in aphysical fight at school one or more times during the past 12months",
+            "url": "https://ourworldindata.org/grapher/share-of-children-ages-13-15-who-report-being-in-a-school-fight-last-year",
+            "engine": "google"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "which of the following causes more deaths globally each year as of 2017",
+            "content": "the worlds biggest killer is ischaemic heart disease responsible for 13 of the worlds total deaths since 2000 the largest increase in",
+            "url": "https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2017 the share of global deaths by suicide is about",
+            "content": "on this page we show data on the prevalence of suicide across the world its risk factors and how these trends are changing over time",
+            "url": "https://ourworldindata.org/suicide",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2019 about what percentage of germans say the relationship between the us and germany is good",
+            "content": "85 of americans and 77 of germans see the relationship between their countries as good this is consistent with recent years though prior to",
+            "url": "https://www.pewresearch.org/global/2023/11/27/u-s-germany-relationship-remains-solid-but-underlying-policy-differences-begin-to-show/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "world bank data show that in 1995 the poorest 20 of households accounted for 75 of household income in niger the next 20 of households accounted for 118 of income the middle 20 accounted for 155 of income the second richest 20 accounted for 211 of income and the top 20 accounted for 441 of income what was the cumulative income share of the bottom 60 of households in niger",
+            "content": "of the ten poorest wards all of which have estimated poverty rates of 88 percent or greater seven are in kuntaur njaw nyanga panchang ballangharr kaur",
+            "url": "https://documents1.worldbank.org/curated/en/099530111032210190/pdf/P1771390c18b5d0c60896b0a2b66d6e4f32.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2017 the share of gdp spent on the military by the united states is about",
+            "content": "for fy2017 department of defense spending amounts to 342 of gdp in 2015 pentagon and related spending totaled 598 in addition the us will spend at",
+            "url": "https://en.wikipedia.org/wiki/Military_budget_of_the_United_States",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "about how many people are infected by hivaids as of 2020",
+            "content": "884 million 713 million1128 million people have become infected with hiv since the start of the epidemic",
+            "url": "https://www.unaids.org/en/resources/fact-sheet",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the median international income as of 2020",
+            "content": "the world bank classifies economies for analytical purposes into four income groups low lowermiddle uppermiddle and high income",
+            "url": "https://datatopics.worldbank.org/world-development-indicators/the-world-by-income-and-region.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what was gdp per capita in the united states in 1850 when adjusting for inflation and ppp in 2011 prices",
+            "content": "average economic output per person in a country or region per year this data is adjusted for inflation and for differences in living costs between countries",
+            "url": "https://ourworldindata.org/grapher/gdp-per-capita-maddison-project-database",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2019 about what percentage of people from turkey agree that the state is run for the benefit of all the people",
+            "content": "erdoğan received 52 percent of the vote while muharrem i̇nce of the chp finished second with 30 percent many elected executive officials at the municipal level",
+            "url": "https://freedomhouse.org/country/turkey/freedom-world/2019",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "before being reelected for a third term as president how many americans approved of running a third time",
+            "content": "the twentysecond amendment amendment xxii to the united states constitution limits the number of times a person can be elected to the office of president",
+            "url": "https://en.wikipedia.org/wiki/Twenty-second_Amendment_to_the_United_States_Constitution",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in 2016 what percentage of the population of south sudan had access to electricity",
+            "content": "access to electricity is the percentage of population with access to electricity 2016 530 050 2015 480 050 2014 430 050 2013 380 050",
+            "url": "https://www.macrotrends.net/global-metrics/countries/ssd/south-sudan/electricity-access-statistics",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "before nixon resigned how many believed he should be removed from office",
+            "content": "republican congressional leaders met with nixon and told him that his impeachment and removal were all but certain thereupon nixon gave up the struggle to",
+            "url": "https://en.wikipedia.org/wiki/Impeachment_process_against_Richard_Nixon",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2017 what percentage of americans live in urban areas",
+            "content": "urban population growth annual population ages 2529 female of female population survival to age 65 female of cohort age dependency ratio",
+            "url": "https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS?locations=US",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how many children between the ages of 514 worked globally as of 2012",
+            "content": "by e ortizospina 2016 the international labour organisation states in its 2013 world report on child labour that there were around 265 million working children in the",
+            "url": "https://ourworldindata.org/child-labor",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what is the percentage of children aged 1315 in the united states who reported being bullied at least once in the past couple of months as of 2015",
+            "content": "almost one out of every four students 22 report being bullied during the school year national center for educational statistics 2015",
+            "url": "https://www.pacer.org/bullying/info/stats.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following countries generated the most total energy from solar sources in 2019",
+            "content": "in 2022 the leading country for solar power was china with about 390 gw accounting for nearly twofifths of the total global installed solar capacity as of",
+            "url": "https://en.wikipedia.org/wiki/Solar_power_by_country",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "different less developed countries have different levels of secondary school enrollment some countries with high secondaryschool enrollment are as of 2020",
+            "content": "least developed countries un classification 2022 47 middle east north africa 2023 81 middle east north africa excluding high income 2022 77",
+            "url": "https://data.worldbank.org/indicator/SE.SEC.ENRR",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "consider the following statements 1 as countries get richer the population tends to report higher average life satisfaction 2 important life events such as marriage or divorce do affect our happiness but have surprisingly little longterm impact which of these statements is truefalse as of 2020",
+            "content": "by e ortizospina 2017 selfreported life satisfaction tends to correlate with other measures of wellbeingricher and healthier countries tend to have higher average happiness scores",
+            "url": "https://ourworldindata.org/happiness-and-life-satisfaction",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "controlling for inflation and pppadjustment about how much did gdp per capita increase from 1950 to 2016 in china",
+            "content": "the ppp measurement also raises chinas 2018 nominal per capita gdp from 9608 to 18110 which was 289 of the us level even with continued rapid",
+            "url": "https://www.everycrsreport.com/reports/RL33534.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the greatest population growth rate has taken place",
+            "content": "on this page you will find all of our data charts and writing on changes in population growth this includes how populations are distributed worldwide",
+            "url": "https://ourworldindata.org/population-growth",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what was gdp per capita in the united states in 1950 when adjusting for inflation and ppp in 2011 prices",
+            "content": "average economic output per person in a country or region per year this data is adjusted for inflation and for differences in living costs between countries",
+            "url": "https://ourworldindata.org/grapher/gdp-per-capita-maddison-project-database",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the percentage of children in vietnam age 8 who reported physical punishment by teachers in the past week in 2009 was about what",
+            "content": "the rate of children who experienced physical punishment by teachers dropped from 38 per cent in round 1 to a negligible rate very small number of",
+            "url": "https://assets.publishing.service.gov.uk/media/57a08a48e5274a31e000050c/yl-vietnam-pp1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "as of 2019 about what percentage of south koreans say it is necessary to believe in god in order to be moral and have good values",
+            "content": "about twothirds of americans say this while about a third say belief in god is an essential component of morality 65 vs 34 how we did",
+            "url": "https://www.pewresearch.org/short-reads/2023/04/20/many-people-in-u-s-other-advanced-economies-say-its-not-necessary-to-believe-in-god-to-be-moral/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "many countries that became independent after world war ii found that the legacy of colonialism hindered their economic development the list of hindrances included",
+            "content": "this article reviews how colonial rule and african actions during the colonial period affected the resources and institutional settings for subsequent economic",
+            "url": "https://journals.openedition.org/poldev/78",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "controlling for inflation and pppadjustment about how much did gdp per capita increase from 1950 to 2016 in japan",
+            "content": "it constituted 42 of the worlds economy on a nominal basis in 2022 according to the imf the countrys per capita gdp ppp was at 55600 2025",
+            "url": "https://en.wikipedia.org/wiki/Economy_of_Japan",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2018 about what percentage of us adults say criminal risk assessment for people up for parole is an unreasonable application of algorithmic decision making",
+            "content": "using ensemble machine learning we predict any arrest and any violent felony arrest within three years to generate criminal risk predictions",
+            "url": "https://link.springer.com/article/10.1007/s10940-022-09563-8",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2019 about what percentage of turks say god plays an important role in their life",
+            "content": "the same questions asked by pew in 1991 found 83 of poles saying that god was important to them and 71 saying the same for daily prayer",
+            "url": "https://notesfrompoland.com/2020/07/24/almost-70-of-poles-say-god-plays-important-role-in-their-life-the-second-highest-figure-in-eu/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2013 which of the following countries had the highest per capita rate of homelessness",
+            "content": "list of sovereign states by homeless population it is estimated that 150 million people are homeless worldwide",
+            "url": "https://en.wikipedia.org/wiki/List_of_sovereign_states_by_homeless_population",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the percentage of children in india age 8 who reported physical punishment by teachers in the past week in 2009 was about what",
+            "content": "childrens selfreports of teachers use of physical punishment in the past week at age 8 reports combine the response categories once or twice and",
+            "url": "https://ourworldindata.org/grapher/children-age-8-who-report-physical-punishment-by-teachers",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "at its peak what was the approximate difference in approval of school desegration from the south and the rest of the us",
+            "content": "school segregation declined rapidly during the late 1960s and early 1970s segregation appears to have increased since 1990 the disparity in the average",
+            "url": "https://en.wikipedia.org/wiki/School_integration_in_the_United_States",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "what is the percentage of children aged 1315 in japan who reported being bullied at least once in the past couple of months as of 2015",
+            "content": "percentage of students who reported being bullied at least a few times a month pisa 2015 5 percentage of students who responded that they were bullied",
+            "url": "https://www.unicef.org/media/66496/file/behind-the-numbers.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2015 agriculture made up about what percentage of total us gdp",
+            "content": "agriculture food and related industries contributed 55 percent to us gross domestic product and provided 104 percent of us employment",
+            "url": "http://www.ers.usda.gov/data-products/ag-and-food-statistics-charting-the-essentials/ag-and-food-sectors-and-the-economy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2019 about what percentage of people from the united states says homosexuality should be accepted by society",
+            "content": "the 2019 survey shows that while majorities in 16 of the 34 countries surveyed say homosexuality should be accepted by society global divides",
+            "url": "https://www.pewresearch.org/global/2020/06/25/global-divide-on-homosexuality-persists/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "about what percentage of survey respondents from mexico report having paid a bribe in the last year to access public services such as education judiciary medical and health police registry and permit services utilities tax revenue and customs and land service as of 2017",
+            "content": "by e ortizospina 2019 bribery is one of the most common forms of corruption the following visualization shows the share of people who report having paid a bribe to access public",
+            "url": "https://ourworldindata.org/corruption",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the percentage of children aged 1315 in china who reported being in a physical fight at school one or more times during the past 12 months as of 2015",
+            "content": "peers at school on one or more days in the past month gshs hbsc across gshs countries the prevalence of having been bullied ranged from 71 to 74",
+            "url": "https://www.unicef.org/media/66496/file/behind-the-numbers.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2018 about what percentage of us adults say computer programs will always reflect human bias",
+            "content": "roughly sixinten americans 58 feel that computer programs will always reflect the biases of the people who designed them",
+            "url": "https://www.pewresearch.org/internet/2018/11/16/attitudes-toward-algorithmic-decision-making/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2020 about how much do you need to make annually to be among the richest one percent in the world",
+            "content": "earners in the top 1 need to make 1 million annually in states like california connecticut massachusetts new jersey and washington in west virginia the",
+            "url": "https://www.investopedia.com/personal-finance/how-much-income-puts-you-top-1-5-10/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in 2016 about how many people in the united states were homeless",
+            "content": "in the united states the number of homeless people on a given night in january 2024 was more than 770000 according to the department of housing and urban",
+            "url": "https://en.wikipedia.org/wiki/Homelessness_in_the_United_States",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2015 what percentage of the global population over 15 years old was literate",
+            "content": "literacy rate adult total of people ages 15 and above from the world bank data",
+            "url": "https://data.worldbank.org/indicator/SE.ADT.LITR.ZS",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "overall the growth rate of average incomes in less developed countries between 1960 and 1995",
+            "content": "growth rate of per capita incomes in the developed nations accele rated it was 22 percent in 195560 and 40 percent in 196065 thus",
+            "url": "https://thedocs.worldbank.org/en/doc/088041624332392602-0560011968/original/WorldBankGroupArchivesfolder1182461.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2017 the share of gdp spent on the military by china is about",
+            "content": "military expenditure of gdp china stockholm international peace share details label 1989 2023 2023 2022 2021 2020 2019 2018 2017 2016 2015",
+            "url": "https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS?locations=CN",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in 1943 how many americans believed in the holocaust",
+            "content": "fears worsened in the spring of 1940 when nazi germany invaded and quickly defeated france leading americans to worry that enemy agents had brought the country",
+            "url": "https://exhibitions.ushmm.org/americans-and-the-holocaust/topics/what-americans-knew",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2016 about what percentage of adults aged 18 years or older were overweight",
+            "content": "of these 890 million were living with obesity in 2022 43 of adults aged 18 years and over were overweight and 16 were living with obesity",
+            "url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "consider the following statements 1 in every country people think other individuals in their country are less happy than they actually are 2 in the united states women’s happiness has increased both absolutely and relative to men which of these statements is truefalse",
+            "content": "by b stevenson to preview our findings section ii shows that women in the united states have become less happy both absolutely and relative to men women have traditionally",
+            "url": "https://law.yale.edu/sites/default/files/documents/pdf/Intellectual_Life/Stevenson_ParadoxDecliningFemaleHappiness_Dec08.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2013 share of people in the united states who think political parties are corrupt is",
+            "content": "share of people who think political parties are very corrupt interactive visualization requires javascript related research and data corruption charts",
+            "url": "https://ourworldindata.org/grapher/share-of-people-who-think-political-parties-are-very-corrupt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the conjecture that inequality first increases with development then decreases with further development known as the “inverted u hypothesis” has as of 2020 been",
+            "content": "ans b the concept of inverted u hypothesis was introduced by simon kuznets in 1955 according to kuznets income inequality in nations has an",
+            "url": "https://www.applebacademy.com/inverted-u-hypothesis/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the global hivaids death rate is highest for which of these age groups",
+            "content": "median hiv prevalence among the adult population ages 1549 was 08 globally however because of marginalization discrimination and in some cases",
+            "url": "https://www.unaids.org/en/resources/fact-sheet",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in 1965 how many americans thought that sending troops to vietnam was a mistake",
+            "content": "americans surveyed said they thought the war was a mistake compared to those who thought it was the right course of action read more us",
+            "url": "https://www.statista.com/statistics/1334328/vietnam-war-us-public-opinion-mistake/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in 2017 about how many people died from terrorism globally",
+            "content": "over 90 of terrorist attacks and 98 of terrorism deaths in 2023 occurred in conflict zones underscoring the strong link between conflict and terrorism key",
+            "url": "https://www.visionofhumanity.org/maps/global-terrorism-index/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2015 the global fertility rate was about",
+            "content": "in 2022 the global tfr was 23 because the global fertility replacement rate for 20102015 was estimated to be 23 humanity has achieved or is approaching a",
+            "url": "https://en.wikipedia.org/wiki/Total_fertility_rate",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "about what percentage of survey respondents from india report having paid a bribe in the last year to access public services such as education judiciary medical and health police registry and permit services utilities tax revenue and customs and land service as of 2017",
+            "content": "by e ortizospina 2019 bribery is one of the most common forms of corruption the following visualization shows the share of people who report having paid a bribe to access public",
+            "url": "https://ourworldindata.org/corruption",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "worldwide 30 year old men have spent 10 years in school on average how many years have women of the same age spent in school as of 2020",
+            "content": "education at a glance addresses the needs of a range of users from governments seeking to learn policy lessons to academics requiring data for further analysis",
+            "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/09/education-at-a-glance-2021_dd45f55e/b35a14e5-en.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "as of 2013 share of people in the ethiopia who think political parties are corrupt is",
+            "content": "almost twothirds of ethiopians say corruption in the country increased during the past year afrobarometer survey findings reveal",
+            "url": "https://www.afrobarometer.org/wp-content/uploads/2024/05/News-release-Ethiopians-say-corruption-increased-Afrobarometer.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in 1935 roughly how many americans were in favor of social security act",
+            "content": "roosevelt presented the plan in early 1935 and signed the social security act into law on august 14 1935 the supreme court upheld the act in two major cases",
+            "url": "https://en.wikipedia.org/wiki/Social_Security_Act",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following countries invested the largest fraction of its gdp in renewable energy in 2015",
+            "content": "as a result it seems currently difficult for china to reach its 2015 target of 5 gw offshore wind capacity in addition the main case of",
+            "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2015/10/medium-term-renewable-energy-market-report-2015_g1g5a1bb/renewmar-2015-en.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2017 the share of deaths in greenland by suicide is about",
+            "content": "between 1980 and 2018 greenland has had one of the highest suicide rates in the world with an average rate of 96 suicides per 100000 people",
+            "url": "https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-023-04675-2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2018 about what percentage of people from tunisia say that having an increasing number of people of many different races ethnic groups and nationalities in their country makes it a better place to live as opposed to worse or no difference",
+            "content": "many tunisians 36 also said this though 38 thought this makes their country worse",
+            "url": "https://www.pewresearch.org/race-and-ethnicity/2020/06/16/attitudes-toward-diversity-in-11-emerging-economies/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in 1997 the world bank found that the fraction of the world’s population living in low and lowermiddle income countriesthat is countries with per capita incomes of 1230 or lesswas approximately",
+            "content": "approximately 55 of the worlds population was living in these low and lowermiddle income countries based on the world banks classification in 1997 this",
+            "url": "https://www.transtutors.com/questions/1-by-the-world-bank-s-classification-system-malaysia-mexico-and-brazil-are-a-low-inc-8298143.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following countries emitted the most co2 per capita in 2017",
+            "content": "the following table lists the annual per capita co 2 emissions estimates in kilotons of co 2 per year for the year 2023 as well as the change from the year",
+            "url": "https://en.wikipedia.org/wiki/List_of_countries_by_carbon_dioxide_emissions_per_capita",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2015 about what percentage of the world’s land area is forested",
+            "content": "all countries and economies afghanistan 19 albania 288 algeria 08 american samoa 853 andorra 340",
+            "url": "https://data.worldbank.org/indicator/AG.LND.FRST.ZS",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "as of 2017 what fraction of the population in brazil used the internet in the past three months",
+            "content": "brazil 2023 84 british virgin islands 2017 78 brunei darussalam 2022 virgin islands us 2017 64 west bank and gaza 2023 87 yemen rep 2022",
+            "url": "https://data.worldbank.org/indicator/IT.NET.USER.ZS",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following was responsible for the most death in the 20th century",
+            "content": "in 1915 people were dying in large numbers from infections but by 2015 the most common causes of death were related to cancer heart conditions or external",
+            "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/articles/causesofdeathover100years/2017-09-18",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "at the time of independence there were already hundreds of thousands of university graduates in but hardly any at all in",
+            "content": "b your guess is better d we must guess harder q8 mike thats the 16th job interview ive failed what should i do jane",
+            "url": "https://www.digilib.unibba.ac.id/index.php?p=fstream-pdf&fid=146&bid=1781",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2019 about what percentage of the global population does not have access to safe drinking water",
+            "content": "it is estimated that 1 in 10 people 785 million still lack basic services including the 144 million who drink untreated surface water the",
+            "url": "https://www.who.int/news/item/18-06-2019-1-in-3-people-globally-do-not-have-access-to-safe-drinking-water-unicef-who",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "ross perot makes polling history by leading the presidential race briefly in june as a thirdparty candidate with 39 he winds up with of the popular vote",
+            "content": "henry ross perot sr was an american businessman politician and philanthropist he was the founder and chief executive officer of electronic data systems",
+            "url": "https://en.wikipedia.org/wiki/Ross_Perot",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2017 what fraction of the population in india used the internet in the past three months",
+            "content": "india 2020 43 indonesia 2023 69 iran islamic rep 2022 82 iraq 2022 virgin islands us 2017 64 west bank and gaza 2023 87 yemen rep 2022",
+            "url": "https://data.worldbank.org/indicator/IT.NET.USER.ZS",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2019 about what percentage of people from russia says homosexuality should be accepted by society",
+            "content": "but in subsaharan africa the middle east russia and ukraine few say that society should accept homosexuality only in south africa 54 and",
+            "url": "https://www.pewresearch.org/global/2020/06/25/global-divide-on-homosexuality-persists/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2013 share of people in the india who think political parties are corrupt is",
+            "content": "corruption barometer 2013which surveyed 114270 people in india as many as 86 per cent people believe political parties are corrupt",
+            "url": "https://indianexpress.com/article/india/latest-news/all-political-parties-are-corrupt-believe-86-indians-transparency-international-survey/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2015 agriculture made up about what percentage of total indian gdp",
+            "content": "as seen in figure 4 the agriculture sectors contribution to the gross domestic product gdp decreased from 54 in 195051 to 154 in 201516 while that of",
+            "url": "https://prsindia.org/policy/analytical-reports/state-agriculture-india",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "as of 2019 about what percentage of indians say it is necessary to believe in god in order to be moral and have good values",
+            "content": "share of people who think belief in god is necessary to be moral by education 2019 in a survey conducted in 2019 59 percent of respondents in",
+            "url": "https://www.statista.com/statistics/1134932/share-people-say-belief-god-necessary-order-moral-good-values-education-worldwide/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2018 about what percentage of indians say that having an increasing number of people of many different races ethnic groups and nationalities in their country makes it a better place to live as opposed to worse or no difference",
+            "content": "this analysis focuses on views of diversity ethnic and religious minorities and refugees and migrants across 11 emerging economies",
+            "url": "https://www.pewresearch.org/race-and-ethnicity/2020/06/16/attitudes-toward-diversity-in-11-emerging-economies/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in 2018 about how many chickens were killed for meat production",
+            "content": "the average number of chickens slaughtered per capita in this time period was 236 per month which makes up the bulk of the total 251 animals slaughtered per",
+            "url": "https://animalcharityevaluators.org/research/reports/trends-in-meat-production/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2019 about what percentage of french people say god plays an important role in their life",
+            "content": "according to a may survey by the research firm french institute of public opinion ifop 46 percent of respondents identified as christian 6 percent as muslim",
+            "url": "https://www.state.gov/reports/2023-report-on-international-religious-freedom/france/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the biggest cause of death in children under five years old as of 2017",
+            "content": "the leading causes of death in children under 5 years are preterm birth complications birth asphyxiatrauma pneumonia diarrhoea and malaria",
+            "url": "https://www.who.int/news-room/fact-sheets/detail/child-mortality-under-5-years",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2019 about what percentage of the world population lives in extreme poverty less than 190 a day",
+            "content": "extreme poverty here is defined according to the uns definition of living on less than 215 a day an extremely low threshold needed to monitor and draw",
+            "url": "https://ourworldindata.org/poverty",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2019 about what percentage of americans say the relationship between the us and germany is good",
+            "content": "americans are more optimistic about usgerman relations 84 say the relationship is good with 23 saying its very good positive views of",
+            "url": "https://www.pewresearch.org/short-reads/2024/11/11/before-us-election-most-americans-and-germans-had-a-positive-view-of-relations-between-their-countries/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2017 how many people in the world have some access to electricity",
+            "content": "according to data from the world bank and tracking sdg7s energy progress report at least 89 of the worlds population had some access to electricity by 2015",
+            "url": "https://www.gapminder.org/questions/gms1-12/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following is true as of 2020",
+            "content": "postdecision true self reframing promoted decision satisfaction in moral dilemmas perceptions of using true selves mediated the effect of reframing",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022103122000956",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2019 unsafe water is responsible for about how many deaths each year",
+            "content": "unsafe water sources are responsible for over one million deaths each year unsafe water is one of the worlds largest health and environmental problems",
+            "url": "https://ourworldindata.org/clean-water",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following mental disorders is most prevalent in the world",
+            "content": "in 2019 1 in every 8 people or 970 million people around the world were living with a mental disorder with anxiety and depressive disorders",
+            "url": "https://www.who.int/news-room/fact-sheets/detail/mental-disorders",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2020 about what percentage of the world population practices open defecation",
+            "content": "in 2022 420 million people 525 of the global population were practicing open defecation a significant decline from about 131 billion 2142 in 2000",
+            "url": "https://en.wikipedia.org/wiki/Open_defecation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what is the percentage of children aged 1315 in the united states who reported being in a physical fight at school one or more times during the past 12 months as of 2015",
+            "content": "among students ages 12 18 who reported being bullied during school 216 were bullied online or by text the percentages of students ages 13 17 who have",
+            "url": "https://www.pacer.org/bullying/info/stats.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2019 about what percentage of people from brazil says homosexuality should be accepted by society",
+            "content": "the 2019 survey shows that while majorities in 16 of the 34 countries surveyed say homosexuality should be accepted by society global divides",
+            "url": "https://www.pewresearch.org/global/2020/06/25/global-divide-on-homosexuality-persists/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "about what percentage of survey respondents from china report having paid a bribe in the last year to access public services such as education judiciary medical and health police registry and permit services utilities tax revenue and customs and land service as of 2017",
+            "content": "by e ortizospina 2019 bribery is one of the most common forms of corruption the following visualization shows the share of people who report having paid a bribe to access public",
+            "url": "https://ourworldindata.org/corruption",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following countries emitted the most co2 in 2017",
+            "content": "china the usa and the 28 countries of the eu account for more than half of global emissions without commitment from these largest emitters",
+            "url": "https://ourworldindata.org/annual-co2-emissions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is not an element of the redistributionwithgrowth policy approach",
+            "content": "the proposal for a strategy combining redistribution with growth rwg was first put forward at least in contemporary literature on",
+            "url": "https://link.springer.com/content/pdf/10.1007/978-1-349-81529-6_4",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2019 about what percentage of americans say it is very important to have free media in our country without governmentstate censorship",
+            "content": "ahead of world press freedom day 73 of us adults say the freedom of the press is extremely or very important to the wellbeing of",
+            "url": "https://www.pewresearch.org/short-reads/2024/04/23/most-americans-say-a-free-press-is-highly-important-to-society/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the percentage of children in ethiopia age 8 who reported physical punishment by teachers in the past week in 2009 was about what",
+            "content": "childrens selfreports of teachers use of physical punishment in the past week at age 8 reports combine the response categories once or twice and",
+            "url": "https://ourworldindata.org/grapher/children-age-8-who-report-physical-punishment-by-teachers",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2017 the share of gdp spent on the military by saudi arabia is about",
+            "content": "saudi arabia became the third largest spender in 2017 following a 92 per cent increase in military expenditure to 694 billion by contrast russias military",
+            "url": "https://www.sipri.org/yearbook/2018/04",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2019 which of the following had the lowest life expectancy",
+            "content": "in 2021 the life expectancy at birth in the eu was 801 years in 2019 life expectancy at birth reached 813 years but then fell in 2020 to 804 09 years",
+            "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20230316-1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2019 about what percentage of italians say it is very important to have free media in our country without governmentstate censorship",
+            "content": "the percentage who say it is very important that the media can report the news without state or government censorship has risen in 11 countries",
+            "url": "https://www.pewresearch.org/short-reads/2020/05/01/5-charts-on-views-of-press-freedom-around-the-world/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "about what percentage of the global population was literate in 1950",
+            "content": "we can see that two centuries ago only a small elite of the world population had the ability to read and write the best estimate is that 12 of the world",
+            "url": "https://ourworldindata.org/literacy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in 1987 during iran contra what percent of americans believe reagan was witholding information",
+            "content": "in violation of the boland amendment senior officials of the reagan administration continued to secretly arm and train the contras and provide arms to iran",
+            "url": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "public spending on education in the world is about what percentage of global gdp as of 2017",
+            "content": "government expenditure on education total of gdp from the world bank data",
+            "url": "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2019 about what share of electricity came from fossil fuels in the united states",
+            "content": "fossil fuelspetroleum natural gas and coalaccounted for about 84 of total us primary energy production in 2023 the percentage shares and amounts in",
+            "url": "https://www.eia.gov/energyexplained/us-energy-facts/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the percentage of children aged 1315 in egypt who reported being bullied at least once in the past couple of months as of 2015",
+            "content": "about 60 of students in egypt and onethird of students in libya morocco and tunisia reported having been bullied in the past month in all 4 countries boys",
+            "url": "https://www.emro.who.int/emhj-vol-19-2013/3/parental-involvement-and-bullying-among-middle-school-students-in-north-africa.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2016 about what percentage of adults aged 18 years or older were obese",
+            "content": "about 16 of adults aged 18 years and older worldwide were obese in 2022 the worldwide prevalence of obesity more than doubled between 1990 and",
+            "url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "controlling for inflation and pppadjustment about how much did gdp per capita increase from 1950 to 2016 in south korea",
+            "content": "during the past halfcentury the republic of koreas economy has shown impressive growth with average annual gdp growth rate surpassing 71 raising the",
+            "url": "https://www.adb.org/sites/default/files/publication/183353/adbi-wp571.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2017 what percentage of indians live in urban areas",
+            "content": "urban population growth annual population ages 2529 female of female population survival to age 65 female of cohort age dependency ratio",
+            "url": "https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS?locations=IN",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in subsaharan africa as of 2020",
+            "content": "economic growth in subsaharan africa is estimated to have contracted by 20 in 2020 closer to the lower bound of the forecast in april",
+            "url": "https://www.worldbank.org/en/news/press-release/2021/03/31/amid-recession-sub-saharan-africa-poised-for-recovery",
+            "engine": "google"
+        }
+    ]
+}

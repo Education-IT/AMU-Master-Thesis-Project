@@ -1,0 +1,15 @@
+use_default_settings:
+  engines:
+    keep_only:
+      - google
+server:
+  secret_key: "edu"   # change this!
+  limiter: false
+  image_proxy: true
+engines:
+  - name: google
+search:
+  autocomplete: ""
+  favicon_resolver: ""
+  formats:
+   - json

@@ -1,0 +1,1797 @@
+{
+    "task": "mmlu_public_relations",
+    "dataset": "web_access_public_relations_final",
+    "questions": 110,
+    "noWebContextCount": 1,
+    "contaminated_queries": 57,
+    "contaminated_urls": 373,
+    "valid_urls": 109,
+    "avg_contaminated_before_valid": 4.422018348623853,
+    "contaminated_data_ratio": 0.7738589211618258,
+    "most_contaminated_urls": {
+        "www.studocu.vn": 46,
+        "s3-eu-west-1.amazonaws.com": 17,
+        "accreditation.prsa.org": 16,
+        "www.transtutors.com": 14,
+        "www2.tesu.edu": 12,
+        "www.sctimst.ac.in": 5
+    },
+    "noWebContext": [
+        "What two elements do the planning models of Hendrix (2002), Kendall (1999), Merston (1963) and Parkinson and Ekachai (2006) have in common?"
+    ],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "what is the primary reason that you as a public relations manager should insist on prioritizing and scheduling activities",
+            "content": "what is the primary reason that you as a public relations manager should insist on prioritizing and scheduling activities a to help the department stay",
+            "url": "https://accreditation.prsa.org/aprdemo/htmldemo/item_14.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in public relations deals with an organizations ability to satisfy and create a positive experience for its consumers",
+            "content": "in public relations deals with an organizations ability to satisfy and create a positive experience for its consumers hint feedback for all",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205741588/Chapter_7_Quiz.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "in public relations deals with an organizations ability to satisfy and create a positive experience for its consumers",
+            "content": "consumer relations question 18 in public relations deals with an organizations ability to satisfy and create a positive experience for its",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/khoa-tieng-anh/pr-final-jjjj/59935282",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "in public relations deals with an organizations ability to satisfy and create a positive experience for its consumers",
+            "content": "in public relations deals with an organizations ability to satisfy and create a positive experience for its consumers hint feedback for all",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-thanh-pho-ho-chi-minh/cu-phap-hinh-thai-hoc/chapter-7-quiz-summary-cu-phap-hinh-thai-hoc/95734743",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when a campaign becomes noticed and unavoidable it has achieved the stage",
+            "content": "when a campaign becomes noticed and unavoidable it has achieved the stage hint feedback for all incorrect answers the advertising process p",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205741588/Chapter_7_Quiz.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "when a campaign becomes noticed and unavoidable it has achieved the stage",
+            "content": "question 7 when a campaign becomes noticed and unavoidable it has achieved the stage a participation b penetration c distribution d",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/khoa-tieng-anh/pr-final-jjjj/59935282",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "when a campaign becomes noticed and unavoidable it has achieved the stage",
+            "content": "when a campaign becomes noticed and unavoidable it has achieved the stage hint feedback for all incorrect answers the advertising process p",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-thanh-pho-ho-chi-minh/cu-phap-hinh-thai-hoc/chapter-7-quiz-summary-cu-phap-hinh-thai-hoc/95734743",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a campaign occurs when people from two or more opposing sides of an argument have emotional convictions about a decision that has the power to impact their lives",
+            "content": "a campaign occurs when people from two or more opposing sides of an argument have emotional convictions about a decision that has the power to impact",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205741588/Chapter_7_Quiz.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a campaign occurs when people from two or more opposing sides of an argument have emotional convictions about a decision that has the power to impact their lives",
+            "content": "have emotional convictions about a decision that has the power to impact their lives beliefsideas that a person holds true or false beliefs are",
+            "url": "https://routledgetextbooks.com/textbooks/9781138689602/student.php",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "a campaign occurs when people from two or more opposing sides of an argument have emotional convictions about a decision that has the power to impact their lives",
+            "content": "question 19 a public issues campaign occurs when people from two or more opposing sides of an argument have emotional convictions about a decision that has the",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/finance/pr-gggggrgrdf/59935323",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "a campaign occurs when people from two or more opposing sides of an argument have emotional convictions about a decision that has the power to impact their lives",
+            "content": "a campaign occurs when people from two or more opposing sides argument have emotional convictions about a decision that has the power to impact their",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-tpho-chi-minh/cu-phap-hinh-thai-hoc/chapter-7-quiz-summary-cu-phap-hinh-thai-hoc/95734743",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following entities cannot sue for libel",
+            "content": "2 which of the following entities cannot sue for libel a politician a private citizen a house of worship a government institution a publiclytraded",
+            "url": "https://accreditation.prsa.org/MyAPR/Content/Resources/Sample_Exam_Questions.aspx",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which area of public relations deals with emerging issues and their potential impact on an organization",
+            "content": "issues management area of public relations deals with the emerging issues and their potential impact on an organization",
+            "url": "https://www.transtutors.com/questions/1-which-area-of-public-relations-deals-with-emerging-issues-and-their-potential-impa-4781310.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which area of public relations deals with emerging issues and their potential impact on an organization",
+            "content": "which area of public relations deals with emerging issues and their potential impact on an organization a public opinion b issues management c public",
+            "url": "https://www2.tesu.edu/tecep_desc/COM-210.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which area of public relations deals with emerging issues and their potential impact on an organization",
+            "content": "which area of public relations deals with emerging issues and their potential impact on an organization a public opinion b issues management c public",
+            "url": "http://www.library.uneswa.ac.sz/pastpapers/quest/huma/jmc/2017/jmc414m2017.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "according to russian philosopher mikhail bakhtin in order to create or a wellinformed public all communication about an issue must be or take the form of a dialogue",
+            "content": "type multiple choice according to russian philosopher mikhail bakhtin in order to create or a wellinformed public all communication about an",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205741588/Chapter_7_Quiz.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "according to russian philosopher mikhail bakhtin in order to create or a wellinformed public all communication about an issue must be or take the form of a dialogue",
+            "content": "according to russian philosopher mikhail bakhtin in order to create a wellinformed public all communication about an issue must be or take the form of a",
+            "url": "https://www.studocu.vn/vn/quiz/pr-final-jjjj/1206181",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "according to russian philosopher mikhail bakhtin in order to create or a wellinformed public all communication about an issue must be or take the form of a dialogue",
+            "content": "informed public all communication about an issue must be or take the form of a dialogue a intelligentsia democratic b democracy dialogic c",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/khoa-tieng-anh/pr-final-jjjj/59935282",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "an campaign is a paid form of impersonal communication concerned with selling specific products services brands images and lifestyles to the public",
+            "content": "an campaign is a paid form of impersonal communication concerned with selling specific products services brands images and lifestyles to the",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205741588/Chapter_7_Quiz.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "an campaign is a paid form of impersonal communication concerned with selling specific products services brands images and lifestyles to the public",
+            "content": "selling specific products services brands images and lifestyles to the public a public persuasive b public relations c advertising d consumerism",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/khoa-tieng-anh/pr-final-jjjj/59935282",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "an campaign is a paid form of impersonal communication concerned with selling specific products services brands images and lifestyles to the public",
+            "content": "n campaign is a paid form of impersonal communication concerned with selling specific products services brands images and lifestyles to the public",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-thanh-pho-ho-chi-minh/cu-phap-hinh-thai-hoc/chapter-7-quiz-summary-cu-phap-hinh-thai-hoc/95734743",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "tyler and his wife have been won over by the advertising campaign supporting stan johnson who is running for mayor so they put a vote for stan johnson in november sign in their front yard tyler and his wife are engaging in the third step of the advertising campaign",
+            "content": "tyler and his wife have been won over by the advertising campaign supporting stan johnson who is running for mayor so they put a “vote for stan johnson in",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205741588/Chapter_7_Quiz.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "tyler and his wife have been won over by the advertising campaign supporting stan johnson who is running for mayor so they put a vote for stan johnson in november sign in their front yard tyler and his wife are engaging in the third step of the advertising campaign",
+            "content": "tyler and his wife are engaging in the third step of the advertising campaign a identification b legitimacy c penetration d participation",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/khoa-tieng-anh/pr-final-jjjj/59935282",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "tyler and his wife have been won over by the advertising campaign supporting stan johnson who is running for mayor so they put a vote for stan johnson in november sign in their front yard tyler and his wife are engaging in the third step of the advertising campaign",
+            "content": "question 6 tyler and his wife have been won over by the advertising campaign supporting stan mayor so they put a “vote for stan johnson in november” sign",
+            "url": "https://it.scribd.com/document/445773864/Chapter-7-Quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "tyler and his wife have been won over by the advertising campaign supporting stan johnson who is running for mayor so they put a vote for stan johnson in november sign in their front yard tyler and his wife are engaging in the third step of the advertising campaign",
+            "content": "tyler and his wife have been won over by the advertising campaign supporting stan mayor so they put a “vote for stan johnson in november” sign in their",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-tpho-chi-minh/cu-phap-hinh-thai-hoc/chapter-7-quiz-summary-cu-phap-hinh-thai-hoc/95734743",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which form of communication is most effective in forming or changing predispositions toward an issue",
+            "content": "which form of communication is most effective in forming or changing predispositions toward an issue a interpersonal b media c group d public 9 what",
+            "url": "https://www2.tesu.edu/tecep_desc/COM-210.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which form of communication is most effective in forming or changing predispositions toward an issue",
+            "content": "76 which form of communication is most effective in forming or changing predispositions toward an issue a interpersonal b media c group",
+            "url": "https://www.sctimst.ac.in/news/resources/Question%20and%20Answer%20Key%20-%20Written%20Test%20for%20the%20post%20of%20Public%20Relations%20Officer-A,%20dated%2020.09.2023.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which form of communication is most effective in forming or changing predispositions toward an issue",
+            "content": "8 which form of communication is most effective in forming or changing predispositions toward an issue correct a interpersonal b media",
+            "url": "https://www.transtutors.com/questions/7-early-theories-of-mass-communication-suggested-that-audiences-were-passive-recipie-4565500.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which form of communication is most effective in forming or changing predispositions toward an issue",
+            "content": "question 65 which form of communication is most effective in forming or changing predispositions toward an issue a interpersonal b media c group d",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/khoa-tieng-anh/pr-final-jjjj/59935282",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "which form of communication is most effective in forming or changing predispositions toward an issue",
+            "content": "define lobbying 1 10 which form of communication is most effective in forming or changing predispositions toward an issue 1 page 2 11 which phase of",
+            "url": "https://results.sgtuniversity.ac.in/old-question-papers/2022/Mass%20Communication/2nd%20Semester/MGEC02049_Corporate%20Communication%20&%20Public%20Handling%20Skills_Set%201-----Monika.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "which form of communication is most effective in forming or changing predispositions toward an issue",
+            "content": "question 65 which form of communication is most effective in forming or changing predispositions toward an issue interpersonal question 66 what is the",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/finance/pr-gggggrgrdf/59935323",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what public relations pioneer is credited with being the first practitioner to insist on a place at the management table",
+            "content": "3 what public relations pioneer is credited with being the first practitioner to insist on “a place at the management table” carl byoir edward bernays",
+            "url": "https://accreditation.prsa.org/MyAPR/Content/Resources/Sample_Exam_Questions.aspx",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what public relations pioneer is credited with being the first practitioner to insist on a place at the management table",
+            "content": "what public relations pioneer is credited with being the first practitioner to insist on a place at the management table जनसंपर्क अग्रणी को प्रबंधन तालिका में एक स्थान पर जोर",
+            "url": "https://olevelexam.com/qus-what-public-relations-pioneer-is-credited-with-being-the-first-practitioner-to-insist-on-a-place-at-",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "what public relations pioneer is credited with being the first practitioner to insist on a place at the management table",
+            "content": "what public relations pioneer is credited with being the first practitioner to insist on",
+            "url": "https://olevelexam.com/qus-what-public-relations-pioneer-is-credited-with-being-the-first-practitioner-to-insist-on-%22a-place-at-the-management-table%22",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "what public relations pioneer is credited with being the first practitioner to insist on a place at the management table",
+            "content": "the council on public relations what public relations pioneer is credited with being the first practitioner to insist on “a place at the management table”",
+            "url": "https://www.olevelnotes.com/soft-skills-and-personality-development/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "what public relations pioneer is credited with being the first practitioner to insist on a place at the management table",
+            "content": "question no 13 report bug what public relations pioneer is credited with being the first practitioner to insist on a place at the management table",
+            "url": "https://programmingtrick.com/iot-mcq-set-28",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "what public relations pioneer is credited with being the first practitioner to insist on a place at the management table",
+            "content": "what public relations pioneer is credited with being the first practitioner to insist on a place at the management table the council on public relations",
+            "url": "https://www.olevelnotes.com/model-paper-1-mock-test-1-iot/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "what public relations pioneer is credited with being the first practitioner to insist on a place at the management table",
+            "content": "what public relations pioneer is credited with being the first practitioner to insist on a place at the management table a carl byoir",
+            "url": "https://www.rakeshmgs.in/2024/01/o-level-iot-chapter-6-most-important-mcqs.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "what public relations pioneer is credited with being the first practitioner to insist on a place at the management table",
+            "content": "question no 103 what public relations pioneer is credited with being the first practitioner to insist on a place at the management table",
+            "url": "https://www.rakeshmgs.in/2024/01/o-level-iot-chapter-1-most-important-mcqs.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "nowait weight loss a diet pill brand promises its potential consumers that if they take one pill once a day they will lose weight without having to change their diet or start exercising however many people who have used the product have complained that they havent lost weight and some have even gained weight nowait weight loss has been unsuccessful in the stage of the advertising campaign",
+            "content": "however many people who have used the product have complained that they havent lost weight and some have even gained weight",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205741588/Chapter_7_Quiz.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "nowait weight loss a diet pill brand promises its potential consumers that if they take one pill once a day they will lose weight without having to change their diet or start exercising however many people who have used the product have complained that they havent lost weight and some have even gained weight nowait weight loss has been unsuccessful in the stage of the advertising campaign",
+            "content": "question 8 nowait weight loss a diet pill brand promises its potential consumers that if they take one question 9 there are three basic types of",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/khoa-tieng-anh/pr-final-jjjj/59935282",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "nowait weight loss a diet pill brand promises its potential consumers that if they take one pill once a day they will lose weight without having to change their diet or start exercising however many people who have used the product have complained that they havent lost weight and some have even gained weight nowait weight loss has been unsuccessful in the stage of the advertising campaign",
+            "content": "loss a diet pill brand promises its potential consumers that if they take one pill once a day they will lose weight without having to change their diet or",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-thanh-pho-ho-chi-minh/cu-phap-hinh-thai-hoc/chapter-7-quiz-summary-cu-phap-hinh-thai-hoc/95734743",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the second stage of the advertising campaign is to establish or to become known as trustworthy and believable",
+            "content": "the second stage of the advertising campaign is to establish or to become known as trustworthy and believable hint feedback for all incorrect",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205741588/Chapter_7_Quiz.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the second stage of the advertising campaign is to establish or to become known as trustworthy and believable",
+            "content": "question 5 the second stage of the advertising campaign is to establish legitimacy or to become known as trustworthy and believable question 6 tyler",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/finance/pr-gggggrgrdf/59935323",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the second stage of the advertising campaign is to establish or to become known as trustworthy and believable",
+            "content": "question 5 of 9 the second stage of the advertising campaign is to establish or become known as trustworthy and believable aidentity breliability cagency d",
+            "url": "https://www.studocu.vn/vn/quiz/pr-final-jjjj/1206181",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "you are the vice president of public relations for a corporation that produces a wellknown brand of food products in the albany new york market one of your products has recently been found to have some contamination while apparently not fatal it has given a large number of consumers severe stomach cramps and other intestinal problems the cause has been traced back to your product which is sold throughout the nation your ceo wants to know what you would advise to keep the situation from becoming a public relations disaster what should you recommend",
+            "content": "you are the vice president of public relations for a corporation that produces a wellknown brand of food products",
+            "url": "https://accreditation.prsa.org/aprdemo/htmldemo/item_20.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the main purpose of licensing public relations practitioners",
+            "content": "1 what is the main purpose of licensing public relations practitioners a to regulate access to posts in the field",
+            "url": "https://www.transtutors.com/questions/1-what-is-the-main-purpose-of-licensing-public-relations-practitioners-a-to-regulate-4780562.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is true about an open systems model of public relations in an organization",
+            "content": "which statement is true about an open systems model of public relations in an organization a it adapts to changing organizational environments",
+            "url": "https://accreditation.prsa.org/aprdemo/htmldemo/item_4.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what world war iera organization introduced decentralized publicity drives as a strategy to mobilize us public opinion to support the war",
+            "content": "4 what world war iera organization introduced decentralized publicity “drives” as a strategy to mobilize us public opinion to support the war the creel",
+            "url": "https://accreditation.prsa.org/MyAPR/Content/Resources/Sample_Exam_Questions.aspx",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "what world war iera organization introduced decentralized publicity drives as a strategy to mobilize us public opinion to support the war",
+            "content": "what world war iera organization introduced decentralized publicity drives as a strategy to mobilize us public opinion to support the war a the creel",
+            "url": "https://exambank.mmust.ac.ke/xmlui/bitstream/handle/123456789/3163/NCN%20413.pdf?sequence=1&isAllowed=y",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which type of measurement is the most effective choice for evaluating a campaigns impact on audience attitudes",
+            "content": "which type of measurement is the most effective choice for evaluating a campaigns impact on audience attitudes a preparing a content analysis of media",
+            "url": "https://accreditation.prsa.org/aprdemo/htmldemo/item_8.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "you are the community relations director for a public water utility that has been targeted by a group of activists opposed to adding fluoride to drinking water the activists are waging an intense internet campaign against the practice your utility has overwhelming evidence of the health benefits to fluoridated water the manager of the utility asks you to initiate a blog to get the health message out what is the most appropriate course of action",
+            "content": "the activists are waging an intense internet campaign against the practice your utility has overwhelming evidence of the health benefits to fluoridated water",
+            "url": "https://accreditation.prsa.org/aprdemo/htmldemo/item_5.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "according to working theory what is the step that occurs between an individual gaining information and changing behavior",
+            "content": "according to working theory what is the step that occurs between an individual gaining information and changing behavior a coorientation b opinion change",
+            "url": "https://accreditation.prsa.org/aprdemo/htmldemo/item_7.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "according to working theory what is the step that occurs between an individual gaining information and changing behavior",
+            "content": "sample question 2 according to working theory what is the step that occurs between an individual gaining information and changing behavior o a",
+            "url": "https://www.academia.edu/30256988/PR_trends_7_Webinar_Communication_Models",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what are major reasons why organizations retain outside public relations counsel",
+            "content": "1 what are two major reasons why organizations retain outside public relations counsel choose two they offer flexibility of talents and skills they",
+            "url": "https://accreditation.prsa.org/MyAPR/Content/Resources/Sample_Exam_Questions.aspx",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "approximately half of all public relations practitioners work in",
+            "content": "approximately half of all public relations practitioners work in business and commercial area the public relation practitioners are the",
+            "url": "https://www.transtutors.com/questions/1-which-area-of-public-relations-deals-with-emerging-issues-and-their-potential-impa-4781310.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "approximately half of all public relations practitioners work in",
+            "content": "public opinion b issues management c public affairs d lobbying 2 approximately half of all public relations practitioners work in a government b",
+            "url": "https://www2.tesu.edu/tecep_desc/COM-210.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "approximately half of all public relations practitioners work in",
+            "content": "organization a public opinion b issues management c public affairs d lobbying question 59 approximately half of all public relations practitioners work",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/khoa-tieng-anh/pr-final-jjjj/59935282",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "leslie is a disgruntled employee who walks into her place of employment and shoots three people killing two and critically injuring the other what is leslies behavior an example of",
+            "content": "leslie is a disgruntled employee who walks into her place of employment and shoots three people killing two and critically injuring the other what is",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205741588/Chapter_7_Quiz.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "leslie is a disgruntled employee who walks into her place of employment and shoots three people killing two and critically injuring the other what is leslies behavior an example of",
+            "content": "type people killing two and critically injuring the other what is leslies behavior an example of multiple choice hint feedback for all crisis management",
+            "url": "https://it.scribd.com/document/445773864/Chapter-7-Quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "leslie is a disgruntled employee who walks into her place of employment and shoots three people killing two and critically injuring the other what is leslies behavior an example of",
+            "content": "employee who walks into her place of employment and shoots three people killing two and critically injuring the other what is leslies behavior an example of",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/khoa-tieng-anh/pr-final-jjjj/59935282",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "leslie is a disgruntled employee who walks into her place of employment and shoots three people killing two and critically injuring the other what is leslies behavior an example of",
+            "content": "leslie is a disgruntled employee who walks into her place of employment and shoots three people killing two and critically injuring the other what is",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-tpho-chi-minh/cu-phap-hinh-thai-hoc/chapter-7-quiz-summary-cu-phap-hinh-thai-hoc/95734743",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which law restricts corporate communications for publicly traded companies before and during the period that new securities are being registered",
+            "content": "1 which law restricts corporate communications for publicly traded companies before and during the period that new securities are being registered",
+            "url": "https://accreditation.prsa.org/MyAPR/Content/Resources/Sample_Exam_Questions.aspx",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as the singleperson public relations staff of a public transit agency you are tasked with increasing the number of people who ride your buses each month your target audiences are lowerincome individuals college students people with basic educations and people for whom english is a second language when preparing to craft a primary message what should you do first",
+            "content": "as the singleperson public relations staff of a public transit agency you are tasked with increasing the number of people who ride your buses each month",
+            "url": "https://accreditation.prsa.org/aprdemo/htmldemo/item_15_ans.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "why should a successful public relations counselor continually review present and future realities for an organization",
+            "content": "why should a successful public relations counselor continually review present and future realities for an organization a to develop a vision statement",
+            "url": "https://accreditation.prsa.org/aprdemo/htmldemo/item_2.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "your client has asked you to develop a public relations campaign to promote a college tuition savings program using new technologies what is the most appropriate first step",
+            "content": "your client has asked you to develop a public relations campaign to promote a college tuition savings program using new technologies appropriate first step",
+            "url": "https://accreditation.prsa.org/aprdemo/htmldemo/item_12.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the public relations field what is the most common threat to a clientfirm relationship",
+            "content": "1 the most common threat to a clientfirm relationship is clients questions about costs this is the biggest threat between a client and a",
+            "url": "https://www.transtutors.com/questions/1-in-the-public-relations-field-what-is-the-most-common-threat-to-a-client-firm-rela-4771642.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "in the public relations field what is the most common threat to a clientfirm relationship",
+            "content": "3 in the public relations field what is the most common threat to a clientfirm relationship a clients questions about costs",
+            "url": "https://www2.tesu.edu/tecep_desc/COM-210.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "in the public relations field what is the most common threat to a clientfirm relationship",
+            "content": "public relations firms question 60 in the public relations field what is the most common threat to a clientfirm relationship a clients questions about",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/khoa-tieng-anh/pr-final-jjjj/59935282",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which phase of public relations audience research is associated with summative evaluation",
+            "content": "18 which phase of public relations audience research is associated with summative evaluation a implementation b impact c attitude change",
+            "url": "https://www2.tesu.edu/tecep_desc/COM-210.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which phase of public relations audience research is associated with summative evaluation",
+            "content": "politics question 75 which phase of public relations audience research is associated with summative evaluation impact question 76 what is the primary",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/finance/pr-gggggrgrdf/59935323",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which phase of public relations audience research is associated with summative evaluation",
+            "content": "11 which phase of public relations audience research is associated with summative evaluation 1 12 what is a news release 1 sectionb short answer type",
+            "url": "https://results.sgtuniversity.ac.in/old-question-papers/2022/Mass%20Communication/2nd%20Semester/MGEC02049_Corporate%20Communication%20&%20Public%20Handling%20Skills_Set%201-----Monika.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "emma is browsing a popular website when she runs across the story of a wellknown actor who was recently pulled over for speeding and driving down the wrong side of the street it turns out he had been drinking and the arresting police officer found drugs in the car the actors publicist issued a statement claiming the actor was just tired and that the drugs belonged to someone else emma cant help having the impression that all public relations are and occur only after something negative has occurred",
+            "content": "emma is browsing a popular website when she runs across the story of a wellknown actor who was recently pulled over for speeding and driving down the wrong",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205741588/Chapter_7_Quiz.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "emma is browsing a popular website when she runs across the story of a wellknown actor who was recently pulled over for speeding and driving down the wrong side of the street it turns out he had been drinking and the arresting police officer found drugs in the car the actors publicist issued a statement claiming the actor was just tired and that the drugs belonged to someone else emma cant help having the impression that all public relations are and occur only after something negative has occurred",
+            "content": "it turns out he had been drinking and the arresting police officer found drugs in the car the actors publicist issued a statement claiming the actor was",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/khoa-tieng-anh/pr-final-jjjj/59935282",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "emma is browsing a popular website when she runs across the story of a wellknown actor who was recently pulled over for speeding and driving down the wrong side of the street it turns out he had been drinking and the arresting police officer found drugs in the car the actors publicist issued a statement claiming the actor was just tired and that the drugs belonged to someone else emma cant help having the impression that all public relations are and occur only after something negative has occurred",
+            "content": "question 13 emma is browsing a popular website when she runs across the story of a wellknown actor who was recently pulled over for speeding and driving down",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/finance/pr-gggggrgrdf/59935323",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "louis owns a chemical company that has been irresponsibly disposing of chemical waste and contaminating the communitys water supply although he knew the company was cutting costs in its waste disposal he publicly claims to have had no knowledge of the irresponsible practices blames it on the companys general manager and fires him what image restoration strategy is louis using",
+            "content": "timothy coombs louis owns a chemical company that has been irresponsibly disposing of chemical waste and contaminating the communitys water supply",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205741588/Chapter_7_Quiz.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "louis owns a chemical company that has been irresponsibly disposing of chemical waste and contaminating the communitys water supply although he knew the company was cutting costs in its waste disposal he publicly claims to have had no knowledge of the irresponsible practices blames it on the companys general manager and fires him what image restoration strategy is louis using",
+            "content": "although he knew the company was cutting costs in its waste disposal he publicly claims to have had no knowledge of the irresponsible practices blames it",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/khoa-tieng-anh/pr-final-jjjj/59935282",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "louis owns a chemical company that has been irresponsibly disposing of chemical waste and contaminating the communitys water supply although he knew the company was cutting costs in its waste disposal he publicly claims to have had no knowledge of the irresponsible practices blames it on the companys general manager and fires him what image restoration strategy is louis using",
+            "content": "louis owns a chemical company that has been irresponsibly disposing of chemical waste and contaminating the communitys water supply although he knew the",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-thanh-pho-ho-chi-minh/cu-phap-hinh-thai-hoc/chapter-7-quiz-summary-cu-phap-hinh-thai-hoc/95734743",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the process of identifying publics who are involved and affected by a situation central to an organization is called an",
+            "content": "the process of identifying publics who are involved and affected by a situation central to an organization is called an a exploratory survey b situation",
+            "url": "https://www2.tesu.edu/tecep_desc/COM-210.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the process of identifying publics who are involved and affected by a situation central to an organization is called an",
+            "content": "2 the process of identifying publics who are involved and affected by a situation central to an organization is called an a exploratory",
+            "url": "https://www.transtutors.com/questions/1-the-internal-factors-portion-of-a-firm-s-public-relations-situation-analysis-often-4777554.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the process of identifying publics who are involved and affected by a situation central to an organization is called an",
+            "content": "question 69 the process of identifying publics who are involved and affected by a situation central to an organization is called an a exploratory survey",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/khoa-tieng-anh/pr-final-jjjj/59935282",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "the process of identifying publics who are involved and affected by a situation central to an organization is called an",
+            "content": "question 69 the process of identifying publics who are involved and affected by a situation central to an organization is called an stakeholder analysis",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/finance/pr-gggggrgrdf/59935323",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "the process of identifying publics who are involved and affected by a situation central to an organization is called an",
+            "content": "the process of identifying publics who are involved and affected by a situation central to an organization is called stakeholder analysis",
+            "url": "https://www.transtutors.com/questions/10-what-should-a-public-relations-media-practitioner-do-if-she-does-not-know-the-ans-4603835.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the phase of the pr model consists of primary and secondary research about a client identifying the target audiences for the campaign proposing channels of communication and strategies to be used in the campaign and constructing goals objectives messages and themes",
+            "content": "the phase of the pr model consists of primary and secondary research about a client identifying the target audiences for the campaign proposing",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205741588/Chapter_7_Quiz.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the phase of the pr model consists of primary and secondary research about a client identifying the target audiences for the campaign proposing channels of communication and strategies to be used in the campaign and constructing goals objectives messages and themes",
+            "content": "audience question 15 the phase of the pr model consists of primary and secondary research about a client identifying the target audiences for the",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/khoa-tieng-anh/pr-final-jjjj/59935282",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "the phase of the pr model consists of primary and secondary research about a client identifying the target audiences for the campaign proposing channels of communication and strategies to be used in the campaign and constructing goals objectives messages and themes",
+            "content": "the phase of the pr model consists of primary and secondary research about a client identifying the target audiences for the campaign proposing",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-tpho-chi-minh/cu-phap-hinh-thai-hoc/chapter-7-quiz-summary-cu-phap-hinh-thai-hoc/95734743",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is not one of the four categories of persuasive crisis communication strategies identified by w timothy coombs",
+            "content": "which of the following is not one of the four categories of persuasive crisis communication strategies identified by w timothy coombs hint feedback for",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205741588/Chapter_7_Quiz.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following is not one of the four categories of persuasive crisis communication strategies identified by w timothy coombs",
+            "content": "question 22 which of the following is not one of the four categories of persuasive crisis communication strategies identified by w timothy coombs a",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/khoa-tieng-anh/pr-final-jjjj/59935282",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following internetrelated challenges is most significant in the public relations field",
+            "content": "20 which of the following internetrelated challenges is most significant in the public relations field a representing clients using new social media",
+            "url": "https://www2.tesu.edu/tecep_desc/COM-210.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following internetrelated challenges is most significant in the public relations field",
+            "content": "22 which of the following internetrelated challenges is most significant in the public relations field a representing clients using new",
+            "url": "https://www.sctimst.ac.in/news/resources/Question%20and%20Answer%20Key%20-%20Written%20Test%20for%20the%20post%20of%20Public%20Relations%20Officer-A,%20dated%2020.09.2023.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following internetrelated challenges is most significant in the public relations field",
+            "content": "producing the annual report question 77 which of the following internetrelated challenges is most significant in the public relations field staying",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/finance/pr-gggggrgrdf/59935323",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which of the following internetrelated challenges is most significant in the public relations field",
+            "content": "which of the following internet related challenges is most significant iii the public relations field a representing clients using new social media",
+            "url": "http://www.library.uneswa.ac.sz/pastpapers/quest/huma/jmc/2017/jmc414m2017.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "which of the following internetrelated challenges is most significant in the public relations field",
+            "content": "which of the following internetrelated challenges is most significant in the public relations field a representing clients using new social",
+            "url": "https://www.transtutors.com/questions/what-is-the-primary-public-relations-activity-in-financial-relations-a-measuring-inv-3155405.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "you seek the counsel of one of your peers who designed and implemented a communication program that resulted in the successful permitting of an automotive recycling center despite strong opposition from community organizations you have to design a program to win approval for a similar project proposed by your company your peer gives you a brief piece of advice that succinctly describes the foundation of his successful program what is most likely your peers advice for a successful communication program",
+            "content": "you seek the counsel of one of your peers who designed and implemented a communication program that resulted in the successful permitting of an automotive",
+            "url": "https://app.airtrain.ai/dataset/290ba84d-da8b-4358-9cf4-9e51506faa80/%7B%22AND%22%3A%5B%5B4%2C3%2C%22cluster%22%5D%5D%7D/1/0",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "you seek the counsel of one of your peers who designed and implemented a communication program that resulted in the successful permitting of an automotive recycling center despite strong opposition from community organizations you have to design a program to win approval for a similar project proposed by your company your peer gives you a brief piece of advice that succinctly describes the foundation of his successful program what is most likely your peers advice for a successful communication program",
+            "content": "2 you seek the counsel of one of your peers who designed and implemented design a program to win approval for a similar project proposed by your company",
+            "url": "https://www.tutorsglobe.com/question/what-is-most-likely-your-peers-advice-for-a-successful-52637221.aspx",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "you seek the counsel of one of your peers who designed and implemented a communication program that resulted in the successful permitting of an automotive recycling center despite strong opposition from community organizations you have to design a program to win approval for a similar project proposed by your company your peer gives you a brief piece of advice that succinctly describes the foundation of his successful program what is most likely your peers advice for a successful communication program",
+            "content": "correct answer d 2 you seek the counsel of one of your peers who designed and implemented a communication program that resulted in the successful permitting",
+            "url": "https://accreditation.prsa.org/MyAPR/Content/Resources/Sample_Exam_Questions.aspx",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "you seek the counsel of one of your peers who designed and implemented a communication program that resulted in the successful permitting of an automotive recycling center despite strong opposition from community organizations you have to design a program to win approval for a similar project proposed by your company your peer gives you a brief piece of advice that succinctly describes the foundation of his successful program what is most likely your peers advice for a successful communication program",
+            "content": "14 you seek the counsel of one of your peers who designed and implemented a communication program that resulted in the successful permitting of an automotive",
+            "url": "https://exambank.mmust.ac.ke/xmlui/bitstream/handle/123456789/3163/NCN%20413.pdf?sequence=1&isAllowed=y",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the part of a pr campaign includes proactively planning a response strategy implementing that strategy in the event of a crisis evaluating the crisis response and revising the initial response strategy in an effort to improve for future crises",
+            "content": "the part of a pr campaign includes proactively planning a response strategy implementing that strategy in the event of a crisis evaluating the crisis",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205741588/Chapter_7_Quiz.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "there are three basic types of persuasive advertising campaigns which of the following is not one of them",
+            "content": "question 9 there are three basic types of persuasive advertising campaigns which of the following is not one of them a productoriented b person",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/khoa-tieng-anh/pr-final-jjjj/59935282",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in recent years social media has had a major impact on the practice of public relations in which of the following areas has the impact been greatest and experienced most immediately",
+            "content": "in which of the following areas has the impact been greatest experienced most immediately a politics b retail business c automotive sales",
+            "url": "https://www.sctimst.ac.in/news/resources/Question%20and%20Answer%20Key%20-%20Written%20Test%20for%20the%20post%20of%20Public%20Relations%20Officer-A,%20dated%2020.09.2023.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "in public relations deals with an organizations ability to satisfy and create a positive experience for its consumers",
+            "content": "in public relations deals with an organizations ability to satisfy and create a positive experience for its consumers hint feedback for all",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205741588/Chapter_7_Quiz.doc",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "in public relations deals with an organizations ability to satisfy and create a positive experience for its consumers",
+            "content": "consumer relations question 18 in public relations deals with an organizations ability to satisfy and create a positive experience for its",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/khoa-tieng-anh/pr-final-jjjj/59935282",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "in public relations deals with an organizations ability to satisfy and create a positive experience for its consumers",
+            "content": "in public relations deals with an organizations ability to satisfy and create a positive experience for its consumers hint feedback for all",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-thanh-pho-ho-chi-minh/cu-phap-hinh-thai-hoc/chapter-7-quiz-summary-cu-phap-hinh-thai-hoc/95734743",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "a campaign occurs when people from two or more opposing sides of an argument have emotional convictions about a decision that has the power to impact their lives",
+            "content": "a campaign occurs when people from two or more opposing sides of an argument have emotional convictions about a decision that has the power to impact",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205741588/Chapter_7_Quiz.doc",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "a campaign occurs when people from two or more opposing sides of an argument have emotional convictions about a decision that has the power to impact their lives",
+            "content": "have emotional convictions about a decision that has the power to impact their lives beliefsideas that a person holds true or false beliefs are",
+            "url": "https://routledgetextbooks.com/textbooks/9781138689602/student.php",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "a campaign occurs when people from two or more opposing sides of an argument have emotional convictions about a decision that has the power to impact their lives",
+            "content": "question 19 a public issues campaign occurs when people from two or more opposing sides of an argument have emotional convictions about a decision that has the",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/finance/pr-gggggrgrdf/59935323",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "a campaign occurs when people from two or more opposing sides of an argument have emotional convictions about a decision that has the power to impact their lives",
+            "content": "a campaign occurs when people from two or more opposing sides argument have emotional convictions about a decision that has the power to impact their",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-tpho-chi-minh/cu-phap-hinh-thai-hoc/chapter-7-quiz-summary-cu-phap-hinh-thai-hoc/95734743",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "which area of public relations deals with emerging issues and their potential impact on an organization",
+            "content": "issues management area of public relations deals with the emerging issues and their potential impact on an organization",
+            "url": "https://www.transtutors.com/questions/1-which-area-of-public-relations-deals-with-emerging-issues-and-their-potential-impa-4781310.htm",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "which area of public relations deals with emerging issues and their potential impact on an organization",
+            "content": "which area of public relations deals with emerging issues and their potential impact on an organization a public opinion b issues management c public",
+            "url": "https://www2.tesu.edu/tecep_desc/COM-210.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "which area of public relations deals with emerging issues and their potential impact on an organization",
+            "content": "which area of public relations deals with emerging issues and their potential impact on an organization a public opinion b issues management c public",
+            "url": "http://www.library.uneswa.ac.sz/pastpapers/quest/huma/jmc/2017/jmc414m2017.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "tyler and his wife have been won over by the advertising campaign supporting stan johnson who is running for mayor so they put a vote for stan johnson in november sign in their front yard tyler and his wife are engaging in the third step of the advertising campaign",
+            "content": "tyler and his wife are engaging in the third step of the advertising campaign a identification b legitimacy c penetration d participation",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/khoa-tieng-anh/pr-final-jjjj/59935282",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "tyler and his wife have been won over by the advertising campaign supporting stan johnson who is running for mayor so they put a vote for stan johnson in november sign in their front yard tyler and his wife are engaging in the third step of the advertising campaign",
+            "content": "question 6 tyler and his wife have been won over by the advertising campaign supporting stan mayor so they put a “vote for stan johnson in november” sign",
+            "url": "https://it.scribd.com/document/445773864/Chapter-7-Quiz",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "tyler and his wife have been won over by the advertising campaign supporting stan johnson who is running for mayor so they put a vote for stan johnson in november sign in their front yard tyler and his wife are engaging in the third step of the advertising campaign",
+            "content": "tyler and his wife have been won over by the advertising campaign supporting stan mayor so they put a “vote for stan johnson in november” sign in their",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-tpho-chi-minh/cu-phap-hinh-thai-hoc/chapter-7-quiz-summary-cu-phap-hinh-thai-hoc/95734743",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "which form of communication is most effective in forming or changing predispositions toward an issue",
+            "content": "which form of communication is most effective in forming or changing predispositions toward an issue a interpersonal b media c group d public 9 what",
+            "url": "https://www2.tesu.edu/tecep_desc/COM-210.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "which form of communication is most effective in forming or changing predispositions toward an issue",
+            "content": "76 which form of communication is most effective in forming or changing predispositions toward an issue a interpersonal b media c group",
+            "url": "https://www.sctimst.ac.in/news/resources/Question%20and%20Answer%20Key%20-%20Written%20Test%20for%20the%20post%20of%20Public%20Relations%20Officer-A,%20dated%2020.09.2023.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "which form of communication is most effective in forming or changing predispositions toward an issue",
+            "content": "8 which form of communication is most effective in forming or changing predispositions toward an issue correct a interpersonal b media",
+            "url": "https://www.transtutors.com/questions/7-early-theories-of-mass-communication-suggested-that-audiences-were-passive-recipie-4565500.htm",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "which form of communication is most effective in forming or changing predispositions toward an issue",
+            "content": "question 65 which form of communication is most effective in forming or changing predispositions toward an issue a interpersonal b media c group d",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/khoa-tieng-anh/pr-final-jjjj/59935282",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "which form of communication is most effective in forming or changing predispositions toward an issue",
+            "content": "define lobbying 1 10 which form of communication is most effective in forming or changing predispositions toward an issue 1 page 2 11 which phase of",
+            "url": "https://results.sgtuniversity.ac.in/old-question-papers/2022/Mass%20Communication/2nd%20Semester/MGEC02049_Corporate%20Communication%20&%20Public%20Handling%20Skills_Set%201-----Monika.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "which form of communication is most effective in forming or changing predispositions toward an issue",
+            "content": "which form of communication is most effective in forming or changing predispositions toward an issue interpersonal media group public",
+            "url": "http://vu-past-papers.blogspot.com/2012/07/mcm401-mcqs.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "what public relations pioneer is credited with being the first practitioner to insist on a place at the management table",
+            "content": "3 what public relations pioneer is credited with being the first practitioner to insist on “a place at the management table” carl byoir edward bernays",
+            "url": "https://accreditation.prsa.org/MyAPR/Content/Resources/Sample_Exam_Questions.aspx",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "what public relations pioneer is credited with being the first practitioner to insist on a place at the management table",
+            "content": "what public relations pioneer is credited with being the first practitioner to insist on a place at the management table जनसंपर्क अग्रणी को प्रबंधन तालिका में एक स्थान पर जोर",
+            "url": "https://olevelexam.com/qus-what-public-relations-pioneer-is-credited-with-being-the-first-practitioner-to-insist-on-a-place-at-",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "what public relations pioneer is credited with being the first practitioner to insist on a place at the management table",
+            "content": "what public relations pioneer is credited with being the first practitioner to insist on",
+            "url": "https://olevelexam.com/qus-what-public-relations-pioneer-is-credited-with-being-the-first-practitioner-to-insist-on-%22a-place-at-the-management-table%22",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "what public relations pioneer is credited with being the first practitioner to insist on a place at the management table",
+            "content": "the council on public relations what public relations pioneer is credited with being the first practitioner to insist on “a place at the management table”",
+            "url": "https://www.olevelnotes.com/soft-skills-and-personality-development/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "what public relations pioneer is credited with being the first practitioner to insist on a place at the management table",
+            "content": "question no 13 report bug what public relations pioneer is credited with being the first practitioner to insist on a place at the management table",
+            "url": "https://programmingtrick.com/iot-mcq-set-28",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "what public relations pioneer is credited with being the first practitioner to insist on a place at the management table",
+            "content": "what public relations pioneer is credited with being the first practitioner to insist on a place at the management table the council on public relations",
+            "url": "https://www.olevelnotes.com/model-paper-1-mock-test-1-iot/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "what public relations pioneer is credited with being the first practitioner to insist on a place at the management table",
+            "content": "what public relations pioneer is credited with being the first practitioner to insist on a place at the management table a carl byoir",
+            "url": "https://www.rakeshmgs.in/2024/01/o-level-iot-chapter-6-most-important-mcqs.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "what public relations pioneer is credited with being the first practitioner to insist on a place at the management table",
+            "content": "question no 103 what public relations pioneer is credited with being the first practitioner to insist on a place at the management table",
+            "url": "https://www.rakeshmgs.in/2024/01/o-level-iot-chapter-1-most-important-mcqs.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "leslie is a disgruntled employee who walks into her place of employment and shoots three people killing two and critically injuring the other what is leslies behavior an example of",
+            "content": "leslie is a disgruntled employee who walks into her place of employment and shoots three people killing two and critically injuring the other what is",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205741588/Chapter_7_Quiz.doc",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "leslie is a disgruntled employee who walks into her place of employment and shoots three people killing two and critically injuring the other what is leslies behavior an example of",
+            "content": "type people killing two and critically injuring the other what is leslies behavior an example of multiple choice hint feedback for all crisis management",
+            "url": "https://it.scribd.com/document/445773864/Chapter-7-Quiz",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "leslie is a disgruntled employee who walks into her place of employment and shoots three people killing two and critically injuring the other what is leslies behavior an example of",
+            "content": "employee who walks into her place of employment and shoots three people killing two and critically injuring the other what is leslies behavior an example of",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/khoa-tieng-anh/pr-final-jjjj/59935282",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "leslie is a disgruntled employee who walks into her place of employment and shoots three people killing two and critically injuring the other what is leslies behavior an example of",
+            "content": "leslie is a disgruntled employee who walks into her place of employment and shoots three people killing two and critically injuring the other what is",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-tpho-chi-minh/cu-phap-hinh-thai-hoc/chapter-7-quiz-summary-cu-phap-hinh-thai-hoc/95734743",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "which phase of public relations audience research is associated with summative evaluation",
+            "content": "18 which phase of public relations audience research is associated with summative evaluation a implementation b impact c attitude change",
+            "url": "https://www2.tesu.edu/tecep_desc/COM-210.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "which phase of public relations audience research is associated with summative evaluation",
+            "content": "politics question 75 which phase of public relations audience research is associated with summative evaluation impact question 76 what is the primary",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/finance/pr-gggggrgrdf/59935323",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "which phase of public relations audience research is associated with summative evaluation",
+            "content": "11 which phase of public relations audience research is associated with summative evaluation 1 12 what is a news release 1 sectionb short answer type",
+            "url": "https://results.sgtuniversity.ac.in/old-question-papers/2022/Mass%20Communication/2nd%20Semester/MGEC02049_Corporate%20Communication%20&%20Public%20Handling%20Skills_Set%201-----Monika.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "the process of identifying publics who are involved and affected by a situation central to an organization is called an",
+            "content": "the process of identifying publics who are involved and affected by a situation central to an organization is called an a exploratory survey b situation",
+            "url": "https://www2.tesu.edu/tecep_desc/COM-210.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "the process of identifying publics who are involved and affected by a situation central to an organization is called an",
+            "content": "2 the process of identifying publics who are involved and affected by a situation central to an organization is called an a exploratory",
+            "url": "https://www.transtutors.com/questions/1-the-internal-factors-portion-of-a-firm-s-public-relations-situation-analysis-often-4777554.htm",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "the process of identifying publics who are involved and affected by a situation central to an organization is called an",
+            "content": "question 69 the process of identifying publics who are involved and affected by a situation central to an organization is called an a exploratory survey",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/khoa-tieng-anh/pr-final-jjjj/59935282",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "the process of identifying publics who are involved and affected by a situation central to an organization is called an",
+            "content": "the process of identifying publics who are involved and affected by a situation central to an organization is called stakeholder analysis",
+            "url": "https://www.transtutors.com/questions/10-what-should-a-public-relations-media-practitioner-do-if-she-does-not-know-the-ans-4603835.htm",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "which of the following internetrelated challenges is most significant in the public relations field",
+            "content": "20 which of the following internetrelated challenges is most significant in the public relations field a representing clients using new social media",
+            "url": "https://www2.tesu.edu/tecep_desc/COM-210.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "which of the following internetrelated challenges is most significant in the public relations field",
+            "content": "22 which of the following internetrelated challenges is most significant in the public relations field a representing clients using new",
+            "url": "https://www.sctimst.ac.in/news/resources/Question%20and%20Answer%20Key%20-%20Written%20Test%20for%20the%20post%20of%20Public%20Relations%20Officer-A,%20dated%2020.09.2023.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "which of the following internetrelated challenges is most significant in the public relations field",
+            "content": "producing the annual report question 77 which of the following internetrelated challenges is most significant in the public relations field staying",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/finance/pr-gggggrgrdf/59935323",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "which of the following internetrelated challenges is most significant in the public relations field",
+            "content": "which of the following internet related challenges is most significant iii the public relations field a representing clients using new social media",
+            "url": "http://www.library.uneswa.ac.sz/pastpapers/quest/huma/jmc/2017/jmc414m2017.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "which of the following internetrelated challenges is most significant in the public relations field",
+            "content": "which of the following internetrelated challenges is most significant in the public relations field a representing clients using new social",
+            "url": "https://www.transtutors.com/questions/what-is-the-primary-public-relations-activity-in-financial-relations-a-measuring-inv-3155405.htm",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "which area of public relations deals with emerging issues and their potential impact on an organization",
+            "content": "1 which area of public relations deals with emerging issues and their potential impact on an organization a public opinion b issues management c public affairs d lobbying 2 approximately half of all public relations practitioners work in a",
+            "url": "https://www.transtutors.com/questions/1-which-area-of-public-relations-deals-with-emerging-issues-and-their-potential-impa-4781310.htm",
+            "engine": "braveAPI"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "which factors are mentioned that influence media coverage of a story",
+            "content": "news values “values of news stories” as news values represent one of the factors influencing the media coverage of events in other words the news",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1877042814034089/pdf?md5=1164a365f13c47117d7dfdc23981a09f&pid=1-s2.0-S1877042814034089-main.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the major advantage of organizational publications",
+            "content": "answer1 b their ability to deliver specific detailed information to narrowly defined target publics",
+            "url": "https://www.transtutors.com/questions/1-what-is-the-major-advantage-of-organizational-publications-a-their-ability-to-prov-4780567.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "early theories of mass communication suggested that audiences were passive recipients of media messages and thus vulnerable to manipulation which of the following best describes current thinking",
+            "content": "a audiences are more vulnerable and passive than ever before b television viewing in particular creates increased activity in the right",
+            "url": "https://www.transtutors.com/questions/7-early-theories-of-mass-communication-suggested-that-audiences-were-passive-recipie-4565500.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which traditional news criterion would you expect to be most important in public relations messages distributed through the mass media",
+            "content": "16 answer d impact explanation it has had a philosophical result on communal relationships generating new chances and challenges for brands",
+            "url": "https://www.transtutors.com/questions/16-which-traditional-news-criterion-would-you-expect-to-be-most-important-in-public--4616188.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the internal factors portion of a firms public relations situation analysis often includes",
+            "content": "a public relations scenario is a group of conditions or an issue that an organisation is dealing with a scenario analysis is a thorough summary",
+            "url": "https://www.transtutors.com/questions/1-the-internal-factors-portion-of-a-firm-s-public-relations-situation-analysis-often-4777554.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "what is the primary reason that you as a public relations manager should insist on prioritizing and scheduling activities",
+            "content": "priority levels are the backbone of efficient project management they provide a structured approach to decisionmaking ensuring that resources",
+            "url": "https://www.6sigma.us/project-management/levels-of-priority/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which outcome from the evaluation phase of public relations planning documents the impact a program had on its stakeholders",
+            "content": "process evaluations document the process of a programs implementation process evaluations help stakeholders see how a program outcome or impact was achieved",
+            "url": "https://tsne.org/blog/process-evaluation-vs-outcome-evaluation/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the american flag is an example of a",
+            "content": "the national flag of the united states often referred to as the american flag or the us flag consists of thirteen horizontal stripes alternating red and",
+            "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "when a campaign becomes noticed and unavoidable it has achieved the stage",
+            "content": "gst 101 will enable you to gain understanding on variety of issues relating to effective communicationstudy skills course aims gst 101 has specific aim which",
+            "url": "https://nou.edu.ng/coursewarecontent/GST%20101.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of these organizations is most effective in engaging with customers online",
+            "content": "a solid customer engagement strategy can take your business to the next level here are the 10 best customer engagement examples for maximum",
+            "url": "https://www.hashgrowth.org/articles/10-brilliant-customer-engagement-examples-and-why-they-are-effective/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following entities cannot sue for libel",
+            "content": "guide over defamation laws in poland protection against slander insult remedies for breach of goodwill reputation notability",
+            "url": "https://www.dudkowiak.com/criminal-law-in-poland/defamation-in-poland/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "according to russian philosopher mikhail bakhtin in order to create or a wellinformed public all communication about an issue must be or take the form of a dialogue",
+            "content": "mikhail mikhailovich bakhtin was a russian philosopher and literary critic who worked on the philosophy of language ethics and literary theory",
+            "url": "https://en.wikipedia.org/wiki/Mikhail_Bakhtin",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "according to macnamaras 2005 pyramid of evaluation at which stage are opinion polls most useful",
+            "content": "according to macnamara 2005b p264 “the pyramid metaphor is useful in suggesting that at the base when communication planning begins practitioners",
+            "url": "https://www.clappro.ch/pr-evaluation-models-and-processes/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which common public relations tactic involves sending journalists on visits to appropriate locations",
+            "content": "1 media outreach this pr tactic involves you reaching out to different media outlets and journalists to spread your businesss key message",
+            "url": "https://prlab.co/blog/how-to-create-a-pr-strategy-with-tactics-and-examples/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "according to macnamaras 2005 pyramid of evaluation at which stage is media coverage most likely to be measured",
+            "content": "this article discusses two evaluation models and one evaluation process preparation implementation and impact model pii macnamaras pyramid model and",
+            "url": "https://www.clappro.ch/pr-evaluation-models-and-processes/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "an campaign is a paid form of impersonal communication concerned with selling specific products services brands images and lifestyles to the public",
+            "content": "by a kokiel referring to bank advertising it should be understood as any paid form of impersonal presentation and promotion of ideas goods and services by an",
+            "url": "https://publisherspanel.com/api/files/view/2190254.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which author emphasised strategy as achieving competitive advantage for an organization",
+            "content": "according to michael porter the author of “competitive advantage” “competitive advantage grows fundamentally out of value a firm is able to",
+            "url": "https://www.business-powerhouse.com/6-strategies-to-gain-competitive-advantage-from-michael-porter-author-of-competitive-advantage",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "you are director of communications for a local nonprofit chapter organization that is an affiliate of a large national nonprofit organization you are frequently asked to secure media coverage using news releases provided by national headquarters located in another state which action would most improve your chances of success with these materials",
+            "content": "a use your relationships with local donors to gain coverage b localize the news releases for audiences in your geography",
+            "url": "https://accreditation.prsa.org/aprdemo/htmldemo/item_19.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "nowait weight loss a diet pill brand promises its potential consumers that if they take one pill once a day they will lose weight without having to change their diet or start exercising however many people who have used the product have complained that they havent lost weight and some have even gained weight nowait weight loss has been unsuccessful in the stage of the advertising campaign",
+            "content": "although its a pill rybelsus also comes with some challenges it must be taken daily on an empty stomach with no eating drinking or taking",
+            "url": "https://www.cnn.com/2024/09/17/health/glp-1-pills-weight-loss-treatment/index.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "the second stage of the advertising campaign is to establish or to become known as trustworthy and believable",
+            "content": "to make your public speaking more effective here are five ways to build credibility with your audience that will increase trust engagement and impact",
+            "url": "https://professional.dce.harvard.edu/blog/5-ways-to-establish-your-credibility-in-a-speech/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "you are the vice president of public relations for a corporation that produces a wellknown brand of food products in the albany new york market one of your products has recently been found to have some contamination while apparently not fatal it has given a large number of consumers severe stomach cramps and other intestinal problems the cause has been traced back to your product which is sold throughout the nation your ceo wants to know what you would advise to keep the situation from becoming a public relations disaster what should you recommend",
+            "content": "it sponsors academic research competitions awards seminars lectures and publications all dedicated to improving the professional practice of public",
+            "url": "https://instituteforpr.org/wp-content/uploads/15CaseStudies.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "what is the main purpose of licensing public relations practitioners",
+            "content": "licensing public relations professionals can address crisis of mis and disinformation using an analogy with therapy we argue that licensing public relations",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0363811123001236",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of these activities might secondary research involve",
+            "content": "secondary research comes in several formats such as published datasets reports and survey responses and can also be sourced from websites libraries and",
+            "url": "https://www.qualtrics.com/experience-management/research/secondary-research/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the web was effectively invented by bernerslee in which year",
+            "content": "the web was invented by english computer scientist tim bernerslee while at cern in 1989 and opened to the public in 1993 it was conceived as a universal",
+            "url": "https://en.wikipedia.org/wiki/World_Wide_Web",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is true about focus group research",
+            "content": "a focus group is a research method that brings together a small group of people to answer questions in a moderated setting",
+            "url": "https://www.scribbr.com/methodology/focus-group/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "according to cutlip 2006 which stage of the communications plan should involve planning of what should be said and why",
+            "content": "this chapter provides an overview of the planning process it will introduce each of the stages involved in planning public relations programmes and examine",
+            "url": "https://nscpolteksby.ac.id/ebook/files/Ebook/Business%20Administration/Exploring%20Public%20Relations%20(2006)/12.%20Chapter%2010%20-%20Public%20relations%20as%20planned%20communication.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is true about an open systems model of public relations in an organization",
+            "content": "an open system organization is responsive to this environment continually adjusting to maintain balance with permeable boundaries between internal and",
+            "url": "https://www.slideshare.net/slideshow/open-system-model-of-public-relations/25100618",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "what world war iera organization introduced decentralized publicity drives as a strategy to mobilize us public opinion to support the war",
+            "content": "most of the aggressive public relations strategies were employed in the third and fourth drives seeking to stimulate direct investment by",
+            "url": "https://www.nps.gov/articles/000/over-here-over-there-america-and-world-war-i.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which type of measurement is the most effective choice for evaluating a campaigns impact on audience attitudes",
+            "content": "the higher the net sentiment of the campaign the more positive is the professional evaluation of campaign posts therefore the net sentiment",
+            "url": "https://journals.sagepub.com/doi/10.1177/2056305119865475",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "you are the community relations director for a public water utility that has been targeted by a group of activists opposed to adding fluoride to drinking water the activists are waging an intense internet campaign against the practice your utility has overwhelming evidence of the health benefits to fluoridated water the manager of the utility asks you to initiate a blog to get the health message out what is the most appropriate course of action",
+            "content": "opposition the city health board is set to vote monday on an order to begin adding fluoride to the worcester water supply” the article describes the basic",
+            "url": "https://repository.library.northeastern.edu/files/neu:1887/fulltext.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in which era did muckraking journalism led to the widespread introduction of public relations in business",
+            "content": "the muckrakers were reformminded journalists writers and photographers in the progressive era in the united states 1890s1920s",
+            "url": "https://en.wikipedia.org/wiki/Muckraker",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "according to working theory what is the step that occurs between an individual gaining information and changing behavior",
+            "content": "this preparation involves gathering relevant information about the individuals behavior working theory that guides further investigation is",
+            "url": "https://howtoaba.com/how-to-do-a-functional-behaviour-assessment/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what are major reasons why organizations retain outside public relations counsel",
+            "content": "the purpose of public relations is to help the public view a company positively learn about the internal and external roles of public relations",
+            "url": "https://study.com/academy/lesson/internal-external-public-relations-roles.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "when an attitude is communicated what does it become",
+            "content": "for speakers attitude determines the tone clarity and effectiveness of their message a positive attitude fosters openness confidence and",
+            "url": "https://www.linkedin.com/pulse/communicate-attitude-bryan-mcgowan-k4tlc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "watson and noble 2005 lay out a fivestep model for circular evaluation at which step should pretesting of strategy and tactics be carried out",
+            "content": "the pre process is outlined as a fivestep circular process audit setting the tactics would depend on the strategy chosen in the case of",
+            "url": "http://www.vra.com/vralibrary/ebooks/Evaluating%20Public%20Relations.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "within which area of public relations is likely to involve lobbying",
+            "content": "lobbying in public relations is a complex and influential practice that seeks to shape policy decisions in favour of organizations industries and individuals",
+            "url": "https://arkreach.com/2023/05/30/what-is-lobbying-in-public-relations-an-in-depth-guide/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "approximately half of all public relations practitioners work in",
+            "content": "by je grunig in this article i attempt to contribute to the reinstitutionalization of public rela tions as a strategic management function rather than as a purely",
+            "url": "https://cejc.ptks.pl/attachments/Public-relations-and-strategic-management-Institutionalizing-organization-public-relationships-in-contemporary-society_2018-05-23_12-38-06.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "in recent research the 14000 stories that could be accessed on google news front page in a day pertained to how many actual news events",
+            "content": "200 media outlets are included encompassing newspapers television channels radio stations pure online media and news agencies dispatches",
+            "url": "https://sciencespo.hal.science/hal-03877907v1/file/2022_cage_herve_mazoyer_social_media_influence_mainstream_media_evidence_from_two_billion_tweets.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which communication model describes the encoding and decoding of messages",
+            "content": "the encodingdecoding model of communication emerged in rough and general form in 1948 in claude e shannons a mathematical theory of communication",
+            "url": "https://en.wikipedia.org/wiki/Encoding/decoding_model_of_communication",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of these sites offers microblogging",
+            "content": "owned by meta facebook instagram is a visual and video microblogging service a popular platform for connecting with businesses and professionals linkedin",
+            "url": "https://www.techtarget.com/searchmobilecomputing/definition/microblogging",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "during which step of the chase jones model of issues management should the strengths and weaknesses of the organisation be reviewed",
+            "content": "the chasejones model comprised five basic stepsissue identification issue analysis issue change strategy options issue action program and",
+            "url": "https://assets.ctfassets.net/ra4li8iwuk7u/6nrSR4pnbDg44AtUFDWZe/d1e4bf9b63e1ce9a20f2d8ef30db7d3b/Jaques_Embedding_Issue_Mgmt_Heath_textbook.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which law restricts corporate communications for publicly traded companies before and during the period that new securities are being registered",
+            "content": "under section 5 of the securities act of 1933 it is unlawful to make “offers” either oral or written to sell securities that will be registered before the",
+            "url": "https://www.ropesgray.com/-/media/ropes-post-pilot/microsites/ipo/20240710/1-communications-during-an-ipo.pdf%3Frev=9ebf5713a7b54a4cbe80a119e2eb83a4",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which definition best describes media convergence",
+            "content": "media convergence phenomenon involving the interconnection of information and communications technologies computer networks and media content",
+            "url": "https://www.britannica.com/topic/media-convergence",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement describes an idea from utilitarianism",
+            "content": "utilitarianism is a family of normative ethical theories that prescribe actions that maximize happiness and wellbeing for the affected individuals",
+            "url": "https://en.wikipedia.org/wiki/Utilitarianism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "as the singleperson public relations staff of a public transit agency you are tasked with increasing the number of people who ride your buses each month your target audiences are lowerincome individuals college students people with basic educations and people for whom english is a second language when preparing to craft a primary message what should you do first",
+            "content": "public transport on which the mobility of a sizeable minority of people depends but with increasing its attractiveness to car users effecting significant",
+            "url": "https://trl.co.uk/uploads/trl/documents/TRL593%20-%20The%20Demand%20for%20Public%20Transport.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "psychographics refers to",
+            "content": "psychographics are a method to understand people based on their attitudes beliefs interests and lifestyle choices understanding what makes your target",
+            "url": "https://www.salesforce.com/eu/marketing/psychographics/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which fashion house sued for damages to its reputation after being accused of stealing a design",
+            "content": "in 2012 gucci won 47 million worth of damages three years after it sued guess for copying a logo and pattern that it trademarked the dispute",
+            "url": "https://www.vox.com/2018/4/27/17281022/fashion-brands-knockoffs-copyright-stolen-designs-old-navy-zara-h-and-m",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "why should a successful public relations counselor continually review present and future realities for an organization",
+            "content": "in this article you will learn some tips and best practices on how to master pr and event management and how to leverage them for your success",
+            "url": "https://www.linkedin.com/advice/0/how-can-you-master-public-relations-event-management",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is most common to political campaigns because it focuses on raising the publics awareness about a particular person in hopes they will either support or not support the person",
+            "content": "the majority of academic research has focused on the campaigns orchestrated by those seeking election in particular political parties or candidates seeking to",
+            "url": "https://eprints.bournemouth.ac.uk/29308/1/Political%20Campaigns.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "your client has asked you to develop a public relations campaign to promote a college tuition savings program using new technologies what is the most appropriate first step",
+            "content": "1 a business that effectively coordinates channel management with marketing activities is more likely to provide a good customer service b attractive",
+            "url": "https://teachdeca.org/wp-content/uploads/2019/08/Teach_DECA_Marketing_Sample_Exam.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a book launch would be what kind of common tactic",
+            "content": "a book launch is a series of events activities and other efforts that are planned in the weeks or months leading up to the release of a new book",
+            "url": "https://www.routledge.com/our-customers/authors/author-resources/your-guide-to-a-successful-book-launch?srsltid=AfmBOoqF5nHt6lSWh40WsEjqIaSLQqo9dWfPBjJcl9VsDaPoNOheIIxM",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "in the public relations field what is the most common threat to a clientfirm relationship",
+            "content": "5 things that can pose a threat to your public relations",
+            "url": "https://www.linkedin.com/pulse/5-things-can-pose-threat-your-public-relations-david-libby",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of these phrases refers specifically to a crisis rather than an issue",
+            "content": "the meaning of crisis is the turning point for better or worse in an acute disease or fever how to use crisis in a sentence",
+            "url": "https://www.merriam-webster.com/dictionary/crisis",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement describes an idea from kantian ethics",
+            "content": "it states that an action can only be moral if it is motivated by a sense of duty and its maxim may be rationally willed a universal objective law",
+            "url": "https://en.wikipedia.org/wiki/Kantian_ethics",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "newsletters generally fall in to which writing category",
+            "content": "5 types of newsletters explained which one is worth writing reporting artistic analytical bulletin instruction hybrid newsletter expand",
+            "url": "https://mailtrap.io/blog/types-of-newsletters/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a 2008 survey showed that what percentage of the worlds largest companies are reporting their corporate responsibility",
+            "content": "three years ago only 50 percent of companies surveyed included csr in their reporting in this survey the number jumped to 80 percent",
+            "url": "https://www.in.kpmg.com/securedata/aci/files/sustcorporateresponsibilityreportingsurvey2008.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "who argued that if an organization did not affect a public then there was no need for a practitioner to consider that public in its communications",
+            "content": "public relations practitioners act as the liaison between organizations and the public ivy lee and ed bernays are the pioneers of modern public relations in",
+            "url": "https://study.com/academy/lesson/ivy-lee-edward-bernays-impact-on-public-relations.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of these definitions best describes the spiral of silence",
+            "content": "also known as the theory of public opinion the spiral of silence theory claims individuals will be more confident and outward with their opinion when they",
+            "url": "https://en.wikipedia.org/wiki/Spiral_of_silence",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "internet traffic is expected to grow by 400 in the next few years what is predicted to be the main driver of this",
+            "content": "globally the growth in mobile data traffic per smartphone can be attributed to three main drivers improved device capabilities an increase in dataintensive",
+            "url": "https://www.ericsson.com/en/reports-and-papers/mobility-report/dataforecasts/mobile-traffic-forecast",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "emma is browsing a popular website when she runs across the story of a wellknown actor who was recently pulled over for speeding and driving down the wrong side of the street it turns out he had been drinking and the arresting police officer found drugs in the car the actors publicist issued a statement claiming the actor was just tired and that the drugs belonged to someone else emma cant help having the impression that all public relations are and occur only after something negative has occurred",
+            "content": "plaintiff sued defendant for breach of a commercial contract in which defendant had agreed to sell plaintiff all of plaintiffs requirements for widgets",
+            "url": "https://www.aplusebooks.com/wp-content/uploads/2018/01/2018-FLBE-MBE-1998-RETIRED-EXAM-QUESTIONS.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "advertising campaigns are focused on gathering support for a particular message or cause",
+            "content": "an advertising campaign or marketing campaign is a series of advertisement messages that share a single idea and theme which make up an integrated marketing",
+            "url": "https://en.wikipedia.org/wiki/Advertising_campaign",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which guerrilla marketing technique involves the spreading of a message about a product issue or service through online peerto peer communication",
+            "content": "viral marketing this type of guerrilla marketing involves creating and sharing content designed to go viral and spread rapidly through social",
+            "url": "https://www.linkedin.com/pulse/unconventional-approaches-guerrilla-marketing-raunak-singh",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what are two examples of an evaluation of outcome",
+            "content": "here are some examples of outcome evaluation in practice education an outcome evaluation of a schoolbased reading program might measure improvements in",
+            "url": "https://www.evalcommunity.com/career-center/outcome-evaluation/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of these adjectives does not describe business writing",
+            "content": "despite what you may have seen and heard writing and speaking effectively doesnt mean you have to avoid adjectives like thorns on a rose",
+            "url": "https://www.inc.com/joel-schwartzberg/avoid-badjectives-other-tips-for-using-adjectives-in-business-writing.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "louis owns a chemical company that has been irresponsibly disposing of chemical waste and contaminating the communitys water supply although he knew the company was cutting costs in its waste disposal he publicly claims to have had no knowledge of the irresponsible practices blames it on the companys general manager and fires him what image restoration strategy is louis using",
+            "content": "the book moves from the definition of pollution and how pollutants behave to air and waterpollution basics pollution and global change solid waste and",
+            "url": "http://ndl.ethernet.edu.et/bitstream/123456789/54583/1/54.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "according to esman 1972 which publics are related to the organisation through shared industrial interests",
+            "content": "normative stakeholdersstakeholders who share a common interest with an organization these associations or groups share similar values goals or problems",
+            "url": "https://2012books.lardbucket.org/books/public-relations/s08-identifying-and-prioritizing-s.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "segmentation of the population into psychographics demographics and geodemographics is especially important in which public relations specialisation",
+            "content": "geodemographics divides your target audience into groups based on their geographic and demographic characteristics",
+            "url": "https://www.experian.co.uk/blogs/latest-thinking/marketing-solutions/geographic-geodemographic-segmentation/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "at which stage in the planning process are the objectives decided on",
+            "content": "step one develop objectives the first step in the planning process is to determine what you want to accomplish during the planning period",
+            "url": "https://study.com/academy/lesson/what-is-the-planning-process-steps-lesson-quiz.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "publishing and selling the creative work of others and protecting property rights of ones own creative work is regulated by",
+            "content": "a copyright is a type of intellectual property that gives its owner the exclusive legal right to copy distribute adapt display and perform a creative work",
+            "url": "https://en.wikipedia.org/wiki/Copyright",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "the phase of the pr model consists of primary and secondary research about a client identifying the target audiences for the campaign proposing channels of communication and strategies to be used in the campaign and constructing goals objectives messages and themes",
+            "content": "this includes having an overall goal measurable objectives clearly identiﬁed publics targeted strategies and effective tactics 3",
+            "url": "https://www.slideshare.net/slideshow/public-relations-intro-and-pr-models-quiz-247701974/247701974",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in what year did the bbc start broadcasting radio",
+            "content": "the bbcs radio services began in 1922 on 1 january 1927 the john reith although no other broadcasting organisation was licensed in the uk until 1973",
+            "url": "https://en.wikipedia.org/wiki/BBC_Radio",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which common public relations tactic can provide a halo effect",
+            "content": "the halo effect occurs when our overall impression of a person influences our judgments of their specific traits",
+            "url": "https://doctorspin.net/halo-effect/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which of the following is not one of the four categories of persuasive crisis communication strategies identified by w timothy coombs",
+            "content": "it suggests that crisis managers should match strategic crisis responses to the level of crisis responsibility and reputational threat posed by a crisis",
+            "url": "https://en.wikipedia.org/wiki/Situational_crisis_communication_theory",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "where was the first british newspaper printed",
+            "content": "this was probably the reason why the first newspaper in the english language was printed in rome by joris veseler around 1620",
+            "url": "https://en.wikipedia.org/wiki/History_of_British_newspapers",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of these should an objective not be",
+            "content": "setting specific measurable achievable relevant and timebound smart objectives is a good way to plan the steps to meet the longterm goals in your",
+            "url": "https://www.samhsa.gov/sites/default/files/nc-smart-goals-fact-sheet.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "according to macnamaras 2005 pyramid of evaluation at which stage is the situation analysis done and used to form objectives and implementation plans",
+            "content": "the purpose of the article is to identify the ways in which polish pr specialists measured the effects of their own activities in the last year and to analyze",
+            "url": "https://www.academia.edu/3465723/PR_Metrics_How_to_Measure_Public_Relations_and_Corporate_Communication_Jim_Macnamara_PhD",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "during which step of the chase jones model of issues management should the organizations ability to lead the issue be assessed",
+            "content": "of process models the chasejones model comprised five basic stepsissue identification issue analysis issue change strategy options issue",
+            "url": "https://assets.ctfassets.net/ra4li8iwuk7u/6nrSR4pnbDg44AtUFDWZe/d1e4bf9b63e1ce9a20f2d8ef30db7d3b/Jaques_Embedding_Issue_Mgmt_Heath_textbook.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how much has the number of practitioners working in consultancies in the uk grown since 25 years ago",
+            "content": "over the past two decades the number of consultants working in the nhs has more than doubled rising from 22 920 in 1996 to 54 539 in 2016",
+            "url": "https://www.bmj.com/content/359/bmj.j4726",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the goal of advertising is to promote a specific product and service to a target audience",
+            "content": "marketers use advertisements to help companies reach their objectives and increase revenue often they design advertisements for specific",
+            "url": "https://www.indeed.com/career-advice/career-development/what-is-the-purpose-of-advertisement",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "early email was developed in which decade",
+            "content": "1989 the first release of lotus notes email software 35000 copies are sold in the first year 1996 microsoft releases internet mail and",
+            "url": "https://www.theguardian.com/technology/2002/mar/13/internetnews",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of these ways a business impacts on the world do stakeholders not normally look at",
+            "content": "in this article i hope to describe some of the ways different stakeholders are being neglected and how some small adjustments could increase satisfaction and",
+            "url": "https://www.linkedin.com/pulse/stakeholders-make-break-your-business-caleb-sorrell",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "you seek the counsel of one of your peers who designed and implemented a communication program that resulted in the successful permitting of an automotive recycling center despite strong opposition from community organizations you have to design a program to win approval for a similar project proposed by your company your peer gives you a brief piece of advice that succinctly describes the foundation of his successful program what is most likely your peers advice for a successful communication program",
+            "content": "discover how to manage projects efficiently and effectively using traditional and agile methods whether at a small company or a large enterprise organization",
+            "url": "https://en.certificationanswers.com/google-project-management-professional-certificate-answers/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "within which area of public relations do tactics relate to promotion of the overall organisation",
+            "content": "media relations a public relations role that entails cultivating and keeping tight ties with the news media in order to market and promote a company",
+            "url": "https://www.internationalscholarsjournals.com/articles/public-relations-strategies-and-tactics-88438.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is not true of both issues management and crisis management",
+            "content": "issues management is more anticipatory or simply taking actions in response to issues that public relations professionals researched were increasing",
+            "url": "https://www.reddit.com/r/PublicRelations/comments/ty14dp/difference_between_issues_management_and_crisis/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following information about publications does the audit bureau of circulation not provide",
+            "content": "the member publication will then arrange to obtain a written confirmation from a non member publication that its financial distribution books records are",
+            "url": "https://www.auditbureau.org/ABC_Guide_October_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following information about publications does the audit bureau of circulation not provide",
+            "content": "the member publication will then arrange to obtain a written confirmation from a non member publication that its financial distribution books records are",
+            "url": "https://www.auditbureau.org/ABC_Guide_October_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the part of a pr campaign includes proactively planning a response strategy implementing that strategy in the event of a crisis evaluating the crisis response and revising the initial response strategy in an effort to improve for future crises",
+            "content": "question 20 the part of a pr campaign includes proactively planning a response strategy question 21 leslie is a disgruntled employee who walks into",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-mo-ha-noi/khoa-tieng-anh/pr-final-jjjj/59935282",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of these qualities is not listed as something to consider when choosing an opinion leader for a public relations campaigns",
+            "content": "opinion leaders can digest clarify and communicate information from the media to their audience they are masters at public relations efforts",
+            "url": "https://www.indeed.com/career-advice/career-development/opinion-leader",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which type of writing employs the pyramid structure",
+            "content": "how to use the pyramid principle to structure writing the pyramids horizontal structure employs either deductive or inductive reasoning",
+            "url": "https://awware.co/blog/pyramid-principle/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in what year did the bbc start broadcasting radio",
+            "content": "the bbcs radio services began in 1922 on 1 january 1927 the john reith although no other broadcasting organisation was licensed in the uk until 1973",
+            "url": "https://en.wikipedia.org/wiki/BBC_Radio",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the phase of the pr process consists of making decisions about which strategies and tactics will be used to respond to the goals of the organization and executing those strategies and tactics",
+            "content": "strategic planning considers future opportunities and how to achieve them learn the four aspects of strategy development and modern strategic planning",
+            "url": "https://www.techtarget.com/searchcio/definition/strategic-planning",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "there are three basic types of persuasive advertising campaigns which of the following is not one of them",
+            "content": "which of the following is not one of the five essential components from lasswells model of communication the message itself the recipient the channel the",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-fpt/digital-marketing-2/mkt328docx-1-dfn-v/72012246",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the westley and maclean model of communication which role describes the way in which the public obtain or receive the message",
+            "content": "communication begins only when a person receives message from surroundings each receiver responds to the message they received based on their object of",
+            "url": "https://www.communicationtheory.org/westley-and-macleans-model-of-communication/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of these publics does not feature in grunig and hunts 1984 situational theory of publics",
+            "content": "the situational theory of publics theorizes that large groups of people can be divided into smaller groups based on the extent to which they are aware of a",
+            "url": "https://en.wikipedia.org/wiki/Situational_theory_of_publics",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "according to esman 1972 which publics help an organization to exist by lending authority or assistance",
+            "content": "the administration of routine services under legislative or other legal mandate continues to be an important function in all public organizations esman 1972",
+            "url": "https://documents1.worldbank.org/curated/pt/955331468740679381/pdf/multi-page.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how many regional newspapers are there in the uk",
+            "content": "regional newspapers in england the argus the asian today the bath chronicle birmingham mail birmingham post bolton news bournemouth daily echo bradford",
+            "url": "https://en.wikipedia.org/wiki/List_of_newspapers_in_the_United_Kingdom",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of these types of survey question seeks qualitative information",
+            "content": "qualitative surveys seek comments opinions suggestions and other types of responses that are not as easy to classify and quantify as numbers",
+            "url": "https://www.questionpro.com/blog/qualitative-survey/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "approximately what proportion of nonprofit sector practitioners conduct audience research",
+            "content": "while it is difficult to determine an exact proportion research suggests that approximately twothirds of nonprofit sector practitioners",
+            "url": "https://www.transtutors.com/questions/13-approximately-what-proportion-of-nonprofit-sector-practitioners-conduct-audience--4611743.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "in recent years social media has had a major impact on the practice of public relations in which of the following areas has the impact been greatest and experienced most immediately",
+            "content": "from changing the way people consume their news to contributing to the rise of the citizen journalist social media has forced pr and reporters",
+            "url": "https://adventpr.com/impact-of-social-media-on-public-relations-industry/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "the process of identifying publics who are involved and affected by a situation central to an organization is called an",
+            "content": "an organizationpublic relationship can be defined as a connection between one or more formal organizations and one or more of the publics",
+            "url": "https://sk.sagepub.com/ency/edvol/the-sage-encyclopedia-of-corporate-reputation/chpt/organizationpublic-relationships",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "in public relations deals with an organizations ability to satisfy and create a positive experience for its consumers",
+            "content": "the broad term “communication public relations positions expert consultant problemsolving facilitator and communication liaison expert consultants develop a specific communication plan to help achieve organizational goals problemsolving facilitators provide crisis management to an organization during an obstacle liaisons speak on behalf of the brand and facilitate communication between the organization and its key",
+            "url": "https://psu.pb.unizin.org/comm370/chapter/chapter-3-the-world-of-public-relations/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "a campaign occurs when people from two or more opposing sides of an argument have emotional convictions about a decision that has the power to impact their lives",
+            "content": "a political campaign is an organized effort which seeks to influence the decision making progress within a specific group in democracies political campaigns often refer to electoral campaigns by which representatives are chosen or referendums are decided in modern politics the most",
+            "url": "https://en.wikipedia.org/wiki/Political_campaign",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "which area of public relations deals with emerging issues and their potential impact on an organization",
+            "content": "organizational policy must continually be revised and updated to reflect the current regulatory environment as well as the demands placed on it by stakeholders issues management is the process through which an organization manages its policy and identifies potential problems issues or trends",
+            "url": "https://pressbooks.bccampus.ca/publicrelations/chapter/chapter-6/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "tyler and his wife have been won over by the advertising campaign supporting stan johnson who is running for mayor so they put a vote for stan johnson in november sign in their front yard tyler and his wife are engaging in the third step of the advertising campaign",
+            "content": "john tyler march 29 1790 january 18 1862 was the tenth president of the united states serving from 1841 to 1845 after briefly holding office as the tenth vice president in 1841 he was elected vice president on the 1840 whig ticket with president william henry harrison succeeding",
+            "url": "https://en.wikipedia.org/wiki/John_Tyler",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "which form of communication is most effective in forming or changing predispositions toward an issue",
+            "content": "webinar on team building skillsregister now 1503202515032025",
+            "url": "https://www.manage.gov.in/studymaterial/ec.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "what public relations pioneer is credited with being the first practitioner to insist on a place at the management table",
+            "content": "most textbooks date the establishment of the quotpublicity bureauquot in 1900 as the start of the modern public relations pr profession of course there were many early forms of public influence and communications management in history basil clarke is considered the founder of the pr profession",
+            "url": "https://en.wikipedia.org/wiki/History_of_public_relations",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 23,
+            "query": "leslie is a disgruntled employee who walks into her place of employment and shoots three people killing two and critically injuring the other what is leslies behavior an example of",
+            "content": "those seemingly random acts of violence often can be foreseen if only someone would pay attention",
+            "url": "https://www.webmd.com/men/features/when-employees-turn-deadly-at-work",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "which phase of public relations audience research is associated with summative evaluation",
+            "content": "fatskills helps you test and improve your basic knowledge of any subject with 18500 free quizzes practice tests 2000 study guides 165 million mcqs for all examinations certifications courses amp classes k12 act ged sat ncert ntse iit jee neet ssc math tests social studies",
+            "url": "https://www.fatskills.com/bsc-visual-communication/quiz/public-relations-and-mass-media/which-phase-of-public-relations-audience-research-is-associated-with-summative-evaluationij",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "which of the following internetrelated challenges is most significant in the public relations field",
+            "content": "public relations pr is the art of managing how information about an individual or company is disseminated to the public",
+            "url": "https://www.investopedia.com/terms/p/public-relations-pr.asp",
+            "engine": "braveAPI"
+        }
+    ]
+}

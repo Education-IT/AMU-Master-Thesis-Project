@@ -1,0 +1,2101 @@
+{
+    "task": "mmlu_high_school_government_and_politics",
+    "dataset": "web_access_high_school_government_and_politics_final",
+    "questions": 193,
+    "noWebContextCount": 0,
+    "contaminated_queries": 97,
+    "contaminated_urls": 383,
+    "valid_urls": 193,
+    "avg_contaminated_before_valid": 2.9844559585492227,
+    "contaminated_data_ratio": 0.6649305555555556,
+    "most_contaminated_urls": {
+        "www.crackap.com": 58,
+        "content.randomhouse.com": 12,
+        "www.lew-port.com": 8,
+        "maxeygov.weebly.com": 5
+    },
+    "noWebContext": [],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 2,
+            "query": "all of the following contribute to lower voting rates among americans in the 18to25 age bracket except",
+            "content": "8 all of the following contribute to lower voting rates among americans in the 18to25 age bracket except a college attendance in a state other than",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-104-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following correctly states the relationship between the federal and state judiciaries",
+            "content": "which of the following correctly states the relationship between the federal and state judiciaries a federal courts are higher courts than state courts",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-18.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following correctly states the relationship between the federal and state judiciaries",
+            "content": "e if cases arise under admiralty and maritime laws 47 which of the following correctly states the relationship between the federal and state judiciaries",
+            "url": "https://www.lew-port.com/cms/lib/NY19000328/Centricity/Domain/95/ap_practice_exam_1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "interest groups representing businesspeople and investors are often among the most successful lobbying groups in washington dc for all of the following reasons except",
+            "content": "interest groups representing businesspeople and investors are often among the most successful lobbying groups in washington dc for all of the following",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-42.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "incumbent members of the house of representatives win reelection more often than incumbent senators for all of the following reasons except",
+            "content": "12 incumbent members of the house of representatives win reelection more often than incumbent senators for all of the following reasons except a",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-84-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "all of the following can be considered true about the impact of a higher level of education on voting habits except",
+            "content": "1 all of the following can be considered true about the impact of a higher level of education on voting habits except a voters are more likely to support",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-73-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "house members are more concerned about their committee assignments than are senators because",
+            "content": "house members are more concerned about their committee assignments than are senators because a house members may serve on only one committee at a time",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-112.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the framers of the constitution sought to insulate the senate from public opinion by",
+            "content": "the framers of the constitution sought to insulate the senate from public opinion by a restricting senate membership to those who previously served in the",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-91.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following may file an amicus curiae brief",
+            "content": "the united states or its officer or agency or a state may file an amicus brief without the consent of the parties or leave of court any other amicus curiae may",
+            "url": "https://www.law.cornell.edu/rules/frap/rule_29",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the term iron triangle refers to the interrelationship of the",
+            "content": "question 53 5 the term iron triangle refers to the interrelationship of the a president congress and the supreme court b electorate congress and",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-53-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the term iron triangle refers to the interrelationship of the",
+            "content": "the term iron triangle refers to the interrelationship of the a president congress and the supreme court b electorate congress and political action",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-53.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following best describes the balance the supreme court has struck between the establishment clause and the freeexercise clause",
+            "content": "which of the following best describes the balance the supreme court has struck between the establishment clause and the freeexercise clause a freedom of",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-189.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following best describes the balance the supreme court has struck between the establishment clause and the freeexercise clause",
+            "content": "9 which of the following best describes the balance the supreme court has struck between the establishment clause and the freeexercise clause a freedom",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/test16.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following best predicts how someone will vote in an election",
+            "content": "8 which of the following best predicts how someone will vote in an election a the voters gender b the voters political party affiliation c the",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-236-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a supreme court that demonstrates a willingness to change public policy and alter judicial precedent is said to be engaging in",
+            "content": "a supreme court that demonstrates a willingness to change public policy and alter judicial precedent is said to be engaging in a judicial activism b due",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-3.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a supreme court that demonstrates a willingness to change public policy and alter judicial precedent is said to be engaging in",
+            "content": "a supreme court that demonstrates a willingness to change public policy and alter judicial precedent is said to be engaging in a judicial activism b due",
+            "url": "https://www.rcboe.org/cms/lib/GA01903614/Centricity/Domain/2849/AP%20Judicial.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the legislative successes of the national rifle association antiabortion activists and other powerful interest groups demonstrate that",
+            "content": "5 the legislative successes of the national rifle association antiabortion activists and other powerful interest groups demonstrate that a united states",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-65-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following statements about the electoral college is correct",
+            "content": "which of the following statements about the electoral college is correct a each state must split its electoral votes among all the candidates that receive",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-35.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "congress has attempted to protect independent regulatory agencies from political influence by requiring that each agency",
+            "content": "9 congress has attempted to protect independent regulatory agencies from political influence by requiring that each agency a be led by a group of",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-93-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the constitution as originally ratified addressed all of the following weaknesses of the articles of confederation except the",
+            "content": "the constitution as originally ratified addressed all of the following weaknesses of the articles of confederation except the a lack of a chief executive",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-32.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the constitution as originally ratified addressed all of the following weaknesses of the articles of confederation except the",
+            "content": "the constitution as originally ratified addressed all of the following weaknesses of the articles of confederation except the a lack of a chief executive",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-32-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the constitution as originally ratified addressed all of the following weaknesses of the articles of confederation except the",
+            "content": "the constitution as originally ratified addressed all of the following weaknesses of the articles of confederation except the a lack of a chief executive",
+            "url": "https://www.lew-port.com/cms/lib/NY19000328/Centricity/Domain/95/ap_practice_exam_1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a presidential veto would most likely be overturned in which of the following situations",
+            "content": "a presidential veto would most likely be overturned in which of the following situations a approximately 30 of the senators and representatives are members",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-122.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when the democratic party pursues liberal social policies it is most likely to alienate which of its traditional bases",
+            "content": "10 when the democratic party pursues liberal social policies it is most likely to alienate which of its traditional bases a people holding advanced academic",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-106-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is least likely to explain low voter turnout for an election",
+            "content": "9 which of the following is least likely to explain low voter turnout for an election a the preclearance provision of the voting rights act b low levels",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-213-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following accurately describes individual entitlements",
+            "content": "which of the following accurately describes individual entitlements সঠিক উত্তর congress must pay benefits to anyone who qualifies to receive them",
+            "url": "https://www.bissoy.com/mcq/682791",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following accurately describes individual entitlements",
+            "content": "which of the following most accurately describes clinical equipoise a scientific uncertainty that one study intervention is superior to another b a",
+            "url": "https://grants.nih.gov/sites/default/files/PHRP_Archived_Course_Quiz_English.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "of the following interest groups which has created the largest number of political action committees pacs since the 1970s",
+            "content": "7 of the following interest groups which has created the largest number of political action committees pacs since the 1970s",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-175-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the opinions of congressional committees often fail to accurately mirror public opinion because",
+            "content": "12 the opinions of congressional committees often fail to accurately mirror public opinion because a the membership of committees often overrepresents",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-96-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the opinions of congressional committees often fail to accurately mirror public opinion because",
+            "content": "the opinions of congressional committees often fail to accurately mirror public opinion because a the membership of committees often",
+            "url": "https://content.randomhouse.com/assets/9781101920268/pdfs/Practice%20Test%202.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the opinions of congressional committees often fail to accurately mirror public opinion because",
+            "content": "the opinions of congressional committees often fail to accurately mirror public opinion because a the membership of committees often overrepresents",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/test8.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the opinions of congressional committees often fail to accurately mirror public opinion because",
+            "content": "the opinions of congressional committees often fail to accurately mirror public opinion because a the membership of committees often overrepresents",
+            "url": "https://content.randomhouse.com/assets/9780804125437/pdfs/Practice_Test_2.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "the opinions of congressional committees often fail to accurately mirror public opinion because",
+            "content": "the opinions of congressional committee members often do not accurately mirror public opinion because a the membership of committees often over represents",
+            "url": "https://maxeygov.weebly.com/uploads/8/2/3/9/8239158/1._congress_review_questions.docx",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following best describes the practice of ticket splitting",
+            "content": "which of the following best describes the practice of ticket splitting a a presidential nominee selects a running mate who can appeal to voter groups",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-8-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following best describes the practice of ticket splitting",
+            "content": "which of the following best describes the practice of ticket splitting a a presidential nominee selects a running mate who can appeal to voter groups",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-8.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which of the following best describes the practice of ticket splitting",
+            "content": "practice test 1 203 8 which of the following best describes the practice of “ticket splitting” a a presidential nominee selects a running mate who can",
+            "url": "https://content.randomhouse.com/assets/9780804125437/pdfs/Practice_Test_1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "which of the following best describes the practice of ticket splitting",
+            "content": "political parties example question 4 which of the following best defines ticket splitting possible answers voting for one political party to win one",
+            "url": "https://www.varsitytutors.com/ap_us_government-help/political-parties-and-elections/political-parties?page=6",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "all of the following statements about gerrymandering are true except that it",
+            "content": "all of the following statements about gerrymandering are true except that it সঠিক উত্তর increases the control voters have over their elected officials",
+            "url": "https://www.bissoy.com/mcq/682793",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following statements about political action committees pacs is most accurate",
+            "content": "4 which of the following statements about political action committees pacs is true a pacs may give unlimited contributions to the election campaigns",
+            "url": "https://www.houstonisd.org/cms/lib2/TX01001591/Centricity/Domain/34529/Linkage%20Institutions%20Multiple%20Choice.docx",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the principles of freedomwe hold these truths to be selfevident that all men are created equal stated in the declaration of independence were influenced by the beliefs of political philosopher",
+            "content": "the declaration states “we hold these truths to be selfevident that all men are created equal that they are endowed by their creator with certain",
+            "url": "https://civiced.org/9-11-and-the-constitution-terms-to-know",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the principles of freedomwe hold these truths to be selfevident that all men are created equal stated in the declaration of independence were influenced by the beliefs of political philosopher",
+            "content": "the principles of freedomwe hold these truths to be selfevident that all men are created equal stated in the declaration of independence were",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/test10.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "republican candidates for president who tend to be more successful in the primaries tend to be more conservative than rankandfile republicans because",
+            "content": "11 republican candidates for president who tend to be more successful in the primaries tend to be more conservative than rankandfile republicans because",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-23-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a member of the presidents cabinet is said to have gone native when that cabinet member",
+            "content": "a member of the presidents cabinet is said to have gone native when that cabinet member a resigns to take a position as a consultant to lobbying groups",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-85-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a member of the presidents cabinet is said to have gone native when that cabinet member",
+            "content": "a member of the presidents cabinet is said to have gone native when that cabinet member a resigns to take a position as a consultant to lobbying groups",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-85.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "a member of the presidents cabinet is said to have gone native when that cabinet member",
+            "content": "a member of the presidents cabinet is said to have gone native when that cabinet member answer places his or her departments priorities",
+            "url": "https://dwayne-morise-5k9d.squarespace.com/questions-answers-3/2023/12/4/cabinet-building-icivics-answers-key",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "a member of the presidents cabinet is said to have gone native when that cabinet member",
+            "content": "a member of the presidents cabinet is said to have gone native when that cabinet member ক resigns to take a position as a consultant to lobbying groups",
+            "url": "https://www.bissoy.com/mcq/682723",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a motion for cloture is used to",
+            "content": "because the rules permit filing a motion for cloture only on a pending question either of these actions of course requires unanimous consent",
+            "url": "https://crsreports.congress.gov/product/pdf/RL/RL30360",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a motion for cloture is used to",
+            "content": "today the term is most often used to refer to senators holding the floor in extended debate because the rules permit filing a motion for cloture only on a",
+            "url": "https://sgp.fas.org/crs/misc/RL30360.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a motion for cloture is used to",
+            "content": "in such situations it has become common for the majority leader to move to proceed to consider the measure immediately submit a motion for cloture on his",
+            "url": "https://www.everycrsreport.com/reports/RL30360.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a motion for cloture is used to",
+            "content": "the motion for cloture is available in the senate to limit debate on nominations as on other matters table 6 lists all nominations against",
+            "url": "https://crsreports.congress.gov/product/pdf/RL/RL32878",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "all of the following are ways in which lobbyists attempt to persuade legislators except",
+            "content": "3 all of the following are ways in which lobbyists attempt to persuade legislators except a distributing propaganda to media b endorsing candidates for",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-147-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the past decade many states have moved forward the date of their presidential primary elections in an effort to",
+            "content": "11 in the past decade many states have moved forward the date of their presidential primary elections in an effort to a minimize the cost of running the",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-83-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is the best illustration of pork barrel legislation",
+            "content": "which of the following is the best illustration of pork barrel legislation a a federal agency is created to ensure the safety of food and animal products b",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-184-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following is the best illustration of pork barrel legislation",
+            "content": "which of the following is the best illustration of pork barrel legislation a a federal agency is created to ensure the safety of food and animal",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/test16.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following best illustrates a use of the elastic clause",
+            "content": "which of the following best illustrates a use of the elastic clause a the supreme court allows a lower court ruling to stand by refusing to hear an appeal",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-30-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following best illustrates a use of the elastic clause",
+            "content": "which of the following best illustrates a use of the elastic clause a the supreme court allows a lower court ruling to stand by refusing to hear an appeal",
+            "url": "https://maxeygov.weebly.com/uploads/8/2/3/9/8239158/unit_1_test_questions.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following best illustrates a use of the elastic clause",
+            "content": "which of the following best illustrates a use of the elasticclause a the supreme court allows a lower court ruling to stand by refusing to hear an appeal",
+            "url": "https://www.lew-port.com/cms/lib/NY19000328/Centricity/Domain/95/ap_practice_exam_1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the reorganization plan 1 of 1939 and executive order 8248 allow the president to select the staff for the",
+            "content": "b the reorganization plan 1 of 1939 and executive order 8248 allow the president to select the staff for the white house office this makes b the best answer",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-138-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the amount of access cabinet secretaries have to the president is most likely to be controlled by the",
+            "content": "the amount of access cabinet secretaries have to the president is most likely to be controlled by the a vice president b presidents chief of staff c",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-21.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the amount of access cabinet secretaries have to the president is most likely to be controlled by the",
+            "content": "the amount of access cabinet secretaries have to the president is most likely to be controlled by the a vice president b presidents chief of staff c",
+            "url": "https://www.lew-port.com/cms/lib/NY19000328/Centricity/Domain/95/ap_practice_exam_1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following statements is true regarding delegates to presidential nomination conventions",
+            "content": "4 which of the following statements is true regarding delegates to presidential nomination conventions a delegates are generally more likely to register",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-232-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the absence of a political party solely dedicated to labor and working class issues in the united states",
+            "content": "1 the absence of a political party solely dedicated to labor and working class issues in the united states correct answer c explanation c",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-97-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "compared with political parties in countries such as england and israel both of which have multiparty systems american political parties are",
+            "content": "compared with political parties in countries such as england and israel both of which have multiparty systems american political parties are a less",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-10.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the civil rights act of 1964 was passed to reinforce the",
+            "content": "the civil rights act of 1964 contained provisions barring discrimination and segregation in education public facilities jobs and housing",
+            "url": "https://www.khanacademy.org/humanities/us-history/postwarera/civil-rights-movement/a/the-civil-rights-act-of-1964-and-the-voting-rights-act-of-1965",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the civil rights act of 1964 was passed to reinforce the",
+            "content": "the civil rights act of 1964 was rooted in the struggle of americans of african descent to obtain basic rights of citizenship in the nation",
+            "url": "https://www.loc.gov/exhibits/civil-rights-act/prologue.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the civil rights act of 1964 was passed to reinforce the",
+            "content": "expanded the scope of title vii of the civil rights act of 1964 extending its antiemployment discrimination provisions to cover educational institutions",
+            "url": "https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Constitutional-Amendments-and-Legislation/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "voters who rely exclusively on television network news coverage of national elections are most likely to be aware of",
+            "content": "voters who rely exclusively on television network news coverage of national elections are most likely to be aware of a which special interest groups have",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-13.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the president executes a pocket veto by doing which of the following",
+            "content": "the president executes a pocket veto by doing which of the following a publicly expressing rejection of a bill b issuing an executive order",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-69-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the president executes a pocket veto by doing which of the following",
+            "content": "the president executes a “pocket veto” by doing which of the following a publicly expressing refection of a bill b issuing an executive order",
+            "url": "https://www.lew-port.com/cms/lib/NY19000328/Centricity/Domain/95/ap_practice_exam_1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following people would most likely be accused of influence peddling",
+            "content": "11 which of the following people would most likely be accused of influence peddling a a congressperson who retires to take a position teaching political",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/test1.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following people would most likely be accused of influence peddling",
+            "content": "which of the following people would most likely be accused of influence peddling a a congressperson who retires to take a position teaching political",
+            "url": "https://www.lew-port.com/cms/lib/NY19000328/Centricity/Domain/95/ap_practice_exam_1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following generally results when the senate and house of representatives pass different versions of the same bill",
+            "content": "2 which of the following generally results when the senate and house of representatives pass different versions of the same bill a the president signs the",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-26-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "of the following american federalism is most clearly exemplified by the",
+            "content": "4 of the following american federalism is most clearly exemplified by the a system of checks and balances among the three branches of the national",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-16-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "of the following american federalism is most clearly exemplified by the",
+            "content": "of the following american federalism is most clearly exemplified by the a system of checks and balances among the three branches of the national",
+            "url": "https://content.randomhouse.com/assets/9780804125437/pdfs/Practice_Test_1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the supreme courts decision in miranda v arizona was based mainly on the",
+            "content": "12 the supreme courts decision in miranda v arizona was based mainly on the a constitutional prohibition of ex post facto laws b incorporation of the",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-48-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following statements is true of congressional incumbents who run for reelection",
+            "content": "12 which of the following statements is true of congressional incumbents who run for reelection a incumbent senators are more likely to be reelected than",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-36-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "politicians and political reporters are natural adversaries the adversarial nature of their relationship however is tempered by the fact that",
+            "content": "politicians and political reporters are natural adversaries the adversarial nature of their relationship however is tempered by the fact that a younger",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-103-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "politicians and political reporters are natural adversaries the adversarial nature of their relationship however is tempered by the fact that",
+            "content": "politicians and political reporters are natural adversaries the adversarial nature of their relationship however is tempered by the fact that",
+            "url": "https://content.randomhouse.com/assets/9781101920268/pdfs/Practice%20Test%202.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "politicians and political reporters are natural adversaries the adversarial nature of their relationship however is tempered by the fact that",
+            "content": "politicians and political reporters are natural adversaries the adversarial nature of their relationship however is tempered by the fact that a younger",
+            "url": "https://content.randomhouse.com/assets/9780804125437/pdfs/Practice_Test_2.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the relative stability of american public policy is achieved largely through",
+            "content": "the relative stability of american public policy is achieved largely through a cooperation between the two major political parties b judicial activism c",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-80.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the relative stability of american public policy is achieved largely through",
+            "content": "by nonelected bureaucrats not by congress 20 the relative stability of american public policy is achieved largely through a cooperation",
+            "url": "https://content.randomhouse.com/assets/9781101920268/pdfs/Practice%20Test%202.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the relative stability of american public policy is achieved largely through",
+            "content": "nonelected bureaucrats not by congress 20 the relative stability of american public policy is achieved largely through a cooperation between the two",
+            "url": "https://content.randomhouse.com/assets/9780804125437/pdfs/Practice_Test_2.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a member of the house of representatives wishing to influence tax policy would most likely try to serve on which of the following committees",
+            "content": "a member of the house of representatives wishing to influence tax policy would most likely try to serve on which of the following committees a commerce b",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-38.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a member of the house of representatives wishing to influence tax policy would most likely try to serve on which of the following committees",
+            "content": "a member of the house of representatives wishing to influence tax policy would most likely wish to serve on which of the following committees a commerce b",
+            "url": "https://maxeygov.weebly.com/uploads/8/2/3/9/8239158/1._congress_review_questions.docx",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "a member of the house of representatives wishing to influence tax policy would most likely try to serve on which of the following committees",
+            "content": "a first term member of the house of representatives wishing to influence tax policy would most likely seek a seat on which of the following committees",
+            "url": "https://docs.google.com/document/d/1x0CptAcqwwN8sdsvjzlADp1TcbrkAsqqiUWcqAkgaY8/edit?",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "a member of the house of representatives wishing to influence tax policy would most likely try to serve on which of the following committees",
+            "content": "a member of the house of representatives wishing to influence tax policy would most likely try to serve on which of the following committees a commerce b",
+            "url": "https://www.lew-port.com/cms/lib/NY19000328/Centricity/Domain/95/ap_practice_exam_1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the swift adoption of the bill of rights in the years following ratification of the constitution demonstrates the",
+            "content": "the swift adoption of the bill of rights in the years following ratification of the constitution demonstrates the a framers unqualified commitment to",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-62.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the swift adoption of the bill of rights in the years following ratification of the constitution demonstrates the",
+            "content": "the swift adoption of the bill of rights in the years following ratification of the constitution demonstrates the a framers unqualified commitment to",
+            "url": "https://www.lew-port.com/cms/lib/NY19000328/Centricity/Domain/95/ap_practice_exam_1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the swift adoption of the bill of rights in the years following ratification of the constitution demonstrates the",
+            "content": "the swift adoption of the bill of rights in the years following ratification of the constitution demonstrates the a framers unqualified commitment to",
+            "url": "https://maxeygov.weebly.com/uploads/8/2/3/9/8239158/unit_1_test_questions.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the swift adoption of the bill of rights in the years following ratification of the constitution demonstrates the",
+            "content": "the swift adoption of the bill of rights in the years fol lowing ratification of the constitution demonstrates the a framers unqualified commitment to",
+            "url": "https://content.randomhouse.com/assets/9780804125437/pdfs/Practice_Test_2.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "the opinions of congressional committees often fail to accurately mirror public opinion because",
+            "content": "12 the opinions of congressional committees often fail to accurately mirror public opinion because a the membership of committees often overrepresents",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-96-answer-and-explanation.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "the opinions of congressional committees often fail to accurately mirror public opinion because",
+            "content": "the opinions of congressional committees often fail to accurately mirror public opinion because a the membership of committees often",
+            "url": "https://content.randomhouse.com/assets/9781101920268/pdfs/Practice%20Test%202.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "the opinions of congressional committees often fail to accurately mirror public opinion because",
+            "content": "the opinions of congressional committees often fail to accurately mirror public opinion because a the membership of committees often overrepresents",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/test8.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "the opinions of congressional committees often fail to accurately mirror public opinion because",
+            "content": "the opinions of congressional committees often fail to accurately mirror public opinion because a the membership of committees often overrepresents",
+            "url": "https://content.randomhouse.com/assets/9780804125437/pdfs/Practice_Test_2.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "the opinions of congressional committees often fail to accurately mirror public opinion because",
+            "content": "the opinions of congressional committee members often do not accurately mirror public opinion because a the membership of committees often over represents",
+            "url": "https://maxeygov.weebly.com/uploads/8/2/3/9/8239158/1._congress_review_questions.docx",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "which of the following best describes the practice of ticket splitting",
+            "content": "which of the following best describes the practice of ticket splitting a a presidential nominee selects a running mate who can appeal to voter groups",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-8-answer-and-explanation.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "which of the following best describes the practice of ticket splitting",
+            "content": "which of the following best describes the practice of ticket splitting a a presidential nominee selects a running mate who can appeal to voter groups",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-8.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "which of the following best describes the practice of ticket splitting",
+            "content": "practice test 1 203 8 which of the following best describes the practice of “ticket splitting” a a presidential nominee selects a running mate who can",
+            "url": "https://content.randomhouse.com/assets/9780804125437/pdfs/Practice_Test_1.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "which of the following best describes the practice of ticket splitting",
+            "content": "political parties example question 4 which of the following best defines ticket splitting possible answers voting for one political party to win one",
+            "url": "https://www.varsitytutors.com/ap_us_government-help/political-parties-and-elections/political-parties?page=6",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "a member of the presidents cabinet is said to have gone native when that cabinet member",
+            "content": "a member of the presidents cabinet is said to have gone native when that cabinet member a resigns to take a position as a consultant to lobbying groups",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-85-answer-and-explanation.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "a member of the presidents cabinet is said to have gone native when that cabinet member",
+            "content": "a member of the presidents cabinet is said to have gone native when that cabinet member a resigns to take a position as a consultant to lobbying groups",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-85.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "a member of the presidents cabinet is said to have gone native when that cabinet member",
+            "content": "a member of the presidents cabinet is said to have gone native when that cabinet member answer places his or her departments priorities",
+            "url": "https://dwayne-morise-5k9d.squarespace.com/questions-answers-3/2023/12/4/cabinet-building-icivics-answers-key",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "a member of the presidents cabinet is said to have gone native when that cabinet member",
+            "content": "a member of the presidents cabinet is said to have gone native when that cabinet member ক resigns to take a position as a consultant to lobbying groups",
+            "url": "https://www.bissoy.com/mcq/682723",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "a member of the presidents cabinet is said to have gone native when that cabinet member",
+            "content": "1 a member of the presidentx27s cabinet is said to have",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-85-answer-and-explanation.html",
+            "engine": "braveAPI"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "what is the primary reason that the committees in the house of representatives are more influential than they are in the senate",
+            "content": "because members of the house of representatives have twoyear term lengths they are typically more responsive to their constituents concerns than senators",
+            "url": "https://www.khanacademy.org/humanities/us-government-and-civics/us-gov-interactions-among-branches/us-gov-congress-the-senate-and-the-house-of-representatives/a/lesson-summary-the-senate-and-the-house-of-representatives",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "given the structure of the electoral college system presidential candidates tend to",
+            "content": "in the united states the electoral college is the group of presidential electors that is formed every four years during the presidential election for the",
+            "url": "https://en.wikipedia.org/wiki/United_States_Electoral_College",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "every ten years the majority of state legislatures are responsible for",
+            "content": "in the united states the state legislature is the legislative branch in each of the 50 us states us state and territorial governments governor and",
+            "url": "https://en.wikipedia.org/wiki/State_legislature_(United_States)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "under the articles of confederation the national government had the power to",
+            "content": "under the articles of confederation the central governments power was kept quite limited the confederation congress could make decisions but lacked",
+            "url": "https://en.wikipedia.org/wiki/Articles_of_Confederation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "voters in which of the following categories would be least likely to vote",
+            "content": "the number of people voting in elections is an indicator of democratic health in uk general elections this number has declined since 1997",
+            "url": "https://post.parliament.uk/election-turnout-why-do-some-people-not-vote/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "all of the following contribute to lower voting rates among americans in the 18to25 age bracket except",
+            "content": "vote to all americans aged 18 and older by lowering the federal voting age from 21 section 1 of the 26th amendment reads as follows the",
+            "url": "https://www.rockthevote.org/explainers/the-26th-amendment-and-the-youth-vote/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "to which characteristic of american government does the term federalism refer",
+            "content": "federalism is a government system under which the national government shares power with subnational governments",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-61-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following correctly states the relationship between the federal and state judiciaries",
+            "content": "answer e the two generally operate separately although federal courts may overrule state court decisions that violate the us constitution or",
+            "url": "https://indextestingapp.uonbi.ac.ke/preguntia/11255565",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the government promotes preferential treatment for members of groups that have historically suffered from discrimination by means of",
+            "content": "affirmative action refers to a set of policies and practices within a government or organization seeking to address systemic discrimination historically",
+            "url": "https://en.wikipedia.org/wiki/Affirmative_action",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following statements about presidential elections since 1972 is most accurate",
+            "content": "gallup was the first polling organization to conduct accurate opinion polling for united states presidential elections gallup polling has often been",
+            "url": "https://en.wikipedia.org/wiki/Polling_for_United_States_presidential_elections",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "filibusters are less likely to occur in the house of representatives than in the senate because",
+            "content": "the smaller membership of the senate permits more extended debate than is common in the house of representatives",
+            "url": "https://www.britannica.com/procon/filibuster-debate",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following best describes the fate of most popular thirdparty movements",
+            "content": "the correct answer is “d” historically the first three itemspresidential secrecy one party domination of congress and the presidency and agreement on a",
+            "url": "https://scholar.harvard.edu/files/thomaspatterson/files/test_bank_-_videos.docx",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "according to brown v board of education 1954 which of the following amendments was violated by the separate but equal doctrine that had been established in plessy v ferguson 1896",
+            "content": "case and ruled against the browns relying on the precedent of plessy and its separate but equal doctrine the browns represented by naacp chief counsel",
+            "url": "https://en.wikipedia.org/wiki/Brown_v._Board_of_Education",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following plays the most significant role in forming a childs political views",
+            "content": "parental socialization has the effect of creating more variance in the distribution of offspring political attitudes leading necessarily to a higher frequency",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8907492/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "interest groups representing businesspeople and investors are often among the most successful lobbying groups in washington dc for all of the following reasons except",
+            "content": "these groups constituents contribute heavily to many legislators campaigns and in doing so gain greater access to legislators show answer interest groups",
+            "url": "https://www.bissoy.com/mcq/682692",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "incumbent members of the house of representatives win reelection more often than incumbent senators for all of the following reasons except",
+            "content": "the power of the rules committee in the house of representatives rests on its authority to a choose the chairs of other standing committees and issue rules",
+            "url": "https://maxeygov.weebly.com/uploads/8/2/3/9/8239158/1._congress_review_questions.docx",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "an example of a categorical grant would be",
+            "content": "medicaid is also partially funded by categorical grants funds are given in the form of a formula grant to each state medicaid like head start is group",
+            "url": "https://en.wikipedia.org/wiki/Categorical_grant",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the rules governing the electoral college make it especially important for presidential candidates to",
+            "content": "counting of the electors votes by congress in other us elections candidates are elected directly by popular vote but the president and",
+            "url": "https://www.usa.gov/electoral-college",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "all of the following can be considered true about the impact of a higher level of education on voting habits except",
+            "content": "education contributes to greater productivity and economic growth moreover education has spillover effects human capital is at the heart of",
+            "url": "https://gpseducation.oecd.org/revieweducationpolicies/#!node=41761&filter=all",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "house members are more concerned about their committee assignments than are senators because",
+            "content": "the senate had only four standing or permanent committees which were responsible for “housekeeping” tasks two joint committees with the house",
+            "url": "https://www.senate.gov/about/origins-foundations/committee-system/overview.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the spoils system of awarding civil service jobs was replaced by the merit system as a result of the",
+            "content": "a spoils system also known as a patronage system is a practice in which a political party after winning an election gives government jobs to its supporters",
+            "url": "https://en.wikipedia.org/wiki/Spoils_system",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the framers of the constitution sought to insulate the senate from public opinion by",
+            "content": "on july 14 john rutledge and james wilson attempted to secure proportional representation in the senate charles pinckney proposed a form of semi",
+            "url": "https://en.wikipedia.org/wiki/Constitutional_Convention_(United_States)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "while ratifying the constitution the primary point of disagreement between federalists and antifederalists was over",
+            "content": "the antifederalists opposed the ratification of the 1787 us constitution because they feared that the new national government would be too powerful",
+            "url": "https://firstamendment.mtsu.edu/article/anti-federalists/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following may file an amicus curiae brief",
+            "content": "2 when permitted the united states or its officer or agency or a state may file an amicus brief without the consent of the parties or leave of court",
+            "url": "https://www.ca4.uscourts.gov/rules/rule29.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following statements about voting populations is most accurate",
+            "content": "voter turnout in the united states is much lower than in other countries hovering around 60 in presidential elections and 40 in midterm election years",
+            "url": "https://fairvote.org/resources/voter-turnout/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when the supreme court decides to take a case on appeal it",
+            "content": "appellate jurisdiction means that the court has the authority to review the decisions of lower courts most of the cases the supreme court hears are appeals",
+            "url": "https://www.uscourts.gov/about-federal-courts/educational-resources/about-educational-outreach/activity-resources/supreme-court-procedures",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following cannot limit the influence of the federal courts",
+            "content": "these restrictions are meant to protect the independence of the judiciary from the political branches of government the courts jurisdiction article iii",
+            "url": "https://www.uscourts.gov/about-federal-courts/educational-resources/about-educational-outreach/activity-resources/about",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following most accurately describes the right of american citizens to privacy",
+            "content": "e americans have no right to privacy but the government rarely violates individuals privacy because to do so is not in the governments interest",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-55.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the term iron triangle refers to the interrelationship of the",
+            "content": "the term iron triangle describes the dynamics of policymaking between special interest groups congress and bureaucratic governmental agencies",
+            "url": "https://www.yourdictionary.com/articles/iron-triangle-examples",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "all of the following statements about congress are true except",
+            "content": "the house of representatives shall be composed of members chosen every second year by the people of the several states",
+            "url": "https://constitution.congress.gov/browse/article-1/section-2/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following best describes the balance the supreme court has struck between the establishment clause and the freeexercise clause",
+            "content": "therefore the court has the final say over when a right is protected by the constitution or when a constitutional right is violated",
+            "url": "https://www.uscourts.gov/about-federal-courts/educational-resources/about-educational-outreach/activity-resources/about",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following best predicts how someone will vote in an election",
+            "content": "trump got the support of about twothirds of white voters without a college degree but he lost white collegeeducated voters sorting states by",
+            "url": "https://www.cnn.com/2024/10/14/politics/the-biggest-predictor-of-how-someone-will-vote/index.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a supreme court that demonstrates a willingness to change public policy and alter judicial precedent is said to be engaging in",
+            "content": "this thesis explores the factors that influence the us supreme courts decisions to overturn precedent i argue that the court is more",
+            "url": "https://polisci.ucsd.edu/undergrad/departmental-honors-and-pi-sigma-alpha/gilsonluna_167678_12064830_Final-Draft.Senior-Honors-Thesis-.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is true of federal judges",
+            "content": "federal judges work to ensure equal justice under the law learn about the different kinds of federal judges and the cases they hear",
+            "url": "https://www.uscourts.gov/about-federal-courts/types-federal-judges",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "all of the following are constitutionally mandated presidential powers except the power to",
+            "content": "the constitution explicitly assigns the president the power to sign or veto legislation command the armed forces ask for the written opinion of their cabinet",
+            "url": "https://en.wikipedia.org/wiki/Powers_of_the_president_of_the_United_States",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following principles is realized when the federal government provides most of the funding to a project in which multiple levels of government work together",
+            "content": "a general trend is for more recent federal constitutions to grant more powers to the federal level consistent with an expanding role for government in modern",
+            "url": "https://www.idea.int/sites/default/files/publications/federalism-primer.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "according to the constitution who determines voter eligibility requirements",
+            "content": "“the constitutional rights powers and privileges of establishing voter qualifications including voter registration requirements are",
+            "url": "https://constitutioncenter.org/blog/constitution-check-who-decides-who-gets-to-vote",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the no child left behind act which established educational standards that states must meet to receive federal educational funding is an example of which of the following",
+            "content": "the act did not set national achievement standards instead each state developed its own standards nclb expanded the federal role in public education",
+            "url": "https://en.wikipedia.org/wiki/No_Child_Left_Behind_Act",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the majority of supreme court justices",
+            "content": "current members john g roberts chief justice of the united states john g roberts jr chief justice of the united states clarence thomas associate",
+            "url": "https://www.supremecourt.gov/about/biographies.aspx",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the legislative successes of the national rifle association antiabortion activists and other powerful interest groups demonstrate that",
+            "content": "the cato institute advocates libertarian positions the national rifle association advocates for gun rights",
+            "url": "https://muse.jhu.edu/pub/227/oa_monograph/chapter/2349944",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which of the following statements about the electoral college is correct",
+            "content": "a majority of 270 electoral votes is required to elect the president your state has the same number of electors as it does members in its congressional",
+            "url": "https://www.archives.gov/electoral-college/about",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when an appeal is made to the supreme court the court usually",
+            "content": "the court of appeals decision usually will be the final word in the case unless it sends the case back to the trial court for additional proceedings or the",
+            "url": "https://www.uscourts.gov/about-federal-courts/types-cases/appeals",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "congress has attempted to protect independent regulatory agencies from political influence by requiring that each agency",
+            "content": "established through separate statutes passed by congress each respective statutory grant of authority defines the goals the agency must work towards as well",
+            "url": "https://en.wikipedia.org/wiki/Independent_agencies_of_the_United_States_federal_government",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the constitution as originally ratified addressed all of the following weaknesses of the articles of confederation except the",
+            "content": "the articles of confederation placed most government power in the hands of the states the weaknesses of this system led states to call for a new constitution",
+            "url": "https://www.khanacademy.org/humanities/ap-us-history/period-3/articles-of-confederation-ush-lesson/a/challenges-of-the-articles-of-confederation-article",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a presidential veto would most likely be overturned in which of the following situations",
+            "content": "the veto may be overridden by 23 vote of both houses of congress the constitution also specifies that if the president does not veto or sign a bill within 10",
+            "url": "https://www.presidency.ucsb.edu/statistics/data/presidential-vetoes",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "when the democratic party pursues liberal social policies it is most likely to alienate which of its traditional bases",
+            "content": "issues of refugees and immigration have generated a new basis of alienation on the right especially after the change from conservative to social democratic",
+            "url": "https://tidsskrift.dk/scandinavian_political_studies/article/download/32999/31448/74990",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "an inherent power of the president is the power to",
+            "content": "in united states law inherent powers are the powers that a state officer or entity purports to hold under a general vesting of authority",
+            "url": "https://en.wikipedia.org/wiki/Inherent_powers_(United_States)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following most accurately states the impact of the civil rights act of 1964 on school desegregation in the south",
+            "content": "d the civil rights act of 1964 sent federal troops to every segregated public school in the south to force school desegregation e the",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-94.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following statements does not accurately describe voting behavior in the united states",
+            "content": "a describe the model of voting behavior that best reflects most voters choice to recall the governor in the scenario acceptable descriptions include",
+            "url": "https://apcentral.collegeboard.org/media/pdf/ap23-apc-us-go-po-q1-set-2.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a sound bite would most likely be used during a presidential election in order to",
+            "content": "absentee voting allows voters who cannot come to polling places to cast their ballots a variety of circumstances including residency abroad",
+            "url": "https://uk.usembassy.gov/glossary-of-u-s-election-terms/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is least likely to explain low voter turnout for an election",
+            "content": "the number of people voting in elections is an indicator of democratic health in uk general elections this number has declined since 1997",
+            "url": "https://post.parliament.uk/election-turnout-why-do-some-people-not-vote/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following is true of congressional redistricting",
+            "content": "census data offers invaluable insight into the changing demographics of eligible voters and population shifts among the states the us census",
+            "url": "https://about.bgov.com/insights/congress/who-draws-congressional-districts/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "among the executive branchs checks on the legislative branch is the presidents power to",
+            "content": "the president in the executive branch can veto a law but the legislative branch can override that veto with enough votes the legislative branch has the power",
+            "url": "https://bensguide.gpo.gov/j-check-balance",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the boundary lines of congressional districts must be redrawn every 10 years to",
+            "content": "its the redrawing of the boundaries of congressional and state legislative districts it happens every 10 years after the census to reflect the changes in",
+            "url": "https://www.nytimes.com/interactive/2021/11/07/us/politics/redistricting-maps-explained.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is an example of horserace journalism",
+            "content": "horse race journalism is political journalism of elections that resembles coverage of horse races because of the focus on polling data and public perception",
+            "url": "https://en.wikipedia.org/wiki/Horse_race_journalism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the supreme court has used the fourteenth amendment to apply portions of the bill of rights to state law by citing the amendments",
+            "content": "a major provision of the 14th amendment was to grant citizenship to “all persons born or naturalized in the united states” thereby granting",
+            "url": "https://www.archives.gov/milestone-documents/14th-amendment",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a presidential plurality victory occurs when",
+            "content": "plurality voting refers to electoral systems in which the candidates in an electoral district who poll more than any other are elected",
+            "url": "https://en.wikipedia.org/wiki/Plurality_voting",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the exclusionary rule was established to",
+            "content": "the exclusionary rule is grounded in the fourth amendment in the bill of rights and it is intended to protect citizens from illegal searches and seizures the",
+            "url": "https://en.wikipedia.org/wiki/Exclusionary_rule",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "interest groups are barred from taking part in which of the following activities",
+            "content": "most interest groups are not formed for political purposes they usually develop to promote programs and disseminate information to enhance the",
+            "url": "https://www.britannica.com/topic/interest-group",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which of the following is an accurate statement about the leadership of the two major political parties",
+            "content": "this explainer defines the term political polarization and provides information on how it impacts us politics and society",
+            "url": "https://www.facinghistory.org/resource-library/political-polarization-united-states",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following most accurately describes the federalist papers",
+            "content": "the federalist papers is the collective name given to a group of essays written by alexander hamilton james madison and john jay in support of ratification",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-2-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which of the following accurately describes individual entitlements",
+            "content": "select the single best answer diagnostic of active syphilis diagnostic of latent syphilis diagnostic of neurosyphilis monitoring course of treatment",
+            "url": "https://www.labce.com/spg9399_question.aspx?srsltid=AfmBOooRBtS0QhrwFQUw5nNAXmVB4bQLZ5NOMKCk1LSzlh0NNAPN_jfG",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "of the following interest groups which has created the largest number of political action committees pacs since the 1970s",
+            "content": "in the united states a political action committee pac is a taxexempt 527 organization that pools campaign contributions from members and donates those",
+            "url": "https://en.wikipedia.org/wiki/Political_action_committee",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following actions can the president take without congressional approval",
+            "content": "veto bills and sign bills represent our nation in talks with foreign countries enforce the laws that congress passes act as commanderinchief during a war",
+            "url": "https://www.trumanlibrary.gov/education/three-branches/what-president-can-do-cannot-do",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "political efficacy refers to the idea that",
+            "content": "political efficacy was described as a “feeling that political and social change is possible and that the individual citizen can play a part in bringing about",
+            "url": "https://link.springer.com/10.1007/978-94-007-0753-5_2194",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following statements best characterizes cooperative federalism",
+            "content": "e cooperative federalism occurs when more than one level of government works together on a policy area choices a c and d are incorrect as federalism",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-211-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the dred scott decision of 1857 was overturned by the",
+            "content": "the dred scott decision was the us supreme courts ruling on march 6 1857 that having lived in a free state and territory did not entitle an enslaved person",
+            "url": "https://www.britannica.com/event/Dred-Scott-decision",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "under which of the following circumstances does a president usually experience a reduction in political power i the president is in the final two years of his or her second term ii the number and severity of international crises is increasing iii different parties control congress and the white house iv the economy is strong and the presidents approval ratings are high",
+            "content": "this essay describes the history of such forces in the us shares the risk factors for election violence globally and how they are trending in the us",
+            "url": "https://www.journalofdemocracy.org/articles/the-rise-of-political-violence-in-the-united-states/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following is true of court cases in which one private party is suing another",
+            "content": "a federal civil case involves a legal dispute between two or more parties a civil action begins when a party to a dispute files a complaint and pays a filing",
+            "url": "https://www.uscourts.gov/about-federal-courts/types-cases/civil-cases",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true of most third parties in us history",
+            "content": "3 under which of the following circumstances does a president usually experience a reduction in political power i the president is in the final two years of",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/test10.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the commerce clause of the constitution has been used to",
+            "content": "the clause states that the united states congress shall have power to regulate commerce with foreign nations and among the several states and with the indian",
+            "url": "https://en.wikipedia.org/wiki/Commerce_Clause",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "all of the following statements about gerrymandering are true except that it",
+            "content": "compared to house incumbents senate incumbents are more likely to face the problem of a raising enough money to run a strong campaign",
+            "url": "https://www.brainscape.com/flashcards/unit-3-test-1635105/packs/3001271",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following presidential powers is shared with the senate",
+            "content": "the president may also appoint article iii judges and some officers with the advice and consent of the us senate in the condition of a senate recess the",
+            "url": "https://en.wikipedia.org/wiki/Powers_of_the_president_of_the_United_States",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in gideon v wainwright the supreme court ruled that criminal defendants in state cases have the right",
+            "content": "types of cases appeals bankruptcy cases civil cases criminal cases cannot be realized if the poor man charged with crime has to face his accusers",
+            "url": "https://www.uscourts.gov/about-federal-courts/educational-resources/educational-activities/sixth-amendment-activities/gideon-v-wainwright/facts-and-case-summary-gideon-v-wainwright",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "congress would be required to use the elastic clause of the constitution to",
+            "content": "this residual clausecalled at various times the “elastic clause” the holland 1920 that congress could use the necessary and proper clause to",
+            "url": "https://constitutioncenter.org/the-constitution/articles/article-i/clauses/754",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "each of the two main political parties of the united states is organized",
+            "content": "since the democratic and republican parties are the two largest parties in the us candidates from these two parties tend to get the plurality of votes",
+            "url": "https://dk.usembassy.gov/usa-i-skolen/presidential-elections-and-the-american-political-system/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "all of the following are core values of american political culture except",
+            "content": "equality of opportunity the rule of law limited government these are core values that most americans across the ideological spectrum say they believe in",
+            "url": "https://www.khanacademy.org/humanities/us-government-and-civics/us-gov-american-political-ideologies-and-beliefs/us-gov-american-attitudes-about-government-and-politics/a/lesson-summary-american-attitudes-about-government-and-politics",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following statements about political action committees pacs is most accurate",
+            "content": "the federal election commission fec collects and disseminates data submitted by campaign committees candidates political party committees political action",
+            "url": "https://www.fec.gov/campaign-finance-data/about-campaign-finance-data/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the principles of freedomwe hold these truths to be selfevident that all men are created equal stated in the declaration of independence were influenced by the beliefs of political philosopher",
+            "content": "this nation was founded on freedom “we hold these truths to be selfevident that all men are created equal rights that among these are life liberty and the",
+            "url": "https://www.ipl.org/essay/Life-Liberty-And-The-Pursuit-Of-Freedom-AE51EF52A66551ED",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following would occur if congress were to pass legislation and declare a recess and the president took no action on the bill within ten days of its passage",
+            "content": "if the president does not sign the bill within ten days it becomes law unless congress has adjourned if congress adjourns before the president has signed",
+            "url": "https://www.archives.gov/files/legislative/resources/education/veto/background.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following was the legal basis for the 1973 roe v wade majority opinion in which the supreme court struck down a state ban on abortion",
+            "content": "a landmark decision of the us supreme court in which the court ruled that the constitution of the united states protected the right to have an abortion",
+            "url": "https://en.wikipedia.org/wiki/Roe_v._Wade",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is a significant difference between the senate and the house of representatives",
+            "content": "senators represent their entire states but members of the house represent individual districts the number of districts in each state is determined by a",
+            "url": "https://www.visitthecapitol.gov/sites/default/files/documents/resources-and-activities/CVC_EED_StudentEssay_HouseSenate.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is not a special position held by a member of congress",
+            "content": "the duties carried out by a member of congress are understood to include representation legislation and constituent service and",
+            "url": "https://crsreports.congress.gov/product/pdf/RL/RL33686/13",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the house rules committee is considered among the most powerful in the house of representatives because it has great power over the",
+            "content": "because of the vast power wielded by the rules committee its ratio has traditionally been weighted in favor of the majority party and has been in its 2 to 1",
+            "url": "http://rules.house.gov/about",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a member of which of the following demographic groups is most likely to support a republican presidential candidate",
+            "content": "watch the number of white voters who go for harris the largest single voting group is white voters republicans have been dominant with them in",
+            "url": "https://whyy.org/articles/presidential-election-demographic-groups/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the opposition of the american civil liberties union aclu the national association of women lawyers nawl and the american federation of labor and congress of industrial organizations aflcio to samuel alitos 2006 nomination to the supreme court is an example of",
+            "content": "samuel alitos 2006 nomination to the supreme court is an example of a realignment b coalition building c impeachment d a recall election e a voter drive",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-186.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the lineitem veto was ruled unconstitutional because it",
+            "content": "the line item veto act is unconstitutional because the constitution of the united states of america does not authorize the president of the united states of",
+            "url": "https://en.wikipedia.org/wiki/Clinton_v._City_of_New_York",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "divided government frequently results in",
+            "content": "a divided government is a type of government in presidential systems when control of the executive branch and the legislative branch is split between two",
+            "url": "https://en.wikipedia.org/wiki/Divided_government",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "republican candidates for president who tend to be more successful in the primaries tend to be more conservative than rankandfile republicans because",
+            "content": "gop lawmakers in these states are trying to restrict who can participate in primaries in an effort to have more ideological purity among their nominees",
+            "url": "https://www.npr.org/2024/07/06/nx-s1-5019252/republicans-closing-primary-elections",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the difference between a pardon and a reprieve is",
+            "content": "a pardon is an act of grace proceeding from the power entrusted with the execution of the laws which exempts the individual on whom it is bestowed from the",
+            "url": "https://law.justia.com/constitution/us/article-2/14-pardons-and-reprieves.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "all of the following statements concerning the likelihood that a person will vote are true except",
+            "content": "all of the following statements concerning party identification in the electorate are true except likely to consistently vote for candidates from that party",
+            "url": "https://facrea.urosario.edu.co/askroteca/all-of-the-following-statements-concerning-party-identificat-32h1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the supreme court issued the opinion quoted below in its ruling on which of the following cases we conclude that in the field of education the doctrine of separate but equal has no place separate educational facilities are inherently unequal",
+            "content": "in its ruling the court overturned the separate but equal standard as it applied to education separate but equal had been the law of the land since the",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-6-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is the primary purpose of motor voter laws",
+            "content": "the national voter registration act of 1993 also known as the “nvra” or “motor voter law” sets forth certain voter registration requirements with respect to",
+            "url": "https://www.justice.gov/crt/national-voter-registration-act-1993-nvra",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the house of representatives the rules committee",
+            "content": "committee on rules hearing room committee chair portraits amendments submission form adding cosponsors withdrawing amendments submitting revisions",
+            "url": "http://rules.house.gov/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in which of the following cases did the supreme court decision establish the separate but equal doctrine of statesponsored racial segregation",
+            "content": "separate but equal was a legal doctrine in united states constitutional law according to which racial segregation did not necessarily violate the fourteenth",
+            "url": "https://en.wikipedia.org/wiki/Separate_but_equal",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is true of congresss power of oversight",
+            "content": "congress engages in oversight of the executive branch through the review monitoring and supervision of the implementation of public policy",
+            "url": "https://crsreports.congress.gov/product/pdf/IF/IF10015",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "federal judges are subject to which of the following disciplinary actions",
+            "content": "appropriate action may also include responding to a subpoena to testify or otherwise cooperating with or participating in judicial or lawyer disciplinary",
+            "url": "https://www.uscourts.gov/administration-policies/judiciary-policies/ethics-policies/code-conduct-united-states-judges",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "a motion for cloture is used to",
+            "content": "passing a bill only",
+            "url": "https://www.wowt.com/2023/03/27/explainer-how-nebraskas-filibuster-cloture-rules-work/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the primary goal of the grammrudman acts of 1985 and 1987 was to",
+            "content": "a joint resolution increasing the statutory limit on the public debt acronyms colloquial bbedca nicknames deficit control act enacted by the 99th united",
+            "url": "https://en.wikipedia.org/wiki/Gramm%E2%80%93Rudman%E2%80%93Hollings_Balanced_Budget_Act",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "all of the following are ways in which lobbyists attempt to persuade legislators except",
+            "content": "grassroots lobbying an attempt to influence legislation through an attempt to affect the opinions of the general public or any segment of the public",
+            "url": "https://govrelations.duke.edu/ethics-and-compliance/lobbying-definitions-exceptions-and-examples",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following statements about the house of representatives is true",
+            "content": "shorter termlengths in the house can make representatives more sensitive to constituent concerns than senators and less likely to form bipartisan coalitions",
+            "url": "https://www.khanacademy.org/humanities/us-government-and-civics/us-gov-interactions-among-branches/us-gov-congress-the-senate-and-the-house-of-representatives/a/lesson-summary-the-senate-and-the-house-of-representatives",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in the past decade many states have moved forward the date of their presidential primary elections in an effort to",
+            "content": "for basic information on the electoral process indepth analysis on specific political eras and issues and everything in between guide to us elections",
+            "url": "https://sk.sagepub.com/book/edvol/guide-to-us-elections-6e/chpt/presidential-primaries",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "an open primary is a primary election in which",
+            "content": "one area of contention in open primaries is “crossover” voting it most often involves voters affiliated with one political party voting in the primary of",
+            "url": "https://fairvote.org/archives/open-and-closed-primaries/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which of the following is the best illustration of pork barrel legislation",
+            "content": "pork barrel or simply pork is a metaphor for the appropriation of government spending for localized projects secured solely or primarily to direct",
+            "url": "https://en.wikipedia.org/wiki/Pork_barrel",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following categories of spending are paid without an appropriations bill",
+            "content": "these appropriation acts provide budget authority to obligate and expend funds from the us treasury for specific purposes",
+            "url": "http://www.house.gov/the-house-explained/open-government/statement-of-disbursements/glossary-of-terms",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which committee in the house of representatives determines the procedure by which bills are debated and amended",
+            "content": "the bill is then assigned to a committee for study if released by the committee the bill is put on a calendar to be voted on debated or amended if the bill",
+            "url": "https://www.house.gov/the-house-explained/the-legislative-process",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following is the most accurate statement about writs of certiorari",
+            "content": "writs of certiorari the court usually is not under any obligation to hear these cases and it usually only does so if the case could have national significance",
+            "url": "https://www.uscourts.gov/about-federal-courts/educational-resources/about-educational-outreach/activity-resources/supreme-court-procedures",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which of the following best illustrates a use of the elastic clause",
+            "content": "which phrase best illustrates the definition of impeachment to bring the “elastic clause” b reserved powers are left to the states through the",
+            "url": "https://missourilawyershelp.org/wp-content/uploads/2021/06/L-3-Unit-4-Self-test.pptx",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "why do political scientists identify the presidential elections of franklin roosevelt in 1932 and richard nixon in 1968 as well as the midterm election of 1994 as critical elections",
+            "content": "b critical elections mark dramatic party realignments as happened in the 1932 1968 and 1994 elections therefore b is the best the issues discussed",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-178-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "all of the following are consequences of low voter turnout in the united states except",
+            "content": "in the 2012 presidential election only about 55 of the voting age population cast a ballot voter turnout is even lower in midterm election",
+            "url": "https://ekuonline.eku.edu/blog/political-science/what-causes-low-voter-turnout-in-the-united-states/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following best describes the supreme courts doctrine of incorporation",
+            "content": "under selective incorporation the supreme court incorporated certain parts of certain amendments rather than incorporating an entire amendment at once",
+            "url": "https://www.law.cornell.edu/wex/incorporation_doctrine",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "ruled unconstitutional in 1983 the legislative veto had allowed",
+            "content": "chadha 1983 it is a provision whereby congress passes a statute granting authority to the president and reserving for itself the ability to override through",
+            "url": "https://en.wikipedia.org/wiki/Legislative_veto_in_the_United_States",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is the largest source of automatic spending for the federal government",
+            "content": "the bca has a minimal effect on this trend as it reduces mandatory spending under the automatic spending process by less than one tenth of 1 percent of gdp",
+            "url": "https://en.wikipedia.org/wiki/Mandatory_spending",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the supreme court has used the practice of selective incorporation to",
+            "content": "under selective incorporation the supreme court incorporated certain parts of certain amendments rather than incorporating an entire amendment at once",
+            "url": "https://www.law.cornell.edu/wex/incorporation_doctrine",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the reorganization plan 1 of 1939 and executive order 8248 allow the president to select the staff for the",
+            "content": "an american act of congress which gave the president of the united states the authority to hire additional confidential staff and reorganize the executive",
+            "url": "https://en.wikipedia.org/wiki/Reorganization_Act_of_1939",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "federal election laws require that in",
+            "content": "learn how campaign contribution limits accessibility rules and other federal election laws help protect your voting rights and the election process",
+            "url": "https://www.usa.gov/voting-laws",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the amount of access cabinet secretaries have to the president is most likely to be controlled by the",
+            "content": "the president of the united states delegates much work to the cabinet each cabinet member is the head of an executive department of the government",
+            "url": "https://www.trumanlibrary.gov/education/three-branches/why-does-president-need-cabinet",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following is true of appellate courts",
+            "content": "unlike trial courts appellate courts do not retry cases or hear new evidence they do not hear witnesses testify and there is no jury",
+            "url": "https://www.uscourts.gov/about-federal-courts/court-role-and-structure/about-us-courts-appeals",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "when the founders met in 1787 to write the constitution their primary objective was to",
+            "content": "once the convention began however most of the delegates though not all came to agree in general terms that the goal would be a new system of government",
+            "url": "https://en.wikipedia.org/wiki/Constitutional_Convention_(United_States)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following statements is true regarding delegates to presidential nomination conventions",
+            "content": "understand how presidential and vice presidential nominees are selected at national political conventions learn about contested conventions",
+            "url": "https://www.usa.gov/national-conventions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "people who join a political party other than the one to which their parents belong most often do so because of",
+            "content": "most parents pass along religious and political affiliations and they do so at similarly high rates according to a new analysis of several",
+            "url": "https://www.pewresearch.org/short-reads/2023/05/10/most-us-parents-pass-along-their-religion-and-politics-to-their-children/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the primary function of political action committees pacs is to",
+            "content": "a leadership pac is a political committee that is directly or indirectly established financed maintained or controlled by a candidate or an individual",
+            "url": "https://www.fec.gov/press/resources-journalists/political-action-committees-pacs/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in federalist no 10 james madison argues that a federal system of government reduces the danger of political factions by",
+            "content": "there are two methods of curing the mischiefs of faction the one by removing its causes the other by controlling its effects",
+            "url": "https://billofrightsinstitute.org/primary-sources/federalist-no-10",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the voting rights act of 1965",
+            "content": "the voting rights act of 1965 is a landmark piece of federal legislation in the united states that prohibits racial discrimination in voting",
+            "url": "https://en.wikipedia.org/wiki/Voting_Rights_Act_of_1965",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "failed felony prosecutions at the state level are sometimes retried at the federal level",
+            "content": "a defendant who is acquitted cannot be tried twice in the same jurisdiction the federal government may prosecute despite a state court conviction or acquittal",
+            "url": "https://goldsteinmehta.com/blog/can-i-be-tried-for-the-same-conduct-in-state-and-federal-court",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the absence of a political party solely dedicated to labor and working class issues in the united states",
+            "content": "by c çakmak for instance democratic party is believed to pursue policies in favor of working class and the republican party is seen as the party of big business",
+            "url": "https://dergipark.org.tr/tr/download/article-file/50344",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following defines the salience of a political issue",
+            "content": "e a political issues salience is defined as the degree to which it is important to a particular individual or group for a discussion of the different aspects",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-105-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true of the house committee on ways and means",
+            "content": "the committee on ways and means is the oldest committee of the united states congress and is the chief taxwriting committee in the house of representatives",
+            "url": "https://waysandmeans.house.gov/about/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a constitutional amendment would be required to ban flag burning because that activity is currently protected by the right to",
+            "content": "in order to try to get around constitutional challenges the law prohibited all types of flag desecration with the exception of burning and burying a wornout",
+            "url": "https://www.uscourts.gov/sites/default/files/free-speech-flag-burning_1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "all of the following are specifically mentioned in the constitution except",
+            "content": "no state shall enter into any treaty alliance or confederation grant letters of marque and reprisal coin money emit bills of credit",
+            "url": "https://constitution.congress.gov/browse/article-1/section-10/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the right of american citizens to petition the government for a redress of grievances is protected under the",
+            "content": "the first amendment guarantees freedoms concerning religion expression assembly and the right to petition",
+            "url": "https://www.law.cornell.edu/constitution/first_amendment",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the legal principle that instructs judges to follow established precedent when deciding cases is commonly referred to as",
+            "content": "the article aims to explain the practice of following precedent in law and to offer criteria for evaluating its value",
+            "url": "https://academic.oup.com/ojls/article/41/4/873/6161245",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following constitutional principles might be violated if the environmental protection agency issued enforced and adjudicated all disputes regarding a new regulation",
+            "content": "it analyses and explains the judgment of the pct it examines the principle of primacy of eu law in comparative perspective focusing both on the cjeu and the",
+            "url": "https://www.europarl.europa.eu/RegData/etudes/STUD/2022/734568/IPOL_STU(2022)734568_EN.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "federal election laws are designed to achieve all of the following except",
+            "content": "federal election commission regulations at title 11 cfr search completed and ongoing rulemakings browse federal register notices and explanations and",
+            "url": "https://www.fec.gov/legal-resources/regulations/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is the most direct result of an electoral system with singlemember districts",
+            "content": "provide voters with strong constituency representation because each voter has a single easily identifiable district representative encourage constituency",
+            "url": "https://aceproject.org/main/english/bd/bda02a01.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "compared with political parties in countries such as england and israel both of which have multiparty systems american political parties are",
+            "content": "a multiparty system is a political system where more than two meaningfullydistinct political parties regularly run for office and win elections",
+            "url": "https://en.wikipedia.org/wiki/Multi-party_system",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the civil rights act of 1964 was passed to reinforce the",
+            "content": "6 civil rights act of 1964 this behemoth legislation is a benchmark act that banned labor discrimination based on race color religion sex",
+            "url": "https://www.history.com/news/civil-rights-legislation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "voters who rely exclusively on television network news coverage of national elections are most likely to be aware of",
+            "content": "televised debatesdefined as a meeting usually broadcasted live throughout the entire electoral territory between the usually two candidates who have the",
+            "url": "https://journals.sagepub.com/doi/pdf/10.1177/02673231221123201",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is generally understood to be the purpose of the tenth amendment to the constitution",
+            "content": "the tenth amendment warns against using a list of rights to infer powers in the national government that were not granted",
+            "url": "https://constitutioncenter.org/the-constitution/amendments/amendment-x/interpretations/129",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is an example of an implied power of the congress",
+            "content": "implied powers of congress create a national bank establish a federal minimum wage establish a military draft create gun control laws in some cases",
+            "url": "https://study.com/academy/lesson/implied-powers-of-congress-definition-examples-quiz.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following is true of the supreme court",
+            "content": "the supreme court plays a very important role in our constitutional system of government first as the highest court in the land it is the court of last",
+            "url": "https://www.uscourts.gov/about-federal-courts/educational-resources/about-educational-outreach/activity-resources/about",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in the majority of cases federal programs are implemented by",
+            "content": "rule of law is a principle under which all persons institutions and entities are accountable to laws that are",
+            "url": "https://www.uscourts.gov/educational-resources/educational-activities/overview-rule-law",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what power was granted to the states by the articles of confederation but not by the constitution",
+            "content": "this meant that the articles granted the central government no power to tax but instead had to request money from the states with little to no",
+            "url": "https://www.menokin.org/digital-content/constitution",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "unlike in a closed primary election in an open primary election",
+            "content": "for example if a district routinely elects the democratic nominee republican voters may vote in the democratic party primary to attempt to influence the",
+            "url": "https://fairvote.org/archives/open-and-closed-primaries/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "all of the following are true under the system of checks and balances except",
+            "content": "checks and balances principle of government under which separate branches are empowered to prevent actions by other branches and are induced to share power",
+            "url": "https://www.britannica.com/topic/checks-and-balances",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is not part of the iron triangles that influence public policymaking",
+            "content": "government on january 27 2011 fbi director robert mueller used iron triangles to refer to organized criminals corrupt government officials and",
+            "url": "https://en.wikipedia.org/wiki/Iron_triangle_(US_politics)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which principle was established by the supreme courts decision in marbury v madison",
+            "content": "marbury v madison is important because it established the power of judicial review for the us supreme court and lower federal courts with",
+            "url": "https://www.britannica.com/event/Marbury-v-Madison",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following best articulates the doctrine of original intent",
+            "content": "original intent refers to the notion that the judiciary should interpret the constitution including its amendments in accordance with the understanding of",
+            "url": "https://firstamendment.mtsu.edu/article/original-intent/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the lineitem veto was found unconstitutional because",
+            "content": "the court found that exercise of the lineitem veto is tantamount to a unilateral amendment or repeal by the executive of only parts of statutes authorizing",
+            "url": "https://en.wikipedia.org/wiki/Line-item_veto_in_the_United_States",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "while best known for protecting freedom of speech and religion the first amendment also protects americans right to",
+            "content": "the free exercise clause protects citizens right to practice their religion as they please so long as the practice does not run afoul of a public morals or",
+            "url": "https://www.uscourts.gov/about-federal-courts/educational-resources/about-educational-outreach/activity-resources/first-amendment-and-religion",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how many votes in the senate must a presidential nominee to the supreme court receive in order to be confirmed",
+            "content": "a simple majority of the senators present and voting is required for the judicial nominee to be confirmed if there is a tie the vice president",
+            "url": "https://guides.ll.georgetown.edu/c.php?g=365722&p=2471070",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the president executes a pocket veto by doing which of the following",
+            "content": "pocket veto a pocket veto occurs when the governor fails to sign a bill within 14 days after the legislature has adjourned sine die the end of the",
+            "url": "https://www.leg.mn.gov/leg/faq/faq?id=113",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following describes a core principle of the constitution as it was written in 1787",
+            "content": "its first three words “we the people” affirm that the government of the united states exists to serve its citizens the supremacy of the people through",
+            "url": "https://www.senate.gov/civics/constitution_item/constitution.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is not a way in which the powers of the executive branch are balanced by the legislative branch",
+            "content": "the president in the executive branch can veto a law but the legislative branch can override that veto with enough votes the legislative branch has the power",
+            "url": "https://bensguide.gpo.gov/j-check-balance",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the supreme court case regents of university of california v bakke concerned which of the following issues",
+            "content": "bakke decision ruling in which on june 28 1978 the us supreme court declared affirmative action constitutional but invalidated the use of racial quotas",
+            "url": "https://www.britannica.com/event/Bakke-decision",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the attorney general is the head of which of the following entities",
+            "content": "the attorney general represents the united states in legal matters generally and gives advice and opinions to the president and to the heads of the executive",
+            "url": "https://www.justice.gov/doj/organization-mission-and-functions-manual-office-attorney-general",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following people would most likely be accused of influence peddling",
+            "content": "forms of corruption vary but can include bribery lobbying extortion cronyism nepotism parochialism patronage influence peddling graft and embezzlement",
+            "url": "https://en.wikipedia.org/wiki/Political_corruption",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which of the following generally results when the senate and house of representatives pass different versions of the same bill",
+            "content": "the president may veto bills congress passes but congress may also override a veto by a twothirds vote in both the senate and the house of representatives",
+            "url": "https://obamawhitehouse.archives.gov/1600/legislative-branch",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the idea that the bill of rights applies to both federal and state governments by means of the fourteenth amendment is called",
+            "content": "in united states constitutional law incorporation is the doctrine by which portions of the bill of rights have been made applicable to the states",
+            "url": "https://en.wikipedia.org/wiki/Incorporation_of_the_Bill_of_Rights",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the voting rights act of 1965 has had which of the following effects",
+            "content": "enlargedownload link citation an act to enforce the fifteenth amendment to the constitution of the united states and for other purposes",
+            "url": "https://www.archives.gov/milestone-documents/voting-rights-act",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "appointments to which of the following positions must be confirmed by the senate before taking effect i director of homeland security ii secretary of the treasury iii national security advisor iv us ambassador to the united nations",
+            "content": "this is a list of positions filled by presidential appointment with senate confirmation under the appointments clause of the united states constitution and",
+            "url": "https://en.wikipedia.org/wiki/List_of_positions_filled_by_presidential_appointment_with_Senate_confirmation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following has been true of the republican party since the 1980s",
+            "content": "the republican party also known as the gop grand old party is one of the two major political parties in the united states it is the secondoldest",
+            "url": "https://en.wikipedia.org/wiki/History_of_the_Republican_Party_(United_States)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the origination clause of the constitution states that",
+            "content": "the clause says that all bills for raising revenue must start in the us house of representatives but the us senate may propose or concur with amendments",
+            "url": "https://en.wikipedia.org/wiki/Origination_Clause",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "of the following american federalism is most clearly exemplified by the",
+            "content": "the most significant impact of the fourteenth amendment has been its implementation by the federal courts as state legislation came under scrutiny for having",
+            "url": "https://sgp.fas.org/crs/misc/RL30315.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why has network news coverage become less diverse in recent years",
+            "content": "by a considerable margin more journalists say their organization does not have enough racial and ethnic diversity 52 than say it does 32",
+            "url": "https://www.pewresearch.org/journalism/2022/06/14/journalists-give-industry-mixed-reviews-on-newsroom-diversity-lowest-marks-in-racial-and-ethnic-diversity/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the supreme courts decision in miranda v arizona was based mainly on the",
+            "content": "in miranda v arizona the supreme court established that police must inform anyone interrogated in police custody that they have the following constitutional",
+            "url": "https://caselaw.findlaw.com/court/us-supreme-court/384/436.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following does the supreme court not have the power to override",
+            "content": "the bestknown power of the supreme court is judicial review or the ability of the court to declare a legislative or executive act in violation of the",
+            "url": "https://www.uscourts.gov/about-federal-courts/educational-resources/about-educational-outreach/activity-resources/about",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following statements is true of congressional incumbents who run for reelection",
+            "content": "a congressional committee prevents the full chamber from voting on legislation by delaying its report c congress passes legislation establishing a national",
+            "url": "https://www.lew-port.com/cms/lib/NY19000328/Centricity/Domain/95/ap_practice_exam_1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "members of congress are allowed to mail letters to their constituents at the governments expense because of",
+            "content": "the franking privilege which allows members of congress to transmit mail matter under their signature without postage has existed in the",
+            "url": "https://crsreports.congress.gov/product/pdf/RL/RL34274/20",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "considered as a single group the small business administration the small business committees in the house and senate and small business advocacy groups are an example of",
+            "content": "sba was created in 1953 as an independent agency of the federal government to aid counsel assist and protect the interests of small business concerns",
+            "url": "https://www.sba.gov/about-sba/organization",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following best describes a block grant",
+            "content": "the community development block grant cdbg program provides annual grants on a formula basis to states cities and counties to develop viable urban",
+            "url": "http://www.hud.gov/program_offices/comm_planning/cdbg",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following statements is least true of voters in federal state and local elections",
+            "content": "in order to vote for president in a federal election a citizen must be 18 or older besides voting for officials we also vote on issues voters may want to",
+            "url": "https://www.uscis.gov/sites/default/files/document/lesson-plans/Intermediate_RightsandResponsibilities_handouts.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following has the supreme court held about the death penalty",
+            "content": "the court also held that the death penalty itself was constitutional under the eighth amendment in addition to sentencing guidelines three other procedural",
+            "url": "https://deathpenaltyinfo.org/facts-and-research/background/history-of-the-death-penalty/constitutionality-of-the-death-penalty-in-america",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the practice of drawing congressional district lines in an attempt to give one party a benefit over another is referred to as",
+            "content": "in representative electoral systems gerrymandering is the political manipulation of electoral district boundaries to advantage a party group",
+            "url": "https://en.wikipedia.org/wiki/Gerrymandering",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "politicians and political reporters are natural adversaries the adversarial nature of their relationship however is tempered by the fact that",
+            "content": "ringeling 20022 contends that in the united kingdom adversarial politics has been associated with adversarial relationships in society as a whole class",
+            "url": "https://www.healthpromotion.org.au/images/amended-democratic_governance_wenzel_oration_a_reynolds_27_may_6909.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "according to the federalist papers federalism has which of the following effects on political factions",
+            "content": "a the federalist papers take a negative view of political factions and would not have approved of any political system that encouraged their growth c",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-31-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the relative stability of american public policy is achieved largely through",
+            "content": "mostly stable values wealth gap foreign affairs opportunity most have consistently held the view that the government has a responsibility",
+            "url": "https://www.pewresearch.org/politics/2012/06/04/section-1-understanding-the-partisan-divide-over-american-values/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "two related cases that focused on the right to privacy for all american citizens were",
+            "content": "gitlow v new york 08 june 1925 ― before 1925 provisions in the bill of rights were not always guaranteed on the local level and usually",
+            "url": "https://constitutioncenter.org/blog/10-huge-supreme-court-cases-about-the-14th-amendment",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a writ of certiorari from the supreme court indicates that the court",
+            "content": "writs of certiorari parties who are not satisfied with the decision of a lower court must petition the us supreme court to hear their case the primary means",
+            "url": "https://www.uscourts.gov/about-federal-courts/educational-resources/about-educational-outreach/activity-resources/supreme-court-procedures",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "a member of the house of representatives wishing to influence tax policy would most likely try to serve on which of the following committees",
+            "content": "this online resource provides a basic outline of the numerous steps of our federal lawmaking process from the source of an idea for a legislative proposal",
+            "url": "https://www.congress.gov/help/learn-about-the-legislative-process/how-our-laws-are-made",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following is not true of executive orders",
+            "content": "the authority of executive orders is not final federal courts can be called on to review an orders lawfulness and determine whether it is a",
+            "url": "https://campaignlegal.org/update/what-are-executive-orders-and-how-do-they-work",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "among the following groups that have traditionally supposed the democratic party which has the least liberal constituency",
+            "content": "the democratic party is one of the two major contemporary political parties in the united states since the late 1850s its main political rival has been",
+            "url": "https://en.wikipedia.org/wiki/Democratic_Party_(United_States)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if no presidential candidate receives a majority of the electoral college vote then who becomes the president",
+            "content": "see the full electoral college vote counts for president and vice president in the 1872 election we dont know what would happen if a candidate who dies after",
+            "url": "https://www.archives.gov/electoral-college/faq",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "both the war powers act of 1974 and the budget and impoundment control act of 1974 represent efforts by congress to limit the powers of the",
+            "content": "the impoundment control act ica amended the antideficiency act to limit its use for impounding funds and divided impoundments into two",
+            "url": "https://crsreports.congress.gov/product/pdf/R/R48432",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following statements about voting patterns is not true",
+            "content": "another major concern in voting research emphasizes changes in voting patterns over time usually with an attempt to determine what the election results tell",
+            "url": "https://www.icpsr.umich.edu/web/pages/instructors/setups/voting.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following accounts for the fact that the power and prestige of the presidency have grown since 1932 i americas increased prominence in international affairs ii continually improved public confidence in the federal government iii the new deal and other programs that have expanded federal responsibility iv the presidents increased visibility due to the development of mass media",
+            "content": "c americas increased prominence in foreign affairs i has increased the power of the president as chief of state the president receives and negotiates with",
+            "url": "https://www.crackap.com/ap/us-government-and-politics/question-25-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "the swift adoption of the bill of rights in the years following ratification of the constitution demonstrates the",
+            "content": "the answer would be a because the colonists thought the new government was going to become tyrannical so they urged the government to make a",
+            "url": "https://www2.dbl.id/lock-code/2188297",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following does not appear in the constitution",
+            "content": "the right to privacy the word “privacy” does not appear anyone in the constitution the right to a jury of your peers political parties",
+            "url": "https://time.com/4433907/constitution-khizr-khan/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is an example of devolution",
+            "content": "in the united states the district of columbia offers an illustration of devolved government the district is separate from any state and has its own elected",
+            "url": "https://en.wikipedia.org/wiki/Devolution",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is a direct result of an electoral system that features singlemember districts",
+            "content": "provide voters with strong constituency representation because each voter has a single easily identifiable district representative encourage constituency",
+            "url": "https://aceproject.org/main/english/bd/bda02a01.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "the opinions of congressional committees often fail to accurately mirror public opinion because",
+            "content": "then on the eve of world war ii joint committee that drafted the 1946 lra pointed out in almost every country of the world the parliamentary system has failed in countries where dictators have taken over it has always been because the parliamentary systems have proved their inability to cope with the complex and difficult problems that face modern society that is the real significance of congressional",
+            "url": "https://www.govinfo.gov/content/pkg/CPRT-113SPRT89394/html/CPRT-113SPRT89394.htm",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 22,
+            "query": "which of the following best describes the practice of ticket splitting",
+            "content": "splitticket voting or ticket splitting is when a voter in an election votes for candidates from different political parties when multiple offices are being decided by a single election as opposed to straightticket voting where a voter chooses candidates from the same political party for",
+            "url": "https://en.wikipedia.org/wiki/Split-ticket_voting",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 22,
+            "query": "a member of the presidents cabinet is said to have gone native when that cabinet member",
+            "content": "a cabinet member going native refers to when a cabinet member places all his priorities above the president if a cabinet members focus is on gun safety he will try and fight for the president to sign gun safety laws before he does anything else",
+            "url": "https://history.answers.com/american-government/What_does_a_Cabinet_member_gone_native_mean",
+            "engine": "braveAPI"
+        }
+    ]
+}

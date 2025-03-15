@@ -1,0 +1,1239 @@
+{
+    "task": "bbh_zeroshot_snarks",
+    "dataset": "web_access_snarks_final",
+    "questions": 178,
+    "noWebContextCount": 4,
+    "contaminated_queries": 88,
+    "contaminated_urls": 179,
+    "valid_urls": 174,
+    "avg_contaminated_before_valid": 2.028735632183908,
+    "contaminated_data_ratio": 0.5070821529745042,
+    "most_contaminated_urls": {},
+    "noWebContext": [
+        "Which statement is sarcastic?\nOptions:\n(A) I mean their graphics guy did spend 15 minutes max on doing the day's work and the rest messing around. Their employees are always the laziest!\n(B) I mean their graphics guy did spend 15 minutes max on doing the day's work and the rest messing around. Their employees are always the best!",
+        "Which statement is sarcastic?\nOptions:\n(A) So they got him for lying to the FBI, and they want him to testify now? Because his word is clearly worth not so much..\n(B) So they got him for lying to the FBI, and they want him to testify now? Because his word is clearly worth so much..",
+        "Which statement is sarcastic?\nOptions:\n(A) You don't think you could float a bunch of ancient boats across the entire pacific ocean undetected and invade the inline northwest with their soviet-era MIGs?\n(B) I don't think you could float a bunch of ancient boats across the entire pacific ocean undetected and invade the inline northwest with their soviet-era MIGs",
+        "Which statement is sarcastic?\nOptions:\n(A) I'm a serious symphony fan so when I go I hope the crowd is dead silent and everyone is in their seats so I can pay extra good attention\n(B) I'm a serious hockey fan so when I go I hope the crowd is dead silent and everyone is in their seats so I can pay extra good attention"
+    ],
+    "contaminated_WebContext": [],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a you mean knuth up arrow notation isnt unfamiliar for you b you mean knuth up arrow notation isnt normal for you",
+            "content": "you can leave a queue while in queue before needconfirmation 1827828 up testing with the minified version so sad 568743negativenot",
+            "url": "https://figshare.com/ndownloader/files/21001260",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a soggy fries covered in bacon grease sounds unhealthy b soggy fries covered in bacon grease sounds delicious",
+            "content": "i bet you wanna go eat some ketchup covered dumb gon right now while watching reality tv just make sure you spray your food first",
+            "url": "https://lichess.org/forum/off-topic-discussion/longest-message-ever?page=3",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a im just going to leave it to endlessly pile up until my email count goes off the screen and then it becomes a server threatening issue b im just going to leave it to endlessly pile up until my email count goes off the screen and then it becomes a life threatening issue",
+            "content": "i think if im gonna pay for using email ill just try to get any cheap vpsdomain and try to run my own email itll be more expensive for",
+            "url": "https://news.ycombinator.com/item?id=31252070",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a yeah paytowin gated content is much more fun and accessible to everyone b yeah paytowin gated content is much less fun and accessible to everyone",
+            "content": "should she be making fun or would others be mocking her 9 she was strangely relieved when the plane landed as though her fate were decided 436 which",
+            "url": "https://www.misd.net/languageart/grammarinaction/501grammarandwriting3e.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which statement is sarcastic options a ill just bring my keyboard and mouse to the computer and plug it all in b ill just bring my keyboard and mouse to the bus and plug it all in",
+            "content": "ill take that all day long over the magic mouse with a charging port if i get the warning the mouse is getting low on charge i just plug it in",
+            "url": "https://news.ycombinator.com/item?id=41971726",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a isnt it just the best this has been me for the past several days as well its been less than enough sleep for the past week b isnt it just the best this has been me for the past several days as well its been more than enough sleep for the past week",
+            "content": "absolutly nothing about that statement was sarcastic as you can its so completly garbled its funny for instance i wrote i",
+            "url": "https://lichess.org/forum/off-topic-discussion/longest-message-ever?page=3",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a people these days are so rich back in my day we didnt have luxuries b people these days are so rich back in my day we didnt have houses",
+            "content": "we recently searched reddit and asked adults in the buzzfeed community who grew up rich to share the moment they realized their lives were far from normal",
+            "url": "https://www.buzzfeed.com/michaelabramwell/how-former-rich-kids-realized-their-lives-werent-normal",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a conspiracy theory sounds suspicious b conspiracy theory sounds legit",
+            "content": "misinformation and hate speech are prevalent issues in social media research as well as the rise of farright extremists white supremacists",
+            "url": "https://journals.sagepub.com/doi/10.1177/20563051221150410?icid=int.sj-full-text.citing-articles.21",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a sneaking out of a government facility with dangerous contraband isnt going to be easy b sneaking out of a government facility with dangerous contraband isnt going to be illegal",
+            "content": "this guidance is designed to help teachers teach writing it focuses on the teaching of the sentence level objectives in the national literacy strategy",
+            "url": "https://www.crownwoodschool.com/attachments/download.asp?file=99&type=pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a see the trick is not to see your fwb as a person so youre still independent b see the trick is not to see your fwb as a liability so youre still independent",
+            "content": "1 theyre not contacting you or are sporadically contacting you 2 they may not even bother speaking with you and rely predominantly on emails text messages",
+            "url": "https://www.baggagereclaim.co.uk/30-signs-that-someone-isnt-interested-or-is-half-heartedly-interested-in-you-how-to-avoid-being-a-passing-time-candidate/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a remind me how do you print a legalsized piece of paper b remind me how do you print a blank piece of paper",
+            "content": "these resources are here to support you in your studies helping you to understand the exam format better and to prepare more effectively",
+            "url": "https://www.mbose.in/public/media_file/1729501374.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a he didnt threaten he only urged totally different b he didnt threaten he only pleaded totally different",
+            "content": "he had all the qualities of a good citizen he was not a criminal or a typical thief he did so only to fulfill his need he was an honest and",
+            "url": "https://cdnbbsr.s3waas.gov.in/s3kv04e1eda3706500bd7aca0536623f6b/uploads/2024/07/2024071226.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a people never foment wars to relinquish territory b people never foment wars to conquer territory",
+            "content": "has the nation been burt have the people been hurt have they been burt in such a way that there must be a ratification of this treaty right offhand",
+            "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1930-pt1-v73/pdf/GPO-CRECB-1930-pt1-v73-10.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a good thing things arent more expensive now than they were eight years ago b good thing things arent more expensive now than they were eight days ago",
+            "content": "just like reading speaking and writing it takes time to develop listening skills so make time and find opportunities to listen to english as often as you can",
+            "url": "https://www.cambridgeenglish.org/Images/583523-c1-advanced-self-access-learning-listening-part-1-multiple-choice.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a of course theres no security cameras in the white house in the game they said its just like real life b of course theres several security cameras in the white house in the game they said its just like real life",
+            "content": "story was funny is because that kind of thing only happens in movies absolutly nothing about that statement was sarcastic as you can",
+            "url": "https://lichess.org/forum/off-topic-discussion/longest-message-ever?page=3",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a yeah i dont know where people get the audacity to think they can protest against a major corporation b yeah i dont know where people get the audacity to think they can riot against a major corporation",
+            "content": "if you cant tell im mocking that people that get offended by everything absolutly nothing about that statement was sarcastic as you",
+            "url": "https://lichess.org/forum/off-topic-discussion/longest-message-ever?page=3",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a wow thats crazy ive never had a takeout meal that used hardwood containers before b wow thats crazy ive never had a takeout meal that used plastic containers before",
+            "content": "wingspan is a competitive mediumweight carddriven enginebuilding board game from designer elizabeth hargrave and stonemaier games",
+            "url": "https://stonemaiergames.com/games/wingspan/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a are you implying history repeats itself if people ignore it what an absurd claim b are you implying history repeats itself if people ignore it what an insightful claim",
+            "content": "this has implications for iam assestion that a more ambitious temperature target will impose a higher economic cost the set of options for both reducing 107 stron",
+            "url": "https://www.ipcc.ch/site/assets/uploads/sites/2/2019/09/SR15FOD_Chapter2_Comments_and_Responses.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a youre welcome my dear friend always glad to feed the elephants that woefully endangered species b youre welcome my dear friend always glad to feed the trolls that woefully endangered species",
+            "content": "yes its cheeky but its sarcastic and sarcasm is on of the greatest british traits if you cant take the mick out of something then",
+            "url": "https://www.timminchin.com/2011/12/22/im-not-on-the-jonathan-ross-show/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a muslims love celebrating christmas b muslims love celebrating eid",
+            "content": "so having christmas trees being a practice done in the celebration of christmas is christian regardless of the personal beliefs of the people",
+            "url": "https://www.askamanager.org/2019/12/is-it-ok-to-put-up-a-christmas-tree-at-work.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which statement is sarcastic options a only firstworld citizens deserve freedom b not only firstworld citizens deserve freedom",
+            "content": "multiple choice questions objective type questions and short answer type questions to be answered in 4050 words will be asked section b213 stron",
+            "url": "https://cdnbbsr.s3waas.gov.in/s3kv0360dd076faed6855fc4045338a4df/uploads/2024/06/2024061712.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a how dare you use violence b how dare you use logic",
+            "content": "library journal starred review “at lastthe straight scoop on men who abuse women this is a book not just for abused women and domestic violence 690 stron",
+            "url": "https://sa1s3.patientpop.com/assets/docs/85477.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a every package i get from amazon is 2 to 3 days late busted up doesnt work right and sometimes not even what i ordered so disappointed i pay for free shipping with prime b every package i get from amazon is 2 to 3 days late busted up doesnt work right and sometimes not even what i ordered so happy i pay for free shipping with prime",
+            "content": "apparently dropping prime with the shopping really does not impact the speed of delivery or cost im already often selecting delayed delivery",
+            "url": "https://news.ycombinator.com/item?id=38776591",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a you mean your team did the most damage then you just did the final blow amazing display of team skill b you mean your team did the most damage then you just did the final blow amazing display of individual skill",
+            "content": "the convict behaved in a dishonest way behave is similar in meaning to ……… a act b refuse c agree",
+            "url": "https://hayakarima.com/assets/uploads/subjects/9287c4d8-2529-4afb-952e-946b0940a027.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a but that could never happen in reality where software never malfunctions b but that could never happen in reality where software often malfunctions",
+            "content": "the questions in this section address a number of important reading and writing skills each question includes one or more passages which may include a",
+            "url": "https://www.mometrix.com/academy/wp-content/uploads/2022/11/SAT-Practice-Test-1-with-Answer-Key-and-Scoring-Info.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a handouts are unfair when they go to businesses not consumers b handouts are fine when they go to businesses not consumers",
+            "content": "you should write your answers directly onto the exam answer paper as you do not have extra time at the end to transfer your answers funny so 33",
+            "url": "https://bayanebartar.org/file-dl/library/IELTS6/exam-essentials-practice-test-ielts-2-with-key/Exam-essentials-ielts-practice-test2.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a without the river theres no water and no electricity blocking it is such a smart move b without the river theres no water and no electricity blocking it is such a terrible move",
+            "content": "absolutly nothing about that statement was sarcastic as you can there are no good and bad people just good and bad decisions we",
+            "url": "https://lichess.org/forum/off-topic-discussion/longest-message-ever?page=3",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a stop putting people in neat little compartments to protect your view point good idea b keep putting people in neat little compartments to protect your view point good idea",
+            "content": "additionally practicing with 501 gram mar and writing questions will greatly alleviate writing anxiety many people grimace when faced with grammar exercises",
+            "url": "https://www.misd.net/languageart/grammarinaction/501grammarandwriting3e.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a yeah lets get rid of the trams and build carriages instead b yeah lets get rid of the trams and build lightrail instead",
+            "content": "if i were trying to get more people to use public transit id start by making the stations and busessubways beautiful clean safe places that",
+            "url": "https://news.ycombinator.com/item?id=35988820",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a yeah the amount of injuries on the squad and lack of consistent oline play had everything to do with this b yeah the amount of injuries on the squad and lack of consistent oline play had nothing to do with this",
+            "content": "i thought it was funny but what if there was a new student at school absolutly nothing about that statement was sarcastic as you can",
+            "url": "https://lichess.org/forum/off-topic-discussion/longest-message-ever?page=3",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a good thing you can boil impurities out of water b good thing you can boil uranium out of water",
+            "content": "in the last sentence of paragraph 5 the writer says “he was also helped by six assistants two of whom died whilst the dictionary was still in preparation”",
+            "url": "https://ieltsrealexams.ir/wp-content/uploads/2024/07/Cambridge-IELTS-Reading-1-18-KeyExplanations.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a a wave of hypothermia and drownings will be a great way to start the year b a wave of hypothermia and drownings will be a terrible way to start the year",
+            "content": "bad mattress if a mattress does not support specific parts of the body and keep the spine straight there is a greater risk of developing back pain high",
+            "url": "https://bieap.apcfss.in/Uploads/Materials/I_MPHW.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a what a wonderful baseless accusation b what a striking baseless accusation",
+            "content": "idiom a group of words that means something different than the individual words it contains as with any language american english is full",
+            "url": "https://www.iowacourts.gov/static/media/cms/In_the_Loop_A_Reference_Guide_to_Am_34A595424C1B1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a one of my leastfavorite things to do working was taking out and smelling the trash b one of my favorite things to do working was taking out and smelling the trash",
+            "content": "for what its worth anyone who would spend years mocking and trashtalking a colleague like this is a truly horrible person its one",
+            "url": "https://www.askamanager.org/2020/01/i-found-out-my-coworkers-have-been-mocking-me-in-a-group-chat-for-years.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a assuming the country that historically is constantly over throwing its government doesnt like their government is an unreasonable assumption b assuming the country that historically is constantly over throwing its government doesnt like their government is a reasonable assumption",
+            "content": "many political arguments start from the assumption that taxation is the government taking our money off us when austerity hit the arts in",
+            "url": "https://taxjustice.net/2014/10/08/money-taxation-isnt-theft/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a quit fatshaming the cat theyre people too you know b quit fatshaming the cat theyre sensitive too you know",
+            "content": "blood clots are still a huge problem that is largely unrecognized by most pet owners if blood decides to solidify and stop flowing bad things happen",
+            "url": "https://www.vin.com/vetzinsight/default.aspx?pid=756&catId=5860&id=5688123",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a i earn money for winning sign me up b i lose money for winning sign me up",
+            "content": "i just woke up but the anticipation of whether this whole henry twist bit this is true is killing me and i think i might wake up just to see if",
+            "url": "https://lichess.org/forum/off-topic-discussion/longest-message-ever?page=3",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a impossible as theres no one on the internet b impossible as theres no one on the moon",
+            "content": "absolutly nothing about that statement was sarcastic as you can in anycase this was particularly funny because tonileigh is one of my",
+            "url": "https://lichess.org/forum/off-topic-discussion/longest-message-ever?page=3",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a with new designs coming ten times slower than their competitors honda will soon be at the top of the market b with new designs coming ten times faster than their competitors honda will soon be at the top of the market",
+            "content": "at this point i feel like a rising stock price after a crisis should be a major red flag for long term corporate survival",
+            "url": "https://news.ycombinator.com/item?id=43026934",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a thats only about 015 per mile for a van perfectly reasonable fuel costs b thats only about 10 per mile for a van perfectly reasonable fuel costs",
+            "content": "it warns that education opportunities continue to be unequally distributed barriers to quality education are still too high for too many learners even before",
+            "url": "https://inee.org/sites/default/files/resources/373718eng.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a yes the game is over after the second half b yes the game is over after the first half",
+            "content": "absolutly nothing about that statement was sarcastic as you can funny partlower the quality of my overall work haha",
+            "url": "https://lichess.org/forum/off-topic-discussion/longest-message-ever?page=3",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which statement is sarcastic options a yeah anarchism is taught as a prime example of a governing system b yeah democracy is taught as a prime example of a governing system",
+            "content": "what was good was that so little changed at the low levels of government as you say the people who took over were already running things to",
+            "url": "https://www.lesswrong.com/posts/FccGAQALm82uiJaMz/please-don-t-vote-because-democracy-is-a-local-optimum",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a but his eyes were on the ball shouldnt be a red b but his cleats were on the ball shouldnt be a red",
+            "content": "if youre looking for adult or naughty jokes youll definitely want to check out our best dirty jokes and funny jokes 1 my wife asked me to",
+            "url": "https://www.buzzfeed.com/mikespohr/75-dad-jokes-that-are-so-bad-theyre-actually-good",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a weve not spoken since graduating high school 7 years ago shes basically my bestie b weve consistently spoken since graduating high school 7 years ago shes basically my bestie",
+            "content": "a young child does not have the mental capacity for creating a coherent narrative out of these events on their own as they are unable to process it this",
+            "url": "https://brightontherapypartnership.org.uk/impact-of-boarding-school/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which statement is sarcastic options a so hes planning to continue leaving useless space junk in orbit literally just because he can what a horrible person b so hes planning to continue leaving useless space junk in orbit literally just because he can what a brilliant person",
+            "content": "has frequent problems in understanding and expression is not able to use complex language band 3 extremely limited user conveys and understands only",
+            "url": "https://bayanebartar.org/file-dl/library/IELTS6/exam-essentials-practice-test-ielts-2-with-key/Exam-essentials-ielts-practice-test2.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a yeah war is tragic b yeah war is pacifying",
+            "content": "ers price sadtragic smallminute unusualfantastic happyhilarious proceed to a consideratinr of depths of meaning in three relatively synonymous words thrifty 308 stron",
+            "url": "https://files.eric.ed.gov/fulltext/ED051153.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a everyone knows salt is the highlight of gourmet sophistication b everyone knows caviar is the highlight of gourmet sophistication",
+            "content": "tokyo table trip is a curated media from tokyo providing exclusive local gourmet information enjoy a rich virtual experience in the worldclass culinary",
+            "url": "https://tokyotabletrip.com/community",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a concrete plates very beautiful b stainedglass plates very beautiful",
+            "content": "pearson education limited 2003 all rights reserved no part of this publication may be reproduced stored in a retrieval system or387 stron",
+            "url": "https://bayanebartar.org/file-dl/library/IELTS1/Advanced-Learners-Grammar.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a only rich people can afford healthy food b not only rich people can afford healthy food",
+            "content": "just sniffing and deploring the poor diets that many lowincome people have is not constructive",
+            "url": "https://www.flyertalk.com/forum/diningbuzz/1358728-ionly-rich-people-can-afford-healthy-foodn-myth-10.html?nojs=1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which statement is sarcastic options a college is happening forgetting assignments stressing over grades worrying about finals etc its been a stressful semester b college is happening forgetting assignments stressing over grades worrying about finals etc its been a fun semester",
+            "content": "fastforward a few days i ended up filing a complaint about him and his method of grading students and the college made him change my grade",
+            "url": "https://www.buzzfeed.com/victoriavouloumanos/professor-red-flags-drop-class",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a better not buy any technology ever because in a few years something better will be released b better not buy any exorbitant technology ever because in a few years something better will be released",
+            "content": "the song parodies elements of opera with bombastic choruses sarcastic recitative and distorted italian operatic phrases lyrical references include",
+            "url": "https://en.wikipedia.org/wiki/Bohemian_Rhapsody",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a one of the worst things to do working in retail was pushing a trolley of returns around the store putting them back b one of the enjoyable things to do working in retail was pushing a trolley of returns around the store putting them back",
+            "content": "you miss out on fun or interesting or important things to do menial work have repetitive conversations deal with supervising people anticipate needs that the",
+            "url": "https://www.coveyclub.com/blog_posts/daughter-hates-caring-aging-mother/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a my laptop didnt work when i brought it underwater therefore it must be asuss fault that it broke down b my laptop didnt work when i brought it underwater therefore it must be my fault that it broke down",
+            "content": "this is like the framework laptop but its a ukbased company that has been around for years and with an explicit focus on linux compatibility to boot",
+            "url": "https://news.ycombinator.com/item?id=31034024",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a i love it when people mock other people for trying to get healthier its so classy b i love it when people encourage other people for trying to get healthier its so classy",
+            "content": "the following text samples primarily serve to exemplify the level of complexity and quality that the standards require all students in a given grade band to",
+            "url": "https://www.ode.state.or.us/wma/teachlearn/commoncore/ela-appendix-b.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a you mean you dont seek validation from the multitude of sociopaths on the internet b you mean you dont seek validation from the multitude of users on the internet",
+            "content": "yes sociopaths can love with a selfish intensity that puts other love to shame their love is a devouring consuming sort of love when i love someone i",
+            "url": "http://www.sociopathworld.com/2009/01/do-sociopaths-love.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a the best way to defeat a strongerlarger and better regimented force is by fighting on their terms b the best way to defeat a strongerlarger and better regimented force is by fighting on your terms",
+            "content": "choose the term which best matches the statement the young men echo the lament of their elders a acceptance b reflection c reiteration",
+            "url": "https://cdnbbsr.s3waas.gov.in/s3kv0367b3278b70f46bc11bd4f61438a9/uploads/2024/10/2024101987.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a theyre losing to a team with a terrible record i for one am shocked b theyre losing to a team with a winning record i for one am shocked",
+            "content": "for what its worth anyone who would spend years mocking and trashtalking a colleague like this is a truly horrible person its one thing",
+            "url": "https://www.askamanager.org/2020/01/i-found-out-my-coworkers-have-been-mocking-me-in-a-group-chat-for-years.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which statement is sarcastic options a her wheel wobbling several millimeters in either direction wasnt enough to suggest that the bike was unsafe b her wheel wobbling several feet in either direction wasnt enough to suggest that the bike was unsafe",
+            "content": "these are stories told by patients and parents themselves the purpose of these stories is to lend your experiences to help others in similar circumstances",
+            "url": "https://hipdysplasia.org/patient-stories-infants-children/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a and the likelihood of internetconnected cars being hacked and controlled remotelyzero b and the likelihood of internetconnected cars being hacked and controlled remotelyhigh",
+            "content": "of all the horrible things go on with privacy these days this is the one i hate the most im a “car guy” but not the sort that obsesses",
+            "url": "https://news.ycombinator.com/item?id=37404413",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a obviously monolithic services are the best solution for everyone because of the webscale b obviously microservices are the best solution for everyone because of the webscale",
+            "content": "a microservice solves scaling issues for huge companies if you have 60 microservices you should probably have 600 engineers 10 per to deal with them",
+            "url": "https://news.ycombinator.com/item?id=38069915",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a right because everyone buys insurance based on the possibility of a riot b right because everyone buys insurance based on the possibility of an accident",
+            "content": "not only was she being funny about how we all act at times she is sarcastic with this response as i was in the original post i wrote help me",
+            "url": "https://www.lolabeescareercoaching.com/10-reasons-your-dentist-probably-hates-you-too/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a thank you stranger on the internet i wont trust your three word post without any sources over someone offering solid advice claiming to actually be from the country in question b thank you stranger on the internet i will trust your three word post without any sources over someone offering solid advice claiming to actually be from the country in question",
+            "content": "someone is talking and ” for saying something sarcastically or shortening a word absolutly nothing about that statement was sarcastic as you",
+            "url": "https://lichess.org/forum/off-topic-discussion/longest-message-ever?page=3",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a the two minute wait in line is too long for me i think ill just leave b the two hour wait in line is too long for me i think ill just leave",
+            "content": "they do it as a light bit of mockery and mocking this mockery is my only purpose why thats how to get rid of your sarcastic nature which seems to have",
+            "url": "https://www.litcharts.com/shakescleare/shakespeare-translations/loves-labors-lost/act-5-scene-2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which statement is sarcastic options a never had as much fun in my life as when the cops found my backpack of weed in my car trunk b never had as much anxiety in my life when the cops found my backpack of weed in my car trunk",
+            "content": "this is sometimes referred to as “ambiguous grief” or “ambiguous loss” this may sound very abstract but when it occurs in your life it is very concrete and",
+            "url": "https://whatsyourgrief.com/ambiguous-grief-grieving-someone-who-is-still-alive/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a we should start a petition to ban breathing b we should start a petition to ban vaping",
+            "content": "kilt is a resource for training evaluating and analyzing nlp models on knowledge intensive language tasks",
+            "url": "https://ai.meta.com/tools/kilt/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which statement is sarcastic options a welp my 1000 dollar phone has bad battery life guess ill just have to return it b welp my 1000 dollar phone has bad battery life guess ill just have to dumpster it",
+            "content": "the loss of programmer productivity can easily be overshadowed by gains from other parts of the business i know its not always the case and nobody wants to",
+            "url": "https://news.ycombinator.com/item?id=41558554",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a wow youre right all those memes in the bitcoin sub and people posting about making money and what theyre going to buy with it sure turned on people investing from in it b wow youre right all those memes in the bitcoin sub and people posting about making money and what theyre going to buy with it sure turned off people investing from in it",
+            "content": "as autistic people perhaps some of us have a tendency to invest our emotions in inanimate objects rather than people",
+            "url": "https://adultswithautism.org.uk/autism-feeling-sympathy-for-inanimate-objects/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a it means if small businesses start struggling the government ramps up their spending to help out b it means if small businesses start struggling the government ramps up their taxes to help out",
+            "content": "we start a lot of small businesses and we particularly help a lot of small businesses change their business model and grow you cant start anything up",
+            "url": "https://www.govinfo.gov/content/pkg/CHRG-114hhrg25875/html/CHRG-114hhrg25875.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a try having your landscape fill the entirety of the photo thatd look good b try having your face fill the entirety of the photo thatd look good",
+            "content": "its a run that sung to you for some reason inspirational funny sad delightful everyday stories of running",
+            "url": "https://www.dirtchurchradio.com/greatest-run-ever",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a violence is a perfect way to unleash your frustrations b exercise is a perfect way to unleash your frustrations",
+            "content": "choose the correct answer from a b c or d 1 publishing companies suffer a lot from ……… it‟s really a crime a piracy b privacy c safety",
+            "url": "https://hayakarima.com/assets/uploads/subjects/9287c4d8-2529-4afb-952e-946b0940a027.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a if its on britannica it must be true b if its on reddit it must be true",
+            "content": "none if reddit believes their only option is reddit stevenwliao on june 16 2023 root parent next if we imagine say rfunny as",
+            "url": "https://news.ycombinator.com/item?id=36283249",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a yeah its totally reasonable to deny someone a chance at a loving family because of the color of their skin b yeah its totally ridiculous to deny someone a chance at a loving family because of the color of their skin",
+            "content": "absolutly nothing about that statement was sarcastic as you can its so completly garbled its funny for instance i wrote i",
+            "url": "https://lichess.org/forum/off-topic-discussion/longest-message-ever?page=3",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a working the printer is too complex for me b working the microprocessor is too complex for me",
+            "content": "the biggest problem i can see is the entry barrier to get a very basic printer you have to invest thousands of time with a lot of knowledge in",
+            "url": "https://news.ycombinator.com/item?id=24786721",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a im sure you wouldnt have remained completely calm if a teacher attacked you b im sure you would have remained completely calm if a teacher attacked you",
+            "content": "the convict behaved in a dishonest way behave is similar in meaning to ……… a act b refuse c agree",
+            "url": "https://hayakarima.com/assets/uploads/subjects/9287c4d8-2529-4afb-952e-946b0940a027.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which statement is sarcastic options a you can still achieve the american dream after working at walmart b you can still achieve the american dream of working at walmart",
+            "content": "here are some things every christian should know about suicide and depression its not just mental and emotional",
+            "url": "https://beautifulbetween.com/love-jesus-but-want-to-die/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a you didnt realize that bikes are a stationary object b you didnt realize that bikes arent a stationary object",
+            "content": "cambridge english qualifications digital faqs here you can find answers to the most important questions about cambridge english qualifications digital advice",
+            "url": "https://www.cambridgeenglish.org/images/168174-cambridge-english-key-for-schools-handbook-for-teachers.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a protein supplements are way more expensive than 1 breakfast gruel b protein supplements are way more expensive than 1 breakfast burritos",
+            "content": "for every ticket sold half of each dollar will be returned to players as prizes no more than 16 cents will be spent to operate the lottery five cents going",
+            "url": "http://library.ucsd.edu/dc/object/bb8977256b/_1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a how could government control of the internet be bad b how could government control of the internet be beneficial",
+            "content": "uses everyday vocabulary generally appropriately while occasionally overusing certain lexis uses simple grammatical forms with a good degree of control while",
+            "url": "https://www.cambridgeenglish.org/images/168174-cambridge-english-key-for-schools-handbook-for-teachers.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a so impressive winning cups in a league with 2 teams b so impressive winning cups in a league with 60 teams",
+            "content": "the factory had collapsed so the lawyers……… that the insurance company pay the legal compensation a protested b demanded c rejected",
+            "url": "https://hayakarima.com/assets/uploads/subjects/9287c4d8-2529-4afb-952e-946b0940a027.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a yes responsibility should be celebrated b yes negligence should be celebrated",
+            "content": "choose the correct answer from a b c or d 1 publishing companies suffer a lot from ……… it‟s really a crime a piracy b privacy c safety75 stron",
+            "url": "https://hayakarima.com/assets/uploads/subjects/9287c4d8-2529-4afb-952e-946b0940a027.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a yeah lets crucify this nonprofit for making money they shouldnt be doing that b yeah lets crucify this company for making money they shouldnt be doing that",
+            "content": "this is basically wasting company money but its not you who is wasting the money ” shes being sarcastic and trying to joke but bob and a",
+            "url": "https://www.askamanager.org/2021/03/open-thread-march-5-6-2021.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a just like were all better off for not spinning our own clothes mining our own steel and forging our own tools b just like were all worse off for not spinning our own clothes mining our own steel and forging our own tools",
+            "content": "these poems were written during lockdown and the covid pandemic at a time when it seemed the whole country was going through a crisis",
+            "url": "https://ledburypoetry.org.uk/lockdown-poems/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a basically you just have to be horribly rude and demanding make people feel bad and youll get tons of trashy stuff b basically you just have to be horribly rude and demanding make people feel bad and youll get tons of free stuff",
+            "content": "here are some things every christian should know about suicide and depression its not just mental and emotional",
+            "url": "https://beautifulbetween.com/love-jesus-but-want-to-die/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a its not our job to fund education it should be the government paying the maintenance to keep schools open b its not our job to fund education it should be the kids paying the maintenance to keep schools open",
+            "content": "i applied for the new job and i am waiting for the answer to my application with bated breath this means that i ……… a no longer expect that i will get the",
+            "url": "https://hayakarima.com/assets/uploads/subjects/9287c4d8-2529-4afb-952e-946b0940a027.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a hmm stifling of free speech and political opinions ive seen that before b hmm stifling of free speech and political opinions never seen that before",
+            "content": "so heres my confession i hated being a dentist a few months prior to writing this i came across a funny post titled “10 reasons i hate the dentist” it",
+            "url": "https://www.lolabeescareercoaching.com/10-reasons-your-dentist-probably-hates-you-too/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a this website is well known to post falsehoods and spread false rumors rocksolid source if you ask me b this website is well known to post falsehoods and spread false rumors suspicious source if you ask me",
+            "content": "if youve correctly cited all the sources you used then you do not need to use a plagiarism checker before submitting your paper to your instructor",
+            "url": "https://www.scribbr.com/frequently-asked-questions/check-paper-for-plagiarism-before-submitting/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a psshh everyone knows women cant earn profit b psshh everyone knows women can earn profit",
+            "content": "here are the 200 best sarcastic quotes from funny comments sayings and phrases dripping with snarky sarcasm",
+            "url": "https://parade.com/1079501/stephanieosmanski/sarcastic-quotes/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a just memeing about being racist thats what keeps it okay b just memeing about being racist thats what keeps it toxic",
+            "content": "learn about helpful and unhelpful responses to racist comments",
+            "url": "https://www.webmd.com/balance/features/what-say-someone-says-something-racist",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a when driving its very helpful to keep your foot in one place you know b when driving its very difficult to keep your foot in one place you know",
+            "content": "we cannot provide a description for this page right now",
+            "url": "https://www.myrv.us/Imgs/PDF/General%20test%20with%20answers.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a youre right its the first week of winter it will definitely get warmer in a couple weeks for our first playoff game b youre right its the last week of winter it will definitely get warmer in a couple weeks for our first playoff game",
+            "content": "sarcasm can be difficult to grasp for some people though it usually has a humorous undertone uncover some sarcasm examples that might have a bit of a bite",
+            "url": "https://www.yourdictionary.com/articles/examples-sarcasm-meaning-types",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a everyone knows that ignorance of the law excuses nobody from following the law b everyone knows ignorance of the law excuses you from following the law",
+            "content": "in law ignorantia juris non excusat of law excuses no onequot is a legal principle holding that a person who is unaware of a law may not escape liability for violating that law merely by being unaware of its content europeanlaw countries with a tradition of roman law may also use an expression from aristotle translated into latin nemo censetur ignorare legem quotnobody is thought to be ignorant of the lawquot or ignorantia iuris nocet quotnot knowing the law is",
+            "url": "https://en.wikipedia.org/wiki/Ignorantia_juris_non_excusat",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a the real tragedy here is that someone is buying a fraud b the real tragedy here is that someone is buying a mustang",
+            "content": "tragedy theory catharsis aristotle as the great period of athenian drama drew to an end at the beginning of the 4th century bce athenian philosophers began to analyze its content and formulate its structure in the thought of plato c 427347 bce the history of the criticism of tragedy",
+            "url": "https://www.britannica.com/art/tragedy-literature/Theory-of-tragedy",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a you are mistaken when you say that he should have just let them get away for assaulting him b you are right when you say that he should have just let them get away for assaulting him",
+            "content": "sarcasm can be difficult to grasp for some people though it usually has a humorous undertone uncover some sarcasm examples that might have a bit of a bite",
+            "url": "https://www.yourdictionary.com/articles/examples-sarcasm-meaning-types",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a why would they have weapons drawn when theyve been called to the scene of a fire b why would they have weapons drawn when theyve been called to the scene of a shooting",
+            "content": "19 votes 41 comments ix27ve always heard the saying in a good context like utilizing the opponentx27s strategy will kick ass but recently while…",
+            "url": "https://www.reddit.com/r/AskReddit/comments/j2en8/is_fight_fire_with_fire_a_serious_or_sarcastic/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a anyone can be successful without having inherited all their money first b nobody can be successful without having inherited all their money first",
+            "content": "here are the 200 best sarcastic quotes from funny comments sayings and phrases dripping with snarky sarcasm",
+            "url": "https://parade.com/1079501/stephanieosmanski/sarcastic-quotes/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a ah yes late night vote on a bill written behind closed doors by one party how undemocratic b ah yes late night vote on a bill written behind closed doors by one party how democratic",
+            "content": "senate hearing 1071036 from the us government publishing office s hrg 1071036 election reform volume 1 hearings before the committee on rules and administration united states senate one hundred seventh congress",
+            "url": "https://www.govinfo.gov/content/pkg/CHRG-107shrg82483/html/CHRG-107shrg82483.htm",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a we all know that no government in the world would ever ban anything that kills innovation b we all know that no inventor in the world would ever ban anything that kills innovation",
+            "content": "an official website of the united states government the gov means it’s official federal government websites often end in gov or mil before sharing sensitive information make sure you’re on a federal government site",
+            "url": "https://kids.niehs.nih.gov/topics/environment-health/quotations/quotations-on-invention",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a ill have you know my friend was very displeased to hear you lumping her in with such trash b ill have you know my friend was very pleased to hear you lumping her in with such trash",
+            "content": "here are the 200 best sarcastic quotes from funny comments sayings and phrases dripping with snarky sarcasm",
+            "url": "https://parade.com/1079501/stephanieosmanski/sarcastic-quotes/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a well alabama did beat the 1st ranked team surely that should be enough to get them in b well alabama did beat the 17th ranked team surely that should be enough to get them in",
+            "content": "the alabama crimson tide football program represents the university of alabama variously alabama ua or bama in the sport of american football the team competes in the football bowl subdivision fbs of the national collegiate athletic association ncaa and the southeastern conference sec",
+            "url": "https://en.wikipedia.org/wiki/Alabama_Crimson_Tide_football",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a but only 10000 economists said it will help the economy b but only 2 economists said it will help the economy",
+            "content": "the goal of the economics in context initiative eci is to advance the theory teaching and application of economics to serve the essential goals of humanity goals that must include the fostering of equitable societies in ecologically sustainable surroundings by tim thornton much economic",
+            "url": "https://www.bu.edu/eci/files/2019/06/MAC_3e_SSG_Complete.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a its easy to get into politics all you have to do to is be outrageous b its easy to get into politics all you have to do to is be outrageous",
+            "content": "sarcasm can be difficult to grasp for some people though it usually has a humorous undertone uncover some sarcasm examples that might have a bit of a bite",
+            "url": "https://www.yourdictionary.com/articles/examples-sarcasm-meaning-types",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a because romania is not a real country obviously b because atlantis is not a real country obviously",
+            "content": "sarcasm is the caustic use of words often in a humorous way to mock someone or something sarcasm may employ ambivalence although it is not necessarily ironic most noticeable in spoken word sarcasm is mainly distinguished by the inflection with which it is spoken or with an undercurrent",
+            "url": "https://en.wikipedia.org/wiki/Sarcasm",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a youre not allowed to walk in the park you can only do it on your own property b youre not allowed to smoke in the park you can only do it on your own property",
+            "content": "the state of texas assessments of academic readiness staar® is a standardized academic achievement test designed to measure the extent to which a student has learned and is able to apply the defined knowledge and skills in the texas essential knowledge and skills teks at each tested grade",
+            "url": "https://tea.texas.gov/student-assessment/staar/released-test-questions/2023-staar-redesign-english-ii-practice-test.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a have you tried not being poor it is much easier b have you tried not being rude it is much easier",
+            "content": "here are the 200 best sarcastic quotes from funny comments sayings and phrases dripping with snarky sarcasm",
+            "url": "https://parade.com/1079501/stephanieosmanski/sarcastic-quotes/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a are u insane sayin u like this system here have my up vote for being rational b are u insane sayin u like this system here have my down vote for being rational",
+            "content": "216 votes 272 comments 51m subscribers in the askreddit community raskreddit is the place to ask and answer thoughtprovoking questions",
+            "url": "https://www.reddit.com/r/AskReddit/comments/3og1n3/what_are_your_favorite_sarcastic_phrases/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a whistleblowers are great heroes theyre in the public interest theyre accusing one of us back them up b whistleblowers are great heroes theyre in the public interest theyre accusing one of us lock them up",
+            "content": "by nick inge who knows what it takes to tell the truth the only people that really know are those that have done it and have spoken up those that have spoken up about the wrongdoings of ot…",
+            "url": "https://blog.richmond.edu/heroes/2021/05/03/the-heroism-of-whistleblowers/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a but america is a more free country because they have democracy to protect them from that sort of tyranny b but america is a more free country because they have guns to protect them from that sort of tyranny",
+            "content": "中华人民共和国外交部 版权所有 联系我们 地址：北京市朝阳区朝阳门南大街2号 邮编：100701 电话：861065961114 网站标识码：bm02000004 京icp备06038296号 京公网安备11040102700114 您即将离开外交部门户网站，跳转到其他网站，",
+            "url": "https://www.fmprc.gov.cn/eng/wjdt_665385/2649_665393/202303/t20230320_11044481.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "which statement is sarcastic options a the nb",
+            "content": "sarcasm can be difficult to grasp for some people though it usually has a humorous undertone uncover some sarcasm examples that might have a bit of a bite",
+            "url": "https://www.yourdictionary.com/articles/examples-sarcasm-meaning-types",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a yeah ive noticed hes been drinking every day recently what a great transformation b yeah ive noticed hes been exercising every day recently what a great transformation",
+            "content": "here are the 200 best sarcastic quotes from funny comments sayings and phrases dripping with snarky sarcasm",
+            "url": "https://parade.com/1079501/stephanieosmanski/sarcastic-quotes/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which statement is sarcastic options a no you misunderstand those who make more money are inherently better b no you misunderstand those who make more money arent inherently better",
+            "content": "22 votes 175 comments okay i know that sounds pretty inflammatory i don’t believe that all rich people are terrible but i do think that a…",
+            "url": "https://www.reddit.com/r/changemyview/comments/ppp1gq/cmv_rich_people_are_inherently_kind_of_villainous/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a im headed to college within a year expecting barely any income during that time removing tax breaks for students will be helpful right b im headed to college within a year expecting barely any income during that time adding tax breaks for students will be helpful right",
+            "content": "community colleges may use the dashboard to track the count of financial aid applications submitted for the academic year fafsa amp cadaa applications are open now apply early to maximize your financial aid opportunities for the 202526 academic year priority deadline for state aid april",
+            "url": "https://www.csac.ca.gov/sites/default/files/file-attachments/2024-25_english_paper_cadaa.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a of course it is not like something you do in a private setting could never be held against you in a professional matter b of course it is not like something you do in a private setting could ever be held against you in a professional matter",
+            "content": "sarcasm can be difficult to grasp for some people though it usually has a humorous undertone uncover some sarcasm examples that might have a bit of a bite",
+            "url": "https://www.yourdictionary.com/articles/examples-sarcasm-meaning-types",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a if i associate something bad witih it then my depression will never let me forget it weirdest memorization plan ever b if i associate something bad witih it then my depression will never let me forget it best memorization plan ever",
+            "content": "sarcasm can be difficult to grasp for some people though it usually has a humorous undertone uncover some sarcasm examples that might have a bit of a bite",
+            "url": "https://www.yourdictionary.com/articles/examples-sarcasm-meaning-types",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a hes over six feet so he must be tall b hes over six feet so he must be wonderful",
+            "content": "here are the 200 best sarcastic quotes from funny comments sayings and phrases dripping with snarky sarcasm",
+            "url": "https://parade.com/1079501/stephanieosmanski/sarcastic-quotes/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a just healthy meals wouldnt cut it for his active lifestyle b just healthy meals cut it for his active lifestyle",
+            "content": "i hope my friends in the us had a healthy and happy thanksgiving with that big meal and hopefully the leftovers too behind us it can benefit us to think about how we can plan our meals to make the rest of this year a bit easier amid the holiday chaos picture this no more frantic lastminut",
+            "url": "https://www.leagendersfitness.com/news/time-saving-meal-prep-ideas",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a yeah im sure youd be so much happier if we never did anything for anyone ever b yeah im sure youd be so much lonelier if we never did anything for anyone ever",
+            "content": "here are the 200 best sarcastic quotes from funny comments sayings and phrases dripping with snarky sarcasm",
+            "url": "https://parade.com/1079501/stephanieosmanski/sarcastic-quotes/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a what could possibly be attractive about supporting historys greatest dictator b what could possibly be wrong about supporting historys greatest dictator",
+            "content": "sarcasm is the caustic use of words often in a humorous way to mock someone or something sarcasm may employ ambivalence although it is not necessarily ironic most noticeable in spoken word sarcasm is mainly distinguished by the inflection with which it is spoken or with an undercurrent",
+            "url": "https://en.wikipedia.org/wiki/Sarcasm",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which statement is sarcastic options a his reaction is understandablehe didnt get a reply in 2 years b his reaction is understandablehe didnt get a reply in 2 minutes",
+            "content": "sarcasm can be difficult to grasp for some people though it usually has a humorous undertone uncover some sarcasm examples that might have a bit of a bite",
+            "url": "https://www.yourdictionary.com/articles/examples-sarcasm-meaning-types",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a why use netflix when you can just pay less to comcast for on demand b why use netflix when you can just pay more to comcast for on demand",
+            "content": "netflix handdelivered pdf to the us government this week arguing that comcast shouldn’t be allowed to acquire time warner cable “the proposed merger puts at risk the endtoend principle that has characterized the internet and been a key driver in the creation of the most",
+            "url": "https://qz.com/256586/the-inside-story-of-how-netflix-came-to-pay-comcast-for-internet-traffic",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a one failed test 6 years ago is simply insufficient proof of her cheating in last nights fight b one failed test 6 years ago is simply devastating proof of her cheating in last nights fight",
+            "content": "wydawnictwo macmillan polska macmillan education podręczniki elt dla polskich szkół najlepsze szkolenia metodyczne i materiały dydaktyczne dla nauczycieli",
+            "url": "https://www.macmillan.pl/images/materials/1596471007_Password_Reset_B2_WB_TE_U1_2.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a working at a restaurant has made me an amazing chef b working at a mcdonalds has made me an amazing chef",
+            "content": "answer 1 of 3 you are conflating two different concepts here concept 1 chef vs cook a person is a chef when they are fully qualified as a chef this may vary from country to country but it generally involves a 34 year apprenticeship which includes both trade school and on the job traini",
+            "url": "https://www.quora.com/At-what-point-between-a-McDonald-s-and-a-Gordon-Ramsay-restaurant-does-the-person-cooking-become-a-chef-and-not-an-employee",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a when youre at halfcourt and have a wide open pass the obvious choice is to pass b when youre at halfcourt and have a wide open pass the obvious choice is to shoot",
+            "content": "every night random fans are picked out of the stands to participate in contests that test their skill and promise a prize if they’re successful",
+            "url": "https://apnews.com/article/fan-contests-71c45d2d340b1abba531e10b566363a4",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a calling a whole electorate morons because they dont share the same political beliefs as you is a terrible way to win them over b calling a whole electorate morons because they dont share the same political beliefs as you is a great way to win them over",
+            "content": "here are the 200 best sarcastic quotes from funny comments sayings and phrases dripping with snarky sarcasm",
+            "url": "https://parade.com/1079501/stephanieosmanski/sarcastic-quotes/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a its not addiction if its legal right b its not suspicious if its legal right",
+            "content": "sarcasm can be difficult to grasp for some people though it usually has a humorous undertone uncover some sarcasm examples that might have a bit of a bite",
+            "url": "https://www.yourdictionary.com/articles/examples-sarcasm-meaning-types",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a remember his batman score isnt the only batman theme b remember his batman score is the only batman theme",
+            "content": "quotbatman themequot the title song of the 1966 batman tv series was composed by neal hefti this song is built around a guitar hook reminiscent of spy film scores and surf music it has a twelve bar blues progression using only three chords until the coda the music was performed by the quotwrecking",
+            "url": "https://en.wikipedia.org/wiki/Batman_Theme",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a oh its not happened before i guess it must not be in the lawbooks then b oh its not happened before i guess it must not be against the lawbooks then",
+            "content": "have you ever been on the receiving end of sarcasm here’s what it is how to respond to sarcasm and everything else you need to know",
+            "url": "https://www.scienceofpeople.com/sarcasm-why-it-hurts-us/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a bought the stock at 1050 and sold at 100 such profits being made b bought the stock at 1050 and sold at 100 such profits being made",
+            "content": "an official website of the united states government here’s how you know",
+            "url": "https://www.sec.gov/pdf/quizansr.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a ah yes selfcenteredness why should anyone give a shit about someone elses feelings if youre getting what you want out of a situation b ah yes generosity why should anyone give a shit about someone elses feelings if youre getting what you want out of a situation",
+            "content": "here are the 200 best sarcastic quotes from funny comments sayings and phrases dripping with snarky sarcasm",
+            "url": "https://parade.com/1079501/stephanieosmanski/sarcastic-quotes/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a generalizing half the population and acting like women cant think for themselves will totally win you points with the ladies b generalizing half the population and acting like women cant think for themselves will totally lose you points with the ladies",
+            "content": "answer 1 of 15 she means she is messed up irritated having fun or she is bored of you a sarcastic girl is not only dangerous but she has things going on in her intelligent mind she not only takes everything in fun being serious from inside and handles it calmly rather being normally “h",
+            "url": "https://www.quora.com/What-does-it-mean-when-a-girl-uses-sarcasm",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "which statement is sarcastic options a what a poor guy years of work and he only got a 50000 scholarship b what a poor guy years of work and he only got a 50 scholarship",
+            "content": "check out these scholarship essay examples and learn how to write a great personal statement for scholarships or creative writing scholarships",
+            "url": "https://www.collegeessayguy.com/blog/scholarship-essay-examples",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a wow you only applied to 200 internships this past week b wow you only applied to 2 internships this past week",
+            "content": "what to do when you have no investment banking summer internship offers and how to pick a quotplan bquot that positions you to break in",
+            "url": "https://mergersandinquisitions.com/no-investment-banking-summer-internship-offers/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a yeah obviously that startup has terrible support because they are just tiny indie company b yeah obviously that megaconglomerate has terrible support because they are just tiny indie company",
+            "content": "many startups fail despite identifying a real problem and building a product that solves that problem this explains why so you can avoid their fate",
+            "url": "https://longform.asmartbear.com/problem/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a im just 800 points from 1k this is easy b im just 8 points from 1k this is easy",
+            "content": "sarcasm can be difficult to grasp for some people though it usually has a humorous undertone uncover some sarcasm examples that might have a bit of a bite",
+            "url": "https://www.yourdictionary.com/articles/examples-sarcasm-meaning-types",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a armed revolutionaries have not been making a lot of change for middle class americans lately b armed revolutionaries have been making a lot of change for middle class americans lately",
+            "content": "the state a product of the irreconcilability of class antagonisms special bodies of armed men prisons etc the state an instrument for the exploitation of the oppressed class the “withering away” of the state and violent revolution what is now happening to marx’s theory has in",
+            "url": "https://www.marxists.org/archive/lenin/works/1917/staterev/ch01.htm",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a a dozen or so people from a personal anecdote is really a good sample size to represent all 320 million people in america b a dozen or so people from a personal anecdote is really a terrible sample size to represent all 320 million people in america",
+            "content": "how do humans separate sarcasm from sincerity research on the subject is leading to insights about how the mind works really",
+            "url": "https://www.smithsonianmag.com/science-nature/the-science-of-sarcasm-yeah-right-25038/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a yeah the presence of those inner city criminals and welfare leeches have truly caused me to suffer b yeah the presence of those inner city criminals and welfare leeches have truly caused me to thrive",
+            "content": "request not accepted your submitted request contained a potential security risk",
+            "url": "https://www.senate.gov/artandhistory/history/resources/pdf/CrimeAgainstKSSpeech.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a yeah history is rarely black and white b yeah history is usually black and white",
+            "content": "agnes etherington art centre is a public universityaffiliated art museum located at queen’s university in kingston ontario canada",
+            "url": "https://agnes.queensu.ca/exhibition/history-is-rarely-black-or-white/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a isnt it super sexist that on the internet everyone is male until proven otherwise b isnt it super fun that on the internet everyone is male until proven otherwise",
+            "content": "so recently thanks to the use of a certain gendered pronoun i discovered that central avenue is actually female",
+            "url": "https://itjustbugsme.com/forums/discussion/12388/how-you-re-always-assumed-male-on-the-internet-until-proven-otherwise",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a we all know diamonds are worthless b we all know diamonds are valuable",
+            "content": "so you scour the net to find out everything about that big shiny diamond purchase and you chance upon some pages declaring diamonds to be worthless it is confusing to say the least yet their arguments sound compelling this guide is here so we can settle this debate over the values of diamonds",
+            "url": "https://www.rarecarat.com/blog/diamond-ring-tips/are-diamonds-worthless-rarecarat-com",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a dont forget there are people in antarctica b dont forget there are people in suffering",
+            "content": "after a popular teacher apologizes room quoti donx27t know if we can forgive youquot a french company has developed an analytics tool that claims to have up to 80 accuracy in identifying sarcastic comments posted online in june 2014 the united states secret service requested bids for software that would identify sarcasm in tweets the buddhist monk ṭhānissaro bhikkhu has identified sarcasm as contrary to right speech an aspect of the noble eightfold path leading to the end of suffering",
+            "url": "https://en.wikipedia.org/wiki/Sarcasm",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a boy i sure love it when bigots show up in a thread and start getting nosy b boy i sure love it when bigots show up in a thread and start getting roasted",
+            "content": "intelligibility fluency communication sarcasm also known as verbal irony occurs when a speaker says one thing but actually means the opposite it is signaled by a unique intonation pattern in english it’s good to be able to recognize it and in some cases produce it",
+            "url": "https://tfcs.baruch.cuny.edu/sarcasm/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a because women are totally incapable of doing everyday tasks like pumping gas without a partner taking over and doing it for her b because women are totally capable of doing everyday tasks like pumping gas without a partner taking over and doing it for her",
+            "content": "sarcasm when wellbalanced is a highly desirable trait because it reveals pretty awesome aspects of someone’s personality sarcastic women in particular have a valuable edge when it comes to the search for love and they’re also really really good at dating",
+            "url": "https://www.bolde.com/sarcastic-women-so-good-dating/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a showing up for work everyday helps makes you a great lawmaker b showing up for work everyday alone makes you a great lawmaker",
+            "content": "answer 1 of 224 it was my granny who serves the best sarcasm every time and here are few don’t read further if you do and i’m sure you ll observe a 2 minutes silence for me at the end scene 1 while looking at a mirror in a low pitch voice quotwhy ix27m still single what is wrong with",
+            "url": "https://www.quora.com/What-are-some-of-the-best-examples-of-sarcasm",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a nice try but everyone knows there are no women active on the internet b nice try but everyone knows there are many women active on the internet",
+            "content": "here are the 200 best sarcastic quotes from funny comments sayings and phrases dripping with snarky sarcasm",
+            "url": "https://parade.com/1079501/stephanieosmanski/sarcastic-quotes/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a i personally dont believe the 7 time felon that just got done murdering a random woman wouldnt lie b i personally dont believe the 7 time felon that just got done murdering a random woman would lie",
+            "content": "here are the 200 best sarcastic quotes from funny comments sayings and phrases dripping with snarky sarcasm",
+            "url": "https://parade.com/1079501/stephanieosmanski/sarcastic-quotes/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a hes such terrible relationship material when hes drunk b hes such great relationship material when hes drunk",
+            "content": "explore the role of sarcasm in relationships discover examples understand its impact and learn effective ways to navigate it read more now",
+            "url": "https://www.marriage.com/advice/relationship/sarcasm-in-relationship/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a just like hitler a true warrior b just like hitler a true demagogue",
+            "content": "a living memorial to the holocaust the united states holocaust memorial museum inspires citizens and leaders worldwide to confront hatred prevent genocide and promote human dignity",
+            "url": "https://www.ushmm.org/m/pdfs/USHMM-Path-to-Nazi-Genocide-WS-Answer_Key.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a everybody is moving out thats why the prices keep going up b everybody is moving out thats why the prices keep going down",
+            "content": "need a dose of irony discover our best sarcastic quotes with a blend of humor and wit these sarcasm quotes wonx27t disappoint",
+            "url": "https://www.rd.com/article/sarcasm-quotes/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a im spoiled by my instant access to entertainment and information b im oppressed by my instant access to entertainment and information",
+            "content": "here are the 200 best sarcastic quotes from funny comments sayings and phrases dripping with snarky sarcasm",
+            "url": "https://parade.com/1079501/stephanieosmanski/sarcastic-quotes/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a he doesnt want high risk investment he should put it all on bitcoin b he doesnt want low risk investment he should put it all on bitcoin",
+            "content": "eyepopping returns make bitcoin seem like a good investment particularly based on the cryptox27s performance in 2024 but make sure you understand the risks before investing",
+            "url": "https://www.nerdwallet.com/article/investing/is-bitcoin-a-good-investment",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a impossible there are no girls on the internet b impossible there are many girls on the internet",
+            "content": "common assumption on the early years of the internet then a typical joke and quickly becoming a discredited trope back in the dim recesses of history the internet was predominately populated by computer savvy people which were assumed to be …",
+            "url": "https://tvtropes.org/pmwiki/pmwiki.php/Main/ThereAreNoGirlsOnTheInternet",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a hey genocide is clearly the most rational decision b hey compromise is clearly the most rational decision",
+            "content": "genocide justification is the claim that a genocide is morally excusabledefensible necessary andor sanctioned by law genocide justification differs from genocide denial which is an attempt to reject the occurrence of genocide perpetrators often claim that genocide victims presented a",
+            "url": "https://en.wikipedia.org/wiki/Genocide_justification",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a so if there are more dollars more people can get rich right b so if there are more dollars more people can get loans right",
+            "content": "useful links and information related to university foundations at eastern illinois university",
+            "url": "https://eiu.edu/eiu1111/Financial Capability Study_ Quiz Results.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a having massive watermarks over videos really enhances the experience b having massive watermarks over videos really worsens the experience",
+            "content": "learn everything you need to know about video watermarking with this quick easy and informative guide",
+            "url": "https://bitmovin.com/blog/video-watermarking/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a you mean youre only into bullies with narcissistic personality disorder b you mean youre not into bullies with narcissistic personality disorder",
+            "content": "narcissism involves selfcentered arrogant thinking and behavior and a lack of empathy these tips can help you recognize and cope with a narcissist",
+            "url": "https://www.helpguide.org/mental-health/personality-disorders/narcissistic-personality-disorder",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a science causes vaccines b evolution causes vaccines",
+            "content": "it’s important to keep in mind the process of science for more on how evolutionary theory changes see our misconception on this topic above misconception evolution leads to immoral behavior correction evolution does not make ethical statements about right and",
+            "url": "https://evolution.berkeley.edu/teach-evolution/misconceptions-about-evolution/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a you forget he was just a freshfaced 40 year old b you forget he was just a freshfaced 18 year old",
+            "content": "sarcasm can be difficult to grasp for some people though it usually has a humorous undertone uncover some sarcasm examples that might have a bit of a bite",
+            "url": "https://www.yourdictionary.com/articles/examples-sarcasm-meaning-types",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is sarcastic options a hes just kindhearted okay well nothing wrong with him running the country in that case b hes just demented okay well nothing wrong with him running the country in that case",
+            "content": "learn the correct usage of quothe was just sarcasticquot and quothex27s being sarcasticquot in english discover differences examples alternatives and tips for choosing the right phrase",
+            "url": "https://textranch.com/c/he-was-just-sarcastic-or-hes-being-sarcastic/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which statement is sarcastic options a god to think of how good it could have been having a person who prepared for things ahead of time in office b god to think of how bad it could have been having a person who prepared for things ahead of time in office",
+            "content": "sarcasm can be difficult to grasp for some people though it usually has a humorous undertone uncover some sarcasm examples that might have a bit of a bite",
+            "url": "https://www.yourdictionary.com/articles/examples-sarcasm-meaning-types",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a its cultural celebration at its finest b its cultural appropriation at its finest",
+            "content": "people from cultures who have this consider it disrespectful and offensive when someone who has not earned the right to wear one dons an authentic or imitation headdress whether as part of pretending to be native american or as a costume or fashion statement copying iconography from another culturex27s history such as polynesian tribal tattoos chinese characters or celtic art and wearing them without regard to their original cultural significance may also be considered appropriation",
+            "url": "https://en.wikipedia.org/wiki/Cultural_appropriation",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a a civil war with at least 500000 deaths is essential to a healthy democracy b a civil war with at least 500000 deaths is detrimental to a healthy democracy",
+            "content": "this site is brought to you by the center for civic education the centerx27s mission is to promote an enlightened and responsible citizenry committed to democratic principles and actively engaged in the practice of democracy the center has reached more than 30 million students and their teachers",
+            "url": "https://www.civiced.org/quotations-about-democracy",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a yeah hes clearly apathetic to earning minutes based on his lackluster play and the fact that hes grabbing hot dogs at half time b yeah hes clearly dedicated to earning minutes based on his lackluster play and the fact that hes grabbing hot dogs at half time",
+            "content": "sarcasm can be difficult to grasp for some people though it usually has a humorous undertone uncover some sarcasm examples that might have a bit of a bite",
+            "url": "https://www.yourdictionary.com/articles/examples-sarcasm-meaning-types",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a yeah the christian church had such a lock in buddhist china b yeah the christian church had such a struggle in buddhist china",
+            "content": "christianity has been present in china since the early medieval period and became a significant presence in the country during the early modern era the church of the east appeared in china in the 7th century during the tang dynasty catholicism was one of the religions patronized by the",
+            "url": "https://en.wikipedia.org/wiki/Christianity_in_China",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a think of the poor man what will he do without his job b think of the poor man what will he do without his yacht",
+            "content": "while keeping the gerund i have read on many websites that quotgood luck finding a new jobquot is sarcastic and not a well intentioned wish but how do i make it well intentioned while keep the",
+            "url": "https://ell.stackexchange.com/questions/353712/if-good-luck-finding-a-new-job-is-sarcastic-how-do-change-the-sentence-to-mak",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a since corporate restriction equals free speech this is actually a big win for democracy b since corporate money equals free speech this is actually a big win for democracy",
+            "content": "the colorado law scholarly commons is a service of the william a wise law library of the university of colorado law school in boulder the repository provides free access to scholarly resources created by colorado law faculty and research centers top 10 downloadsall time recent additions20",
+            "url": "https://scholar.law.colorado.edu/cgi/viewcontent.cgi?article=2423&context=faculty-articles",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a that violent oppressive dictator didnt think that people would get mad at him how pragmatic b that violent oppressive dictator didnt think that people would get mad at him how naive",
+            "content": "sarcasm can be difficult to grasp for some people though it usually has a humorous undertone uncover some sarcasm examples that might have a bit of a bite",
+            "url": "https://www.yourdictionary.com/articles/examples-sarcasm-meaning-types",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a thats how the internet works its a series of networks b thats how the internet works its a series of tubes",
+            "content": "quota series of tubesquot is a phrase used originally as an analogy by thenunited states senator ted stevens ralaska to describe the internet in the context of opposing net neutrality on june 28 2006 he used this metaphor to criticize a proposed amendment to a committee bill",
+            "url": "https://en.wikipedia.org/wiki/Series_of_tubes",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a an nfl head coach with a losing record that hasnt been on a field on ten years this is gonna go great b an nfl head coach with a losing record that hasnt been on a field on ten years this is gonna go terribly",
+            "content": "from belichick to reid there are many iconic coaches in nfl history who has the best career record check out this list for more information",
+            "url": "https://www.espn.com/nfl/story/_/id/39286200/best-nfl-coaches-all-ranked-wins",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a it only received the lowest gross sales for any recent action film yeah no one is rewatching b it only received the highest gross sales for any recent action film yeah no one is rewatching",
+            "content": "here are the 200 best sarcastic quotes from funny comments sayings and phrases dripping with snarky sarcasm",
+            "url": "https://parade.com/1079501/stephanieosmanski/sarcastic-quotes/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a because no world needs more kids with trust issues and psychological problems than we already have b because this world needs more kids with trust issues and psychological problems than we already have",
+            "content": "sarcastic comments boost creativity a study finds",
+            "url": "https://www.scientificamerican.com/article/the-surprising-benefits-of-sarcasm/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a we all know diamonds are valuable b we all know diamonds are worthless",
+            "content": "so you scour the net to find out everything about that big shiny diamond purchase and you chance upon some pages declaring diamonds to be worthless it is confusing to say the least yet their arguments sound compelling this guide is here so we can settle this debate over the values of diamonds",
+            "url": "https://www.rarecarat.com/blog/diamond-ring-tips/are-diamonds-worthless-rarecarat-com",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a oh no the cleats with the new spikes didnt solve the problem b oh no the cleats with the new spikes didnt solve every problem",
+            "content": "sarcasm can be difficult to grasp for some people though it usually has a humorous undertone uncover some sarcasm examples that might have a bit of a bite",
+            "url": "https://www.yourdictionary.com/articles/examples-sarcasm-meaning-types",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is sarcastic options a hes a generous person trying to promote a charity stream that has raised millions to help kids in need b hes a terrible person trying to promote a charity stream that has raised millions to help kids in need",
+            "content": "explore the greater good science center which showcases the science of a meaningful life",
+            "url": "https://ggsc.berkeley.edu/images/uploads/GGSC-JTF_White_Paper-Generosity-FINAL.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is sarcastic options a hey just be happy then you wont be depressed anymore b hey just be happy that you wont be depressed anymore",
+            "content": "it can be difficult to know what to say to someone who is depressed but anything you say with an open loving heart is unlikely to be the wrong thing",
+            "url": "https://www.heysigmund.com/what-to-say-to-someone-who-is-depressed/",
+            "engine": "braveAPI"
+        }
+    ]
+}

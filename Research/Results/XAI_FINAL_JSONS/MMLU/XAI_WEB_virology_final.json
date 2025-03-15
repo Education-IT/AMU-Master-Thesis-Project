@@ -1,0 +1,1964 @@
+{
+    "task": "mmlu_virology",
+    "dataset": "web_access_virology_final",
+    "questions": 166,
+    "noWebContextCount": 3,
+    "contaminated_queries": 83,
+    "contaminated_urls": 145,
+    "valid_urls": 163,
+    "avg_contaminated_before_valid": 1.8895705521472392,
+    "contaminated_data_ratio": 0.4707792207792208,
+    "most_contaminated_urls": {
+        "global.oup.com": 62,
+        "people.musc.edu": 20,
+        "medizzy.com": 5
+    },
+    "noWebContext": [
+        "Officials at a large community hospital report an increased incidence of acute lymphocytic leukemia (ALL) among children aged 5 – 12. They point out that some households in the community are exposed to chemical waste from a nearby factory. They believe that chemical waste causes leukemia. If a study is designed to evaluate the hospital officials’ claim, which of the following subjects are most likely to comprise the control group?",
+        "A new drug with in vitro activity against HIV is tested on a population of patients with Western-blot confirmed HIV infections. Out of the 200 individuals in the patient population, 100 are chosen by lottery to receive the drug. The drug, which is tasteless, is administered in a cup of orange juice; the other patients receive pure orange juice. Neither the nurses, doctors, nor the patients know which patients receive the drug. At the end of the study period, the number of CD4+ T cells is determined for all of the subjects. This is an example of a",
+        "In a medical class of 147 students, the distribution of scores on a biochemistry final examination has a mean equal to 67, a median equal to 76, a mode equal to 80, a standard deviation equal to 5.5, and a variance equal to 30.25. Three students were unable to take the test on the scheduled date and were given a different form of the exam 1 week later. Which parameter is most likely to be the least biased estimator of central tendency for this distribution of biochemistry test scores?"
+    ],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "it is unlikely that a cure of hiv is possible with current drugs because",
+            "content": "question 4 it is unlikely that a cure of hiv is possible with current drugs because a even in combination current drugs do not completely block viral",
+            "url": "https://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch31/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in a study a group of people are exposed to an environmental toxin but are not treated observed over time on a standard set of measures to ascertain the potential effects of the toxin this type of study design is called",
+            "content": "in a study a group of people are exposed to an environmental toxin but are not treated instead they are observed over time on a standard set of measures",
+            "url": "https://people.musc.edu/~hille/Presentations/EBM_Review_units1_4.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "in a study a group of people are exposed to an environmental toxin but are not treated observed over time on a standard set of measures to ascertain the potential effects of the toxin this type of study design is called",
+            "content": "standard set of measures to ascertain the potential effects of the toxin this type of study design is called a clinical trial b doubleblind c",
+            "url": "http://people.musc.edu/~hille/Presentations/presentations_files/Biostatistics%20and%20Epidemiology%20Step%201%20Sample%20Questions.docx",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "in a study a group of people are exposed to an environmental toxin but are not treated observed over time on a standard set of measures to ascertain the potential effects of the toxin this type of study design is called",
+            "content": "observed over time on a standard set of measures to ascertain the potential effects of the toxin this type of study design is called b 2",
+            "url": "https://fiveislands.uwi.edu/sites/default/files/files/docs/Past%20Papers/SoHBS/Level%201/NURS1113%20202120.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the successful anticancer hpv vaccine consists of",
+            "content": "question 4 the successful anticancer hpv vaccine consists of a live virus attenuated by specific mutagenesis b whole virus chemically inactivated vaccine",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch22/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "officials at a large community hospital report an increased incidence of acute lymphocytic leukemia all among children aged 5 12 they point out that some households in the community are exposed to chemical waste from a nearby factory they believe that chemical waste causes leukemia if a study is designed to evaluate the hospital officials’ claim which of the following subjects are most likely to comprise the control group",
+            "content": "officials at a large community hospital report an increased incidence of acute lymphocytic leukemia all among children aged 5 12 they point out that",
+            "url": "https://people.musc.edu/~hille/Presentations/EBM_Review_units1_4.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "officials at a large community hospital report an increased incidence of acute lymphocytic leukemia all among children aged 5 12 they point out that some households in the community are exposed to chemical waste from a nearby factory they believe that chemical waste causes leukemia if a study is designed to evaluate the hospital officials’ claim which of the following subjects are most likely to comprise the control group",
+            "content": "officials at a large community hospital report an increased incidence of acute lymphocytic leukemia all among children aged 512 they point",
+            "url": "https://www.reddit.com/r/Step3/comments/15l1qat/help/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "officials at a large community hospital report an increased incidence of acute lymphocytic leukemia all among children aged 5 12 they point out that some households in the community are exposed to chemical waste from a nearby factory they believe that chemical waste causes leukemia if a study is designed to evaluate the hospital officials’ claim which of the following subjects are most likely to comprise the control group",
+            "content": "7 officials at a large community hospital report an increased incidence of acute lymphocytic leukemia all among children aged 5 12 they point out that",
+            "url": "http://people.musc.edu/~hille/Presentations/presentations_files/Biostatistics%20and%20Epidemiology%20Step%201%20Sample%20Questions.docx",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "officials at a large community hospital report an increased incidence of acute lymphocytic leukemia all among children aged 5 12 they point out that some households in the community are exposed to chemical waste from a nearby factory they believe that chemical waste causes leukemia if a study is designed to evaluate the hospital officials’ claim which of the following subjects are most likely to comprise the control group",
+            "content": "officials at a large community hospital report an increased incidence of acute lymphocytic leukemia all among children aged 5 12",
+            "url": "https://www.facebook.com/aamuhd6/posts/4128454057219129/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the rotavirus is an important cause of which of the following",
+            "content": "the rotavirus is an important cause of which of the following a respiratory infection in adults b gastroenteritis in children c diarrhoea and vomiting",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch20/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the replication of hepatitis b includes which of the following stages",
+            "content": "the replication of hepatitis b includes which of the following stages a movement of intact virus to the cellular cytoplasm for replication b conversion",
+            "url": "https://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch28/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "disease can most often be prevented by which of the following",
+            "content": "renal function question 5 disease can most often be prevented by which of the following a vaccines b antivirals c hygiene d mosquito nets reset a",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch16/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "common cold viruses are ubiquitous and invade by which route",
+            "content": "common cold viruses are ubiquitous and invade by which route a faecal oral route b respiratory and surface route c cuts in the skin d sexual",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch07/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the surveillance testing strategy associated with the least selection bias is",
+            "content": "the surveillance testing strategy associated with the least selection bias is a compulsory b unlinked anonymous c voluntary anonymous d",
+            "url": "https://www.ph.ucla.edu/epi/faculty/detels/epi227/final_key_2011.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "lassa and ebola are emergent viruses in w africa what is their origin",
+            "content": "question 1 lassa and ebola are emergent viruses in w africa what is their origin a humans b primates c fruit bats",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch18/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "lassa and ebola are emergent viruses in w africa what is their origin",
+            "content": "what is their origin answer fruit bats notes lassa and ebola are emergent viruses in w africa originated by fruit bats ebola hemorrhagic",
+            "url": "https://www.gktoday.in/question/lassa-and-ebola-are-emergent-viruses-in-w-africa-w",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "assembly is a vital late replication stage for a virus and is often accomplished by which of the following",
+            "content": "assembly is a vital late replication stage for a virus and is often accomplished by which of the following a use of cellular scaffolding in the nucleus",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch03/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "assembly is a vital late replication stage for a virus and is often accomplished by which of the following",
+            "content": "assembly is a vital late replication stage for a virus and is often accomplished by which of the following a use of cellular scaffolding in the nucleus",
+            "url": "https://csjmu.ac.in/wp-content/uploads/booklets/booklets-mar-2022/BIOTECHNOLOGY/622_BCH_1004_D.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "assembly is a vital late replication stage for a virus and is often accomplished by which of the following",
+            "content": "assembly is a vital late replication stage for a virus and is often accomplished by which of the following a quasi species virus such as influenza and hiv",
+            "url": "https://medizzy.com/learning/mcq/question/33901651",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a new drug with in vitro activity against hiv is tested on a population of patients with westernblot confirmed hiv infections out of the 200 individuals in the patient population 100 are chosen by lottery to receive the drug the drug which is tasteless is administered in a cup of orange juice the other patients receive pure orange juice neither the nurses doctors nor the patients know which patients receive the drug at the end of the study period the number of cd4 t cells is determined for all of the subjects this is an example of a",
+            "content": "a new drug with in vitro activity against hiv is tested on a population of patients with westernblot confirmed hiv infections out of the 200 individuals",
+            "url": "https://people.musc.edu/~hille/Presentations/EBM_Review_units1_4.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a new drug with in vitro activity against hiv is tested on a population of patients with westernblot confirmed hiv infections out of the 200 individuals in the patient population 100 are chosen by lottery to receive the drug the drug which is tasteless is administered in a cup of orange juice the other patients receive pure orange juice neither the nurses doctors nor the patients know which patients receive the drug at the end of the study period the number of cd4 t cells is determined for all of the subjects this is an example of a",
+            "content": "a new drug with in vitro activity against hiv is tested on a population of patients with westernblot confirmed hiv infections out of the 200 individuals",
+            "url": "http://people.musc.edu/~hille/Presentations/presentations_files/Biostatistics%20and%20Epidemiology%20Step%201%20Sample%20Questions.docx",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "a new drug with in vitro activity against hiv is tested on a population of patients with westernblot confirmed hiv infections out of the 200 individuals in the patient population 100 are chosen by lottery to receive the drug the drug which is tasteless is administered in a cup of orange juice the other patients receive pure orange juice neither the nurses doctors nor the patients know which patients receive the drug at the end of the study period the number of cd4 t cells is determined for all of the subjects this is an example of a",
+            "content": "a new drug with in vitro activity against hiv is tested on a population of patients with westernblot confirmed hiv infections out of the",
+            "url": "https://fiveislands.uwi.edu/sites/default/files/files/docs/Past%20Papers/SoHBS/Level%201/NURS1113%20202120.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "a new drug with in vitro activity against hiv is tested on a population of patients with westernblot confirmed hiv infections out of the 200 individuals in the patient population 100 are chosen by lottery to receive the drug the drug which is tasteless is administered in a cup of orange juice the other patients receive pure orange juice neither the nurses doctors nor the patients know which patients receive the drug at the end of the study period the number of cd4 t cells is determined for all of the subjects this is an example of a",
+            "content": "a new drug with in vitro activity against hiv is tested on a population of patients with westernblot confirmed hiv infections out of the",
+            "url": "https://www.docsity.com/en/biostatistics-and-epidemiology-step-1-sample-questions-set-1/8796000/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what happens during the incubation period",
+            "content": "during the incubation period germs take up residence in your body and start making copies of themselves reproducing soon your immune system",
+            "url": "https://my.clevelandclinic.org/health/articles/incubation-period",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the usual direction of knowledge in a cell",
+            "content": "question 1 what is the usual direction of knowledge in a cell from protein to dna from dna to dna question 2 which viruses appear to be hypermutable",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch03/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "in a medical class of 147 students the distribution of scores on a biochemistry final examination has a mean equal to 67 a median equal to 76 a mode equal to 80 a standard deviation equal to 55 and a variance equal to 3025 three students were unable to take the test on the scheduled date and were given a different form of the exam 1 week later which parameter is most likely to be the least biased estimator of central tendency for this distribution of biochemistry test scores",
+            "content": "3 in a medical class of 147 students the distribution of scores on a biochemistry final examination has a mean equal to 67 a median equal to 76 a mode equal",
+            "url": "https://people.musc.edu/~hille/Presentations/EBM_Review_units1_4.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "in a medical class of 147 students the distribution of scores on a biochemistry final examination has a mean equal to 67 a median equal to 76 a mode equal to 80 a standard deviation equal to 55 and a variance equal to 3025 three students were unable to take the test on the scheduled date and were given a different form of the exam 1 week later which parameter is most likely to be the least biased estimator of central tendency for this distribution of biochemistry test scores",
+            "content": "the distribution of scores on a biochemistry final examination has a mean equal to 67a median equal to 76 a mode equal to 80 a standard deviation equal to 5",
+            "url": "https://www.usmle-forums.com/threads/biostat-question-mean-median-and-mode.39734/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "in a medical class of 147 students the distribution of scores on a biochemistry final examination has a mean equal to 67 a median equal to 76 a mode equal to 80 a standard deviation equal to 55 and a variance equal to 3025 three students were unable to take the test on the scheduled date and were given a different form of the exam 1 week later which parameter is most likely to be the least biased estimator of central tendency for this distribution of biochemistry test scores",
+            "content": "3 in a medical class of 147 students the distribution of scores on a biochemistry final examination has a mean equal to 67 a median equal to 76 a mode equal",
+            "url": "http://people.musc.edu/~hille/Presentations/presentations_files/Biostatistics%20and%20Epidemiology%20Step%201%20Sample%20Questions.docx",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "in a medical class of 147 students the distribution of scores on a biochemistry final examination has a mean equal to 67 a median equal to 76 a mode equal to 80 a standard deviation equal to 55 and a variance equal to 3025 three students were unable to take the test on the scheduled date and were given a different form of the exam 1 week later which parameter is most likely to be the least biased estimator of central tendency for this distribution of biochemistry test scores",
+            "content": "in a medical class of 147 students the distribution of scores on a biochemistry final examination has a mean equal to 67 a median equal to 76",
+            "url": "https://www.docsity.com/en/biostatistics-and-epidemiology-step-1-sample-questions-set-1/8796000/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how are antibody producing cells stimulated",
+            "content": "question 4 how are antibody producing cells stimulated a interacting with a virus short peptide",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch05/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if the human norovirus cannot be cultured in cell cultures how can it best be studied",
+            "content": "if the human norovirus cannot be cultured in cell cultures how can it best be studied a animal models b volunteer studies c in cells using replicon",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch09/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what disease do herpes viruses not cause",
+            "content": "what disease do herpes viruses not cause a infantile paralysis b encephalitis",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch23/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "antivirals can be used prophylactically or therapeutically in persons in which of the following circumstances",
+            "content": "antivirals can be used prophylactically or therapeutically in persons in which of the following circumstances a if administered within 4 days of clinical",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch14/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "viruses have encouraged us to change our world as we have now",
+            "content": "small round viruses of diarrhoea question 3 viruses have encouraged us to change our world as we have now a eradicated smallpox b eradicated polio c",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch01/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "identify the most commonly used diagnostic technique in the virus laboratory",
+            "content": "question 1 identify the most commonly used diagnostic technique in the virus laboratory a virus isolation in cell culture b deep sequencing ngs",
+            "url": "https://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch29/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as regards the range of diseases caused by viruses",
+            "content": "question 3 as regards the range of diseases caused by viruses a each member of the family causes the same disease b members of many families can cause",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch02/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the single most important key to the success of the multicenter aids cohort macs is",
+            "content": "the single most important key to the success of the multicenter aids cohort macs is a the brilliance of the principal investigator b",
+            "url": "https://www.ph.ucla.edu/epi/faculty/detels/epi227/final_key_2011.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "poliovirus can most easily become more virulent by which of the following processes",
+            "content": "question 1 poliovirus can most easily become more virulent by which of the following processes a mutation of the rna genome at only a few positions",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch04/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "poliovirus can most easily become more virulent by which of the following processes",
+            "content": "poliovirus can most easily become more virulent by which of the following processes multiple nucleotide deletions and substitutions altering its protein",
+            "url": "https://medizzy.com/learning/mcq/question/33901671",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "interferons are very special defence mechanisms which operate by",
+            "content": "interferons are very special defence mechanisms which operate by a binding to viruses b binding to neighbouring cells c producing a long lasting state",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch05/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which is the exception in the following range of disease symptoms caused by bunyaviruses",
+            "content": "which is the exception in the following range of disease symptoms caused by bunyaviruses a pneumonias b haemorrhagic fever c hepatitis d impaired renal",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch16/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which is the exception in the following range of disease symptoms caused by bunyaviruses",
+            "content": "which is the exception in the following range of disease symptoms caused by bunyaviruses haemorrhagic fever pneumonias impaired renal function hepatitis",
+            "url": "https://medizzy.com/learning/mcq/question/33901983",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "many virus infections result in immune pathology this is caused predominantly by which of the following",
+            "content": "many virus infections result in immune pathology this is caused predominantly by which of the following a a cytokine storm b antibody mediated reactions",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch04/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "genetic characteristics of the bunyavirus family include which one of the following",
+            "content": "question 1 genetic characteristics of the bunyavirus family include which one of the following a three segmented negative stranded rna viruses with anti",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch16/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "there is no vaccine against hiv because of which of the following",
+            "content": "there is no vaccine against hiv because of which of the following a the virus is so antigenically variable b such",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch27/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the adenovirus virion has which unique structural feature",
+            "content": "the adenovirus virion has which unique structural feature a icosahedron b icosahedron with slender fibres c complex structure not yet fully explored d",
+            "url": "https://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch25/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "picornavirus replication as a positive strand rna virus is particularly typified by which of the following",
+            "content": "picornavirus replication as a positive strand rna virus is particularly typified by which of the following a virions carry rna transcriptase enzyme into the",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch07/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "picornavirus replication as a positive strand rna virus is particularly typified by which of the following",
+            "content": "10 picornavirus replication as a positive strand rna virus is particularly typified by which of the following a virions carry rna transcriptase",
+            "url": "https://csjmu.ac.in/wp-content/uploads/booklets/booklets-may-june-2022/MSC/MIC-2004-Set-B.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sars is described as a zoonotic virus what does this mean",
+            "content": "sars is described as a zoonotic virus what does this mean a such viruses are confined to animals b they",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch13/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the characteristic of a generalized epidemic is",
+            "content": "a generalized epidemic is one where most new infections are from heterosexual contact in the general population",
+            "url": "https://www.feim.org.ar/pdf/WWW/generalised%20vs%20concentrated.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "typical clinical symptoms following infection with astroviruses include which of the following",
+            "content": "typical clinical symptoms following infection with astroviruses include which of the following a acute pneumonia b gastroenteritis in children c",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch08/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the biggest risk factor for infection with ebola",
+            "content": "what is the biggest risk factor for infection with ebola a working in a category iv laboratory b attending a funeral of a victim outside c nursing a",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch18/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which is a major characteristic of the bunyavirus family",
+            "content": "which is a major characteristic of the bunyavirus family a amplify by persistent infection of midgets mosquitoes sand flies ticks b predominantly",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch16/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a city has a population of 250000 cases and 400 deaths each year from this disease there are 2500 deaths per year from all causes the prevalence of this disease is given by",
+            "content": "a city has a population of 250000 of these 10000 cases and 400 deaths each year from this disease there are 2500 deaths per year from all causes",
+            "url": "https://people.musc.edu/~hille/Presentations/EBM_Review_units1_4.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why are members of the astrovirus family only recently recognised as significant enteric viruses for humans",
+            "content": "why are members of the astrovirus family only recently recognised as significant enteric viruses for humans a the genome has been identified by the new",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch08/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following coronaviruses has caused thousands of deaths around the world as an emergent virus",
+            "content": "which of the following coronaviruses has caused thousands of deaths around the world as an emergent virus a mers b sars c oc43 d hku1 question 3",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch13/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "david baltimore is a molecular biologist what did he discover",
+            "content": "david baltimore is a molecular biologist what did he discover a the structure of dna b xray crystallographic techniques c the enzyme reverse",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch02/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the paramyxovirus family employ what strategy at virus entry",
+            "content": "very large viruses question 2 the paramyxovirus family employ what strategy at virus entry a initiate a fusion from without using virus f protein b has",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch17/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the influenza virus is mainly controlled in special risk sectors by",
+            "content": "epidemic b endemic c pandemic d zoonotic question 2 the influenza virus is mainly controlled in special risk sectors by a hygiene b vaccination",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch14/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the influenza virus is mainly controlled in special risk sectors by",
+            "content": "the influenza virus is mainly controlled in special risk sectors by hygiene humanised monoclonal antibodies antiviral drugs vaccination next question",
+            "url": "https://medizzy.com/learning/mcq/question/33901923",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the influenza virus is mainly controlled in special risk sectors by",
+            "content": "the influenza virus is mainly controlled in special risk sectors by most pandemics have arisen from influenza viruses from which of the following animals",
+            "url": "https://medizzy.com/learning/mcq/question/33901918",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "mers has four special characteristics and here we have one exception which is it",
+            "content": "mers has four special characteristics and here we have one exception which is it a spread by faecal oral route b aerosol droplet transmission c",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch13/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which virus infection was not first identified by clinical observation",
+            "content": "which virus infection was not first identified by clinical observation a hiv b rubella teratogenicity",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch06/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "clinical infection by an arenavirus is characterised by which one of the following",
+            "content": "clinical infection by an arenavirus is characterised by which one of the following a pantropic infection b signs of malaria",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch15/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a virus such as influenza which emerges suddenly and spreads globally is called",
+            "content": "question 1 a virus such as influenza which emerges suddenly and spreads globally is called a epidemic b endemic c pandemic d zoonotic question 2 the",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch14/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is the most special characteristic of the adaptive immune system",
+            "content": "question 3 which of the following is the most special characteristic of the adaptive immune system a antibodies b t cells c memory t cells",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch05/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following diseases is not caused by togaviruses",
+            "content": "question 1 describe the morphology of a togavirus question 2 which of the following diseases is not caused by togaviruses question 3 what is the",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch11/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following diseases is not caused by togaviruses",
+            "content": "which of the following diseases is not caused by togaviruses a chikungunya b rubella c western equine encephalitis d yellow fever",
+            "url": "https://www.facebook.com/drshivika.micro/posts/which-of-the-following-diseases-is-not-caused-by-togaviruses-a-chikungunya-b-rub/1133428296809283/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "deep nucleotide sequencing ngs is now cheap enough for general application what will the technique mainly be useful for",
+            "content": "deep nucleotide sequencing ngs is now cheap enough for general application what will the technique mainly be useful for a speedy vaccine development b",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch06/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the essential pathology of astroviruses",
+            "content": "what is the essential pathology of astroviruses a very restricted replication in the gut b can cause infection of the central nervous system c sequence",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch08/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "chemotherapy is now an option for clinical care of patients typical drug regimens now include which of the following",
+            "content": "chemotherapy is now an option for clinical care of patients typical drug regimens now include which of the following a interferon and ribavirin b",
+            "url": "https://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch28/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the current best option for preventing future outbreaks of ebola",
+            "content": "what is the current best option for preventing future outbreaks of ebola a rebuild scientific medical and nursing infrastructure and train staff b early",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch18/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "there were no new cases of ebola virus in the united states from january 1 1997 through january 1 1998 which of the following epidemiologic terms does this statement describe",
+            "content": "there were no new cases of ebola virus in the united states from january 1 1997 through january 1 1998 which of the following epidemiologic terms does",
+            "url": "https://people.musc.edu/~hille/Presentations/EBM_Review_units1_4.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "there were no new cases of ebola virus in the united states from january 1 1997 through january 1 1998 which of the following epidemiologic terms does this statement describe",
+            "content": "which of the following epidemiologic terms does this statement describe a incidence b lifetime expectancy c lifetime prevalence d",
+            "url": "http://people.musc.edu/~hille/Presentations/presentations_files/Biostatistics%20and%20Epidemiology%20Step%201%20Sample%20Questions.docx",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why do emerging viruses like zika and ebola continue to plague us",
+            "content": "why do emerging viruses like zika and ebola continue to plague us a these viruses mutate and hence emerge b we",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch02/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a study is conducted to assess the relationship between race and endstage renal disease pathologists independently study specimens from 1000 kidney biopsies the first group of pathologists is aware of the race of the patient from whom the biopsy came while the second group is blinded as to the patient’s race the first group reports ‘hypertensive nephropathy’ much more frequently for black patients than the second group which of the following types of bias is most likely present in this study",
+            "content": "the first group of pathologists is aware of the race of the patient from whom the biopsy came while the second group is blinded as to the patients race",
+            "url": "https://people.musc.edu/~hille/Presentations/EBM_Review_units1_4.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the most widespread and important retrovirus is hiv1 which of the following is true",
+            "content": "question 2 the most widespread and important retrovirus is hiv1 which of the following is true a infecting only gay people b infecting only males",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch27/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following drugs inhibit herpes viruses",
+            "content": "question 1 which of the following drugs inhibit herpes viruses amantadine acyclovir question 2 why are drug combinations essential for hiv single drugs",
+            "url": "https://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch31/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the most important factor for virus classification",
+            "content": "what is the most important factor for virus classification a the geometry of the virus b how many proteins the virus has c the disease a virus causes d",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch02/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a quasi species virus such as influenza and hiv has which of the following characteristics",
+            "content": "a quasi species virus such as influenza and hiv has which of the following characteristics a a fragmented or segmented genome b coexistence of",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch03/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "most surveillance systems use which of the following study designs",
+            "content": "most surveillance systems use which of the following study designs a cohort b serial crosssectional c mortality d syndromic e a and",
+            "url": "https://www.ph.ucla.edu/epi/faculty/detels/epi227/final_key_2011.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "most surveillance systems use which of the following study designs",
+            "content": "most surveillance systems use which of the following study designs a discuss the challenges facing surveillance system and ways that can be used to",
+            "url": "https://exambank.mmust.ac.ke/xmlui/bitstream/handle/123456789/886/BML%20424%20Community%20Health%20and%20Epi%20Main%20Exam.pdf?sequence=1&isAllowed=y",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following hpv viruses are known to cause cervical cancer",
+            "content": "which of the following hpv viruses are known to cause cervical cancer a viruses of all 5 clades b types 14 16 18 31 45 c none are oncogenic per se d",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch22/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the most common way for a virus to kill a cell",
+            "content": "what is the most common way for a virus to kill a cell a dissolves the cellular membrane b induces apoptosis via caspases c fragments cellular dna d",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch04/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "chikungunya has spread widely from asia and africa into the caribbean in recent years this has been mainly facilitated by",
+            "content": "question 5 chikungunya has spread widely from asia and africa into the caribbean in recent years this has been mainly facilitated by",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch11/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "measles has been controlled in many countries by which of the following",
+            "content": "measles has been controlled in many countries by which of the following a by hygiene b by mmr vaccine c by new molecular peptide vaccines d by",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch17/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is an unusual feature of the replication cycle in coronaviruses",
+            "content": "which of the following is an unusual feature of the replication cycle in coronaviruses a the rnas all terminate in a common 3´ and produce nested set",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch13/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how can the spread of filoviruses be restricted",
+            "content": "how can the spread of filoviruses be restricted a new antivirals b new humanised monoclonal antibodies c hygiene and social distancing d new vaccines",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch18/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the range of disease caused by the family is wide but identify the exception from the following",
+            "content": "question 4 the range of disease caused by the family is wide but identify the exception from the following a aplastic crisis in anaemia patients",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch26/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how can epidemics of astrovirus mainly be controlled",
+            "content": "how can epidemics of astrovirus mainly be controlled a by vaccination b using passive antibody c basic knowledge of hand washing and food hygiene d",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch08/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "500 women aged 40 54 who present for routine checkups are asked about their meat consumption the women turn out to be vegetarian during the ensuing 5 years 5 vegetarians and 43 nonvegetarians develop colorectal cancer which of the following best describes the study design",
+            "content": "500 women aged 40 54 who present for routine checkups are asked about their meat consumption 20 of the women turn out to be vegetarian",
+            "url": "https://www.linkedin.com/posts/hudagomaa6181697a_500-women-aged-40-54-who-present-for-routine-activity-7267615113451364354-jNKy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "500 women aged 40 54 who present for routine checkups are asked about their meat consumption the women turn out to be vegetarian during the ensuing 5 years 5 vegetarians and 43 nonvegetarians develop colorectal cancer which of the following best describes the study design",
+            "content": "500 women aged 40 54 who present for routine checkups are asked about their meat consumption 20 of the women turn out to be vegetarian during the",
+            "url": "https://people.musc.edu/~hille/Presentations/EBM_Review_units1_4.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "500 women aged 40 54 who present for routine checkups are asked about their meat consumption the women turn out to be vegetarian during the ensuing 5 years 5 vegetarians and 43 nonvegetarians develop colorectal cancer which of the following best describes the study design",
+            "content": "45 500 women aged 4054 who present for routine checkups are asked about their meat consumption 20 of the women turn out to be vegetarian during the",
+            "url": "https://www.sctimst.ac.in/academic%20and%20research/academic/previous%20year%20questions/resources/PhD%20Health%20Science_2020.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "most pandemics have arisen from influenza viruses from which of the following animals",
+            "content": "most pandemics have arisen from influenza viruses from which of the following animals a pigs b wild birds c bats d humans e whales question 4 the",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch14/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what has so far prevented polio being eradicated from the world",
+            "content": "what has so far prevented polio being eradicated from the world a inability to vaccinate in some countries b poor quality unsafe vaccines c genetic",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch07/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the influenza virus has complicated genetics mainly characterised by which of the following",
+            "content": "the influenza virus has complicated genetics mainly characterised by which of the following a genetic reassortment amongst 8 genes b high levels of",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch14/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which member of the paramyxovirus family can cause very serious croup",
+            "content": "which member of the paramyxovirus family can cause very serious croup a measles b meta pneumo virus",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch17/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how can the morphology of filoviruses be described",
+            "content": "how can the morphology of filoviruses be described a very large ball like structure b long filamentous threads c icosahedral virion d floppy membranes",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch18/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how is the parvovirus family targeted to reduce disease",
+            "content": "question 5 how is the parvovirus family targeted to reduce disease a transfusion blood is screened",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch26/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "officials at a large community hospital report an increased incidence of acute lymphocytic leukemia all among children aged 5 12 they point out that some households in the community are exposed to chemical waste from a nearby factory they believe that chemical waste causes leukemia if a study is designed to evaluate the hospital officials’ claim which of the following subjects are most likely to comprise the control group",
+            "content": "officials at a large community hospital report an increased incidence of acute lymphocytic leukemia all among children aged 5 12 they point out that",
+            "url": "https://people.musc.edu/~hille/Presentations/EBM_Review_units1_4.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "officials at a large community hospital report an increased incidence of acute lymphocytic leukemia all among children aged 5 12 they point out that some households in the community are exposed to chemical waste from a nearby factory they believe that chemical waste causes leukemia if a study is designed to evaluate the hospital officials’ claim which of the following subjects are most likely to comprise the control group",
+            "content": "officials at a large community hospital report an increased incidence of acute lymphocytic leukemia all among children aged 512 they point",
+            "url": "https://www.reddit.com/r/Step3/comments/15l1qat/help/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "officials at a large community hospital report an increased incidence of acute lymphocytic leukemia all among children aged 5 12 they point out that some households in the community are exposed to chemical waste from a nearby factory they believe that chemical waste causes leukemia if a study is designed to evaluate the hospital officials’ claim which of the following subjects are most likely to comprise the control group",
+            "content": "7 officials at a large community hospital report an increased incidence of acute lymphocytic leukemia all among children aged 5 12 they point out that",
+            "url": "http://people.musc.edu/~hille/Presentations/presentations_files/Biostatistics%20and%20Epidemiology%20Step%201%20Sample%20Questions.docx",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "officials at a large community hospital report an increased incidence of acute lymphocytic leukemia all among children aged 5 12 they point out that some households in the community are exposed to chemical waste from a nearby factory they believe that chemical waste causes leukemia if a study is designed to evaluate the hospital officials’ claim which of the following subjects are most likely to comprise the control group",
+            "content": "officials at a large community hospital report an increased incidence of acute lymphocytic leukemia all among children aged 5 12",
+            "url": "https://www.facebook.com/aamuhd6/posts/4128454057219129/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "a new drug with in vitro activity against hiv is tested on a population of patients with westernblot confirmed hiv infections out of the 200 individuals in the patient population 100 are chosen by lottery to receive the drug the drug which is tasteless is administered in a cup of orange juice the other patients receive pure orange juice neither the nurses doctors nor the patients know which patients receive the drug at the end of the study period the number of cd4 t cells is determined for all of the subjects this is an example of a",
+            "content": "a new drug with in vitro activity against hiv is tested on a population of patients with westernblot confirmed hiv infections out of the 200 individuals",
+            "url": "https://people.musc.edu/~hille/Presentations/EBM_Review_units1_4.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "a new drug with in vitro activity against hiv is tested on a population of patients with westernblot confirmed hiv infections out of the 200 individuals in the patient population 100 are chosen by lottery to receive the drug the drug which is tasteless is administered in a cup of orange juice the other patients receive pure orange juice neither the nurses doctors nor the patients know which patients receive the drug at the end of the study period the number of cd4 t cells is determined for all of the subjects this is an example of a",
+            "content": "a new drug with in vitro activity against hiv is tested on a population of patients with westernblot confirmed hiv infections out of the 200 individuals",
+            "url": "http://people.musc.edu/~hille/Presentations/presentations_files/Biostatistics%20and%20Epidemiology%20Step%201%20Sample%20Questions.docx",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "a new drug with in vitro activity against hiv is tested on a population of patients with westernblot confirmed hiv infections out of the 200 individuals in the patient population 100 are chosen by lottery to receive the drug the drug which is tasteless is administered in a cup of orange juice the other patients receive pure orange juice neither the nurses doctors nor the patients know which patients receive the drug at the end of the study period the number of cd4 t cells is determined for all of the subjects this is an example of a",
+            "content": "a new drug with in vitro activity against hiv is tested on a population of patients with westernblot confirmed hiv infections out of the",
+            "url": "https://fiveislands.uwi.edu/sites/default/files/files/docs/Past%20Papers/SoHBS/Level%201/NURS1113%20202120.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "a new drug with in vitro activity against hiv is tested on a population of patients with westernblot confirmed hiv infections out of the 200 individuals in the patient population 100 are chosen by lottery to receive the drug the drug which is tasteless is administered in a cup of orange juice the other patients receive pure orange juice neither the nurses doctors nor the patients know which patients receive the drug at the end of the study period the number of cd4 t cells is determined for all of the subjects this is an example of a",
+            "content": "a new drug with in vitro activity against hiv is tested on a population of patients with westernblot confirmed hiv infections out of the",
+            "url": "https://www.docsity.com/en/biostatistics-and-epidemiology-step-1-sample-questions-set-1/8796000/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "in a medical class of 147 students the distribution of scores on a biochemistry final examination has a mean equal to 67 a median equal to 76 a mode equal to 80 a standard deviation equal to 55 and a variance equal to 3025 three students were unable to take the test on the scheduled date and were given a different form of the exam 1 week later which parameter is most likely to be the least biased estimator of central tendency for this distribution of biochemistry test scores",
+            "content": "3 in a medical class of 147 students the distribution of scores on a biochemistry final examination has a mean equal to 67 a median equal to 76 a mode equal",
+            "url": "https://people.musc.edu/~hille/Presentations/EBM_Review_units1_4.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "in a medical class of 147 students the distribution of scores on a biochemistry final examination has a mean equal to 67 a median equal to 76 a mode equal to 80 a standard deviation equal to 55 and a variance equal to 3025 three students were unable to take the test on the scheduled date and were given a different form of the exam 1 week later which parameter is most likely to be the least biased estimator of central tendency for this distribution of biochemistry test scores",
+            "content": "the distribution of scores on a biochemistry final examination has a mean equal to 67a median equal to 76 a mode equal to 80 a standard deviation equal to 5",
+            "url": "https://www.usmle-forums.com/threads/biostat-question-mean-median-and-mode.39734/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "in a medical class of 147 students the distribution of scores on a biochemistry final examination has a mean equal to 67 a median equal to 76 a mode equal to 80 a standard deviation equal to 55 and a variance equal to 3025 three students were unable to take the test on the scheduled date and were given a different form of the exam 1 week later which parameter is most likely to be the least biased estimator of central tendency for this distribution of biochemistry test scores",
+            "content": "3 in a medical class of 147 students the distribution of scores on a biochemistry final examination has a mean equal to 67 a median equal to 76 a mode equal",
+            "url": "http://people.musc.edu/~hille/Presentations/presentations_files/Biostatistics%20and%20Epidemiology%20Step%201%20Sample%20Questions.docx",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "in a medical class of 147 students the distribution of scores on a biochemistry final examination has a mean equal to 67 a median equal to 76 a mode equal to 80 a standard deviation equal to 55 and a variance equal to 3025 three students were unable to take the test on the scheduled date and were given a different form of the exam 1 week later which parameter is most likely to be the least biased estimator of central tendency for this distribution of biochemistry test scores",
+            "content": "in a medical class of 147 students the distribution of scores on a biochemistry final examination has a mean equal to 67 a median equal to 76",
+            "url": "https://www.docsity.com/en/biostatistics-and-epidemiology-step-1-sample-questions-set-1/8796000/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "500 women aged 40 54 who present for routine checkups are asked about their meat consumption the women turn out to be vegetarian during the ensuing 5 years 5 vegetarians and 43 nonvegetarians develop colorectal cancer which of the following best describes the study design",
+            "content": "500 women aged 40 54 who present for routine checkups are asked about their meat consumption 20 of the women turn out to be vegetarian",
+            "url": "https://www.linkedin.com/posts/hudagomaa6181697a_500-women-aged-40-54-who-present-for-routine-activity-7267615113451364354-jNKy",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "500 women aged 40 54 who present for routine checkups are asked about their meat consumption the women turn out to be vegetarian during the ensuing 5 years 5 vegetarians and 43 nonvegetarians develop colorectal cancer which of the following best describes the study design",
+            "content": "500 women aged 40 54 who present for routine checkups are asked about their meat consumption 20 of the women turn out to be vegetarian during the",
+            "url": "https://people.musc.edu/~hille/Presentations/EBM_Review_units1_4.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "500 women aged 40 54 who present for routine checkups are asked about their meat consumption the women turn out to be vegetarian during the ensuing 5 years 5 vegetarians and 43 nonvegetarians develop colorectal cancer which of the following best describes the study design",
+            "content": "45 500 women aged 4054 who present for routine checkups are asked about their meat consumption 20 of the women turn out to be vegetarian during the",
+            "url": "https://www.sctimst.ac.in/academic%20and%20research/academic/previous%20year%20questions/resources/PhD%20Health%20Science_2020.pdf",
+            "engine": "ddg"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "the three countries with the most drug injectors are",
+            "content": "afghanistan is the worlds largest opium producer and exporter but it is also an important consumer the country accounted for 7 of total world demand or 80",
+            "url": "https://www.unodc.org/documents/wdr/WDR_2010/1.2_The_global_heroin_market.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the characteristic of injecting drug users in asia isare",
+            "content": "global prevalence of injecting drug use and sociodemographic characteristics and prevalence of hiv hbv and hcv in people who inject drugs",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5683738/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is urban yellow fever yf",
+            "content": "yellow fever is an epidemicprone mosquitoborne vaccine preventable disease that is transmitted to humans by the bites of infected mosquitoes",
+            "url": "https://www.who.int/news-room/fact-sheets/detail/yellow-fever",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "it is unlikely that a cure of hiv is possible with current drugs because",
+            "content": "although a few people appear to have been cured of hiv under special circumstances there is currently no general cure for this virus",
+            "url": "https://www.thewellproject.org/hiv-information/finding-cure-hiv",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "in a study a group of people are exposed to an environmental toxin but are not treated observed over time on a standard set of measures to ascertain the potential effects of the toxin this type of study design is called",
+            "content": "examples of such outcomes include neurologic outcomes used in studies of lead toxicity outcomes of some pulmonaryfunction tests and diaries of activity level",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK233644/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "who discovered the first virus",
+            "content": "in the 1930s wendell stanley was able to produce the tobacco mosaic virus in solid crystalline form he was the first person to be able to crystalize a virus",
+            "url": "https://nobelprizemuseum.se/en/the-first-virus-ever-discovered/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the most important element of ethical research on human subjects is",
+            "content": "in most cases of research involving human subjects respect for persons demands that subjects enter into the research voluntarily and with",
+            "url": "https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/read-the-belmont-report/index.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the successful anticancer hpv vaccine consists of",
+            "content": "quadrivalent gardasil shows excellent efficacy against cervical hpv infection cervical cancer precursor lesions and genital warts caused by the hpv types",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7565290/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "an updated version of classification shows the parvovirus family as having how many genera",
+            "content": "proposed changes to the taxonomy are summarized in table 1 in the subfamily parvovirinae these changes include the introduction of three new genera and the",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4013247/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the current testing policy of the centers for disease control and the world health organization is",
+            "content": "cdc works 247 to protect america from health safety and security threats both foreign and in the us",
+            "url": "https://www.cdc.gov/index.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which viruses appear to be hypermutable",
+            "content": "a quasi species virus such as influenza and hiv has which of the following characteristics poliovirus can most easily become more virulent by which of the",
+            "url": "https://medizzy.com/learning/mcq/question/33901651",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how many human polyomaviruses are known at present",
+            "content": "human polyomaviruses most polyomaviruses do not infect humans of the polyomaviruses cataloged as of 2017 a total of 14 were known with human hosts however",
+            "url": "https://en.wikipedia.org/wiki/Polyomaviridae",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is the cause of delay in hiv testing among the latino population",
+            "content": "latino ethnicity older age male sex and earlier entry year were independently associated with late presentation p 05 for all in multivariable analyses",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3156142/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the largest latino community in the us is",
+            "content": "the five largest hispanic populations in the us by origin group were mexicans 372 million puerto ricans 58 salvadorans 25 dominicans 24 and",
+            "url": "https://www.pewresearch.org/short-reads/2023/08/16/11-facts-about-hispanic-origin-groups-in-the-us/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the rotavirus is an important cause of which of the following",
+            "content": "rotavirus is a very contagious virus that causes diarrhea before the development of a vaccine most children had been infected with the",
+            "url": "https://www.mayoclinic.org/diseases-conditions/rotavirus/symptoms-causes/syc-20351300",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the replication of hepatitis b includes which of the following stages",
+            "content": "it comprises the immune‐tolerant phase immune‐active chronic phase inactive hbsag phase and reactivation the four phases differ from each other in certain",
+            "url": "https://cdn.who.int/media/docs/default-source/searo/hiv-hepatitis/training-modules/07-hbv-natural-history.pdf?sfvrsn=520b7c01_2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "disease can most often be prevented by which of the following",
+            "content": "develop healthy habits such as eating well getting enough sleep exercising and avoiding tobacco and illegal drug use",
+            "url": "https://health.maryland.gov/phpa/pages/preventing-infectious-disease.aspx",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "common cold viruses are ubiquitous and invade by which route",
+            "content": "rhinoviruses replicate in the upper respiratory tract and are transmitted by direct persontoperson contact coughing and sneezing common syndromes of",
+            "url": "https://www.sciencedirect.com/topics/veterinary-science-and-veterinary-medicine/rhinovirus",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how are herpes infections controlled",
+            "content": "systemic antiviral drugs can partially control the signs and symptoms of genital herpes when used to treat first clinical and recurrent episodes or when used as",
+            "url": "https://www.cdc.gov/std/treatment-guidelines/herpes.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which disease do polyomaviruses predominantly cause",
+            "content": "human polyomaviruses cause significant disease primarily in individuals that are immunocompromised allowing reactivation from the persistent subclinical",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2661150/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "structural interventions typically target",
+            "content": "behavioral change is often the target of structural interventions as well but with structural interventions focused on addressing contextual sources of risk",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1473169/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "results of surveillance should be distributed to",
+            "content": "this document describes the evaluation of epidemiologic surveillance systems its purpose is to promote the best use of public health resources",
+            "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00001769.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the surveillance testing strategy associated with the least selection bias is",
+            "content": "a way to rectify these biases is through the use of a bayesian approach to adjust seroprevalence estimates for ranges of values for test characteristics 28",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7906244/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "lassa and ebola are emergent viruses in w africa what is their origin",
+            "content": "however phylogenetic studies showed that lasv probably originated in nigeria more than a thousand years ago the virus subsequently spread to neighboring",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11359316/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "assembly is a vital late replication stage for a virus and is often accomplished by which of the following",
+            "content": "after gaining entry into the body a virus makes physical contact with and crosses the plasma membrane of a target cell inside it releases and replicates its",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7149683/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what happens during the incubation period",
+            "content": "incubation period is the time elapsed between exposure to a pathogenic organism a chemical or radiation and when symptoms and signs are first apparent",
+            "url": "https://en.wikipedia.org/wiki/Incubation_period",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the main clinical picture of hepatitis a",
+            "content": "symptoms unusual tiredness and weakness sudden nausea and vomiting and diarrhea abdominal pain or discomfort especially on the upper right",
+            "url": "https://www.mayoclinic.org/diseases-conditions/hepatitis-a/symptoms-causes/syc-20367007",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what is the usual direction of knowledge in a cell",
+            "content": "preferred direction refers to the specific directional heading to which a head direction hd cell is tuned in the brain independent of the animals location",
+            "url": "https://www.sciencedirect.com/topics/computer-science/preferred-direction",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the noroviruses typically cause which of the following",
+            "content": "norovirus infection can cause severe vomiting and diarrhea that start suddenly noroviruses are highly contagious they commonly spread through food or water",
+            "url": "https://www.mayoclinic.org/diseases-conditions/norovirus/symptoms-causes/syc-20355296",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "of the following factors which are the most important factors for virus spread and infection",
+            "content": "the spread process depends essentially on the infectiousness of the pathogen and the immune response of the host but also on human behavior",
+            "url": "https://www.uni-bonn.de/en/news/what-factors-impact-the-spread-of-viruses",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the biggest single determinant of hiv transmission to the infant is",
+            "content": "home delivery also increased the chance of transmitting hiv from mother to child by 6 times when compared to those who delivered at the",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8057808/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the most successful and most widely used travel vaccine for international visitors",
+            "content": "polio travellers who wish to enter or leave certain countries must be vaccinated against polio usually at most twelve months and at least four weeks before",
+            "url": "https://en.wikipedia.org/wiki/Vaccination_requirements_for_international_travel",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "how are antibody producing cells stimulated",
+            "content": "b cells are activated by t helper cells t helper cells send signals to b cells that match the same germs as they do this stimulates the b",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK279396/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "if the human norovirus cannot be cultured in cell cultures how can it best be studied",
+            "content": "human norovirus has been very difficult to study the cellular tropism is unknown it cannot be grown in culture and there is no robust small animal model",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4366878/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what disease do herpes viruses not cause",
+            "content": "herpes simplex virus hsv known as herpes is a common infection that can cause painful blisters or ulcers it primarily spreads by skintoskin contact",
+            "url": "https://www.who.int/news-room/fact-sheets/detail/herpes-simplex-virus",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "antivirals can be used prophylactically or therapeutically in persons in which of the following circumstances",
+            "content": "antiviral treatment might be effective in reducing morbidity and mortality in hospitalized influenza patients especially adults even if",
+            "url": "https://www.cdc.gov/flu/hcp/antivirals/summary-clinicians.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "viruses have encouraged us to change our world as we have now",
+            "content": "viruses also keep us alive they form part of the bodys microbiome and safeguard our health they can be harnessed to treat illness deliver vaccines and",
+            "url": "https://magazine.hms.harvard.edu/articles/good-viruses-do",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what does the reproductive number of a virus tell us",
+            "content": "r0 pronounced “r naught” is a mathematical term that indicates how contagious an infectious disease is its also referred to as the reproduction number",
+            "url": "https://www.healthline.com/health/r-naught-reproduction-number",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is a virus pandemic",
+            "content": "a pandemic is a disease outbreak that spreads across countries or continents it affects more people and takes more lives than an epidemic",
+            "url": "https://www.webmd.com/cold-and-flu/what-are-epidemics-pandemics-outbreaks",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "newborn infants in countries with limited access to safe water and low levels of education should be",
+            "content": "in countries with large numbers of newborns the mortality rates may be lower than in countries with fewer newborns but the actual number of deaths is higher",
+            "url": "https://www.unicef.org/media/48096/file/Every_Child_Alive_The_urgent_need_to_end_newborn_deaths-ENG.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the rubella syndrome",
+            "content": "congenital rubella syndrome crs happens when a pregnant woman becomes infected with rubella and passes it on to the fetus it can cause several health",
+            "url": "https://my.clevelandclinic.org/health/diseases/congenital-rubella-syndrome",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the purpose of a doubleblind or doublemasked study is to",
+            "content": "a doublemasked study is superior to a singlemasked study because it eliminates the risk of the placebo effect",
+            "url": "https://www.indeed.com/career-advice/career-development/single-masked-vs-double-masked-study",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "determinants of acquiring an hiv infection from an infected person per sexual act include",
+            "content": "sex with multiple partners the more sexual partners a person has the more likely they are to be exposed to hiv or other sexually transmitted",
+            "url": "https://www.nichd.nih.gov/health/topics/hiv/conditioninfo/factors",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the absence of treatment the risk of hiv transmission from an infected mother to her fetusinfant was highest in which of the following areas",
+            "content": "hiv1 infection accounts for most infections hiv2 is rarely transmitted from mother to child transmission is more likely in mothers with high viral loads and",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2907958/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "prep is most effective for which group",
+            "content": "prep is used by people who are hiv negative and at high risk of being exposed to hiv through sex or injection drug use",
+            "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/pre-exposure-prophylaxis-prep",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "benefits of opioid replacement therapy as an approach for hiv prevention include",
+            "content": "it can decrease the high cost of opioid dependence to individuals their families and society at large by reducing heroin use associated deaths hiv risk",
+            "url": "https://www.unodc.org/documents/hiv-aids/Position%20Paper%20sub.%20maint.%20therapy.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "any systematic error in the design conduct or analysis of a study that results in a mistaken estimate of an exposure’s effect on the risk of disease is called",
+            "content": "errors can be differential systematic or nondifferential random random error use of invalid outcome measure that equally misclassifies cases",
+            "url": "https://www.ump.edu.pl/files/8_483_errors_in_epidemiological_studies.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why are drug combinations essential for hiv",
+            "content": "the rationale for combining antihiv1 agents is to provide more complete viral suppression to limit the emergence of drug resistance during chronic viral",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7811541/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "nipah is a zoonotic paramyxovirus where did it originate",
+            "content": "the zoonotic potential of niv was unknown before 1999 till malaysia experienced nipah viral outbreak such an outbreak had created alarming situation in the",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6830995/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "papillomaviruses cause warts and cancer but how do they most often infect humans",
+            "content": "the human papillomavirus hpv is a common infection spread through sex only highrisk forms of the virus can progress to cancer",
+            "url": "https://my.clevelandclinic.org/health/diseases/11901-hpv-human-papilloma-virus",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the parvoviruses have a rather unique genome what form does it take",
+            "content": "they have linear singlestranded dna ssdna genomes that typically contain two genes encoding for a replication initiator protein called ns1 and the protein",
+            "url": "https://en.wikipedia.org/wiki/Parvoviridae",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a special feature of adaptive immunity is",
+            "content": "adaptive immunity has four main features specificity versatility memory and tolerance each feature enables the adaptive immune system to",
+            "url": "https://www.jove.com/tr/science-education/v/15339/special-features-of-adaptive-immunity",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "papilloma viruses are characterised by what genetic feature",
+            "content": "2007 papillomaviruses are small nonenveloped icosahedral dna viruses that have a diameter of 5255 nm the viral particles consist of a single doublestranded dna",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK321770/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "aids activism in the us resulted in",
+            "content": "the evolution of the diseases progress into whats known as the hivaids pandemic has resulted in various social movements fighting to change both government",
+            "url": "https://en.wikipedia.org/wiki/HIV/AIDS_activism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how does the papilloma family of viruses cause cancer",
+            "content": "by k münger 2004 one of the key events of hpvinduced carcinogenesis is the integration of the hpv genome into a host chromosome hpv genome integration often occurs near common",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC523272/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how does rubella cause foetal abnormalities",
+            "content": "lateonset manifestations of congenital rubella syndrome are diabetes thyroid dysfunction and visual or neurological abnormalitiesin",
+            "url": "https://www.ecdc.europa.eu/en/congenital-rubella-syndrome/facts",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the group that permits analysis of the entire natural history of hivaids is",
+            "content": "an early study from the cascade group 11 suggested that 15 and 7 of elite controllers infected with hiv for more than 16 years had cd4 cell counts less than",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4196796/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the genome structure of the polyomavirus family",
+            "content": "the mature viral genome is organized as a minichromosome packed with histone proteins h2a h2b h3 and h4 the vp1 nterminus is bound to the packaged dna but",
+            "url": "https://ictv.global/report/chapter/polyomaviridae/polyomaviridae",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "there are 57 serotypes of adenovirus currently recognised which has the most important clinical impact",
+            "content": "clinical features of adenovirus infection respiratory tract involvement keratoconjunctivitis gastrointestinal manifestations urinary tract involvement",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7171713/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "identify the most commonly used diagnostic technique in the virus laboratory",
+            "content": "the immunofluorescence if technique has been shown to be a reliable method for specific identification of viral antigens in such cells immune peroxidase",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7173587/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "as regards the range of diseases caused by viruses",
+            "content": "spirochaetes bacteria are responsible for a range of diseases including the sexually transmissible infection syphilis vibrio shaped like a comma",
+            "url": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/infections-bacterial-and-viral",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "as part of the women’s health study researchers investigated the role of systemic inflammation in predicting cardiovascular disease in women n engl j med 20023472015571565 researchers used a prospective study design with a large sample size blood levels of creactive protein crp were measured at baseline and women were followed for an average of 8 years the following table shows the relative risk estimates of cardiovascular event heart attack or stroke within 5 years by quintile of crp level for the 30000 women the first quintile is used as the reference category 1 049 mgdl relative risk number of women 10 6000 2 049108 mgdl 18 6000 quintile of crp level 3 108209 mgdl 23 6000 4 209419 mgdl 32 6000 5 419 mgdl 45 6000 based on the relative risk data above one can conclude",
+            "content": "our review suggests that women have a differential inflammatory response to various disease states that increases their risk for cvd",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9592850/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the single most important key to the success of the multicenter aids cohort macs is",
+            "content": "the multicenter aids cohort study macs is a study of hiv infection in homosexual and bisexual men over 5500 men have participated in the macs since the",
+            "url": "https://grants.nih.gov/grants/guide/rfa-files/RFA-AI-99-002.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "describe the morphology of a togavirus",
+            "content": "virion structure togavirus virions are small 7080 nm enveloped icosahedral capsid inside fig 133 togavirus virion structure stands out in that not",
+            "url": "https://www.sciencedirect.com/topics/immunology-and-microbiology/togaviridae",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "poliovirus can most easily become more virulent by which of the following processes",
+            "content": "additionally the type i interferon response reduces poliovirus pathogenesis therefore we examined virulence thresholds in mice lacking the alphabeta",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3196390/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "interferons are very special defence mechanisms which operate by",
+            "content": "an interferon is any of several related proteins that are produced by various types of cells in the body as a defensive response to viruses",
+            "url": "https://www.britannica.com/science/interferon",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how are new polyomaviruses detailed",
+            "content": "how are new polyomaviruses detailed a shot gun sequencing b cultivation in human neural cells c deep pyro sequencing ngs d monoclonal antibody",
+            "url": "http://global.oup.com/uk/orc/medicine/collier5e/student/mcqs/ch21/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the major risk group for hiv infection among latinos is",
+            "content": "hispanic males were four times more likely to have either hiv infection or aids compared to nonhispanic white males in 2022 hispanic females were 19 times",
+            "url": "https://minorityhealth.hhs.gov/hivaids-and-hispanic-americans",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which is the exception in the following range of disease symptoms caused by bunyaviruses",
+            "content": "they are responsible for two types of diseases in humans the hemorrhagic fever with renal syndrome hfrs and the hantavirus cardiopulmonary syndrome hcps",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8146327/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the morphology of the dane particle",
+            "content": "electron microscopy of hepatitis b antigen has revealed dane particles with abnormal morphology these aberrant dane particles contain incomplete cores",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/541667/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "globally the most deaths are caused by",
+            "content": "the worlds biggest killer is ischaemic heart disease responsible for 13 of the worlds total deaths since 2000 the largest increase in",
+            "url": "https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "describe the coronavirus structure",
+            "content": "at their core coronaviruses contain a genetic blueprint called rna beige similar to dna the singlestranded rna acts as a molecular message that enables",
+            "url": "https://www.scripps.edu/covid-19/science-simplified/parts-of-a-coronavirus/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "many virus infections result in immune pathology this is caused predominantly by which of the following",
+            "content": "in summary immunopathology results from an imbalance between the immune systems ability to clear the virus and resulting tissue damage due to the antiviral",
+            "url": "https://www.sciencedirect.com/topics/immunology-and-microbiology/immunopathology",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "genetic characteristics of the bunyavirus family include which one of the following",
+            "content": "bunyavirales is an order of segmented negativestrand rna viruses with mainly tripartite genomes member viruses infect arthropods plants protozoans and",
+            "url": "https://en.wikipedia.org/wiki/Bunyavirales",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "describe the yf vaccine",
+            "content": "yellow fever vaccine is a vaccine that protects against yellow fever yellow fever is a viral infection that occurs in africa and south america",
+            "url": "https://en.wikipedia.org/wiki/Yellow_fever_vaccine",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how do viruses of the calcivirus family replicate",
+            "content": "both virus families direct host cells to synthesize a polyprotein that is cleaved by viral proteases a process that in some caliciviruses is",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8318036/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "there is no vaccine against hiv because of which of the following",
+            "content": "even though there are no vaccines to prevent or treat hiv people with hiv can benefit from vaccines against other diseases",
+            "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/hiv-and-immunizations",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the adenovirus virion has which unique structural feature",
+            "content": "they have a pseudot 25 triangulation number with at least 12 different proteins composing the virion these include the major and minor capsid proteins core",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8156859/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "picornavirus replication as a positive strand rna virus is particularly typified by which of the following",
+            "content": "like all positive strand rna viruses the picornaviruses replicate their genomes using a virally encoded rnadependent rna polymerase enzyme known as 3dpol",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5476519/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sars is described as a zoonotic virus what does this mean",
+            "content": "the world health organization defines a zoonosis as any infection naturally transmissible from vertebrate animals to humans",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7725765/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the characteristic of a generalized epidemic is",
+            "content": "conversely hiv epidemic is termed as generalized when the transmission is sustained in the general population defined as a general population",
+            "url": "https://idpjournal.biomedcentral.com/articles/10.1186/s40249-023-01164-2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the basic code of ethical research respect for persons beneficence and justice was first established by the",
+            "content": "summary on july 12 1974 the national research act pub l 93348 was signed into law thereby creating the national commission for the",
+            "url": "https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/read-the-belmont-report/index.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "typical clinical symptoms following infection with astroviruses include which of the following",
+            "content": "astroviruses most commonly cause the stomach flu which is medically known as viral gastroenteritis symptoms usually begin 4 to 5 daystrusted",
+            "url": "https://www.healthline.com/health/astrovirus",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what is the biggest risk factor for infection with ebola",
+            "content": "direct repeated contact with body fluid during provision of care has been reported as one of the most important risk factors for transmission in other studies",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9582041/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which is a major characteristic of the bunyavirus family",
+            "content": "bunyaviruses are spherical enveloped particles 90 to 100 nm in diameter they contain three segments of antisense and sometimes ambisense singlestranded rna",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK8004/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the requirements for an effective surveillance system include",
+            "content": "surveillance systems need to be designed and implemented to meet top managements needs for focused reliable timely evidence gathered efficiently and",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK11770/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a city has a population of 250000 cases and 400 deaths each year from this disease there are 2500 deaths per year from all causes the prevalence of this disease is given by",
+            "content": "a city has a population of 250000 of these 10000 have disease x which is incurable there are 1000 new cases and 400 deaths each year",
+            "url": "https://www.eneutron.info/america/usmle/previous-bases/practice/biostatics/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "why are members of the astrovirus family only recently recognised as significant enteric viruses for humans",
+            "content": "astroviruses constitute a recently described family of animal viruses some of these are human viruses that cause gastroenteritis but astroviruses for",
+            "url": "https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/human-astrovirus",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following coronaviruses has caused thousands of deaths around the world as an emergent virus",
+            "content": "explanationalthough mers oc43 and hku1 can cause mortality sars holds the record at present with 800 or so deaths in the 2002 outbreak next question",
+            "url": "https://medizzy.com/learning/mcq/question/33901898",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "david baltimore is a molecular biologist what did he discover",
+            "content": "he was introduced to molecular biology by george streisinger under whose mentorship he during this work he made a key discovery that polio produced",
+            "url": "https://en.wikipedia.org/wiki/David_Baltimore",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the paramyxovirus family employ what strategy at virus entry",
+            "content": "since the fusion protein is essential for viral infectivity and for direct celltocell spread via fusion it plays a pivotal role in disease development",
+            "url": "https://www.sciencedirect.com/topics/neuroscience/paramyxoviridae",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the influenza virus is mainly controlled in special risk sectors by",
+            "content": "influenza is a notifiable disease residential care healthcare and childcare facilities are all at higher risk of influenza outbreaks",
+            "url": "https://www.health.vic.gov.au/infectious-diseases/influenza",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which replication strategy is paralleled by some other viruses",
+            "content": "bmv and some other alphaviruslike rna viruses also parallel retroviruses in using trnarelated sequences to initiate genome replication",
+            "url": "https://www.nature.com/articles/nrmicro1389",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "mers has four special characteristics and here we have one exception which is it",
+            "content": "like many coronaviruses merscov carries genes that encode multiple accessory proteins that are not required for replication of the genome but",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4817253/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which unique form does the rabies virus take",
+            "content": "rabies lyssavirus has a cylindrical morphology and is a member of the lyssavirus genus of the rhabdoviridae family these viruses are enveloped and have a",
+            "url": "https://en.wikipedia.org/wiki/Rabies_virus",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which virus infection was not first identified by clinical observation",
+            "content": "at the end of the 19th century while bacteria were discovered viruses such as influenza and smallpox were not yet known tobacco mosaic virus was the first",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9609744/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "clinical infection by an arenavirus is characterised by which one of the following",
+            "content": "arenaviruses are rodentborne pathogens that can cause hemorrhagic fevers in infected humans including lasv macv junín virus and lymphocytic",
+            "url": "https://www.sciencedirect.com/topics/neuroscience/arenavirus",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a virus such as influenza which emerges suddenly and spreads globally is called",
+            "content": "every few decades or so a new version of the influenza virus emerges in the human population that causes a serious global outbreak of disease called a pandemic",
+            "url": "https://www.bcm.edu/departments/molecular-virology-and-microbiology/emerging-infections-and-biodefense/specific-agents/influenza-virus-flu",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the risk of acquiring hiv from a unit of blood in the united states is now",
+            "content": "the risk to a hypothetical blood recipient from an average number of units transfused is under baseline assumptions approximately 1 in 34000 progressively",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK219121/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is the most special characteristic of the adaptive immune system",
+            "content": "antibodies are a critical part of the adaptive immune system adaptive immunity can provide longlasting protection sometimes for the persons entire lifetime",
+            "url": "https://en.wikipedia.org/wiki/Adaptive_immune_system",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how is next generation sequencing ngs most often used",
+            "content": "the most commonly used ngs assay for cancer patients is targeted panel sequencing which usually interrogates dozens or hundreds of targeted genes such",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6528456/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a “benefit” of research may accrue",
+            "content": "study aims as a result participants are exposed to undue risk without generating a benefit to science such underaccrued studies pose an ethical dilemma",
+            "url": "https://www.nccih.nih.gov/grants/policies/nccih-policy-study-accrual-and-retention-for-human-subject-research",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the major beneficiary of medicaid in the us is",
+            "content": "fast fact as of november 2022 medicaid and chip covered more than 917 million individuals in the united states slide 8 this section of the profile",
+            "url": "https://www.medicaid.gov/medicaid/quality-of-care/downloads/beneficiary-profile-2023.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following diseases is not caused by togaviruses",
+            "content": "clinical illnesses caused by togaviruses range from mild fever to severe diseases such as encephalitis and hemorrhagic fever one of the commonest clinical",
+            "url": "https://www.sciencedirect.com/topics/neuroscience/togaviruses",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "“contingency management” is”",
+            "content": "contingency management cm contingency management is often called motivational incentives the prize method or the carrot and stick method",
+            "url": "https://www.recoveryanswers.org/resource/contingency-management/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "deep nucleotide sequencing ngs is now cheap enough for general application what will the technique mainly be useful for",
+            "content": "nextgeneration sequencing ngs is a new technology used for dna and rna sequencing and variantmutation detection ngs can sequence hundreds and thousands",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6528456/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the prevalence of hiv among latinoamericans compared to other ethic groups in the us is",
+            "content": "blackafrican american people and hispaniclatino people are particularly affected by hiv making up more than half 70 of estimated new hiv",
+            "url": "https://www.cdc.gov/hiv/data-research/facts-stats/race-ethnicity.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what is the essential pathology of astroviruses",
+            "content": "by s schultzcherry 2014 while astrovirus does cause gastroenteritis in turkeys and chickens it can also cause nephritis in chickens and a severe often fatal hepatitis in young",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7158171/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "chemotherapy is now an option for clinical care of patients typical drug regimens now include which of the following",
+            "content": "by c sordobahamonde 2023 chemoimmunotherapy is an emerging treatment option for cancer that combines traditional chemotherapy with immunotherapy",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10252089/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a casecontrol study is conducted to assess the association between alcohol consumption and lung cancer patients with lung cancer and 100 controls are asked about their past alcohol consumption according to the study results alcohol consumption is strongly associated with lung cancer or 25 the researchers then divide the study subjects into two groups smokers and nonsmokers subsequent statistical analysis does not reveal any association between alcohol consumption and lung cancer within either group the scenario described is an example of which of the following",
+            "content": "our data suggest that the relationship between alcohol consumption and lung carcinoma differs by histological subtype",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4706677/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what is the current best option for preventing future outbreaks of ebola",
+            "content": "community engagement is key to successfully controlling outbreaks raising awareness of risk factors for ebola infection and protective measures",
+            "url": "https://www.who.int/news-room/fact-sheets/detail/ebola-virus-disease",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is the most important for controlling disease caused by norovirus",
+            "content": "norovirus is the leading cause of vomiting and diarrhea and foodborne illness in the united states always wash your hands and handle food well",
+            "url": "https://www.cdc.gov/norovirus/index.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why are the viruses of this family called astroviruses",
+            "content": "astroviruses astroviridae are a type of virus that was first discovered in 1975 using electron microscopes following an outbreak of diarrhea in humans",
+            "url": "https://en.wikipedia.org/wiki/Astrovirus",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the particular quality of the us health care system is its",
+            "content": "the us performs similarly to or better than peer nations in some other measures of treatment outcomes such as mortality rates within 30 days",
+            "url": "https://www.healthsystemtracker.org/chart-collection/quality-u-s-healthcare-system-compare-countries/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the chance of acquiring hiv infection from factor viii in the united states in 2011 is 0 primarily because",
+            "content": "addiction research has uncovered critical information about the impact of substance abuse behaviours on the risk of hiv transmission",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3520050/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following are goals of vaccination",
+            "content": "we now have vaccines to prevent more than 20 lifethreatening diseases helping people of all ages live longer healthier lives immunization currently prevents",
+            "url": "https://www.who.int/health-topics/vaccines-and-immunization",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "there were no new cases of ebola virus in the united states from january 1 1997 through january 1 1998 which of the following epidemiologic terms does this statement describe",
+            "content": "ebola virus disease evd is a severe and frequently lethal disease caused by ebola virus ebov evd outbreaks typically start from a single case of probable",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7223853/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "prep is an effective strategy for reducing the incidence of hiv in",
+            "content": "cdc reports that studies on prep effectiveness have shown that consistent use of prep reduces the risk of getting hiv from sex by about 99 and",
+            "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/pre-exposure-prophylaxis-prep",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "where are arenaviruses predominately located in the world",
+            "content": "the division of the arenaviruses into old world and new world groups as well as the subdivision of new world arenaviruses into three groups is strongly",
+            "url": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/arenavirus",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why do vigorous cd8 cell responses in chronically infected hivpositive individuals fail to eliminate the virus",
+            "content": "there is substantial evidence that cellular immunity mediated by cd8 t cells can sustain longterm diseasefree and transmissionfree hiv control",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7222980/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "why do emerging viruses like zika and ebola continue to plague us",
+            "content": "here are four key reasons were seeing an uptick in infectious diseases around the world 1 more travel trade and connectivity",
+            "url": "https://www.vox.com/2016/5/31/11638796/why-there-are-more-infectious-disease-outbreaks",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "achieving effective change in a community is usually dependent on which of the following segments of society",
+            "content": "learn how to use different sectors based on common social political economic cultural or religious interests to help you reach targets and agents of change",
+            "url": "http://ctb.ku.edu/en/table-of-contents/analyze/where-to-start/community-sectors/main",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "a study is conducted to assess the relationship between race and endstage renal disease pathologists independently study specimens from 1000 kidney biopsies the first group of pathologists is aware of the race of the patient from whom the biopsy came while the second group is blinded as to the patient’s race the first group reports ‘hypertensive nephropathy’ much more frequently for black patients than the second group which of the following types of bias is most likely present in this study",
+            "content": "this will build patient confidence and selfawareness with the aim that any patient who sadly arrives at possible dialysis is in the right state of mind which",
+            "url": "https://www.kidney-international.org/article/S0085-2538(23)00766-4/fulltext",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "randomization of study subjects in a clinical trial is most helpful for controlling for which of the following",
+            "content": "randomized clinical trials rcts are studies in which participants are randomly randomized assigned to an experimental group or a control group",
+            "url": "https://www.bioclever.com/randomized-clinical-trials-n-41-en",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how were retroviruses discovered",
+            "content": "the first human retroviruses htlvi was first reported by robert c gallo and coworkers in 1980 and reconfirmed by yorio hinuma and coworkers",
+            "url": "https://retrovirology.biomedcentral.com/articles/10.1186/1742-4690-6-40",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how are arenaviruses spread",
+            "content": "arenaviruses persist in nature by infecting rodents first and then transmitted into humans",
+            "url": "https://en.wikipedia.org/wiki/Arenavirus",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the major issue for hiv infection among the latino population is",
+            "content": "there is also an issue of distrust in the health care system among the hispaniclatino population that decreases the odds of receiving hivaids",
+            "url": "https://www.webmd.com/hiv-aids/hiv-aids-hispanic-latino-populations",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the most widespread and important retrovirus is hiv1 which of the following is true",
+            "content": "the major cause of acquired immune deficiency syndrome aids is human immunodeficiency virus type 1 hiv1 we have been using evolutionary comparisons to",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2935100/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the three key intervention strategies according to professor shoptaw are",
+            "content": "the intermediate phase of treatment included shoring up coping skills building social support engaging in meaningful activities developing a consistent sense",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3999248/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following drugs inhibit herpes viruses",
+            "content": "in fact most dna polymerase inhibitors such as penciclovir and foscarnet are able to suppress genome replication of all three herpesvirus subfamilies",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8187247/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what is the most important factor for virus classification",
+            "content": "viruses are classified by phenotypic characteristics such as morphology nucleic acid type mode of replication host organisms and the type of disease they",
+            "url": "https://en.wikipedia.org/wiki/Virus_classification",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a quasi species virus such as influenza and hiv has which of the following characteristics",
+            "content": "the tremendous majority of rna genomes from pathogenic viruses analyzed and deposited in databases are consensus or “democratic” genomes",
+            "url": "https://onlinelibrary.wiley.com/doi/full/10.1002%2Fjmv.29209",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "most surveillance systems use which of the following study designs",
+            "content": "study design is a process wherein the trial methodology and statistical analysis are organized to ensure that the null hypothesis is either accepted or",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2924977/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following hpv viruses are known to cause cervical cancer",
+            "content": "around 14 types of hpv are considered high risk for cervical cancer two of these types hpv 16 and hpv 18 cause about 70 out of 100 70 of all cervical",
+            "url": "https://www.cancerresearchuk.org/about-cancer/cervical-cancer/risks-causes",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what is the most common way for a virus to kill a cell",
+            "content": "release viruses can be released from the host cell by lysis a process that kills the cell by bursting its membrane and cell wall if present this is a",
+            "url": "https://en.wikipedia.org/wiki/Virus",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the first acquired immune cell to respond defensively to hiv infection is",
+            "content": "hiv1 induced cytokine and chemokine production during acute hiv1 infection the innate immune system is the first line of defense and consists of innate",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2945608/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "chikungunya has spread widely from asia and africa into the caribbean in recent years this has been mainly facilitated by",
+            "content": "the genes encoding the viral envelope proteins have been mutated in recent decades which facilitated chikv transmission by aedes albopictus 2 chikv has",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9870324/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "measles has been controlled in many countries by which of the following",
+            "content": "measles is a highly contagious disease caused by a virus it spreads easily when an infected person breathes coughs or sneezes",
+            "url": "https://www.who.int/news-room/fact-sheets/detail/measles",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a good surveillance system should provide information about",
+            "content": "this document describes the evaluation of epidemiologic surveillance systems its purpose is to promote the best use of public health resources",
+            "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00001769.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in hivassociated tuberculosis cases treatment with antiretrovirals should begin",
+            "content": "by me török 2011 patients were randomly assigned to two treatment groups art initiated 2 weeks after the start of tuberculosis treatment and art initiated 8",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMe1109546",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "positive stranded rna viruses have which of the following characteristics",
+            "content": "positivestrand rna viruses contain singlestranded codingsensed rna genomes most plant viruses contain this type of genome and many of them cause",
+            "url": "https://www.sciencedirect.com/topics/immunology-and-microbiology/positive-strand-rna-virus",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "polio can be eradicated by which of the following",
+            "content": "the pan american health organization paho under the leadership of ciro de quadros launched an initiative to eradicate polio from the americas in 1985",
+            "url": "https://en.wikipedia.org/wiki/Polio_eradication",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which areas of the world are rabies free",
+            "content": "several countries are considered rabiesfree including american samoa aruba antigua barbados australia bermuda belgium fiji england tahiti guam",
+            "url": "https://worldpopulationreview.com/country-rankings/rabies-free-countries",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is an unusual feature of the replication cycle in coronaviruses",
+            "content": "coronaviruses have helically symmetrical nucleocapsids which is uncommon among positivesense rna viruses but far more common for negativesense rna viruses",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4369385/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is a special feature of the rabies vaccine",
+            "content": "two types of vaccines to protect against rabies in humans exist nerve tissue and cell culture vaccines who recommends replacement of nerve tissue vaccines",
+            "url": "https://www.who.int/teams/control-of-neglected-tropical-diseases/rabies/vaccinations-and-immunization",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "how can the spread of filoviruses be restricted",
+            "content": "this chapter describes the various strategies filoviruses use to escape host immune responses with a focus on innate immune and cell death pathways",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5973841/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the range of disease caused by the family is wide but identify the exception from the following",
+            "content": "the purpose of this study was to identify the domains of family members health and wellbeing that are affected when a relative has a chronic health condition",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3864647/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "how can epidemics of astrovirus mainly be controlled",
+            "content": "treatment prevention and control because astrovirus infection is generally mild and selflimiting in humans treatment is generally restricted to fluid",
+            "url": "https://www.sciencedirect.com/topics/medicine-and-dentistry/astrovirus-infection",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the genetic structure of rotavirus",
+            "content": "rotavirus morphogenesis is a unique process during which immature subviral particles bud through the membrane of the endoplasmic reticulum er during this",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC372748/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "public health ethics is",
+            "content": "public health ethics is the first peerreviewed international journal to focus on a systematic analysis of the moral problems in public health and preventive",
+            "url": "https://academic.oup.com/phe",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the risk of perinatal transmission of hiv1 infection during breast feeding is increased due to",
+            "content": "breastfeeding duration as well as maternal immune status appear to be major determinants of hiv transmission",
+            "url": "https://apps.who.int/iris/bitstream/handle/10665/43879/9789241596596_eng.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "most viral vaccines are produced by which of the following techniques",
+            "content": "according to dr scully liveattenuated vaccines are produced by selecting strains of a bacteria or virus that still produce a robust enough immune response",
+            "url": "https://www.pfizer.com/news/articles/understanding_six_types_of_vaccine_technologies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "most pandemics have arisen from influenza viruses from which of the following animals",
+            "content": "to date all known flu pandemics have been caused by influenza a viruses influenza viruses have been found in many other animals including cattle",
+            "url": "https://en.wikipedia.org/wiki/Influenza",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what has so far prevented polio being eradicated from the world",
+            "content": "an estimated 15 million childhood deaths have been prevented through the systematic administration of vitamin a during polio immunization activities",
+            "url": "https://www.who.int/health-topics/poliomyelitis",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the influenza virus has complicated genetics mainly characterised by which of the following",
+            "content": "influenza a virus contains regions of its segmented genome associated with ability to package the segments into virions but many such regions",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11034665/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "arewere viruses",
+            "content": "most biologists say no viruses are not made out of cells they cant keep themselves in a stable state they dont grow and they cant make their own energy",
+            "url": "https://www.khanacademy.org/test-prep/mcat/cells/viruses/a/are-viruses-dead-or-alive",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how many people globally are currently infected with hepatitis b",
+            "content": "who estimates that 254 million people were living with chronic hepatitis b infection in 2022 with 12 million new infections each year in 2022",
+            "url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-b",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which member of the paramyxovirus family can cause very serious croup",
+            "content": "some of the most threatening paramyxoviruses to humans include hendra virus measles mumps nipah virus and parainfluenza viruses",
+            "url": "https://www.gavi.org/vaccineswork/viral-most-wanted-paramyxovirus-family",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "how can the morphology of filoviruses be described",
+            "content": "according to electron microscopy filoviridae virions are pleomorphic usually bshaped containing a nucleocapsid 20 nm in diameter surrounded by a helical",
+            "url": "https://www.sciencedirect.com/topics/medicine-and-dentistry/filovirus",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the treatment of hepatitis c has been revolutionised most recently by which of the following",
+            "content": "the focus of the present review is on the newer directly acting antiviral agents which have revolutionized the management of chronic hcv infection",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9099099/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "how is the parvovirus family targeted to reduce disease",
+            "content": "the members of genus dependovirus which includes the adenoassociated viruses 1 to 6 require coinfection of target cells with adenovirus or herpesvirus for",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC118081/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the highest risk of hiv infection among drug users in the us is in",
+            "content": "methamphetamine use has been associated with increased risks for transmission of multidrugresistant hiv msm who use methamphetamine often engage in high risk",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3059238/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "500 women aged 40 54 who present for routine checkups are asked about their meat consumption the women turn out to be vegetarian during the ensuing 5 years 5 vegetarians and 43 nonvegetarians develop colorectal cancer which of the following best describes the study design",
+            "content": "vegetarianism within the uk is growing in popularity with the current estimate of 7 of the population eating a vegetarian diet this study examine…",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0195666301904064",
+            "engine": "braveAPI"
+        }
+    ]
+}

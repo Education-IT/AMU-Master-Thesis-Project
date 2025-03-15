@@ -1,0 +1,1790 @@
+{
+    "task": "mmlu_human_aging",
+    "dataset": "web_access_human_aging_final",
+    "questions": 223,
+    "noWebContextCount": 0,
+    "contaminated_queries": 64,
+    "contaminated_urls": 196,
+    "valid_urls": 223,
+    "avg_contaminated_before_valid": 1.8789237668161436,
+    "contaminated_data_ratio": 0.4677804295942721,
+    "most_contaminated_urls": {
+        "s3-eu-west-1.amazonaws.com": 27
+    },
+    "noWebContext": [],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "in this chapters senior view dr donham told us that mental stimulation exercise diet and what other factor is important for long life",
+            "content": "in this chapters senior view dr donham told us that mental stimulation exercise diet and what other factor is important for long life hint feedback",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%205%20Multiple%20Choice.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a researcher who wants to examine both age and cohort differences is advised to use a design",
+            "content": "a researcher who wants to examine both age and cohort differences is advised to use a design hint feedback for all incorrect answers answer graded",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%202%20Multiple%20Choice.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "with respect to theories of senescence its probably safe to say that",
+            "content": "with respect to theories of senescence its probably safe to say that hint feedback for all incorrect answers answer graded as feedback programmed",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%204%20Multiple%20Choice.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "surveys of older adults who are living together show that they tend to view cohabitation as",
+            "content": "show high satisfaction that steadily declines as the years pass surveys of older adults who are living together show that they tend to view cohabitation as",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%2010%20Multiple%20Choice.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the least favored theory of senescence among researchers is the theory",
+            "content": "the least favored theory of senescence among researchers is the theory hint feedback for all incorrect answers answer graded as feedback free",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%204%20Multiple%20Choice.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "older adults with higher education and selfesteem are more likely to be",
+            "content": "older adults with higher education and selfesteem are more likely to be hint feedback for all incorrect answers answer graded as feedback sexually active",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%2010%20Multiple%20Choice.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a researcher finds that age is negatively correlated with cigarette smoking this means that",
+            "content": "a researcher finds that age is negatively correlated with cigarette smoking this means that the same number of cigarettes and both experience negative",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%202%20Multiple%20Choice.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "men are more likely than women to die from",
+            "content": "men were more likely than women to die in accidents among 2534 year olds the median number of deaths from accidents was 42 per 100 000 people among men and",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1523476/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "men are more likely than women to die from",
+            "content": "in fact men are 50 more likely than women to die of heart disease men more often than women tend to have higher death rates avoid",
+            "url": "https://www.health.harvard.edu/blog/why-men-often-die-earlier-than-women-201602199137",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "men are more likely than women to die from",
+            "content": "heart disease is the leading cause of death in men each year men are more likely than women to die from most of these causes",
+            "url": "https://dph.illinois.gov/topics-services/life-stages-populations/mens-health/top-10-causes-death.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in this chapters senior view pat shelley told us that you shouldnt retire if",
+            "content": "in this chapters senior view pat shelley told us that you shouldnt retire if older workers depends both upon the decline of skills and the benefits of",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%2011%20Multiple%20Choice.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the idea that the ability to complete a task depends on the fit between the environment and the person undertaking the task is a basic tenet of which of the following theories of aging",
+            "content": "the idea that the ability to complete a task depends on the fit between the environment and the person undertaking the task is a basic tenet of which of the",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%2013%20Multiple%20Choice.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the retirement phase that occurs least frequently is the phase",
+            "content": "it already started changing question 15 type multiple choice the retirement phase that occurs least frequently is the phase hint feedback for all",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%2011%20Multiple%20Choice.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if we found that adult age was significantly and positively correlated with consumption of herbal teas we could conclude that",
+            "content": "if we found that adult age was significantly and positively correlated with consumption of herbal teas we could conclude that hint feedback for all",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%202%20Multiple%20Choice.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is the most important variable for gerontological researchers",
+            "content": "which of the following is the most important variable for gerontological researchers hint feedback for all incorrect answers answer graded as feedback",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%202%20Multiple%20Choice.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in this chapters senior view tolly kleckley told us that personality",
+            "content": "in this chapters senior view tolly kleckley told us that personality hint does personality decline as we grow older incorrect does personality",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%209%20Multiple%20Choice.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the dementia that results from a longterm deficiency of thiamine is one type of dementia",
+            "content": "what does mci stand for question 11 type multiple choice the dementia that results from a longterm deficiency of thiamine is one type of dementia",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%2012%20Multiple%20Choice.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the kingbergs give us several keys to successful aging which of the following is one that they did not name",
+            "content": "the kingbergs give us several keys to successful aging which of the following is one that they did not name hint feedback for all incorrect answers",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%202%20Multiple%20Choice.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in this chapters senior view may lee told us that we should all respect our elders because",
+            "content": "in this chapters senior view may lee told us that we should all respect our elders because the ability to complete a task depends on the fit between the",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%2013%20Multiple%20Choice.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a person who is not very well organized rarely sets goals and frequently puts things off until the last minute would be said to be low on which trait",
+            "content": "a person who is not very well organized rarely sets goals and frequently puts things off until the last minute would be said to be low on which trait",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%209%20Multiple%20Choice.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the environmental design that brings pets and plants to nursing homes and young people and children as regular visitors is referred to as",
+            "content": "the environmental design that brings pets and plants to nursing homes and young people and children as regular visitors is referred to as hint feedback for",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%2013%20Multiple%20Choice.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "gary says he won 1000 in the lottery because he really knows how to pick those numbers gary would be said to have a strong locus of control",
+            "content": "gary says he won 1000 in the lottery because he really knows how to pick those numbers gary would be said to have a strong locus of control hint",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%209%20Multiple%20Choice.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "workers in which of the following jobs still have mandatory retirements once they reach a certain age",
+            "content": "workers in which of the following jobs still have mandatory retirements once they reach a certain age hint feedback for all incorrect answers answer",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%2011%20Multiple%20Choice.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "middleaged adults appear to be more than older or younger adults",
+            "content": "middleaged adults appear to be more than older or younger adults hint feedback for all incorrect answers answer graded as feedback generative",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%209%20Multiple%20Choice.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the answer both play an important role is clearly applicable to the question of",
+            "content": "question 9 type multiple choice the answer both play an important role is clearly applicable to the question of hint feedback for all incorrect answers",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%202%20Multiple%20Choice.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "bu is often late for appointments but says its because she had more important things on her mind this is an example of which coping strategy",
+            "content": "bu is often late for appointments but says its because she had more important things on her mind this is an example of which coping strategy hint",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%209%20Multiple%20Choice.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "in this chapters senior view dr shealy advises you to",
+            "content": "in this chapters senior view dr shealy advises you to hint feedback for all incorrect answers answer graded as feedback stay in school correct eat",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%201%20Multiple%20Choice.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "projective tests generally than objective tests of personality",
+            "content": "an example of an objective test of personality is the hint feedback for projective tests generally than objective tests of personality hint",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%209%20Multiple%20Choice.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "clifford and lucia pauling in senior view told us that physical changes",
+            "content": "clifford and lucia pauling in senior view told us that physical changes hint feedback for all incorrect answers answer graded as feedback are rapid and",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%203%20Multiple%20Choice.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a disadvantage of institutional care is that the staff frequently teach older residents to be",
+            "content": "older adults may be more attached to a place than younger a disadvantage of institutional care is that the staff frequently teach older residents to be",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%2013%20Multiple%20Choice.doc",
+            "engine": "google"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "the major question concerning aging and personality is",
+            "content": "in this paper we highlighted links between personality traits and successful ageing through a systematic review of recent empirical studies",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8217419/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a problem for immune system theories of senescence is",
+            "content": "innate immune senescence exhibits a decline in antigen processing and presentation capacity and thus a decreased response to stimuli",
+            "url": "https://www.nature.com/articles/s41392-023-01451-2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "very rapid disposal of the body before sundown on the day of the death is typical of which religion",
+            "content": "traditional jewish ritual and mourning practices jewish funerals generally take place as soon after death as possible families who wish to consider cremation",
+            "url": "https://www.jcfs.org/our-services/jewish-community-programs/illness-loss-grief/guide-for-the-grieving/traditional-mourning",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "of the following which is the more frequent stereotype of older adults",
+            "content": "common negative stereotypes about older people include their suffering from poor health and loneliness physical and cognitive incompetency unproductivity and",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8551093/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "dna damagerepair theory claims that senescence is due to cells getting incorrect instructions from dna damaged by sources such as",
+            "content": "cells are driven into senescence by clastogenic compounds such as bleomycin doxorubicin or cisplatin often causing irreparable dna damage",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9844150/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "in this chapters senior view dr donham told us that mental stimulation exercise diet and what other factor is important for long life",
+            "content": "costs depend on multiple factors in this chapter we explore these factors that drive people to engage in behaviors that might adversely",
+            "url": "https://documents1.worldbank.org/curated/ru/716811468151506045/pdf/Risking-your-health-causes-consequences-and-interventions-to-prevent-risky-behaviors.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "older adults generally perform very well when their memory is tested",
+            "content": "the results indicate that being in a memorytesting context affects older adults selfperception by making them feel older",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4684163/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following improves attitudes toward aging and older adults",
+            "content": "as was also shown increasing knowledge leads to improved attitudes toward older adults a second general conclusion revealed the importance of sociability",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10600372/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "one line of evidence against antagonistic pleiotropy is that",
+            "content": "genetic models of populations show that antagonistic pleiotropy allows genetic disorders to be maintained at reasonably high frequencies even if the fitness",
+            "url": "https://en.wikipedia.org/wiki/Antagonistic_pleiotropy_hypothesis",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the insurance program for poor people of all ages is called",
+            "content": "in all states medicaid provides coverage for some lowincome people families and children pregnant people the elderly and people with disabilities",
+            "url": "https://www.healthcare.gov/medicaid-chip/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "loss of stomach lining can lead to symptoms that resemble",
+            "content": "gastritis is inflammation in your stomach lining its usually temporary acute but some people have chronic gastritis",
+            "url": "https://my.clevelandclinic.org/health/diseases/10349-gastritis",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "a researcher who wants to examine both age and cohort differences is advised to use a design",
+            "content": "by pc cozby research reports using the chapter 9 addresses developmental designs and singlesubject designs for special applications in human development research",
+            "url": "https://www.csusm.edu/psychology/currentstudents/research-methods-in-human-development.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the largest proportion of older adults living alone reside in",
+            "content": "in the united states 27 of adults ages 60 and older live alone compared with 16 of adults in the 130 countries and territories studied",
+            "url": "https://www.pewresearch.org/short-reads/2020/03/10/older-people-are-more-likely-to-live-alone-in-the-u-s-than-elsewhere-in-the-world/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "an example of an objective test of personality is the",
+            "content": "the rorschach inkblot test is a type of projective personality test that involves giving a subjective interpretation of an ambiguous inkblot a",
+            "url": "https://www.verywellmind.com/what-is-personality-testing-2795420",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "one reason that older adults may have difficulty in retrieving memories is that",
+            "content": "researchers propose an explanation for why this might be happening the brains of older adults allocate more space to accumulated knowledge and have more",
+            "url": "https://www.news-medical.net/news/20220211/New-explanation-for-why-older-adults-have-difficulty-retrieving-memories.aspx",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "comorbidity is a problem for older adults because it",
+            "content": "the most common comorbid conditions that occur in elderly people include heart disease hypertension respiratory disease cerebrovascular disease diabetes",
+            "url": "https://www.news-medical.net/health/Comorbidities-in-Older-Adults.aspx",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the study of older adults and aging is referred to as",
+            "content": "gerontology is the study of the social cultural psychological cognitive and biological aspects of aging the word was coined by ilya ilyich mechnikov in",
+            "url": "https://en.wikipedia.org/wiki/Gerontology",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "activation of a class of genes called sirtuins may help to",
+            "content": "this review examines the several controversial issues around sirtuins and their functions in aging calorie restriction as well as agerelated diseases",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4101544/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which level of personality description appears to show the most change with age",
+            "content": "on the contrary people in the study showed the most change in agreeableness during their 30s and continued to improve through their 60s this even happened",
+            "url": "https://www.apa.org/monitor/julaug03/personality",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "loss of muscle fiber may be due to loss of neurons which may be due to",
+            "content": "loss of muscle mass with aging which is largely due to the progressive loss of motoneurons is associated with reduced muscle fiber number and size muscle",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6442923/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when damage to the brain is irreversible and increasing we refer to the disorder as",
+            "content": "a traumatic brain injury tbi refers to a brain injury that is caused by an outside force tbi can be caused by a forceful bump blow or jolt to the head or",
+            "url": "https://www.ninds.nih.gov/health-information/disorders/traumatic-brain-injury-tbi",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following has not been shown to be an effective treatment for depression in older adults",
+            "content": "read on to learn about depression in older adults the common signs and symptoms treatment options and ways to provide support",
+            "url": "https://www.nia.nih.gov/health/mental-and-emotional-health/depression-and-older-adults",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "continued stress is damaging to health and longevity because it leads to",
+            "content": "in contrast prolonged exposure to stress can overwhelm compensatory responses “toxic stress” and shorten lifespan one key question is whether the stressors",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4022128/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "being in bright light during the later parts of the day seems to",
+            "content": "its called an afterimage staring at a bright light for a long oeriod will eventually damage your eyes and youll have a permanent afterimage",
+            "url": "https://www.reddit.com/r/askscience/comments/cd5ts6/why_is_it_if_we_stare_at_a_bright_light_for_too/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when a measure actually quantifies what it claims to measure we say that it has good",
+            "content": "reliability refers to the consistency of a measure and validity refers to the accuracy of a measure",
+            "url": "https://www.scribbr.com/frequently-asked-questions/reliability-and-validity/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "even a small amount of sleep deprivation seems to",
+            "content": "sleep deprivation can come with steep consequences including an increased risk of car crashes heart problems reduced immune function",
+            "url": "https://www.sleepfoundation.org/sleep-deprivation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "with respect to theories of senescence its probably safe to say that",
+            "content": "by csa davanwetton 2021 cellular senescence is a state of permanent cell cycle arrest induced in proliferating cells by multiple stressors and conditions the most common mechanism",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8038995/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "surveys of older adults who are living together show that they tend to view cohabitation as",
+            "content": "older adults are increasingly likely to experience cohabitation or living together unmarried in an intimate heterosexual union",
+            "url": "https://academic.oup.com/psychsocgerontology/article/61/2/S71/558402",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "with respect to marital satisfaction most long lasting marriages",
+            "content": "j abreuafonso 2021 cytowane przez 101 the empirical research of marital satisfaction has shown that in stable marriages spouses are healthier happier and live longer be et al 2013 robles et",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9136471/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a major reason for studying human aging is that",
+            "content": "we are all growing older more job opportunities are available for those with some knowledge of aging the number and proportion of older",
+            "url": "https://www.shaalaa.com/question-bank-solutions/a-major-reason-for-studying-human-aging-is-that_302210",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "after losing a spouse the surviving spouse often dies within the first year because of",
+            "content": "the risk of dying after losing a spouse changes with age a new study finds",
+            "url": "https://time.com/6265173/men-dying-after-spouse-dies/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "grandparents with grandchildren in college report feeling especially loved when such grandchildren",
+            "content": "children gain selfesteem and selfconfidence by feeling loved the greatest gift grandparents can give their grandchildren is unconditional love and support",
+            "url": "https://foreverfamilies.byu.edu/importance-of-grandparents-to-their-grandchildren",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the term baby boom generation refers to people who",
+            "content": "“baby boomer” is a term used to describe those who were born from 1946 to 1964 they formed the largest generational group in us history until the",
+            "url": "https://www.investopedia.com/terms/b/baby_boomer.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is not one of the most rewarding aspects of being a grandparent as reported by grandparents",
+            "content": "the main role of a grandmother is to develop interpersonal relationships with her grandchildren she acts as a confidant of childrens greatest secrets",
+            "url": "https://epozytywnaopinia.pl/en/the-role-of-grandparents-in-child-development",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in which country do most individuals choose to be cremated",
+            "content": "the cremation rate in the united kingdom cremations are most common in england and wales while still uncommon in northern ireland the 2022 cremation rate was",
+            "url": "https://en.wikipedia.org/wiki/Cremation_by_country",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "neat may be one way in which some people are able to maintain a healthy bmi neat refers to",
+            "content": "in conclusion neat is a highly variable component of daily tee and a low level of neat is associated with obesity neat enhances lifestyle and variations in",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6058072/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "current life expectancy in the united states is about",
+            "content": "life expectancy both sexes 775 years males 748 years females 802 years",
+            "url": "https://www.cdc.gov/nchs/fastats/life-expectancy.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "normal memory seems to be improved by",
+            "content": "memory loss 7 tips to improve your memory 1 be physically active every day 2 stay mentally active 3 spend time with others 4 stay organized 5 sleep",
+            "url": "https://www.mayoclinic.org/healthy-lifestyle/healthy-aging/in-depth/memory-loss/art-20046518",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "theories",
+            "content": "a theory is a systematic and rational form of abstract thinking about a phenomenon or the conclusions derived from such thinking",
+            "url": "https://en.wikipedia.org/wiki/Theory",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the most frequent chronic condition for older adults is",
+            "content": "aging increases the risk of chronic diseases like dementia heart disease type 2 diabetes arthritis and cancer older adults are also more",
+            "url": "https://www.cdc.gov/cdi/indicator-definitions/older-adults.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following factors has not received as much support as the others in research investigating why social support is related to better health",
+            "content": "recent findings often show a robust relationship in which social and emotional support from others can be protective for health",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2729718/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the influence of genetics on longevity is estimated to be about",
+            "content": "it is estimated that about 25 percent of the variation in human life span is determined by genetics but which genes and how they contribute to",
+            "url": "https://medlineplus.gov/genetics/understanding/traits/longevity/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "older workers are more likely to",
+            "content": "theyre working more hours on average than in previous decades theyre more likely to have a fouryear college degree than in the past",
+            "url": "https://www.pewresearch.org/social-trends/2023/12/14/older-workers-are-growing-in-number-and-earning-higher-wages/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "according to tat kleckley of this chapters senior view the most important part of the healing process for those who are bereaved is to",
+            "content": "this book is not meant to substitute for medical care of people with spinal cord injury and treatment should not be based solely on its contents instead",
+            "url": "https://www.yumsuklibrary.ng/ebooks/Spinal%20Cord%20Injury-Sara%20Palmer-2008.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "with respect to job training younger workers",
+            "content": "according to pwcs global workforce hopes and fears survey 2022 their biggest priorities are training development flexibility autonomy and transparency on",
+            "url": "https://www.strategy-business.com/article/Younger-workers-want-training-flexibility-and-transparency",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a possible positive effect of moderate alcohol consumption is that it may",
+            "content": "some past studies had suggested that moderate drinking might be good for your health might be more likely to exercise eat healthy and",
+            "url": "https://www.cdc.gov/alcohol/about-alcohol-use/moderate-alcohol-use.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "over the last decade or two which of the following causes of death has shown a huge increase",
+            "content": "they led to large surges in death rates from external causes and infectious diseases another example is that death rates from infectious diseases and",
+            "url": "https://ourworldindata.org/causes-of-death",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a burial site where the body is allowed to decompose naturally without a casket is called a cemetery",
+            "content": "christian cemeteries it was discussed that this was as a result of faster decomposition from being buried without a coffin however it should be noted",
+            "url": "https://naturalburialassociation.ca/wp-content/uploads/2023/05/Fleming-College-Report-on-Land-Trusts-Natural-Burial-Grounds-2023.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "older adults may be more attached to a place than younger adults because",
+            "content": "extreme object attachment in adults can form as a way to compensate for a lack of interpersonal attachment or as a symptom of hoarding",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7445186/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the least favored theory of senescence among researchers is the theory",
+            "content": "the disposable soma theory of senescence originally formu lated by keirkwood 1977 1981 and kirkwood and holliday 1979 represents an extension of",
+            "url": "https://www.jstor.org/stable/2938414",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "financial adjustment to retirement has been most difficult for",
+            "content": "while retiring can be a reward for years of hard work it can also trigger depression stress and anxiety these tips can help you cope",
+            "url": "https://www.helpguide.org/aging/healthy-aging/adjusting-to-retirement",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "older adults coping strategies are generally",
+            "content": "this study examined how older adults cope with negative life events in health interpersonal and financialwork domains and whether common stress and coping",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1948895/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "older adults are most likely to be involved in a traffic accident when they are",
+            "content": "each day 25 older adults are killed and over 740 are injured in crashes drivers aged 70 have higher crash death rates per 1000 crashes",
+            "url": "https://www.cdc.gov/older-adult-drivers/about/index.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "mabel davis in this chapters senior view would agree with which of the following",
+            "content": "american council on education what the high schools ought to teach 1940 washington d c the council 36 report of a special committee prepared for the",
+            "url": "https://journals.sagepub.com/doi/abs/10.3102/00346543013005499",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "of the following animals which has the longest life span by current measures",
+            "content": "giant barrel sponges can live more than 2000 years the giant barrel sponge xestospongia muta is one of the longestlived animals with the largest",
+            "url": "https://en.wikipedia.org/wiki/List_of_longest-living_organisms",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "those more likely to experience depression after a loss are those who",
+            "content": "people who have gone through adverse life events unemployment bereavement traumatic events are more likely to develop depression",
+            "url": "https://www.who.int/news-room/fact-sheets/detail/depression",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "with respect to hair loss",
+            "content": "hair loss can happen due to many variables such as genetic factors or predisposition vitamin and mineral deficiencies skin problems hair growth disorders",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9710406/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following statements is true concerning older workers job performance",
+            "content": "older workers never perform better than younger workers because with age a workers skills decline incorrect skills are not the only important factor job",
+            "url": "https://s3-eu-west-1.amazonaws.com/s3-euw1-ap-pe-ws4-cws-documents.ri-prod/9780205544011/Chapter%2011%20Multiple%20Choice.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "older adults with higher education and selfesteem are more likely to be",
+            "content": "by d ryszewskałabędzka 2022 the aim of this study was to determine the relationship among selfesteem biopsychosocial functioning and sociodemographic conditions in the elderly",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8871774/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the perspective that development is embedded in history means that",
+            "content": "lifespan development involves the exploration of biological cognitive and psychosocial changes and constancies that occur throughout the entire course of",
+            "url": "https://iastate.pressbooks.pub/individualfamilydevelopment/chapter/the-lifespan-perspective/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a researcher finds that age is negatively correlated with cigarette smoking this means that",
+            "content": "research suggests that women who experience early menopause are at increased risk for premature mortality cognitive decline osteoporosis cardiovascular",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5888979/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the gender gap is likely to be associated with malefemale differences in",
+            "content": "the gender gap is the difference between women and men as reflected in social political intellectual cultural or economic attainments or attitudes",
+            "url": "https://www.weforum.org/stories/2017/11/the-gender-gap-actually-got-worse-in-2017/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "men are more likely than women to die from",
+            "content": "men die by suicide three times more often than women in fact white men accounted for nearly 70 of suiciderelated deaths in 2018",
+            "url": "https://bcbsm.mibluedaily.com/stories/health-and-wellness/male-mortality-why-men-die-earlier-than-women",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "life stories are more likely for people who have a sense of",
+            "content": "it does this by enhancing the sense of empathy our ability to experience others emotions empathy is important for social creatures because",
+            "url": "https://hbr.org/2014/10/why-your-brain-loves-good-storytelling",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the information stored in memory according to research and our senior view interviewees is",
+            "content": "findings from basic psychological research and neuroscience studies indicate that memory is a reconstructive process that is susceptible to distortion",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4183265/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "free radicals are produced by",
+            "content": "causes of free radical damage although the body naturally produces free radicals environmental factors can accelerate their production",
+            "url": "https://www.medicalnewstoday.com/articles/318652",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "prospective memory refers to memory",
+            "content": "prospective memory is a form of memory that involves remembering to perform a planned action or recall a planned intention at some future point in time",
+            "url": "https://en.wikipedia.org/wiki/Prospective_memory",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "in this chapters senior view pat shelley told us that you shouldnt retire if",
+            "content": "heres what that retirement gave me 3 wasted years huge selfdoubt loss of motivation so let me tell you how that happened how did i",
+            "url": "https://www.linkedin.com/posts/joseph-lenahan-6b279461_last-night-we-celebrated-my-dad-thomas-activity-7291201246500163584-rGaH",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "older adults negative beliefs about their own memories seem to be more influenced by than by their actual performance on memory tests",
+            "content": "older adults beliefs about forgetting and aging predict memory selfefficacy above and beyond actual memory performance and mental health",
+            "url": "https://shs.cairn.info/revue-internationale-de-psychologie-sociale-2015-4-page-57?lang=fr",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "bmi is regarded as a better measure of health than weight by itself because bmi is based on weight and",
+            "content": "body mass index bmi is associated with but is not a direct measure of body fat therefore it is useful in screening for obesity but is not a diagnostic",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK594362/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the age at which one can receive full benefits from social security",
+            "content": "you can start receiving your social security retirement benefits as early as age 62 however you are entitled to full benefits only when you reach your full",
+            "url": "https://www.ssa.gov/benefits/retirement/planner/agereduction.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when a researcher takes part in the situation he or she is observing he or she is said to be an",
+            "content": "participant observation participant observation involves the researcher immersing themselves fully in the setting being studied for an extended period",
+            "url": "https://socialworlds.sgh.waw.pl/conducting-research/observation/types-observational-research",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "hypokinesia refers to",
+            "content": "hypokinesia is a decrease in the range or amplitude of movements learn about what causes it what to expect and more",
+            "url": "https://www.webmd.com/parkinsons-disease/what-is-hypokinesia",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the slowing that occurs with advanced age appears to be centered in",
+            "content": "older age produces numerous changes in cognitive processes including slowing in the rate of mental processing speed",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4524675/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the idea that the ability to complete a task depends on the fit between the environment and the person undertaking the task is a basic tenet of which of the following theories of aging",
+            "content": "maslows theory posits that there are five levels of needs that must be met as a person journeys to being a complete and fulfilled employeeindividual the five",
+            "url": "https://study.com/academy/lesson/the-needs-theory-motivating-employees-with-maslows-hierarchy-of-needs.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when speaking with an older adults with some hearing loss you should",
+            "content": "slow down a little pause between sentences or phrases and wait to make sure you have been understood before going on keep your hands away from your face",
+            "url": "https://www.ucsfhealth.org/education/communicating-with-people-with-hearing-loss",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "one advantage of an expected death over an unexpected death is that",
+            "content": "in sudden death the grief is not greater but the ability to cope is reduced grief reactions include shock disbelief anger guilt despair",
+            "url": "https://bakken-young.com/sudden-death-vs-anticipated-death-is-one-worse/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "people with which of the following forms of control are least likely to have accessibility problems where they live",
+            "content": "people with disabilities have less access to health care services and therefore experience unmet health care needs understanding spinal cord injury",
+            "url": "https://www.afro.who.int/health-topics/disabilities",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is not one of the more frequently named activities by those who are retired",
+            "content": "care in these settings may include meals exercise social activities personal care and transportation these services may be provided at no",
+            "url": "https://www.nia.nih.gov/health/long-term-care/what-long-term-care",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "morbidity refers to",
+            "content": "1 the quality or state of being morbid especially an attitude quality or state of mind marked by excessive gloom",
+            "url": "https://www.merriam-webster.com/dictionary/morbidity",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following factors is associated with a decreased risk of alzheimers",
+            "content": "risk factors that can be changed to potentially reduce a persons risk of cognitive decline age family history genetics heredity head injury certain",
+            "url": "https://www.alz.org/alzheimers-dementia/what-is-alzheimers/causes-and-risk-factors",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "one difference that seems to be mostly cohort rather than age is the difference in for different age groups",
+            "content": "objective the main objective of this article is to explore whether age seems to affect political attitudes and behavior in authoritarian china and if so",
+            "url": "https://www.jstor.org/stable/26612218",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "when older and younger workers have lost their jobs older workers typically",
+            "content": "seven out of ten chronically unemployed people are over 50 years old the reasons for this include structural problems such as job instability or low education",
+            "url": "https://www.equaltimes.org/unemployment-and-older-workers",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "socioemotional selectivity theory says that older adults have smaller social networks because they",
+            "content": "in fact emotional wellbeing is better among those who have relatively smaller social networks below i overview the research program as it",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8599276/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "one possible reason that time seems to pass more rapidly for older adults is that",
+            "content": "many of us feel that time passes more quickly as we age a perception that can lead to regrets according to psychologist and bbc columnist claudia hammond",
+            "url": "https://www.scientificamerican.com/article/why-does-time-seem-to-speed-up-with-age/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "neuroticism has been found to be correlated with which of the following",
+            "content": "neuroticism not to be confused with neurosis neuroticism is a personality trait associated with negative emotions it is one of the big five traits",
+            "url": "https://en.wikipedia.org/wiki/Neuroticism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "longevity is strongly associated with higher levels of",
+            "content": "conclusions familial longevity is associated with increased basal tsh secretion and a strong temporal relationship between tsh and free t3 but not with",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26230295/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "changes in the reproductive system are more for men but not for women",
+            "content": "aging changes in the male reproductive system may include changes in testicular tissue sperm production and erectile function",
+            "url": "https://medlineplus.gov/ency/article/004017.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which leg of the threelegged stool do most retirees have",
+            "content": "the “threelegged stool” is an old term for the trio of common sources of retirement income social security pensions and personal savings",
+            "url": "https://www.investopedia.com/ask/answers/09/three-legged-stool-retirement.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if links between various diseases are found then future older adults will probably",
+            "content": "sixty two percent of americans over 65 have more than one chronic condition 34 and the prevalence of multiple chronic conditions is increasing 35 due to",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5732407/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the retirement phase that occurs least frequently is the phase",
+            "content": "all of us know the letdown that occurs after we have accomplished one objective and before we turn toward a new one if there is no new goal letdown may become",
+            "url": "https://www.soa.org/493885/globalassets/assets/library/newsletters/the-actuary/1988/january/act-1988-vol22-iss01-jud.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "older adults are able to improve their memories and reduce their anxiety about declining memory when",
+            "content": "curious about your cognitive health learn steps you can take to help care for your brain as you age",
+            "url": "https://www.nia.nih.gov/health/brain-health/cognitive-health-and-older-adults",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the hayflick number for human cells is",
+            "content": "the hayflick limit or hayflick phenomenon is the number of times a normal somatic differentiated human cell population will divide before cell division stops",
+            "url": "https://en.wikipedia.org/wiki/Hayflick_limit",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "elder abuse most frequently comes from the older adults",
+            "content": "around 1 in 6 people 60 years and older experienced some form of abuse in community settings during the past year rates of abuse of older",
+            "url": "https://www.who.int/news-room/fact-sheets/detail/abuse-of-older-people",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the total number of people who have some disorder divided by the total number of people gives you the rate",
+            "content": "deathtocase ratio is the number of deaths attributed to a particular disease during a specified period divided by the number of new cases of that disease",
+            "url": "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section1.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "if we found that adult age was significantly and positively correlated with consumption of herbal teas we could conclude that",
+            "content": "however some agerelated differences were found in the consumption pattern of herbal infusions citronella and chamomile beverages were",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2405844024048102",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the apoe 2 protein is very prevalent in people who",
+            "content": "apolipoprotein e apoe is a protein that regulates metabolism and transport of lipids like cholesterol and triglycerides inside the brain apoe is majorly",
+            "url": "https://www.sciencedirect.com/topics/neuroscience/apolipoprotein-e2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the hypothesis that says adults will remain healthy until very old age and then quickly become ill and die is the hypothesis",
+            "content": "a clinical death c active euthanasia b passive euthanasia d inducing a persistent vegetative state",
+            "url": "https://www.brainscape.com/flashcards/chapter-16-4400871/packs/6072512",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following hormones has not yet been claimed to ward off senescence",
+            "content": "although it is extremely complex to characterize cellular senescence in vivo the use of multiple and single biomarkers cdk inhibitors sabetagal sasp",
+            "url": "https://www.sciencedirect.com/topics/medicine-and-dentistry/senescence",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "one of the most important points made in this chapter is that physical changes",
+            "content": "physical changes involve moving molecules around but not changing them some types of physical changes include changes of state changes from",
+            "url": "https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Introductory_Chemistry_(LibreTexts)/03%3A_Matter_and_Energy/3.06%3A_Changes_in_Matter_-_Physical_and_Chemical_Changes",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the different components of memory should be thought of as",
+            "content": "in this section we will consider the two types of memory explicit memory and implicit memory and then the three major memory stages sensory shortterm and",
+            "url": "https://opentextbc.ca/introductiontopsychology/chapter/8-1-memories-as-types-and-stages/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is the most important variable for gerontological researchers",
+            "content": "this paper uses exemplars from mixed methods studies in geriatrics and gerontology to illustrate approaches to data integration",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2990272/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "hearing loss for higher pitch is referred to as",
+            "content": "one of the most common types of hearing loss is known as highfrequency hearing loss this means highpitched sounds are harder to hear",
+            "url": "https://www.healthyhearing.com/report/52448-Understanding-high-frequency-hearing-loss",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the docility hypothesis is that",
+            "content": "the docility hypothesis holds that human social learning produces genuinely altruistic behaviors as a maladaptive byproduct",
+            "url": "https://link.springer.com/article/10.1007/s13752-014-0181-z",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the term workfamily conflict for middleaged adults can occur when they must",
+            "content": "a examination of the double burden hypothesisa systematic review of workfamily conflict and sickness absence eur j public health",
+            "url": "https://academic.oup.com/eurpub/article/34/2/316/7603863",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what percentage of older adults report feeling very or often lonely",
+            "content": "in 2023 one in three adults age 5080 34 reported feeling isolated from others 29 some of the time 5 often in the past year",
+            "url": "https://www.healthyagingpoll.org/reports-more/report/trends-loneliness-among-older-adults-2018-2023",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the initials adl stand for",
+            "content": "abbreviation for antidefamation league an organization initially established to combat antijewish bigotry and intolerance whose mission has expanded over",
+            "url": "https://www.dictionary.com/browse/adl",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "information coming into our cognitive system is thought to first enter a",
+            "content": "information processing theory is the approach to the study of cognitive development evolved out of the american experimental tradition in psychology",
+            "url": "https://en.wikipedia.org/wiki/Information_processing_theory",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the woman who conducted a longitudinal study on herself and found increased retrieval difficulty as she got older was named",
+            "content": "we conducted a longitudinal study of 20193 women in the nurses health study aged ≥66 years who reported their hearing status and had no subjective cognitive",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7138704/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the majority of older widows live",
+            "content": "nearly 70 of elderly widows lived alone in 1997 up from 56 in 1970 the number of widows over 65 years of age decreased by 81 since 1970 the explanation",
+            "url": "https://feminist.org/news/number-of-older-widows-living-alone-increases/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "about how many grieving individuals seem to require some professional help",
+            "content": "our data shows that only 25 of the bereaved people we support require bereavement counselling in our experience those experiencing",
+            "url": "https://www.covermagazine.co.uk/opinion/4120537/effective-support-grieving-people-requires-bereavement-counselling",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "older adults may show less major depression than younger adults because they",
+            "content": "depression is a common problem among older adults but it is not a normal part of aging in fact most older adults feel satisfied with their lives",
+            "url": "https://www.nia.nih.gov/health/mental-and-emotional-health/depression-and-older-adults",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following does not increase the risk of falling",
+            "content": "falls are usually caused by an interaction of a number of risk factors the more risk factors you have the greater your risk of falling",
+            "url": "https://www.nhsinform.scot/healthy-living/preventing-falls/causes-of-falls/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "in this chapters senior view tolly kleckley told us that personality",
+            "content": "alumni magazine for charleston southern university in charleston south carolina",
+            "url": "https://issuu.com/apgpub/docs/csu_magazine_vol.21_no.3",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "high levels of selfcare behaviors have been associated with high levels of",
+            "content": "those receiving higher levels of social support from their spouses and those around them will adhere better to selfcare behaviors 29 in examining family",
+            "url": "https://www.termedia.pl/Journal/-95/pdf-44014-10",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "do traits change with age",
+            "content": "while many may suspect that peoples personalities are fixed in childhood new research suggests that most peoples personalities evolve throughout their lives",
+            "url": "https://www.apa.org/monitor/julaug03/personality",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "within the united states which location has the longest life expectancy",
+            "content": "these are the places with the longest life expectancy in the us mono county california summit county colorado pitkin county colorado",
+            "url": "https://www.usnews.com/news/healthiest-communities/slideshows/places-in-the-us-with-the-longest-life-expectancy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the dementia that results from a longterm deficiency of thiamine is one type of dementia",
+            "content": "wernickes encephalopathy is a degenerative brain disorder caused by the lack of thiamine vitamin b1 it may result from alcohol abuse dietary",
+            "url": "https://ksumsc.com/download_center/Archive/2nd/434/1-CNS%20Block/Teams/Pathology/7-Degenerative%20brain%20diseases.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "omega 3 appears to reduce the risk of",
+            "content": "the authors concluded that lcomega3 supplementation reduces the risk of myocardial infarction coronary heart disease death total coronary heart disease cvd",
+            "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the houses of the future may allow you to operate virtually everything in the house from a central terminal such a house is already in production and is referred to as",
+            "content": "this consultation sets out our plans for achieving the future homes standard and future buildings standard it sets out technical proposals for changes to the",
+            "url": "https://www.gov.uk/government/consultations/the-future-homes-and-buildings-standards-2023-consultation/the-future-homes-and-buildings-standards-2023-consultation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "centenarians are people who",
+            "content": "a centenarian is a person who has reached the age of 100 because life expectancies at birth worldwide are well below 100 the term is invariably associated",
+            "url": "https://en.wikipedia.org/wiki/Centenarian",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the model of social support that says that those who are close to you now are likely to be close for the rest of your days is called the model",
+            "content": "the model shown in figure 79 “triangular model of love” suggests that only consummate love has all three of the components and is probably experienced only",
+            "url": "https://opentextbc.ca/socialpsychology/chapter/close-relationships-liking-and-loving-over-the-long-term/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the advanced directive where one specifies the types of medical intervention that are and are not desired is called a",
+            "content": "a medical or health care power of attorney is a type of advance directive in which you name a person to make decisions for you when you are unable to do so in",
+            "url": "https://www.mayoclinic.org/healthy-lifestyle/consumer-health/in-depth/living-wills/art-20046303",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the main reason given by men and women for their long lasting marriage is that",
+            "content": "the key was in achieving a balance between time together and time apart finding such a balance contributed to the sense of intimacy and satisfaction with the",
+            "url": "https://aifs.gov.au/research/research-reports/why-marriages-last",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the kingbergs give us several keys to successful aging which of the following is one that they did not name",
+            "content": "playlist files 1 big mama thornton ball and chain 2 brownie mcghee sonny terry down by the riverside 3 chris thomas king hard time killing floor",
+            "url": "https://www.sjurvaage.com/div/All%20songs%20(16122009).htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "research has offered some longitudinal as well as cross sectional support for the theory put forth by",
+            "content": "in this article the authors conceptually examine the role of longitudinal surveys in addressing these validity concerns then they provide an",
+            "url": "https://journals.sagepub.com/doi/10.1509/jmkr.45.3.261?icid=int.sj-abstract.citing-articles.205",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the cause of alzheimers appears to be",
+            "content": "the exact causes of alzheimers disease arent fully understood but at a basic level brain proteins dont function as usual this disrupts the",
+            "url": "https://www.mayoclinic.org/diseases-conditions/alzheimers-disease/symptoms-causes/syc-20350447",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "an example of a discontinuous change over the adult years is the change in",
+            "content": "discontinuous development psychology discontinuous development theory refers to the view that development changes can be divided clearly into unique stages",
+            "url": "https://study.com/learn/lesson/continuity-vs-discontinuity-human-development.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "in this chapters senior view may lee told us that we should all respect our elders because",
+            "content": "the more we love and respect our elders the more we teach our children to love and respect us the more we think through problems today the more",
+            "url": "https://www.nytimes.com/books/first/p/pipher-country.html?scp=28&sq=hot%20dog%20eating%20contest&st=cse",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the initial length of telomere stand for members of a species is",
+            "content": "telomeres are nucleoprotein caps flanking dna they are shortened by cell division and oxidative stress and are lengthened by the enzyme telomerase and dna",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4707879/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the term senescence refers to",
+            "content": "the process of growing old in biology senescence is a process by which a cell ages and permanently stops dividing but does not die",
+            "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/senescence",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "quantitative analyses of tv shows have shown that",
+            "content": "commercials of the most heavily advertised brands and brands with the greatest share of the market are found to cause relatively smaller brand preference",
+            "url": "https://www.jstor.org/stable/3149899",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a researcher who is interested in the differences between two or more groups of people is most likely to use which of the following approaches",
+            "content": "what is a research design a a way of conducting research that is not grounded in theory b the choice between using qualitative or quantitative methods",
+            "url": "http://global.oup.com/uk/orc/xedition/brymanbrm4exe/student/mcqs/ch02/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a person who is not very well organized rarely sets goals and frequently puts things off until the last minute would be said to be low on which trait",
+            "content": "they tend to be calm emotionally stable and free from persistent negative feelings freedom from negative feelings does not mean that low scorers",
+            "url": "https://en.wikipedia.org/wiki/Big_Five_personality_traits",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "an older adult who has received a message eg its going to rain tomorrow would be most likely to remember what when telling another person",
+            "content": "learn about the different verb forms you can use to talk about the future and do the exercises to practise using them",
+            "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/talking-about-future",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "those who have lost a close family member to suicide most often experience",
+            "content": "survivors of suicide may feel rejected or abandoned by the deceased because they see the deceased as choosing to give up and leave their loved ones behind they",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3384446/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is more likely to be a cohort rather than an age difference",
+            "content": "period data comes from a group of people at a particular time while cohort data is collected from the same group of people across time",
+            "url": "https://ourworldindata.org/period-versus-cohort-measures-whats-the-difference",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "older married men have been found to have",
+            "content": "2 married men tend to be domesticated and comfortable around women in surface ways like putting the toilet seat down using a fork and not",
+            "url": "https://www.aarpethel.com/relationships/i-dated-married-men-for-many-years-heres-why",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "remarriages are",
+            "content": "remarriage is a marriage that takes place after a previous marital union has ended as through divorce or widowhood some individuals are more likely to",
+            "url": "https://en.wikipedia.org/wiki/Remarriage",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the current record for longest lived human being is held by",
+            "content": "the greatest fully authenticated age to which any human has ever lived is 122 years 164 days by jeanne louise calment france born on 21 february 1875 to",
+            "url": "https://guinnessworldrecords.com/world-records/oldest-person",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is caused by a prion",
+            "content": "it is related to “mad cow disease” eating diseased meat may cause the disease in humans the meat may cause normal human prion protein to develop abnormally",
+            "url": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/prion-diseases",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the reaction time difference between younger and older adults is reduced when older adults",
+            "content": "these results indicate that the slower reaction times of healthy older adults are not due to an increased hesitancy to respond",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9423772/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "prejudice or bias against older adults is referred to as",
+            "content": "ageism is a type of discrimination based on ones age generally used to refer to agebased discrimination against elderly people the term was coined in 1969",
+            "url": "https://en.wikipedia.org/wiki/Ageism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "high levels of social support are strongly associated with",
+            "content": "we sought to assess the association between ones perceived social support pss and physical and mental health outcomes 6 months to 12 months postinjury",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34108418/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the environmental design that brings pets and plants to nursing homes and young people and children as regular visitors is referred to as",
+            "content": "biophilic design inspired by wilsons 1984 hypothesis of biophilia advocates that people have an instinctive affinity with nature and that increasing the",
+            "url": "https://www.mdpi.com/2071-1050/15/3/1982",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the lifespan perspective says that development is composed of gains and losses this means that",
+            "content": "development is multidirectional and results in gains and losses throughout life development is plastic meaning that characteristics are malleable or",
+            "url": "https://courses.lumenlearning.com/wm-lifespandevelopment/chapter/the-lifespan-perspective/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "our bodies have a natural built in defense against free radicals that is referred to as",
+            "content": "antioxidants are substances that can reduce or prevent free radical damage people can usually get antioxidants from their diet eating a",
+            "url": "https://www.medicalnewstoday.com/articles/318652",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following does not usually occur to the lens of the eye as one grows older",
+            "content": "3 the lens changes greatly over time many changes occur within the lens the lens grows throughout life accumulating weight as a function of age as shown",
+            "url": "https://crstodayeurope.com/articles/2016-oct/the-lens-as-time-goes-by/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "social support is most likely to have a positive influence on health and well being when it is",
+            "content": "recent findings often show a robust relationship in which social and emotional support from others can be protective for health",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2729718/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "those who survive the loss of another are called the",
+            "content": "bereavement is the grief and mourning experience following the death of someone important to you while its an inevitable part of life",
+            "url": "https://www.helpguide.org/mental-health/grief/bereavement-grieving-the-death-of-a-loved-one",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "glaucoma refers to the condition in which",
+            "content": "glaucoma is an eye condition that damages the optic nerve this damage can lead to vision loss or blindness",
+            "url": "https://www.mayoclinic.org/diseases-conditions/glaucoma/symptoms-causes/syc-20372839",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a difference between the social networks of older and younger adults is that older adults have",
+            "content": "older participants reported smaller social networks largely due to reporting fewer peripheral others yet older age was associated with better wellbeing",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7122684/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a major difference between programmed and unprogrammed theories of senescence is that programmed theories",
+            "content": "programmed aging is an evolutionary mechanism of broad sense group selection that can reach the ecosystem level",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0531556523000839",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following groups of americans have the lowest rate of alcohol abuse",
+            "content": "according to the 2023 national survey on drug use and health nsduh 289 million people ages 12 and older 102 in this age group had aud in the past year",
+            "url": "https://www.niaaa.nih.gov/alcohols-effects-health/alcohol-topics/alcohol-facts-and-statistics/alcohol-use-disorder-aud-united-states-age-groups-and-demographic-characteristics",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the term cohort refers to",
+            "content": "the meaning of cohort is companion colleague how to use cohort in a sentence did you know",
+            "url": "https://www.merriam-webster.com/dictionary/cohort",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "gary says he won 1000 in the lottery because he really knows how to pick those numbers gary would be said to have a strong locus of control",
+            "content": "it is our pleasure to acknowledge the many people and institutions who have in one way or another contributed to the completion of this book",
+            "url": "https://issc.al.uw.edu.pl/wp-content/uploads/sites/2/2022/05/Nick-Bostrom-Milan-M.-Cirkovic-Global-Catastrophic-Risks-2008-Oxford-University-Press.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "identity refers to ones",
+            "content": "a persons name and other facts about who they are the mans identity was being kept secret while he was helping police with their enquiries",
+            "url": "https://dictionary.cambridge.org/dictionary/english/identity",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "openended questions on a survey often make it difficult to",
+            "content": "a survey with many openended questions will usually have a lower completion rate than one with more closed questions",
+            "url": "https://www.nngroup.com/articles/open-ended-questions/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "fear of aging has been associated with high levels of",
+            "content": "we conclude that fears seem to be associated with how individuals approach old age and with what they wish for in their own future as aged people",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8607224/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "our social network refers to",
+            "content": "social networking refers to forming connections in person or online in todays digital era it primarily refers to online interactions on the internet",
+            "url": "https://www.techtarget.com/whatis/definition/social-networking",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "workers in which of the following jobs still have mandatory retirements once they reach a certain age",
+            "content": "pilots the mandatory retirement age of airline pilots is 65 air traffic controllers mandatory retirement age of 56 with exceptions up to age 61 foreign",
+            "url": "https://en.wikipedia.org/wiki/Mandatory_retirement",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the first person to measure and compare the response times of young and old was",
+            "content": "4 dutch physiologist franciscus cornelis donders 1865 was among the first to systematically measure human rt using a telegraph like device invented in 1840",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4456887/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "one reason that older adults show high levels of optimism is that",
+            "content": "for example in older adult samples optimism for the future is associated with lower incidence of cognitive impairment gawronski kim langa kubzansky",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6460337/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "if you believe that changes occur slowly and steadily throughout life you would be holding the side of this view of development",
+            "content": "developmentalists break the life span into nine stages as follows this list reflects unique aspects of the various stages of childhood and adulthood",
+            "url": "https://courses.lumenlearning.com/suny-lifespandevelopment2/chapter/periods-of-development/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "middleaged adults appear to be more than older or younger adults",
+            "content": "one experiment hints that this is the case castel rossi and mcgillivray 2012 found that older adults are more likely than young adults to believe in the",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5734664/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "current estimates of how many people exercise on a regular basis suggest that do",
+            "content": "data are for the us percent of adults age 18 and older who met the physical activity guidelines for aerobic physical activity 469 percent of adults age",
+            "url": "https://www.cdc.gov/nchs/fastats/exercise.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following groups is likely to have the more positive view of aging and older adults",
+            "content": "confucian values promote a positive view of aging which encourages younger generations to treat older adults with respect obedience and care",
+            "url": "https://www.research.colostate.edu/healthyagingcenter/2022/01/28/aging-around-the-world/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the answer both play an important role is clearly applicable to the question of",
+            "content": "tone and body language signals as we discussed in the previ ous section tone and body language both play an important role in communicating",
+            "url": "https://sciendo.com/2/download/lmzslbgnyj7vKAhxBNUh3~8wyY0PDrAfxfiCZfprHH.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which type of reaction time results in the biggest age differences",
+            "content": "these results indicate that the slower reaction times of healthy older adults are not due to an increased hesitancy to respond",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9423772/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "validation therapy refers to treatments in which the person with dementia",
+            "content": "validation therapy is a therapy for communicating with oldold people who are diagnosed as having alzheimers disease and related dementia",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10796644/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "about what percentage of people who have had bridge jobs say it was better than their career job",
+            "content": "a bridge job is something easy and stress free lower paying that gives you some time to get your motivation back in order to find your next actual career or",
+            "url": "https://www.reddit.com/r/careerguidance/comments/17k58dy/anyone_ever_taken_a_bridge_job/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "bu is often late for appointments but says its because she had more important things on her mind this is an example of which coping strategy",
+            "content": "one of my best friends who is always late between 20 minutes to an hour said that people who are late are optimists they never mean to run",
+            "url": "https://www.reddit.com/r/rant/comments/1aywjvz/people_who_are_chronically_late_should_just_admit/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "all other things being equal which of the following persons is likely to live the longest",
+            "content": "human life expectancy is a statistical measure of the estimate of the average remaining years of life at a given age",
+            "url": "https://en.wikipedia.org/wiki/Life_expectancy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "most people who have used physician assisted suicide have had",
+            "content": "a substantial proportion of physicians in the united states report that they receive requests for physicianassisted suicide and euthanasia and about 7",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9554861/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "excess disability refers to symptoms that are",
+            "content": "other symptoms such as irritability agitation or psychosis may lead to resistance to care that may be interpreted by caregivers as functional impairment",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2872104/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "an increased frequency of urination in older adults is most likely caused by",
+            "content": "it can happen to anyone but its more common if youre over 70 pregnant or have an enlarged prostate urinary tract infections are the most common cause",
+            "url": "https://my.clevelandclinic.org/health/symptoms/15533-frequent-urination",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the paradox of wellbeing refers to the finding of high levels of happiness among",
+            "content": "the present research investigates how these levels combine and whether the paradox of wellbeing persists across different economic contexts",
+            "url": "https://academic.oup.com/psychsocgerontology/article/69/6/920/546906",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in which dementia are cognitive symptoms less likely",
+            "content": "youngonset dementia early symptoms are less likely to be memory loss and more likely to be changes in behaviour language vision or personality",
+            "url": "https://www.alzheimers.org.uk/about-dementia/types-dementia",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following could very well be a cohort difference rather than a change that occurs with age",
+            "content": "cohort effects are different they are generational effects that carry forward as people age they come from experiences that people had at a",
+            "url": "https://ourworldindata.org/period-versus-cohort-measures-whats-the-difference",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following appears to lower bad cholesterol",
+            "content": "barley oatmeal and brown rice have lots of soluble fiber which has been proven to lower ldl cholesterol by reducing the absorption of",
+            "url": "https://www.webmd.com/cholesterol-management/ss/slideshow-cholesterol-lowering-foods",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "surveys of bereaved individuals have found that one of the things that is reported as being most helpful is when others",
+            "content": "results in total 678 bereaved people responded to the survey the most frequently used sources of support were in the informal category such as family",
+            "url": "https://journals.sagepub.com/doi/pdf/10.1177/0269216318774995",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "we want our measures to be as reliable as possible reliability refers to",
+            "content": "reliability refers to how consistently a method measures something if the same result can be consistently achieved by using the same methods",
+            "url": "https://www.scribbr.com/methodology/reliability-vs-validity/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is most strongly associated with loss of bone density",
+            "content": "osteoporosis makes your bones weaker and thinner by reducing your bone density it can make you much more likely to experience broken bones",
+            "url": "https://my.clevelandclinic.org/health/diseases/4443-osteoporosis",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the program that takes over care for those with 6 or fewer months to live attempts to keep them at home provides pain relief and ends all lifeprolonging technologies is called",
+            "content": "the consensusbased definition is as follows palliative care is the active holistic care of individuals across all ages with serious healthrelated suffering",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8096724/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "an increase in neuroticism later in life is a strong predictor of",
+            "content": "neuroticism is a robust correlate and predictor of many different mental and physical disorders comorbidity among them and the frequency of mental and",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2792076/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is not one of the major reasons for the increase in numbers of older adults",
+            "content": "common conditions in older age include hearing loss cataracts and refractive errors back and neck pain and osteoarthritis chronic obstructive pulmonary",
+            "url": "https://www.who.int/news-room/fact-sheets/detail/ageing-and-health",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "some research has found that later cognitive decline is predicted by earlier",
+            "content": "in their analysis the researchers found that adolescent cognitive ability predicted both cognitive impairment and dementia in later life",
+            "url": "https://www.nia.nih.gov/news/higher-cognitive-ability-early-life-linked-lower-risk-dementia",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the design of products and environments to fit the capabilities of people who use them or live there is called design",
+            "content": "universal design is the design of buildings products or environments to make them accessible to people regardless of age disability or other factors",
+            "url": "https://en.wikipedia.org/wiki/Universal_design",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the supreme court has now ruled that older workers need no longer prove to win a job discrimination suit",
+            "content": "the supreme court ruled 81 for federal workers in an age discrimination lawsuit the aarp foundation filed an amicus brief in the case",
+            "url": "https://www.aarp.org/politics-society/advocacy/info-2019/age-discrimination-supreme-court.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "in this chapters senior view dr shealy advises you to",
+            "content": "this guidance document reviews the epidemiology and management of pain in older people via a literature review of published research",
+            "url": "https://academic.oup.com/ageing/article/42/suppl_1/i1/9650",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "projective tests generally than objective tests of personality",
+            "content": "a projective test is a type of personality test in which you offer responses to ambiguous scenes words or images",
+            "url": "https://www.verywellmind.com/what-is-a-projective-test-2795586",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following forms of dementia has the highest prevalence rate",
+            "content": "while alzheimers disease is the most common form of dementia there are also other common types such as vascular dementia lewy body dementia and",
+            "url": "https://www.alzheimers.org.uk/about-dementia/types-dementia",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "an example of a gain rather than a loss that occurs as we grow older is our gain in",
+            "content": "for example in a seminal study thaler 1981 found that individuals discount rates for gains are 3 to 10 times higher than for losses",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4070592/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a problem in comparing older adults memory for recent events and events that happened a long time ago is that recent events",
+            "content": "older adults tend to remember the past and imagine the future with less episodic detail than younger adults",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3645892/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "that super sweet iced tea that your grandmother gives you might be that way because she",
+            "content": "in an effort to get us to drink our milk grandma mixed it with her super sweet iced tea as toddlers it was mostly milk but the proportions",
+            "url": "https://lifewithdee.com/grandmas-tea/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following age differences could be in part a cohort effect differences in",
+            "content": "cohort effects refer to children around the same age having unique shared experiences different from older or younger groups of children cohort effects may",
+            "url": "https://www.sciencedirect.com/topics/psychology/cohort-effect",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "those cells that build bone are called",
+            "content": "osteoblasts and osteoclasts are special cells that help your bones grow and develop osteoblasts form new bones and add growth to existing bone tissue",
+            "url": "https://my.clevelandclinic.org/health/body/24871-osteoblasts-and-osteoclasts",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "well being for younger adults is positively related to which form of control",
+            "content": "the aim of the current study was to investigate whether psychological flexibility is a mechanism explaining the relationship between personality and wellbeing",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1041610224023597",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the law that requires all healthcare institutions that receive medicaid funds to inform patients about advance directives is called the",
+            "content": "it requires education programs including advance directives bioethics patient wishes and the concept of patient selfdetermination the pdsa",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK538297/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the decline in working memory with advanced age seems to be due to",
+            "content": "there are many brain alterations associated with advancing age including decreased pfc gray matter volume focal changes in white matter and dendritic spine",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3193794/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when your sister patricia was feeling depressed you comforted her and reminisced about happier times you provided which type of social support",
+            "content": "when i opened up and shared my losses to an old friend he asked me what those loved ones were like in life that was a response i hadnt heard before",
+            "url": "https://www.reddit.com/r/GriefSupport/comments/16nmlzq/what_is_the_most_comforting_response_youve_heard/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "some work on age stereotypes suggests that",
+            "content": "age stereotypes reflect beliefs individuals hold about different age groups and the aging process for example young people may be perceived as",
+            "url": "https://econtent.hogrefe.com/doi/10.1024/1662-9647/a000272",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the positive relationship between religion and physical health is not thought to be due to",
+            "content": "additional evidence suggests that this relationship between religion and physical health may be causal religion may reduce likelihood of certain diseases",
+            "url": "https://en.wikipedia.org/wiki/Religion_and_health",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following appears to remain relatively stable over the adult years",
+            "content": "as a result of this gradual change personality can appear relatively stable over short intervalsincreasingly so throughout adulthood however the longer",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5144810/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "of the following types of memory which shows the biggest deficit with advanced age",
+            "content": "episodic memory is known to decline with age and this decline affects some tasks and processes more than others for example the largest age",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6316770/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a shortage of these two vitamins can produce symptoms that mimic dementia",
+            "content": "this vitamin deficiency can cause forgetfulness and mimic symptoms of dementiabut its reversible doctors explain the signs to look for by",
+            "url": "https://fortune.com/well/article/vitamin-b12-deficienc-mimic-dementia-symptom/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "clifford and lucia pauling in senior view told us that physical changes",
+            "content": "it may be that the peace movement is responsible for the decision of the president to keep the tests down to a small fraction of the soviet testing last fall",
+            "url": "https://scarc.library.oregonstate.edu/coll/pauling/calendar/1962/05/index.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "human factors examines the performance of different tasks by examining",
+            "content": "the aim of human factors is to understand and improve the interaction between humans and the systems they work within to minimise human error improve",
+            "url": "https://executive.nhs.wales/functions/quality-safety-and-improvement/improvement-cymru/improvement-cymru-academy/resource-library/academy-toolkit-guides/human-factors-toolkit",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "as working people get closer to retirement they are more likely to",
+            "content": "this suggests that the shift towards later retirement is primarily driven by an increase in the eligible pension age rather than a desire among people to work",
+            "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Pensions_and_labour_market_participation_-_main_characteristics",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is not among the top 10 causes of death in the u s",
+            "content": "leading causes of death heart disease 702880 cancer 608371 accidents unintentional injuries 227039 covid19 186552 stroke cerebrovascular",
+            "url": "https://www.cdc.gov/nchs/fastats/leading-causes-of-death.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a disadvantage of institutional care is that the staff frequently teach older residents to be",
+            "content": "the disadvantage of being in a hospital is that the longer an elderly person stays there the less is the chance for rehabilitation since there are no",
+            "url": "https://www.jstor.org/stable/3563491",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "hearing loss occurs more frequently for",
+            "content": "aging and being around loud noises both can cause hearing loss other factors such as too much earwax can lower how well ears work for a time",
+            "url": "https://www.mayoclinic.org/diseases-conditions/hearing-loss/symptoms-causes/syc-20373072",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "cells in the eye that respond to low levels of illumination are called",
+            "content": "a photoreceptor cell is a specialized type of neuroepithelial cell found in the retina that is capable of visual phototransduction",
+            "url": "https://en.wikipedia.org/wiki/Photoreceptor_cell",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following countries has the longest life expectancy",
+            "content": "countries ranked by life expectancy 2024 1 hong kong 8563 2 japan 8485 3 south korea 8443 4 french polynesia 8419",
+            "url": "https://www.worldometers.info/demographics/life-expectancy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the loss of a is regarded in the u s as the most severe loss and frequently produces guilt in addition to other emotions",
+            "content": "what is grief grief is a natural response to loss its the emotional suffering you feel when something or someone you love is taken away",
+            "url": "https://www.helpguide.org/mental-health/grief/coping-with-grief-and-loss",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following is one of mcadams levels of personality",
+            "content": "mcadamss second level of personality is the rank of characteristic adaptations while dispositional traits describe the general behavior and attributes of a",
+            "url": "https://enrkabigtingpsychology.wordpress.com/portfolio/dan-p-mcadams/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "loss of smell for adults 80 and older is",
+            "content": "some loss of taste and smell is natural with aging especially after age 60 but other factors can contribute to loss of taste and smell",
+            "url": "https://www.mayoclinic.org/healthy-lifestyle/healthy-aging/expert-answers/loss-of-taste-and-smell/faq-20058455",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following has been found to improve balance for older adults",
+            "content": "follow up your singleleg balance with the tree pose an excellent and easy exercise for balance this exercise is also a popular yoga move",
+            "url": "https://www.webmd.com/healthy-aging/best-balance-exercises-for-seniors",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "before we can collect data from other human beings we must make sure that they",
+            "content": "the first step is to identify issues andor opportunities for collecting data and to decide what next steps to take",
+            "url": "https://www3.ohrc.on.ca/en/count-me-collecting-human-rights-based-data/6-what-involved-collecting-data-six-steps-success",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "presbyopia refers to",
+            "content": "presbyopia is a physiological insufficiency of optical accommodation associated with the aging of the eye it results in progressively worsening ability to",
+            "url": "https://en.wikipedia.org/wiki/Presbyopia",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "if you believe that we are mostly in control of our own development and that our behaviors good or bad determine how successful our aging with be you would be said to have which of the following perspectives",
+            "content": "selfconcept is the image we have of ourselves it is influenced by many forces including our interaction with the important people in our lives",
+            "url": "https://www.verywellmind.com/what-is-self-concept-2795865",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the biggest and most dangerous changes in the cardiovascular system take place in the",
+            "content": "coronary heart disease occurs when the flow of oxygenrich blood to the heart muscle is blocked or reduced this puts an increased strain on the heart and can",
+            "url": "https://www.nhs.uk/conditions/cardiovascular-disease/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 23,
+            "query": "which of the following is always the longest",
+            "content": "the side lengths of a nonagon are consecutive integers the perimeter is 2016 what is the length of the longest side the answer is 228 context i did the uk junior kangaroo challenge in 2016 and",
+            "url": "https://math.stackexchange.com/questions/3786559/what-is-the-length-of-the-longest-side",
+            "engine": "braveAPI"
+        }
+    ]
+}

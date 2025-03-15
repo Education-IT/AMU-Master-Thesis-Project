@@ -1,0 +1,2366 @@
+{
+    "task": "mmlu_conceptual_physics",
+    "dataset": "web_access_conceptual_physics_final",
+    "questions": 235,
+    "noWebContextCount": 12,
+    "contaminated_queries": 196,
+    "contaminated_urls": 1323,
+    "valid_urls": 223,
+    "avg_contaminated_before_valid": 6.932735426008969,
+    "contaminated_data_ratio": 0.8557567917205692,
+    "most_contaminated_urls": {
+        "www.brainscape.com": 9,
+        "www.bartleby.com": 9,
+        "torrie.edublogs.org": 6,
+        "www.chegg.com": 6
+    },
+    "noWebContext": [
+        "When an increase in speed doubles the momentum of a moving body its kinetic energy",
+        "A 1134-Hz tuning fork is sounded at the same time a piano note is struck. You hear three beats per second. The frequency of the piano string is",
+        "Consider two mercury barometers, one having a cross-sectional area of 1 cm2 and the other 2 cm2. The height of mercury in the narrower tube is",
+        "A math book and a physics book sitting on a table are tied together with a length of string. With the string taut one book is pushed off the edge of the table. As it falls the other book is dragged horizontally across the table surface. With no friction acceleration of the books is",
+        "In a circuit of two lamps in parallel, if the current in one lamp is 2 A, the current in the other lamp is",
+        "A rock suspended by a weighing scale weighs 5 N out of water and 3 N when submerged in water. What is the buoyant force on the rock?",
+        "A karate chop delivers a force of 3000 N to a board that breaks. The force that the board exerts on the hand during this event is",
+        "Lift a 100-N crate with an ideal pulley system by pulling a rope downward with 25 N of force. For every 1-m length of rope pulled down, the crate rises",
+        "The pressure at the bottom of a pond does NOT depend on the",
+        "A certain element emits 1 alpha particle, and its products then emit 2 beta particles in succession. The atomic number of the resulting element is changed by",
+        "An inflated balloon with a heavy rock tied to it is dropped into a deep lake. As the balloon sinks deeper and deeper the buoyant force acting on it",
+        "The redness of a sunrise or sunset is due mostly to light that hasn’t been"
+    ],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 3,
+            "query": "in a vacuum an object has no",
+            "content": "an object in a vacuum isnt in a fluid there is no density or depth an object has density as an independent property of the fluids that",
+            "url": "https://www.reddit.com/r/AskPhysics/comments/153x8v7/high_school_noncalculus_in_a_vacuum_an_object_has/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the potential energy of a compressed spring and the potential energy of a charged object both depend on",
+            "content": "the potential energy joules of a compressed spring and the potential energy of a charged object both depend a only on the work done on them",
+            "url": "https://www.tecumseh.k12.oh.us/Downloads/Physics_12_43.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the potential energy of a compressed spring and the potential energy of a charged object both depend on",
+            "content": "14 the potential energy of a compressed spring and the potential energy of a charged object both depend on 14 a the work done on them b motion c",
+            "url": "https://www.csub.edu/~adzyubenko/SCI1600/Pr_Exam4_Sci1600_S18_Key.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the potential energy of a compressed spring and the potential energy of a charged object both depend on",
+            "content": "the potential energy joules of a compressed spring and the potential energy of a charged object both depend a only on the work done on them",
+            "url": "https://www.tecumseh.k12.oh.us/Downloads/Physics_11_4.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "the potential energy of a compressed spring and the potential energy of a charged object both depend on",
+            "content": "14 the potential energy of a compressed spring and the potential energy of a charged object both depend on 14 a the work done on them c both of these",
+            "url": "https://www.csub.edu/~adzyubenko/SCI1600/PrExam4_Sci1600_S18.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a 1134hz tuning fork is sounded at the same time a piano note is struck you hear three beats per second the frequency of the piano string is",
+            "content": "a 1134hz tuning fork is sounded at the same time a piano note is struck you hear three beats per second what is the frequency of the piano",
+            "url": "https://www.erhsnyc.org/ourpages/auto/2015/5/4/40603864/Physics%20Homework%2023_Answer%20Keys.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "a 1134hz tuning fork is sounded at the same time a piano note is struck you hear three beats per second the frequency of the piano string is",
+            "content": "a 1134hz tuning fork is sounded at the same time a piano note is struck you hear three beats per second what is the frequency of the piano",
+            "url": "https://erhsnyc.org/ourpages/auto/2016/4/30/46410507/Physics%20Homework%2023-1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "a 1134hz tuning fork is sounded at the same time a piano note is struck you hear three beats per second the frequency of the piano string is",
+            "content": "a 1134hz tuning fork is sounded at the same time a piano note is struck you hear three beats per second what is the frequency of the piano string a 1131 hz",
+            "url": "https://ionaphysics.org/conceptual/FinalReview.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a cannonball is fired horizontally at 10 ms from a cliff its speed one second after being fired is about",
+            "content": "a cannonball is fired horizontally at 10 ms from a cliff its speed one second after being fired is about a 10ms b 12ms c 14ms",
+            "url": "https://howtophysics.wordpress.com/2015/01/28/a-cannonball-is-fired-horizontally/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a cannonball is fired horizontally at 10 ms from a cliff its speed one second after being fired is about",
+            "content": "a cannonball is fired horizontally at 10 ms from a cliff its speed one second after being fired is about a 10 ms b 14 ms c 16 ms d 20 ms vx vy",
+            "url": "https://www.showmethephysics.com/home/notes/MotionPlane/projectile_fired_horizontally2.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the average speed of a gazelle traveling a distance of 2 km in a time of onehalf hour is",
+            "content": "solution the average speed of a gazelle traveling a distance of 2km in a time of onehalf hour is i need help on understanding why the answer is 4kmhr i",
+            "url": "http://www.algebra.com/algebra/homework/word/travel/Travel_Word_Problems.faq.question.651534.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the average speed of a gazelle traveling a distance of 2 km in a time of onehalf hour is",
+            "content": "the average speed of a gazelle traveling a distance of 2 km in a time of onehalf hour is a 1 kmh b 2 kmh c 4 kmh d more than 4 kmh a c 4 kmh",
+            "url": "https://www.brainscape.com/flashcards/part-one-multiple-choice-exam-3388202/packs/5128033",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "the average speed of a gazelle traveling a distance of 2 km in a time of onehalf hour is",
+            "content": "the average speed of a gazelle traveling a distance of 2km in a time of onehalf hour is i need help on understanding why the answer is 4kmhr i thought",
+            "url": "https://www.algebra.com/tutors/your-answers.mpl?userid=Alan3354&from=43230",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "when a proton is plucked from an atomic nucleus the atom has a decrease in",
+            "content": "when a proton is plucked from an atomic nucleus the atom has a decrease in charge energy and mass work step by step this is discussed on page 646",
+            "url": "https://www.gradesaver.com/textbooks/science/physics/conceptual-physics-12th-edition/part-7-multiple-choice-practice-exam-page-656/19",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the amount of air drag on an 08n flying squirrel dropping vertically at terminal velocity is",
+            "content": "the amount of air drag on a 08n flying squirrel dropping vertically at terminal velocity is a 08n b 08n c 08n d dependent on",
+            "url": "https://www.reddit.com/r/AskPhysics/comments/6kwrx2/question_from_practice_test_in_textbook/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "when the color yellow is seen on your tv screen the phosphors being activated on the screen are",
+            "content": "when the color yellow is seen on your tv screen the phosphors being activated on the screen are a variety of sunset colors is evidence for a variety of",
+            "url": "http://joe-mccullough.com/physics/physics10/files/PowerPoint/ch27_ppt.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "when the color yellow is seen on your tv screen the phosphors being activated on the screen are",
+            "content": "when the color yellow is seen on your tv screen the phosphors being activated on the screen are a variety of sunset colors is evidence for a variety of",
+            "url": "http://asmasaid.weebly.com/uploads/2/0/9/5/20950668/27_lectureoutline.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "big brother and little sister can balance on a seesaw because of balanced",
+            "content": "big brother and little sister can balance on a seesaw because of balanced a forces b torques c energies d all of these e no",
+            "url": "https://www.facebook.com/discover.physics/posts/previous-answer-d-98ms2-big-brother-and-little-sister-can-balance-on-a-seesaw-be/696890770339239/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "big brother and little sister can balance on a seesaw because of balanced",
+            "content": "13 an older and heavier sister can balance on a seesaw with her younger and lighter brother this can happen because of balanced a forces",
+            "url": "https://www.aapt.org/Programs/PhysicsBowl/upload/PB-Exam-Draft-J-2023-2.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "as a blinking light source approaching you gains speed you see the frequency of flashes",
+            "content": "485 27 question 51 as a blinking light source approaching you gains speedyou see the frequency of flashes multiple choice 485 37 question 52",
+            "url": "https://examlex.com/exams/57726-exam-28-the-structure-of-space-and-ti/3/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "consider two mercury barometers one having a crosssectional area of 1 cm2 and the other 2 cm2 the height of mercury in the narrower tube is",
+            "content": "consider two mercury barometers one having a crosssectional area of 1 cm2 and the other 2 cm2 the height of mercury in the narrower tube is a half b",
+            "url": "https://moodle-n7.inp-toulouse.fr/mod/resource/view.php?id=72966",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of these does not belong in the family of electromagnetic waves",
+            "content": "which of these does not belong in the family of electromagnetic waves a light b sound c radio waves d xrays © 2015 pearson education inc",
+            "url": "https://www.slideshare.net/slideshow/26-clicker-questions/61777484",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which of these does not belong in the family of electromagnetic waves",
+            "content": "which does not belong in the family of electromagnetic waves a light b sound c radio waves d xrays a b sound how well did you know this 1 not at",
+            "url": "https://www.brainscape.com/flashcards/chapter-11-rat-17563136/packs/22348881",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a math book and a physics book sitting on a table are tied together with a length of string with the string taut one book is pushed off the edge of the table as it falls the other book is dragged horizontally across the table surface with no friction acceleration of the books is",
+            "content": "a math book and a physics book of the same mass are tied together with a length of a string with the string taut one book is pushed off the edge of a",
+            "url": "https://www.transtutors.com/questions/a-math-book-and-a-physics-book-of-the-same-mass-are-tied-together-with-a-length-of-a-9224330.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "a math book and a physics book sitting on a table are tied together with a length of string with the string taut one book is pushed off the edge of the table as it falls the other book is dragged horizontally across the table surface with no friction acceleration of the books is",
+            "content": "with the string taut one book is pushed off the edge of the table as it falls the other book is dragged horizontally across the table surface with no",
+            "url": "https://www.docsity.com/en/basic-physics-revision-with-short-explanatory-and-numerology-questions/4109392/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "a rock suspended by a weighing scale weighs 5 n out of water and 3 n when submerged in water what is the buoyant force on the rock",
+            "content": "24 a rock suspended by a weighing scale weighs 5 n out of water and 3 n when submerged in water what is the buoyant force on the rock a 8 n b 5 n c 3 n d",
+            "url": "https://physics.weber.edu/amiri/physics1010online/QSets-htmlFormats/QuestionSet8-V1-ANS.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "microscopic slush in water tends to make the water",
+            "content": "microscopic slush in water tends to make the water b warmer c more dense d less dense a d less dense how well did you know this 1 not at all 2 3",
+            "url": "https://www.brainscape.com/flashcards/chapter-6-rat-17562349/packs/22348881",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "microscopic slush in water tends to make the water",
+            "content": "does “microscopic slush” in water tend to make it more dense or less dense answer it tends to make less dense as we know density mass volume as",
+            "url": "https://studysoup.com/tsg/184643/conceptual-physics-11-edition-chapter-15-problem-26rq",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "a karate chop delivers a force of 3000 n to a board that breaks the force that the board exerts on the hand during this event is",
+            "content": "a karate chop delivers a force of 3000 n to a board that breaks the force that the board exerts on the hand during this event is a less than 3000 n c 3000 n",
+            "url": "https://torrie.edublogs.org/files/2013/10/Dynamics-Problems-Set1-Solutions-2bziazf.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "an airplane with its nose pointing north with an airspeed of 40 kmh in a 30kmh crosswind at right angles has a groundspeed of",
+            "content": "an airplane with its nose pointing north with an airspeed of 40 kmh in a 30kmh crosswind at right angles has a groundspeed of a 30 kmh b 40 kmh c",
+            "url": "https://www.brainscape.com/flashcards/part-one-multiple-choice-exam-3388202/packs/5128033",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "imagine youre standing on the surface of a shrinking planet if it shrinks to onetenth its original diameter with no change in mass on the shrunken surface youd weigh",
+            "content": "1 imagine youre standing on the surface of a shrinking planet if it shrinks to one tenth its original diameter with no change in mass",
+            "url": "https://torrie.edublogs.org/files/2012/03/Dynamics-Problems-Set4-2g3aynz.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "imagine youre standing on the surface of a shrinking planet if it shrinks to onetenth its original diameter with no change in mass on the shrunken surface youd weigh",
+            "content": "imagine standing on the surface of a shrinking planet if it shrinks to onetenth its original diameter with no change in mass on the shrunken surface youd",
+            "url": "https://torrie.edublogs.org/files/2014/09/Dynamics-PS4-yvtt1j.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "imagine youre standing on the surface of a shrinking planet if it shrinks to onetenth its original diameter with no change in mass on the shrunken surface youd weigh",
+            "content": "imagine youre standing on the surface of a shrinking planet if it shrinks to onetenth its original diameter with no change in mass on",
+            "url": "https://www.slideshare.net/AsmaSaid/09-clicker-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a capacitor loses half its remaining charge every second if after five seconds its charge is q what was its initial charge",
+            "content": "a capacitor loses half of its remaining charge every second if after five seconds its charge is q what was its initial charge a 4q b 8q c 16q",
+            "url": "https://www.youtube.com/watch?v=NHtIWbtCfh8",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "radioactivity has been around on earth since the",
+            "content": "radioactivity has been around since the earth formed it exists naturally in the atmosphere soil seas and rivers it is also created by human",
+            "url": "https://www.food.gov.uk/research/radioactivity-in-food-and-the-environment/radioactivity-in-food-and-the-environment-rife-report-2021",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "suppose the number of neutrons in a reactor that is starting up doubles each minute reaching one billion neutrons in 10 minutes when did the number of neutrons reach half a billion",
+            "content": "suppose the number of neutrons in a reactor that is starting up doubles each minute reaching one billion neutrons in 10 minutes when did the number of",
+            "url": "https://sharemylesson.com/system/files/lesson_material/SITEUSER/2009/6/2/PhysPreQs_answers.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "suppose the number of neutrons in a reactor that is starting up doubles each minute reaching one billion neutrons in 10 minutes when did the number of neutrons reach half a billion",
+            "content": "suppose the number of neutrons in a reactor that is starting up doubles each minute reaching one billion neutrons in 10 minutes when did the number of",
+            "url": "https://sharemylesson.com/system/files/lesson_material/SITEUSER/2009/6/2/PhysPreQs.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a 10n force at an angle 45° above the horizontal has a horizontal component of about",
+            "content": "a 10n force at right angle 45 degree above the horizontal has a horizontal component of about ⇒fx10n⋅cos45°≈7n answer link related",
+            "url": "https://socratic.org/questions/a-10-n-force-at-right-angle-45-degree-above-the-horizontal-has-a-horizontal-comp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the discrete orbits of electrons are best understood when modeled by",
+            "content": "the discrete orbits of electrons are best understood when modeled by waves work step by step this is discussed on page 609 update this answer",
+            "url": "https://www.gradesaver.com/textbooks/science/physics/conceptual-physics-12th-edition/part-7-multiple-choice-practice-exam-page-656/4",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "if the frequency of one source of sound is 500 hz and a second sound source is 504 hz then when the two waves interfere with each other the beat frequency will be",
+            "content": "source of sound is 500 hz and a second sound source is 504 hz then when the two waves interfere with each other the beat frequency will be a 2 hz b 4 hz c",
+            "url": "https://waecphysics30s.wordpress.com/wp-content/uploads/2020/06/final-practice-exam.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the energy of an emitted photon is related to its",
+            "content": "the energy of the emitted photon is equal to the energy difference between the energy levels of the atom",
+            "url": "https://physics.stackexchange.com/questions/797107/energy-of-the-photon-emitted-when-an-atom-in-an-excited-state-goes-to-its-ground",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "lift a 100n crate with an ideal pulley system by pulling a rope downward with 25 n of force for every 1m length of rope pulled down the crate rises",
+            "content": "lift a 100n crate with an ideal pulley system by pulling a rope downward with 25 n of force for every 1m length of rope pulled down the crate rises a 25",
+            "url": "https://www.brainscape.com/flashcards/part-one-multiple-choice-exam-3388202/packs/5128033",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "relativity equations for time length and momentum hold true for",
+            "content": "relativity equations for time length and momentum hold true for a everyday low speeds b relativistic speeds c both a and b d none of the above",
+            "url": "https://mrmiller-science.weebly.com/uploads/1/8/6/4/18642588/relativity_pt_1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "put a saucer of water on your table a process that then occurs is",
+            "content": "put a saucer of water on your table a process that then occurs is a evaporation b condensation c both of these d none of these",
+            "url": "https://www.slideshare.net/slideshow/17-clicker-questions-59892161/59892161",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "put a saucer of water on your table a process that then occurs is",
+            "content": "put a saucer of water on your table a process that then occurs is a evaporation b condensation c both of these d neither of these 93",
+            "url": "https://www.slideshare.net/slideshow/ch23-change-ofphase/16613804",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "compared with the power input the power output of an ideal transformer is",
+            "content": "the power output of an ideal transformer is c the same as the power input in an ideal transformer which is a theoretical concept used for analysis",
+            "url": "https://mrkt.nnu.edu/find/compared-with-power-input-the-power-output-of-an-ideal-trans-lffp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "in the absence of air resistance a ball of mass m is tossed upward to reach a height of 20 m at the 10m position half way up the net force on the ball is",
+            "content": "1 pt in the absence of air resistance a ball of mass m is tossed upward to reach a height of 20 meters at the 10 preter position the net force on the ball",
+            "url": "https://efcms.engr.utk.edu/ef151-2019-01/exams/ef151-2013-08/qf/qf-ef151-2013-08-soln.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the metal detectors people walk through at airports operate via",
+            "content": "no longer magnetic 23 the metal detectors that people walk through at airports operate via a ohms law b faradays law c coulombs law d newtons",
+            "url": "https://physics.weber.edu/amiri/physics1010online/QSets-htmlFormats/QuestionSet12-V1-ANS.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "a barometer that uses water instead of mercury will be",
+            "content": "the correct answer is if water is used in a barometer instead of mercury it will support a water column of height 103 mif we use water instead of mercury",
+            "url": "https://infinitylearn.com/question-answer/if-water-is-used-in-a-barometer-instead-of-mercury-what-will-be-t-676225",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a string is plucked producing four loops antinodes the length of the string is 1200 m the wavelength of the wave must be",
+            "content": "12 a string is plucked producing four loops antinodes the length of the string is 1200 m the wavelength of the wave must be a 480 m b 240 m c 7 stron",
+            "url": "https://mrfifieldcorner.weebly.com/uploads/1/3/5/8/13584180/physics_2204_wave_worksheet_6_standing_waves_2016-2017.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "a string is plucked producing four loops antinodes the length of the string is 1200 m the wavelength of the wave must be",
+            "content": "12 a string is plucked producing four loops antinodes the length of the string is 1200 m the wavelength of the wave must be a 480 m b 240 m c 7 stron",
+            "url": "https://mrfifieldcorner.weebly.com/uploads/1/3/5/8/13584180/physics_2204_wave_worksheet_6_standing_waves_2018.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "a radioactive sample has a halflife of 1 hour if we start with 1000 gram of it at noon how much remains at 300 pm",
+            "content": "starting with 1000 gram of it at noon how much remains at 300 pm a 050 g b 025 g c 0125 g d 00625 g solution determine the remaining mass of",
+            "url": "https://www.studypool.com/documents/8859440/nuclear-physics-",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "in a vacuum an object has no",
+            "content": "an object in a vacuum isnt in a fluid there is no density or depth an object has density as an independent property of the fluids that",
+            "url": "https://www.reddit.com/r/AskPhysics/comments/153x8v7/high_school_noncalculus_in_a_vacuum_an_object_has/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "the potential energy of a compressed spring and the potential energy of a charged object both depend on",
+            "content": "the potential energy joules of a compressed spring and the potential energy of a charged object both depend a only on the work done on them",
+            "url": "https://www.tecumseh.k12.oh.us/Downloads/Physics_12_43.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "the potential energy of a compressed spring and the potential energy of a charged object both depend on",
+            "content": "14 the potential energy of a compressed spring and the potential energy of a charged object both depend on 14 a the work done on them b motion c",
+            "url": "https://www.csub.edu/~adzyubenko/SCI1600/Pr_Exam4_Sci1600_S18_Key.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "the potential energy of a compressed spring and the potential energy of a charged object both depend on",
+            "content": "the potential energy joules of a compressed spring and the potential energy of a charged object both depend a only on the work done on them",
+            "url": "https://www.tecumseh.k12.oh.us/Downloads/Physics_11_4.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "the potential energy of a compressed spring and the potential energy of a charged object both depend on",
+            "content": "14 the potential energy of a compressed spring and the potential energy of a charged object both depend on 14 a the work done on them c both of these",
+            "url": "https://www.csub.edu/~adzyubenko/SCI1600/PrExam4_Sci1600_S18.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "a 1134hz tuning fork is sounded at the same time a piano note is struck you hear three beats per second the frequency of the piano string is",
+            "content": "a 1134hz tuning fork is sounded at the same time a piano note is struck you hear three beats per second what is the frequency of the piano",
+            "url": "https://www.erhsnyc.org/ourpages/auto/2015/5/4/40603864/Physics%20Homework%2023_Answer%20Keys.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "a 1134hz tuning fork is sounded at the same time a piano note is struck you hear three beats per second the frequency of the piano string is",
+            "content": "a 1134hz tuning fork is sounded at the same time a piano note is struck you hear three beats per second what is the frequency of the piano",
+            "url": "https://erhsnyc.org/ourpages/auto/2016/4/30/46410507/Physics%20Homework%2023-1.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "a 1134hz tuning fork is sounded at the same time a piano note is struck you hear three beats per second the frequency of the piano string is",
+            "content": "a 1134hz tuning fork is sounded at the same time a piano note is struck you hear three beats per second what is the frequency of the piano string a 1131 hz",
+            "url": "https://ionaphysics.org/conceptual/FinalReview.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "a cannonball is fired horizontally at 10 ms from a cliff its speed one second after being fired is about",
+            "content": "a cannonball is fired horizontally at 10 ms from a cliff its speed one second after being fired is about a 10ms b 12ms c 14ms",
+            "url": "https://howtophysics.wordpress.com/2015/01/28/a-cannonball-is-fired-horizontally/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "a cannonball is fired horizontally at 10 ms from a cliff its speed one second after being fired is about",
+            "content": "a cannonball is fired horizontally at 10 ms from a cliff its speed one second after being fired is about a 10 ms b 14 ms c 16 ms d 20 ms vx vy",
+            "url": "https://www.showmethephysics.com/home/notes/MotionPlane/projectile_fired_horizontally2.htm",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "the average speed of a gazelle traveling a distance of 2 km in a time of onehalf hour is",
+            "content": "solution the average speed of a gazelle traveling a distance of 2km in a time of onehalf hour is i need help on understanding why the answer is 4kmhr i",
+            "url": "http://www.algebra.com/algebra/homework/word/travel/Travel_Word_Problems.faq.question.651534.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "the average speed of a gazelle traveling a distance of 2 km in a time of onehalf hour is",
+            "content": "the average speed of a gazelle traveling a distance of 2 km in a time of onehalf hour is a 1 kmh b 2 kmh c 4 kmh d more than 4 kmh a c 4 kmh",
+            "url": "https://www.brainscape.com/flashcards/part-one-multiple-choice-exam-3388202/packs/5128033",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "the average speed of a gazelle traveling a distance of 2 km in a time of onehalf hour is",
+            "content": "the average speed of a gazelle traveling a distance of 2km in a time of onehalf hour is i need help on understanding why the answer is 4kmhr i thought",
+            "url": "https://www.algebra.com/tutors/your-answers.mpl?userid=Alan3354&from=43230",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "the amount of air drag on an 08n flying squirrel dropping vertically at terminal velocity is",
+            "content": "the amount of air drag on a 08n flying squirrel dropping vertically at terminal velocity is a 08n b 08n c 08n d dependent on",
+            "url": "https://www.reddit.com/r/AskPhysics/comments/6kwrx2/question_from_practice_test_in_textbook/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "big brother and little sister can balance on a seesaw because of balanced",
+            "content": "big brother and little sister can balance on a seesaw because of balanced a forces b torques c energies d all of these e no",
+            "url": "https://www.facebook.com/discover.physics/posts/previous-answer-d-98ms2-big-brother-and-little-sister-can-balance-on-a-seesaw-be/696890770339239/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "big brother and little sister can balance on a seesaw because of balanced",
+            "content": "13 an older and heavier sister can balance on a seesaw with her younger and lighter brother this can happen because of balanced a forces",
+            "url": "https://www.aapt.org/Programs/PhysicsBowl/upload/PB-Exam-Draft-J-2023-2.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "consider two mercury barometers one having a crosssectional area of 1 cm2 and the other 2 cm2 the height of mercury in the narrower tube is",
+            "content": "consider two mercury barometers one having a crosssectional area of 1 cm2 and the other 2 cm2 the height of mercury in the narrower tube is a half b",
+            "url": "https://moodle-n7.inp-toulouse.fr/mod/resource/view.php?id=72966",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "a math book and a physics book sitting on a table are tied together with a length of string with the string taut one book is pushed off the edge of the table as it falls the other book is dragged horizontally across the table surface with no friction acceleration of the books is",
+            "content": "a math book and a physics book of the same mass are tied together with a length of a string with the string taut one book is pushed off the edge of a",
+            "url": "https://www.transtutors.com/questions/a-math-book-and-a-physics-book-of-the-same-mass-are-tied-together-with-a-length-of-a-9224330.htm",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "a rock suspended by a weighing scale weighs 5 n out of water and 3 n when submerged in water what is the buoyant force on the rock",
+            "content": "24 a rock suspended by a weighing scale weighs 5 n out of water and 3 n when submerged in water what is the buoyant force on the rock a 8 n b 5 n c 3 n d",
+            "url": "https://physics.weber.edu/amiri/physics1010online/QSets-htmlFormats/QuestionSet8-V1-ANS.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "microscopic slush in water tends to make the water",
+            "content": "microscopic slush in water tends to make the water b warmer c more dense d less dense a d less dense how well did you know this 1 not at all 2 3",
+            "url": "https://www.brainscape.com/flashcards/chapter-6-rat-17562349/packs/22348881",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "microscopic slush in water tends to make the water",
+            "content": "does “microscopic slush” in water tend to make it more dense or less dense answer it tends to make less dense as we know density mass volume as",
+            "url": "https://studysoup.com/tsg/184643/conceptual-physics-11-edition-chapter-15-problem-26rq",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "a karate chop delivers a force of 3000 n to a board that breaks the force that the board exerts on the hand during this event is",
+            "content": "a karate chop delivers a force of 3000 n to a board that breaks the force that the board exerts on the hand during this event is a less than 3000 n c 3000 n",
+            "url": "https://torrie.edublogs.org/files/2013/10/Dynamics-Problems-Set1-Solutions-2bziazf.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "an airplane with its nose pointing north with an airspeed of 40 kmh in a 30kmh crosswind at right angles has a groundspeed of",
+            "content": "an airplane with its nose pointing north with an airspeed of 40 kmh in a 30kmh crosswind at right angles has a groundspeed of a 30 kmh b 40 kmh c",
+            "url": "https://www.brainscape.com/flashcards/part-one-multiple-choice-exam-3388202/packs/5128033",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "imagine youre standing on the surface of a shrinking planet if it shrinks to onetenth its original diameter with no change in mass on the shrunken surface youd weigh",
+            "content": "1 imagine youre standing on the surface of a shrinking planet if it shrinks to one tenth its original diameter with no change in mass",
+            "url": "https://torrie.edublogs.org/files/2012/03/Dynamics-Problems-Set4-2g3aynz.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "imagine youre standing on the surface of a shrinking planet if it shrinks to onetenth its original diameter with no change in mass on the shrunken surface youd weigh",
+            "content": "imagine standing on the surface of a shrinking planet if it shrinks to onetenth its original diameter with no change in mass on the shrunken surface youd",
+            "url": "https://torrie.edublogs.org/files/2014/09/Dynamics-PS4-yvtt1j.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "a 10n force at an angle 45° above the horizontal has a horizontal component of about",
+            "content": "a 10n force at right angle 45 degree above the horizontal has a horizontal component of about ⇒fx10n⋅cos45°≈7n answer link related",
+            "url": "https://socratic.org/questions/a-10-n-force-at-right-angle-45-degree-above-the-horizontal-has-a-horizontal-comp",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "if the frequency of one source of sound is 500 hz and a second sound source is 504 hz then when the two waves interfere with each other the beat frequency will be",
+            "content": "source of sound is 500 hz and a second sound source is 504 hz then when the two waves interfere with each other the beat frequency will be a 2 hz b 4 hz c",
+            "url": "https://waecphysics30s.wordpress.com/wp-content/uploads/2020/06/final-practice-exam.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "lift a 100n crate with an ideal pulley system by pulling a rope downward with 25 n of force for every 1m length of rope pulled down the crate rises",
+            "content": "lift a 100n crate with an ideal pulley system by pulling a rope downward with 25 n of force for every 1m length of rope pulled down the crate rises a 25",
+            "url": "https://www.brainscape.com/flashcards/part-one-multiple-choice-exam-3388202/packs/5128033",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "compared with the power input the power output of an ideal transformer is",
+            "content": "the power output of an ideal transformer is c the same as the power input in an ideal transformer which is a theoretical concept used for analysis",
+            "url": "https://mrkt.nnu.edu/find/compared-with-power-input-the-power-output-of-an-ideal-trans-lffp",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "in the absence of air resistance a ball of mass m is tossed upward to reach a height of 20 m at the 10m position half way up the net force on the ball is",
+            "content": "1 pt in the absence of air resistance a ball of mass m is tossed upward to reach a height of 20 meters at the 10 preter position the net force on the ball",
+            "url": "https://efcms.engr.utk.edu/ef151-2019-01/exams/ef151-2013-08/qf/qf-ef151-2013-08-soln.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "the metal detectors people walk through at airports operate via",
+            "content": "no longer magnetic 23 the metal detectors that people walk through at airports operate via a ohms law b faradays law c coulombs law d newtons",
+            "url": "https://physics.weber.edu/amiri/physics1010online/QSets-htmlFormats/QuestionSet12-V1-ANS.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "a barometer that uses water instead of mercury will be",
+            "content": "the correct answer is if water is used in a barometer instead of mercury it will support a water column of height 103 mif we use water instead of mercury",
+            "url": "https://infinitylearn.com/question-answer/if-water-is-used-in-a-barometer-instead-of-mercury-what-will-be-t-676225",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "a radioactive sample has a halflife of 1 hour if we start with 1000 gram of it at noon how much remains at 300 pm",
+            "content": "starting with 1000 gram of it at noon how much remains at 300 pm a 050 g b 025 g c 0125 g d 00625 g solution determine the remaining mass of",
+            "url": "https://www.studypool.com/documents/8859440/nuclear-physics-",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "temperature is generally proportional to a substance’s",
+            "content": "our expert help has broken down your problem into an easytolearn solution you can count onsee answersee answersee answer done loading temperature is generally proportional to a substancex27s a vibrational kinetic energy b average translational kinetic energy c rotational kinetic energy",
+            "url": "https://www.chegg.com/homework-help/questions-and-answers/temperature-generally-proportional-substance-s-vibrational-kinetic-energy-b-average-transl-q2752306",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "when a diver points a flashlight upward toward the surface of the water at an angle 20° from the normal the beam of light",
+            "content": "if the diver directs the beam of the flash light at an angle to the vertical which is slightly less than the critical angle then the beam of the flash light undergoes refraction from the water medium to the air medium and will reach to the eye of the person at the edge of the swimming pool",
+            "url": "https://www.vedantu.com/question-answer/a-diver-in-the-swimming-pool-wants-to-signal-his-class-10-physics-cbse-5f86cab7d5a23f3ba2006ae7",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "when wind speeds up as it blows over the top of a hill atmospheric pressure there",
+            "content": "9 wind speeding up as it blows over the top of a hill a decreases atmospheric pressure there b increases atmospheric pressure there c",
+            "url": "https://www.chegg.com/homework-help/questions-and-answers/9-wind-speeding-blows-top-hill--decreases-atmospheric-pressure-b-increases-atmospheric-pre-q2705751",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "the amount of air drag on an 08n flying squirrel dropping vertically at terminal velocity is",
+            "content": "the amount of air drag on an 0 8n flying squirrel dropping vertically at terminal velocity is 08nthe terminal velocity is the highest constant velocity attained",
+            "url": "https://www.abiertosi.sanisidro.gov.ar/solution/the-amount-of-air-drag-on-an-0-8n-flying-squirrel-dropping-vertically-3",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 22,
+            "query": "microscopic slush in water tends to make the water",
+            "content": "does “microscopic slush” in water tend to make it more dense or less dense answer it tends to make less dense as we know density mass volume as volume is inversely proportional if there is slush in water it increase volume which decrease the density",
+            "url": "https://studysoup.com/tsg/184643/conceptual-physics-11-edition-chapter-15-problem-26rq",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 23,
+            "query": "microscopic slush in water tends to make the water",
+            "content": "solution for choose the best answer to the following microscopic slush in water tends to make the water a more dense b less dense c more slippery d…",
+            "url": "https://www.bartleby.com/questions-and-answers/choose-the-best-answer-to-the-following-microscopic-slush-in-water-tends-to-make-the-water-a-more-de/931af7a9-5587-4563-8a1a-a6dcae575cc3",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 24,
+            "query": "microscopic slush in water tends to make the water",
+            "content": "the presence of microscopic slush in water tends to make the water",
+            "url": "https://sciemce.com/15548622/the-presence-of-microscopic-slush-water-tends-make-the-water",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "the magnitude of the gravitational force on a satellite is constant if the orbit is",
+            "content": "1421 a synchronous satellite put in orbit around jupiter to study the famous red spot jupiter rotates once every 99 h use the data of table 142 to find the altitude of the satellite 1427 a satellite of earth has a mass of 100 kg and is at an altitude of 20 x 106 m a what is the potential energy of the satelliteearth system b what is the magnitude of the gravitational force exerted by",
+            "url": "https://www.ux1.eiu.edu/~cfadd/1350/Hmwk/Ch14/Ch14.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "a 10n force at an angle 45° above the horizontal has a horizontal component of about",
+            "content": "answer to a 10n force at an angle 45° above the horizontal has a horizontal component of abouta 7 n b 5 n c 10 n",
+            "url": "https://www.chegg.com/homework-help/10-n-force-angle-45-horizontal-horizontal-component-7-n-b-5-chapter-p1-problem-9mcp-solution-9780321908605-exc",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "according to coulomb a pair of charged particles placed twice as close to each other experience a force",
+            "content": "according to coulomb’s law a pair of particles that are placed twice as close to each other will experience forces a twice as strong b four times as strong c half as strong d onequarter as strong author paul g hewitt leslie a hewitt john a suchocki",
+            "url": "https://www.bartleby.com/solution-answer/chapter-10-problem-2rat-conceptual-physical-science-explorations-2nd-edition/9780321567918/according-to-coulombs-law-a-pair-of-particles-that-are-placed-twice-as-close-to-each-other-will/91ed2f41-9489-4c47-95f1-a3a2778f3ceb",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "in a series circuit if the current in one lamp is 2 a the current in the lamp next to it is",
+            "content": "answer to choose the best answer to the followingin a series circuit if the current in one lamp is 2 a the current in the lamp",
+            "url": "https://www.chegg.com/homework-help/choose-best-answer-following-series-circuit-current-one-lamp-chapter-p5-problem-16mcq-solution-9780321826978-exc",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "a big fish swims upon and swallows a small fish that is at rest right after lunch the fattened big fish has a change in",
+            "content": "the correct option for the statement “a big fish swims upon and swallows a small fish at rest after lunch the momentum of the big fish is” is option a",
+            "url": "https://www.bartleby.com/solution-answer/chapter-5-problem-10rat-conceptual-physical-science-explorations-2nd-edition/9780321567918/a-big-fish-swims-upon-and-swallows-a-small-fish-at-rest-after-lunch-the-momentum-of-the-big-fish/0c22088a-28b9-42dc-8118-61bbea3b21bf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 22,
+            "query": "a big fish swims upon and swallows a small fish that is at rest right after lunch the fattened big fish has a change in",
+            "content": "physicschoose the best answer to the following a big fish swims upon and swallows a small fish at rest right after lunch the fattened big fish has a change in a speed b momentum",
+            "url": "https://www.bartleby.com/questions-and-answers/choose-the-best-answer-to-the-following-a-big-fish-swims-upon-and-swallows-a-small-fish-at-rest.-rig/30e6c918-47c5-4d33-9477-e3db668c5aeb",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 23,
+            "query": "a big fish swims upon and swallows a small fish that is at rest right after lunch the fattened big fish has a change in",
+            "content": "sciencephysicsconceptual integrated sciencea big fish swims upon and swallows a small fish at rest immediately after lunch the fattened big fish has a change in a speed b momentum",
+            "url": "https://www.bartleby.com/solution-answer/chapter-4-problem-3rat-conceptual-integrated-science-3rd-edition/9780135197394/a-big-fish-swims-upon-and-swallows-a-small-fish-at-rest-immediately-after-lunch-the-fattened-big/e95411d4-6492-4d90-86f0-b83901557d47",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "hot sand cools off faster at night than does vegetation compared with vegetation sand’s specific heat capacity is",
+            "content": "answer to choose the best answer to the followinghot sand cools off faster at night than vegetation compared with vegetation",
+            "url": "https://www.chegg.com/homework-help/choose-best-answer-following-hot-sand-cools-faster-night-veg-chapter-p3-problem-5mcp-solution-9780321940667-exc",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "the power required to raise a 100kg crate a vertical distance of 2 m in a time of 4 s is",
+            "content": "the correct option for the statement quothow much power is required to raise a crate a vertical distance of 2m in a time of 4s quot is option b given info the mass of the crate is 100kg the movement of the crate is 2m and time for the movement is 4s",
+            "url": "https://www.bartleby.com/solution-answer/chapter-6-problem-2rat-conceptual-physical-science-explorations-2nd-edition/9780321567918/how-much-power-is-required-to-raise-a-100-kg-crate-a-vertical-distance-of-2m-in-a-time-of-4s/288a0f5a-1ed4-4701-9788-84ebdd2d6872",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 22,
+            "query": "the power required to raise a 100kg crate a vertical distance of 2 m in a time of 4 s is",
+            "content": "solution for choose the best answer to the following the power required to raise a 100kg crate a vertical distance of 2 m in a time of 4 s is a 200 w b…",
+            "url": "https://www.bartleby.com/questions-and-answers/choose-the-best-answer-to-the-following-the-power-required-to-raise-a-100kg-crate-a-vertical-distanc/32fe8283-43bd-4246-99aa-4f1c7e2d20e8",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 24,
+            "query": "the power required to raise a 100kg crate a vertical distance of 2 m in a time of 4 s is",
+            "content": "how much power is required to raise a 100kg crate a vertical distance of 3 m in a time of 2 s answer a 150 w b 100 w c 1500 w d 300 w",
+            "url": "https://www.weegy.com/Home.aspx?ConversationId=51527A5D&ModeType=5",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "compared with the power input the power output of an ideal transformer is",
+            "content": "realtime simulation technology modern power electronics hao bai fei gao the simplest way to model a transformer is to consider it as an ideal one where infinite permeability zero excitation current zero winding resistance and zero leakage flux are assumed and the core losses and saturation are neglected the equivalent circuit of an ideal transformer is shown in fig 419 the relationship between the input voltage and output voltage of",
+            "url": "https://www.sciencedirect.com/topics/engineering/ideal-transformer",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "in the absence of air resistance a ball of mass m is tossed upward to reach a height of 20 m at the 10m position half way up the net force on the ball is",
+            "content": "solved 1 in the absence of air resistance a ball of mass m is tossed upward to reach a height of 20 m at the 10m position half way up",
+            "url": "https://solvely.ai/homework/718715368-1-in-the-absence-of-air-resistance-a-ball-of-mass-m-is-tossed-upward-to-reach-a-height-of",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "in the absence of air resistance a ball of mass m is tossed upward to reach a height of 20 m at the 10m position half way up the net force on the ball is",
+            "content": "in the absence of air resistance a ball of mass m is tossed upward to reach a height of 20m given that fgmg what is the net force on the ball at the 10m position half way up a2mg bmg cmg4 dmg2 i already got this wrong bc i had no idea how to solve",
+            "url": "https://questions.llc/questions/1587917/in-the-absence-of-air-resistance-a-ball-of-mass-m-is-tossed-upward-to-reach-a-height-of",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 22,
+            "query": "in the absence of air resistance a ball of mass m is tossed upward to reach a height of 20 m at the 10m position half way up the net force on the ball is",
+            "content": "in the absence of air resistance a ball of mass m is tossed upward to reach a height of 20m at the 10m position half way up the net force on the ball is a 2mg b mg4 c",
+            "url": "https://www.chegg.com/homework-help/questions-and-answers/absence-air-resistance-ball-mass-m-tossed-upward-reach-height-20m-10-m-position-half-way-n-q1031657?msockid=1027655f43cd659c339c704342666454",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 23,
+            "query": "in the absence of air resistance a ball of mass m is tossed upward to reach a height of 20 m at the 10m position half way up the net force on the ball is",
+            "content": "questions llc login or sign up ask a new question in the absence of air resistance a ball of mass m is tossed upward to reach a height of 20m given that fgmg what is the net force on the ball at the 10m position half way up a2mg bmg showing results 1 through 100 of 71805",
+            "url": "https://questions.llc/search?query=In+the+absence+of+air+resistance%2C+a+ball+of+mass+m+is+tossed+upward+to+reach+a+height+of+20m.+Given+that+Fg%3Dmg%2C+what+is+the+net+force+on+the+ball+at+the+10m+position+%28half+way+up%29%3F+a%292mg+b%29mg",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "when you buy a pipe in a hardware store the water isn’t included when you buy copper wire electrons",
+            "content": "when you buy a water pipe in a hardware store the water isn’t included when you buy copper wire electrons a must be supplied by you just as water must be supplied for a water pipe b are already in the wire c may fall out which is why wires are insulated",
+            "url": "https://www.bartleby.com/solution-answer/chapter-10-problem-3rat-conceptual-physical-science-explorations-2nd-edition/9780321567918/when-you-buy-a-water-pipe-in-a-hardware-store-the-water-isnt-included-when-you-buy-copper-wire/e4f9da60-7ac3-45ed-b0b5-948bed8db486",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "which type of radiation from cosmic sources predominates on the inside of highflying commercial airplanes",
+            "content": "sciencephysicsconceptual physics 12th editionthe type of radiation from cosmic sources which predominates inside the highflying commercial airplanes",
+            "url": "https://www.bartleby.com/solution-answer/chapter-p7-problem-8mcpe-conceptual-physics-12th-edition-12th-edition/9780321909107/9a099c2f-bb4a-11e8-9bb5-0ece094302b6",
+            "engine": "braveAPI"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 9,
+            "query": "in a mixture of hydrogen oxygen and nitrogen gases at a given temperature the molecules having the greatest average speed are those of",
+            "content": "the molecular masses are different from gas to gas and if all gases have the same average kinetic energy the average speed of a gas is unique",
+            "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Physical_Properties_of_Matter/States_of_Matter/Properties_of_Gases/Gases_(Waterloo)/Kinetic_Theory_of_Gases",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "when you tap a piece of wood it will produce a characteristic sound related to its",
+            "content": "a characteristic sound is related to its natural frequency the natural frequency is the frequency at which an object tends to oscillate",
+            "url": "https://www.qna.acalytica.com/42123/produce-characteristic-related-following-choice-explain",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the vibrations in a transverse wave move in a direction",
+            "content": "in transverse waves close transverse wavea wave that moves in a direction at right angles to the way in which the particles are vibrating the vibrations are",
+            "url": "https://www.bbc.co.uk/bitesize/guides/z9bw6yc/revision/2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "when a wave moves from shallow water to deep water the",
+            "content": "transitional waves occur when the water depth is less than onehalf the wavelength d 12 l at this point the water movement of particles on the surface",
+            "url": "https://manoa.hawaii.edu/exploringourfluidearth/physical/waves/wave-energy-and-wave-changes-depth",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "boiling and freezing occur when water is subjected to",
+            "content": "this revision note includes the changes of state that occur at melting and boiling points ice melts at 0 °c and water boils at 100 °c melting",
+            "url": "https://www.savemyexams.com/igcse/physics/cie/23/revision-notes/2-thermal-physics/2-2-thermal-properties-and-temperature/2-2-4-melting-and-boiling/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "in a mixture of hydrogen oxygen and nitrogen gases at a given temperature the fastest molecules on average are those of",
+            "content": "however you may notice that at the same temperature the average speed of hydrogen gas h2 is 4 times more than that of oxygen o2 in order",
+            "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Physical_Properties_of_Matter/States_of_Matter/Properties_of_Gases/Gases_(Waterloo)/Kinetic_Theory_of_Gases",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a 10ω resistor carries 10 a the voltage across the resistor is",
+            "content": "use the equation vir where v is the voltage across the resistor i is the current through the resistor and r is the resistance of the",
+            "url": "https://socratic.org/questions/a-10-resistor-carries-10-a-the-voltage-across-the-resistor-is",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when a cannonball is fired from a cannon both the cannonball and the cannon experience equal",
+            "content": "the forces on both cannon and ball are equal but they do not have equal acceleration explanation newtons third law states that for every action there must",
+            "url": "https://socratic.org/questions/when-a-cannon-is-fired-are-the-forces-on-the-cannonball-and-on-the-cannon-equal-",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "when you brush your hair and scrape electrons from your hair the charge of your hair becomes",
+            "content": "and if electrons were scraped off the brush onto your hair your hair would have a negative charge © 2015 pearson education inc page 13 conservation of",
+            "url": "https://laulima.hawaii.edu/access/content/user/shidong/PDF_ForStudent/PHYS100/Outlines_Hewitt_12th/22_LectureOutline.pptx.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "the direction of natural processes is from states of",
+            "content": "the second law is concerned with the direction of natural processes it asserts that a natural process runs only in one sense and is not reversible",
+            "url": "https://en.wikipedia.org/wiki/Second_law_of_thermodynamics",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "when you bend the branch of a tree by hanging on its end the top side of the branch is under",
+            "content": "when trees are bent past their ability to absorb the stress they begin to crack horizontally as the wood collapses inward often leaving external wood or",
+            "url": "https://pressbooks.lib.vt.edu/treesteward/chapter/11/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "compared with the current in an led lamp the current in the connecting wire is",
+            "content": "the forward voltage will decrease with an increase in temperature if the forward voltage drops the forward current will increase heating the led even more",
+            "url": "https://www.instructables.com/Wiring-LEDs-Correctly-Series-Vs-Parallel-Connectio/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "astrophysicists are able to identify the elements in the outer layers of a star by studying its",
+            "content": "an absorption line spectrum is the equivalent of an emission line spectrum but it is made of dark lines on top of a continuous spectrum",
+            "url": "https://www.savemyexams.com/a-level/physics/ocr/17/revision-notes/5-newtonian-world-and-astrophysics/5-11-em-radiation-from-stars/5-11-3-identifying-elements-within-stars-using-spectral-lines/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a wave transfers",
+            "content": "energy is transferred from left to right at right angles to the hand movement however none of the particles are transported along a transverse wave the",
+            "url": "https://www.bbc.co.uk/bitesize/guides/zncxrj6/revision/2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "all of the following are electromagnetic waves except",
+            "content": "all these are electromagnetic waves except a white light b photon c xray d infrared",
+            "url": "https://myschool.ng/classroom/chemistry/40947?qtid=817183",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "huygens’ principle for light is primarily described by",
+            "content": "the grounding of huygenss principle is essentially the observation that the greens function for the helmholtz wave equation is the spherical wave source",
+            "url": "https://physics.stackexchange.com/questions/206939/what-is-the-basis-of-huygens-principle",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "carbon14 is primarily produced by cosmic radiation in the",
+            "content": "the primary natural source of carbon14 on earth is cosmic ray action on nitrogen in the atmosphere and it is therefore a cosmogenic nuclide",
+            "url": "https://en.wikipedia.org/wiki/Carbon-14",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a simple and correct way to comprehend satellites orbiting earth is to view them as",
+            "content": "satellites are objects that orbit around a planet or star natural satellites are usually moons but they can also be other solar system bodies",
+            "url": "https://letstalkscience.ca/educational-resources/backgrounders/introduction-satellites",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the equation e mc2 indicates that energy",
+            "content": "the formula defines the energy e of a particle in its rest frame as the product of mass m with the speed of light squared c2 because the speed of light is",
+            "url": "https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the greenishblue color of ocean water is due mostly to light that hasn’t been",
+            "content": "the colour of the ocean is caused by the raman effect where reflected light has a different wavelenght than the incoming light the effect is",
+            "url": "https://www.reddit.com/r/explainlikeimfive/comments/znl7l9/eli5_why_is_water_clear_in_small_quantities_but/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the mutual induction of electric and magnetic fields can produce",
+            "content": "changes in the electric field makes changes in magnetic field and vice versa what does this logically mean it looks like an infinite loop",
+            "url": "https://physics.stackexchange.com/questions/567556/what-does-mutual-induction-of-electric-and-magnetic-fields-in-an-em-wave-mean",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "to say that a rose petal is red is to say that it",
+            "content": "bright ruby red roses are the true sign of love and usually symbolize passion desire and romance deeper red roses that fall more into the",
+            "url": "https://www.1800flowers.com/articles/flower-facts/meaning-of-red-roses",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "relativistic equations for time dilation length contraction and relativistic momentum and energy hold true",
+            "content": "time dilation is the difference in elapsed time as measured by two clocks either because of a relative velocity between them special relativity",
+            "url": "https://en.wikipedia.org/wiki/Time_dilation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "in a hydraulic press operation the output piston cannot",
+            "content": "we walk through two stepbystep solved examples to enforce our understanding of how to find the force exerted by a hydraulic press",
+            "url": "https://study.com/skill/learn/how-to-find-the-force-exerted-by-a-hydraulic-press-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "refraction occurs when a wave crosses a boundary and changes",
+            "content": "process by which a wave changes speed and sometimes direction upon entering a denser or less dense medium eg a light ray changes direction when refracted by a",
+            "url": "https://www.bbc.co.uk/bitesize/guides/zw42ng8/revision/2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "when the temperature of a strip of iron is increased the length of the strip",
+            "content": "consider that the length of the strip corresponding to the increased temperature is in the middle of the strip a bimetallic strip we have",
+            "url": "https://physicstasks.eu/2110/bimetal",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "chain reactions in a fission reactor are caused by",
+            "content": "each time a u235 nucleus splits it releases two or three neutrons hence the possibility exists for creating a chain reaction nuclear fission the mit",
+            "url": "https://nrl.mit.edu/reactor/fission-process/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "general relativity predicts that",
+            "content": "general relativity predicts gravitational waves as does any theory of gravitation in which changes in the gravitational field propagate at a finite speed",
+            "url": "https://en.wikipedia.org/wiki/Tests_of_general_relativity",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the red glow in the neon tube of an advertising sign is a result of",
+            "content": "the natural colour of neon is a bright red and that of argon is a pale purplepink or light blue hence our neon colours classic red and",
+            "url": "https://www.sygns.com/blogs/magazine/how-neon-lights-work",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "for a tube closed at one end the length of the tube at a frequency of 256 hz will be",
+            "content": "a tube closed at one end and containing air produces fundamental note of frequency 256 hz if the tube is open at both ends the fundamental frequency will be",
+            "url": "https://www.shaalaa.com/question-bank-solutions/a-tube-closed-at-one-end-and-containing-air-produces-fundamental-note-of-frequency-256-hz-if-the-tube-is-open-at-both-ends-the-fundamental-frequency-will-be-_____________237700",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "if an iron nucleus split in two its fission fragments would have",
+            "content": "fission a nuclear reaction in which a heavy nucleus splits into two or more smaller fragments releasing large amounts of energy fusion a",
+            "url": "https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Introductory_Chemistry_(LibreTexts)/17%3A_Radioactivity_and_Nuclear_Chemistry/17.07%3A_The_Discovery_of_Fission_and_the_Atomic_Bomb",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in his special theory of relativity einstein stated that the laws of physics are",
+            "content": "the laws of physics are invariant identical in all inertial frames of reference that is frames of reference with no acceleration this is known as the",
+            "url": "https://en.wikipedia.org/wiki/Special_relativity",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the surface of planet earth loses energy to outer space due mostly to",
+            "content": "atmospheric escape is the loss of planetary atmospheric gases to outer space a number of different mechanisms can be responsible for atmospheric escape",
+            "url": "https://en.wikipedia.org/wiki/Atmospheric_escape",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "when a proton is plucked from an atomic nucleus the atom has a decrease in",
+            "content": "we know that atoms contain protons neutrons and electrons the protons have significant mass and a positive charge and are found in the nucleus of the atom",
+            "url": "https://employees.csbsju.edu/cschaller/Principles%20Chem/atoms/atomoldquantum.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the lowest possible temperature is absolute zero at",
+            "content": "zero kelvin −27315 °c is defined as absolute zero it is commonly thought of as the lowest temperature possible but it is not the lowest enthalpy state",
+            "url": "https://en.wikipedia.org/wiki/Absolute_zero",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "when light undergoes interference it can sometimes",
+            "content": "when the light waves reflected from the inner and outer surface combine they will interfere with each other removing or reinforcing some parts of white light",
+            "url": "https://evidentscientific.com/en/microscope-resource/knowledge-hub/lightandcolor/interference",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "satellites in circular earth orbit maintain a constant speed because gravitational force on them is",
+            "content": "the satellite is accelerating because there is a net force acting on it the force of gravity on the satellite is the centripetal force",
+            "url": "https://socratic.org/questions/a-satellite-moves-around-the-earth-in-a-circular-orbit-with-constant-speed-expla",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "when an element ejects an alpha particle the atomic number of the resulting element",
+            "content": "the parent nucleus transforms or decays into a daughter product with a mass number that is reduced by four and an atomic number that is reduced by two",
+            "url": "https://en.wikipedia.org/wiki/Alpha_decay",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the speed of sound is slightly greater on a",
+            "content": "the speed of sound in an ideal gas depends only on its temperature and composition the speed has a weak dependence on frequency and pressure in dry air",
+            "url": "https://en.wikipedia.org/wiki/Speed_of_sound",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the phenomenon of interference occurs for",
+            "content": "in physics interference is a phenomenon in which two coherent waves are combined by adding their intensities or displacements with due consideration for their",
+            "url": "https://en.wikipedia.org/wiki/Wave_interference",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the surface of planet earth loses energy to outer space due mostly to",
+            "content": "atmospheric escape is the loss of planetary atmospheric gases to outer space a number of different mechanisms can be responsible for atmospheric escape",
+            "url": "https://en.wikipedia.org/wiki/Atmospheric_escape",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "when red and blue light are overlapped the color produced is",
+            "content": "the primary colored circles overlap to produce other colors of light known as the secondary colors of light cyan magenta and yellow complementary pairs of",
+            "url": "https://www.physicsclassroom.com/mop/Light-and-Color/Complementary-Colors/QG6help",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "when an element ejects a beta particle the atomic number of that element",
+            "content": "the nucleus ejects the beta particle and some gamma radiation the new atom retains the same mass number but the number of protons increases to 44 the atom is",
+            "url": "https://www.arpansa.gov.au/understanding-radiation/what-is-radiation/ionising-radiation/beta-particles",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "a voltage will be induced in a wire loop when the magnetic field within that loop",
+            "content": "the voltage induced in a wire loop equals the negative change of the magnetic flux through the area of this wire loop per unit time each",
+            "url": "https://physicstasks.eu/400/a-single-loop-receding-from-a-wire",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a satellite in earth orbit is above earth’s",
+            "content": "satellites in geostationary orbit geo fly above earths equator moving from west to east exactly matching earths rotation taking 23 hours 56 minutes and 4",
+            "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Types_of_orbits",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "when the color yellow is seen on your tv screen the phosphors being activated on the screen are",
+            "content": "a phosphor is a substance that exhibits the phenomenon of luminescence it emits light when exposed to some type of radiant energy",
+            "url": "https://en.wikipedia.org/wiki/Phosphor",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the complementary color of blue is",
+            "content": "for example blue can be the complement of both yellow and orange because a wide range of hues from cyan to blueviolet are called blue in english",
+            "url": "https://en.wikipedia.org/wiki/Complementary_colors",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a stepup transformer in an electric circuit can step up",
+            "content": "a transformer that increases the voltage from primary to secondary more secondary winding turns than primary winding turns is called a stepup transformer",
+            "url": "https://www.allaboutcircuits.com/textbook/alternating-current/chpt-9/step-up-and-step-down-transformers/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "most of the radiation in earth’s biosphere is",
+            "content": "greenhouse gases in the atmosphere such as water vapor and carbon dioxide absorb most of the earths emitted longwave infrared radiation",
+            "url": "https://science.nasa.gov/ems/13_radiationbudget/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "when 100 j are put into a device that puts out 40 j of useful work the efficiency of the device is",
+            "content": "i calculate 40 efficiency the efficiency of a device can be calculated using these steps 1 measure the amount of work put in input",
+            "url": "https://socratic.org/questions/a-student-does-100-j-of-work-on-the-handle-of-a-bicycle-pump-the-pump-does-40-j-",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the amount of heat transferred to a system can be measured in",
+            "content": "calorimetry is the science associated with determining the changes in energy of a system by measuring the heat exchanged with the surroundings",
+            "url": "https://www.physicsclassroom.com/class/thermalP/Lesson-2/Measuring-the-Quantity-of-Heat",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "as a blinking light source approaching you gains speed you see the frequency of flashes",
+            "content": "we explore different blink trigger methods suited specifically for virtual reality vr our triggers leverage the dazzle menace and corneal reflexes",
+            "url": "https://dl.acm.org/doi/full/10.1145/3544548.3580888",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the phenomenon of beats results from sound",
+            "content": "a beat is an interference pattern between two sounds of slightly different frequencies perceived as a periodic variation in volume",
+            "url": "https://en.wikipedia.org/wiki/Beat_(acoustics)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "which of these does not belong in the family of electromagnetic waves",
+            "content": "electromagnetic waves are members of a family of waves with common properties called the electromagnetic spectrum all electromagnetic waves are transverse",
+            "url": "https://www.bbc.co.uk/bitesize/guides/zdx4t39/revision/1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the difference between dc and ac in electric circuits is that in dc charges flow",
+            "content": "in direct current the voltage is always constant and the electricity flows in a certain direction in contrast in alternating current the",
+            "url": "https://www.matsusada.com/column/dc_and_ac.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "as more lamps are connected in parallel in a circuit the current in the power source",
+            "content": "the overall current in the circuit increases explanation if each lamp is the same type each has the same current going thru it",
+            "url": "https://socratic.org/questions/as-more-lamps-are-put-into-a-parallel-circuit-the-overall-current-in-the-circuit",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "light that is not transmitted by opaque materials is",
+            "content": "materials that do not transmit light are called opaque many such substances some materials allow much of the light that falls on them to be transmitted",
+            "url": "https://en.wikipedia.org/wiki/Transparency_and_translucency",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "if you travel at high speed then compared with your friends who “stay at home” you are",
+            "content": "how might this be possible the astronaut went on a very highspeed spaceship and his time slowed down compared to his stay at home son",
+            "url": "https://nwestergaard.weebly.com/uploads/6/0/7/7/60778033/relativity_worksheet_-_08_-_answers.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "shock waves are produced by waves of sound",
+            "content": "a shock wave also spelled shockwave or shock is a type of propagating disturbance that moves faster than the local speed of sound in the medium",
+            "url": "https://en.wikipedia.org/wiki/Shock_wave",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "compared with the sound you hear from the siren of a stationary fire engine its sound when it approaches you has an increased",
+            "content": "as the siren approaches you the observer the waves are compressed and the sound entering your ear is higher than the frequency of the sound originally",
+            "url": "https://panchbhaya.weebly.com/uploads/1/3/7/0/13701351/phys11_9_5.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "when a spinning system contracts in the absence of an external torque its rotational speed increases and its angular momentum",
+            "content": "in the absence of external torques a systems total angular momentum is conserved this is the rotational counterpart to linear momentum being conserved",
+            "url": "https://courses.lumenlearning.com/suny-osuniversityphysics/chapter/11-2-conservation-of-angular-momentum/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "during the time an aircraft produces a sonic boom the aircraft is",
+            "content": "a sonic boom is a sound associated with shock waves created when an object travels through the air faster than the speed of sound",
+            "url": "https://en.wikipedia.org/wiki/Sonic_boom",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a principal source of the earth’s internal energy is",
+            "content": "despite its geological significance earths interior heat contributes only 003 of earths total energy budget at the surface which is dominated by 173000",
+            "url": "https://en.wikipedia.org/wiki/Earth%27s_internal_heat_budget",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "to receive an electric shock there must be a",
+            "content": "in order for current to flow through a conductor there must be a voltage present to motivate it voltage as you should recall is always relative between two",
+            "url": "https://www.allaboutcircuits.com/textbook/direct-current/chpt-3/shock-current-path/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "immediately after two separated charged particles are released from rest both increase in acceleration the sign of charge of the particles is therefore",
+            "content": "if the charges q1 and q2 are of the same sign both positive or both negative then the force is mutually repulsive and the force on each charge points away",
+            "url": "https://www2.tntech.edu/leap/murdock/books/v4chap1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "noisecanceling devices make use of sound",
+            "content": "active noise control is sound reduction using a power source passive noise control is sound reduction by noiseisolating materials such as insulation",
+            "url": "https://en.wikipedia.org/wiki/Active_noise_control",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if the sun collapsed to become a black hole planet earth would",
+            "content": "the earth would start to quickly deorbit and approach the black hole as it comes closer the gravity becomes stronger and the acceleration increases even",
+            "url": "https://www.reddit.com/r/askscience/comments/3c99o6/physics_what_would_happen_if_our_sun_turned_into/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the component of velocity that can remain constant for a tossed baseball is",
+            "content": "the horizontal velocity remains constant during the course of the trajectory and the vertical velocity changes by 98 ms every second",
+            "url": "https://www.physicsclassroom.com/class/vectors/lesson-2/horizontal-and-vertical-components-of-velocity",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "light reflecting from a smooth surface undergoes a change in",
+            "content": "for a smooth surface reflected light rays travel in the same direction this is called specular reflection for a rough surface reflected",
+            "url": "https://www.sciencelearn.org.nz/resources/48-reflection-of-light",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a diffraction grating relies on light",
+            "content": "a diffraction grating is an optical grating with a periodic structure that diffracts light or another type of electromagnetic radiation into several beams",
+            "url": "https://en.wikipedia.org/wiki/Diffraction_grating",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a motor and a generator are",
+            "content": "a motorgenerator an mg set is a device for converting electrical power to another form motorgenerator sets are used to convert frequency voltage",
+            "url": "https://en.wikipedia.org/wiki/Motor%E2%80%93generator",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "when you look at the red petals of a rose the color light youre seeing is",
+            "content": "these are the colors that we can see red orange yellow green blue we see pink when both red and violet light are reflected color absorption",
+            "url": "https://study.com/learn/lesson/color-white-light-reflection-absorption.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "when a nucleus of uranium238 emits an alpha particle left behind is",
+            "content": "uranium emits alpha particles through the process of alpha decay external exposure has limited effect significant internal exposure to tiny particles of",
+            "url": "https://en.wikipedia.org/wiki/Uranium-238",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "when a model car speeds up to three times its original speed its kinetic energy is",
+            "content": "since the kinetic energy increases with the square of the speed an object doubling its speed has four times as much kinetic energy for example a car",
+            "url": "https://en.wikipedia.org/wiki/Kinetic_energy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the crystals that make up minerals are composed of",
+            "content": "a crystal or crystalline solid is a solid material whose constituents such as atoms molecules or ions are arranged in a highly ordered microscopic structure",
+            "url": "https://en.wikipedia.org/wiki/Crystal",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "the work done on a 100kg crate that is hoisted 2 m in a time of 4 s is",
+            "content": "work force x distance 980 x 3 2940 newtonmeters 2940 joules thats the work done to lift the crate whether the worker takes a",
+            "url": "https://math.answers.com/math-and-arithmetic/How_much_work_is_done_on_a_100-kg_crate_that_is_hoisted_3_m_in_a_time_of_2_s",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "what einstein discovered about space and time is that they",
+            "content": "einsteins theory has astrophysical implications including the prediction of black holesregions of space in which space and time are distorted in such a way",
+            "url": "https://en.wikipedia.org/wiki/General_relativity",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the speed of sound in air depends on",
+            "content": "the speed has a weak dependence on frequency and pressure in dry air deviating slightly from ideal behavior in colloquial speech speed of sound refers to",
+            "url": "https://en.wikipedia.org/wiki/Speed_of_sound",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "the time it takes for a pendulum swinging to and fro refers to its",
+            "content": "the only things that affect the period of a simple pendulum are its length and the acceleration due to gravity the period is completely independent of other",
+            "url": "https://courses.lumenlearning.com/suny-physics/chapter/16-4-the-simple-pendulum/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "as more lamps are connected in parallel in a circuit the current in the power source",
+            "content": "the overall current in the circuit increases explanation if each lamp is the same type each has the same current going thru it",
+            "url": "https://socratic.org/questions/as-more-lamps-are-put-into-a-parallel-circuit-the-overall-current-in-the-circuit",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find the speed of a wave by multiplying its frequency by its",
+            "content": "multiply the wavelength in meters with frequency in hertz you will get the wave speed in ms congrats you have calculated wave speed from",
+            "url": "https://www.omnicalculator.com/physics/wave-speed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "as more lamps are connected in a series circuit the current in the power source",
+            "content": "if two light bulbs are connected to the circuit in series the resistance of the circuit doubles figure 2 the current flow is now half of what it was when",
+            "url": "https://c03.apogee.net/mvc/home/hes/land/el?utilityname=citizenselectric&spc=foe&id=4707",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "two vectors one 3 n and the other 4 n can have a resultant of",
+            "content": "how to find the resultant force two forces acting in the same direction two forces acting in opposite directions more than 2 forces parallel to one another",
+            "url": "https://www.phyley.com/find-resultant-force",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "a capacitor loses half its remaining charge every second if after five seconds its charge is q what was its initial charge",
+            "content": "it loses 50 of its charge in 10 s what is the time constant of the capacitorresistor circuit a 05 s b 5 s c 14 s d 17 s q q0etrc if the charge",
+            "url": "https://cyberphysics.co.uk/Q&A/KS5/electricity/capacitors/capacitor_mcANS.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "all parts of a laser beam have the same",
+            "content": "a laser differs from other sources of light in that it emits light that is coherent spatial coherence allows a laser to be focused to a tight spot enabling",
+            "url": "https://en.wikipedia.org/wiki/Laser",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a completely submerged object always displaces its own",
+            "content": "reasoning the buoyant force will remain the same as long as the object is totally submerged this is because the buoyant force is the weight of the displaced",
+            "url": "https://physics.weber.edu/amiri/physics1010online/QSets-htmlFormats/QuestionSet8-V1-ANS.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "if the sun were twice as massive its pull on mars would be",
+            "content": "thus if the mass of the sun suddenly doubled heaven forbid its gravitational pull on mars would double upvote 0 downvote add comment",
+            "url": "https://www.wyzant.com/resources/answers/724319/physics-question",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as entropy in a system increases energy in the system",
+            "content": "if an energy increase occurs inside a system there must be an entropy increase in it more energy has been dispersed within the system and this is what",
+            "url": "https://physics.stackexchange.com/questions/699417/if-energy-increases-inside-a-system-there-must-be-an-increase-in-its-entropy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "newton’s law of cooling applies to objects that",
+            "content": "newtons law of cooling is a physical law which states that the rate of heat loss of a body is directly proportional to the difference in the temperatures",
+            "url": "https://en.wikipedia.org/wiki/Newton%27s_law_of_cooling",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "thermal conduction involves mainly",
+            "content": "the thermal conductivity of a material is a measure of its ability to conduct heat it is commonly denoted by k",
+            "url": "https://en.wikipedia.org/wiki/Thermal_conductivity_and_resistivity",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the period of a 10hz wave is",
+            "content": "t110 sec explanation given f10hz f1t t1f t110 sec option a is correct",
+            "url": "https://socratic.org/questions/the-period-of-a-10-hz-wave-is",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "radioactivity has been around on earth since the",
+            "content": "the discovery of radioactivity in uranium by french physicist henri becquerel in 1896 forced scientists to radically change their ideas about atomic structure",
+            "url": "https://www.britannica.com/science/atom/Discovery-of-radioactivity",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the mass of an atom comes mostly from its and its volume from its",
+            "content": "the main source of atomic mass is the nucleus or more precisely the nucleons protons and neutrons which have roughly equal masses one atomic mass unit",
+            "url": "https://www.reddit.com/r/askscience/comments/1jj264/where_does_the_mass_of_an_atom_come_from/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the rotational inertia of an object is greater when most of the mass is located",
+            "content": "rotational inertia plays a similar role in rotational mechanics to mass in linear mechanics indeed the rotational inertia of an object depends on its mass",
+            "url": "https://www.khanacademy.org/science/physics/torque-angular-momentum/torque-tutorial/a/rotational-inertia",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "suppose the number of neutrons in a reactor that is starting up doubles each minute reaching one billion neutrons in 10 minutes when did the number of neutrons reach half a billion",
+            "content": "the dd and dt nuclear fusion reactions can be realized by appropriate acceleration of deuterons or tritons and the irradiation of targets containing deuterium",
+            "url": "https://bibliotekanauki.pl/articles/148654.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "any atom that emits an alpha particle or beta particle",
+            "content": "alpha particles are commonly emitted by all of the larger radioactive nuclei such as uranium thorium actinium and radium as well as the transuranic",
+            "url": "https://en.wikipedia.org/wiki/Alpha_particle",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the highest ocean tides occur when earth and the moon are",
+            "content": "twice a month when the earth sun and moon line up their gravitational power combines to make exceptionally high tides called spring tides",
+            "url": "https://science.nasa.gov/moon/tides/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when water changes to steam energy is",
+            "content": "converting water at 100 ∘ c into steam at 100 ∘ c makes no change to the kinetic energy of the molecules but increases the potential energy of the molecules",
+            "url": "https://physics.stackexchange.com/questions/264633/when-water-turns-to-steam-at-100-degrees-celsius-why-does-both-the-internal-and",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the fact that the moon always shows its same face to earth is evidence that the moon rotates about its axis about once per",
+            "content": "while its true that the moon keeps the same face to us this only happens because the moon rotates at the same rate as its orbital motion a",
+            "url": "https://moon.nasa.gov/resources/429/the-moons-orbit-and-rotation/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "the impulsemomentum relationship is a direct result of newton’s",
+            "content": "yes the impulsemomentum relationship is directly related to newtons second law newtons second law states that the force acting on an object is equal to",
+            "url": "https://www.ck12.org/flexi/physics/momentum-and-impulse/is-the-impulse-momentum-relationship-related-to-newton%27s-second-law/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a magnetic force acting on a beam of electrons can change its",
+            "content": "if field strength increases in the direction of motion the field will exert a force to slow the charges forming a kind of magnetic mirror as shown below",
+            "url": "https://courses.lumenlearning.com/suny-physics/chapter/22-5-force-on-a-moving-charge-in-a-magnetic-field-examples-and-applications/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the discrete orbits of electrons are best understood when modeled by",
+            "content": "in class i learned about the bohrs model which introduces the concept of discrete energy levels that electrons can occupy",
+            "url": "https://www.reddit.com/r/askscience/comments/9804iv/why_do_electrons_have_discrete_energy_levels_they/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "when the shadow of the moon falls on earth we have a",
+            "content": "lunar eclipses occur at the full moon phase when earth is positioned precisely between the moon and sun earths shadow falls upon the surface of the moon",
+            "url": "https://science.nasa.gov/moon/eclipses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the definition of magnetic inclination is the angle between",
+            "content": "magnetic dip dip angle or magnetic inclination is the angle made with the horizontal by earths magnetic field lines",
+            "url": "https://en.wikipedia.org/wiki/Magnetic_dip",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "when small pieces of material are assembled into a larger piece the combined surface area",
+            "content": "for a solid the smaller its particles the greater the surface area to volume ratio if the length of the side of a cube gets 10 times smaller the surface",
+            "url": "https://www.bbc.co.uk/bitesize/guides/z8m8pbk/revision/1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "if an object is already moving and the sum of all the vector forces on a mass is zero then the object will",
+            "content": "if the object was already moving then it will just keep moving so yes the object can be moving when there is no force applied to it note",
+            "url": "https://socratic.org/questions/if-the-net-force-on-an-object-is-zero-can-the-object-be-moving",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "consider a ball rolling in a horizontal circular path on the inside surface of a cone the normal force on the ball",
+            "content": "since the ball moves in a horizontal circle the vertical component of the normal force must be equal to the weight and the horizontal component",
+            "url": "https://www.physicsforums.com/threads/is-the-aapt-2023-physics-bowl-answer-key-incorrect.1053647/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a common nuclear fission reactor",
+            "content": "a nuclear reactor is a device used to initiate and control a fission nuclear chain reaction they are used for commercial electricity marine propulsion",
+            "url": "https://en.wikipedia.org/wiki/Nuclear_reactor",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the energy of an emitted photon is related to its",
+            "content": "the energy of a photon is directly related to the frequency of vibration of a charged particle by a constant known as plancks constant",
+            "url": "https://www.arlingtonschools.org/cms/lib/NY02215626/Centricity/Domain/5167/Skill57AnswerKey.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the doppler effect occurs when a source of sound moves",
+            "content": "the doppler effect also doppler shift is the change in the frequency of a wave in relation to an observer who is moving relative to the source of the wave",
+            "url": "https://en.wikipedia.org/wiki/Doppler_effect",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the electric field between a pair of oppositely charged parallel plates",
+            "content": "the electric field outside of the space between the two plates for example at point a located halfway the positive plate is equal to σ2εo σ2εo 0",
+            "url": "https://physics.stackexchange.com/questions/424955/electric-field-outside-of-space-between-two-plates-of-identical-yet-opposite-ch",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in both fission and fusion energy is released while mass",
+            "content": "light elements such as hydrogen and helium have small nuclei that release lots of energy when they fuse together moving to heavier atoms less energy is",
+            "url": "https://euro-fusion.org/faq/how-do-both-fission-and-fusion-generate-energy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "the pitch of a sound is mostly related to its",
+            "content": "pitch is the quality that makes it possible to judge sounds as higher and lower in the sense associated with musical melodies",
+            "url": "https://en.wikipedia.org/wiki/Pitch_(music)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "according to fourdimensional geometry the angles of a triangle add to 180°",
+            "content": "one version takes precisely thisthe angles of a triangle add to 180∘ this is equivalent to the parallel postulate ross millikan",
+            "url": "https://math.stackexchange.com/questions/269833/whats-a-proof-that-the-angles-of-a-triangle-add-up-to-180",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "bow waves are produced by waves of water",
+            "content": "a bow wave is the wave that forms at the bow of a ship when it moves through the water as the bow wave spreads out it defines the outer limits of a ships",
+            "url": "https://en.wikipedia.org/wiki/Bow_wave",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the factors both of which will increase the magnetic field strength of an electromagnet are",
+            "content": "we can increase the strength of an electromagnet by either increasing the number of turns in the coil or the current that flows through it",
+            "url": "https://amrita.olabs.edu.in/?sub=96&brch=46&sim=294&cnt=1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the compressions and rarefactions in sound normally travel",
+            "content": "sound waves traveling through air are indeed longitudinal waves with compressions and rarefactions as sound passes through air or any fluid medium the",
+            "url": "https://www.physicsclassroom.com/class/sound/u11l1c.cfm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the process of boiling water tends to",
+            "content": "on the other hand boiling is a process in which molecules anywhere in the liquid escape resulting in the formation of vapor bubbles within the liquid",
+            "url": "https://en.wikipedia.org/wiki/Boiling_point",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "when a ball at rest hangs by a single vertical string tension in the string is mg if the ball is made to move in amhorizontal circle so that the string describes a cone string tension",
+            "content": "when p is small the body does not move when p is increased the body will start moving in a straight line if the line of action of p passes through the",
+            "url": "https://ia803207.us.archive.org/20/items/in.ernet.dli.2015.134854/2015.134854.A-Text-Book-Of-Applied-Mechanics-Ed-1st_text.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "when relatively slowmoving molecules condense from the air the temperature of the remaining air tends to",
+            "content": "the average kinetic energy of the remaining water vapor molecules is therefore increased which means that the water vapor is warmer",
+            "url": "https://conceptualacademy.com/sites/default/files/CC0804b.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "as more lamps are connected to a series circuit the current in the power source",
+            "content": "if two light bulbs are connected to the circuit in series the resistance of the circuit doubles figure 2 the current flow is now half of what it was when",
+            "url": "https://c03.apogee.net/mvc/home/hes/land/el?utilityname=citizenselectric&spc=foe&id=4707",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "in the atomic nucleus electrical forces tend to",
+            "content": "an atom is composed of a positively charged nucleus with a cloud of negatively charged electrons surrounding it bound together by electrostatic force almost",
+            "url": "https://en.wikipedia.org/wiki/Atomic_nucleus",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "relativity equations for time length and momentum hold true for",
+            "content": "unlike either of those equations the energymomentum equation 1 relates the total energy to the rest mass m0 all three equations hold true simultaneously",
+            "url": "https://en.wikipedia.org/wiki/Energy%E2%80%93momentum_relation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the second law of thermodynamics tells us that heat doesn’t flow from",
+            "content": "a simple statement of the law is that heat always flows spontaneously from hotter to colder regions of matter or downhill in terms of the temperature",
+            "url": "https://en.wikipedia.org/wiki/Second_law_of_thermodynamics",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "polarization is a property of",
+            "content": "polarization polarization however is an important property of light that affects even those optical systems that do not explicitly measure it the",
+            "url": "https://www.edmundoptics.com/knowledge-center/application-notes/optics/introduction-to-polarization/?srsltid=AfmBOorY8vV5gSqmboFnExiSPccomZANuwhQ2mca2--D2xVOX3uSxAan",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "when you scale up an object to 3 times its linear size the surface area increases by",
+            "content": "when an object undergoes a proportional increase in size its new surface area is proportional to the square of the multiplier and its new volume is",
+            "url": "https://en.wikipedia.org/wiki/Square%E2%80%93cube_law",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "thermal convection involves mainly",
+            "content": "convection is a process in which heat is carried from place to place by the bulk movement of a fluid and gases",
+            "url": "https://en.wikipedia.org/wiki/Convection",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the principal source of earth’s internal energy is",
+            "content": "most of earths internal heat is left over from when our planet formed about 45 billion years ago earth and the other planets in the solar system first began",
+            "url": "https://ugc.berkeley.edu/background-content/earths-internal-heat/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "black is the combination of",
+            "content": "similarly to white black is an achromatic color a color without a hue and is one with a long history of use and importance that extends into modern day the",
+            "url": "https://www.canva.com/colors/color-meanings/black/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the flight of a blimp best illustrates",
+            "content": "airplane flight best illustrates a archimedes principle b pascals principle c bernoullis principle d boyles law 12 the faster a fluid moves",
+            "url": "https://physics.weber.edu/amiri/physics1010online/QSets-htmlFormats/QuestionSet9-V1.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "when an element ejects an alpha particle the mass number of the resulting element",
+            "content": "release of an αparticle produces a new atom that has an atomic number two less than the original atom and an atomic weight that is four less",
+            "url": "https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Chemistry_for_Changing_Times_(Hill_and_McCreary)/11%3A_Nuclear_Chemistry/11.02%3A_Nuclear_Equations",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the fact that the acceleration of free fall is the same for all masses is explained by newton’s",
+            "content": "all objects regardless of their mass free fall with the same acceleration 98 mss this particular acceleration value is so important in physics that it",
+            "url": "https://www.physicsclassroom.com/class/newtlaws/Lesson-3/Free-Fall-and-Air-Resistance",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "spectral lines of the elements are",
+            "content": "a spectral line is a weaker or stronger region in an otherwise uniform and continuous spectrum it may result from emission or absorption of light",
+            "url": "https://en.wikipedia.org/wiki/Spectral_line",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a torque is a force",
+            "content": "the reason why torque is measured as a force and not energy is because it is a vector quantity and we consider its direction as well as its magnitude",
+            "url": "https://www.reddit.com/r/AskPhysics/comments/6ogz2u/understanding_torque_why_exactly_is_it_considered/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "when a tin can is whirled in a horizontal circle the net force on the can acts",
+            "content": "if the string holding the whirling can breaks as shown in figure 1014 it is often wrongly stated that centrifugal force pulls the can from its circular path",
+            "url": "https://www.jpsaos.com/canovaphysics/cpte10.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sound travels in",
+            "content": "however the speed of sound varies from substance to substance typically sound travels most slowly in gases faster in liquids and fastest in solids for",
+            "url": "https://en.wikipedia.org/wiki/Speed_of_sound",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the phenomenon of beats is the result of sound",
+            "content": "a beat is an interference pattern between two sounds of slightly different frequencies perceived as a periodic variation in volume",
+            "url": "https://en.wikipedia.org/wiki/Beat_(acoustics)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "if you change the magnetic field in a closed loop of wire what is created in the loop is an",
+            "content": "when the magnetic field present in a loop of wire changes in any way a current is produced in the wire that attempts to counteract the change",
+            "url": "https://study.com/skill/learn/explaining-how-a-changing-magnetic-field-produces-a-current-in-a-wire-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the neutrons in an atom are normally found",
+            "content": "the neutron is a subatomic particle symbol n or n 0 that has no electric charge and a mass slightly greater than that of a proton",
+            "url": "https://en.wikipedia.org/wiki/Neutron",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "when white light enters a prism green light is bent more than",
+            "content": "upon passage through the prism the white light is separated into its component colors red orange yellow green blue and violet",
+            "url": "https://www.physicsclassroom.com/class/refrn/lesson-4/dispersion-of-light-by-prisms",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "an electron can be speeded up by",
+            "content": "as you add energy to the electron it will go faster but as you get it to go close to the speed of light you find that you have to add even more energy just",
+            "url": "https://education.jlab.org/qa/electron_01.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "compared with radiation from the sun terrestrial radiation has a lower",
+            "content": "solar radiation has shorter wavelengths than terrestrial radiation because the sun is hotter than earth to understand this lets consider",
+            "url": "https://geo.libretexts.org/Bookshelves/Meteorology_and_Climate_Science/Introduction_to_Climate_Science_(Schmittner_2021)/01%3A_Chapters/1.04%3A_Theory",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "put a saucer of water on your table a process that then occurs is",
+            "content": "if we continue to heat the liquid water the molecules move faster and the temperature of the water increases this happens untilyou guessed itthe liquid",
+            "url": "https://www.cpp.edu/respect/resources/documents_5th/gr5.wc_content_background.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the color of light most intense in the solar radiation curve is",
+            "content": "the sun emits strongest in the green part of the spectrum it also emits strongly in all the visible colors red through blue 400nm to 600nm",
+            "url": "https://eclipse2017.nasa.gov/what-color-sun",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "when a fusion reaction converts a pair of hydrogen isotopes to an alpha particle and a neutron most of the energy released is in the form of",
+            "content": "for example in the fusion of two hydrogen nuclei to form helium 0645 of the mass is carried away in the form of kinetic energy of an alpha particle or",
+            "url": "https://en.wikipedia.org/wiki/Nuclear_fusion",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "interference is characteristic of",
+            "content": "in physics interference is a phenomenon in which two coherent waves are combined by adding their intensities or displacements with due consideration for their",
+            "url": "https://en.wikipedia.org/wiki/Wave_interference",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "clocks on a fastmoving spaceship whizzing past earth appear to run slow when viewed from",
+            "content": "according the ship time is not whizzing by on earth it is actually running slower by about 17 the rate the earth on the other hand",
+            "url": "https://www.physicsforums.com/threads/could-extreme-time-dilation-ever-be-directly-observed.820770/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "polarization is a property of",
+            "content": "polarization polarization however is an important property of light that affects even those optical systems that do not explicitly measure it the",
+            "url": "https://www.edmundoptics.com/knowledge-center/application-notes/optics/introduction-to-polarization/?srsltid=AfmBOorDOtQYhmp2fW5iywIV5ELENQlp02pB9Ls0N26xTrR0t3D4Q9Fz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the vibrations in a longitudinal wave move in a direction",
+            "content": "longitudinal waves with sound waves the energy travels along in the same direction as the particles vibrate this type of wave is known as a longitudinal wave",
+            "url": "https://www.bbc.co.uk/bitesize/guides/z8rj4xs/revision/2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the distance of your image behind a plane mirror is equal to",
+            "content": "for each position of the object the perpendicular distance of the object o from the mirror equals the perpendicular distance of the image i from the mirror",
+            "url": "https://www.bbc.co.uk/bitesize/guides/znksd6f/revision/3",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the blueness of the daytime sky is due mostly to light",
+            "content": "short answer blue dominates the daytime sky because its scattered much more efficiently in the shorter atmospheric path while red and orange",
+            "url": "https://www.reddit.com/r/AskPhysics/comments/1hyssus/why_is_the_sky_blue_and_not_red_during_daytime/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "when we speak of time dilation we mean that time",
+            "content": "time dilation is entirely based on different frames of reference relative to the object youre looking at and if the object is experiencing",
+            "url": "https://www.reddit.com/r/space/comments/wdacvw/time_dilation_is_very_confusing_to_me/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "regelation occurs due to water’s",
+            "content": "regelation is defined as the phenomenon in which the ice melts to the water below 0°c on the application of pressure and refreezes back to ice on the removal",
+            "url": "https://byjus.com/physics/regelation/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "if the current in the filament of a lamp is 3 a the current in the connecting wire is",
+            "content": "the same current flows in the connecting and filament wires but the lampfilament wire has greater resistance power dissipated i2r",
+            "url": "http://physics-ref.blogspot.com/2020/09/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "in either a fission event or a fusion event a quantity that remains unchanged is the",
+            "content": "at criticality the chain reacting system is exactly in balance such that the number of neutrons produced in fissions remains constant",
+            "url": "https://world-nuclear.org/information-library/nuclear-fuel-cycle/introduction/physics-of-nuclear-energy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the model of light most supported by the photoelectric effect is the",
+            "content": "the photoelectric effect is the emission of electrons from a material caused by electromagnetic radiation such as ultraviolet light",
+            "url": "https://en.wikipedia.org/wiki/Photoelectric_effect",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "compared with the sound you hear from the siren of a stationary fire engine the sound you hear when it approaches you has an increased",
+            "content": "as the siren approaches you the observer the waves are compressed and the sound entering your ear is higher than the frequency of the sound originally",
+            "url": "https://panchbhaya.weebly.com/uploads/1/3/7/0/13701351/phys11_9_5.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "heat comes from the sun to earth by the process of",
+            "content": "the suns radiation strikes the earths surface thus warming it as the surfaces temperature rises due to conduction heat energy is released",
+            "url": "https://www.noaa.gov/jetstream/atmosphere/transfer-of-heat-energy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a capacitor can store",
+            "content": "a 1 farad capacitor charged to 1 volt will have stored 1 coulomb as would a 05 farad capacitor charged to 2 volts the difference occurs when",
+            "url": "https://electronics.stackexchange.com/questions/328806/does-a-capacitor-store-voltage",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "a galvanometer can be calibrated to read electric",
+            "content": "a galvanometer is an electromechanical measuring instrument for electric current early galvanometers were uncalibrated but improved versions called ammeters",
+            "url": "https://en.wikipedia.org/wiki/Galvanometer",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "when an object is set vibrating by a wave that has a matching frequency what occurs is",
+            "content": "any object that vibrates will create a sound the sound could be musical or it could be noisy but regardless of its quality the sound wave is created by a",
+            "url": "https://www.physicsclassroom.com/class/sound/Lesson-4/Natural-Frequency",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the magnetic field lines about a currentcarrying wire form",
+            "content": "when a current flows in a wire it creates a circular magnetic field close magnetic fieldarea surrounding a magnet that can exert a force on magnetic materials",
+            "url": "https://www.bbc.co.uk/bitesize/guides/zsqnrwx/revision/4",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of these changes when light refracts in passing from one medium to another",
+            "content": "change of speed causes change of direction light refracts whenever it travels at an angle into a substance with a different refractive index",
+            "url": "https://www.sciencelearn.org.nz/resources/49-refraction-of-light",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "when white light passes through a prism the light that bends more than green is",
+            "content": "upon passage through the prism the white light is separated into its component colors red orange yellow green blue and violet",
+            "url": "https://www.physicsclassroom.com/class/refrn/lesson-4/dispersion-of-light-by-prisms",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the magnetic force on a moving charged particle can change the particles",
+            "content": "magnetic force can cause a charged particle to move in a circular or spiral path cosmic rays are energetic charged particles in outer space some of which",
+            "url": "https://courses.lumenlearning.com/suny-physics/chapter/22-5-force-on-a-moving-charge-in-a-magnetic-field-examples-and-applications/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "compared with a fundamental tone the frequency of its second harmonic is",
+            "content": "the fundamental frequency is considered the first harmonic and the first partial the numbering of the partials and harmonics is then usually the same the",
+            "url": "https://en.wikipedia.org/wiki/Fundamental_frequency",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the electric field inside the dome of a van de graaff generator is zero when the dome is",
+            "content": "when the charges are on the belt they feel a repulsive force due to the electric field produced by the dome of the vdg",
+            "url": "https://physics.stackexchange.com/questions/710265/working-of-a-van-de-graaff-generator",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "heat engines such as a jet engine are more efficient when run at",
+            "content": "less air makes the engines less powerful but efficiency is ratio of power generated to fuel consumed",
+            "url": "https://aviation.stackexchange.com/questions/1609/why-do-jet-engines-get-better-fuel-efficiency-at-high-altitudes",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of these temperatures is likely when a container of water at 20°c is mixed with water at 28°c",
+            "content": "since the water started at zero 158 °c is the temperature of the entire amount of water at the end its the answer to part a 5 this problem can also be",
+            "url": "https://www.chemteam.info/Thermochem/MixingWater.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the red glow in the neon tube of an advertising sign is a result of",
+            "content": "the natural colour of neon is a bright red and that of argon is a pale purplepink or light blue hence our neon colours classic red and",
+            "url": "https://www.sygns.com/blogs/magazine/how-neon-lights-work",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "when a uranium nucleus undergoes fission the energy released is primarily in the form of",
+            "content": "the fission process often produces gamma photons and releases a very large amount of energy even by the energetic standards of radioactive decay induced",
+            "url": "https://en.wikipedia.org/wiki/Nuclear_fission",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "if you were to travel at a speed close to the speed of light you could notice that your own",
+            "content": "no matter how fast you move then produce light the light you see will still be going the speed of light to your perspective or another",
+            "url": "https://www.reddit.com/r/askscience/comments/13b6nm5/if_you_were_in_a_sealed_box_moving_near_the_speed/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "a string is plucked producing four loops antinodes the length of the string is 1200 m the wavelength of the wave must be",
+            "content": "the string pq has a length of 12 m calculate the wave speed of the waves forming the stationary wave answer",
+            "url": "https://pmt.physicsandmathstutor.com/download/Physics/A-level/Topic-Qs/OCR-Old/Unit-2/Set-A/2.4%20Waves.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "according to general relativity",
+            "content": "according to general relativity a binary system will emit gravitational waves thereby losing energy due to this loss the distance between the two orbiting",
+            "url": "https://en.wikipedia.org/wiki/General_relativity",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a stepup transformer in an electrical circuit can step up",
+            "content": "a transformer that increases the voltage from primary to secondary more secondary winding turns than primary winding turns is called a stepup transformer",
+            "url": "https://www.allaboutcircuits.com/textbook/alternating-current/chpt-9/step-up-and-step-down-transformers/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "to view your fullface image in a steamy mirror compared with the height of your face the minimum height of the patch to wipe away is",
+            "content": "if the full resolution is larger than your screen size use the smaller image to navigate in the image click to show the live video stream in full screen",
+            "url": "https://help.axis.com/en-us/axis-fa51-main-unit",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "at very high speeds an object appears to an observer at rest to be",
+            "content": "time dilation time dilation is a phenomenon in which time appears to pass more slowly for an observer in relative motion than for an observer at rest",
+            "url": "https://sathee.prutor.ai/article/physics/physics-time-dilation-length-contraction-relative-speed/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "pumice is a volcanic rock that floats in water the density of pumice compared with that of water is",
+            "content": "generally speaking the density of pumice ranges between 025 and 05 gcm3 which is significantly lower than that of water this means that even though pumice",
+            "url": "https://ocn463.soest.hawaii.edu/study/pumice-is-a-volcanic-rock-that-floats-compared-with-the-dens-tkjm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when food is exposed to gamma radiation the food",
+            "content": "irradiation does not make foods radioactive compromise nutritional quality or noticeably change the taste texture or appearance of food",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/food-irradiation-what-you-need-know",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "if a star that is 20 lightyears from earth explodes gravitational waves from the explosion would reach earth in",
+            "content": "certain types of radiation such as gamma move at the speed of light that would reach earth in about 8 minutes and 20 seconds on average",
+            "url": "https://www.reddit.com/r/space/comments/v6trtp/if_the_sun_were_to_explode_how_long_would_the/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "electricity and magnetism connect to form",
+            "content": "3 electricity and magnetism are essentially two aspects of the same thing because a changing electric field creates a magnetic field and a changing magnetic",
+            "url": "https://faculty.wcas.northwestern.edu/infocom/Ideas/electric.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "during the time an aircraft produces a sonic boom the aircraft is",
+            "content": "a sonic boom is a sound associated with shock waves created when an object travels through the air faster than the speed of sound",
+            "url": "https://en.wikipedia.org/wiki/Sonic_boom",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a heavy rock and a light rock in free fall zero air resistance have the same acceleration the heavy rock doesnt have a greater acceleration because the",
+            "content": "force of gravity which causes the acceleration is proportional to the rocks mass meaning a rock twice as heavy experiences twice the force but a rock twice",
+            "url": "https://archive.imascientist.org.uk/energyj14-zone/question/a-heavy-rock-and-a-light-rock-in-free-fall-zero-air-resistance-have-the-same-acceleration-the-reason-theheavy-rock/index.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "the nucleus of an electrically neutral iron atom contains 26 protons the number of electrons this iron atom has is",
+            "content": "answer b iron has an atomic number of 26 therefore every iron atom has 26 protons in its nucleus answer c",
+            "url": "https://chem.libretexts.org/Courses/Portland_Community_College/CH151%3A_Preparatory_Chemistry/05%3A_The_Nuclei_of_Atoms/5.04%3A_The_Nuclei_of_Atoms",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "the metal detectors people walk through at airports operate via",
+            "content": "walk through metal detector is mainly used to detect whether the human body carries any threats metal goods whether the human body hides knife",
+            "url": "https://www.securinadetection.com/new/how-does-walk-through-metal-detector-work.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "in a vacuum an object has no",
+            "content": "i think it would be a safe assumption that when they said that they were talking about the quotsubstances in which th3 object was immersed the vacuum which has no density and depth is useless",
+            "url": "https://www.reddit.com/r/AskPhysics/comments/153x8v7/high_school_noncalculus_in_a_vacuum_an_object_has/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "the potential energy of a compressed spring and the potential energy of a charged object both depend on",
+            "content": "energy stored in a spring when it is compressed or stretched formula us 12kx2 where k is the spring constant a measure of the stiffness of the spring and x is the displacement from the spring’s equilibrium position the work done by all forces acting on an object equals the change in the object’s kinetic energy wδkf⋅d where d is the displacement forces for which the work done does not depend",
+            "url": "https://www.examples.com/ap-physics-c-mechanics/forces-and-potential-energy",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "temperature is generally proportional to a substance’s",
+            "content": "textbook solution for conceptual physical science explorations 2nd edition paul g hewitt chapter 9 problem 1rat we have stepbystep solutions for your textbooks written by bartleby experts",
+            "url": "https://www.bartleby.com/solution-answer/chapter-9-problem-1rat-conceptual-physical-science-explorations-2nd-edition/9780321567918/temperature-is-generally-proportional-to-a-substances-a-thermal-energy-b-vibrational-kinetic/44fbc611-c902-4334-b1e0-dd20917c9685",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "the loudness of a sound is most closely related to its",
+            "content": "click herepointup2to get an answer to your question writinghandthe loudness of sound is related to",
+            "url": "https://www.toppr.com/ask/question/the-loudness-of-sound-is-related-to/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "when you drop a ball from rest it accelerates downward at 98 ms2 if you instead throw it downward assuming no air resistance its acceleration immediately after leaving your hand is",
+            "content": "answer 1 of 7 when you drop a ball it accelerates downwards at 98ms2 if you instead throw it downwards then whatx27s itx27s acceleration immediately after leaving your hand assuming air no resistance the general equation for this situation is s so vot frac12 g t2 where s",
+            "url": "https://www.quora.com/When-you-drop-a-ball-it-accelerates-downwards-at-9-8m-s-2-If-you-instead-throw-it-downwards-then-whats-its-acceleration-immediately-after-leaving-your-hand-assuming-air-no-resistance",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "when a diver points a flashlight upward toward the surface of the water at an angle 20° from the normal the beam of light",
+            "content": "answer of a diver shines a flashlight upward from beneath the water at a 352 angle to the vertical at what angle does the ligh solutioninn",
+            "url": "https://www.solutioninn.com/a-diver-shines-a-flashlight-upward-from-beneath-the-water",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "a cannonball is fired horizontally at 10 ms from a cliff its speed one second after being fired is about",
+            "content": "according the following formula component of the velocity and vy the vertical component of the velocity finally v √ 102982 14 ms",
+            "url": "https://howtophysics.wordpress.com/2015/01/28/a-cannonball-is-fired-horizontally/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "when wind speeds up as it blows over the top of a hill atmospheric pressure there",
+            "content": "a storm shifting from the four corners states across the southeast us this weekend will bring areas of heavy mountain snow gusty winds and dry conditions resulting in critical fire weather and heavy showers and thunderstorms read more gt outdoor heat safety",
+            "url": "https://www.weather.gov/media/zhu/ZHU_Training_Page/winds/pressure_winds/pressure_winds.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "the average speed of a gazelle traveling a distance of 2 km in a time of onehalf hour is",
+            "content": "c4kmh the gazelle is travelling at 2km05hours one half hour is equal to 05 hours speed is measured as kmh to go from 05 hours to 1 hour you need to multiply it by 2 0521 because you multiply the time by two you need to multiply the distance by 2 224 therefore the speed",
+            "url": "https://socratic.org/questions/the-average-speed-of-gazelle-traveling-distance-of-2-km-in-a-time-of-one-half-ho",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "compared with a sound of 60 decibels a sound of 80 decibels has an intensity",
+            "content": "quora is a place to gain and share knowledge itx27s a platform to ask questions and connect with people who contribute unique insights and quality answers",
+            "url": "https://www.quora.com/How-compared-with-a-sound-of-60-decibels-a-sound-of-80-decibels-has-an-intensity-time-greater",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "the amount of air drag on an 08n flying squirrel dropping vertically at terminal velocity is",
+            "content": "posted by udeleted account 1 vote and 2 comments",
+            "url": "https://www.reddit.com/r/AskPhysics/comments/6kwrx2/question_from_practice_test_in_textbook/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "big brother and little sister can balance on a seesaw because of balanced",
+            "content": "answer 1 of 8 distance from the pivot point is the biggest factor dynamics of movement by the children has an effect but ultimately euclidean physics is the big one",
+            "url": "https://www.quora.com/How-do-two-children-in-the-seesaw-one-light-the-other-heavy-balance-What-are-the-things-they-have-to-consider-for-them-to-achieve-equilibrium",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "according to hooke’s law if you hang by a tree branch and note how much it bends then hanging with twice the weight produces",
+            "content": "want to create or adapt books like this learn more about how pressbooks supports open publishing practices book contents navigation",
+            "url": "https://pressbooks.bccampus.ca/introductorygeneralphysics1phys1107/chapter/4-2-hookes-law-originally-section-5-3-elasticity-stress-and-strain/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 25,
+            "query": "microscopic slush in water tends to make the water",
+            "content": "video answer does “microscopic slush” in water tend to make it more dense or less dense",
+            "url": "https://www.numerade.com/questions/does-microscopic-slush-in-water-tend-to-make-it-more-dense-or-less-dense/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "when an increase in speed doubles the kinetic energy of a moving body its momentum",
+            "content": "free solution problem 52 when the velocity of an object is doubled by what f ✓ step by step explanations ✓ answered by teachers ✓ vaia original",
+            "url": "https://www.vaia.com/en-us/textbooks/physics/conceptual-physics-fundamentals-1-edition/chapter-5/problem-52-when-the-velocity-of-an-object-is-doubled-by-what/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "an airplane with its nose pointing north with an airspeed of 40 kmh in a 30kmh crosswind at right angles has a groundspeed of",
+            "content": "c if the wind velocity is 35 kmhr due south in what direction ° north of west should the pilot set her course to travel due west use the same airspeed of 218 kmh",
+            "url": "https://oneclass.com/homework-help/physics/4967974-an-airplane-with-its-nose-poin.en.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 22,
+            "query": "imagine youre standing on the surface of a shrinking planet if it shrinks to onetenth its original diameter with no change in mass on the shrunken surface youd weigh",
+            "content": "answer 1 of 2 while standing on earth suppose your weight has a value of 100 newtons if the earth shrinks to half of its diameter without any change in the mass then what is your new weight on the surface of the shrunken earth in newtons fig newtons have 35 calories each 100 would be 3",
+            "url": "https://www.quora.com/While-standing-on-Earth-suppose-your-weight-has-a-value-of-100-Newtons-If-the-Earth-shrinks-to-half-of-its-diameter-without-any-change-in-the-mass-then-what-is-your-new-weight-on-the-surface-of-the-shrunken-Earth-in",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "the magnitude of the gravitational force on a satellite is constant if the orbit is",
+            "content": "explore worldclass education at uwa discover diverse undergraduate and postgraduate programs industry partnerships and global networks",
+            "url": "https://www.uwa.edu.au/study/-/media/Faculties/Science/Docs/Worksheet-Satellite-calculations.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "among these colors the one that has the most energy per photon is",
+            "content": "a photon of which of these colors would carry the most energy",
+            "url": "https://www.pearson.com/channels/biology/asset/fdb16728/a-photon-of-which-of-these-colors-would-carry-the-most-energy",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "a 10n force at an angle 45° above the horizontal has a horizontal component of about",
+            "content": "a 7n according to the diagram a45° c10n bquothorizontal componentquot wex27ll be using costhetaquotadjacentquotquothypotenusequot here theta45° quothypotenusequotf10n quotadjacentquotfx gtcos45°fx10n gtfx10ncos45°7n",
+            "url": "https://socratic.org/questions/a-10-n-force-at-right-angle-45-degree-above-the-horizontal-has-a-horizontal-comp",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "sound travels in air by a series of",
+            "content": "this “chain reaction” movement called sound waves keeps going until the molecules run out of energy as a result there is a series of molecular collisions as the sound wave passes through the air but the air molecules themselves don’t travel with the wave",
+            "url": "https://www.scienceworld.ca/resource/sound/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 22,
+            "query": "if the frequency of one source of sound is 500 hz and a second sound source is 504 hz then when the two waves interfere with each other the beat frequency will be",
+            "content": "it is not hard to see that beats are a complex phenomenon when it comes to perception in the example just above one note at 500 hz and one at 502 hz will beat at 2 hz again this means the sound will get louder and softer with a frequency of 2 hz now 2 hz or 2 oscillations per second",
+            "url": "https://www.phys.uconn.edu/~gibson/Notes/Section5_5/Sec5_5.htm",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "according to coulomb a pair of charged particles placed twice as close to each other experience a force",
+            "content": "ask any question and get an answer from our subject experts in as little as 2 hours",
+            "url": "https://www.chegg.com/homework-help/questions-and-answers/according-coulomb-s-law-pair-particles-placed-twice-far-apart-experience-forces-half-stron-q76568118",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "a rainbow is the result of light in raindrops that undergoes",
+            "content": "when light rays undergoes two internal reflection inside a raindrop which of the rainbow is formed",
+            "url": "https://www.toppr.com/ask/question/whenlight-rays-undergoes-two-internal-reflection-inside-a-raindrop-which-of-therainbow-is-formed/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "in a series circuit if the current in one lamp is 2 a the current in the lamp next to it is",
+            "content": "click herepointup2to get an answer to your question writinghandcorrect the given statements in a series circuit if one of the bulbs is removed",
+            "url": "https://www.toppr.com/ask/question/correct-the-given-statements-in-a-series-circuit-if-one-of-the-bulbs-is-removed/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 25,
+            "query": "a big fish swims upon and swallows a small fish that is at rest right after lunch the fattened big fish has a change in",
+            "content": "video answer students are in the picture we have given a big fish that has been swimming and swallowing a small fish is rash this is on the ranch after lunch the big fish has soap if this has mass capital and it has a small m then you are",
+            "url": "https://www.numerade.com/ask/question/a-big-fish-swims-up-and-swallows-a-small-fish-at-rest-right-after-lunch-the-fattened-fish-has-a-change-of-a-momentum-b-speed-c-both-d-neither-56107/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 24,
+            "query": "hot sand cools off faster at night than does vegetation compared with vegetation sand’s specific heat capacity is",
+            "content": "skip to content skip to navigation you are here home » physics amp astronomy » courses » physics100 » repository » homeworks faculty amp staff facilities programs and learning outcomes courses current students prospective students physics club links",
+            "url": "https://www.hunter.cuny.edu/physics/courses/physics100/repository/homeworks/Physics%20100%20HW7Solns.docx",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 28,
+            "query": "the power required to raise a 100kg crate a vertical distance of 2 m in a time of 4 s is",
+            "content": "video answer i have not been given the responsibility to maintain it yeah itx27s true there is a constant speed of an object on the rough surf and a question validity of 2 m per second we have to calculate how much power is delivered to us",
+            "url": "https://www.numerade.com/ask/question/how-much-power-is-required-to-raise-a-100-kg-crate-a-vertical-distance-of-2-m-in-a-time-of-4-s-a-200-w-b-500-w-c-800-w-d-2000-w-please-help-72307/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "if the volume of an object were to double with no change in mass its density would",
+            "content": "quotaquot quothalvequot the formula for density is quotdensityquot fracquotmassquotquotvolumequot we need to double the volume ie multiply it by 2 but in order to multiply one side of the equation by a number the same has to be done to the other side multiplying the volume by 2 is the same as multiplying the",
+            "url": "https://socratic.org/questions/if-the-volume-of-an-object-were-to-double-with-no-change-in-mass-its-density-wou",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "compared with the power input the power output of an ideal transformer is",
+            "content": "in an ideal stepup transformer input voltage is 110v and current flowing in the secondary is 10a if transformation ratio is 10 calculate output voltage current in primary input power and output power",
+            "url": "https://www.toppr.com/ask/question/for-an-ideal-transformer/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 24,
+            "query": "in the absence of air resistance a ball of mass m is tossed upward to reach a height of 20 m at the 10m position half way up the net force on the ball is",
+            "content": "latest news coverage email free stock quotes live scores and video are just the beginning discover more every day at yahoo",
+            "url": "https://answers.yahoo.com/question/index?qid=20110330214510AAV7dyu",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "if two protons and two neutrons are removed from the nucleus of neon20 a nucleus of which element remains",
+            "content": "answer 1 of 4 atomic number 6 82 would be carbon since 4 nucleons 2p 2n have been removed it is carbon12 this does not happen naturally it would probably have to be initiated by some sort of high energy collision in an accelerator",
+            "url": "https://www.quora.com/If-two-protons-and-two-neutrons-are-removed-from-the-nucleus-of-an-oxygen-16-atom-a-nucleus-of-which-element-remains",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "when you squeeze an airfilled party balloon you increase its",
+            "content": "free solution problem 70 when you squeeze a party balloon between your hands ✓ step by step explanations ✓ answered by teachers ✓ vaia original",
+            "url": "https://www.vaia.com/en-us/textbooks/physics/conceptual-physical-science-6-edition/chapter-5/problem-70-when-you-squeeze-a-party-balloon-between-your-han/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "a barometer that uses water instead of mercury will be",
+            "content": "answer 1 of 38 mercury is 136 times denser than water so the column of mercury necessary to measure pressure is much shorter than in a water barometer for practical reasons also the vapor pressure of mercury is very low so you have virtually a vacuum a torricellian vacuum in the space a",
+            "url": "https://www.quora.com/Why-is-mercury-used-in-a-barometer-rather-than-water",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "the team that wins in a tugofwar is the team that",
+            "content": "in a tug of war one team wins and the other team losses which team does positive work and which one does negative work justify your answer",
+            "url": "https://byjus.com/question-answer/in-a-tug-of-war-one-team-wins-and-the-other-team-losses-which-team/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "when you buy a pipe in a hardware store the water isn’t included when you buy copper wire electrons",
+            "content": "instant access to millions of study resources course notes test prep 247 homework help tutors and more learn teach and study with course hero get unstuck",
+            "url": "https://www.coursehero.com/file/pk845e/When-you-buy-a-water-pipe-in-a-hardware-store-the-water-isnt-included-When-you/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "a radioactive sample has a halflife of 1 hour if we start with 1000 gram of it at noon how much remains at 300 pm",
+            "content": "answer 1 of 4 the fact that a radioactive material has a half life of one hour means that you have half as much material after an hour and half as much of that or one quarter of the original amount after another hour at 300 pm you will have 123 or 18 gram at 600 pm you will have",
+            "url": "https://www.quora.com/A-certain-radioactive-element-has-a-half-life-of-one-hour-If-you-have-a-1-gram-sample-of-the-element-at-noon-how-much-remains-at-3-00-PM-at-6-00-PM-and-at-10-00-PM",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "which type of radiation from cosmic sources predominates on the inside of highflying commercial airplanes",
+            "content": "textbook solution for conceptual integrated science 3rd edition hewitt chapter 10 problem 1rat we have stepbystep solutions for your textbooks written by bartleby experts",
+            "url": "https://www.bartleby.com/solution-answer/chapter-10-problem-1rat-conceptual-integrated-science-3rd-edition/9780135197394/e46c1201-1af0-453a-8ab8-67bac14a3ad9",
+            "engine": "braveAPI"
+        }
+    ]
+}

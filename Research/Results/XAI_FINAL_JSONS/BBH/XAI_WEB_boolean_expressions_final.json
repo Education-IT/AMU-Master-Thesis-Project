@@ -1,0 +1,2161 @@
+{
+    "task": "bbh_zeroshot_boolean_expressions",
+    "dataset": "web_access_boolean_expressions_final",
+    "questions": 250,
+    "noWebContextCount": 0,
+    "contaminated_queries": 82,
+    "contaminated_urls": 106,
+    "valid_urls": 250,
+    "avg_contaminated_before_valid": 1.424,
+    "contaminated_data_ratio": 0.29775280898876405,
+    "most_contaminated_urls": {
+        "stackoverflow.com": 53
+    },
+    "noWebContext": [],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "not not not not not false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not true or false or true is",
+            "content": "applying the same logic python will only take the first statement in true or false which would be true and hence nottrue false or",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false or not not false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true or not not not false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true or true or not false is",
+            "content": "it has to do with precedence puts true or true and false actually evaluates as puts true or true and false",
+            "url": "https://stackoverflow.com/questions/51992245/why-does-true-or-true-and-false-appear-to-be-simultaneously-true-and-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not not not not not not false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or true and not not not false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not true or not false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not true or false or not not true is",
+            "content": "i see it like this evaluate in order first so false and not true false and false false then the “not” statement not not true is true so finally true or",
+            "url": "https://www.codecademy.com/forum_questions/5184a455207db1157d001644",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true or not false and true or true is",
+            "content": "it has to do with precedence puts true or true and false actually evaluates as puts true or true and false",
+            "url": "https://stackoverflow.com/questions/51992245/why-does-true-or-true-and-false-appear-to-be-simultaneously-true-and-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or false and not not not false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false or not not not not true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not true or false or true is",
+            "content": "applying the same logic python will only take the first statement in true or false which would be true and hence nottrue false or",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not true and not false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not true or false or true is",
+            "content": "applying the same logic python will only take the first statement in true or false which would be true and hence nottrue false or",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false or not not false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not not not not false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not true or false or false is",
+            "content": "applying the same logic python will only take the first statement in true or false which would be true and hence nottrue false or",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not not false and true and false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not true or not true is",
+            "content": "i see it like this evaluate in order first so false and not true false and false false then the “not” statement not not true is true so finally true or",
+            "url": "https://www.codecademy.com/forum_questions/5184a455207db1157d001644",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not false and not true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not false and not false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not not false or false and false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true and true and not not not false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not not false or true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not true and true or false is",
+            "content": "applying the same logic python will only take the first statement in true or false which would be true and hence nottrue false or",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true and not not not false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not not false and true or false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or not true and not not false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false or not not false and false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not not false and true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true or true or not false is",
+            "content": "it has to do with precedence puts true or true and false actually evaluates as puts true or true and false",
+            "url": "https://stackoverflow.com/questions/51992245/why-does-true-or-true-and-false-appear-to-be-simultaneously-true-and-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not true and not false or true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not not true and not false or true is",
+            "content": "i see it like this evaluate in order first so false and not true false and false false then the “not” statement not not true is true so finally true or",
+            "url": "https://www.codecademy.com/forum_questions/5184a455207db1157d001644",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not true and not false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false or not not false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false or true and not not true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not false and not false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or not not not not not false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true or not not not false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or not not not false and true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false or not not true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true and true and true or not false is",
+            "content": "it has to do with precedence puts true or true and false actually evaluates as puts true or true and false",
+            "url": "https://stackoverflow.com/questions/51992245/why-does-true-or-true-and-false-appear-to-be-simultaneously-true-and-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false or not not false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not false or not false or true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not not false or true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not true and true and not not false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not false and not not not false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not true or false or true is",
+            "content": "applying the same logic python will only take the first statement in true or false which would be true and hence nottrue false or",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or not not not false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true or not false and true and false is",
+            "content": "it has to do with precedence puts true or true and false actually evaluates as puts true or true and false",
+            "url": "https://stackoverflow.com/questions/51992245/why-does-true-or-true-and-false-appear-to-be-simultaneously-true-and-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true and not not false and not false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not not false and false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not false or false and not true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not false or not true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not not false and true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 3,
+            "query": "not not not not not false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false and false or not true is",
+            "content": "a disjunction also has its own truth value distinct from its conditions ie one of the conditions may be false but the value of the disjunction is true",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "not true or false or true is",
+            "content": "not true and the synonymous adjective false describe a state of affairs where this condition of utterance is unsatisfied met obtained",
+            "url": "https://philosophy.stackexchange.com/questions/38542/what-is-the-difference-between-not-true-and-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false and false or not false is",
+            "content": "every time you set a false expression with and´s the rest of the equation does not matter since every expression must be true for the result",
+            "url": "https://stackoverflow.com/questions/44206185/javascript-false-false-is-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or false or not true or false is",
+            "content": "a disjunction also has its own truth value distinct from its conditions ie one of the conditions may be false but the value of the disjunction is true",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or not not not true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false and not false or false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false and not false and not false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or not false and false is",
+            "content": "every time you set a false expression with and´s the rest of the equation does not matter since every expression must be true for the result",
+            "url": "https://stackoverflow.com/questions/44206185/javascript-false-false-is-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or true or not true is",
+            "content": "a disjunction also has its own truth value distinct from its conditions ie one of the conditions may be false but the value of the disjunction is true",
+            "url": "https://docs.oracle.com/html/E20340_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or true and not false or true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or not false and false is",
+            "content": "every time you set a false expression with and´s the rest of the equation does not matter since every expression must be true for the result",
+            "url": "https://stackoverflow.com/questions/44206185/javascript-false-false-is-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not true and not true or true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true and true or not true is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false or true and true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false or true or true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false and true or true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or false or true and not false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not false or not not false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false or true and true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false and not false and true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or false or not true is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true and not true and true and true is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not not true and true is",
+            "content": "if a boolean value is negated it becomes the opposite value if its negated again it becomes the original value",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or false or not false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true and true and false and not true is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not true or false and false and false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false and false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false or false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "true or not not not false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not true or false is",
+            "content": "applying the same logic python will only take the first statement in true or false which would be true and hence nottrue false or",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false and false and true or false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true and false or not false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not true or false and true and true is",
+            "content": "not true and the synonymous adjective false describe a state of affairs where this condition of utterance is unsatisfied met obtained",
+            "url": "https://philosophy.stackexchange.com/questions/38542/what-is-the-difference-between-not-true-and-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "true or true or not false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false and not true or true is",
+            "content": "a disjunction also has its own truth value distinct from its conditions ie one of the conditions may be false but the value of the disjunction is true",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false or true or false and false is",
+            "content": "applying the same logic python will only take the first statement in true or false which would be true and hence nottrue false or",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "not not not not not not not false is",
+            "content": "you can test a truth value for being equal to false which is defined as 0 but when you want to compare it to true which value would you use for true",
+            "url": "https://stackoverflow.com/questions/32533894/difference-between-not-false-and-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "false or true and not not not false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not true or true and true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not not true or not false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false and false or true and true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true or not false and false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false and true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true or true or not true is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or false and false or not true is",
+            "content": "a disjunction also has its own truth value distinct from its conditions ie one of the conditions may be false but the value of the disjunction is true",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not true and false or true is",
+            "content": "not true and the synonymous adjective false describe a state of affairs where this condition of utterance is unsatisfied met obtained",
+            "url": "https://philosophy.stackexchange.com/questions/38542/what-is-the-difference-between-not-true-and-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true or not false or true is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not true or false or not not true is",
+            "content": "step 1 not true gives false so the expression becomes false and false or true",
+            "url": "https://www.teachoo.com/19659/4138/Question-4/category/CBSE-Class-12-Sample-Paper-for-2023-Boards/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not true or not false and not false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true and true and not true is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or not false or true or true is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false and not true and false and true is",
+            "content": "a disjunction also has its own truth value distinct from its conditions ie one of the conditions may be false but the value of the disjunction is true",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true and false or not false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false or false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or not false or false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or not false or true is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true and not false and true or true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "true or not false and true or true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not not true or false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false and false or true or false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false or true and false and false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or true or false and not false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not true and true and false is",
+            "content": "not true and the synonymous adjective false describe a state of affairs where this condition of utterance is unsatisfied met obtained",
+            "url": "https://philosophy.stackexchange.com/questions/38542/what-is-the-difference-between-not-true-and-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "false or false and not not not false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not true and true and not true is",
+            "content": "if a boolean value is negated it becomes the opposite value if its negated again it becomes the original value",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not false or not not not not true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true and not true or false and true is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "not true or false or true is",
+            "content": "not true and the synonymous adjective false describe a state of affairs where this condition of utterance is unsatisfied met obtained",
+            "url": "https://philosophy.stackexchange.com/questions/38542/what-is-the-difference-between-not-true-and-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "true and not false and not not true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or not false or not not true is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false or false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true or not true is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false and not not not false is",
+            "content": "if a boolean value is negated it becomes the opposite value if its negated again it becomes the original value",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not true or false and true is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not true or true and false is",
+            "content": "applying the same logic python will only take the first statement in true or false which would be true and hence nottrue false or",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "not not true and not false is",
+            "content": "applying the same logic python will only take the first statement in true or false which would be true and hence nottrue false or",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "not true or false or true is",
+            "content": "not true and the synonymous adjective false describe a state of affairs where this condition of utterance is unsatisfied met obtained",
+            "url": "https://philosophy.stackexchange.com/questions/38542/what-is-the-difference-between-not-true-and-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not false or not not false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true and not true is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "not not not not not false is",
+            "content": "you can test a truth value for being equal to false which is defined as 0 but when you want to compare it to true which value would you use for true",
+            "url": "https://stackoverflow.com/questions/32533894/difference-between-not-false-and-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false and not true and true or false is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not true or false or false is",
+            "content": "not true and the synonymous adjective false describe a state of affairs where this condition of utterance is unsatisfied met obtained",
+            "url": "https://philosophy.stackexchange.com/questions/38542/what-is-the-difference-between-not-true-and-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not true and true and true or false is",
+            "content": "applying the same logic python will only take the first statement in true or false which would be true and hence nottrue false or",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true or not false or false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true and not true or false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not not not false and true and false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not not true or false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "true and not false or true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not not not true and not true is",
+            "content": "if a boolean value is negated it becomes the opposite value if its negated again it becomes the original value",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true and false or not false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or not true and false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not not true or not true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "true and false and not true or false is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true and not true or false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true and not not not true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not not false and not true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or not true and true is",
+            "content": "a disjunction also has its own truth value distinct from its conditions ie one of the conditions may be false but the value of the disjunction is true",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false and true and true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not not false and not false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false or false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false and not true and true and false is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or false and not true is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not not not false or false and false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "true and true and not not not false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true and not true and true is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false and true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "not not not false or true is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true or not false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false and not true and not false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "not true and true or false is",
+            "content": "not true and the synonymous adjective false describe a state of affairs where this condition of utterance is unsatisfied met obtained",
+            "url": "https://philosophy.stackexchange.com/questions/38542/what-is-the-difference-between-not-true-and-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true or not true or not not true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true or false and not true is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "true and not not not false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false and true or not false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not not not false and true or false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true or true and not true is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not true and false or false or true is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true or false or not true or true is",
+            "content": "a disjunction also has its own truth value distinct from its conditions ie one of the conditions may be false but the value of the disjunction is true",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not true and false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or not true or false or false is",
+            "content": "a disjunction also has its own truth value distinct from its conditions ie one of the conditions may be false but the value of the disjunction is true",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "false and true and not false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "false or not true and not not false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not false or not not false and false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false and true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not true or true or false is",
+            "content": "applying the same logic python will only take the first statement in true or false which would be true and hence nottrue false or",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not not not false and true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "true or true or not false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false and false and not true and false is",
+            "content": "if one or other or both of the conditions in the conjunction are false then the conjunction equates to false also notice that when conditions are connected by",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not true or true and false and false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true or not false and false and false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or not not true or not false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false or false or true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not true and false or false and false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false and false or false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false and not true is",
+            "content": "not true and the synonymous adjective false describe a state of affairs where this condition of utterance is unsatisfied met obtained",
+            "url": "https://philosophy.stackexchange.com/questions/38542/what-is-the-difference-between-not-true-and-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not true and true is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "not not true and not false or true is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false or false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true and not true or true is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true and not not not not not true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true and not false or false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "not not true and not false is",
+            "content": "applying the same logic python will only take the first statement in true or false which would be true and hence nottrue false or",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not true or true or false is",
+            "content": "applying the same logic python will only take the first statement in true or false which would be true and hence nottrue false or",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or not false or false or false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false and not false and true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true or false or not true or false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false and true or not false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not false or not not false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not true and false or true is",
+            "content": "not true and the synonymous adjective false describe a state of affairs where this condition of utterance is unsatisfied met obtained",
+            "url": "https://philosophy.stackexchange.com/questions/38542/what-is-the-difference-between-not-true-and-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "not false or true and not not true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not not false and not false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not not true and false and false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not true and false and false is",
+            "content": "applying the same logic python will only take the first statement in true or false which would be true and hence nottrue false or",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not true and false or false and true is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "false or not not not not not false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "true or not not not false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not true or true and false or false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false and not false and false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false and false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "false or not not not false and true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true or true or not false or false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not not not true or not true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false and false and not not not true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false and false or not true and false is",
+            "content": "a disjunction also has its own truth value distinct from its conditions ie one of the conditions may be false but the value of the disjunction is true",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not true or not false and not true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true and false or not true is",
+            "content": "a disjunction also has its own truth value distinct from its conditions ie one of the conditions may be false but the value of the disjunction is true",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not false or not not true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false and false or not false is",
+            "content": "every time you set a false expression with and´s the rest of the equation does not matter since every expression must be true for the result",
+            "url": "https://stackoverflow.com/questions/44206185/javascript-false-false-is-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false and false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false and true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true or false and not false and true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false and false and false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false and not false or false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false and false or false or not true is",
+            "content": "a disjunction also has its own truth value distinct from its conditions ie one of the conditions may be false but the value of the disjunction is true",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "true or false and not true and false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not true or false or true and true is",
+            "content": "not true and the synonymous adjective false describe a state of affairs where this condition of utterance is unsatisfied met obtained",
+            "url": "https://philosophy.stackexchange.com/questions/38542/what-is-the-difference-between-not-true-and-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true or not true is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true and not true and false is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true and not false or false and false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "false or not true or true and false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "false or true and not true is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or not false and false is",
+            "content": "every time you set a false expression with and´s the rest of the equation does not matter since every expression must be true for the result",
+            "url": "https://stackoverflow.com/questions/44206185/javascript-false-false-is-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not true and true is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or false and not false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not true or true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "true and true and true or not false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or not false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false or false or true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not true and true and false and true is",
+            "content": "not true and the synonymous adjective false describe a state of affairs where this condition of utterance is unsatisfied met obtained",
+            "url": "https://philosophy.stackexchange.com/questions/38542/what-is-the-difference-between-not-true-and-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true or not true is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not not true and false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true and not true or true and true is",
+            "content": "in computer science the boolean sometimes shortened to bool is a data type that has one of two possible values usually denoted true and false",
+            "url": "https://en.wikipedia.org/wiki/Boolean_data_type",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not true and true and true is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false and not false or false and true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not false or not not false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not not false or not false or true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "not not not false or true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or not false or true and true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not true and true and not not false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false or true or true and false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false and false or not true and true is",
+            "content": "a disjunction also has its own truth value distinct from its conditions ie one of the conditions may be false but the value of the disjunction is true",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "not not false and not not not false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "false or true and not true is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false or true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not false and not true or not true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false and not not true and true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false or false and false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false and false or true and not false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "not true or false or true is",
+            "content": "not true and the synonymous adjective false describe a state of affairs where this condition of utterance is unsatisfied met obtained",
+            "url": "https://philosophy.stackexchange.com/questions/38542/what-is-the-difference-between-not-true-and-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false and false and false or false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false and not false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false and false or false or false is",
+            "content": "2 answers python interprets true and false as booleans and in the context of booleans not or and will behave exactly as boolean",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false or false and true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or false and not false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or not true and true or true is",
+            "content": "a disjunction also has its own truth value distinct from its conditions ie one of the conditions may be false but the value of the disjunction is true",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not true is",
+            "content": "the claim that vaccines cause autism is simply not true twierdzenie że szczepionki powodują autyzm to po prostu nieprawda more examples below advertising",
+            "url": "https://context.reverso.net/translation/english-polish/not+true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "false or not not not false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true and true or false and not true is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false and not not not true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "true or not false and true and false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or not false and true is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or not false or true is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not true and true or true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not true and false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true or false or not true is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not not not not not not not true is",
+            "content": "if a boolean value is negated it becomes the opposite value if its negated again it becomes the original value",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false and false and not false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not true and true or true and false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not true or false and true or false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false and false and not true is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or not true and false is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false or false or false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false or true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "false and true and not false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "true and not not false and not false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not not not false and false is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false and false and false or not false is",
+            "content": "every time you set a false expression with and´s the rest of the equation does not matter since every expression must be true for the result",
+            "url": "https://stackoverflow.com/questions/44206185/javascript-false-false-is-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false and false or true is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not true and not true and not true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false or true and false is",
+            "content": "not not false which becomes true true what makes you think not not false would be true if a boolean value is negated",
+            "url": "https://stackoverflow.com/questions/30803777/not-not-false-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true or false or not true and true is",
+            "content": "a disjunction also has its own truth value distinct from its conditions ie one of the conditions may be false but the value of the disjunction is true",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false or not false and false is",
+            "content": "every time you set a false expression with and´s the rest of the equation does not matter since every expression must be true for the result",
+            "url": "https://stackoverflow.com/questions/44206185/javascript-false-false-is-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false or true and false or false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not not false or false and not true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not not false or not true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true or not false is",
+            "content": "true or false returns true literally or returns the first value that is truthy if there is a truthy value",
+            "url": "https://stackoverflow.com/questions/71509867/why-does-nottrue-or-false-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "not not not false and true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "not false and false and false and true is",
+            "content": "im on the lesson this and that or this but not that i wanted to see if i could correctly answer whether they would be true or false",
+            "url": "https://www.codecademy.com/forum_questions/523b7f63548c354eed001077",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "true and not true or false or true is",
+            "content": "the following truth tables show how uncertainty works the uncertain operator causes the condition to return true only if its value is uncertain",
+            "url": "https://docs.oracle.com/html/E79061_01/Content/Reference/Truth_tables.htm",
+            "engine": "google"
+        }
+    ]
+}

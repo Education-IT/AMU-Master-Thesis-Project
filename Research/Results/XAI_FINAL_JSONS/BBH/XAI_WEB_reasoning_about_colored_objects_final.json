@@ -1,0 +1,1586 @@
+{
+    "task": "bbh_zeroshot_reasoning_about_colored_objects",
+    "dataset": "web_access_reasoning_about_colored_objects_final",
+    "questions": 250,
+    "noWebContextCount": 47,
+    "contaminated_queries": 135,
+    "contaminated_urls": 211,
+    "valid_urls": 203,
+    "avg_contaminated_before_valid": 2.039408866995074,
+    "contaminated_data_ratio": 0.5096618357487923,
+    "most_contaminated_urls": {
+        "pages.github.khoury.northeastern.edu": 11
+    },
+    "noWebContext": [
+        "On the table, there are three pink scrunchiephone chargers, two orange crayons, and two black scrunchiephone chargers. If I remove all the black items from the table, how many scrunchiephone chargers remain on it?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six\n(H) seven\n(I) eight\n(J) nine\n(K) ten\n(L) eleven\n(M) twelve\n(N) thirteen\n(O) fourteen\n(P) fifteen\n(Q) sixteen",
+        "On the desk, you see the following items arranged in a row: a purple jug, a grey keychain, a turquoise notebook, a green scrunchiephone charger, and an orange pen. What is the color of the item furthest from the purple item?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the floor, I see two magenta scrunchiephone chargers, one gold fidget spinner, three gold booklets, three silver scrunchiephone chargers, two silver booklets, and two magenta booklets. If I remove all the magenta items from the floor, how many scrunchiephone chargers remain on it?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six\n(H) seven\n(I) eight\n(J) nine\n(K) ten\n(L) eleven\n(M) twelve\n(N) thirteen\n(O) fourteen\n(P) fifteen\n(Q) sixteen",
+        "On the floor, you see a set of things arranged in a row: a purple scrunchiephone charger, a turquoise dog leash, a magenta keychain, a silver stress ball, and a blue crayon. What is the color of the thing directly to the left of the stress ball?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the floor, you see three turquoise keychains, three turquoise paperclips, two mauve textbooks, one mauve keychain, and three mauve paperclips. If I remove all the keychains from the floor, how many mauve objects remain on it?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six\n(H) seven\n(I) eight\n(J) nine\n(K) ten\n(L) eleven\n(M) twelve\n(N) thirteen\n(O) fourteen\n(P) fifteen\n(Q) sixteen",
+        "On the desk, you see a set of items arranged in a row: an orange pen, a turquoise pair of sunglasses, a gold scrunchiephone charger, a yellow envelope, and a fuchsia bracelet. What is the color of the left-most item?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the table, you see two burgundy mugs, one burgundy keychain, two gold keychains, two burgundy notebooks, one gold pencil, and one gold notebook. If I remove all the gold objects from the table, how many notebooks remain on it?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six\n(H) seven\n(I) eight\n(J) nine\n(K) ten\n(L) eleven\n(M) twelve\n(N) thirteen\n(O) fourteen\n(P) fifteen\n(Q) sixteen",
+        "On the floor, you see a set of things arranged in a row: a black jug, a green dog leash, a turquoise sheet of paper, a burgundy puzzle, and a pink necklace. What is the color of the thing directly to the right of the burgundy thing?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the floor, you see a bunch of objects arranged in a row: a red cup, a gold bracelet, a fuchsia puzzle, a purple stress ball, and a burgundy fidget spinner. What is the color of the object directly to the right of the cup?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the table, you see several items arranged in a row: a purple dog leash, a magenta cat toy, and a turquoise pair of sunglasses. What is the color of the item furthest from the dog leash?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the desk, you see the following items arranged in a row: a green plate, a fuchsia teddy bear, a brown scrunchiephone charger, a gold crayon, a burgundy necklace, and a turquoise sheet of paper. What is the color of the item furthest from the turquoise item?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the desk, you see a set of things arranged in a row: a green bracelet, a pink textbook, a grey paperclip, and a teal cup. What is the color of the thing furthest from the paperclip?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the table, you see a bunch of items arranged in a row: a green cat toy, an orange bracelet, a mauve necklace, a pink textbook, a silver sheet of paper, and a gold notebook. How many non-burgundy items do you see to the right of the gold item?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six",
+        "On the table, you see the following objects arranged in a row: a burgundy plate, a turquoise keychain, and a gold puzzle. What is the color of the object directly to the left of the gold object?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the floor, you see several objects arranged in a row: a green fidget spinner, a yellow textbook, a gold teddy bear, a red keychain, a magenta cup, and a turquoise plate. What is the color of the object directly to the right of the teddy bear?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the desk, you see several things arranged in a row: a brown scrunchiephone charger, a mauve keychain, a turquoise pencil, and an orange mug. What is the color of the thing furthest from the scrunchiephone charger?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the nightstand, you see the following things arranged in a row: a teal stress ball, a purple paperclip, a gold scrunchiephone charger, and a black dog leash. What is the color of the thing directly to the right of the teal thing?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the desk, you see a set of items arranged in a row: a black paperclip, a gold keychain, and a silver necklace. What is the color of the item furthest from the paperclip?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the desk, you see a bunch of things arranged in a row: a mauve plate, an orange jug, a burgundy pair of sunglasses, a green pen, and a purple stress ball. What is the color of the thing directly to the left of the burgundy thing?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the table, I see two fuchsia scrunchiephone chargers, three burgundy keychains, three burgundy cat toys, three fuchsia keychains, two burgundy cups, and two burgundy scrunchiephone chargers. If I remove all the keychains from the table, how many fuchsia items remain on it?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six\n(H) seven\n(I) eight\n(J) nine\n(K) ten\n(L) eleven\n(M) twelve\n(N) thirteen\n(O) fourteen\n(P) fifteen\n(Q) sixteen",
+        "On the nightstand, you see a set of things arranged in a row: a pink pencil, a teal bracelet, a burgundy necklace, a fuchsia cup, a turquoise pair of sunglasses, and a gold keychain. How many non-black things do you see to the left of the turquoise thing?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six",
+        "On the desk, I see two magenta mugs, one burgundy jug, two silver mugs, one teal jug, three magenta jugs, and one burgundy mug. If I remove all the silver items from the desk, how many mugs remain on it?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six\n(H) seven\n(I) eight\n(J) nine\n(K) ten\n(L) eleven\n(M) twelve\n(N) thirteen\n(O) fourteen\n(P) fifteen\n(Q) sixteen",
+        "On the floor, you see one magenta paperclip, one teal paperclip, one grey plate, three magenta plates, one magenta textbook, and three teal textbooks. If I remove all the grey objects from the floor, how many paperclips remain on it?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six\n(H) seven\n(I) eight\n(J) nine\n(K) ten\n(L) eleven\n(M) twelve\n(N) thirteen\n(O) fourteen\n(P) fifteen\n(Q) sixteen",
+        "On the table, you see a set of objects arranged in a row: a green scrunchiephone charger, a red cup, a silver cat toy, a grey paperclip, and a fuchsia sheet of paper. What is the color of the object furthest from the cup?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the nightstand, there are two green sheets of paper, two mauve cat toys, two green cat toys, and three mauve sheets of paper. If I remove all the cat toys from the nightstand, how many mauve things remain on it?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six\n(H) seven\n(I) eight\n(J) nine\n(K) ten\n(L) eleven\n(M) twelve\n(N) thirteen\n(O) fourteen\n(P) fifteen\n(Q) sixteen",
+        "On the table, you see a bunch of things arranged in a row: a pink crayon, a black pair of sunglasses, and an orange scrunchiephone charger. What is the color of the thing directly to the right of the crayon?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the desk, you see the following things arranged in a row: a red fidget spinner, a gold plate, a green pencil, and a blue teddy bear. What is the color of the thing furthest from the green thing?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the table, there are two magenta paperclips, one gold booklet, three blue booklets, and three green booklets. If I remove all the paperclips from the table, how many magenta objects remain on it?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six\n(H) seven\n(I) eight\n(J) nine\n(K) ten\n(L) eleven\n(M) twelve\n(N) thirteen\n(O) fourteen\n(P) fifteen\n(Q) sixteen",
+        "On the desk, you see a set of things arranged in a row: a pink cup, a fuchsia crayon, and a silver sheet of paper. What is the color of the left-most thing?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the floor, you see a bunch of objects arranged in a row: a silver jug, a yellow scrunchiephone charger, a red plate, a purple fidget spinner, a fuchsia cup, and a pink pen. What is the color of the object furthest from the fidget spinner?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the floor, you see a blue mug, a green teddy bear, a silver scrunchiephone charger, a brown dog leash, a mauve sheet of paper, and a fuchsia envelope. What color is the scrunchiephone charger?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the desk, you see a set of things arranged in a row: a yellow mug, a turquoise notebook, a black crayon, a brown pair of sunglasses, and a gold paperclip. What is the color of the thing directly to the left of the pair of sunglasses?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the floor, you see three yellow paperclips, three yellow notebooks, three blue paperclips, and one blue notebook. If I remove all the notebooks from the floor, how many turquoise objects remain on it?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six\n(H) seven\n(I) eight\n(J) nine\n(K) ten\n(L) eleven\n(M) twelve\n(N) thirteen\n(O) fourteen\n(P) fifteen\n(Q) sixteen",
+        "On the table, you see a bunch of objects arranged in a row: a mauve keychain, a silver puzzle, a brown bracelet, a red booklet, a turquoise scrunchiephone charger, and a burgundy necklace. What is the color of the object directly to the left of the turquoise object?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the desk, you see the following objects arranged in a row: a magenta crayon, a grey cat toy, a pink fidget spinner, a yellow booklet, and a gold jug. What is the color of the object furthest from the yellow object?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the nightstand, you see a set of objects arranged in a row: a green fidget spinner, a burgundy jug, a gold keychain, a grey scrunchiephone charger, and a blue booklet. What is the color of the right-most object?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the nightstand, I see one green scrunchiephone charger, one silver scrunchiephone charger, three magenta scrunchiephone chargers, three brown scrunchiephone chargers, two brown dog leashes, three magenta jugs, and three green jugs. If I remove all the scrunchiephone chargers from the nightstand, how many magenta objects remain on it?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six\n(H) seven\n(I) eight\n(J) nine\n(K) ten\n(L) eleven\n(M) twelve\n(N) thirteen\n(O) fourteen\n(P) fifteen\n(Q) sixteen",
+        "On the desk, you see a bunch of objects arranged in a row: a yellow plate, a silver dog leash, a burgundy stress ball, a blue puzzle, and an orange pen. What is the color of the object directly to the left of the puzzle?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the floor, you see a bunch of objects arranged in a row: a mauve pencil, a silver textbook, a blue envelope, and a turquoise necklace. What is the color of the object directly to the left of the silver object?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the nightstand, you see several objects arranged in a row: a burgundy pencil, a teal pen, a blue fidget spinner, a black bracelet, a red cup, and a green necklace. What is the color of the object furthest from the red object?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the floor, you see several things arranged in a row: an orange dog leash, a burgundy mug, a blue keychain, and a purple notebook. What is the color of the thing directly to the left of the blue thing?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the desk, you see three magenta mugs, three red fidget spinners, three red keychains, and two magenta cups. If I remove all the red items from the desk, how many mugs remain on it?\nOptions:\n(A) zero\n(B) one\n(C) two\n(D) three\n(E) four\n(F) five\n(G) six\n(H) seven\n(I) eight\n(J) nine\n(K) ten\n(L) eleven\n(M) twelve\n(N) thirteen\n(O) fourteen\n(P) fifteen\n(Q) sixteen",
+        "On the floor, you see a bunch of things arranged in a row: a turquoise paperclip, an orange bracelet, a green keychain, and a silver pen. What is the color of the thing directly to the left of the silver thing?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the nightstand, you see a bunch of objects arranged in a row: a teal puzzle, a yellow cat toy, a blue fidget spinner, an orange notebook, and a pink envelope. What is the color of the right-most object?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the nightstand, you see a bunch of items arranged in a row: a silver crayon, a yellow cat toy, and a pink sheet of paper. What is the color of the item furthest from the sheet of paper?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the table, you see a set of items arranged in a row: a mauve keychain, a green dog leash, an orange cat toy, a silver pen, and a black crayon. What is the color of the item furthest from the pen?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink",
+        "On the floor, you see the following items arranged in a row: an orange scrunchiephone charger, a pink pencil, a green booklet, a brown mug, and a purple paperclip. What is the color of the item directly to the right of the scrunchiephone charger?\nOptions:\n(A) red\n(B) orange\n(C) yellow\n(D) green\n(E) blue\n(F) brown\n(G) magenta\n(H) fuchsia\n(I) mauve\n(J) teal\n(K) turquoise\n(L) burgundy\n(M) silver\n(N) gold\n(O) black\n(P) grey\n(Q) purple\n(R) pink"
+    ],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 2,
+            "query": "on the floor you see a magenta puzzle a gold necklace a yellow plate a brown envelope and a green jug what color is the plate options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "options a red b orange c yellow d green e blue f brown g jug a gold puzzle a burgundy bracelet and a green notebook how many nonmagenta",
+            "url": "https://pages.github.khoury.northeastern.edu/arjunguha/2025S-engineering-llm-systems/in_class/2024-01-14.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk you see several things arranged in a row a burgundy bracelet a grey mug a green necklace and a magenta textbook what is the color of the thing directly to the left of the necklace options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "on the desk you see several things arranged in a row a burgundy bracelet a grey mug a green necklace and a magenta textbook what is the color of the",
+            "url": "https://pages.github.khoury.northeastern.edu/arjunguha/2024F-engineering-llm-systems/in_class/2024-09-13%20More%20COT.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the desk you see several things arranged in a row a burgundy bracelet a grey mug a green necklace and a magenta textbook what is the color of the thing directly to the left of the necklace options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "on the desk you see several things arranged in a row a burgundy bracelet a grey mug a green necklace and a magenta textbook red b orange c yellow",
+            "url": "https://pages.github.khoury.northeastern.edu/arjunguha/engineering-llm-systems/in_class/2024-09-10.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table you see two burgundy mugs one burgundy keychain two gold keychains two burgundy notebooks one gold pencil and one gold notebook if i remove all the gold objects from the table how many notebooks remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "on the table you see two burgundy mugs one burgundy keychain two gold if i remove all the gold objects from the table how many notebooks remain pencil",
+            "url": "https://gist.github.com/av/18cc8138a0acbe1b30f51e8bb19add90",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the floor i see a pink keychain and a turquoise jug what color is the jug options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n",
+            "url": "https://pages.github.khoury.northeastern.edu/arjunguha/2024F-engineering-llm-systems/in_class/2024-09-13%20More%20COT.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the nightstand you see a set of items arranged in a row a gold plate a silver stress ball a fuchsia notebook a mauve bracelet a green jug and a yellow fidget spinner what is the color of the item directly to the left of the jug options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "mauve bracelet a green jug and a yellow fidget spinner what is the color of the item directly to the left of the jug options a red b orange c yellow",
+            "url": "https://pages.github.khoury.northeastern.edu/arjunguha/2024F-engineering-llm-systems/in_class/2024-09-13%20More%20COT.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the nightstand you see a set of items arranged in a row a gold plate a silver stress ball a fuchsia notebook a mauve bracelet a green jug and a yellow fidget spinner what is the color of the item directly to the left of the jug options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "options a red b orange c yellow on the nightstand you see a set of items arranged in a row mauve bracelet a green jug and a yellow fidget spinner",
+            "url": "https://pages.github.khoury.northeastern.edu/arjunguha/2025S-engineering-llm-systems/in_class/2024-01-14.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the floor there is a purple pencil a green cat toy and a mauve booklet is the booklet mauve options a yes b no",
+            "content": "on the floor there is a purple pencil a green cat toy and a mauve booklet is the booklet mauve options a yes b no criteria correctness the",
+            "url": "https://gist.github.com/av/18cc8138a0acbe1b30f51e8bb19add90",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the nightstand there are two green sheets of paper two mauve cat toys two green cat toys and three mauve sheets of paper if i remove all the cat toys from the nightstand how many mauve things remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "if i remove all the notebooks from the floor how many grey objects remain on it options a zero b one c two d three e four f five g six h",
+            "url": "https://pages.github.khoury.northeastern.edu/arjunguha/2024F-engineering-llm-systems/in_class/2024-09-13%20More%20COT.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the nightstand you see several objects arranged in a row a blue pencil a red keychain a black teddy bear a brown necklace a magenta mug and a mauve cat toy what is the color of the object directly to the right of the pencil options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "on the nightstand you see several objects arranged in a row a blue pencil a red keychain a black teddy bear a brown necklace a magenta mug and a mauve",
+            "url": "https://pages.github.khoury.northeastern.edu/arjunguha/2024F-engineering-llm-systems/in_class/2024-09-13%20More%20COT.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk you see the following items arranged in a row a fuchsia sheet of paper a mauve textbook and an orange cup what is the color of the item directly to the left of the cup options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "on the desk you see several things arranged in a row options a red b orange c yellow d green the list is arranged from left to right the mauve",
+            "url": "https://pages.github.khoury.northeastern.edu/arjunguha/2024F-engineering-llm-systems/in_class/2024-09-13%20More%20COT.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the nightstand you see three burgundy pencils three magenta pencils and three magenta jugs if i remove all the jugs from the nightstand how many fuchsia things remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "if i remove all the notebooks from the floor how many grey objects remain on it options a zero b one c two d three e four f five g six h",
+            "url": "https://pages.github.khoury.northeastern.edu/arjunguha/2024F-engineering-llm-systems/in_class/2024-09-13%20More%20COT.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "on the table you see two burgundy mugs one burgundy keychain two gold keychains two burgundy notebooks one gold pencil and one gold notebook if i remove all the gold objects from the table how many notebooks remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "on the table you see two burgundy mugs one burgundy keychain two gold if i remove all the gold objects from the table how many notebooks remain pencil",
+            "url": "https://gist.github.com/av/18cc8138a0acbe1b30f51e8bb19add90",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the nightstand there are two green sheets of paper two mauve cat toys two green cat toys and three mauve sheets of paper if i remove all the cat toys from the nightstand how many mauve things remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "if i remove all the notebooks from the floor how many grey objects remain on it options a zero b one c two d three e four f five g six h",
+            "url": "https://pages.github.khoury.northeastern.edu/arjunguha/2024F-engineering-llm-systems/in_class/2024-09-13%20More%20COT.html",
+            "engine": "ddg"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "on the floor i see three mauve cat toys three mauve stress balls two mauve notebooks three yellow notebooks one yellow cat toy one pink cat toy one yellow stress ball two pink notebooks and two pink stress balls if i remove all the mauve items from the floor how many notebooks remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "zabawka dla kota ruchoma piłka uciekająca zabawka samodzielna zabawa supercena 2799 zł smart",
+            "url": "https://allegro.pl/kategoria/dla-kotow-zabawki-90043?string=cat%20toys&srsltid=AfmBOoq_XCqlrSMNldNFDs5x2BIW499MMQ0UIAgPx94VVHKmkfZA_B-E",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the nightstand you see a yellow mug a pink pair of sunglasses a blue pencil a green crayon and a purple puzzle is the pair of sunglasses silver options a yes b no",
+            "content": "b cubbies motto you too 52 bear hug 5 god made your 267 stron",
+            "url": "https://0n.b5z.net/i/u/11000243/f/HoneyComb_TeachingPlans_KJV.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the floor you see a bunch of items arranged in a row a blue keychain a pink fidget spinner a turquoise jug a mauve textbook a brown paperclip and a teal envelope what is the color of the leftmost item options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "most find try better how before use give life help she sure no lot every into then than great keep down start best tell see someone would go too bad any",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk i see a burgundy stress ball a red plate a teal sheet of paper and a fuchsia cup is the stress ball burgundy options a yes b no",
+            "content": "github gist instantly share code notes and snippets",
+            "url": "https://gist.github.com/575389",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk you see several things arranged in a row a silver crayon a green dog leash and a burgundy booklet what is the color of the leftmost thing options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "in this regard i have included some images one in particular where you will see a red line this is the question…would it be alright for me to cut the",
+            "url": "https://www.torontomastergardeners.ca/frm_display/amg/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the nightstand i see a yellow cat toy a silver pencil a gold jug a red textbook and a brown dog leash is the cat toy yellow options a yes b no",
+            "content": "contractors undertaking such projects under covernment sponsorship are encouraged to express freely their professional judgment in ihe conduct of the project",
+            "url": "https://files.eric.ed.gov/fulltext/ED100127.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the floor you see a bunch of objects arranged in a row a fuchsia jug a black teddy bear a blue envelope a silver paperclip a teal pencil and a yellow keychain what is the color of the object furthest from the silver object options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "red pink orange black white grey silver colour claim colour is claimed as a feature of the trademark the stylized letters win are red",
+            "url": "https://www.ic.gc.ca/opic-cipo/tmj/eng/view.html?year=2015&edition=12-23&file=Journal_en.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk you see a set of things arranged in a row a blue notebook a teal jug a green cup and a magenta sheet of paper what is the color of the leftmost thing options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "row a grey cup a purple mug and a blue teddy bear what is the color of the thing directly to the right of the cup options a red b orange c yellow d",
+            "url": "https://pages.github.khoury.northeastern.edu/arjunguha/2024F-engineering-llm-systems/in_class/2024-09-13%20More%20COT.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the nightstand there are three brown dog leashes one silver dog leash two brown puzzles one silver keychain and three silver crayons if i remove all the keychains from the nightstand how many silver items remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "plan a variety and be able to switch from one game to the other with ease 2 plan an abundance more than are necessarily needed so that if one game should",
+            "url": "https://objects.lib.uidaho.edu/chatcolab/chatcolab32.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the table there is one black mug three black puzzles one pink keychain three mauve keychains three pink puzzles two black dog leashes one black keychain three mauve mugs and one mauve puzzle if i remove all the dog leashes from the table how many mauve things remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "this colourful painting by numbers activity is sure to relax and satisfy you as each section is completed with a lick of paint excellent arts and crafts for",
+            "url": "https://www.sure.co.fk/our-shop/toys-and-games/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "on the floor you see a magenta puzzle a gold necklace a yellow plate a brown envelope and a green jug what color is the plate options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "i used the letters b g k l o p r w y to stand for the nine colors black green pink blue orange purple red white yellow the",
+            "url": "https://puzzling.stackexchange.com/questions/2194/color-the-table",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the nightstand you see a yellow necklace a blue stress ball a brown textbook and a black pen how many items are neither red nor green options a zero b one c two d three e four f five g six",
+            "content": "an icon used to represent a menu that can be toggled by interacting with this icon a line drawing of the internet archive headquarters building façade",
+            "url": "https://czysta-bryka.pl/?p=157345",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the table i see three burgundy paperclips three magenta paperclips one pink cat toy three magenta pairs of sunglasses two pink paperclips two pink notebooks one brown notebook one magenta cat toy three brown cat toys three brown paperclips three burgundy pairs of sunglasses three burgundy notebooks two burgundy cat toys and three magenta notebooks if i remove all the notebooks from the table how many burgundy things remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "what color is the puzzle answers red orange yellow blue brown magenta fuchsia mauve teal turquoise burgundy silver gold black grey purple pink",
+            "url": "https://cs.nyu.edu/~davise/Benchmarks/BIG-bench.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the table you see the following objects arranged in a row a brown jug a blue notebook and a purple paperclip what is the color of the object furthest from the purple object options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "fill half of your plate with red orange and dark green vegetables and fruits such as kale bok choy kalo taro toma toes sweet potatoes broccoli 396 stron",
+            "url": "https://www.northwestern.edu/open-educational-resources/docs/intro-chem.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table there is a gold crayon a yellow envelope a green cup a magenta pair of sunglasses and an orange pencil what color is the pair of sunglasses options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "art to learn primary colours and create new ones to design a uniform and a school crest eraser colouring pencils crayons felttip pens folder250 stron",
+            "url": "https://www.blinklearning.com/useruploads/r/a/124736466/activity_other_imported/TG_WIE_1STTERM_JULIO2021(1).pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the nightstand there is a black necklace a green fidget spinner a blue keychain a yellow sheet of paper and a red stress ball how many objects are neither yellow nor green options a zero b one c two d three e four f five g six",
+            "content": "yandere ceo who swears youre just a fling and a stress reliever more like but he knows hes in love with you and that youre the only thing keeping him sane",
+            "url": "https://tumgik.com/tag/coworker%20reader",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table you see the following objects arranged in a row a gold pencil a red jug a grey bracelet and a mauve dog leash what is the color of the object directly to the left of the bracelet options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "each bands exemplars are divided into text types matching those required in the standards for a given grade k5 exemplars are separated into stories poetry",
+            "url": "https://www.ode.state.or.us/wma/teachlearn/commoncore/ela-appendix-b.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the desk you see several things arranged in a row a burgundy bracelet a grey mug a green necklace and a magenta textbook what is the color of the thing directly to the left of the necklace options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "explore interesting inventions inside conceived by our genius idea generator discover historys most effective method in conceiving novel uses for existing",
+            "url": "https://patents.google.com/patent/WO2007081519A2/en",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the floor you see a set of things arranged in a row a grey cup a pink notebook a silver booklet a burgundy pencil a magenta teddy bear and a turquoise pen what is the color of the leftmost thing options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "abstract this profusely illustrated 32 chapter book surveys retail floriculutre and makes a current statement of the industry it",
+            "url": "https://files.eric.ed.gov/fulltext/ED330809.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the nightstand you see a bunch of things arranged in a row a turquoise pair of sunglasses a fuchsia bracelet a brown necklace a mauve puzzle and a purple dog leash how many nonyellow things do you see to the left of the pair of sunglasses options a zero b one c two d three e four f five g six",
+            "content": "a bloodchilling thriller then romeo costa typhooned into my world ripping off my rosecolored glasses he taught me darkness",
+            "url": "https://ia800502.us.archive.org/17/items/my-dark-romeo-by-parker-s.-huntington/My%20Dark%20Romeo%20by%20Parker%20S.%20Huntington.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the floor you see one yellow plate three turquoise plates three turquoise textbooks two yellow textbooks one burgundy plate and three burgundy textbooks if i remove all the plates from the floor how many yellow items remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "s meyer cytowane przez 1213 the characters and events portrayed in this book are fictitious any similarity to real persons living or dead is coincidental and not intended by the author260 stron",
+            "url": "https://www.sausd.us/cms/lib/CA01000471/Centricity/Domain/241/1-stephenie-meyer-twilight.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the nightstand you see a set of things arranged in a row a brown pair of sunglasses a silver teddy bear and a magenta notebook what is the color of the thing directly to the right of the brown thing options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "im trying to find a series of books involving a blackhaired catholic heroine marrying an autocratic hero the setting is coastal historical us",
+            "url": "https://www.librarything.com/topic/157138",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the floor you see a silver mug an orange textbook a brown pair of sunglasses a turquoise paperclip and a yellow notebook what color is the mug options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "jeśli chcesz ustawić profesjonalny status swojego centrum medycznego ten szablon jest idealny do stworzenia eleganckiej broszury medycznej",
+            "url": "https://fliphtml5.com/learning-center/pl/8-modern-medical-and-healthy-brochure-templates-free-psd-pdf/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the floor i see two gold bracelets one purple stress ball two brown stress balls three purple fidget spinners three purple envelopes and three brown envelopes if i remove all the bracelets from the floor how many brown things remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "in the pages that follow we provide a line drawing together with a written description of how each sign in the simplified sign system sss is formed",
+            "url": "https://books.openedition.org/obp/14657",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the nightstand i see a purple necklace a black plate and a blue puzzle how many objects are neither black nor purple options a zero b one c two d three e four f five g six",
+            "content": "a complete route through the game including every single item including hidden ones available pokemon some tips for battle strategies shop and tutor details",
+            "url": "https://bigjra.github.io/reborn/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the floor you see a green cat toy a silver fidget spinner and a purple necklace what color is the necklace options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "ers price following subsections 1 languageintroduction grade 6 grade 7 grade 8 grade 9 chronology bibliography spelling listening308 stron",
+            "url": "https://files.eric.ed.gov/fulltext/ED051153.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk you see the following objects arranged in a row a burgundy necklace a turquoise cup a black mug a teal textbook and a purple jug how many nonpurple objects do you see to the left of the textbook options a zero b one c two d three e four f five g six",
+            "content": "on the desk you see several things arranged in a row a burgundy bracelet a grey mug a green necklace and a magenta textbook what is the color of the",
+            "url": "https://pages.github.khoury.northeastern.edu/arjunguha/engineering-llm-systems/in_class/2024-09-10.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table you see a set of items arranged in a row a red cup a turquoise scrunchiephone charger a yellow dog leash a blue pair of sunglasses and a green stress ball how many nonturquoise items do you see to the left of the yellow item options a zero b one c two d three e four f five g six",
+            "content": "add to group decide which group to add this trinket below you dont have any groups that you can add a trinket to try creating a new one you can also",
+            "url": "https://trinket.io/python/56a03639a8",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the table you see a set of items arranged in a row a red crayon a yellow paperclip a magenta necklace a grey textbook and a silver cat toy what is the color of the leftmost item options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "when you understand child development you will be able to anticipate developmental changes have reasonable expectations of childrens behavior act with",
+            "url": "https://ccf.ny.gov/wp-content/uploads/2024/11/ELG-2020-1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk you see several objects arranged in a row a red envelope a magenta teddy bear a grey booklet a turquoise dog leash and a green cat toy what is the color of the object directly to the left of the grey object options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "instantly share code notes and snippets jamesscottbrown jamesscottbrownxkcd index created 15 years ago",
+            "url": "https://gist.github.com/575389",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the floor you see two blue textbooks one blue sheet of paper two gold cups one orange sheet of paper one blue booklet two gold sheets of paper and two gold booklets if i remove all the blue items from the floor how many textbooks remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "ta odpowiedź została sprawdzona przez eksperta 1 this is a book the book is blue 2 this is a rubber the rubber is yellow 3 the book on",
+            "url": "https://brainly.pl/zadanie/11986745",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the floor there is one mauve cat toy two purple cat toys three grey cat toys two mauve notebooks three grey notebooks three burgundy cat toys and one purple notebook if i remove all the notebooks from the floor how many grey objects remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "toy cat toy cat na allegro zróżnicowany zbiór ofert najlepsze ceny i promocje wejdź i znajdź to czego szukasz",
+            "url": "https://allegro.pl/listing?string=toy%20cat%20toy%20cat&srsltid=AfmBOop_SdtbHDj4LCZpd5uvd67DqNKaNKbQPKjaEKwsd9Zy_cm-rgcD",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk there is a purple pen a blue bracelet a red cat toy a green plate and a yellow envelope how many items are neither orange nor brown options a zero b one c two d three e four f five g six",
+            "content": "the authors and publishers have attempted to trace the copyright holders of all material reproduced in this publi cation and apologize to copyright holders if 701 stron",
+            "url": "https://www.vcb.cz/file/cead14a67ce215db4666543d2c71a916/224/discrete-mathematics-with-ducks-second-edition-9781315167671-1315167670-9781351683678-1351683675-9781351683685-1351683683-9781351683692-1351683691_compress.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the desk you see a bunch of objects arranged in a row a silver puzzle a green keychain and a fuchsia envelope what is the color of the leftmost object options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "so lets discuss office supply drama people who are unreasonably upset when they cant get the exact supply they want supply hoarders the",
+            "url": "https://www.askamanager.org/2021/09/lets-talk-about-drama-over-office-supplies.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the table you see several objects arranged in a row a silver pencil a brown bracelet a green plate and a blue pen how many nongreen objects do you see to the right of the pen options a zero b one c two d three e four f five g six",
+            "content": "ccc is a notforprofit organization that provides licenses and registration for a variety of users for organizations that have been granted a photocopy 701 stron",
+            "url": "https://www.vcb.cz/file/cead14a67ce215db4666543d2c71a916/224/discrete-mathematics-with-ducks-second-edition-9781315167671-1315167670-9781351683678-1351683675-9781351683685-1351683683-9781351683692-1351683691_compress.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk there are three black sheets of paper two black envelopes one brown cup one brown stress ball one brown envelope one brown sheet of paper and one black cup if i remove all the brown objects from the desk how many envelopes remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "accuprints brown envelopes pack of 25 5 x 7 inches unique design texture hand made brown envelopes for weddingpartyoffice usegift size 5 x 7 inches",
+            "url": "https://www.amazon.in/Accuprints-Brown-Envelopes-envelopes-Complimentary/dp/B07MW2WJ42",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "on the desk you see a bunch of things arranged in a row a turquoise teddy bear a pink sheet of paper a green notebook a black jug a fuchsia bracelet and a purple keychain what is the color of the thing directly to the right of the fuchsia thing options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "know year all day because make think some much really about out want up more work back way take love do need well same right here still look thing feel now",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the nightstand you see several things arranged in a row a teal bracelet a turquoise stress ball a burgundy textbook a black puzzle a pink jug and a green necklace what is the color of the thing directly to the left of the textbook options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "ryan van meter is the author of an essay collection if you knew then what i know now his work has also been selected for anthologies including the best",
+            "url": "https://essay250.rssing.com/chan-11726518/all_p28.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the desk you see a set of things arranged in a row a magenta sheet of paper a pink fidget spinner a turquoise keychain and a green pen how many nonturquoise things do you see to the left of the sheet of paper options a zero b one c two d three e four f five g six",
+            "content": "we but as be they not will one time just like have people so can first which good know year all day because make think some much really about out want up more",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table you see a green puzzle a black cup a grey envelope and a turquoise scrunchiephone charger is the envelope grey options a yes b no",
+            "content": "this comment section is open for any nonworkrelated discussion youd like to have with other readers by popular demand",
+            "url": "https://www.askamanager.org/2024/11/weekend-open-thread-november-9-10-2024.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the floor you see a bunch of things arranged in a row a mauve pair of sunglasses a blue booklet a red paperclip a gold cup a burgundy stress ball and a black bracelet what is the color of the thing furthest from the blue thing options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "after opening ceremonies its time for mgt3k mystery gargoyle theater 3000 is a combo of the show antics of mystery science theater 3000 and gargoyles",
+            "url": "https://www.s8.org/gargoyles/askgreg/archives.php?lid=165&rid=773&ppp=100",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the desk you see the following items arranged in a row a teal fidget spinner a gold pair of sunglasses a mauve scrunchiephone charger and a brown notebook what is the color of the item furthest from the scrunchiephone charger options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "we have this document in our database and it is free with your trial access plus for small businesses and individuals 49 monthly ✓",
+            "url": "https://www.pacermonitor.com/public/filings/DZ4WEHRA/Creative_Impact_Inc_et_al_v_The_425_Individuals_Corporations__ilndce-19-05630__0008.5.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the desk you see a set of things arranged in a row a grey cup a purple mug and a blue teddy bear what is the color of the thing directly to the right of the cup options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "god teaches us about himself as we see him relate to real people in real historical settings it is christcentered gods son jesus christ is the267 stron",
+            "url": "https://0n.b5z.net/i/u/11000243/f/HoneyComb_TeachingPlans_KJV.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the floor i see a magenta pen and a mauve teddy bear is the pen magenta options a yes b no",
+            "content": "art to learn primary colours and create new ones to design a uniform and a school crest eraser colouring pencils crayons felttip pens folder",
+            "url": "https://www.blinklearning.com/useruploads/r/a/124736466/activity_other_imported/TG_WIE_1STTERMopt.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the floor you see a purple bracelet and a red scrunchiephone charger how many things are neither red nor purple options a zero b one c two d three e four f five g six",
+            "content": "keys walletphoneassorted pens receipts that need to be trashednotepadbandaidsvarious things for headache or suchhandsanitizer and wipes",
+            "url": "https://www.moderndailyknitting.com/community/atlas-insider-whats-in-your-bag/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the nightstand you see one yellow sheet of paper three brown pencils and three brown textbooks if i remove all the yellow objects from the nightstand how many sheets of paper remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "cecil is keeping a log of strange phenomena occurring in local areas he would like to have a separate diary for each of the areas he is investigating",
+            "url": "https://buddy.farm/quests/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "on the floor i see a pink keychain and a turquoise jug what color is the jug options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "see someone would go too bad any actually long around only mean anything little pretty by let other say hope even friend after talk maybe new probably",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk you see two burgundy bracelets two red paperclips three orange plates one fuchsia plate one burgundy plate one red plate one orange paperclip and three orange bracelets if i remove all the plates from the desk how many fuchsia items remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "pal generates a python program to solve a task from its natural language description",
+            "url": "https://reasonwithpal.com/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table you see a green pencil and a mauve dog leash what color is the pencil options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "interprets as the basic colours red orange yellow green blue indigo and violet although we are taught to understand that there are different colours 316 stron",
+            "url": "https://etheses.whiterose.ac.uk/id/eprint/14443/1/266836.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the table you see the following things arranged in a row a silver paperclip an orange keychain a magenta envelope a fuchsia stress ball and a grey pen how many nonorange things do you see to the left of the grey thing options a zero b one c two d three e four f five g six",
+            "content": "pyramids of boxes of paper clips mugs filled with pens pencils sharpies and highlighters rows of tape dispensers pencil sharpeners and",
+            "url": "https://www.askamanager.org/2021/09/lets-talk-about-drama-over-office-supplies.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the table i see a blue pair of sunglasses and a silver keychain is the pair of sunglasses green options a yes b no",
+            "content": "provides guidance the cold weather physical training uniform blue dress and bluewhite dress uniforms and the allseason service uniform",
+            "url": "https://www.marines.mil/portals/1/publications/mco%20p1020.34g%20w%20ch%201-5.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk you see a set of objects arranged in a row a pink envelope a red paperclip a burgundy puzzle an orange dog leash a green fidget spinner and a mauve crayon what is the color of the rightmost object options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "right here still look thing feel now there something get most find try better how before use give life help she sure no lot every into then than great keep",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table i see one orange teddy bear two orange envelopes and three green envelopes if i remove all the envelopes from the table how many orange items remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "switching to the envelope on the table gives you a 50 chance of losing half of that amount and a 50 chance of doubling up and gaining 100 of it",
+            "url": "https://wait-but-why-production.mystagingwebsite.com/table/two-envelopes-problem",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "on the nightstand you see a set of items arranged in a row a gold plate a silver stress ball a fuchsia notebook a mauve bracelet a green jug and a yellow fidget spinner what is the color of the item directly to the left of the jug options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "you can use this same procedure to conveniently find any word number or short phrase in the entire book or in any text file if the text",
+            "url": "https://www.gutenberg.org/ebooks/37060.txt.utf-8",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the desk you see a bunch of things arranged in a row a pink jug a turquoise sheet of paper a magenta pen and a burgundy stress ball what is the color of the leftmost thing options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "instantly share code notes and snippets jamesscottbrown jamesscottbrownxkcd index created 15 years ago",
+            "url": "https://gist.github.com/575389",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the nightstand you see a bunch of things arranged in a row a silver cup a pink dog leash a red booklet a brown plate and a teal pencil what is the color of the thing directly to the right of the cup options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "mf105 mc not available from edrs plus postage amharic dictionaries english etymology letters alphabet orthographic symbols reference books",
+            "url": "https://files.eric.ed.gov/fulltext/ED100127.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table you see a bunch of objects arranged in a row a grey bracelet a magenta fidget spinner a green notebook and an orange sheet of paper what is the color of the object directly to the right of the notebook options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "ers price following subsections 1 languageintroduction grade 6 grade 7 grade 8 grade 9 chronology bibliography spelling listening308 stron",
+            "url": "https://files.eric.ed.gov/fulltext/ED051153.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the desk you see the following things arranged in a row a blue pen a burgundy notebook and a pink stress ball how many nonbrown things do you see to the left of the burgundy thing options a zero b one c two d three e four f five g six",
+            "content": "the serato forum is your space to discuss all things serato dj serato studio and more with other users in our community",
+            "url": "https://serato.com/forum/discussion/193327",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the desk i see a green crayon a burgundy notebook and a brown dog leash is the notebook black options a yes b no",
+            "content": "kilt is a resource for training evaluating and analyzing nlp models on knowledge intensive language tasks",
+            "url": "https://ai.meta.com/tools/kilt/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table you see several items arranged in a row a fuchsia teddy bear a red jug a gold puzzle a burgundy bracelet and a green notebook how many nonmagenta items do you see to the right of the red item options a zero b one c two d three e four f five g six",
+            "content": "on the desk you see several things arranged in a row a burgundy bracelet a grey mug a green necklace and a magenta textbook what is the color of the",
+            "url": "https://pages.github.khoury.northeastern.edu/arjunguha/engineering-llm-systems/in_class/2024-09-10.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk you see a bunch of items arranged in a row a purple puzzle a black envelope and a blue textbook what is the color of the item furthest from the puzzle options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "the sole obligation of mercury learning and information to the purchaser is to replace the book andor disc based on defective materials or",
+            "url": "https://sciendo.com/2/download/Igd_OGSIMVpWdTQ_Hc1MxioEWJMg38fv85wOIXDgkd.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk there is one blue jug two burgundy necklaces one blue necklace three blue keychains three blue teddy bears and two burgundy jugs if i remove all the burgundy items from the desk how many necklaces remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "looking for girl in pieces read girl in pieces from aimee diaz arredondo here check all flipbooks from aimee diaz arredondo",
+            "url": "https://fliphtml5.com/vbjgm/xbem/Girl_in_Pieces/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the nightstand you see the following objects arranged in a row a black pair of sunglasses a turquoise dog leash a grey mug a brown stress ball a pink jug and a fuchsia textbook what is the color of the object directly to the right of the turquoise object options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "it would look something like this three dimensional images made from music to correspond to large and small fat and thin think bright white and darkest red305 stron",
+            "url": "http://litteraria.ff.cuni.cz/books/extracts/VLAK1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the table you see three brown paperclips two brown pens and two orange paperclips if i remove all the orange things from the table how many pens remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "this is looking to be the longest text ever considering that this was all written in one day i dont understand sandwiches if you were to eat",
+            "url": "https://lichess.org/forum/off-topic-discussion/longest-message-ever?page=3",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the desk there is a blue textbook a grey dog leash a burgundy paperclip a black crayon a teal envelope and a purple puzzle what color is the dog leash options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "black age hey order single heart often light group opinion crazy url etc wear short worry interesting allow drop worst easier amount act social step stick",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table you see a bunch of items arranged in a row a brown cat toy a turquoise puzzle a green envelope a purple sheet of paper a yellow necklace and a mauve bracelet what is the color of the item furthest from the purple item options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "appendix a describes in detail a threepart model of measuring text complexity based on qualitative and quantitative indices of inherent text difficulty",
+            "url": "https://www.ode.state.or.us/wma/teachlearn/commoncore/ela-appendix-b.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table you see the following objects arranged in a row a grey puzzle a gold pencil and a yellow teddy bear what is the color of the object directly to the right of the gold object options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "the following text samples primarily serve to exemplify the level of complexity and quality that the standards require all students in a given grade band to",
+            "url": "https://www.ode.state.or.us/wma/teachlearn/commoncore/ela-appendix-b.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table you see the following items arranged in a row a silver plate a black notebook a red pair of sunglasses a magenta jug and a teal sheet of paper what is the color of the item furthest from the magenta item options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "the correct answer is option b explanation around 85 of the global gdp this is accurate the g20 countries account for a significant portion of the",
+            "url": "https://sleepyclasses.com/bpsc-previous-year-questions-prelims-solved/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the nightstand you see a brown mug a green scrunchiephone charger and a yellow teddy bear how many items are neither purple nor black options a zero b one c two d three e four f five g six",
+            "content": "this comment section is open for any nonworkrelated discussion youd like to have with other readers by popular demand",
+            "url": "https://www.askamanager.org/2020/07/weekend-open-thread-july-25-26-2020.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the table you see several things arranged in a row a blue plate a grey cup a pink envelope a burgundy paperclip a mauve booklet and a gold keychain how many nonburgundy things do you see to the right of the booklet options a zero b one c two d three e four f five g six",
+            "content": "commenters suggested we talk more about “recognition fails” here are a few of the stories shared in that thread",
+            "url": "https://www.askamanager.org/2018/04/when-attempts-to-recognize-employees-go-horribly-wrong-stuffed-bears-birthday-snubs-and-more.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the floor you see a bunch of items arranged in a row a red bracelet a yellow crayon a silver notebook and a mauve dog leash how many nonsilver items do you see to the left of the mauve item options a zero b one c two d three e four f five g six",
+            "content": "we but as be they not will one time just like have people so can first which good know year all day because make think some much really about out want up more",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the nightstand you see a magenta notebook a grey keychain a black pencil a gold pen a mauve booklet and a blue sheet of paper what color is the booklet options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "you also want an epaper increase the reach of your titles yumpu automatically turns print pdfs into web optimized epapers that google loves",
+            "url": "https://www.yumpu.com/en/document/view/50225758/largestselection-aaeura-lowestpricesmax-ia-id-s",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "on the floor you see a green bracelet a purple cat toy a brown pair of sunglasses a black fidget spinner a red dog leash and an orange pen how many objects are neither black nor blue options a zero b one c two d three e four f five g six",
+            "content": "presented is acurriculum guide for children with multiple sensory impairments and described is the georgia center for the multihandicapped",
+            "url": "https://files.eric.ed.gov/fulltext/ED112536.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "on the floor there is a purple pencil a green cat toy and a mauve booklet is the booklet mauve options a yes b no",
+            "content": "the 6ccr exemplars are divided into english language arts ela historysocial studies and science mathematics and technical subjects with the ela texts",
+            "url": "https://www.ode.state.or.us/wma/teachlearn/commoncore/ela-appendix-b.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the nightstand i see a brown cat toy and a green bracelet how many things are neither green nor brown options a zero b one c two d three e four f five g six",
+            "content": "dobre artykuły w innych wikipediach które nie mają odpowiednika w polskiej wikipedii ta strona jest okresowo uaktualniana przez bota",
+            "url": "https://pl.wikipedia.org/wiki/Wikipedia:Brakuj%C4%85ce_dobre_artyku%C5%82y_z_innych_Wikipedii",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the floor there is a green pencil a yellow mug a fuchsia booklet and a pink pen is the booklet fuchsia options a yes b no",
+            "content": "wstaw is are am 1 my green pencilon the floor 2 emma and bettygood friends 3 his sister seven years old 4",
+            "url": "https://brainly.pl/zadanie/7652819",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the floor i see three silver pencils one teal pencil one turquoise mug two yellow pencils three teal bracelets two silver mugs one turquoise jug three turquoise pencils and two turquoise bracelets if i remove all the silver things from the floor how many mugs remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "if i remove all the pencils from the floor i remove three grey pencils which leaves me with one magenta scrunchiephone charger answer b one print",
+            "url": "https://pages.github.khoury.northeastern.edu/arjunguha/2024F-engineering-llm-systems/in_class/2024-09-13%20More%20COT.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the nightstand you see three black envelopes one black teddy bear three black crayons three teal crayons three green crayons and one green envelope if i remove all the teddy bears from the nightstand how many green things remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "in cubbies we emphasize that all stories from the bible are true and not makebelieve god teaches us about himself as we see him relate to real people in real 267 stron",
+            "url": "https://0n.b5z.net/i/u/11000243/f/HoneyComb_TeachingPlans_KJV.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the nightstand you see a bunch of objects arranged in a row a pink pen a purple notebook a green keychain a red cat toy and a turquoise pair of sunglasses what is the color of the object directly to the left of the purple object options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "the glasses were likely designed to enhance the viewing experience of the concert by providing a 3d effect for viewers watching at home the",
+            "url": "https://picclick.co.uk/Music/Music-Memorabilia/Artists-Groups/Rolling-Stones/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "on the nightstand you see a set of items arranged in a row a burgundy bracelet a turquoise mug a pink crayon a silver sheet of paper a brown plate and a green cat toy what is the color of the leftmost item options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "pm hopkins the young man frantically packing in his firstfloor room at the transvaal hotel in volksrusts main road certainly does not hear the screech of the goods",
+            "url": "https://wiredspace.wits.ac.za/bitstreams/0f5d748f-6355-4b54-b1bd-3d2fc57861f3/download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the floor you see a set of objects arranged in a row an orange scrunchiephone charger a blue cup a turquoise dog leash a yellow fidget spinner a brown stress ball and a burgundy textbook how many nongrey objects do you see to the left of the blue object options a zero b one c two d three e four f five g six",
+            "content": "buy wholesale products online from china wholesalers shopping apparel accessories automobiles and more on aliexpresscom",
+            "url": "https://www.aliexpress.com/cheap-page-5.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the floor you see several things arranged in a row a blue crayon a purple stress ball and a burgundy dog leash what is the color of the rightmost thing options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "kilt is resource designed to make working on knowledge intensive tasks easier more vigorous and more reproducible",
+            "url": "https://ai.meta.com/tools/kilt/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table you see a set of items arranged in a row a gold mug a teal paperclip a blue plate and an orange notebook what is the color of the leftmost item options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "the art room should be the sanctuary against school regulations where each youngster is free to be himself and put down his feelings and emotions without",
+            "url": "https://scispace.com/pdf/visual-arts-assessment-in-the-age-of-educational-14udihgaca.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the floor there is one yellow textbook one teal necklace three yellow puzzles three teal puzzles two purple textbooks two magenta pencils one yellow pencil two yellow necklaces and one purple necklace if i remove all the magenta things from the floor how many puzzles remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "pal generates a python program to solve a task from its natural language description",
+            "url": "https://reasonwithpal.com/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table i see a burgundy dog leash a red crayon a yellow sheet of paper and a green keychain what color is the keychain options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "list unless joke sad relationship human important pain okay three movie doctor longer personally sub quite example health against pull term future front dog",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table you see the following things arranged in a row a fuchsia cup a magenta stress ball a mauve envelope a yellow notebook a blue paperclip and a silver pen what is the color of the thing directly to the right of the notebook options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "she has worked on committees with the state standards for math and is an expert in teaching mathematics she looked over many of my math lessons made 709 stron",
+            "url": "https://zoo-phonics.com/wp-content/uploads/2020/02/ZP-Adventuresome-Kids.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the table you see several objects arranged in a row a yellow cat toy a pink stress ball a silver teddy bear and a brown booklet how many nonteal objects do you see to the left of the yellow object options a zero b one c two d three e four f five g six",
+            "content": "springboard puts you and your classmates in charge of your learning to create a more dynamic classroom experience with a flexible design and rich library 560 stron",
+            "url": "https://www.tn.gov/content/dam/tn/education/textbook/samples/sec_E_SB_ELA_G8.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the floor you see several items arranged in a row a pink envelope a black bracelet a purple fidget spinner a brown paperclip a grey crayon and a magenta cat toy what is the color of the item directly to the right of the purple item options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "i love your black penred pen system im known to travel with an entire rainbow of pens and always use a 2color system although i dont",
+            "url": "https://www.askamanager.org/2018/01/what-items-have-made-your-life-at-work-easier-or-more-pleasant.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the floor there is one gold pen one green pen and two green pencils if i remove all the pencils from the floor how many gold items remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "this book will help you improve your language skills through encouragement not frustration ▻ an overview 501 grammar and writing questions is divided into",
+            "url": "https://www.misd.net/languageart/grammarinaction/501grammarandwriting3e.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the nightstand you see a set of things arranged in a row a turquoise pencil a yellow puzzle a burgundy envelope and a gold keychain what is the color of the thing directly to the right of the burgundy thing options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "ryan van meter is the author of an essay collection if you knew then what i know now his work has also been selected for anthologies including the best",
+            "url": "https://essay250.rssing.com/chan-11726518/all_p28.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk you see a bunch of items arranged in a row a red cat toy a teal mug a yellow crayon a fuchsia booklet a green necklace and a mauve plate how many nonbrown items do you see to the left of the necklace options a zero b one c two d three e four f five g six",
+            "content": "3 regarding document visualization we created a technique for the visual exploration of document structures using the architectural met aphor of documents",
+            "url": "https://fredi.hepvs.ch/documents/328608/files/AtanasiuV.pdf?download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the floor i see a turquoise envelope a grey plate a silver pencil and a teal cup what color is the envelope options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "instantly share code notes and snippets jamesscottbrown jamesscottbrownxkcd index created 15 years ago",
+            "url": "https://gist.github.com/575389",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the desk i see two brown mugs one brown sheet of paper one fuchsia sheet of paper one brown pen three grey mugs one grey pen two fuchsia paperclips one fuchsia mug and three grey sheets of paper if i remove all the grey items from the desk how many mugs remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "pal generates a python program to solve a task from its natural language description",
+            "url": "https://reasonwithpal.com/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the table i see a teal mug a brown paperclip a silver fidget spinner a black pair of sunglasses a yellow teddy bear and a gold plate what color is the fidget spinner options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "black age hey order single heart often light group opinion crazy url etc wear short worry interesting allow drop worst easier amount act social step stick",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk you see several things arranged in a row a fuchsia pencil a mauve stress ball a blue teddy bear and a gold necklace what is the color of the thing directly to the right of the mauve thing options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "on the nightstand you see several objects arranged in a row a blue pencil a red keychain a black teddy bear a brown necklace a magenta mug and a mauve",
+            "url": "https://pages.github.khoury.northeastern.edu/arjunguha/2024F-engineering-llm-systems/in_class/2024-09-13%20More%20COT.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk you see a bunch of items arranged in a row a gold textbook a purple puzzle a teal necklace and a silver pencil how many nongold items do you see to the right of the pencil options a zero b one c two d three e four f five g six",
+            "content": "this book contains information obtained from authentic and highly regarded sources reasonable efforts have been made to publish reliable data and information 701 stron",
+            "url": "https://www.vcb.cz/file/cead14a67ce215db4666543d2c71a916/224/discrete-mathematics-with-ducks-second-edition-9781315167671-1315167670-9781351683678-1351683675-9781351683685-1351683683-9781351683692-1351683691_compress.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the table there is a red crayon a pink notebook a yellow jug and a magenta mug is the mug grey options a yes b no",
+            "content": "art to learn primary colours and create new ones to design a uniform and a school crest eraser colouring pencils crayons felttip pens folder250 stron",
+            "url": "https://www.blinklearning.com/useruploads/r/a/124736466/activity_other_imported/TG_WIE_1STTERM_JULIO2021(1).pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table there is a brown necklace a blue puzzle and a red crayon how many objects are neither orange nor purple options a zero b one c two d three e four f five g six",
+            "content": "imagine we have an urn with two red balls one blue ball four yellow balls and three green the second urn contains three orange balls two blue balls and 225 stron",
+            "url": "https://www.bellevuecollege.edu/wp-content/uploads/sites/41/2015/01/Critical-Thinking-TEXT.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "on the nightstand you see several objects arranged in a row a blue pencil a red keychain a black teddy bear a brown necklace a magenta mug and a mauve cat toy what is the color of the object directly to the right of the pencil options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "ryan van meter is the author of an essay collection if you knew then what i know now his work has also been selected for anthologies including the best",
+            "url": "https://essay250.rssing.com/chan-11726518/all_p28.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the table you see a blue booklet and a purple paperclip how many things are neither blue nor black options a zero b one c two d three e four f five g six",
+            "content": "e education title english language arts curriculum guide grades k6 bulletin 1588 revised institution louisiana state dept of education baton rouge pub date317 stron",
+            "url": "https://files.eric.ed.gov/fulltext/ED287166.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the floor i see two blue pens three red pens one silver pen two red stress balls two red paperclips and one silver paperclip if i remove all the paperclips from the floor how many silver things remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "in this catalog you will also find the first three products from the korean heritage design challenge we conducted in 2022 and right now we are wrapping up",
+            "url": "https://argo.pl/wp-content/uploads/2024/02/kikkerland_europe_s24_catalog_public-www.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table you see several things arranged in a row a blue pair of sunglasses a turquoise bracelet a black teddy bear a purple mug a gold scrunchiephone charger and an orange textbook how many nonblack things do you see to the left of the textbook options a zero b one c two d three e four f five g six",
+            "content": "behind his foggy glasses you cant see khans eyes going teary with joy “i was right tereesz i was right all along” he says but tereesz doesnt hear him",
+            "url": "https://suricrasia.online/elysium/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk i see two silver booklets one yellow sheet of paper one silver pair of sunglasses two yellow booklets one yellow pair of sunglasses three purple booklets one purple sheet of paper and two silver sheets of paper if i remove all the silver items from the desk how many pairs of sunglasses remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "1 name one object that you can use to see at night 2 name two objects that you can use to tidy your hair 3 name two paper objects 4",
+            "url": "https://brainly.pl/zadanie/13651188",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk there are two turquoise fidget spinners one red pair of sunglasses three purple fidget spinners and three turquoise pairs of sunglasses if i remove all the turquoise things from the desk how many pairs of sunglasses remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "this comment section is open for any nonworkrelated discussion youd like to have with other readers by popular demand",
+            "url": "https://www.askamanager.org/2024/03/weekend-open-thread-march-16-17-2024.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the table there is an orange dog leash a black cat toy a blue pencil a purple fidget spinner a magenta puzzle and a silver pen is the pencil blue options a yes b no",
+            "content": "in this edition ive added additional practice exercises more writing models and many tips for those of you whose first language is not english these",
+            "url": "https://www.bbau.ac.in/Docs/FoundationCourse/TM/AECC105/CompleteIdiot.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the floor you see a bunch of things arranged in a row a blue envelope an orange mug and a grey pen what is the color of the thing furthest from the grey thing options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "black yellow brown evergreen grey hazel red white tawny purple friendly fairhaired blue piebald write the missing words b write the following groups of 49 stron",
+            "url": "https://resources.collins.co.uk/free/EnglishSkillsBook6Answers.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk there is one orange scrunchiephone charger two silver keychains two orange crayons three silver dog leashes two silver crayons and three silver scrunchiephone chargers if i remove all the silver objects from the desk how many scrunchiephone chargers remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "action 18 solution 1 use a tornado solution 2 use electricity to destroy the bridge kill the animals by using a shark use a",
+            "url": "https://gamefaqs.gamespot.com/ds/955689-scribblenauts/faqs/57775",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table i see three teal bracelets and two grey dog leashes if i remove all the dog leashes from the table how many teal items remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "the organization also serves the education community through research and advocacy on behalf of students educators and schools for further information visit560 stron",
+            "url": "https://www.tn.gov/content/dam/tn/education/textbook/samples/sec_E_SB_ELA_G8.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table there is a red dog leash a brown teddy bear a silver pencil and a teal paperclip what color is the paperclip options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "artist emily spivack invites you to contribute to this project by sending a text message listing the clothing you or your companions are wearing 168 stron",
+            "url": "https://www.moma.org/momaorg/shared/pdfs/docs/learn/Worn_to_MoMA_full.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the desk you see a yellow puzzle a pink paperclip a brown pair of sunglasses a gold sheet of paper a blue fidget spinner and a green cat toy what color is the paperclip options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "yellow paper then put in a green folder inside of a red folder it became an unofficial game to see who could get the most color clips around",
+            "url": "https://www.askamanager.org/2021/09/lets-talk-about-drama-over-office-supplies.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table you see a silver pen a teal pencil a red booklet a black puzzle and an orange cat toy is the booklet red options a yes b no",
+            "content": "1 a how are you today b a good 2 a are you ok b no a would you like to use the bathroom b yes thank you 3 a i b ill get a doctor a oh 176 stron",
+            "url": "https://ntt.edu.vn/wp-content/uploads/2022/03/1_English_Vocabulary_In_Use_Elementary_Cambridge_-_Third_Edition.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the desk i see a purple pen a green teddy bear a black cup a yellow pair of sunglasses and a blue crayon how many items are neither red nor orange options a zero b one c two d three e four f five g six",
+            "content": "d rezone since the child is answering from his own background questioris like which is bigger a dog or a cat with dog beingthe correct answer this may not",
+            "url": "https://files.eric.ed.gov/fulltext/ED147320.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "on the desk you see the following items arranged in a row a fuchsia sheet of paper a mauve textbook and an orange cup what is the color of the item directly to the left of the cup options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "colour mixer additive colour mixing materials required card sheet red blue and yellow cellophane paper procedure source httpwwwarvindguptatoyscom 236 stron",
+            "url": "https://cbseacademic.nic.in/web_material/term/7science.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the nightstand there is a fuchsia jug an orange booklet a black cat toy a turquoise crayon a yellow paperclip and a mauve puzzle is the booklet orange options a yes b no",
+            "content": "snap rita tapped the cameras button the screen on the back documented her two oldest daughters dressed up for the first day of the new school year",
+            "url": "https://theloudhouse.fandom.com/wiki/User_blog:Gumball2/%22My_Sister_Leni%22",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the desk you see a set of objects arranged in a row a blue stress ball a purple cat toy and a red puzzle what is the color of the object furthest from the red object options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "dear core academy teachers your involvement in the core academy represents a significant investment by you your school and district in educational excellence 528 stron",
+            "url": "https://cehs.usu.edu/yetc/files/elementary-core-academy/2003/handbook-2003-2nd.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk you see two teal puzzles two red puzzles three grey jugs two teal plates two blue puzzles three red jugs two blue jugs and two grey plates if i remove all the blue items from the desk how many puzzles remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "you need to end up with two jugs full of 4 units of liquid the 2 jug cannot hold 4 units so the solved state must be 48 46 0",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2977721903",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the nightstand i see an orange stress ball a brown bracelet a purple necklace a yellow booklet a green puzzle and a blue pencil how many objects are neither red nor brown options a zero b one c two d three e four f five g six",
+            "content": "one ill leave to linguists the technical definitions here were concerned only with deviations from the standard use of english as judged by",
+            "url": "https://wpcdn.web.wsu.edu/wp-cas/uploads/sites/1350/2017/05/errorsRTF.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table you see a bunch of items arranged in a row a mauve sheet of paper a purple booklet and a blue necklace what is the color of the leftmost item options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "the purpose of the deployment support program desk guide is to supply information ideas and material for ffsc staff providing deployment support programs",
+            "url": "https://www.surfpac.navy.mil/Portals/54/Documents/Command/CDS%209/CDS9_Deployment_Support_Program_Desk_Guide.pdf?ver=ksue-jXWOr2QYnHpf55dqQ%3D%3D",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the floor i see a blue fidget spinner a purple teddy bear a yellow sheet of paper a green crayon and a pink notebook what color is the teddy bear options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "this document addresses the ten domains of the prekindergarten guidelines retaining the same order and color coding as the 2022 prek guidelines some of the",
+            "url": "https://esc13.net/assets/uploads/docs/Early-Childhood-Outcomes.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the table there are two green pencils one green fidget spinner three teal fidget spinners one green stress ball two teal cat toys and three green cat toys if i remove all the fidget spinners from the table how many green objects remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "fidget spinners are toys that are made with a ball in the middle and three branches coming from the centre the branches spin around the middle17 stron",
+            "url": "https://www.olivehackney.com/wp-content/uploads/2020/07/Fidget-Spinners-Differentiated-Reading-Comprehension.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the table you see several objects arranged in a row a gold pen a mauve mug a teal envelope a red keychain and a turquoise fidget spinner what is the color of the object directly to the left of the teal object options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "david hutchison lancaster university uk takeo kanade carnegie mellon university pittsburgh pa usa josef kittler university of surrey guildford uk",
+            "url": "https://link.springer.com/content/pdf/10.1007%2F978-3-642-39143-9.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the table you see the following things arranged in a row a gold mug a blue pencil a teal paperclip a burgundy plate a fuchsia necklace and a red booklet what is the color of the thing furthest from the paperclip options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "after opening ceremonies its time for mgt3k mystery gargoyle theater 3000 is a combo of the show antics of mystery science theater 3000 and gargoyles",
+            "url": "https://www.s8.org/gargoyles/askgreg/archives.php?lid=165&rid=773&ppp=100",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the desk i see a purple sheet of paper a burgundy necklace a magenta pen a green paperclip and a brown notebook is the paperclip fuchsia options a yes b no",
+            "content": "yes again idea watch these bit yeah end seem problem those already real remember mind many able check experience wrong high understand sorry guess care without",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table there is a brown pair of sunglasses a green jug a purple textbook a black booklet a yellow envelope and a red notebook how many things are neither black nor green options a zero b one c two d three e four f five g six",
+            "content": "this science class x textbook it is hoped will provide our children the basic knowledge of science and develop their scientific temperament in order to 240 stron",
+            "url": "https://jkbose.nic.in/pdf/Class%2010th%20Science.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table i see a yellow envelope a gold stress ball a magenta booklet a blue bracelet a mauve necklace and a teal mug what color is the envelope options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "purpose to implement the navy safety and occupational health soh program manual and the requirements of reference a for afloat commands491 stron",
+            "url": "https://www.secnav.navy.mil/doni/Directives/05000%20General%20Management%20Security%20and%20Safety%20Services/05-100%20Safety%20and%20Occupational%20Health%20Services/5100.19F.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the desk there are three orange puzzles three orange dog leashes one orange envelope one silver puzzle three silver fidget spinners two green fidget spinners three silver dog leashes one red envelope one red dog leash one green dog leash two silver envelopes one green envelope two green puzzles and one red puzzle if i remove all the silver items from the desk how many dog leashes remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "elif shafak is one of turkeys most acclaimed and outspoken novelists she was born in 1971 and is the author of six novels including the forty rules of 229 stron",
+            "url": "https://scispace.com/pdf/the-forty-rules-of-love-2kb3gd84ge.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table you see a set of things arranged in a row a turquoise plate a brown scrunchiephone charger an orange textbook a magenta stress ball a pink pair of sunglasses and a silver keychain how many nonfuchsia things do you see to the left of the keychain options a zero b one c two d three e four f five g six",
+            "content": "her new book queer art from canvas to club and the spaces between features over of photographs paintings digital art and installations that",
+            "url": "https://miandn.com/index.php/press",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table i see a red notebook a purple dog leash an orange jug a brown crayon and a yellow cup how many items are neither yellow nor black options a zero b one c two d three e four f five g six",
+            "content": "appendix a describes in detail a threepart model of measuring text complexity based on qualitative and quantitative indices of inherent text difficulty",
+            "url": "https://www.ode.state.or.us/wma/teachlearn/commoncore/ela-appendix-b.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "on the desk there are three grey dog leashes two grey notebooks two gold dog leashes one gold notebook three grey pencils two grey booklets one gold booklet and three gold pencils if i remove all the dog leashes from the desk how many gold objects remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "her dark hour was their hour also they spent their days bedded down along the river they would come up into the neighborhood",
+            "url": "https://muse.jhu.edu/pub/187/oa_monograph/chapter/292983",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the table you see several objects arranged in a row a burgundy paperclip a purple cup a mauve pencil a yellow keychain and a silver teddy bear what is the color of the object furthest from the teddy bear options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "see someone would go too bad any actually long around only mean anything little pretty by let other say hope even friend after talk maybe new probably",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "on the desk you see a fuchsia dog leash and a teal necklace is the dog leash turquoise options a yes b no",
+            "content": "cleaning expert melissa maker is here to help with her gamechanging 3 wave cleaning system that will help you clean your house faster and easier than you ever",
+            "url": "https://cleanmyspace.com/the-besk-kept-silver-cleaning-secret-ever/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the floor you see a set of things arranged in a row a fuchsia cat toy a silver cup a pink paperclip a black fidget spinner a purple booklet and a teal dog leash what is the color of the thing directly to the right of the pink thing options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "greatest run ever is one of the most popular parts of the show the bit where we ask you to write in to us and tell us your greatest run ever",
+            "url": "https://www.dirtchurchradio.com/greatest-run-ever",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the nightstand you see the following things arranged in a row a silver dog leash a mauve bracelet a pink textbook and a fuchsia pencil what is the color of the rightmost thing options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "this comment section is open for any nonworkrelated discussion youd like to have with other readers by popular demand",
+            "url": "https://www.askamanager.org/2020/07/weekend-open-thread-july-25-26-2020.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the floor you see three yellow pairs of sunglasses one silver plate three yellow cat toys and two yellow envelopes if i remove all the envelopes from the floor how many yellow items remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "the present book contains problems in arithmetic for pupils of the 5th and 6th forms it includes all the arithmetic problems from the books",
+            "url": "https://old.mccme.ru/ium//library/pdf/prasolov-zadachnik-eng-final.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table i see a yellow cup a purple paperclip a brown textbook and a pink crayon is the textbook gold options a yes b no",
+            "content": "the art room should be the sanctuary against school regulations where each youngster is free to be himself and put down his feelings and emotions without",
+            "url": "https://scispace.com/pdf/visual-arts-assessment-in-the-age-of-educational-14udihgaca.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk i see a purple necklace a gold scrunchiephone charger and a red stress ball is the stress ball red options a yes b no",
+            "content": "doll reviews thriftcharity shop overviews and general rambling about toys and similar nonsense",
+            "url": "http://flyingpurplemonkfish.blogspot.com/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk you see a purple pencil an orange envelope a silver pair of sunglasses and a magenta paperclip what color is the paperclip options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "“i have to order three different kinds of paper towels because people prefer certain ones and we have different dispensers for each in the",
+            "url": "https://www.askamanager.org/2021/09/lets-talk-about-drama-over-office-supplies.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the floor you see several items arranged in a row a green scrunchiephone charger a silver bracelet and a gold stress ball what is the color of the item directly to the left of the gold item options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "you can add items on your phone or on a computer and you can it largely depends on your skin tone but id look into green or yellow",
+            "url": "https://www.askamanager.org/2024/07/weekend-open-thread-july-6-7-2024.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the floor you see a bunch of things arranged in a row a red keychain a blue pencil and a purple plate what is the color of the rightmost thing options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "lets discuss office supply drama people who are unreasonably upset when they cant get the exact supply they want supply hoarders the time",
+            "url": "https://www.askamanager.org/2021/09/lets-talk-about-drama-over-office-supplies.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the nightstand you see one gold notebook one yellow notebook two yellow keychains two gold keychains three yellow mugs and one gold scrunchiephone charger if i remove all the yellow objects from the nightstand how many scrunchiephone chargers remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "1 a mystical wireless phone charger for anyone who prefers fantasy over the scifi reality we live in",
+            "url": "https://www.buzzfeed.com/bekoconnell/fun-and-interesting-products-you-may-have-never-seen",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the table you see three green bracelets one teal dog leash one green dog leash and three green paperclips if i remove all the teal items from the table how many paperclips remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "binding of isaac rebirth cheat sheet wiki hover over any item to see detailed and accurate descriptions taken directly from the games source code",
+            "url": "https://tboi.com/all-items",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk there are three turquoise plates one pink plate and three pink booklets if i remove all the pink things from the desk how many booklets remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "production and distribution notes this publication was typeset electronically using helvetica and minion pro typefaces475 stron",
+            "url": "https://www.govinfo.gov/content/pkg/GPO-STYLEMANUAL-2016/pdf/GPO-STYLEMANUAL-2016.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk i see three grey stress balls two purple stress balls three fuchsia pencils one purple sheet of paper one fuchsia stress ball two grey pencils and two purple pencils if i remove all the fuchsia items from the desk how many sheets of paper remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "in chainofthought prompting we construct a fewshot prompt where the fewshot examples include an example of how one might reason through the problem we do",
+            "url": "https://pages.github.khoury.northeastern.edu/arjunguha/2024F-engineering-llm-systems/in_class/2024-09-13%20More%20COT.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the floor you see a set of objects arranged in a row a teal teddy bear a brown jug and a purple pencil what is the color of the object directly to the left of the jug options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "ccc is a notforprofit organization that provides licenses and registration for a variety of users for organizations that have been granted a photocopy 701 stron",
+            "url": "https://www.vcb.cz/file/cead14a67ce215db4666543d2c71a916/224/discrete-mathematics-with-ducks-second-edition-9781315167671-1315167670-9781351683678-1351683675-9781351683685-1351683683-9781351683692-1351683691_compress.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the floor there is a burgundy bracelet and a yellow mug is the bracelet fuchsia options a yes b no",
+            "content": "the images and related drawings used in this document are intended solely as a guiding support and should be considered as purely indicative 245 stron",
+            "url": "https://www.moh.go.tz/storage/app/uploads/public/65c/096/612/65c096612a364956069707.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the desk you see the following objects arranged in a row a grey textbook a yellow pencil a gold cat toy a green sheet of paper a turquoise booklet and a fuchsia teddy bear how many nonred objects do you see to the right of the grey object options a zero b one c two d three e four f five g six",
+            "content": "this book is designed to help the student of english whose only weapons in the battle against vocabulary have until now been a dictionary and a dog 266 stron",
+            "url": "http://davydenkova.info/wp-content/uploads/2012/10/Wordbuilder.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table there are two yellow pairs of sunglasses two red pairs of sunglasses three red scrunchiephone chargers three grey scrunchiephone chargers one yellow keychain two grey pairs of sunglasses and one red keychain if i remove all the keychains from the table how many yellow things remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "the béis weekend duffle bag a portable charger that doesnt need a cord to work an inflatable travel pillow and more genius products any traveler needs",
+            "url": "https://www.buzzfeed.com/abbykass/tiktok-approved-travel-gifts",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table you see a bunch of items arranged in a row a purple dog leash a silver pencil and a black bracelet what is the color of the item furthest from the dog leash options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "stadia general design stadia sight linestraffic stadia terracesgrandstand sport centres sport halls use of undivided space outdoor pitches447 stron",
+            "url": "https://www.uceb.eu/DATA/CivBook/03.%20Architect_s%20Data.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the floor you see a set of things arranged in a row a grey pen a burgundy dog leash a gold pencil a pink plate and a black envelope how many nonpurple things do you see to the right of the grey thing options a zero b one c two d three e four f five g six",
+            "content": "the serato forum is your space to discuss all things serato dj serato studio and more with other users in our community",
+            "url": "https://serato.com/forum/discussion/193327",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the nightstand you see a bunch of items arranged in a row a blue paperclip a grey envelope and a brown keychain what is the color of the item directly to the right of the paperclip options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "yellow gold colour claim colour is claimed as a feature of the grey silver blue green colour claim colour is claimed as a",
+            "url": "https://www.ic.gc.ca/opic-cipo/tmj/fra/20Mar2019_en.pdf?year=2019&edition=03-20",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk there is a turquoise pencil a blue pen a mauve sheet of paper a grey paperclip and a pink textbook what color is the sheet of paper options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "orange green yellow red and pink erasers make them easy to find in your drawer or briefcase wedged design erases pencil marks without smearing and hits",
+            "url": "http://denverthink.com/THINK!%20Office%20Supplies%20Catalog%202013.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "on the nightstand you see three burgundy pencils three magenta pencils and three magenta jugs if i remove all the jugs from the nightstand how many fuchsia things remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "she is currently a lecturer at the university of bristol school for policy studies where she teaches on the qualifying and postqualifying courses in social408 stron",
+            "url": "https://corambaaf.org.uk/sites/default/files/In%20Search%20of%20Belonging.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the floor you see one grey cup three gold teddy bears two yellow cups one gold cup and one grey teddy bear if i remove all the yellow objects from the floor how many cups remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "the publication of this book was generously supported by the university of iowa foundation the college of humanities and fine arts at the university of",
+            "url": "https://www.cedarfalls.com/DocumentCenter/View/978/The-Complete-Poetry-of-James-Hearst?bidId=",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the nightstand you see several things arranged in a row a pink bracelet a green cup a silver jug a mauve pen and a purple puzzle what is the color of the thing furthest from the bracelet options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "a network is based on two sets set of vertices nodes that represent the selected units and set of lines links that represent ties between",
+            "url": "https://sowiforum.univie.ac.at/pub/networks/doc/tut/Vienna07.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the desk you see three silver pairs of sunglasses two teal envelopes three pink pairs of sunglasses one silver envelope two pink envelopes three teal pairs of sunglasses two teal scrunchiephone chargers and three pink scrunchiephone chargers if i remove all the envelopes from the desk how many pink items remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "53 gifts your significant other wouldnt expect you to buy but they will absolutely love i can almost guarantee youll find the perfect gift on this list",
+            "url": "https://www.buzzfeed.com/imstephaniehope/gifts-they-wont-expect-significant-other",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the desk i see a black notebook a pink pen a burgundy pair of sunglasses a gold crayon and a green keychain is the crayon turquoise options a yes b no",
+            "content": "yes again idea watch these bit yeah end seem problem those already real remember mind many able check experience wrong high understand sorry guess care without",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the desk you see a set of objects arranged in a row a grey pair of sunglasses a mauve teddy bear and an orange notebook how many nonbrown objects do you see to the right of the mauve object options a zero b one c two d three e four f five g six",
+            "content": "the guidelines provide information about devel opmental milestones and specific instructional environmental and family engagement supports you can use to",
+            "url": "https://ccf.ny.gov/wp-content/uploads/2024/11/ELG-2020-1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the nightstand i see one green notebook two purple teddy bears two orange fidget spinners two purple notebooks two green fidget spinners and three purple fidget spinners if i remove all the orange items from the nightstand how many teddy bears remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "an iridescent snitch fidget spinner youll seek out when youre feeling a bit anxious and need something to do with your hands",
+            "url": "https://www.buzzfeed.com/abbykass/cute-useful-things",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table you see a bunch of things arranged in a row a yellow pair of sunglasses a brown fidget spinner a silver cup and a mauve teddy bear how many nonyellow things do you see to the right of the silver thing options a zero b one c two d three e four f five g six",
+            "content": "ers price curriculum guide english for grades viix boston public schools mass 70 307p school document no 21970308 stron",
+            "url": "https://files.eric.ed.gov/fulltext/ED051153.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "on the floor there is a green pair of sunglasses a silver necklace a burgundy dog leash and a mauve jug is the jug mauve options a yes b no",
+            "content": "im trying to find a series of books involving a blackhaired catholic heroine marrying an autocratic hero the setting is coastal historical us",
+            "url": "https://www.librarything.com/topic/157138",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the table i see three black stress balls one orange stress ball two purple keychains one black dog leash one orange keychain three orange cat toys one black keychain and one purple stress ball if i remove all the cat toys from the table how many orange items remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "stress ball na allegro zróżnicowany zbiór ofert najlepsze ceny i promocje wejdź i znajdź to czego szukasz",
+            "url": "https://allegro.pl/listing?string=stress%20ball&srsltid=AfmBOoqQVr7A2xIVLDWyteEDbT4i_EHe_xp15xgbg2N2-V14Rpwqp0pL",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the floor there are three fuchsia pens two yellow envelopes three fuchsia envelopes two blue envelopes one yellow pen two blue bracelets and three blue pens if i remove all the fuchsia objects from the floor how many envelopes remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "in the immediately following pages you will find the actual standards as the table of contents please find the test bank questions organized by standard",
+            "url": "https://www.atlantapublicschools.us/cms/lib/GA01000924/Centricity/Domain/5190/Last%20day%20before%20testing%20begins%20practice%20questions%20%20%20ANSWER%20KEY.docx",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the table you see a bunch of things arranged in a row a green scrunchiephone charger a burgundy pencil a black booklet a fuchsia mug and a gold cat toy what is the color of the thing furthest from the burgundy thing options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "for explanation of and t see page 7 dye color swatches as they appear on cotton poplin color will alter on other fabrics fibers",
+            "url": "https://dharma-www.s3.amazonaws.com/images/public/pdf/dharma_2022.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the table you see a bunch of objects arranged in a row a yellow keychain a silver envelope a black booklet and a teal plate what is the color of the rightmost object options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "this book contains information obtained from authentic and highly regarded sources reasonable efforts have been made to publish reliable data and information 701 stron",
+            "url": "https://www.vcb.cz/file/cead14a67ce215db4666543d2c71a916/224/discrete-mathematics-with-ducks-second-edition-9781315167671-1315167670-9781351683678-1351683675-9781351683685-1351683683-9781351683692-1351683691_compress.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the nightstand you see one green necklace two green textbooks and two blue textbooks if i remove all the textbooks from the nightstand how many green items remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "when you go downstairs theres a playroom with many colourful balls what a fun for kids to live in such a house 121 123 a build a one b built b first c",
+            "url": "http://booksspk.pl/DEMO_KSIAZKI/testy_angielski/files/basic-html/page22.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the desk you see a set of objects arranged in a row a pink teddy bear a turquoise textbook a gold pencil a grey envelope and a burgundy sheet of paper what is the color of the object furthest from the sheet of paper options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "assignments which provide a basis for teachers and pupils to develop course work assignments which are a feature of the new gcse examinations english",
+            "url": "https://link.springer.com/content/pdf/10.1007/978-1-349-10680-6.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk you see a set of things arranged in a row a pink notebook a green keychain a grey mug a mauve cup a blue pen and a silver envelope what is the color of the leftmost thing options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "pyramids of boxes of paper clips mugs filled with pens pencils sharpies and highlighters rows of tape dispensers pencil sharpeners and",
+            "url": "https://www.askamanager.org/2021/09/lets-talk-about-drama-over-office-supplies.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table there is a black pen a brown bracelet a red teddy bear a yellow textbook and an orange booklet how many objects are neither brown nor black options a zero b one c two d three e four f five g six",
+            "content": "b write a review for your school magazine of your favourite film c write a list of your five favourite books or films d fill out this form that youve 49 stron",
+            "url": "https://resources.collins.co.uk/free/EnglishSkillsBook6Answers.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table you see the following items arranged in a row a brown crayon a blue mug a black dog leash a mauve stress ball and a silver textbook what is the color of the leftmost item options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "therefore the learning experiences must start from the preschool to the early grades of primary schools in a continuum termed as the foundational stage 260 stron",
+            "url": "https://ncert.nic.in/pdf/vidyapravesh.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table you see one blue envelope one blue plate three red necklaces two red plates three silver plates three blue necklaces one gold plate and three silver necklaces if i remove all the plates from the table how many silver objects remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "not sure how to bid online we can help contact our office and we will walk though the steps to help the best way to bid is to leave your max amount if you",
+            "url": "https://benladage.hibid.com/lot/201415226",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk you see several things arranged in a row a silver plate a burgundy textbook a pink puzzle and a green scrunchiephone charger what is the color of the thing furthest from the plate options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "flip html5 is a interactive html5 digital publishing platform that makes it easy to create interactive digital publications including magazines",
+            "url": "https://fliphtml5.com/cavuk/ullc/Girl_in_Pieces/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "on the floor there is one magenta scrunchiephone charger and three grey pencils if i remove all the pencils from the floor how many burgundy items remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "consumer researchthe study of consumption is now an important part of many academic disciplines from sociology and a",
+            "url": "https://epdf.pub/consumer-research-postcards-from-the-edge-routledge-consumer-research-series.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table you see several things arranged in a row a black pencil a turquoise paperclip and a yellow stress ball what is the color of the thing directly to the left of the paperclip options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "the art room should be the sanctuary against school regulations where each youngster is free to be himself and put down his feelings and emotions without",
+            "url": "https://scispace.com/pdf/visual-arts-assessment-in-the-age-of-educational-14udihgaca.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the floor you see a bunch of objects arranged in a row a teal plate a black mug a brown stress ball and a pink dog leash how many nonmagenta objects do you see to the right of the brown object options a zero b one c two d three e four f five g six",
+            "content": "159 pm comprehensive high schools bhs ehs lhs sehs shs early release day 600 pm bilingual parent advisory committee bpac meeting",
+            "url": "https://www.u-46.org/cms/lib/IL01804616/Centricity/Domain/5426/KindergartenModule3TeacherMaterials.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the nightstand you see a brown notebook a yellow keychain an orange fidget spinner a purple pen and a blue bracelet how many items are neither red nor brown options a zero b one c two d three e four f five g six",
+            "content": "we cannot provide a description for this page right now",
+            "url": "https://online.ogs.ny.gov/purchase/spg/pdfdocs/2310023006PL_RGS.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the floor you see a purple fidget spinner a red pencil a green crayon a pink paperclip and a teal scrunchiephone charger is the scrunchiephone charger grey options a yes b no",
+            "content": "enjoy hours of fun with fidget cube the original fidget toy you get six sides to fidget with click glide flip breathe roll spin our fidget shop features dozens of cubes to choose from different colors metallic spiderman batman iron man and more order your fidget cube now",
+            "url": "https://www.antsylabs.com/products/fidget-cube-the-original-fidget-toy",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the nightstand you see several items arranged in a row a gold envelope an orange scrunchiephone charger a brown pair of sunglasses and a pink dog leash how many nonturquoise items do you see to the right of the pink item options a zero b one c two d three e four f five g six",
+            "content": "we cannot provide a description for this page right now",
+            "url": "https://www.amphi.com/cms/lib010/AZ01901095/Centricity/Domain/3348/na_arn_gr08.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the nightstand there is a silver jug a blue pair of sunglasses a fuchsia stress ball and a purple sheet of paper what color is the stress ball options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "this is the latest accepted revision reviewed on 20 february 2025 fuchsia ˈfjuːʃə ⓘ fewshə is a vivid pinkishpurplishred color named after the color of the flower of the fuchsia plant which was named by a french botanist charles plumier after the 16thcentury german botanist",
+            "url": "https://en.wikipedia.org/wiki/Fuchsia_(color)",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the floor there is a silver booklet a pink teddy bear a brown scrunchiephone charger and a red bracelet is the teddy bear orange options a yes b no",
+            "content": "a classic teddy bear as snuggled by a child when going to sleep depicted as a brown stuffed toy bear shown seated with its arms to the sides hind p",
+            "url": "https://emojipedia.org/teddy-bear",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the table there is a black teddy bear a green fidget spinner a mauve scrunchiephone charger and a yellow crayon what color is the fidget spinner options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "enjoy hours of fun with fidget cube the original fidget toy you get six sides to fidget with click glide flip breathe roll spin our fidget shop features dozens of cubes to choose from different colors metallic spiderman batman iron man and more order your fidget cube now",
+            "url": "https://www.antsylabs.com/products/fidget-cube-the-original-fidget-toy",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the floor you see several items arranged in a row a silver plate a magenta pen a pink fidget spinner and a mauve jug how many nonblack items do you see to the right of the mauve item options a zero b one c two d three e four f five g six",
+            "content": "159 pm comprehensive high schools bhs ehs lhs sehs shs early release day 600 pm bilingual parent advisory committee bpac meeting",
+            "url": "https://www.u-46.org/cms/lib/IL01804616/Centricity/Domain/5426/KindergartenModule3TeacherMaterials.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "on the desk you see several items arranged in a row a fuchsia cup a red pen a turquoise fidget spinner a teal paperclip and a silver teddy bear how many nonyellow items do you see to the right of the fidget spinner options a zero b one c two d three e four f five g six",
+            "content": "159 pm comprehensive high schools bhs ehs lhs sehs shs early release day 600 pm bilingual parent advisory committee bpac meeting",
+            "url": "https://www.u-46.org/cms/lib/IL01804616/Centricity/Domain/5426/KindergartenModule3TeacherMaterials.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the desk there is an orange scrunchiephone charger a turquoise bracelet a gold sheet of paper and a red envelope is the bracelet turquoise options a yes b no",
+            "content": "introducing cablex27s next era shop the cable collection® for women from david yurman bracelets and earrings in vibrant gemstones with our patented technology",
+            "url": "https://www.davidyurman.com/womens/collections/the-cable-collection.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the floor there is a brown jug a black envelope a silver stress ball and a turquoise plate what color is the plate options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "these 15 stylish colors all look nice with the color turquoise no matter where in the home they are used",
+            "url": "https://www.thespruce.com/colors-that-go-with-turquoise-8559831",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "on the desk you see a bunch of objects arranged in a row a turquoise envelope a teal dog leash and a purple pencil how many nonturquoise objects do you see to the right of the purple object options a zero b one c two d three e four f five g six",
+            "content": "159 pm comprehensive high schools bhs ehs lhs sehs shs early release day 600 pm bilingual parent advisory committee bpac meeting",
+            "url": "https://www.u-46.org/cms/lib/IL01804616/Centricity/Domain/5426/KindergartenModule3TeacherMaterials.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the table you see an orange fidget spinner a teal pair of sunglasses and a brown pen what color is the pair of sunglasses options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "enjoy hours of fun with fidget cube the original fidget toy you get six sides to fidget with click glide flip breathe roll spin our fidget shop features dozens of cubes to choose from different colors metallic spiderman batman iron man and more order your fidget cube now",
+            "url": "https://www.antsylabs.com/products/fidget-cube-the-original-fidget-toy",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "on the nightstand you see several things arranged in a row an orange cat toy a mauve pencil a black crayon and a yellow pair of sunglasses how many nonmauve things do you see to the right of the yellow thing options a zero b one c two d three e four f five g six",
+            "content": "we cannot provide a description for this page right now",
+            "url": "https://www.sausd.us/cms/lib/CA01000471/Centricity/Domain/241/Divergent.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the nightstand you see several items arranged in a row a turquoise scrunchiephone charger a red bracelet a grey keychain and a gold mug how many nonteal items do you see to the left of the scrunchiephone charger options a zero b one c two d three e four f five g six",
+            "content": "we cannot provide a description for this page right now",
+            "url": "https://sausd.us/cms/lib/CA01000471/Centricity/Domain/241/Kami Export - small-spaces-by.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "on the nightstand you see the following things arranged in a row a pink cup an orange booklet a turquoise necklace and a mauve textbook how many nonmagenta things do you see to the left of the necklace options a zero b one c two d three e four f five g six",
+            "content": "we cannot provide a description for this page right now",
+            "url": "https://sausd.us/cms/lib/CA01000471/Centricity/Domain/241/Kami Export - small-spaces-by.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the nightstand there is a grey paperclip a red cup a gold bracelet a blue necklace a teal keychain and a burgundy puzzle is the paperclip grey options a yes b no",
+            "content": "sign up for savings and product announcements find out more about their purpose and settings in your browser by browsing the site you are agreeing to use cookies according to your browser settings privacy and cookie policy",
+            "url": "https://www.royalchain.com/paperclip.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "on the nightstand there is a red cup a pink sheet of paper and a silver keychain is the cup red options a yes b no",
+            "content": "new starbucks merchandise to match all the summer vibes",
+            "url": "https://about.starbucks.com/press/2024/new-starbucks-merchandise-to-match-all-the-summer-vibes/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the nightstand you see a blue booklet a brown necklace a green cat toy a burgundy cup an orange keychain and a magenta textbook what color is the cat toy options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "check out our orange cat keychain selection for the very best in unique or custom handmade pieces from our keychains shops",
+            "url": "https://www.etsy.com/market/orange_cat_keychain",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "on the nightstand i see a purple pencil a brown booklet a grey keychain and a magenta pair of sunglasses is the pair of sunglasses pink options a yes b no",
+            "content": "looking for the best tinted sunglasses read on to learn more about different tints and how to choose the best one",
+            "url": "https://www.revantoptics.com/blogs/the-lens/tinted-sunglasses-does-the-color-matter",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk you see a turquoise teddy bear a teal notebook and a silver textbook what color is the textbook options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "check out our tiffanys teddy bear selection for the very best in unique or custom handmade pieces from our stud earrings shops",
+            "url": "https://www.etsy.com/market/tiffanys_teddy_bear",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the nightstand there is a yellow notebook a blue jug a red keychain an orange pencil and a purple fidget spinner how many objects are neither purple nor blue options a zero b one c two d three e four f five g six",
+            "content": "the alhambra elementary school district aesd located in phoenix az has outstanding curricular programs high student achievement accredited preschools amp excellent employee salaries amp benefits",
+            "url": "https://www.alhambraesd.org/cms/lib/AZ02210373/Centricity/Domain/19/iReadyKinderReadynessActivities%20.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "on the table you see several objects arranged in a row a mauve textbook a black fidget spinner and a magenta cat toy how many nonmauve objects do you see to the left of the magenta object options a zero b one c two d three e four f five g six",
+            "content": "we cannot provide a description for this page right now",
+            "url": "https://ksdetasn.s3.amazonaws.com/uploads/resource/upload/2319/8_FFC_List_supplement.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the nightstand there is one black jug and one teal scrunchiephone charger if i remove all the jugs from the nightstand how many black objects remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "most of us like to keep our devices charing on our nightstands as we sleep so here are the prettiest ways to charge them without all the ugly cords",
+            "url": "https://stylebyemilyhenderson.com/blog/the-4-prettiest-best-ways-to-charge-your-devices-on-your-nightstand",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the floor you see a burgundy scrunchiephone charger and a teal bracelet what color is the scrunchiephone charger options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "from neutrals like white and gray to unexpected shades like cayenne and bubblegum pink these are the best colors to pair with teal",
+            "url": "https://www.thespruce.com/what-color-goes-with-teal-8400193",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the floor you see three gold scrunchiephone chargers and three orange textbooks if i remove all the scrunchiephone chargers from the floor how many orange items remain on it options a zero b one c two d three e four f five g six h seven i eight j nine k ten l eleven m twelve n thirteen o fourteen p fifteen q sixteen",
+            "content": "welcome to the clockwork tales of glass and ink walkthrough the quaint mountain town of hochwald hides a deadly secret defeat a mechanical mastermind and save your friend before another earthquake strikes whether you use this document as a reference when things get difficult or as a road",
+            "url": "https://www.bigfishgames.com/blog/walkthroughs/clockwork-tales-of-glass-and-ink.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the table i see a turquoise cup a burgundy plate a red fidget spinner a silver pen a yellow pair of sunglasses and a magenta jug what color is the pen options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "you can use these buttons to move to the next or previous page",
+            "url": "https://kids.niehs.nih.gov/games/brainteasers/tuff-stuff-riddles",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on the desk i see a magenta pair of sunglasses a pink textbook a mauve fidget spinner and a turquoise booklet what color is the fidget spinner options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "enjoy hours of fun with fidget cube the original fidget toy you get six sides to fidget with click glide flip breathe roll spin our fidget shop features dozens of cubes to choose from different colors metallic spiderman batman iron man and more order your fidget cube now",
+            "url": "https://www.antsylabs.com/products/fidget-cube-the-original-fidget-toy",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the nightstand you see a silver teddy bear a gold crayon and an orange scrunchiephone charger is the teddy bear mauve options a yes b no",
+            "content": "this is the latest accepted revision reviewed on 5 march 2025 a teddy bear also referred to simply as a teddy is a stuffed toy in the form of a bear developed apparently simultaneously by toymakers morris michtom in the us and richard steiff under his aunt margarete steiffx27s company",
+            "url": "https://en.wikipedia.org/wiki/Teddy_bear",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "on the table there is a fuchsia sheet of paper a magenta pencil a teal pair of sunglasses a black keychain and a burgundy fidget spinner what color is the keychain options a red b orange c yellow d green e blue f brown g magenta h fuchsia i mauve j teal k turquoise l burgundy m silver n gold o black p grey q purple r pink",
+            "content": "the color magenta has notable tints and shades these various colors are shown below magenta is a color made up of equal parts of red and blue light this would be the precise definition of the color as defined for computer display the color ff00ff shown in the color swatch above",
+            "url": "https://en.wikipedia.org/wiki/Shades_of_magenta",
+            "engine": "braveAPI"
+        }
+    ]
+}

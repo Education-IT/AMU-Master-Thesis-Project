@@ -1,0 +1,2761 @@
+{
+    "task": "qasper_bool",
+    "dataset": "web_access_None_final",
+    "questions": 281,
+    "noWebContextCount": 0,
+    "contaminated_queries": 257,
+    "contaminated_urls": 715,
+    "valid_urls": 281,
+    "avg_contaminated_before_valid": 3.5444839857651247,
+    "contaminated_data_ratio": 0.7178714859437751,
+    "most_contaminated_urls": {
+        "ui.adsabs.harvard.edu": 21,
+        "paperswithcode.com": 20,
+        "www.semanticscholar.org": 17,
+        "deepai.org": 6,
+        "dblp.org": 5,
+        "jmlr.org": 5
+    },
+    "noWebContext": [],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 3,
+            "query": "improving the performance of neural machine translation involving morphologically rich languages",
+            "content": "the advent of the attention mechanism in neural machine translation models has improved the performance of machine translation systems by enabling selective",
+            "url": "https://ui.adsabs.harvard.edu/abs/arXiv:1612.02482",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "ensemble based discriminative models for visual dialog challenge 2018",
+            "content": "this manuscript describes our approach for the visual dialog challenge 2018 we use an ensemble of three discriminative models with different encoders and",
+            "url": "https://ui.adsabs.harvard.edu/abs/2020arXiv200105865A/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "ensemble based discriminative models for visual dialog challenge 2018",
+            "content": "this manuscript describes our approach for the visual dialog challenge 2018 we use an ensemble of three discriminative models with",
+            "url": "https://paperswithcode.com/paper/ensemble-based-discriminative-models-for",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "ensemble based discriminative models for visual dialog challenge 2018",
+            "content": "this manuscript describes the approach for the visual dialog challenge 2018 using an ensemble of three discriminative models with different encoders and",
+            "url": "https://www.semanticscholar.org/paper/Ensemble-based-discriminative-models-for-Visual-Agarwal-Goyal/4f9d6f092cce26c22404579157912973d71ec44e",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "ensemble based discriminative models for visual dialog challenge 2018",
+            "content": "shubham agarwal raghav goyal ensemble based discriminative models for visual dialog challenge 2018 corr abs200105865 2020 manage site settings",
+            "url": "https://dblp.org/rec/journals/corr/abs-2001-05865.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "ensemble based discriminative models for visual dialog challenge 2018",
+            "content": "abstractthis manuscript describes our approach for the visual dialog challenge 2018 we use an ensemble of three discriminative models with different",
+            "url": "https://www.catalyzex.com/paper/ensemble-based-discriminative-models-for",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "ensemble based discriminative models for visual dialog challenge 2018",
+            "content": "2024 ensemble based discriminative models for visual dialog challenge 2018 s agarwal r goyal visual dialog challenge 2018 2019 1 2019 llms for",
+            "url": "https://scholar.google.fr/citations?user=aSMFGScAAAAJ&hl=en",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "ensemble based discriminative models for visual dialog challenge 2018",
+            "content": "ensemble based discriminative models for visual dialog challenge 2018 s agarwal r goyal visual dialog challenge 2018 2019 1 2019 llms for literature",
+            "url": "https://scholar.google.com/citations?user=aSMFGScAAAAJ&hl=it",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a bayesian model of multilingual unsupervised semantic role induction",
+            "content": "we propose a bayesian model of unsupervised semantic role induction in multiple languages and use it to explore the usefulness of parallel corpora for this",
+            "url": "https://ui.adsabs.harvard.edu/abs/2016arXiv160301514G/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a bayesian model of multilingual unsupervised semantic role induction",
+            "content": "a bayesian model of multilingual unsupervised semantic role induction n garg james henderson published in arxivorg 4 march 2016 computer science",
+            "url": "https://www.semanticscholar.org/paper/bb5accd41a3ac4505c40f731c20c507ed2a849c0",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "a bayesian model of multilingual unsupervised semantic role induction",
+            "content": "we propose a bayesian model of unsupervised semantic role induction in multiple languages and use it to explore the usefulness of parallel corpora for this",
+            "url": "https://deepai.org/publication/a-bayesian-model-of-multilingual-unsupervised-semantic-role-induction",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "covost a diverse multilingual speechtotext translation corpus",
+            "content": "covost is a largescale multilingual speechtotext translation corpus its latest 2nd version covers translations from 21 languages into english and from",
+            "url": "https://paperswithcode.com/dataset/covost",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "covost a diverse multilingual speechtotext translation corpus",
+            "content": "we introduce covost a multilingual speechtotext translation corpus from 11 languages into english diversified with over 11000 speakers and over 60 accents",
+            "url": "https://research.facebook.com/publications/covost-a-diverse-multilingual-speech-to-text-translation-corpus/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "covost a diverse multilingual speechtotext translation corpus",
+            "content": "we introduce covost a multilingual speechtotext translation corpus from 11 languages into english diversified with over 11000 speakers and over 60 accents",
+            "url": "https://paperswithcode.com/paper/covost-a-diverse-multilingual-speech-to-text",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "covost a diverse multilingual speechtotext translation corpus",
+            "content": "c wang cytowane przez 93 we introduce covost a multilingual speechtotext translation corpus from 11 languages into english diversified with over 11000 speakers and 7 stron",
+            "url": "http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.517.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "covost a diverse multilingual speechtotext translation corpus",
+            "content": "we introduce covost a multilingual speechtotext translation corpus from 11 languages into english diversified with over 11000 speakers and over 60 accents",
+            "url": "https://ui.adsabs.harvard.edu/abs/2020arXiv200201320W/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "cellaware stacked lstms for modeling sentences",
+            "content": "cellaware stacked lstms for modeling sentences we propose a method of stacking multiple long shortterm memory lstm layers for modeling sentences",
+            "url": "https://paperswithcode.com/paper/cell-aware-stacked-lstms-for-modeling/review/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "towards a continuous knowledge learning engine for chatbots",
+            "content": "this paper proposes to build a general knowledge learning engine for chatbots to enable them to continuously and interactively learn new knowledge during",
+            "url": "https://www.semanticscholar.org/paper/Towards-a-Continuous-Knowledge-Learning-Engine-for-Mazumder-Ma/4f31257b8ea4fa4c8f049693cfe2f71ee9c8475a",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "towards a continuous knowledge learning engine for chatbots",
+            "content": "in this paper we propose to build a general knowledge learning engine for chatbots to enable them to continuously and interactively learn new knowledge during",
+            "url": "https://ui.adsabs.harvard.edu/abs/2018arXiv180206024M/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "towards a continuous knowledge learning engine for chatbots",
+            "content": "in this paper we propose to build a general knowledge learning engine for chatbots to enable them to continuously and interactively learn new knowledge during",
+            "url": "https://www.thejournal.club/c/paper/144598/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "towards a continuous knowledge learning engine for chatbots",
+            "content": "in this paper we propose to build a general knowledge learning engine for chatbots to enable them to continuously and interactively learn new knowledge during",
+            "url": "https://paperswithcode.com/paper/towards-a-continuous-knowledge-learning",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "towards a continuous knowledge learning engine for chatbots",
+            "content": "in this paper we propose to build a general knowledge learning engine for chatbots to enable them to continuously and interactively learn new knowledge during",
+            "url": "https://deepai.org/publication/towards-a-continuous-knowledge-learning-engine-for-chatbots",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "towards a continuous knowledge learning engine for chatbots",
+            "content": "sahisnu mazumder nianzu ma bing liu towards a continuous knowledge learning engine for chatbots corr abs180206024 2018 manage site settings",
+            "url": "https://dblp.dagstuhl.de/rec/html/journals/corr/abs-1802-06024",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "dice loss for dataimbalanced nlp tasks",
+            "content": "this paper proposes to use dice loss in replacement of the standard crossentropy objective for dataimbalanced nlp tasks based on the sørensendice",
+            "url": "https://www.semanticscholar.org/paper/Dice-Loss-for-Data-imbalanced-NLP-Tasks-Li-Sun/5487dadb5b4b8b240ab4ae28705acc0b9f138db0",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "dice loss for dataimbalanced nlp tasks",
+            "content": "in this paper we propose to use dice loss in replacement of the standard crossentropy objective for dataimbalanced nlp tasks dice loss is based on the",
+            "url": "https://paperswithcode.com/paper/dice-loss-for-data-imbalanced-nlp-tasks",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "dice loss for dataimbalanced nlp tasks",
+            "content": "in this paper we propose to use dice loss in replacement of the standard crossentropy objective for dataimbalanced nlp tasks dice loss is based on the",
+            "url": "https://paperswithcode.com/paper/dice-loss-for-data-imbalanced-nlp-tasks/review/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "dice loss for dataimbalanced nlp tasks",
+            "content": "in this paper we propose to use dice loss in replacement of the standard crossentropy objective for dataimbalanced nlp tasks dice loss is based on the",
+            "url": "https://ui.adsabs.harvard.edu/abs/2019arXiv191102855L/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "querybased attention cnn for text similarity map",
+            "content": "in this paper we introduce querybased attention cnnqacnn for text similarity map an endtoend neural network for question answering",
+            "url": "http://ui.adsabs.harvard.edu/abs/2017arXiv170905036L/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "querybased attention cnn for text similarity map",
+            "content": "in this paper we introduce querybased attention cnnqacnn for text similarity map an endtoend neural network for question answering",
+            "url": "https://paperswithcode.com/paper/query-based-attention-cnn-for-text-similarity",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "querybased attention cnn for text similarity map",
+            "content": "in this paper we introduce querybased attention cnnqacnn for text similarity map an endtoend neural network for question answering this network is",
+            "url": "https://paperswithcode.com/paper/query-based-attention-cnn-for-text-similarity/review/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "querybased attention cnn for text similarity map",
+            "content": "querybased attention cnn qacnn for text similarity map an endtoend neural network for question answering is introduced",
+            "url": "https://www.semanticscholar.org/paper/Query-based-Attention-CNN-for-Text-Similarity-Map-Liu-Wu/fa634836c057a34a4b5eb94624757ab262837bc6",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "querybased attention cnn for text similarity map",
+            "content": "in this paper we introduce querybased attention cnnqacnn for text similarity map an endtoend neural network for question answering",
+            "url": "https://deepai.org/publication/query-based-attention-cnn-for-text-similarity-map",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "combining recurrent and convolutional neural networks for relation classification",
+            "content": "this paper presents a new context representation for convolutional neural networks for relation classification extended middle context and proposes",
+            "url": "https://www.semanticscholar.org/paper/Combining-Recurrent-and-Convolutional-Neural-for-Vu-Adel/b04ad4b86f46b0c6670f0da898a1300f385bf3d2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a resource for computational experiments on mapudungun",
+            "content": "we present a resource for computational experiments on mapudungun a polysynthetic indigenous language spoken in chile with upwards of 200 thousand speakers",
+            "url": "https://par.nsf.gov/servlets/purl/10175771",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "a resource for computational experiments on mapudungun",
+            "content": "we present a resource for computational experiments on mapudungun a polysynthetic indigenous language spoken in chile with upwards of 200 thousand speakers",
+            "url": "https://paperswithcode.com/paper/a-resource-for-computational-experiments-on",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "a resource for computational experiments on mapudungun",
+            "content": "we present a resource for computational experiments on mapudungun a polysynthetic indigenous language spoken in chile with upwards of 200 thousand speakers",
+            "url": "http://ui.adsabs.harvard.edu/abs/2019arXiv191201772D/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "a resource for computational experiments on mapudungun",
+            "content": "we present a resource for computational experiments on mapudungun a polysynthetic indigenous language spoken in chile with upwards of 200 thousand speakers",
+            "url": "https://cs.gmu.edu/~antonis/publication/duan-etal-2020-resource/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "a resource for computational experiments on mapudungun",
+            "content": "we present a resource for computational experiments on mapudungun a polysynthetic indigenous language spoken in chile with upwards of 200",
+            "url": "https://api.deepai.org/publication/a-resource-for-computational-experiments-on-mapudungun",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "unsupervised learning of syntactic structure with invertible neural projections",
+            "content": "unsupervised learning of syntactic structure is typically performed using generative models with discrete latent variables and multinomial parameters",
+            "url": "https://paperswithcode.com/paper/unsupervised-learning-of-syntactic-structure",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "unsupervised learning of syntactic structure with invertible neural projections",
+            "content": "unsupervised learning of syntactic structure is typically performed using generative models with discrete latent variables and multinomial parameters",
+            "url": "https://ui.adsabs.harvard.edu/abs/arXiv:1808.09111",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a matter of words nlp for quality evaluation of wikipedia medical articles",
+            "content": "a matter of words nlp for quality evaluation of wikipedia medical articles 1 introduction 2 dataset 3 the medical domain model 4",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-319-38791-8_31",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "offensive language detection a comparative analysis",
+            "content": "the present paper provides a comparative analysis and random kitchen sink rks based approach for offensive language detection and explores the",
+            "url": "https://www.semanticscholar.org/paper/Offensive-Language-Detection%3A-A-Comparative-VyshnavM.-Kumar/0a0567734c4f07f112fec6e8b5d73e8c03c81f3c",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "offensive language detection a comparative analysis",
+            "content": "the present paper provides a comparative analysis and random kitchen sink rks based approach for offensive language detection we explore the effectiveness of",
+            "url": "https://www.thejournal.club/c/paper/238289/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "deep lstm for large vocabulary continuous speech recognition",
+            "content": "deeper lstm models perform well on large vocabulary continuous speech recognition because of their impressive learning ability however it is more difficult",
+            "url": "https://ui.adsabs.harvard.edu/abs/2017arXiv170307090T/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "deep lstm for large vocabulary continuous speech recognition",
+            "content": "bibliographic details on deep lstm for large vocabulary continuous speech recognition",
+            "url": "https://dblp.org/rec/journals/corr/TianZMHWWSLZ17",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "deep lstm for large vocabulary continuous speech recognition",
+            "content": "deeper lstm models perform well on large vocabulary continuous speech recognition because of their impressive learning ability however it is",
+            "url": "https://paperswithcode.com/paper/deep-lstm-for-large-vocabulary-continuous",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "deep lstm for large vocabulary continuous speech recognition",
+            "content": "the cddnnhmm system has became the stateofart system for large vocabulary continuous speech recognition lvcsr tasks in which deep neural networks dnn",
+            "url": "https://ieeexplore.ieee.org/document/7472718/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "deep lstm for large vocabulary continuous speech recognition",
+            "content": "deeper lstm models perform well on large vocabulary continuous speech recognition because of their impressive learning ability however it is more difficult",
+            "url": "https://www.oa.mg/work/10.48550/arxiv.1703.07090",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a corpus for automatic readability assessment and text simplification of german",
+            "content": "in this paper we present a corpus for use in automatic readability assessment and automatic text simplification of german the corpus is compiled from web",
+            "url": "https://ui.adsabs.harvard.edu/abs/arXiv:1909.09067",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "a corpus for automatic readability assessment and text simplification of german",
+            "content": "in this paper we present a corpus for use in automatic readability assessment and automatic text simplification of german the corpus is compiled from web",
+            "url": "https://paperswithcode.com/paper/a-corpus-for-automatic-readability-assessment",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "a corpus for automatic readability assessment and text simplification of german",
+            "content": "abstract in this paper we present a corpus for use in automatic readability assessment and automatic text simplification for german",
+            "url": "https://www.zora.uzh.ch/id/eprint/192839/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "a corpus for automatic readability assessment and text simplification of german",
+            "content": "a corpus for use in automatic readability assessment and automatic text simplification for german the first of its kind for this language",
+            "url": "https://www.semanticscholar.org/paper/A-Corpus-for-Automatic-Readability-Assessment-and-Battisti-Ebling/20cf48ee5baaccf1ebda175342f1265cb268cf0d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "when to reply context sensitive models to predict instructor interventions in mooc forums",
+            "content": "bibliographic details on when to reply context sensitive models to predict instructor interventions in mooc forums",
+            "url": "https://dblp.org/rec/journals/corr/abs-1905-10851.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "gluoncv and gluonnlp deep learning in computer vision and natural language processing",
+            "content": "we present gluoncv and gluonnlp the deep learning toolkits for computer vision and natural language processing based on apache mxnet incubating",
+            "url": "https://jmlr.org/papers/v21/19-429.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "gluoncv and gluonnlp deep learning in computer vision and natural language processing",
+            "content": "abstract we present gluoncv and gluonnlp the deep learning toolkits for computer vision and natural language processing based on apache mxnet incubating 7 stron",
+            "url": "https://szhengac.github.io/papers/jmlr2020.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "gluoncv and gluonnlp deep learning in computer vision and natural language processing",
+            "content": "we present gluoncv and gluonnlp the deep learning toolkits for computer vision and natural language processing based on apache mxnet incubating",
+            "url": "https://dl.acm.org/doi/abs/10.5555/3455716.3455739",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "gluoncv and gluonnlp deep learning in computer vision and natural language processing",
+            "content": "abstract we present gluoncv and gluonnlp the deep learning toolkits for computer vision and natural language processing based on apache mxnet incubating",
+            "url": "https://jmlr.org/beta/papers/v21/19-429.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "gluoncv and gluonnlp deep learning in computer vision and natural language processing",
+            "content": "we present gluoncv and gluonnlp the deep learning toolkits for computer vision and natural language processing based on apache mxnet incubating",
+            "url": "https://dl.acm.org/doi/10.5555/3455716.3455739",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "gluoncv and gluonnlp deep learning in computer vision and natural language processing",
+            "content": "we present gluoncv and gluonnlp the deep learning toolkits for computer vision and natural language processing based on apache mxnet incubating",
+            "url": "http://ui.adsabs.harvard.edu/abs/2019arXiv190704433G/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "gluoncv and gluonnlp deep learning in computer vision and natural language processing",
+            "content": "gluoncv and gluonnlp the deep learning toolkits for computer vision and natural language processing based on apache mxnet provide stateoftheart",
+            "url": "https://www.semanticscholar.org/paper/2733574d40ce8e861d7d658bfc33ab36f529864d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "deep learning for detecting cyberbullying across multiple social media platforms",
+            "content": "this paper suggests a working implementation of an application that detects cyberbullying across multiple social media platforms",
+            "url": "https://ieeexplore.ieee.org/document/9404736/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "improving question generation with to the point context",
+            "content": "extensive experiments show that to the point context helps our question generation model achieve significant improvements on several automatic evaluation",
+            "url": "http://ui.adsabs.harvard.edu/abs/2019arXiv191006036L/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "predicting the type and target of offensive posts in social media",
+            "content": "we experiment with several machine learning models including stateoftheart transformer models to predict the type and target of offensive",
+            "url": "https://link.springer.com/article/10.1007/s13278-022-00906-8",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "findings of the nlp4if2019 shared task on finegrained propaganda detection",
+            "content": "we present the shared task on finegrained propaganda detection which was organized as part of the nlp4if workshop at emnlpijcnlp 2019",
+            "url": "https://ui.adsabs.harvard.edu/abs/2019arXiv191009982D/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "findings of the nlp4if2019 shared task on finegrained propaganda detection",
+            "content": "we present the shared task on finegrained propaganda detection which was organized as part of the nlp4if workshop at emnlpijcnlp 2019",
+            "url": "https://paperswithcode.com/paper/findings-of-the-nlp4if-2019-shared-task-on",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "findings of the nlp4if2019 shared task on finegrained propaganda detection",
+            "content": "this work presents the shared task on finegrained propaganda detection which was organized as part of the nlp4if workshop at emnlpijcnlp 2019 and saw 12",
+            "url": "https://www.semanticscholar.org/paper/58ed96cd372732937859168fcf92c1395d049c1e",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a neural topicattention model for medical term abbreviation disambiguation",
+            "content": "specifically a neural topicattention model is applied to learn improved contextualized sentence representations for medical term abbreviation disambiguation",
+            "url": "http://ui.adsabs.harvard.edu/abs/2019arXiv191014076L/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "shared task lexical semantic change detection in german",
+            "content": "the results of the first shared task on unsupervised lexical semantic change detection lscd in german based on the evaluation framework proposed by",
+            "url": "https://www.semanticscholar.org/paper/Shared-Task%3A-Lexical-Semantic-Change-Detection-in-Ahmad-Desta/930cb0e00fb75f9fe901384c60785dc7f114c9f7",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "elephant in the room an evaluation framework for assessing adversarial examples in nlp",
+            "content": "elephant in the room an evaluation framework for assessing adversarial examples in nlp abstract an adversarial example is an input transformed by small",
+            "url": "http://ui.adsabs.harvard.edu/abs/2020arXiv200107820X/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "multitask pairwise neural ranking for hashtag segmentation",
+            "content": "m maddela cytowane przez 18 we propose a multitask pairwise neural ranking approach to better incorporate and distinguish the relative order between the candidate segmenta tions of a",
+            "url": "https://cocoxu.github.io/publications/ACL2019_HashtagMaster.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "zuco 20 a dataset of physiological recordings during natural reading and annotation",
+            "content": "we recorded and preprocessed zuco 20 a new dataset of simultaneous eyetracking and electroencephalography during natural reading and during annotation",
+            "url": "https://www.research-collection.ethz.ch/handle/20.500.11850/464814",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "learning autocomplete systems as a communication game",
+            "content": "by m lee learning autocomplete systems as a communication game minalee thashim pliangstanfordedu mina lee tatsunori hashimoto percy liang task approach",
+            "url": "https://cs.stanford.edu/~minalee/pdf/emecom2019-autocomplete-poster.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "ensemble based discriminative models for visual dialog challenge 2018",
+            "content": "this manuscript describes our approach for the visual dialog challenge 2018 we use an ensemble of three discriminative models with different encoders and",
+            "url": "https://ui.adsabs.harvard.edu/abs/2020arXiv200105865A/abstract",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "ensemble based discriminative models for visual dialog challenge 2018",
+            "content": "this manuscript describes our approach for the visual dialog challenge 2018 we use an ensemble of three discriminative models with",
+            "url": "https://paperswithcode.com/paper/ensemble-based-discriminative-models-for",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "ensemble based discriminative models for visual dialog challenge 2018",
+            "content": "this manuscript describes the approach for the visual dialog challenge 2018 using an ensemble of three discriminative models with different encoders and",
+            "url": "https://www.semanticscholar.org/paper/Ensemble-based-discriminative-models-for-Visual-Agarwal-Goyal/4f9d6f092cce26c22404579157912973d71ec44e",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "ensemble based discriminative models for visual dialog challenge 2018",
+            "content": "shubham agarwal raghav goyal ensemble based discriminative models for visual dialog challenge 2018 corr abs200105865 2020 manage site settings",
+            "url": "https://dblp.org/rec/journals/corr/abs-2001-05865.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "ensemble based discriminative models for visual dialog challenge 2018",
+            "content": "abstractthis manuscript describes our approach for the visual dialog challenge 2018 we use an ensemble of three discriminative models with different",
+            "url": "https://www.catalyzex.com/paper/ensemble-based-discriminative-models-for",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "ensemble based discriminative models for visual dialog challenge 2018",
+            "content": "2024 ensemble based discriminative models for visual dialog challenge 2018 s agarwal r goyal visual dialog challenge 2018 2019 1 2019 llms for",
+            "url": "https://scholar.google.fr/citations?user=aSMFGScAAAAJ&hl=en",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "ensemble based discriminative models for visual dialog challenge 2018",
+            "content": "ensemble based discriminative models for visual dialog challenge 2018 s agarwal r goyal visual dialog challenge 2018 2019 1 2019 llms for literature",
+            "url": "https://scholar.google.com/citations?user=aSMFGScAAAAJ&hl=it",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "towards a continuous knowledge learning engine for chatbots",
+            "content": "this paper proposes to build a general knowledge learning engine for chatbots to enable them to continuously and interactively learn new knowledge during",
+            "url": "https://www.semanticscholar.org/paper/Towards-a-Continuous-Knowledge-Learning-Engine-for-Mazumder-Ma/4f31257b8ea4fa4c8f049693cfe2f71ee9c8475a",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "towards a continuous knowledge learning engine for chatbots",
+            "content": "in this paper we propose to build a general knowledge learning engine for chatbots to enable them to continuously and interactively learn new knowledge during",
+            "url": "https://ui.adsabs.harvard.edu/abs/2018arXiv180206024M/abstract",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "towards a continuous knowledge learning engine for chatbots",
+            "content": "in this paper we propose to build a general knowledge learning engine for chatbots to enable them to continuously and interactively learn new knowledge during",
+            "url": "https://www.thejournal.club/c/paper/144598/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "towards a continuous knowledge learning engine for chatbots",
+            "content": "in this paper we propose to build a general knowledge learning engine for chatbots to enable them to continuously and interactively learn new knowledge during",
+            "url": "https://paperswithcode.com/paper/towards-a-continuous-knowledge-learning",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "towards a continuous knowledge learning engine for chatbots",
+            "content": "in this paper we propose to build a general knowledge learning engine for chatbots to enable them to continuously and interactively learn new knowledge during",
+            "url": "https://deepai.org/publication/towards-a-continuous-knowledge-learning-engine-for-chatbots",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "towards a continuous knowledge learning engine for chatbots",
+            "content": "sahisnu mazumder nianzu ma bing liu towards a continuous knowledge learning engine for chatbots corr abs180206024 2018 manage site settings",
+            "url": "https://dblp.dagstuhl.de/rec/html/journals/corr/abs-1802-06024",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "dice loss for dataimbalanced nlp tasks",
+            "content": "this paper proposes to use dice loss in replacement of the standard crossentropy objective for dataimbalanced nlp tasks based on the sørensendice",
+            "url": "https://www.semanticscholar.org/paper/Dice-Loss-for-Data-imbalanced-NLP-Tasks-Li-Sun/5487dadb5b4b8b240ab4ae28705acc0b9f138db0",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "dice loss for dataimbalanced nlp tasks",
+            "content": "in this paper we propose to use dice loss in replacement of the standard crossentropy objective for dataimbalanced nlp tasks dice loss is based on the",
+            "url": "https://paperswithcode.com/paper/dice-loss-for-data-imbalanced-nlp-tasks",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "dice loss for dataimbalanced nlp tasks",
+            "content": "in this paper we propose to use dice loss in replacement of the standard crossentropy objective for dataimbalanced nlp tasks dice loss is based on the",
+            "url": "https://paperswithcode.com/paper/dice-loss-for-data-imbalanced-nlp-tasks/review/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "dice loss for dataimbalanced nlp tasks",
+            "content": "in this paper we propose to use dice loss in replacement of the standard crossentropy objective for dataimbalanced nlp tasks dice loss is based on the",
+            "url": "https://ui.adsabs.harvard.edu/abs/2019arXiv191102855L/abstract",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "a corpus for automatic readability assessment and text simplification of german",
+            "content": "in this paper we present a corpus for use in automatic readability assessment and automatic text simplification of german the corpus is compiled from web",
+            "url": "https://ui.adsabs.harvard.edu/abs/arXiv:1909.09067",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "a corpus for automatic readability assessment and text simplification of german",
+            "content": "in this paper we present a corpus for use in automatic readability assessment and automatic text simplification of german the corpus is compiled from web",
+            "url": "https://paperswithcode.com/paper/a-corpus-for-automatic-readability-assessment",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "a corpus for automatic readability assessment and text simplification of german",
+            "content": "abstract in this paper we present a corpus for use in automatic readability assessment and automatic text simplification for german",
+            "url": "https://www.zora.uzh.ch/id/eprint/192839/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "a corpus for automatic readability assessment and text simplification of german",
+            "content": "a corpus for use in automatic readability assessment and automatic text simplification for german the first of its kind for this language",
+            "url": "https://www.semanticscholar.org/paper/A-Corpus-for-Automatic-Readability-Assessment-and-Battisti-Ebling/20cf48ee5baaccf1ebda175342f1265cb268cf0d",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "gluoncv and gluonnlp deep learning in computer vision and natural language processing",
+            "content": "we present gluoncv and gluonnlp the deep learning toolkits for computer vision and natural language processing based on apache mxnet incubating",
+            "url": "https://jmlr.org/papers/v21/19-429.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "gluoncv and gluonnlp deep learning in computer vision and natural language processing",
+            "content": "abstract we present gluoncv and gluonnlp the deep learning toolkits for computer vision and natural language processing based on apache mxnet incubating 7 stron",
+            "url": "https://szhengac.github.io/papers/jmlr2020.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "gluoncv and gluonnlp deep learning in computer vision and natural language processing",
+            "content": "we present gluoncv and gluonnlp the deep learning toolkits for computer vision and natural language processing based on apache mxnet incubating",
+            "url": "https://dl.acm.org/doi/abs/10.5555/3455716.3455739",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "gluoncv and gluonnlp deep learning in computer vision and natural language processing",
+            "content": "abstract we present gluoncv and gluonnlp the deep learning toolkits for computer vision and natural language processing based on apache mxnet incubating",
+            "url": "https://jmlr.org/beta/papers/v21/19-429.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "gluoncv and gluonnlp deep learning in computer vision and natural language processing",
+            "content": "we present gluoncv and gluonnlp the deep learning toolkits for computer vision and natural language processing based on apache mxnet incubating",
+            "url": "https://dl.acm.org/doi/10.5555/3455716.3455739",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "gluoncv and gluonnlp deep learning in computer vision and natural language processing",
+            "content": "we present gluoncv and gluonnlp the deep learning toolkits for computer vision and natural language processing based on apache mxnet incubating",
+            "url": "http://ui.adsabs.harvard.edu/abs/2019arXiv190704433G/abstract",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "gluoncv and gluonnlp deep learning in computer vision and natural language processing",
+            "content": "gluoncv and gluonnlp the deep learning toolkits for computer vision and natural language processing based on apache mxnet provide stateoftheart",
+            "url": "https://www.semanticscholar.org/paper/2733574d40ce8e861d7d658bfc33ab36f529864d",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 22,
+            "query": "towards a continuous knowledge learning engine for chatbots",
+            "content": "one major weakness is that they conversation in this paper we propose to build a general knowledge learning engine for chatbots to enable them to continuously and interactively learn new knowledge during conversations",
+            "url": "https://deepai.org/publication/towards-a-continuous-knowledge-learning-engine-for-chatbots",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 24,
+            "query": "dice loss for dataimbalanced nlp tasks",
+            "content": "this paper proposes to use dice loss in replacement of the standard crossentropy objective for dataimbalanced nlp tasks based on the sørensendice coefficient or tversky index which attaches similar importance to false positives and false negatives and is more immune to the dataimbalance",
+            "url": "https://www.semanticscholar.org/paper/Dice-Loss-for-Data-imbalanced-NLP-Tasks-Li-Sun/185e7d2a761594451b02ace240356dadad2aef78",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 25,
+            "query": "dice loss for dataimbalanced nlp tasks",
+            "content": "request pdf dice loss for dataimbalanced nlp tasks many nlp tasks such as tagging and machine reading comprehension are faced with the severe data imbalance issue negative examples significantly find read and cite all the research you need on researchgate",
+            "url": "https://www.researchgate.net/publication/337158198_Dice_Loss_for_Data-imbalanced_NLP_Tasks",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 26,
+            "query": "dice loss for dataimbalanced nlp tasks",
+            "content": "the most commonly used cross entropy concerns more about positive examples in this paper we propose to use dice loss in replacement of the standard crossentropy objective for dataimbalanced nlp tasks",
+            "url": "https://www.semion.io/doc/dice-loss-for-data-imbalanced-nlp-tasks",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 27,
+            "query": "dice loss for dataimbalanced nlp tasks",
+            "content": "bibliographic details on dice loss for dataimbalanced nlp tasks",
+            "url": "https://dblp.org/rec/conf/acl/LiSMLWL20.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 29,
+            "query": "dice loss for dataimbalanced nlp tasks",
+            "content": "a paper titled dice loss for dataimbalanced nlp tasks was released in this yearx27s acl but other than this i havenx27t really come across anything recent",
+            "url": "https://www.reddit.com/r/LanguageTechnology/comments/jz7x70/anyone_seen_work_related_to_data_imbalance_in_nlp/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 23,
+            "query": "a corpus for automatic readability assessment and text simplification of german",
+            "content": "request pdf a corpus for automatic readability assessment and text simplification of german in this paper we present a corpus for use in automatic readability assessment and automatic text simplification for german the corpus is find read and cite all the research you need on",
+            "url": "https://www.researchgate.net/publication/346559051_A_Corpus_for_Automatic_Readability_Assessment_and_Text_Simplification_of_German",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 24,
+            "query": "a corpus for automatic readability assessment and text simplification of german",
+            "content": "in this paper we present a corpus for use in automatic readability assessment and automatic text simplification of german the corpus is compiled from web sources and consists of approximately 211000 sentences",
+            "url": "https://paperswithcode.com/paper/a-corpus-for-automatic-readability-assessment",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 25,
+            "query": "a corpus for automatic readability assessment and text simplification of german",
+            "content": "in this paper we present a corpus for use in automatic readability assessment and automatic text simplification of german the corpus is compiled from web sources and consists of approximately 211000 sentences",
+            "url": "https://deepai.org/publication/a-corpus-for-automatic-readability-assessment-and-text-simplification-of-german",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 22,
+            "query": "gluoncv and gluonnlp deep learning in computer vision and natural language processing",
+            "content": "we present gluoncv and gluonnlp the deep learning toolkits for computer vision and natural language processing based on apache mxnet incubating these toolkits provide stateoftheart pretrained models training scripts and training logs to facilitate rapid prototyping and promote",
+            "url": "https://jmlr.org/papers/v21/19-429.html",
+            "engine": "braveAPI"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 4,
+            "query": "identifying dogmatism in social media signals and models",
+            "content": "we explore linguistic and behavioral features of dogmatism in social media and construct statistical models that can identify dogmatic comments",
+            "url": "https://ui.adsabs.harvard.edu/abs/2016arXiv160900425F/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "improving the performance of neural machine translation involving morphologically rich languages",
+            "content": "the efficiencies of translation using bidirectional encoder attention decoder models were studied with respect to translation involving morphologically rich",
+            "url": "https://www.semanticscholar.org/paper/Improving-the-Performance-of-Neural-Machine-Rich-Krupakar-Milton/6d7fc4242dcb7954863b8bf77398264f8418a5b3",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "tabletotext generation with effective hierarchical encoder on three dimensions row column and time",
+            "content": "we develop a table cell fusion gate to combine representations from row column and time dimension into one dense vector according to the saliency of each",
+            "url": "https://paperswithcode.com/paper/table-to-text-generation-with-effective",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a bertbased transfer learning approach for hate speech detection in online social media",
+            "content": "in this study we introduce a novel transfer learning approach based on an existing pretrained language model called bert bidirectional encoder",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-030-36687-2_77",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "resolving the scope of speculation and negation using transformerbased architectures",
+            "content": "in this paper we apply three popular transformerbased architectures bert xlnet and roberta to this task on two publicly available datasets bioscope corpus",
+            "url": "https://scispace.com/papers/resolving-the-scope-of-speculation-and-negation-using-3og25apqsd",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "learning data manipulation for augmentation and weighting",
+            "content": "in this work we propose a new method that supports learning different manipulation schemes with the same gradientbased algorithm",
+            "url": "https://papers.nips.cc/paper/9706-learning-data-manipulation-for-augmentation-and-weighting",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "emotionxidea emotion bert an affectional model for conversation",
+            "content": "in this paper we investigate the emotion recognition ability of the pretraining language model namely bert by the nature of the framework of bert",
+            "url": "https://ui.adsabs.harvard.edu/abs/2019arXiv190806264H/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "massively multilingual neural graphemetophoneme conversion",
+            "content": "graphemetophoneme conversion g2p is necessary for texttospeech and automatic speech recognition systems most g2p systems are monolingual they",
+            "url": "https://paperswithcode.com/paper/massively-multilingual-neural-grapheme-to",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "how to avoid being eaten by a grue exploration strategies for textadventure agents",
+            "content": "p ammanabrolu cytowane przez 12 we compare our exploration strategies against strong baselines on the classic textadventure game zork1 where prior agents have been unable to get past a",
+            "url": "https://kbrl.github.io/papers/03-KBRL.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "a bayesian model of multilingual unsupervised semantic role induction",
+            "content": "we introduce two bayesian models for un supervised semantic role labeling srl task the models treat srl as clustering",
+            "url": "https://dl.acm.org/doi/pdf/10.5555/2380816.2380821",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "gender representation in french broadcast corpora and its impact on asr performance",
+            "content": "this paper analyzes the gender representation in four major corpora of french broadcast these corpora being widely used within the speech processing",
+            "url": "https://dl.acm.org/doi/10.1145/3347449.3357480",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "grammatical error correction and style transfer via zeroshot monolingual translation",
+            "content": "both grammatical error correction and text style transfer can be viewed as monolingual sequencetosequence transformation tasks",
+            "url": "https://paperswithcode.com/paper/grammatical-error-correction-and-style",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "integrating boundary assembling into a dnn framework for named entity recognition in chinese social media text",
+            "content": "this paper integrates a boundary assembling method with the stateoftheart deep neural network model and incorporates the updated word boundary",
+            "url": "https://www.semanticscholar.org/paper/Integrating-Boundary-Assembling-into-a-DNN-for-in-Gong-Chen/f6054aa1d646ff26a10881c21aca21d424ace757",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "symmetric regularization based bert for pairwise semantic reasoning",
+            "content": "this simple method yields remarkable improvement against vanilla bert our method consistently improves the performance on the nli and mrc benchmarks by a",
+            "url": "https://dl.acm.org/doi/10.1145/3397271.3401309",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "abstractive summarization for low resource data using domain transfer and data synthesis",
+            "content": "in this paper we explore using domain transfer and data synthesis to improve the performance of recent abstrac tive summarization methods when applied to small 6 stron",
+            "url": "https://cdn.aaai.org/ocs/18441/18441-79380-1-PB.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "an evaluation dataset for intent classification and outofscope prediction",
+            "content": "we introduce a new dataset that includes queries that are outofscopeie queries that do not fall into any of the systems supported intents",
+            "url": "https://paperswithcode.com/paper/an-evaluation-dataset-for-intent",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "entity commonsense representation for neural abstractive summarization",
+            "content": "rk amplayo cytowane przez 50 e2t is a module that can be easily attached to any sequencetosequence based summarization model the module encodes the entities extracted from the original 11 stron",
+            "url": "https://rktamplayo.github.io/publications/naacl18.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "improving neural text simplification model with simplified corpora",
+            "content": "targetside simplified sentences plays an important role in boosting fluency for statistical ts and we investigate the use of simplified sentences to train",
+            "url": "https://ui.adsabs.harvard.edu/abs/arXiv:1810.04428",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a novel approach for effective learning in low resourced scenarios",
+            "content": "in this paper we propose a novel framework called simultaneous two sample learning s2sl to effectively learn the class discriminative characteristics even",
+            "url": "https://ui.adsabs.harvard.edu/abs/2017arXiv171205608H/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "language use matters analysis of the linguistic structure of question texts can characterize answerability in quora",
+            "content": "our central finding is that the way users use language while writing the question text can be a very effective means to characterize answerability this",
+            "url": "https://cdn.aaai.org/ojs/14947/14947-28-18466-1-2-20201228.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "covost a diverse multilingual speechtotext translation corpus",
+            "content": "a largescale multilingual st corpus covering translations from 21 languages into english and from english into 15 languages",
+            "url": "https://www.isca-archive.org/interspeech_2021/wang21s_interspeech.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "trouble on the horizon forecasting the derailment of online conversations as they develop",
+            "content": "online discussions often derail into toxic exchanges between participants recent efforts mostly focused on detecting antisocial behavior after the fact",
+            "url": "https://paperswithcode.com/paper/trouble-on-the-horizon-forecasting-the",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "multipurpose intelligent process automation via conversational assistant",
+            "content": "in this work we tackle a challenge of implementing an ipa conversational assistant in a realworld industrial setting with a lack of structured training data",
+            "url": "http://ui.adsabs.harvard.edu/abs/2020arXiv200102284M/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "zeroshot reading comprehension by crosslingual transfer learning with multilingual language representation model",
+            "content": "in this paper we systematically explore zeroshot crosslingual transfer learning on reading comprehension tasks with a language representation model pre",
+            "url": "https://ui.adsabs.harvard.edu/abs/2019arXiv190909587H/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "to swap or not to swap exploiting dependency word pairs for reordering in statistical machine translation",
+            "content": "dependency parsing has been used for reordering in sta tistical machine translation smt its usage is wellknown in the preordering approach",
+            "url": "https://cdn.aaai.org/ojs/10386/10386-13-13914-1-2-20201228.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "conversational flow in oxfordstyle debates",
+            "content": "in this work we propose a methodology for tracking how ideas flow between participants throughout a debate we use this approach in a case study of oxfordstyle",
+            "url": "https://ui.adsabs.harvard.edu/abs/2016arXiv160403114Z/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "impact of batch size on stopping active learning for text classification",
+            "content": "we find that large batch sizes degrade the performance of a leading stopping method over and above the degradation that results from reduced learning efficiency",
+            "url": "https://ieeexplore.ieee.org/document/8334482/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "paraphrasesupervised models of compositionality",
+            "content": "compositional vector space models of meaning promise new solutions to stubborn language understanding problems this paper makes two contributions toward",
+            "url": "https://ui.adsabs.harvard.edu/abs/arXiv:1801.10293",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "cellaware stacked lstms for modeling sentences",
+            "content": "the suggested architecture accepts both hidden and memory cell states of the preceding layer and fuses information from the left and the",
+            "url": "https://www.semanticscholar.org/paper/Cell-aware-Stacked-LSTMs-for-Modeling-Sentences-Choi-Kim/249b3b7421d3cdb932eecfe4b67203e0e46806b2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "ug18 at semeval2018 task 1 generating additional training data for predicting emotion intensity in spanish",
+            "content": "the present study describes our submission to semeval 2018 task 1 affect in tweets our spanishonly approach aimed to demonstrate that it is beneficial to",
+            "url": "https://paperswithcode.com/paper/ug18-at-semeval-2018-task-1-generating",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "distinguishing antonyms and synonyms in a patternbased neural network",
+            "content": "ka nguyen cytowane przez 67 in this paper we present a novel pattern based neural method antsynnet to distinguish antonyms from synonyms we hypothesize that antonymous word pairs co 10 stron",
+            "url": "https://www.ims.uni-stuttgart.de/documents/ressourcen/experiment-daten/antonym-synonym-dataset/ant_syn_net.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "combating adversarial misspellings with robust word recognition",
+            "content": "d pruthi cytowane przez 360 our word recognition models build upon the rnn semi character architecture introducing several new backoff strategies for handling rare and un seen words10 stron",
+            "url": "https://users.cs.duke.edu/~bd149/papers/misspell.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "named entity recognition for nepali language",
+            "content": "we discuss and compare the performance of various machine learning models on this dataset we also propose a novel ner scheme for nepali and show that this",
+            "url": "https://ieeexplore.ieee.org/document/8998477",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "arabic offensive language on twitter analysis and experiments",
+            "content": "in this paper we focus on building a large arabic offensive tweet dataset we introduce a method for building a dataset that is not biased by topic dialect",
+            "url": "http://ui.adsabs.harvard.edu/abs/2020arXiv200402192M/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "applying a pretrained language model to spanish twitter humor prediction",
+            "content": "thus building a system to classify the humor of tweets is a difficult task however with transferlearning and the fastai library6 we can build a high",
+            "url": "https://ceurspt.wikidata.dbis.rwth-aachen.de/Vol-2421/HAHA_paper_5.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "characterizing political fake news in twitter by its metadata",
+            "content": "this article presents a preliminary approach towards characterizing political fake news on twitter through the analysis of their metadata",
+            "url": "http://ui.adsabs.harvard.edu/abs/2017arXiv171205999A/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "querybased attention cnn for text similarity map",
+            "content": "in this paper we propose a novel positional convolution neural matching model that holds positional influence and interaction in multiple perspectives for",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0950705119300371",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "identification of indian languages using ghostvlad pooling",
+            "content": "in this work we propose a new pooling strategy for language identification by considering indian languages the idea is to obtain utterance level features",
+            "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2002.01664",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "finegrained named entity recognition using elmo and wikidata",
+            "content": "finegrained named entity recognition is a task whereby we detect and classify entity mentions to a large set of types these types can span diverse domains",
+            "url": "https://ui.adsabs.harvard.edu/abs/2019arXiv190410503D/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "learning concept embeddings for efficient bagofconcepts densification",
+            "content": "the idea is to embed textual structures into a semantic space of concepts which captures the main ideas objects and the characteristics of these structures",
+            "url": "https://paperswithcode.com/paper/learning-concept-embeddings-for-efficient-bag/review/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "adaptively sparse transformers",
+            "content": "our adaptively sparse transformer improves interpretability and head diversity when compared to softmax transformers on machine translation datasets findings",
+            "url": "https://paperswithcode.com/paper/adaptively-sparse-transformers",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "ancientmodern chinese translation with a large training dataset",
+            "content": "in this article we propose an ancientmodern chinese clause alignment approach based on the characteristics of these two languages",
+            "url": "https://dl.acm.org/doi/10.1145/3325887",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "handling divergent reference texts when evaluating tabletotext generation",
+            "content": "b dhingra cytowane przez 206 we show that metrics which rely solely on the reference texts such as bleu and rouge show poor correlation with human judgments when those references diverge",
+            "url": "https://research.google/pubs/handling-divergent-reference-texts-when-evaluating-table-to-text-generation/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "mining supervisor evaluation and peer feedback in performance appraisals",
+            "content": "a pa process involves purposeful multistep multimodal communication between employees their supervisors and their peers such as self",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-319-77116-8_47",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "attentionbased wav2text with feature transfer learning",
+            "content": "in this paper we construct the first endtoend attentionbased encoderdecoder model to process directly from raw speech waveform to the text transcription",
+            "url": "http://ieeexplore.ieee.org/document/8268951/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "evaluating tag recommendations for ebook annotation using a semantic similarity metric",
+            "content": "in this paper we present our work to support publishers and editors in finding descriptive tags for ebooks through tag recommendations",
+            "url": "https://graz.elsevierpure.com/en/publications/evaluating-tag-recommendations-for-ebook-annotation-using-a-semantic-similarity-metrik(06d5a3d7-ddb4-424c-bb9c-f12d6af6c13e).html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "combining recurrent and convolutional neural networks for relation classification",
+            "content": "this paper investigates two different neural architectures for the task of relation classification convolutional neural networks and recurrent neural",
+            "url": "https://ui.adsabs.harvard.edu/abs/arXiv:1605.07333",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "identifying radiological findings related to covid19 from medical literature",
+            "content": "ground glass opacities ggos and consolidation with bilateral and peripheral distribution have been reported as the most common ct findings but less typical",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8771018/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "winograd schemas and machine translation",
+            "content": "this paper discusses how winograd schemas and other sentence pairs could be used as challenges for machine translation using distinctions 6 stron",
+            "url": "https://teaching.bb-ai.net/Student-Projects/Winograd-Challenge-Papers/Davis2016-wgs%2Bmachine-traslation.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "robust named entity recognition in idiosyncratic domains",
+            "content": "this work proposes a generic and robust approach for highrecall named entity recognition that is easy to train and offers strong generalization over diverse",
+            "url": "https://www.semanticscholar.org/paper/Robust-Named-Entity-Recognition-in-Idiosyncratic-Arnold-Gers/2679dbc4682b434ab5071f2c68b76a06954b96c0",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "exploiting outofdomain parallel data through multilingual transfer learning for lowresource neural machine translation",
+            "content": "this paper proposes a novel multilingual multistage finetuning approach for lowresource neural machine translation nmt taking a challenging japanese",
+            "url": "https://paperswithcode.com/paper/exploiting-out-of-domain-parallel-data",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "automated news suggestions for populating wikipedia entity pages",
+            "content": "we propose a twostage supervised approach for suggesting news articles to entity pages for a given state of wikipedia first we suggest news articles to",
+            "url": "https://dl.acm.org/doi/10.1145/2806416.2806531",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "robustly leveraging prior knowledge in text classification",
+            "content": "this paper proposes three regularization terms on top of generalized expectation criteria and conducts extensive experiments to justify the robustness of",
+            "url": "https://www.semanticscholar.org/paper/Robustly-Leveraging-Prior-Knowledge-in-Text-Liu-Huang/4c3c47ac37cd1c50ea1ee9e09bb2ab7e046cf698",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "incorporating subword information into matrix factorization word embeddings",
+            "content": "the positive effect of adding subword information to word embeddings has been demonstrated for predictive models in this paper we investigate whether",
+            "url": "https://paperswithcode.com/paper/incorporating-subword-information-into-matrix",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "arabic diacritic recovery using a featurerich bilstm model",
+            "content": "in this article we use featurerich recurrent neural network model that use a variety of linguistic and surfacelevel features to recover both core word",
+            "url": "https://dl.acm.org/doi/10.1145/3434235",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "follow alice into the rabbit hole giving dialogue agents understanding of human level attributes",
+            "content": "we propose human level attributes hlas based on tropes as the basis of a method for learning dialogue agents that can imitate the personalities of fictional",
+            "url": "https://deepai.org/publication/follow-alice-into-the-rabbit-hole-giving-dialogue-agents-understanding-of-human-level-attributes",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "structured embedding models for grouped data",
+            "content": "here we develop structured exponential family embeddings sefe a method for discovering embeddings that vary across related groups of data",
+            "url": "https://papers.nips.cc/paper/6629-structured-embedding-models-for-grouped-data",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "extreme language model compression with optimal subwords and shared projections",
+            "content": "specifically we employ a dualtraining mechanism that trains the teacher and student mod els simultaneously to obtain optimal word embeddings for the student",
+            "url": "https://scispace.com/pdf/extreme-language-model-compression-with-optimal-subwords-and-342rpb3j7r.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "contextualize show and tell a neural visual storyteller",
+            "content": "d gonzalezrico 2018 cytowane przez 40 we present a neural model for generating short stories from image sequences which extends the image description model by vinyals et al",
+            "url": "http://ui.adsabs.harvard.edu/abs/2018arXiv180600738G/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "attentionbased method for categorizing different types of online harassment language",
+            "content": "in this work we present an multiattention based approach for the detection of different types of harassment in tweets our approach is based on the recurrent",
+            "url": "https://ui.adsabs.harvard.edu/abs/arXiv:1909.13104",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a neural approach to irony generation",
+            "content": "ironies can not only express stronger emotions but also show a sense of humor with the development of social media ironies are widely used in public",
+            "url": "https://ui.adsabs.harvard.edu/abs/2019arXiv190906200Z/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "explicit utilization of general knowledge in machine reading comprehension",
+            "content": "to bridge the gap between machine reading comprehension mrc models and human beings which is mainly reflected in the hunger for data and the robustness",
+            "url": "https://ui.adsabs.harvard.edu/abs/2018arXiv180903449W/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "tweetqa a social media focused question answering dataset",
+            "content": "we present the first largescale dataset for qa over social media data to make the tweets are meaningful and contain interesting information we gather tweets",
+            "url": "https://tweetqa.github.io/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on the effectiveness of feature set augmentation using clusters of word embeddings",
+            "content": "g balikas cytowane przez 3 word clusters have been empirically shown to offer important performance improve ments on various natural language process ing nlp tasks",
+            "url": "https://ceur-ws.org/Vol-2226/paper3.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "multimodal named entity recognition for short social media posts",
+            "content": "abstract we introduce a new task called multimodal named entity recognition mner for noisy usergenerated data such as tweets or snapchat captions",
+            "url": "https://research.snap.com/publications/multimodal-named-entity-recognition-for-short-social-media-posts.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "a resource for computational experiments on mapudungun",
+            "content": "142 hours of conversations in mapudungun fully transcribed and translated in spanishtraining development and test splits are provided for speech synthesis",
+            "url": "https://live.european-language-grid.eu/catalogue/corpus/5308",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "unsupervised learning of syntactic structure with invertible neural projections",
+            "content": "a novel generative model is proposed that jointly learns discrete syntactic structure and continuous word representations in an unsupervised fashion by",
+            "url": "https://www.semanticscholar.org/paper/Unsupervised-Learning-of-Syntactic-Structure-with-He-Neubig/a03675379685d88c727bc985a323cc71d06f2514",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "adversarial learning for chinese ner from crowd annotations",
+            "content": "to quickly obtain new labeled data we can choose crowdsourcing as an alternative way at lower cost in a short time but as an exchange",
+            "url": "https://core.ac.uk/works/47141689/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "named entities in medical case reports corpus and experiments",
+            "content": "by s schulz abstract we present a new corpus comprising annotations of medical entities in case reports originating from pubmed centrals open access library",
+            "url": "https://ostendorff.org/assets/pdf/schulz2020.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a portuguese native language identification dataset",
+            "content": "the dataset includes 1868 student essays written by learners of european portuguese native speakers of the following l1s chinese english spanish german",
+            "url": "https://paperswithcode.com/paper/a-portuguese-native-language-identification",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "automatic judgment prediction via legal reading comprehension",
+            "content": "automatic judgment prediction is to train a machine judge to determine whether a certain plea in a given civil case would be supported or rejected",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-030-32381-3_45",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "multisimlex a largescale evaluation of multilingual and crosslingual lexical semantic similarity",
+            "content": "we introduce multisimlex a largescale lexical resource and evaluation benchmark covering datasets for 12 typologically diverse languages including major 46 stron",
+            "url": "https://multisimlex.com/Multi-SimLex-Paper.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "polyresponse a rankbased approach to taskoriented dialogue with application in restaurant search and booking",
+            "content": "we present polyresponse a conversational search engine that supports taskoriented dialogue it is a retrievalbased approach that bypasses the complex",
+            "url": "https://ui.adsabs.harvard.edu/abs/arXiv:1909.01296",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "stereotyping and bias in the flickr30k dataset",
+            "content": "e van miltenburg cytowane przez 114 this paper presents some evidence against this assumption and provides a list of biases and unwarranted inferences that can be found in the flickr30k dataset5 stron",
+            "url": "https://pure.uvt.nl/ws/files/27962110/stereotyping.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "stance detection in turkish tweets",
+            "content": "by d küçük in this paper we present a stance detection tweet data set for turkish comprising stance annotations of these tweets for two popular sports clubs as targets",
+            "url": "https://ceur-ws.org/Vol-1914/SIDEWAYS17-7.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "humor detection in englishhindi codemixed social media content corpus and baseline system",
+            "content": "a khandelwal cytowane przez 53 in this paper we analyze the task of humor detection in texts and describe a freely available corpus containing englishhindi codemixed tweets annotated with 5 stron",
+            "url": "http://www.lrec-conf.org/proceedings/lrec2018/pdf/363.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "natural language generation for spoken dialogue system using rnn encoderdecoder networks",
+            "content": "this paper presents a recurrent neural network based encoderdecoder architecture in which an lstmbased decoder is introduced to select aggregate semantic",
+            "url": "https://paperswithcode.com/paper/natural-language-generation-for-spoken",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "addressing wordorder divergence in multilingual neural machine translation for extremely low resource languages",
+            "content": "this work proposes to preorder the assisting language sentences to match the word order of the source language and train the parent model which leads to",
+            "url": "https://www.semanticscholar.org/paper/Addressing-word-order-Divergence-in-Multilingual-Murthy-Kunchukuttan/4e03c864b2916e366b5e5e1cdf4d6ee8e95b6ead",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "conflict as an inverse of attention in sequence relationship",
+            "content": "we propose an conflict model which is very similar to how attention works but which emphasizes mostly on how well two sequences repel each other and finally",
+            "url": "https://ui.adsabs.harvard.edu/abs/arXiv:1906.08593",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "automatic discourse segmentation an evaluation in french",
+            "content": "in this article we describe some discursive segmentation methods as well as a preliminary evaluation of the segmentation quality",
+            "url": "http://ui.adsabs.harvard.edu/abs/2020arXiv200204095S/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "imparting interpretability to word embeddings while preserving semantic structure",
+            "content": "we introduce an additive modification to the objective function of the embedding learning algorithm that encourages the embedding vectors of words that are",
+            "url": "https://repository.bilkent.edu.tr/bitstreams/a38cd1cb-5512-4903-aef7-eff59e2974b2/download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a framework for the computational linguistic analysis of dehumanization",
+            "content": "we create a computational linguistic framework for analyzing dehumanizing language by identifying linguistic correlates of salient components of dehumanization",
+            "url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2020.00055/full",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "bringing structure into summaries crowdsourcing a benchmark corpus of concept maps",
+            "content": "concept maps can be used to concisely represent important information and bring structure into large document collections therefore we study a variant of",
+            "url": "https://scispace.com/pdf/bringing-structure-into-summaries-crowdsourcing-a-benchmark-47zat8o8ml.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "learning multisense word distributions using approximate kullbackleibler divergence",
+            "content": "we propose to learn the gaussian mixture representation of words using a kullbackleibler kl divergence based objective function",
+            "url": "https://dl.acm.org/doi/10.1145/3430984.3431043",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "predicting annotation difficulty to improve task routing and model performance for biomedical information extraction",
+            "content": "in this paper we demonstrate that directly modeling instance difficulty can be used to improve model performance and to route instances to appropriate",
+            "url": "https://paperswithcode.com/paper/predicting-annotation-difficulty-to-improve",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "sparse and constrained attention for neural machine translation",
+            "content": "in nmt words are sometimes dropped from the source or generated repeatedly in the translation we explore novel strategies to address the coverage problem",
+            "url": "https://paperswithcode.com/paper/sparse-and-constrained-attention-for-neural",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "dolores deep contextualized knowledge graph embeddings",
+            "content": "h wang cytowane przez 39 abstract we introduce dolores a new knowledge graph embeddings that effectively captures contextual cues and dependencies among entities and relations",
+            "url": "https://www.akbc.ws/2020/assets/pdfs/ajrveGQBl0.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "shallow syntax in deep water",
+            "content": "shallow syntax provides an approximation of phrasesyntactic structure of sentences it can be produced with high accuracy and is computationally cheap to",
+            "url": "https://ui.adsabs.harvard.edu/abs/2019arXiv190811047S/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "semisupervised thai sentence segmentation using local and distant word representations",
+            "content": "first we integrate ngram embedding as a local representation to capture word groups near sentence boundaries second to focus on the keywords",
+            "url": "https://engj.org/index.php/ej/article/view/4319",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "compound probabilistic contextfree grammars for grammar induction",
+            "content": "a probabilistic contextfree grammar pcfg is one model that will give a joint distribution over strings in x and contextfree derivations t",
+            "url": "https://medium.com/@ryancotterell/a-review-of-compound-probabilistic-context-free-grammars-for-grammar-induction-2cd24ad060cf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "step sequencetosequence transformer pretraining for document summarization",
+            "content": "this paper introduces a novel documentlevel encoder based on bert which is able to express the semantics of a document and obtain representations for its",
+            "url": "https://www.semanticscholar.org/paper/STEP%3A-Sequence-to-Sequence-Transformer-Pre-training-Zou-Zhang/1490766edf4dbbd5ae4c21566ecd98fe9e6228bb",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a matter of words nlp for quality evaluation of wikipedia medical articles",
+            "content": "we rely on natural language processing nlp and dictionariesbased techniques in order to extract the biomedical concepts in a text we prove the",
+            "url": "https://ui.adsabs.harvard.edu/abs/arXiv:1603.01987",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "offensive language detection a comparative analysis",
+            "content": "the current work focuses on detecting offensive language in english tweets the dataset used for the experiment is obtained from semeval2019 task 6 on",
+            "url": "https://www.amrita.edu/publication/offensive-language-detection-a-comparative-analysis/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "factweet profiling fake news twitter accounts",
+            "content": "we present an approach to detect fake news in twitter at the account level using a neural recurrent model and a variety of different semantic and stylistic",
+            "url": "https://ui.adsabs.harvard.edu/abs/arXiv:1910.06592",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "knowledge graph representation with jointly structural and textual encoding",
+            "content": "by j xu a good representation of an entity should jointly encode both structure and text information 2 the text description may represent an entity from various as",
+            "url": "https://www.ijcai.org/proceedings/2017/0183.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "mcscript a novel dataset for assessing machine comprehension using script knowledge",
+            "content": "we introduce a large dataset of narrative texts and questions about these texts intended to be used in a machine comprehension task that requires reasoning",
+            "url": "https://paperswithcode.com/paper/mcscript-a-novel-dataset-for-assessing",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "finnish language modeling with deep transformer models",
+            "content": "in this project we investigate the performance of the transformer architecturesbert and transformerxl for the language modeling task we use a subword model",
+            "url": "https://ui.adsabs.harvard.edu/abs/2020arXiv200311562J/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "clickbait sensational headline generation with autotuned reinforcement learning",
+            "content": "in this paper we propose a model that generates sensational headlines without labeled data we first train a sensationalism scorer by classifying online",
+            "url": "https://paperswithcode.com/paper/clickbait-sensational-headline-generation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a biomedical information extraction primer for nlp researchers",
+            "content": "abstract biomedical information extraction is an exciting field at the crossroads of natural language processing biology and medicine",
+            "url": "https://ui.adsabs.harvard.edu/abs/2017arXiv170505437N/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "improving implicit discourse relation classification by modeling interdependencies of discourse units in a paragraph",
+            "content": "with the goal of improving implicit discourse relation classification we introduce a paragraphlevel neural networks that model interdependencies between",
+            "url": "https://ui.adsabs.harvard.edu/abs/2018arXiv180405918D/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "multimodal deep learning for shortterm stock volatility prediction",
+            "content": "this work investigates the interaction between news and prices for the onedayahead volatility prediction using stateoftheart deep learning approaches",
+            "url": "https://www.semanticscholar.org/paper/Multimodal-deep-learning-for-short-term-stock-Sardelich-Manandhar/c8090687fcae3f55dc0dec0c689d4714711c8e09",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "understanding carspeak replacing humans in dealerships",
+            "content": "at the dealership the carbuyer relays their needs to a sales representative however most carbuyers are only have an abstract description of the vehicle",
+            "url": "https://ui.adsabs.harvard.edu/abs/2020arXiv200202070H/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "embracing data abundance booktest dataset for reading comprehension",
+            "content": "this article is making a case for the community to move to larger data and as a step in that direction it is proposing the booktest a new dataset similar to",
+            "url": "https://ui.adsabs.harvard.edu/abs/2016arXiv161000956B/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "deep lstm for large vocabulary continuous speech recognition",
+            "content": "this work introduces a training framework with layerwise training and exponential moving average methods for deeper lstm models",
+            "url": "https://www.semanticscholar.org/paper/Deep-LSTM-for-Large-Vocabulary-Continuous-Speech-Tian-Zhang/7f2b46fa1499d06c1324684fb1f41c0c96969e1a",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "xstance a multilingual multitarget dataset for stance detection",
+            "content": "in this paper we propose a much larger dataset that combines multilinguality and a multitude of topics and targets xstance comprises more than 150 questions 12 stron",
+            "url": "https://ceur-ws.org/Vol-2624/paper9.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a surprising density of illusionable natural speech",
+            "content": "recent work on adversarial examples has demonstrated that most natural inputs can be perturbed to fool even stateoftheart machine learning systems",
+            "url": "https://ui.adsabs.harvard.edu/abs/arXiv:1906.01040",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "why so down the role of negative and positive pointwise mutual information in distributional semantics",
+            "content": "alternative ways of dealing with negative pmi are investigated and the role that negative information plays in the performance of a lowrank",
+            "url": "https://www.semanticscholar.org/paper/Why-So-Down-The-Role-of-Negative-(and-Positive)-in-Salle-Villavicencio/7a45cd2d23cb53f2db2d065a3dbadb7ddaea44b5",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "edinburgh neural machine translation systems for wmt 16",
+            "content": "r sennrich cytowane przez 623 we participated in the wmt 2016 shared news translation task by build ing neural translation systems for four language pairs each trained6 stron",
+            "url": "https://www.statmt.org/wmt16/pdf/W16-2323.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "crowdsourcing for beyond polarity sentiment analysis a pure emotion lexicon",
+            "content": "sentiment analysis aims to uncover emotions conveyed through information in its simplest form it is performed on a polarity basis where the goal is to",
+            "url": "https://ui.adsabs.harvard.edu/abs/arXiv:1710.04203",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "generating word and document embeddings for sentiment analysis",
+            "content": "cr aydın 2019 cytowane przez 9 latent semantic analysis lsa used to be the most popular method in generating word embeddings before the invention of the word2vec and other",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-031-24340-0_23",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "text summarization with pretrained encoders",
+            "content": "in this paper we showcase how bert can be usefully applied in text summarization and propose a general framework for both extractive and abstractive models",
+            "url": "https://paperswithcode.com/paper/text-summarization-with-pretrained-encoders",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "neural architectures for finegrained propaganda detection in news",
+            "content": "to address the tasks of sentence slc and fragment level flc propaganda detection we explore different neural architectures eg cnn lstmcrf and bert",
+            "url": "https://ui.adsabs.harvard.edu/abs/2019arXiv190906162G/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "visual question predicting if a crowd will agree on the answer",
+            "content": "we propose a model crowdverge for automatically predicting from a visual question whether a crowd would agree on one answer",
+            "url": "https://dl.acm.org/doi/10.1145/3025453.3025781",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "pretrainingbased natural language generation for text summarization",
+            "content": "in this paper we propose a novel pretrainingbased encoderdecoder framework which can generate the output sequence based on the input sequence in a",
+            "url": "https://paperswithcode.com/paper/pretraining-based-natural-language-generation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "translation artifacts in crosslingual transfer learning",
+            "content": "in this paper we show that such translation process can introduce subtle artifacts that have a notable impact in existing crosslingual models for instance",
+            "url": "https://paperswithcode.com/paper/translation-artifacts-in-cross-lingual",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "knowledge based machine reading comprehension",
+            "content": "machine reading comprehension mrc requires reasoning about both the knowledge involved in a document and knowledge about the world",
+            "url": "https://ui.adsabs.harvard.edu/abs/arXiv:1809.04267",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "quasirecurrent neural networks",
+            "content": "a qrnn or quasirecurrent neural network is a type of recurrent neural network that alternates convolutional layers which apply in parallel across",
+            "url": "https://paperswithcode.com/method/qrnn",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "neural network models for paraphrase identification semantic textual similarity natural language inference and question answering",
+            "content": "by w lan in this paper we analyze several neural network designs and their variations for sentence pair modeling and compare their performance extensively across",
+            "url": "https://cocoxu.github.io/publications/COLING_2018_sentence_pair_modeling.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "utcnn a deep learning model of stance classificationon on social media text",
+            "content": "most neural network models for document classification on social media focus on text information to the neglect of other information on these platforms",
+            "url": "https://www.semanticscholar.org/paper/UTCNN%3A-a-Deep-Learning-Model-of-Stance-on-Social-Chen-Ku/ba730bc2d057949902831abecafffe8510e57cb7",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "structuring an unordered text document",
+            "content": "this paper proposes structuring of an unordered text document based on the keywords in the document we test our approach on wikipedia documents using both",
+            "url": "https://paperswithcode.com/paper/structuring-an-unordered-text-document",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "contextaware monolingual repair for neural machine translation",
+            "content": "to validate the performance of our model we use three kinds of evaluation the bleu score contrastive evaluation of translation of several dis",
+            "url": "https://www.zora.uzh.ch/id/eprint/176331/1/D19-1081.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "dynamic compositional neural networks over tree structure",
+            "content": "treestructured neural networks have proven to be effective in learning semantic representations by exploitingsyntactic information",
+            "url": "https://www.ijcai.org/proceedings/2017/566",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "multilingual clustering of streaming news",
+            "content": "abstract clustering news across languages enables efficient media monitoring by aggregating ar ticles from multilingual sources into coherent stories",
+            "url": "https://homepages.inf.ed.ac.uk/scohen/emnlp18cluster.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "towards speechtotext translation without speech recognition",
+            "content": "we explore the problem of translating speech to text in lowresource scenarios where neither automatic speech recognition asr nor machine translation mt are",
+            "url": "https://paperswithcode.com/paper/towards-speech-to-text-translation-without/review/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "equation embeddings",
+            "content": "in mathematics an embedding or imbedding is one instance of some mathematical structure contained within another instance such as a group that is a",
+            "url": "https://en.wikipedia.org/wiki/Embedding",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "contextual joint factor acoustic embeddings",
+            "content": "embedding acoustic information into fixed length representations is of interest for a whole range of applications in speech and audio technology",
+            "url": "https://ieeexplore.ieee.org/document/9383592/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "improving distributed representations of tweets present and future",
+            "content": "this work organizes the models based on its objective function which aids the understanding of the literature and provides interesting future directions",
+            "url": "https://www.semanticscholar.org/paper/Improving-Distributed-Representations-of-Tweets-and-Ganesh/a524a8a63fb430879a2bcdebc7db6f5c03aca18a",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "seernet at emoint2017 tweet emotion intensity estimator",
+            "content": "the paper describes experiments on estimating emotion intensity in tweets using a generalized regressor system the system combines lexical syntactic and",
+            "url": "https://ui.adsabs.harvard.edu/abs/2017arXiv170806185D/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "when to reply context sensitive models to predict instructor interventions in mooc forums",
+            "content": "such models also allow themselves to be tuned to instructors preference to intervene early or late our three proposed attentive model variants to infer the",
+            "url": "https://api.deepai.org/publication/when-to-reply-context-sensitive-models-to-predict-instructor-interventions-in-mooc-forums",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a multitask architecture on relevancebased neural query translation",
+            "content": "we describe a multitask learning approach to train a neural machine translation nmt model with a relevancebased auxiliary task rat for search query",
+            "url": "https://maroo.cs.umass.edu/getpdf.php?id=1350",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "analysis of wikipediabased corpora for question answering",
+            "content": "this paper gives comprehensive analyses of corpora based on wikipedia for several tasks in question answering four recent corpora are collectedwikiqa selqa",
+            "url": "https://ui.adsabs.harvard.edu/abs/2018arXiv180102073J/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "multitask learning for finegrained twitter sentiment analysis",
+            "content": "our study demonstrates the potential of multitask models on this type of problems and improves the stateoftheart results in the finegrained",
+            "url": "https://dl.acm.org/doi/abs/10.1145/3077136.3080702",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "assessing berts syntactic abilities",
+            "content": "the extent to which the recently introduced bert model captures english syntactic phenomena is assessed using naturallyoccurring subjectverb agreement",
+            "url": "https://www.semanticscholar.org/paper/Assessing-BERT%27s-Syntactic-Abilities-Goldberg/efeab0dcdb4c1cce5e537e57745d84774be99b9a",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "adaptive semisupervised learning for crossdomain sentiment classification",
+            "content": "our experimental results demonstrate that the proposed approach can better leverage unlabeled data from the target domain and achieve substantial improvements",
+            "url": "https://paperswithcode.com/paper/adaptive-semi-supervised-learning-for-cross",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "neuronblocks building your nlp dnn models like playing lego",
+            "content": "neuronblocks is a nlp deep learning modeling toolkit that helps engineersresearchers to build endtoend pipelines for neural network model training for nlp",
+            "url": "https://www.microsoft.com/en-us/research/project/neuronblocks-building-your-nlp-dnn-models-like-playing-lego/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sentiment analysis of twitter data for predicting stock market movements",
+            "content": "the thesis of this work is to observe how well the changes in stock prices of a company the rises and falls are correlated with the public opinions being",
+            "url": "https://ieeexplore.ieee.org/document/7955659",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "sentencebert sentence embeddings using siamese bertnetworks",
+            "content": "in this publication we present sentencebert sbert a modification of the pretrained bert network that use siamese and triplet network structures to derive",
+            "url": "https://paperswithcode.com/paper/sentence-bert-sentence-embeddings-using",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "open event extraction from online text using a generative adversarial network",
+            "content": "by r wang our work is related to two lines of research event extraction and generative adversarial nets event extraction recently there has been much interest in event",
+            "url": "https://palm.seu.edu.cn/zhoudeyu/resources/files/cp/Open%20Event%20Extraction%20from%20Online%20Text%20using%20a%20Generative%20Adversarial%20Network.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "pretrained language model representations for language generation",
+            "content": "in this paper we examine different strategies to integrate pretrained representations into sequence to sequence models and apply it to neural machine",
+            "url": "https://paperswithcode.com/paper/pre-trained-language-model-representations",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "inexpensive domain adaptation of pretrained language models a case study on biomedical named entity recognition",
+            "content": "we evaluate on eight biomedical named entity recognition ner tasks and compare against the recently proposed biobert model",
+            "url": "https://paperswithcode.com/paper/inexpensive-domain-adaptation-of-pretrained",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "understanding languageelicited eeg data by predicting it from a finetuned language model",
+            "content": "this work takes a step towards better understanding the eventrelated potentials by finetuning a language model to predict them and shows for the first",
+            "url": "https://www.semanticscholar.org/paper/Understanding-language-elicited-EEG-data-by-it-from-Schwartz-Mitchell/dacd64e55bea910486289ceac2a5f94217433b79",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "simple and effective semisupervised question answering",
+            "content": "by b dhingra our analysis reveals that questions which ask for factual information and match to specific parts of the context documents benefit the most from pre training",
+            "url": "https://users.cs.duke.edu/~bd149/papers/sslqa.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "stateoftheart vietnamese word segmentation",
+            "content": "word segmentation is the first step of any tasks in vietnamese language processing this paper reviews stateoftheart approaches and systems for word",
+            "url": "http://ieeexplore.ieee.org/document/7852619/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "distilling translations with visual awareness",
+            "content": "by j ive this ap proach is trained jointly to generate a good first draft translation and to improve over this draft by i making better use of the target language",
+            "url": "https://multimt.github.io/downloads/papers/acl2019_ive.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "deep learning for detecting cyberbullying across multiple social media platforms",
+            "content": "this is the first work that systematically analyzes cyberbullying detection on various topics across multiple smps using deep learning based models and",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-319-76941-7_11",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a comprehensive comparison of machine learning based methods used in bengali question classification",
+            "content": "this work demonstrates phases of assembling a qa type classification model we present a comprehensive comparison performance and computational complexity",
+            "url": "https://ieeexplore.ieee.org/document/9065107/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "shallow reading with deep learning predicting popularity of online content using only its title",
+            "content": "in this paper we propose a method for online content popularity prediction based on a bidirectional recurrent neural network called bilstm this work is",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-319-60438-1_14",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "predicting the industry of users on social media",
+            "content": "we frame this task as classification using both feature engineering and ensemble learning our industrydetection system uses both posted content and profile",
+            "url": "https://ui.adsabs.harvard.edu/abs/arXiv:1612.08205",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "multimodal speech emotion recognition using audio and text",
+            "content": "in this paper we propose a novel deep dual recurrent encoder model that utilizes text data and audio signals simultaneously to obtain a better understanding of",
+            "url": "https://ieeexplore.ieee.org/document/8639583",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "pyramidal recurrent unit for language modeling",
+            "content": "we introduce the pyramidal recurrent unit pru which enables learning representations in high dimensional space with more generalization power and fewer",
+            "url": "https://sacmehta.github.io/PRU/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "toward multilingual neural machine translation with universal encoder and decoder",
+            "content": "tl ha cytowane przez 319 our approach allows us to integrate any language in any side of the encoderdecoder architecture with only one encoder and one decoder for all the languages 7 stron",
+            "url": "https://workshop2016.iwslt.org/downloads/IWSLT_2016_paper_5.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what does attention in neural machine translation pay attention to",
+            "content": "by h ghader attention in neural machine translation provides the possibility to encode relevant parts of the source sentence at each trans lation step",
+            "url": "https://staff.science.uva.nl/c.monz/html/publications/I17-1004.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "external lexical information for multilingual partofspeech tagging",
+            "content": "abstract morphosyntactic lexicons and word vector representations have both proven useful for improving the accuracy of statistical partofspeech taggers",
+            "url": "https://inria.hal.science/hal-01330301v1/document",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "templatefree datatotext generation of finnish sports news",
+            "content": "news articles such as sports game reports are often thought to closely follow the underlying game statistics but in practice",
+            "url": "https://www.utupub.fi/handle/10024/158417",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "text summarization using abstract meaning representation",
+            "content": "this work develops a full full pipeline to generate summaries of news articles using the abstract meaning representation amr and outperform the previous",
+            "url": "https://www.semanticscholar.org/paper/Text-Summarization-using-Abstract-Meaning-Dohare-Karnick/d746f872e315de3b001914fdcc6fc4674d874559",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "joint detection and location of english puns",
+            "content": "by y zou this paper presents an approach that ad dresses pun detection and pun location jointly from a sequence labeling perspective we employ a new tagging scheme",
+            "url": "https://zoezou2015.github.io/papers/pun2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "distant supervision for emotion detection using facebook reactions",
+            "content": "we exploit the facebook reaction feature in a distant supervised fashion to train a support vector machine classifier for emotion detection using several",
+            "url": "https://ui.adsabs.harvard.edu/abs/2016arXiv161102988P/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "exploration based language learning for textbased games",
+            "content": "this work presents an exploration and imitation learningbased agent capable of stateofthe art performance in playing textbased computer games",
+            "url": "https://www.ijcai.org/proceedings/2020/0207.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "message passing attention networks for document understanding",
+            "content": "in this paper we represent documents as word cooccurrence networks and propose an application of the message passing framework to nlp the message passing",
+            "url": "https://ui.adsabs.harvard.edu/abs/2019arXiv190806267N/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "stateology statelevel interactive charting of language feelings and values",
+            "content": "peoples personality and motivations are manifest in their everyday language usage with the emergence of social media ample examples of such usage are",
+            "url": "https://ui.adsabs.harvard.edu/abs/arXiv:1612.06685",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "how big is big enough unsupervised word sense disambiguation using a very large corpus",
+            "content": "in this paper the problem of disambiguating a target word for polish is approached by searching for related words with known meaning",
+            "url": "https://paperswithcode.com/paper/how-big-is-big-enough-unsupervised-word-sense",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "englishjapanese neural machine translation with encoderdecoderreconstructor",
+            "content": "to address this problem tu et al 2017 proposed an encoderdecoderreconstructor framework for nmt using backtranslation in this method they selected the",
+            "url": "https://ui.adsabs.harvard.edu/abs/2017arXiv170608198M/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a framework for evaluation of machine reading comprehension gold standards",
+            "content": "v schlegel cytowane przez 35 in this paper we introduce a novel framework to charac terise machine reading comprehension gold standards this framework has potential 11 stron",
+            "url": "http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.660.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "tttttackling winogrande schemas",
+            "content": "we applied the t5 sequencetosequence model to tackle the ai2 winogrande challenge by decomposing each example into two input text strings",
+            "url": "https://paperswithcode.com/paper/tttttackling-winogrande-schemas",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "multilingual sentiment analysis an rnnbased framework for limited data",
+            "content": "our goal is to evaluate how well a generic model can be used to mine opinions in other languages where data are more limited than the language on which the",
+            "url": "https://support.sas.com/resources/papers/proceedings20/4180-2020.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "emotion detection in text focusing on latent representation",
+            "content": "in this work we argue that current methods which are based on conventional machine learning models cannot grasp the intricacy of emotional language by ignoring",
+            "url": "https://ui.adsabs.harvard.edu/abs/2019arXiv190709369S/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "using general adversarial networks for marketing a case study of airbnb",
+            "content": "abstract with an emphasis on aidriven optimization to improve business performance this study explores the use of generative adversarial",
+            "url": "https://aem.az/uploads/posts/2025/01/E.%C4%B0.%2019.1-59-62.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "high quality elmo embeddings for seven lessresourced languages",
+            "content": "by m ulčar 2019 we offer precomputed embeddings from popular contextual elmo model for seven languages croatian estonian finnish latvian lithuanian slovenian and swedish",
+            "url": "https://ui.adsabs.harvard.edu/abs/2019arXiv191110049U/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a hybrid architecture for multiparty conversational systems",
+            "content": "in this paper we refer to conversational systems that are able to interact with one or more people or chatbots in a multiparty chat as multi",
+            "url": "https://hal.sorbonne-universite.fr/hal-01520491v1/document",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a questionentailment approach to question answering",
+            "content": "in the context of qa the goal of recognizing question entailment rqe is to retrieve answers to a premise question pq by retrieving inferred",
+            "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3119-4",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "from textual information sources to linked data in the agatha project",
+            "content": "in the context of this work we will present results of the rd project agatha where we developed a pipeline of processes that analyses texts",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-030-46714-2_5",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "women in isis propaganda a natural language processing analysis of topics and emotions in a comparison with mainstream religious group",
+            "content": "online propaganda is central to the recruitment strategies of extremist groups and in recent years these efforts have increasingly extended",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-030-52246-9_45",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "an iterative approach for identifying complaint based tweets in social media platforms",
+            "content": "in this paper we propose an iterative methodol ogy which aims to identify complaint based posts pertaining to the transport domain we perform comprehensive",
+            "url": "https://cdn.aaai.org/ojs/7146/7146-13-10375-1-10-20200526.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "deep learning the eeg manifold for phonological categorization from active thoughts",
+            "content": "our best models achieve an average accuracy of 779 across five different binary classification tasks providing a significant 225 improvement over previous",
+            "url": "https://ieeexplore.ieee.org/document/8682330/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "argumentation mining in usergenerated web discourse",
+            "content": "the goal of argumentation mining an evolving research field in computational linguistics is to design methods capable of analyzing peoples argumentation",
+            "url": "https://dl.acm.org/doi/10.1162/COLI_a_00276",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "jiant a software toolkit for research on generalpurpose text understanding models",
+            "content": "jiant is a software toolkit for natural language processing research designed to facilitate work on multitask learning and transfer learning for sentence",
+            "url": "https://jiant.info/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "improving question generation with to the point context",
+            "content": "this work proposes a method to jointly model the unstructured sentence and the structured answerrelevant relation extracted from the",
+            "url": "https://www.semanticscholar.org/paper/Improving-Question-Generation-With-to-the-Point-Li-Gao/42265b1b14d7b80567603b5e043c106edc6f033d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a multilayer approach to disinformation detection on twitter",
+            "content": "we tackle the problem of classifying news articles pertaining to disinformation vs mainstream news by solely inspecting their diffusion mechanisms on twitter",
+            "url": "https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-020-00253-8",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "using monolingual data in neural machine translation a systematic study",
+            "content": "f burlot cytowane przez 120 such observations have been made repeatedly and have led to many innovative techniques to in tegrate monolingual data in nmt that we review12 stron",
+            "url": "https://statmt.org/wmt18/pdf/WMT015.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "detectingsmartspammers on social network a topic model approach",
+            "content": "our approach extracts both the local and the global information of topic distribution patterns which capture the essence of spamming tested on one benchmark",
+            "url": "https://ui.adsabs.harvard.edu/abs/arXiv:1604.08504",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "from english to foreign languages transferring pretrained language models",
+            "content": "the availability of multilingual pretrained models enables zeroshot transfer of nlp tasks from high resource languages to low resource ones however recent",
+            "url": "https://www.amazon.science/publications/from-english-to-foreign-languages-transferring-pre-trained-language-models",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "neural user simulation for corpusbased policy optimisation for spoken dialogue systems",
+            "content": "this paper introduces the neural user simulator nus whose behaviour is learned from a corpus and which generates natural language hence needing a less",
+            "url": "https://paperswithcode.com/paper/neural-user-simulation-for-corpus-based",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "harnessing cognitive features for sarcasm detection",
+            "content": "this paper proposes a novel mechanism for enriching the feature vector for the task of sarcasm detection with cognitive features extracted from",
+            "url": "https://www.semanticscholar.org/paper/Harnessing-Cognitive-Features-for-Sarcasm-Detection-Mishra-Kanojia/d5c89b9f9759d4f1bfe9214fde5938a0b5039af1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "medication regimen extraction from clinical conversations",
+            "content": "in this paper we focus on extracting the medication regimen dosage and frequency for medications discussed in a medical conversation",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-030-53352-6_18",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "from free text to clusters of content in health records an unsupervised graph partitioning approach",
+            "content": "here we apply networktheoretical tools to the analysis of free text in hospital patient incident reports in the english national health service to find",
+            "url": "https://appliednetsci.springeropen.com/articles/10.1007/s41109-018-0109-9",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a multi purpose and large scale speech corpus in persian and english for speaker and speech recognition the deepmine database",
+            "content": "deepmine is a speech database in persian and english designed to build and evaluate textdependent textprompted and textindependent speaker verification",
+            "url": "https://ieeexplore.ieee.org/document/9003882/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "automatic classification of pathology reports using tfidf features",
+            "content": "we performed experiments by extracting the tfidf features from the reports and classifying them using three different methodssvm xgboost and logistic",
+            "url": "https://ui.adsabs.harvard.edu/abs/arXiv:1903.07406",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "prose for a painting",
+            "content": "painting captions are often dry and simplistic which motivates us to describe a painting creatively in the style of shakespearean prose",
+            "url": "https://ui.adsabs.harvard.edu/abs/2019arXiv191003634K/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "active learning for speech recognition the power of gradients",
+            "content": "active learning aims to label only the most informative samples to reduce cost for speech recognition confidence scores and other likelihoodbased active",
+            "url": "https://ui.adsabs.harvard.edu/abs/2016arXiv161203226H/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "fully convolutional speech recognition",
+            "content": "this paper presents an alternative approach based solely on convolutional neural networks leveraging recent advances in acoustic models from the raw",
+            "url": "https://www.semanticscholar.org/paper/Fully-Convolutional-Speech-Recognition-Zeghidour-Xu/edbdda5fc458c733215a5ea9ab2750e0b4323ca7",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "predicting the type and target of offensive posts in social media",
+            "content": "we discuss the main similarities and differences between olid and preexisting datasets for hate speech identification aggression detection and similar tasks",
+            "url": "https://paperswithcode.com/paper/predicting-the-type-and-target-of-offensive",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "prepositional attachment disambiguation using bilingual parsing and alignments",
+            "content": "the idea is to correct the ppattachments for a sentence with the help of alignments from parallel data in another language the novelty of our work lies in the",
+            "url": "https://ui.adsabs.harvard.edu/abs/arXiv:1603.08594",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "pitchnet unsupervised singing voice conversion with pitch adversarial network",
+            "content": "in this paper we propose to advance the existing unsupervised singing voice conversion method proposed in 1 to achieve more accurate pitch translation and",
+            "url": "https://ieeexplore.ieee.org/document/9054199/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how we do things with words analyzing text as social and cultural data",
+            "content": "in this article we describe our experiences with computational text analysis involving rich social and cultural concepts",
+            "url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2020.00062/full",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "hierarchical transformers for long document classification",
+            "content": "several dimensionality reduction algorithms such as rbm autoencoders subspace multinomial models smm are used to obtain a low dimensional representation of 7 stron",
+            "url": "https://ieeexplore.ieee.org/iel7/8985378/9003727/09003958.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "extractive summarization of long documents by combining global and local context",
+            "content": "in this paper we propose a novel neural single document extractive summarization model for long documents incorporating both the global context of the whole",
+            "url": "https://paperswithcode.com/paper/extractive-summarization-of-long-documents-by",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "bridging the gap between pretraining and finetuning for endtoend speech translation",
+            "content": "endtoend speech translation a hot topic in recent years aims to translate a segment of audio into a specific language with an endtoend model",
+            "url": "https://ui.adsabs.harvard.edu/abs/2019arXiv190907575W/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a humanai loop approach for joint keyword discovery and expectation estimation in micropost event detection",
+            "content": "a bhardwaj cytowane przez 9 a novel humanai loop approach for micropost event de tection that jointly discovers informative keywords and estimates their expectation a unified 8 stron",
+            "url": "https://exascale.info/assets/pdf/bhardwaj2020AAAI.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "short text language identification for under resourced languages",
+            "content": "accurate language identification lid is the first step in many natural language processing and machine comprehension pipelines",
+            "url": "https://ceur-ws.org/Vol-2540/FAIR2019_paper_18.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "extractive summarization of ehr discharge notes",
+            "content": "automated summarization has the potential to save time standardize notes aid clinical decision making and reduce medical errors here we",
+            "url": "https://paperswithcode.com/paper/extractive-summarization-of-ehr-discharge",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a hierarchical model for datatotext generation",
+            "content": "in this work we propose to overpass this limitation with a hierarchical model that encodes the datastructure at the elementlevel and the structure level",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-030-45439-5_5",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "question answering for privacy policies combining computational and legal perspectives",
+            "content": "we present privacyqa a corpus consisting of 1750 questions about the privacy policies of mobile applications and over 3500 expert annotations of relevant",
+            "url": "https://paperswithcode.com/paper/question-answering-for-privacy-policies-1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "what does my qa model know devising controlled probes using expert knowledge",
+            "content": "we investigate this via several new diagnostic tasks probing whether multiplechoice qa models know definitions and taxonomic reasoningtwo",
+            "url": "https://transacl.org/index.php/tacl/article/view/2049",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "disunited nations a multiplex network approach to detecting preference affinity blocs using texts and votes",
+            "content": "this paper contributes to an emerging literature that models votes and text in tandem to better understand polarization of expressed preferences",
+            "url": "https://ui.adsabs.harvard.edu/abs/arXiv:1802.00396",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "feature studies to inform the classification of depressive symptoms from twitter data for population health",
+            "content": "the utility of twitter data as a medium to support populationlevel mental health monitoring is not well understood in an effort to better understand the",
+            "url": "https://ui.adsabs.harvard.edu/abs/2017arXiv170108229M/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "revisiting summarization evaluation for scientific articles",
+            "content": "a cohan cytowane przez 88 unlike rouge sera consistently achieves high correlations with manual scores which shows its effectiveness in evaluation of scientific article summarization8 stron",
+            "url": "https://ir.cs.georgetown.edu/downloads/LREC-1144_Paper.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "uncc biomedical semantic question answering systems bioasq task7b phaseb",
+            "content": "in this paper we detail our submission to the 7th year bioasq competition we present our approach for task7b phase b exact answering task",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-030-43887-6_62",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "ranking sentences for extractive summarization with reinforcement learning",
+            "content": "our contributions in this work are threefold a novel application of reinforcement learning to sen tence ranking for extractive summarization cor roborated",
+            "url": "https://homepages.inf.ed.ac.uk/scohen/naacl18sum.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "text classification based on word subspace with termfrequency",
+            "content": "to incorporate the word frequency directly in the subspace model we further extend the word subspace to the termfrequency tf weighted word subspace based",
+            "url": "https://ieeexplore.ieee.org/document/8489458/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "topic identification for speech without asr",
+            "content": "in this paper we investigate alternative unsupervised solutions to obtaining tokenizations of speech in terms of a vocabulary of automatically discovered word",
+            "url": "https://www.isca-archive.org/interspeech_2017/liu17b_interspeech.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "findings of the nlp4if2019 shared task on finegrained propaganda detection",
+            "content": "this paper presents the winning solution of the fragment level classification flc task in the fine grained propaganda detection competition at the nlp4if19",
+            "url": "https://paperswithcode.com/task/propaganda-detection/codeless?page=3",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "artificial error generation with machine translation and syntactic patterns",
+            "content": "our experiments show that the inclusion of artificially generated errors significantly improves error detection accuracy on both fce and conll 2014 datasets",
+            "url": "https://paperswithcode.com/paper/artificial-error-generation-with-machine",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "tweet2vec characterbased distributed representations for social media",
+            "content": "by b dhingra we focus on social media posts from the website twitter which are an excellent test ing ground for character based models due to the noisy nature of text",
+            "url": "https://wwcohen.github.io/postscript/acl-2016-bd.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "improved neural relation detection for knowledge base question answering",
+            "content": "in this paper we propose a hierarchical recurrent neural network enhanced by residual learning that detects kb relations given an input question our method",
+            "url": "https://paperswithcode.com/paper/improved-neural-relation-detection-for",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "copenhagen at conllsigmorphon 2018 multilingual inflection in context with explicit morphosyntactic decoding",
+            "content": "this paper documents the team copenhagen system which placed first in the conllsigmorphon 2018 shared task on universal morphological reinflection",
+            "url": "http://www.copenlu.com/publication/2018_sigmorphon_kementchedjhieva/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "extracting clinical concepts from user queries",
+            "content": "clinical concept extraction often begins with clinical named entity recognition ner often trained on annotated clinical notes clinical",
+            "url": "https://deepai.org/publication/extracting-clinical-concepts-from-user-queries",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "affective behaviour analysis of online user interactions are online support groups more therapeutic than twitter",
+            "content": "g tortoreto cytowane przez 10 our analysis indicates that osg conversations satisfy higher number of conditions approximat ing therapeutic factors than twitter conversations given this",
+            "url": "http://disi.unitn.it/~riccardi/papers2/ACL19-AffectiveBehaviourOSG.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "towards understanding neural machine translation with word importance",
+            "content": "this work measures the word importance by attributing the nmt output to every input word through a gradientbased method and reveals that words of certain",
+            "url": "https://www.semanticscholar.org/paper/Towards-Understanding-Neural-Machine-Translation-He-Tu/fe090ea947cf728cdef6cb5ef00e1e4fbf94e181",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "araml a stable adversarial training framework for text generation",
+            "content": "we propose a novel framework called adversarial reward augmented maximum likelihood araml during adversarial training the discriminator assigns rewards to",
+            "url": "https://paperswithcode.com/paper/araml-a-stable-adversarial-training-framework",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "embedding geographic locations for modelling the natural environment using flickr tags and structured data",
+            "content": "in this paper we have proposed a model to learn geographic location embeddings using flickr tags numerical environmental features and",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-030-15712-8_4",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a neural topicattention model for medical term abbreviation disambiguation",
+            "content": "a fewshot learning approach is proposed to take advantage of limited labeled data to learn improved contextualized sentence representations for medical",
+            "url": "https://www.semanticscholar.org/paper/4bddfab0c424aee6067adcb83eb61a5863b2ae6b",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "crosslingual pretraining based transfer for zeroshot neural machine translation",
+            "content": "we propose an effective transfer learning approach based on crosslingual pretraining our key idea is to make all source languages share the same feature",
+            "url": "https://ui.adsabs.harvard.edu/abs/2019arXiv191201214J/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "data collection for interactive learning through the dialog",
+            "content": "a dataset collected from natural dialogs is presented which enables to test the ability of dialog systems to learn new facts from user utterances throughout",
+            "url": "https://www.semanticscholar.org/paper/768945f1c36302e4473e989aa3e321c163aa4887",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "improving correlation with human judgments by integrating semantic similarity with secondorder vectors",
+            "content": "in this paper we extend these methods by incorporating a measure of semantic similarity based on a human curated taxonomy into a secondorder vector",
+            "url": "https://paperswithcode.com/paper/improving-correlation-with-human-judgments-by",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "dialog context language modeling with recurrent neural networks",
+            "content": "we design recurrent neural network rnn based contextual language models that specially track the interactions between speakers in a dialog experiment results",
+            "url": "https://ieeexplore.ieee.org/document/7953251/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "examining gender and race bias in two hundred sentiment analysis systems",
+            "content": "we use the dataset to examine 219 automatic sentiment analysis systems that took part in a recent shared task semeval2018 task 1 affect in tweets we find",
+            "url": "https://nrc-publications.canada.ca/eng/view/object/?id=c0ba249c-450d-4a6a-b313-0c9168998b8e",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "macaw an extensible conversational information seeking platform",
+            "content": "this paper introduces macaw an opensource framework with a modular architecture for cis research macaw supports multiturn multimodal and mixed",
+            "url": "https://dl.acm.org/doi/10.1145/3397271.3401415",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "attention is all you need for chinese word segmentation",
+            "content": "our model consists of an attention only stacked encoder and a light enough decoder for the greedy segmentation plus two highway connections for smoother",
+            "url": "https://paperswithcode.com/paper/attention-is-all-you-need-for-chinese-word",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "how document preprocessing affects keyphrase extraction performance",
+            "content": "by f boudin in this paper we reassess the performance of several stateoftheart keyphrase extraction models at increasingly sophisticated levels of preprocessing three",
+            "url": "https://noisy-text.github.io/2016/pdf/WNUT14.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "stochastic answer networks for squad 20",
+            "content": "this paper presents an extension of the stochastic answer network san one of the stateoftheart machine reading comprehension models",
+            "url": "https://ui.adsabs.harvard.edu/abs/arXiv:1809.09194",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "reducing gender bias in wordlevel language models with a genderequalizing loss function",
+            "content": "this research introduces a new term to the loss function which attempts to equalize the probabilities of male and female words in the output and provides",
+            "url": "https://www.semanticscholar.org/paper/Reducing-Gender-Bias-in-Word-Level-Language-Models-Qian-Muaz/623b1c61aa36048a38485a44551cb3fdcbcc827b",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "adversarial nli a new benchmark for natural language understanding",
+            "content": "we introduce a new largescale nli benchmark dataset collected via an iterative adversarial humanandmodelintheloop procedure",
+            "url": "https://paperswithcode.com/paper/adversarial-nli-a-new-benchmark-for-natural",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "multiclass hierarchical question classification for multiple choice science exams",
+            "content": "to address this we present the largest challenge dataset for qc containing 7787 science exam questions paired with detailed classification labels from a fine",
+            "url": "https://paperswithcode.com/paper/multi-class-hierarchical-question",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "shared task lexical semantic change detection in german",
+            "content": "abstractrecent nlp architectures have illustrated in various ways how semantic change can be captured across time and domains however in terms of",
+            "url": "https://www.catalyzex.com/paper/shared-task-lexical-semantic-change-detection",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "elephant in the room an evaluation framework for assessing adversarial examples in nlp",
+            "content": "in this paper we propose an evaluation framework consisting of a set of automatic evaluation metrics and human evaluation guidelines to rigorously assess the",
+            "url": "https://paperswithcode.com/paper/elephant-in-the-room-an-evaluation-framework",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "pretraining of graph augmented transformers for medication recommendation",
+            "content": "gbert is the first to bring the language model pretraining schema into the healthcare domain and it achieved stateoftheart performance on the medication",
+            "url": "https://www.ijcai.org/proceedings/2019/825",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "pioner datasets and baselines for armenian named entity recognition",
+            "content": "in this work we tackle the problem of armenian named entity recognition providing silverand goldstandard datasets as well as establishing baseline",
+            "url": "https://ieeexplore.ieee.org/document/8675150/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "characterlevel question answering with attention",
+            "content": "we show that a characterlevel encoderdecoder framework can be successfully applied to question answering with a structured knowledge base",
+            "url": "https://paperswithcode.com/paper/character-level-question-answering-with",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "jasper an endtoend convolutional neural acoustic model",
+            "content": "jasper is a family of endtoend asr models that replace acous tic and pronunciation models with a convolutional neural net work jasper uses melfilterbank 5 stron",
+            "url": "https://www.isca-archive.org/interspeech_2019/li19_interspeech.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a corpus for detecting highcontext medical conditions in intensive care patient notes focusing on frequently readmitted patients",
+            "content": "a crucial step within secondary analysis of electronic health records ehrs is to identify the patient cohort under investigation",
+            "url": "https://sdg4.opendeved.net/lib/W3009444223",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "costsensitive bert for generalisable sentence classification with imbalanced data",
+            "content": "we show that bert while capable of handling imbalanced classes with no additional data augmentation does not generalise well when the training and test data",
+            "url": "https://ui.adsabs.harvard.edu/abs/2020arXiv200311563T/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "performance comparison of crowdworkers and nlp tools onnamedentity recognition and sentiment analysis of political tweets",
+            "content": "we report results of a comparison of the accuracy of crowdworkers and seven natural language processing nlp toolkits in solving two important nlp tasks",
+            "url": "https://ui.adsabs.harvard.edu/abs/2020arXiv200204181J/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "how contextual are contextualized word representations comparing the geometry of bert elmo and gpt2 embeddings",
+            "content": "this work quantifies how much the contextualized embeddings of each word sense vary across contexts in typical pretrained models and proposes a prompt",
+            "url": "https://www.semanticscholar.org/paper/How-Contextual-are-Contextualized-Word-Comparing-of-Ethayarajh/9d7902e834d5d1d35179962c7a5b9d16623b0d39",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "dynamic compositionality in recursive neural networks with structureaware tag representations",
+            "content": "this work presents a novel rvnn architecture that can provide dynamic compositionality by considering comprehensive syntactic information derived from both",
+            "url": "https://www.semanticscholar.org/paper/Dynamic-Compositionality-in-Recursive-Neural-with-Kim-Choi/05f7e7c49ce6cad1a9286582a4b2d818eb660177",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the trumpiest trump identifying a subjects most characteristic tweets",
+            "content": "we quantify the extent to which a given short text is characteristic of a specific person using a dataset of tweets from fifteen celebrities such analysis is",
+            "url": "https://ui.adsabs.harvard.edu/abs/arXiv:1909.04002",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the effect of heterogeneous data for alzheimers disease detection from speech",
+            "content": "we demonstrate that normative data from multiple speechbased tasks helps improve ad detection by up to 9visualization of decision boundaries",
+            "url": "https://jeknov.github.io/assets/pdf/effect2018.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "multitask pairwise neural ranking for hashtag segmentation",
+            "content": "our novel neural approaches demonstrate 246 error reduction in hashtag segmentation accuracy compared to the current stateoftheart method finally we",
+            "url": "https://paperswithcode.com/paper/190600790",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "neural collective entity linking",
+            "content": "entity linking aims to link entity mentions in texts to knowledge bases and neural models have achieved recent success in this task",
+            "url": "https://paperswithcode.com/paper/neural-collective-entity-linking",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "zuco 20 a dataset of physiological recordings during natural reading and annotation",
+            "content": "by n hollenstein this corpus contains gaze and brain activity data of 739 english sentences 349 in a normal reading paradigm and 390 in a taskspecific paradigm",
+            "url": "http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.18.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "generating diverse numbers of diverse keyphrases",
+            "content": "in contrast to previous keyphrase generation approaches our model generates sets of diverse keyphrases of a variable number opens in a new tab",
+            "url": "https://www.microsoft.com/en-us/research/publication/generating-diverse-numbers-of-diverse-keyphrases/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "run through the streets a new dataset and baseline models for realistic urban navigation",
+            "content": "here we introduce the realistic urban navigation run task aimed at interpreting navigation instructions based on a real dense urban map",
+            "url": "https://paperswithcode.com/paper/run-through-the-streets-a-new-dataset-and",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "mitigating the impact of speech recognition errors on spoken question answering by adversarial domain adaptation",
+            "content": "an adversarial model is applied to this domain adaptation task which forces the model to learn domaininvariant features the qa model can",
+            "url": "https://ieeexplore.ieee.org/document/8683377/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "towards multimodal understanding of passengervehicle interactions in autonomous vehicles intentslot recognition utilizing audiovisual data",
+            "content": "the benefits of multimodal understanding of incabin utterances are discussed by incorporating verballanguage input text and speech embeddings together",
+            "url": "https://www.semanticscholar.org/paper/Towards-Multimodal-Understanding-of-Interactions-in-Okur-Kumar/71c8512d97ee3c78cac8faeb9f85caf3d9c58cba",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "creative gans for generating poems lyrics and metaphors",
+            "content": "by a saeed in this work we use a generative adversarial network framework to alleviate this problem we evaluate our framework on poetry lyrics and metaphor datasets",
+            "url": "https://dbis.uibk.ac.at/sites/default/files/2019-12/saeed_creativity_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "glossbert bert for word sense disambiguation with gloss knowledge",
+            "content": "we construct contextgloss pairs and propose three bertbased models for wsd we finetune the pretrained bert model on semcor30 training corpus and the",
+            "url": "https://ui.adsabs.harvard.edu/abs/2019arXiv190807245H/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "sensitive data detection and classification in spanish clinical text experiments with bert",
+            "content": "by a garcíapablos 2020 in this paper we use a bertbased sequence labelling model to conduct a series of anonymisation experiments on several clinical datasets in spanish we also",
+            "url": "https://ui.adsabs.harvard.edu/abs/2020arXiv200303106G/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "fast prototyping a dialogue comprehension system for nursepatient conversations on symptom monitoring",
+            "content": "we propose a framework inspired by nurseinitiated clinical symptom monitoring conversations to construct a simulated humanhuman dialogue dataset embodying",
+            "url": "https://ui.adsabs.harvard.edu/abs/2019arXiv190303530L/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "to lemmatize or not to lemmatize how word normalisation affects elmo performance in word sense disambiguation",
+            "content": "it seems that for richmorphology languages using lemmatized training and testing data yields small but consistent improvements at least for word sense",
+            "url": "https://ui.adsabs.harvard.edu/abs/2019arXiv190903135K/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the fine line between linguistic generalization and failure in seq2seqattention models",
+            "content": "we find that the models ability to generalize this structure beyond the training distribution depends greatly on the chosen random seed even when performance",
+            "url": "https://paperswithcode.com/paper/the-fine-line-between-linguistic",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "combining advanced methods in japanesevietnamese neural machine translation",
+            "content": "in this paper we attempt to build the first nmt systems for a lowresourced language pair japanesevietnamese we have also shown significant improvements",
+            "url": "https://ieeexplore.ieee.org/document/8573329/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "learning autocomplete systems as a communication game",
+            "content": "we study textual autocompletethe task of predicting a full sentence from a partial sentenceas a humanmachine communication game",
+            "url": "https://worksheets.codalab.org/worksheets/0x627dc6dc62874a45ba8abc6ada10e753",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "going beneath the surface evaluating image captioning for grammaticality truthfulness and diversity",
+            "content": "a new diagnostic evaluation framework for the task of image captioning is introduced with the goal of directly assessing models for",
+            "url": "https://www.semanticscholar.org/paper/Going-Beneath-the-Surface%3A-Evaluating-Image-for-and-Xie-Sherborne/a3afabdc3650ef93c771262f31db8ee144d0ff44",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "word2vec optimal hyperparameters and their impact on nlp downstream tasks",
+            "content": "the objective of this work is to empirically show that word2vec optimal combination of hyperparameters exists and evaluate various combinations",
+            "url": "https://www.degruyter.com/document/doi/10.1515/comp-2022-0236/html?srsltid=AfmBOorf7xk_U0VtsJJzKyrqHMoU4eeao9Nkx1AllBP9VcN4XR1WkxWn",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "vais asr building a conversational speech recognition system using language model combination",
+            "content": "in this paper we attempt to mitigate the problems using language models combination techniques that allows us to utilize both large amount of writing style",
+            "url": "https://paperswithcode.com/paper/vais-asr-building-a-conversational-speech",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "comparative studies of detecting abusive language on twitter",
+            "content": "in this paper we conduct the first comparative study of various learning models on hate and abusive speech on twitter and discuss the possibility of using",
+            "url": "https://paperswithcode.com/paper/comparative-studies-of-detecting-abusive",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a deeper look into sarcastic tweets using deep convolutional neural networks",
+            "content": "s poria cytowane przez 439 in this work we develop models based on a pretrained convolutional neural network for extracting sentiment emotion and personality fea tures for sarcasm 12 stron",
+            "url": "https://sentic.net/sarcasm-detection-with-deep-convolutional-neural-networks.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "generating personalized recipes from historical user preferences",
+            "content": "this work proposes a new task of personalized recipe generation to help users with culinary preferences expanding a name and incomplete ingredient details",
+            "url": "https://www.semanticscholar.org/paper/Generating-Personalized-Recipes-from-Historical-Majumder-Li/25fdf335dbf3169f2f310dff8a5501605a78be6b",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a joint model for multimodal document quality assessment",
+            "content": "abstract the quality of a document is affected by various factors including grammaticality readability stylistics and expertise depth making the task",
+            "url": "https://ieeexplore.ieee.org/document/8791123/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "clustering comparable corpora of russian and ukrainian academic texts word embeddings and semantic fingerprints",
+            "content": "by a kutuzov abstract we present our experience in applying distributional semantics neural word embeddings to the problem of representing and clustering",
+            "url": "https://comparable.limsi.fr/bucc2016/pdf/BUCC02.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "negated lama birds cannot fly",
+            "content": "it is found that pretrained language models are equally prone to generate facts birds can fly and their negation birds cannot fly",
+            "url": "https://www.semanticscholar.org/paper/Negated-LAMA%3A-Birds-cannot-fly-Kassner-Sch%C3%BCtze/849b74ecce69108d36bf87ea9b87219cbfa10562",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "natural language processing via lda topic model in recommendation systems",
+            "content": "this study suggest that the recommendation systems based on lda could be effective in building smart recommendation system in online",
+            "url": "https://www.semanticscholar.org/paper/Natural-Language-Processing-via-LDA-Topic-Model-in-Jelodar-Wang/3318b3c080cd2e7829fcb6827ee0b8fe98a903ee",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "reviewqa a relational aspectbased opinion reading dataset",
+            "content": "to motivate this purpose we present reviewqa a questionanswering dataset based on hotel reviews the questions of this dataset are linked to a set of",
+            "url": "https://ui.adsabs.harvard.edu/abs/2018arXiv181012196G/abstract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "generating descriptions from structured data using a bifocal attention mechanism and gated orthogonalization",
+            "content": "in this work we focus on the task of generating natural language descriptions from a structured table of facts containing fields such as nationality",
+            "url": "https://paperswithcode.com/paper/generating-descriptions-from-structured-data",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "measuring offensive speech in online political discourse",
+            "content": "in this paper we present preliminary results from a largescale temporal measure ment aimed at quantifying offensiveness in online politi cal discussions",
+            "url": "https://www.usenix.org/system/files/conference/foci17/foci17-paper-nithyanand.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "causal explanation analysis on social media",
+            "content": "here we explore automating causal explanation analysis building on discourse parsing and presenting two novel subtasks causality detection determining",
+            "url": "https://ui.adsabs.harvard.edu/abs/arXiv:1809.01202",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 22,
+            "query": "ensemble based discriminative models for visual dialog challenge 2018",
+            "content": "moving towards ai agents that can hold dialogs with humans about visual content",
+            "url": "https://visualdialog.org/challenge/2018",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 23,
+            "query": "towards a continuous knowledge learning engine for chatbots",
+            "content": "this paper makes an attempt to propose an engine for continuous and interactive learning of knowledge cilk for dialogue systems to give them the ability to continuously and interactively learn and infer new knowledge during conversationsexpand this book introduces the new paradigm of",
+            "url": "https://www.semanticscholar.org/paper/Towards-a-Continuous-Knowledge-Learning-Engine-for-Mazumder-Ma/4f31257b8ea4fa4c8f049693cfe2f71ee9c8475a",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 31,
+            "query": "dice loss for dataimbalanced nlp tasks",
+            "content": "beginequation dicelossleft y overlinep right 1 dfracleft 2yoverlinep 1 right left yoverlinep 1 right endequation",
+            "url": "https://paperswithcode.com/method/dice-loss",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is change the only constant profile change perspective on loksabhaelections2019",
+            "content": "092219 users on twitter are identified with the help of their profile attributes that consists of username display name profile image",
+            "url": "https://deepai.org/publication/is-change-the-only-constant-profile-change-perspective-on-loksabhaelections2019",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 26,
+            "query": "a corpus for automatic readability assessment and text simplification of german",
+            "content": "a number of parallel corpora have been created to this end gasperin et al 2010 compiled the porsimples corpus consisting of brazilian portuguese texts 2116 sentences each with two different levels of simplifications “natural” and “strong” resulting in around 4500 aligned",
+            "url": "https://www.frontiersin.org/articles/10.3389/fcomm.2022.706718/full",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 23,
+            "query": "gluoncv and gluonnlp deep learning in computer vision and natural language processing",
+            "content": "home page papers submissions editorial board special issues open source software proceedings pmlr data dmlr transactions tmlr search",
+            "url": "https://www.jmlr.org/papers/volume21/19-429/19-429.pdf",
+            "engine": "braveAPI"
+        }
+    ]
+}

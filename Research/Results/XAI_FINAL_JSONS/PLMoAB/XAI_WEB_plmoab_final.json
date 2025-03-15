@@ -1,0 +1,716 @@
+{
+    "task": "plmoab",
+    "dataset": "web_access_None_final",
+    "questions": 100,
+    "noWebContextCount": 0,
+    "contaminated_queries": 37,
+    "contaminated_urls": 106,
+    "valid_urls": 100,
+    "avg_contaminated_before_valid": 2.06,
+    "contaminated_data_ratio": 0.5145631067961165,
+    "most_contaminated_urls": {},
+    "noWebContext": [],
+    "contaminated_WebContext": [],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "na jakiej licencji został udostępniony model języka qra1b",
+            "content": "celem tego raportu jest przedstawienie case study polskiego ekosystemu tworzenia otwartych modeli ai dla języka polskiego są to małe modele 27 stron",
+            "url": "https://centrumcyfrowe.pl/wp-content/uploads/sites/16/2024/11/AI-mowi-po-polsku-PL_Centrum-Cyfrowe-Open-Future_V2.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "na jakim type danych oparty jest benchmark llmzszł",
+            "content": "duże modele językowe jak sama nazwa wskazuje są trenowane na ogromnych zestawach danych tekstowych setek gigabajtów dla jednego języka",
+            "url": "https://www.money.pl/gospodarka/5-faktow-o-chatgpt-gpt-llm-sztuczna-inteligencja-od-kuchni-6877056003799872a.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which language model was used as the base for the llamapllum8bbase model",
+            "content": "details and insights about llama pllum 8b base llm by cyfragovpl benchmarks internals and performance insights features 8b llm vram 161gb",
+            "url": "https://llm.extractum.io/model/CYFRAGOVPL%2FLlama-PLLuM-8B-base,1Zb0X6oWYRh09j5Qn3Vpxc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jaka jest wielkość okna kontekstowego dla modeli języka z rodziny bielik7bv2",
+            "content": "dzisiaj porozmawiamy min o tym czy sztuczna inteligencja a właściwie generatywna sztuczna inteligencja to bańka i niespełnione oczekiwania",
+            "url": "https://opanuj.ai/podcast/odcinek/czy-ai-to-banka-kondycja-rynku-top-100-aplikacji-ai-i-premiera-polskiego-modelu-bielik-v2/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "how many billion parameters does the largest model in the bielik family have",
+            "content": "bielik11bv23instruct is a generative text model featuring 11 billion parameters it is a linear merge of the bielik11bv20instruct",
+            "url": "https://replicate.com/aleksanderobuchowski/bielik-11b-v2.3-instruct",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "na bazie jakiego modelu języka powstał model qra1b",
+            "content": "pg i opi opracowały polskojęzyczne generatywne modele językowe o nazwie qra które zostały utworzone na podstawie korpusu danych zawierającego teksty wyłącznie",
+            "url": "https://opi.org.pl/sukces-wspolpracy-pg-i-opi-w-obszarze-ai/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "czym jest llmzsł w kotekście ewaluacji modeli języka",
+            "content": "języka migowego oraz tłumacza języka angielskiego informacje i promocje projektu w prasie lokalnej oraz za pośrednictwem strony internetowej i mediów",
+            "url": "https://funduszeue.slaskie.pl/file/download/11825",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which language model was pllum12bbase based on",
+            "content": "pllum is a family of large language models llms specialized in polish and other slavicbaltic languages with additional english data incorporated for broader",
+            "url": "https://featherless.ai/models/CYFRAGOVPL/PLLuM-12B-chat/readme",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jakim odel języka został zaadoptowany przez startup gaius lex",
+            "content": "i wnuka zupełnie osobną kategorię literatury rzymskiej stanowią fi kcyjne listy poetyckie bohaterów mitologicznych lub historycz256 stron",
+            "url": "https://ruj.uj.edu.pl/xmlui/bitstream/handle/item/2268/wasyl_rzymski_list_poetycki_proba_opisania_gatunku_2002.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "how many billion parameters does the smallest model in the bielik family have",
+            "content": "bielik11bv23instruct is a generative text model featuring 11 billion parameters it is a linear merge of the bielik11bv20instruct",
+            "url": "https://replicate.com/aleksanderobuchowski/bielik-11b-v2.3-instruct",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "ile dni zajęła nauka modelu qra1b",
+            "content": "modele qra będą stanowić podstawę rozwiązań informatycznych do obsługi spraw i procesów które wymagają lepszego zrozumienia języka polskiego",
+            "url": "https://www.trojmiasto.pl/nauka/Na-PG-powstaje-pierwszy-polski-odpowiednik-GPT-Qra-n187256.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which language model was pllum8x7bbase based on",
+            "content": "pllum is a family of large language models llms specialized in polish and other slavicbaltic languages with additional english data incorporated for broader",
+            "url": "https://featherless.ai/models/CYFRAGOVPL/PLLuM-12B-chat/readme",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which language model was used as the base for the bielik7bv01 model",
+            "content": "the bielik7bv01 is a polish language model with 7 billion parameters developed through a collaboration between the opensource project",
+            "url": "https://www.aimodels.fyi/models/huggingFace/bielik-7b-v01-speakleash",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "na bazie jakiego modelu języka powstał model qra7b",
+            "content": "qra lepiej posługuje się językiem polskim w wyniku współpracy pg i opi powstały trzy modele które różnią się złożonością tj qra 1b qra 7b",
+            "url": "https://magazynprzemyslowy.pl/artykuly/pierwszy-tej-skali-polski-odpowiednik-gpt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how many language models are part of the qra family",
+            "content": "polish researchers have already developed other language models including bielik a polish llm by the speakleash foundation and the qra models",
+            "url": "https://notesfrompoland.com/2025/02/24/poland-launches-polish-large-language-model/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which university was the leader of the pllum project",
+            "content": "the plum project was created in 2018 by tahlia mandie after visiting remote communities first hand and realising the need to preserve honour and assist",
+            "url": "https://kakaduplumco.com/pages/foundation?srsltid=AfmBOopwlzyvSnwITR6bqSOruHhzWLXxY5QLsJQr-3xUQeEq641RJNg-",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jaki model będzie wykorzystywany w polskiej administracji publicznej",
+            "content": "prace nad pllum czyli polskim modelem językowym zaowocowały premierą rodziny polskich narzędzi do przetwarzania i generowania tekstów w języku polskim",
+            "url": "https://nask.pl/aktualnosci/polski-asystent-ai-juz-tu-jest",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "under which license is the bielik7bv01 language model released",
+            "content": "v01 notes base model for polish language processing trained with speakleash data can be finetuned for various applications llm name bielik 7b v01",
+            "url": "https://llm.extractum.io/model/speakleash%2FBielik-7B-v0.1,5i8bDZHO9WUNXBINtH6Iyn",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "na jakiej licencji został udostępniony model języka qra7b",
+            "content": "w testach perplexity modele qra 7b i qra 13b otrzymały lepsze wyniki w zakresie zdolności do modelowania języka polskiego niż modele llama 2",
+            "url": "https://pti.org.pl/wp-content/uploads/2024/06/3_Wlasne-czatowi-dac-slowo.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "how many billion parameters does the largest model in the qra family have",
+            "content": "mistral models has 123 billion parameters for us however most interesting models can effectively compete with large basic models the rapid pace",
+            "url": "https://openfuture.eu/wp-content/uploads/2024/11/241128_AI-Speaks-Polish-EN.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jaki jest główny język którym operuje model pllum",
+            "content": "i de facto idea jest taka że będzie to polski model językowy oczywiście nie tylko polski tylko po prostu przeważająca ilość danych",
+            "url": "https://www.99twarzyai.pl/2024/01/23/ai-i-panstwo/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which language model was used as the base for the bielik11bv2 model",
+            "content": "in principle the language model is designed to use the polish language more efficiently than foreign language models and better navigate",
+            "url": "https://scienceinpoland.pl/en/news/news%2C104221%2Cbielik-has-landed-polish-language-model-spreads-its-wings-thanks-supercomputers",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "how many billion parameters does the smallest model in the qra family have",
+            "content": "small models include bert models with a few hundred million parameters each but also models with several billion parameters such as the popular open model",
+            "url": "https://openfuture.eu/wp-content/uploads/2024/11/241128_AI-Speaks-Polish-EN.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "ile dni zajęła nauka modelu qra7b",
+            "content": "modele qra będą stanowić podstawę rozwiązań informatycznych do obsługi spraw i procesów które wymagają lepszego zrozumienia języka polskiego",
+            "url": "https://www.trojmiasto.pl/nauka/Na-PG-powstaje-pierwszy-polski-odpowiednik-GPT-Qra-n187256.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "what is the context window size of the pllum12bbase language model",
+            "content": "the context window in language rearrangement is the maximum episode horizon by default we used a perdevice batch size of 64 with context length 32 leading",
+            "url": "https://llm-rl.github.io/static/images/llarp.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "ile miliardów parametrów ma najmniejszy model z rodziny pllum",
+            "content": "zespół pllum zbudował najmniejszy 8 mld parametrów ale wiodący w rankingach dla polskiego języka generator tego typu pllum i hive dr",
+            "url": "https://samorzad.infor.pl/wiadomosci/6875198,pllum-modele-jezykowe-wyspecjalizowane-w-jezyku-polskim-juz-udostepnione-lepsze-od-chatgpt.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "what is the main language that the language models from the bielik family operate in",
+            "content": "how the ai in proste pismo uses bielik the first polish language model created by the speakleash foundation and agh university of science and",
+            "url": "https://polish-presidency.consilium.europa.eu/en/news/clear-and-innovative/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "na bazie jakiego modelu języka powstał model qra13b",
+            "content": "pg i opi opracowały polskojęzyczne generatywne modele językowe o nazwie qra które zostały utworzone na podstawie korpusu danych zawierającego",
+            "url": "https://magazynprzemyslowy.pl/artykuly/pierwszy-tej-skali-polski-odpowiednik-gpt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which university is behind the creation of the qra language model",
+            "content": "a computing environment dedicated to building artificial intelligence models was created at gdańsk university of technology in it competence",
+            "url": "https://tvpworld.com/76556106/poland-scientists-develop-polish-language-ai-model-akin-to-gpt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "what is the context window size of the pllum8x7bbase language model",
+            "content": "dissertation introduces 8b 70b and 400b sized models and increases the maximum context window size to 8192 tokens while training on a substantially larger",
+            "url": "https://summit.sfu.ca/_flysystem/fedora/2024-10/etd23144.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "kto jest głównym właścicielem modeli z rodziny pllum",
+            "content": "jako główny rezultat projektu oddana została rodzina modeli językowych dostosowanych do generowania i przetwarzania polszczyzny modele o",
+            "url": "https://pllum.org.pl/prompt_book",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which university infrastructure was used to train the bielik language model",
+            "content": "it was created in cooperation with linguists from the adam mickiewicz university and the poznań city hall in order to facilitate the creation of more accessible",
+            "url": "https://www.psnc.pl/psnc-is-an-official-partner-of-the-polish-presidency-of-the-eu-council/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "na jakiej licencji został udostępniony model języka qra13b",
+            "content": "w testach perplexity modele qra 7b i qra 13b otrzymały lepsze wyniki w zakresie zdolności do modelowania języka polskiego niż modele llama 2",
+            "url": "https://pti.org.pl/wp-content/uploads/2024/06/3_Wlasne-czatowi-dac-slowo.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "what is the context window size for language models from the qra family",
+            "content": "contexts using a fixedsize sliding window 131 our partitioning aims at satisfying two objectives first the context size should not",
+            "url": "https://orbilu.uni.lu/bitstream/10993/52045/1/Saad_Ezzini_PhD_Thesis.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which university in poland created the llmzszł benchmark",
+            "content": "this benchmark is established through a comprehensive dataset sourced from the polish central examination board comprising nearly 19000 closed",
+            "url": "https://www.themoonlight.io/review/llmzsz-a-comprehensive-llm-benchmark-for-polish",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "ile miliardów parametrów ma największy model z rodziny pllum",
+            "content": "model moe z przeszło 40 mld parametrów oparty na mixtralu 8x7b aż po największy model z 70 mld parametrów oparty na llama 31 70b mamy więc",
+            "url": "https://homodigital.pl/mamy-kolejny-polski-model-ai-pllum-w-koncu-zadebiutowal/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "what is the context window size for the bielik7bv01 language model",
+            "content": "by k wróbel 2024 this paper presents our approach to the poleval 2024 task 1 on polish language reading comprehension utilizing stateoftheart large language models",
+            "url": "https://ruj.uj.edu.pl/bitstreams/c023d599-6213-4314-a77d-696e7af359e6/download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "ile dni zajęła nauka modelu qra13b",
+            "content": "w wyniku współpracy pg i opi powstały trzy modele które różnią się złożonością tj qra 1b qra 7b qra 13b",
+            "url": "https://www.trojmiasto.pl/nauka/Na-PG-powstaje-pierwszy-polski-odpowiednik-GPT-Qra-n187256.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "under which license is the qra1b language model released",
+            "content": "in march 2024 gdańsk university of technology and the information processing center ośrodek przetwarzania informacji opi created the qra model by tuning",
+            "url": "https://openfuture.eu/wp-content/uploads/2024/11/241128_AI-Speaks-Polish-EN.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what type of data is the llmzszł benchmark based on",
+            "content": "the collected dataset is categorized into multiple tiers based on complexity middle school exams targeted at 15yearolds high school exams",
+            "url": "https://www.themoonlight.io/review/llmzsz-a-comprehensive-llm-benchmark-for-polish",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "what is the context window size for the bielik7bv2 language models",
+            "content": "model inputs and outputs the model processes text using a context window of 4096 tokens and generates polish language content it operates",
+            "url": "https://www.aimodels.fyi/models/huggingFace/bielik-11b-v22-instruct-speakleash",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jakiego typu modelu języka są modele z rodziny qra",
+            "content": "qra to generatywne modele językowe opracowane w języku polskim zostały stworzone przez specjalistów z naszego rodzimego podwórka",
+            "url": "https://blog.doktortusz.pl/modele-qra/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which language model was used as the base for the qra1b model",
+            "content": "the qra models will constitute the basis for it solutions to handle issues and processes that require a better understanding of the polish",
+            "url": "https://scienceinpoland.pl/en/news/news%2C101077%2Cscientists-develop-polish-language-language-models-possible-polish-equivalents-gpt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is llmzsł in the context of language model evaluation",
+            "content": "a large language model llm is a type of machine learning model designed for natural language processing tasks such as language generation",
+            "url": "https://en.wikipedia.org/wiki/Large_language_model",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "na jakiej licencji został udostępniony model języka llamapllum8bbase",
+            "content": "czasopismo jest dostępne w codnie i w prenumeracie wp³aty na prenumeratę przyjmujemy bezpoœred nio na nasze konto pko bp sa 196 stron",
+            "url": "http://www.bc.ore.edu.pl/Content/76/2003_03_all.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which language model was adopted by the gaius lex startup",
+            "content": "latin is a classical language belonging to the italic branch of the indoeuropean languages latin was originally spoken by the latins in latium now known",
+            "url": "https://en.wikipedia.org/wiki/Latin",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jaki jest główny język którym operują modele języka z rodziny qra",
+            "content": "wydaje się że dzisiaj czasem podobne jest po toczne mniemanie wielu osób o angielszczyźnie języku który wszyscy znają albo przynajmniej się 90 stron",
+            "url": "https://www.frse.org.pl/brepo/panel_repo_files/2021/07/21/lkycsu/jows-5-2019-online-0.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "how many days did it take to train the qra1b model",
+            "content": "this course is a combination of a 2day effects course and a 1day riskcurves course which will be conducted in person",
+            "url": "https://www.gexcon.com/courses/effects-riskcurves-course/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "what type of task can be found in the llmzszł benchmark",
+            "content": "four tasks have emerged as benchmarks tasks for language modelling these tasks are grammaticality analysis sentiment analysis semantic textual similarity",
+            "url": "https://wisconsin.pressbooks.pub/naturallanguage/chapter/benchmarktasks/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "na jakiej licencji został udostępniony model języka pllum12bbase",
+            "content": "taką licencją może być licencja na prowadzenie działalności telekomunikacyjnej o której mowa w przepisie art 10 ust 1 pt niewątpliwie",
+            "url": "https://orzeczenia.uzp.gov.pl/Home/Move?Phrase=art.%204%20pkt%201&CountStats=False&Pg=1&total=3367&ind=3351",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which language model was adopted by the poznańbased company domdata",
+            "content": "poznań i okolice junior ferryt developer domdata ag sp z o odriverless in which we created an autonomous system for the bolide we used programming languages such as python and c",
+            "url": "https://pl.linkedin.com/in/kamil-osak",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jaki jest rozmiar ostatecznego korpusu uczęcego modele języka z rodziny qra",
+            "content": "parcele są różnych wielkości poczynającod 1800 m9 zalesione sosnowym lasem na rozpłaty szego każdego miesiąca instytucje związki i organizacje",
+            "url": "https://crispa.uw.edu.pl/object/files/214946/display/JPEG",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which language model was used as the base for the qra7b model",
+            "content": "the qra 7b model is a powerful language model adapted to the polish language resulting from a collaboration between the national information processing",
+            "url": "https://dataloop.ai/library/model/opi-pg_qra-7b/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which model will be used in polish public administration",
+            "content": "polands government has launched a polish large language model pllum that is freely available for all to use and is intended to support",
+            "url": "https://notesfrompoland.com/2025/02/24/poland-launches-polish-large-language-model/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "kto jest głównym właścicielem modeli języka z rodziny bielik",
+            "content": "pllum polish large language model to rodzina modeli sztucznej inteligencji która pozwala przetwarzać i generować teksty w języku polskim",
+            "url": "https://www.propertynews.pl/polityka-i-spoleczenstwo/mc-polska-buduje-wlasna-sztuczna-inteligencje-pllum-gotowy-do-dzialania-komunikat,186436.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "under which license is the qra7b language model released",
+            "content": "the published versions of the qra models were initialized with the weights of english llama 2 checkpoints and then further trained on a carefully cleaned",
+            "url": "https://bytez.com/model/OPI-PG/Qra-7b/details",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "na bazie jakiego modelu języka powstał llamapllum8bbase",
+            "content": "czasopismo jest dostępne w codnie i w prenumeracie wp³aty na prenumeratę przyjmujemy bezpoœred nio na nasze konto pko bp sa 196 stron",
+            "url": "http://www.bc.ore.edu.pl/Content/76/2003_03_all.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the main language that the pllum model operates in",
+            "content": "pllum aims to support polish enterprise by facilitating access to extended polishlanguage models under free opensource licenses that are designed to meet",
+            "url": "https://opi.org.pl/en/the-launch-of-the-first-polish-open-large-language-model-pllum/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jakiego typu modelem si jest model sójka",
+            "content": "4 godziny temu sójka to model typu guard to taki algorytm który bada wejście i wyjście dużego modelu językowego i podejmuje decyzję czy przepuścić je",
+            "url": "https://mycompanypolska.pl/artykul/nowe-narzedzie-od-tworcow-bielika-sojka-to-algorytm-ktory-ochroni-cie-w-internecie/17341",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "how many days did it take to train the qra7b model",
+            "content": "qra7b was trained for one epoch on sequences of 4096 tokens which is a significant improvement over other models this training process took 14 days which is",
+            "url": "https://dataloop.ai/library/model/opi-pg_qra-7b/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "na bazie jakiego modelu języka powstał pllum12bbase",
+            "content": "publikacja opracowana w ramach projektu „pwp kształcenie zawodowe na neofilologiach kul na potrzeby rynku pracy” realizowanego przez katolicki uniwersytet",
+            "url": "https://repozytorium.kul.pl/bitstream/20.500.12153/1887/1/Sowa_M__Mocarz-Kleidienst_M__Czyzewska_U-Nauczanie_jezykow_obcych_na_potrzeby_rynku_pracy.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how many billion parameters does the smallest model in the pllum family have",
+            "content": "with 7 billion parameters touvron et al 2023 to illustrate how many people are in the plum family gpt 4 let us break it down",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10629494/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "ile miliardów parametrów ma największy model z rodziny bielik",
+            "content": "bielik to rodzina małych i średnich modeli językowych największy z nich bielik11bv2 3 ma 11 mld parametrów dla porównania szacuje się że gpt4o ma",
+            "url": "https://www.tuv-nord.com/pl/pl/bielik/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which language model was used as the base for the qra13b model",
+            "content": "models qra 7b and qra 13b achieve a significantly better perplexity result ie the ability to model the polish language in terms of",
+            "url": "https://scienceinpoland.pl/en/news/news%2C101077%2Cscientists-develop-polish-language-language-models-possible-polish-equivalents-gpt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "ile modeli języka wchodzi w skład rodziny qra",
+            "content": "prezentowana monografia stanowi nawiązanie do konferencji nauko wej która odbyła się w akademii pedagogiki specjalnej im marii grzego",
+            "url": "https://www.aps.edu.pl/media/3259110/norma_i_zaburzenia_e-book.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "who is the main owner of the models from the pllum family",
+            "content": "founder spotlight doron meyassed ceo and founder of plum guide doron meyassed founded luxury holiday home platform plum guide in 2015",
+            "url": "https://medium.com/talis-capital/founder-spotlight-doron-meyassed-ceo-and-founder-of-plum-guide-ed7d179dfd2b",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "ile miliardów parametrów ma najmniejszy model z rodziny bielik",
+            "content": "sam bielik posiada zasoby równe 7 miliardom parametrów zaś chatgpt ma ich ponad 175 miliardów jak podaje serwis prompti “dla polskiego",
+            "url": "https://ccnews.pl/2024/04/25/bielik-cudze-chwalicie-swego-nie-znacie/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "under which license is the qra13b language model released",
+            "content": "the published versions of the qra models were initialized with the weights of english llama 2 checkpoints and then further trained on a carefully cleaned",
+            "url": "https://bytez.com/model/OPI-PG/Qra-7b/details",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jaka uczelnia była liderem projektu pllum",
+            "content": "lider projektu naskbz8rmszrpng nask państwowy instytut badawczy veaaqbaaehncqjehgaaaabjru5erkjggg instytut podstaw informatyki polskiej akademii nauk",
+            "url": "https://pllum.org.pl/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how many billion parameters does the largest model in the pllum family have",
+            "content": "by g orrù 2023 in total there are 6 daughters 6 brothers mr plum mrs plum ≪6 6 1 1 14≫14 people in the plum family answer boxed14",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10244637/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "na bazie jakiego modelu języka powstał bielik7bv01",
+            "content": "zespół speakleash pochwalił się swoim modelem językowym bielik7bv 01 to generatywne narzędzie oparte na architekturze mistral7bv01 nazwa",
+            "url": "https://android.com.pl/tech/720144-bielik-polski-model-ai/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how many days did it take to train the qra13b model",
+            "content": "training time the model was trained for one epoch on sequences of 4096 tokens which took around 35 days optimizations the training process used various",
+            "url": "https://dataloop.ai/library/model/opi-pg_qra-13b/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "ile miliardów parametrów ma największy model z rodziny qra",
+            "content": "zespół badaczy stworzył całą rodzinę polskich modeli językowych od 8 do 70 mld parametrów dostosowanych do różnych wyzwań językowych to",
+            "url": "https://www.erp-view.pl/rynek-it/31419-polski-model-ai-juz-znajduje-zastosowanie-w-biznesie.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jakie okno kontekstowe ma model języka llamapllum8bbase",
+            "content": "czasopismo jest dostępne w codnie i w prenumeracie wp³aty na prenumeratę przyjmujemy bezpoœred nio na nasze konto pko bp sa 196 stron",
+            "url": "http://www.bc.ore.edu.pl/Content/76/2003_03_all.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which language model was adopted by comarch in chaterp",
+            "content": "integrated into enterprise solutions chaterp enables seamless communication with the system using natural language this feature makes the entire comarch erp",
+            "url": "https://www.comarch.com/erp/ai-assistant/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "na jakiej licencji został udostępniony model języka bielik7bv01",
+            "content": "pierwszy duży model językowy stworzony w modelu open source jest już dostępny bielik llm wylądował",
+            "url": "https://speakleash.org/blog/bielik-wyladowal-24-04-2024/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "what type of language model are the models from the qra family",
+            "content": "polish researchers have already developed other language models including bielik a polish llm by the speakleash foundation and the qra models",
+            "url": "https://notesfrompoland.com/2025/02/24/poland-launches-polish-large-language-model/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "ile miliardów parametrów ma najmniejszy model z rodziny qra",
+            "content": "oznaczenia liczbowe odnoszą się do liczby parametrów w modelu 1b oznacza 1 miliard parametrów 7b 7 miliardów i tak dalej naukowcy wzięli",
+            "url": "https://homodigital.pl/polscy-naukowcy-z-llamy-zrobili-qre-czyli-o-nowym-polskim-llm/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jakie okno kontekstowe ma model języka pllum12bbase",
+            "content": "breuschapagana i testu f można określić model na którym ma bazować test domyślnie model składa się ze składnika stałego składnika liniowego w 180 stron",
+            "url": "https://www.ibm.com/docs/SSLVMB_26.0.0/pdf/pl/IBM_SPSS_Statistics_Base.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "under which license is the llamapllum8bbase model released",
+            "content": "we devote most attention to the speakleash project and the bielik family of models that it has released in 2024 we also describe the work of the pllum polish",
+            "url": "https://openfuture.eu/wp-content/uploads/2024/11/241128_AI-Speaks-Polish-EN.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "na bazie jakiego modelu języka powstał bielik11bv2",
+            "content": "bielik11bv2 nowy polski duży model językowy bielik powstał w efekcie prac zespołu działającego w ramach fundacji speakleash oraz",
+            "url": "https://www.agh.edu.pl/aktualnosci/detail/bielik-polski-model-jezykowy-powstal-w-agh",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the main language that the language models from the qra family operate in",
+            "content": "polands government has launched a polish large language model pllum that is freely available for all to use and is intended to support",
+            "url": "https://notesfrompoland.com/2025/02/24/poland-launches-polish-large-language-model/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jaka uczelnia stoi za stworzeniem modelu języka qra",
+            "content": "celem zmian wprowadzanych przez 10 partnerów będzie stworzenie modelu to jedyna polska uczelnia która koordynuje tworzenie jednego z 41",
+            "url": "https://www.frse.org.pl/brepo/panel_repo_files/2022/01/04/f2gfwp/uniwersytety-europejskie-online.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "under which license is the pllum12bbase language model released",
+            "content": "pantheon rp 161 12b nemo parameters and internals model architecture mistralforcausallm license apache20 context length 1024000 model max length",
+            "url": "https://llm.extractum.io/model/Gryphe%2FPantheon-RP-1.6.1-12b-Nemo,4HMA2T2x52CkOHTNCAAslm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jaki jest główny język którym operują modele języka z rodziny bielik",
+            "content": "nie tylko języka ojczystego ale także języka którym posługiwali się jako drugim ligara 2018 dodam tylko że opis zagadnienia",
+            "url": "http://www.poradnikjezykowy.uw.edu.pl/wydania/poradnik_jezykowy.763.2019.04.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the size of the final training corpus for language models from the qra family",
+            "content": "this is a collection containing 8 billion words five times the size of the national language corpus but experiments with training a model solely on this",
+            "url": "https://openfuture.eu/wp-content/uploads/2024/11/241128_AI-Speaks-Polish-EN.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jaka jest wielkość okna kontekstowego dla modeli języka z rodzin qra",
+            "content": "parametr lpclassname określa nazwę klasy okien do której należeć będzie nasze okno a więc pośrednio determinuje jego procedurę okna czyli sposób",
+            "url": "http://www.ift.uni.wroc.pl/~zkoza/gui/skrypt/windowshtml.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jaka jest wielkość okna kontekstowego dla modelu języka bielik7bv01",
+            "content": "w ramach aktualizacji mamy do dyspozycji także szersze okno kontekstowe wynoszące aż 32 768 tokenów dzięki czemu model może przetwarzać dłuższe",
+            "url": "https://haimagazine.com/pl/newsy/cudze-chwalicie-swego-nie-znacie-jak-wypada-bielik-v2-na-tle-konkurencji/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "naukowcy z jakiego uniwerystetu w polsce stworzyli benchmark llmzszł",
+            "content": "longllama pozwoli potencjalnie obsługiwać 64 razy więcej tekstu niż chatgpt duży model językowy llm badaczy z uw pan i ideas ncbr oparto",
+            "url": "https://hub.landofitmasters.pl/pl/llm-z-polski-bardziej-wydajny-niz-chatgpt/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "under which license is the pllum8x7bbase language model released",
+            "content": "by hh rashidi this manuscript serves as an introduction to a comprehensive 7part review article series on artificial intelligence ai and machine learning ml and",
+            "url": "https://www.modernpathology.org/article/S0893-3952(24)00268-0/fulltext",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "na infrastruktzure jakiej uczelnii był uczony model języka bielik",
+            "content": "bielik powstał w efekcie prac zespołu działającego w ramach fundacji speakleash oraz akademickiego centrum komputerowego cyfronet agh i jest",
+            "url": "https://www.agh.edu.pl/aktualnosci/detail/bielik-polski-model-jezykowy-powstal-w-agh",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "who is the main owner of the language models from the bielik family",
+            "content": "polish researchers have already developed other language models including bielik a polish llm by the speakleash foundation and the qra models",
+            "url": "https://notesfrompoland.com/2025/02/24/poland-launches-polish-large-language-model/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what type of ai model is the sójka model",
+            "content": "czym jest więc sójka to model typu guardrails stworzony do analizy i moderacji treści w celu zapewnienia że systemy sztucznej inteligencji",
+            "url": "https://cyfrowa.rp.pl/technologie/art41865031-nadlatuje-sojka-nowy-polski-projekt-ai-w-ktorego-budowie-pomoga-internauci",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jaki typ zadania znjadziemy w benchmarku llmzszl",
+            "content": "chodzi o zadania mające na celu przetestowanie zdolności modeli do rozumienia i generowania polskiego tekstu ranking ma być punktem odniesienia dla społeczności polskich modeli językowych oraz pomóc badaczom i praktykom zrozumieć możliwości różnych modeli",
+            "url": "https://itwiz.pl/speakleash-stworzyl-ranking-oceniajacy-modele-llm-na-podstawie-zestawu-polskich-zadan/",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jaki model języka został zaadoptowany przez poznańską firmę domdata",
+            "content": "domdata jest dostawcą systemów informatycznych w swojej ofercie posiadamy rozwiązania biznesowe dla bankowości oraz przedsiębiorstw ✔️ sprawdź",
+            "url": "https://domdata.pl/",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "what is the context window size of the llamapllum8bbase language model",
+            "content": "llama 31 allows a context window of 128k tokens we investigate how to take advantage of this long context of llama without running into performance issues",
+            "url": "https://codesphere.com/articles/taking-advantage-of-the-long-context-of-llama-3-1-2",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jaki model języka został zaadoptowany przez firmę comarch w chaterp",
+            "content": "usługi systemy informatyczne i obsługa firm opieka i rozwiązania it comarch jest globalnym dostawcą biznesowych rozwiązań it obsługujących relacje z klientami optymalizujących działalność firmy oraz procesy biznesowe",
+            "url": "https://www.comarch.pl/",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "na jakiej licencji został udostępniony model języka pllum8x7bbase",
+            "content": "odkryj pllum model sztucznej inteligencji który rozumie i wykorzystuje język polski w sektorze publicznym i prywatnym",
+            "url": "https://pllum.org.pl/",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "na bazie jakiego modelu języka powstał pllum8x7bbase",
+            "content": "w grudniu dwa w pełni otwarte oraz pllum12b zostały przekazane ministerstwu modele te zostaną upublicznione tak szybko jak ministerstwo cyfryzacji wystawi odpowiednie licencje ponieważ to ono jest właścicielem wytworzonych w projekcie modeli inne modele w tym modele naukowe uczone na pełnym zbiorze danych 150 mld tokenów oraz modele otwarte do zastosowań komercyjnych o rozmiarach 8x7b i 70b zostaną",
+            "url": "https://gadzety360.pl/2025/01/11/co-sie-dzieje-z-pllum-nowe-informacje/",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "jakie okno kontekstowe ma model języka pllum8x7bbase",
+            "content": "projekt pllum polish large language model to inicjatywa mająca na celu stworzenie otwartego polskiego modelu językowego istotnym elementem tego przedsięwzięcia jest opracowanie obszernego i zróżnicowanego zbioru danych oddającego złożoność języka polskiego",
+            "url": "https://pllum.org.pl/",
+            "engine": "ddg"
+        }
+    ]
+}

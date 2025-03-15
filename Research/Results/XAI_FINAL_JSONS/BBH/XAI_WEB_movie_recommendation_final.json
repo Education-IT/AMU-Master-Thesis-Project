@@ -1,0 +1,1788 @@
+{
+    "task": "bbh_zeroshot_movie_recommendation",
+    "dataset": "web_access_movie_recommendation_final",
+    "questions": 250,
+    "noWebContextCount": 0,
+    "contaminated_queries": 233,
+    "contaminated_urls": 1023,
+    "valid_urls": 250,
+    "avg_contaminated_before_valid": 5.092,
+    "contaminated_data_ratio": 0.8036135113904164,
+    "most_contaminated_urls": {},
+    "noWebContext": [],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "find a movie similar to batman the mask the fugitive pretty woman options a the front page b maelstrom c the lion king d lamerica",
+            "content": "input find a movie similar to batman the mask the fugitive b maelstrom c the lion king d lamerica target c 9",
+            "url": "https://medium.com/@bezircs/llm-evaluation-what-is-the-reality-96e791f6cadf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to raiders of the lost ark the matrix star wars episode iv a new hope inception options a attack of the killer tomatoes b up c ernest rides again d white christmas",
+            "content": "movies similar to raiders of the lost ark movie similar to similar films to raiders of the lost ark film similar to if you liked raiders of the lost ark you might be interested in these others if you liked raiders of the lost ark you may also like these others movie recommendations if you",
+            "url": "https://m.filmaffinity.com/ca/similar-movies.php?movie-id=727297",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to the lion king monsters inc catch me if you can minority report options a shrek b the natural c strike d gentlemen broncos",
+            "content": "movies similar to the lion king movie similar to similar films to the lion king film similar to if you liked the lion king you might be interested in these others if you liked the lion king you may also like these others movie recommendations if you liked the lion king",
+            "url": "https://m.filmaffinity.com/ca/similar-movies.php?movie-id=419029",
+            "engine": "braveAPI"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to schindlers list braveheart the silence of the lambs tombstone options a orlando b guilty of romance c forrest gump d all the real girls",
+            "content": "hope can set you free crime drama chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of",
+            "url": "https://rpubs.com/naren_10/DC_GroupAssignment_2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "find a movie similar to terminator 2 judgment day dead man walking braveheart the shawshank redemption options a the fugitive b music and lyrics c deuce bigalow male gigolo d louis ck oh my god",
+            "content": "day because make think some much really about out want up more work back way find try better how before use give life help she sure no lot every",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to interview with the vampire the vampire chronicles the shawshank redemption pulp fiction the usual suspects options a caligula b anger management c the fugitive d mommy",
+            "content": "interview with the vampire 1994 interview 1971 1973 2000 2003 2007 interview the documentary 2005 intervista 1987 intimacy 2001 intimate",
+            "url": "https://alphabetizer.flap.tv/lists/list-of-every-movie-ever-made.php",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to goodfellas the big lebowski raiders of the lost ark the silence of the lambs options a doctor dolittle b pi c house party 3 d star wars episode iv a new hope",
+            "content": "one of the programs shown on the home screen is star warsavi an ascii art recreation of the film star wars episode iv a new hope",
+            "url": "https://www.avid.wiki/AVID:Logos_in_Popular_Culture",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to the silence of the lambs schindlers list the usual suspects seven options a blame it on the bellboy b forrest gump c barcelona d frank",
+            "content": "movie but film on not you he are his have be one all at by an who they from so like there her or just about if has out what some good more when she very",
+            "url": "http://www.stat.yale.edu/~tba3/class_data/aclImdb/imdb.vocab",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to star wars episode vii the force awakens inside out pulp fiction raiders of the lost ark options a ernest rides again b forrest gump c the proposal d everything you always wanted to know about sex but were afraid to ask",
+            "content": "seven ways to die crime drama mystery thriller a film about two homicide detectives morgan freeman and brad pitt desperate hunt for a",
+            "url": "https://rpubs.com/naren_10/DC_Group_Assignment_2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to terminator 2 judgment day aladdin the shawshank redemption the lion king options a iron man hulk heroes united b schindlers list c sherlock jr d lilya 4ever",
+            "content": "9 movies to watch if you like terminator 2 judgment day the wizard of oz 1939 the invisible boy 1957 old yeller 1957 the time",
+            "url": "https://filmschoolrejects.com/movies-to-watch-terminator-2-judgment-day/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to terminator 2 judgment day the fugitive the shawshank redemption dead man walking options a walk b dont run c shaun the sheep movie d rocky iv e braveheart",
+            "content": "in this edition we present a guide to the movies you should watch if you like terminator 2 judgment day",
+            "url": "https://filmschoolrejects.com/movies-to-watch-terminator-2-judgment-day/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to fight club the shawshank redemption kill bill vol 1 kill bill vol 2 options a sorority house massacre b evolution c memento d scoobydoo goes hollywood",
+            "content": "you could try crouching tiger hidden dragon hero at the cinema right now once upon a time in china and its sequels shogun assassin and the",
+            "url": "https://www.avforums.com/threads/films-similar-to-kill-bill-vol-1.154250/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to the sixth sense one flew over the cuckoos nest wallace gromit a close shave the maltese falcon options a feast b in the loop c return with honor d reservoir dogs",
+            "content": "one flew over the cuckoos nest 1975 i have always insisted that jack nicholson stayed within a certain comfort zone for the majority of",
+            "url": "https://www.ageofthenerd.com/2017/12/5-great-film-endings-cinema-history/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to the matrix seven the usual suspects reservoir dogs options a the godfather part ii b the sting c trash humpers d the seventh sign",
+            "content": "a demonic scatterbrained bloodfilled homage to trash humpers or at least it wanted to be the ritualistic cultists appear to bathe in blood with an",
+            "url": "https://www.48hours.co.nz/person/38/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to spiderman spiderman 2 the matrix independence day options a jurassic world fallen kingdom b the fifth element c across the universe d insomnia",
+            "content": "the choices should serve as useful guideposts in helping educators select texts of similar complexity quality and range for their own classrooms they",
+            "url": "https://www.ode.state.or.us/wma/teachlearn/commoncore/ela-appendix-b.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to the wizard of oz the big lebowski being john malkovich run lola run options a dragon ball z dead zone b lightning in a bottle c the omega man d goodfellas",
+            "content": "man last old should nice nothing through happen reason play put big ever kind month yes again idea watch these bit yeah end seem problem those already real",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to the fugitive interview with the vampire the vampire chronicles the mask the lion king options a babe b the house c saving santa d experimenter",
+            "content": "10 movies to watch if you liked interview with the vampire the vampire chronicles what we do in the shadows only lovers left alive the lost",
+            "url": "https://screenrant.com/movies-interview-with-the-vampire/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to pretty woman schindlers list the shawshank redemption apollo 13 options a in july b black snake moan c dances with wolves d heartbreaker",
+            "content": "find try better how before use give life help she sure no lot every into then than great keep down start best tell see someone would go too bad any actually",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to inception gladiator the matrix saving private ryan options a robots b king of comedy c raiders of the lost ark d wont you be my neighbor",
+            "content": "inception is a coffee house film discussion but it still kind of underwhelms the shit out of me none of the action save for joseph gordon levitts amazing",
+            "url": "http://legacy.aintitcool.com/node/46142",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "find a movie similar to braveheart the mask the fugitive batman options a club dread b george washington c schindlers list d once upon a time in america",
+            "content": "hope can set you free crime drama chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of",
+            "url": "https://rpubs.com/naren_10/DC_GroupAssignment_2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to the shawshank redemption don juan demarco mr hollands opus get shorty options a howards end b long nights journey into day c boccaccio 70 d whats eating gilbert grape",
+            "content": "escape from alcatraz 1979 rescue dawn 2006 the count of monte cristo 2002 my personal favorite from this list cool hand luke 1967",
+            "url": "https://tildes.net/~movies/1lo1/besides_shawshank_redemption_what_films_do_you_like_that_feature_grit_resilience_endurance_under",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to the fifth element gladiator gattaca the matrix options a birdman of alcatraz b raiders of the lost ark c le samouraï d imagine that",
+            "content": "movie but film on not you he are his have be one all at by an who they from so like there her or just about if has out what some good more when she very",
+            "url": "http://www.stat.yale.edu/~tba3/class_data/aclImdb/imdb.vocab",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to dances with wolves the shawshank redemption the fugitive stargate options a air force one b clear and present danger c bone tomahawk d mambo italiano",
+            "content": "one time just like have people so can first which good know year all day because make think some much really about out want up more work back way take love",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to star wars episode i the phantom menace the sixth sense independence day fight club options a terminator 2 judgment day b a field in england c green street hooligans d guardians of the galaxy 2",
+            "content": "324 pp 2 hh fotos bien boykin bhangra glitzy petzold dieter resubmitted rossini laredo fastidious chetniks orona charlton interpretive liquid wipa shrout",
+            "url": "http://www.cardpostage.com/zorn.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to xmen planet of the apes forrest gump independence day options a the terminator b remember me c train to busan d fast furious",
+            "content": "like have people so can first which good know year all day because make think some much really about out want up more work back way take love do need well",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "find a movie similar to star wars episode v the empire strikes back groundhog day mission impossible star wars episode iv a new hope options a view from the top b the doors c raiders of the lost ark d quick change",
+            "content": "find similar movies like star wars episode v the empire strikes back which are popular on netflix itunes amazon disney right now",
+            "url": "https://flixpatrol.com/title/star-wars-episode-v-the-empire-strikes-back/similar-movies/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "find a movie similar to the terminator star wars episode vi return of the jedi forrest gump star wars episode iv a new hope options a independence day b the human condition iii c the lifeguard d secretary",
+            "content": "here are six alternatives 1 star wars episode i galactic destiny 2 star wars episode ii the unraveling conspiracy 3 star wars episode iii dawn of chaos",
+            "url": "https://boards.theforce.net/threads/alternative-star-wars-movie-titles.50057409/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to the shawshank redemption the fugitive forrest gump pulp fiction options a i know who killed me b oceans c dances with wolves d it cant be",
+            "content": "what was the best film of the 3 the shawshank redemption votes 8 364 pulp fiction votes 8 364 forrest gump votes 6 273",
+            "url": "https://community.cbr.com/threads/shawshank-redemption-vs-pulp-fiction-vs-forrest-gump.148545/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to braveheart the fugitive the shawshank redemption the usual suspects options a pale rider b runaway brain c crimson tide d super mario bros",
+            "content": "the first one that came to mind is the revenant basically nothing than endurance i think the martian also fits the bill",
+            "url": "https://tildes.net/~movies/1lo1/besides_shawshank_redemption_what_films_do_you_like_that_feature_grit_resilience_endurance_under",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to catch me if you can shrek monsters inc the lion king options a aladdin b enter the void c contraband d no small affair",
+            "content": "smiths guide to maritime museums of north america part 2 southern gulf coastrobert h smith u3cm2y",
+            "url": "https://www.athle.fr/asp.net/main.pdf/pdf.aspx?path=https://xn---47-5cd3cgu2f.xn--p1ai/mghfwnzxcrgqfe43fv",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to mr hollands opus whats eating gilbert grape braveheart don juan demarco options a kevin hart im a grown little man b iq c pulp fiction d penguins of madagascar",
+            "content": "find try better how before use give life help she sure no lot every into then than great keep down start best tell see someone would go too bad any actually",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to heat the fugitive forrest gump the silence of the lambs options a death race 2 b cannonball run ii c independence day d slumber party massacre ii",
+            "content": "slugs the movie 1988 slugterra return of the elementals 2014 slumber party massacre ii 1987 slumdog millionaire 2008 slums of beverly hills 1998",
+            "url": "https://alphabetizer.flap.tv/lists/list-of-every-movie-ever-made.php",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to pulp fiction the silence of the lambs forrest gump laputa castle in the sky options a bone tomahawk b the brice man c the village d the shawshank redemption",
+            "content": "what was the best film of the 3 the shawshank redemption votes 8 364 pulp fiction votes 8 364 forrest gump votes 6 273",
+            "url": "https://community.cbr.com/threads/shawshank-redemption-vs-pulp-fiction-vs-forrest-gump.148545/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to army of darkness go the sixth sense alien options a cool hand luke b children of the corn iii c ice guardians d cinema paradiso",
+            "content": "m jettsimpson 1989 cytowane przez 11 abstract intended to provide teachers with a list of recently published books recommended for children this annotated booklist cites titles of childrens",
+            "url": "https://files.eric.ed.gov/fulltext/ED311453.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to pulp fiction forrest gump inside out edge of tomorrow options a 1984 b good night c and good luck d kiss of the dragon e district 9",
+            "content": "movie is fantastic ryan gosling brings out so much emotion in such an understated way that it is fantastic to the point if you are expecting something in",
+            "url": "https://prod-dcd-datasets-public-files-eu-west-1.s3.eu-west-1.amazonaws.com/6af90bff-5b1e-4e89-9767-567f95743570",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to american beauty dr strangelove or how i learned to stop worrying and love the bomb the lord of the rings the two towers seven samurai options a latter days b dirty dancing havana nights c the silence of the lambs d the devil and daniel johnston",
+            "content": "demon slayer kimetsu no yaiba to the hashira training 2024 demon slayer kimetsu no yaiba the hashira meeting arc 2021 die hard 1988 dirty dancing",
+            "url": "https://agoodmovietowatch.com/movieslike/dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb-1964/page/1/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to forrest gump star wars episode iv a new hope back to the future star wars episode vi return of the jedi options a the apple b independence day c boiling point d car wash",
+            "content": "here are six alternatives 1 star wars episode i galactic destiny 2 star wars episode ii the unraveling conspiracy 3 star wars episode iii dawn of chaos",
+            "url": "https://boards.theforce.net/threads/alternative-star-wars-movie-titles.50057409/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "find a movie similar to raiders of the lost ark the shawshank redemption inception pulp fiction options a beyond the poseidon adventure b the chorus c forrest gump d scouts guide to the zombie apocalypse",
+            "content": "some of my favorites tried to sort them a little survival films the revenant 2015 lone survivor 2013 127 hours 2010 cast away 2000",
+            "url": "https://tildes.net/~movies/1lo1/besides_shawshank_redemption_what_films_do_you_like_that_feature_grit_resilience_endurance_under",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to the fugitive the shawshank redemption beauty and the beast schindlers list options a the lion king b urban cowboy c space truckers d universal soldier day of reckoning",
+            "content": "escape from alcatraz 1979 rescue dawn 2006 the count of monte cristo 2002 my personal favorite from this list cool hand luke 1967",
+            "url": "https://tildes.net/~movies/1lo1/besides_shawshank_redemption_what_films_do_you_like_that_feature_grit_resilience_endurance_under",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to independence day the silence of the lambs batman jurassic park options a forrest gump b american flyers c shadows and fog d thunderbirds",
+            "content": "independence day 1996 is a throwaway answer since it shares the same name as july 4th although i do think the movie is fun",
+            "url": "https://budgetlightforum.com/t/whats-the-best-film-to-watch-on-independence-day-values-theme-plot-patriotism-etc/224736",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to austin powers international man of mystery star wars episode iv a new hope star wars episode v the empire strikes back mission impossible options a the impostors b virunga c selfcriticism of a bourgeois dog d american beauty",
+            "content": "find similar movies like star wars episode v the empire strikes back which are popular on netflix itunes amazon disney right now",
+            "url": "https://flixpatrol.com/title/star-wars-episode-v-the-empire-strikes-back/similar-movies/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to fargo schindlers list the usual suspects pulp fiction options a the shawshank redemption b the sandpiper c material girls d life as we know it",
+            "content": "children of men moon schindlers list the bourne identity the wonder gattaca mississippi burning mad max fury road",
+            "url": "https://tildes.net/~movies/1lo1/besides_shawshank_redemption_what_films_do_you_like_that_feature_grit_resilience_endurance_under",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to raiders of the lost ark the matrix léon the professional star wars episode v the empire strikes back options a the meyerowitz stories b saw c star wars episode iv a new hope d josie and the pussycats",
+            "content": "find similar movies like star wars episode v the empire strikes back which are popular on netflix itunes amazon disney right now",
+            "url": "https://flixpatrol.com/title/star-wars-episode-v-the-empire-strikes-back/similar-movies/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to apollo 13 jurassic park die hard with a vengeance forrest gump options a killer movie b stealth c the last man on earth d true lies",
+            "content": "first ive found many republicans who are sympathetic to libertarian arguments and in fact are often libertarians at heart but see the republican party as",
+            "url": "http://www.transterrestrial.com/archives/political-commentary/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to braveheart pretty woman apollo 13 dances with wolves options a batman assault on arkham b the shawshank redemption c pokémon heroes d the flamingo kid",
+            "content": "find try better how before use give life help she sure no lot every into then than great keep down start best tell see someone would go too bad any actually",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to pulp fiction léon the professional kill bill vol 2 requiem for a dream options a pushing hands b mortal kombat the journey begins c sin nombre d the godfather",
+            "content": "kill bill vol 2 some people found too slow after the pace of the first one i enjoyed it but enjoyed the first part a little more i know",
+            "url": "http://legacy.aintitcool.com/node/43253",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to seven star wars episode iv a new hope star wars episode v the empire strikes back american beauty options a wadjda b grays anatomy c rear window d the shaggy da",
+            "content": "back way take love do need well same right here still look thing feel now there something get most find hope even friend after talk maybe new probably",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "find a movie similar to snow white and the seven dwarfs the secret garden beauty and the beast the lion king options a the thing b pinocchio c nymphomaniac volume i d lights in the dusk",
+            "content": "annette carax 2021 b like every other carax movie ive seen absolutely riveting from a technical and conceptual perspective but completely absent",
+            "url": "https://www.sputnikmusic.com/list.php?listid=192240",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "find a movie similar to schindlers list pulp fiction braveheart the usual suspects options a 12 angry men b mo better blues c mindhunters d the shawshank redemption",
+            "content": "movies think characters character watch films two many seen being acting never plot little where love best life did show know does ever here better man your",
+            "url": "http://www.stat.yale.edu/~tba3/class_data/aclImdb/imdb.vocab",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "find a movie similar to the usual suspects the shawshank redemption get shorty pulp fiction options a schindlers list b the handmaiden c davy crockett d king of the wild frontier e jet lis fearless",
+            "content": "below is a list of every movie ever made til 42019 and up to letter i hukkunud alpinisti hotell 1979 68 1988 71 2014 til there was you 1997",
+            "url": "https://alphabetizer.flap.tv/lists/list-of-every-movie-ever-made.php",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to the shawshank redemption forrest gump pulp fiction braveheart options a a woman under the influence b its the great pumpkin c charlie brown d the house e dances with wolves",
+            "content": "the and a of to is it in i this that was as for with movie but film on not you he are his have be one all at by an who they from so like there her or just",
+            "url": "http://www.stat.yale.edu/~tba3/class_data/aclImdb/imdb.vocab",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to braveheart get shorty the shawshank redemption pulp fiction options a the fugitive b ready to rumble c thoroughly modern millie d ninja shadow of a tear",
+            "content": "escape from alcatraz 1979 rescue dawn 2006 the count of monte cristo 2002 my personal favorite from this list cool hand luke 1967",
+            "url": "https://tildes.net/~movies/1lo1/besides_shawshank_redemption_what_films_do_you_like_that_feature_grit_resilience_endurance_under",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "find a movie similar to pulp fiction the usual suspects schindlers list fargo options a stoked the rise and fall of gator b surviving the game c look whos talking d the shawshank redemption",
+            "content": "escape from alcatraz 1979 rescue dawn 2006 the count of monte cristo 2002 my personal favorite from this list cool hand luke 1967",
+            "url": "https://tildes.net/~movies/1lo1/besides_shawshank_redemption_what_films_do_you_like_that_feature_grit_resilience_endurance_under",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to pulp fiction forrest gump terminator 2 judgment day braveheart options a ruby quentin b insidious chapter 3 c fast times at ridgemont high d the fugitive",
+            "content": "9 movies to watch if you like terminator 2 judgment day the wizard of oz 1939 the invisible boy 1957 old yeller 1957 the time",
+            "url": "https://filmschoolrejects.com/movies-to-watch-terminator-2-judgment-day/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to the usual suspects pulp fiction goodfellas the godfather options a big daddy b mogambo c kiss kiss bang bang d monty python and the holy grail",
+            "content": "while the godfather is great lets face it its a fantasy film goodfellas is about real mobsters and scorsese is arguably a more talented filmmaker",
+            "url": "https://www.flickchart.com/discussion/8EC84B6AB6/vs/B4CFDA198E",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to back to the future raiders of the lost ark the matrix the terminator options a whats up b tiger lily c cave of forgotten dreams d batman e quatermass and the pit",
+            "content": "searching adventure movie similar to indiana jones alan quatermain romancing the stone closed ask question asked 4 years 2 months ago",
+            "url": "https://scifi.stackexchange.com/questions/240371/searching-adventure-movie-similar-to-indiana-jones-alan-quatermain-romancin",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to batman the silence of the lambs jurassic park independence day options a the sessions b the girl who kicked the hornets nest c forrest gump d before night falls",
+            "content": "find try better how before use give life help she sure no lot every into then than great keep down start best tell see someone would go too bad any actually",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to raiders of the lost ark the matrix gattaca gladiator options a swimming pool b maggies plan c the fifth element d for the boys",
+            "content": "saw that movie sometime in 199x it could be 200x but dont think so people searching for the treasure of ancient inka",
+            "url": "https://scifi.stackexchange.com/questions/240371/searching-adventure-movie-similar-to-indiana-jones-alan-quatermain-romancin",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "find a movie similar to star wars episode iv a new hope raiders of the lost ark mission impossible star wars episode v the empire strikes back options a indiana jones and the last crusade b stander c too late for tears d tower heist",
+            "content": "find similar movies like star wars episode v the empire strikes back which are popular on netflix itunes amazon disney right now",
+            "url": "https://flixpatrol.com/title/star-wars-episode-v-the-empire-strikes-back/similar-movies/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "find a movie similar to spirited away seven samurai la confidential dr strangelove or how i learned to stop worrying and love the bomb options a the usual suspects b return to the blue lagoon c practical magic d scrooge",
+            "content": "61 movies like dr strangelove or how i learned to stop worrying and love the bomb 1964 page 3 31 arrhythmia 2017 32 embrace of the serpent 2015 33",
+            "url": "https://agoodmovietowatch.com/movieslike/dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb-1964/page/3/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to romancing the stone american beauty the princess bride star wars episode iv a new hope options a save the last dance b passion c being john malkovich d trial and error",
+            "content": "theres a reason why romance movies are so popular and why theres a romance plotline in almost every film regardless of genre",
+            "url": "https://screenrant.com/beautiful-romance-movies-with-incredible-writing-list/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to the shawshank redemption the matrix fight club star wars episode i the phantom menace options a thx 1138 b iron eagle ii c chocolat d forrest gump",
+            "content": "i have 7 gladiator goodfellas saving private ryan the dark knight the matrix the shawshank redemption the wolf of wall street",
+            "url": "https://www.threads.net/@rpn/post/C3tuoBZNGCM",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to star wars episode iv a new hope superman the terminator american beauty options a opera b austin powers international man of mystery c highlander the search for vengeance d supergirl",
+            "content": "my movie decade began inauspiciously with the unsigned walter hill film supernova it will likely end auspiciously i hope with james camerons avatar",
+            "url": "http://legacy.aintitcool.com/node/43253",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to toy story the mask batman the lion king options a exit wounds b punchdrunk love c seeking justice d pretty woman",
+            "content": "the following is a script of the 2019 video game afterparty by night school studio this page contains switchable dialogue tabs and makes use of navigable",
+            "url": "https://afterparty.fandom.com/wiki/Afterparty_Transcript",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "find a movie similar to pulp fiction forrest gump the fugitive braveheart options a little women b dances with wolves c bring it on all or nothing d dead alive",
+            "content": "mayoral candidates lori lightfoot and toni preckwinkle clashed tuesday on how much power the citys 50 aldermen should wield amid an ongoing",
+            "url": "http://web.conradreynolds.com/trib/2019-03-13.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to the matrix inception pulp fiction forrest gump options a raiders of the lost ark b changing lanes c the ewok adventure d high noon",
+            "content": "vader says no as he picks the emperor up this is yet another change in the original trilogy and yeah im pissed off about it",
+            "url": "http://legacy.aintitcool.com/node/51019",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to the mask aladdin the lion king pretty woman options a batman b the deadly bees c hot girls wanted d mermaids",
+            "content": "this is a list of references to disney in notable web videos neither produced nor distributed by disney this subpage contains only web series with titles",
+            "url": "https://disney.fandom.com/wiki/List_of_references_in_non-Disney_web_videos/W-Z",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to the shawshank redemption pulp fiction crimson tide forrest gump options a braveheart b ripleys game c spanglish d meet the feebles",
+            "content": "what was the best film of the 3 the shawshank redemption votes 8 364 pulp fiction votes 8 364 forrest gump votes 6 273",
+            "url": "https://community.cbr.com/threads/shawshank-redemption-vs-pulp-fiction-vs-forrest-gump.148545/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to braveheart schindlers list the silence of the lambs jurassic park options a independence day b broken c toy story 2 d men of honor",
+            "content": "i know people who get a good laugh out of shitty movies like independence day and i will definitely demand that they see this shit on video",
+            "url": "http://legacy.aintitcool.com/node/33228",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "find a movie similar to jurassic park independence day forrest gump batman options a the firm b roger dodger c innocent man d an e the silence of the lambs",
+            "content": "list movie trivia injokes cameos signatures",
+            "url": "http://www.faqs.org/faqs/movies/trivia-faq/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "find a movie similar to batman the lion king pretty woman terminator 2 judgment day options a drag me to hell b the old man and the sea c the mask d night mother",
+            "content": "hes the futures el cid a man of legend and sure were not quite at that part of the story yet but hell john connor was a bit of",
+            "url": "http://legacy.aintitcool.com/node/41140",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to the shawshank redemption pulp fiction schindlers list braveheart options a the bank job b robot carnival c dances with wolves d the family stone",
+            "content": "hope can set you free crime drama chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of",
+            "url": "https://rpubs.com/naren_10/DC_GroupAssignment_2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to american beauty star wars episode iv a new hope star wars episode v the empire strikes back forrest gump options a cargo b neon bull c jeffrey d the silence of the lambs",
+            "content": "general alternatives the wind that shakes the stars the journal of the whills age of heroes clash of the jedi the clone wars shadow of the black knight",
+            "url": "https://originaltrilogy.com/topic/Alternative-Star-Wars-Movie-Titles-Keep-Checking-the-First-Post/id/13439",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to braveheart forrest gump the silence of the lambs the fugitive options a cannibal holocaust b seven c bride prejudice d night at the museum secret of the tomb",
+            "content": "find try better how before use give life help she sure no lot every into then than great keep down start best tell see someone would go too bad any actually",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to raiders of the lost ark groundhog day fargo the silence of the lambs options a tape b gettysburg c the princess bride d stardust",
+            "content": "mine are 1 john carpenters the thing 2 alien 3 indiana jones raiders of the lost ark 4 interstellar 5 the princess bride 6",
+            "url": "https://www.threads.net/@doctors_crusher/post/C-C1sPXPFtJ",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "find a movie similar to the fugitive braveheart the shawshank redemption terminator 2 judgment day options a dead man walking b worlds greatest dad c the bad and the beautiful d hood of horror",
+            "content": "dead man that has few if any lines just what acting chops do bad news bears ahatlikethat january 31 link life is beautiful the",
+            "url": "https://tildes.net/~movies/1lo1/besides_shawshank_redemption_what_films_do_you_like_that_feature_grit_resilience_endurance_under",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to apollo 13 jurassic park the silence of the lambs forrest gump options a somewhere b batman c the hot chick d the apartment",
+            "content": "wizards world 984626 405 d movie cyborg 2 glass shadow 1993 science fiction jack palanco ellas kotoas two renegade heroes iry lo",
+            "url": "https://archive.org/stream/The_Times_News_Idaho_Newspaper_1994_07_22/The_Times_News_Idaho_Newspaper_1994_07_22_djvu.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to independence day the silence of the lambs indiana jones and the temple of doom fargo options a care bears movie ii a new generation b noises off c the fugitive d lights out",
+            "content": "like have people so can first which good know year all day because make think some much really about out want up more work back way take love do need well",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "find a movie similar to star wars episode iv a new hope the usual suspects star wars episode v the empire strikes back pulp fiction options a fargo b conan the barbarian c wisdom d the crew",
+            "content": "find similar movies like star wars episode v the empire strikes back which are popular on netflix itunes amazon disney right now",
+            "url": "https://flixpatrol.com/title/star-wars-episode-v-the-empire-strikes-back/similar-movies/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "find a movie similar to american beauty back to the future star wars episode iv a new hope star wars episode v the empire strikes back options a jon stewart has left the building b hud c the mummy tomb of the dragon emperor d the terminator",
+            "content": "references to the star wars films in movies and television prove there is no question these films are beloved by audiences and filmmakers alike",
+            "url": "https://www.bustle.com/articles/84753-9-star-wars-the-empire-strikes-back-pop-culture-references-from-knocked-up-to-arrested-development",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "find a movie similar to dances with wolves get shorty the fugitive braveheart options a barbershop 2 back in business b cool runnings c to be or not to be d the shawshank redemption",
+            "content": "back way take love do need well same right here still look thing feel now there something get most find cool die either consider today usually situation",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to jurassic park the silence of the lambs dances with wolves seven options a forrest gump b righteous kill c cheech and chongs up in smoke d blood the last vampire",
+            "content": "up more work back way take love do need well same right here still look thing feel now there something get most find try better how before use give life",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to aladdin snow white and the seven dwarfs babe pinocchio options a valentines day b the double c the secret garden d all is lost",
+            "content": "m jettsimpson 1989 cytowane przez 11 abstract intended to provide teachers with a list of recently published books recommended for children this annotated booklist569 stron",
+            "url": "https://files.eric.ed.gov/fulltext/ED311453.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to the lord of the rings the two towers the lord of the rings the fellowship of the ring star wars episode iv a new hope the matrix options a the return b the hidden fortress c schindlers list d the end of the affair",
+            "content": "find similar movies like the lord of the rings the two towers which are popular on netflix itunes amazon disney right now",
+            "url": "https://flixpatrol.com/title/the-lord-of-the-rings-the-two-towers/similar-movies/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to american beauty austin powers international man of mystery star wars episode v the empire strikes back mission impossible options a dragon ball the curse of the blood rubies b moonlight mile c hollywood homicide d star wars episode iv a new hope",
+            "content": "forums on other movie news sites are already overrun with links and reactions to a fairly high quality studio workprint that leaked this evening",
+            "url": "http://legacy.aintitcool.com/node/40609",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to american beauty the sixth sense star wars episode v the empire strikes back star wars episode iv a new hope options a death to smoochy b the artist c la confidential d new york e i love you",
+            "content": "find similar movies like star wars episode v the empire strikes back which are popular on netflix itunes amazon disney right now",
+            "url": "https://flixpatrol.com/title/star-wars-episode-v-the-empire-strikes-back/similar-movies/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to saving private ryan inception raiders of the lost ark the matrix options a the emperor and the assassin b gladiator c tin cup d alex and emma",
+            "content": "find try better how before use give life help she sure no lot every into then than great keep down start best tell see someone would go too bad any actually",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "find a movie similar to star wars episode vi return of the jedi back to the future toy story the terminator options a europa b night mother c star wars episode iv a new hope d of human bondage",
+            "content": "here are six alternatives 1 star wars episode i galactic destiny 2 star wars episode ii the unraveling conspiracy 3 star wars episode iii dawn of chaos",
+            "url": "https://boards.theforce.net/threads/alternative-star-wars-movie-titles.50057409/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "find a movie similar to dances with wolves the shawshank redemption the fugitive pulp fiction options a the city of women b avengers infinity war part i c forrest gump d the man who knew too much",
+            "content": "sputnikmusic is a premier source for music reviews and music news covering the best albums in indie metal and punk",
+            "url": "https://www.sputnikmusic.com/list.php?listid=192240",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "find a movie similar to batman pulp fiction apollo 13 schindlers list options a the last kiss b europa c braveheart d rise of the planet of the apes",
+            "content": "many movies are rewatchablelike schindlers list… chinese factory movie on your list i agree with for instance is pulp fiction",
+            "url": "https://pacejmiller.wordpress.com/2010/02/14/the-20-most-rewatchable-movies-of-all-time/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "find a movie similar to léon the professional the matrix forrest gump pulp fiction options a romper stomper b fame c up d the browning version",
+            "content": "up more work back way take love do need well same right here still look thing feel now there something get most find try better how before use give life",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to goodfellas star wars episode v the empire strikes back the silence of the lambs raiders of the lost ark options a ip man 3 b star wars episode iv a new hope c the wedding ringer d delivery man",
+            "content": "the lord of the rings the fellowship of the ring peter jackson star wars episode v the empire strikes back irvin kershner",
+            "url": "https://rpubs.com/naren_10/DC_GroupAssignment_2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to the shawshank redemption pulp fiction dances with wolves schindlers list options a the way south b er ist wieder da c braveheart d miss nobody",
+            "content": "the first one that came to mind is the revenant basically nothing than endurance i think the martian also fits the bill",
+            "url": "https://tildes.net/~movies/1lo1/besides_shawshank_redemption_what_films_do_you_like_that_feature_grit_resilience_endurance_under",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to pulp fiction the fugitive the shawshank redemption dances with wolves options a babylon 5 a call to arms b letters from iwo jima c forrest gump d saint ralph",
+            "content": "find try better how before use give life help she sure no lot every into then than great keep down start best tell see someone would go too bad any actually",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "find a movie similar to rocky star wars episode iv a new hope toy story the terminator options a dracula dead and loving it b independence day c the extraordinary adventures of adèle blancsec d the american president",
+            "content": "like have people so can first which good know year all day because make think some much really about out want up more work back way take love do need well",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "find a movie similar to braveheart apollo 13 schindlers list pulp fiction options a ruby sparks b the last klezmer leopold kozlowski c his life and music d circus e dances with wolves",
+            "content": "he as it by at from his an be has are have but were not this who they had i which will their or its one after new been also we would two more",
+            "url": "https://worksheets.codalab.org/rest/bundles/0xadf98bb30a99476ab56ebff3e462d4fa/contents/blob/glove.6B.100d.txt-vocab.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to one flew over the cuckoos nest goodfellas rear window the professional options a a night to remember b the swan princess c kinsey d léon the professional",
+            "content": "one after new been also we would two more first about up when year there all out she other people nt her percent than over into last some government",
+            "url": "https://worksheets.codalab.org/rest/bundles/0xadf98bb30a99476ab56ebff3e462d4fa/contents/blob/glove.6B.100d.txt-vocab.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to men in black the fugitive raiders of the lost ark fargo options a the silence of the lambs b college c music box d get smart",
+            "content": "full text of the daily colonist 19730222 see other formats home edition telephone 383 4111 classified 3887121 □meit isa bright",
+            "url": "https://archive.org/stream/dailycolonist19730222/1973_02_22_djvu.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "find a movie similar to the fugitive braveheart schindlers list the lion king options a mad city b the scorpion king c the shawshank redemption d city of men",
+            "content": "find try better how before use give life help she sure no lot every into then than great keep down start best tell see someone would go too bad any actually",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to american history x requiem for a dream raiders of the lost ark the sixth sense options a miss meadows b little man c goodfellas d you cant take it with you",
+            "content": "hope can set you free crime drama chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of",
+            "url": "https://rpubs.com/naren_10/DC_GroupAssignment_2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to gladiator raiders of the lost ark schindlers list saving private ryan options a the matrix b scorpio c oh d hello on broadway e the prophecy",
+            "content": "find try better how before use give life help she sure no lot every into then than great keep down start best tell see someone would go too bad any actually",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to pulp fiction forrest gump the fugitive the usual suspects options a wisdom b lost and delirious c people i know d braveheart",
+            "content": "like have people so can first which good know year all day because make think some much really about out want up more work back way take love do need well",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to schindlers list the fugitive heat braveheart options a wild orchid b the silence of the lambs c hello ladies the movie d star trek",
+            "content": "i think a very wellmade movie on the holocaust is fateless directed by lajos koltai 2005 it also has a very moving music composed by ennio morricone",
+            "url": "https://www.jwfan.com/forums/index.php?/topic/20938-except-for-schindlers-list-what-other-well-made-movies-on-the-holocaust-have-you-seen/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to forrest gump pulp fiction the fugitive dances with wolves options a dragonheart 3 the sorcerers curse b chiraq c stargate d tae guk gi the brotherhood of war",
+            "content": "the list below has every movie ever made through 42019 its not guaranteed but its pretty decent",
+            "url": "https://alphabetizer.flap.tv/lists/list-of-every-movie-ever-made.php",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "find a movie similar to braveheart the usual suspects crimson tide the fugitive options a get shorty b the firm c pillow talk d hairspray",
+            "content": "get most find try better how before use give life help she sure no lot every into then than great keep down start best tell see someone would go too bad any",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "find a movie similar to the shawshank redemption apollo 13 terminator 2 judgment day dead man walking options a frankenstein unbound b jon stewart has left the building c clear and present danger d little giants",
+            "content": "the list below has every movie ever made through 42019 its not guaranteed but its pretty decent",
+            "url": "https://alphabetizer.flap.tv/lists/list-of-every-movie-ever-made.php",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to the usual suspects go pulp fiction star wars episode vi return of the jedi options a the sign of four b the hunt for red october c auto focus d marauders",
+            "content": "movie but film on not you he are his have be one all at by an who they from so like there her or just about if has out what some good more when she very",
+            "url": "http://www.stat.yale.edu/~tba3/class_data/aclImdb/imdb.vocab",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "find a movie similar to get shorty mr hollands opus stargate dances with wolves options a the prime gig b 9 12 weeks c the usual suspects d it happened one night",
+            "content": "glenn holland is a musician and composer who takes a teaching job to pay the rent while in his spare time he can strive to achieve his true goal",
+            "url": "https://tastedive.com/movies/like/Mr-Holland-s-Opus",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "find a movie similar to dances with wolves aladdin braveheart dead man walking options a the fugitive b tristram shandy a cock and bull story c barefoot in the park d dantes inferno an animated epic",
+            "content": "find try better how before use give life help she sure no lot every into then than great keep down start best tell see someone would go too bad any actually",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to braveheart dances with wolves pulp fiction schindlers list options a tickling giants b shadow of the vampire c the usual suspects d on the town",
+            "content": "find try better how before use give life help she sure no lot every into then than great keep down start best tell see someone would go too bad any actually",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to the shawshank redemption forrest gump dances with wolves the fugitive options a pulp fiction b the girl on the bridge c radioland murders d father of the bride",
+            "content": "radioland murders 1994 raggedy ann andy a musical adventure 1977 the crime of father amaro 2002 the crime of monsieur lange 1936 the",
+            "url": "https://alphabetizer.flap.tv/lists/list-of-every-movie-ever-made.php",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to get shorty whats eating gilbert grape the fugitive the shawshank redemption options a unstrung heroes b vampire in brooklyn c braveheart d borat cultural learnings of america for make benefit glorious nation of kazakhstan",
+            "content": "escape from alcatraz 1979 rescue dawn 2006 the count of monte cristo 2002 my personal favorite from this list cool hand luke 1967",
+            "url": "https://tildes.net/~movies/1lo1/besides_shawshank_redemption_what_films_do_you_like_that_feature_grit_resilience_endurance_under",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "find a movie similar to the fugitive terminator 2 judgment day aladdin toy story options a the edge of love b untitled spiderman reboot c the lion king d daddy day camp",
+            "content": "this is a list of references to disney in notable web videos neither produced nor distributed by disney this subpage contains only web series with titles",
+            "url": "https://disney.fandom.com/wiki/List_of_references_in_non-Disney_web_videos/W-Z",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to back to the future the lord of the rings the fellowship of the ring star wars episode vi return of the jedi forrest gump options a the silence of the lambs b making the grade c the boy and the beast d vicky cristina barcelona",
+            "content": "star wars and lord of the rings may seem very different but when it comes to their imdb scores both franchises often rank pretty highly",
+            "url": "https://screenrant.com/star-wars-lord-rings-best-movies-imdb/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "find a movie similar to independence day star wars episode v the empire strikes back american beauty star wars episode vi return of the jedi options a frankenweenie b ivan vasilievich back to the future c we bought a zoo d star wars episode iv a new hope",
+            "content": "find similar movies like star wars episode v the empire strikes back which are popular on netflix itunes amazon disney right now",
+            "url": "https://flixpatrol.com/title/star-wars-episode-v-the-empire-strikes-back/similar-movies/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to forrest gump the silence of the lambs mission impossible jurassic park options a joe somebody b dogfight c independence day d twin peaks fire walk with me",
+            "content": "it was my favorite summer movie film experience drew posted it along with pieces from jj abrams david hayter an exhaustive piece by simon",
+            "url": "http://legacy.aintitcool.com/node/41338",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to interstellar monsters inc back to the future inception options a my fellow americans b shadow of the vampire c star wars episode vii the force awakens d psycho ii",
+            "content": "to compare character networks across movies ruths 2016 uses network alignment to map characters between the stars wars movies the force awakens and a new 286 stron",
+            "url": "https://cdanfort.w3.uvm.edu/research/andy-reagan-phd-dissertation.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to jurassic park the silence of the lambs batman american beauty options a night of the living dead b forrest gump c ghost ship d revenge for jolly",
+            "content": "1 is it true that the saturn will be getting an m 21 ike update 2 will the playstation get a 64bit update too 3 ive seen killer instinct 2 and it",
+            "url": "https://archive.org/stream/Computer_and_Video_Games_Issue_174_1996-05_EMAP_Images_GB/Computer_and_Video_Games_Issue_174_1996-05_EMAP_Images_GB_djvu.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to american beauty pi xmen the godfather options a police academy mission to moscow b the matrix c carnival of souls d supermandoomsday",
+            "content": "the list below has every movie ever made through 42019 its not guaranteed but its pretty decent",
+            "url": "https://alphabetizer.flap.tv/lists/list-of-every-movie-ever-made.php",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to the usual suspects star wars episode v the empire strikes back pulp fiction star wars episode iv a new hope options a twelve monkeys b shes out of my league c the lost room d high crimes",
+            "content": "find similar movies like star wars episode v the empire strikes back which are popular on netflix itunes amazon disney right now",
+            "url": "https://flixpatrol.com/title/star-wars-episode-v-the-empire-strikes-back/similar-movies/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to the sixth sense the lord of the rings the two towers the usual suspects forrest gump options a nothing to declare b crossfire c end of days d star wars episode iv a new hope",
+            "content": "here are six alternatives 1 star wars episode i galactic destiny 2 star wars episode ii the unraveling conspiracy 3 star wars episode iii dawn of chaos",
+            "url": "https://boards.theforce.net/threads/alternative-star-wars-movie-titles.50057409/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to schindlers list the shawshank redemption terminator 2 judgment day aladdin options a the double life of veronique b bridget joness diary c the lion king d cujo",
+            "content": "i think a very wellmade movie on the holocaust is fateless directed by lajos koltai 2005 it also has a very moving music composed by ennio morricone",
+            "url": "https://www.jwfan.com/forums/index.php?/topic/20938-except-for-schindlers-list-what-other-well-made-movies-on-the-holocaust-have-you-seen/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to the silence of the lambs forrest gump die hard with a vengeance jurassic park options a shine b banana joe c max keebles big move d independence day",
+            "content": "like have people so can first which good know year all day because make think some much really about out want up more work back way take love do need well",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to dances with wolves terminator 2 judgment day the shawshank redemption braveheart options a the hunting party b schindlers list c baraka d reality bites",
+            "content": "the list below has every movie ever made through 42019 its not guaranteed but its pretty decent",
+            "url": "https://alphabetizer.flap.tv/lists/list-of-every-movie-ever-made.php",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to batman the usual suspects the silence of the lambs jurassic park options a the end of the tour b forrest gump c lust d caution e shelter",
+            "content": "wizards world 984626 405 d movie cyborg 2 glass shadow 1993 movie dead end 1937 dra ma humphrey bogatl syhria sidnoy",
+            "url": "https://archive.org/stream/The_Times_News_Idaho_Newspaper_1994_07_22/The_Times_News_Idaho_Newspaper_1994_07_22_djvu.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to the fugitive crimson tide braveheart the shawshank redemption options a pulp fiction b autumn marathon c im not there d the limey",
+            "content": "the first one that came to mind is the revenant basically nothing than endurance i think the martian also fits the bill",
+            "url": "https://tildes.net/~movies/1lo1/besides_shawshank_redemption_what_films_do_you_like_that_feature_grit_resilience_endurance_under",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "find a movie similar to star wars episode v the empire strikes back star wars episode iv a new hope star wars episode vi return of the jedi the matrix options a babys day out b les misérables c terminator 2 judgment day d dudley doright",
+            "content": "find similar movies like star wars episode v the empire strikes back which are popular on netflix itunes amazon disney right now",
+            "url": "https://flixpatrol.com/title/star-wars-episode-v-the-empire-strikes-back/similar-movies/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to star wars episode v the empire strikes back the lord of the rings the fellowship of the ring american beauty forrest gump options a upside down the creation records story b the adventures of sherlock holmes and doctor watson c waking life d the lord of the rings the two towers",
+            "content": "both franchises have achieved historic success and popularity earned an intensely devoted fandom and produced divisive prequel films",
+            "url": "https://screenrant.com/star-wars-lord-rings-best-movies-imdb/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "find a movie similar to forrest gump the silence of the lambs the usual suspects the blues brothers options a from hell b the insider c independence day d bride of chucky",
+            "content": "the list below has every movie ever made through 42019 its not guaranteed but its pretty decent",
+            "url": "https://alphabetizer.flap.tv/lists/list-of-every-movie-ever-made.php",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to braveheart the usual suspects dances with wolves pulp fiction options a metropolis b nadja c marty d toy story",
+            "content": "pulp and paper company where it hurt the most first they targeted the retail stores that were regular daishowa customers urging them to buy their paper",
+            "url": "https://windspeaker.com/sites/default/files/2019-12/October%201997.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to minority report shrek catch me if you can aladdin options a monsters b inc c children of the night d the incredible shrinking man e town country",
+            "content": "monsterscostumesscenery and the fight scenes were well done hence i give it a 3 out 10 rent it if you want brainless action and something prettycool to",
+            "url": "https://prod-dcd-datasets-public-files-eu-west-1.s3.eu-west-1.amazonaws.com/6af90bff-5b1e-4e89-9767-567f95743570",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to the shawshank redemption pulp fiction the fugitive fargo options a blitz b only lovers left alive c the chase d the usual suspects",
+            "content": "escape from alcatraz 1979 rescue dawn 2006 the count of monte cristo 2002 my personal favorite from this list cool hand luke 1967",
+            "url": "https://tildes.net/~movies/1lo1/besides_shawshank_redemption_what_films_do_you_like_that_feature_grit_resilience_endurance_under",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to the fugitive pulp fiction the usual suspects terminator 2 judgment day options a the amazing panda adventure b sweeney todd c welcome to sarajevo d seven",
+            "content": "like have people so can first which good know year all day because make think some much really about out want up more work back way take love do need well",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to terminator 2 judgment day pulp fiction aladdin the lion king options a hawks and sparrows b the scent of green papaya c schindlers list d le maître décole",
+            "content": "like have people so can first which good know year all day because make think some much really about out want up more work back way take love do need well",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to forrest gump the silence of the lambs the fugitive jurassic park options a the burrowers b children of the corn iii c hood of horror d braveheart",
+            "content": "children bush show help chief saturday system john support series play office following me meeting expected late washington games european league reported",
+            "url": "https://worksheets.codalab.org/rest/bundles/0xadf98bb30a99476ab56ebff3e462d4fa/contents/blob/glove.6B.100d.txt-vocab.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "find a movie similar to pulp fiction schindlers list apollo 13 dances with wolves options a iron eagle iv b the shawshank redemption c knockin on heavens door d aguirre the wrath of god",
+            "content": "similar couple fall minute its s spend plan woman kill food meet level notice feeling suck realize sit luck god grow normal rest mention drive control speak",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to inception pulp fiction forrest gump raiders of the lost ark options a whos afraid of virginia woolf b fantastic mr fox c clash of the titans d independence day",
+            "content": "synopsis a ghostwriter ewan mcgregor hired to complete the memoirs of a former british prime minister pierce brosnan uncovers secrets that put his own life",
+            "url": "http://www.forum.hr/archive/index.php/t-477946-p-6.htmlverizonCachedSimilarJan?w4McYykiWNW5rL=iLZBXzCu&7iq8uWTK=S2NMYCSsxhyDSOh",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to pulp fiction the fugitive the shawshank redemption dances with wolves options a all over the guy b forrest gump c elizabethtown d the bride of frankenstein",
+            "content": "for me definitely forrest gump it was everything a movie is supposed to be imo",
+            "url": "https://community.cbr.com/threads/shawshank-redemption-vs-pulp-fiction-vs-forrest-gump.148545/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to the lord of the rings the two towers raiders of the lost ark the lord of the rings the fellowship of the ring inception options a ladybugs b american ultra c saving private ryan d siam sunset",
+            "content": "similar movies the lord of the rings the return of the king the chronicles of narnia the voyage of the dawn treader indiana jones and the raiders of the",
+            "url": "https://tastedive.com/movies/like/The-Lord-Of-The-Rings-The-Two-Towers",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to gladiator saving private ryan the matrix inception options a bad boy bubby b raiders of the lost ark c whatever works d porco rosso",
+            "content": "find try better how before use give life help she sure no lot every into then than great keep down start best tell see someone would go too bad similar",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to get shorty the shawshank redemption the fugitive mr hollands opus options a joe dirt 2 beautiful loser b braveheart c where eagles dare d polyester",
+            "content": "escape from alcatraz 1979 rescue dawn 2006 the count of monte cristo 2002 my personal favorite from this list cool hand luke 1967",
+            "url": "https://tildes.net/~movies/1lo1/besides_shawshank_redemption_what_films_do_you_like_that_feature_grit_resilience_endurance_under",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "find a movie similar to star wars episode v the empire strikes back independence day terminator 2 judgment day star wars episode vi return of the jedi options a high school b pushing tin c what happened d miss simone e back to the future",
+            "content": "find similar movies like star wars episode v the empire strikes back which are popular on netflix itunes amazon disney right now",
+            "url": "https://flixpatrol.com/title/star-wars-episode-v-the-empire-strikes-back/similar-movies/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to dances with wolves pulp fiction schindlers list the shawshank redemption options a sound of the mountain b braveheart c ruby red d candleshoe",
+            "content": "some of my favorites tried to sort them a little survival films the revenant 2015 lone survivor 2013 127 hours 2010 cast away 2000",
+            "url": "https://tildes.net/~movies/1lo1/besides_shawshank_redemption_what_films_do_you_like_that_feature_grit_resilience_endurance_under",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to dances with wolves the usual suspects toy story braveheart options a ashby b groove c the dinner game d schindlers list",
+            "content": "game ago less family far comment story anxiety close word agree true deal similar couple fall minute its s spend plan woman kill food meet level",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to the fugitive fargo groundhog day the princess bride options a john q b raiders of the lost ark c no mans land d the morning after",
+            "content": "on the multiple choice list the “winner” but only by the width of a rock hammer was “the shawshank redemption” a “failure” at the box",
+            "url": "https://www.napa-net.org/news/2019/1/reader-poll-movies-we--lot/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to the fugitive willy wonka the chocolate factory so i married an axe murderer batman options a seven b meet the spartans c leprechaun 4 in space d harlem nights",
+            "content": "the fugitive saving private ryan back to the future jurassic park grease robin hood prince of thieves willy wonka the chocolate factory terminator",
+            "url": "https://www.netflix.com/se/browse/genre/31574",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to monty python and the holy grail the silence of the lambs star wars episode v the empire strikes back star wars episode iv a new hope options a childs play 3 b some kind of wonderful c goodfellas d chocolat",
+            "content": "movies to watch in quarantine monty python and the holy grail mary and the witchs flower locke from left to right a24 michael",
+            "url": "https://stanforddaily.com/2020/04/14/movies-to-watch-in-quarantine-monty-python-and-the-holy-grail-mary-and-the-witchs-flower-locke/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to batman interview with the vampire the vampire chronicles the mask pretty woman options a bright b babe c unicorn city d zoom",
+            "content": "find try better how before use give life help she sure no lot every into then than great keep down start best tell see someone would go too bad any actually",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to the fugitive monty python and the holy grail goodfellas star wars episode iv a new hope options a i b robot c cookies fortune d being john malkovich e behind enemy lines",
+            "content": "monty python the holy grail tis but a scratch happy gilmore back to the future ii the great outdoors caddyshack indiana jones the last crusade the",
+            "url": "http://celestialrefresh.jcink.net/index.php?showtopic=4884",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to the hunt for red october the usual suspects the sixth sense the fugitive options a the opposite sex b mr holmes c pulp fiction d the letter",
+            "content": "find similar movies like the hunt for red october which are popular on netflix itunes amazon disney right now jack ryan shadow recruit movie",
+            "url": "https://flixpatrol.com/title/the-hunt-for-red-october/similar-movies/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to the godfather twelve monkeys pi monty python and the holy grail options a pulp fiction b the machinist c yes man d perfect sense",
+            "content": "movies to watch in quarantine monty python and the holy grail mary and the witchs flower locke from left to right a24 michael",
+            "url": "https://stanforddaily.com/2020/04/14/movies-to-watch-in-quarantine-monty-python-and-the-holy-grail-mary-and-the-witchs-flower-locke/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "find a movie similar to the terminator toy story the sixth sense star wars episode vi return of the jedi options a indecent proposal b star wars episode v the empire strikes back c grays anatomy d the girl next door",
+            "content": "find similar movies like star wars episode v the empire strikes back which are popular on netflix itunes amazon disney right now",
+            "url": "https://flixpatrol.com/title/star-wars-episode-v-the-empire-strikes-back/similar-movies/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to the shawshank redemption pulp fiction the fugitive stargate options a guinevere b white frog c dances with wolves d benny joon",
+            "content": "movie but film on not you he are his have be one all at by an who they from so like there her or just about if has out what some good more when she very",
+            "url": "http://www.stat.yale.edu/~tba3/class_data/aclImdb/imdb.vocab",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to the lion king the fugitive terminator 2 judgment day toy story options a black mirror b aladdin c super mario bros d the stunt man",
+            "content": "this is a list of references to disney in notable web videos neither produced nor distributed by disney this subpage contains only web series with titles",
+            "url": "https://disney.fandom.com/wiki/List_of_references_in_non-Disney_web_videos/W-Z",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to clear and present danger in the line of fire the fugitive braveheart options a three to tango b choke c angel at my table d an e the shawshank redemption",
+            "content": "line wonder weird eye under honestly na amazing follow thought answer soon alone send possible mine figure course similar couple fall minute its s spend",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to dances with wolves crimson tide braveheart the fugitive options a rachel getting married b howard the duck c the shawshank redemption d the post",
+            "content": "find try better how before use give life help she sure no lot every into then than great keep down start best tell see someone would go too bad any actually",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "find a movie similar to star wars episode iv a new hope the fugitive being john malkovich mission impossible options a pet sematary ii b star wars episode v the empire strikes back c winnie pooh d ken park",
+            "content": "find similar movies like star wars episode v the empire strikes back which are popular on netflix itunes amazon disney right now",
+            "url": "https://flixpatrol.com/title/star-wars-episode-v-the-empire-strikes-back/similar-movies/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to aladdin terminator 2 judgment day batman the mask options a wargames b king kong c foreign correspondent d pretty woman",
+            "content": "this forum is still alive and well hello again why is it that people like the ones who inhabit this forum never apologize when they treat people so bad",
+            "url": "http://www.greenspun.com/bboard/q-and-a-one-category.tcl?topic=TimeBomb+2000+%28Y2000%29&category=uncategorized",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to american beauty goodfellas the silence of the lambs star wars episode iv a new hope options a christmas in connecticut b the princess bride c bill teds bogus journey d melvin and howard",
+            "content": "now panasonic has put together a new home theater package thats simple affordable and sounds just like the movies scht500 ® audiovideo rack ® two",
+            "url": "https://archive.org/stream/video-magazine-1994-10/video-magazine-1994-10_djvu.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "find a movie similar to mission impossible back to the future star wars episode vi return of the jedi xmen options a my neighbor totoro b hang em high c they came together d toy story",
+            "content": "dr doofenshmirtz is also a villain that comes to mind he was just a man who was so hurt and deprived of his familys love which caused him to turn to the",
+            "url": "https://hobune.stream/comments/YzfUj-m2I6I",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to dances with wolves the shawshank redemption apollo 13 schindlers list options a braveheart b popeye c house ii the second story d in china they eat dogs",
+            "content": "the list below has every movie ever made through 42019 its not guaranteed but its pretty decent",
+            "url": "https://alphabetizer.flap.tv/lists/list-of-every-movie-ever-made.php",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to forrest gump the shawshank redemption pulp fiction dances with wolves options a women in trouble b the fugitive c night at the museum secret of the tomb d while you were sleeping",
+            "content": "what was the best film of the 3 the shawshank redemption votes 8 364 pulp fiction votes 8 364 forrest gump votes 6 273",
+            "url": "https://community.cbr.com/threads/shawshank-redemption-vs-pulp-fiction-vs-forrest-gump.148545/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "find a movie similar to dumb dumber jurassic park schindlers list forrest gump options a the counterfeiters b gone with the wind c braveheart d pitfall",
+            "content": "dumb and dumber similar movies dumb and dumber to dumb and dumberer when harry met lloyd saturnin slunce seno a pár facek bean the inheritance or",
+            "url": "https://flixpatrol.com/title/dumb-and-dumber/similar-movies/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to the sword in the stone fantasia the jungle book willy wonka the chocolate factory options a the wizard of oz b captain corellis mandolin c timecrimes d arlington road",
+            "content": "the sword in the stone bedknobs and broomsticks darby ogill and the little people the jungle book bizarre creativity unpredictable zola my winnipeg a",
+            "url": "https://letterboxd.com/film/willy-wonka-the-chocolate-factory/nanogenres/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to terminator 2 judgment day the lion king batman aladdin options a killing me softly b a king in new york c the proposition d pretty woman",
+            "content": "the and a in i it with that at this on from he my or we but as be they not will one time just like have people so can first which good know year all day",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to american beauty star wars episode v the empire strikes back raiders of the lost ark star wars episode iv a new hope options a colombiana b snow falling on cedars c groundhog day d santas little helper",
+            "content": "like have people so can first which good know year all day because make think some much really about out want up more work back way take love do need well",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to the mask batman pretty woman the fugitive options a babe b what we do in the shadows c game of death d eastern promises",
+            "content": "the casebook contains more than 20 recent investigative stories from nearly every region of the world covering a wide variety of topical subjects",
+            "url": "https://unesdoc.unesco.org/ark:/48223/pf0000217636",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to star wars episode v the empire strikes back the sixth sense back to the future the terminator options a family guy presents its a trap b charlie and the chocolate factory c futurama benders game d toy story",
+            "content": "virginia supreme court wvsc have been at odds about the rate the state is willing to pay for space in the monongalia county",
+            "url": "https://www.dominionpost.com/wp-content/uploads/paperpages/DP-2017-09-24.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "find a movie similar to the blues brothers the usual suspects forrest gump the silence of the lambs options a independence day b a place in the sun c son in law d hot tub time machine",
+            "content": "this part follows the structure of a typical schoolleaving exam at b2 level and includes information about typical exam task types177 stron",
+            "url": "http://oleksandria-lyceum10.edukit.kr.ua/Files/downloads/ENGLISH_Longman.Exam.Accelerator_B2_SB_177p.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to interview with the vampire the vampire chronicles the lion king braveheart the shawshank redemption options a dances with wolves b the killer shrews c uptown girls d the den",
+            "content": "find try better how before use give life help she sure no lot every into then than great keep down start best tell see someone would go too bad any actually",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "find a movie similar to the sixth sense the matrix forrest gump the shawshank redemption options a street fighter ii the animated movie b the sheltering sky c the boy who could fly d terminator 2 judgment day",
+            "content": "like have people so can first which good know year all day because make think some much really about out want up more work back way take love do need well",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "find a movie similar to batman the mask the fugitive pretty woman options a the front page b maelstrom c the lion king d lamerica",
+            "content": "home genreflecting a guide to reading interests in genre fiction fifth edition",
+            "url": "https://epdf.pub/genreflecting-a-guide-to-reading-interests-in-genre-fiction-fifth-edition-5ea6a9f0e88d8.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to braveheart dances with wolves the shawshank redemption the usual suspects options a 3000 miles to graceland b crimson tide c best men d a very harold kumar 3d christmas",
+            "content": "jsfiddle test your javascript css html or coffeescript online with jsfiddle",
+            "url": "https://jsfiddle.net/dh0uxd12/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "find a movie similar to star wars episode v the empire strikes back the usual suspects star wars episode iv a new hope the lord of the rings the return of the king options a la confidential b ps i love you c boyz n the hood d let it ride",
+            "content": "some movies like star wars episode v the empire strikes back return of the jedi 1983 star trek 2009 avatar the way of water 2022 dune 1984",
+            "url": "https://bestsimilar.com/movies/23177-star-wars-episode-v-the-empire-strikes-back",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to the matrix star wars episode v the empire strikes back star wars episode iv a new hope forrest gump options a pulp fiction b da geht noch was c hudson hawk d the brothers grimm",
+            "content": "general alternatives the wind that shakes the stars the journal of the whills age of heroes clash of the jedi the clone wars shadow of the black knight",
+            "url": "https://originaltrilogy.com/topic/Alternative-Star-Wars-Movie-Titles-Keep-Checking-the-First-Post/id/13439",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to schindlers list the lord of the rings the two towers inception the dark knight options a couples retreat b those magnificent men in their flying machines c star wars episode iv a new hope d friday after next",
+            "content": "wxextv also has maximum tower height 1049 ft above sea level and 943 ft above average terrain more than 100 ft higher than any station in this",
+            "url": "https://ia601609.us.archive.org/35/items/sponsor56spon/sponsor56spon_djvu.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to the usual suspects the matrix the godfather pi options a little miss marker b pulp fiction c what love is d the spy next door",
+            "content": "love do need well same right here still look thing feel now there something get most find try better how before use give life help she sure no lot every",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to pulp fiction braveheart the fugitive get shorty options a i do how to get married and stay single b forrest gump c the crossing guard d jimmy carr making people laugh",
+            "content": "movie video speed movie theatrical forrest gump family movie video rookie of the year family movie theatrical the lion king pop",
+            "url": "https://archive.org/stream/bub_gb_8AsEAAAAMBAJ/bub_gb_8AsEAAAAMBAJ_djvu.txt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to pretty woman aladdin the lion king batman options a terminator 2 judgment day b everlasting piece c an d cloverfield e the last temptation of christ",
+            "content": "find look old few going same again lot part every cast us world quite want things pretty young seems around got down however cant fact horror take enough",
+            "url": "http://www.stat.yale.edu/~tba3/class_data/aclImdb/imdb.vocab",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "find a movie similar to braveheart pulp fiction schindlers list the usual suspects options a kazaam b eichmann c children of the night d apollo 13",
+            "content": "the list below has every movie ever made through 42019 its not guaranteed but its pretty decent",
+            "url": "https://alphabetizer.flap.tv/lists/list-of-every-movie-ever-made.php",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "find a movie similar to pulp fiction the shawshank redemption dances with wolves stargate options a the fugitive b the boss of it all c barb wire d basic instinct 2",
+            "content": "love my children thats entertainment the burnt flowerbed pictures a different story a force of one the octagon co sp",
+            "url": "https://www.worldradiohistory.com/Archive-International-Television-Almanac/2004/International-Television-Almanac-2004-Whos-Who.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "find a movie similar to the fugitive dances with wolves forrest gump the shawshank redemption options a a special day b david cross making america great again c happy go lovely d pulp fiction",
+            "content": "movie video speed movie theatrical forrest gump family movie video rookie of the year family movie theatrical the lion king pop",
+            "url": "https://archive.org/stream/bub_gb_8AsEAAAAMBAJ/bub_gb_8AsEAAAAMBAJ_djvu.txt",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to forrest gump the fugitive independence day fargo options a comiccon episode iv a fans hope b harley davidson and the marlboro man c heat d scratch",
+            "content": "like have people so can first which good know year all day because make think some much really about out want up more work back way take love do need well",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "find a movie similar to jurassic park the silence of the lambs schindlers list braveheart options a a hard days night b showtime c forrest gump d eddie the eagle",
+            "content": "record club members are as likely to purchase music from a retail store as they are to purchase from a club according to a study con ducted for the national",
+            "url": "https://archive.org/stream/bub_gb_3QsEAAAAMBAJ/bub_gb_3QsEAAAAMBAJ_djvu.txt",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "find a movie similar to pulp fiction dances with wolves the fugitive the shawshank redemption options a baby secret of the lost legend b the care bears movie c the fiendish plot of dr fu manchu d forrest gump",
+            "content": "find try better how before use give life help she sure no lot every into then than great keep down start best tell see someone would go too bad any actually",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "find a movie similar to the shawshank redemption the usual suspects pulp fiction fargo options a damage b pie in the sky c the fugitive d a plasticine crow",
+            "content": "escape from alcatraz 1979 rescue dawn 2006 the count of monte cristo 2002 my personal favorite from this list cool hand luke 1967",
+            "url": "https://tildes.net/~movies/1lo1/besides_shawshank_redemption_what_films_do_you_like_that_feature_grit_resilience_endurance_under",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "find a movie similar to pulp fiction forrest gump dances with wolves the usual suspects options a the lawnmower man b virus c jaws the revenge d get shorty",
+            "content": "memento immediately comes to mind its a kind of psychological thriller about a man with amnesia who loses his memory every five minutes",
+            "url": "https://www.sitepoint.com/community/t/good-non-linear-movies-to-watch/265648",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "find a movie similar to the terminator waynes world star wars episode v the empire strikes back indiana jones and the temple of doom options a nixon b the pink panther c the pawnbroker d raiders of the lost ark",
+            "content": "find similar movies like indiana jones and the temple of doom which are popular on netflix itunes amazon disney right now",
+            "url": "https://flixpatrol.com/title/indiana-jones-and-the-temple-of-doom/similar-movies/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "find a movie similar to forrest gump star wars episode vi return of the jedi back to the future the matrix options a out of the past b sleeping with the enemy c independence day d ghost in the shell arise border 2 ghost whispers",
+            "content": "like have people so can first which good know year all day because make think some much really about out want up more work back way take love do need well",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "find a movie similar to pulp fiction the shawshank redemption schindlers list dances with wolves options a easter parade b captain america the first avenger c braveheart d manic",
+            "content": "like have people so can first which good know year all day because make think some much really about out want up more work back way take love do need well",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to raiders of the lost ark the matrix pulp fiction forrest gump options a trail of the pink panther b inception c firestarter d joes apartment",
+            "content": "my idea for this thread is to create a list of other media that fans of indiana jones might enjoy things that have a similar feeltone to",
+            "url": "http://raven.theraider.net/threads/if-you-like-indiana-jones-you-might-like.18172/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "find a movie similar to braveheart pulp fiction saving private ryan gattaca options a brave b dredd c when worlds collide d go",
+            "content": "fans looking for more intense and critically acclaimed war movies like saving private ryan can check out similar films from 1917 to fury",
+            "url": "https://collider.com/movies-like-saving-private-ryan/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "find a movie similar to stargate the shawshank redemption dances with wolves the fugitive options a angel at my table b an c beauty of the day d pulp fiction e the omega man",
+            "content": "day because make think some much really about out want up more work back way find try better how before use give life help she sure no lot every",
+            "url": "https://osf.io/s95uj/?action=download",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "find a movie similar to the lion king terminator 2 judgment day schindlers list the shawshank redemption options a ill be home for christmas b lilya 4ever c a night in the life of jimmy reardon d aladdin",
+            "content": "movies think characters character watch films two many seen being acting never plot little where love best life did show know does ever here better man your",
+            "url": "http://www.stat.yale.edu/~tba3/class_data/aclImdb/imdb.vocab",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to apollo 13 the shawshank redemption braveheart dances with wolves options a beneath the planet of the apes b tokyo decadence c batman d i sell the dead",
+            "content": "there are many films like apollo 13 that take you on a journey to distant planets and remind you of the indomitable human spirit",
+            "url": "https://www.thereviewgeek.com/10movies-apollo-13/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "find a movie similar to inception inside out edge of tomorrow star wars episode vii the force awakens options a pulp fiction b dutch c murder in the first d mystery e alaska",
+            "content": "epic star wars sequel delivers great performances action read common sense mediax27s star wars episode vii the force awakens review age rating and parents guide",
+            "url": "https://www.commonsensemedia.org/movie-reviews/star-wars-episode-vii-the-force-awakens",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "find a movie similar to pulp fiction stargate the fugitive the shawshank redemption options a the astronaut farmer b its pat c oneeyed jacks d dances with wolves",
+            "content": "with its nonlinear storytelling razorsharp dialogue and unforgettable characters pulp fiction revolutionized the crime drama landscape delivering a thrilling blend of action dark humor and iconic pop culture moments quentin tarantinox27s turned each scene into a minimovie of its own",
+            "url": "https://www.ranker.com/list/movies-like-pulp-fiction/jason-bancroft",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "find a movie similar to dances with wolves the lion king the fugitive the shawshank redemption options a schindlers list b day for night c man of the house d the neon demon",
+            "content": "answer 1 of 6 before suggesting a similar move ix27d like to recommend the tv series named quotozquot it was created by tom fontana and was aired on hbo in the late 90x27s it has a stellar cast many of whom play excellent roles in movies and other tv series we watch today its about prison life",
+            "url": "https://www.quora.com/Can-you-suggest-me-some-movies-like-Shawshank-Redemption-and-The-Schindlers-List",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to the green mile the matrix saving private ryan gladiator options a 49 up b gattaca c alex and emma d the terrorist",
+            "content": "discover 20 powerful movies like the green mile filled with emotional depth compelling storytelling and unforgettable characters",
+            "url": "https://www.similar-list.com/movies/movies-like-the-green-mile/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "find a movie similar to dances with wolves the shawshank redemption schindlers list pulp fiction options a braveheart b the pretty one c elsa fred d the sound of music",
+            "content": "answer 1 of 6 before suggesting a similar move ix27d like to recommend the tv series named quotozquot it was created by tom fontana and was aired on hbo in the late 90x27s it has a stellar cast many of whom play excellent roles in movies and other tv series we watch today its about prison life",
+            "url": "https://www.quora.com/Can-you-suggest-me-some-movies-like-Shawshank-Redemption-and-The-Schindlers-List",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "find a movie similar to the usual suspects interview with the vampire the vampire chronicles the shawshank redemption pulp fiction options a toy soldiers b the fugitive c the wasp woman d baxter",
+            "content": "it is time to bring back dark bloodthirsty amp nonsparkling vampires sink your teeth into these classic vampire films werewolves need not read on",
+            "url": "https://screenrant.com/movies-interview-with-the-vampire/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to stargate the fugitive pulp fiction dances with wolves options a forrest gump b kevin smith too fat for 40 c scorched d stand and deliver",
+            "content": "what are your comments on this list there are some that i agree with wrong choices for the years or films i strongly dislike or at least think basically mediocre such as crash or forrest gump or out of africa or a beautiful mind other choices of terrific films like tom jones no countr for",
+            "url": "http://www.filmleaf.net/archive/index.php/t-3673.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "find a movie similar to star wars episode iv a new hope star wars episode v the empire strikes back the silence of the lambs the princess bride options a the valet b love potion 9 c the twilight samurai d fargo",
+            "content": "star wars episode iv a new hope directed by george lucas with mark hamill harrison ford carrie fisher peter cushing luke skywalker joins forces with a jedi knight a cocky pilot a wookiee and two droids to save the galaxy from the empirex27s worlddestroying battle station while also",
+            "url": "https://www.imdb.com/title/tt0076759/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "find a movie similar to apollo 13 pulp fiction pretty woman braveheart options a in good company b a summers tale c phenomena d the shawshank redemption",
+            "content": "the american president apollo 13 braveheart carrington leaving las vegas mightly aphrodite persuasion smoke the usual suspects bullets over broadway ed wood forrest gump four weddings and a funeral heavenly creatures the madness of king george nobodyx27s fool pulp fiction quiz show the shawshank redemption",
+            "url": "https://web.archive.org/web/20131210135126/http:/www.nationalboardofreview.org/award-names/top-films",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "find a movie similar to apollo 13 batman dances with wolves braveheart options a schindlers list b crimes and misdemeanors c king kong d gorillas in the mist",
+            "content": "answer 1 of 3 films similar to dances with wolves this film doesnx27t get the credit it deserves excellent acting amazing battle sequences stellar production and wardrobe design etc people argue that it ripped off the concept of dances with wolves among others but beyond that itx27s",
+            "url": "https://www.quora.com/What-are-some-recent-movies-that-are-similar-to-Braveheart-and-Dances-with-Wolves",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "find a movie similar to pulp fiction raiders of the lost ark the matrix inception options a hector and the search for happiness b the quiet american c the shawshank redemption d falling down",
+            "content": "answer 1 of 4 itx27s impossible for me to objectively say which of those movies is definitively quotbetterquot as itx27s entirely subjective and depends on individual preferences each film you mentioned is highly acclaimed and beloved by many for different reasons so it really comes down to your perso",
+            "url": "https://www.quora.com/Which-is-a-better-movie-Shawshank-Redemption-Inception-Dark-Knight-Fight-Club-Forrest-Gump-Pulp-Fiction-Interstellar-Matrix-LOTR-or-Godfather",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to crimson tide the fugitive the usual suspects dances with wolves options a bandidas b braveheart c too many cooks d bad santa",
+            "content": "when some russian rebels take control of some icbmx27s the americans mobilize among the vessels sent is the nuclear sub uss alabama but before they leave they need a new xo and among the choices is commander hunter who hasnx27t seen much action but the shipx27s captain ramsey okx27s him",
+            "url": "https://tastedive.com/movies/like/Crimson-Tide",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "find a movie similar to the shawshank redemption saving private ryan braveheart the matrix options a dracula 2000 b 1492 conquest of paradise c schindlers list d auto focus",
+            "content": "answer 1 of 6 before suggesting a similar move ix27d like to recommend the tv series named quotozquot it was created by tom fontana and was aired on hbo in the late 90x27s it has a stellar cast many of whom play excellent roles in movies and other tv series we watch today its about prison life",
+            "url": "https://www.quora.com/Can-you-suggest-me-some-movies-like-Shawshank-Redemption-and-The-Schindlers-List",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "find a movie similar to dances with wolves the fugitive the shawshank redemption braveheart options a hostage b behind enemy lines c get shorty d alice",
+            "content": "answer 1 of 3 films similar to dances with wolves this film doesnx27t get the credit it deserves excellent acting amazing battle sequences stellar production and wardrobe design etc people argue that it ripped off the concept of dances with wolves among others but beyond that itx27s",
+            "url": "https://www.quora.com/What-are-some-recent-movies-that-are-similar-to-Braveheart-and-Dances-with-Wolves",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "find a movie similar to the fugitive schindlers list fargo braveheart options a dances with wolves b arachnophobia c the good son d liam",
+            "content": "answer 1 of 3 films similar to dances with wolves this film doesnx27t get the credit it deserves excellent acting amazing battle sequences stellar production and wardrobe design etc people argue that it ripped off the concept of dances with wolves among others but beyond that itx27s",
+            "url": "https://www.quora.com/What-are-some-recent-movies-that-are-similar-to-Braveheart-and-Dances-with-Wolves",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to dances with wolves mr hollands opus stargate get shorty options a ride with the devil b it runs in the family c the usual suspects d anomalisa",
+            "content": "check out 20 more movies like dances with wolves that capture profound connections nature and unforgettable moments",
+            "url": "https://www.similar-list.com/movies/movies-like-dances-with-wolves/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "find a movie similar to batman the mask the lion king pretty woman options a los angeles plays itself b gintama the final chapter be forever yorozuya c doctor who last christmas d the fugitive",
+            "content": "movies similar to gintama the movie the final chapter be forever yorozuya gintama the movie 2010 gintama 2005 gintama the final 2021 burst angel 2004 samurai girls 2010 needless 2009 dragon ball z fusion reborn 1995 dragon ball z battle of gods 2013 vexille 2007",
+            "url": "https://bestsimilar.com/movies/70542-gintama-the-final-chapter-be-forever-yorozuya",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to batman independence day forrest gump the silence of the lambs options a skyline b jurassic park c dragon ball z broly the legendary super saiyan d one fine day",
+            "content": "bluray region a dragon ball z broly double feature movies 8amp10 bluray 20071113 from 1531 dragon ball z broly triple feature movies 8 10 11 bluray 20090331 from 2049 dragon ball z broly triple threat movies 8 10 11 walmart exclusive bluray 20190000",
+            "url": "https://www.animenewsnetwork.com/encyclopedia/anime.php?id=986",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to apollo 13 schindlers list pretty woman braveheart options a the fly b metropia c ciao d professore e dances with wolves",
+            "content": "movies similar to schindlerx27s list movie similar to similar films to schindlerx27s list film similar to if you liked schindlerx27s list you might be interested in these others if you liked schindlerx27s list you may also like these others movie recommendations if you liked schindlerx27s list",
+            "url": "https://m.filmaffinity.com/us/similar-movies.php?movie-id=656153",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to forrest gump the fugitive the shawshank redemption pulp fiction options a anchors aweigh b looney tunes back in action c porkys revenge d dances with wolves",
+            "content": "44 votes 69 comments i’m talking about critically acclaimed movies that are moving eventful and with a “good” ending go with anything even…",
+            "url": "https://www.reddit.com/r/MovieSuggestions/comments/1c1iaip/movies_like_the_shawshank_redemption_forrest_gump/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "find a movie similar to the lion king dances with wolves braveheart schindlers list options a pickup on south street b poltergeist iii c crush d the shawshank redemption",
+            "content": "answer 1 of 3 films similar to dances with wolves this film doesnx27t get the credit it deserves excellent acting amazing battle sequences stellar production and wardrobe design etc people argue that it ripped off the concept of dances with wolves among others but beyond that itx27s",
+            "url": "https://www.quora.com/What-are-some-recent-movies-that-are-similar-to-Braveheart-and-Dances-with-Wolves",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to forrest gump the silence of the lambs fargo seven options a schindlers list b the diary of anne frank c cleanskin d boy",
+            "content": "53 votes 92 comments hey guys i’ve been looking for some movies like se7en and silence of the lambs i’m taking a week off work and wanted to see…",
+            "url": "https://www.reddit.com/r/MovieSuggestions/comments/16uy15z/movies_like_or_similar_to_se7en_or_silence_of_the/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "find a movie similar to dances with wolves the shawshank redemption braveheart the fugitive options a the village b beverly hills cop iii c bring me the head of alfredo garcia d pulp fiction",
+            "content": "answer 1 of 3 films similar to dances with wolves this film doesnx27t get the credit it deserves excellent acting amazing battle sequences stellar production and wardrobe design etc people argue that it ripped off the concept of dances with wolves among others but beyond that itx27s",
+            "url": "https://www.quora.com/What-are-some-recent-movies-that-are-similar-to-Braveheart-and-Dances-with-Wolves",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to one flew over the cuckoos nest star wars episode v the empire strikes back léon the professional reservoir dogs options a thumbelina b hereafter c the thinning d raiders of the lost ark",
+            "content": "if you liked the themes surrounding one flew over the cuckoos nest youx27ll want to check out some of these films that have similar elements",
+            "url": "https://screenrant.com/films-if-you-like-one-flew-over-cuckoos-nest/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "find a movie similar to the usual suspects schindlers list braveheart dances with wolves options a the way of the gun b bully c fiddler on the roof d batman",
+            "content": "love mystery and suspense check out these top 19 movies like the usual suspects full of unpredictable plots and clever criminals",
+            "url": "https://www.similar-list.com/movies/movies-like-the-usual-suspects/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "find a movie similar to don juan demarco mr hollands opus whats eating gilbert grape pulp fiction options a get shorty b kolya c death wish 2 d gold diggers of 1933",
+            "content": "if you like don juan demarco whatx27s eating gilbert grape we recommend similar movies",
+            "url": "https://tastedive.com/like/Don-Juan-Demarco,-What's-Eating-Gilbert-Grape",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "find a movie similar to braveheart the fugitive the mask schindlers list options a interstate 60 b primary colors c careful what you wish for d the shawshank redemption",
+            "content": "answer 1 of 6 before suggesting a similar move ix27d like to recommend the tv series named quotozquot it was created by tom fontana and was aired on hbo in the late 90x27s it has a stellar cast many of whom play excellent roles in movies and other tv series we watch today its about prison life",
+            "url": "https://www.quora.com/Can-you-suggest-me-some-movies-like-Shawshank-Redemption-and-The-Schindlers-List",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to raiders of the lost ark the matrix star wars episode iv a new hope inception options a attack of the killer tomatoes b up c ernest rides again d white christmas",
+            "content": "your brain due for another mindfk after inception herex27s more twisty scifi thriller and action delights",
+            "url": "https://editorial.rottentomatoes.com/guide/20-movies-to-watch-if-you-loved-inception/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "find a movie similar to batman independence day jurassic park forrest gump options a pleasantville b the mask c to catch a thief d microwave massacre",
+            "content": "answer 1 of 8 ix27m assuming youx27re relatively young and if ix27m wrong i apologise but for people my age 47 the answer is relatively obvious the movies were better period so it wasnx27t a big deal to have 45 good movies all out in the theaters at the same time before someone my age comes",
+            "url": "https://www.quora.com/How-did-the-audience-feel-when-movies-like-Pulp-Fiction-Forrest-Gump-The-Shawshank-Redemption-Jurassic-Park-and-The-Lion-King-were-in-theaters-all-at-the-same-time",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "find a movie similar to goodfellas raiders of the lost ark star wars episode iv a new hope the silence of the lambs options a monty python and the holy grail b weekend at bernies c american in paris d an e let it snow",
+            "content": "the aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son the early life and career of vito corleone in 1920s new york city is portrayed while his son michael expands and tightens his grip on the family crime syndicate the story",
+            "url": "https://www.imdb.com/list/ls007251148",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to braveheart pretty woman schindlers list apollo 13 options a bad taste b my big fat greek wedding 2 c the santa clause 2 d dances with wolves",
+            "content": "discover the 13 best movies like braveheart that showcase epic battles heroic quests and legendary figures",
+            "url": "https://www.similar-list.com/movies/movies-like-braveheart/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "find a movie similar to forrest gump the shawshank redemption the matrix star wars episode i the phantom menace options a fight club b i shot jesse james c out cold d blackrock",
+            "content": "movies similar to forrest gump big fish 2003 the shawshank redemption 1994 good will hunting 1997 the pursuit of happyness 2006 scent of a woman 1992 the terminal 2004 my name is khan 2010 the green mile 1999 patch adams 1998 pay it forward 2000",
+            "url": "https://bestsimilar.com/movies/13652-forrest-gump",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "find a movie similar to blade runner reservoir dogs léon the professional rear window options a pickup on south street b one flew over the cuckoos nest c home d trumbo",
+            "content": "looking for more crime dramas sometimes with a heist twist discover these 10 films",
+            "url": "https://www.metacritic.com/news/movies-like-reservoir-dogs/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "find a movie similar to aladdin toy story the lion king pulp fiction options a being elmo a puppeteers journey b far from home the adventures of yellow dog c terminator 2 judgment day d robogeisha",
+            "content": "discover the top 20 animated movies like aladdin that bring magic adventure and unforgettable characters to life",
+            "url": "https://www.similar-list.com/movies/movies-like-aladdin-2/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "find a movie similar to the usual suspects schindlers list fargo the shawshank redemption options a with a friend like harry b crash c the stepford wives d pulp fiction",
+            "content": "answer 1 of 6 before suggesting a similar move ix27d like to recommend the tv series named quotozquot it was created by tom fontana and was aired on hbo in the late 90x27s it has a stellar cast many of whom play excellent roles in movies and other tv series we watch today its about prison life",
+            "url": "https://www.quora.com/Can-you-suggest-me-some-movies-like-Shawshank-Redemption-and-The-Schindlers-List",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "find a movie similar to forrest gump the silence of the lambs seven fargo options a gandhi b schindlers list c dogfight d repo man",
+            "content": "for fans of thrilling suspense and chilling narratives silence of the lambs set the bar high with its iconic storytelling and brilliant characters if youx27ve been on the lookout for more movies like silence of the lambs wex27ve curated a list of the films that are most similar belowthe list",
+            "url": "https://www.ranker.com/list/movies-like-silence-of-the-lambs/jason-bancroft",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to dances with wolves stargate pulp fiction the shawshank redemption options a the towering inferno b the collector c diabolique d the fugitive",
+            "content": "sick of everyone putting you down for not loving quotthe shawshank redemptionquot here are titles to counter the argument shawshank while a great film has been done to death on tv i can remember in one year it was played at least 3 times on free to air tv here are some of my favorite films that",
+            "url": "https://www.imdb.com/list/ls050622170/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "find a movie similar to jurassic park forrest gump independence day mission impossible options a the godfather trilogy 19721990 b star wars episode vi return of the jedi c halloween ii d alice through the looking glass",
+            "content": "movies similar to jurassic world movie similar to similar films to jurassic world film similar to if you liked jurassic world you might be interested in these others if you liked jurassic world you may also like these others movie recommendations if you liked jurassic world",
+            "url": "https://m.filmaffinity.com/us/similar-movies.php?movie-id=843613&chv=list",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "find a movie similar to schindlers list jurassic park the silence of the lambs forrest gump options a batman b alien resurrection c a tale of two cities d the quiet american",
+            "content": "schindlerx27s list is a 1993 american epic historical drama film directed and produced by steven spielberg and written by steven zaillian it is based on the historical novel schindlerx27s ark 1982 by thomas keneally the film follows oskar schindler a german industrialist who saved more than",
+            "url": "https://en.wikipedia.org/wiki/Schindler's_List",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to the lion king toy story the fugitive aladdin options a experimenter b highway 61 c terminator 2 judgment day d short circuit 2",
+            "content": "explore these 20 captivating movies like the lion king filled with inspiring tales epic journeys and beautiful animation",
+            "url": "https://www.similar-list.com/movies/movies-like-lion-king/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "find a movie similar to forrest gump the matrix pulp fiction inception options a like crazy b win win c morvern callar d independence day",
+            "content": "answer 1 of 4 itx27s impossible for me to objectively say which of those movies is definitively quotbetterquot as itx27s entirely subjective and depends on individual preferences each film you mentioned is highly acclaimed and beloved by many for different reasons so it really comes down to your perso",
+            "url": "https://www.quora.com/Which-is-a-better-movie-Shawshank-Redemption-Inception-Dark-Knight-Fight-Club-Forrest-Gump-Pulp-Fiction-Interstellar-Matrix-LOTR-or-Godfather",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "find a movie similar to pulp fiction dances with wolves schindlers list braveheart options a exte hair extensions b the shawshank redemption c hot lead and cold feet d the man who shot liberty valance",
+            "content": "answer 1 of 3 films similar to dances with wolves this film doesnx27t get the credit it deserves excellent acting amazing battle sequences stellar production and wardrobe design etc people argue that it ripped off the concept of dances with wolves among others but beyond that itx27s",
+            "url": "https://www.quora.com/What-are-some-recent-movies-that-are-similar-to-Braveheart-and-Dances-with-Wolves",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to pulp fiction braveheart the shawshank redemption crimson tide options a goon last of the enforcers b a very harold kumar 3d christmas c the fugitive d a separation",
+            "content": "from sin city to snatch these are the best movies to watch if you like pulp fiction",
+            "url": "https://collider.com/movies-like-pulp-fiction/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "find a movie similar to pulp fiction the shawshank redemption aladdin the lion king options a terminator 2 judgment day b the next three days c detachment d ruby sparks",
+            "content": "answer 1 of 8 ix27m assuming youx27re relatively young and if ix27m wrong i apologise but for people my age 47 the answer is relatively obvious the movies were better period so it wasnx27t a big deal to have 45 good movies all out in the theaters at the same time before someone my age comes",
+            "url": "https://www.quora.com/How-did-the-audience-feel-when-movies-like-Pulp-Fiction-Forrest-Gump-The-Shawshank-Redemption-Jurassic-Park-and-The-Lion-King-were-in-theaters-all-at-the-same-time",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "find a movie similar to the shawshank redemption schindlers list terminator 2 judgment day aladdin options a ninas heavenly delights b american pie presents the book of love c the recruit d the lion king",
+            "content": "answer 1 of 6 before suggesting a similar move ix27d like to recommend the tv series named quotozquot it was created by tom fontana and was aired on hbo in the late 90x27s it has a stellar cast many of whom play excellent roles in movies and other tv series we watch today its about prison life",
+            "url": "https://www.quora.com/Can-you-suggest-me-some-movies-like-Shawshank-Redemption-and-The-Schindlers-List",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "find a movie similar to pulp fiction fargo twelve monkeys monty python and the holy grail options a cloud atlas b friday night lights c the godfather d pride and prejudice",
+            "content": "monty python and the holy grail is a 1975 british comedy film based on the arthurian legend written and performed by the monty python comedy group graham chapman john cleese terry gilliam eric idle terry jones and michael palin and directed by gilliam and jones in their feature directorial",
+            "url": "https://en.wikipedia.org/wiki/Monty_Python_and_the_Holy_Grail",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "find a movie similar to the lion king the fugitive schindlers list the shawshank redemption options a the art of the steal b pulp fiction c battlestar galactica the plan d breakin all the rules",
+            "content": "answer 1 of 6 before suggesting a similar move ix27d like to recommend the tv series named quotozquot it was created by tom fontana and was aired on hbo in the late 90x27s it has a stellar cast many of whom play excellent roles in movies and other tv series we watch today its about prison life",
+            "url": "https://www.quora.com/Can-you-suggest-me-some-movies-like-Shawshank-Redemption-and-The-Schindlers-List",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "find a movie similar to dances with wolves the shawshank redemption stargate tombstone options a the fugitive b frankenstein unbound c easter parade d one crazy summer",
+            "content": "list of 10 films to watch if you love the shawshank redemption these 10 films are like in their spirit and ideas of freedom",
+            "url": "https://www.highonfilms.com/films-like-shawshank-redemption/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "find a movie similar to aladdin the lion king terminator 2 judgment day batman options a the mummy b narc c fright night d pretty woman",
+            "content": "come with us if you want to live with more great movies in your life herex27s a list of movies to watch if you like terminator 2",
+            "url": "https://filmschoolrejects.com/movies-to-watch-terminator-2-judgment-day/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to pulp fiction the dark knight the silence of the lambs forrest gump options a the da vinci code b inception c identity thief d war for the planet of the apes",
+            "content": "answer 1 of 4 itx27s impossible for me to objectively say which of those movies is definitively quotbetterquot as itx27s entirely subjective and depends on individual preferences each film you mentioned is highly acclaimed and beloved by many for different reasons so it really comes down to your perso",
+            "url": "https://www.quora.com/Which-is-a-better-movie-Shawshank-Redemption-Inception-Dark-Knight-Fight-Club-Forrest-Gump-Pulp-Fiction-Interstellar-Matrix-LOTR-or-Godfather",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "find a movie similar to the lion king monsters inc catch me if you can minority report options a shrek b the natural c strike d gentlemen broncos",
+            "content": "explore these 20 captivating movies like the lion king filled with inspiring tales epic journeys and beautiful animation",
+            "url": "https://www.similar-list.com/movies/movies-like-lion-king/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "find a movie similar to schindlers list the shawshank redemption terminator 2 judgment day the lion king options a the red turtle b tarzan c nothing but trouble d aladdin",
+            "content": "answer 1 of 6 before suggesting a similar move ix27d like to recommend the tv series named quotozquot it was created by tom fontana and was aired on hbo in the late 90x27s it has a stellar cast many of whom play excellent roles in movies and other tv series we watch today its about prison life",
+            "url": "https://www.quora.com/Can-you-suggest-me-some-movies-like-Shawshank-Redemption-and-The-Schindlers-List",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to beauty and the beast independence day forrest gump jurassic park options a the bag man b the silence of the lambs c extreme measures d kicking off",
+            "content": "44 votes 90 comments epic in the sense of ‘a long poem narrating the deeds and adventures of heroic or legendary figures or the history of a…",
+            "url": "https://www.reddit.com/r/movies/comments/151gxbk/epic_movies_similar_to_forrest_gump_and_big_fish/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "find a movie similar to the usual suspects braveheart pulp fiction schindlers list options a the cabinet of dr caligari b the shawshank redemption c spiderman 2 d taxi",
+            "content": "1001 must see movies new checks afi 10 academy awards afi 100 agatha christie amt episodes amt top 6 animation bfi 100 silent clowns criterion directors ebert wga 101 time 100 stoddard stars silent sight amp sound",
+            "url": "http://www.rinkworks.com/checklist/list.cgi?u=000_abc&p=hugelist2",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "find a movie similar to the shawshank redemption forrest gump dances with wolves mr hollands opus options a pk b the great gatsby c philadelphia d casper meets wendy",
+            "content": "answer 1 of 14 here are some of the movies which touched my heart forever 1hachikoa dog storywell this one was a gem in this era and will be a masterpiece foreverbased on a true incident it tells the tale about the ultimate relationship of a dog and his ownerthe bond of friendship",
+            "url": "https://www.quora.com/Which-are-some-great-movies-like-The-Shawshank-Redemption-Forrest-Gump-The-Notebook-that-can-make-anyone-cry",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "find a movie similar to braveheart the usual suspects the shawshank redemption the fugitive options a boy b swiss family robinson c and then there were none d crimson tide",
+            "content": "cinematic efforts including invictus and the green mile are perfect for fans of the acclaimed and beloved masterpiece the shawshank redemption",
+            "url": "https://collider.com/movies-like-shawshank-redemption/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "find a movie similar to batman forrest gump jurassic park the usual suspects options a apollo 13 b battle beyond the stars c great balls of fire d the atomic submarine",
+            "content": "answer 1 of 8 ix27m assuming youx27re relatively young and if ix27m wrong i apologise but for people my age 47 the answer is relatively obvious the movies were better period so it wasnx27t a big deal to have 45 good movies all out in the theaters at the same time before someone my age comes",
+            "url": "https://www.quora.com/How-did-the-audience-feel-when-movies-like-Pulp-Fiction-Forrest-Gump-The-Shawshank-Redemption-Jurassic-Park-and-The-Lion-King-were-in-theaters-all-at-the-same-time",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "find a movie similar to the fugitive schindlers list braveheart the mask options a the real mccoy b batman c master and commander the far side of the world d supercop",
+            "content": "movies similar to the fugitive s movie similar to similar films to the fugitive s film similar to if you liked the fugitive s you might be interested in these others if you liked the fugitive s you may also like these others movie recommendations if you liked the fugitive s",
+            "url": "https://m.filmaffinity.com/us/similar-movies.php?movie-id=677707",
+            "engine": "braveAPI"
+        }
+    ]
+}

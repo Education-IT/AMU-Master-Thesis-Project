@@ -1,0 +1,1 @@
+find . -type f -iname "*XAI*.json" -exec cp {} /home/s444820/RDKO/ \;

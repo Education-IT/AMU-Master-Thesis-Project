@@ -1,0 +1,1766 @@
+{
+    "task": "bbh_zeroshot_dyck_languages",
+    "dataset": "web_access_dyck_languages_final",
+    "questions": 250,
+    "noWebContextCount": 0,
+    "contaminated_queries": 87,
+    "contaminated_urls": 87,
+    "valid_urls": 250,
+    "avg_contaminated_before_valid": 1.348,
+    "contaminated_data_ratio": 0.258160237388724,
+    "most_contaminated_urls": {},
+    "noWebContext": [],
+    "contaminated_WebContext": [],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "a java utility that returns truefalse if string contains the parenthesis and are in order of precedence and properly closed if nested",
+            "url": "https://stackoverflow.com/questions/75747743/string-parenthesis-in-right-order-and-valid-properly-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "a java utility that returns truefalse if string contains the parenthesis and are in order of precedence and properly closed if nested",
+            "url": "https://stackoverflow.com/questions/75747743/string-parenthesis-in-right-order-and-valid-properly-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "the idea is very simple keep on pushing the left counterparts to stack and as soon you encounter the right counterpart in the expression pop the stack",
+            "url": "https://stackoverflow.com/questions/66951005/use-stack-to-check-for-any-unbalanced-paranthesis-on-user-input-in-python",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "the idea is very simple keep on pushing the left counterparts to stack and as soon you encounter the right counterpart in the expression pop the stack",
+            "url": "https://stackoverflow.com/questions/66951005/use-stack-to-check-for-any-unbalanced-paranthesis-on-user-input-in-python",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "the idea is very simple keep on pushing the left counterparts to stack and as soon you encounter the right counterpart in the expression pop the stack",
+            "url": "https://stackoverflow.com/questions/66951005/use-stack-to-check-for-any-unbalanced-paranthesis-on-user-input-in-python",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "a java utility that returns truefalse if string contains the parenthesis and are in order of precedence and properly closed if nested",
+            "url": "https://stackoverflow.com/questions/75747743/string-parenthesis-in-right-order-and-valid-properly-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "the idea is very simple keep on pushing the left counterparts to stack and as soon you encounter the right counterpart in the expression pop the stack",
+            "url": "https://stackoverflow.com/questions/66951005/use-stack-to-check-for-any-unbalanced-paranthesis-on-user-input-in-python",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "a java utility that returns truefalse if string contains the parenthesis and are in order of precedence and properly closed if nested",
+            "url": "https://stackoverflow.com/questions/75747743/string-parenthesis-in-right-order-and-valid-properly-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "a java utility that returns truefalse if string contains the parenthesis and are in order of precedence and properly closed if nested",
+            "url": "https://stackoverflow.com/questions/75747743/string-parenthesis-in-right-order-and-valid-properly-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "need to find open and closed bracket if the sequence of opening and closing brackets is violated then return false",
+            "url": "https://stackoverflow.com/questions/52969755/how-to-check-the-sequence-of-opening-and-closing-brackets-in-string",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "a java utility that returns truefalse if string contains the parenthesis and are in order of precedence and properly closed if nested",
+            "url": "https://stackoverflow.com/questions/75747743/string-parenthesis-in-right-order-and-valid-properly-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "the idea is very simple keep on pushing the left counterparts to stack and as soon you encounter the right counterpart in the expression pop the stack",
+            "url": "https://stackoverflow.com/questions/66951005/use-stack-to-check-for-any-unbalanced-paranthesis-on-user-input-in-python",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "the idea is very simple keep on pushing the left counterparts to stack and as soon you encounter the right counterpart in the expression pop the stack",
+            "url": "https://stackoverflow.com/questions/66951005/use-stack-to-check-for-any-unbalanced-paranthesis-on-user-input-in-python",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "the idea is very simple keep on pushing the left counterparts to stack and as soon you encounter the right counterpart in the expression pop the stack",
+            "url": "https://stackoverflow.com/questions/66951005/use-stack-to-check-for-any-unbalanced-paranthesis-on-user-input-in-python",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "the idea is very simple keep on pushing the left counterparts to stack and as soon you encounter the right counterpart in the expression pop the stack",
+            "url": "https://stackoverflow.com/questions/66951005/use-stack-to-check-for-any-unbalanced-paranthesis-on-user-input-in-python",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "need to find open and closed bracket if the sequence of opening and closing brackets is violated then return false",
+            "url": "https://stackoverflow.com/questions/52969755/how-to-check-the-sequence-of-opening-and-closing-brackets-in-string",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "a java utility that returns truefalse if string contains the parenthesis and are in order of precedence and properly closed if nested",
+            "url": "https://stackoverflow.com/questions/75747743/string-parenthesis-in-right-order-and-valid-properly-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "the idea is very simple keep on pushing the left counterparts to stack and as soon you encounter the right counterpart in the expression pop the stack",
+            "url": "https://stackoverflow.com/questions/66951005/use-stack-to-check-for-any-unbalanced-paranthesis-on-user-input-in-python",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "the idea is very simple keep on pushing the left counterparts to stack and as soon you encounter the right counterpart in the expression pop the stack",
+            "url": "https://stackoverflow.com/questions/66951005/use-stack-to-check-for-any-unbalanced-paranthesis-on-user-input-in-python",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "the idea is very simple keep on pushing the left counterparts to stack and as soon you encounter the right counterpart in the expression pop the stack",
+            "url": "https://stackoverflow.com/questions/66951005/use-stack-to-check-for-any-unbalanced-paranthesis-on-user-input-in-python",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "a java utility that returns truefalse if string contains the parenthesis and are in order of precedence and properly closed if nested",
+            "url": "https://stackoverflow.com/questions/75747743/string-parenthesis-in-right-order-and-valid-properly-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "a java utility that returns truefalse if string contains the parenthesis and are in order of precedence and properly closed if nested",
+            "url": "https://stackoverflow.com/questions/75747743/string-parenthesis-in-right-order-and-valid-properly-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "the idea is very simple keep on pushing the left counterparts to stack and as soon you encounter the right counterpart in the expression pop the stack",
+            "url": "https://stackoverflow.com/questions/66951005/use-stack-to-check-for-any-unbalanced-paranthesis-on-user-input-in-python",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "the idea is very simple keep on pushing the left counterparts to stack and as soon you encounter the right counterpart in the expression pop the stack",
+            "url": "https://stackoverflow.com/questions/66951005/use-stack-to-check-for-any-unbalanced-paranthesis-on-user-input-in-python",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "the idea is very simple keep on pushing the left counterparts to stack and as soon you encounter the right counterpart in the expression pop the stack",
+            "url": "https://stackoverflow.com/questions/66951005/use-stack-to-check-for-any-unbalanced-paranthesis-on-user-input-in-python",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "a java utility that returns truefalse if string contains the parenthesis and are in order of precedence and properly closed if nested",
+            "url": "https://stackoverflow.com/questions/75747743/string-parenthesis-in-right-order-and-valid-properly-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "the idea is very simple keep on pushing the left counterparts to stack and as soon you encounter the right counterpart in the expression pop the stack",
+            "url": "https://stackoverflow.com/questions/66951005/use-stack-to-check-for-any-unbalanced-paranthesis-on-user-input-in-python",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "the idea is very simple keep on pushing the left counterparts to stack and as soon you encounter the right counterpart in the expression pop the stack",
+            "url": "https://stackoverflow.com/questions/66951005/use-stack-to-check-for-any-unbalanced-paranthesis-on-user-input-in-python",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "a java utility that returns truefalse if string contains the parenthesis and are in order of precedence and properly closed if nested",
+            "url": "https://stackoverflow.com/questions/75747743/string-parenthesis-in-right-order-and-valid-properly-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "the idea is very simple keep on pushing the left counterparts to stack and as soon you encounter the right counterpart in the expression pop the stack",
+            "url": "https://stackoverflow.com/questions/66951005/use-stack-to-check-for-any-unbalanced-paranthesis-on-user-input-in-python",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "the idea is very simple keep on pushing the left counterparts to stack and as soon you encounter the right counterpart in the expression pop the stack",
+            "url": "https://stackoverflow.com/questions/66951005/use-stack-to-check-for-any-unbalanced-paranthesis-on-user-input-in-python",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "the idea is very simple keep on pushing the left counterparts to stack and as soon you encounter the right counterpart in the expression pop the stack",
+            "url": "https://stackoverflow.com/questions/66951005/use-stack-to-check-for-any-unbalanced-paranthesis-on-user-input-in-python",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "the idea is very simple keep on pushing the left counterparts to stack and as soon you encounter the right counterpart in the expression pop the stack",
+            "url": "https://stackoverflow.com/questions/66951005/use-stack-to-check-for-any-unbalanced-paranthesis-on-user-input-in-python",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "a java utility that returns truefalse if string contains the parenthesis and are in order of precedence and properly closed if nested",
+            "url": "https://stackoverflow.com/questions/75747743/string-parenthesis-in-right-order-and-valid-properly-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "a java utility that returns truefalse if string contains the parenthesis and are in order of precedence and properly closed if nested",
+            "url": "https://stackoverflow.com/questions/75747743/string-parenthesis-in-right-order-and-valid-properly-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "the idea is very simple keep on pushing the left counterparts to stack and as soon you encounter the right counterpart in the expression pop the stack",
+            "url": "https://stackoverflow.com/questions/66951005/use-stack-to-check-for-any-unbalanced-paranthesis-on-user-input-in-python",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "a java utility that returns truefalse if string contains the parenthesis and are in order of precedence and properly closed if nested",
+            "url": "https://stackoverflow.com/questions/75747743/string-parenthesis-in-right-order-and-valid-properly-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "for example the string is properly nested but is not write a function class solution public int solutionstring s",
+            "url": "https://stackoverflow.com/questions/28951336/codility-brackets-determine-whether-a-given-string-of-parentheses-is-properly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "a java utility that returns truefalse if string contains the parenthesis and are in order of precedence and properly closed if nested",
+            "url": "https://stackoverflow.com/questions/75747743/string-parenthesis-in-right-order-and-valid-properly-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "the idea is very simple keep on pushing the left counterparts to stack and as soon you encounter the right counterpart in the expression pop the stack",
+            "url": "https://stackoverflow.com/questions/66951005/use-stack-to-check-for-any-unbalanced-paranthesis-on-user-input-in-python",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "a java utility that returns truefalse if string contains the parenthesis and are in order of precedence and properly closed if nested",
+            "url": "https://stackoverflow.com/questions/75747743/string-parenthesis-in-right-order-and-valid-properly-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "a java utility that returns truefalse if string contains the parenthesis and are in order of precedence and properly closed if nested",
+            "url": "https://stackoverflow.com/questions/75747743/string-parenthesis-in-right-order-and-valid-properly-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "a java utility that returns truefalse if string contains the parenthesis and are in order of precedence and properly closed if nested",
+            "url": "https://stackoverflow.com/questions/75747743/string-parenthesis-in-right-order-and-valid-properly-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "your task is to remove the minimum number of parentheses or in any positions so that the resulting parentheses string is valid and return any",
+            "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "a java utility that returns truefalse if string contains the parenthesis and are in order of precedence and properly closed if nested",
+            "url": "https://stackoverflow.com/questions/75747743/string-parenthesis-in-right-order-and-valid-properly-closed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "the idea is very simple keep on pushing the left counterparts to stack and as soon you encounter the right counterpart in the expression pop the stack",
+            "url": "https://stackoverflow.com/questions/66951005/use-stack-to-check-for-any-unbalanced-paranthesis-on-user-input-in-python",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the rest of the sequence making sure that the parentheses are closed properly input",
+            "content": "you need to write a function which will check validity of such an input string function may be like this bool isvalidchar s",
+            "url": "https://stackoverflow.com/questions/2509358/how-to-find-validity-of-a-string-of-parentheses-curly-brackets-and-square-brack",
+            "engine": "google"
+        }
+    ]
+}

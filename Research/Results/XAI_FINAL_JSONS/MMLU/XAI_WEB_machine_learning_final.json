@@ -1,0 +1,1712 @@
+{
+    "task": "mmlu_machine_learning",
+    "dataset": "web_access_machine_learning_final",
+    "questions": 112,
+    "noWebContextCount": 6,
+    "contaminated_queries": 78,
+    "contaminated_urls": 297,
+    "valid_urls": 106,
+    "avg_contaminated_before_valid": 3.80188679245283,
+    "contaminated_data_ratio": 0.7369727047146402,
+    "most_contaminated_urls": {
+        "www.exploredatabase.com": 31,
+        "www.cs.cmu.edu": 24,
+        "mcqmate.com": 9,
+        "pages.cs.wisc.edu": 9,
+        "www.examveda.com": 8,
+        "emtiyaz.github.io": 6,
+        "www.goseeko.com": 5
+    },
+    "noWebContext": [
+        "We are training fully connected network with two hidden layers to predict housing prices. Inputs are $100$-dimensional, and have several features such as the number of square feet, the median family income, etc. The first hidden layer has $1000$ activations. The second hidden layer has $10$ activations. The output is a scalar representing the house price. Assuming a vanilla network with affine transformations and with no batch normalization and no learnable parameters in the activation function, how many parameters does this network have?",
+        "Which of the following sentence is FALSE regarding regression?",
+        "Say the incidence of a disease D is about 5 cases per 100 people (i.e., P(D) = 0.05). Let Boolean random variable D mean a patient “has disease D” and let Boolean random variable TP stand for \"tests positive.\" Tests for disease D are known to be very accurate in the sense that the probability of testing positive when you have the disease is 0.99, and the probability of testing negative when you do not have the disease is 0.97. What is P(TP), the prior probability of testing positive.",
+        "Say the incidence of a disease D is about 5 cases per 100 people (i.e., P(D) = 0.05). Let Boolean random variable D mean a patient “has disease D” and let Boolean random variable TP stand for \"tests positive.\" Tests for disease D are known to be very accurate in the sense that the probability of testing positive when you have the disease is 0.99, and the probability of testing negative when you do not have the disease is 0.97. What is P(D | TP), the posterior probability that you have disease D when the test is positive?",
+        "Which of the following points would Bayesians and frequentists disagree on?",
+        "Predicting the amount of rainfall in a region based on various cues is a ______ problem."
+    ],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "statement 1 we learn a classifier f by boosting weak learners h the functional form of f’s decision boundary is the same as h’s but with different parameters eg if h was a linear classifier then f is also a linear classifier statement 2 cross validation can be used to select the number of iterations in boosting this procedure may help reduce overfitting",
+            "content": "we learn a classifier f by boosting weak learners h the functional form of fs decision boundary is the same as hs but with different parameters eg",
+            "url": "https://www.cs.cmu.edu/~aarti/Class/10701/exams/midterm2010f_sol.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "statement 1 we learn a classifier f by boosting weak learners h the functional form of f’s decision boundary is the same as h’s but with different parameters eg if h was a linear classifier then f is also a linear classifier statement 2 cross validation can be used to select the number of iterations in boosting this procedure may help reduce overfitting",
+            "content": "we learn a classifier f by boosting weak learners h the functional form of fs decision boundary is the same as hs but with different parameters eg",
+            "url": "https://www.cs.cmu.edu/~aarti/Class/10701/exams/midterm2010f.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "statement 1 we learn a classifier f by boosting weak learners h the functional form of f’s decision boundary is the same as h’s but with different parameters eg if h was a linear classifier then f is also a linear classifier statement 2 cross validation can be used to select the number of iterations in boosting this procedure may help reduce overfitting",
+            "content": "we learn a classifier ƒ by boosting weak learners h the functional form of fs decision boundary is the same as hs but with different parameters",
+            "url": "https://phoenix.eng.psu.ac.th/exam/%E0%B8%9B%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B22554/%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B2%E0%B8%97%E0%B8%B5%E0%B9%881/%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%A0%E0%B8%B2%E0%B8%8430%E0%B8%81%E0%B8%84_7%E0%B8%AA%E0%B8%8454/COE/241-588.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "statement 1 the values of the margins obtained by two different kernels k1x x0 and k2x x0 on the same training set do not tell us which classifier will perform better on the test set statement 2 the activation function of bert is the gelu",
+            "content": "k2x x0 on the same training set do not tell us which classifier will perform better on the test set answer true we need to normalize",
+            "url": "https://www.cs.cmu.edu/~aarti/Class/10701/exams/final2004-solution.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is false",
+            "content": "which of the following is false for the given molecules a equimolecular mixture of i and ii does not show optical activity b ii and",
+            "url": "https://tardigrade.in/question/which-of-the-following-is-false-for-the-given-molecules-dv0nrwxf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "given a large dataset of medical records from patients suffering from heart disease try to learn whether there might be different clusters of such patients for which we might tailor separate treatments what kind of learning problem is this",
+            "content": "4 given a large dataset of medical records from patients suffering from heart disease try to learn whether there might be different clusters",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-10.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "statement 1 roberta pretrains on a corpus that is approximate 10x larger than the corpus bert pretrained on statement 2 resnexts in 2018 usually used tanh activation functions",
+            "content": "question statement 1 roberta pretrains on a corpus that is approximate 10x larger than the corpus bert pretrained on statement 2 resnexts in 2018 usually",
+            "url": "https://ai.plainenglish.io/active-learning-for-llm-part-1-exploration-b8ea6d80f58d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "statement 1 the id3 algorithm is guaranteed to find the optimal decision tree statement 2 consider a continuous probability distribution with density f that is nonzero everywhere the probability of a value x is equal to fx",
+            "content": "a true or false the id3 algorithm is guaranteed to find the optimal decision tree b true or false consider a continuous probability distribution with",
+            "url": "https://www.cs.cmu.edu/~aarti/Class/10701/exams/final2006.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what would you do in pca to get the same projection as svd",
+            "content": "what would you do in pca to get the same projection as svd a transform data to zero mean b transform data to zero median",
+            "url": "https://www.examveda.com/what-would-you-do-in-pca-to-get-the-same-projection-as-svd-214229/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what would you do in pca to get the same projection as svd",
+            "content": "q what would you do in pca to get the same projection as svd a transform data to zero mean b transform data to zero median",
+            "url": "https://mcqmate.com/discussion/635/what-would-you-do-in-pca-to-get-the-same-projection-as-svd",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following sentence is false regarding regression",
+            "content": "q which of the following sentence is false regarding regression a it relates inputs to outputs b it is used for prediction",
+            "url": "https://mcqmate.com/discussion/796/which-of-the-following-sentence-is-false-regarding-regression",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following sentence is false regarding regression",
+            "content": "which of the following sentence is false regarding regression a it relates inputs to outputs b it is used for prediction c it may be used for",
+            "url": "https://www.examveda.com/which-of-the-following-sentence-is-false-regarding-regression-214454/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following sentence is false regarding regression",
+            "content": "which of the following sentence is false regarding regression a it relates inputs to outputs b it is used for prediction c it may be used for",
+            "url": "https://emtiyaz.github.io/teaching/waseda18_ml/sample_exam_answers.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following sentence is false regarding regression",
+            "content": "which of the following sentence is false regarding regression a it may be used for interpretation b it is used for prediction",
+            "url": "https://www.transtutors.com/questions/which-of-the-following-sentence-is-false-regarding-regression-a-it-may-be--9584217.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "for a gaussian bayes classifier which one of these structural assumptions is the one that most affects the tradeoff between underfitting and overfitting",
+            "content": "bayes classifier which one of these structural assumptions is the one that most affects the tradeoff between underfitting and overfitting",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-11.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "for a gaussian bayes classifier which one of these structural assumptions is the one that most affects the tradeoff between underfitting and overfitting",
+            "content": "e for a gaussian bayes classifier which one of these structural assumptions is the one that most affects the tradeoff between underfitting and overfitting",
+            "url": "https://www.cs.cmu.edu/~aarti/Class/10701/exams/final2003-solution.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "statement 1 support vector machines like logistic regression models give a probability distribution over the possible labels given an input example statement 2 we would expect the support vectors to remain the same in general as we move from a linear kernel to higher order polynomial kernels",
+            "content": "1 pt support vector machines like logistic regression models give a probability distribution over the possible labels given an input example",
+            "url": "https://www.cs.cmu.edu/~aarti/Class/10701/exams/final2004-solution.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "statement 1 support vector machines like logistic regression models give a probability distribution over the possible labels given an input example statement 2 we would expect the support vectors to remain the same in general as we move from a linear kernel to higher order polynomial kernels",
+            "content": "support vector machines like logistic regression models give a probability distribution over the possible labels given an input example",
+            "url": "https://archive.nptel.ac.in/content/storage2/courses/downloads_new/106106198/noc19_cs82_assignment_Week_10.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is false",
+            "content": "which of the following is false for the given molecules a equimolecular mixture of i and ii does not show optical activity b ii and",
+            "url": "https://tardigrade.in/question/which-of-the-following-is-false-for-the-given-molecules-dv0nrwxf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "say the incidence of a disease d is about 5 cases per 100 people ie pd 005 let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for disease d are known to be very accurate in the sense that the probability of testing positive when you have the disease is 099 and the probability of testing negative when you do not have the disease is 097 what is ptp the prior probability of testing positive",
+            "content": "let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for",
+            "url": "https://pages.cs.wisc.edu/~dyer/cs540/exams/exam2-s18-sol.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "say the incidence of a disease d is about 5 cases per 100 people ie pd 005 let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for disease d are known to be very accurate in the sense that the probability of testing positive when you have the disease is 099 and the probability of testing negative when you do not have the disease is 097 what is ptp the prior probability of testing positive",
+            "content": "let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-12.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "say the incidence of a disease d is about 5 cases per 100 people ie pd 005 let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for disease d are known to be very accurate in the sense that the probability of testing positive when you have the disease is 099 and the probability of testing negative when you do not have the disease is 097 what is ptp the prior probability of testing positive",
+            "content": "let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for disease d are known to",
+            "url": "https://www.exploredatabase.com/2020/05",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "say the incidence of a disease d is about 5 cases per 100 people ie pd 005 let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for disease d are known to be very accurate in the sense that the probability of testing positive when you have the disease is 099 and the probability of testing negative when you do not have the disease is 097 what is ptp the prior probability of testing positive",
+            "content": "let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for",
+            "url": "https://pages.cs.wisc.edu/~dyer/cs540/exams/exam2-s18.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "say the incidence of a disease d is about 5 cases per 100 people ie pd 005 let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for disease d are known to be very accurate in the sense that the probability of testing positive when you have the disease is 099 and the probability of testing negative when you do not have the disease is 097 what is ptp the prior probability of testing positive",
+            "content": "let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for disease d are known to",
+            "url": "https://www.goseeko.com/mcq/aryabhatta-knowledge-university-bihar/engineering/computer-engineering-1/third-year/sem-2/machine-learning-11/unit-4-hypothesis-testing-7/Easy?srsltid=AfmBOoqq3rdrRPDxXa5rrejt0RG5jTYtuR0AqI2puAFuOmnRtcgIX_ZC",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following best describes what discriminative approaches try to model w are the parameters in the model",
+            "content": "which of the following best describes what discriminative approaches try to model w are the parameters in the model a pyx w b py",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-04.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is more appropriate to do feature selection",
+            "content": "which of the following is more appropriate to do feature selection a ridge b lasso c both a and b d neither a nor b view answer",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-08.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "statement 1 the loglikelihood of the data will always increase through successive iterations of the expectation maximation algorithm statement 2 one disadvantage of qlearning is that it can only be used when the learner has prior knowledge of how its actions affect its environment",
+            "content": "true or false 2 pts one disadvantage of qlearning is that it can only be used when the learner has prior knowledge of how its actions affect its environment",
+            "url": "https://phoenix.eng.psu.ac.th/exam/%E0%B8%9B%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B22554/%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B2%E0%B8%97%E0%B8%B5%E0%B9%881/%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%A0%E0%B8%B2%E0%B8%843-14%E0%B8%95%E0%B8%8454/CoE/241-588.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "statement 1 the loglikelihood of the data will always increase through successive iterations of the expectation maximation algorithm statement 2 one disadvantage of qlearning is that it can only be used when the learner has prior knowledge of how its actions affect its environment",
+            "content": "true or false 2 pts one disadvantage of qlearning is that it can only be used when the learner has prior knowledge of how its actions affect",
+            "url": "https://www.cs.cmu.edu/~aarti/Class/10701/exams/final2008f.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which one of the following is the main reason for pruning a decision tree",
+            "content": "q which one of the following is the main reason for pruning a decision tree a to save computing time during testing",
+            "url": "https://mcqmate.com/discussion/535/which-one-of-the-following-is-the-main-reason-for-pruning-a-decision-tree",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "for kernel regression which one of these structural assumptions is the one that most affects the tradeoff between underfitting and overfitting",
+            "content": "▻ for kernel regression which one of these structural assumptions is the one that most affects the tradeoff between underfitting and overfitting a",
+            "url": "https://www.cs.cmu.edu/~tom/10701_sp11/recitations/Final%20Exam%20Review.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "for kernel regression which one of these structural assumptions is the one that most affects the tradeoff between underfitting and overfitting",
+            "content": "4 for kernel regression which one of these structural assumptions is the one that most affects the tradeoff between underfitting and",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-09.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "for kernel regression which one of these structural assumptions is the one that most affects the tradeoff between underfitting and overfitting",
+            "content": "f for kernel regression which one of these structural assumptions is the one that most affects the tradeoff between underfitting and overfitting i",
+            "url": "https://www.cs.cmu.edu/~aarti/Class/10701/exams/final2003-solution.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "for kernel regression which one of these structural assumptions is the one that most affects the tradeoff between underfitting and overfitting",
+            "content": "for kernel regression which one of these structural assumptions is the one that most affects the tradeoff between underfitting and overfitting whether kernel",
+            "url": "https://www.goseeko.com/mcq/bihar-engineering-university-bihar/engineering/computer-engineering-1/third-year/sem-2/machine-learning-11/unit-3-linear-classification-6/Hard?srsltid=AfmBOopmAT3m2Br-G59h5cd0JJsxLEyzJV1-RshsC1EWxM_7wVCsv_re",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "for a gaussian bayes classifier which one of these structural assumptions is the one that most affects the tradeoff between underfitting and overfitting",
+            "content": "bayes classifier which one of these structural assumptions is the one that most affects the tradeoff between underfitting and overfitting",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-11.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "for a gaussian bayes classifier which one of these structural assumptions is the one that most affects the tradeoff between underfitting and overfitting",
+            "content": "e for a gaussian bayes classifier which one of these structural assumptions is the one that most affects the tradeoff between underfitting and overfitting",
+            "url": "https://www.cs.cmu.edu/~aarti/Class/10701/exams/final2003-solution.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which one of the following is equal to pa b c given boolean random variables a b and c and no independence or conditional independence assumptions between any of them",
+            "content": "4 which one of the following is equal to pa b c given boolean random variables a b and c and no independence or",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-07.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "given a neural net with n input nodes no hidden layers one output node with entropy loss and sigmoid activation functions which of the following algorithms with the proper hyperparameters and initialization can be used to find the global optimum",
+            "content": "1 given a neural net with n input nodes no hidden layers one output node with entropy loss and sigmoid activation functions which of the",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-11.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "given a neural net with n input nodes no hidden layers one output node with entropy loss and sigmoid activation functions which of the following algorithms with the proper hyperparameters and initialization can be used to find the global optimum",
+            "content": "given a neural network with n input nodes no hidden layers one output node with entropy loss and sigmoid activation functions which of the",
+            "url": "https://www.seas.upenn.edu/~cis5190/fall2020/assets/quiz/quiz_sol/quiz9_sol.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "given a neural net with n input nodes no hidden layers one output node with entropy loss and sigmoid activation functions which of the following algorithms with the proper hyperparameters and initialization can be used to find the global optimum",
+            "content": "a 3 pts given a neural net with n input nodes no hidden layers one output node with entropy loss and sigmoid activation functions which of the",
+            "url": "https://people.eecs.berkeley.edu/~jrs/189/exam/finals15.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "given a neural net with n input nodes no hidden layers one output node with entropy loss and sigmoid activation functions which of the following algorithms with the proper hyperparameters and initialization can be used to find the global optimum",
+            "content": "a 3 pts given a neural net with n input nodes no hidden layers one output node with entropy loss and sigmoid activation functions which of the",
+            "url": "https://people.eecs.berkeley.edu/~jrs/189/exam/finals15blank.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following tasks can be best solved using clustering",
+            "content": "2 which of the following tasks can be best solved using clustering a predicting the amount of rainfall based on various cues",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-02.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following tasks can be best solved using clustering",
+            "content": "which of the following tasks can be best solved using clustering a predicting the amount of rainfall based on various cues b detecting fraudulent",
+            "url": "https://dsai.iitm.ac.in/~ravi/courses/Introduction%20to%20Machine%20Learning_files/Solution1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a machine learning problem involves four attributes plus a class the attributes have 3 2 2 and 2 possible values each the class has 3 possible values how many maximum possible different examples are there",
+            "content": "the class has 3 possible values how many maximum possible different examples are there a 12 b 24 c 48",
+            "url": "https://mcqmate.com/discussion/432/a-machine-learning-problem-involves-four-attributes-plus-a-class-the-attributes-have-3-2-2-and-2-possible-values-each-the-class-has-3-possible-values-how-many-maximum-possible-different-examples-are-there",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a machine learning problem involves four attributes plus a class the attributes have 3 2 2 and 2 possible values each the class has 3 possible values how many maximum possible different examples are there",
+            "content": "a machine learning problem involves four attributes plus a class the attributes have 3 2 2 and 2 possible values each there a 12",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-01.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a machine learning problem involves four attributes plus a class the attributes have 3 2 2 and 2 possible values each the class has 3 possible values how many maximum possible different examples are there",
+            "content": "a machine learning problem involves four attributes plus a class the attributes have 3 2 2 and 2 possible values each the class has 3 possible values",
+            "url": "https://www.examveda.com/computer-science/practice-mcq-question-on-machine-learning/?page=2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a machine learning problem involves four attributes plus a class the attributes have 3 2 2 and 2 possible values each the class has 3 possible values how many maximum possible different examples are there",
+            "content": "09 a machine learning problem involves four attributes plus a class the attributes have 3 2 2 and 2 possible values each the class has 3 possible values",
+            "url": "https://cozmocard.com/machine-learning-mcq-questions-and-answers/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "a machine learning problem involves four attributes plus a class the attributes have 3 2 2 and 2 possible values each the class has 3 possible values how many maximum possible different examples are there",
+            "content": "four attributes plus a class the 11 attributes have 3 2 2 and 2 possible values each the class has 3 possible values how many maximum possible different",
+            "url": "https://fr.scribd.com/document/616069047/Machine-Learning-Quiz-Answer",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if your training loss increases with number of epochs which of the following could be a possible issue with the learning process",
+            "content": "2 if your training loss increases with number of epochs which of the following could be a possible issue with the learning process a",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-12.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following is not supervised learning",
+            "content": "which of the following is not supervised learning a pca b decision tree c naive bayesian d linerar regression answer option a this",
+            "url": "https://www.examveda.com/which-of-the-following-is-not-supervised-learning-214362/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "statement 1 in a bayesian network the inference results of the junction tree algorithm are the same as the inference results of variable elimination statement 2 if two random variable x and y are conditionally independent given another random variable z then in the corresponding bayesian network the nodes for x and y are dseparated given z",
+            "content": "c true or false in a bayesian network the inference results of the junction tree algorithm are the same as the inference results of variable elimination d",
+            "url": "https://www.cs.cmu.edu/~aarti/Class/10701/exams/final2006.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following can only be used when training data are linearly separable",
+            "content": "which of the following can only be used when training data are linearlyseparable a linear hardmargin svm b linear logistic regression c",
+            "url": "https://mcqmate.com/discussion/384/which-of-the-following-can-only-be-used-when-training-data-are-linearlyseparable",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "statement 1 linear regression estimator has the smallest variance among all unbiased estimators statement 2 the coefficients α assigned to the classifiers assembled by adaboost are always nonnegative",
+            "content": "f linear regression estimator has the smallest variance among all unbiased estimators classifiers assembled by adaboost are always nonnegative 2",
+            "url": "https://es.scribd.com/document/419905082/midterm2008s-solution-pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "statement 1 linear regression estimator has the smallest variance among all unbiased estimators statement 2 the coefficients α assigned to the classifiers assembled by adaboost are always nonnegative",
+            "content": "f linear regression estimator has the smallest variance among all unbiased estimators classifiers assembled by adaboost are always nonnegative 5",
+            "url": "https://www.cs.cmu.edu/~aarti/Class/10701/exams/midterm2008s-solution.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "say the incidence of a disease d is about 5 cases per 100 people ie pd 005 let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for disease d are known to be very accurate in the sense that the probability of testing positive when you have the disease is 099 and the probability of testing negative when you do not have the disease is 097 what is pd tp the posterior probability that you have disease d when the test is positive",
+            "content": "let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for",
+            "url": "https://pages.cs.wisc.edu/~dyer/cs540/exams/exam2-s18-sol.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "say the incidence of a disease d is about 5 cases per 100 people ie pd 005 let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for disease d are known to be very accurate in the sense that the probability of testing positive when you have the disease is 099 and the probability of testing negative when you do not have the disease is 097 what is pd tp the posterior probability that you have disease d when the test is positive",
+            "content": "let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-12.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "say the incidence of a disease d is about 5 cases per 100 people ie pd 005 let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for disease d are known to be very accurate in the sense that the probability of testing positive when you have the disease is 099 and the probability of testing negative when you do not have the disease is 097 what is pd tp the posterior probability that you have disease d when the test is positive",
+            "content": "let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for disease d are known to",
+            "url": "https://www.exploredatabase.com/2020/05",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "say the incidence of a disease d is about 5 cases per 100 people ie pd 005 let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for disease d are known to be very accurate in the sense that the probability of testing positive when you have the disease is 099 and the probability of testing negative when you do not have the disease is 097 what is pd tp the posterior probability that you have disease d when the test is positive",
+            "content": "let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for",
+            "url": "https://pages.cs.wisc.edu/~dyer/cs540/exams/exam2-s18.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "say the incidence of a disease d is about 5 cases per 100 people ie pd 005 let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for disease d are known to be very accurate in the sense that the probability of testing positive when you have the disease is 099 and the probability of testing negative when you do not have the disease is 097 what is pd tp the posterior probability that you have disease d when the test is positive",
+            "content": "let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for disease d are known to",
+            "url": "https://www.goseeko.com/mcq/aryabhatta-knowledge-university-bihar/engineering/computer-engineering-1/third-year/sem-2/machine-learning-11/unit-4-hypothesis-testing-7/Easy?srsltid=AfmBOorxQACuFM243BcDvoQm9yBYq4eFa6BS2TlKs7ElwHUJV-0OcWv5",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following are the spatial clustering algorithms",
+            "content": "which of the following are the spatial clustering algorithms a partitioning based clustering b kmeans clustering c grid based clustering",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-02.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "statement 1 density estimation using say the kernel density estimator can be used to perform classification statement 2 the correspondence between logistic regression and gaussian naive bayes with identity class covariances means that there is a onetoone correspondence between the parameters of the two classifiers",
+            "content": "1 density estimation using say the kernel density estimator can be used to perform classification true estimate the joint density p",
+            "url": "https://www.cs.cmu.edu/~aarti/Class/10701/exams/midterm2010f_sol.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "statement 1 density estimation using say the kernel density estimator can be used to perform classification statement 2 the correspondence between logistic regression and gaussian naive bayes with identity class covariances means that there is a onetoone correspondence between the parameters of the two classifiers",
+            "content": "explain your reasoning in only 1 sentence 1 density estimation using say the kernel density estimator can be used to perform classification 2 the",
+            "url": "https://phoenix.eng.psu.ac.th/exam/%E0%B8%9B%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B22554/%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B2%E0%B8%97%E0%B8%B5%E0%B9%881/%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%A0%E0%B8%B2%E0%B8%8430%E0%B8%81%E0%B8%84_7%E0%B8%AA%E0%B8%8454/COE/241-588.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following points would bayesians and frequentists disagree on",
+            "content": "q24 which of the following points would bayesians and frequentists disagree on a the use of a nongaussian noise model in probabilistic",
+            "url": "https://codecrucks.com/mcq/machine-learning-mcqs-set-03/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following points would bayesians and frequentists disagree on",
+            "content": "q4 which of the following points would bayesians and frequentists disagree on the use of a nongaussian noise model in probabilistic regression the use of",
+            "url": "https://progiez.com/introduction-to-machine-learning-nptel-week-8-answers",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following points would bayesians and frequentists disagree on",
+            "content": "3 which of the following points would bayesians and frequentists disagree on a the use of a nongaussian noise model in probabilistic regression b the",
+            "url": "https://web.iitd.ac.in/~sumeet/ell784_m1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following points would bayesians and frequentists disagree on",
+            "content": "which of the following points would bayesians and frequentists disagree on the use of a nongaussian noise model in probabilistic",
+            "url": "https://www.assignmenthelp.net/qa/answer/which-of-the-following-points-would-bayesians-and-frequentists/6710e005dde7042c550545f1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "which of the following points would bayesians and frequentists disagree on",
+            "content": "25 which of the following points would bayesians and frequentists disagree on the use of a nongaussian noise model in probabilistic regression",
+            "url": "https://www.objectivequiz.com/machine-learning-questions-answers/2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "statement 1 the backpropagation algorithm learns a globally optimal neural network with hidden layers statement 2 the vc dimension of a line should be at most 2 since i can find at least one case of 3 points that cannot be shattered by any line",
+            "content": "7 f the backpropagation algorithm learns a globally optimal neural network with hidden layers 8 f the vc dimension of a line should be at most 2 since",
+            "url": "https://es.scribd.com/document/419905082/midterm2008s-solution-pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "suppose your model is overfitting which of the following is not a valid way to try and reduce the overfitting",
+            "content": "which of the following is not a valid way to try and reduce the overfitting a increase the amount of training data b improve the",
+            "url": "https://www.exploredatabase.com/2020/09/machine-learning-multiple-choice-questions-set-13.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "high entropy means that the partitions in classification are",
+            "content": "high entropy means that the partitions in classification are a pure b not pure c useful d useless answer option b",
+            "url": "https://www.examveda.com/high-entropy-means-that-the-partitions-in-classification-are-214415/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "high entropy means that the partitions in classification are",
+            "content": "high entropy means that the partitions in classification are a pure b not pure c useful d useless view answer answer b not pure",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-01.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "high entropy means that the partitions in classification are",
+            "content": "q high entropy means that the partitions in classification are a pure b not pure c useful d useless answer» b not pure",
+            "url": "https://mcqmate.com/discussion/541/high-entropy-means-that-the-partitions-in-classification-are",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "refers to a model that can neither model the training data nor generalize to new data",
+            "content": "refers to a model that can neither model the training data nor generalize to new data a good fitting b overfitting c",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-06.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "refers to a model that can neither model the training data nor generalize to new data",
+            "content": "underfitting refers to a model that can neither model the training data nor generalize to new data an undert machine learning model is not a suitable model",
+            "url": "https://mylearningsinaiml.wordpress.com/concepts/overfitting-underfitting/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "predicting the amount of rainfall in a region based on various cues is a problem",
+            "content": "predicting the amount of rainfall in a region based on various cues is a supervised learning problem to develop a model to predict the rainfall",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-03.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "predicting the amount of rainfall in a region based on various cues is a problem",
+            "content": "a method of site location based on overlaying multiple siting predicting the amount of rainfall in a region based on various cues is a problem",
+            "url": "https://www.eesmajithia.edu.in/wp-content/uploads/2020/09/BSc-IT-Sem-VI-QUESTION-BANK.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "statement 1 when learning an hmm for a fixed set of observations assume we do not know the true number of hidden states which is often the case we can always increase the training data likelihood by permitting more hidden states statement 2 collaborative filtering is often a useful model for modeling users movie preference",
+            "content": "states which is often the case we can always increase the training data likelihood by permitting more hidden states answer true for",
+            "url": "https://www.cs.cmu.edu/~epxing/Class/10701-11f/HW/hw3_solution.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "statement 1 when learning an hmm for a fixed set of observations assume we do not know the true number of hidden states which is often the case we can always increase the training data likelihood by permitting more hidden states statement 2 collaborative filtering is often a useful model for modeling users movie preference",
+            "content": "the true number of hidden states which is often the case we can always increase the training data likelihood by permitting more hidden states 4",
+            "url": "http://www.cs.cmu.edu/~epxing/Class/10701-11f/HW/HW3.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "as the number of training examples goes to infinity your model trained on that data will have",
+            "content": "as the number of training examples goes to infinity your model trained on that data will have select one a lower variance b none of the other options c",
+            "url": "http://codingtechlife.blogspot.com/2017/04/machine-learning-zc464-quiz-2-bits.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "as the number of training examples goes to infinity your model trained on that data will have",
+            "content": "circle the correct answers h 3 points as the number of training examples goes to infinity your model trained on that data will have a",
+            "url": "https://www.cs.cmu.edu/~tom/10601_fall2012/exams/midterm_solutions.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "statement 1 in adaboost weights of the misclassified examples go up by the same multiplicative factor statement 2 in adaboost weighted training error et of the tth weak classifier on training data with weights dt tends to increase as a function of t",
+            "content": "2 points truefalse in adaboost weights of the misclassified examples go up by the same multiplicative factor 击 solution true follows from the update 20 stron",
+            "url": "https://www.cs.cmu.edu/~aarti/Class/10701/exams/midterm2007s-solution.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "statement 1 in adaboost weights of the misclassified examples go up by the same multiplicative factor statement 2 in adaboost weighted training error et of the tth weak classifier on training data with weights dt tends to increase as a function of t",
+            "content": "2 points truefalse in adaboost weighted training error ǫt of the tth weak classifier on training data with weights dt tends to increase as a function of t16 stron",
+            "url": "https://www.cs.cmu.edu/~aarti/Class/10701/exams/midterm2007s.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "mle estimates are often undesirable because",
+            "content": "mle estimates are often undesirable because a they are biased b they have high variance c they are not consistent estimators d none of",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-03.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "mle estimates are often undesirable because",
+            "content": "q mle estimates are often undesirable because a they are biased b they have high variance c they are not consistent estimators",
+            "url": "https://mcqmate.com/discussion/433/mle-estimates-are-often-undesirable-because",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "mle estimates are often undesirable because",
+            "content": "mle estimates are often undesirable because a they are biased b they have high variance c they are not consistent estimators d none of",
+            "url": "https://www.examveda.com/mle-estimates-are-often-undesirable-because-214330/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "mle estimates are often undesirable because",
+            "content": "2 points mle estimates are often undesirable because a they are biased b they have high variance c they are not consistent estimators d none of",
+            "url": "https://www.seas.upenn.edu/~cis520/exams/midterm_2016_solns.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "adding more basis functions in a linear model pick the most probably option",
+            "content": "choose the most probable option a high variance b high model bias c high adding more basis functions in a linear model pick the most probably",
+            "url": "https://emtiyaz.github.io/teaching/waseda18_ml/sample_exam_answers.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "adding more basis functions in a linear model pick the most probably option",
+            "content": "q91 adding more basis functions in a linear model… pick the most probably option a decreases model bias b decreases estimation bias",
+            "url": "https://codecrucks.com/mcq/machine-learning-mcqs-set-10/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "adding more basis functions in a linear model pick the most probably option",
+            "content": "choose the most probable option a high variance b high model bias c high adding more basis functions in a linear model pick the most probably",
+            "url": "https://emtiyaz.github.io/teaching/waseda18_ml/sample_exam.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "averaging the output of multiple decision trees helps",
+            "content": "averaging the output of multiple decision trees helps a increase bias b decrease bias c increase variance d decrease variance",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-08.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "averaging the output of multiple decision trees helps",
+            "content": "e 3 pts averaging the output of multiple decision trees helps increase bias decrease bias increase variance decrease variance f 4 pts let a be a",
+            "url": "https://people.eecs.berkeley.edu/~jrs/189/exam/finals13.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "let us say that we have computed the gradient of our cost function and stored it in a vector g what is the cost of one gradient descent update given the gradient",
+            "content": "11 let us say that we have computed the gradient of our cost function and stored it in a vector g what is the cost of one gradient 6 stron",
+            "url": "https://emtiyaz.github.io/teaching/waseda18_ml/sample_exam_answers.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "let us say that we have computed the gradient of our cost function and stored it in a vector g what is the cost of one gradient descent update given the gradient",
+            "content": "let us say that we have computed the gradient of our cost function and stored it in a vector g what is the cost of one gradient descent update",
+            "url": "https://www.sookshmas.com/quiz/108207-3608/public/Let-us-say-that-we-have-computed-the",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "let us say that we have computed the gradient of our cost function and stored it in a vector g what is the cost of one gradient descent update given the gradient",
+            "content": "11 let us say that we have computed the gradient of our cost function and stored it in a vector g what is the cost of one gradient 5 stron",
+            "url": "https://emtiyaz.github.io/teaching/waseda18_ml/sample_exam.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "suppose we like to calculate phe f and we have no conditional independence information which of the following sets of numbers are sufficient for the calculation",
+            "content": "which of the following sets of numbers are sufficient for the calculation i pe1 e2 ph pe₁hpe2h",
+            "url": "http://www.cs.cmu.edu/~awm/15781/15-781Fall2005MidtermSolutions.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "suppose we like to calculate phe f and we have no conditional independence information which of the following sets of numbers are sufficient for the calculation",
+            "content": "2 suppose we like to calculate phe f and we have no conditional independence information which of the following sets of numbers are",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-04.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "suppose we like to calculate phe f and we have no conditional independence information which of the following sets of numbers are sufficient for the calculation",
+            "content": "suppose we wish to calculate phe1e2 and we have no conditional independence information which of the following sets of numbers are sufficient for the",
+            "url": "https://www.cs.ubc.ca/~murphyk/Teaching/CS532c_Fall04/Homeworks/hw1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "suppose we like to calculate phe f and we have no conditional independence information which of the following sets of numbers are sufficient for the calculation",
+            "content": "a suppose we wish to calculate phe1e2 and we have no conditional independence information which of the following sets of numbers are",
+            "url": "https://people.csail.mit.edu/dsontag/courses/inference14/assignments/ps1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "suppose we like to calculate phe f and we have no conditional independence information which of the following sets of numbers are sufficient for the calculation",
+            "content": "6 points suppose we wish to calculate prαβ γ and we have no conditional independence information which of the following sets of",
+            "url": "http://www.lovinglavigne.com/PGM/HW1/hw1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "suppose we like to calculate phe f and we have no conditional independence information which of the following sets of numbers are sufficient for the calculation",
+            "content": "which of the following sets of numbers are sufficient for the calculation i pe1e2 ph pe1h pe2h",
+            "url": "https://www.cs.rochester.edu/~gildea/242_Spring_2024/hwC.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "statement 1 after mapped into feature space q through a radial basis kernel function 1nn using unweighted euclidean distance may be able to achieve better classification performance than in original space though we can’t guarantee this statement 2 the vc dimension of a perceptron is smaller than the vc dimension of a simple linear svm",
+            "content": "f true or false after mapped into feature space q through a radial basis kernel function 1nn using unweighted euclidean distance may be able to achieve",
+            "url": "https://www.cs.cmu.edu/~aarti/Class/10701/exams/final2003-solution.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "given two boolean random variables a and b where pa 12 pb 13 and pa ¬b 14 what is pa b",
+            "content": "4 given two boolean random variables a and b where pa ½ pb 13 and pa ¬b ¼ what is pa b a 16 b ¼ c ¾ d 1 e",
+            "url": "https://pages.cs.wisc.edu/~dyer/cs540/exams/exam2-s18-sol.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "for polynomial regression which one of these structural assumptions is the one that most affects the tradeoff between underfitting and overfitting",
+            "content": "5 for polynomial regression which one of these structural assumptions is the one that most affects the tradeoff between underfitting and",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-07.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "for polynomial regression which one of these structural assumptions is the one that most affects the tradeoff between underfitting and overfitting",
+            "content": "d for polynomial regression which one of these structural assumptions is the one that most affects the tradeoff between underfitting and overfitting i",
+            "url": "https://www.cs.cmu.edu/~aarti/Class/10701/exams/final2003-solution.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "for polynomial regression which one of these structural assumptions is the one that most affects the tradeoff between underfitting and overfitting",
+            "content": "for polynomial regression which one of these structural assumptions is the one that most affects the tradeoff between underfitting and overfitting i the",
+            "url": "https://www.cs.cmu.edu/~aarti/Class/10315_Spring22/lecs/MidtermReview.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "statement 1 since the vc dimension for an svm with a radial base kernel is infinite such an svm must be worse than an svm with polynomial kernel which has a finite vc dimension statement 2 a two layer neural network with linear activation functions is essentially a weighted combination of linear separators trained on a given dataset the boosting algorithm built on linear separators also finds a combination of linear separators therefore these two algorithms will give the same result",
+            "content": "svm with a radial base kernel is infinite such an svm must be worse than an svm with polynomial kernel which has a finite vc dimension 10 f a two layer",
+            "url": "https://es.scribd.com/document/419905082/midterm2008s-solution-pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "statement 1 since the vc dimension for an svm with a radial base kernel is infinite such an svm must be worse than an svm with polynomial kernel which has a finite vc dimension statement 2 a two layer neural network with linear activation functions is essentially a weighted combination of linear separators trained on a given dataset the boosting algorithm built on linear separators also finds a combination of linear separators therefore these two algorithms will give the same result",
+            "content": "f since the vc dimension for an svm with a radial base kernel is infinite such an svm must be worse than an svm with polynomial kernel which has a finite vc",
+            "url": "https://www.cs.cmu.edu/~aarti/Class/10701/exams/midterm2008s-solution.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "suppose you are given an em algorithm that finds maximum likelihood estimates for a model with latent variables you are asked to modify the algorithm so that it finds map estimates instead which step or steps do you need to modify",
+            "content": "you are asked to modify the algorithm so that it finds map estimates instead which step or steps do you need to modify a expectation b",
+            "url": "https://www.cs.cmu.edu/~tom/10601_fall2012/exams/midterm_solutions.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which among the following prevents overfitting when we perform bagging",
+            "content": "1 which among the following prevents overfitting when we perform bagging a the use of sampling with replacement as the sampling technique",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-08.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "which of the following sentence is false regarding regression",
+            "content": "q which of the following sentence is false regarding regression a it relates inputs to outputs b it is used for prediction",
+            "url": "https://mcqmate.com/discussion/796/which-of-the-following-sentence-is-false-regarding-regression",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "which of the following sentence is false regarding regression",
+            "content": "which of the following sentence is false regarding regression a it relates inputs to outputs b it is used for prediction c it may be used for",
+            "url": "https://www.examveda.com/which-of-the-following-sentence-is-false-regarding-regression-214454/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "which of the following sentence is false regarding regression",
+            "content": "which of the following sentence is false regarding regression a it relates inputs to outputs b it is used for prediction c it may be used for",
+            "url": "https://emtiyaz.github.io/teaching/waseda18_ml/sample_exam_answers.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "which of the following sentence is false regarding regression",
+            "content": "which of the following sentence is false regarding regression a it may be used for interpretation b it is used for prediction",
+            "url": "https://www.transtutors.com/questions/which-of-the-following-sentence-is-false-regarding-regression-a-it-may-be--9584217.htm",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "say the incidence of a disease d is about 5 cases per 100 people ie pd 005 let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for disease d are known to be very accurate in the sense that the probability of testing positive when you have the disease is 099 and the probability of testing negative when you do not have the disease is 097 what is ptp the prior probability of testing positive",
+            "content": "let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for",
+            "url": "https://pages.cs.wisc.edu/~dyer/cs540/exams/exam2-s18-sol.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "say the incidence of a disease d is about 5 cases per 100 people ie pd 005 let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for disease d are known to be very accurate in the sense that the probability of testing positive when you have the disease is 099 and the probability of testing negative when you do not have the disease is 097 what is ptp the prior probability of testing positive",
+            "content": "let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-12.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "say the incidence of a disease d is about 5 cases per 100 people ie pd 005 let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for disease d are known to be very accurate in the sense that the probability of testing positive when you have the disease is 099 and the probability of testing negative when you do not have the disease is 097 what is ptp the prior probability of testing positive",
+            "content": "let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for disease d are known to",
+            "url": "https://www.exploredatabase.com/2020/05",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "say the incidence of a disease d is about 5 cases per 100 people ie pd 005 let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for disease d are known to be very accurate in the sense that the probability of testing positive when you have the disease is 099 and the probability of testing negative when you do not have the disease is 097 what is ptp the prior probability of testing positive",
+            "content": "let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for",
+            "url": "https://pages.cs.wisc.edu/~dyer/cs540/exams/exam2-s18.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "say the incidence of a disease d is about 5 cases per 100 people ie pd 005 let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for disease d are known to be very accurate in the sense that the probability of testing positive when you have the disease is 099 and the probability of testing negative when you do not have the disease is 097 what is ptp the prior probability of testing positive",
+            "content": "let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for disease d are known to",
+            "url": "https://www.goseeko.com/mcq/aryabhatta-knowledge-university-bihar/engineering/computer-engineering-1/third-year/sem-2/machine-learning-11/unit-4-hypothesis-testing-7/Easy?srsltid=AfmBOooyTEiMVA4-5yOtOwvXnY3Cc-5kZvsElDE8SftY4_aUNn2no05L",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "a machine learning problem involves four attributes plus a class the attributes have 3 2 2 and 2 possible values each the class has 3 possible values how many maximum possible different examples are there",
+            "content": "the class has 3 possible values how many maximum possible different examples are there a 12 b 24 c 48",
+            "url": "https://mcqmate.com/discussion/432/a-machine-learning-problem-involves-four-attributes-plus-a-class-the-attributes-have-3-2-2-and-2-possible-values-each-the-class-has-3-possible-values-how-many-maximum-possible-different-examples-are-there",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "a machine learning problem involves four attributes plus a class the attributes have 3 2 2 and 2 possible values each the class has 3 possible values how many maximum possible different examples are there",
+            "content": "a machine learning problem involves four attributes plus a class the attributes have 3 2 2 and 2 possible values each there a 12",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-01.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "a machine learning problem involves four attributes plus a class the attributes have 3 2 2 and 2 possible values each the class has 3 possible values how many maximum possible different examples are there",
+            "content": "a machine learning problem involves four attributes plus a class the attributes have 3 2 2 and 2 possible values each the class has 3 possible values",
+            "url": "https://www.examveda.com/computer-science/practice-mcq-question-on-machine-learning/?page=2",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "a machine learning problem involves four attributes plus a class the attributes have 3 2 2 and 2 possible values each the class has 3 possible values how many maximum possible different examples are there",
+            "content": "09 a machine learning problem involves four attributes plus a class the attributes have 3 2 2 and 2 possible values each the class has 3 possible values",
+            "url": "https://cozmocard.com/machine-learning-mcq-questions-and-answers/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "a machine learning problem involves four attributes plus a class the attributes have 3 2 2 and 2 possible values each the class has 3 possible values how many maximum possible different examples are there",
+            "content": "four attributes plus a class the 11 attributes have 3 2 2 and 2 possible values each the class has 3 possible values how many maximum possible different",
+            "url": "https://fr.scribd.com/document/616069047/Machine-Learning-Quiz-Answer",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "say the incidence of a disease d is about 5 cases per 100 people ie pd 005 let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for disease d are known to be very accurate in the sense that the probability of testing positive when you have the disease is 099 and the probability of testing negative when you do not have the disease is 097 what is pd tp the posterior probability that you have disease d when the test is positive",
+            "content": "let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for",
+            "url": "https://pages.cs.wisc.edu/~dyer/cs540/exams/exam2-s18-sol.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "say the incidence of a disease d is about 5 cases per 100 people ie pd 005 let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for disease d are known to be very accurate in the sense that the probability of testing positive when you have the disease is 099 and the probability of testing negative when you do not have the disease is 097 what is pd tp the posterior probability that you have disease d when the test is positive",
+            "content": "let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-12.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "say the incidence of a disease d is about 5 cases per 100 people ie pd 005 let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for disease d are known to be very accurate in the sense that the probability of testing positive when you have the disease is 099 and the probability of testing negative when you do not have the disease is 097 what is pd tp the posterior probability that you have disease d when the test is positive",
+            "content": "let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for disease d are known to",
+            "url": "https://www.exploredatabase.com/2020/05",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "say the incidence of a disease d is about 5 cases per 100 people ie pd 005 let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for disease d are known to be very accurate in the sense that the probability of testing positive when you have the disease is 099 and the probability of testing negative when you do not have the disease is 097 what is pd tp the posterior probability that you have disease d when the test is positive",
+            "content": "let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for",
+            "url": "https://pages.cs.wisc.edu/~dyer/cs540/exams/exam2-s18.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "say the incidence of a disease d is about 5 cases per 100 people ie pd 005 let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for disease d are known to be very accurate in the sense that the probability of testing positive when you have the disease is 099 and the probability of testing negative when you do not have the disease is 097 what is pd tp the posterior probability that you have disease d when the test is positive",
+            "content": "let boolean random variable d mean a patient “has disease d” and let boolean random variable tp stand for tests positive tests for disease d are known to",
+            "url": "https://www.goseeko.com/mcq/aryabhatta-knowledge-university-bihar/engineering/computer-engineering-1/third-year/sem-2/machine-learning-11/unit-4-hypothesis-testing-7/Easy?srsltid=AfmBOop5NprbrOb1P1gNBHjVGAvsMfGF8ThFfRXl3L0pGvhWevoAkfgz",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "which of the following points would bayesians and frequentists disagree on",
+            "content": "q24 which of the following points would bayesians and frequentists disagree on a the use of a nongaussian noise model in probabilistic",
+            "url": "https://codecrucks.com/mcq/machine-learning-mcqs-set-03/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "which of the following points would bayesians and frequentists disagree on",
+            "content": "q4 which of the following points would bayesians and frequentists disagree on the use of a nongaussian noise model in probabilistic regression the use of",
+            "url": "https://progiez.com/introduction-to-machine-learning-nptel-week-8-answers",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "which of the following points would bayesians and frequentists disagree on",
+            "content": "3 which of the following points would bayesians and frequentists disagree on a the use of a nongaussian noise model in probabilistic regression b the",
+            "url": "https://web.iitd.ac.in/~sumeet/ell784_m1.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "which of the following points would bayesians and frequentists disagree on",
+            "content": "which of the following points would bayesians and frequentists disagree on the use of a nongaussian noise model in probabilistic",
+            "url": "https://www.assignmenthelp.net/qa/answer/which-of-the-following-points-would-bayesians-and-frequentists/6710e005dde7042c550545f1",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "which of the following points would bayesians and frequentists disagree on",
+            "content": "25 which of the following points would bayesians and frequentists disagree on the use of a nongaussian noise model in probabilistic regression",
+            "url": "https://www.objectivequiz.com/machine-learning-questions-answers/2",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "predicting the amount of rainfall in a region based on various cues is a problem",
+            "content": "predicting the amount of rainfall in a region based on various cues is a supervised learning problem to develop a model to predict the rainfall",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-03.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "predicting the amount of rainfall in a region based on various cues is a problem",
+            "content": "a method of site location based on overlaying multiple siting predicting the amount of rainfall in a region based on various cues is a problem",
+            "url": "https://www.eesmajithia.edu.in/wp-content/uploads/2020/09/BSc-IT-Sem-VI-QUESTION-BANK.pdf",
+            "engine": "ddg"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 6,
+            "query": "statement 1 we learn a classifier f by boosting weak learners h the functional form of f’s decision boundary is the same as h’s but with different parameters eg if h was a linear classifier then f is also a linear classifier statement 2 cross validation can be used to select the number of iterations in boosting this procedure may help reduce overfitting",
+            "content": "thus in weak dependency the rate of fs changes may vary for different contexts composed of the remaining variables sjj 6 i but it is not allowed to",
+            "url": "http://www.cs.put.poznan.pl/kkrawiec/pubs/hab/krawiec_hab.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "statement 1 the values of the margins obtained by two different kernels k1x x0 and k2x x0 on the same training set do not tell us which classifier will perform better on the test set statement 2 the activation function of bert is the gelu",
+            "content": "endowing machines with the ability of learning things may sound excessive or even inappropriate since the common meaning of learning is a",
+            "url": "https://frezza.pages.centralesupelec.fr/teachml2/Poly/Poly-ML-SDImetz-zoomed.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "which of the following is false",
+            "content": "∼q → ∼p ≡ q → p explanation q → p is the inverse of ∼q → ∼p which are not logically equivalent to each other shaalaacom",
+            "url": "https://www.shaalaa.com/question-bank-solutions/which-of-the-following-is-false_238930",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "statement 1 as of 2020 some models attain greater than 98 accuracy on cifar10 statement 2 the original resnets were not optimized with the adam optimizer",
+            "content": "figure 2 shows an exemplary test accuracy curve of a resnet20 cifar10 across different target prune ratios for iterative pruning the",
+            "url": "https://scispace.com/pdf/lost-in-pruning-the-effects-of-pruning-neural-networks-vwn5jerix1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "statement 1 pca and spectral clustering such as andrew ng’s perform eigendecomposition on two different matrices however the size of these two matrices are the same statement 2 since classification is a special case of regression logistic regression is a special case of linear regression",
+            "content": "in this special case the variance and the variance proxy are the same linear regression solutions with low 2 norm are desirable as they",
+            "url": "https://tselilschramm.org/mltheory/ma.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "statement 1 industrialscale neural networks are normally trained on cpus not gpus statement 2 the resnet50 model has over 1 billion parameters",
+            "content": "by cc aggarwal neural networks were developed to simulate the human nervous system for machine learning tasks by treating the computational units in a learning model in a",
+            "url": "https://scispace.com/pdf/neural-networks-and-deep-learning-3ccs3ain8p.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "statement 1 highway networks were introduced after resnets and eschew max pooling in favor of convolutions statement 2 densenets usually cost more memory than resnets",
+            "content": "by k matoba when deep neural networks became state of the art image classifiers numerous max pooling operations were an important component of the architecture",
+            "url": "https://fleuret.org/papers/matoba-et-al-tmlr2023.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "given a large dataset of medical records from patients suffering from heart disease try to learn whether there might be different clusters of such patients for which we might tailor separate treatments what kind of learning problem is this",
+            "content": "given data on how 1000 medical patients respond to an experimental drug such as effectiveness of the treatment side effects etc discover whether there are",
+            "url": "https://gist.github.com/mGalarnyk/3f3337294804c8729d26acbe06448e86",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "statement 1 roberta pretrains on a corpus that is approximate 10x larger than the corpus bert pretrained on statement 2 resnexts in 2018 usually used tanh activation functions",
+            "content": "the 2024 edition of the pprai conference featured 3 plenary lec tures delivered by the top researchers in the field 2 panels devoted to",
+            "url": "https://pages.mini.pw.edu.pl/~estatic/pliki/PP-RAI_2024_proceedings.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "statement 1 the id3 algorithm is guaranteed to find the optimal decision tree statement 2 consider a continuous probability distribution with density f that is nonzero everywhere the probability of a value x is equal to fx",
+            "content": "1 newtons method for minimization and maximization of a univariate function f x it is equivalent to finding the roots of its gradient gx",
+            "url": "https://www.passeidireto.com/arquivo/88583380/introduction-to-algorithms-for-data-mining-and-machine-learning-by-xin-she-yang",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "what would you do in pca to get the same projection as svd",
+            "content": "the best way to answer your questions is to analyze the principal component analysis pca using the singular value decomposition svd",
+            "url": "https://math.stackexchange.com/questions/2403746/on-svd-pca-and-optimization",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "you are training a linear regression model for a simple estimation task and notice that the model is overfitting to the data you decide to add in ell2 regularization to penalize the weights as you increase the ell2 regularization coefficient what will happen to the bias and variance of the model",
+            "content": "the goal of binary logistic regression is to train a classifier that can make a binary decision about the class of a new input observation here we introduce",
+            "url": "https://web.stanford.edu/~jurafsky/slp3/5.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "statement 1 the derivative of the sigmoid sigmax1ex1 with respect to x is equal to textvarb where bsim textbernsigmax is a bernoulli random variable statement 2 setting the bias parameters in each layer of neural network to 0 changes the biasvariance tradeoff such that the models variance increases and the models bias decreases",
+            "content": "lets denote the sigmoid function as σx11e−x the derivative of the sigmoid is ddxσxσx1−σx heres a detailed derivation",
+            "url": "https://math.stackexchange.com/questions/78575/derivative-of-sigmoid-function-sigma-x-frac11e-x",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the kmeans algorithm",
+            "content": "kmeans clustering is a method of vector quantization originally from signal processing that aims to partition n observations into k clusters in which",
+            "url": "https://en.wikipedia.org/wiki/K-means_clustering",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "statement 1 the stanford sentiment treebank contained movie reviews not book reviews statement 2 the penn treebank has been used for language modeling",
+            "content": "in the first part of the book we introduce the fundamental suite of algorithmic tools that make up the modern neural language model that is the heart of 599 stron",
+            "url": "https://web.stanford.edu/~jurafsky/slp3/ed3book_Jan25.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "statement 1 maximizing the likelihood of logistic regression model yields multiple local optimums statement 2 no classifier can do better than a naive bayes classifier if the distribution of the data is known",
+            "content": "by t roos abstract discriminative learning of the parameters in the naive bayes model is known to be equivalent to a logistic regression problem here we show that",
+            "url": "https://homepages.cwi.nl/~pdg/ftp/logres.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "if n is the number of instances in the training dataset nearest neighbors has a classification run time of",
+            "content": "this guide to the knearest neighbors knn algorithm in machine learning provides the most recent insights and techniques",
+            "url": "https://www.analyticsvidhya.com/blog/2018/03/introduction-k-neighbours-algorithm-clustering/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "statement 1 for a continuous random variable x and its probability distribution function px it holds that 0 ≤ px ≤ 1 for all x statement 2 decision tree is learned by minimizing information gain",
+            "content": "there are few ways to solve it and for one of them you may find useful the following equality p ∞ i0 αi 1 1−αfor any 0 ≤ α 1 j∗s1",
+            "url": "https://www.cs.cmu.edu/~aarti/Class/10701/exams/final2004-solution.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the dimensionality of the null space of the following matrix a 3 2 −9 −6 −4 18 12 8 −36",
+            "content": "thus the dimension of the nullspace of a is 2 so at most 2 linearly independent vectors can be found in the nullspace of a",
+            "url": "https://www2.kenyon.edu/Depts/Math/Paquin/PracticeExam1Solns.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "for a gaussian bayes classifier which one of these structural assumptions is the one that most affects the tradeoff between underfitting and overfitting",
+            "content": "the one that most affects the tradeoff between underfitting ie a high bias model and overfitting ie a high variance model",
+            "url": "https://www.cs.cmu.edu/~tom/10701_sp11/recitations/Final%20Exam%20Review.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "statement 1 the kernel density estimator is equivalent to performing kernel regression with the value yi 1n at each point xi in the original data set statement 2 the depth of a learned decision tree can be larger than the number of training examples used to create the tree",
+            "content": "1 density estimation using say the kernel density estimator can be used to perform classification true estimate the joint density pyx then use it to",
+            "url": "https://www.cs.cmu.edu/~aarti/Class/10701/exams/midterm2010f_sol.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "statement 1 the bleu metric uses precision while the rogue metric uses recall statement 2 hidden markov models were frequently used to model english sentences",
+            "content": "to address the issue of precision versus recall the bleu metric uses a geometric mean of the ngram precisions where the precision is the",
+            "url": "https://link.springer.com/article/10.1007/s10639-024-12717-9",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "statement 1 support vector machines like logistic regression models give a probability distribution over the possible labels given an input example statement 2 we would expect the support vectors to remain the same in general as we move from a linear kernel to higher order polynomial kernels",
+            "content": "this skill test was designed to test your knowledge of svm a supervised learning model its techniques and applications",
+            "url": "https://www.analyticsvidhya.com/blog/2017/10/svm-skilltest/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what are support vectors",
+            "content": "support vector machines svms also support vector networks 1 are supervised maxmargin models with associated learning algorithms that analyze data",
+            "url": "https://en.wikipedia.org/wiki/Support_vector_machine",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which is true about batch normalization",
+            "content": "it should be variance and mean but it is considered correct while it states mean and variance i will make a note of this at the backend so that this is",
+            "url": "https://community.deeplearning.ai/t/c2w3-quiz-which-of-the-following-are-true-about-batch-normalization/282287",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "which of the following is false",
+            "content": "∼q → ∼p ≡ q → p explanation q → p is the inverse of ∼q → ∼p which are not logically equivalent to each other shaalaacom",
+            "url": "https://www.shaalaa.com/question-bank-solutions/which-of-the-following-is-false_238930",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "youve just finished training a decision tree for spam classification and it is getting abnormally bad performance on both your training and test sets you know that your implementation has no bugs so what could be causing the problem",
+            "content": "a your decision trees are too shallow b you need to increase the learning rate c you are overfitting",
+            "url": "https://www.examveda.com/youve-just-finished-training-a-decision-tree-for-spam-classification-and-it-is-getting-abnormally-bad-performance-on-both-your-training-and-test-sets-you-know-that-your-implementation-has-214483/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "consider the bayesian network given below how many independent parameters are needed for this bayesian network h u p w",
+            "content": "the problem is as follows how many independent parameters are required to uniquely define the conditional probability distribution of c in the graphical model",
+            "url": "https://stats.stackexchange.com/questions/500623/how-to-count-the-number-of-independent-parameters-in-a-bayesian-network",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the disadvantage of grid search is",
+            "content": "it provides a clear roadmap for optimization facilitating reproducibility however its computationally expensive especially for large search",
+            "url": "https://www.linkedin.com/advice/3/what-advantages-disadvantages-using-grid-search",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "statement 1 the softmax function is commonly used in mutliclass logistic regression statement 2 the temperature of a nonuniform softmax distribution affects its entropy",
+            "content": "softmax regression or multinomial logistic regression is a generalization of logistic regression to the case where we want to handle multiple classes",
+            "url": "http://deeplearning.stanford.edu/tutorial/supervised/SoftmaxRegression/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following best describes what discriminative approaches try to model w are the parameters in the model",
+            "content": "this quiz will test your knowledge of the basics of generative ai as well as some of its potential applications",
+            "url": "https://www.jagranjosh.com/general-knowledge/generative-ai-quiz-test-your-knowledge-of-this-emerging-technology-1688323684-1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "statement 1 word2vec parameters were not initialized using a restricted boltzman machine statement 2 the tanh function is a nonlinear activation function",
+            "content": "cc aggarwal cytowane przez 4018 the neural network abstraction can be viewed as a modular approach of enabling learning algorithms that are based on continuous optimization on a computational",
+            "url": "https://scispace.com/pdf/neural-networks-and-deep-learning-3ccs3ain8p.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "statement 1 for any two variables x and y having joint distribution px y we always have hx y ≥ hx hy where h is entropy function statement 2 for some directed graphs moralization decreases the number of edges present in the graph",
+            "content": "if 𝑋 and 𝑌 are independent then 𝐻𝑋𝑌 𝐻𝑋 if 𝑋 and 𝑌 are conditionally independent on 𝑍 then 𝐻𝑋𝑌𝑍 𝐻𝑋𝑍 𝐻𝑌𝑍 and 𝐻𝑋𝑌𝑍 𝐻𝑋𝑍 lemma",
+            "url": "https://yufeizhao.com/pm/10.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "statement 1 the original resnets and transformers are feedforward neural networks statement 2 the original transformers use selfattention but the original resnet does not",
+            "content": "this phd thesis presents contributions to the field of deep learning by exploring the theoretical and practical properties of deep residual neural networks",
+            "url": "https://michaelsdr.github.io/documents/Manuscript.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is more appropriate to do feature selection",
+            "content": "feature selection is a important step in machine learning which involves selecting a subset of relevant features from the original feature set to reduce the",
+            "url": "https://www.geeksforgeeks.org/feature-selection-techniques-in-machine-learning/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "statement 1 the loglikelihood of the data will always increase through successive iterations of the expectation maximation algorithm statement 2 one disadvantage of qlearning is that it can only be used when the learner has prior knowledge of how its actions affect its environment",
+            "content": "nodes in each linked list node are called cons cells represented in figure alternatively we may define the weakness of 133 page 136 an individual",
+            "url": "http://www.cs.put.poznan.pl/mkomosinski/lectures/optimization/extras/Essentials.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which one of the following is the main reason for pruning a decision tree",
+            "content": "a to save computing time during testing b to save space for storing the decision tree c to make the training set error smaller d to",
+            "url": "https://www.examveda.com/which-one-of-the-following-is-the-main-reason-for-pruning-a-decision-tree-214598/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "for kernel regression which one of these structural assumptions is the one that most affects the tradeoff between underfitting and overfitting",
+            "content": "one that most affects the tradeoff between overfitting and underfittingans c the kernel width small kernel width means only",
+            "url": "https://alliance.seas.upenn.edu/~cis520/dynamic/2016/wiki/index.php?n=Recitations.MidtermReview",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "for a gaussian bayes classifier which one of these structural assumptions is the one that most affects the tradeoff between underfitting and overfitting",
+            "content": "the one that most affects the tradeoff between underfitting ie a high bias model and overfitting ie a high variance model",
+            "url": "https://www.cs.cmu.edu/~tom/10701_sp11/recitations/Final%20Exam%20Review.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "statement 1 relus are not monotonic but sigmoids are monotonic statement 2 neural networks trained with gradient descent with high probability converge to the global optimum",
+            "content": "i batch gradient descent is always guaranteed to converge to the global optimum of a loss function ii stochastic gradient descent is always guaranteed to",
+            "url": "https://cs230.stanford.edu/files/cs230exam_fall18_soln.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which one of the following is equal to pa b c given boolean random variables a b and c and no independence or conditional independence assumptions between any of them",
+            "content": "the factors associated with the bayes net are pa pb a pc a pd a pe a pf bcd and pg f we will consider variable elimination to",
+            "url": "https://s3-us-west-2.amazonaws.com/cs188websitecontent/exams/sp14_midterm2_solutions.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "statement 1 vggnets have convolutional kernels of smaller width and height than alexnets firstlayer kernels statement 2 datadependent weight initialization procedures were introduced before batch normalization",
+            "content": "a convolutional neural network cnn is a neural network that has one or more convolutional layers and these are used mainly for image processing",
+            "url": "https://www.sciencedirect.com/topics/mathematics/convolutional-neural-network",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "given a neural net with n input nodes no hidden layers one output node with entropy loss and sigmoid activation functions which of the following algorithms with the proper hyperparameters and initialization can be used to find the global optimum",
+            "content": "13 which of following activation function cant be used at output layer to classify an image a sigmoid b tanh c relu d ifx510 e",
+            "url": "https://www.analyticsvidhya.com/blog/2017/08/skilltest-deep-learning/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "statement 1 cifar10 classification performance for convolution neural networks can exceed 95 statement 2 ensembles of neural networks do not improve classification accuracy since the representations they learn are highly correlated",
+            "content": "this paper presents an elementary understanding of cnn components and their functions including input layers convolution layers pooling layers activation",
+            "url": "https://link.springer.com/article/10.1007/s10462-024-10721-6",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the numerical output of a sigmoid node in a neural network",
+            "content": "the sigmoid function takes a value as input and outputs another value between 0 and 1 it is nonlinear and easy to work with when constructing",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-10.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following tasks can be best solved using clustering",
+            "content": "this type is used for various purposes from market segmentation to social media analysis for example clustering can help identify groups of",
+            "url": "https://freshtech.global/blog/types-of-tasks-in-machine-learning-from-classification-to-clustering",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "if your training loss increases with number of epochs which of the following could be a possible issue with the learning process",
+            "content": "most likely you have been hit by a vanishing or exploding gradient ie numerical problems caused by multiplying very small or very large",
+            "url": "https://stackoverflow.com/questions/49616395/training-loss-increases-after-12-epochs",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which of the following is not supervised learning",
+            "content": "c supervised learning is used for classification while unsupervised learning is used for regression",
+            "url": "https://www.sanfoundry.com/1000-machine-learning-questions-answers/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the model obtained by applying linear regression on the identified subset of features may differ from the model obtained at the end of the process of identifying the subset during",
+            "content": "if we use the selected k features identified by forward stagewise selection and apply linear regression the model we obtain may differ from the model obtained",
+            "url": "https://www.cse.iitm.ac.in/~ravi/courses/Introduction%20to%20Machine%20Learning_files/Solution3.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "statement 1 imagenet has images of various resolutions statement 2 caltech101 has more images than imagenet",
+            "content": "nasnetlarge is a generation of cnn having a capacity to train more than a million pictures from imagenet dataset and classify more than thousand",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1155/2023/7371907",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "what is the rank of the following matrix a 1 1 1 1 1 1 1 1 1",
+            "content": "to find the rank of a matrix we will transform the matrix into its echelon form then determine the rank by the number of nonzero rows consider the",
+            "url": "https://byjus.com/jee/rank-of-a-matrix-and-special-matrices/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "neural networks",
+            "content": "a neural network consists of connected units or nodes called artificial neurons which loosely model the neurons in the brain artificial neuron models that",
+            "url": "https://en.wikipedia.org/wiki/Neural_network_(machine_learning)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "statement 1 in a bayesian network the inference results of the junction tree algorithm are the same as the inference results of variable elimination statement 2 if two random variable x and y are conditionally independent given another random variable z then in the corresponding bayesian network the nodes for x and y are dseparated given z",
+            "content": "the models that were later to be called bayesian networks were introduced into artificial intelligence by j pearl in 1982 103 a seminal article in",
+            "url": "https://www.mimuw.edu.pl/~noble/courses/BayesianNetworks/warsawseries.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "statement 1 the f1 score can be especially useful for datasets with class high imbalance statement 2 the area under the roc curve is one of the main metrics used to assess anomaly detectors",
+            "content": "two diagnostic tools that help in the interpretation of binary twoclass classification predictive models are roc curves and precisionrecall curves",
+            "url": "https://www.machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-imbalanced-classification/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following can only be used when training data are linearly separable",
+            "content": "the question is about less optimal hyperplanes if we know the w vector and bias term we can draw the discriminant hyperplane",
+            "url": "https://ai.stackexchange.com/questions/25632/if-the-training-data-are-linearly-separable-which-of-the-following-lw-has-l",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "statement 1 the relus gradient is zero for x0 and the sigmoid gradient sigmax1sigmaxle frac14 for all x statement 2 the sigmoid has a continuous gradient and the relu has a discontinuous gradient",
+            "content": "for derivative of relu if x 0 output is 0 if x 0 output is 1 so when you calculate the gradient does that mean i kill gradient decent",
+            "url": "https://stackoverflow.com/questions/32546020/neural-network-backpropagation-with-relu",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "statement 1 linear regression estimator has the smallest variance among all unbiased estimators statement 2 the coefficients α assigned to the classifiers assembled by adaboost are always nonnegative",
+            "content": "abstract in this chapter we provide an introduction to anomaly detection and potential applications in manufacturing using control charts and",
+            "url": "https://scispace.com/pdf/control-charts-and-machine-learning-for-anomaly-detection-in-3f0l8icb.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "statement 1 a neural networks convergence depends on the learning rate statement 2 dropout multiplies randomly chosen activation values by zero",
+            "content": "in this chapter the cybenkotheorem predecessor to the universal approximation theorem is introduced a visualization of the proof 39 stron",
+            "url": "https://www.mathematik.uni-wuerzburg.de/fileadmin/10040900/2019/Seminar__Artificial_Neural_Network__24_9__.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following are the spatial clustering algorithms",
+            "content": "densitybased spatial clustering densitybased spatial clustering of applications with noise dbscan is a densitybased clustering algorithm 1 begin",
+            "url": "https://home.agh.edu.pl/~horzyk/lectures/kbcidmb/KBCIDMBM%20Clustering%20Algorithms.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "statement 1 besides em gradient descent can be used to perform inference or learning on gaussian mixture model statement 2 assuming a fixed number of attributes a gaussianbased bayes optimal classifier can be learned in time linear in the number of records in the dataset",
+            "content": "this question concerns training gaussian mixture models gmms throughout we will assume there are two gaussian components in the gmm we 15 stron",
+            "url": "https://www.cs.cmu.edu/~epxing/Class/10701-10s/HW/midterm_sol.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "statement 1 density estimation using say the kernel density estimator can be used to perform classification statement 2 the correspondence between logistic regression and gaussian naive bayes with identity class covariances means that there is a onetoone correspondence between the parameters of the two classifiers",
+            "content": "model can be much easier to estimate and interpret than a dense model in this age of big data the number of features measured on a person or object can be",
+            "url": "https://www.ime.unicamp.br/~dias/SLS.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "statement 1 traditional machine learning results assume that the train and test sets are independent and identically distributed statement 2 in 2017 coco models were usually pretrained on imagenet",
+            "content": "we investigate how different convolutional pretrained models perform on ood test datathat is data from domains that have not been seen during",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10102232/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "statement 1 the backpropagation algorithm learns a globally optimal neural network with hidden layers statement 2 the vc dimension of a line should be at most 2 since i can find at least one case of 3 points that cannot be shattered by any line",
+            "content": "2 points regardless of the size of the neural network the backpropagation learning algorithm always finds the globally optimal weights for",
+            "url": "https://www.cs.cmu.edu/~epxing/Class/10701-11f/exams/10701-11f-midterm-soln.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following isare true regarding an svm",
+            "content": "svm or support vector machine is a linear model for classification and regression problems it can solve linear and nonlinear problems and work",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-04.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a and b are two events if pa b decreases while pa increases which of the following is true",
+            "content": "pa b pbapa in this equation if pa increases then only the decrease in pba will result in decrease of pa b",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-03.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "statement 1 the set of all rectangles in the 2d plane which includes non axisaligned rectangles can shatter a set of 5 points statement 2 the vcdimension of knearest neighbour classifier when k 1 is infinite",
+            "content": "the book provides an extensive theoretical account of the fundamental ideas underlying machine learning and the mathematical derivations that transform these",
+            "url": "https://scispace.com/pdf/understanding-machine-learning-from-theory-to-algorithms-5aeszqx33g.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "suppose your model is overfitting which of the following is not a valid way to try and reduce the overfitting",
+            "content": "a reduce noise in the dataset b decrease model complexity c increase the training data d improve the optimisation algorithm that is used for the error",
+            "url": "https://www.reddit.com/r/MLQuestions/comments/g4twb9/which_of_these_are_not_valid_ways_to_reduce/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is true of a convolution kernel",
+            "content": "convolution kernels also known as filters are small matrices used for the convolution operation these kernels slide across the input data",
+            "url": "https://medium.com/@abhishekjainindore24/all-about-convolutions-kernels-features-in-cnn-c656616390a1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "high entropy means that the partitions in classification are",
+            "content": "high entropy indicates a high degree of uncertainty or randomness in the data in classification it means the partitions are impure containing a mix of",
+            "url": "https://studyx.ai/questions/4lf8cbp/question-47-high-entropy-means-that-the-partitions-in-classification-are-select-an-option",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "statement 1 the maximum margin decision boundaries that support vector machines construct have the lowest generalization error among all linear classifiers statement 2 any decision boundary that we get from a generative model with classconditional gaussian distributions could in principle be reproduced with an svm and a polynomial kernel of degree less than or equal to three",
+            "content": "answer false the maximum margin hyperplane is often a reasonable choice but it is by no means optimal in all cases d truefalse 1 pt",
+            "url": "https://www.cs.cmu.edu/~aarti/Class/10701/exams/final2004-solution.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "suppose we would like to perform clustering on spatial data such as the geometrical locations of houses we wish to produce clusters of many different sizes and shapes which of the following methods is the most appropriate",
+            "content": "which of the following methods is the most appropriate a decision trees b densitybased clustering c modelbased clustering d",
+            "url": "https://www.examveda.com/suppose-we-would-like-to-perform-clustering-on-spatial-data-such-as-the-geometrical-locations-of-houses-we-wish-to-produce-clusters-of-many-different-sizes-and-shapes-which-of-214597/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "statement 1 the svm learning algorithm is guaranteed to find the globally optimal hypothesis with respect to its object function statement 2 after being mapped into feature space q through a radial basis kernel function a perceptron may be able to achieve better classification performance than in its original space though we can’t guarantee this",
+            "content": "the book provides an extensive theoretical account of the fundamental ideas underlying machine learning and the mathematical derivations that transform these",
+            "url": "https://scispace.com/pdf/understanding-machine-learning-from-theory-to-algorithms-5aeszqx33g.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "refers to a model that can neither model the training data nor generalize to new data",
+            "content": "in mathematical modeling overfitting is the production of an analysis that corresponds too closely or exactly to a particular set of data",
+            "url": "https://en.wikipedia.org/wiki/Overfitting",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "statement 1 when learning an hmm for a fixed set of observations assume we do not know the true number of hidden states which is often the case we can always increase the training data likelihood by permitting more hidden states statement 2 collaborative filtering is often a useful model for modeling users movie preference",
+            "content": "chapter 2 introduction to probability and random variables 19 21 introduction to random variables 19 211 motivation",
+            "url": "https://www.utdallas.edu/~m.vidyasagar/Fall-2011/Biostat/MV-text.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "existential risks posed by ai are most commonly associated with which of the following professors",
+            "content": "concerns about superintelligence have been voiced by computer scientists and tech ceos such as geoffrey hinton yoshua bengio alan turing elon musk and",
+            "url": "https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "as the number of training examples goes to infinity your model trained on that data will have",
+            "content": "you still need enough parameters for your model to memorize the entire training data set so basically also nearly infinite parameters",
+            "url": "https://www.reddit.com/r/learnmachinelearning/comments/1ezcvn2/theoretically_could_a_deep_neural_network_trained/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "statement 1 layer normalization is used in the original resnet paper not batch normalization statement 2 dcgans use selfattention to stabilize training",
+            "content": "from table 2 it can be seen that batch normalization does not help in training instance normalization can stabilize training but negatively",
+            "url": "http://link.springer.com/10.1007/s00371-025-03833-9",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "statement 1 l2 regularization of linear models tends to make models more sparse than l1 regularization statement 2 residual connections can be found in resnets and transformers",
+            "content": "this phd thesis presents contributions to the field of deep learning by exploring the theoretical and practical properties of deep residual neural networks",
+            "url": "https://michaelsdr.github.io/documents/Manuscript.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is a clustering algorithm in machine learning",
+            "content": "kmeans clustering is the most commonly used clustering algorithm its a centroidbased algorithm and the simplest unsupervised learning",
+            "url": "https://www.freecodecamp.org/news/8-clustering-algorithms-in-machine-learning-that-all-data-scientists-should-know/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "statement 1 in adaboost weights of the misclassified examples go up by the same multiplicative factor statement 2 in adaboost weighted training error et of the tth weak classifier on training data with weights dt tends to increase as a function of t",
+            "content": "i find that after training the adaboost algorithm a series of weak learners is created such that this series is recurring in the whole set",
+            "url": "https://stackoverflow.com/questions/49710208/adaboost-repeatedly-chooses-same-weak-learners",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "another term for outofdistribution detection is",
+            "content": "outofdistribution ood detection refers to a models ability to recognize and appropriately handle data that deviates significantly from its training set",
+            "url": "https://encord.com/blog/what-is-out-of-distribution-ood-detection/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "kfold crossvalidation is",
+            "content": "after completing this tutorial you will know that kfold cross validation is a procedure used to estimate the skill of the model on new data",
+            "url": "https://machinelearningmastery.com/k-fold-cross-validation/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in building a linear regression model for a particular data set you observe the coefficient of one of the features having a relatively high negative value this suggests that",
+            "content": "a high magnitude suggests that the feature is important however it may be the case that another feature is highly correlated with this feature",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-03.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is the joint probability of h u p and w described by the given bayesian network h u p w note as the product of the conditional probabilities",
+            "content": "figure 3 bayesian network for happiness in life 2 write joint distribution as a product of conditional probabilities table 2 parameter counts table factor",
+            "url": "https://www.cs.cmu.edu/~ggordon/10601/hws/hw2/hw2_sol.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "suppose we have the following objective function argminw frac12 normxwy22 frac12gamma normw22 what is the gradient of frac12 normxwy22 frac12lambda normw22 with respect to w",
+            "content": "we must take the derivative with finesse and that means we use the chain rule note that fg∘h where hxax−b and gu12‖u‖2",
+            "url": "https://math.stackexchange.com/questions/3508373/taking-the-gradient-of-f-mathbfx-frac12-mathbfa-mathbfx-ma",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "mle estimates are often undesirable because",
+            "content": "maximum likelihood estimation often results into biased estimators eg its estimate for the sample variance is biased for the gaussian distribution",
+            "url": "https://stats.stackexchange.com/questions/183006/maximum-likelihood-estimation-why-it-is-used-despite-being-biased-in-many-cas",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "adding more basis functions in a linear model pick the most probably option",
+            "content": "i have a measured experimental dataset which is well approximated by the sum of several basis functions in linear combinations linear least",
+            "url": "https://math.stackexchange.com/questions/55509/choosing-set-of-best-estimators-for-linear-least-squares",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "after applying a regularization penalty in linear regression you find that some of the coefficients of w are zeroed out which of the following penalties might have been used",
+            "content": "which of the following penalties might have been used both the norms l0 and l2 are used to reduce some parameters to zero",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-03.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "for a neural network which one of these structural assumptions is the one that most affects the tradeoff between underfitting ie a high bias model and overfitting ie a high variance model",
+            "content": "underfitting if the number of neurons are less as compared to the complexity of the problem data it takes towards the underfitting it occurs",
+            "url": "https://www.exploredatabase.com/2020/05/machine-learning-multiple-choice-questions-set-06.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "averaging the output of multiple decision trees helps",
+            "content": "stability final outcome is based on averaging the results from multiple decision trees advantages of random forest regression random",
+            "url": "https://medium.com/@byanalytixlabs/random-forest-regression-how-it-helps-in-predictive-analytics-01c31897c1d4",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "statement 1 overfitting is more likely when the set of training data is small statement 2 overfitting is more likely when the hypothesis space is small",
+            "content": "1 overfitting is more likely if we have less data2 overfitting is more likely when the hypothesis space is smallwhich of the above statements are correct",
+            "url": "https://mcqmate.com/discussion/781/suppose-you-are-training-a-linear-regression-model-now-consider-these-points1-overfitting-is-more-likely-if-we-have-less-data2-overfitting-is-more-likely-when-the-hypothesis-space-is-smallwhich-of-the-above-statements-are-correct",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "computational complexity of gradient descent is",
+            "content": "gradient descent has a time complexity of ondk where d is the number of features and n is the number of rows so when d and n and large it",
+            "url": "https://stats.stackexchange.com/questions/407921/what-is-the-computational-cost-of-gradient-descent-vs-linear-regression",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "consider the bayesian network given below how many independent parameters would we need if we made no assumptions about independence or conditional independence h u p w",
+            "content": "the number of independent parameters needed to describe each conditional probability distribution that is part of the joint are listed in table 1 4 assume",
+            "url": "https://www.cs.cmu.edu/~ggordon/10601/hws/hw2/hw2_sol.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "statement 1 the training error of 1nearest neighbor classifier is 0 statement 2 as the number of data points grows to infinity the map estimate approaches the mle estimate for all possible priors in other words given enough data the choice of prior is irrelevant",
+            "content": "a singh the training error of 1nn classifier is 0 true each point is its own neighbor so 1nn classifier achieves perfect classification on training data16 stron",
+            "url": "https://www.cs.cmu.edu/~aarti/Class/10701/exams/midterm2010f_sol.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "let us say that we have computed the gradient of our cost function and stored it in a vector g what is the cost of one gradient descent update given the gradient",
+            "content": "gradient descent is a method for finding the minimum of a function of multiple variables so you can use gradient descent to minimize your cost function",
+            "url": "https://stackoverflow.com/questions/13623113/can-someone-explain-to-me-the-difference-between-a-cost-function-and-the-gradien",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "suppose we like to calculate phe f and we have no conditional independence information which of the following sets of numbers are sufficient for the calculation",
+            "content": "conditional independence for any two distinct nodes α and β ∈ v the ordered pair α β ∈ e if and only if there is a directed edge from α to β",
+            "url": "https://www.mimuw.edu.pl/~noble/courses/BayesianNetworks/warsawseries.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "when doing leastsquares regression with regularisation assuming that the optimisation can be done exactly increasing the value of the regularisation parameter λ the testing error",
+            "content": "the impact on testing error depends on whether the model was overfitting or underfitting initially increasing λ may reduce overfitting",
+            "url": "https://studyx.ai/questions/4le7e73/question-no-6-when-doing-least-squares-regression-with-regularisation-assuming-that-the",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as of 2020 which architecture is best for classifying highresolution images",
+            "content": "the introduction of vision transformers in late 2020 marked another significant shift in the architectural landscape of image classification",
+            "url": "https://medium.com/design-bootcamp/development-of-the-architecture-of-the-image-classification-models-from-2016-to-2024-2cb322337437",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "statement 1 after mapped into feature space q through a radial basis kernel function 1nn using unweighted euclidean distance may be able to achieve better classification performance than in original space though we can’t guarantee this statement 2 the vc dimension of a perceptron is smaller than the vc dimension of a simple linear svm",
+            "content": "in this case we chose a “cut” level such that we get four clusters and the recthclust function allows us to superimpose boxes on the clusters so we",
+            "url": "https://www.mimuw.edu.pl/~noble/courses/QPEDataScience/Resources/DataScienceBook.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "given two boolean random variables a and b where pa 12 pb 13 and pa ¬b 14 what is pa b",
+            "content": "a estimate the conditional probabilities for p a p b p c p a− p b− and p c− answer p a 1− 25 04 p b 1− 25",
+            "url": "http://users.umiacs.umd.edu/~joseph/classes/enee752/Fall09/Solutions7.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "for polynomial regression which one of these structural assumptions is the one that most affects the tradeoff between underfitting and overfitting",
+            "content": "which of the following step assumption in regression modeling impacts the trade off between underfitting and overfitting the most",
+            "url": "https://mcqmate.com/discussion/716/which-of-the-following-step-assumption-in-regression-modeling-impacts-the-trade-off-between-under-fitting-and-over-fitting-the-most",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "statement 1 since the vc dimension for an svm with a radial base kernel is infinite such an svm must be worse than an svm with polynomial kernel which has a finite vc dimension statement 2 a two layer neural network with linear activation functions is essentially a weighted combination of linear separators trained on a given dataset the boosting algorithm built on linear separators also finds a combination of linear separators therefore these two algorithms will give the same result",
+            "content": "by f markowetz it deals with statistical properties of separating hyperplanes and gives bounds on the probability of generalization errors we give a bound on the actual risk",
+            "url": "http://compdiag.molgen.mpg.de/docs/markowetz_diplom.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "suppose you are given an em algorithm that finds maximum likelihood estimates for a model with latent variables you are asked to modify the algorithm so that it finds map estimates instead which step or steps do you need to modify",
+            "content": "the expectationmaximization em algorithm is an iterative method used in unsupervised machine learning to estimate unknown parameters in statistical models",
+            "url": "https://www.geeksforgeeks.org/ml-expectation-maximization-algorithm/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which among the following prevents overfitting when we perform bagging",
+            "content": "regularization is the process of restricting a models freedom by enforcing some constraints on it so that the chance of overfitting is reduced",
+            "url": "https://towardsdatascience.com/does-bagging-help-to-prevent-overfitting-in-decision-trees-42262943a81e/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which pytorch 18 commands produce 10times 5 gaussian matrix with each entry iid sampled from mathcalnmu5sigma216 and a 10times 10 uniform matrix with each entry iid sampled from u11",
+            "content": "mixture models allow rich probability distributions to be represented as a combination of simpler “component” distributions for example consider the mixture of 1dimensional gaussians in the image below while the representational capacity of a single gaussian is limited a mixture",
+            "url": "https://angusturner.github.io/generative_models/2017/11/03/pytorch-gaussian-mixture-model.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "a machine learning problem involves four attributes plus a class the attributes have 3 2 2 and 2 possible values each the class has 3 possible values how many maximum possible different examples are there",
+            "content": "option d 72 the correct answer is option d to find the maximum possible different examples you can multiply the number of possible values for each attribute and the class together 3 attribute 1 x 2 attribute 2 x 2 attribute 3 x 2 attribute 4 x 3 class 72",
+            "url": "https://www.examveda.com/a-machine-learning-problem-involves-four-attributes-plus-a-class-the-attributes-have-3-2-2-and-2-possible-values-each-the-class-has-3-possible-values-how-many-maximum-214203/",
+            "engine": "braveAPI"
+        }
+    ]
+}

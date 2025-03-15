@@ -1,0 +1,1057 @@
+{
+    "task": "mmlu_college_chemistry",
+    "dataset": "web_access_college_chemistry_final",
+    "questions": 100,
+    "noWebContextCount": 1,
+    "contaminated_queries": 83,
+    "contaminated_urls": 479,
+    "valid_urls": 99,
+    "avg_contaminated_before_valid": 5.838383838383838,
+    "contaminated_data_ratio": 0.828719723183391,
+    "most_contaminated_urls": {
+        "global.oup.com": 31
+    },
+    "noWebContext": [
+        "The Henry’s law constant for CO2 dissolved in water at 25°C is 30.0 atm M^−1. The concentration of dissolved CO2 in a vessel pressurized with 2.0 atm of CO2 is"
+    ],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 4,
+            "query": "what is the orbital angular momentum quantum number l of the electron that is most easily removed when groundstate aluminum is ionized",
+            "content": "the question asks for the orbital angular momentum quantum number l of the electron most easily removed from groundstate aluminum",
+            "url": "https://studyx.ai/questions/4lhr0dt/16-what-is-the-orbital-angular-momentum-quantum-number-l-of-the-electron-that-is-most",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following statements most accurately explains why the 1h spectrum of 12chcl3 is a singlet",
+            "content": "which of the following statements most accurately explains why the 1h spectrum of 12chcl3 is a singlet a both 35cl and 37cl have i 0 b the hydrogen",
+            "url": "http://global.oup.com/uk/orc/chemistry/hore_nmr2e/student/mcqs/ch05/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a molecule has a rotational correlation time of 1 ns at what magnetic field would protons in this molecule have the fastest spinlattice relaxation use eqns 53 and 54",
+            "content": "at what magnetic field would protons in this molecule have the fastest spinlattice relaxation use eqns 53 and 54 a 374 t b 519 t c 608 t d 949",
+            "url": "http://global.oup.com/uk/orc/chemistry/hore_nmr2e/student/mcqs/ch05/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "predict the hyperfine value for the epr spectrum of fully deuteriated benzene radical anion c6d6",
+            "content": "question 5 predict the hyperfine value for the epr spectrum of fully deuteriated benzene radical anion c6d6",
+            "url": "http://global.oup.com/uk/orc/chemistry/chechik/student/mcqs/ch04/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the rotational correlation time of a spherical object of radius r immersed in a liquid with viscosity η is given by the stokes equation τc 4πηr33kbt a small molecule with relative molecular mass mr 100 in water at 298 k has τc 50 ps assuming that mr is proportional to the molecular volume estimate τc for a small protein with mr 8400",
+            "content": "college chemistry “the rotational correlation time of a spherical object of radius r immersed mass mr 100 in water at 298 k has τc 50 ps",
+            "url": "https://monkeyandres.com/posts/ai-importance/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following statements is not a reason why tetramethylsilane is used as a 1h chemical shift reference",
+            "content": "which of the following statements is not a reason why tetramethylsilane is used as a 1h chemical shift reference a its 1h spectrum is a singlet b its",
+            "url": "http://global.oup.com/uk/orc/chemistry/hore_nmr2e/student/mcqs/ch02/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "elements with partially filled 4f or 5f orbitals include all of the following except",
+            "content": "elements with partially filled 4f and 5f orbitals include the following except a cu b gd c eu d cm 9 in the compound shown below which hydrogen is",
+            "url": "https://rcsc.gov.bt/wp-content/uploads/2025/02/2020-Technical-Paper-III-Chemistry.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the xband 95 ghz epr spectrum of a matrix isolated na atom reveals four hyperfine lines with resonant field positions of 3074 g 3174 g 3274 g and 3374 g calculate the g value of the atom",
+            "content": "the xband 95 ghz epr spectrum of a matrix isolated na atom reveals four hyperfine lines with resonant field positions of 3074 g 3174 g 3274 g and 3374 g",
+            "url": "http://global.oup.com/uk/orc/chemistry/chechik/student/mcqs/ch02/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "23na has an nmr frequency of 19852 mhz in a 750 mhz nmr spectrometer what is its magnetogyric ratio",
+            "content": "question 8 23na has an nmr frequency of 19852 mhz in a 750 mhz nmr spectrometer what is its magnetogyric ratio",
+            "url": "http://global.oup.com/uk/orc/chemistry/hore_nmr2e/student/mcqs/ch01/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "suppose that the 13c nuclei in a molecule in a 600 mhz spectrometer can be 100 polarized p 1 if t1 50 s how long does it take for p to reach a value equal to twice the thermal equilibrium polarization at 298 k",
+            "content": "suppose that the 13c nuclei in a molecule in a 600 mhz spectrometer can be 100 polarized p 1 if t1 50 s how long does it take for p to reach a value",
+            "url": "http://global.oup.com/uk/orc/chemistry/hore_nmr2e/student/mcqs/ch05/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "calculate the spin angular momentum of 43ca i 7⁄2",
+            "content": "question 3 what is the maximum value of the zcomponent of the spin angular momentum of 43ca i 7⁄2 a 3691 x 1034 j s b 4185 x 1034 j s",
+            "url": "http://global.oup.com/uk/orc/chemistry/hore_nmr2e/student/mcqs/ch01/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "chlorofluorocarbons cfcs such as f3cccl3 are implicated in the decomposition of stratospheric ozone which of the following methods would be best suited to measurement of trace amounts subppb of cfcs in an air sample",
+            "content": "which of the following methods would be best suited to measurement of trace amounts subppb of cfcs in an air sample choices a gas chromatographic",
+            "url": "https://data-science.llnl.gov/sites/data_science/files/2024-11/day2_1035_volkova.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "chlorofluorocarbons cfcs such as f3cccl3 are implicated in the decomposition of stratospheric ozone which of the following methods would be best suited to measurement of trace amounts subppb of cfcs in an air sample",
+            "content": "which of the following methods would be best suited to measurement of trace amounts subppb of cfcs in an air sample a gas chromatographic separation",
+            "url": "http://dl.icdst.org/pdfs/files3/0cd6c2f9f47042a59700a7e3efdbeaec.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "chlorofluorocarbons cfcs such as f3cccl3 are implicated in the decomposition of stratospheric ozone which of the following methods would be best suited to measurement of trace amounts subppb of cfcs in an air sample",
+            "content": "which of the following methods would be best suited to measurement of trace amounts subppb of cfcs in an air sample a gas chromatographic separation",
+            "url": "https://www.edit95.com/files/file/Amir%20hosein/Article%2003/FILES/GRE%20chemistry%20practice%20test.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the ratio of line intensities in the epr spectrum of the tbu radical ch33c",
+            "content": "what is the ratio of line intensities in the epr spectrum of the tbu radical ch33c a 11936841261268436191 b 193684126126843691",
+            "url": "http://global.oup.com/uk/orc/chemistry/chechik/student/mcqs/ch04/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "calculate the magnetic field responsible for the polarization of 25 x 106 for 13c at 298 k",
+            "content": "question 10 calculate the magnetic field responsible for the polarization of 25 x 106 for 13c at 298 k a 05 t b 12 t c 29 t d 100 t e 250 t",
+            "url": "http://global.oup.com/uk/orc/chemistry/chechik/student/mcqs/ch02/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the 13c spectrum of which isomer of c6h14 has lines with five distinct chemical shifts",
+            "content": "the 13c spectrum of which isomer of c6h14 has lines with five distinct chemical shifts a hexane b 2methylpentane c 3methylpentane d 23dimethylbutane",
+            "url": "http://global.oup.com/uk/orc/chemistry/hore_nmr2e/student/mcqs/ch02/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the 1h larmor frequency of benzene exceeds that of trifluoroacetic acid by 1656 khz on a 400 mhz spectrometer the 1h chemical shift of benzene is 716 ppm what is the chemical shift of trifluoroacetic acid",
+            "content": "the 1h larmor frequency of benzene exceeds that of trifluoroacetic acid by 1656 khz on a 400 mhz spectrometer the 1h chemical shift of benzene is 716 ppm",
+            "url": "http://global.oup.com/uk/orc/chemistry/hore_nmr2e/student/mcqs/ch02/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "calculate spin density on the central carbon atom of malonic acid radical chcooh2 if the hyperfine value for the αhydrogen atom is 219 g",
+            "content": "question 7 calculate spin density on the central carbon atom of malonic acid radical chcooh2 if the hyperfine value for the αhydrogen atom is 219 g",
+            "url": "http://global.oup.com/uk/orc/chemistry/chechik/student/mcqs/ch04/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "calculate the equilibrium polarization of 13c nuclei in a 200 t magnetic field at 300 k",
+            "content": "calculate the equilibrium polarization of 13c nuclei in a 200 t magnetic field at 300 k a 108 x 105 b",
+            "url": "http://global.oup.com/uk/orc/chemistry/hore_nmr2e/student/mcqs/ch01/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which nuclide has an nmr frequency of 1155 mhz in a 200 t magnetic field",
+            "content": "which nuclide has an nmr frequency of 1155 mhz in a 200 t magnetic field a 17o b 19",
+            "url": "http://global.oup.com/uk/orc/chemistry/hore_nmr2e/student/mcqs/ch01/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the number of allowed energy levels for the 55mn nuclide are",
+            "content": "0335 t 2142 x 106 at 105 t question 7 the number of allowed energy levels for the 55mn nuclide are a 3 b 5 c 8 d 4 e 6 question 8 the",
+            "url": "http://global.oup.com/uk/orc/chemistry/chechik/student/mcqs/ch02/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the t2 of an nmr line is 15 ms ignoring other sources of linebroadening calculate its linewidth",
+            "content": "the t2 of an nmr line is 15 ms ignoring other sources of linebroadening calculate its linewidth a 00471 hz b 212 hz c 424 hz d 667 hz question 6",
+            "url": "http://global.oup.com/uk/orc/chemistry/hore_nmr2e/student/mcqs/ch05/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "during a delay spins with an offset frequency ω 250 rad s1 precess through an angle of 60° how long is the delay",
+            "content": "during a delay spins with an offset frequency ω 250 rad s1 precess through an angle of 60° how long is the delay a 419 ms b 263 ms c 240 ms d",
+            "url": "https://global.oup.com/uk/orc/chemistry/hore_nmr2e/student/mcqs/ch06/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the amplitude of a free induction decay drops to 25 of its initial intensity after 10 s assuming exponential relaxation and ω 0 determine the value of t2",
+            "content": "the amplitude of a free induction decay drops to 25 of its initial intensity after 10 s assuming exponential relaxation and ω 0 determine the value of t2",
+            "url": "https://global.oup.com/uk/orc/chemistry/hore_nmr2e/student/mcqs/ch06/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "of the following ions which has the smallest radius",
+            "content": "which of the following ions has the smallest radius a be2 b li c o2 d f check answer and solution for above question from",
+            "url": "https://tardigrade.in/question/which-of-the-following-ions-has-the-smallest-radius-oguz1ogm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the maximum value of the zcomponent of the spin angular momentum of 43ca i 7⁄2",
+            "content": "question 3 what is the maximum value of the zcomponent of the spin angular momentum of 43ca i 7⁄2 a 3691 x 1034 j s b 4185 x 1034 j s",
+            "url": "http://global.oup.com/uk/orc/chemistry/hore_nmr2e/student/mcqs/ch01/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the magnetic moment μi of an unknown nuclide is 2884 x 1027 j t1 given the nuclear spin is known to be 1 identify the unknown nuclide",
+            "content": "the magnetic moment μi of an unknown nuclide is 2884 x 1027 j t1 given the nuclear spin is known to be 1 identify the unknown nuclide a 14n b 2h c",
+            "url": "http://global.oup.com/uk/orc/chemistry/chechik/student/mcqs/ch02/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following procedures tends to minimize the influence of random errors on measured results i signal averaging ii use of internal standards iii averaging the results from multiple samples",
+            "content": "which of the following tends to minimize the influence of random errors on measured results a signal averaging b use of internal standards",
+            "url": "https://studyx.ai/homework/105118105-1-which-of-the-following-tend-s-to-minimize-the-influence-of-random-errors-on-measured",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "estimate the βhyperfine value for the cyclobutyl radical c4h7 assuming the radical is flat and the hch angle is 115°",
+            "content": "question 6 estimate the βhyperfine value for the cyclobutyl radical c4h7 assuming the radical is flat and the hch angle is 115°",
+            "url": "http://global.oup.com/uk/orc/chemistry/chechik/student/mcqs/ch04/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the 13c chemical shifts of benzene and chloroform are 1284 ppm and 772 ppm respectively what is the difference in the 13c nmr frequencies of the two compounds on a 600 mhz spectrometer",
+            "content": "what is the difference in the 13c nmr frequencies of the two compounds on a 600 mhz spectrometer a 773 khz b 307 khz",
+            "url": "http://global.oup.com/uk/orc/chemistry/hore_nmr2e/student/mcqs/ch02/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "predict the number of lines in the epr spectrum of a solution of dimethylnitroxide ch32no assuming the lines do not overlap",
+            "content": "predict the number of lines in the epr spectrum of a solution of dimethylnitroxide ch32no assuming the lines do not overlap a 21 b 3 c 7 d 24 e 12",
+            "url": "http://global.oup.com/uk/orc/chemistry/chechik/student/mcqs/ch04/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a po3 radical produces a pair of lines separated by 280 mhz with giso 2005 calculate the expected resonant field positions of both lines in the xband epr spectrum ν 95 ghz",
+            "content": "question 3 a po3 radical produces a pair of lines separated by 280 mhz with giso 2005 calculate the expected resonant field positions of both lines in",
+            "url": "http://global.oup.com/uk/orc/chemistry/chechik/student/mcqs/ch02/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the 1h spectrum of a mixture of dimethylsulphoxide dmso and acetonitrile an contains lines with relative intensities α and 3α respectively what is the ratio of the two concentrations dmsoan",
+            "content": "acetonitrile an contains lines with relative intensities α and 3α respectively what is the ratio of the two concentrations dmsoan a 11 b 13 c",
+            "url": "http://global.oup.com/uk/orc/chemistry/hore_nmr2e/student/mcqs/ch02/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a silyl radical bearing an sih fragment has a g value of 20033 and a pair of lines separated by 155 mhz express the splitting in units of mt gauss and cm1",
+            "content": "a silyl radical bearing an sih fragment has a g value of 20033 and a pair of lines separated by 155 mhz express the splitting in units of mt gauss and cm",
+            "url": "http://global.oup.com/uk/orc/chemistry/chechik/student/mcqs/ch02/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which one sentence explains most accurately why spin trapping is often used to detect free radical intermediates",
+            "content": "which one sentence explains most accurately why spin trapping is often used to detect free radical intermediates a spin trapping provides more structural",
+            "url": "http://global.oup.com/uk/orc/chemistry/chechik/student/mcqs/ch04/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which one sentence explains most accurately why spin trapping is often used to detect free radical intermediates",
+            "content": "which one sentence explains most accurately why spin trapping is often used to detect free radical intermediates a spin trapping",
+            "url": "https://twitter.com/AIExplainedYT/status/1790711185404199142",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following compounds has a 1h resonance approximately 155 khz away from tms on a spectrometer with a 120 t magnet",
+            "content": "which of the following compounds has a 1h resonance approximately 155 khz away from tms on a spectrometer with a 120 t magnet a ch3f b ch3cl c ch3br d",
+            "url": "http://global.oup.com/uk/orc/chemistry/hore_nmr2e/student/mcqs/ch02/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a cuii metal ion giso 212 produces four lines with a separation of 500 mhz between each line express the hyperfine splitting in field units of mt and the hyperfine coupling in units of wavenumbers",
+            "content": "a cuii metal ion giso 212 produces four lines with a separation of 500 mhz between each line express the hyperfine splitting in field units of mt and",
+            "url": "http://global.oup.com/uk/orc/chemistry/chechik/student/mcqs/ch02/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "what is the orbital angular momentum quantum number l of the electron that is most easily removed when groundstate aluminum is ionized",
+            "content": "the question asks for the orbital angular momentum quantum number l of the electron most easily removed from groundstate aluminum",
+            "url": "https://studyx.ai/questions/4lhr0dt/16-what-is-the-orbital-angular-momentum-quantum-number-l-of-the-electron-that-is-most",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "elements with partially filled 4f or 5f orbitals include all of the following except",
+            "content": "elements with partially filled 4f and 5f orbitals include the following except a cu b gd c eu d cm 9 in the compound shown below which hydrogen is",
+            "url": "https://rcsc.gov.bt/wp-content/uploads/2025/02/2020-Technical-Paper-III-Chemistry.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the 1h larmor frequency of benzene exceeds that of trifluoroacetic acid by 1656 khz on a 400 mhz spectrometer the 1h chemical shift of benzene is 716 ppm what is the chemical shift of trifluoroacetic acid",
+            "content": "the 1h larmor frequency of benzene exceeds that of trifluoroacetic acid by 1656 khz on a 400 mhz spectrometer the 1h chemical shift of benzene is 716 ppm",
+            "url": "http://global.oup.com/uk/orc/chemistry/hore_nmr2e/student/mcqs/ch02/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "of the following ions which has the smallest radius",
+            "content": "which of the following ions has the smallest radius a be2 b li c o2 d f check answer and solution for above question from",
+            "url": "https://tardigrade.in/question/which-of-the-following-ions-has-the-smallest-radius-oguz1ogm",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 22,
+            "query": "of the following ions which has the smallest radius",
+            "content": "click herepointup2to get an answer to your question writinghandwhich of the following ions has smallest radius",
+            "url": "https://www.toppr.com/ask/question/which-of-the-following-ions-has-smallest-radius/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 23,
+            "query": "of the following ions which has the smallest radius",
+            "content": "click here👆to get an answer to your question ✍️ which of the following ions has the smallest radius",
+            "url": "https://www.toppr.com/ask/en-us/question/which-of-the-following-ions-has-the-smallest-radius/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 24,
+            "query": "of the following ions which has the smallest radius",
+            "content": "click herepointup2to get an answer to your question writinghandwhich one of the following ions has the smallest radius",
+            "url": "https://www.toppr.com/ask/en-np/question/which-one-of-the-following-ions-has-the-smallest-radius/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "of the following compounds which is least likely to behave as a lewis acid",
+            "content": "click herepointup2to get an answer to your question writinghandwhich of the following is least likely to behave as",
+            "url": "https://www.toppr.com/ask/question/which-of-the-following-is-least-likely-to-behave-as/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 22,
+            "query": "considering 01 m aqueous solutions of each of the following which solution has the lowest ph",
+            "content": "we are asked to find considering 01 mol m of the walkway solutions of each of the following which solution has the lowest ph so therex27s a few ways we can approach this problem we can see which ones undergo hydraulic sis and calculate the ph of the solution",
+            "url": "https://www.numerade.com/ask/question/36-considering-01-m-aqueous-solutions-of-each-of-the-following-which-solution-has-the-lowest-ph-a-nazco3-b-nazpo4-c-nazs-nacl-8-cagcoona-31484/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "which of the following is always true of a spontaneous process",
+            "content": "q which of the following conditions are true about spontaneous process q for a spontaneous process which of the following is always true",
+            "url": "https://byjus.com/question-answer/which-of-the-following-is-true-for-spontaneous-processa-g-0-b-g-0c-g-0d-g-ts/",
+            "engine": "braveAPI"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is an ntype semiconductor",
+            "content": "options pure si si doped with as si doped with ga ge doped with in",
+            "url": "https://www.shaalaa.com/question-bank-solutions/choose-the-most-correct-answer-which-of-the-following-is-n-type-semiconductor_156720",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on the basis of oxidationreduction potential which of the following is most likely to occur",
+            "content": "oxidationreduction reactions are balanced by separating the overall chemical equation into an oxidation equation and a reduction equation",
+            "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_-_The_Central_Science_(Brown_et_al.)/04%3A_Reactions_in_Aqueous_Solution/4.04%3A_Oxidation-Reduction_Reactions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following statements most accurately explains why the 1h spectrum of 12chcl3 is a singlet",
+            "content": "it covers the gas phase and photochem ical reactions of organic halogen species which were last published in 1997 and were updated on the iupac website in",
+            "url": "https://core.ac.uk/download/pdf/27178747.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a molecule has a rotational correlation time of 1 ns at what magnetic field would protons in this molecule have the fastest spinlattice relaxation use eqns 53 and 54",
+            "content": "fast rate process faster than the rotational correlation time of the molecule we can therefore design a relaxation matrix of the form d dt",
+            "url": "https://scispace.com/pdf/on-the-extraction-of-exact-distances-and-internal-motions-249q1fa3pt.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "infrared ir spectroscopy is useful for determining certain aspects of the structure of organic molecules because",
+            "content": "one of the most common application of infrared spectroscopy is to the identification of organic compounds the major classes of organic",
+            "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Spectroscopy/Vibrational_Spectroscopy/Infrared_Spectroscopy/Infrared%3A_Interpretation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "predict the hyperfine value for the epr spectrum of fully deuteriated benzene radical anion c6d6",
+            "content": "experimental black and simulated red xband epr spectra of mgdippnacnaccaacme cs2 3 in benzene solution at room temperature the epr simulation 39 stron",
+            "url": "https://www.rsc.org/suppdata/d4/cc/d4cc05486e/d4cc05486e1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following statements most accurately explains why the t1 of a nucleus is sometimes longer than its t2",
+            "content": "t2 relaxation always proceeds at a faster rate than t1 relaxation thus the the t1 relaxation time is always longer than or equal to t2",
+            "url": "https://mri-q.com/why-is-t1--t2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the rotational correlation time of a spherical object of radius r immersed in a liquid with viscosity η is given by the stokes equation τc 4πηr33kbt a small molecule with relative molecular mass mr 100 in water at 298 k has τc 50 ps assuming that mr is proportional to the molecular volume estimate τc for a small protein with mr 8400",
+            "content": "relaxation theory the rotational correlation time τc is the time it takes for a molecule radius r of the idealised “sphere” of the",
+            "url": "https://theses.hal.science/tel-03213827v1/file/CHRISTOU_2020_archivage.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following statements is not a reason why tetramethylsilane is used as a 1h chemical shift reference",
+            "content": "tms is the adopted primary standard for 1h chemical shift referencing for the reasons stated above any other material can be used as a secondary reference",
+            "url": "https://chemistry.stackexchange.com/questions/47913/why-is-tetramethylsilane-tms-used-as-an-internal-standard-in-nmr-spectroscopy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "at 25°c the maximum amount of pbi2 that can be dissolved in 100 l of pure water is 10 mmol assuming complete dissociation the solubility product ksp for lead iodide at 25°c is",
+            "content": "2 the molar solubility of pbcl2 in 010 m nacl is 17 x 103 moles in a liter that is 17 x 103 moles of pbcl2 will dissolve in 1 liter of the solution",
+            "url": "https://pdfdocs313.weebly.com/uploads/8/7/1/3/8713933/ksp_problems_2.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "the xband 95 ghz epr spectrum of a matrix isolated na atom reveals four hyperfine lines with resonant field positions of 3074 g 3174 g 3274 g and 3374 g calculate the g value of the atom",
+            "content": "39 il xx congresso nazionale della divisione di chimica dellambiente e dei beni culturali si tiene nel periodo 40 28 settembre 1 ottobre 2023 presso",
+            "url": "https://iris.unife.it/retrieve/a26dcc62-6853-4cec-b54e-2fe54e4e89aa/hdl%20113922529952.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "23na has an nmr frequency of 19852 mhz in a 750 mhz nmr spectrometer what is its magnetogyric ratio",
+            "content": "750 track” 20 mhz nmr spectrometer renowned for its robust performance and reliability in avance hd iii nmr spectrometer 500 mhz 1h operating frequency",
+            "url": "https://pureportal.spbu.ru/files/121098415/Book_of_Proceedings_2024.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "suppose that the 13c nuclei in a molecule in a 600 mhz spectrometer can be 100 polarized p 1 if t1 50 s how long does it take for p to reach a value equal to twice the thermal equilibrium polarization at 298 k",
+            "content": "the existence of the nuclear force results in approximately 270 stable nuclei hundreds of other nuclei have been observed but they are unstable a plot of neu",
+            "url": "https://lehman.edu/faculty/anchordoqui/SJ7.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is are characteristic of mass spectrometry i analyte molecules are converted to gaseous ions ii the ions are separated according to their masstocharge ratio iii in addition to compound identification mass spectra can be utilized to determine precise isotopic masses and isotopic ratios",
+            "content": "in mass spectrometry neutral molecules are converted into molecular ions in the presence of excess internal energy these ions can split into charged",
+            "url": "https://www.sciencedirect.com/topics/chemical-engineering/mass-spectrometry",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "calculate the spin angular momentum of 43ca i 7⁄2",
+            "content": "for a one nuclen transfer knockout we write the interaction potential u between the projectile and the target in two parts the scattering potential that",
+            "url": "https://indico.ihep.ac.cn/event/21760/sessions/13569/attachments/80383/100711/NuclearDirectReactions_NUSYS2024_Lectures1_2.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the equilibrium populations of the 1h energy levels of a molecule are nα nαeq and nβ nβeq what are the populations after a 50 μs pulse when b1 4697 mt",
+            "content": "a series of different population sets characterizes the state of the system as it evolves toward thermal equilibrium",
+            "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Thermodynamics_and_Chemical_Equilibrium_(Ellgen)/20%3A_Boltzmann_Statistics/20.03%3A_The_Population_Sets_of_a_System_at_Equilibrium_at_Constant_N_V_and_T",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following experimental observations were explained by planck’s quantum theory",
+            "content": "initially his hypothesis explained only one set of experimental datablackbody radiation if quantization were observed for a large number of",
+            "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Map%3A_Physical_Chemistry_for_the_Biosciences_(Chang)/11%3A_Quantum_Mechanics_and_Atomic_Structure/11.02%3A_Planck%27s_Quantum_Theory",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the equation δh δu pδv is applicable",
+            "content": "δh enthalpy change δu change in internal energy p pressure and v volume i know that δhenthalpy is heat giventaken tofrom system at constant",
+            "url": "https://chemistry.stackexchange.com/questions/151157/what-is-the-difference-between-%CE%94h-%CE%94u-%CE%94pv-and-%CE%94u-q-w",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is required for both paramagnetism and ferromagnetism",
+            "content": "most materials can be classified as diamagnetic paramagnetic or ferromagnetic diamagnetic materials have a weak negative susceptibility to magnetic fields",
+            "url": "https://www.nde-ed.org/Physics/Magnetism/MagneticMatls.xhtml",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "chlorofluorocarbons cfcs such as f3cccl3 are implicated in the decomposition of stratospheric ozone which of the following methods would be best suited to measurement of trace amounts subppb of cfcs in an air sample",
+            "content": "this study deals with the use of remote sensing rs geographic information systems giss hydrologic modeling water modeling system wms and hydraulic",
+            "url": "https://www.academia.edu/28533125/Chemistry_Test",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "redox enzyme catalysis involves the cyclic oxidation and reduction of metal ions that have at least two stable positive oxidation states which of the following groups of metals could be found at the active site of redox enzymes",
+            "content": "because many transition metals can exist in more than one oxidation state electrontransfer proteins usually contain one or more metal ions",
+            "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Book%3A_General_Chemistry%3A_Principles_Patterns_and_Applications_(Averill)/22%3A_The_d-Block_Elements/22.06%3A_Transition_Metals_in_Biology",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "what is the ratio of line intensities in the epr spectrum of the tbu radical ch33c",
+            "content": "similarly a 2h nucleus i 1 produces a triplet signal with a 111 intensity ratio nitrogen atomic radicals possessing i 1 also exhibit",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1002/bkcs.12899",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "calculate the qfactor for an xband epr cavity with a resonator bandwidth of 158 mhz",
+            "content": "by pj roberts the purpose of the work presented in this thesis was to develop hardware and analysis methods for studying relaxation in electron paramagnetic resonance epr",
+            "url": "https://eprints.nottingham.ac.uk/14119/1/PhDThesis_PeterRoberts.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "calculate the magnetic field responsible for the polarization of 25 x 106 for 13c at 298 k",
+            "content": "from examining equation 1 there are two key factors which control the level of nuclear polarization i the magnetic field b0 and ii the",
+            "url": "https://livrepository.liverpool.ac.uk/3132995/6/SJE-PROGRESS-RESUBM_changesinSJ_V2.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "exact solutions of the schrödinger equation cannot be obtained for a",
+            "content": "several books state that the schrödinger equation can only be solved exactly for systems of maximum two interacting particles but fail to explain why",
+            "url": "https://chemistry.stackexchange.com/questions/39795/why-cannot-the-schr%C3%B6dinger-equation-be-solved-exactly-for-systems-in-which-more",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the 13c spectrum of which isomer of c6h14 has lines with five distinct chemical shifts",
+            "content": "the carbon13 nmr spectra a provides direct evidence of only 3 different carbon atom environments in the hexane molecule from 3 different chemical shifts ppm",
+            "url": "https://www.docbrown.info/page06/spectra/hexane-nmr13c.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "when the heisenberg uncertainty principle is applied to a quantum mechanical particle in the lowest energy level of a onedimensional box which of the following is true",
+            "content": "this is also consistent with the heisenberg uncertainty principle if the particle had zero energy we would know where it was in both space",
+            "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Quantum_Mechanics/05.5%3A_Particle_in_Boxes/Particle_in_a_1-Dimensional_box",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "calculate spin density on the central carbon atom of malonic acid radical chcooh2 if the hyperfine value for the αhydrogen atom is 219 g",
+            "content": "a negative spin density at a point r means that the spin polariza tion at this point is opposite to the net spin polarization s of the radical the valence",
+            "url": "http://publications.iupac.org/pac/4/1/0143/pdf/index.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which one of the following statements is true",
+            "content": "both are grammatically correct is true only one statement is true are true more than one statement is true",
+            "url": "https://pushtolearn.com/post/which-of-the-following-statements-are-or-is-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the molecular geometry of thionyl chloride socl2 is best described as",
+            "content": "with three attached atoms and one lone pair this results in a tetrahedral arrangement of orbitals and a trigonal pyramidal molecular geometry",
+            "url": "https://www.masterorganicchemistry.com/2011/12/03/reagent-friday-thionyl-chloride-socl2/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is the most common naturallyoccurring form in which silicon is found",
+            "content": "oxide silica is also known as silicon dioxide is the most prevalent form of naturally occurring silicon",
+            "url": "https://www.gktoday.in/question/which-of-the-following-is-the-most-common-naturall",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the fact that the infrared absorption frequency of deuterium chloride dcl is shifted from that of hydrogen chloride hcl is due to the differences in their",
+            "content": "slightly increasing the mass of the atoms has a 2fold effect firstly it will slightly shift the vibrational frequency as you have already",
+            "url": "https://www.reddit.com/r/askscience/comments/qsq7r/why_exactly_does_ir_spectroscopy_allow_one_to/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the normal modes of a carbon dioxide molecule that are infraredactive include which of the following i bending ii symmetric stretching iii asymmetric stretching",
+            "content": "number of vibrational modes in a molecule symmetric stretching asymmetric stretching scissoring rocking wagging twisting 30 stretching",
+            "url": "https://www.slideshare.net/slideshow/ir-spectroscopy-by-dr-pramod-r-padole/229815232",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "calculate the equilibrium polarization of 13c nuclei in a 200 t magnetic field at 300 k",
+            "content": "at ambient temperature t 300 k and 7 t 300 mhz for protons the boltzmann thermal equilibrium polarization is p te 13 c 602 10−6 the thermal",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1090780715002074",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which nuclide has an nmr frequency of 1155 mhz in a 200 t magnetic field",
+            "content": "nmr tables typical stray field data for nmr magnet systems magnet system 1h mhzmm bore axial distance m from magnet center to 5 gauss 05 mt line",
+            "url": "https://kodu.ut.ee/~laurit/AK2/NMR_tables_Bruker2012.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the number of allowed energy levels for the 55mn nuclide are",
+            "content": "nuclear magnetic resonance spectroscopy nmr is a widely used and powerful method that takes advantage of the magnetic properties of certain nuclei",
+            "url": "https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Physical_Methods_in_Chemistry_and_Nano_Science_(Barron)/04%3A_Chemical_Speciation/4.07%3A_NMR_Spectroscopy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the t2 of an nmr line is 15 ms ignoring other sources of linebroadening calculate its linewidth",
+            "content": "ignoring other sources of linebroadening calculate its linewidth which of the following is the right choice explain your answer a 00471",
+            "url": "https://www.qna.acalytica.com/42358/ignoring-sources-linebroadening-calculate-linewidth-following",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "what is the limiting hightemperature molar heat capacity at constant volume cv of a gasphase diatomic molecule",
+            "content": "the ratio of specific heats for a diatomic molecule is usually γcpcv75 what is then the specific heat at constant pressure normally this",
+            "url": "https://physics.stackexchange.com/questions/212986/for-a-diatomic-molecule-what-is-the-specific-heat-per-mole-at-constant-pressure",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "during a delay spins with an offset frequency ω 250 rad s1 precess through an angle of 60° how long is the delay",
+            "content": "this review describes offresonance r1ρ relaxation dispersion nmr methods for characterizing microsecondtomillisecond chemical exchange in uniformly",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6727989/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the maximum number of phases that can be at equilibrium with each other in a three component mixture",
+            "content": "the maximum number of coexisting phases is observed when there are no degrees of freedom left a coexistence point that is when p5",
+            "url": "https://chemistry.stackexchange.com/questions/135493/phase-equilibrium-in-mixtures",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following types of spectroscopy is a lightscattering technique",
+            "content": "raman spectroscopy is solely concerned with the inelastic scattering of photons known as raman scattering where the apparent wavelength of a",
+            "url": "https://www.platypustech.com/5-different-types-of-spectroscopy?srsltid=AfmBOoq7iRJMwO2Tsj_LIOaZREgL2ttYj-aIY0LyFPQQm-7avE76k9wA",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "nitronyl nitroxides are stable radicals in which the unpaired electron is coupled to two equivalent nitrogen nuclei how many lines will appear in the epr spectrum of a solution of a rigid nitronyl nitroxide diradical with j a",
+            "content": "nucleus with i1 14 n 2 h with an unpaired electron will give three lines of equal height 111 called triplet the position of these",
+            "url": "http://www.qfa.uam.es/epr/tutorial_uk/5_2Radicals_that_contain_n_.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the amplitude of a free induction decay drops to 25 of its initial intensity after 10 s assuming exponential relaxation and ω 0 determine the value of t2",
+            "content": "in fact the initial amplitude of the free induction decay following the 90 pulse is proportional to the net magnetization along the zaxis mzz just",
+            "url": "https://www.phy.cuhk.edu.hk/djwang/teachlab/projects/NMRpulse/TeachSpin%20NMR%20Manual.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following must be true about a binary liquid mixture that obeys raoult’s law i the partial pressure of each component at equilibrium is proportional to its mole fraction in the liquid mixture ii the volume of the mixture is equal to the sum of the volumes of each component before mixing iii intermolecular interactions in the mixture are identical to intermolecular interactions in the pure components",
+            "content": "this page deals with raoults law and how it applies to mixtures of two volatile liquids it covers cases where the two liquids are entirely miscible in all",
+            "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Equilibria/Physical_Equilibria/Raoults_Law_and_Ideal_Mixtures_of_Liquids",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the solidstate structures of the principal allotropes of elemental boron are made up of which of the following structural units",
+            "content": "armed with these ideas we examine the structure of allotropes of elemental boron and boronrich solids we study specifically the doped structures which",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S002245960500575X",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the rate r of a zeroorder chemical reaction a → b can be expressed as which of the following",
+            "content": "we can represent the relationship by the following equation a12ao using the integrated form of the rate law we can develop a",
+            "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Kinetics/02%3A_Reaction_Rates/2.10%3A_Zero-Order_Reactions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the 1 oxidation state is more stable than the 3 oxidation state for which group 13 element",
+            "content": "the stability of 1 os is generally more than the stability of 3 os as it is energetically not favourable to attain the higher os of 3 and such ions act as",
+            "url": "https://chemistry.stackexchange.com/questions/161691/why-are-group-13-compounds-in-the-1-oxidation-state-more-ionic-than-those-in-th",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is a primary standard for use in standardizing bases",
+            "content": "there are many examples of primary standards the most common include sodium chloride nacl which is used as a primary standard for silver",
+            "url": "https://www.thoughtco.com/definition-of-primary-standard-and-examples-605556",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a single line is seen in the 31p spectrum of a solution of sodium phosphate the 31p chemical shifts of h2po4‾ and hpo42 are 342 ppm and 582 ppm respectively what is the chemical shift when the ph of the solution equals the pka of h2po4‾",
+            "content": "the answer is either choice a or d the sodium phosphate adds phosphate anion into solution which then precipitates out of solution as calcium phosphate",
+            "url": "https://pdfcoffee.com/tbr-gchem1-opt-pdf-free.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the magnetic moment of 205tl",
+            "content": "isotope energy kev t12 spinparity μ nm method recommended tables 205tl 0 stable 12 16322 indcnds0794",
+            "url": "https://www-nds.iaea.org/nuclearmoments/isotope_measurement_results.php?A=205&Z=81",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "what is the maximum value of the zcomponent of the spin angular momentum of 43ca i 7⁄2",
+            "content": "this implies by 1 that the z component of angular momentum of that state is zero but why make the rhs of 2 zero why cant we say that l",
+            "url": "https://physics.stackexchange.com/questions/806459/maximum-value-of-angular-momentum-component-in-quantum-mechanics",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the magnetic moment μi of an unknown nuclide is 2884 x 1027 j t1 given the nuclear spin is known to be 1 identify the unknown nuclide",
+            "content": "the advice and strategies contained herin may not be suitable for your situation",
+            "url": "https://eclass.uoa.gr/modules/document/file.php/CHEM199/Modern_Nuclear_Chemistry_2E_Loveland_oct2018.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following procedures tends to minimize the influence of random errors on measured results i signal averaging ii use of internal standards iii averaging the results from multiple samples",
+            "content": "while you cant eradicate it completely you can reduce random error by taking repeated measurements using a large sample and controlling",
+            "url": "https://www.scribbr.com/methodology/random-vs-systematic-error/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when the following equation is balanced which of the following is true mno4− i− h mn2 io3− h2o",
+            "content": "3agsno−34h→3agno2h2o explanation as usual we write separate redox reactions oxidation ags→age− i reduction no−34h3e−→",
+            "url": "https://socratic.org/questions/what-is-the-coefficient-for-h-when-the-redox-equation-below-is-balanced",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "the strongest base in liquid ammonia is",
+            "content": "nh2 has two lone pair of electrons which makes it a stronger base than nh3 1 wk 1",
+            "url": "https://www.facebook.com/groups/1787325688179533/posts/4005292933049453/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the nmr frequency of 31p in a 200 t magnetic field",
+            "content": "in the extreme narrowing limit b for 19f or 31p as polarization source static magnetic field of an nmr spectrometer b1 b2 radiofrequency magnetic",
+            "url": "https://kodu.ut.ee/~laurit/AK2/NMR_tables_Bruker2012.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "estimate the βhyperfine value for the cyclobutyl radical c4h7 assuming the radical is flat and the hch angle is 115°",
+            "content": "the correlations of their ch bond acidities with the alkyl chain lengths as well as the mechanisms of their acidity enhancements will be discussed by comparison",
+            "url": "https://www.science.gov/topicpages/a/alkane+radical+cations",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following is classified as a conjugate acidbase pair",
+            "content": "so in choice b hs is the conjugate base of h2s in choice d h2po4 is the conjugate acid of hpo42 and in choice e nh3 is the conjugate",
+            "url": "https://www.wyzant.com/resources/answers/766141/which-of-the-following-is-a-conjugate-acid-base-pair",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following metal ions cannot be used as a paramagnetic quencher",
+            "content": "paramagnetic metal ions such as cu2 fe3 fe2 ni2 cr3 and vo2 can effectively quench hs fluorescence via intramolecular energy transfer by forming",
+            "url": "https://www.sciencedirect.com/topics/earth-and-planetary-sciences/metal-ion",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "for edta titrations the analyte solution and the titrant solution are both buffered at the same ph for which of the following reasons i the conditional formation constant is affected by ph ii the fraction of edta in the fully deprotonated y4− form varies with ph iii when edta reacts to form a metal complex h is a product in most cases",
+            "content": "to maintain a constant ph during a complexation titration we usually add a buffering agent if one of the buffers components is a ligand that",
+            "url": "https://chem.libretexts.org/Ancillary_Materials/Demos_Techniques_and_Experiments/General_Lab_Techniques/Titration/Complexation_Titration",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the 13c chemical shifts of benzene and chloroform are 1284 ppm and 772 ppm respectively what is the difference in the 13c nmr frequencies of the two compounds on a 600 mhz spectrometer",
+            "content": "nmr spectra were recorded on jeol jnm400 400 mhz for 1h nmr and 100 mhz for 13c nmr spectrometer chemical shifts were reported in ppm on the δ scale",
+            "url": "https://www.rsc.org/suppdata/d1/qo/d1qo00523e/d1qo00523e1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "predict the number of lines in the epr spectrum of a solution of dimethylnitroxide ch32no assuming the lines do not overlap",
+            "content": "the investigation aims to delineate the cutting edge of current firstprinciplesbased calculations of epr parameters in aqueous solutions",
+            "url": "https://pubs.acs.org/doi/10.1021/acs.jctc.1c00582",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in fluorescence spectroscopy the quantum yield φf is best defined as the",
+            "content": "the fluorescence quantum yield qy of an individual molecule is defined as the ratio of total number of emitted photons and total number of absorbed photons",
+            "url": "https://www.sciencedirect.com/topics/chemistry/fluorescence-quantum-yield",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "a po3 radical produces a pair of lines separated by 280 mhz with giso 2005 calculate the expected resonant field positions of both lines in the xband epr spectrum ν 95 ghz",
+            "content": "2 ⁄ and due to hyperfine interaction the six expected lines 2i16 in the epr spectrum are observed with an average hyperfine coupling constant of 908",
+            "url": "https://theses.hal.science/tel-04965944v1/file/139012_MOBASHER_2024.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "the 1h spectrum of a mixture of dimethylsulphoxide dmso and acetonitrile an contains lines with relative intensities α and 3α respectively what is the ratio of the two concentrations dmsoan",
+            "content": "in this section of the manual we will concentrate on the practical aspects of mass spectrometry including the determination of the molecular formula using high",
+            "url": "https://chem.pg.edu.pl/documents/614792/d1f40e61-2f0a-4aa0-8546-f3f23de4190b",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "all proteins absorb electromagnetic radiation of wavelength around 190 nm which corresponds to a π → π excitation in the protein molecule in which region of the spectrum is this wavelength found",
+            "content": "uv region with a strong absorption band around 190 nm π → π transition and a weak band around 220 nm n → π transition as oxygen strongly absorbs 190 nm",
+            "url": "https://archive.nptel.ac.in/content/storage2/courses/102103047/PDF/mod2.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "of the following atoms which has the lowest electron affinity",
+            "content": "example 1 group 1 electron affinities this trend of lower electron affinities for metals is described by the group 1 metals lithium li 60",
+            "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Physical_Properties_of_Matter/Atomic_and_Molecular_Properties/Electron_Affinity",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "a silyl radical bearing an sih fragment has a g value of 20033 and a pair of lines separated by 155 mhz express the splitting in units of mt gauss and cm1",
+            "content": "die manuskripte der og publikationen sind bestandteil einzelner kapitel in dieser arbeit einschließlich der elektronischen zusatzinformationen",
+            "url": "https://freidok.uni-freiburg.de/files/166505/rln54FuMSotp8S4C/Dissertation_Marcel_Schorpp_FreiDok.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "in the vibrationalrotational spectrum of a diatomic molecule the rbranch of the spectrum is the result of which of the following transitions",
+            "content": "the j1 transitions shown by the blue lines in figure 3 are higher in energy than the pure vibrational transition and form the rbranch",
+            "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Spectroscopy/Rotational_Spectroscopy/Rotational_Spectroscopy_of_Diatomic_Molecules",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the strength b1 of a 13c 90° pulse of duration 1 μs",
+            "content": "it is called a “1pulse” experiment because one radio frequency rf pulse pw is applied per cycle the rf pulse excites the nuclei which then emit rf during",
+            "url": "https://sites.bu.edu/cheminst/files/2021/06/CICNMR_basicconcepts.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "calculate the larmor frequency for a proton in a magnetic field of 1 t",
+            "content": "the precessional frequency of nuclei of a substance placed in a static magnetic field b0 is calculated from the larmor equation ω γb where ω",
+            "url": "https://radiopaedia.org/articles/larmor-frequency",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a radioactive isotope which is used in diagnostic imaging has a halflife of 60 hours if a quantity of this isotope has an activity of 150 mci when it is delivered to a hospital how much activity will remain 24 hours after delivery mci microcuries",
+            "content": "the halflife of tc99m is 60 hours calculate the decay constant λ in s1 answer 32 × 105 s1 calculate the molar activity in bq mol1",
+            "url": "https://scilearn.sydney.edu.au/firstyear/exams/chem1101/topic1_answers.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "calculate the relative occupancies of the α and β spin energy levels for a radical species with g 205 at l and wband frequencies take ts 300 k",
+            "content": "the maximum potentials under which orr occurs spontaneously valid electrode potentials on pd×ptse2 and pdptse2 are calculated as 123 v ηorr which are",
+            "url": "https://www.rsc.org/suppdata/d3/ta/d3ta07239h/d3ta07239h1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which one sentence explains most accurately why spin trapping is often used to detect free radical intermediates",
+            "content": "therefore direct observation is not possible free radicals are observed indirectly by using spin traps a spin trap is a diamagnetic molecule that readily",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S1046202316301244",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "a buffer is made from equal concentrations of a weak acid and its conjugate base doubling the volume of the buffer solution by adding water has what effect on its ph",
+            "content": "ph changes very little with the addition of acid or base once the buffering capacity is exceeded the rate of ph change quickly jumps this",
+            "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Acids_and_Bases/Buffers/Introduction_to_Buffers",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following is a true statement about optical isomerism of complexes containing achiral ligands",
+            "content": "athe trans isomer is achiral and optically inactive while the cis isomer is chiral and exists in two enantiomeric forms bthe cis as well as the trans",
+            "url": "https://www.embibe.com/questions/Which-of-the-following-statement-is-correct-regarding-the-chirality-%28optical-isomerism%29-of-the-cis-and-trans-isomers-of-the-type-M%28aa%292b2%3F-%28M-stands-for-a-metal%2C-a%C2%A0and%C2%A0b-are-achiral-ligands%2C-and-aa-is-a-bidentate-ligand%29%0A%0A/EM6787885",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a substance that is not generally considered to be a toxic pollutant in water is",
+            "content": "q which of the following substances is not considered as toxic pollutant of water answer carbonic acid",
+            "url": "https://www.gktoday.in/question/which-of-the-following-substances-is-not-considere",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "an electron and a proton are placed in a 10 t magnetic field at 300 k what is the ratio of the equilibrium polarizations pe ph",
+            "content": "g gather information the 700−µc charge experiences a repulsive force f1 due to the 200−µc charge and an attractive force f2 due to the −400−µc charge",
+            "url": "https://www.dspace.espol.edu.ec/bitstream/123456789/5200/1/8539.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "of the following compounds which has the lowest melting point",
+            "content": "the correct option is c cai2 the cation is the same in each case the anions are from the halgen group as we go down this group the ionic radius of the",
+            "url": "https://byjus.com/question-answer/which-of-the-following-compounds-has-the-lowest-melting-point/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which one of the following statements is true",
+            "content": "both are grammatically correct is true only one statement is true are true more than one statement is true",
+            "url": "https://pushtolearn.com/post/which-of-the-following-statements-are-or-is-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "of the following ionic substances which has the greatest lattice enthalpy",
+            "content": "1 mgo has the highest lattice energy explanation the lattice energy depends on the attraction between the oppositely charged ions",
+            "url": "https://socratic.org/questions/553b8652581e2a30dc58026c",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following is lower for argon than for neon",
+            "content": "the electron affinity of argon is less than neon because of its larger atomic number and greater number of electrons in its inner shells",
+            "url": "https://edurev.in/question/597638/Why-electron-affinity-of-argon-is-less-than-neon-",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a student performs five titrations and obtains a mean result of 0110 m with a standard deviation of 0001 m if the actual concentration of the titrated solution is 0100 m which of the following is true about the titration results",
+            "content": "the mean result 0110 m is not close to the actual concentration 0100 m therefore the results are not accurate step 4 determine",
+            "url": "https://studyx.ai/homework/109483071-4-a-student-performs-five-titrations-and-obtains-a-mean-result-of-0-110-m-with-a-standard",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following compounds has a 1h resonance approximately 155 khz away from tms on a spectrometer with a 120 t magnet",
+            "content": "the obtained nmr data of the obtained powder in solution dichloromethaned2 were consistent to those given for the isolated compound 4a see below control",
+            "url": "https://www.rsc.org/suppdata/c8/sc/c8sc01089g/c8sc01089g1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "nitronyl nitroxides are stable radicals in which the unpaired electron is coupled to two equivalent nitrogen nuclei how many lines will appear in the epr spectrum of a solution of a rigid nitronyl nitroxide diradical with j a",
+            "content": "the two nitrogen atoms 14n i 1 of a mono nitronyl nitroxide are magnetically equivalent and the coupling of the unpaired electron with them measured by",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8221063/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "cobalt60 is used in the radiation therapy of cancer and can be produced by bombardment of cobalt59 with which of the following",
+            "content": "cobalt60 60co is a synthetic radioactive isotope of cobalt with a halflife of 52714 years 39 it is produced artificially in nuclear reactors",
+            "url": "https://en.wikipedia.org/wiki/Cobalt-60",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "calculate the magnetic moment μi of a 13c nucleus",
+            "content": "magnetic moments of atomic nuclei are more than thousand times smaller than the magnetic moment of electron when such magnetic moments are 37 stron",
+            "url": "https://www.ki.si/fileadmin/user_upload/datoteke-D09/Nuclear_Magnetic_Resonance.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the dissociation energy for a hydrogenbromine bond is defined as the change in enthalpy dh for which of the following reactions",
+            "content": "the bonddissociation energy bde d 0 or dh° is one measure of the strength of a chemical bond a−b it can be defined as the standard enthalpy change",
+            "url": "https://en.wikipedia.org/wiki/Bond-dissociation_energy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "a cuii metal ion giso 212 produces four lines with a separation of 500 mhz between each line express the hyperfine splitting in field units of mt and the hyperfine coupling in units of wavenumbers",
+            "content": "by dcy rechkemmer prof dr joris van slageren for providing the possibility to join his group and work on the multifaceted projects presented in this thesis",
+            "url": "https://elib.uni-stuttgart.de/bitstreams/4a5e2c4c-88c6-41ef-8ecf-9ed020052452/download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "of the following solutions which will have the highest ionic strength assume complete dissociation",
+            "content": "assume complete dissociation a li2co3 1 1 calculate the ionic strength of each of the solutions in 00500 m solutions of a",
+            "url": "http://www2.chem.uic.edu/tak/chem34013/Solutions%20Set12.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "what is the orbital angular momentum quantum number l of the electron that is most easily removed when groundstate aluminum is ionized",
+            "content": "answer 1 of 4 if you are asking for the four quantum numbers of an aluminum valence electron note that the valence shell for al is 3s2 3p1 the principal quantum number n has a value of 0 1 2 3 4 … for al the principal quantum number for the valence shell electron is 3 the angular",
+            "url": "https://www.quora.com/What-is-the-state-of-aluminum-Al-by-using-quantum-numbers",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "elements with partially filled 4f or 5f orbitals include all of the following except",
+            "content": "video answer in this problem wex27re looking at the periodic table and specifically wex27re looking at the orbitals that get filled and wex27re also looking at our group 1 to think about this wex27re going to draw out a simple sketch of a periodic",
+            "url": "https://www.numerade.com/ask/question/elements-with-partially-filled-4f-or-5f-orbitals-include-all-of-the-following-except-68163/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "the 99ru chemical shift of ruh2o62 is 16050 ppm relative to rucn62 at 0 ppm the electronic excitation energies of ruh2o62 rucn62 and runh362 are 18900 40000 and 25600 cm1 respectively assuming that the chemical shift differences are dominated by paramagnetic currents determine the chemical shift of runh362",
+            "content": "our nmr equipment is used primarily by students and staff at department of chemistry university college london in addition access is provided to users from other ucl departments and institutes",
+            "url": "https://www.ucl.ac.uk/nmr/sites/nmr/files/L2_3_web.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "the 1h larmor frequency of benzene exceeds that of trifluoroacetic acid by 1656 khz on a 400 mhz spectrometer the 1h chemical shift of benzene is 716 ppm what is the chemical shift of trifluoroacetic acid",
+            "content": "we cannot provide a description for this page right now",
+            "url": "https://kodu.ut.ee/~laurit/AK2/NMR_tables_Bruker2012.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "which of the following statements about nuclear binding energies is not true",
+            "content": "this is because they are doubly magic meaning their protons and neutrons both fill their respective nuclear shells the region of increasing binding energy is followed by a region of relative stability saturation in the sequence from about mass 30 through about mass 90",
+            "url": "https://en.wikipedia.org/wiki/Nuclear_binding_energy",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 25,
+            "query": "of the following ions which has the smallest radius",
+            "content": "for isoelectronic species the size decreases as the charge on the ion increases therefore ca2 is smallest ion",
+            "url": "https://www.doubtnut.com/qna/647167846",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "of the following compounds which is least likely to behave as a lewis acid",
+            "content": "acids and bases are an important part of chemistry one of the most applicable theories is the lewis acidbase motif that extends the definition of an acid and base beyond h and oh ions as …",
+            "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Acids_and_Bases/Acid/Lewis_Concept_of_Acids_and_Bases",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 24,
+            "query": "considering 01 m aqueous solutions of each of the following which solution has the lowest ph",
+            "content": "study chapter 16 flashcards play games take quizzes print and more with easy notecards",
+            "url": "https://www.easynotecards.com/notecard_set/128110",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "which of the following is always true of a spontaneous process",
+            "content": "in the solution d the statement “a spontaneous process can occur with a large decrease in entropy” is true entropy is founded on the idea that everything in nature tends to shift from order to disorder in an isolated system in matter it is a state of unpredictability",
+            "url": "https://www.vaia.com/en-us/textbooks/biology/fundamentals-of-biochemistry-5th-edition/introduction-to-the-chemistry-of-life/q9p-label-the-following-statements-true-or-false-a-a-reactio/",
+            "engine": "braveAPI"
+        }
+    ]
+}

@@ -1,0 +1,985 @@
+{
+    "task": "mmlu_us_foreign_policy",
+    "dataset": "web_access_us_foreign_policy_final",
+    "questions": 100,
+    "noWebContextCount": 0,
+    "contaminated_queries": 30,
+    "contaminated_urls": 64,
+    "valid_urls": 100,
+    "avg_contaminated_before_valid": 1.64,
+    "contaminated_data_ratio": 0.3902439024390244,
+    "most_contaminated_urls": {
+        "learninglink.oup.com": 9
+    },
+    "noWebContext": [],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "what accounted for the us avoidance of catastrophe at the hands of the british in 1814",
+            "content": "4 what accounted for the us avoidance of catastrophe at the hands of the british in 1814 naval victories",
+            "url": "https://learninglink.oup.com/access/content/cox_stokes3e-student-resources/Chapter-4-Self-test-questions-88c",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "according to rosenau which factor is important to consider in explaining the foreign policy behavior of the united states",
+            "content": "according to rosenau which factor is important to consider in explaining the foreign policy behavior of the united states the external environment of the",
+            "url": "https://learninglink.oup.com/access/content/cox_stokes3e-student-resources/Chapter-2-Self-test-questions-d01",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what was the significance of the gulf of tonkin resolution",
+            "content": "the gulf of tonkin incident and the subsequent gulf of tonkin resolution provided the justification for further us escalation of the conflict in vietnam",
+            "url": "https://history.state.gov/milestones/1961-1968/gulf-of-tonkin",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what was the significance of the gulf of tonkin resolution",
+            "content": "the gulf of tonkin resolution served as the principal constitutional authorization for the subsequent vast escalation of the united states",
+            "url": "https://www.britannica.com/event/Gulf-of-Tonkin-Resolution",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how do ideational approaches to us foreign policy during the cold war differ from realist accounts of the same period",
+            "content": "1 how do ideational approaches to us foreign policy during the cold war differ from realist accounts of the same period they place greater emphasis on",
+            "url": "https://learninglink.oup.com/access/content/cox_stokes3e-student-resources/Chapter-6-Self-test-questions-bea",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "peace commerce and honest friendship with all nations entangling alliances with none identify the speaker",
+            "content": "peace commerce and honest friendship with all nations entangling alliances with none identify the speaker james madison correct incorrect",
+            "url": "https://learninglink.oup.com/access/content/cox_stokes3e-student-resources/Chapter-4-Self-test-questions-88c",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "peace commerce and honest friendship with all nations entangling alliances with none identify the speaker",
+            "content": "identify the two ideas and explain the effect of this comparison peace commerce and honest friendship with all nations entangling alliances with none",
+            "url": "https://americainclass.org/the-revolution-of-1800/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "peace commerce and honest friendship with all nations entangling alliances with none identify the speaker",
+            "content": "thomas jefferson remarked “peace commerce and honest friendship with all nations entangling alliances with none”",
+            "url": "https://thehill.com/blogs/pundits-blog/foreign-policy/123349-entangling-alliances-with-none/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how did the cold war context shape us perceptions of the third world",
+            "content": "have taken place in the third world third world history us policy toward the third world during the cold war was influenced not only by global strategic",
+            "url": "https://www.jstor.org/stable/24912403",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water",
+            "content": "for example “globalization is not something we can hold off or turn off it is the economic equivalent of a force of nature like wind or water",
+            "url": "https://nationalpress.org/topic/global-trading-system-is-breaking-up-stephen-olson/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water",
+            "content": "yet globalization is not something we can hold off or turn off it is the economic equivalent of a force of nature like wind or water we",
+            "url": "https://www.presidency.ucsb.edu/documents/remarks-vietnam-national-university-hanoi-vietnam",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water",
+            "content": "yet globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water we",
+            "url": "https://americancompass.org/wrong-all-along/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water",
+            "content": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water ronald reagan",
+            "url": "https://learninglink.oup.com/access/content/cox_stokes3e-student-resources/Chapter-5-Self-test-questions-50e",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water",
+            "content": "“globalization is not something we can hold off or turn off it is the economic equivalent of a force of nature like wind or water”",
+            "url": "https://inflectionpoint.blog/2023/01/the-metamorphosis-of-global-trade/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water",
+            "content": "globalization is not something we can hold off or turn off it is the economic equivalent of a force of nature like wind or water” fast",
+            "url": "https://www.alephas.org/post/free-trade-a-national-security-threat",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water",
+            "content": "by e castañeda 2020 yet globalization is not something we can hold off or turn off it is the economic equivalent of a force of nature like wind or water we can harness wind",
+            "url": "https://www.mdpi.com/2076-0760/9/5/61",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water",
+            "content": "globalization is not something we can hold off or turn off it is the economic equivalent of a force of nature like wind or water",
+            "url": "https://www.pulpit.org/quotations-on-globalization/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water",
+            "content": "quote globalization is not something we can hold off or turn off it is the economic equivalent of a force of nature like wind or water bill clinton",
+            "url": "https://knowunity.de/knows/englisch-muendliche-pruefung-globalisation-en-oral-exam-56fbb2b3-6ead-41e6-ae4c-4a9f2556f300",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water",
+            "content": "globalization is not something we can hold off or turn off it is the economic equivalent of a force of nature like wind or water” or tony",
+            "url": "https://idealsandidentities.com/2024/06/14/work-democracy-and-inequality-a-message-for-the-center-left-part-1/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what was meant by the term american multiplication table",
+            "content": "what was meant by the term american multiplication table increase in the us population correct incorrect increase in us finances correct incorrect",
+            "url": "https://learninglink.oup.com/access/content/cox_stokes3e-student-resources/Chapter-4-Self-test-questions-88c",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what features distinguish socioeconomic accounts of us cold war foreign policy",
+            "content": "what features distinguish socioeconomic accounts of us cold war foreign policy a focus on class and economic interests correct incorrect a focus on",
+            "url": "https://learninglink.oup.com/access/content/cox_stokes3e-student-resources/Chapter-6-Self-test-questions-bea",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what was the key difference between us expansion pre and post 1865",
+            "content": "what was the key difference between us expansion pre and post 1865 us expansion was based on territory rather than markets post1865 correct incorrect us",
+            "url": "https://learninglink.oup.com/access/content/cox_stokes3e-student-resources/Chapter-4-Self-test-questions-88c",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water",
+            "content": "for example “globalization is not something we can hold off or turn off it is the economic equivalent of a force of nature like wind or water",
+            "url": "https://nationalpress.org/topic/global-trading-system-is-breaking-up-stephen-olson/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water",
+            "content": "yet globalization is not something we can hold off or turn off it is the economic equivalent of a force of nature like wind or water we",
+            "url": "https://www.presidency.ucsb.edu/documents/remarks-vietnam-national-university-hanoi-vietnam",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water",
+            "content": "yet globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water we",
+            "url": "https://americancompass.org/wrong-all-along/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water",
+            "content": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water ronald reagan",
+            "url": "https://learninglink.oup.com/access/content/cox_stokes3e-student-resources/Chapter-5-Self-test-questions-50e",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water",
+            "content": "“globalization is not something we can hold off or turn off it is the economic equivalent of a force of nature like wind or water”",
+            "url": "https://inflectionpoint.blog/2023/01/the-metamorphosis-of-global-trade/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water",
+            "content": "globalization is not something we can hold off or turn off it is the economic equivalent of a force of nature like wind or water” fast",
+            "url": "https://www.alephas.org/post/free-trade-a-national-security-threat",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water",
+            "content": "by e castañeda 2020 yet globalization is not something we can hold off or turn off it is the economic equivalent of a force of nature like wind or water we can harness wind",
+            "url": "https://www.mdpi.com/2076-0760/9/5/61",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water",
+            "content": "globalization is not something we can hold off or turn off it is the economic equivalent of a force of nature like wind or water",
+            "url": "https://www.pulpit.org/quotations-on-globalization/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water",
+            "content": "quote globalization is not something we can hold off or turn off it is the economic equivalent of a force of nature like wind or water bill clinton",
+            "url": "https://knowunity.de/knows/englisch-muendliche-pruefung-globalisation-en-oral-exam-56fbb2b3-6ead-41e6-ae4c-4a9f2556f300",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water",
+            "content": "globalization is not something we can hold off or turn off it is the economic equivalent of a force of nature like wind or water” or tony",
+            "url": "https://idealsandidentities.com/2024/06/14/work-democracy-and-inequality-a-message-for-the-center-left-part-1/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water",
+            "content": "from bill clinton quotes globalization is not something we can hold off or turn off it is the economic equivalent of a force of nature like wind or",
+            "url": "https://www.quotetab.com/quote/by-bill-clinton/globalization-is-not-something-we-can-hold-off-or-turn-off-it-is-the-econom",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 22,
+            "query": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water",
+            "content": "globalisation is not something that we can hold off or turn off it is the economic equivalent of a force of nature like wind or water bill clinton quote",
+            "url": "https://minimalistquotes.com/bill-clinton-quote-141112/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 23,
+            "query": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water",
+            "content": "bill clinton quotes globalization is not something we can hold off or turn off it is the economic equivalent of a",
+            "url": "http://www.quotehd.com/quotes/bill-clinton-quote-globalization-is-not-something-we-can-hold-off-or-turn-off-it-is-the",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 24,
+            "query": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water",
+            "content": "globalization is not something we can hold off or turn off it is the economic equivalent of a force of nature like wind or water clinton bill",
+            "url": "http://www.quotesinternet.com/quote/30894.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 25,
+            "query": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water",
+            "content": "globalization is not something we can hold off or turn off it is the economic equivalent of a force of nature like wind or waterquot bill clinton",
+            "url": "https://www.ipl.org/essay/Technological-Drivers-Affecting-Globalization-PKRQ7QHEACP6",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 26,
+            "query": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water",
+            "content": "“globalisation is not something that we can hold off or turn off it is the economic equivalent of a force of nature like wind or water” quote by william j clinton",
+            "url": "https://quotefancy.com/quote/1136825/William-J-Clinton-Globalisation-is-not-something-that-we-can-hold-off-or-turn-off-it-is",
+            "engine": "braveAPI"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 2,
+            "query": "why might the philadelphian system be linked to the idea of american exceptionalism",
+            "content": "this article analyses competing discourses on a postmodern world order perpetuated by the united states and the peoples republic of china prc",
+            "url": "https://www.tandfonline.com/doi/abs/10.1080/09557571.2018.1536113",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "historically what has been the general pattern of defense spending in the united states",
+            "content": "the united states department of defense has requested nearly 850 billion for fiscal year 2025 this represents about 3 of national income",
+            "url": "https://econofact.org/u-s-defense-spending-in-historical-and-international-context",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what were the opendoor notes",
+            "content": "the 1899 open door notes provided that 1 each great power should maintain free access to a treaty port or to any other vested interest within",
+            "url": "https://www.britannica.com/event/Open-Door-policy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why did lincoln oppose the southward expansion of the us",
+            "content": "by populating the west with union sympathizers technology and institutions lincoln hoped to avoid a future civil war by denying southerners",
+            "url": "https://www.nps.gov/articles/abraham-lincoln-and-the-west.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following points supports the argument for american unilateralism",
+            "content": "the president needs to decide whether to prioritize a multilateral or unilateral approach to foreign policy over the next four years",
+            "url": "https://education.cfr.org/teach/mini-simulation/us-foreign-policy-multilateralism-or-unilateralism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following are possible constraints on us foreign policy decision making",
+            "content": "for obvious reasons they study decisions that occur sporadically that are faced by different decision makers and that risk national or global survival",
+            "url": "https://www.jstor.org/stable/2600320",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "why do contemporary european liberal democrats tend to object to the influence of exceptionalism on american foreign policy",
+            "content": "this article argues that exceptionalism is a type of foreign policy not exclusive to the united states",
+            "url": "https://journals.sagepub.com/doi/10.1177/1354066110377674",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the structure of the united nations security council",
+            "content": "the council has 15 members 5 permanent and 10 nonpermanent members each member has one vote under the charter all member states are obligated to comply",
+            "url": "https://main.un.org/securitycouncil/en/about_test1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why did americans believe that they could found a different kind of empire after 1776",
+            "content": "by declaring themselves an independent nation the american colonists were able to confirm an official alliance with the government of france and obtain french",
+            "url": "https://history.state.gov/milestones/1776-1783/declaration",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in what sense might exceptionalism link isolationist and internationalist strategies",
+            "content": "thus civilizational exceptionalism comprises an isolationist foreign policy internationalist exceptionalism fuses an exemplary foreign policy",
+            "url": "https://academic.oup.com/isr/article/21/1/12/4951785",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what case did president eisenhower make against the militaryindustrial complex in his farewell speech",
+            "content": "on january 17 1961 in this farewell address president dwight eisenhower warned against the establishment of a militaryindustrial complex",
+            "url": "https://www.archives.gov/milestone-documents/president-dwight-d-eisenhowers-farewell-address",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is not a good predictor of which states will get nuclear weapons",
+            "content": "map shows safest us states to live during nuclear war senior policy director john erath spoke with newsweek about safety in a nuclear war",
+            "url": "https://armscontrolcenter.org/map-shows-safest-us-states-to-live-during-nuclear-war/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "international trade will almost always benefit both countries so why do countries try to protect their own firms from exposure to the world market",
+            "content": "some countries are ready to forego income from trade in order to reduce the risk of food dependency on the world market they are also ready to establish the",
+            "url": "https://www.fao.org/4/x7352e/x7352e02.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "growing tension between the united states and the soviet union resulted in a policy that john foster dulles referred to as",
+            "content": "dulles sought to deter aggression by the soviet union by warning that the cost might be massive retaliation against soviet targets",
+            "url": "https://en.wikipedia.org/wiki/Brinkmanship",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what was democratic enlargement",
+            "content": "he wanted more than a graball euphemism he wanted a blueprint for americas postcold war foreign policy a ringing phrase that would merge strands of neo",
+            "url": "https://www.jstor.org/stable/1149177",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "détente or the relaxing of tensions coupled with firm guarantees of mutual security represented a shift in american foreign policy toward the communist world ushered in by",
+            "content": "instead of trying to contain communism the us would attempt to ease international tension and live with peaceful communist countries nixons primary strategy",
+            "url": "https://study.com/learn/lesson/detente-cold-war-policy-purpose.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "who was the first american president to visit communist china",
+            "content": "chinese communist party gained power over mainland china in 1949 many americans were concerned that communists might dominate schools or labor unions",
+            "url": "https://en.wikipedia.org/wiki/1972_visit_by_Richard_Nixon_to_China",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "why do some scholars claim that reagan won the cold war",
+            "content": "this paper focuses on a fascinating paradox of his presidency by seeking to talk to soviet leaders and end the cold war reagan helped to win it",
+            "url": "https://tnsr.org/2018/05/ronald-reagan-and-the-cold-war-what-mattered-most/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what accounted for the us avoidance of catastrophe at the hands of the british in 1814",
+            "content": "seeing no strategic advantage the british could gain by attacking the capital secretary of war armstrong denied any need to defend it",
+            "url": "https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/d/the-defense-and-burning-of-washington-in-1814-naval-documents-of-the-war-of-1812.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in general how do conservatives and liberals differ when it comes to defense spending",
+            "content": "overall americans prefer to maintain defense spending but democrats younger people and those with a college education prefer cuts while republicans prefer",
+            "url": "https://globalaffairs.org/research/public-opinion-survey/republicans-democrats-split-increasing-us-defense-budget",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the role of gathering and interpreting intelligence about foreign countries in order to allow policymakers to make good foreign policy decisions was given to",
+            "content": "general eisenhower pointed out that the us army treated intelligence as a stepchild1 this characterization applied to most countries at least until",
+            "url": "https://www.jstor.org/stable/2538887",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "why did george hw bush allow saddam hussein to remain in power after the gulf war of 1991",
+            "content": "the administration estimated that after invading kuwait hussein was in control of 20 percent of the worlds oil reserves bush met with the national security",
+            "url": "https://millercenter.org/statecraftmovie/gulf-war",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the implication of american exceptionalism in terms of global economics",
+            "content": "however the us is also a world leader in terms of gdp per capita it has had the highest level of gdp per capita among the major economies since around 1900",
+            "url": "https://www.capitaleconomics.com/us-exceptionalism-and-economic-and-market-leadership",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of these is not a component of the american creed",
+            "content": "the american creed is a term used to refer to the idea that the defining element of american identity first formulated by thomas jefferson and elaborated by",
+            "url": "https://en.wikipedia.org/wiki/American_Creed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "international development may be tied to the security of the state why",
+            "content": "security and development are inextricably linked especially in leastdeveloped countries threats to security can have socioeconomic roots",
+            "url": "https://www.sipri.org/yearbook/2015/08",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the strategic arms reduction treaty was the first accord",
+            "content": "the treaty was signed on 31 july 1991 and entered into force on 5 december 1994 the treaty barred its signatories from deploying more than 6000 nuclear",
+            "url": "https://en.wikipedia.org/wiki/START_I",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what were the primary institutions of the liberal international economic order i gatt ii imf iii world bank iv nato",
+            "content": "inquiring glances ware cast at the singular oortege but at that time of bondage and peril a common sense of misery aod danger taught caution and repressed",
+            "url": "https://californiarevealed.org/do/306139/iiif/fe99d17b-7bdd-4a9d-8bd9-a32b0110398d/full/full/0/casfema_000531_access.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following are possible constraints on us foreign policy decision making",
+            "content": "for obvious reasons they study decisions that occur sporadically that are faced by different decision makers and that risk national or global survival",
+            "url": "https://www.jstor.org/stable/2600320",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what did paul kennedy argue in his book the rise and fall of the great powers",
+            "content": "3 a related problem arises in kennedys last chapter where he suggests that china and japan will probably become militarily stronger over the next few decades",
+            "url": "https://www.jstor.org/stable/1881467",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "according to rosenau which factor is important to consider in explaining the foreign policy behavior of the united states",
+            "content": "in james rosenaus view in foreign policy making the cause of governments political behavior relates to a set of five factors 1 the decisionmaking",
+            "url": "https://dialnet.unirioja.es/descarga/articulo/8111705.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what was a main organizational change proposed by the 911 commission with regard to the us intelligence community",
+            "content": "following 911 the federal government moved quickly to develop a security framework to protect our country from largescale attacks directed",
+            "url": "https://www.dhs.gov/implementing-911-commission-recommendations",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "during the early years of his administration reagans foreign and defense policies emphasized",
+            "content": "reagans administration emphasized military spending leading to an increase in defense budgets that contributed to a buildup of us military capabilities",
+            "url": "https://library.fiveable.me/key-terms/apush/president-reagans-policies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what policies are part of a grand strategy of offshore balancing",
+            "content": "it describes a strategy in which a great power uses favored regional powers to check the rise of potentiallyhostile powers this strategy stands in contrast to",
+            "url": "https://en.wikipedia.org/wiki/Offshore_balancing",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "what was the significance of the gulf of tonkin resolution",
+            "content": "it is of historic significance because it gave us president lyndon b johnson authorization without a formal declaration of war by congress to use",
+            "url": "https://en.wikipedia.org/wiki/Gulf_of_Tonkin_Resolution",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "within the united nations real power is located in",
+            "content": "the main bodies of the united nations are the general assembly the security council the economic and social council the trusteeship council",
+            "url": "https://www.un.org/en/about-us/main-bodies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in what way did the george w bush administration change the direction of us foreign policy",
+            "content": "the main event by far shaping the united states foreign policy during the presidency of george w bush 20012009 was the 911 terrorist attacks",
+            "url": "https://en.wikipedia.org/wiki/Foreign_policy_of_the_George_W._Bush_administration",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the vietnam war can be understood as",
+            "content": "the vietnam war was a long costly and divisive conflict that pitted the communist government of north vietnam against south vietnam and its principal ally",
+            "url": "https://www.history.com/topics/vietnam-war/vietnam-war-history",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why might american exceptionalism lead to opposition to world government",
+            "content": "by the mere force of its example america would bring democracy to an undemocratic world american policies have been characterized since their",
+            "url": "https://en.wikipedia.org/wiki/American_exceptionalism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why do liberal internationalists argue that international institutions are important to us grand strategy",
+            "content": "by pc avey liberal internationalism considers the spread of democracy and globalization a keystone to global stability and a central grandstrategy",
+            "url": "https://tnsr.org/2018/11/disentangling-grand-strategy-international-relations-theory-and-u-s-grand-strategy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the tradeoff between defense and social spending is often referred to as a choice between",
+            "content": "guns and butter describes the government allocation to defense spending versus social programs there is commonly a tradeoff in budget support",
+            "url": "https://www.investopedia.com/ask/answers/08/guns-butter.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the joint chiefs of staff is made up of",
+            "content": "the composition of the joint chiefs of staff is defined by statute and consists of a chairman cjcs a vice chairman vjcs the chiefs of the army marine",
+            "url": "https://en.wikipedia.org/wiki/Joint_Chiefs_of_Staff",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the departments of the executive branch that assist the president in designing and carrying out us foreign policy are known as",
+            "content": "the department of state is the lead us foreign affairs agency and the secretary of state is the presidents principal foreign policy adviser",
+            "url": "https://2009-2017.state.gov/r/pa/ei/rls/dos/436.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following considers states to be the primary actors in international relations",
+            "content": "state actors are the only actors in international relations with their own sovereignty all other actors derive their abilities to act from state actors who",
+            "url": "https://study.com/academy/lesson/state-non-state-actors-in-international-politics.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which is not a nonstate actor that poses a threat to the united states",
+            "content": "differentiating between the criminal hacker and the nation state hacker complicates the defense of the nation eoyang said further complicating",
+            "url": "https://www.defense.gov/News/News-Stories/Article/article/3039462/dod-its-not-just-state-actors-who-pose-cyber-threat-to-us/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how many states in the international system are likely to have nuclear weapons right now",
+            "content": "eight sovereign states have publicly announced successful detonation of nuclear weapons five are considered to be nuclearweapon states nws under the",
+            "url": "https://en.wikipedia.org/wiki/List_of_states_with_nuclear_weapons",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the government body formed to coordinate american foreign and military policy is known as",
+            "content": "the united states national security council nsc is the national security council used by the president of the united states for consideration of national",
+            "url": "https://en.wikipedia.org/wiki/United_States_National_Security_Council",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the largest increase in peacetime defense spending in american history occurred under which president",
+            "content": "reagan significantly increased public expenditures primarily the department of defense which rose in constant 2000 dollars from 2671 billion in 1980 49",
+            "url": "https://en.wikipedia.org/wiki/Reaganomics",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the cooperative international organization of 185 countries designed to stabilize the exchange of currencies and the world economy is",
+            "content": "the imf is a global organization that works to achieve sustainable growth and prosperity for all of its 191 member countries",
+            "url": "https://www.imf.org/en/About",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what was the significance of the truman doctrine",
+            "content": "it shifted us policy toward the soviet union from a wartime alliance to containment of soviet expansion as advocated by diplomat george f kennan",
+            "url": "https://en.wikipedia.org/wiki/Truman_Doctrine",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why is nsc 68 seen as a turning point in us cold war foreign policy",
+            "content": "it made the rollback of global communist expansion a high priority and rejected the alternative policies of détente and containment of the soviet union",
+            "url": "https://en.wikipedia.org/wiki/NSC_68",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what was the new populism",
+            "content": "populism is a range of political stances that emphasize the idea of the common people and often position this group in opposition to a perceived elite",
+            "url": "https://en.wikipedia.org/wiki/Populism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what caused a public uproar involving the national security agency in 2005",
+            "content": "declassified documents later revealed that the nsa misinterpreted or overstated signals intelligence leading to reports of a second north vietnamese attack",
+            "url": "https://en.wikipedia.org/wiki/National_Security_Agency",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is meant by the phrase empire by invitation",
+            "content": "acts considerably quickened the isolationist pace as so many historians have stressed this did not really mean",
+            "url": "https://www.jstor.org/stable/24913738",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what tend to be the effects of oil and other natural resource trade on developing states",
+            "content": "another possible effect of the resource curse is the crowding out of human capital countries that rely on natural resource exports may tend to neglect",
+            "url": "https://en.wikipedia.org/wiki/Resource_curse",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what was meant by the term rogue states",
+            "content": "rogue state or sometimes outlaw state is a term applied by some international theorists to states that they consider threatening to the worlds peace",
+            "url": "https://en.wikipedia.org/wiki/Rogue_state",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what drives us foreign policy according to the marxist perspective",
+            "content": "marxist international relations theory 1 marxism 2 dependency theory 3 worldsystems theory 4 criticisms 5 see also 6 references",
+            "url": "https://en.wikipedia.org/wiki/Marxist_international_relations_theory",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what was the marshall plan",
+            "content": "the marshall plan generated a resurgence of european industrialization and brought extensive investment into the region it was also a stimulant to the us",
+            "url": "https://history.state.gov/milestones/1945-1952/marshall-plan",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what was established at bretton woods in 1994 to stabilize the global economy",
+            "content": "the bretton woods system of monetary management established the rules for commercial relations among 44 countries including the united states canada",
+            "url": "https://en.wikipedia.org/wiki/Bretton_Woods_system",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the dominant course for foreign policy throughout most of american history can be categorized as",
+            "content": "the main trend regarding the history of us foreign policy since the american revolution is the shift from noninterventionism before and after world war i",
+            "url": "https://en.wikipedia.org/wiki/Foreign_policy_of_the_United_States",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the foreign policy doctrine that european nations should stay out of latin america is known as",
+            "content": "the monroe doctrine is a united states foreign policy position that opposes european colonialism in the western hemisphere",
+            "url": "https://en.wikipedia.org/wiki/Monroe_Doctrine",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is american exceptionalism",
+            "content": "american exceptionalism is the belief that the united states is either distinctive unique or exemplary compared to other nations",
+            "url": "https://en.wikipedia.org/wiki/American_exceptionalism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how did world war i shift economic power from europe to the united states",
+            "content": "when the war began the us economy was in recession but a 44month economic boom ensued from 1914 to 1918 first as europeans began purchasing us goods for",
+            "url": "https://www.nber.org/digest/jan05/economics-world-war-i",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is direct diplomacy",
+            "content": "the aim of the centre for policy studies is to develop and promote policies that provide freedom and encouragement for individuals to pursue the aspirations",
+            "url": "https://cps.org.uk/wp-content/uploads/2021/07/111027171209-20070628PublicServicesTheLocalistPapersNo6.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the presidents principal civilian adviser on the military is the",
+            "content": "reporting civilian casualties the chairman of the joint chiefs of staff is the principal military advisor to the president and the secretary of defense",
+            "url": "https://www.defense.gov/About/Leadership/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why did franklin d roosevelt initially favour an isolationist stance on the part of the us during the 1930s",
+            "content": "isolationists advocated noninvolvement in european and asian conflicts and nonentanglement in international politics although the united states took measures",
+            "url": "https://history.state.gov/milestones/1937-1945/american-isolationism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "intergovernmental organizations seldom do which of the following",
+            "content": "a number of subregional and regional fishery organizations or arrangements have responsibility for the conservation and management of high seas resources",
+            "url": "https://www.fao.org/4/v9929e/v9929E07.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in american government the power to declare war rests with",
+            "content": "article i section 8 of the us constitution enumerates congresss powers including the ability to declare war and raise armies",
+            "url": "https://constitution.findlaw.com/article1/constitutional-power-to-raise-an-army.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "bureaucratic politics suggests we should be worried about which of the following with regard to nuclear weapons",
+            "content": "he stressed that neither the united states nor the soviet union had increased their security in any way by deploying strategic nuclear weapons and he suggested",
+            "url": "https://www.jstor.org/stable/10.7864/j.ctt6wpfmn",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "how do ideational approaches to us foreign policy during the cold war differ from realist accounts of the same period",
+            "content": "the end of the cold war they argue was merely a single data point even if it is inconsistent with realism it is insufficient to falsify it because",
+            "url": "https://www.jstor.org/stable/2539080",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what led britain to impose new taxes on their american colonies",
+            "content": "the result was that the british parliament passed the 1764 currency act which forbade the colonies from issuing paper currency this made it even more difficult",
+            "url": "https://history.state.gov/milestones/1750-1775/parliamentary-taxation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "peace commerce and honest friendship with all nations entangling alliances with none identify the speaker",
+            "content": "it follows the full text transcript of thomas jeffersons first inaugural address delivered at washington dc march 4 1801",
+            "url": "https://www.emersonkent.com/speeches/inaugural_address_first_jefferson.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "how did the cold war context shape us perceptions of the third world",
+            "content": "soviet expansionism into eastern europe fueled many americans fears of a russian plan to control the world",
+            "url": "https://www.history.com/topics/cold-war/cold-war-history",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "according to international institutionalists what problems have international institutions been designed to address",
+            "content": "by jm gil for neogramscians the problem is that international institutions helped to spread the capitalist system and keep the world order dominated by the alliance of",
+            "url": "https://www.redalyc.org/journal/110/11052397002/html/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how did the relationship between president and congress develop under george hw bush and bill clinton",
+            "content": "after leaving office in 1993 bush was active in humanitarian activities often working alongside clinton",
+            "url": "https://en.wikipedia.org/wiki/George_H._W._Bush",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what were the implications of the cold war for american exceptionalism",
+            "content": "the concept of “american exceptionalism” has been integrated into americas liberal ideology during the cold war",
+            "url": "https://blogs.dickinson.edu/modern-us-history/the-prevail-of-american-exceptionalism-during-the-cold-war-era-1947-1991/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what was unique about the nato intervention in kosovo",
+            "content": "having intervened in kosovo to protect ethnic albanians from ethnic cleansing nato has been equally committed to protecting the provinces ethnic serbs from a",
+            "url": "https://www.nato.int/cps/en/natohq/topics_49602.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what was meant by the term new world order",
+            "content": "the term new world order refers to a new period of history evidencing dramatic change in world political thought and the balance of power in international",
+            "url": "https://en.wikipedia.org/wiki/New_world_order_(politics)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what has been an effective way of disbursing us foreign aid to encourage change in target states",
+            "content": "the success of the marshall plan paved the way for future us foreign assistance initiatives",
+            "url": "https://www.csis.org/analysis/us-foreign-assistance-age-strategic-competition",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which is not a reason for why intergovernmental organizations are ineffective at promoting human rights",
+            "content": "by c radoi in this paper i analyze the extent to which international resolutions about womens roles in security really reflect womens interests concerning the matter",
+            "url": "https://sur.conectas.org/en/ineffective-response-international-organisations-concerning-militarization-womens-lives/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what was the domino theory",
+            "content": "the domino theory a now‑discredited cold war idea held that communism in one nation would spread communism into neighboring nations",
+            "url": "https://www.history.com/topics/cold-war/domino-theory",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what according to systemic theories is the primary determinant of a states foreign policy",
+            "content": "1 sovereignty and integrity of the slate the first factor that every state keeps in mind while formulating foreign policy is safeguarding its",
+            "url": "https://www.linkedin.com/pulse/determinants-foreign-policy-political-science-view",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what was the clinton administrations policy on the russian economy",
+            "content": "during his presidential campaign clinton called for increased us economic aid to russia and criticized the bush administrations cautious",
+            "url": "https://nsarchive.gwu.edu/briefing-book/russia-programs/2023-02-07/launching-clinton-administration-russia-policy-1993",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the idea that war is the continuation of politics by other means helps to capture",
+            "content": "war as “the continuation of politics by other means” this definition has not changed in any significant way since but two world wars have",
+            "url": "https://moderndiplomacy.eu/2018/10/28/politics-as-continuation-of-war-by-other-means/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what did charles krauthammer mean by a unipolar moment when describing the postcold war system",
+            "content": "the immediate postcold war world is not multipolar it is unipolar the center of world power is the unchallenged superpower the united",
+            "url": "https://www.foreignaffairs.com/articles/1990-01-01/unipolar-moment",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the importance of oil in shaping us foreign policy helps to highlight",
+            "content": "the aim of reducing the dependency on foreign oil became a matter of highest political urgency as indicated by the quote from henry kissinger",
+            "url": "https://www.elgaronline.com/monochap/9781785360176/chapter07.xhtml",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why is there so much uncertainty over which states have nuclear weapons",
+            "content": "this research paper presents nuclear weapons decisionmaking as a complex endeavour with individual decisions being influenced by multiple factors",
+            "url": "https://www.chathamhouse.org/2022/03/uncertainty-and-complexity-nuclear-decision-making",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the best known and perhaps most important international organization is",
+            "content": "the international studies association isa is probably the most important international organization of scholars in the field of international relations",
+            "url": "https://www.sciencedirect.com/topics/social-sciences/international-relation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what are the key elements of the liberal approach to us foreign policy",
+            "content": "impunity qualifications noninterventionism is the only position consistent with the underlying principles of liberalism",
+            "url": "https://www.jstor.org/stable/44235353",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "according to realists what is the fundamental difference between the international system and the domestic system",
+            "content": "statecentrism states are the most important actors anarchy the international system is anarchic egoism all states within the system pursue narrow self",
+            "url": "https://en.wikipedia.org/wiki/Realism_(international_relations)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why do realists tend to object to the influence of exceptionalism on american foreign policy",
+            "content": "realist theory tells you that when a state is really powerful it will be less constrained by the power of others and it will be able to",
+            "url": "https://foreignpolicy.com/2010/12/06/american-exceptionalism-a-realist-view/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "within american politics the power to accord official recognition to other countries belongs to",
+            "content": "diplomatic recognition in international law is a unilateral declarative political act of a state that acknowledges an act or status of another state or",
+            "url": "https://en.wikipedia.org/wiki/Diplomatic_recognition",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what was meant by the term american multiplication table",
+            "content": "the meaning of multiplication table is a list that shows the results of multiplying certain numbers such as 1 through 12 by each other",
+            "url": "https://www.merriam-webster.com/dictionary/multiplication%20table",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what features distinguish socioeconomic accounts of us cold war foreign policy",
+            "content": "25 this approach makes sense because regions differ in economically important ways such as climate soil quality prevailing wages and labor practices and the",
+            "url": "https://library.fes.de/libalt/journals/swetsfulltext/5333840.pdf?source=subscribe",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what was the key difference between us expansion pre and post 1865",
+            "content": "the completion of the railroads to the west following the civil war opened up vast areas of the region to settlement and economic development",
+            "url": "https://www.loc.gov/classroom-materials/united-states-history-primary-source-timeline/rise-of-industrial-america-1876-1900/american-west-1865-1900/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following considers it immoral to use force abroad to do good things such human rights protection democracy etc",
+            "content": "respect for human rights and fundamental freedoms including freedom of opinion and expression and freedom of association access to power and its exercise in",
+            "url": "https://www.ohchr.org/en/about-democracy-and-human-rights",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what did the moscow treaty on strategic offensive reductions do",
+            "content": "the treaty committed the united states and russia to reducing their deployed strategic nuclear forces to 17002200 warheads apiece",
+            "url": "https://www.armscontrol.org/factsheets/strategic-offensive-reductions-treaty-sort-glance",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how many major powers are there in a multipolar system",
+            "content": "but in fact multipolar systems are often unbalanced with two or three big powers and several middle powers all jockeying for position",
+            "url": "https://foreignpolicy.com/2023/10/05/usa-china-multipolar-bipolar-unipolar/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what was the marshall plan",
+            "content": "the marshall plan generated a resurgence of european industrialization and brought extensive investment into the region it was also a stimulant to the us",
+            "url": "https://history.state.gov/milestones/1945-1952/marshall-plan",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "global and regional international trade agreements work by using which of the following mechanisms",
+            "content": "wto members agreed in 2006 to implement a provisional mechanism to enhance the transparency of rtas and understand their effects on the multilateral system",
+            "url": "https://www.wto.org/english/tratop_e/region_e/region_e.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 27,
+            "query": "who said globalization is not something we can hold off or turn off it is the economic equivalent of a force of naturelike wind or water",
+            "content": "it is the economic equivalent of a force of nature like wind or waterquot bill clinton american 42nd us president 19932001 the term globalization is a practice of international integration and interdependence of national economies arising from the interchange of world views products",
+            "url": "https://www.ipl.org/essay/Role-Of-Globalization-As-A-Global-Economy-FKUYYCJK6CE86",
+            "engine": "braveAPI"
+        }
+    ]
+}

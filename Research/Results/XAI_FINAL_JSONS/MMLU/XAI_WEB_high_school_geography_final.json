@@ -1,0 +1,2602 @@
+{
+    "task": "mmlu_high_school_geography",
+    "dataset": "web_access_high_school_geography_final",
+    "questions": 198,
+    "noWebContextCount": 0,
+    "contaminated_queries": 145,
+    "contaminated_urls": 503,
+    "valid_urls": 198,
+    "avg_contaminated_before_valid": 3.54040404040404,
+    "contaminated_data_ratio": 0.717546362339515,
+    "most_contaminated_urls": {
+        "www.crackap.com": 151
+    },
+    "noWebContext": [],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "johnny and susie are moving to scotland to renovate and live in the family castle what makes their move a migration",
+            "content": "10 johnny and susie are moving to scotland to renovate and live in the family castle what makes their move a migration a they are crossing another",
+            "url": "https://www.crackap.com/ap/human-geography/question-195-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "johnny and susie are moving to scotland to renovate and live in the family castle what makes their move a migration",
+            "content": "johnny and susie are moving to scotland to renovate and live in the family castle what makes their move a migration a they are crossing another countrys",
+            "url": "https://www.crackap.com/ap/human-geography/test18.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "johnny and susie are moving to scotland to renovate and live in the family castle what makes their move a migration",
+            "content": "johnny and susie are moving to scotland to renovate and live in the family castle what makes their move a migration a they are crossing another",
+            "url": "https://dokumen.pub/5-steps-to-a-5-ap-human-geography-2019-9781260122886-1260122883.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following world regions is not considered one of the worlds most densely populated regions",
+            "content": "which of the following world regions is not considered one of the worlds most densely populated regions a south asia b europe c south america d",
+            "url": "https://www.crackap.com/ap/human-geography/question-52-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following statements is not part of gunnar myrdals theory of cumulative causation",
+            "content": "11 which of the following statements is not part of gunnar myrdals theory of cumulative causation a developing and developed regions share similarly in",
+            "url": "https://www.crackap.com/ap/human-geography/question-226-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following activities are not secondary economic activities",
+            "content": "which of the following activities are not secondary economic activities a assembling automotive parts b sewing shirts c mining copper d binding books e",
+            "url": "https://www.crackap.com/ap/human-geography/question-219-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following could be considered a higherorder central place function",
+            "content": "1 which of the following could be considered a higherorder central place function a winndixie grocery store b mercedesbenz dealership c shoe store",
+            "url": "https://www.crackap.com/ap/human-geography/question-246-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following entities is a state",
+            "content": "which of the following entities is a state a antarctica b american samoa c egypt d marshall islands e puerto rico 15 which of the following items is",
+            "url": "https://www.crackap.com/ap/human-geography/test19.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "olives grapes and chickpeas are staple crops of which type of farming",
+            "content": "olives grapes and chickpeas are staple crops of which type of farming a pastoral nomadism b subsistence c plantation d mediterranean e commercial",
+            "url": "https://www.crackap.com/ap/human-geography/question-174-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which pair of religions below share a longheld tradition of cremating their dead",
+            "content": "5 which pair of religions below share a longheld tradition of cremating their dead a hindu and buddhist b hindu and muslim",
+            "url": "https://www.crackap.com/ap/human-geography/question-160-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the cities of varanasi benares in india and mecca in saudi arabia are alike because both are",
+            "content": "the cities of varanasi benares in india and mecca in saudi arabia are alike because both are a capitals of countries formerly colonized by the english b",
+            "url": "https://www.gace.ets.org/s/pdf/study_companions/gace_sc_geography.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the cities of varanasi benares in india and mecca in saudi arabia are alike because both are",
+            "content": "the cities of varanasi benares in india and mecca in saudi arabia are alike because both are a capitals of countries formerly colonized by the english",
+            "url": "https://praxis.ets.org/on/demandware.static/-/Library-Sites-ets-praxisLibrary/default/pdfs/5921.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following statements regarding historical north american migration streams is not correct",
+            "content": "12 which of the following statements regarding historical north american migration streams is not correct a canadas first major migration came from france",
+            "url": "https://www.crackap.com/ap/human-geography/question-62-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following statements regarding historical north american migration streams is not correct",
+            "content": "12 which of the following statements regarding historical north american migration streams is not correct a canadas first major migration came from france",
+            "url": "https://www.crackap.com/ap/human-geography/test9.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "all of the following are nonbasic jobs in the city except",
+            "content": "11 all of the following are nonbasic jobs in the city except a city firefighter b social worker c dry cleaner d waitress",
+            "url": "https://www.crackap.com/ap/human-geography/question-166-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is most likely to experience population pressure",
+            "content": "5 which of the following is most likely to experience population pressure a an industrial society with abundant natural resources and large imports of food",
+            "url": "https://www.crackap.com/ap/human-geography/question-115-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a person who practices the hindu religion would be most likely to",
+            "content": "4 a person who practices the hindu religion would be most likely to a visit a shrine built on the shore of a lake b pray five times a day",
+            "url": "https://www.crackap.com/ap/human-geography/question-114-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the theory that cities grow outward from a core utilizing several nodes of growth was proposed by",
+            "content": "12 the theory that cities grow outward from a core utilizing several nodes of growth was proposed by a rostow b ravenstein c von thünen d burgess",
+            "url": "https://www.crackap.com/ap/human-geography/question-167-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which one of the following is not a characteristic of world cities",
+            "content": "8 which one of the following is not a characteristic of world cities a world cities contain the headquarters of many transnational corporations",
+            "url": "https://www.crackap.com/ap/human-geography/question-148-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "new stores opening around a large shopping mall reflect which concept",
+            "content": "new stores opening around a large shopping mall reflect which concept a gravity concept b distance decay c complementarity d transferability e",
+            "url": "https://www.crackap.com/ap/human-geography/question-238-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "part of the boundary between the united states and mexico is the rio grande an example of",
+            "content": "rio grande the rio grande is a major river that forms part of the border between the united states and mexico stretching approximately 1896",
+            "url": "https://library.fiveable.me/ap-hug/unit-4/defining-political-boundaries/study-guide/zkCfsPB0qNtPgk0pZpD9",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a chief factor that contributed to the second agricultural revolution was",
+            "content": "10 a chief factor that contributed to the second agricultural revolution was a the industrial revolution b world war i c world war ii",
+            "url": "https://www.crackap.com/ap/human-geography/question-135-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a chief factor that contributed to the second agricultural revolution was",
+            "content": "a chief factor that contributed to the second agricultural revolution was a the industrial revolution b world war i c world war ii d the discovery of",
+            "url": "https://www.crackap.com/ap/human-geography/test14.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which geographer viewed the us urban community of the 1920s as a set of concentric rings radiating outward from a central core",
+            "content": "which geographer viewed the us urban community of the 1920s as a set of concentric rings radiating outward from a central core a rostow b ravenstein c",
+            "url": "https://www.crackap.com/ap/human-geography/question-158-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the theory that the main purpose of a settlement or market town is to furnish goods and services to the surrounding market area is called the",
+            "content": "10 the theory that the main purpose of a settlement or market town is to furnish goods and services to the surrounding market area is called the a urban",
+            "url": "https://www.crackap.com/ap/human-geography/question-180-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the main factor preventing subsistence economies from advancing economically is the lack of",
+            "content": "13 the main factor preventing subsistence economies from advancing economically is the lack of a a currency b a wellconnected transportation",
+            "url": "https://www.crackap.com/ap/human-geography/question-63-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the birth of an urban industrial workforce in europe contributed to the start of the",
+            "content": "1 the birth of an urban industrial workforce in europe contributed to the start of the a first agricultural revolution b second agricultural revolution",
+            "url": "https://www.crackap.com/ap/human-geography/question-51-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "you are planning to move from your hometown to pittsburgh along the way you stop in columbus ohio to visit a relative and fall in love with the city you decide to stay and make columbus your new home this is an example of",
+            "content": "14 you are planning to move from your hometown to pittsburgh along the way you stop in columbus ohio to visit a relative and fall in love with the city",
+            "url": "https://www.crackap.com/ap/human-geography/question-169-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is not used by geographers to determine absolute location",
+            "content": "2 which of the following is not used by geographers to determine absolute location a longitude b latitude c equator d prime meridian e distance to",
+            "url": "https://www.crackap.com/ap/human-geography/question-142-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which one of the following statements does not correctly describe the green revolution",
+            "content": "11 which one of the following statements does not correctly describe the green revolution a it changed centuriesold methods of farming",
+            "url": "https://www.crackap.com/ap/human-geography/question-91-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which one of the following statements does not correctly describe transnational companies tncs",
+            "content": "10 which one of the following statements does not correctly describe transnational companies tncs a many tncs operate in areas of electronics chemicals",
+            "url": "https://www.crackap.com/ap/human-geography/question-120-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which one of the following statements does not correctly describe transnational companies tncs",
+            "content": "10 which one of the following statements does not correctly describe transnational companies tncs a many tncs operate in areas of electronics chemicals",
+            "url": "https://www.crackap.com/ap/human-geography/test13.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which type of transportation system created the starshaped city pattern",
+            "content": "2 which type of transportation system created the starshaped city pattern a highways to airports that link cities b interstate highways that link",
+            "url": "https://www.crackap.com/ap/human-geography/question-37-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "of these the map using the smallest map scale would be the map of",
+            "content": "5 of these the map using the smallest map scale would be the map of a the world b atlanta georgia c main street small town ohio d pennsylvania",
+            "url": "https://www.crackap.com/ap/human-geography/question-40-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the melting pot theory of combining several immigrant groups into one mainstream culture is called",
+            "content": "question 50 15 the melting pot theory of combining several immigrant groups into one mainstream culture is called a amalgamation theory",
+            "url": "https://www.crackap.com/ap/human-geography/question-50-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the melting pot theory of combining several immigrant groups into one mainstream culture is called",
+            "content": "the melting pot theory of combining several immigrant groups into one mainstream culture is called a amalgamation theory b acculturation c ethnic",
+            "url": "https://www.crackap.com/ap/human-geography/test8.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "mary lives in a neighborhood with stores offices and restaurants so close that she does not need to own a car however she feels she has very little privacy this is an example of an",
+            "content": "e ecologically sensitive space correct answer b explanation mary lives in a neighborhood with stores offices and restaurants so close that she",
+            "url": "https://www.crackap.com/ap/human-geography/question-254-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following industries does not need to be close to its markets",
+            "content": "which of the following industries does not need to be close to its markets a dairy foods b bulkgaining products c singlemarket products d bulk",
+            "url": "https://www.crackap.com/ap/human-geography/question-192-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the way of life based on breeding and herding of animals that are used as a source of food shelter and clothing is called",
+            "content": "5 the way of life based on breeding and herding of animals that are used as a source of food shelter and clothing is called a swidden",
+            "url": "https://www.crackap.com/ap/human-geography/question-100-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the way of life based on breeding and herding of animals that are used as a source of food shelter and clothing is called",
+            "content": "the way of life based on breeding and herding of animals that are used as a source of food shelter and clothing is called a swidden b subsistence",
+            "url": "https://www.crackap.com/ap/human-geography/test12.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which theory below was used as justification for us involvement in vietnam in the 1960s and 1970s",
+            "content": "3 which theory below was used as justification for us involvement in vietnam in the 1960s and 1970s a devolution b colonialism c heartland theory d",
+            "url": "https://www.crackap.com/ap/human-geography/question-83-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following items below is not considered a barrier to the diffusion of an innovation",
+            "content": "which of the following items below is not considered a barrier to the diffusion of an innovation a internet b distance c cultural obstacles d",
+            "url": "https://www.crackap.com/ap/human-geography/question-235-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in which urban us setting below would you expect to find planned communities",
+            "content": "9 in which urban us setting below would you expect to find planned communities a ghettos b suburbs c cbds d transition zones e barrios",
+            "url": "https://www.crackap.com/ap/human-geography/question-74-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in which urban us setting below would you expect to find planned communities",
+            "content": "in which urban us setting below would you expect to find planned communities a ghettos b suburbs c cbds d transition zones e barrios 10 which of the",
+            "url": "https://www.crackap.com/ap/human-geography/test10.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is a formal region",
+            "content": "which of the following is a formal region a dixie b pennsylvania c the market area of winndixie d the pacific northwest e pizza hut delivery area",
+            "url": "https://www.crackap.com/ap/human-geography/question-186-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a large node of office and commercial land use outside the central city with more jobs than residents is an",
+            "content": "10 a large node of office and commercial land use outside the central city with more jobs than residents is an a suburb b primate city c town",
+            "url": "https://www.crackap.com/ap/human-geography/question-90-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a large node of office and commercial land use outside the central city with more jobs than residents is an",
+            "content": "a large node of office and commercial land use outside the central city with more jobs than residents is an a suburb b primate city c town d edge city",
+            "url": "https://www.crackap.com/ap/human-geography/test11.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a large node of office and commercial land use outside the central city with more jobs than residents is an",
+            "content": "a large node of office and commercial land use outside the central city with more jobs than residents is a n choices choice 4 response a suburb",
+            "url": "https://www.exampyq.com/CUET/PG/Geography/Questions/Topic-Settlement-Geography-6/Part-16.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following items below is an absolute location",
+            "content": "1 which of the following items below is an absolute location a 10 miles east of pittsburgh b washington c 3 degrees south d 479 elm street muncie",
+            "url": "https://www.crackap.com/ap/human-geography/question-111-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is not a characteristic of a city in the developing world",
+            "content": "which of the following is not a characteristic of a city in the developing world a contains modern centers of commerce b has a welldeveloped infrastructure",
+            "url": "https://www.crackap.com/ap/human-geography/question-123-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "an earlier boundary formed before meticulous geographic knowledge and mapping was available is known as",
+            "content": "12 an earlier boundary formed before meticulous geographic knowledge and mapping was available is known as a an antecedent boundary",
+            "url": "https://www.crackap.com/ap/human-geography/question-107-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "an earlier boundary formed before meticulous geographic knowledge and mapping was available is known as",
+            "content": "an earlier boundary formed before meticulous geographic knowledge and mapping was available is known as a an antecedent boundary b a geometric boundary",
+            "url": "https://www.crackap.com/ap/human-geography/test12.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following countries is actively trying to preserve the purity of their native language from contamination by english or other languages",
+            "content": "10 which of the following countries is actively trying to preserve the purity of their native language from contamination by english or other languages",
+            "url": "https://www.crackap.com/ap/human-geography/question-210-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following countries is actively trying to preserve the purity of their native language from contamination by english or other languages",
+            "content": "10 which of the following countries is actively trying to preserve the purity of their native language from contamination by english or other languages a",
+            "url": "https://www.crackap.com/ap/human-geography/test19.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following factors would be considered a pull factor for riva when considering a move from india to the united states",
+            "content": "which of the following factors would be considered a pull factor for riva when considering a move from india to the united states a abject poverty b",
+            "url": "https://www.crackap.com/ap/human-geography/question-189-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following factors would be considered a pull factor for riva when considering a move from india to the united states",
+            "content": "which of the following factors would be considered a pull factor for riva when considering a move from india to the united states a abject poverty b",
+            "url": "https://www.crackap.com/ap/human-geography/test18.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "urban agriculture can benefit urban society in all of the following ways except",
+            "content": "2 urban agriculture can benefit urban society in all of the following ways except a create sustainable food systems in urban areas",
+            "url": "https://www.crackap.com/ap/human-geography/question-82-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "urban agriculture can benefit urban society in all of the following ways except",
+            "content": "urban agriculture can benefit urban society in all of the following ways except a create sustainable food systems in urban areas b provide jobs for women",
+            "url": "https://www.crackap.com/ap/human-geography/test11.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the concentration of production activities and people spatially to benefit everyone is called",
+            "content": "3 the concentration of production activities and people spatially to benefit everyone is called a the substitution principle b deglomeration",
+            "url": "https://www.crackap.com/ap/human-geography/question-38-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following capital cities is located outside the central core area of the country",
+            "content": "which of the following capital cities is located outside the central core area of the country a abuja nigeria b paris france c london united kingdom",
+            "url": "https://www.crackap.com/ap/human-geography/question-105-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following capital cities is located outside the central core area of the country",
+            "content": "which of the following capital cities is located outside the central core area of the country a abuja nigeria b paris france c london united kingdom",
+            "url": "https://www.crackap.com/ap/human-geography/test12.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which one of the following groups is excluded from the caste system of hinduism",
+            "content": "which one of the following groups is excluded from the caste system of hinduism a scholarpriests b warriorlandowners c businessmen and farmers d",
+            "url": "https://www.crackap.com/ap/human-geography/question-72-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a map that presents a single class of statistics is called a",
+            "content": "2 a map that presents a single class of statistics is called a a general purpose map b thematic map c reference map d mental map e location map",
+            "url": "https://www.crackap.com/ap/human-geography/question-67-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following jobs is in the nonbasic employment sector",
+            "content": "6 which of the following jobs is in the nonbasic employment sector a software engineer b f10 pickup truck assemblyline worker c oil refinery worker",
+            "url": "https://www.crackap.com/ap/human-geography/question-86-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if i wanted to ship a small piece of very valuable jewelry to my aunt who lives in poughkeepsie which mode of transportation makes the most sense",
+            "content": "6 if i wanted to ship a small piece of very valuable jewelry to my aunt who lives in poughkeepsie which mode of transportation makes the most sense",
+            "url": "https://www.crackap.com/ap/human-geography/question-191-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "if i wanted to ship a small piece of very valuable jewelry to my aunt who lives in poughkeepsie which mode of transportation makes the most sense",
+            "content": "if i wanted to ship a small piece of very valuable jewelry to my aunt who lives in poughkeepsie which mode of transportation makes the most sense a truck",
+            "url": "https://www.crackap.com/ap/human-geography/test18.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "all of the following are reasons major cities attract young people in latin america except",
+            "content": "6 all of the following are reasons major cities attract young people in latin america except a the availability of jobs b the potential for decent",
+            "url": "https://www.crackap.com/ap/human-geography/question-41-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "all of the following are reasons major cities attract young people in latin america except",
+            "content": "south america 6 all of the following are reasons major cities attract young people in latin america except a the availability of jobs b the",
+            "url": "https://www.crackap.com/ap/human-geography/test8.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which one of the following organizations is not a supranational organization",
+            "content": "1 which one of the following organizations is not a supranational organization a un b nato c asean d nafta e plo correct answer e explanation",
+            "url": "https://www.crackap.com/ap/human-geography/question-141-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the voluntary association of three or more countries willing to give up some measure of sovereignty is called",
+            "content": "question 116 6 the voluntary association of three or more countries willing to give up some measure of sovereignty is called a nationalism",
+            "url": "https://www.crackap.com/ap/human-geography/question-116-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the voluntary association of three or more countries willing to give up some measure of sovereignty is called",
+            "content": "supranationalismthe voluntary association of three or more independent states willing to yield some measure of sovereignty for mutual benefit is defined as the",
+            "url": "https://saylordotorg.github.io/text_world-regional-geography-people-places-and-globalization/s05-03-the-european-union-and-suprana.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which term describes the forces that unify and strengthen a country",
+            "content": "8 which term describes the forces that unify and strengthen a country a diffusion b centrifugal c centripetal d ethnocentric e naturalizing",
+            "url": "https://www.crackap.com/ap/human-geography/question-133-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which term describes the forces that unify and strengthen a country",
+            "content": "which term describes the forces that unify and strengthen a country a diffusion b centrifugal c centripetal d ethnocentric e naturalizing 9 the",
+            "url": "https://www.crackap.com/ap/human-geography/test14.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which group represents the persian iranian variation of islam and believes in the infallibility and divine right to authority of the imams descended from ali",
+            "content": "which group represents the persian iranian variation of islam and believes in the infallibility and divine right to authority of the imams descended from ali",
+            "url": "https://www.crackap.com/ap/human-geography/question-201-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which group represents the persian iranian variation of islam and believes in the infallibility and divine right to authority of the imams descended from ali",
+            "content": "which group represents the persian iranian variation of islam and believes in the infallibility and divine right to authority of the imams descended from ali",
+            "url": "https://www.crackap.com/ap/human-geography/test19.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which one of the following demographic factors characterizes stages 4 and 5 in the demographic transition model",
+            "content": "3 which one of the following demographic factors characterizes stages 4 and 5 in the demographic transition model a zero population growth b high mortality",
+            "url": "https://www.crackap.com/ap/human-geography/question-98-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the key factor thomas malthus failed to recognize in his population theory was",
+            "content": "8 the key factor thomas malthus failed to recognize in his population theory was a population is limited by their means of subsistence",
+            "url": "https://www.crackap.com/ap/human-geography/question-163-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the basques bretons kashmiris and tamils are all examples of",
+            "content": "4 the basques bretons kashmiris and tamils are all examples of a regionalist groups b separatist groups c terrorist groups",
+            "url": "https://www.crackap.com/ap/human-geography/question-84-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the basques bretons kashmiris and tamils are all examples of",
+            "content": "4 the basques bretons kashmiris and tamils are all examples of a regionalist groups b separatist groups c terrorist groups d interventionist",
+            "url": "https://www.crackap.com/ap/human-geography/test11.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a strong movement away from all religions is called",
+            "content": "12 a strong movement away from all religions is called a secularism b heathenism c sacrilege d nationalism e communism",
+            "url": "https://www.crackap.com/ap/human-geography/question-122-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is a distinct characteristic of an east european city",
+            "content": "which of the following is a distinct characteristic of an east european city a a central park b prominent religious buildings c a large central square",
+            "url": "https://www.crackap.com/ap/human-geography/question-93-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is not a spread effect in the coreperiphery model of development",
+            "content": "which of the following is not a spread effect in the coreperiphery model of development a congestion in the core b high cost of labor in the core c",
+            "url": "https://www.crackap.com/ap/human-geography/question-245-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is not a spread effect in the coreperiphery model of development",
+            "content": "which of the following is not a spread effect in the coreperiphery model of development a congestion in the core b high cost of labor in the core c",
+            "url": "https://www.crackap.com/ap/human-geography/test21.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following statements does not describe a factor that contributed to suburbanization in the united states",
+            "content": "14 which of the following statements does not describe a factor that contributed to suburbanization in the united states a a shorter workweek made time for a",
+            "url": "https://www.crackap.com/ap/human-geography/question-79-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following statements does not describe a factor that contributed to suburbanization in the united states",
+            "content": "14 which of the following statements does not describe a factor that contributed to suburbanization in the united states a a shorter workweek made time for",
+            "url": "https://www.crackap.com/ap/human-geography/test10.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following statements does not describe a factor that contributed to suburbanization in the united states",
+            "content": "which of the following statements does not describe a factor that contributed to suburbanization in the united states choices choice 4 response a",
+            "url": "https://www.doorsteptutor.com/Exams/AP/Human-Geography/Questions/Topic-Cities-and-Urban-Land-Use-6/Part-20.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "ankara turkey and islamabad pakistan are both examples of",
+            "content": "14 ankara turkey and islamabad pakistan are both examples of a desert cities b forwardthrust capitals c old colonial capitals d rival cities",
+            "url": "https://www.crackap.com/ap/human-geography/question-64-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "ankara turkey and islamabad pakistan are both examples of",
+            "content": "a market surplus 14 ankara turkey and islamabad pakistan are both examples of a desert cities b forwardthrust capitals c old colonial capitals d",
+            "url": "https://www.crackap.com/ap/human-geography/test9.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which description best describes the urban hierarchy model in which the population of a city is inversely proportional to its rank in the hierarchy",
+            "content": "5 which description best describes the urban hierarchy model in which the population of a city is inversely proportional to its rank in the hierarchy",
+            "url": "https://www.crackap.com/ap/human-geography/question-205-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which description best describes the urban hierarchy model in which the population of a city is inversely proportional to its rank in the hierarchy",
+            "content": "5 which description best describes the urban hierarchy model in which the population of a city is inversely proportional to its rank in the hierarchy a",
+            "url": "https://www.crackap.com/ap/human-geography/test19.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following factors does not play a role in gender relationships in a culture or society",
+            "content": "which of the following factors does not play a role in gender relationships in a culture or society a biology b advancements in technological development",
+            "url": "https://www.crackap.com/ap/human-geography/test20.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "regions share all of these characteristics except",
+            "content": "10 regions share all of these characteristics except a boundaries b common features c relative location d easily defined e spatial extent",
+            "url": "https://www.crackap.com/ap/human-geography/question-150-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "regions share all of these characteristics except",
+            "content": "regions share all of these characteristics except a boundaries b common features c relative location d easily defined e spatial extent 11 the",
+            "url": "https://www.crackap.com/ap/human-geography/test15.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when we talk about diffusion of a cultural trait what do we mean by hearth",
+            "content": "11 when we talk about diffusion of a cultural trait what do we mean by hearth a destination b origin point c all locations along the diffusion path",
+            "url": "https://www.crackap.com/ap/human-geography/question-196-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which urban model theorizes that highrent residential areas grow outward from the center of the city along major highways with lowerrent inhabitants taking over sequentially",
+            "content": "8 which urban model theorizes that highrent residential areas grow outward from the center of the city along major highways with lowerrent inhabitants",
+            "url": "https://www.crackap.com/ap/human-geography/question-58-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is not an example of syncretism",
+            "content": "6 which of the following is not an example of syncretism a halloween b foreign cuisine changed to suit american tastes c hasidic judaism d catholicism",
+            "url": "https://www.crackap.com/ap/human-geography/question-236-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which factor in the last quarter century greatly destabilized eastern europe and led to ethnic conflict",
+            "content": "15 which factor in the last quarter century greatly destabilized eastern europe and led to ethnic conflict a the introduction of new languages b the",
+            "url": "https://www.crackap.com/ap/human-geography/question-80-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which factor in the last quarter century greatly destabilized eastern europe and led to ethnic conflict",
+            "content": "15 which factor in the last quarter century greatly destabilized eastern europe and led to ethnic conflict a the introduction of new languages",
+            "url": "https://www.crackap.com/ap/human-geography/test10.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if you wanted to find the global distribution of coal you would use a",
+            "content": "14 if you wanted to find the global distribution of coal you would use a a reference map b topographic map c thematic map d location map",
+            "url": "https://www.crackap.com/ap/human-geography/question-109-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the intensive agricultural practice of planting and harvesting the same crop more than once a year is called",
+            "content": "9 the intensive agricultural practice of planting and harvesting the same crop more than once a year is called a swidden b double cropping",
+            "url": "https://www.crackap.com/ap/human-geography/question-89-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following statements is true concerning folklore",
+            "content": "which of the following statements is true concerning folklore a it is the written tradition of a group b it encourages changing the old values and customs",
+            "url": "https://www.crackap.com/ap/human-geography/question-220-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which of the following statements is true concerning folklore",
+            "content": "which of the following statements is true about creativitya researchers have found that creativity does peak in adulthood and then declinesb typically",
+            "url": "https://facrea.urosario.edu.co/askroteca/which-of-the-following-statements-is-true-about-creativitya-nxun",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following us main immigration flow associations is not correct",
+            "content": "3 which of the following us main immigration flow associations is not correct a pioneer settlement to 1870germans british scotchirish",
+            "url": "https://www.crackap.com/ap/human-geography/question-188-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following us main immigration flow associations is not correct",
+            "content": "which of the following us main immigration flow associations is not correct a pioneer settlement to 1870germans british scotchirish africans b",
+            "url": "https://www.crackap.com/ap/human-geography/test18.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "every country with a seacoast has an exclusive economic zone eez under the un convention on the law of the sea which one of the following statements regarding the law of the sea and the eez is not correct",
+            "content": "3 every country with a seacoast has an exclusive economic zone eez under the un convention on the law of the sea which one of the following statements",
+            "url": "https://www.crackap.com/ap/human-geography/question-113-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which one of the following north american associations is not correct",
+            "content": "6 which one of the following north american associations is not correct a southeastafrican americans b oklahoma and the southwestnative americans",
+            "url": "https://www.crackap.com/ap/human-geography/question-71-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which one of the following north american associations is not correct",
+            "content": "which one of the following north american associations is not correct a southeastafrican americans b oklahoma and the southwestnative americans c",
+            "url": "https://www.crackap.com/ap/human-geography/test10.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "ralph purchases garden fertilizer at the nearby garden shop rather than drive 50 miles to the neighboring town for the same product this reflects which type of spatial interaction",
+            "content": "ralph purchases garden fertilizer at the nearby garden shop rather than drive 50 miles to the neighboring town for the same product this reflects which type of",
+            "url": "https://www.crackap.com/ap/human-geography/question-212-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when a country combines its religion with its government it is called a",
+            "content": "11 when a country combines its religion with its government it is called a a dictatorship b theocracy c democracy d autocracy e oligarchy",
+            "url": "https://www.crackap.com/ap/human-geography/question-181-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following countries does not have a wellknown example of a relict boundary",
+            "content": "13 which of the following countries does not have a wellknown example of a relict boundary a vietnam b united kingdom c germany d china e bolivia",
+            "url": "https://www.crackap.com/ap/human-geography/question-48-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following countries does not have a wellknown example of a relict boundary",
+            "content": "which of the following countries does not have a wellknown example of a relict boundary a vietnam b united kingdom c germany d china e bolivia 14",
+            "url": "https://www.crackap.com/ap/human-geography/test8.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what type of countries generally possesses a greater variety of climates and resources than other countries",
+            "content": "15 what type of countries generally possesses a greater variety of climates and resources than other countries a perforated states b fragmented states",
+            "url": "https://www.crackap.com/ap/human-geography/question-170-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following statements is true concerning women in the labor force",
+            "content": "13 which of the following statements is true concerning women in the labor force a most women work in agriculture b the percentage of women economically",
+            "url": "https://www.crackap.com/ap/human-geography/question-198-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the majority of workers in periphery countries are probably employed in which type of activities",
+            "content": "the majority of workers in periphery countries are probably employed in which type of activities a primary b secondary c tertiary d quaternary e",
+            "url": "https://www.crackap.com/ap/human-geography/question-209-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the majority of workers in periphery countries are probably employed in which type of activities",
+            "content": "the majority of workers in periphery countries are probably employed in which type of activities a primary b secondary c tertiary d quaternary e",
+            "url": "https://www.crackap.com/ap/human-geography/test19.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which structures traditionally occupies the center of a historic asian city",
+            "content": "which structures traditionally occupies the center of a historic asian city a a central market b highdensity housing c a religious building d",
+            "url": "https://www.crackap.com/ap/human-geography/question-182-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "according to alfred webers leastcost theory which one of the following costs of production is the most important factor in locating an industry",
+            "content": "according to alfred webers leastcost theory which one of the following costs of production is the most important factor in locating an industry a labor",
+            "url": "https://www.crackap.com/ap/human-geography/question-97-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which form of migration below are farm workers from another country most likely to be practicing during the year",
+            "content": "4 which form of migration below are farm workers from another country most likely to be practicing during the year a chain migration b cluster migration",
+            "url": "https://www.crackap.com/ap/human-geography/question-39-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what do the terms apartheid ethnic cleansing and integration all have in common",
+            "content": "4 what do the terms apartheid ethnic cleansing and integration all have in common a they all occurred in nazi germany during world war i b they are",
+            "url": "https://www.crackap.com/ap/human-geography/question-249-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is not an important environmental factor influencing a countrys agriculture",
+            "content": "which of the following is not an important environmental factor influencing a countrys agriculture a number of frostfree days per year b availability",
+            "url": "https://www.crackap.com/ap/human-geography/question-162-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following factors has little or no impact on mortality rates in the developing countries",
+            "content": "10 which of the following factors has little or no impact on mortality rates in the developing countries a new medicines b improved birth control",
+            "url": "https://www.crackap.com/ap/human-geography/question-75-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the best definition of an urban area is",
+            "content": "9 the best definition of an urban area is a the central city and its developed areas b the central city and its surrounding suburbs c the central city",
+            "url": "https://www.crackap.com/ap/human-geography/question-194-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which one of the following is not an advantage of urban agriculture",
+            "content": "9 which one of the following is not an advantage of urban agriculture a helping to solve the problem of solid waste disposal b fresh produce for sale to",
+            "url": "https://www.crackap.com/ap/human-geography/question-59-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is a centrifugal force in a country",
+            "content": "which of the following is a centrifugal force in a country a religious differences b a national holiday c an attack by another country d a charismatic",
+            "url": "https://www.crackap.com/ap/human-geography/question-68-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which country faces a serious trade disadvantage due to its location",
+            "content": "which country faces a serious trade disadvantage due to its location a singapore b italy c spain d argentina e mongolia correct answer e",
+            "url": "https://www.crackap.com/ap/human-geography/question-138-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which one of the statements below correctly describes immigrants living in europe",
+            "content": "11 which one of the statements below correctly describes immigrants living in europe a most find citizenship easy to get in host countries",
+            "url": "https://www.crackap.com/ap/human-geography/question-121-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which one of the statements below correctly describes immigrants living in europe",
+            "content": "11 which one of the statements below correctly describes immigrants living in europe a most find citizenship easy to get in host countries",
+            "url": "https://www.crackap.com/ap/human-geography/test13.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which theorists tried to explain the prices of farm products as they relate to patterns of land use",
+            "content": "9 which theorists tried to explain the prices of farm products as they relate to patterns of land use a rostow b ravenstein c von thünen d burgess",
+            "url": "https://www.crackap.com/ap/human-geography/question-149-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which theorists tried to explain the prices of farm products as they relate to patterns of land use",
+            "content": "which theorists tried to explain the prices of farm products as they relate to patterns of land use a rostow b ravenstein c von thünen d burgess",
+            "url": "https://www.crackap.com/ap/human-geography/test15.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which theorists tried to explain the prices of farm products as they relate to patterns of land use",
+            "content": "which theorist s tried to explain the prices of farm products as they relate to patterns of land use choices choice 4 response a von thunen",
+            "url": "https://www.doorsteptutor.com/Exams/AP/Human-Geography/Questions/Topic-Agriculture-and-Rural-Land-Use-4/Part-54.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the idea that you identify with and give allegiance to a nationstate is",
+            "content": "14 the idea that you identify with and give allegiance to a nationstate is a regionalism b diffusion c iconography d ethnocentrism",
+            "url": "https://www.crackap.com/ap/human-geography/question-154-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which zone contains lowincome slums ethnic ghettos and general deterioration in burgesss concentric zone model of urban form",
+            "content": "which zone contains lowincome slums ethnic ghettos and general deterioration in burgesss concentric zone model of urban form a first b second c",
+            "url": "https://www.crackap.com/ap/human-geography/question-227-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which zone contains lowincome slums ethnic ghettos and general deterioration in burgesss concentric zone model of urban form",
+            "content": "12 which zone contains lowincome slums ethnic ghettos and general deterioration in burgesss concentric zone model of urban form a first",
+            "url": "https://www.crackap.com/ap/human-geography/test20.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following supranational organizations is not an economic union",
+            "content": "which of the following supranational organizations is not an economic union a eu b caricom c nafta d nato e mercosur correct answer d explanation",
+            "url": "https://www.crackap.com/ap/human-geography/question-145-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "early settlements and high population density along coastlines and rivers are best attributed to which of the following",
+            "content": "early settlements and high population density along coastlines and rivers are best attributed to which of the following a mediterranean climate b limited",
+            "url": "https://www.gace.ets.org/s/pdf/study_companions/gace_sc_geography.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "early settlements and high population density along coastlines and rivers are best attributed to which of the following",
+            "content": "early settlements and high population density along coastlines and rivers are best attributed to which of the following a mediterranean climate b",
+            "url": "https://praxis.ets.org/on/demandware.static/-/Library-Sites-ets-praxisLibrary/default/pdfs/5921.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in which zone of burgesss concentric zone model would one find better houses singlefamily homes and higherrent apartments",
+            "content": "in which zone of burgesss concentric zone model would one find better houses singlefamily homes and higherrent apartments a first b second c third",
+            "url": "https://www.crackap.com/ap/human-geography/question-228-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in which zone of burgesss concentric zone model would one find better houses singlefamily homes and higherrent apartments",
+            "content": "in which zone of burgesss concentric zone model would one find better houses singlefamily homes and higherrent apartments a first b second c third",
+            "url": "https://www.crackap.com/ap/human-geography/test20.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the process whereby immigrants learn the values language and customs of their new country is called",
+            "content": "5 the process whereby immigrants learn the values language and customs of their new country is called a assimilation b acculturation c adaptation",
+            "url": "https://www.crackap.com/ap/human-geography/question-85-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in a postindustrial economy which of the following resources is considered most important to increase productivity",
+            "content": "10 in a postindustrial economy which of the following resources is considered most important to increase productivity a energy b labor c information",
+            "url": "https://www.crackap.com/ap/human-geography/question-255-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in a postindustrial economy which of the following resources is considered most important to increase productivity",
+            "content": "in a postindustrial economy which of the following resources is considered most important to increase productivity a energy b labor c information d",
+            "url": "https://www.crackap.com/ap/human-geography/test22.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "in a postindustrial economy which of the following resources is considered most important to increase productivity",
+            "content": "in a postindustrial economy which of the following resources is considered most important to increase productivity choices choice 4 response a",
+            "url": "https://www.exampyq.com/CUET/PG/Geography/Questions/Topic-Industrial-Geography-9/Subtopic-Classification-of-Industries-0/Part-21.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the first stage of the demographic transition exhibits",
+            "content": "1 the first stage of the demographic transition exhibits a high birth rates with high but fluctuating death rates b declining birth rates with",
+            "url": "https://www.crackap.com/ap/human-geography/question-126-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the first stage of the demographic transition exhibits",
+            "content": "the first stage of the demographic transition is called the a pretransition stage b transition stage c post transition stage initiation stage",
+            "url": "https://pakmcqs.com/sociology-mcqs/demographic-transition-exhibits_____________",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is not a key milestone reached by the eu",
+            "content": "which of the following is not a key milestone reached by the eu a the introduction of a common currency used by many eu countries b a customs union c a",
+            "url": "https://www.crackap.com/ap/human-geography/question-159-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "variations in vocabulary pronunciation and rhythm in a spoken language are called",
+            "content": "7 variations in vocabulary pronunciation and rhythm in a spoken language are called a syntax b isoglosses c lingua francas d creoles e dialects",
+            "url": "https://www.crackap.com/ap/human-geography/question-87-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which one of the following statements best describes an application of the scurve",
+            "content": "which one of the following statements best describes an application of the scurve a graph of the bantu migration b graph of the growth of human populations",
+            "url": "https://www.crackap.com/ap/human-geography/question-140-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which type of city model contains a distinct residential spine proceeding outward from center city along the main boulevard",
+            "content": "which type of city model contains a distinct residential spine proceeding outward from center city along the main boulevard choices choice 4 response a",
+            "url": "https://www.doorsteptutor.com/Exams/AP/Human-Geography/Questions/Topic-Cities-and-Urban-Land-Use-6/Part-57.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which type of city model contains a distinct residential spine proceeding outward from center city along the main boulevard",
+            "content": "the type of city model that contains a distinct residential spine proceeding outward from the center city along the main boulevard is known as the spineand",
+            "url": "https://clubsports.nnu.edu/find/17-which-economic-system-supports-the-idea-of-a-countrys-tra-rwtw",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which type of city model contains a distinct residential spine proceeding outward from center city along the main boulevard",
+            "content": "the type of city model that contains a distinct residential spine proceeding outward from the center city along the main boulevard is the sector model also",
+            "url": "https://cloudpbx.cazenovia.edu/solution/the-perception-that-the-north-american-continent-was-an-unpe-nusi",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which type of city model contains a distinct residential spine proceeding outward from center city along the main boulevard",
+            "content": "the type of city model that contains a distinct residential spine proceeding outward from the center city along the main boulevard is known as the spineand",
+            "url": "https://webmail.oklahoma4.create.ou.edu/askhoma/which-describes-the-water-movements-caused-by-the-coriolis-e-zbd9",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which type of city model contains a distinct residential spine proceeding outward from center city along the main boulevard",
+            "content": "the type of city model that contains a distinct residential spine proceeding outward from the center city along the main boulevard is known as the spineand",
+            "url": "https://inicial.marianista.edu.pe/assessment/17-which-economic-system-supports-the-idea-of-a-countrys-tra-rt0b.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which type of city model contains a distinct residential spine proceeding outward from center city along the main boulevard",
+            "content": "the type of city model that contains a distinct residential spine proceeding outward from the center city along the main boulevard is known as the spineand",
+            "url": "https://cloudpbx.cazenovia.edu/solution/oint-sources-of-water-pollution-discharge-pollutants-at-spec-ckdd",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "which type of city model contains a distinct residential spine proceeding outward from center city along the main boulevard",
+            "content": "the type of city model that contains a distinct residential spine proceeding outward from the center city along the main boulevard is known as the spineand",
+            "url": "https://hyper.coes.edu.mx/better-grades/after-a-lowmass-star-ie-a-star-less-than-about-8-solar-masse-q3bi",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the population statistic that tells us the level of fertility at which a population will have just enough births to replace parents and compensate for early deaths",
+            "content": "population will have just enough births to replace parents and compensate for early deaths a crude birth rate b replacement level c mortality rate d",
+            "url": "https://www.crackap.com/ap/human-geography/question-61-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the attempt by core countries to stimulate increased agricultural production in the periphery through use of technology hybrid seed and fertilizers is called the",
+            "content": "green revolution correct answer e explanation the attempt by core countries to stimulate increased agricultural production in the periphery through use of",
+            "url": "https://www.crackap.com/ap/human-geography/question-42-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the attempt by core countries to stimulate increased agricultural production in the periphery through use of technology hybrid seed and fertilizers is called the",
+            "content": "e the urban lifestyle 7 the attempt by core countries to stimulate increased agricultural production in the periphery through use of technology hybrid seed",
+            "url": "https://www.crackap.com/ap/human-geography/test8.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "boundary problems along the united statesmexico border are caused by which type of issue below",
+            "content": "boundary problems along the united statesmexico border are caused by which type of issue below a ownership of fertile ground b land use c irredentism d",
+            "url": "https://www.crackap.com/ap/human-geography/question-47-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "national sports teams flags national anthems and national holidays all promote",
+            "content": "15 national sports teams flags national anthems and national holidays all promote a nationalism b sectarianism c political unrest",
+            "url": "https://www.crackap.com/ap/human-geography/question-230-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following would not be considered a barrier to diffusion of a cultural trait",
+            "content": "which of the following would not be considered a barrier to diffusion of a cultural trait a language b religion c oceans d economic factors e tolerant",
+            "url": "https://www.crackap.com/ap/human-geography/question-256-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following would not be considered a barrier to diffusion of a cultural trait",
+            "content": "which of the following would not be considered a barrier to diffusion of a cultural trait a language b religion c oceans d economic factors e tolerant",
+            "url": "https://www.crackap.com/ap/human-geography/test22.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is an example of a bulkgaining industry",
+            "content": "which of the following is an example of a bulkgaining industry a steel b bottled orange juice c paper d copper e meatpacking correct answer b",
+            "url": "https://www.crackap.com/ap/human-geography/question-190-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in which country does language pose a centrifugal force",
+            "content": "in which country does language pose a centrifugal force a canada b united states c brazil d norway e thailand correct answer a explanation in",
+            "url": "https://www.crackap.com/ap/human-geography/question-69-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which type of economic activity is most closely tied to the physical environment",
+            "content": "1 which type of economic activity is most closely tied to the physical environment a primary b secondary c tertiary d quaternary e quinary",
+            "url": "https://www.crackap.com/ap/human-geography/question-66-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the use and spread of english in nineteenthcentury india is an example of what type of diffusion",
+            "content": "9 the use and spread of english in nineteenthcentury india is an example of what type of diffusion a stimulus b contagious c hierarchal d relocation",
+            "url": "https://www.crackap.com/ap/human-geography/question-44-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the outlying area serviced by a urban center is referred to as a",
+            "content": "10 the outlying area serviced by a urban center is referred to as a a redline area b threshold c range d hinterland e sphere of influence",
+            "url": "https://www.crackap.com/ap/human-geography/question-45-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the outlying area serviced by a urban center is referred to as a",
+            "content": "the outlying area serviced by a urban center is referred to as a a redline area b threshold c range d hinterland e sphere of influence 11 world",
+            "url": "https://www.crackap.com/ap/human-geography/test8.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is not a feature of an export processing zone epz",
+            "content": "which of the following is not a feature of an export processing zone epz a tariff reductions on exports b raw materials imported dutyfree c exemption",
+            "url": "https://www.crackap.com/ap/human-geography/question-224-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which one of the following is not a centripetal force in a state",
+            "content": "which one of the following is not a centripetal force in a state a a high level of confidence in central government b the existence of strong separatist",
+            "url": "https://www.crackap.com/ap/human-geography/question-55-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "quebec is a strong example of which of the following situations",
+            "content": "7 quebec is a strong example of which of the following situations a irredentism b secession c ethnonationalism d a colony e a nationstate",
+            "url": "https://www.crackap.com/ap/human-geography/question-252-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "all of the following are nonbasic jobs in the city except",
+            "content": "11 all of the following are nonbasic jobs in the city except a city firefighter b social worker c dry cleaner d waitress",
+            "url": "https://www.crackap.com/ap/human-geography/question-166-answer-and-explanation.html",
+            "engine": "ddg"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 5,
+            "query": "on which of the following can one most accurately depict true geographical distance true direction true size and true shape",
+            "content": "the authagraphy projection was created by japanese architect hajime narukawa in 1999 it is considered the most accurate projection in the mapping world for its",
+            "url": "https://replogleglobes.com/blog/the-main-types-of-world-map-projections/?srsltid=AfmBOoqh4o4_xyAFiihSa0DlvzLVLdweazcQjcju1h55VDHqyTjd-SjO",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "johnny and susie are moving to scotland to renovate and live in the family castle what makes their move a migration",
+            "content": "reinvention how to make the rest of your life the best of your lifebrian tracy jellyfish jam veggietales mission possible adventure",
+            "url": "https://marine.copernicus.eu/marine-paragraph/iframe-render/https%3A%7C%7Cxn--80aaagbsbcsvewu1agfr.xn--p1ai%7Cforum%7Cszdjlwamnbppfe36m",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following world regions is not considered one of the worlds most densely populated regions",
+            "content": "mongolia is the least densely populated country in the world due to its harsh climate as a result of its geography cities with high population densities are",
+            "url": "https://en.wikipedia.org/wiki/Population_density",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the influence of neomalthusianism can be seen in",
+            "content": "by c follett neomalthusian panic about overpopulation overtook eugenics as the primary motivation behind coercive policies aimed at limiting childbearing",
+            "url": "https://www.cato.org/policy-analysis/neo-malthusianism-coercive-population-control-china-india-overpopulation-concerns",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following statements is not part of gunnar myrdals theory of cumulative causation",
+            "content": "market mechanism will not bring equality between regions but will increase inequalities",
+            "url": "https://bgc.ac.in/pdf/OPEN-EDUCATIONAL-RESOURCES/GEOGRAPHY/GUNNER-MYRDALS-THEORY_UG_II_SS_1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following religions developed first",
+            "content": "adherents hold that hinduismone of the principal faiths in the modern world with about one billion followersis the worlds oldest religion",
+            "url": "https://www.britannica.com/story/which-religion-is-the-oldest",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following best illustrates the definition of a functional region",
+            "content": "a functional region is defined by the particular set of activities or interactions that occur within it a hub for an airline carrier is an example of a",
+            "url": "https://www.gace.ets.org/s/pdf/study_companions/gace_sc_geography.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following activities are not secondary economic activities",
+            "content": "the secondary sector consists of processing manufacturing and construction companies the secondary sector produces goods from the natural products within the",
+            "url": "https://www.investopedia.com/terms/s/sector.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "shifting cultivation is most often practiced in",
+            "content": "this technique is often used in ledcs less economically developed countries or lics low income countries in some areas cultivators use a practice of slash",
+            "url": "https://en.wikipedia.org/wiki/Shifting_cultivation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "change in any culture is introduced through all the following processes except",
+            "content": "cultural change refers to the movement supporting the transformation of society through invention discovery or contact with other communities",
+            "url": "https://study.com/academy/lesson/how-do-cultures-change.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following could be considered a higherorder central place function",
+            "content": "as a settlement increases in size the number of higherorder services will also increase ie a greater degree of specialization occurs in the services",
+            "url": "https://en.wikipedia.org/wiki/Central_place_theory",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following entities is a state",
+            "content": "a state is a political entity that regulates society and the population within a definite territory government is considered to form the fundamental",
+            "url": "https://en.wikipedia.org/wiki/State_(polity)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "olives grapes and chickpeas are staple crops of which type of farming",
+            "content": "within the mediterranean area a triad of crops were most important grains olives and grapes relief depicting a galloroman harvester the great majority",
+            "url": "https://en.wikipedia.org/wiki/Agriculture_in_ancient_Rome",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the process of devolution involves",
+            "content": "devolution is the statutory delegation of powers from the central government of a sovereign state to govern at a subnational level such as a regional or local",
+            "url": "https://en.wikipedia.org/wiki/Devolution",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which pair of religions below share a longheld tradition of cremating their dead",
+            "content": "for instance whilst its a popular cremation myth to say that all religions forbid cremation this is the case for islam that could be due to the fact that",
+            "url": "https://www.aura.life/articles/religious-beliefs-death-funerals",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the tendency for migration to decrease with distance is called",
+            "content": "every migration flow generates a return or counter migration the majority of migrants move a short distance migrants who move longer distances tend to",
+            "url": "https://en.wikipedia.org/wiki/Human_migration",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the largest hindu temple complex ever constructed is found in",
+            "content": "current largest temples dakshineswar kali temple 101171 kolkata india varadharaja perumal temple 95000 and sacred tanks some of which located outside",
+            "url": "https://en.wikipedia.org/wiki/List_of_largest_Hindu_temples",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following characteristics is not true of a state",
+            "content": "the question asks for a characteristic that is not true of a states territory option e states that a states territory is always homogeneous",
+            "url": "https://studyx.ai/questions/4lo0n3e/which-of-the-following-is-not-a-characteristic-of-a-state-s-territory-a-it-must-be",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the cities of varanasi benares in india and mecca in saudi arabia are alike because both are",
+            "content": "the muslim pilgrimage to mecca has been a key factor in creating a sense of islam as a single transnational identity and community with the pilgrims meeting",
+            "url": "https://sk.sagepub.com/ency/edvol/geography/chpt/pilgrimage",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following statements regarding historical north american migration streams is not correct",
+            "content": "a sizable share of the immigrant flow into north america is undocumented and thus outside national statistical systems even for legal immigrants however the",
+            "url": "https://www.jstor.org/stable/2137660",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is most likely to experience population pressure",
+            "content": "an increase in population will inevitably create pressures leading to more deforestation decreased biodiversity and spikes in pollution and emissions which",
+            "url": "https://www.populationmedia.org/the-latest/overpopulation-cause-and-effect",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a person who practices the hindu religion would be most likely to",
+            "content": "however a hindu will most likely worship one or two specific deities that are important to them and their family aarti worship is one of the main ceremonies",
+            "url": "https://www.bbc.co.uk/bitesize/guides/zvrsv9q/revision/4",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the theory that cities grow outward from a core utilizing several nodes of growth was proposed by",
+            "content": "in 1945 harris and ullman developed the multiplenuclei model they asserted that the central business district cbd was no longer the only",
+            "url": "https://www.albert.io/blog/multiple-nuclei-model-ap-human-geography-crash-course/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the official languages of guyana suriname and french guiana are english dutch and french respectively on what continent are those countries located",
+            "content": "the official language of the country is english although a large part of the population is bilingual in english and the indigenous languages it has a wide",
+            "url": "https://en.wikipedia.org/wiki/Guyana",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which one of the following is not a characteristic of world cities",
+            "content": "a coastal location b air water and noise pollution c inadequate transportation facilities d dependence on primary activities e moral decadence",
+            "url": "https://myschool.ng/classroom/geography/6298",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "new stores opening around a large shopping mall reflect which concept",
+            "content": "discover the 10 major trends transforming retail malls in 2025 from mixeduse spaces to sustainability and luxury outlets",
+            "url": "https://retail-merchandiser.com/news/10-major-trends-shaping-the-future-of-retail-malls-in-2025/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "part of the boundary between the united states and mexico is the rio grande an example of",
+            "content": "the rio grande between the us and mexico is a notable example of a river boundary that has experienced ongoing disputes due to shifting channels",
+            "url": "https://project.fab.tw/vertic328/types-of-boundaries-in-geography",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "china and vietnams dispute over the spratley islands is",
+            "content": "those claims have been strongly disputed by the philippines and vietnam in particular china first established a presence in the spratlys in",
+            "url": "https://www.britannica.com/place/Spratly-Islands",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "a chief factor that contributed to the second agricultural revolution was",
+            "content": "an important factor of the agricultural revolution was the invention of new tools and advancement of old ones including the plough seed drill and threshing",
+            "url": "https://oercommons.org/courseware/lesson/87910/student/?section=8",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which geographer viewed the us urban community of the 1920s as a set of concentric rings radiating outward from a central core",
+            "content": "the burgess model was developed by ernest burgess in 1925 he identified a series of concentric rings coming out from the centre of the city",
+            "url": "https://geographycasestudy.com/urban-land-use-patterns-and-models/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the language with the largest number of speakers is",
+            "content": "for example english has about 450 million native speakers but depending on the criterion chosen can be said to have as many as two billion speakers there",
+            "url": "https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the theory that the main purpose of a settlement or market town is to furnish goods and services to the surrounding market area is called the",
+            "content": "the primary purpose of a settlement or market town according to centralplace theory is the provision of goods and services for the",
+            "url": "https://www.britannica.com/money/central-place-theory",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the main factor preventing subsistence economies from advancing economically is the lack of",
+            "content": "many of the poorest ldcs have informal or subsistence economies under such circumstances market prices may be absent or poorly defined",
+            "url": "https://www.sciencedirect.com/topics/economics-econometrics-and-finance/subsistence-economy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the birth of an urban industrial workforce in europe contributed to the start of the",
+            "content": "the industrial revolution brought about sweeping changes in economic and social organization these changes included a wider distribution of wealth and",
+            "url": "https://www.britannica.com/summary/Industrial-Revolution-Causes-and-Effects",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "you are planning to move from your hometown to pittsburgh along the way you stop in columbus ohio to visit a relative and fall in love with the city you decide to stay and make columbus your new home this is an example of",
+            "content": "in learn to earn lynch and rothchild explain in a style accessible to anyone who is highschool age or older how to read a stock table in the daily newspaper",
+            "url": "https://www.amazon.pl/Learn-Earn-Beginners-Investing-Business/dp/0684811634",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following is not used by geographers to determine absolute location",
+            "content": "gps software can often be used to find absolute locations as can computer programs like google earth geographers use different ways to describe locations",
+            "url": "https://study.com/learn/lesson/relative-and-absolute-location-geography.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "zero population growth zpg is achieved when",
+            "content": "zero population growth sometimes abbreviated zpg is a condition of demographic balance where the number of people in a specified population neither grows",
+            "url": "https://en.wikipedia.org/wiki/Zero_population_growth",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "to get to school in the morning we all use this as our guide",
+            "content": "key points a morning routine helps children arrive at school ready to learn and play think about what you need to achieve in the mornings",
+            "url": "https://raisingchildren.net.au/school-age/school-learning/school-homework-tips/morning-routine-for-school",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the sacred book of the hindu is called the",
+            "content": "the vedas are ancient sanskrit texts of hinduism above a page from the atharvaveda there are four vedas the rigveda the yajurveda the samaveda and the",
+            "url": "https://en.wikipedia.org/wiki/Vedas",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which one of the following statements does not correctly describe the green revolution",
+            "content": "the green revolution was characterized by the introduction of new crop varieties improved irrigation techniques and the use of fertilizers and",
+            "url": "https://examrobot.com/content/term-green-revolution-has-been-used-indicate-higher-production-through",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which one of the following statements does not correctly describe transnational companies tncs",
+            "content": "the organization of labour markets are clearly affected by globalization and the policies of tncs both quantitatively the proportion of a countrys workforce",
+            "url": "https://unctad.org/system/files/official-document/unctaddiaeia2010v192_en.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which type of transportation system created the starshaped city pattern",
+            "content": "extended they created a starshaped axial pattern of urban growth later automobiles developed the spaces between the axes of this starshaped pattern",
+            "url": "https://www.jstor.org/stable/2946062",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following statements about east asias industrial regions is true",
+            "content": "east asia has led the asian resurgence contributing to about twothirds of the increase in regions share in the global gdp and a far greater",
+            "url": "https://www.unescap.org/sites/default/d8files/knowledge-products/SSWA%20Development_Paper_20-03_Asian%20transformation.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is a major concern in countries with a large and rapidly aging population",
+            "content": "the strain on pension systems is perhaps the most evident sign of a drastically aging population although the average retirement age is",
+            "url": "https://www.weforum.org/stories/2020/02/ageing-global-population/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is a characteristic of a developed country",
+            "content": "a sovereign state that has a high quality of life developed economy and advanced technological infrastructure relative to other less industrialized nations",
+            "url": "https://en.wikipedia.org/wiki/Developed_country",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in which of the following asian countries would one find special economic zones sezs",
+            "content": "cambodia sihanoukville special economic zone ssez sihanoukville sihanoukville port sez sihanoukville neang kok koh kong sez koh kong suoy chheng sez",
+            "url": "https://en.wikipedia.org/wiki/List_of_special_economic_zones",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "of these the map using the smallest map scale would be the map of",
+            "content": "the scale of a map is the ratio of a distance on the map to the corresponding distance on the ground this simple concept is complicated by the curvature of",
+            "url": "https://en.wikipedia.org/wiki/Scale_(map)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what is the most abundant fossil fuel",
+            "content": "coal has been a critical energy source and a mainstay in global energy production for centuries but its also the most polluting energy source both in terms",
+            "url": "https://ourworldindata.org/fossil-fuels",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "historically the worlds major languages have spread by all of the following methods except",
+            "content": "a language family is a group of languages related through descent from a common ancestor called the protolanguage of that family",
+            "url": "https://en.wikipedia.org/wiki/Language_family",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the melting pot theory of combining several immigrant groups into one mainstream culture is called",
+            "content": "by a wagener 22 it is integrative policies however have assimilationist outcomes if and only if the “melting pot” is an averaging mechanism then integration will",
+            "url": "https://www.wipol.uni-hannover.de/fileadmin/wipol/publications/Wagener_In_the_Melting_Pot.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the tendency for a population to continue to grow long after replacement fertility has been achieved is called",
+            "content": "demographic transition is a phenomenon and theory in the social sciences referring to the historical shift from high birth rates and high death rates to low",
+            "url": "https://en.wikipedia.org/wiki/Demographic_transition",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following statements best describes the united nations",
+            "content": "the united nations is an international organization founded in 1945 currently made up of 193 member states the un and its work are guided by the purposes and",
+            "url": "https://www.un.org/en/about-us",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "spanish colonial architecture uneven economic development and ruraltourban migration flows are most commonly found in which of the following",
+            "content": "irregular but higher incomes than at places of origin “it is now better for me than before migration to accra because back home in the north i was not",
+            "url": "https://www.rabat-process.org/images/TM-root-causes/Migration-and-Urbanisation-in-Africa_Uni-of-Ghana.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "mary lives in a neighborhood with stores offices and restaurants so close that she does not need to own a car however she feels she has very little privacy this is an example of an",
+            "content": "15th march were finally here the spaceship shook worryingly as we were going through mars atmosphere but we landed safely",
+            "url": "https://www.macmillan.pl/images/materials/1584386033_PR_B1P_U4_U6_WB.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following industries does not need to be close to its markets",
+            "content": "the computer industry is almost entirely unregulated governed only by the darwinian laws of laissezfaire economics 2 transport companies",
+            "url": "https://brainly.pl/zadanie/22534167",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "transnational corporations distribute their operations",
+            "content": "today tncs are defined as organisations consisting of a parent company and its foreign affiliates unctad 2002 291 whose activity permeates national borders",
+            "url": "https://repozytorium.umk.pl/bitstream/handle/item/6978/CJFA.2015.004%2CJaworek%2CKuzel.pdf?sequence=1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the way of life based on breeding and herding of animals that are used as a source of food shelter and clothing is called",
+            "content": "pastoralism is a form of animal husbandry where domesticated animals known as livestock are released onto large vegetated outdoor lands pastures for",
+            "url": "https://en.wikipedia.org/wiki/Pastoralism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a primate city is",
+            "content": "a primate city is a city that is the largest in its country province state or region and disproportionately larger than any others in the urban hierarchy",
+            "url": "https://en.wikipedia.org/wiki/Primate_city",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which theory below was used as justification for us involvement in vietnam in the 1960s and 1970s",
+            "content": "working under the “domino theory” which held that if one southeast asian country fell to communism many other countries would follow kennedy",
+            "url": "https://www.history.com/topics/vietnam-war/vietnam-war-history",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following items below is not considered a barrier to the diffusion of an innovation",
+            "content": "the main ideas are that 1 genetic distance measures the degree of longterm genealogical relatedness of different populations over time 2 on average",
+            "url": "https://sites.tufts.edu/enricospolaore/files/2012/08/Long-Term-Barriers-to-the-International-Diffusion-of-Innovations.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "in which urban us setting below would you expect to find planned communities",
+            "content": "discover the 7 key urban planning concepts for sustainable city development from strategic planning to environmental focus learn how to create thriving",
+            "url": "https://www.clearpointstrategy.com/blog/types-of-urban-planning",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following is a formal region",
+            "content": "regions defined formally often by government or other structures are called formal regions cities towns states and countries are all formal regions as",
+            "url": "https://study.com/academy/lesson/types-of-regions-formal-functional-vernacular.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "a large node of office and commercial land use outside the central city with more jobs than residents is an",
+            "content": "the central business district cbd is that part of the city which contains the principal commercial streets and main public buildings",
+            "url": "https://www.sciencedirect.com/topics/earth-and-planetary-sciences/central-business-district",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following items below is an absolute location",
+            "content": "absolute location refers to the precise geographic coordinates of a specific point on the earths surface usually expressed in terms of latitude and longitude",
+            "url": "https://www.lenovo.com/gb/en/glossary/absolute-location/?srsltid=AfmBOoo2Ljf6qhrFm3fhcqWle8UAGUklze2PeDV6q5a9noXpzqCIilI-",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following is not a characteristic of a city in the developing world",
+            "content": "all of the following are common features of cities in the developing world except the “traditional bazaar city” is characteristic of cities in which world",
+            "url": "https://highered.mheducation.com/sites/0072827653/student_view0/chapter11/multiple_choice_quiz.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "an earlier boundary formed before meticulous geographic knowledge and mapping was available is known as",
+            "content": "perhaps most important bordering is a process that is historical borders change over time and the practice of bordering is a historical one",
+            "url": "https://scholarworks.gsu.edu/cgi/viewcontent.cgi?article=1126&context=history_theses",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following countries is actively trying to preserve the purity of their native language from contamination by english or other languages",
+            "content": "surprisingly the immigrants that do speak swedish tend not to use a lot of english they tend to use more words from their native languages",
+            "url": "https://www.reddit.com/r/AskEurope/comments/w13en7/for_people_whose_native_language_isnt_english/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following factors would be considered a pull factor for riva when considering a move from india to the united states",
+            "content": "anthropological and sociological frameworks often describe human migration through pushpull dynamics where adverse conditions in the origin",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1111/brv.70004",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "urban agriculture can benefit urban society in all of the following ways except",
+            "content": "urban agriculture ie farming activities within and around cities provides many social economic and environmental benefits",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2949790624003495",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the latitude and longitude coordinates of a place are an example of",
+            "content": "latitude is a measurement of a location north or south of the equator in contrast longitude is a measurement of location east or west of the prime meridian",
+            "url": "https://www.britannica.com/science/latitude",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the concentration of production activities and people spatially to benefit everyone is called",
+            "content": "the spatial concentration of people and activities for mutual benefit a concentration of capital labour management skills customer base term",
+            "url": "https://www.studocu.vn/vn/document/international-university-vnu-hcm/world-economic-geography/geo-world-economic-geography-notes/61200773",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the distance north and south of the equator is the",
+            "content": "latitude measures the distance north or south from the earths equator",
+            "url": "https://oceanservice.noaa.gov/facts/latitude.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following capital cities is located outside the central core area of the country",
+            "content": "addis ababa ethiopia capital of the region of oromia in addition to being the national capital city itself an independently governed chartered city that",
+            "url": "https://en.wikipedia.org/wiki/List_of_capitals_outside_the_territories_they_serve",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which one of the following groups is excluded from the caste system of hinduism",
+            "content": "of the one billion hindus in india it is estimated that hindu forward caste comprises 26 other backward class comprises 43 hindu scheduled castes",
+            "url": "https://en.wikipedia.org/wiki/Caste_system_in_India",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a map that presents a single class of statistics is called a",
+            "content": "a choropleth map is a map where colored or shaded areas represent the magnitude of an attribute for example this map shows the population",
+            "url": "https://storymaps.arcgis.com/stories/f587e4ee2c684f8cbe4a97f472c6715e",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following jobs is in the nonbasic employment sector",
+            "content": "the primary sector represents the first phase of any manufacturing process and covers the acquisition of raw materials",
+            "url": "https://www.indeed.com/career-advice/finding-a-job/what-does-primary-sector-mean-in-terms-of-jobs",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "if i wanted to ship a small piece of very valuable jewelry to my aunt who lives in poughkeepsie which mode of transportation makes the most sense",
+            "content": "this book is intended for use during the seventh and eighth grades and provides for study along both lines of language work grammar and composition",
+            "url": "https://files.eric.ed.gov/fulltext/ED623909.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "all of the following are reasons major cities attract young people in latin america except",
+            "content": "large cities attract problems of crowding and congestion it is this more than 13 of all towns while in terms of population subtotals the largest",
+            "url": "https://www.espon.eu/sites/default/files/attachments/fr-1.4.1_revised-full.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which one of the following organizations is not a supranational organization",
+            "content": "the european union eu has been described as a paradigmatic case of a supranational organization as it has deep political economic and social integration",
+            "url": "https://en.wikipedia.org/wiki/Supranational_union",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the voluntary association of three or more countries willing to give up some measure of sovereignty is called",
+            "content": "there are three great schools of legal thought for determining the rightfulness of a claim that a certain rule of human conduct is entitled to the place and",
+            "url": "https://www.jstor.org/stable/787565",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which term describes the forces that unify and strengthen a country",
+            "content": "centripetal forces like shared culture or strong leadership unify a nation and can lead to stability in contrast centrifugal forces such as regional",
+            "url": "https://library.fiveable.me/key-terms/ap-hug/geopolitical-terms",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which group represents the persian iranian variation of islam and believes in the infallibility and divine right to authority of the imams descended from ali",
+            "content": "according to shia imamah is the continuation of the prophetic mission shia believe in the twelve imams who are divinely inspired descendants of muhammad",
+            "url": "https://en.wikipedia.org/wiki/Twelver_Shi%27ism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following is a push factor",
+            "content": "examples of push factors include war political instability famine and drought among others examples of pull factors include political stability lots of",
+            "url": "https://study.com/learn/lesson/push-pull-factors-of-migration-what-are-push-pull-factors.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the construction of freeways leads to all but which of the following results",
+            "content": "as of march 2025 there are 52055 km of motorways and expressways in operation 62 of the intended network while contracts for construction of further 1349",
+            "url": "https://en.wikipedia.org/wiki/Highways_in_Poland",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in which of the following regions is subsistence agriculture being replaced by largescale commercial development",
+            "content": "contemporary practices subsistence farming continues today in large parts of rural africa and parts of asia and latin america",
+            "url": "https://en.wikipedia.org/wiki/Subsistence_agriculture",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "which of the following is a functional region",
+            "content": "the functional region definition states that it is a type of region that is defined by a specific social or economical attribute the attribute is generally",
+            "url": "https://study.com/academy/lesson/types-of-regions-formal-functional-vernacular.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which language family is most widely spoken in north america and europe and includes baltic celtic germanic and greek",
+            "content": "the indoeuropean languages are a language family native to the northern indian subcontinent the overwhelming majority of europe and the iranian plateau",
+            "url": "https://en.wikipedia.org/wiki/Indo-European_languages",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which one of the following demographic factors characterizes stages 4 and 5 in the demographic transition model",
+            "content": "in stage 4 birth and death rates are both low stabilizing the population these countries tend to have stronger economies higher levels of",
+            "url": "https://populationeducation.org/what-demographic-transition-model/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the key factor thomas malthus failed to recognize in his population theory was",
+            "content": "economists disregarded malthus population theory because malthus didnt factor in important roles society would have on economic growth these factors",
+            "url": "https://en.wikipedia.org/wiki/Malthusianism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which language family contains italian spanish portuguese and romanian",
+            "content": "modern status the romance language most widely spoken natively today is spanish followed by portuguese french italian and romanian which together cover a",
+            "url": "https://en.wikipedia.org/wiki/Romance_languages",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which crop began the third agricultural revolution",
+            "content": "the green revolution or the third agricultural revolution was a period of technology transfer initiatives that saw greatly increased crop yields",
+            "url": "https://en.wikipedia.org/wiki/Green_Revolution",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the basques bretons kashmiris and tamils are all examples of",
+            "content": "corsicans basques bretons flemish were excluded from consideration in the rush of state building but the nationstate was a european con struct not",
+            "url": "https://www.jstor.org/stable/40209513",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which continent has the highest total fertility rates",
+            "content": "the total fertility rate of the world has dropped from around five children per woman in 1950 to 23 children per woman in 2023",
+            "url": "https://www.statista.com/statistics/1034075/fertility-rate-world-continents-1950-2020/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a strong movement away from all religions is called",
+            "content": "secularism is the principle of seeking to conduct human affairs based on naturalistic considerations uninvolved with religion",
+            "url": "https://en.wikipedia.org/wiki/Secularism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is a distinct characteristic of an east european city",
+            "content": "eastern europe is a subregion of the european continent as a largely ambiguous term it has a wide range of geopolitical geographical ethnic cultural",
+            "url": "https://en.wikipedia.org/wiki/Eastern_Europe",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following is not a spread effect in the coreperiphery model of development",
+            "content": "this is because backwash effect attracting resources from periphery to the growth pole is stronger than spread effect which acts in an opposite direction",
+            "url": "http://coin.wne.uw.edu.pl/brokicki/wsp_images/international_economic_geography_6.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "which of the following statements does not describe a factor that contributed to suburbanization in the united states",
+            "content": "suburbanization is the development of communities on the fringes of a city this phenomenon is the result of social economic and cultural factors",
+            "url": "https://robertsmith.com/blog/suburbanization/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which pair of religions are both universalizing religions",
+            "content": "this study guide will conclude with how universalizing and ethnic religions relate to the ap® human geography exam",
+            "url": "https://www.albert.io/blog/ethnic-vs-universalizing-religions-ap-human-geography-crash-course/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "ankara turkey and islamabad pakistan are both examples of",
+            "content": "ankara and islamabad shared military experience exchanged equipment and here ankara lays emphasis on the full normalization of relations between the two",
+            "url": "https://www.muslim-perspectives.com/Publication-Detail?publication=11/Turkey-Pakistan-Relations:-Towards-Multidimensional-Regional-Integration",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which description best describes the urban hierarchy model in which the population of a city is inversely proportional to its rank in the hierarchy",
+            "content": "the ranksize rule is a rule about an inverse size to rank often described as the size of cities in a country",
+            "url": "https://www.studysmarter.co.uk/explanations/human-geography/urban-geography/rank-size-rule/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following factors does not play a role in gender relationships in a culture or society",
+            "content": "gender roles are usually centered on conceptions of masculinity and femininity the specifics regarding these gendered expectations may vary among cultures",
+            "url": "https://en.wikipedia.org/wiki/Gender_role",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what monotheistic religion is based on the life and teachings of jesus christ of nazareth",
+            "content": "christianity is an abrahamic monotheistic religion professing that jesus was raised from the dead and is the son of god",
+            "url": "https://en.wikipedia.org/wiki/Christianity",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "all the following factors can be considered pull factors of migration except",
+            "content": "pull factors in migration are preferences or desires that cause people to migrate to another country for example better employment opportunities might attract",
+            "url": "https://study.com/learn/lesson/push-pull-factors-of-migration-what-are-push-pull-factors.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "regions share all of these characteristics except",
+            "content": "regions are areas that share both human and physical characteristics list three types of regions define them and list an example of each",
+            "url": "https://www.albert.io/blog/regions-ap-human-geography-crash-course/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "when we talk about diffusion of a cultural trait what do we mean by hearth",
+            "content": "so where do these cultural features come from a social custom originates at a hearth a center of innovation with many folk cultures the hearth is",
+            "url": "https://pressbooks.pub/humangeo/chapter/culture/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the migration streams into the united states between 1980 and the present have been primarily composed of emigrants from which of the following regions",
+            "content": "immigration from el salvador guatemala and honduras has been the largest contributor to the growth of the central americanborn population",
+            "url": "https://www.migrationpolicy.org/article/central-american-immigrants-united-states-2021",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "an isobar map shows lines connecting all points of equal",
+            "content": "for closed isobars lines that connect a gap is placed in the isobar with the value inserted in the gap your map should look like this",
+            "url": "https://www.noaa.gov/jetstream/analyze-appair-pressure-map",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which urban model theorizes that highrent residential areas grow outward from the center of the city along major highways with lowerrent inhabitants taking over sequentially",
+            "content": "city along major highways with lowerrent inhabitants taking over sequentially a concentric zone model b central place model c urban realms model d",
+            "url": "https://www.crackap.com/ap/human-geography/test9.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "which of the following is not an example of syncretism",
+            "content": "the god hermanubis an example of grecoegyptian syncretism the god taranisjupiter an example of romanoceltic syncretism religious syncretism is the",
+            "url": "https://en.wikipedia.org/wiki/Syncretism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which factor in the last quarter century greatly destabilized eastern europe and led to ethnic conflict",
+            "content": "by the end of 1989 revolts had spread from one capital to another ousting the regimes imposed on central southeast and eastern europe after world war ii",
+            "url": "https://en.wikipedia.org/wiki/Revolutions_of_1989",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "if you wanted to find the global distribution of coal you would use a",
+            "content": "the worlds two largest coal consuming countries in 2023 were also the worlds two most populous nations china and india at 919 and 22 exajoules consumed",
+            "url": "https://www.statista.com/statistics/265510/countries-with-the-largest-coal-consumption/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the intensive agricultural practice of planting and harvesting the same crop more than once a year is called",
+            "content": "intensive agriculture also known as intensive farming conventional or industrial agriculture is a type of agriculture both of crop plants and of animals",
+            "url": "https://en.wikipedia.org/wiki/Intensive_farming",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "which of the following statements is true concerning folklore",
+            "content": "folklore adapts and folklore endures since 1888 the american folklore society has served the people and organizations engaged in understanding and advancing",
+            "url": "https://americanfolkloresociety.org/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following us main immigration flow associations is not correct",
+            "content": "explore key migration terms in the migration vocabulary provided by the international organization for migration iom",
+            "url": "https://www.iom.int/key-migration-terms",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "every country with a seacoast has an exclusive economic zone eez under the un convention on the law of the sea which one of the following statements regarding the law of the sea and the eez is not correct",
+            "content": "in the exclusive economic zone or the territorial sea of a state has in the exclusive economic zone committed a violation of applicable international",
+            "url": "https://www.un.org/depts/los/convention_agreements/texts/unclos/unclos_e.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which one of the following north american associations is not correct",
+            "content": "nato is an alliance of countries from europe and north america it provides a unique link between these two continents enabling them to consult and cooperate",
+            "url": "https://www.nato.int/nato-welcome/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "ralph purchases garden fertilizer at the nearby garden shop rather than drive 50 miles to the neighboring town for the same product this reflects which type of spatial interaction",
+            "content": "this reflects which type of spatial interaction a transferability b complementarity c intervening opportunity d",
+            "url": "https://www.crackap.com/ap/human-geography/test19.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "when a country combines its religion with its government it is called a",
+            "content": "theocracy is a form of autocracy 1 or oligarchy in which one or more deities are recognized as supreme ruling authorities",
+            "url": "https://zh.wikipedia.org/zh-tw/en:theocracy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the theory that whoever controlled the landmass of europe would rule the world is called the",
+            "content": "due to its strategic location and natural resources mackinder argued that whoever controlled the heartland could control the world the geographical pivot",
+            "url": "https://en.wikipedia.org/wiki/The_Geographical_Pivot_of_History",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the multiplier effect is",
+            "content": "the multiplier effect measures the impact that a change in economic activitylike investment or spendingwill have on total economic output",
+            "url": "https://www.investopedia.com/terms/m/multipliereffect.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when a new fashion design is introduced globally the information initially travels through a process known as",
+            "content": "there are many general steps that designers adhere to between the initial conceptualization phase and the completion of a wearable garment",
+            "url": "https://www.masterclass.com/articles/inside-the-fashion-design-process-from-briefs-to-assembly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the irregularity of the wet monsoon in south asia in recent years may have a significant negative effect on which of the following",
+            "content": "the unpredictable and irregular nature of monsoons has led to significant losses and damages to both properties and the environment making it a top priority",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0921818124001425",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following countries does not have a wellknown example of a relict boundary",
+            "content": "the great wall of china is an example of a relic boundary or a nonfunctional boundary that still exists the kurds do not have a state where they are the",
+            "url": "https://www.varsitytutors.com/ap_human_geography-help/political-organization-of-space/territorial-dimensions-of-politics",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is least associated with the development of alluvial landscapes",
+            "content": "alluvial soils are derived from materials transported by water and deposited in the floodplain associated with the watercourse",
+            "url": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/alluvial-soil",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what family do most european languages belong to",
+            "content": "the indoeuropean languages are a language family native to the northern indian subcontinent the overwhelming majority of europe and the iranian plateau",
+            "url": "https://en.wikipedia.org/wiki/Indo-European_languages",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following countries is not a federal state",
+            "content": "federations are often multiethnic and cover a large area of territory such as russia the united states canada india or brazil angola is a country located",
+            "url": "https://quizzclub.com/trivia/which-of-these-countries-is-not-a-federal-state/answer/2283601/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "what type of countries generally possesses a greater variety of climates and resources than other countries",
+            "content": "the main climate zones are equatorial tropical temperate and polar arctic in the northern hemisphere and antarctic in the southern hemisphere",
+            "url": "https://climate-box.com/textbooks/the-problem-of-climate-change/2-2-effects-on-plants-and-animals/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following statements is true concerning women in the labor force",
+            "content": "displaced women were about as likely as men to have found a new job in january 2020 the reemployment rate was 68 percent for women and 72 percent for men",
+            "url": "https://www.bls.gov/opub/reports/womens-databook/2020/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the majority of workers in periphery countries are probably employed in which type of activities",
+            "content": "casual employment is a prominent feature of labour markets in developing countries and has grown in importance in industrialized countries in bangladesh",
+            "url": "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/@dgreports/@dcomm/@publ/documents/publication/wcms_534326.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which structures traditionally occupies the center of a historic asian city",
+            "content": "the principal gate was traditionally located at the centre of the south wall gatehouses were generally built of wood and brick which sat atop a raised and",
+            "url": "https://en.wikipedia.org/wiki/Chinese_city_wall",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "opponents of genetically modified organisms gmos in food are afraid that the gmos",
+            "content": "gmos probably trigger disgust because people view genetic modification as a contamination the effect is enforced when the introduced dna comes",
+            "url": "https://www.scientificamerican.com/article/why-people-oppose-gmos-even-though-science-says-they-are-safe/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "according to alfred webers leastcost theory which one of the following costs of production is the most important factor in locating an industry",
+            "content": "according to weber three main factors influence industrial location transport costs labor costs and agglomeration economies location thus implies an",
+            "url": "https://transportgeography.org/contents/chapter2/transport-and-location/weber-location-triangle/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which form of migration below are farm workers from another country most likely to be practicing during the year",
+            "content": "most legal foreign guest workers are eastern europeans followed by africans mostly moroccan women and latin americans",
+            "url": "https://www.europarl.europa.eu/RegData/etudes/BRIE/2021/689347/EPRS_BRI(2021)689347_EN.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which one of the statements below is characteristic of most african cities",
+            "content": "by t förster 2018 6african cities are works in progress simone 2004a 1 they are fluid complex and marked by a huge breadth diversity and heterogeneityboth across and",
+            "url": "https://journals.openedition.org/poldev/2621",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "what do the terms apartheid ethnic cleansing and integration all have in common",
+            "content": "apartheid is an afrikaans word meaning separation and was the name given to the system of racial segregation and subjugation of the african and other non",
+            "url": "https://archive.bdsmovement.net/colonialism-and-apartheid",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following is not an important environmental factor influencing a countrys agriculture",
+            "content": "two important themes regarding the environmental effects of agricultural production emerge from the studies discussed so farfertilizer use and water quality",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1470160X22010226",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following factors has little or no impact on mortality rates in the developing countries",
+            "content": "controlling for socioeconomic and geographic factors under5 mortality 5q0 in developing countries has been declining at about 27 per year a high rate of",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4921600/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the best definition of an urban area is",
+            "content": "an urban area is the region surrounding a city most inhabitants of urban areas have nonagricultural jobs urban areas are very developed",
+            "url": "https://education.nationalgeographic.org/resource/urban-area/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the chief religion practiced in europe",
+            "content": "most europeans adhere to one of three broad divisions of christianity roman catholicism in the west and southwest protestantism in the north and eastern",
+            "url": "https://www.britannica.com/place/Europe/Religions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why are perceptual or vernacular regions so difficult to identify",
+            "content": "a perceptual or vernacular region is defined by feelings and prejudices that may or may not be true it can also be an idea of a persons mental",
+            "url": "https://www.albert.io/blog/regions-ap-human-geography-crash-course/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which one of the following is not an advantage of urban agriculture",
+            "content": "urban agriculture presents numerous benefits including improved food security economic benefits community building and environmental benefits",
+            "url": "https://help.synnefa.io/articles/urban-farming-the-benefits-and-challenges-that-come-with-it",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the climate of great britain is milder than most other places along the same latitude for which of the following reasons",
+            "content": "the prevailing winds blowing across the north atlantic drift ocean current have more influence in making the uk warmer than other places on the same latitude",
+            "url": "https://www.bbc.co.uk/bitesize/articles/z6qtvj6",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is a centrifugal force in a country",
+            "content": "ethnic and linguistic differences are common centrifugal forces that can create divides within a nation leading to civil conflict or secessionist movements",
+            "url": "https://library.fiveable.me/key-terms/ap-hug/centrifugal-force",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which country faces a serious trade disadvantage due to its location",
+            "content": "niger burkina faso and chad have it pretty rough landlocked mostly desert or semiarid rivers are downstream of other countries few",
+            "url": "https://www.reddit.com/r/geography/comments/1d4bks6/what_country_has_the_worst_physical_geography/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which one of the statements below correctly describes immigrants living in europe",
+            "content": "explore key migration terms in the migration vocabulary provided by the international organization for migration iom",
+            "url": "https://www.iom.int/key-migration-terms",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which theorists tried to explain the prices of farm products as they relate to patterns of land use",
+            "content": "in this work von thünen gave a predictive model of rural development around an idealized isolated urban center imposing several simplifications in an attempt",
+            "url": "https://jasss.soc.surrey.ac.uk/6/2/9.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the idea that you identify with and give allegiance to a nationstate is",
+            "content": "nationalism is an idea or movement that holds that the nation should be congruent with the state as a movement it presupposes the existence and tends to",
+            "url": "https://en.wikipedia.org/wiki/Nationalism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which zone contains lowincome slums ethnic ghettos and general deterioration in burgesss concentric zone model of urban form",
+            "content": "by m van ham this book attempts to get a true global overview of trends in urban inequality and residential socioeconomic segregation in a large number of cities all over",
+            "url": "https://pure.mpg.de/pubman/item/item_3342282_2/component/file_3342283/2021_Book_UrbanSocio-EconomicSegregation.pdf?mode=download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the theory that most migration occurs over a short distance and in steps is attributed to",
+            "content": "ravensteins laws of migration most migrants move only a short distance there is a process of absorption whereby people immediately surrounding a rapidly",
+            "url": "http://www2.harpercollege.edu/mhealy/migrat/xp/mgraven.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is not a problem europe currently faces today",
+            "content": "europeans believe the eu should prioritise renewable energy 38 first followed by investments in sustainable agriculture 31 energy infrastructure 28",
+            "url": "https://europa.eu/eurobarometer/surveys/detail/3215",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following supranational organizations is not an economic union",
+            "content": "there are a number of other regional organisations that while not supranational unions economic cooperation organization eco eurasian economic union",
+            "url": "https://en.wikipedia.org/wiki/Supranational_union",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "early settlements and high population density along coastlines and rivers are best attributed to which of the following",
+            "content": "settlement density refers to the measure of population and physical form in a given area indicating the number of people living in that area and how",
+            "url": "https://www.sciencedirect.com/topics/social-sciences/settlement-density",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "in which zone of burgesss concentric zone model would one find better houses singlefamily homes and higherrent apartments",
+            "content": "the concentric zone model is designed to create a better understanding of the way people populate a city based on wealth and privilege",
+            "url": "https://www.albert.io/blog/concentric-zone-model-ap-human-geography-crash-course-review/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a city that is more than twice as large as the next largest city in a country is called a",
+            "content": "a primate city is a city that is the largest in its country province state or region and disproportionately larger than any others in the urban",
+            "url": "https://en.wikipedia.org/wiki/Primate_city",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following countries is situated in the region of tectonic activity known as the pacific ring of fire",
+            "content": "it was created by the subduction of different tectonic plates at convergent boundaries around the pacific ocean these include the antarctic nazca and cocos",
+            "url": "https://en.wikipedia.org/wiki/Ring_of_Fire",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what condition occurs when the people of one state want to annex a territory whose population is ethnically related to that states population but now under the rule of another state",
+            "content": "secession is the formal withdrawal of a group from a political entity the process begins once a group proclaims an act of secession",
+            "url": "https://en.wikipedia.org/wiki/Secession",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which group enacted the first effective settlement in the eastern united states",
+            "content": "in a space of two years however in 1607 and 1608 the spanish english and french founded settlements north of the 30th latitude that survived despite the",
+            "url": "https://nationalhumanitiescenter.org/pds/amerbegin/settlement/settlement.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the process whereby immigrants learn the values language and customs of their new country is called",
+            "content": "at the individual level the process of acculturation refers to the socialization process by which foreignborn individuals blend the values customs norms",
+            "url": "https://en.wikipedia.org/wiki/Acculturation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "in a postindustrial economy which of the following resources is considered most important to increase productivity",
+            "content": "the post industrial age is characterised by non tangible yet valuable services largely in the areas of finance and information it is heavily",
+            "url": "https://www.hrmanagementapp.com/the-post-industrial-revolution-revolution/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the world systems theory divides the world into",
+            "content": "the worldsystem refers to the interregional and transnational division of labor which divides the world into core countries semiperiphery countries and",
+            "url": "https://en.wikipedia.org/wiki/World-systems_theory",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the global lingua franca is",
+            "content": "english as a lingua franca elf is the use of the english language as a global means of intercommunity communication",
+            "url": "https://en.wikipedia.org/wiki/English_as_a_lingua_franca",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the first stage of the demographic transition exhibits",
+            "content": "stage 1 high mortality and high birth rates in the past birth rates were high but since the mortality rates were also high we observed no or only very",
+            "url": "https://ourworldindata.org/demographic-transition",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is least selfsufficient in the natural resources needed for modern industry",
+            "content": "natural resource use relates to all three dimensions of sustainability social justice environmental health and economic development",
+            "url": "https://www.iisd.org/articles/deep-dive/sustainable-use-natural-resources-governance-challenge",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is not a key milestone reached by the eu",
+            "content": "this article offers expert tips on planning deliverables and milestones in a horizon europe proposal explaining the difference between the terms",
+            "url": "https://www.emdesk.com/horizon-2020-horizon-europe-basics-guide/deliverables-and-milestones-planning-in-horizon-europe-projects",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which one of the following statements is not true of the core countries",
+            "content": "core countries control and benefit the most resources from the global market they are usually recognized as wealthy states with a wide variety of resources and",
+            "url": "https://en.wikipedia.org/wiki/Core_countries",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "variations in vocabulary pronunciation and rhythm in a spoken language are called",
+            "content": "while dialects are subcategories of languages and both are systems of communication they differ in formality recognition and usage",
+            "url": "https://www.marstranslation.com/blog/dialect-vs-language-difference",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a population pyramid or agesex structure displays all the following information about a countrys population except",
+            "content": "a population pyramid is a graph that shows the distribution of ages across a population divided down the center between male and female members",
+            "url": "https://education.nationalgeographic.org/resource/population-pyramid/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which one of the following statements best describes an application of the scurve",
+            "content": "an scurve is a visual tool that allows project managers to identify trends and make datadriven decisions to ensure projects stay on track",
+            "url": "https://www.wrike.com/project-management-guide/faq/what-is-the-s-curve-in-project-management/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "which type of city model contains a distinct residential spine proceeding outward from center city along the main boulevard",
+            "content": "gentrification is the process whereby the character of a neighborhood changes through the influx of more affluent residents the gentry and investment",
+            "url": "https://en.wikipedia.org/wiki/Gentrification",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the majority of kurds are found in which country",
+            "content": "iraq kurds constitute approximately 17 of iraqs population they are the majority in at least three provinces in northern iraq which are together known as",
+            "url": "https://en.wikipedia.org/wiki/Kurdish_population",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what are the two major branches of islam",
+            "content": "sunni islam is by far the largest branch of islam its followers make up 87 to 90 of the muslim global population its name derives from the term ahl alsunna",
+            "url": "https://www.europarl.europa.eu/EPRS/EPRS-Briefing-568339-Understanding-branches-Islam-FINAL.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "what is the population statistic that tells us the level of fertility at which a population will have just enough births to replace parents and compensate for early deaths",
+            "content": "by 2024 of the 237 countries and areas in world population prospects 131 had total fertility rates below 21 births per woman the approximate",
+            "url": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2025_wfr-2024_advance-unedited.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the theory that every society develops economically according to a fivestage pattern of growth is attributed to",
+            "content": "it was developed by w w rostow the model postulates that economic modernization occurs in five basic stages of varying length",
+            "url": "https://en.wikipedia.org/wiki/Rostow%27s_stages_of_growth",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the purpose for the creation of nato was to",
+            "content": "no information is available for this pagelearn why",
+            "url": "https://www.nato.int/cps/ge/natohq/declassified_139339.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the attempt by core countries to stimulate increased agricultural production in the periphery through use of technology hybrid seed and fertilizers is called the",
+            "content": "by fx côte 2018 this contract is focused on developing coun tries and aims to promote the agroecological transition as one solution among others for achieving",
+            "url": "https://agritrop.cirad.fr/592978/1/ID592978.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "boundary problems along the united statesmexico border are caused by which type of issue below",
+            "content": "illegal crossing of the border to enter the united states has caused the mexicounited states border crisis it is one of two international borders that the",
+            "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93United_States_border",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the rhine river is an example of which type of boundary",
+            "content": "it forms part of the swissliechtenstein border then part of the swissaustrian border from lake constance downstream it forms part of the swissgerman",
+            "url": "https://en.wikipedia.org/wiki/Rhine",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "national sports teams flags national anthems and national holidays all promote",
+            "content": "9 national anthems flags and holidays are all symbols that promote a irredentism b nationalism c supranationalism d regionalism e war",
+            "url": "https://www.crackap.com/ap/human-geography/question-740-answer-and-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a rejection of or indifference to religion in a country is called",
+            "content": "country and many poor countries religion has declined irreligion was described in terms of hostility reactivity or indifference toward religion and or as",
+            "url": "https://en.wikipedia.org/wiki/Irreligion",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in what country are the most basque speakers found",
+            "content": "the highest percentage of speakers can now be found in the 1624 age range 745 vs 220 in the 65 age range in the french basque country in 2021 200",
+            "url": "https://en.wikipedia.org/wiki/Basque_language",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what was the primary reason the green revolution did not help africa much",
+            "content": "these political constraints on state support for agriculture are arguably compounded by the challenges faced in ssa today including relatively high population",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0305750X15002302",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the most rapidly growing religion in the united states today",
+            "content": "christianity is the most widely professed religion with the majority of americans being evangelicals mainline protestants or catholics",
+            "url": "https://en.wikipedia.org/wiki/Religion_in_the_United_States",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following would not be considered a barrier to diffusion of a cultural trait",
+            "content": "which of the following acts as a barrier to diffusion of ideas andor cultural traits a the earths topography b distance c",
+            "url": "https://highered.mheducation.com/sites/0078021464/student_view0/chapter2/quiz.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following is an example of a bulkgaining industry",
+            "content": "most drink bottling industries are examples of bulkgaining indus tries empty cans or bottles are brought to the bottler filled and shipped to consumers",
+            "url": "https://www.auburn.wednet.edu/cms/lib/WA01001938/Centricity/Domain/2217/Ch%2011%20review%20packet.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the european union eu replaced which of the following organizations",
+            "content": "it replaces the common assembly of the european coal and steel community and changes its name to the european parliament on 30 march 1962",
+            "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1945-59_en",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "in which country does language pose a centrifugal force",
+            "content": "language will act as a centripetal force and bring the multiracial and multilingual singaporeans together into a cohesive nation in the case of singapore",
+            "url": "https://www.jstor.org/stable/25797623",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which type of economic activity is most closely tied to the physical environment",
+            "content": "primary sector companies are directly engaged in activities utilizing natural resources such as mining and agriculture secondary sector companies produce",
+            "url": "https://www.investopedia.com/terms/s/sector.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following items is not a challenge to the state",
+            "content": "any challenge to the following items is prohibited under this challenge process 1 signer does not live at address listed on the petition 2 circulator",
+            "url": "https://sdsos.gov/elections-voting/nominating-petitions/Challenging-a-petition.aspx",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the use and spread of english in nineteenthcentury india is an example of what type of diffusion",
+            "content": "the process of cultural diffusion from china to india in the nineteenth century took place through the most unlikely medium of a trade that was dominated by",
+            "url": "https://books.openedition.org/cdf/7541?lang=en",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the most rapidly urbanizing area of the world is",
+            "content": "subsaharan africa is urbanizing at the fastest rate in the world",
+            "url": "https://www.cfr.org/blog/africa-fastest-urbanizing-place-planet",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the largest exporter of agricultural goods in the world is",
+            "content": "this is likely due to the countrys role as a major european shipping hub brazil exported agricultural products worth 1364055 us dollars",
+            "url": "https://www.statista.com/statistics/1332329/leading-countries-worldwide-by-value-of-agricultural-products-exported/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the outlying area serviced by a urban center is referred to as a",
+            "content": "what connections are evident between population distribution and major cities cities have high popula tions while outlying areas have fewer inhabitants",
+            "url": "https://www.esri.com/content/dam/esrisites/en-us/media/pdf/geoinquiries/human-geography/15-urbanareas-aphg-geoinquiry.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "one of the effects of the eastwest orientation of the alpine mountain system and the northern plains of western and central europe is that it",
+            "content": "eastwestoriented mountain ranges and plains play a “channelling role” in facilitating the inland penetration of westerly moisture",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0921818124001905",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is not a feature of an export processing zone epz",
+            "content": "an export processing zone or epz is an area set up to enhance commercial and industrial exports by encouraging economic growth through investment from",
+            "url": "https://www.thomasnet.com/insights/export-processing-zones/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which one of the following is not a centripetal force in a state",
+            "content": "both centrifugal and centripetal forces exist in the same dimensions and examples are in the areas of religion language ethnicity government",
+            "url": "https://www.albert.io/blog/centripetal-vs-centrifugal-forces-ap-human-geography-crash-course/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "quebec is a strong example of which of the following situations",
+            "content": "following the seven years war quebec became a british colony in the british empire it was first known as the province of quebec 17631791 then as lower",
+            "url": "https://en.wikipedia.org/wiki/History_of_Quebec",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the process of invasion and succession is a process involving migration and is best described as when",
+            "content": "invasion and succession involve a chain reaction with each preceding immigrant wave moving outwards and being succeeded by more recent poorer immigrants",
+            "url": "https://www.oxfordreference.com/display/10.1093/oi/authority.20110803100009502",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "all of the following are nonbasic jobs in the city except",
+            "content": "20663 what are examples of non basic jobs available on indeedcom apply to customer service representative forklift operator patient advocate and more",
+            "url": "https://www.indeed.com/q-what-are-examples-of-non-basic-jobs.html",
+            "engine": "ddg"
+        }
+    ]
+}

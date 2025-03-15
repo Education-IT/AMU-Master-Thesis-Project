@@ -1,0 +1,1520 @@
+{
+    "task": "mmlu_jurisprudence",
+    "dataset": "web_access_jurisprudence_final",
+    "questions": 108,
+    "noWebContextCount": 1,
+    "contaminated_queries": 72,
+    "contaminated_urls": 229,
+    "valid_urls": 107,
+    "avg_contaminated_before_valid": 3.1401869158878504,
+    "contaminated_data_ratio": 0.6815476190476191,
+    "most_contaminated_urls": {
+        "learninglink.oup.com": 67,
+        "www.csun.edu": 6
+    },
+    "noWebContext": [
+        "Donny threw a knife at Sally, intending to injure her severely. However, Donny missed Sally. Sally saw the knife just as it whizzed by her head, missing it by about one inch. As a result, Sally was very scared. Sally sued Donny for assault and battery. Which of the following is most correct?"
+    ],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "who was an exponent of “natural law with a variable content”",
+            "content": "main exponent stammler 18561938 was an exponent of the natural law with a variable content۔ importance of natural law blackstone observed",
+            "url": "https://advaq.com/natural-law-theory/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "american realists argued that formalism devalued the authority of the judge to make law because",
+            "content": "american realists argued that formalism devalued the authority of the judge to make law because judicial decisions are less important than legislation",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-06",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "tom and jerry entered into a contract whereby tom agreed to sell jerry 1000 worth of heroin an illegal substance this is an example of a",
+            "content": "tom and jerry entered into a contract whereby tom agreed to sell jerry 1000 worth of heroin an illegal substance this is an example of a a quasi contract",
+            "url": "https://www.csun.edu/sites/default/files/lawquiz.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "tom and jerry entered into a contract whereby tom agreed to sell jerry 1000 worth of heroin an illegal substance this is an example of a",
+            "content": "tom and jerry entered into a contract whereby tom agreed to sell jerry 1000 worth of heroin an illegal substance this is an example of a a quasi contract",
+            "url": "https://www.ngmc.org/wp-content/uploads/2019/06/B.Com-CA_18UCC309-BUSINESS-LAW.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why do the scandinavian realists reject a metaphysical approach to law",
+            "content": "why do the scandinavian realists reject a metaphysical approach to law because they regard empiricism as a more reliable method by which to understand the",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-06",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following most accurately describes harts response to fullers argument concerning the invalidity of nazi law",
+            "content": "which of the following most accurately describes harts response to fullers argument concerning the invalidity of nazi law the nazi law in question was",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/59e8a23e071b2f000f2f2ec6",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following most accurately describes harts response to fullers argument concerning the invalidity of nazi law",
+            "content": "which of the following most accurately describes harts response to fullers argument concerning the invalidity of nazi law the nazi law in question was",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-02",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "according to malinowski the trobriand islanders organized their society around what concept",
+            "content": "3 according to malinowski the trobriand islanders organized their society around what concept conflict",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-08",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement below is the least consistent with the argument that judges in an unjust legal system ought to resign",
+            "content": "which statement below is the least consistent with the argument that judges in an unjust legal system ought to resign judges are under a duty to act justly",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/59e8a23e071b2f000f2f2ec6",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement below is the least consistent with the argument that judges in an unjust legal system ought to resign",
+            "content": "which statement below is the least consistent with the argument that judges in an unjust legal system ought to resign judges are under a duty to act justly",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-02",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is the strongest argument against ethical relativisms hostility to human rights",
+            "content": "which of the following is the strongest argument against ethical relativisms hostility to human rights utilitarianism correct incorrect communitarianism",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-10",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is the strongest argument against ethical relativisms hostility to human rights",
+            "content": "which of the following is the strongest argument against ethical relativisms hostility to human rights utilitarianism correct incorrect communitarianism",
+            "url": "https://learninglink.oup.com/access/content/wacks6e-student-resources/wacks6e-chapter-10-self-test-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which proposition below is the most powerful refutation of benthams felicific calculus",
+            "content": "which proposition below is the most powerful refutation of benthams felicific calculus happiness is less important than economic prosperity correct",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-09",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "hart dismissed american realism as the claim that talk of rules is a myth cloaking the truth that law consists simply of the decisions of courts and predictions of them what is the strongest reason for regarding this remark as unfair",
+            "content": "3 hart dismissed american realism as the claim that talk of rules is a myth cloaking the truth that law consists simply of the decisions of courts and",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-06",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "hart dismissed american realism as the claim that talk of rules is a myth cloaking the truth that law consists simply of the decisions of courts and predictions of them what is the strongest reason for regarding this remark as unfair",
+            "content": "by a tutt 1994 characterizing legal realism as the view “that talk of rules is a myth cloaking the truth that law consists simply of the decisions of courts and",
+            "url": "https://www.uakron.edu/law/lawreview/volumes/v48/issue2/2%20-%20Tutt%20-%20p215%20-%20FINAL%20NO%20HEADER.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in justice for hedgehogs dworkin endorses humes principle what does he understand by this idea",
+            "content": "in justice for hedgehogs dworkin endorses humes principle what does he understand by this idea that there is no distinction between law and morality",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-05",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in justice for hedgehogs dworkin endorses humes principle what does he understand by this idea",
+            "content": "in justice for hedgehogs dworkin endorses humes principle what does he understand by this idea that there is no distinction between law and morality",
+            "url": "https://learninglink.oup.com/access/content/wacks6e-student-resources/wacks6e-chapter-5-self-test-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "donny threw a knife at sally intending to injure her severely however donny missed sally sally saw the knife just as it whizzed by her head missing it by about one inch as a result sally was very scared sally sued donny for assault and battery which of the following is most correct",
+            "content": "sally saw the knife just as it whizzed by her head missing it by about one inch as a result sally was very scared sally sued donny for assault and battery",
+            "url": "https://www.csun.edu/sites/default/files/lawquiz.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "donny threw a knife at sally intending to injure her severely however donny missed sally sally saw the knife just as it whizzed by her head missing it by about one inch as a result sally was very scared sally sued donny for assault and battery which of the following is most correct",
+            "content": "donny threw a knife at sally intending to injure her severely sally saw the knife just as it whizzed by her head missing it by about one",
+            "url": "https://www.slideshare.net/slideshow/ca-cpt-56012065/56012065",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "hart writes the certification of something as legally valid is not conclusive of the question of obedience however great the aura of majesty or authority which the official system may have its demands must in the end be submitted to a moral scrutiny what does this say about the nature of legal positivism",
+            "content": "1 which is the least accurate description of legal positivism 2 hart writes the certification of something as legally valid is not conclusive of the",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-03",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "hart writes the certification of something as legally valid is not conclusive of the question of obedience however great the aura of majesty or authority which the official system may have its demands must in the end be submitted to a moral scrutiny what does this say about the nature of legal positivism",
+            "content": "hart writes the certification of something as legally valid is not conclusive of the question of obedience however great the aura of majesty or",
+            "url": "https://learninglink.oup.com/access/content/wacks6e-student-resources/wacks6e-chapter-3-self-test-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "who says that “social contract is not a historical fact but a hypothetical construction of reason”",
+            "content": "who says that “social contract” is not a historical fact but a hypothetical construction of reason” hobbes incorrect answer rousseau correct answer locke",
+            "url": "https://abhipedia.abhimanu.com/Article/Judicial/Mjg2NDMz/Who-says-that-ldquo-Social-Contract-rdquo-is-not-a-historical-fact-but-a-hypothetical-construction-o-Jurisprudence-",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "who says that “social contract is not a historical fact but a hypothetical construction of reason”",
+            "content": "him social contract is not a historical fact but a hypothetical construction of reason prior to the social contract the life in the state of nature was",
+            "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2410525_code2095494.pdf?abstractid=2410525&mirid=1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "who says that “social contract is not a historical fact but a hypothetical construction of reason”",
+            "content": "who says that “social contract” is not a historical fact but a hypothetical construction of reason” hobbes incorrect answer rousseau correct answer locke",
+            "url": "https://abhipedia.abhimanu.com/Article/9/Mjg2NDMz/Who-says-that-ldquo-Social-Contract-rdquo-is-not-a-historical-fact-but-a-hypothetical-co-on-Jurisprudence-for-undefined-",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "who says that “social contract is not a historical fact but a hypothetical construction of reason”",
+            "content": "by me laskar him social contract is not a historical fact but a hypothetical construction of reason prior to the social contract the life in the state of nature was",
+            "url": "https://kennethmhill.com/assets/docs/Hobbes_Locke_Rousseau.40193014.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "who says that “social contract is not a historical fact but a hypothetical construction of reason”",
+            "content": "hobbes argues for an absolute sovereign as according to him social contract is not a historical fact but a hypothetical construction of reason",
+            "url": "https://www.academia.edu/17855115/social_contract",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "who says that “social contract is not a historical fact but a hypothetical construction of reason”",
+            "content": "according to him social contract is not a historical fact but a hypothetical construction of reason prior to the social contract the life in the state of",
+            "url": "https://portal.abuad.edu.ng/Assignments/1597487037GROUP_7%EF%B8%8F%E2%83%A3_PRESENTATION.docx",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following propositions would be rejected by those who describe themselves as critical legal theorists",
+            "content": "which of the following propositions would be rejected by those who describe themselves as critical legal theorists law is politics correct incorrect law is",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-13",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following propositions would be rejected by those who describe themselves as critical legal theorists",
+            "content": "which of the following propositions would be rejected by those who describe themselves as critical legal theorists law is politics correct incorrect law is",
+            "url": "https://learninglink.oup.com/access/content/wacks6e-student-resources/wacks6e-chapter-13-self-test-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "leopold pospisil identifies four elements manifested by law authority universality obligatio and fourthly",
+            "content": "4 leopold pospisil identifies four elements manifested by law authority universality obligatio and fourthly dispute correct incorrect sanction",
+            "url": "https://learninglink.oup.com/access/content/wacks6e-student-resources/wacks6e-chapter-8-self-test-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "leopold pospisil identifies four elements manifested by law authority universality obligatio and fourthly",
+            "content": "4 leopold pospisil identifies four elements manifested by law authority universality obligatio and fourthly dispute correct incorrect sanction",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-08",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "“natural law is based on the nature of man and on his inward need of living in society” who said it",
+            "content": "natural law is based on the nature of man and on his inward need of living in society who said it a hugo grotius b hobbes c locke",
+            "url": "https://www.legalbites.in/jurisprudence/jurisprudence-mcqs-for-law-aspirants-solved-high-quality-mcqs-for-judiciary-prelims-1040345",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "“natural law is based on the nature of man and on his inward need of living in society” who said it",
+            "content": "q11 “natural law is based on the nature of man and on his inward need of living in society” who said it a hugo grotius b hobbes c locke d",
+            "url": "https://apslaw.co.in/jurisprudence-mcqs-for-law-aspirants-solved-high-quality-mcqs-for-judiciary-prelims/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "“natural law is based on the nature of man and on his inward need of living in society” who said it",
+            "content": "natural law is based on the nature of man and on his inward need of living in society who said it a hugo grotius b hobbes c locke d rousseau q 13",
+            "url": "https://de.scribd.com/document/414580492/CLAT-LLM-2015-pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "“natural law is based on the nature of man and on his inward need of living in society” who said it",
+            "content": "natural law is based on the nature of man and on his inward need of living in society who said it a hugo grotius b hobbes c locke d rousseau q 13",
+            "url": "https://lawyersgyan.com/wp-content/uploads/2021/03/clat-llm-2015.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "“natural law is based on the nature of man and on his inward need of living in society” who said it",
+            "content": "natural law is based on the nature of man and on his inward need of living in society who said it a hugo grotius b hobbes c locke d",
+            "url": "https://www.jamiastudy.com/papers/jmi-entrance-exam-master-of-law-llm-set-a-m53-2017.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "bill purchased a can of sipep from the ajax minimart after he finished drinking the sipep bill noticed that the can contained dead insects stuck on the inside bottom of the can in a strict product liability tort action against ajax bill must prove among other things that",
+            "content": "bill noticed that the can of sipep contained dead insects in a strict product liability toet action against ajaxbill must prove that ajax knew",
+            "url": "https://www.transtutors.com/questions/bill-purchased-a-can-of-sipep-from-the-ajax-minimart-after-he-finished-drinking-the--1412036.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "bill purchased a can of sipep from the ajax minimart after he finished drinking the sipep bill noticed that the can contained dead insects stuck on the inside bottom of the can in a strict product liability tort action against ajax bill must prove among other things that",
+            "content": "bill noticed can contained dead insects stuck on the inside bottom of the can in a strict product liability tort action against ajax bill must prove",
+            "url": "https://edubirdie.com/docs/california-state-university-northridge/blaw-280-business-law-i/61558-business-law-practice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "bill purchased a can of sipep from the ajax minimart after he finished drinking the sipep bill noticed that the can contained dead insects stuck on the inside bottom of the can in a strict product liability tort action against ajax bill must prove among other things that",
+            "content": "6 bill purchased a can of sipep from the ajax minimart after he finished drinking the sipep bill noticed that the can contained dead insects stuck on",
+            "url": "https://www.csun.edu/sites/default/files/lawquiz.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the body of law which establishes rights between persons and provides for redress for violation of those rights is known as",
+            "content": "9 the body of law which establishes rights between persons and provides for redress for violation of those rights is known as a criminal law",
+            "url": "https://www.csun.edu/sites/default/files/lawquiz.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the body of law which establishes rights between persons and provides for redress for violation of those rights is known as",
+            "content": "the body of law which establishes rights between persons and provides for redress for violation of those rights is known as civil law",
+            "url": "https://mrkt.nnu.edu/find/the-body-of-law-which-establishes-rights-between-persons-and-vkmk",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "according to austin the science of jurisprudence is concerned with",
+            "content": "view of john austine according to him the science of jurisprudence is concerned with positive laws or with laws strictly so called it has",
+            "url": "https://lawkranti.com/d/67-john-austin-positive-law-under-analytical-school-jurisprudence-notes",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "according to austin the science of jurisprudence is concerned with",
+            "content": "according to john austin science of jurisprudence is concerned with positive laws that is laws strictly so called it has nothing to do with the goodness or",
+            "url": "https://tndalu.ac.in/econtent/30_Jurisprudence.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following apparent correlatives contradicts hohfelds scheme of jural relations",
+            "content": "which of the following apparent correlatives contradicts hohfelds scheme of jural relations right and duty correct incorrect privilege and noright",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-10",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following statements best captures the nature of fullers inner morality of law",
+            "content": "which of the following statements best captures the nature of fullers inner morality of law a positivist view of law correct incorrect a morality of",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/59e8a23e071b2f000f2f2ec6",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following statements best captures the nature of fullers inner morality of law",
+            "content": "which of the following statements best captures the nature of fullers inner morality of law a positivist view of law correct incorrect a morality of",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-02",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following statements most accurately explains ross comparison of social life to the game of chess",
+            "content": "which of the following statements most accurately explains ross comparison of social life to the game of chess chess is a game of skill success in life",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-06",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how does nozick answer the criticism of his historical entitlement theory that if the distribution of goods in society is unjust those at the bottom always lose",
+            "content": "9 how does nozick answer the criticism of his historical entitlement theory that if the distribution of goods in society is unjust those at the bottom always",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-09",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "hart argues that secondary rules are powerconferring but this seems unconvincing in the case of the rule of recognition because",
+            "content": "hart argues that secondary rules are powerconferring but this seems unconvincing in the case of the rule of recognition because it both confers power",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-04",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "hart argues that secondary rules are powerconferring but this seems unconvincing in the case of the rule of recognition because",
+            "content": "4 hart argues that secondary rules are powerconferring but this seems unconvincing in the case of the rule of recognition because it both confers power",
+            "url": "https://learninglink.oup.com/access/content/wacks6e-student-resources/wacks6e-chapter-4-self-test-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the will theory of rights maintains that the enforcement of ys duty requires the exercise of will by x it assumes the correlativity of rights and duties which of the following succeeds in formulating the interest theory without this correlativity",
+            "content": "2 the will theory of rights maintains that the enforcement of ys duty requires the exercise of will by x it assumes the correlativity of rights and duties",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-10",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the will theory of rights maintains that the enforcement of ys duty requires the exercise of will by x it assumes the correlativity of rights and duties which of the following succeeds in formulating the interest theory without this correlativity",
+            "content": "2 the will theory of rights maintains that the enforcement of ys duty requires the exercise of will by x it assumes the correlativity of rights and duties",
+            "url": "https://learninglink.oup.com/access/content/wacks6e-student-resources/wacks6e-chapter-10-self-test-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the will theory of rights maintains that the enforcement of ys duty requires the exercise of will by x it assumes the correlativity of rights and duties which of the following succeeds in formulating the interest theory without this correlativity",
+            "content": "while the will theory by arguing that the enforcement of ys duty requires the exercise of will by x or someone else rests on the assumption of the",
+            "url": "https://www.oxfordlawtrove.com/display/10.1093/he/9780198864677.001.0001/he-9780198864677-chapter-10?d=%2F10.1093%2Fhe%2F9780198864677.001.0001%2Fhe-9780198864677-chapter-10&p=emailACS621NpGPlOc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement below is the least likely to follow logically from savignys notion of a volksgeist",
+            "content": "48 which statement below is the least likely to follow logically from savignys notion of a volksgeist a societys law is a reflection of its",
+            "url": "https://www.legalbites.in/du-llm-2014-solved-paper/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement below is the least likely to follow logically from savignys notion of a volksgeist",
+            "content": "which statement below is the least likely to follow logically from savignys notion of a volksgeist a societys law is a reflection of its culture correct",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-08",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement below is the least likely to follow logically from savignys notion of a volksgeist",
+            "content": "which statement below is the least likely to follow logically from savignys notion of a volksgeist a societys law is a reflection of its culture correct",
+            "url": "https://learninglink.oup.com/access/content/wacks6e-student-resources/wacks6e-chapter-8-self-test-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "according to hobbes peace is the first law of nature because of which of the following situations",
+            "content": "according to hobbes peace is the first law of nature because of which of the following situations without peace everyone has a right to everything",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/59e8a23e071b2f000f2f2ec6",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "according to hobbes peace is the first law of nature because of which of the following situations",
+            "content": "according to hobbes peace is the first law of nature because of which of the following situations without peace everyone has a right to everything",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-02",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement is closest to characterizing the principal difference between the positions adopted by hobbes and locke",
+            "content": "which statement is closest to characterizing the principal difference between the positions adopted by hobbes and locke they adopt different attitudes",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/59e8a23e071b2f000f2f2ec6",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement is closest to characterizing the principal difference between the positions adopted by hobbes and locke",
+            "content": "which statement is closest to characterizing the principal difference between the positions adopted by hobbes and locke they adopt different attitudes",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-02",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "maines famous aphorism that the movement of progressive societies has hitherto been a movement from status to contract is often misunderstood in what way",
+            "content": "maines famous aphorism that the movement of progressive societies has hitherto been a movement from status to contract is often misunderstood in what way",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-08",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "maines famous aphorism that the movement of progressive societies has hitherto been a movement from status to contract is often misunderstood in what way",
+            "content": "maines famous aphorism that the movement of progressive societies has hitherto been a movement from status to contract is often misunderstood in what way",
+            "url": "https://learninglink.oup.com/access/content/wacks6e-student-resources/wacks6e-chapter-8-self-test-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "maines famous aphorism that the movement of progressive societies has hitherto been a movement from status to contract is often misunderstood in what way",
+            "content": "movement of the progressive societies has hitherto been a movement from status to contract maines now celebrated dictum as to the movement from status",
+            "url": "https://oll.libertyfund.org/titles/pollock-ancient-law",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "maines famous aphorism that the movement of progressive societies has hitherto been a movement from status to contract is often misunderstood in what way",
+            "content": "free agreement of individuals we may say that the movement of the progressive societies has hitherto been a movement from status to contract his",
+            "url": "https://repository.up.ac.za/bitstream/handle/2263/24973/04chapters8-9.pdf?sequence=5",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "maines famous aphorism that the movement of progressive societies has hitherto been a movement from status to contract is often misunderstood in what way",
+            "content": "that the movement of the progressive societies has hitherto been a movement from status to contract having quoted maine gluckman continues the barotse",
+            "url": "http://ndl.ethernet.edu.et/bitstream/123456789/19292/1/505.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "who amongst the following said that “right with me is a child of law…a natural right is a son that never had a father",
+            "content": "who amongst the following said that a right with me is a child of law… a natural right is a son that never had a father a jeremy valdon 2 llm 2015",
+            "url": "https://pdfcoffee.com/clat-llm-2015-pdf-free.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which proposition below may be characterized as the most powerful refutation by hart of lord devlins argument",
+            "content": "which proposition below may be characterized as the most powerful refutation by hart of lord devlins argument society has no right to preserve its moral",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/59e8a23e071b2f000f2f2ec6",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which proposition below may be characterized as the most powerful refutation by hart of lord devlins argument",
+            "content": "which proposition below may be characterized as the most powerful refutation by hart of lord devlins argument society has no right to preserve its moral",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-02",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which proposition below may be characterized as the most powerful refutation by hart of lord devlins argument",
+            "content": "7 which proposition below may be characterized as the most powerful refutation by hart of lord devlins argument a homosexual acts cause public outrage",
+            "url": "https://rcsc.gov.bt/wp-content/uploads/2025/02/Technical-Paper-II-Law.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "austin has been described as a naive empiricist why",
+            "content": "austin has been described as a naïve empiricist why because he neglects the importance of morality correct incorrect because his account of law is",
+            "url": "https://learninglink.oup.com/access/content/wacks6e-student-resources/wacks6e-chapter-3-self-test-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "austin has been described as a naive empiricist why",
+            "content": "austin has been described as a naive empiricist why because he neglects the importance of morality correct incorrect because his account of law is",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-03",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following factors contributed significantly to the revival of natural law in the 20th century",
+            "content": "which of the factors below contributed significantly to the revival of natural law in the 20th century the depression of the 1930s correct incorrect the",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/59e8a23e071b2f000f2f2ec6",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following factors contributed significantly to the revival of natural law in the 20th century",
+            "content": "which of the factors below contributed significantly to the revival of natural law in the 20th century friendship wealth knowledge question",
+            "url": "https://view.genially.com/6430a82bcc55860012f220bb/interactive-content-natural-law-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement best describes the relationship between law and morality among nonpositivist legal theorists",
+            "content": "which statement best describes the relationship between law and morality among nonpositivist legal theorists there is no relationship between law and morality",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-02",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the focus of liberal feminists on equality is denounced by radical feminists as mistaken because",
+            "content": "1 the focus of liberal feminists on equality is denounced by radical feminists as mistaken because it treats women as objects",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-14",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "catharine mackinnon argues that since men dominate women the question is ultimately one of power which proposition below is the most inconsistent with this argument",
+            "content": "which proposition below is the most inconsistent with this argument women can achieve equality through political pressure",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-14",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following best describes lon fullers objective in his hypothetical case of the speluncean explorers",
+            "content": "which of the following best describes lon fullers objective in his hypothetical case of the speluncean explorers to demonstrate the differences between",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-01",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following best describes lon fullers objective in his hypothetical case of the speluncean explorers",
+            "content": "which of the following best describes lon fullers objective in his hypothetical case of the speluncean explorers to demonstrate the differences between",
+            "url": "https://learninglink.oup.com/access/content/wacks6e-student-resources/wacks6e-chapter-1-self-test-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following criticisms of llewellyns distinction between the grand and formal styles of legal reasoning is the most compelling",
+            "content": "distinction between the grand and formal styles of legal reasoning is the most compelling there is no distinction between the two forms of legal reasoning",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-06",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why does communitarianism resemble aristotles philosophy more than kants",
+            "content": "8 why does communitarianism resemble aristotles philosophy more than kants because aristotle justified slavery",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-09",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "who said that “jurisprudence is the eye of law”",
+            "content": "who said that ldquo jurisprudence is the eye of law rdquo laski correct answer छोटे courses बड़े results master jurisprudence",
+            "url": "https://abhipedia.abhimanu.com/Article/SEBI/NDMyMDc1/Who-said-that-ldquo-Jurisprudence-is-the-eye-of-law-rdquo-Legal-Stream-SEBI-",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following arguments against the fair play argument in support of a duty to obey the law is the most persuasive",
+            "content": "which of the following arguments against the fair play argument in support of a duty to obey the law is the most persuasive fairness is a relative term",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-11",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which proposition below is the most consistent with what rawls claims the pop would opt for in respect of social primary goods",
+            "content": "which proposition below is the most consistent with what rawls claims the pop would opt for in respect of social primary goods the pop will choose wealth",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-09",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which proposition below is the most consistent with what rawls claims the pop would opt for in respect of social primary goods",
+            "content": "which proposition below is the most consistent with what rawls claims the pop would opt for in respect of social primary goods the pop will choose wealth",
+            "url": "https://learninglink.oup.com/access/content/wacks6e-student-resources/wacks6e-chapter-9-self-test-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which proposition below is the most inconsistent with a consequentialist justification of punishment",
+            "content": "3 which proposition below is the most inconsistent with a consequentialist justification of punishment punishment protects security correct incorrect",
+            "url": "https://learninglink.oup.com/access/content/wacks6e-student-resources/wacks6e-chapter-12-self-test-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement below is the least likely to follow logically from dworkins notion of law as integrity",
+            "content": "which statement below is the least likely to follow logically from dworkins notion of law as integrity it is likely to generate more individual rights and",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-05",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the philosophers of the school of jurisprudence believe that the law is a set of rules developed communicated and enforced by the ruling party rather than a reflection of the societys morality history logic or sociology",
+            "content": "believe that the law is a set of rules developed communicated and enforced than a reflection of the societys morality history logic or sociology",
+            "url": "https://www.brainscape.com/flashcards/chapter-1-5425015/packs/8182564",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement best describes one of dworkins central arguments in justice for hedgehogs",
+            "content": "which statement best describes one of dworkins central arguments in justice for hedgehogs morality plays no role in the concept of law correct incorrect",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-05",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on what grounds does john finnis reject humes conception of practical reason",
+            "content": "on what grounds does john finnis reject humes conception of practical reason that natural law corresponds to positive law correct incorrect that hume is",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/59e8a23e071b2f000f2f2ec6",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "on what grounds does john finnis reject humes conception of practical reason",
+            "content": "on what grounds does john finnis reject humes conception of practical reason that natural law corresponds to positive law correct incorrect that hume is",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-02",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement below is the least likely to follow logically from austins argument that a sanction consists of the smallest chance of incurring the smallest evil",
+            "content": "argument that a sanction consists of the smallest chance of incurring the smallest evil all commands include some sanction correct incorrect the concept",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-03",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement below is the least likely to follow logically from austins argument that a sanction consists of the smallest chance of incurring the smallest evil",
+            "content": "argument that a sanction consists of the smallest chance of incurring the smallest evil all commands include some sanction correct incorrect the concept",
+            "url": "https://learninglink.oup.com/access/content/wacks6e-student-resources/wacks6e-chapter-3-self-test-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement below best represents durkheims view of the function of punishment",
+            "content": "3 which statement below best represents durkheims view of the function of punishment deterrence",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-07",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement below best represents durkheims view of the function of punishment",
+            "content": "which statement below best represents durkheims view of the function of punishment a vengeance b rehabilitation c desert d deterrence 19 which",
+            "url": "https://www.rcsc.gov.bt/wp-content/uploads/2021/09/Technical-Paper-II-Law.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement best describes the nature and function of kelsens grundnorm",
+            "content": "which statement best describes the nature and function of kelsens grundnorm the ultimate source of a legal systems morality correct incorrect the rule",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-04",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement best describes the nature and function of kelsens grundnorm",
+            "content": "which statement best describes the nature and function of kelsens grundnorm the ultimate source of a legal systems morality correct incorrect the rule",
+            "url": "https://learninglink.oup.com/access/content/wacks6e-student-resources/wacks6e-chapter-4-self-test-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the factors below contributed significantly to the revival of natural law in the 20th century",
+            "content": "which of the factors below contributed significantly to the revival of natural law in the 20th century the depression of the 1930s correct incorrect the",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/59e8a23e071b2f000f2f2ec6",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the factors below contributed significantly to the revival of natural law in the 20th century",
+            "content": "which of the factors below contributed significantly to the revival of natural law in the 20th century the depression of the 1930s correct incorrect the",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-02",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the factors below contributed significantly to the revival of natural law in the 20th century",
+            "content": "which of the factors below contributed significantly to the revival of natural law in the 20th century friendship wealth knowledge question",
+            "url": "https://view.genially.com/6430a82bcc55860012f220bb/interactive-content-natural-law-quiz",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "critical legal studies cls is often compared to or with american realism which of the following statements is inaccurate",
+            "content": "critical legal studies cls is often compared to or with american realism which of the following statements is inaccurate both are concerned with the law",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-13",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "ciceros conception of natural law is based on the idea that true law is right reason in agreement with nature reason is a key element because",
+            "content": "2 ciceros conception of natural law is based on the idea that true law is right reason in agreement with nature reason is a key element because it is",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/59e8a23e071b2f000f2f2ec6",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "humes attack on natural law is founded on his argument that",
+            "content": "humes attack on natural law is founded on his argument that we cannot natural law fails to protect the state against attacks correct incorrect",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/59e8a23e071b2f000f2f2ec6",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "humes attack on natural law is founded on his argument that",
+            "content": "5 humes attack on natural law is founded on his argument that we cannot natural law fails to protect the state against attacks correct",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-02",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "bill purchased a can of sipep from the ajax minimart after he finished drinking the sipep bill noticed that the can contained dead insects stuck on the inside bottom of the can in a strict product liability tort action against ajax bill must prove among other things that",
+            "content": "bill purchased a can of sipep from the ajax minimart after he finished drinking the sipep bill noticed that the can contained dead insects stuck on the inside bottom of the can in a strict product liability tort action against ajax bill must prove among other things that a",
+            "url": "https://wegglab.com/bill-purchased-a-can-of-sipep-from-the-ajax-minimart-after-he-finished-drinking-the-sipep-billnoticed-that-the-can-contained-dead-insects-stuck-on-the-inside-bottom-of-the-can-in-a-strictproduct-li/",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "donny threw a knife at sally intending to injure her severely however donny missed sally sally saw the knife just as it whizzed by her head missing it by about one inch as a result sally was very scared sally sued donny for assault and battery which of the following is most correct",
+            "content": "donny threw a knife at sally intending to injure her severely however donny missed sally sally saw the knife just as it whizzed by her head missing it by about one inch as a result sally was very scared sally sued donny for assault and battery which of the following is most",
+            "url": "https://www.csun.edu/sites/default/files/lawquiz.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "donny threw a knife at sally intending to injure her severely however donny missed sally sally saw the knife just as it whizzed by her head missing it by about one inch as a result sally was very scared sally sued donny for assault and battery which of the following is most correct",
+            "content": "donny threw a knife at sally intending to injure her severely sally saw the knife just as it whizzed by her head missing it by about one",
+            "url": "https://www.slideshare.net/slideshow/ca-cpt-56012065/56012065",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 35,
+            "query": "donny threw a knife at sally intending to injure her severely however donny missed sally sally saw the knife just as it whizzed by her head missing it by about one inch as a result sally was very scared sally sued donny for assault and battery which of the following is most correct",
+            "content": "donny threw a knife at sally intending to injure her severely however donny missed sally sally saw the knife just as it whizzed by her head missing it by about one inch as a result sally was very scared sally sued donny for assault and battery which of the following is most",
+            "url": "https://www.csun.edu/sites/default/files/lawquiz.pdf",
+            "engine": "bing"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "which of the following best describes dworkins distinction between principles and policies",
+            "content": "in this paper i examine ronald dworkins distinction between legal rules and principles with the help of wittgensteins remarks on rulefollowing",
+            "url": "https://wab.uib.no/agora/tools/alws/collection-9-issue-1-article-22.annotate",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in which of the following the idea of ‘natural law’ first appeared",
+            "content": "the first precept of the natural law according to aquinas is the somewhat vacuous imperative to do good and avoid evil here it is worth noting that aquinas",
+            "url": "https://iep.utm.edu/natlaw/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "who was an exponent of “natural law with a variable content”",
+            "content": "natural law with a variable content a st t aquinas b john locke c r stammler d j rawls 8 the supreme court of india in ak",
+            "url": "https://judgesaab.com/jurisprudence-mcq-part-1/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why does dworkin support liberal egalitarianism",
+            "content": "by d dallagnol 2006 for this reason dworkin takes equality to be the driven force of liberalism by subordinating individual rights to the idea of equal respect and concern",
+            "url": "http://socialsciences.scielo.org/scielo.php?script=sci_arttext&pid=S0100-512X2006000200003",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "american realists argued that formalism devalued the authority of the judge to make law because",
+            "content": "by ra posner i assume rather than argue what is no longer the universal view that the function of judgemade constitutional law is to interpret the written constitution",
+            "url": "https://case.edu/law/sites/default/files/2019-08/Legal%20Formalism%20Legal%20Realism%20and%20the%20Interpretation%20of%20Statute.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "statutes are often called law",
+            "content": "statutes are laws made by legislative bodies they are distinguished from case law or precedent which is decided by courts regulations issued by government",
+            "url": "https://en.wikipedia.org/wiki/Statute",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "tom and jerry entered into a contract whereby tom agreed to sell jerry 1000 worth of heroin an illegal substance this is an example of a",
+            "content": "an act making consolidated appropriations for the fiscal year ending september 30 2024 and for other purposes",
+            "url": "https://www.congress.gov/bill/118th-congress/house-bill/4366/text",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "the school of jurisprudence asserts that the law is a means of achieving and advancing certain sociological goals",
+            "content": "the sociological school of jurisprudence advocates that the law and society are related to each other this school argues that the law is a social phenomenon",
+            "url": "https://udrc.lkouniv.ac.in/Content/DepartmentContent/SM_22454e1e-c719-4afe-add9-39636a677cf4_30.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "why do the scandinavian realists reject a metaphysical approach to law",
+            "content": "desire to exorcize all metaphysical elements from law and in their emphasis on the need for a realistic and empirical approach to juzis",
+            "url": "https://www.albertalawreview.com/index.php/ALR/article/download/2081/2070",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following most accurately describes harts response to fullers argument concerning the invalidity of nazi law",
+            "content": "he discusses the views of radbruch and kelsen on the nazi regimes extremely corrupt legal system from this discussion he moves to analyzing the nazi informer",
+            "url": "https://en.wikipedia.org/wiki/Hart%E2%80%93Fuller_debate",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which is the least accurate description of legal positivism",
+            "content": "legal positivism is the thesis that the existence and content of law depends on social facts and not on its merits",
+            "url": "https://plato.stanford.edu/entries/legal-positivism/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement best describes tom regans sentimental anthropomorphicism in support of animals rights",
+            "content": "tom regan who defends an animal rights approach accuses singer of degrading those to be considered morally whether human or animal as mere",
+            "url": "https://brill.com/display/book/9789004415072/BP000011.xml",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "according to malinowski the trobriand islanders organized their society around what concept",
+            "content": "malinowskis ethnography of the trobriand islands described the complex institution of the kula ring and became foundational for subsequent theories of",
+            "url": "https://en.wikipedia.org/wiki/Bronis%C5%82aw_Malinowski",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement below is the least consistent with the argument that judges in an unjust legal system ought to resign",
+            "content": "boost your judiciary prelims prep with solved jurisprudence mcqs highquality practice for law aspirants excel in every question",
+            "url": "https://www.legalbites.in/jurisprudence/jurisprudence-mcqs-for-law-aspirants-solved-high-quality-mcqs-for-judiciary-prelims-1040345",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is the strongest argument against ethical relativisms hostility to human rights",
+            "content": "ethical relativism reminds us that different societies have different moral beliefs and that our beliefs are deeply influenced by culture",
+            "url": "https://www.scu.edu/ethics/ethics-resources/ethical-decision-making/ethical-relativism/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which proposition below is the most powerful refutation of benthams felicific calculus",
+            "content": "the more bentham dwelt upon this aspect of his calculus the more difficulties he developed and the more assumptions he found necessary to his type of social",
+            "url": "https://www.jstor.org/stable/2141580",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "hart dismissed american realism as the claim that talk of rules is a myth cloaking the truth that law consists simply of the decisions of courts and predictions of them what is the strongest reason for regarding this remark as unfair",
+            "content": "the realists demonstrated that rules play no simple causeandeffect role in legal reasoning but they never went beyond the bare assertion that",
+            "url": "https://works.bepress.com/donald-hermann/64/download/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "in justice for hedgehogs dworkin endorses humes principle what does he understand by this idea",
+            "content": "judging people to be equal is much more of a principle of morality than it is of ethics it tells us that no ones life is “more important” than anyone elses",
+            "url": "https://www.degruyter.com/document/doi/10.1515/9780804784009-011/html?lang=en&srsltid=AfmBOooetQf4IegzDQKD5xTuiXErGv3mObbWkw4lwWIqvMSCh9q0O2-y",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "normative legal theory is most accurately summarized by which of the following statements",
+            "content": "normative legal theories tell us what the law ought to be thus a positive theory of tort law might seek to explain what causal forces have",
+            "url": "https://lsolum.typepad.com/legaltheory/2017/10/legal-theory-lexicon-.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "robert nozicks proposes the formula r x h as a guide to determine the appropriate punishment what does it mean",
+            "content": "no zick was later happy for h in his r x h formula where r is responsibility to stand for “the wrongness or harm done or intended of the act",
+            "url": "https://centaur.reading.ac.uk/32761/1/R%26HP%20-%20Ethics%20-%20Final%20Publication.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the following person is the author of the book ‘the concept of law’",
+            "content": "the concept of law is a 1961 book by the legal philosopher h l a hart and his most famous work the concept of law presents harts theory of legal",
+            "url": "https://en.wikipedia.org/wiki/The_Concept_of_Law",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "lyotards dictum i define postmodern as incredulity toward metanarratives means",
+            "content": "lyotard famously defines the postmodern as incredulity towards metanarratives where metanarratives are understood as totalising stories about history and",
+            "url": "https://iep.utm.edu/lyotard/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "hart writes the certification of something as legally valid is not conclusive of the question of obedience however great the aura of majesty or authority which the official system may have its demands must in the end be submitted to a moral scrutiny what does this say about the nature of legal positivism",
+            "content": "hart for instance argued 3 that it is crucial to preserve the sense that the certification of something as legally valid is not conclusive",
+            "url": "https://verfassungsblog.de/the-legality-of-evil/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why does a marxist account of law reject individual rights",
+            "content": "“on the jewish question” and indeed all of marxs works that i cite here are available in different translations on the marxist website httpwwwmarxists",
+            "url": "https://theotherjournal.com/2013/05/karl-marx-and-the-trouble-with-rights/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which description below most accurately captures the distinction between gemeinschaft and gesellschaft",
+            "content": "what is the difference between gesellschaft and gemeinschaft gemeinschaft communities have been around for centuries while gesellschaft is newer",
+            "url": "https://study.com/academy/lesson/gemeinschaft-definition-examples-quiz.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "habermas distinguishes between law as medium and law as institution which statement below most accurately describes this distinction",
+            "content": "law as medium describes law as a body of formal general rules that control the state and the economy law as institution inhabits the lifeworld and",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-07",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following propositions would be rejected by those who describe themselves as critical legal theorists",
+            "content": "called radical neorealism radical neorealism seems to deny that there are rules or princi ples or conceptions or doctrines at all because all",
+            "url": "https://www.jstor.org/stable/1228693",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the legislative branch of the united states government has the power to the law",
+            "content": "all legislative power in the government is vested in congress meaning that it is the only part of the government that can make new laws or change existing laws",
+            "url": "https://obamawhitehouse.archives.gov/1600/legislative-branch",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "kelsen’s theory of law is called pure theory because kelsen",
+            "content": "the jurisprudence kelsen propounded “characterizes itself as a pure theory of law because it aims at cognition focused on the law alone” and",
+            "url": "https://plato.stanford.edu/entries/lawphil-theory/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the judicial branch of the united states government has the power to the law",
+            "content": "the judicial branch includes the supreme court and other federal courts it evaluates laws by interpreting the meaning of laws",
+            "url": "https://www.usa.gov/branches-of-government",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "to claim that one has a prima facie duty to obey the law is to assert that",
+            "content": "when this occurs simon asserts that no one has a moral obligation not even a prima facie obligation to obey the law because by definition the moral",
+            "url": "https://scholarship.law.wm.edu/cgi/viewcontent.cgi?article=1665&context=wmlr",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "posner denies the autonomy of law on two grounds name one of them",
+            "content": "after law school posner was a law clerk for justice william j brennan jr the decline of law as an autonomous discipline 19621987 harvard law",
+            "url": "https://en.wikipedia.org/wiki/Richard_Posner",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "leopold pospisil identifies four elements manifested by law authority universality obligatio and fourthly",
+            "content": "1998 cytowane przez 25 conceptualization is possible if four elements are present authority intention of universal application obligatio and sanction pospisil 1958a 25827227 stron",
+            "url": "https://clp.thebestwebshop.org/system/commission-on-legal-pluralism/volumes/40/goodale-art.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following purposes does the internal point of view play in harts concept of law",
+            "content": "the internal point of view plays four roles in harts theory 1 it specifies a particular type of motivation that someone may take towards the law 2 it",
+            "url": "https://ir.lawnet.fordham.edu/cgi/viewcontent.cgi?article=4218&context=flr",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "dworkin contends that to every legal question there is only one right answer which proposition below is most inconsistent with this claim",
+            "content": "dworkin contends that there is only one correct answer to what the law requires in any legal case which is discoverable by judges competent in legal reasoning",
+            "url": "https://trace.tennessee.edu/cgi/viewcontent.cgi?article=9046&context=utk_gradthes",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is kants categorical imperative",
+            "content": "categorical imperative in the ethics of immanuel kant a rule of conduct that is unconditional or absolute for all agents",
+            "url": "https://www.britannica.com/topic/categorical-imperative",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "the body of law which establishes rights between persons and provides for redress for violation of those rights is known as",
+            "content": "which of the following is not a meaning of the term common law a the body of law as made by judges through the determination of cases",
+            "url": "http://global.oup.com/uk/orc/law/company/roach4e/resources/mcqs/ch01/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "‘law consists of set of principles or body of rules recognized and applied by the state in the administration of justice’ the statement is made by",
+            "content": "sir john william salmond wrote that “law as the body of principles recognized and applied by the state in the administration of justice” oliver wendell holmes",
+            "url": "https://www.lawyersnjurists.com/article/law-body-principles-recognized-applied-state-administration-justice-2/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "robert makes the following statement while negotiating the sale of his car this is the sharpest car on the market his statement may support a claim for",
+            "content": "roberts statement that the car is the sharpest in the market support a claim for misrepresentation",
+            "url": "https://www.transtutors.com/questions/robert-makes-the-following-statement-while-negotiating-the-sale-of-his-car-this-is-t-845998.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "the school of jurisprudence believes that the law is an aggregate of social traditions and customs that have developed over the centuries",
+            "content": "the contribution of the historical school to the problem of the boundaries of jurisprudence is that law cannot be understood without an appreciation of the",
+            "url": "https://law.uok.edu.in/Files/5ce6c765-c013-446c-b6ac-b9de496f8751/Custom/16.%20Schools%20of%20Jurisprudence.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following statements is correct concerning the reasonable person standard in tort law",
+            "content": "the reasonable person standard focuses on the defendants subjective mental state rather than on the defendants behavior c a person with a physical",
+            "url": "https://www.csun.edu/sites/default/files/lawquiz.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why does parfit oppose equality",
+            "content": "perhaps a better approach is to reject egalitarianism and prioritarianism whether as theory of the good or the right and reject any",
+            "url": "https://www.buffalo.edu/romanell/blog/equality-or-priority.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why does the capability approach to justice reject rawls theory",
+            "content": "sens central argument is that resources should not be the exclusive focus of concern for a fairnessbased theory of justice even if like rawlss primary",
+            "url": "https://iep.utm.edu/sen-cap/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "according to austin the science of jurisprudence is concerned with",
+            "content": "austin defines jurisprudence as a science of law concerned with the analysis of its underlying concepts or principles for austin the",
+            "url": "https://articles.manupatra.com/article-details/What-is-Jurisprudence",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "point out the most accurate response according to austin law has the following attributes",
+            "content": "1 sanction according to him the sanction alone induces man to obey law which is not correct 2 artificial concept austin view makes",
+            "url": "https://lawbhoomi.com/law-according-to-john-austin/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the purpose of politics according to aristotle",
+            "content": "in his politics he describes the role that politics and the political community must play in bringing about the virtuous life in the citizenry",
+            "url": "https://iep.utm.edu/aristotle-politics/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the most fundamental of positivisms key commitments writes ken himma is the social fact thesis what does it claim",
+            "content": "himma argues that the law can only keep the peace by establishing mandatory norms backed by the threat of coercive sanctions such norms give us reasons which",
+            "url": "https://journals.openedition.org/revus/7665?lang=en",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following apparent correlatives contradicts hohfelds scheme of jural relations",
+            "content": "the vertical arrows connect jural correlatives or two legal positions that entail each other whereas the diagonal arrows connect jural",
+            "url": "https://blog.ipleaders.in/theories-of-rights-an-overview-of-hohfelds-analysis-of-rights/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following statements best captures the nature of fullers inner morality of law",
+            "content": "a ready compilation of 100 jurisprudence mcqs for ease and regularity of practice to enhance students general understanding of the subject and boost their",
+            "url": "https://www.legalbites.in/jurisprudence/jurisprudence-mcqs-for-law-aspirants-solved-high-quality-mcqs-for-judiciary-prelims-1040345",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which one of the following schools supports the view that a custom becomes law when it receives the stamp of judicial recognition by courts",
+            "content": "ing that the custom was law before it received the stamp of judicial authen tication the contrary view supported by austin is at variance with fact",
+            "url": "https://www.jstor.org/stable/1109909",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following statements most accurately explains ross comparison of social life to the game of chess",
+            "content": "if the onlooker knows the rules of chess but beyond that not much about the theory of the game his experience of the others play changes character he will",
+            "url": "https://faculty.tcu.edu/rgalvin/readings/Alf%20Ross%20-%20Legal%20Norms%20and%20Observational%20Evidence.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which statement best explains the purpose of harts distinction between being obliged and having an obligation",
+            "content": "according to hart in order for a rule to impose legal obligation it must be legally valid thus it must be enacted form the authoritative",
+            "url": "https://www.lawteacher.net/free-law-essays/jurisprudence/hla-harts-concept-of-legal-obligation-7695.php",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "how does nozick answer the criticism of his historical entitlement theory that if the distribution of goods in society is unjust those at the bottom always lose",
+            "content": "nozick attempted to demonstrate the intuition that only free market exchanges respect persons as equals to do this nozick developed his “entitlement theory of",
+            "url": "https://iep.utm.edu/noz-poli/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why is it important to separate the concept of punishment from its justification",
+            "content": "a liberal justification of punishment would proceed by showing that society needs the threat and the practice of punishment",
+            "url": "https://plato.stanford.edu/archIves/win2016/entries/punishment/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "hart argues that secondary rules are powerconferring but this seems unconvincing in the case of the rule of recognition because",
+            "content": "but his remarks on this point are simply inconclusive as to whether the rr would be dutyimposing powerconferring or a different kind of rule altogether",
+            "url": "https://philarchive.org/archive/RAMITR",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the will theory of rights maintains that the enforcement of ys duty requires the exercise of will by x it assumes the correlativity of rights and duties which of the following succeeds in formulating the interest theory without this correlativity",
+            "content": "y has a claimright against x that x ф just in case y has some measure of control over xs duty citing hart he takes the full measure of control over xs",
+            "url": "https://brill.com/downloadpdf/book/edcoll/9789401205658/B9789401205658-s014.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which statement below is the least likely to follow logically from savignys notion of a volksgeist",
+            "content": "the only certain point which can guide us here is the idea of infinite progression it is easier especially for a marxist to find reasons to criticize",
+            "url": "https://www.jstor.org/stable/840441",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the school of jurisprudence maintains that the law is shaped by logic",
+            "content": "the five schools of jurisprudence are as follows natural law analytical legal positivism historical sociological and realist",
+            "url": "https://lawbhoomi.com/schools-of-jurisprudence/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "according to hobbes peace is the first law of nature because of which of the following situations",
+            "content": "according to hobbes the laws of nature “dictate peace” and are simple enough for anyone to understand yet “peace without subjection” is",
+            "url": "https://www.e-ir.info/2009/10/15/according-to-hobbes-the-laws-of-nature-%E2%80%9Cdictate-peace%E2%80%9D-and-are-simple-enough-for-anyone-to-understand-yet-%E2%80%9Cpeace-without-subjection%E2%80%9D-is-supposed-to-be-an-impossibilit/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "adherence to precedent is called the doctrine of",
+            "content": "stare decisis meaning in latin “to stand by things decided” is a legal principle that directs courts to adhere to previous judgments",
+            "url": "https://legal.thomsonreuters.com/blog/the-doctrine-of-stare-decisis/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement is closest to characterizing the principal difference between the positions adopted by hobbes and locke",
+            "content": "differences between hobbes and locke role of government absolute power designed to protect humans from their base nature limited power based on consent of",
+            "url": "https://study.com/learn/lesson/thomas-hobbes-vs-john-lock-social-contract.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the school proposes that legal rules are unnecessary and are used as an obstacle by the powerful to maintain the status quo",
+            "content": "critical race theory argues that legal statutes promote racist policies for maintaining the status quo and status hierarchies bell 1973",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8992963/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "maines famous aphorism that the movement of progressive societies has hitherto been a movement from status to contract is often misunderstood in what way",
+            "content": "what i mean by the promise of contract can be clarified by sir henry maines famous 1861 proclamation that the movement of the progressive societies has",
+            "url": "https://publishing.cdlib.org/ucpressebooks/view?docId=ft1x0nb0h4;chunk.id=0;doc.view=print",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "dworkin argues that it is only a conception of equality of resources that can secure the ideal of equality of welfare how does he suggest this aspect of equality to be measured",
+            "content": "how does he suggest this aspect of equality to be measured when noone would prefer anothers bundle of resources to his or her own",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/wacks5e-multiple-choice-questions-chapter-05",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the united states supreme courts decision in roe v wade is highly controversial because",
+            "content": "in roe v wade the supreme court decided that the right to privacy implied in the 14th amendment protected abortion as a fundamental right",
+            "url": "https://www.brennancenter.org/our-work/research-reports/roe-v-wade-and-supreme-court-abortion-cases",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which proposition below may be characterized as the most powerful refutation by hart of lord devlins argument",
+            "content": "boost your judiciary prelims prep with solved jurisprudence mcqs highquality practice for law aspirants excel in every question",
+            "url": "https://www.legalbites.in/jurisprudence/jurisprudence-mcqs-for-law-aspirants-solved-high-quality-mcqs-for-judiciary-prelims-1040345",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following statements best describes the postmodernist project",
+            "content": "postmodernism is a term used to refer to a variety of artistic cultural and philosophical movements that claim to mark a break from modernism",
+            "url": "https://en.wikipedia.org/wiki/Postmodernism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "austin has been described as a naive empiricist why",
+            "content": "study austin the naive empiricist flashcards from bernadette lohs university of bristol class online or in brainscapes iphone or android app",
+            "url": "https://www.brainscape.com/flashcards/austin-the-naive-empiricist-6521806/packs/10298518",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following factors contributed significantly to the revival of natural law in the 20th century",
+            "content": "banner identifies several other factors that contributed to natural laws decline in practical influence the separation of law and religion",
+            "url": "https://fedsoc.org/fedsoc-review/what-happened-to-natural-law-in-american-jurisprudence",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement best describes the relationship between law and morality among nonpositivist legal theorists",
+            "content": "there is no relationship between law and morality law is always in advance of moral ideas the law is inextricably bound up with morals morality is",
+            "url": "https://learninglink.oup.com/access/content/wacks5e-student-resources/59e8a23e071b2f000f2f2ec6",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the focus of liberal feminists on equality is denounced by radical feminists as mistaken because",
+            "content": "therefore liberal feminism advocates equal individual rights and opportunities for women and men and does not emphasize much on sexual differences they focus",
+            "url": "https://epgp.inflibnet.ac.in/epgpdata/uploads/epgp_content/Women_Studies/Gender_Studies/02.Women_and_Literature/27._Liberal_feminism/et/6549_et_27ET.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "catharine mackinnon argues that since men dominate women the question is ultimately one of power which proposition below is the most inconsistent with this argument",
+            "content": "of women doesnt call into question their femininity38 mackinnon argues that womens inequality is intimately linked to their sexiness in our society",
+            "url": "https://www.jstor.org/stable/1122941",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what relationships to the type of law that exists in society does durkheim identify between 1 mechanical and 2 organic solidarity",
+            "content": "mechanical solidarity is the social integration of members of a society who have common values and beliefs",
+            "url": "https://www.britannica.com/topic/mechanical-and-organic-solidarity",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following best describes lon fullers objective in his hypothetical case of the speluncean explorers",
+            "content": "objectives to understand different theories of philosophy of law by way of the hypothetical case key words jurisprudence speluncean explorers statutory",
+            "url": "https://epgp.inflibnet.ac.in/epgpdata/uploads/epgp_content/Philosophy/16.Philosophy_of_law/04._Speluncean_explorers/et/9039_et_16.4.1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following criticisms of llewellyns distinction between the grand and formal styles of legal reasoning is the most compelling",
+            "content": "the principal difference between a grand style and a formal style opinion therefore may be in the courts awareness of what it is doing and in its",
+            "url": "https://repository.law.umich.edu/cgi/viewcontent.cgi?article=6363&context=mlr",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "why does communitarianism resemble aristotles philosophy more than kants",
+            "content": "communitarianism is the idea that human identities are largely shaped by different kinds of constitutive communities or social relations",
+            "url": "https://plato.stanford.edu/entries/communitarianism/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "who said that “jurisprudence is the eye of law”",
+            "content": "5 jurisprudence is the eye of law and the grammar of law because it throws light on basic ideas and fundamental principles of law therefore by understanding",
+            "url": "https://www.ramauniversity.ac.in/online-study-material/law/ballb/iisemester/jurisprudence/leacture-2.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following arguments against the fair play argument in support of a duty to obey the law is the most persuasive",
+            "content": "in this article professor greenawalt examines the strengths and weak nesses of arguments asserting the existence of a natural duty to obey the law",
+            "url": "https://www.jstor.org/stable/1288961",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following quotations best describes the central thesis of difference feminism",
+            "content": "current feminist theory in validating womens own stories of their experience has encouraged scholars of womens history to view the use of womens oral",
+            "url": "https://gmatclub.com/forum/current-feminist-theory-in-validating-women-s-own-stories-of-their-137664.html?srsltid=AfmBOooiBndQcUL2I0T5w-LmCx2N0ldauJkKOHxDLGwujyI_TFFTfTdp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which proposition below is the most consistent with what rawls claims the pop would opt for in respect of social primary goods",
+            "content": "this idea too is incorporated in rawls theory on primary goods being a primary good as de ning characteristic of the equalisandum proposed by rawls does",
+            "url": "https://research.rug.nl/files/14526406/thesis.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which proposition below is the most inconsistent with a consequentialist justification of punishment",
+            "content": "here is a preliminary statement of my thesis legal punishment is morally wrong because it is too morally risky i will revise the preliminary statement",
+            "url": "https://philarchive.org/archive/HANALP-2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "who amongst the following said that jurisprudence is the philosophy of positive law",
+            "content": "note austin called it “the philosophy of positive law” 9 who amongst the following looks at jurisprudence as a system of rules austin hart salmond",
+            "url": "https://es.scribd.com/document/487955390/Previous-Year-Questions-on-Jurisprudence-My-Legal-Friend",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement below is the least likely to follow logically from dworkins notion of law as integrity",
+            "content": "dworkin believes legal arguments are evaluative arguments of political morality and so his legal theory depends on the idea that there are oneright answers to",
+            "url": "https://www.redalyc.org/jatsRepo/4219/421943648001/html/index.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the main reason why many critical race theorists are hostile to concepts such as justice neutrality and truth",
+            "content": "race and inequality bean rocha and velez 2021 observed that crt is openly hostile to concepts such as “neutrality meritocracy and color blindness",
+            "url": "https://asccc.org/content/defining-critical-race-theory-california-community-college-system",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "the school believes that promoting market efficiency should be the central goal of legal decisionmaking",
+            "content": "market efficiency theory states that if markets function efficiently then it will be difficult or impossible for an investor to outperform the market",
+            "url": "https://www.investopedia.com/terms/m/marketefficiency.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "hart’s analysis of law distinguishes between",
+            "content": "the concept of law presents harts theory of legal positivismthe view that laws are rules made by humans and that there is no inherent or necessary connection",
+            "url": "https://en.wikipedia.org/wiki/The_Concept_of_Law",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which statement best describes one of dworkins central arguments in justice for hedgehogs",
+            "content": "ronald dworkin argues that value in all its forms is one big thing that what truth is life means morality requires and justice demands are different",
+            "url": "https://www.hup.harvard.edu/books/9780674072251",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on what grounds does john finnis reject humes conception of practical reason",
+            "content": "3 finnis argues that rights provide a concretization of the require ments of practical reasonableness and the demands of justice but it is questionable 50 stron",
+            "url": "https://law.nus.edu.sg/sjls/wp-content/uploads/sites/14/2024/07/1704-2000-sjls-dec-590.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which statement below is the least likely to follow logically from austins argument that a sanction consists of the smallest chance of incurring the smallest evil",
+            "content": "chance of incurring the smallest evil the expression of a wish amounts to a command and therefore imposes a dutyfootnote as he saw it it was the",
+            "url": "https://www.cambridge.org/core/books/cambridge-companion-to-legal-positivism/john-austin/BEEBB544875C513221E3E30304406BE0",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which statement below best represents durkheims view of the function of punishment",
+            "content": "the functionalist view durkheim believed that punishment is expressive as it heals the wounds of the public while also promoting the value consensus in",
+            "url": "https://senecalearning.com/en-GB/revision-notes/a-level/sociology/aqa/10-3-3-punishment",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "who defined jurisprudence as the knowledge of things divine and human the science of right and wrong",
+            "content": "the roman jurist ulpian defined jurisprudence as “the observation of things human and dive the knowledge of just and unjust” he mainly emphasized on observing",
+            "url": "https://www.lawyersnjurists.com/article/jurisprudence-observation-of-things-human-divine-and-the-knowledge-of-just-and-unjust/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which statement best describes the nature and function of kelsens grundnorm",
+            "content": "basic norm grundnorm the fundamental norm in the hierarchy of norms providing authority for all lower norms ought the is and ought problem involves",
+            "url": "https://en.wikipedia.org/wiki/Pure_Theory_of_Law",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the distinction between general and particular jurisprudence was recognized by",
+            "content": "austin further divides case precedent into two categories viz general and specific jurisprudence general jurisprudence according to austin",
+            "url": "https://articles.manupatra.com/article-details/What-is-Jurisprudence",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "how does weber solve the england problem",
+            "content": "one of webers main intellectual concerns was in understanding the processes of rationalisation secularisation and disenchantment he formulated a thesis",
+            "url": "https://en.wikipedia.org/wiki/Max_Weber",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what does dworkin mean by the semantic sting",
+            "content": "english abstract ronald dworkin once criticized legal positivists for that their theories are founded on a mistake called “the semantic sting” which",
+            "url": "https://archiwum.ivr.org.pl/1034/the-semantic-sting-argument-and-jerzy-wroblewskis-theory-of-law/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the factors below contributed significantly to the revival of natural law in the 20th century",
+            "content": "1 the revival of natural law in the early 20th century was in reality brought about by a dissatisfaction with 19thcentury legal positivism which in",
+            "url": "https://www.academia.edu/10326359/Natural_Law_Theories_in_the_20th_Century",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "critical legal studies cls is often compared to or with american realism which of the following statements is inaccurate",
+            "content": "relation to american legal realism critical legal studies had its intellectual origins in the american legal realist movement in the 1930s",
+            "url": "https://en.wikipedia.org/wiki/Critical_legal_studies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "lex iniusta non est lex has which of the following meanings",
+            "content": "by c béal 2021 this thesis implies that an unjust law is not legally valid and is not law hence gustav radbruch believes that national socialist law was not only unjust law",
+            "url": "https://shs.cairn.info/journal-revue-de-metaphysique-et-de-morale-2021-4-page-471?lang=en",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "ciceros conception of natural law is based on the idea that true law is right reason in agreement with nature reason is a key element because",
+            "content": "reason is a key element because a it is a sin for humans not to apply reason b the principles of natural law are discoverable by reason",
+            "url": "https://edurev.in/question/4350857/Ciceros-conception-of-natural-law-is-based-on-the-idea-that-true-law-is-right-reason-in-agreement-wi",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the expression to signify any assumption which conceals of affects to conceal the fact that a rule of law has undergone alteration its letter being unchanged its operation being modified is",
+            "content": "law has undergone alteration its letter remaining unchanged its operation being modified the words therefore include the instances of fictions which i have",
+            "url": "https://droitromain.univ-grenoble-alpes.fr/Varia/al_maine1.gr.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the us congress is empowered by the commerce clause and other provisions of the us constitution to enact to regulate foreign and interstate commerce",
+            "content": "the commerce clause gives congress broad power to regulate interstate commerce and restricts states from impairing interstate commerce",
+            "url": "https://constitution.congress.gov/browse/essay/artI-S8-C3-1/ALDE_00013403/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "humes attack on natural law is founded on his argument that",
+            "content": "david humes dialogues concerning natural religion is one of the most influential attacks on traditional religion by an enlightenment thinker",
+            "url": "https://www.anselm.edu/sites/default/files/Documents/Institute%20of%20SA%20Studies/Hume%20and%20Aquinas%20on%20Natural%20TheologyREVISED2.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "who says that “social contract is not a historical fact but a hypothetical construction of reason”",
+            "content": "social contract theory nearly as old as philosophy itself is the view that persons’ moral andor political obligations are dependent upon a contract or agreement among them to form the society in which they live socrates uses something quite like a social contract argument to explain to",
+            "url": "https://iep.utm.edu/soc-cont/",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "“natural law is based on the nature of man and on his inward need of living in society” who said it",
+            "content": "the term “natural law” is ambiguous it refers to a type of moral theory as well as to a type of legal theory but the core claims of the two kinds of theory are logically independent it does not refer to the laws of nature the laws that science aims to describe",
+            "url": "https://iep.utm.edu/natlaw/",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "bill purchased a can of sipep from the ajax minimart after he finished drinking the sipep bill noticed that the can contained dead insects stuck on the inside bottom of the can in a strict product liability tort action against ajax bill must prove among other things that",
+            "content": "➤ essay on business law practice questions ✍ multiple choice answers at bottom of page 1 paul filed a lawsuit for false imprisonment against dan’s bookstore during a visit to dan’s bookstore dan",
+            "url": "https://phdessay.com/business-law-practice-questions/",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "who amongst the following said that “right with me is a child of law…a natural right is a son that never had a father",
+            "content": "this article will review the top ten factors used to determine if a parent is unfit",
+            "url": "https://minellalawgroup.com/blog/10-factors-used-to-determine-if-a-parent-is-unfit-for-custody/",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "the philosophers of the school of jurisprudence believe that the law is a set of rules developed communicated and enforced by the ruling party rather than a reflection of the societys morality history logic or sociology",
+            "content": "philosophy of law or legal philosophy is concerned with providing a general philosophical analysis of law and legal institutions issues in the field range from abstract conceptual questions about the nature of law and legal systems to normative questions about the relationship between law",
+            "url": "https://iep.utm.edu/law-phil/",
+            "engine": "brave"
+        }
+    ]
+}

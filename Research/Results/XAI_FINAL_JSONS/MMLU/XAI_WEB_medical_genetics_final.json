@@ -1,0 +1,1179 @@
+{
+    "task": "mmlu_medical_genetics",
+    "dataset": "web_access_medical_genetics_final",
+    "questions": 100,
+    "noWebContextCount": 1,
+    "contaminated_queries": 41,
+    "contaminated_urls": 168,
+    "valid_urls": 99,
+    "avg_contaminated_before_valid": 2.696969696969697,
+    "contaminated_data_ratio": 0.6292134831460674,
+    "most_contaminated_urls": {
+        "study.sagepub.com": 20,
+        "www.embibe.com": 7,
+        "medizzy.com": 7,
+        "www.edubull.com": 6
+    },
+    "noWebContext": [
+        "A cross between two true breeding lines one with dark blue flowers and one with bright white flowers produces F1 offspring that are light blue. When the F1 progeny are selfed a 1:2:1 ratio of dark blue to light blue to white flowers is observed. What genetic phenomenon is consistent with these results?"
+    ],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "what would be the frequency of aabbcc individuals from a mating of two aabbcc individuals",
+            "content": "the frequency of getting aabbcc individuals from a mating of two aabbcc individuals is 1 64 the parents with genotype aabbcc x aabbcc gives 64 offsprings",
+            "url": "https://www.examveda.com/what-is-the-frequency-of-getting-aabbcc-individuals-from-a-mating-of-two-aabbcc-individuals-156687/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "what would be the frequency of aabbcc individuals from a mating of two aabbcc individuals",
+            "content": "what would be the frequency of dominant phenotype for all character individuals from a mating of two aabbcc individuals 42 98 75 50",
+            "url": "https://triyambak.org/free-resources/wb-set-mp-set/practiceQuestion/34540",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in humans each cell normally contains of chromosomes",
+            "content": "in humans each cell normally contains 23 pairs of chromosomes for a total of 46 twentytwo of these pairs called autosomes look the same in both males and",
+            "url": "https://medlineplus.gov/genetics/understanding/basics/howmanychromosomes/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "in humans each cell normally contains of chromosomes",
+            "content": "in humans each cell normally contains of chromosomes 11 pairs 23 pairs 32 pairs 46 pairs answer b 2 explained genetic disorders such as",
+            "url": "https://study.sagepub.com/marks5e/student-resources/chapter-3/multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "in humans each cell normally contains of chromosomes",
+            "content": "in humans each cell normally contains pairs of chromosomes 46 32 23 11 check explained genetic disorders such as alkaptonuria and",
+            "url": "https://study.sagepub.com/marks6e/student-resources/chapter-3/multiple-choice-question",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the epigenetic inheritance system has been described as mayr and provine 1980",
+            "content": "the epigenetic inheritance system has been described as mayr and provine 1980 hard inheritance genotype inheritance soft inheritance rna",
+            "url": "https://study.sagepub.com/marks6e/student-resources/chapter-3/multiple-choice-question",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the epigenetic inheritance system has been described as mayr and provine 1980",
+            "content": "7 the epigenetic inheritance system has been described as mayr and provine 1980 genotype inheritance soft inheritance rna inheritance hard",
+            "url": "https://study.sagepub.com/marks5e/student-resources/chapter-3/multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the epigenetic inheritance system has been described as mayr and provine 1980",
+            "content": "the epigenetic inheritance system has been described as mayr and provine 1980 a genotype inheritance page 4 b soft inheritance c rna inheritance",
+            "url": "https://www.edubull.com/Content/eRepository/SubjectContent/Exercises/2859.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "the epigenetic inheritance system has been described as mayr and provine 1980",
+            "content": "the epigenetic inheritance system has been described as mayr and provine 1980 a genotype inheritance b soft inheritance c rna",
+            "url": "https://www.facebook.com/Universeofscinces/posts/multiple-choice-questions1-in-humans-each-cell-normally-contains______-of-chromo/617314713002773/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "differential distribution of substances in the egg most typically results in",
+            "content": "25differential distribution of substances in the egg most typically results in a differences in gene expression which may establish a pattern in the 11 stron",
+            "url": "https://public.wsu.edu/~thorglab/biol301/exams/finalkey.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "differential distribution of substances in the egg most typically results in",
+            "content": "differential distribution of substances in the egg most typically results in differences in gene expression which may establish a pattern",
+            "url": "https://www.agriculturewale.com/mcq-on-genetics-part-4/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "it is currently estimated that there are human proteincoding genes although this estimate may be reduced over time",
+            "content": "dominant genes have it is currently estimated that there are human proteincoding genes although this estimate may be reduced over time 100000",
+            "url": "https://study.sagepub.com/marks6e/student-resources/chapter-3/multiple-choice-question",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "has been described as the phenomenon by which one genotype can give rise to a range of different physiological or morphological states in response to different environmental conditions during development westeberhard 1989",
+            "content": "physiological or morphological states in response to different environmental conditions during development westeberhard 1989 developmental plasticity",
+            "url": "https://study.sagepub.com/marks6e/student-resources/chapter-3/multiple-choice-question",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "has been described as the phenomenon by which one genotype can give rise to a range of different physiological or morphological states in response to different environmental conditions during development westeberhard 1989",
+            "content": "8 has been described as the phenomenon by which one genotype can give rise to a range of different physiological or morphological states in response to",
+            "url": "https://study.sagepub.com/marks5e/student-resources/chapter-3/multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "has been described as the phenomenon by which one genotype can give rise to a range of different physiological or morphological states in response to different environmental conditions during development westeberhard 1989",
+            "content": "has been described as the phenomenon by which one genotype can give rise to a range of different physiological or morphological states in response to",
+            "url": "https://www.embibe.com/questions/______-has-been-described-as-the-phenomenon-by-which-one-genotype-can-give-rise-to-a-range-of-different-physiological-or-morphological-states-in-response-to-different-environmental-conditions-during-development-%28West-Eberhard%2C-1989%29./EM7713078",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "has been described as the phenomenon by which one genotype can give rise to a range of different physiological or morphological states in response to different environmental conditions during development westeberhard 1989",
+            "content": "has been described as the phenomenon by which one genotype can give rise to a range of different physiological or morphological states in response to",
+            "url": "https://www.embibe.com/questions/One-of-the-popular-critical-theories-is%3F/EM5003987",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "a cross between two true breeding lines one with dark blue flowers and one with bright white flowers produces f1 offspring that are light blue when the f1 progeny are selfed a 121 ratio of dark blue to light blue to white flowers is observed what genetic phenomenon is consistent with these results",
+            "content": "when the f1 progeny are selfed a 1 2 1 ratio of dark blue to light blue to white flowers is observed what genetic phenomenon is consistent with these",
+            "url": "https://dcx0p3on5z8dw.cloudfront.net/Aakash/s3fs-public/pdf_management_files/sm_sa/IOQB_2020-21_%28Part-2%29_%28Qs%20%26%20Solutions%29.pdf?SW4hZ9zSjksKcTk4srz_cjHWwiDbawoI",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "explained genetic disorders such as alkaptonuria and albinism",
+            "content": "explained genetic disorders such as alkaptonuria and albinism recessive inheritance has y chromosomes x chromosomes dominant genes have it",
+            "url": "https://study.sagepub.com/marks6e/student-resources/chapter-3/multiple-choice-question",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "explained genetic disorders such as alkaptonuria and albinism",
+            "content": "explained genetic disorders such as alkaptonuria and albinism recessive inheritance has dominant genes have x chromosomes y chromosomes answer a 3",
+            "url": "https://study.sagepub.com/marks5e/student-resources/chapter-3/multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "explained genetic disorders such as alkaptonuria and albinism",
+            "content": "explained genetic disorders such as alkaptonuria and albinism arecessive inheritance has bdominant genes have cx chromosomes",
+            "url": "https://www.embibe.com/questions/______-explained-genetic-disorders-such-as-alkaptonuria-and-albinism./EM7706020",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "explained genetic disorders such as alkaptonuria and albinism",
+            "content": "explained genetic disorders such as alkaptonuria and albinism a recessive inheritance has b dominant genes have c x chromosomes d",
+            "url": "https://www.facebook.com/Universeofscinces/posts/multiple-choice-questions1-in-humans-each-cell-normally-contains______-of-chromo/617314713002773/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "explained genetic disorders such as alkaptonuria and albinism",
+            "content": "explained genetic disorders such as alkaptonuria and albinism a recessive inheritance has b dominant genes have c x chromosomes d y chromosomes",
+            "url": "https://www.edubull.com/Content/eRepository/SubjectContent/Exercises/2859.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "an hfr strain of e coli contains",
+            "content": "an hfr strain of e coli k12 has been shown to mate at low frequency with a number of strains of s typhosa the hybrids selected as lactose positives",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/13687195/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if the frequency of males affected with an xlinked recessive condition in a human population is 10 one in ten what will be the expected frequency of affected females",
+            "content": "human population is 010 one in ten what will be the expected frequency of affected females a 00001 b 0001 c 002 d 001",
+            "url": "https://www.examveda.com/if-the-frequency-of-males-affected-with-an-x-linked-recessive-condition-in-a-human-population-is-010-one-in-ten-what-will-be-the-expected-frequency-of-affected-females-194836/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "mutations that cause achondroplasia exert an effect which can be classified as",
+            "content": "genetics and metabolism set 2 mutations that cause achondroplasia exert an effect which can be classified as gainoffunction dominant negative lossof",
+            "url": "https://medizzy.com/learning/mcq/question/33896878",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the presence of two or more cell lines from different zygotes in a single individual is known as",
+            "content": "the presence of two or more cell lines from different zygotes in a single individual is known as chimaerism",
+            "url": "https://learn.careers360.com/school/question-the-presence-of-two-or-more-cell-lines-from-different-zygotes-in-a-single-individual-is-known-as-33410/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the presence of two or more cell lines from different zygotes in a single individual is known as",
+            "content": "genetic mosaicism is defined as the presence of two or more cell lineages with different genotypes arising from a single zygote in a single individual",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32644619/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the presence of two or more cell lines from different zygotes in a single individual is known as",
+            "content": "genetic mosaicism is defined as the presence of two or more cell lineages with different genotypes arising from a single zygote in a single individual",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK559193/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the is the set of observable characteristics and is the sum of genetic and environmental effects",
+            "content": "the is the set of observable characteristics and is the sum of genetic and environmental effects both neither genotype phenotype nature is",
+            "url": "https://study.sagepub.com/marks6e/student-resources/chapter-3/multiple-choice-question",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the is the set of observable characteristics and is the sum of genetic and environmental effects",
+            "content": "17 the is the set of observable characteristics and is the sum of genetic and environmental effects a genotype b phenotype",
+            "url": "https://www.edubull.com/Content/eRepository/SubjectContent/Exercises/2859.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "pseudocholinesterase deficiency is associated with increased sensitivity to what",
+            "content": "pseudocholinesterase deficiency is a condition that results in increased sensitivity to certain muscle relaxant drugs used during general anesthesia called",
+            "url": "https://medlineplus.gov/genetics/condition/pseudocholinesterase-deficiency/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "asp235phe in a molecular report indicates that",
+            "content": "asp235phe in a molecular report indicates that phenylalanine has been replaced by asparagine asparagine has been replaced by phenylalanine",
+            "url": "https://medizzy.com/learning/mcq/question/33896989",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "asp235phe in a molecular report indicates that",
+            "content": "13 asp235phe in a molecular report indicates that a asparagines has been replaced by phenylalanine b phenylalanine has been replaced by asparagines c",
+            "url": "https://exampapers.must.ac.ke/wp-content/uploads/2020/01/CCM-3116-CELL-BIOLOGY-AND-GENETICS.docx.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "asp235phe in a molecular report indicates that",
+            "content": "asp235phe in a molecular report indicates that if both parents are affected with the same autosomal recessive disorder then the probability that each of",
+            "url": "https://medizzy.com/learning/mcq/question/33896979",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "male breast cancer is associated with mutations in",
+            "content": "male breast cancer associated with study these flashcards study these flashcards a klinefelter syndrome 23 q female breast cancer presents in the",
+            "url": "https://www.brainscape.com/flashcards/breast-12328416/packs/21116460",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "intergenerational transmission to offspring can occur as a result of parental exposures to",
+            "content": "intergenerational transmission to offspring can occur as a result of parental exposures to war natural disasters hunger all of these answer d",
+            "url": "https://study.sagepub.com/marks5e/student-resources/chapter-3/multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "intergenerational transmission to offspring can occur as a result of parental exposures to",
+            "content": "intergenerational transmission to offspring can occur as a result of parental exposures to all of these natural disasters hunger war",
+            "url": "https://study.sagepub.com/marks6e/student-resources/chapter-3/multiple-choice-question",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "intergenerational transmission to offspring can occur as a result of parental exposures to",
+            "content": "intergenerational transmission to offspring can occur as a result of parental exposures to a war b natural disasters c hunger d all of these",
+            "url": "https://www.edubull.com/Content/eRepository/SubjectContent/Exercises/2859.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "intergenerational transmission to offspring can occur as a result of parental exposures to",
+            "content": "maternal epigenetics answer b 10 intergenerational transmission to offspring can occur as a result of parental exposures to war natural disasters",
+            "url": "https://www.plovdivtown.com/?p=419840",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in genomewide association studies known snps explain of the variation in body mass index despite the evidence of greater than 50 heritability from twin and family studies",
+            "content": "6 in genomewide association studies known snps explain of the variation in body mass index despite the evidence of greater than 50 heritability from",
+            "url": "https://study.sagepub.com/marks5e/student-resources/chapter-3/multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in genomewide association studies known snps explain of the variation in body mass index despite the evidence of greater than 50 heritability from twin and family studies",
+            "content": "in genomewide association studies known snps explain of the variation in body mass index despite the evidence of greater than 50",
+            "url": "https://www.embibe.com/questions/In-genome-wide-association-studies%2C-known-SNPs-explain-______-of-the-variation-in-body-mass-index-despite-the-evidence-of-greater-than-50%25-heritability-from-twin-and-family-studies./EM7708882",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "in genomewide association studies known snps explain of the variation in body mass index despite the evidence of greater than 50 heritability from twin and family studies",
+            "content": "in genomewide association studies known snps explain of the variation in body mass index bmi despite the evidence of greater than 50 heritability",
+            "url": "https://study.sagepub.com/marks6e/student-resources/chapter-3/multiple-choice-question",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "in genomewide association studies known snps explain of the variation in body mass index despite the evidence of greater than 50 heritability from twin and family studies",
+            "content": "in genomewide association studies known snps explain of the variation in body mass index despite the evidence of greater than 50",
+            "url": "https://www.embibe.com/questions/In-the-late-1980s%2C-the-attentional-research-was-focused-on%3F/EM5031858",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "nature is more important for differences while nurture has greater influence on differences",
+            "content": "5 nature is more important for differences while nurture has greater influence on differences structural and anatomical psychological and",
+            "url": "https://study.sagepub.com/marks5e/student-resources/chapter-3/multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "nature is more important for differences while nurture has greater influence on differences",
+            "content": "nature is more important for i differences while nurture has greater influence on ii differences i structural and psychological ii",
+            "url": "https://study.sagepub.com/marks6e/student-resources/chapter-3/multiple-choice-question",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "nature is more important for differences while nurture has greater influence on differences",
+            "content": "nature is more important for differences while nurture has greater influence on differences astructural and anatomical",
+            "url": "https://www.embibe.com/questions/Nature-is-more-important-for-______-differences%2C-while-nurture-has-greater-influence-on-______-differences./EM7708885",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "nature is more important for differences while nurture has greater influence on differences",
+            "content": "nature is more important for differences while nurture has greater influence on differences medium psychologypsychology in",
+            "url": "https://www.embibe.com/questions/Naturalism-has-been-defined-as%3A/EM7706073",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "nature is more important for differences while nurture has greater influence on differences",
+            "content": "18 nature is more important for differences while nurture has greater influence on differences a structural and anatomical psychological and",
+            "url": "https://www.edubull.com/Content/eRepository/SubjectContent/Exercises/2859.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "if an xlinked recessive disorder is in hardyweinberg equilibrium and the incidence in males equals 1 in 100 then the expected incidence of affected homozygous females would be",
+            "content": "incidence in males equals 1 in 100 then the expected incidence of affected homozygous females would be 1 in 1000 1 in 40 000 1 in 4000 1 in 10 000",
+            "url": "https://medizzy.com/learning/mcq/question/33896828",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following statements about hirschsprung disease is incorrect",
+            "content": "which of the following statements regarding hirschsprung disease is false a constipation and abdominal distention are classic symptoms b approximately 20",
+            "url": "https://your-doctor.net/quiz/print_question.php?print_id=1405&i=4",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following statements about hirschsprung disease is incorrect",
+            "content": "which of the following statements about hirschsprung disease is incorrect ret is a major susceptibility gene recurrence risks are greater for long segment",
+            "url": "https://medizzy.com/learning/mcq/question/33896808",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "research from moshe szyf and colleagues has provided significant findings on the epigenetic influences of prenatal maternal stress this work has been labelled",
+            "content": "study moshe szyf and colleagues has provided significant findings on the epigenetic influences of prenatal maternal stress this work has been labelled",
+            "url": "https://study.sagepub.com/marks6e/student-resources/chapter-3/multiple-choice-question",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "research from moshe szyf and colleagues has provided significant findings on the epigenetic influences of prenatal maternal stress this work has been labelled",
+            "content": "9 research from moshe szyf and colleagues has provided significant findings on the epigenetic influences of prenatal maternal stress this work has been",
+            "url": "https://study.sagepub.com/marks5e/student-resources/chapter-3/multiple-choice-questions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "research from moshe szyf and colleagues has provided significant findings on the epigenetic influences of prenatal maternal stress this work has been labelled",
+            "content": "environmental plasticity 9 research from moshe szyf and colleagues has provided significant findings on the epigenetic influences of prenatal",
+            "url": "https://www.facebook.com/Universeofscinces/posts/multiple-choice-questions1-in-humans-each-cell-normally-contains______-of-chromo/617314713002773/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "marked microsatellite instability is a feature of",
+            "content": "the presence of microsatellite instability is a sign of dna mismatch repair deficiency that can be inherited eg caused by a germline mutation in the msh2",
+            "url": "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/microsatellite-instability",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "what would be the frequency of aabbcc individuals from a mating of two aabbcc individuals",
+            "content": "the frequency of getting aabbcc individuals from a mating of two aabbcc individuals is 1 64 the parents with genotype aabbcc x aabbcc gives 64 offsprings",
+            "url": "https://www.examveda.com/what-is-the-frequency-of-getting-aabbcc-individuals-from-a-mating-of-two-aabbcc-individuals-156687/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "what would be the frequency of aabbcc individuals from a mating of two aabbcc individuals",
+            "content": "what would be the frequency of dominant phenotype for all character individuals from a mating of two aabbcc individuals 42 98 75 50",
+            "url": "https://triyambak.org/free-resources/wb-set-mp-set/practiceQuestion/34540",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "the epigenetic inheritance system has been described as mayr and provine 1980",
+            "content": "the epigenetic inheritance system has been described as mayr and provine 1980 hard inheritance genotype inheritance soft inheritance rna",
+            "url": "https://study.sagepub.com/marks6e/student-resources/chapter-3/multiple-choice-question",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "the epigenetic inheritance system has been described as mayr and provine 1980",
+            "content": "7 the epigenetic inheritance system has been described as mayr and provine 1980 genotype inheritance soft inheritance rna inheritance hard",
+            "url": "https://study.sagepub.com/marks5e/student-resources/chapter-3/multiple-choice-questions",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "the epigenetic inheritance system has been described as mayr and provine 1980",
+            "content": "the epigenetic inheritance system has been described as mayr and provine 1980 a genotype inheritance page 4 b soft inheritance c rna inheritance",
+            "url": "https://www.edubull.com/Content/eRepository/SubjectContent/Exercises/2859.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "the epigenetic inheritance system has been described as mayr and provine 1980",
+            "content": "the epigenetic inheritance system has been described as mayr and provine 1980 a genotype inheritance b soft inheritance c rna",
+            "url": "https://www.facebook.com/Universeofscinces/posts/multiple-choice-questions1-in-humans-each-cell-normally-contains______-of-chromo/617314713002773/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "a cross between two true breeding lines one with dark blue flowers and one with bright white flowers produces f1 offspring that are light blue when the f1 progeny are selfed a 121 ratio of dark blue to light blue to white flowers is observed what genetic phenomenon is consistent with these results",
+            "content": "when the f1 progeny are selfed a 1 2 1 ratio of dark blue to light blue to white flowers is observed what genetic phenomenon is consistent with these",
+            "url": "https://dcx0p3on5z8dw.cloudfront.net/Aakash/s3fs-public/pdf_management_files/sm_sa/IOQB_2020-21_%28Part-2%29_%28Qs%20%26%20Solutions%29.pdf?SW4hZ9zSjksKcTk4srz_cjHWwiDbawoI",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "asp235phe in a molecular report indicates that",
+            "content": "asp235phe in a molecular report indicates that phenylalanine has been replaced by asparagine asparagine has been replaced by phenylalanine",
+            "url": "https://medizzy.com/learning/mcq/question/33896989",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "asp235phe in a molecular report indicates that",
+            "content": "13 asp235phe in a molecular report indicates that a asparagines has been replaced by phenylalanine b phenylalanine has been replaced by asparagines c",
+            "url": "https://exampapers.must.ac.ke/wp-content/uploads/2020/01/CCM-3116-CELL-BIOLOGY-AND-GENETICS.docx.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "asp235phe in a molecular report indicates that",
+            "content": "asp235phe in a molecular report indicates that if both parents are affected with the same autosomal recessive disorder then the probability that each of",
+            "url": "https://medizzy.com/learning/mcq/question/33896979",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "what would be the frequency of aabbcc individuals from a mating of two aabbcc individuals",
+            "content": "what would be the frequency of aabbcc individuals from a mating of two aabbcc individuals is related to chromosomes and recombination quiz here you can create your own quiz and questions like what would be the frequency of aabbcc individuals from a mating of two aabbcc individuals also and",
+            "url": "https://www.quizzcreator.com/quiz/1984/chromosomes-and-recombination-quiz/1",
+            "engine": "braveAPI"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "the polymerase chain reaction or pcr is a technique that",
+            "content": "the polymerase chain reaction pcr is a method widely used to make millions to billions of copies of a specific dna sample rapidly",
+            "url": "https://en.wikipedia.org/wiki/Polymerase_chain_reaction",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the following sentence the philadelphia chromosome",
+            "content": "62 in humans a cytologically abnormal chromosome 22 called the “philadelphia” chromosome because of the city in which it was discovered",
+            "url": "https://www.press.muni.cz/media/3019066/answers_to_all_questions.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "in humans each cell normally contains of chromosomes",
+            "content": "human cells normally contain 23 pairs of chromosomes for a total of 46 chromosomes in each cell a change in the number of chromosomes can",
+            "url": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/chromosomalconditions/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "twin studies in humans are useful because",
+            "content": "twins and siblings can help us understand whether people are different because of genetic differences or because they live in different environments",
+            "url": "https://kids.frontiersin.org/articles/10.3389/frym.2019.00059",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the maternal serum level of alphafetoprotein afp is lower than average in which situation",
+            "content": "maternal serum afp levels elevated neural tube defects such as spina bifida and anencephaly omphalocele maternal serum afp low levels down syndrome",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK430750/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the most common cystic fibrosis mutation consists of",
+            "content": "with the most common gene mutation part of the cftr gene is missing the mutation makes a cftr protein that cant stay in the correct shape",
+            "url": "https://www.nhlbi.nih.gov/health/cystic-fibrosis/causes",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "zinc finger proteins and helixturnhelix proteins are",
+            "content": "four distinct structural motifs have been proposed for the dnabinding domains of eukaryotic transcriptional regulatory proteins the helixturnhelix",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2499084/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the normal human chromosome diploid number is",
+            "content": "in sexually reproducing organisms the number of chromosomes in the body somatic cells typically is diploid 2n a pair of each chromosome",
+            "url": "https://www.britannica.com/science/chromosome-number",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "assuming hardyweinberg equilibrium the genoypte frequency of heterozygotes if the frequency of the two alleles at the gene being studied are 06 and 04 will be",
+            "content": "answer since q 06 and p q 1 then p 04 the frequency of a is by definition equal to p so the answer is 40 the frequencies of the",
+            "url": "https://www.k-state.edu/parasitology/biology198/answers1.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "differential distribution of substances in the egg most typically results in",
+            "content": "dna damage can arise from many different origins both from exogenous sources eg ultraviolet and ionizing radiation genotoxic substances and endogenous",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9071077/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "it is currently estimated that there are human proteincoding genes although this estimate may be reduced over time",
+            "content": "there are an estimated 2000025000 human proteincoding genes the estimate of the number of human genes has been repeatedly revised down from",
+            "url": "https://www.embibe.com/questions/%0AIt-is-currently-estimated-that-there-are-______-human-protein-coding-genes%2C-although-this-estimate-may-be-reduced-over-time.%0A%0A/EM7710427",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "an increase in the inbreeding coefficient f is likely to result in",
+            "content": "the inbreeding coefficient f is a measure on inbreeding which is defined as both the probability that two alleles at any given locus are identical by descent",
+            "url": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/inbreeding-coefficient",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following conditions is not caused by a mutation in fgfr3",
+            "content": "the genetic changes responsible for both types of thanatophoric dysplasia cause the fgfr3 receptor to be overactive which leads to the severe",
+            "url": "https://medlineplus.gov/genetics/gene/fgfr3/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "has been described as the phenomenon by which one genotype can give rise to a range of different physiological or morphological states in response to different environmental conditions during development westeberhard 1989",
+            "content": "phenotypic plasticity can be defined as the ability of individual genotypes to produce different phenotypes when exposed to different environmental conditions",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2817147/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in dna adenine normally pairs with",
+            "content": "the two strands are held together by hydrogen bonds between pairs of bases adenine pairs with thymine and cytosine pairs with guanine dna sequence is",
+            "url": "https://www.genome.gov/genetics-glossary/Base-Pair",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following findings on prenatal ultrasound examination would not raise suspicion of a chromosome abnormality",
+            "content": "this syndrome is an imprinting disorder caused by abnormalities on chromosome 11p155 the diagnosis of beckwithwiedemann syndrome is usually made after birth",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4079588/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the common mutation in αthalassaemia consists of",
+            "content": "causes alpha thalassemia typically results from deletions involving the hba1 and hba2 genes less commonly changes to the dna sequence in or",
+            "url": "https://medlineplus.gov/genetics/condition/alpha-thalassemia/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is not a recognized complication of cystic fibrosis",
+            "content": "cystic fibrosis is a multifaceted genetic disease with a wide range of complications which depend upon genotype environment and disease progression",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK535688/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "with which of the following relatives is an individual most likely to share a common hla haplotype",
+            "content": "for example hlaa1 b8 dr17 is the most common hla haplotype among caucasians with a frequency of 5 the oneway hla match more likely occurs when an hla",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2628004/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the likelihood of an individual in a population carrying two specific alleles of a human dna marker each of which has a frequency of 02 will be",
+            "content": "allele frequency refers to the proportion of a specific allele within a population calculated by considering the total number of alleles contributed by",
+            "url": "https://www.sciencedirect.com/topics/neuroscience/allele-frequency",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "arabidopsis is advantageous for plant genetic research because",
+            "content": "it grows quickly produces many very small seeds has a small genome 1145 mb and is genetically well characterised due to the volume of work being focused on",
+            "url": "https://andor.oxinst.com/learning/view/article/advantages-of-using-arabidopsis-thaliana-as-a-model-organism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "enzyme assay can be used to identify carriers of",
+            "content": "the activity of a specific enzyme substrate turnover per hour can be used to quantify a substance or to characterize the physiological conditions of organs",
+            "url": "https://www.sciencedirect.com/topics/medicine-and-dentistry/enzyme-assay",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the pattern of inheritance shown by malignant hyperthermia hyperpyrexia is",
+            "content": "inheritance malignant hyperthermia susceptibility is inherited in an autosomal dominant pattern which means one copy of the altered gene in",
+            "url": "https://medlineplus.gov/genetics/condition/malignant-hyperthermia/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "if both parents are affected with the same autosomal recessive disorder then the probability that each of their children will be affected equals",
+            "content": "it is important to note that the chance of passing on a genetic condition applies equally to each pregnancy for example if a couple has a",
+            "url": "https://medlineplus.gov/genetics/understanding/inheritance/riskassessment/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "explained genetic disorders such as alkaptonuria and albinism",
+            "content": "coincidentally albinism alkaptonuria and phenylketonuria turn out to be genetically distinct defects in the metabolism of human aromatic amino acids the",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3509923/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following conditions is caused by a trinucleotide triplet repeat expansion",
+            "content": "triplet expansion is caused by slippage during dna replication also known as copy choice dna replication due to the repetitive nature of the dna sequence in",
+            "url": "https://en.wikipedia.org/wiki/Trinucleotide_repeat_expansion",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "an hfr strain of e coli contains",
+            "content": "the cultures which gave rise to many recombinant colonies were inferred to contain a large clone of hfr cells with an origin relatively close to the selected13 stron",
+            "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/23851F10CDB70A9C7E303C7679240209/S0016672300010296a.pdf/the-formation-of-hfr-strains-in-escherichia-coli-k12.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a baby born with pulmonary hypoplasia secondary to oligohydramnios caused by renal agenesis would be classified as having",
+            "content": "potter syndrome is a fatal congenital disorder characterized by the changes in physical appearances of neonate due to oligohydramnios caused by renal agenesis",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK560858/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the proportion of genes shared by first cousins is on average",
+            "content": "explanationfirst cousins are third degree relatives and therefore share on average 18 of their genes next question",
+            "url": "https://medizzy.com/learning/mcq/question/33896798",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following conditions is a peroxisomal disorder",
+            "content": "xlinked adrenoleukodystrophy is the most common peroxisomal disorder it primarily affects the brain spinal cord and adrenal glands because the defective",
+            "url": "https://www.msdmanuals.com/home/children-s-health-issues/hereditary-metabolic-disorders/peroxisomal-disorders",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "if the frequency of males affected with an xlinked recessive condition in a human population is 10 one in ten what will be the expected frequency of affected females",
+            "content": "by c annex this trait occurs with a frequency of 25 x 10 in the population of england and the genetic fitness of the homozygote is nearly zero under the assumption",
+            "url": "https://www.unscear.org/docs/reports/1962,%2017th%20session%20(Suppl.%20No.16)/1962final-3_unscear.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "familial hypercholesterolaemia is caused by mutations in the gene which encodes what",
+            "content": "it involves a homozygous deletion mutation in the gene cyp7a1 this gene codes for the enzyme cholesterol 7αhydroxylase which catalyzes the",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK343488/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the most common chromosome abnormality in first trimester spontaneous miscarriages is",
+            "content": "single autosomal trisomy was the most frequent abnormality 646 of the abnormal cases followed by triploidy 131 and monosomy x 104",
+            "url": "https://karger.com/cgr/article/152/2/81/61828/Overview-of-Chromosome-Abnormalities-in-First",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is not a tumour suppressor gene",
+            "content": "a tumor suppressor gene tsg or antioncogene is a gene that regulates a cell during cell division and replication",
+            "url": "https://en.wikipedia.org/wiki/Tumor_suppressor_gene",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "mutations that cause achondroplasia exert an effect which can be classified as",
+            "content": "mutation analysis of ach patients showed that nearly all mutations arise on the paternal chromosome the paternal origin of ach mutations in fgfr3 correlates",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5354942/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following genes conveys susceptibility for polygenic alzheimer disease",
+            "content": "however thus far the only clearly identified genetic risk factor for ad is apo lipoprotein e the ε4 allele of apoe influences age at onset of ad but is",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2690397/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "severe anaemia at birth is a feature of what",
+            "content": "anemia in newborns is a condition where the babys body has a lower red blood cell count than normal",
+            "url": "https://my.clevelandclinic.org/health/diseases/15698-anemia-in-newborns",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following causes female pseudohermaphroditism",
+            "content": "deficiencies of 21 or 11βhydroxylase the most common causes of female pseudohermaphroditism do not cause male pseudohermaphroditism males 46xy deficient",
+            "url": "https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/female-pseudohermaphroditism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is a feature of xlinked dominant inheritance",
+            "content": "xlinked dominant inheritance is a way a genetic trait or condition can be passed down from parent to child through mutations changes in a gene on a single x",
+            "url": "https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/x-linked-dominant-inheritance",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the presence of two or more cell lines from different zygotes in a single individual is known as",
+            "content": "chimera indicates a plant or portion of a plant whose tissues are made up of two or more types of cells with different genetic makeup",
+            "url": "https://en.wikipedia.org/wiki/Chimera_(genetics)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in a robertsonian translocation fusion occurs at the",
+            "content": "robertsonian translocations occur between two acrocentric chromosomes which are chromosomes in which the centromere is close to one end of the chromosome",
+            "url": "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/robertsonian-translocation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "male to male transmission is a key feature of which pattern of inheritance",
+            "content": "because only males have a y chromosome in ylinked inheritance a variant can only be passed from father to son",
+            "url": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the is the set of observable characteristics and is the sum of genetic and environmental effects",
+            "content": "heredity the sum of all biological processes by which particular characteristics are transmitted from parents to their offspring",
+            "url": "https://www.britannica.com/science/heredity-genetics",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "on average how many fragments would a restriction enzyme which recognizes a specific 4 base sequence in dna be expected to cleave a doublestranded bacteriophage with a genome size of 5000 bp into",
+            "content": "since any random sequence of four bases will be found quite frequently four baserecognizing enzymes cut dna into many short fragments conversely since any",
+            "url": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/restriction-enzyme",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following diagnostic techniques is of no value for the diagnosis of neural tube defects",
+            "content": "diagnosis and tests healthcare providers typically diagnose neural tube defects ntds during pregnancy through prenatal tests such as ultrasound",
+            "url": "https://my.clevelandclinic.org/health/diseases/22656-neural-tube-defects-ntd",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the digeorgeshprintzen syndrome is caused by a deletion in which chromosome",
+            "content": "22q112 deletion syndrome which is also known by several other names listed below is a disorder caused by the deletion of a small piece of chromosome 22",
+            "url": "https://medlineplus.gov/genetics/condition/22q112-deletion-syndrome/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "simple tandem repeat polymorphisms in humans are most useful for",
+            "content": "the human genome contains many repeated dna sequences that vary in complexity of repeating unit from a single nucleotide to a whole gene",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC42017/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "pseudocholinesterase deficiency is associated with increased sensitivity to what",
+            "content": "patients with a history of malignancy extensive burn injuries pregnancy liver disease and chronic infections are at increased risk for pseudocholinesterase",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK541032/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "positional cloning refers to",
+            "content": "positional cloning is a laboratory technique used to locate the position of a diseaseassociated gene along the chromosome",
+            "url": "https://www.genome.gov/genetics-glossary/Positional-Cloning",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "xchromosome inactivation",
+            "content": "random x inactivation occurs in the early female embryo where both the maternal and the paternal x chromosome have an equal chance of becoming inactivated",
+            "url": "http://www.nature.com/scitable/topicpage/x-chromosome-x-inactivation-323",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following disorders is not suitable for population carrier screening",
+            "content": "carrier screening is a term used to describe genetic testing that is performed on an individual who does not have any overt phenotype for a genetic disorder",
+            "url": "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/03/carrier-screening-for-genetic-conditions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following trisomy karyotypes has the mildest effect on human development",
+            "content": "women with a 47xxx karyotype show normal physical development whereas men with a 47xxy karyotype have small testes and are infertile",
+            "url": "https://medizzy.com/learning/mcq/question/33896742",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "plasmid vectors for cloning",
+            "content": "plasmids can be used as cloning vectors allowing the insertion of exogenous dna into a bacterial target learning objectives illustrate how",
+            "url": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(Boundless)/07%3A_Microbial_Genetics/7.12%3A_Tools_of_Genetic_Engineering/7.12G%3A_Plasmids_as_Cloning_Vectors",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "male breast cancer is associated with mutations in",
+            "content": "explanationthe lifetime risk for breast cancer in a male with a germline mutation in brca2 is approximately 5 next question more questions",
+            "url": "https://medizzy.com/learning/mcq/question/33896919",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the pattern of inheritance shown by glucose6phosphate dehydrogenase g6pd deficiency is",
+            "content": "boys only get one copy of the x chromosome with the g6pd gene from their mothers but girls get a copy from their mother and father this makes girls less",
+            "url": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/g6pd-glucose6phosphate-dehydrogenase-deficiency",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following disorders does not show xlinked inheritance",
+            "content": "a characteristic of xlinked inheritance is that fathers cannot pass xlinked traits to their sons no maletomale transmission hemophilia x",
+            "url": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which component of transcribed rna in eukaryotes is present in the initial transcript but is removed before translation occurs",
+            "content": "after transcription of a eukaryotic premrna its introns are removed by the spliceosome joining exons for translation the intron products of splicing have",
+            "url": "https://www.khanacademy.org/science/ap-biology/gene-expression-and-regulation/transcription-and-rna-processing/a/eukaryotic-pre-mrna-processing",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the risk of abnormality in the child of a mother with untreated phenylketonuria is",
+            "content": "when women with pku have high blood phenylalanine levels during pregnancy it can harm their unborn baby untreated pku can lead to",
+            "url": "https://www.mayoclinic.org/diseases-conditions/phenylketonuria/symptoms-causes/syc-20376302",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following conditions shows anticipation in paternal transmission",
+            "content": "anticipation is most often seen with certain genetic disorders of the nervous system such as huntingtons disease myotonic dystrophy and fragile x syndrome",
+            "url": "https://medlineplus.gov/genetics/understanding/inheritance/anticipation/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "autozygosity mapping is used to map disorders that show which pattern of inheritance",
+            "content": "explanationautozygosity mapping relies on identifying areas of the genome at which affected individuals are homozygous by descent from a common ancestor",
+            "url": "https://medizzy.com/learning/mcq/question/33896772",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "intergenerational transmission to offspring can occur as a result of parental exposures to",
+            "content": "metric and children have equal endowments parents will invest in the education of their children and make financial transfer so as to produce equal incomes",
+            "url": "https://research.upjohn.org/cgi/viewcontent.cgi?params=/context/up_press/article/1193/filename/5/type/additional/&path_info=up97jnpaitch6bg.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the proportion of babies that have an abnormality identifiable at birth is",
+            "content": "every four and a half minutes a baby in the united states is born with a birth defect this equals 1 out of every 33 babies born or 120000 babies each year",
+            "url": "https://my.clevelandclinic.org/health/diseases/12230-birth-defects",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "exon skipping is associated with",
+            "content": "exon skipping is a genetic approach aimed at restoring the production of functional dystrophin protein in individuals with specific mutations in the dmd gene",
+            "url": "https://www.sciencedirect.com/topics/medicine-and-dentistry/exon-skipping",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "transcriptional activator proteins",
+            "content": "transcriptional activators are required to turn on the expression of genes in a eukaryotic cell activators bound to the enhancer can facilitate either the",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4712173/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "consanguinity shows a strong association with which pattern of inheritance",
+            "content": "the offspring of consanguineous couples are at increased risk for autosomal recessive disorders due to their increased risk for homozygosity by descent a",
+            "url": "https://www.sciencedirect.com/topics/immunology-and-microbiology/consanguinity",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "homeobox sequences",
+            "content": "a homeobox is a dna sequence around 180 base pairs long that regulates largescale anatomical features in the early stages of embryonic development",
+            "url": "https://en.wikipedia.org/wiki/Homeobox",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is not a chromosome instability syndrome",
+            "content": "wellknown examples include ataxiatelangiectasia bloom syndrome fanconi anemia and nijmegen breakage syndrome diagnosis often requires genetic testing and",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK537198/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the mutational mechanism in δβthalassaemia consists of",
+            "content": "this article outlines the molecular mechanisms underlying the quantitative reduction in βglobin production mutations that completely inactivate the β gene",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3633182/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "most new mutations appear to be",
+            "content": "evidence suggests that most de novo mutations in a child come from the sperm that helped create that child and relatively few mutations come from the egg",
+            "url": "https://evolution.berkeley.edu/evolution-101/mechanisms-the-processes-of-evolution/the-causes-of-mutations/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "mapping of human chromosomes",
+            "content": "each chromosome has a distinct banding pattern and each band is numbered to help identify a particular region of a chromosome this method of mapping a gene",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK22266/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "normal adult haemoglobin hb a consists of",
+            "content": "hemoglobin a is the most common adult form of hemoglobin and exists as a tetramer containing two alpha subunits and two beta subunits α2β2",
+            "url": "https://en.wikipedia.org/wiki/Hemoglobin_A",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "assuming that the level of glucose is low a mutation in the repressor associated with the lac operon of e coli which prevents binding of the repressor to lactose should result in",
+            "content": "the lac operon of e coli contains genes involved in lactose metabolism its expressed only when lactose is present and glucose is absent",
+            "url": "https://www.khanacademy.org/science/ap-biology/gene-expression-and-regulation/regulation-of-gene-expression-and-cell-specialization/a/the-lac-operon",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "in genomewide association studies known snps explain of the variation in body mass index despite the evidence of greater than 50 heritability from twin and family studies",
+            "content": "recent genomewide association studies have successfully identified inherited genome sequence differences that account for 20 of the 50 heritability of",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5985927/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following karyotypes is diagnostic of down syndrome",
+            "content": "down syndrome is an abnormality of chromosome 21 that can cause intellectual disability microcephaly short stature and characteristic facies",
+            "url": "https://www.msdmanuals.com/professional/pediatrics/chromosome-and-gene-abnormalities/down-syndrome-trisomy-21",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a nonsense mutation involves",
+            "content": "a nonsense mutation is a point mutation in a sequence of dna that results in a nonsense codon or a premature stop codon in the transcribed mrna",
+            "url": "https://en.wikipedia.org/wiki/Nonsense_mutation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a high blood ammonia level occurs in",
+            "content": "several conditions can cause high ammonia levels in your blood including liver disease kidney failure and certain congenital conditions",
+            "url": "https://my.clevelandclinic.org/health/articles/22686-ammonia-levels",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in a condition such as schizophrenia the recurrence risk will be greatest for which of the following relatives of an affected individual",
+            "content": "prevalence recurrence risk of schizophrenia in individuals with affected first and seconddegree relatives of specific types are shown in",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5581894/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a homeotic mutation is one which",
+            "content": "mutations in homeotic genes cause displaced body parts homeosis such as antennae growing at the posterior of the fly instead of at the head mutations that",
+            "url": "https://en.wikipedia.org/wiki/Homeotic_gene",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "nature is more important for differences while nurture has greater influence on differences",
+            "content": "individual differences is to nature as is to nurture a environment genes b conscious unconscious c inaccuracy accuracy d biology",
+            "url": "https://kpu.pressbooks.pub/intropsychologystudyguide/chapter/multiple-choice/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "if an xlinked recessive disorder is in hardyweinberg equilibrium and the incidence in males equals 1 in 100 then the expected incidence of affected homozygous females would be",
+            "content": "remember the basic formulas p 2 2pq q 2 1 and p q 1 p frequency of the dominant allele in the population q frequency of the recessive allele",
+            "url": "https://www.k-state.edu/parasitology/biology198/answers1.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the risk for miscarriage associated with amniocentesis is approximately",
+            "content": "amniocentesis in up to 860 of the patients is safe and free from complications36 the risk of fetal loss in case of multiple pregnancies is",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK559247/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the mutation in sicklecell disease consists of",
+            "content": "causes variants also called mutations in the hbb gene cause sickle cell disease the hbb gene provides instructions for making one part of",
+            "url": "https://medlineplus.gov/genetics/condition/sickle-cell-disease/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in meiosis recombination occurs in",
+            "content": "in meiosis and mitosis recombination occurs between similar molecules of dna homologous sequences in meiosis nonsister homologous chromosomes pair with",
+            "url": "https://en.wikipedia.org/wiki/Genetic_recombination",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following karyotypes is not compatible with survival to birth",
+            "content": "45 y is the karyotypes not compatible with survival to birth in humans because human embryo cannot survive without an x chromosome",
+            "url": "https://learn.careers360.com/school/question-which-of-the-following-karyotypes-is-not-compatible-with-survival-to-birth-in-humans-33968/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following would result in angelman syndrome",
+            "content": "angelman syndrome causes delayed development problems with speech and balance mental disability and sometimes seizures many people with",
+            "url": "https://www.mayoclinic.org/diseases-conditions/angelman-syndrome/symptoms-causes/syc-20355621",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "taysachs disease is caused by deficiency of",
+            "content": "explanationdeficiency of alphaliduronidase glucose6phosphatase and homogentisic acid oxidase respectively cause hurler syndrome glycogen storage",
+            "url": "https://medizzy.com/learning/mcq/question/33896939",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "advantages of using adenoviruses for gene therapy include",
+            "content": "many clinical trials indicate that replicationdefective and replicationcompetent adenovirus vectors are safe and have therapeutic activity keywords",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4507798/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is an example of monosomy",
+            "content": "an example is down syndrome trisomy 21 a monosomy occurs when a person is missing a chromosome or part of a chromosome an example is turner syndrome xo",
+            "url": "https://study.com/learn/lesson/monosomy-disorder-examples.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "lebers hereditary optic atrophy is caused by a mutation in",
+            "content": "objectives identify the etiology of leber hereditary optic neuropathy rooted in mitochondrial dysfunction due to specific mutations in mitochondrial dna",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK482499/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following statements about hirschsprung disease is incorrect",
+            "content": "the main signs and symptoms of hirschsprung disease are constipation or intestinal obstruction usually appearing shortly after birth which do not respond to",
+            "url": "https://www.frieslandcampinainstitute.com/uploads/sites/19/2024/03/E-learning-Constipation-in-children-Module-3.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "recombinant alphaiduronidase is used for the treatment of which diseasesyndrome",
+            "content": "the availability of recombinant αliduronidase idua has resulted in the widespread treatment of less severe forms of mps i with enzyme replacement therapy",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2727896/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "research from moshe szyf and colleagues has provided significant findings on the epigenetic influences of prenatal maternal stress this work has been labelled",
+            "content": "exposure to genealtering substances particularly in the womb and shortly after birth “can lead to increased susceptibility to disease” said linda s",
+            "url": "https://townofmontreat.org/wp-content/uploads/2022/12/PublicComments.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "qtl analysis is used to",
+            "content": "qtls are mapped by identifying which molecular markers such as snps or aflps correlate with an observed trait this is often an early step in identifying the",
+            "url": "https://en.wikipedia.org/wiki/Quantitative_trait_locus",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is not a familial cancer syndrome",
+            "content": "these conditions are called family cancer syndromes or inherited hereditary cancer syndromes most family cancer syndromes are rare",
+            "url": "https://cancer.ca/en/cancer-information/what-is-cancer/genes-and-cancer/family-cancer-syndromes",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "marked microsatellite instability is a feature of",
+            "content": "microsatellite instability msi is a hypermutable phenotype caused by the loss of dna mismatch repair activity msi is detected in about 15 of all colorectal",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3037515/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "regarding exons which if any of the following statements is correct",
+            "content": "a the sequence of the exons determines the sequence of amino acids in the protein b various exons code for different protein domains c exons can be",
+            "url": "https://www.pearson.com/channels/genetics/exam-prep/asset/92d8edb2/which-of-the-following-statements-regarding-the-function-of-exons-is-incorrect-a",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "what would be the frequency of aabbcc individuals from a mating of two aabbcc individuals",
+            "content": "24 a broadsense heritability of 85 85 would mean that",
+            "url": "https://public.wsu.edu/~thorglab/biol301/exams/finalkey.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "the epigenetic inheritance system has been described as mayr and provine 1980",
+            "content": "a growing body of evidence indicates that epigenetic states can be influenced by the environment considering that erasure of epigenetic marks between generations is not universal among multicellular organisms what are the potential implications of inherited epigenetic variation for current",
+            "url": "https://www.nature.com/articles/nrg1834",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "asp235phe in a molecular report indicates that",
+            "content": "adenosine triphosphate atp is a nucleoside triphosphate that provides energy to drive and support many processes in living cells such as muscle contraction nerve impulse propagation and chemical synthesis found in all known forms of life it is often referred to as the quotmolecular unit",
+            "url": "https://en.wikipedia.org/wiki/Adenosine_triphosphate",
+            "engine": "braveAPI"
+        }
+    ]
+}

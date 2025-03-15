@@ -1,0 +1,1367 @@
+{
+    "task": "mmlu_astronomy",
+    "dataset": "web_access_astronomy_final",
+    "questions": 152,
+    "noWebContextCount": 3,
+    "contaminated_queries": 75,
+    "contaminated_urls": 357,
+    "valid_urls": 149,
+    "avg_contaminated_before_valid": 3.3959731543624163,
+    "contaminated_data_ratio": 0.7055335968379447,
+    "most_contaminated_urls": {
+        "www.ucolick.org": 18
+    },
+    "noWebContext": [
+        "Mars has an atmosphere that is almost entirely carbon dioxide.Why isn't there a strong greenhouse effect keeping the planet warm?",
+        "From laboratory measurements we know that a particular spectral line formed by hydrogen appears at a wavelength of 486.1 nanometers (nm). The spectrum of a particular star shows the same hydrogen line appearing at a wavelength of 485.9 nm. What can we conclude?",
+        "When traveling north from the United States into Canada you’ll see the North Star (Polaris) getting _________."
+    ],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 5,
+            "query": "which of the following lists the ingredients of the solar nebula from highest to lowest percentage of mass in the nebula",
+            "content": "7 which of the following lists the ingredients of the solar nebula from highest to lowest percentage of mass of the nebula a light gases h he",
+            "url": "https://www.ucolick.org/~max/Astro18-2014/Lectures/Lecture12%202014%20Atmospheres/Bennett_TCP7_Testbank_Word/08_Testbank.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the resolution of a telescope is a measure of its",
+            "content": "the resolution of a telescope is a measure of its ability to separate closelyspaced objects the components of the double star porrima are",
+            "url": "https://cosmicpursuits.com/943/telescopes-explained/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the terrestrial planet cores contain mostly metal because",
+            "content": "e distance of planet from sun answer d 8 the terrestrial planet cores contain mostly metal because a the entire planets are made mostly of metal b",
+            "url": "https://www.ucolick.org/~max/Astro18-2014/Lectures/Lecture12%202014%20Atmospheres/Bennett_TCP7_Testbank_Word/09_Testbank.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "the terrestrial planet cores contain mostly metal because",
+            "content": "the terrestrial planet cores contain mostly metal because a radioactivity created metals in the core from the decay of uranium",
+            "url": "https://www.transtutors.com/questions/the-terrestrial-planet-cores-contain-mostly-metal-because-a-radioactivity-created-me-10343944.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following statements about sidereal and solar days is not true",
+            "content": "2 which of the following statements about sidereal and solar days is not true a a solar day is 4 minutes longer than a sidereal day b a solar day",
+            "url": "https://www.ucolick.org/~max/Astro18-2014/Lectures/Lecture12%202014%20Atmospheres/Bennett_TCP7_Testbank_Word/S1_Testbank.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following statements about sidereal and solar days is not true",
+            "content": "which of the following statements about sidereal and solar days is true a a sidereal day is longer than a solar day b a solar day is longer than a",
+            "url": "https://www.tidjma.tn/en/astro/solar--day/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "how do we think the hot jupiters around other stars were formed",
+            "content": "hot jupiters a ammonia b methane c water d rock dust e sodium answer d 28 how do we think the hot jupiters around other stars were formed a",
+            "url": "https://www.ucolick.org/~max/Astro18-2014/Lectures/Lecture12%202014%20Atmospheres/Bennett_TCP7_Testbank_Word/13_Testbank.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following most likely explains why venus does not have a strong magnetic field",
+            "content": "20 which of the following most likely explains why venus does not have a strong magnetic field a it does not have a metallic core b its rotation is too",
+            "url": "https://www.ucolick.org/~max/Astro18-2014/Lectures/Lecture12%202014%20Atmospheres/Bennett_TCP7_Testbank_Word/09_Testbank.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is not one of nor follows directly from keplers laws",
+            "content": "34 which of the following is not one of nor follows directly from keplers laws a the orbit of each planet about the sun is an ellipse with the sun at",
+            "url": "https://www.ucolick.org/~max/Astro18-2014/Lectures/Lecture12%202014%20Atmospheres/Bennett_TCP7_Testbank_Word/03_Testbank.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the jovian planets have rings",
+            "content": "however observations have revealed that each of the jovian planets have ring systems jupiters ring is exceptionally faint",
+            "url": "https://www.e-education.psu.edu/astro801/content/l11_p7.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "suppose you live on the moon how long is a day ie from sunrise to sunrise",
+            "content": "10 suppose you live on the moon how long is a day ie from sunrise to sunrise a 23 hours 56 minutes",
+            "url": "https://sciences.ucf.edu/physics/bennett-lab/wp-content/uploads/sites/11/2018/02/Homework-1-Solutions.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "suppose you live on the moon how long is a day ie from sunrise to sunrise",
+            "content": "e because the moon has a nearly circular orbit around earth 7 8 suppose you live on the moon how long is a day ie from sunrise to sunrise a 24",
+            "url": "https://chartasg.people.charleston.edu/chartas/Teaching_files/astro129_hw_ch2_fall2014.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "suppose you live on the moon how long is a day ie from sunrise to sunrise",
+            "content": "how long is a day ie from sunrise to sunrise a 23 hours 56 minutes b 24 hours c a lunar month d a",
+            "url": "https://www.ucolick.org/~max/Astro18-2014/Lectures/Lecture12%202014%20Atmospheres/Bennett_TCP7_Testbank_Word/02_Testbank.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "suppose you live on the moon how long is a day ie from sunrise to sunrise",
+            "content": "4 suppose you live on the moon how long is a day ie from sunrise to sunrise a a year b 23 hours 56 minutes c 24 hours d about 18 years e a",
+            "url": "https://www.bartol.udel.edu/~owocki/mt1-sample1-12f-solns.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following methods has led to the most discoveries of massive planets orbiting near their parent stars",
+            "content": "3 which of the following methods has led to the most discoveries of massive planets orbiting near their parent stars a detecting the starlight reflected off",
+            "url": "https://www.ucolick.org/~max/Astro18-2014/Lectures/Lecture12%202014%20Atmospheres/Bennett_TCP7_Testbank_Word/13_Testbank.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the terrestrial planet cores contain mostly metal because",
+            "content": "e distance of planet from sun answer d 8 the terrestrial planet cores contain mostly metal because a the entire planets are made mostly of metal b",
+            "url": "https://www.ucolick.org/~max/Astro18-2014/Lectures/Lecture12%202014%20Atmospheres/Bennett_TCP7_Testbank_Word/09_Testbank.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "the terrestrial planet cores contain mostly metal because",
+            "content": "the terrestrial planet cores contain mostly metal because a radioactivity created metals in the core from the decay of uranium",
+            "url": "https://www.transtutors.com/questions/the-terrestrial-planet-cores-contain-mostly-metal-because-a-radioactivity-created-me-10343944.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "from laboratory measurements we know that a particular spectral line formed by hydrogen appears at a wavelength of 4861 nanometers nm the spectrum of a particular star shows the same hydrogen line appearing at a wavelength of 4859 nm what can we conclude",
+            "content": "the spectrum of a particular star shows the same hydrogen line appearing at a wavelength of 4859 nm what can we conclude a the star is getting colder b",
+            "url": "https://www.ucolick.org/~mfduran/AY2/other-files/Sample-math-final.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "from laboratory measurements we know that a particular spectral line formed by hydrogen appears at a wavelength of 4861 nanometers nm the spectrum of a particular star shows the same hydrogen line appearing at a wavelength of 4859 nm what can we conclude",
+            "content": "the spectrum of a particular star shows the same hydrogen line appearing at a wavelength of 4859 nm what can we conclude a the star is moving toward us",
+            "url": "https://www.ucolick.org/~max/Astro18-2014/Lectures/Lecture12%202014%20Atmospheres/Bennett_TCP7_Testbank_Word/05_Testbank.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following is not true",
+            "content": "which of the following is not true a 23 54 54 23 b 23 54 54 23 c 23 × 54 54 × 23 d 23 ÷ 54 23 × 45",
+            "url": "https://www.cuemath.com/ncert-solutions/which-of-the-following-is-not-true-a-2-3-5-4-5-4-2-3-b-2-3-5-4-5-4-2-3-c-2-3-5-4-5-4-2-3-d-2-3-5-4-2-3-4-5/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following is not true",
+            "content": "we have to determine the true statement from the given options therefore option c is not true therefore option d is not true",
+            "url": "https://www.cuemath.com/ncert-solutions/which-of-the-following-is-not-true-a-3-2-2-3-b-4-3-2-6-c-3-3-9-d-2-5-5-2/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "what effect or effects would be most significant if the moons orbital plane were exactly the same as the ecliptic plane",
+            "content": "what effect or effects would be most significant if the moons orbital plane were exactly the same as the ecliptic plane solar eclipses would be much rarer",
+            "url": "https://www.brainscape.com/flashcards/test-1-mastering-astronomy-4305565/packs/6200817",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "what effect or effects would be most significant if the moons orbital plane were exactly the same as the ecliptic plane",
+            "content": "37 what effect or effects would be most significant if the moons orbital plane were exactly the same as the ecliptic plane a solar eclipses would be",
+            "url": "https://www.ucolick.org/~max/Astro18-2014/Lectures/Lecture12%202014%20Atmospheres/Bennett_TCP7_Testbank_Word/02_Testbank.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "jupiter and the other jovian planets are sometimes called gas giants in what sense is this term misleading",
+            "content": "2 jupiter and the other jovian planets are sometimes called gas giants in what sense is this term misleading a the materials they are made of are not",
+            "url": "https://www.ucolick.org/~max/Astro18-2014/Lectures/Lecture12%202014%20Atmospheres/Bennett_TCP7_Testbank_Word/11_Testbank.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "earth has been gradually warming over the past few decades based on a great deal of evidence scientists conclude that this warming is caused by",
+            "content": "2 earth has been gradually warming over the past few decades based on a great deal of evidence scientists believe that this warming is caused by human",
+            "url": "https://cloud.unicentroma.edu.br/concept-check/2-earth-has-been-gradually-warming-over-the-past-few-decades-z0hg.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "when traveling north from the united states into canada you’ll see the north star polaris getting",
+            "content": "when traveling north from the united states into canada youll see the north star polaris getting a higher in the sky how well did you know",
+            "url": "https://www.brainscape.com/flashcards/chapter-2-814169/packs/1504368",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "when traveling north from the united states into canada you’ll see the north star polaris getting",
+            "content": "traveling north from the united states into canada youll see the north star polaris getting optiona brighter optionb dimmer",
+            "url": "https://modelscope.cn/datasets/CohereForAI/Global-MMLU-Lite?spm=a2c6h.13046898.publish-article.22.15866ffaAQctzv",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "the terrestrial planet cores contain mostly metal because",
+            "content": "e distance of planet from sun answer d 8 the terrestrial planet cores contain mostly metal because a the entire planets are made mostly of metal b",
+            "url": "https://www.ucolick.org/~max/Astro18-2014/Lectures/Lecture12%202014%20Atmospheres/Bennett_TCP7_Testbank_Word/09_Testbank.doc",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "the terrestrial planet cores contain mostly metal because",
+            "content": "the terrestrial planet cores contain mostly metal because a radioactivity created metals in the core from the decay of uranium",
+            "url": "https://www.transtutors.com/questions/the-terrestrial-planet-cores-contain-mostly-metal-because-a-radioactivity-created-me-10343944.htm",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "suppose you live on the moon how long is a day ie from sunrise to sunrise",
+            "content": "10 suppose you live on the moon how long is a day ie from sunrise to sunrise a 23 hours 56 minutes",
+            "url": "https://sciences.ucf.edu/physics/bennett-lab/wp-content/uploads/sites/11/2018/02/Homework-1-Solutions.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "suppose you live on the moon how long is a day ie from sunrise to sunrise",
+            "content": "e because the moon has a nearly circular orbit around earth 7 8 suppose you live on the moon how long is a day ie from sunrise to sunrise a 24",
+            "url": "https://chartasg.people.charleston.edu/chartas/Teaching_files/astro129_hw_ch2_fall2014.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "suppose you live on the moon how long is a day ie from sunrise to sunrise",
+            "content": "how long is a day ie from sunrise to sunrise a 23 hours 56 minutes b 24 hours c a lunar month d a",
+            "url": "https://www.ucolick.org/~max/Astro18-2014/Lectures/Lecture12%202014%20Atmospheres/Bennett_TCP7_Testbank_Word/02_Testbank.doc",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "suppose you live on the moon how long is a day ie from sunrise to sunrise",
+            "content": "4 suppose you live on the moon how long is a day ie from sunrise to sunrise a a year b 23 hours 56 minutes c 24 hours d about 18 years e a",
+            "url": "https://www.bartol.udel.edu/~owocki/mt1-sample1-12f-solns.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "the terrestrial planet cores contain mostly metal because",
+            "content": "e distance of planet from sun answer d 8 the terrestrial planet cores contain mostly metal because a the entire planets are made mostly of metal b",
+            "url": "https://www.ucolick.org/~max/Astro18-2014/Lectures/Lecture12%202014%20Atmospheres/Bennett_TCP7_Testbank_Word/09_Testbank.doc",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "the terrestrial planet cores contain mostly metal because",
+            "content": "the terrestrial planet cores contain mostly metal because a radioactivity created metals in the core from the decay of uranium",
+            "url": "https://www.transtutors.com/questions/the-terrestrial-planet-cores-contain-mostly-metal-because-a-radioactivity-created-me-10343944.htm",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "from laboratory measurements we know that a particular spectral line formed by hydrogen appears at a wavelength of 4861 nanometers nm the spectrum of a particular star shows the same hydrogen line appearing at a wavelength of 4859 nm what can we conclude",
+            "content": "the spectrum of a particular star shows the same hydrogen line appearing at a wavelength of 4859 nm what can we conclude a the star is getting colder b",
+            "url": "https://www.ucolick.org/~mfduran/AY2/other-files/Sample-math-final.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "from laboratory measurements we know that a particular spectral line formed by hydrogen appears at a wavelength of 4861 nanometers nm the spectrum of a particular star shows the same hydrogen line appearing at a wavelength of 4859 nm what can we conclude",
+            "content": "the spectrum of a particular star shows the same hydrogen line appearing at a wavelength of 4859 nm what can we conclude a the star is moving toward us",
+            "url": "https://www.ucolick.org/~max/Astro18-2014/Lectures/Lecture12%202014%20Atmospheres/Bennett_TCP7_Testbank_Word/05_Testbank.doc",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "which of the following is not true",
+            "content": "which of the following is not true a 23 54 54 23 b 23 54 54 23 c 23 × 54 54 × 23 d 23 ÷ 54 23 × 45",
+            "url": "https://www.cuemath.com/ncert-solutions/which-of-the-following-is-not-true-a-2-3-5-4-5-4-2-3-b-2-3-5-4-5-4-2-3-c-2-3-5-4-5-4-2-3-d-2-3-5-4-2-3-4-5/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "which of the following is not true",
+            "content": "we have to determine the true statement from the given options therefore option c is not true therefore option d is not true",
+            "url": "https://www.cuemath.com/ncert-solutions/which-of-the-following-is-not-true-a-3-2-2-3-b-4-3-2-6-c-3-3-9-d-2-5-5-2/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "when traveling north from the united states into canada you’ll see the north star polaris getting",
+            "content": "when traveling north from the united states into canada youll see the north star polaris getting a higher in the sky how well did you know",
+            "url": "https://www.brainscape.com/flashcards/chapter-2-814169/packs/1504368",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "when traveling north from the united states into canada you’ll see the north star polaris getting",
+            "content": "traveling north from the united states into canada youll see the north star polaris getting optiona brighter optionb dimmer",
+            "url": "https://modelscope.cn/datasets/CohereForAI/Global-MMLU-Lite?spm=a2c6h.13046898.publish-article.22.15866ffaAQctzv",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 22,
+            "query": "the terrestrial planet cores contain mostly metal because",
+            "content": "the terrestrial planet cores contain mostly metal because o radioactivity created metals in the core from the decay of uranium convection carried the metals to the core o metals condensed first in the solar nebula and the rocks then accreted around them the entire planets are made mostly",
+            "url": "https://www.chegg.com/homework-help/questions-and-answers/terrestrial-planet-cores-contain-mostly-metal-o-radioactivity-created-metals-core-decay-ur-q82026170",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 22,
+            "query": "the terrestrial planet cores contain mostly metal because",
+            "content": "the terrestrial planet cores contain mostly metal because o radioactivity created metals in the core from the decay of uranium convection carried the metals to the core o metals condensed first in the solar nebula and the rocks then accreted around them the entire planets are made mostly",
+            "url": "https://www.chegg.com/homework-help/questions-and-answers/terrestrial-planet-cores-contain-mostly-metal-o-radioactivity-created-metals-core-decay-ur-q82026170",
+            "engine": "braveAPI"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 4,
+            "query": "the lithosphere of a planet is the layer that consists of",
+            "content": "the upper layer of earth in which plants grow a black or dark brown material typically consisting of a mixture of organic remains clay and rock particles",
+            "url": "https://zpe.gov.pl/a/earths-layers-spheres/DQZcciOcA",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "according to the solar nebular theory what are asteroids and comets",
+            "content": "the nebular hypothesis is the idea that a spinning cloud of dust made of mostly light elements called a nebula flattened into a protoplanetary disk and",
+            "url": "https://geo.libretexts.org/Bookshelves/Geology/Book%3A_An_Introduction_to_Geology_(Johnson_Affolter_Inkenbrandt_and_Mosher)/08%3A_Earth_History/8.02%3A_Origin_of_the_Solar_SystemThe_Nebular_Hypothesis",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what would weigh the most on the moon",
+            "content": "the moon only has 16 the gravity that earth does this means you weigh six times less on the moon than you do on earth",
+            "url": "https://www.wonderopolis.org/wonder/how-much-do-you-weigh-on-the-moon/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "radio telescopes are crucial for astronomical observations which one of these wellknown radio telescopes has the largest parabolic antenna",
+            "content": "the largest moving radio dish is the green bank telescope 100 meters across and fullysteerable and thats about the maximum size for safely and accurately",
+            "url": "https://public.nrao.edu/telescopes/radio-telescopes/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "venus shows evidence of which of the following surface processes",
+            "content": "its thick atmosphere traps heat in a runaway greenhouse effect making it the hottest planet in our solar system with surface temperatures hot enough to melt",
+            "url": "https://science.nasa.gov/venus/venus-facts/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how does the greenhouse effect work",
+            "content": "the greenhouse effect is a process that occurs when gases in earths atmosphere trap the suns heat this process makes earth much warmer than it would be",
+            "url": "https://climatekids.nasa.gov/greenhouse-effect/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what is the correct numerical value and unit of the boltzmann constant",
+            "content": "numerical value 8617 333 262 x 105 ev k standard uncertainty exact relative standard uncertainty exact",
+            "url": "https://physics.nist.gov/cgi-bin/cuu/Value?kev",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which of the following lists the ingredients of the solar nebula from highest to lowest percentage of mass in the nebula",
+            "content": "about 2 of our solar nebula consisted of elements besides hydrogen and helium however the very first generation of star systems in the universe probably",
+            "url": "https://www.easynotecards.com/notecard_set/76622",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the cassini division of saturns rings",
+            "content": "the a and b rings are separated by the cassini division which is a large gap in the rings caused by the gravitational pull of saturns moon mimas the a ring",
+            "url": "https://caps.gsfc.nasa.gov/simpson/kingswood/rings/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "planet x orbits its sun once every 100 earth days and rotates in the prograde direction around its axis with a sidereal day of 100 earth days how long is a solar day on planet x",
+            "content": "so after one trip around the sun earth has rotated about its axis it takes about 36524 solar days for the earth to complete one orbit",
+            "url": "https://www.reddit.com/r/askscience/comments/6c3t0s/if_each_day_is_only_23h56m4s_over_the_course_of_4/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the axis of the earth is tilted at an angle of approximately relative to the orbital plane around the sun",
+            "content": "it is denoted by the greek letter epsilon ε earth currently has an axial tilt of about 2344°",
+            "url": "https://en.wikipedia.org/wiki/Axial_tilt",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "find the best approximation for the surface temperature of the sun",
+            "content": "the formula is simply a useful approximation to estimate solar system body temperatures it ignores factors like albedo internal energy and atmospheric",
+            "url": "https://physics.stackexchange.com/questions/114972/temperature-on-the-surface-of-the-sun-calculated-with-the-stefan-boltzmann-rule",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "what is true for a typeia type onea supernova",
+            "content": "this revolutionary discovery which astrophysicists achieved with observations of specific kinds of exploding stars called type ia read “type onea”",
+            "url": "https://www.ift.uam-csic.es/es/node/4395",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how do scientists know that the majority of meteorites come from the asteroid belt",
+            "content": "most meteorites come from the asteroid belt between mars and jupiter some of them might also be ejected off the surface of mars or the moon",
+            "url": "https://askanearthspacescientist.asu.edu/where-meteorites-come-from",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when was the telescope invented by galileo",
+            "content": "in 1610 galileo galilei observed with his telescope that venus showed phases despite remaining near the sun in earths sky first image this proved that",
+            "url": "https://en.wikipedia.org/wiki/History_of_the_telescope",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the source of the material that causes meteor showers",
+            "content": "these meteors are caused by streams of cosmic debris called meteoroids entering earths atmosphere at extremely high speeds on parallel trajectories",
+            "url": "https://en.wikipedia.org/wiki/Meteor_shower",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "approximately how far away is the andromeda galaxy",
+            "content": "andromeda has a d25 isophotal diameter of about 4656 kiloparsecs 152000 lightyears and is approximately 765 kpc 25 million lightyears from earth the",
+            "url": "https://en.wikipedia.org/wiki/Andromeda_Galaxy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the resolution of a telescope is a measure of its",
+            "content": "angular resolution describes the ability of any imageforming device such as an optical or radio telescope a microscope a camera or an eye to distinguish",
+            "url": "https://en.wikipedia.org/wiki/Angular_resolution",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "previous iaac rounds featured proximaalpha centauri as closes starsystem to the earth which one is the second closest starsystem",
+            "content": "which one is the second closest starsystem a wolf 359 b sirius c 61 cygni d barnards star question",
+            "url": "https://iaac.space/docs/problems/2019/IAAC_Final_Round_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "planetary rings are",
+            "content": "ring systems are best known as planetary rings common components of satellite systems around giant planets such as the rings of saturn or circumplanetary",
+            "url": "https://en.wikipedia.org/wiki/Ring_system",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "what element is most common among the jovian planets",
+            "content": "the jovian planets have relatively small dense cores surrounded by massive layers of gas made almost entirely of hydrogen and helium these planets do not",
+            "url": "https://lasp.colorado.edu/outerplanets/giantplanets_whatandwhere.php",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following statements about sidereal and solar days is not true",
+            "content": "which of the following statements about venus is true a the stars rise in the west and set in the east b the solar day is longer than the sidereal day",
+            "url": "https://pages.uoregon.edu/imamura/121/x4/review.final.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "how do we think the hot jupiters around other stars were formed",
+            "content": "astronomers generally believe that systems hosting hot jupiters form when those massive planets are pulled in close to their stars thereby",
+            "url": "https://www.astronomy.com/science/study-finds-hot-jupiters-may-form-close-to-stars/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how are planetary rings made",
+            "content": "scientists think that saturns rings formed either from a moon getting too close and breaking apart or from collisions of multiple small icy moons",
+            "url": "https://www.planetary.org/articles/how-do-planets-get-rings",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "suppose the angular separation of two stars is smaller than the angular resolution of your eyes how will the stars appear to your eyes",
+            "content": "how will the stars appear to your eyes athe two stars will appear to be touching looking rather like a small dumbbell byou will not be able to",
+            "url": "https://www.astro.utoronto.ca/~ast201/quiz/psfiles/quiz3.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "jupiters orbital distance is roughly 5 au how many times brighter would the sun have to be for europa to receive the same solar flux that we currently receive on earth 1380wm2",
+            "content": "stars five times more massive than the sun are nearly 1000 times brighter have surface temperatures of about 18000 kcompared to 5800 k for the sunand",
+            "url": "https://dokumen.pub/principles-and-applications-of-geochemistry-2nbsped-0023364505-9780023364501.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which factor s most important in determining the history of volanism and tectonism on a planet",
+            "content": "most volcanoes form at the boundaries of earths tectonic plates these plates are huge slabs of earths crust and upper mantle which fit together like pieces",
+            "url": "https://education.nationalgeographic.org/resource/plate-tectonics-volcanic-activity/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "youve made a scientific theory that there is a force between all objects this forcce has both a dark and light side when will your theory be proven correct",
+            "content": "so a theory of everything is both a theory of quantum gravity and a grand unified theory the name is somewhat misleading such a theory of",
+            "url": "http://backreaction.blogspot.com/2019/11/how-can-we-test-theory-of-everything.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "how did eratosthenes estimate the size of earth in 240 bc",
+            "content": "he is best known for being the first person known to calculate the earths circumference which he did by using the extensive survey results he could access in",
+            "url": "https://en.wikipedia.org/wiki/Eratosthenes",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "you observe the visible spectrum of a star viewed through a cloud of cool hydrogen gas",
+            "content": "the lines you see in a stars spectrum act like thermometers some compounds like titanium oxide only appear in the spectra of very cool stars",
+            "url": "https://skyserver.sdss.org/dr8/en/proj/advanced/spectraltypes/lines.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "why cant we see the suns corona except during total solar eclipses",
+            "content": "unfortunately the diffuse scattering makes the atmosphere near the sun too bright to see the corona unless youre able to block the light in the",
+            "url": "https://www.reddit.com/r/solareclipse/comments/1c5uz80/why_cant_i_see_the_corona_if_i_block_the_sun_with/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the lunar maria are",
+            "content": "the lunar maria are large dark basaltic plains on earths moon formed by lava flowing into ancient impact basins they were dubbed maria latin for",
+            "url": "https://en.wikipedia.org/wiki/Lunar_mare",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "what is not true of jupiters magnetic field",
+            "content": "nasas juno spacecraft measuring jupiters gravity and magnetic field found data suggesting the core is much larger than expected and not solid instead",
+            "url": "https://science.nasa.gov/jupiter/jupiter-facts/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "why is saturn almost as big as jupiter despite its smaller mass",
+            "content": "even though saturn is almost as big as jupiter saturn has less than a third its mass saturn orbits the sun at a distance of 959 au 1434 million km",
+            "url": "https://en.wikipedia.org/wiki/Saturn",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "kirkwood gaps are observed in the main asteroid belt including at the positions where",
+            "content": "asteroid zones the main gaps occur at the 31 52 73 and 21 meanmotion resonances with jupiter an asteroid in the 31 kirkwood gap would orbit the sun",
+            "url": "https://en.wikipedia.org/wiki/Kirkwood_gap",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "why do uranus and neptune have blue methane clouds but jupiter and saturn do not",
+            "content": "the main reason why the planets look so different is that uranus and neptune are colder which means that cloud condenses much deeper in the atmosphere",
+            "url": "https://www.reddit.com/r/askscience/comments/ozzzda/whats_the_reason_jupiter_and_neptune_are/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "life on earth originated from",
+            "content": "the earliest clear evidence of life comes from biogenic carbon signatures and stromatolite fossils discovered in 37 billionyearold metasedimentary rocks from",
+            "url": "https://en.wikipedia.org/wiki/History_of_life",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following isare true",
+            "content": "use is when referring to a singular subject one true statement and are when referring to a plural subject multiple true statements",
+            "url": "https://pushtolearn.com/post/which-of-the-following-statements-are-or-is-true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "imagine that the earth was instantly moved to an orbit three times further away from the sun how much longer would a year be",
+            "content": "if earths orbit moved closer to the sun wed all burn if it moved farther away wed all freeze good thing were in the sweet spot",
+            "url": "https://science.howstuffworks.com/science-vs-myth/what-if/what-if-earth-changed-its-orbit.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "one astronomical unit au is equal to approximately",
+            "content": "the astronomical unit symbol au or au is a unit of length defined to be exactly equal to 149597870700 m historically the astronomical unit was conceived",
+            "url": "https://en.wikipedia.org/wiki/Astronomical_unit",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "most rocks on the moons surface are older than those on the earths surface the best evidence for this is",
+            "content": "one of the rocks collected by apollo 14 astronauts in 1971 contains a fragment of earths ancient crust dating back more than 4011 billion years",
+            "url": "https://www.nationalgeographic.com/science/article/earths-oldest-rock-found-on-moon-get-facts-apollo-14-zircons",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which living organisms most resemble the common ancestor of all life according to genetic testing",
+            "content": "the last universal common ancestor luca is the hypothesized common ancestral cell from which the three domains of life the bacteria the archaea and the",
+            "url": "https://en.wikipedia.org/wiki/Last_universal_common_ancestor",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what is true about the rotation of a solid disk",
+            "content": "the torque was 8727nm explanation the torque is the rate of change of angular momentum τdldtdiωdtidωdtiα",
+            "url": "https://socratic.org/questions/the-rate-of-rotation-of-a-solid-disk-with-a-radius-of-5-m-and-mass-of-5-kg-const-3",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "all of the following have been cited as evidence for the giant impact hypothesis except",
+            "content": "the giantimpact hypothesis sometimes called the theia impact is an astrogeology hypothesis for the formation of the moon first proposed in 1946",
+            "url": "https://en.wikipedia.org/wiki/Giant-impact_hypothesis",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why do we look for waterice in craters at mercurys pole",
+            "content": "scientists now believe that the ice resides on the floors of craters at mercurys north pole where it can remain permanently shaded from the sun",
+            "url": "https://www.nrao.edu/pr/2000/vla20/background/mercuryice/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of these has not been one of the main hypotheses considered for the origin of the moon",
+            "content": "the accretion hypothesis proposes that the moon was created along with earth at its formation",
+            "url": "https://www.nhm.ac.uk/discover/how-did-the-moon-form.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the pleiades is an open star cluster that plays a role in many ancient stories and is wellknown for containing bright stars",
+            "content": "the pleiades also known as seven sisters and messier 45 m45 is an asterism of an open star cluster containing young btype stars in the northwest of the",
+            "url": "https://en.wikipedia.org/wiki/Pleiades",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why do scientists think mars was once warmer and wetter",
+            "content": "the presence of rock morphologies or minerals that imply a wet history point towards possible habitability at that location in the past",
+            "url": "https://www.esa.int/About_Us/ESAC/New_evidence_for_a_warmer_and_wetter_early_Mars",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "meteorites with high metal content probably are",
+            "content": "highfe2o3 meteorwrongs are iron ores often hematite concretions figure 7 the ratio of magnesium to iron does not vary greatly among most kinds of stony",
+            "url": "https://sites.wustl.edu/meteoritesite/items/chemical-composition-of-meteorites/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following characteristics would not necessarily suggest that a rock we found is a meteorite",
+            "content": "a rock is not a meteorite if it has these qualities large vesicles large crystals bright colors iridescent surface radioactivity sedimentary layers",
+            "url": "https://www.lpl.arizona.edu/outreach/meteorites/meteorite-physical-characteristics",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why do we see essentially the same face of the moon at all times",
+            "content": "we always see the same side of the moon although thanks to lunar libration we can observe slightly more than half of the moons surface",
+            "url": "https://www.skyatnightmagazine.com/space-science/why-always-see-same-side-moon",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "why does the plasma ion tail of a comet always point away from the sun",
+            "content": "as a comet approaches the inner solar system solar radiation causes the volatile materials within the comet to vaporize and stream out of the nucleus carrying",
+            "url": "https://en.wikipedia.org/wiki/Comet_tail",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following countries has sent landers to venus",
+            "content": "in december 1984 during the apparition of halleys comet the soviet union launched the two vega probes to venus vega 1 and vega 2 encountered venus in june",
+            "url": "https://en.wikipedia.org/wiki/Observations_and_explorations_of_Venus",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why is it thought that the climate on mars changed when the planet lost its strong magnetic field",
+            "content": "chemical changes inside marss core caused it to lose its magnetic field this in turn caused it to lose its oceans",
+            "url": "https://daily.jstor.org/how-mars-lost-its-magnetic-field-and-then-its-oceans/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "if you lived on venus what phases of the earth would you see assume your telescope can see through venus’s thick clouds…",
+            "content": "hypothetical venusian astronomers would get a similar kind of view of our planet and be able to see earths continents oceans and polar ice caps",
+            "url": "https://www.astronomy.com/science/ask-astro-what-would-earth-look-like-from-venus/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "how do astronomers think jupiter generates its internal heat",
+            "content": "first astronomers are only right now claiming which they had seen from their instruments and with their eyes on the space they are not so sure about it",
+            "url": "https://mysteriousuniverse.quora.com/How-do-astronomers-think-Jupiter-generates-its-internal-heat",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "most people use c°degree celsius to measure everyday temperatures astronomers prefer to use k kelvin to measure temperatures approximately how many kelvin are 25 c°",
+            "content": "as such in the kelvin scale water freezes at 27315 k 0 c and boils at 37315 k or 100 c",
+            "url": "https://www.livescience.com/temperature.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "where is the crater from the impact that is believed to be responsible for the mass extinction of dinosaurs 65 million years ago",
+            "content": "the impact hypothesis also known as the alvarez hypothesis was bolstered by the discovery of the 180 km 112 mi chicxulub crater in the gulf of mexicos",
+            "url": "https://en.wikipedia.org/wiki/Cretaceous%E2%80%93Paleogene_extinction_event",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the second cosmic velocity or escape velocity is the speed required by an object to escape the gravitational field of a celestial body with mass m and radius r which formula correctly calculates this velocity g gravitational constant",
+            "content": "escape velocity or escape speed is the minimum speed needed for an object to escape from contact with or orbit of a primary body",
+            "url": "https://en.wikipedia.org/wiki/Escape_velocity",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "why does earth have the strongest magnetic field among the terrestrial worlds",
+            "content": "it emits electromagnetic energy from charged atomic particles spiraling through its strong magnetic field if this sizzling magnetosphere were visible to our",
+            "url": "https://science.nasa.gov/learn/basics-of-space-flight/chapter1-2/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what about asteroids makes them stand out in sky surveys searching for them",
+            "content": "more than 100 asteroids can be seen as red dots with some of them visible in a track that shows how they were captured at different times as they marched",
+            "url": "https://science.nasa.gov/solar-system/asteroids/exploration/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which statement about an atom is not true",
+            "content": "the correct answer is option 4 the statement atoms aggregate in large numbers to form the matter that we can see feel and touch is not correct",
+            "url": "https://examrobot.com/content/which-one-among-following-statements-about-atom-not-correct",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which one of these constellations is not located along the milky way in the sky",
+            "content": "however these constellations did not have clear borders between them the great rift a series of dark patches in the milky way is most visible in the",
+            "url": "https://en.wikipedia.org/wiki/Constellation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the four big moons of jupiter are callisto europa ganymede and io which one of them has the smallest distance to jupiter",
+            "content": "jupiters moons form a satellite system called the jovian system the most massive of the moons are the four galilean moons io europa ganymede and callisto",
+            "url": "https://en.wikipedia.org/wiki/Moons_of_Jupiter",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "in addition to the conditions required for any solar eclipse what must also be true in order for you to observe a total solar eclipse",
+            "content": "in addition to the conditions required for any solar eclipse the moons umbra must touch the area where you are located",
+            "url": "https://acalytica.com/qna/42362/addition-conditions-required-eclipse-observe-eclipse-following?show=42363",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what does the astronomical term ecliptic describe",
+            "content": "the ecliptic is the yearly path the sun follows on the celestial sphere this process repeats itself in a cycle lasting a little over 365 days",
+            "url": "https://en.wikipedia.org/wiki/Ecliptic",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the nebular theory of the formation of the solar system successfully predicts all but one of the following which one does the theory not predict",
+            "content": "10 nebular theory predicts that other solar systems that formed in the same way should also have 8 planets answer false 11 process of science we cannot",
+            "url": "https://www.ucolick.org/~max/Astro18-2014/Lectures/Lecture12%202014%20Atmospheres/Bennett_TCP7_Testbank_Word/08_Testbank.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the belts and zones of jupiter are",
+            "content": "the bands alternate in color the dark bands are called belts while light ones are called zones zones which are colder than belts correspond to upwellings",
+            "url": "https://en.wikipedia.org/wiki/Atmosphere_of_Jupiter",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "from shortest to longest wavelength which of the following correctly orders the different categories of electromagnetic radiation",
+            "content": "from long to short wavelength the em spectrum includes radio waves microwaves infrared visible light ultraviolet xrays and gamma rays energy is",
+            "url": "https://esawebb.org/wordbank/electromagnetic-spectrum/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why is the sky blue",
+            "content": "blue light is scattered more than the other colors because it travels as shorter smaller waves this is why we see a blue sky most of the time",
+            "url": "https://spaceplace.nasa.gov/blue-sky/en/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which of the following most likely explains why venus does not have a strong magnetic field",
+            "content": "jupiters enormous magnetic field is 16 to 54 times as powerful as that of the earth it rotates with the planet and sweeps up particles that have an electric",
+            "url": "https://science.nasa.gov/jupiter/jupiter-facts/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "why are there no impact craters on the surface of io",
+            "content": "ios volcanism is responsible for many of its unique features its volcanic plumes and lava flows produce large surface changes and paint the surface in various",
+            "url": "https://en.wikipedia.org/wiki/Io_(moon)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a comet of mass m impacts the earth mass m radius r at the minimum impact speed what is the expression for the total energy released in the impact",
+            "content": "first we need to calculate the volume of an asteroid these asteroids are 1 km across meaning their radius is r 05km assuming theyre",
+            "url": "http://astroweb.case.edu/ssm/astr101/101HW6.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following is not one of nor follows directly from keplers laws",
+            "content": "the planetary orbit is not a circle with epicycles but an ellipse the sun is not at the center but at a focal point of the elliptical orbit",
+            "url": "https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as the life of a star progresses heavy elements are produced the elements form layers around the star in this order starting from the outer layer",
+            "content": "in astrophysics stellar nucleosynthesis is the creation of chemical elements by nuclear fusion reactions within stars",
+            "url": "https://en.wikipedia.org/wiki/Stellar_nucleosynthesis",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "approximately how long does it take pluto to orbit the sun once",
+            "content": "light from the sun takes 55 hours to reach pluto at its orbital distance of 395 au 591 billion km 367 billion mi plutos eccentric orbit periodically",
+            "url": "https://en.wikipedia.org/wiki/Pluto",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "why are the seasons in mars southern hemisphere so extreme",
+            "content": "combination of orbit eccentricity and rotational axis tilt mars has approximately the same tilt as earth but has a much more elongated orbit",
+            "url": "https://www.reddit.com/r/space/comments/m14ndm/does_mars_have_different_kinds_of_climates/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "how did eratosthenes estimate the size of the earth in 240 bc",
+            "content": "but they had no idea how big the planet is until about 240 bc when eratosthenes devised a clever method of estimating its circumference it",
+            "url": "https://www.aps.org/apsnews/2006/06/eratosthenes-measures-earth",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which is not an essential requirement for life as we know it",
+            "content": "life as we know it requires biogenic elements a source of energy liquid water and a suitable reasonably stable environment for evolution to take place",
+            "url": "https://evolution.berkeley.edu/a-place-for-life/ingredients-for-life/requirements-for-life/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the star betelgeuse is one of the brightest stars in the night sky with remarkable red color in which constellation is betelgeuse located",
+            "content": "this 4th magnitude star arrow is easily located in the constellation orion the mighty hunter the name betelgeuse is thought to be arabic",
+            "url": "https://aaa.org/2024/12/01/beetlejuice-betelgeuse/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if you know both the actual brightness of an object and its apparent brightness from your location then with no other information you can estimate",
+            "content": "the equation for the apparent brightness of a light source is given by the luminosity divided by the surface area of a sphere with radius equal to your",
+            "url": "https://www.e-education.psu.edu/astro801/content/l4_p4.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a sand bag has a mass of 5kg and weight 50n on earth what is the mass and weight of this sand bag on a planet with half the gravity compared to earth",
+            "content": "what will be the gravitational potential energy of this mass relative to the floor once it is placed on the table ans 5635 j by conservation of energy",
+            "url": "https://www.smcisd.net/cms/lib/TX02215324/Centricity/Domain/1073/hw%20work%20and%20energy%20ans%20key%20first%20half.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "mars might be a place for future human explorations however humans can not breathe on the surface of mars because the atmosphere consists mostly of",
+            "content": "mars has almost no oxygen its only onetenth of one percent of the air not nearly enough for humans to survive",
+            "url": "https://theconversation.com/could-people-breathe-the-air-on-mars-180504",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what mars mission will be landing on may 25 2008 and will dig a trench into hopefully icerich soil",
+            "content": "if all goes according to plan the phoenix mission will launch next friday its expected to land on mars in 2008 in a place no probe has",
+            "url": "https://www.npr.org/transcripts/12301656?storyId=12301656",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following moons is not one of the galilean moons",
+            "content": "q which among the following is not a galilean moon answer phobos notes the galilean moons lo europa callisto ganymede are the",
+            "url": "https://www.gktoday.in/question/which-among-the-following-is-not-a-galilean-moon",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the source of the material that causes meteor showers",
+            "content": "these meteors are caused by streams of cosmic debris called meteoroids entering earths atmosphere at extremely high speeds on parallel trajectories",
+            "url": "https://en.wikipedia.org/wiki/Meteor_shower",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the socalled dark energy is a model to explain",
+            "content": "dark energy is a proposed form of energy that affects the universe on the largest scales its primary effect is to drive the accelerating expansion of the",
+            "url": "https://en.wikipedia.org/wiki/Dark_energy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "why did the solar nebula heat up as it collapsed",
+            "content": "helmholtz contraction heated the outer dusty regions of the solar nebula to at least 2000 k once the sun formed and the contraction stopped there was no new",
+            "url": "https://www.teachastronomy.com/textbook/How-Planetary-Systems-Form/Collapse-of-the-Solar-Nebula/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "moons causecontribute to which of the following",
+            "content": "tides are caused by the gravitational tug from the moon and sun the biggest tide in the world is in the bay of fundy in canada",
+            "url": "https://www.iop.org/explore-physics/moon/how-does-moon-affect-earth",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the jovian planets have rings",
+            "content": "all four jovian planets are surrounded by a set of rings these rings are made up of rock ice and dust particles that range in size from microscopically",
+            "url": "https://lasp.colorado.edu/outerplanets/rings.php",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "you’ve made a scientific theory that there is an attractive force between all objects when will your theory be proven to be correct",
+            "content": "science cannot prove it can only disprove a theory is the current best explanation for a set of observed phenomena if new evidence comes to",
+            "url": "https://www.reddit.com/r/PhilosophyofScience/comments/bfjqo/serious_question_if_a_theory_is_proven_is_it/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the name of the black hole in the center of our milky way is",
+            "content": "sagittarius a abbreviated as sgr a is the supermassive black hole at the galactic center of the milky way viewed from earth it is located near the",
+            "url": "https://en.wikipedia.org/wiki/Sagittarius_A*",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how does the greenhouse effect work",
+            "content": "the greenhouse effect is a process that occurs when gases in earths atmosphere trap the suns heat this process makes earth much warmer than it would be",
+            "url": "https://climatekids.nasa.gov/greenhouse-effect/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the large magellanic cloud is",
+            "content": "the large magellanic cloud is considered a dwarf galaxy it was once thought to be a satellite galaxy of the milky way or a very small galaxy",
+            "url": "https://www.space.com/25450-large-magellanic-cloud.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "plutos extremely cold 40 k surface is composed of",
+            "content": "at temperature 40 k close to minimum value for surface of pluto it is about 10 pa for nitrogen 1 pa for carbon monoxide and 0001 pa for methane it",
+            "url": "https://en.wikipedia.org/wiki/Atmosphere_of_Pluto",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the astronomical unit parsec pc plays a crucial role in astronomy one parsec is equal to about 326 lightyears how is one parsec defined in astronomy",
+            "content": "the parsec symbol pc is a unit of length used to measure the large distances to astronomical objects outside the solar system approximately equal to 326",
+            "url": "https://en.wikipedia.org/wiki/Parsec",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "besides large astronomical objects astrophysicists are also interested in small particles from space which one of these particles has the weakest interactions with other particles",
+            "content": "a neutrino is an elementary particle that interacts via the weak interaction and gravity the neutrino is so named because it is electrically neutral and",
+            "url": "https://en.wikipedia.org/wiki/Neutrino",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the significance of the 124 resonance in the jupiters moons system",
+            "content": "under some circumstances a resonant system can be selfcorrecting and thus stable examples are the 124 resonance of jupiters moons ganymede europa and io",
+            "url": "https://en.wikipedia.org/wiki/Orbital_resonance",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "we were first able to accurately measure the diameter of pluto from",
+            "content": "earlier estimates of plutos diameter were significantly larger soon after its discovery in 1930 a diameter around 6600 km only a little less than mars was",
+            "url": "https://www.eso.org/public/czechrepublic/news/eso8610/?lang",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the famous drake equation attempts to answer the following question",
+            "content": "the drake equation is a probabilistic argument used to estimate the number of active communicative extraterrestrial civilizations in the milky way galaxy",
+            "url": "https://en.wikipedia.org/wiki/Drake_equation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following methods has led to the most discoveries of massive planets orbiting near their parent stars",
+            "content": "like with the transit method it is easier to detect large planets orbiting close to their parent star than other planets as these planets catch more light",
+            "url": "https://en.wikipedia.org/wiki/Methods_of_detecting_exoplanets",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following isare not caused by orbital resonance",
+            "content": "in celestial mechanics orbital resonance occurs when orbiting bodies exert regular periodic gravitational influence on each other",
+            "url": "https://en.wikipedia.org/wiki/Orbital_resonance",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "mars has an atmospheric pressure of 600 pascals if the acceleration due to gravity on mars is roughly 4 ms2 and the surface area of mars is about 145000000 square km what is the approximate mass of the martian atmosphere",
+            "content": "we present temperature maps derived from number density retrievals of carbon dioxide co 2 for the upper mesosphere and lower thermosphere of mars",
+            "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022JE007325",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "approximately how old is the surface of venus",
+            "content": "studies have suggested that billions of years ago the atmosphere of venus may have been much more like the one surrounding the early earth and there may have",
+            "url": "https://en.wikipedia.org/wiki/Venus",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the second most common element in the solar system",
+            "content": "hydrogen is the most abundant element in the universe helium is second all others are orders of magnitude less common after this the rank of abundance does",
+            "url": "https://en.wikipedia.org/wiki/Abundance_of_the_chemical_elements",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what type of radiation causes a black hole to evaporate over time",
+            "content": "hawking radiation would reduce the mass and rotational energy of black holes and consequently cause black hole evaporation because of this black holes that",
+            "url": "https://en.wikipedia.org/wiki/Hawking_radiation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the socalled “bigfoot” on mars was actually a rock that was about 5 cm tall it had an angular size of about 05 degrees 30 pixels how far away was this rock from the rover",
+            "content": "bigfoot array sites earthscope will thus provide a uniform 3d mt survey over regional scales when completed mt interpreters will be able to include 3d",
+            "url": "https://www.science.gov/topicpages/m/mt+wilson+observatory.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the distance between the earth and the star altair is one million times greater than the distance between the earth and the sun how far is altair from the earth",
+            "content": "this stellar distance and parallax calculator determines the distance to a nearby star in lightyears and parsecs from its stellar parallax measured in",
+            "url": "https://www.translatorscafe.com/unit-converter/bg/calculator/parallax-distance/?star=Altair",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "calculate the ratio of the solar radiation flux on mercurys surface for perihelion 0304 au versus aphelion 0456 au",
+            "content": "mercuryearth comparison bulk parameters orbital parameters mercury observational parameters mercury mean orbital elements j2000 north",
+            "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the constellation is a bright wshaped constellation in the northern sky",
+            "content": "the constellations five brightest stars form cassiopeias w a wshaped pattern that easily stands out in the northern sky",
+            "url": "https://www.constellation-guide.com/constellation-list/cassiopeia-constellation/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "why do jovian planets bulge around the equator that is have a squashed appearance",
+            "content": "it was squashed by a giant impact c it formed from the remains of a giant impact relatively recently d its surface is covered with a powdery dust from",
+            "url": "https://www.ucolick.org/~max/Astro18-2014/Lectures/Lecture12%202014%20Atmospheres/Bennett_TCP7_Testbank_Word/11_Testbank.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how do we know how old the earth is",
+            "content": "this method is called radiometric dating and it involves the decay or breakdown of radioactive elements using radiometric dating techniques",
+            "url": "https://education.nationalgeographic.org/resource/how-did-scientists-calculate-age-earth/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "20000 years from now",
+            "content": "effectively 2000 years till eren and the tree if taken like this 20000 years would refer to 10 timeloops",
+            "url": "https://www.reddit.com/r/ANRime/comments/183r4d8/to_you_2000or20000_years_from_nowtheory/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "why did ptolemy have the planets orbiting earth on ‘circles upon circles’ in his model of the universe",
+            "content": "the stars and planets were carried around the earth on spheres or circles ptolemy argued that the earth was a sphere in the center of the universe",
+            "url": "https://en.wikipedia.org/wiki/Geocentric_model",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "by locating the north celestial pole ncp in the sky how can you determine your latitude",
+            "content": "the north star is up from the horizon exactly an angle equal to your latitude so if you live at 50 degrees latitude the north star will be due north up 50",
+            "url": "https://solar.physics.montana.edu/ypop/Classroom/Lessons/Sundials/skydome.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why is the mars exploration rover spirit currently tilted towards the north",
+            "content": "spirit currently tilts slightly toward the south the winter sun stays in the northern sky so decreasing the southward tilt would boost the",
+            "url": "https://www.jpl.nasa.gov/news/nasas-mars-rover-spirit-starts-a-new-chapter/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "how do astronomers think jupiter generates its internal heat",
+            "content": "first astronomers are only right now claiming which they had seen from their instruments and with their eyes on the space they are not so sure about it",
+            "url": "https://mysteriousuniverse.quora.com/How-do-astronomers-think-Jupiter-generates-its-internal-heat",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the milky way is part of a giant supercluster with a diameter of 160 mpc what is the name of this supercluster",
+            "content": "the milky way is part of the local group galaxy group which contains more than 54 galaxies which in turn is part of the virgo supercluster which is part of",
+            "url": "https://en.wikipedia.org/wiki/Supercluster",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "our current best observations show that pluto has",
+            "content": "pluto has an equatorial diameter of about 1477 miles 2377 kilometers pluto is about 15th the width of earth from an average distance of about 37 billion",
+            "url": "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how do scientists know that the majority of meteorites come from the asteroid belt",
+            "content": "most meteorites come from the asteroid belt between mars and jupiter some of them might also be ejected off the surface of mars or the moon",
+            "url": "https://askanearthspacescientist.asu.edu/where-meteorites-come-from",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sunspots are black regions that temporarily appear on the sun their number highly increases every years this period is also called the solar cycle",
+            "content": "sunspots appear within active regions usually in pairs of opposite magnetic polarity their number varies according to the approximately 11year solar cycle",
+            "url": "https://en.wikipedia.org/wiki/Sunspot",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "what effect or effects would be most significant if the moons orbital plane were exactly the same as the ecliptic plane",
+            "content": "thats because the moon does not orbit in the same plane that the sun and earth are in known as the ecliptic plane instead the moons",
+            "url": "https://science.nasa.gov/eclipses/geometry/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the term schwarzschild radius usually describes properties of",
+            "content": "the schwarzschild radius or the gravitational radius is a physical parameter in the schwarzschild solution to einsteins field equations",
+            "url": "https://en.wikipedia.org/wiki/Schwarzschild_radius",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what defines the habitable zone around a star",
+            "content": "the habitable zone hz or more precisely the circumstellar habitable zone chz is the range of orbits around a star within which a planetary surface can",
+            "url": "https://en.wikipedia.org/wiki/Habitable_zone",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "jupiter and the other jovian planets are sometimes called gas giants in what sense is this term misleading",
+            "content": "giant planets are sometimes known as gas giants but many astronomers now apply the term only to jupiter and saturn classifying uranus and neptune which",
+            "url": "https://en.wikipedia.org/wiki/Giant_planet",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "earth has been gradually warming over the past few decades based on a great deal of evidence scientists conclude that this warming is caused by",
+            "content": "there is unequivocal evidence that earth is warming at an unprecedented rate human activity is the principal cause",
+            "url": "https://science.nasa.gov/climate-change/evidence/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which planets in the solar system hashave active plate tectonics",
+            "content": "whereas earth has plate tectonics some other bodies such as mars mercury and earths moon have what is called a stagnant lid",
+            "url": "https://www.space.com/planets-exoplanets-plate-tectonics",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following isare common features of all fresh ie not eroded impact craters formed on solid surfaces",
+            "content": "impact craters are the dominant geographic features on many solid solar system objects including the moon mercury callisto ganymede and most small moons",
+            "url": "https://en.wikipedia.org/wiki/Impact_crater",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following was not cited as evidence for life in the martian meteorite alh84001",
+            "content": "despite there being no convincing evidence of martian life the initial paper and the enormous scientific and public attention caused by it are considered",
+            "url": "https://en.wikipedia.org/wiki/Allan_Hills_84001",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why are cepheid stars relevant for astronomers",
+            "content": "cepheid variable stars are a vital rung on the “ladder” astronomers use to determine the distance to astronomical objects",
+            "url": "https://www.astronomy.com/science/mapping-the-cosmos-with-cepheid-stars/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "why are the inner planets made of denser materials than the outer planets",
+            "content": "the heavier rocky and metallic materials are better suited to condense at higher temperatures thus the inner planets are made almost entirely of rock and",
+            "url": "https://lasp.colorado.edu/outerplanets/solsys_planets.php",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when will the next major impact occur on earth",
+            "content": "2024 yr4 is unlikely to be on a collision course but “we dont get to choose when the next significant asteroid impact will be” dr farnocchia",
+            "url": "https://www.nytimes.com/2025/02/08/science/asteroid-yr4-2024-impact-odds.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the visible part of the electromagnetic spectrum is between",
+            "content": "electromagnetic radiation with a wavelength between 380 nm and 760 nm 400790 terahertz is detected by the human eye and perceived as visible light",
+            "url": "https://en.wikipedia.org/wiki/Electromagnetic_spectrum",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the sky is blue because",
+            "content": "blue light is scattered more than the other colors because it travels as shorter smaller waves this is why we see a blue sky most of the time",
+            "url": "https://spaceplace.nasa.gov/blue-sky/en/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "some of marswater is frozen in the soil and the ice caps and some was lost due to solar wind stripping but much of the original water is thought to have been lost through another mechanism what happened to this lostwater",
+            "content": "it is thought that part of this past water has been lost to the deep scallops are caused by ice sublimating from frozen soil the landforms of",
+            "url": "https://en.wikipedia.org/wiki/Water_on_Mars",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "why is saturn almost as big as jupiter despite its smaller mass",
+            "content": "even though saturn is almost as big as jupiter saturn has less than a third its mass saturn orbits the sun at a distance of 959 au 1434 million km",
+            "url": "https://en.wikipedia.org/wiki/Saturn",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the two moons of mars are called",
+            "content": "mars has two moons phobos and deimos both are thought to be captured asteroids or debris from early in the formation of our solar system",
+            "url": "https://science.nasa.gov/mars/moons/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "where are the trojan asteroids located",
+            "content": "the jupiter trojans commonly called trojan asteroids or simply trojans are a large group of asteroids that share the planet jupiters orbit around the sun",
+            "url": "https://en.wikipedia.org/wiki/Jupiter_trojan",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the socalled bolometric luminosity in astronomy",
+            "content": "in astronomy luminosity is the total amount of electromagnetic energy emitted per unit of time by a star galaxy or other astronomical objects the sun has an",
+            "url": "https://en.wikipedia.org/wiki/Luminosity",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on which planet in our solar system can you find the great red spot",
+            "content": "the great red spot is a persistent highpressure region in the atmosphere of jupiter producing an anticyclonic storm that is the largest in the solar system",
+            "url": "https://en.wikipedia.org/wiki/Great_Red_Spot",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which is not a similarity between saturn and jupiters atmospheres",
+            "content": "saturn is more oblate than jupiter from this we deduce that its atmosphere and hydrogen mantle are proportionally larger than jupiters this is not the same",
+            "url": "https://pages.uoregon.edu/jschombe/ast121/lectures/lec19.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a mars year is approximately how many earth years long",
+            "content": "however a mars year is almost twice as long as an earth year contents 1 the precession cycle is 93000 martian years 175000 earth years much longer",
+            "url": "https://en.wikipedia.org/wiki/Timekeeping_on_Mars",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "what are the conditions necessary for a terrestrial planet to have a strong magnetic field",
+            "content": "generated by the motion of molten iron in earths core the magnetic field protects our planet from cosmic radiation and from the charged",
+            "url": "https://science.nasa.gov/science-research/earth-science/earths-magnetosphere-protecting-our-planet-from-harmful-space-energy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what do meteorites reveal about the solar system",
+            "content": "they know from astronomical observations that all stars form by gravitational collapse of dense regions in interstellar molecular clouds this",
+            "url": "https://www.britannica.com/science/meteorite/Meteorites-and-the-formation-of-the-early-solar-system",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 23,
+            "query": "the terrestrial planet cores contain mostly metal because",
+            "content": "answer 1 of 3 heavier elements migrated towards the center of the early accretion disk that formed our solar system this concentration of metals closer to the sun became integrated in to the rocky planets as they formed as the terrestrial planets grew the available metals such as iron and n",
+            "url": "https://www.quora.com/Why-do-the-cores-of-terrestrial-planets-contain-mostly-metal",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "mars has an atmosphere that is almost entirely carbon dioxidewhy isnt there a strong greenhouse effect keeping the planet warm",
+            "content": "if tiny concentrations of carbon dioxide can hold enough heat to create a global warming impact on earth why is mars cold its atmosphere is 95 carbon dioxide",
+            "url": "https://www.space.com/climate-explained-why-mars-is-cold-despite-an-atmosphere-of-mostly-carbon-dioxide.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "suppose you live on the moon how long is a day ie from sunrise to sunrise",
+            "content": "answer 1 of 6 when i live one day on the moon how many days would that be on earth i’m posting the second answer and i agree with john chambers who posted the first the moon’s “day” sunrise to sunrise is much longer than the earth’s “day” sunrise to sunrise but there",
+            "url": "https://www.quora.com/When-I-live-one-day-on-the-Moon-how-many-days-would-that-be-on-Earth",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 23,
+            "query": "the terrestrial planet cores contain mostly metal because",
+            "content": "answer 1 of 3 heavier elements migrated towards the center of the early accretion disk that formed our solar system this concentration of metals closer to the sun became integrated in to the rocky planets as they formed as the terrestrial planets grew the available metals such as iron and n",
+            "url": "https://www.quora.com/Why-do-the-cores-of-terrestrial-planets-contain-mostly-metal",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 32,
+            "query": "which of the following is not true",
+            "content": "on studocu you find all the lecture notes summaries and study guides you need to pass your exams with better grades",
+            "url": "https://www.studocu.com/en-gb/messages/question/1310587/which-of-the-following-is-not-true-about-the-students-t-distributiona-it-has-more-area-in-the",
+            "engine": "braveAPI"
+        }
+    ]
+}

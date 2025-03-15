@@ -1,0 +1,1882 @@
+{
+    "task": "bbh_zeroshot_date_understanding",
+    "dataset": "web_access_date_understanding_final",
+    "questions": 250,
+    "noWebContextCount": 0,
+    "contaminated_queries": 50,
+    "contaminated_urls": 138,
+    "valid_urls": 250,
+    "avg_contaminated_before_valid": 1.552,
+    "contaminated_data_ratio": 0.3556701030927835,
+    "most_contaminated_urls": {
+        "replicate.com": 8,
+        "lileicc.github.io": 6
+    },
+    "noWebContext": [],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "today is the second day of the third month of 1966 what is the date one week ago from today in mmddyyyy options a 02261966 b 01131966 c 02021966 d 10231966 e 02231968 f 02231966",
+            "content": "q today is the second day of the third month of 1966 what is the date one week ago from today in mmddyyyy options a 02261966 b 01131966 c 0202",
+            "url": "https://replicate.com/cjwbw/lorahub/examples",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "today is the second day of the third month of 1966 what is the date one week ago from today in mmddyyyy options a 02261966 b 01131966 c 02021966 d 10231966 e 02231968 f 02231966",
+            "content": "q today is the second day of the third month of 1966 what is the date one week ago from today in mmddyyyy options a 02261966 b 01131966 c 0202",
+            "url": "https://replicate.com/cjwbw/lorahub/versions/02a0166b0b1deeec3e794ced2dc6c670592302e158c9ec51b676279afd0e6238",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "jane visits the bookstore on the 16th of each month starting from the october of 2009 it is her 5th visit to the bookstore today what is the date one year ago from today in mmddyyyy options a 08162009 b 02162009 c 02162004 d 03132009 e 01262009 f 02152009",
+            "content": "by d wang it is her 5th visit to the bookstore today what is the date one year ago from today in mmddyyyy options a 08162009 b 02162009",
+            "url": "https://lileicc.github.io/pubs/wang2023learning.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "jane thought today is 3112002 but today is in fact mar 12 which is 1 day later what is the date a month ago in mmddyyyy options a 04122001 b 02112002 c 02122002 d 02082002 e 05222002 f 02182002",
+            "content": "by d wang jane thought today is 3112002 but today is in fact mar 12 which is 1 day later what is the date one year ago from today in mmddyyyy",
+            "url": "https://lileicc.github.io/pubs/wang2023learning.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "may 6 1992 is like yesterday to jane but that is actually ten years ago what is the date tomorrow in mmddyyyy options a 04162002 b 04072003 c 05072036 d 05282002 e 05072002",
+            "content": "c 07271997 d q may 6 1992 is like yesterday to jane but that is actually ten years ago what is the date tomorrow in mmddyyyy options a 0416",
+            "url": "https://replicate.com/cjwbw/lorahub/examples",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "may 6 1992 is like yesterday to jane but that is actually ten years ago what is the date tomorrow in mmddyyyy options a 04162002 b 04072003 c 05072036 d 05282002 e 05072002",
+            "content": "q may 6 1992 is like yesterday to jane but that is actually ten years ago what is the date tomorrow in mmddyyyy options a 04162002",
+            "url": "https://replicate.com/cjwbw/lorahub",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "today 831997 is a day that we will never forget what is the date one week ago from today in mmddyyyy options a 03271998 b 09021997 c 07271997 d 06291997 e 07271973 f 12271997",
+            "content": "q today 831997 is a day that we will never forget what is the date one week ago from today in mmddyyyy options a 03271998 b 09",
+            "url": "https://replicate.com/cjwbw/lorahub",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the deadline is jun 1 2021 which is 2 days away from now what is the date a month ago in mmddyyyy options a 05092021 b 05012021 c 08032021 d 02192021 e 04302021 f 07062021",
+            "content": "original problem the deadline is jun 1 2021 which is 2 days away from now what is the date a month ago in mmddyyyy answer choices a",
+            "url": "https://blender.cs.illinois.edu/paper/reversecot2023.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "today is christmas eve of 1937 what is the date tomorrow in mmddyyyy options a 12111937 b 12251937 c 01041938 d 12041937 e 12252006 f 07251937",
+            "content": "d wang cytowane przez 17 today is christmas eve of 1937 what is the date tomorrow in mmddyyyy options a 12111937 b 12251937 c 01041938 d 12041937",
+            "url": "https://lileicc.github.io/pubs/wang2023learning.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "jane visits the bookstore on the 16th of each month starting from the october of 2009 it is her 5th visit to the bookstore today what is the date one year ago from today in mmddyyyy options a 08162009 b 02162009 c 02162004 d 03132009 e 01262009 f 02152009",
+            "content": "by d wang it is her 5th visit to the bookstore today what is the date one year ago from today in mmddyyyy options a 08162009 b 02162009",
+            "url": "https://lileicc.github.io/pubs/wang2023learning.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "jane thought today is 3112002 but today is in fact mar 12 which is 1 day later what is the date a month ago in mmddyyyy options a 04122001 b 02112002 c 02122002 d 02082002 e 05222002 f 02182002",
+            "content": "by d wang jane thought today is 3112002 but today is in fact mar 12 which is 1 day later what is the date one year ago from today in mmddyyyy",
+            "url": "https://lileicc.github.io/pubs/wang2023learning.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "may 6 1992 is like yesterday to jane but that is actually ten years ago what is the date tomorrow in mmddyyyy options a 04162002 b 04072003 c 05072036 d 05282002 e 05072002",
+            "content": "c 07271997 d q may 6 1992 is like yesterday to jane but that is actually ten years ago what is the date tomorrow in mmddyyyy options a 0416",
+            "url": "https://replicate.com/cjwbw/lorahub/examples",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "may 6 1992 is like yesterday to jane but that is actually ten years ago what is the date tomorrow in mmddyyyy options a 04162002 b 04072003 c 05072036 d 05282002 e 05072002",
+            "content": "q may 6 1992 is like yesterday to jane but that is actually ten years ago what is the date tomorrow in mmddyyyy options a 04162002",
+            "url": "https://replicate.com/cjwbw/lorahub",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "today 831997 is a day that we will never forget what is the date one week ago from today in mmddyyyy options a 03271998 b 09021997 c 07271997 d 06291997 e 07271973 f 12271997",
+            "content": "q today 831997 is a day that we will never forget what is the date one week ago from today in mmddyyyy options a 03271998 b 09",
+            "url": "https://replicate.com/cjwbw/lorahub",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the deadline is jun 1 2021 which is 2 days away from now what is the date a month ago in mmddyyyy options a 05092021 b 05012021 c 08032021 d 02192021 e 04302021 f 07062021",
+            "content": "original problem the deadline is jun 1 2021 which is 2 days away from now what is the date a month ago in mmddyyyy answer choices a",
+            "url": "https://blender.cs.illinois.edu/paper/reversecot2023.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "today is christmas eve of 1937 what is the date tomorrow in mmddyyyy options a 12111937 b 12251937 c 01041938 d 12041937 e 12252006 f 07251937",
+            "content": "d wang cytowane przez 17 today is christmas eve of 1937 what is the date tomorrow in mmddyyyy options a 12111937 b 12251937 c 01041938 d 12041937",
+            "url": "https://lileicc.github.io/pubs/wang2023learning.pdf",
+            "engine": "ddg"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "2015 is coming in 36 hours what is the date yesterday in mmddyyyy options a 02132015 b 12292014 c 10262014 d 12282014 e 11072014 f 10032014",
+            "content": "i am trying to get a date to come out in the format of mmddyyyy hhmmss ampm so for example a date of 09262014 110454 am",
+            "url": "https://stackoverflow.com/questions/26063902/date-format-returned-as-mm-dd-yyyy-hhmmss-am-pm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "today is the second day of the third month of 1966 what is the date one week ago from today in mmddyyyy options a 02261966 b 01131966 c 02021966 d 10231966 e 02231968 f 02231966",
+            "content": "british english uk 02071966 2nd july 1966 convert and spell out the date in words the second of july nineteen sixtysix in british english the day",
+            "url": "https://number-word.calculators.ro/how-to-write-and-say-the-date-in-American-and-British-English.php?month=7&day=2&year=1966",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the us thanksgiving is on the fourth thursday of november today is the us thanksgiving of 2001 what is the date tomorrow in mmddyyyy options a 11092002 b 12072002 c 11232002 d 06232002 e 10152002 f 08292002",
+            "content": "fourth thursday in november november 28 20241128 november 27 20251127 november 26 20261126",
+            "url": "https://en.wikipedia.org/wiki/Thanksgiving_(United_States)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is the palindrome day of 2020 because the mmddyyyy format of the date is the same backwards as forwards what is the date a month ago in mmddyyyy options a 01012020 b 01022020 c 10022019 d 11052019 e 01021931 f 01032020",
+            "content": "the date is a palindrome meaning it is the same when read forwards and backwards it is february 2 2020 or 02022020 in both the mmddyyyy format and the",
+            "url": "https://www.cnn.com/2020/02/02/world/palindrome-day-february-2-2020-intl-scli/index.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this is the last day of 1899 what is the date one week from today in mmddyyyy options a 02071900 b 02221900 c 01131900 d 01071900 e 10071900 f 01071828",
+            "content": "this page lists all weeks in 1899 there are 52 weeks in 1899 all weeks are starting on monday and ending on sunday",
+            "url": "https://www.epochconverter.com/weeks/1899",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "it was sept 1st 2021 a week ago what is the date 24 hours later in mmddyyyy options a 03092022 b 09102021 c 08312021 d 09092021 e 09022021 f 09172021",
+            "content": "this application is an update to and refiling of the companys application in case no 202400152 initial cpcn1 consistent with the",
+            "url": "https://psc.ky.gov/pscecf/2025-00002/e.rolfes-adkins%40duke-energy.com/01282025112941/DEK_APP_012825.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "yesterday was april 30 2021 what is the date tomorrow in mmddyyyy options a 04292021 b 05022021 c 04112021 d 05012021 e 03142021 f 05021960",
+            "content": "explains how to use the gnu or bsd date command to calculate yesterdays or tomorrows date day with bash on linux or unixlike systems",
+            "url": "https://www.cyberciti.biz/tips/linux-unix-get-yesterdays-tomorrows-date.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "jane got her job in 2016 today is her 3year work anniversary she still remember that on dec 2 her second day at work she spilled coffee on her laptop what is the date one week ago from today in mmddyyyy options a 11232019 b 06242019 c 03242019 d 11242019 e 02292020",
+            "content": "asl is a visual gestural language that means it is a language that is expressed through the hands and face and is perceived through the eyes",
+            "url": "https://lifeprint.com/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the uk people usually put the day before the month when formatting the date therefore today is 02011987 to them what is the date one year ago from today in mmddyyyy options a 01091986 b 01021986 c 12051985 d 11101985 e 12201985 f 10221985",
+            "content": "whatever the format in british english dates are usually written in the order day month year while in american english they are written month day",
+            "url": "https://ielts.idp.com/cyprus/prepare/article-how-to-write-the-date-correctly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "2015 is coming in 36 hours what is the date one year ago from today in mmddyyyy options a 12092013 b 01192014 c 12282013 d 07292013 e 12292013 f 02282014",
+            "content": "calculate plus or minus days weeks months quarters or years from a date enter the date and the number of calendar units to add or subtract use this",
+            "url": "https://www.calculatorsoup.com/calculators/time/date-calendar.php",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this is the last day of 1899 what is the date 10 days ago in mmddyyyy options a 12111899 b 12211887 c 12241899 d 12211899 e 03221900",
+            "content": "because the base date date zero in all ms office applications is 12301899 and adding 1 to that date results in 12311899",
+            "url": "https://stackoverflow.com/questions/36378476/why-does-the-date-returns-31-12-1899-when-1-is-passed-to-it",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "tomorrow is 11122019 what is the date tomorrow in mmddyyyy options a 02122020 b 11122019 c 10222019 d 11142019 e 12102019",
+            "content": "the international standard recommends writing the date as year then month then the day yyyymmdd d write out the entire date including the full month",
+            "url": "https://ielts.idp.com/cyprus/prepare/article-how-to-write-the-date-correctly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the current local time is 302 pm of 542004 what is the date one year ago from today in mmddyyyy options a 06142003 b 05032003 c 12042002 d 06022003 e 05042003",
+            "content": "calculate time and date difference or time span between two dates and times counts actual years months days hours minutes and seconds",
+            "url": "https://www.calculatorsoup.com/calculators/time/time-date-difference-calculator.php",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "tomorrow is 11122019 what is the date yesterday in mmddyyyy options a 11102076 b 11102019 c 09102019 d 11062019 e 11112019 f 11172019",
+            "content": "the international standard recommends writing the date as year then month then the day yyyymmdd d write out the entire date including the full month",
+            "url": "https://ielts.idp.com/cyprus/prepare/article-how-to-write-the-date-correctly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the deadline is jun 1 2021 which is 2 days away from now what is the date 10 days ago in mmddyyyy options a 04292021 b 05212021 c 04062021 d 06242021 e 05202021",
+            "content": "04062021 120000 am 40778psd04012021 120000 amstephen whitakerall grant applications 2 during the time period between july 1 2021 and the",
+            "url": "https://data.vermont.gov/api/views/476u-uxxa/rows.csv?accessType=DOWNLOAD",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is the second day of the third month of 1966 what is the date a month ago in mmddyyyy options a 02011966 b 12171965 c 02021966 d 03181966 e 02031966",
+            "content": "in american english date representation the month comes before the day followed by the year as in mmddyyyy in british english the day comes before the",
+            "url": "https://number-word.calculators.ro/how-to-write-and-say-the-date-in-American-and-British-English.php?month=2&day=12&year=1966",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is the first day of 2007 what is the date one week ago from today in mmddyyyy options a 12242006 b 06252006 c 03052007 d 12252016 e 12252006 f 12251945",
+            "content": "im trying to work out the date 7 days ago from today in this format yyyymmdd 7 is an arbitrary number thanks php collective php share",
+            "url": "https://stackoverflow.com/questions/13222500/work-out-the-date-7-days-ago-in-this-format-yyyy-mm-dd",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "jane got her job in 2016 today is her 3year work anniversary she still remember that on dec 2 her second day at work she spilled coffee on her laptop what is the date tomorrow in mmddyyyy options a 08022020 b 12021950 c 11182019 d 12022019 e 01022020 f 12012019",
+            "content": "its the friday open thread the comment section on this post is open for discussion with other readers on any workrelated questions that",
+            "url": "https://www.askamanager.org/2022/09/open-thread-september-9-10-2022.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "today is the palindrome day of 2020 because the mmddyyyy format of the date is the same backwards as forwards what is the date tomorrow in mmddyyyy options a 01032020 b 02042020 c 04032020 d 11032020 e 02031964 f 02032020",
+            "content": "it is february 2 2020 or 02022020 in both the mmddyyyy format and the ddmmyyyy format at just after 2 am it was 020220 on 0202",
+            "url": "https://www.cbsnews.com/baltimore/news/happy-palindrome-day-02-02-2020-its-the-first-global-palindrome-day-in-909-years/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "2015 is coming in 36 hours what is the date one week ago from today in mmddyyyy options a 12222040 b 12232014 c 12222014 d 01052015 e 12222086 f 02062015",
+            "content": "calculate plus or minus days weeks months quarters or years from a date enter the date and the number of calendar units to add or subtract use this",
+            "url": "https://www.calculatorsoup.com/calculators/time/date-calendar.php",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is christmas eve of 1937 what is the date today in mmddyyyy options a 12241937 b 12301937 c 12271937 d 12171937 e 12311937 f 05241938",
+            "content": "december 8 1937 wednesday nationalist aircraft bombed barcelona eugen weidmann was arrested by french police for murder the brazilian football club",
+            "url": "https://en.wikipedia.org/wiki/December_1937",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the us thanksgiving is on the fourth thursday of november today is the us thanksgiving of 2001 what is the date yesterday in mmddyyyy options a 09122002 b 11302002 c 11212002 d 11212076 e 11072002 f 11152002",
+            "content": "fourth thursday in november november 28 20241128 november 27 20251127 november 26 20261126",
+            "url": "https://en.wikipedia.org/wiki/Thanksgiving_(United_States)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today 831997 is a day that we will never forget what is the date one year ago from today in mmddyyyy options a 10071996 b 08032035 c 05031997 d 08031996 e 08041996",
+            "content": "calculate date difference in days or business days between 2 dates find date difference with future or past dates",
+            "url": "https://www.calculatorsoup.com/calculators/time/date-difference-calculator.php",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is the palindrome day of 2020 because the mmddyyyy format of the date is the same backwards as forwards what is the date today in mmddyyyy options a 05022019 b 11082019 c 01192020 d 02022020 e 02012020 f 01232020",
+            "content": "the date is a palindrome meaning it is the same when read forwards and backwards it is february 2 2020 or 02022020 in both the mmddyyyy format and the",
+            "url": "https://www.cnn.com/2020/02/02/world/palindrome-day-february-2-2020-intl-scli/index.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "jane got her job in 2016 today is her 3year work anniversary she still remember that on dec 2 her second day at work she spilled coffee on her laptop what is the date yesterday in mmddyyyy options a 02292020 b 11302065 c 02182020 d 09212019 e 11292019 f 11302019",
+            "content": "its the friday open thread the comment section on this post is open for discussion with other readers on any workrelated questions that",
+            "url": "https://www.askamanager.org/2022/09/open-thread-september-9-10-2022.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the uk people usually put the day before the month when formatting the date therefore today is 02011987 to them what is the date yesterday in mmddyyyy options a 01011987 b 10191986 c 01081987 d 01012015 e 01011934 f 12291986",
+            "content": "date and time notation in the united kingdom records the date using the daymonthyear format 31 december 1999 311299 or 31121999",
+            "url": "https://en.wikipedia.org/wiki/Date_and_time_notation_in_the_United_Kingdom",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the us thanksgiving is on the fourth thursday of november today is the us thanksgiving of 2001 what is the date a month ago in mmddyyyy options a 11222001 b 10212002 c 07212002 d 10221923 e 10152002 f 10222002",
+            "content": "thanksgiving is a federal holiday in the united states celebrated on the fourth thursday of november",
+            "url": "https://en.wikipedia.org/wiki/Thanksgiving_(United_States)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the us thanksgiving is on the fourth thursday of november today is the us thanksgiving of 2001 what is the date today in mmddyyyy options a 01162003 b 11212002 c 09042002 d 11222002 e 08242002 f 11232002",
+            "content": "fourth thursday in november november 28 20241128 november 27 20251127 november 26 20261126",
+            "url": "https://en.wikipedia.org/wiki/Thanksgiving_(United_States)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is the second day of the third month of 1966 what is the date 24 hours later in mmddyyyy options a 03041966 b 04031966 c 03031965 d 03032021 e 03021966 f 03031966",
+            "content": "what is todays date in numbers todays date in numbers is mmddyyyy 03122025 ddmmyyyy 12032025 yyyymmdd 20250312",
+            "url": "https://www.inchcalculator.com/what-is-todays-date/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "2015 is coming in 36 hours what is the date a month ago in mmddyyyy options a 03072015 b 11282014 c 11232014 d 12202014 e 12052014 f 11292014",
+            "content": "i am trying to convert my string formatted value to date type with format ddmmyyyy thistext22112009 datetime date datetimeparse",
+            "url": "https://stackoverflow.com/questions/2193012/string-was-not-recognized-as-a-valid-datetime-format-dd-mm-yyyy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the first day of 2019 is a tuesday and today is the first monday of 2019 what is the date yesterday in mmddyyyy options a 01061960 b 12272018 c 01062019 d 01072019 e 01062058 f 10062019",
+            "content": "whatever the format in british english dates are usually written in the order day month year while in american english they are written month day",
+            "url": "https://ielts.idp.com/cyprus/prepare/article-how-to-write-the-date-correctly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "jane got her job in 2016 today is her 3year work anniversary she still remember that on dec 2 her second day at work she spilled coffee on her laptop what is the date a month ago in mmddyyyy options a 11012019 b 11022019 c 09062019 d 11011933 e 11012089 f 08042019",
+            "content": "over the years john has seen business decline yet he has remained there while other stores at the mall seem to be doing an excellent business",
+            "url": "https://www.wanee.org/Downloads/2013wsap.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the us thanksgiving is on the fourth thursday of november today is the us thanksgiving of 2001 what is the date 24 hours later in mmddyyyy options a 12012002 b 11242002 c 06232003 d 05232002 e 11232002",
+            "content": "fourth thursday in november november 28 20241128 november 27 20251127 november 26 20261126",
+            "url": "https://en.wikipedia.org/wiki/Thanksgiving_(United_States)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "jane got her job in 2016 today is her 3year work anniversary she still remember that on dec 2 her second day at work she spilled coffee on her laptop what is the date 10 days ago in mmddyyyy options a 11212019 b 11202019 c 03212020 d 11212080 e 02212020 f 11222019",
+            "content": "the wsap now includes the style reference manual and the human resource manual as appendices which allows for a consolidation of bpa",
+            "url": "https://www.wanee.org/Downloads/2013wsap.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the us thanksgiving is on the fourth thursday of november today is the us thanksgiving of 2001 what is the date one week from today in mmddyyyy options a 11292002 b 11152002 c 11302002 d 12272002 e 12112002 f 11292078",
+            "content": "fourth thursday in november november 28 20241128 november 27 20251127 november 26 20261126",
+            "url": "https://en.wikipedia.org/wiki/Thanksgiving_(United_States)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the uk people usually put the day before the month when formatting the date therefore today is 02011987 to them what is the date a month ago in mmddyyyy options a 12021986 b 12011986 c 03021986 d 12022032 e 12022062 f 02061987",
+            "content": "whatever the format in british english dates are usually written in the order day month year while in american english they are written month day",
+            "url": "https://ielts.idp.com/cyprus/prepare/article-how-to-write-the-date-correctly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is the first day of 2007 what is the date today in mmddyyyy options a 05012007 b 01012007 c 01011951 d 01012096 e 01222007 f 12182006",
+            "content": "how do i get todays date in c in mmddyyyy format i need to set a string variable to todays date preferably without the year but theres",
+            "url": "https://stackoverflow.com/questions/32747/how-do-i-get-todays-date-in-c-sharp-in-mm-dd-yyyy-format",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "yesterday was april 30 2021 what is the date one week from today in mmddyyyy options a 05102021 b 03132021 c 04102021 d 04272021 e 05092021 f 05082021",
+            "content": "what is todays date in numbers todays date in numbers is mmddyyyy 03122025 ddmmyyyy 12032025 yyyymmdd 20250312",
+            "url": "https://www.inchcalculator.com/what-is-todays-date/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the first day of 2019 is a tuesday and today is the first monday of 2019 what is the date one week from today in mmddyyyy options a 01132019 b 02112019 c 02042019 d 01142019 e 01162019 f 12312018",
+            "content": "2019 january sun mon tue wed thu fri sat 1 1 2 2 3 3 4 4 5 5 6 6 7 7 8 8 9 9 10 10 11 11 12 12 13 13 14 14 15 15 16 16 17",
+            "url": "https://asd.gsfc.nasa.gov/Craig.Markwardt/doy2019.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "2015 is coming in 36 hours what is the date 24 hours later in mmddyyyy options a 01092015 b 12302059 c 12302014 d 01012015 e 01042015 f 12312014",
+            "content": "i am trying to get a date to come out in the format of mmddyyyy hhmmss ampm so for example a date of 09262014 110454 am",
+            "url": "https://stackoverflow.com/questions/26063902/date-format-returned-as-mm-dd-yyyy-hhmmss-am-pm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "this is the last day of 1899 what is the date tomorrow in mmddyyyy options a 01011900 b 01221900 c 01011899 d 02061900 e 01081900 f 01011827",
+            "content": "because the base date date zero in all ms office applications is 12301899 and adding 1 to that date results in 12311899",
+            "url": "https://stackoverflow.com/questions/36378476/why-does-the-date-returns-31-12-1899-when-1-is-passed-to-it",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "it was sept 1st 2021 a week ago what is the date one week from today in mmddyyyy options a 10152020 b 10132021 c 09052021 d 09092021 e 09152021 f 09222021",
+            "content": "09092021 120000 amlynn smileyproposals for st albanssheldon stp 10132021 120000 am 42228ago09152021 120000 amjustin caruso",
+            "url": "https://data.vermont.gov/api/views/476u-uxxa/rows.csv?accessType=DOWNLOAD&bom=true&format=true",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "2015 is coming in 36 hours what is the date 10 days ago in mmddyyyy options a 01022015 b 12232014 c 12192014 d 12182014 e 11212014 f 12202014",
+            "content": "i am trying to get a date to come out in the format of mmddyyyy hhmmss ampm so for example a date of 09262014 110454 am",
+            "url": "https://stackoverflow.com/questions/26063902/date-format-returned-as-mm-dd-yyyy-hhmmss-am-pm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is christmas eve of 1937 what is the date one week from today in mmddyyyy options a 12281937 b 12311937 c 12311938 d 12271937 e 12031937",
+            "content": "christmas eve 25 sat hanukkah 25 sat christmas day 26 1937 calendars 1937 holidays 1937 celebrations moon phases 2025 todays moon days between dates",
+            "url": "https://www.calendarr.com/united-kingdom/calendar-december-1937/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "jane quited her job on mar 20 2020 176 days have passed since then what is the date one year ago from today in mmddyyyy options a 09202019 b 10012019 c 10242019 d 09121970 e 09122019",
+            "content": "communities for your favorite technologies explore all collectives ask questions find answers and collaborate at work with stack overflow for teams",
+            "url": "https://stackoverflow.com/questions/15491894/regex-to-validate-date-formats-dd-mm-yyyy-dd-mm-yyyy-dd-mm-yyyy-dd-mmm-yyyy",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is christmas eve of 1937 what is the date one year ago from today in mmddyyyy options a 12241862 b 01101937 c 10241936 d 12241936 e 03241936 f 12291936",
+            "content": "the battle of nanjing began japan recognized the franco regime otto meissner entered the hitler cabinet as minister of state and head of the chancellory born chuck low actor in new york city d 2017 vaira vīķefreiberga 6th president of latvia in riga latvia ernst rüdiger",
+            "url": "https://en.wikipedia.org/wiki/December_1937",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane thought today is 3112002 but today is in fact mar 12 which is 1 day later what is the date tomorrow in mmddyyyy options a 03142002 b 12132001 c 03102002 d 03132002 e 08132001 f 02272002",
+            "content": "find out unique and interesting mathematical patterns in different date formats calculates if a date has sequential repeating or palindromic digits",
+            "url": "https://www.timeanddate.com/date/pattern.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane and john married on jan 2 1958 it is their 5year anniversary today what is the date today in mmddyyyy options a 01021894 b 01021961 c 12231960 d 01021960 e 01031961 f 01021990",
+            "content": "1961 mcmlxi was a common year starting on sunday of the gregorian calendar the 1961st year of the common era ce and anno domini ad designations the 961st year of the 2nd millennium the 61st year of the 20th century and the 2nd year of the 1960s decade",
+            "url": "https://en.m.wikipedia.org/wiki/1961",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the uk people usually put the day before the month when formatting the date therefore today is 02011987 to them what is the date one week from today in mmddyyyy options a 01231987 b 01092023 c 01091948 d 01081987 e 03171987 f 01091987",
+            "content": "the legal and cultural expectations for date and time representation vary between countries and it is important to be aware of the forms of allnumeric calendar dates used in a particular country to know what date is intended writers have traditionally written abbreviated dates according",
+            "url": "https://en.wikipedia.org/wiki/List_of_date_formats_by_country",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is sep 9 1909 what is the date yesterday in mmddyyyy options a 08111909 b 07241909 c 09091909 d 09081962 e 09081909 f 09151909",
+            "content": "date format is a tool which helps to get various date formats",
+            "url": "https://www.tooloogle.com/tools/date-format/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "yesterday was 12311929 today could not be 12321929 because december has only 31 days what is the date one year ago from today in mmddyyyy options a 01011898 b 01011994 c 08011929 d 01081929 e 01011891 f 01011929",
+            "content": "find out exactly how many days hours minutes amp seconds since 31 december 1929 or any other date in history what happened on december 31st 1929",
+            "url": "https://howlongagogo.com/date/1929/december/31",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today 831997 is a day that we will never forget what is the date today in mmddyyyy options a 08041997 b 08051997 c 08171997 d 08032097 e 08031997 f 08021997",
+            "content": "discover what the world looked like on saturday may 03 1997 on takemebackto which news were making the headlines which were the top hits and the most popular movies",
+            "url": "https://takemeback.to/03-May-1997",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane was born on the last day of feburary in 2000 today is her 16yearold birthday what is the date a month ago in mmddyyyy options a 05042016 b 07292015 c 02022016 d 11082015 e 01302016 f 01292016",
+            "content": "the age calculator finds age in years months days and minutes given a date of birth calculate age someonex27s age at death or time between dob and any date",
+            "url": "https://www.calculatorsoup.com/calculators/time/age-calculator.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "it is 4191969 today what is the date 24 hours later in mmddyyyy options a 06211969 b 01181969 c 04161969 d 05181969 e 04201969 f 05111969",
+            "content": "to find the meaning and purpose in life from your birthdate use this index page of all the months and the days in your birth year of 1969 no human investigation can be called real science if it cannot be demonstrated mathematically leonardo da vinci",
+            "url": "https://www.kabalarians.com/cfm/articles/what-does-my-birthday-say-about-me-year.cfm?yeardetail=1969",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is sep 9 1909 what is the date one week from today in mmddyyyy options a 09161952 b 09161909 c 09161876 d 08221909 e 12161909 f 10141909",
+            "content": "date format is a tool which helps to get various date formats",
+            "url": "https://www.tooloogle.com/tools/date-format/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "2015 is coming in 36 hours what is the date tomorrow in mmddyyyy options a 01302014 b 10302015 c 12301933 d 12312014 e 12302014 f 12292014",
+            "content": "i want the date in ddmmmyyyy format eg 29jan2015 i have tried with select trimtodatex2729 jan 2015x27 x27dd mon yyx27 from dual i got result as 29jan15 but i am expecting 2",
+            "url": "https://stackoverflow.com/questions/28215516/how-to-format-date-in-dd-mmm-yyyy-format-eg-29-jan-2015",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane was born on the last day of feburary in 2001 today is her 16yearold birthday what is the date a month ago in mmddyyyy options a 11122016 b 01212017 c 01142017 d 01282017 e 02032017",
+            "content": "answer 1 of 2 well today is the 18th of january so that means that the day after tomorrow will be 20jan24 or 2001 in the required format sorry but it’s not my fault that you didn’t word the question properly if frankie was born on the 29th february she would be 80 years old on he",
+            "url": "https://www.quora.com/Frankie-was-17-years-old-at-the-start-of-last-year-The-day-after-tomorrow-frankie-will-celebrate-her-20th-birthday-What-date-is-her-birthday-Give-your-answer-in-the-form-dd-mm",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "today is apr 10 1985 janes appointment will be 3 days later what is the date one week from today in mmddyyyy options a 04101985 b 05101975 c 03101986 d 04171985 e 04121986 f 04071985",
+            "content": "discussion forum for q no 1 of the aptitude questions and answers section on quotcalendar general questionsquot discussion page 1 of 26 sorted by newest",
+            "url": "https://www.indiabix.com/aptitude/calendar/discussion-638",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the first day of 2019 is a tuesday and today is the first monday of 2019 what is the date 24 hours later in mmddyyyy options a 01081960 b 01012019 c 02082018 d 01082019 e 10222018 f 01082043",
+            "content": "looking for 2020 data click here the following table shows all trading days in 2019 and the associated normalized day of the month read more about normalizing the number of days per month to always equal 21 in our faqs two notes about this table a single date may have two entries if a",
+            "url": "https://allocatesmartly.com/date-to-day-of-month-conversion-2019/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is sep 9 1909 what is the date one year ago from today in mmddyyyy options a 09091920 b 09091908 c 07051908 d 09091870 e 09041908 f 09131908",
+            "content": "find out exactly how many days hours minutes amp seconds since 1909 or any other year in history",
+            "url": "https://howlongagogo.com/date/1909",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane thinks today is 6182019 but john thinks today is 6192019 john is correct what is the date yesterday in mmddyyyy options a 02182019 b 06182066 c 06182019 d 06181933 e 05282019 f 11182019",
+            "content": "answer 1 of 6 in the us we write 06052024 for june 5th if you write 05062024 people will think you mean may 6th cleary this wonx27t matter with dates after the 13th but even then people will be tripping over it which is not optimal you can and people do argue that ddmm makes more se",
+            "url": "https://www.quora.com/Is-it-acceptable-to-write-the-date-as-mm-dd-yyyy-or-dd-mm-yyyy-in-America-If-not-what-is-the-correct-format-and-why",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is 97 jane is watching nfl 2003 what is the date one week ago from today in mmddyyyy options a 09052003 b 08302003 c 08312074 d 08312003 e 06302004",
+            "content": "date format is a tool which helps to get various date formats",
+            "url": "https://www.tooloogle.com/tools/date-format/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "it was sept 1st 2021 a week ago what is the date tomorrow in mmddyyyy options a 09092021 b 09082021 c 08192021 d 09091934 e 02092021 f 09132021",
+            "content": "answer 1 of 6 in the us we write 06052024 for june 5th if you write 05062024 people will think you mean may 6th cleary this wonx27t matter with dates after the 13th but even then people will be tripping over it which is not optimal you can and people do argue that ddmm makes more se",
+            "url": "https://www.quora.com/Is-it-acceptable-to-write-the-date-as-mm-dd-yyyy-or-dd-mm-yyyy-in-America-If-not-what-is-the-correct-format-and-why",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "tomorrow is 11122019 what is the date one week from today in mmddyyyy options a 08212019 b 11182019 c 11182025 d 11182011 e 02182020 f 11042019",
+            "content": "what is todayx27s date what day is it find out the current date and check out calendars week numbers and day numbers",
+            "url": "https://www.saturdaygift.com/todays-date/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the day before yesterday was 11231933 what is the date 24 hours later in mmddyyyy options a 11251933 b 11261933 c 07261934 d 08231933 e 11261976 f 12061933",
+            "content": "date format is a tool which helps to get various date formats",
+            "url": "https://www.tooloogle.com/tools/date-format/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is 97 jane is watching nfl 2003 what is the date a month ago in mmddyyyy options a 08142003 b 08102003 c 08082003 d 06012003 e 04072003 f 08072003",
+            "content": "learn to use custom date and time format strings to convert datetime or datetimeoffset values into text representations or to parse strings for dates amp times",
+            "url": "https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the day before yesterday was 11231933 what is the date a month ago in mmddyyyy options a 10251921 b 10251989 c 10261933 d 10251933 e 11221933",
+            "content": "the legal and cultural expectations for date and time representation vary between countries and it is important to be aware of the forms of allnumeric calendar dates used in a particular country to know what date is intended writers have traditionally written abbreviated dates according",
+            "url": "https://en.wikipedia.org/wiki/List_of_date_formats_by_country",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "jane booked a flight for tomorrow jul 29 2002 what is the date 10 days ago in mmddyyyy options a 09062002 b 10182001 c 07082002 d 08082002 e 07182002 f 10082002",
+            "content": "explains how to use the gnu or bsd date command to calculate yesterdayx27s or tomorrowx27s date day with bash on linux or unixlike systems",
+            "url": "https://www.cyberciti.biz/tips/linux-unix-get-yesterdays-tomorrows-date.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane was born on the last day of feburary in 2000 today is her 16yearold birthday what is the date one week from today in mmddyyyy options a 03072016 b 02232016 c 03072070 d 03062016 e 03082016",
+            "content": "the age calculator finds age in years months days and minutes given a date of birth calculate age someonex27s age at death or time between dob and any date",
+            "url": "https://www.calculatorsoup.com/calculators/time/age-calculator.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on may 9th 2017 jane bought 40 eggs she ate one per day today she ran out of eggs what is the date yesterday in mmddyyyy options a 07182017 b 06172017 c 06172111 d 07132017 e 06262017 f 06252017",
+            "content": "video answerto find out the probability that both of them are red letx27s use the multiplicity of property wex27re gonna do the probability that the 1st 1 is red times probability that the 2nd 1 is red now the probability that my 1st 1 is red is five out of 12 because i already have picked",
+            "url": "https://www.numerade.com/ask/question/jane-has-7-children-today-3-of-them-wanted-hard-boiled-eggs-and-4-wanted-scrambled-eggs-just-as-jane-was-going-to-serve-them-their-eggs-the-doorbell-rang-in-a-hurry-jane-randomly-gave-eggs-t-97096/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the deadline is jun 1 2021 which is 2 days away from now what is the date 24 hours later in mmddyyyy options a 05311966 b 06022021 c 08182021 d 05311941 e 06162021 f 05312021",
+            "content": "this free date calculator computes the difference between two dates it can also add to or subtract from a date both can deal with business days and holidays",
+            "url": "https://www.calculator.net/date-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "jane is celebrating the last day of jan 2012 what is the date tomorrow in mmddyyyy options a 02022012 b 02152012 c 01252012 d 04222012 e 02012012 f 02112012",
+            "content": "i have a date format that i am getting from the database and is a string type it has a value stored that is like quot20120304 0000000quot but i have declared a simpledateformat as quotddmmmyyyy hhm",
+            "url": "https://stackoverflow.com/questions/9553908/how-to-convert-2012-03-04-000000-0-to-date-with-format-dd-mm-yyyy-hhmmss",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "jane scheduled 3 apointments with 5 poeple for tomorrow tue 791972 what is the date tomorrow in mmddyyyy options a 07091923 b 08051972 c 09011972 d 07091972 e 07092007 f 09041972",
+            "content": "view question 1docx from cis cis276 at strayer university question 1 1 select ‘todays date is ‘ getdate a todays date is 060120 09000000 b todays date is 20200601 9am c todays date",
+            "url": "https://www.coursehero.com/file/111046790/QUESTION-1docx/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the day before yesterday was 11231933 what is the date today in mmddyyyy options a 08291933 b 01041934 c 11251967 d 11251933 e 11041933 f 12091933",
+            "content": "communities for your favorite technologies explore all collectives ask questions find answers and collaborate at work with stack overflow for teams",
+            "url": "https://stackoverflow.com/questions/23593052/format-javascript-date-as-yyyy-mm-dd",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the current local time is 302 pm of 542004 what is the date tomorrow in mmddyyyy options a 05051915 b 05062004 c 05052004 d 01052005 e 02152004 f 05042004",
+            "content": "mmddyyyy hhmm a i have to convert date format of quot20080330t0500000000200quot to",
+            "url": "https://coderanch.com/t/409709/java/date-format-conversion-MM-dd",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the deadline is jun 1 2021 which is 2 days away from now what is the date yesterday in mmddyyyy options a 06122021 b 06052021 c 07292021 d 05222021 e 06172021 f 05292021",
+            "content": "communities for your favorite technologies explore all collectives ask questions find answers and collaborate at work with stack overflow for teams",
+            "url": "https://stackoverflow.com/questions/30483977/python-get-yesterdays-date-as-a-string-in-yyyy-mm-dd-format",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "may 6 1992 is like yesterday to jane but that is actually ten years ago what is the date one year ago from today in mmddyyyy options a 07072001 b 05052001 c 02112001 d 05062001 e 08062000",
+            "content": "the years ago calculator is a simple calculator you can use to get the exact date years ago from today if you are looking for the answer to questions like this what is the date 4 years ago today",
+            "url": "https://datetimecalculator.net/years-ago-calculator",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "jane quited her job on mar 20 2020 176 days have passed since then what is the date 24 hours later in mmddyyyy options a 09192020 b 09132020 c 06132021 d 10052020 e 12132020 f 09131991",
+            "content": "month abbreviations consist of the first three characters of the month’s name months with fourcharacter names such as june are not abbreviated monthdayyear with leading zeros 02172009",
+            "url": "https://docs.oracle.com/cd/E41183_01/DR/Date_Format_Types.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane thinks today is 6182019 but john thinks today is 6192019 john is correct what is the date 24 hours later in mmddyyyy options a 06202019 b 06222019 c 06292019 d 06212019 e 06202028 f 06201921",
+            "content": "answer 1 of 6 in the us we write 06052024 for june 5th if you write 05062024 people will think you mean may 6th cleary this wonx27t matter with dates after the 13th but even then people will be tripping over it which is not optimal you can and people do argue that ddmm makes more se",
+            "url": "https://www.quora.com/Is-it-acceptable-to-write-the-date-as-mm-dd-yyyy-or-dd-mm-yyyy-in-America-If-not-what-is-the-correct-format-and-why",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane and john married on jan 2 1958 today is their golden wedding anniversary what is the date one week ago from today in mmddyyyy options a 12262007 b 12261951 c 05262007 d 12052007 e 09262008 f 12262099",
+            "content": "a wedding anniversary is the anniversary of the date that a wedding took place couples often mark the occasion by celebrating their relationship either privately or with a larger party special celebrations and gifts are often given for particular anniversary milestones eg 10 15 20",
+            "url": "https://en.wikipedia.org/wiki/Wedding_anniversary",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "may 6 1992 is like yesterday to jane but that is actually ten years ago what is the date one week ago from today in mmddyyyy options a 04292002 b 04242002 c 04192002 d 04282002 e 02132002 f 05202002",
+            "content": "curious what date it was 5 or more years ago from now use our years ago calculator to figure out the date a specified number of years ago",
+            "url": "https://www.inchcalculator.com/years-ago-calculator/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the deadline is jun 1 2021 which is 2 days away from now what is the date one year ago from today in mmddyyyy options a 05092020 b 05302020 c 05301948 d 10302019 e 05202020 f 06022020",
+            "content": "this free date calculator computes the difference between two dates it can also add to or subtract from a date both can deal with business days and holidays",
+            "url": "https://www.calculator.net/date-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "may 6 1992 is like yesterday to jane but that is actually ten years ago what is the date today in mmddyyyy options a 05062095 b 05061935 c 05061912 d 08062002 e 05062002 f 05061964",
+            "content": "this page guides the presentation of numbers dates times measurements currencies coordinates and similar items in articles the aim is to promote clarity cohesion and consistency and to make the encyclopedia easier and more intuitive to use for numbers dates and similar items in",
+            "url": "https://en.m.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Dates_and_numbers",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "jane booked a flight for tomorrow jul 29 2002 what is the date 24 hours later in mmddyyyy options a 07292001 b 04242002 c 07302002 d 07282002 e 07292002 f 07291947",
+            "content": "communities for your favorite technologies explore all collectives ask questions find answers and collaborate at work with stack overflow for teams",
+            "url": "https://stackoverflow.com/questions/15491894/regex-to-validate-date-formats-dd-mm-yyyy-dd-mm-yyyy-dd-mm-yyyy-dd-mmm-yyyy",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is the palindrome day of 2020 because the mmddyyyy format of the date is the same backwards as forwards what is the date 10 days ago in mmddyyyy options a 01222020 b 01232020 c 03232020 d 01232078 e 01232011",
+            "content": "a palindrome date is when the day’s date can be read the same way backward and forward when is the next palindrome date",
+            "url": "https://www.timeanddate.com/date/palindrome-day.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the concert was scheduled to be on 06011943 but was delayed by one day to today what is the date 10 days ago in mmddyyyy options a 05211943 b 10231942 c 07011943 d 05241943 e 05231943",
+            "content": "this free date calculator computes the difference between two dates it can also add to or subtract from a date both can deal with business days and holidays",
+            "url": "https://www.calculator.net/date-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "tomorrow is 11122019 what is the date a month ago in mmddyyyy options a 10112019 b 10111974 c 10112018 d 10122019 e 10162019 f 10102019",
+            "content": "there have been discussions about the order of dd mm yyyy but never really any discussion about why designers choose to use yyyy over yy for instance 01012017 rather than 010117 any ide",
+            "url": "https://ux.stackexchange.com/questions/106617/dd-mm-yy-or-dd-mm-yyyy",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "yesterday jan 21 2011 jane ate 2 pizzas and 5 wings what is the date one week from today in mmddyyyy options a 01302011 b 04102011 c 01292011 d 01282011 e 06292010",
+            "content": "date format is a tool which helps to get various date formats",
+            "url": "https://www.tooloogle.com/tools/date-format/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today 831997 is a day that we will never forget what is the date a month ago in mmddyyyy options a 06121997 b 07031997 c 08031996 d 07021997 e 09221997 f 07121997",
+            "content": "q ramx27s date of birth is 18012007 in ddmmyyyy shyamx27s date of birth is 08182007 in mmddyyyy what is the approximate age difference between ram and shyam q donax27s date of birth is 27012003 in ddmmyyyy samx27s date of birth is 08272003 in mmddyyyy",
+            "url": "https://byjus.com/question-answer/8-june-1997-in-mm-dd-yyyy-format-is-06-08-1997/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "jane thought today is 3112002 but today is in fact mar 12 which is 1 day later what is the date one week from today in mmddyyyy options a 05132002 b 03202002 c 03192002 d 11192002 e 03262002",
+            "content": "find out unique and interesting mathematical patterns in different date formats calculates if a date has sequential repeating or palindromic digits",
+            "url": "https://www.timeanddate.com/date/pattern.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "yesterday was april 30 2021 what is the date one year ago from today in mmddyyyy options a 05152020 b 05012020 c 05082020 d 04012020 e 05011971",
+            "content": "date format is a tool which helps to get various date formats",
+            "url": "https://www.tooloogle.com/tools/date-format/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane was born on the last day of feburary in 2000 today is her 16yearold birthday what is the date tomorrow in mmddyyyy options a 03022016 b 03011968 c 02202016 d 03012016 e 03012104 f 03012048",
+            "content": "answer 1 of 2 well today is the 18th of january so that means that the day after tomorrow will be 20jan24 or 2001 in the required format sorry but it’s not my fault that you didn’t word the question properly if frankie was born on the 29th february she would be 80 years old on he",
+            "url": "https://www.quora.com/Frankie-was-17-years-old-at-the-start-of-last-year-The-day-after-tomorrow-frankie-will-celebrate-her-20th-birthday-What-date-is-her-birthday-Give-your-answer-in-the-form-dd-mm",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "jane quited her job on mar 20 2020 176 days have passed since then what is the date tomorrow in mmddyyyy options a 09132020 b 08142020 c 09132057 d 07262020 e 10042020 f 09132084",
+            "content": "communities for your favorite technologies explore all collectives ask questions find answers and collaborate at work with stack overflow for teams",
+            "url": "https://stackoverflow.com/questions/15491894/regex-to-validate-date-formats-dd-mm-yyyy-dd-mm-yyyy-dd-mm-yyyy-dd-mmm-yyyy",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is christmas eve of 1937 what is the date one week ago from today in mmddyyyy options a 08171937 b 09181937 c 12181937 d 12171937 e 12161937",
+            "content": "the battle of nanjing began japan recognized the franco regime otto meissner entered the hitler cabinet as minister of state and head of the chancellory born chuck low actor in new york city d 2017 vaira vīķefreiberga 6th president of latvia in riga latvia ernst rüdiger",
+            "url": "https://en.wikipedia.org/wiki/December_1937",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane is celebrating the last day of jan 2012 what is the date a month ago in mmddyyyy options a 12212011 b 12312011 c 12302011 d 12312074 e 12312108 f 03292012",
+            "content": "the tutorial explains what excel date format is and demonstrates how to change date format in excel convert date to number create custom date formats and change your dates to another locale",
+            "url": "https://www.ablebits.com/office-addins-blog/change-date-format-excel/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "yesterday was 12311929 today could not be 12321929 because december has only 31 days what is the date a month ago in mmddyyyy options a 04011930 b 12011929 c 12011973 d 12021929 e 12111929 f 12041929",
+            "content": "find out exactly how many days hours minutes amp seconds since 31 december 1929 or any other date in history what happened on december 31st 1929",
+            "url": "https://howlongagogo.com/date/1929/december/31",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is apr 10 1985 janes appointment will be 3 days later what is the date tomorrow in mmddyyyy options a 04131985 b 04101985 c 01022071 d 04071985 e 04111985 f 03101986",
+            "content": "i am trying to get javascript to display tomorrows date in format ddmmyyyy i have got this script which displays todays date in format ddmmyyyy var currentdate new date var day",
+            "url": "https://stackoverflow.com/questions/9444745/javascript-how-to-get-tomorrows-date-in-format-dd-mm-yy",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is the second day of the third month of 1966 what is the date one week from today in mmddyyyy options a 12091965 b 03021966 c 03281966 d 03261966 e 03091966 f 02221966",
+            "content": "british chancellor of the exchequer and future prime minister james callaghan announced the governmentx27s plans for the decimalisation of the pound sterling by february 1971 replacing traditional coinage the british pound formerly worth 240 pennies would be divided into worth 100 cents",
+            "url": "https://en.wikipedia.org/wiki/March_1966",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "it is 4191969 today what is the date 10 days ago in mmddyyyy options a 03191969 b 04081969 c 03241969 d 04041969 e 04101969 f 04091969",
+            "content": "this year has 365 days †this is a list of the days of the year with the day number the days remaining the days from today and the week number",
+            "url": "https://www.epoch101.com/day-numbers-1969",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on may 9th 2017 jane bought 40 eggs she ate one per day today she ran out of eggs what is the date a month ago in mmddyyyy options a 05042017 b 05192017 c 06242017 d 05112017 e 10182017 f 05182017",
+            "content": "video answerto find out the probability that both of them are red letx27s use the multiplicity of property wex27re gonna do the probability that the 1st 1 is red times probability that the 2nd 1 is red now the probability that my 1st 1 is red is five out of 12 because i already have picked",
+            "url": "https://www.numerade.com/ask/question/jane-has-7-children-today-3-of-them-wanted-hard-boiled-eggs-and-4-wanted-scrambled-eggs-just-as-jane-was-going-to-serve-them-their-eggs-the-doorbell-rang-in-a-hurry-jane-randomly-gave-eggs-t-97096/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "jane visits the bookstore on the 16th of each month starting from the october of 2009 it is her 5th visit to the bookstore today what is the date one year ago from today in mmddyyyy options a 08162009 b 02162009 c 02162004 d 03132009 e 01262009 f 02152009",
+            "content": "calculate the date difference to measure the duration of events or the time between days on the calendar",
+            "url": "https://www.convertunits.com/dates/index.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is sep 9 1909 what is the date 10 days ago in mmddyyyy options a 08291909 b 08301967 c 08301909 d 08301977 e 08021909 f 08161909",
+            "content": "the duration calculator calculates the number of days months and years between two dates",
+            "url": "https://www.timeanddate.com/date/duration.html?ti=on",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "it is 4191969 today what is the date one week ago from today in mmddyyyy options a 03281969 b 04121969 c 04021969 d 03041969 e 02121970 f 04131969",
+            "content": "what date was 1969 days ago from today wednesday august 28 2019 was 1969 days from today friday january 17 2025 days ago from now calculator to find out how long ago was 1969 days from now or what is today minus 1969 days",
+            "url": "https://calculator.name/date/days-ago-from-today/1969",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the current local time is 302 pm of 542004 what is the date today in mmddyyyy options a 05052004 b 05042005 c 04282004 d 05042004 e 05032004 f 05112004",
+            "content": "i have a date format that i am getting from the database and is a string type it has a value stored that is like quot20120304 0000000quot but i have declared a simpledateformat as quotddmmmyyyy hhm",
+            "url": "https://stackoverflow.com/questions/9553908/how-to-convert-2012-03-04-000000-0-to-date-with-format-dd-mm-yyyy-hhmmss",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane thinks today is 6182019 but john thinks today is 6192019 john is correct what is the date one year ago from today in mmddyyyy options a 06192018 b 05222018 c 06191934 d 06191956 e 06242018 f 06182018",
+            "content": "answer 1 of 6 in the us we write 06052024 for june 5th if you write 05062024 people will think you mean may 6th cleary this wonx27t matter with dates after the 13th but even then people will be tripping over it which is not optimal you can and people do argue that ddmm makes more se",
+            "url": "https://www.quora.com/Is-it-acceptable-to-write-the-date-as-mm-dd-yyyy-or-dd-mm-yyyy-in-America-If-not-what-is-the-correct-format-and-why",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane visits the bookstore on the 16th of each month starting from the october of 2009 it is her 5th visit to the bookstore today what is the date tomorrow in mmddyyyy options a 02142010 b 02172096 c 02172010 d 11172009 e 02162010 f 02262010",
+            "content": "what is todayx27s date find out the current day of the week the date of today and local time the correct way of writing todayx27s date in numbers",
+            "url": "https://today-date.com/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is the first day of 2007 what is the date 10 days ago in mmddyyyy options a 12232006 b 01312007 c 12221961 d 12212006 e 02242007 f 12222006",
+            "content": "results page for date calculator shows number of days between two dates",
+            "url": "https://www.timeanddate.com/date/durationresult.php?m1=5&d1=19&y1=2007&m2=10&d2=31&y2=2007&ti=on",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "it is 4191969 today what is the date one week from today in mmddyyyy options a 04261969 b 04051969 c 05111969 d 04271969 e 05141969 f 04251969",
+            "content": "this page lists all days in 1969 with day and week numbers the year 1969 has 365 days « day numbers for 1968 day numbers for 1970 »",
+            "url": "https://www.epochconverter.com/days/1969",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is 97 jane is watching nfl 2003 what is the date tomorrow in mmddyyyy options a 09081916 b 09132003 c 08182003 d 09082003 e 09152003 f 09012003",
+            "content": "communities for your favorite technologies explore all collectives ask questions find answers and collaborate at work with stack overflow for teams",
+            "url": "https://stackoverflow.com/questions/32490629/getting-todays-date-in-yyyy-mm-dd-in-python",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is 35 and it is janes second time in the year 1973 to see a meteor shower what is the date 24 hours later in mmddyyyy options a 03061973 b 03021973 c 03081983 d 04051973 e 03051972 f 01021973",
+            "content": "a meteor shower is a celestial event in which a number of meteors are observed to radiate or originate from one point in the night sky called radiant these meteors are caused by streams of cosmic debris called meteoroids entering earthx27s atmosphere at extremely high speeds on parallel",
+            "url": "https://www.amsmeteors.org/meteor-showers/meteor-shower-calendar/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane thinks today is 6182019 but john thinks today is 6192019 john is correct what is the date one week ago from today in mmddyyyy options a 06122022 b 06122019 c 06112019 d 06132019 e 08252019 f 03242019",
+            "content": "answer 1 of 6 in the us we write 06052024 for june 5th if you write 05062024 people will think you mean may 6th cleary this wonx27t matter with dates after the 13th but even then people will be tripping over it which is not optimal you can and people do argue that ddmm makes more se",
+            "url": "https://www.quora.com/Is-it-acceptable-to-write-the-date-as-mm-dd-yyyy-or-dd-mm-yyyy-in-America-If-not-what-is-the-correct-format-and-why",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is the second day of the third month of 1966 what is the date yesterday in mmddyyyy options a 03011966 b 11011966 c 03041966 d 10011966 e 03021966 f 03011871",
+            "content": "see what todayx27s date is and what the current date is in numbers including mmddyyyy or ddmmyyyy see how to find todayx27s date in excel",
+            "url": "https://www.inchcalculator.com/what-is-todays-date/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the concert was scheduled to be on 06011943 but was delayed by one day to today what is the date 24 hours later in mmddyyyy options a 06041943 b 03091943 c 06031943 d 04111943 e 09031943 f 08031942",
+            "content": "i have a date format that i am getting from the database and is a string type it has a value stored that is like quot20120304 0000000quot but i have declared a simpledateformat as quotddmmmyyyy hhm",
+            "url": "https://stackoverflow.com/questions/9553908/how-to-convert-2012-03-04-000000-0-to-date-with-format-dd-mm-yyyy-hhmmss",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "todays meeting is rescheduled to 11 am tomorrow 10161924 what is the date one week from today in mmddyyyy options a 10221944 b 10221924 c 10071924 d 10211924 e 08221925 f 11211924",
+            "content": "what is the correct way to express the following the original meeting time was 9 am and it was later rescheduled to 16 pm is the following expression correct if not what would it be the",
+            "url": "https://ell.stackexchange.com/questions/119624/is-the-meeting-was-re-scheduled-for-16-to-17pm-correct",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is 35 and it is janes second time in the year 1973 to see a meteor shower what is the date a month ago in mmddyyyy options a 02051973 b 03081983 c 01021973 d 03052007 e 03051973 f 04051973",
+            "content": "a meteor shower is a celestial event in which a number of meteors are observed to radiate or originate from one point in the night sky called radiant these meteors are caused by streams of cosmic debris called meteoroids entering earthx27s atmosphere at extremely high speeds on parallel",
+            "url": "https://www.amsmeteors.org/meteor-showers/meteor-shower-calendar/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "it was sept 1st 2021 a week ago what is the date one year ago from today in mmddyyyy options a 09072020 b 08312020 c 07082020 d 09082049 e 08182020 f 09082020",
+            "content": "this free date calculator computes the difference between two dates it can also add to or subtract from a date both can deal with business days and holidays",
+            "url": "https://www.calculator.net/date-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "jane quited her job on mar 20 2020 176 days have passed since then what is the date yesterday in mmddyyyy options a 09112094 b 09112020 c 09102020 d 08142020 e 10092020 f 09172020",
+            "content": "the legal and cultural expectations for date and time representation vary between countries and it is important to be aware of the forms of allnumeric calendar dates used in a particular country to know what date is intended writers have traditionally written abbreviated dates according",
+            "url": "https://en.wikipedia.org/wiki/List_of_date_formats_by_country",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "yesterday jan 21 2011 jane ate 2 pizzas and 5 wings what is the date a month ago in mmddyyyy options a 02082011 b 12222010 c 06222010 d 12012010 e 01052011 f 12212010",
+            "content": "communities for your favorite technologies explore all collectives ask questions find answers and collaborate at work with stack overflow for teams",
+            "url": "https://stackoverflow.com/questions/15491894/regex-to-validate-date-formats-dd-mm-yyyy-dd-mm-yyyy-dd-mm-yyyy-dd-mmm-yyyy",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is the palindrome day of 2020 because the mmddyyyy format of the date is the same backwards as forwards what is the date one week from today in mmddyyyy options a 02232020 b 02132020 c 02092095 d 12092020 e 02092020 f 02272020",
+            "content": "a palindrome date is when the day’s date can be read the same way backward and forward when is the next palindrome date",
+            "url": "https://www.timeanddate.com/date/palindrome-day.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane was born on the last day of feburary in 2001 today is her 16yearold birthday what is the date tomorrow in mmddyyyy options a 03252017 b 03012017 c 03012116 d 02202017 e 03172017 f 03012076",
+            "content": "answer 1 of 2 well today is the 18th of january so that means that the day after tomorrow will be 20jan24 or 2001 in the required format sorry but it’s not my fault that you didn’t word the question properly if frankie was born on the 29th february she would be 80 years old on he",
+            "url": "https://www.quora.com/Frankie-was-17-years-old-at-the-start-of-last-year-The-day-after-tomorrow-frankie-will-celebrate-her-20th-birthday-What-date-is-her-birthday-Give-your-answer-in-the-form-dd-mm",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane scheduled 3 apointments with 5 poeple for tomorrow tue 791972 what is the date a month ago in mmddyyyy options a 06082059 b 06221972 c 12081971 d 06082034 e 06081972 f 06071972",
+            "content": "view question 1docx from cis cis276 at strayer university question 1 1 select ‘todays date is ‘ getdate a todays date is 060120 09000000 b todays date is 20200601 9am c todays date",
+            "url": "https://www.coursehero.com/file/111046790/QUESTION-1docx/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on may 9th 2017 jane bought 40 eggs she ate one per day today she ran out of eggs what is the date tomorrow in mmddyyyy options a 08052017 b 06192017 c 06252017 d 06132017 e 06212017 f 06182017",
+            "content": "video answerto find out the probability that both of them are red letx27s use the multiplicity of property wex27re gonna do the probability that the 1st 1 is red times probability that the 2nd 1 is red now the probability that my 1st 1 is red is five out of 12 because i already have picked",
+            "url": "https://www.numerade.com/ask/question/jane-has-7-children-today-3-of-them-wanted-hard-boiled-eggs-and-4-wanted-scrambled-eggs-just-as-jane-was-going-to-serve-them-their-eggs-the-doorbell-rang-in-a-hurry-jane-randomly-gave-eggs-t-97096/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the day before yesterday was 11231933 what is the date one week from today in mmddyyyy options a 11251933 b 12021974 c 12161933 d 11111933 e 12231933 f 12021933",
+            "content": "date format is a tool which helps to get various date formats",
+            "url": "https://www.tooloogle.com/tools/date-format/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "yesterday was 12311929 today could not be 12321929 because december has only 31 days what is the date 24 hours later in mmddyyyy options a 01021930 b 08021930 c 01021884 d 11061929 e 03301930 f 01021877",
+            "content": "add or subtract any number of days tofrom a start date",
+            "url": "https://www.timeanddate.com/date/dateadd.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on may 9th 2017 jane bought 40 eggs she ate one per day today she ran out of eggs what is the date today in mmddyyyy options a 06172017 b 07162017 c 06182017 d 06182016 e 06182054 f 12182016",
+            "content": "video answerto find out the probability that both of them are red letx27s use the multiplicity of property wex27re gonna do the probability that the 1st 1 is red times probability that the 2nd 1 is red now the probability that my 1st 1 is red is five out of 12 because i already have picked",
+            "url": "https://www.numerade.com/ask/question/jane-has-7-children-today-3-of-them-wanted-hard-boiled-eggs-and-4-wanted-scrambled-eggs-just-as-jane-was-going-to-serve-them-their-eggs-the-doorbell-rang-in-a-hurry-jane-randomly-gave-eggs-t-97096/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "jane scheduled 3 apointments with 5 poeple for tomorrow tue 791972 what is the date one year ago from today in mmddyyyy options a 07081910 b 07081971 c 07091971 d 07151971 e 07011971 f 07071971",
+            "content": "view question 1docx from cis cis276 at strayer university question 1 1 select ‘todays date is ‘ getdate a todays date is 060120 09000000 b todays date is 20200601 9am c todays date",
+            "url": "https://www.coursehero.com/file/111046790/QUESTION-1docx/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "yesterday jan 21 2011 jane ate 2 pizzas and 5 wings what is the date one week ago from today in mmddyyyy options a 12062010 b 01152011 c 01172011 d 03152011 e 12242010",
+            "content": "the tutorial explains what excel date format is and demonstrates how to change date format in excel convert date to number create custom date formats and change your dates to another locale",
+            "url": "https://www.ablebits.com/office-addins-blog/change-date-format-excel/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "it was sept 1st 2021 a week ago what is the date one week ago from today in mmddyyyy options a 09022021 b 09072021 c 09012021 d 09012098 e 09012020 f 12062021",
+            "content": "the duration calculator calculates the number of days months and years between two dates",
+            "url": "https://www.timeanddate.com/date/duration.html?ti=on",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "yesterday was april 30 2021 what is the date a month ago in mmddyyyy options a 04012094 b 03222021 c 03182021 d 03312021 e 04012021 f 02212021",
+            "content": "see what todayx27s date is and what the current date is in numbers including mmddyyyy or ddmmyyyy see how to find todayx27s date in excel",
+            "url": "https://www.inchcalculator.com/what-is-todays-date/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is 97 jane is watching nfl 2003 what is the date yesterday in mmddyyyy options a 09062003 b 09212003 c 09052003 d 10232003 e 09062102",
+            "content": "communities for your favorite technologies explore all collectives ask questions find answers and collaborate at work with stack overflow for teams",
+            "url": "https://stackoverflow.com/questions/32490629/getting-todays-date-in-yyyy-mm-dd-in-python",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "yesterday was april 30 2021 what is the date 24 hours later in mmddyyyy options a 05022020 b 05022000 c 05022021 d 05032021 e 05022022 f 04042021",
+            "content": "date format is a tool which helps to get various date formats",
+            "url": "https://www.tooloogle.com/tools/date-format/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "it is 4191969 today what is the date tomorrow in mmddyyyy options a 04061969 b 03231969 c 04201969 d 04181969 e 04202035 f 04211969",
+            "content": "date format is a tool which helps to get various date formats",
+            "url": "https://www.tooloogle.com/tools/date-format/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "jane thinks today is 6182019 but john thinks today is 6192019 john is correct what is the date one week from today in mmddyyyy options a 06192019 b 06242019 c 08262019 d 06252019 e 06262019 f 07032019",
+            "content": "answer 1 of 6 in the us we write 06052024 for june 5th if you write 05062024 people will think you mean may 6th cleary this wonx27t matter with dates after the 13th but even then people will be tripping over it which is not optimal you can and people do argue that ddmm makes more se",
+            "url": "https://www.quora.com/Is-it-acceptable-to-write-the-date-as-mm-dd-yyyy-or-dd-mm-yyyy-in-America-If-not-what-is-the-correct-format-and-why",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane and john married on jan 2 1958 today is their golden wedding anniversary what is the date yesterday in mmddyyyy options a 12312007 b 01012008 c 02032008 d 01022008 e 12272007",
+            "content": "i am wanting to get monogrammed products for our wedding and i am having so much trouble trying to figure out the order a date goes in i know in canada its supposed to go ddmmyyyy but i have had vendors and friends that have read it wrong and",
+            "url": "https://community.weddingwire.ca/forums/date-notations-is-it-dd-mm-yyyy-or-mm-dd-yyyy--t26073",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the concert was scheduled to be on 06011943 but was delayed by one day to today what is the date tomorrow in mmddyyyy options a 06031943 b 03151943 c 08031942 d 06021943 e 07041943 f 05061943",
+            "content": "the death sentence for treason of germanborn american max stephan was commuted by us president roosevelt to life imprisonment seven hours before stephan was to be hanged stephan had been convicted of harboring a german prisoner of war who had escaped from a pow camp in ontario",
+            "url": "https://en.wikipedia.org/wiki/July_1943",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane was born on the last day of feburary in 2001 today is her 16yearold birthday what is the date one year ago from today in mmddyyyy options a 02282015 b 03312016 c 02282016 d 02281992 e 03272016 f 03062016",
+            "content": "the age calculator finds age in years months days and minutes given a date of birth calculate age someonex27s age at death or time between dob and any date",
+            "url": "https://www.calculatorsoup.com/calculators/time/age-calculator.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "jane visits the bookstore on the 16th of each month starting from the october of 2009 it is her 5th visit to the bookstore today what is the date a month ago in mmddyyyy options a 01162010 b 12192009 c 01152010 d 02112010 e 01172010 f 10092009",
+            "content": "calculate the date six months ago from today and learn how to find what date it was 6 months ago",
+            "url": "https://www.inchcalculator.com/months-from/6-months-ago-from-today/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "may 6 1992 is like yesterday to jane but that is actually ten years ago what is the date 24 hours later in mmddyyyy options a 05152002 b 05042002 c 05172002 d 05071982 e 09072001 f 05072002",
+            "content": "date calculator is a simple date calculation tool to add or subtract from a date with years months days hours and minutes to a date in various date formats",
+            "url": "https://www.datecalculator.org/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "yesterday was 12311929 today could not be 12321929 because december has only 31 days what is the date today in mmddyyyy options a 01081930 b 01061930 c 01011930 d 12311929 e 10011930 f 02271930",
+            "content": "find out exactly how many days hours minutes amp seconds since 31 december 1929 or any other date in history what happened on december 31st 1929",
+            "url": "https://howlongagogo.com/date/1929/december/31",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "yesterday jan 21 2011 jane ate 2 pizzas and 5 wings what is the date 10 days ago in mmddyyyy options a 01182011 b 01122011 c 01122069 d 01132011 e 05122010 f 08122010",
+            "content": "ix27m trying to write a regular expression that validates a date the regex needs to match the following mdyyyy mmddyyyy single digit months can start with a leading zero eg 03122008 single",
+            "url": "https://stackoverflow.com/questions/51224/regular-expression-to-match-valid-dates",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is 35 and it is janes second time in the year 1973 to see a meteor shower what is the date tomorrow in mmddyyyy options a 03081983 b 03061973 c 03021973 d 04051973 e 03052007 f 01021973",
+            "content": "the latest astronomical news from intheskyorg observing notes for meteor showers",
+            "url": "https://in-the-sky.org/newsindex.php?feed=meteors",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is the last day of the first quarter of 2008 what is the date a month ago in mmddyyyy options a 02292008 b 02082008 c 12262007 d 02282008 e 02012008 f 08292008",
+            "content": "find the number of years between two dates with the years between two dates calculator",
+            "url": "https://www.omnicalculator.com/everyday-life/years-between-dates",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "jane thought today is 3112002 but today is in fact mar 12 which is 1 day later what is the date a month ago in mmddyyyy options a 04122001 b 02112002 c 02122002 d 02082002 e 05222002 f 02182002",
+            "content": "communities for your favorite technologies explore all collectives ask questions find answers and collaborate at work with stack overflow for teams",
+            "url": "https://stackoverflow.com/questions/15491894/regex-to-validate-date-formats-dd-mm-yyyy-dd-mm-yyyy-dd-mm-yyyy-dd-mmm-yyyy",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane thinks today is 6182019 but john thinks today is 6192019 john is correct what is the date tomorrow in mmddyyyy options a 02202019 b 06102019 c 06202019 d 06252019 e 12202018",
+            "content": "answer 1 of 6 in the us we write 06052024 for june 5th if you write 05062024 people will think you mean may 6th cleary this wonx27t matter with dates after the 13th but even then people will be tripping over it which is not optimal you can and people do argue that ddmm makes more se",
+            "url": "https://www.quora.com/Is-it-acceptable-to-write-the-date-as-mm-dd-yyyy-or-dd-mm-yyyy-in-America-If-not-what-is-the-correct-format-and-why",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "may 6 1992 is like yesterday to jane but that is actually ten years ago what is the date tomorrow in mmddyyyy options a 04162002 b 04072003 c 05072036 d 05282002 e 05072002",
+            "content": "this page guides the presentation of numbers dates times measurements currencies coordinates and similar items in articles the aim is to promote clarity cohesion and consistency and to make the encyclopedia easier and more intuitive to use for numbers dates and similar items in",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Dates_and_numbers",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is 97 jane is watching nfl 2003 what is the date 10 days ago in mmddyyyy options a 08281959 b 08292003 c 08282003 d 06142003 e 03282003 f 08282043",
+            "content": "we cannot provide a description for this page right now",
+            "url": "https://www.ibm.com/docs/en/cmofz/10.1.0?topic=SSQHWE_10.1.0/com.ibm.ondemand.mp.doc/arsa0257.htm",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane was born on the last day of feburary in 2000 today is her 16yearold birthday what is the date yesterday in mmddyyyy options a 02212016 b 02282016 c 03132016 d 04282016 e 06012016 f 11282015",
+            "content": "answer 1 of 2 well today is the 18th of january so that means that the day after tomorrow will be 20jan24 or 2001 in the required format sorry but it’s not my fault that you didn’t word the question properly if frankie was born on the 29th february she would be 80 years old on he",
+            "url": "https://www.quora.com/Frankie-was-17-years-old-at-the-start-of-last-year-The-day-after-tomorrow-frankie-will-celebrate-her-20th-birthday-What-date-is-her-birthday-Give-your-answer-in-the-form-dd-mm",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is sep 9 1909 what is the date 24 hours later in mmddyyyy options a 09101909 b 09241909 c 07031909 d 12101909 e 08131909 f 09101892",
+            "content": "communities for your favorite technologies explore all collectives ask questions find answers and collaborate at work with stack overflow for teams",
+            "url": "https://stackoverflow.com/questions/23593052/format-javascript-date-as-yyyy-mm-dd",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "it was sept 1st 2021 a week ago what is the date 10 days ago in mmddyyyy options a 05252021 b 08291925 c 08302021 d 08292021 e 08282021 f 09192021",
+            "content": "the duration calculator calculates the number of days months and years between two dates",
+            "url": "https://www.timeanddate.com/date/duration.html?ti=on",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "on may 9th 2017 jane bought 40 eggs she ate one per day today she ran out of eggs what is the date 24 hours later in mmddyyyy options a 06192017 b 07172017 c 06202017 d 06182017 e 06152017 f 07102017",
+            "content": "video answerto find out the probability that both of them are red letx27s use the multiplicity of property wex27re gonna do the probability that the 1st 1 is red times probability that the 2nd 1 is red now the probability that my 1st 1 is red is five out of 12 because i already have picked",
+            "url": "https://www.numerade.com/ask/question/jane-has-7-children-today-3-of-them-wanted-hard-boiled-eggs-and-4-wanted-scrambled-eggs-just-as-jane-was-going-to-serve-them-their-eggs-the-doorbell-rang-in-a-hurry-jane-randomly-gave-eggs-t-97096/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "jane is celebrating the last day of jan 2012 what is the date yesterday in mmddyyyy options a 01292012 b 09302011 c 02062012 d 01302012 e 01301925",
+            "content": "master the art of converting text date formats in excel follow our guide to effortlessly convert text dates for better data analysis",
+            "url": "https://www.displayr.com/how-to-convert-text-dates-in-excel/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane was born on the last day of feburary in 2001 today is her 16yearold birthday what is the date today in mmddyyyy options a 08282017 b 02222017 c 03012017 d 01282018 e 02072017 f 02282017",
+            "content": "the age calculator finds age in years months days and minutes given a date of birth calculate age someonex27s age at death or time between dob and any date",
+            "url": "https://www.calculatorsoup.com/calculators/time/age-calculator.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane booked a flight for tomorrow jul 29 2002 what is the date one year ago from today in mmddyyyy options a 07242001 b 09282001 c 07282001 d 10102001 e 01282002 f 07282095",
+            "content": "communities for your favorite technologies explore all collectives ask questions find answers and collaborate at work with stack overflow for teams",
+            "url": "https://stackoverflow.com/questions/15491894/regex-to-validate-date-formats-dd-mm-yyyy-dd-mm-yyyy-dd-mm-yyyy-dd-mmm-yyyy",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane scheduled 3 apointments with 5 poeple for tomorrow tue 791972 what is the date one week from today in mmddyyyy options a 06241972 b 07161972 c 07151972 d 06181972 e 07291972 f 07152037",
+            "content": "i am trying to get javascript to display tomorrows date in format ddmmyyyy i have got this script which displays todays date in format ddmmyyyy var currentdate new date var day",
+            "url": "https://stackoverflow.com/questions/9444745/javascript-how-to-get-tomorrows-date-in-format-dd-mm-yy",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "yesterday jan 21 2011 jane ate 2 pizzas and 5 wings what is the date today in mmddyyyy options a 01122011 b 01082011 c 01221990 d 01222011 e 01222086 f 01232011",
+            "content": "ix27m trying to write a regular expression that validates a date the regex needs to match the following mdyyyy mmddyyyy single digit months can start with a leading zero eg 03122008 single",
+            "url": "https://stackoverflow.com/questions/51224/regular-expression-to-match-valid-dates",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane thinks today is 6182019 but john thinks today is 6192019 jane is correct what is the date one week ago from today in mmddyyyy options a 06112019 b 06022019 c 06111942 d 06122019 e 07292019 f 05282019",
+            "content": "answer 1 of 6 in the us we write 06052024 for june 5th if you write 05062024 people will think you mean may 6th cleary this wonx27t matter with dates after the 13th but even then people will be tripping over it which is not optimal you can and people do argue that ddmm makes more se",
+            "url": "https://www.quora.com/Is-it-acceptable-to-write-the-date-as-mm-dd-yyyy-or-dd-mm-yyyy-in-America-If-not-what-is-the-correct-format-and-why",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "jane quited her job on mar 20 2020 176 days have passed since then what is the date today in mmddyyyy options a 09122020 b 11122020 c 12122020 d 09121961 e 09172020",
+            "content": "how do i convert a text date in excel from ddmmyy to ddmmyyyy and have the new ddmmyyyy cell an actual date cell",
+            "url": "https://superuser.com/questions/1276718/how-do-i-convert-a-text-date-in-excel-from-dd-mm-yy-to-dd-mm-yyyy",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is apr 10 1985 janes appointment will be 3 days later what is the date one year ago from today in mmddyyyy options a 03101986 b 04071985 c 05131985 d 04101984 e 04121986 f 04101985",
+            "content": "the year calculator lets you enter two dates to compute the number of years and days between them enter any dates to see years apart",
+            "url": "https://dqydj.com/year-calculator/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane and john married on jan 2 1958 today is their golden wedding anniversary what is the date 24 hours later in mmddyyyy options a 01062008 b 07032007 c 01022008 d 01112008 e 01172008 f 01032008",
+            "content": "this page guides the presentation of numbers dates times measurements currencies coordinates and similar items in articles the aim is to promote clarity cohesion and consistency and to make the encyclopedia easier and more intuitive to use for numbers dates and similar items in",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Dates_and_numbers",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane and john married on jan 2 1958 today is their golden wedding anniversary what is the date one year ago from today in mmddyyyy options a 03242007 b 01022007 c 04052007 d 01022037 e 01012007 f 01021957",
+            "content": "if you want to know the name of all the wedding anniversaries here is a list of wedding anniversary names and gifts for each year",
+            "url": "https://www.caketoppers.co.uk/page/wedding-anniversary-names",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the first day of 2019 is a tuesday and today is the first monday of 2019 what is the date 10 days ago in mmddyyyy options a 10282019 b 12242018 c 12142018 d 12282018 e 01012019 f 06282019",
+            "content": "the duration calculator calculates the number of days months and years between two dates",
+            "url": "https://www.timeanddate.com/date/duration.html?ti=on",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane thinks today is 6182019 but john thinks today is 6192019 jane is correct what is the date yesterday in mmddyyyy options a 06172063 b 05182019 c 05202019 d 06172019 e 05132019 f 06082019",
+            "content": "answer 1 of 6 in the us we write 06052024 for june 5th if you write 05062024 people will think you mean may 6th cleary this wonx27t matter with dates after the 13th but even then people will be tripping over it which is not optimal you can and people do argue that ddmm makes more se",
+            "url": "https://www.quora.com/Is-it-acceptable-to-write-the-date-as-mm-dd-yyyy-or-dd-mm-yyyy-in-America-If-not-what-is-the-correct-format-and-why",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today 831997 is a day that we will never forget what is the date 24 hours later in mmddyyyy options a 08041997 b 08041978 c 08042043 d 08071997 e 08041935 f 05011997",
+            "content": "answer 1 of 6 in the us we write 06052024 for june 5th if you write 05062024 people will think you mean may 6th cleary this wonx27t matter with dates after the 13th but even then people will be tripping over it which is not optimal you can and people do argue that ddmm makes more se",
+            "url": "https://www.quora.com/Is-it-acceptable-to-write-the-date-as-mm-dd-yyyy-or-dd-mm-yyyy-in-America-If-not-what-is-the-correct-format-and-why",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is apr 10 1985 janes appointment will be 3 days later what is the date today in mmddyyyy options a 04121986 b 04071985 c 03101986 d 04101985 e 04131985 f 05131985",
+            "content": "we cannot provide a description for this page right now",
+            "url": "https://www.ibm.com/docs/en/cmofz/10.1.0?topic=SSQHWE_10.1.0/com.ibm.ondemand.mp.doc/arsa0257.htm",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is the last day of the first quarter of 2008 what is the date one week ago from today in mmddyyyy options a 12232007 b 05052008 c 03242047 d 04142008 e 03242043 f 03242008",
+            "content": "sqlite supports seven scalar date and time functions as follows the first six date and time functions take an optional timevalue as an argument followed by zero or more modifiers the strftime function also takes a format string as its first argument",
+            "url": "https://www.sqlite.org/lang_datefunc.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane was born on the last day of feburary in 2001 today is her 16yearold birthday what is the date yesterday in mmddyyyy options a 02271955 b 12272016 c 02272017 d 02182017 e 02262017 f 12052016",
+            "content": "this is the latest accepted revision reviewed on 17 february 2025 february 12 is the 43rd day of the year in the gregorian calendar 322 days remain until the end of the year 323 in leap years 1096 pope urban ii confirms the foundation of the abbey of la roë under robert of arbrissel",
+            "url": "https://en.wikipedia.org/wiki/February_12",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is sep 9 1909 what is the date one week ago from today in mmddyyyy options a 09021832 b 05021909 c 09021864 d 09021906 e 09021909 f 08191909",
+            "content": "find out how long has it been since july 9th 1909 how many months weeks days hours minutes and seconds since 791909",
+            "url": "https://dateandage.com/date/how-long-july-9-1909",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "today is apr 10 1985 janes appointment will be 3 days later what is the date 10 days ago in mmddyyyy options a 04131985 b 04071985 c 05131985 d 04101986 e 03101986 f 03311985",
+            "content": "this free age calculator computes age in terms of years months weeks days hours minutes and seconds given a date of birth",
+            "url": "https://www.calculator.net/age-calculator.html?today=10/17/1958",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the current local time is 302 pm of 542004 what is the date one week from today in mmddyyyy options a 05102004 b 05112004 c 04122004 d 05052004 e 05212004 f 05252004",
+            "content": "mmddyyyy hhmm a i have to convert date format of quot20080330t0500000000200quot to",
+            "url": "https://coderanch.com/t/409709/java/date-format-conversion-MM-dd",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "jane scheduled 3 apointments with 5 poeple for tomorrow tue 791972 what is the date one week ago from today in mmddyyyy options a 07091972 b 12011972 c 07012008 d 05131972 e 07011972 f 08121972",
+            "content": "view question 1docx from cis cis276 at strayer university question 1 1 select ‘todays date is ‘ getdate a todays date is 060120 09000000 b todays date is 20200601 9am c todays date",
+            "url": "https://www.coursehero.com/file/111046790/QUESTION-1docx/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is apr 10 1985 janes appointment will be 3 days later what is the date one week ago from today in mmddyyyy options a 05131985 b 04031985 c 03101986 d 04011985 e 04131985 f 04121986",
+            "content": "this page lists all days in 1985 with day and week numbers the year 1985 has 365 days « day numbers for 1984 day numbers for 1986 »",
+            "url": "https://www.epochconverter.com/days/1985",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "may 6 1992 is like yesterday to jane but that is actually ten years ago what is the date yesterday in mmddyyyy options a 05262002 b 05052001 c 05051902 d 05052084 e 05012002 f 05052002",
+            "content": "answer 1 of 6 in the us we write 06052024 for june 5th if you write 05062024 people will think you mean may 6th cleary this wonx27t matter with dates after the 13th but even then people will be tripping over it which is not optimal you can and people do argue that ddmm makes more se",
+            "url": "https://www.quora.com/Is-it-acceptable-to-write-the-date-as-mm-dd-yyyy-or-dd-mm-yyyy-in-America-If-not-what-is-the-correct-format-and-why",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the current local time is 302 pm of 542004 what is the date one week ago from today in mmddyyyy options a 04272004 b 05182004 c 04282004 d 05272004 e 04272003 f 04242004",
+            "content": "the duration calculator calculates the number of days months and years between two dates",
+            "url": "https://www.timeanddate.com/date/duration.html?ti=on",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is 35 and it is janes second time in the year 1973 to see a meteor shower what is the date yesterday in mmddyyyy options a 04051973 b 03041973 c 01021973 d 03051973 e 03042007 f 03051983",
+            "content": "a meteor shower is a celestial event in which a number of meteors are observed to radiate or originate from one point in the night sky called radiant these meteors are caused by streams of cosmic debris called meteoroids entering earthx27s atmosphere at extremely high speeds on parallel",
+            "url": "https://www.amsmeteors.org/meteor-showers/meteor-shower-calendar/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "yesterday was 12311929 today could not be 12321929 because december has only 31 days what is the date one week ago from today in mmddyyyy options a 12251929 b 09201929 c 12161929 d 12281929 e 01221930 f 12252006",
+            "content": "docdb version 886 contact root execution time 0 wallclock secs 012 usr 002 sys 014 cpu",
+            "url": "https://jleic-docdb.jlab.org/cgi-bin/public/ShowCalendar?year=1929&month=12",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the concert was scheduled to be on 06011943 but was delayed by one day to today what is the date yesterday in mmddyyyy options a 05271943 b 06041943 c 06012005 d 03201943 e 05241943 f 06011943",
+            "content": "operation tidal wave began as a group of 177 american b24 liberator bombers with 1726 total crew departed from libya to make the first bombing of the oil refineries at ploieşti romania the major supplier of fuel to germany the mission temporarily halted oil production but 532 airmen",
+            "url": "https://en.wikipedia.org/wiki/August_1943",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "today 831997 is a day that we will never forget what is the date one week ago from today in mmddyyyy options a 03271998 b 09021997 c 07271997 d 06291997 e 07271973 f 12271997",
+            "content": "q ramx27s date of birth is 18012007 in ddmmyyyy shyamx27s date of birth is 08182007 in mmddyyyy what is the approximate age difference between ram and shyam q donax27s date of birth is 27012003 in ddmmyyyy samx27s date of birth is 08272003 in mmddyyyy",
+            "url": "https://byjus.com/question-answer/8-june-1997-in-mm-dd-yyyy-format-is-06-08-1997/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "todays meeting is rescheduled to 11 am tomorrow 10161924 what is the date today in mmddyyyy options a 10151924 b 10151835 c 10141924 d 10291924 e 09171924",
+            "content": "what is the correct way to express the following the original meeting time was 9 am and it was later rescheduled to 16 pm is the following expression correct if not what would it be the",
+            "url": "https://ell.stackexchange.com/questions/119624/is-the-meeting-was-re-scheduled-for-16-to-17pm-correct",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is 35 and it is janes second time in the year 1973 to see a meteor shower what is the date 10 days ago in mmddyyyy options a 02231973 b 01021973 c 02241973 d 03081983 e 04051973 f 03021973",
+            "content": "a meteor shower is a celestial event in which a number of meteors are observed to radiate or originate from one point in the night sky called radiant these meteors are caused by streams of cosmic debris called meteoroids entering earthx27s atmosphere at extremely high speeds on parallel",
+            "url": "https://www.amsmeteors.org/meteor-showers/meteor-shower-calendar/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the deadline is jun 1 2021 which is 2 days away from now what is the date tomorrow in mmddyyyy options a 05311993 b 05172021 c 07072021 d 05312021 e 06012021 f 05302021",
+            "content": "i tried using date in my bash shell script however i want the date in yyyymmdd format how do i get this",
+            "url": "https://stackoverflow.com/questions/1401482/yyyy-mm-dd-format-date-in-shell-script",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "jane and john married on jan 2 1958 it is their 5year anniversary today what is the date one week from today in mmddyyyy options a 01161961 b 01091961 c 01091963 d 03091960 e 07091960 f 02281961",
+            "content": "this is the latest accepted revision reviewed on 4 february 2025 wikimedia commons has media related to 1958 1958 mcmlviii was a common year starting on wednesday of the gregorian calendar the 1958th year of the common era ce and anno domini ad designations the 958th year of the",
+            "url": "https://en.wikipedia.org/wiki/1958",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is 35 and it is janes second time in the year 1973 to see a meteor shower what is the date today in mmddyyyy options a 04051973 b 03021973 c 01222007 d 01021973 e 03051973 f 03081983",
+            "content": "is there a meteor shower tonight and when is the next meteor shower use our 2025 guide to find the best time to see shooting stars from your location",
+            "url": "https://www.timeanddate.com/astronomy/meteor-shower/list.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is sep 9 1909 what is the date a month ago in mmddyyyy options a 08091909 b 08101909 c 05091910 d 08081909 e 08091820 f 08191909",
+            "content": "find out exactly how many days hours minutes amp seconds since 1909 or any other year in history",
+            "url": "https://howlongagogo.com/date/1909",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane and john married on jan 2 1958 today is their golden wedding anniversary what is the date today in mmddyyyy options a 01302008 b 01022085 c 01022008 d 12042007 e 01112008 f 08022008",
+            "content": "the golden wedding anniversary honors 50 years together as a married couple here with the help of an expert we break down the significance of this occasion as well as offer unique gift ideas and ways to celebrate click here for more",
+            "url": "https://www.brides.com/golden-wedding-anniversary-7970912",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane was born on the last day of feburary in 2001 today is her 16yearold birthday what is the date 24 hours later in mmddyyyy options a 05042017 b 03011919 c 03012017 d 03012005 e 02152017 f 06022017",
+            "content": "the age calculator finds age in years months days and minutes given a date of birth calculate age someonex27s age at death or time between dob and any date",
+            "url": "https://www.calculatorsoup.com/calculators/time/age-calculator.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is sep 9 1909 what is the date tomorrow in mmddyyyy options a 12101908 b 12141909 c 09091909 d 07031909 e 09101909 f 09111909",
+            "content": "communities for your favorite technologies explore all collectives ask questions find answers and collaborate at work with stack overflow for teams",
+            "url": "https://stackoverflow.com/questions/23593052/format-javascript-date-as-yyyy-mm-dd",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "jane booked a flight for tomorrow jul 29 2002 what is the date one week ago from today in mmddyyyy options a 08182002 b 10212002 c 07202002 d 10172002 e 07212002 f 11212001",
+            "content": "date format is a tool which helps to get various date formats",
+            "url": "https://www.tooloogle.com/tools/date-format/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "jane booked a flight for tomorrow jul 29 2002 what is the date one week from today in mmddyyyy options a 08032002 b 10222002 c 06032002 d 08042002 e 08041930 f 07042003",
+            "content": "communities for your favorite technologies explore all collectives ask questions find answers and collaborate at work with stack overflow for teams",
+            "url": "https://stackoverflow.com/questions/15491894/regex-to-validate-date-formats-dd-mm-yyyy-dd-mm-yyyy-dd-mm-yyyy-dd-mmm-yyyy",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "jane is celebrating the last day of jan 2012 what is the date one week from today in mmddyyyy options a 03162012 b 02012012 c 01312012 d 02062012 e 02072014 f 02072012",
+            "content": "the tutorial explains the syntax and uses of the excel date function and provides formula examples for calculating dates",
+            "url": "https://www.ablebits.com/office-addins-blog/excel-date-formulas/comment-page-3/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "todays meeting is rescheduled to 11 am tomorrow 10161924 what is the date tomorrow in mmddyyyy options a 10161924 b 07161925 c 10171924 d 10151924 e 10161922 f 10162010",
+            "content": "what is the correct way to express the following the original meeting time was 9 am and it was later rescheduled to 16 pm is the following expression correct if not what would it be the",
+            "url": "https://ell.stackexchange.com/questions/119624/is-the-meeting-was-re-scheduled-for-16-to-17pm-correct",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "jane thought today is 3112002 but today is in fact mar 12 which is 1 day later what is the date today in mmddyyyy options a 05122001 b 03122002 c 01312002 d 03142002 e 04022002 f 03121908",
+            "content": "communities for your favorite technologies explore all collectives ask questions find answers and collaborate at work with stack overflow for teams",
+            "url": "https://stackoverflow.com/questions/15491894/regex-to-validate-date-formats-dd-mm-yyyy-dd-mm-yyyy-dd-mm-yyyy-dd-mmm-yyyy",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is 97 jane is watching nfl 2003 what is the date today in mmddyyyy options a 12052003 b 08082003 c 07072003 d 09072003 e 11202003 f 09062003",
+            "content": "communities for your favorite technologies explore all collectives ask questions find answers and collaborate at work with stack overflow for teams",
+            "url": "https://stackoverflow.com/questions/32490629/getting-todays-date-in-yyyy-mm-dd-in-python",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "it is 4191969 today what is the date yesterday in mmddyyyy options a 04181969 b 04181961 c 03211969 d 04191969 e 04271969",
+            "content": "1969 mcmlxix was a common year starting on wednesday of the gregorian calendar the 1969th year of the common era ce and anno domini ad designations the 969th year of the 2nd millennium the 69th year of the 20th century and the 10th and last year of the 1960s decade",
+            "url": "https://en.m.wikipedia.org/wiki/1969",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "yesterday jan 21 2011 jane ate 2 pizzas and 5 wings what is the date one year ago from today in mmddyyyy options a 01212010 b 01082010 c 10292009 d 02052010 e 01232010 f 01222010",
+            "content": "communities for your favorite technologies explore all collectives ask questions find answers and collaborate at work with stack overflow for teams",
+            "url": "https://stackoverflow.com/questions/15491894/regex-to-validate-date-formats-dd-mm-yyyy-dd-mm-yyyy-dd-mm-yyyy-dd-mmm-yyyy",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane and john married on jan 2 1958 today is their golden wedding anniversary what is the date 10 days ago in mmddyyyy options a 03292008 b 12172007 c 08232007 d 12222007 e 12232007",
+            "content": "a wedding anniversary is the anniversary of the date that a wedding took place couples often mark the occasion by celebrating their relationship either privately or with a larger party special celebrations and gifts are often given for particular anniversary milestones eg 10 15 20",
+            "url": "https://en.wikipedia.org/wiki/Wedding_anniversary",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is 35 and it is janes second time in the year 1973 to see a meteor shower what is the date one week ago from today in mmddyyyy options a 03051972 b 01021973 c 04051973 d 03081983 e 02261973 f 03021973",
+            "content": "a meteor shower is a celestial event in which a number of meteors are observed to radiate or originate from one point in the night sky called radiant these meteors are caused by streams of cosmic debris called meteoroids entering earthx27s atmosphere at extremely high speeds on parallel",
+            "url": "https://www.amsmeteors.org/meteor-showers/meteor-shower-calendar/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the deadline is jun 1 2021 which is 2 days away from now what is the date a month ago in mmddyyyy options a 05092021 b 05012021 c 08032021 d 02192021 e 04302021 f 07062021",
+            "content": "a few easy ways for calculate days since or until a certain date in excel see how to find a date that is 90 days from date or 30 days after date and how to count days from date and before date",
+            "url": "https://www.ablebits.com/office-addins-blog/days-since-until-date/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is the last day of the first quarter of 2008 what is the date 24 hours later in mmddyyyy options a 04012008 b 01172008 c 03312008 d 04012007 e 04012063 f 03222008",
+            "content": "format sql date examples using sql format function to format dates time and numbers in sql server with valuable code",
+            "url": "https://www.mssqltips.com/sqlservertip/2655/format-sql-server-dates-with-format-function/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane thinks today is 6182019 but john thinks today is 6192019 jane is correct what is the date a month ago in mmddyyyy options a 05182019 b 03312019 c 03182019 d 05102019 e 05181989 f 05172019",
+            "content": "answer 1 of 6 in the us we write 06052024 for june 5th if you write 05062024 people will think you mean may 6th cleary this wonx27t matter with dates after the 13th but even then people will be tripping over it which is not optimal you can and people do argue that ddmm makes more se",
+            "url": "https://www.quora.com/Is-it-acceptable-to-write-the-date-as-mm-dd-yyyy-or-dd-mm-yyyy-in-America-If-not-what-is-the-correct-format-and-why",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the deadline is jun 1 2021 which is 2 days away from now what is the date one week ago from today in mmddyyyy options a 05232020 b 04132021 c 05242021 d 05232054 e 05231940 f 05232021",
+            "content": "this free date calculator computes the difference between two dates it can also add to or subtract from a date both can deal with business days and holidays",
+            "url": "https://www.calculator.net/date-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is 97 jane is watching nfl 2003 what is the date one year ago from today in mmddyyyy options a 12072002 b 08242002 c 09072002 d 09071918 e 09082002 f 09282002",
+            "content": "date format is a tool which helps to get various date formats",
+            "url": "https://www.tooloogle.com/tools/date-format/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "jane visits the bookstore on the 16th of each month starting from the october of 2009 it is her 5th visit to the bookstore today what is the date one week from today in mmddyyyy options a 02222010 b 02232010 c 03012010 d 01262010 e 02192010 f 02242010",
+            "content": "academiaedu no longer supports internet explorer to browse academiaedu and the wider internet faster and more securely please take a few seconds to upgrade your browser",
+            "url": "https://www.academia.edu/36446623/teachers_book",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "yesterday was 12311929 today could not be 12321929 because december has only 31 days what is the date 10 days ago in mmddyyyy options a 12221929 b 10311929 c 11191929 d 12221973 e 09221929",
+            "content": "find out how long has it been since december 31st 1929 how much time since 12311929",
+            "url": "https://dateandage.com/date/how-long-december-31-1929",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "yesterday jan 21 2011 jane ate 2 pizzas and 5 wings what is the date yesterday in mmddyyyy options a 01212070 b 01202011 c 01262011 d 01282011 e 01212011 f 06212011",
+            "content": "communities for your favorite technologies explore all collectives ask questions find answers and collaborate at work with stack overflow for teams",
+            "url": "https://stackoverflow.com/questions/15491894/regex-to-validate-date-formats-dd-mm-yyyy-dd-mm-yyyy-dd-mm-yyyy-dd-mmm-yyyy",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "today is the second day of the third month of 1966 what is the date tomorrow in mmddyyyy options a 03031966 b 03241966 c 03041966 d 02281966 e 03021966",
+            "content": "discover what the world looked like on friday june 03 1966 on takemebackto which news were making the headlines which were the top hits and the most popular movies",
+            "url": "https://takemeback.to/03-June-1966",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on may 9th 2017 jane bought 40 eggs she ate one per day today she ran out of eggs what is the date 10 days ago in mmddyyyy options a 06081933 b 06062017 c 05152017 d 06142017 e 06082017 f 06222017",
+            "content": "curious what date it was 5 or more years ago from now use our years ago calculator to figure out the date a specified number of years ago",
+            "url": "https://www.inchcalculator.com/years-ago-calculator/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "on may 9th 2017 jane bought 40 eggs she ate one per day today she ran out of eggs what is the date one year ago from today in mmddyyyy options a 06182030 b 09182016 c 06182016 d 07182015 e 06222016 f 06252016",
+            "content": "we cannot provide a description for this page right now",
+            "url": "https://cdnsm5-ss5.sharpschool.com/UserFiles/Servers/Server_3013453/File/13-2wordprob.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane and john married on jan 2 1958 it is their 5year anniversary today what is the date a month ago in mmddyyyy options a 12022000 b 12022055 c 12011960 d 12021960 e 05021961 f 11181960",
+            "content": "this page guides the presentation of numbers dates times measurements currencies coordinates and similar items in articles the aim is to promote clarity cohesion and consistency and to make the encyclopedia easier and more intuitive to use for numbers dates and similar items in",
+            "url": "https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Dates_and_numbers",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane and john married on jan 2 1958 today is their golden wedding anniversary what is the date a month ago in mmddyyyy options a 12022007 b 12032007 c 01022007 d 11182007 e 11042007 f 12021928",
+            "content": "if you want to know the name of all the wedding anniversaries here is a list of wedding anniversary names and gifts for each year",
+            "url": "https://www.caketoppers.co.uk/page/wedding-anniversary-names",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the first day of 2019 is a tuesday and today is the first monday of 2019 what is the date one year ago from today in mmddyyyy options a 01082018 b 01072018 c 01022018 d 01122018 e 05072017 f 10292017",
+            "content": "this weekday calculator can find the day of the week of any date it also gives out a few fun facts as well as the calendar of the month",
+            "url": "https://www.calculator.net/day-of-the-week-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "jane quited her job on mar 20 2020 176 days have passed since then what is the date one week ago from today in mmddyyyy options a 02052021 b 09052020 c 08152020 d 09062020 e 09042020",
+            "content": "communities for your favorite technologies explore all collectives ask questions find answers and collaborate at work with stack overflow for teams",
+            "url": "https://stackoverflow.com/questions/15491894/regex-to-validate-date-formats-dd-mm-yyyy-dd-mm-yyyy-dd-mm-yyyy-dd-mmm-yyyy",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is the last day of the first quarter of 2008 what is the date one week from today in mmddyyyy options a 04152008 b 10072008 c 09072008 d 03242008 e 04072008 f 04062008",
+            "content": "sqlite supports seven scalar date and time functions as follows the first six date and time functions take an optional timevalue as an argument followed by zero or more modifiers the strftime function also takes a format string as its first argument",
+            "url": "https://www.sqlite.org/lang_datefunc.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane and john married on jan 2 1958 it is their 5year anniversary today what is the date yesterday in mmddyyyy options a 01012003 b 11011960 c 02011961 d 01011958 e 01011961 f 04091961",
+            "content": "determining time between two events in one step or determining birthdate from deathdate and age stephen p morse san francisco © stephen p morse 2007",
+            "url": "https://stevemorse.org/birthday/elapsed.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane booked a flight for tomorrow jul 29 2002 what is the date today in mmddyyyy options a 10092002 b 08182002 c 07162002 d 07282002 e 11282002 f 09112002",
+            "content": "for example the roman catholic february 16th through the 28th of 1923 13 days having to take into account the leap years of 1700 1800 and 1900 this has been tested against javax27s calendar implementation from the year 0001 until the year 9999 with the only discrepancy being the abovementioned 10 days in 1582 the yyyymmdd regex incorrectly matches 010203050607091011131415000229",
+            "url": "https://stackoverflow.com/questions/15491894/regex-to-validate-date-formats-dd-mm-yyyy-dd-mm-yyyy-dd-mm-yyyy-dd-mmm-yyyy",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is 97 jane is watching nfl 2003 what is the date 24 hours later in mmddyyyy options a 09082003 b 09102003 c 09081917 d 09072003 e 08292003",
+            "content": "communities for your favorite technologies explore all collectives ask questions find answers and collaborate at work with stack overflow for teams",
+            "url": "https://stackoverflow.com/questions/32490629/getting-todays-date-in-yyyy-mm-dd-in-python",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "yesterday jan 21 2011 jane ate 2 pizzas and 5 wings what is the date tomorrow in mmddyyyy options a 02132011 b 01222011 c 01242011 d 01232011 e 12312010 f 12262010",
+            "content": "ix27m trying to write a regular expression that validates a date the regex needs to match the following mdyyyy mmddyyyy single digit months can start with a leading zero eg 03122008 single",
+            "url": "https://stackoverflow.com/questions/51224/regular-expression-to-match-valid-dates",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "tomorrow is 11122019 what is the date today in mmddyyyy options a 11122019 b 11112042 c 11112020 d 11012019 e 11112019 f 11252019",
+            "content": "what is todayx27s date find out the current day of the week the date of today and local time the correct way of writing todayx27s date in numbers",
+            "url": "https://today-date.com/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "jane is celebrating the last day of jan 2012 what is the date one week ago from today in mmddyyyy options a 02062012 b 08242011 c 01222012 d 01242012 e 01241923 f 01241947",
+            "content": "master the art of converting text date formats in excel follow our guide to effortlessly convert text dates for better data analysis",
+            "url": "https://www.displayr.com/how-to-convert-text-dates-in-excel/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane is celebrating the last day of jan 2012 what is the date one year ago from today in mmddyyyy options a 10312011 b 01312011 c 06302011 d 02012011 e 02082011 f 04202011",
+            "content": "master the art of converting text date formats in excel follow our guide to effortlessly convert text dates for better data analysis",
+            "url": "https://www.displayr.com/how-to-convert-text-dates-in-excel/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane thinks today is 6182019 but john thinks today is 6192019 jane is correct what is the date 10 days ago in mmddyyyy options a 07082019 b 06092019 c 06082021 d 06012019 e 06072019 f 06082019",
+            "content": "answer 1 of 6 in the us we write 06052024 for june 5th if you write 05062024 people will think you mean may 6th cleary this wonx27t matter with dates after the 13th but even then people will be tripping over it which is not optimal you can and people do argue that ddmm makes more se",
+            "url": "https://www.quora.com/Is-it-acceptable-to-write-the-date-as-mm-dd-yyyy-or-dd-mm-yyyy-in-America-If-not-what-is-the-correct-format-and-why",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "yesterday was april 30 2021 what is the date one week ago from today in mmddyyyy options a 05152021 b 04232021 c 04152021 d 06052021 e 04192021 f 04242021",
+            "content": "date format is a tool which helps to get various date formats",
+            "url": "https://www.tooloogle.com/tools/date-format/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane was born on the last day of feburary in 2001 today is her 16yearold birthday what is the date one week ago from today in mmddyyyy options a 03032017 b 04272017 c 03212017 d 02211961 e 02212017",
+            "content": "the age calculator finds age in years months days and minutes given a date of birth calculate age someonex27s age at death or time between dob and any date",
+            "url": "https://www.calculatorsoup.com/calculators/time/age-calculator.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane and john married on jan 2 1958 it is their 5year anniversary today what is the date one year ago from today in mmddyyyy options a 06021960 b 01021960 c 01021967 d 12191959 e 12261959 f 01022016",
+            "content": "this free age calculator computes age in terms of years months weeks days hours minutes and seconds given a date of birth",
+            "url": "https://www.calculator.net/age-calculator.html?today=10/17/1958",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane thought today is 3112002 but today is in fact mar 12 which is 1 day later what is the date 10 days ago in mmddyyyy options a 03162002 b 02232002 c 03022001 d 03022003 e 11252001 f 03022002",
+            "content": "discussion forum for q no 1 of the aptitude questions and answers section on quotcalendar general questionsquot discussion page 1 of 26 sorted by newest",
+            "url": "https://www.indiabix.com/aptitude/calendar/discussion-638",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane was born on the last day of feburary in 2001 today is her 16yearold birthday what is the date 10 days ago in mmddyyyy options a 02282017 b 02182017 c 03182017 d 02132017 e 02252017 f 03042017",
+            "content": "the age calculator finds age in years months days and minutes given a date of birth calculate age someonex27s age at death or time between dob and any date",
+            "url": "https://www.calculatorsoup.com/calculators/time/age-calculator.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane is celebrating the last day of jan 2012 what is the date today in mmddyyyy options a 01312012 b 01292012 c 02102012 d 03222012 e 01302012 f 01212012",
+            "content": "master the art of converting text date formats in excel follow our guide to effortlessly convert text dates for better data analysis",
+            "url": "https://www.displayr.com/how-to-convert-text-dates-in-excel/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is christmas eve of 1937 what is the date yesterday in mmddyyyy options a 09231938 b 12231896 c 12241937 d 01061938 e 12311937 f 12231937",
+            "content": "the battle of nanjing began japan recognized the franco regime otto meissner entered the hitler cabinet as minister of state and head of the chancellory born chuck low actor in new york city d 2017 vaira vīķefreiberga 6th president of latvia in riga latvia ernst rüdiger",
+            "url": "https://en.wikipedia.org/wiki/December_1937",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is the last day of the first quarter of 2008 what is the date tomorrow in mmddyyyy options a 04092008 b 09012008 c 03142008 d 03312008 e 04012058 f 04012008",
+            "content": "communities for your favorite technologies explore all collectives ask questions find answers and collaborate at work with stack overflow for teams",
+            "url": "https://stackoverflow.com/questions/23593052/format-javascript-date-as-yyyy-mm-dd",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane visits the bookstore on the 16th of each month starting from the october of 2009 it is her 5th visit to the bookstore today what is the date today in mmddyyyy options a 02062010 b 12212009 c 02161933 d 02162010 e 11302009 f 05242010",
+            "content": "certain dates when written down in figures have a very interesting appearance on this page a list of such special date it is important to note that throughout the world different formats are used to write down dates some common formats are of course there is also a choice from the",
+            "url": "https://www.iwriteiam.nl/Dates.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane booked a flight for tomorrow jul 29 2002 what is the date a month ago in mmddyyyy options a 06272002 b 06212002 c 10282001 d 10282002 e 06282002 f 08252002",
+            "content": "date format is a tool which helps to get various date formats",
+            "url": "https://www.tooloogle.com/tools/date-format/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is apr 10 1985 janes appointment will be 3 days later what is the date 24 hours later in mmddyyyy options a 04111985 b 04131985 c 04121987 d 04071975 e 04121986 f 04101985",
+            "content": "please note this original post has been updated and replaced by a new version of writing dates and times rule the following examples apply when using dates the meeting is scheduled for june 30 the meeting is scheduled for the 30th of june we have had tricks played on us on april 1 the 1st",
+            "url": "https://www.grammarbook.com/blog/numbers/writing-dates-and-times/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane thinks today is 6182019 but john thinks today is 6192019 john is correct what is the date 10 days ago in mmddyyyy options a 06082019 b 08092018 c 06092019 d 05192019 e 06092044 f 06152019",
+            "content": "answer 1 of 6 in the us we write 06052024 for june 5th if you write 05062024 people will think you mean may 6th cleary this wonx27t matter with dates after the 13th but even then people will be tripping over it which is not optimal you can and people do argue that ddmm makes more se",
+            "url": "https://www.quora.com/Is-it-acceptable-to-write-the-date-as-mm-dd-yyyy-or-dd-mm-yyyy-in-America-If-not-what-is-the-correct-format-and-why",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is the last day of the first quarter of 2008 what is the date 10 days ago in mmddyyyy options a 03212104 b 10212008 c 03222008 d 03212008 e 06242008 f 06042008",
+            "content": "see what todayx27s date is and what the current date is in numbers including mmddyyyy or ddmmyyyy see how to find todayx27s date in excel",
+            "url": "https://www.inchcalculator.com/what-is-todays-date/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane was born on the last day of feburary in 2000 today is her 16yearold birthday what is the date one year ago from today in mmddyyyy options a 02282015 b 03102015 c 03082015 d 04282015 e 02212015 f 03282015",
+            "content": "the age calculator finds age in years months days and minutes given a date of birth calculate age someonex27s age at death or time between dob and any date",
+            "url": "https://www.calculatorsoup.com/calculators/time/age-calculator.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is 35 and it is janes second time in the year 1973 to see a meteor shower what is the date one week from today in mmddyyyy options a 04051973 b 03021973 c 03051972 d 01021973 e 03081983 f 03121973",
+            "content": "find out when you can catch the best meteor showers this year with our 2025 meteor shower calendar",
+            "url": "https://www.space.com/39469-best-meteor-showers.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "todays meeting is rescheduled to 11 am tomorrow 10161924 what is the date one week ago from today in mmddyyyy options a 08081925 b 10082019 c 11061924 d 04081925 e 10081924 f 10071924",
+            "content": "what is the correct way to express the following the original meeting time was 9 am and it was later rescheduled to 16 pm is the following expression correct if not what would it be the",
+            "url": "https://ell.stackexchange.com/questions/119624/is-the-meeting-was-re-scheduled-for-16-to-17pm-correct",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "today is christmas eve of 1937 what is the date tomorrow in mmddyyyy options a 12111937 b 12251937 c 01041938 d 12041937 e 12252006 f 07251937",
+            "content": "the battle of nanjing began japan recognized the franco regime otto meissner entered the hitler cabinet as minister of state and head of the chancellory born chuck low actor in new york city d 2017 vaira vīķefreiberga 6th president of latvia in riga latvia ernst rüdiger",
+            "url": "https://en.wikipedia.org/wiki/December_1937",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "on may 9th 2017 jane bought 40 eggs she ate one per day today she ran out of eggs what is the date one week from today in mmddyyyy options a 06251964 b 05252018 c 06242017 d 06252063 e 06252017 f 07252017",
+            "content": "eggs contain many nutrients including cholesterol this article explores how many eggs you can eat while maintaining healthy blood cholesterol levels",
+            "url": "https://www.healthline.com/nutrition/how-many-eggs-should-you-eat",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "jane is celebrating the last day of jan 2012 what is the date 24 hours later in mmddyyyy options a 01312012 b 02012016 c 02012079 d 11102011 e 01042012 f 02012012",
+            "content": "master the art of converting text date formats in excel follow our guide to effortlessly convert text dates for better data analysis",
+            "url": "https://www.displayr.com/how-to-convert-text-dates-in-excel/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "it was sept 1st 2021 a week ago what is the date a month ago in mmddyyyy options a 09052021 b 08082021 c 09252021 d 08092021 e 10042021 f 07252021",
+            "content": "this free date calculator computes the difference between two dates it can also add to or subtract from a date both can deal with business days and holidays",
+            "url": "https://www.calculator.net/date-calculator.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is sep 9 1909 what is the date today in mmddyyyy options a 09091909 b 09301909 c 11191909 d 09091939 e 09091886 f 12111909",
+            "content": "communities for your favorite technologies explore all collectives ask questions find answers and collaborate at work with stack overflow for teams",
+            "url": "https://stackoverflow.com/questions/23593052/format-javascript-date-as-yyyy-mm-dd",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today 831997 is a day that we will never forget what is the date 10 days ago in mmddyyyy options a 08211997 b 10241997 c 07231997 d 07241997 e 08141997 f 06111997",
+            "content": "q ramx27s date of birth is 18012007 in ddmmyyyy shyamx27s date of birth is 08182007 in mmddyyyy what is the approximate age difference between ram and shyam q donax27s date of birth is 27012003 in ddmmyyyy samx27s date of birth is 08272003 in mmddyyyy",
+            "url": "https://byjus.com/question-answer/8-june-1997-in-mm-dd-yyyy-format-is-06-08-1997/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane was born on the last day of feburary in 2001 today is her 16yearold birthday what is the date one week from today in mmddyyyy options a 03082017 b 03072058 c 03072017 d 03072018 e 03071992 f 03152017",
+            "content": "the age calculator finds age in years months days and minutes given a date of birth calculate age someonex27s age at death or time between dob and any date",
+            "url": "https://www.calculatorsoup.com/calculators/time/age-calculator.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane and john married on jan 2 1958 it is their 5year anniversary today what is the date one week ago from today in mmddyyyy options a 01091961 b 01021961 c 10011960 d 12261960 e 07261960 f 12261936",
+            "content": "calendar 19502060 this calendar shows the day of the week for each date for the years from 1950 to 2060 find the table for the date you are interested in then look for a specific year and the column heading will tell you the day of the week for that date during that year",
+            "url": "https://spu.edu/ddowning/percal.htm",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "tomorrow is 11122019 what is the date 10 days ago in mmddyyyy options a 11012048 b 11012019 c 11022019 d 10272019 e 10232019",
+            "content": "looking for 2020 data click here the following table shows all trading days in 2019 and the associated normalized day of the month read more about normalizing the number of days per month to always equal 21 in our faqs two notes about this table a single date may have two entries if a",
+            "url": "https://allocatesmartly.com/date-to-day-of-month-conversion-2019/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "jane scheduled 3 apointments with 5 poeple for tomorrow tue 791972 what is the date 10 days ago in mmddyyyy options a 07031972 b 10281971 c 06281972 d 06141972 e 09281972 f 06231972",
+            "content": "the first reports were made about the production of a recombinant dna molecule marking the birth of modern molecular biology methodology malaysia singapore airlines broke up into two companies singapore airlines sia with 10 aircraft and malaysia airlines",
+            "url": "https://en.wikipedia.org/wiki/October_1972",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jane booked a flight for tomorrow jul 29 2002 what is the date yesterday in mmddyyyy options a 07272002 b 07282002 c 12272001 d 07271921 e 12272002",
+            "content": "communities for your favorite technologies explore all collectives ask questions find answers and collaborate at work with stack overflow for teams",
+            "url": "https://stackoverflow.com/questions/15491894/regex-to-validate-date-formats-dd-mm-yyyy-dd-mm-yyyy-dd-mm-yyyy-dd-mmm-yyyy",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "today is apr 10 1985 janes appointment will be 3 days later what is the date yesterday in mmddyyyy options a 03101986 b 04101985 c 04091985 d 04071985 e 04111986 f 05131985",
+            "content": "do you know exactly how old you are in days minutes what about seconds calculate your real age by date of birth on ancestry with this handy age calculator",
+            "url": "https://www.ancestry.com/c/age-calculator",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "jane quited her job on mar 20 2020 176 days have passed since then what is the date a month ago in mmddyyyy options a 08122020 b 07292020 c 09062020 d 08202020 e 08122045 f 08122093",
+            "content": "day of the year is a number between 1 and 365 in 2025 january 1 is day 1 after today 294 days are remaining in this year this page uses the iso8601 ordinal date format",
+            "url": "https://www.epochconverter.com/daynumbers",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the uk people usually put the day before the month when formatting the date therefore today is 02011987 to them what is the date tomorrow in mmddyyyy options a 12061986 b 01031987 c 01041987 d 01091987 e 01032035 f 02031986",
+            "content": "the legal and cultural expectations for date and time representation vary between countries and it is important to be aware of the forms of allnumeric calendar dates used in a particular country to know what date is intended writers have traditionally written abbreviated dates according",
+            "url": "https://en.wikipedia.org/wiki/List_of_date_formats_by_country",
+            "engine": "braveAPI"
+        }
+    ]
+}

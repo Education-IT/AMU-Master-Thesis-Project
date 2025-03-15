@@ -1,0 +1,2577 @@
+{
+    "task": "mmlu_clinical_knowledge",
+    "dataset": "web_access_clinical_knowledge_final",
+    "questions": 265,
+    "noWebContextCount": 2,
+    "contaminated_queries": 112,
+    "contaminated_urls": 255,
+    "valid_urls": 263,
+    "avg_contaminated_before_valid": 1.9695817490494296,
+    "contaminated_data_ratio": 0.4922779922779923,
+    "most_contaminated_urls": {
+        "global.oup.com": 72
+    },
+    "noWebContext": [
+        "Which of the following is true regarding reflexes?",
+        "Which of the following statements is false?"
+    ],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "960 mg of the antibacterial drug cotrimoxazole is prescribed every 12 hours what is the daily dose in grams choose one answer from the following",
+            "content": "question 2 960 mg of the antibacterial drug cotrimoxazole is prescribed every 12 hours what is the daily dose in grams choose one answer from the following",
+            "url": "https://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch05/02calculations/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if a blood unit has been out of refrigeration for longer than the accepted time limit you should",
+            "content": "if a blood unit has been out of refrigeration for longer than the accepted time limit you should a transfuse it as soon as possible and annotate the",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch06/08transfusions/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the purpose of the cuff on a tracheostomy tube",
+            "content": "the purpose of the inflated tracheostomy tube cuff is to direct airflow through the tracheostomy tube this is typically during mechanical ventilation when the",
+            "url": "https://www.passy-muir.com/journal-2-1-trach-tube-cuff/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what is the purpose of the cuff on a tracheostomy tube",
+            "content": "regardless of the type of cuffed tracheostomy tube the purpose of the cuff is to maintain the air delivered from the mechanical ventilator to the lungs it may",
+            "url": "https://tracheostomyeducation.com/cuffed-versus-cuffless-tracheostomy-tubes/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the optimum position for performing cpr is to position the patient",
+            "content": "the optimum position for performing cpr is to position the patient a in a semirecumbent posture b tilted to the left to keep the heart perfused c",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch06/09cpr/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the chain of survival has four links put the following list in the correct order 1 early defibrillation 2 early cpr 3 recognition and call for help early 4 postresuscitation care",
+            "content": "put the following list in the correct order 1 early defibrillation 2 early cpr 3 recognition and call for help early 4 postresuscitation care",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch06/09cpr/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following is true",
+            "content": "which of is usually followed by a plural noun but the following is never pluralized in form the following remains the same for both singular and plural",
+            "url": "https://forum.wordreference.com/threads/which-of-the-following-followings-is-true.3130263/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "name the bones of the middle finger in the correct order from the hand",
+            "content": "question 1 name the bones of the middle finger in the correct order from the hand a proximal phalynx middle phalynx distal phalynx b distal phalynx",
+            "url": "https://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch11/04sling/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "one of the most common reasons for stoma formation is",
+            "content": "one of the most common reasons for stoma formation is a irritable bowel syndrome b haemorrhoids c carcinoma d bladder instability question 3 where",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch10/06stoma/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following promotes glucose and amino acid uptake by muscle",
+            "content": "which of the following promotes glucose and amino acid uptake by muscle a adrenaline b insulin c glucagon d cortisol answer option b",
+            "url": "https://www.examveda.com/which-of-the-following-promotes-glucose-and-amino-acid-uptake-by-muscle-195622/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when teaching a patient inhaler technique how will you ensure that a large proportion of the drug reaches the lower airways",
+            "content": "when teaching a patient inhaler technique how will you ensure that a large proportion of the drug reaches the lower airways a ask them to take lots of",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch05/05inhalers/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which is the most reliable way to assess for clubbing",
+            "content": "which is the most reliable way to assess for clubbing a inspect the nailbed angle from above b assessing the fluctuancy of the nailbed c schamroths",
+            "url": "http://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch05/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is true of hepatomegaly",
+            "content": "which of the following is true of hepatomegaly a emphysema is a cause b the liver enlarges downwards from the left hypochondrium c the presence of",
+            "url": "http://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch06/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what size of catheter bag may be used at night",
+            "content": "what size of catheter bag may be used at night a 350ml b 500ml c 1l d 2l question 4 what is the most likely cause of acute urinary retention of urine",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch09/01insertion/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true about possible rectal findings",
+            "content": "which of the following is true about possible rectal findings a the finding of a palpable median groove in the prostate is an adverse finding",
+            "url": "https://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch07/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if a catheter resists all attempts to unblock it and you are unable to remove it what should you do",
+            "content": "question 5 if a catheter resists all attempts to unblock it and you are unable to remove it what should you do a try harder to remove it b try harder to",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch09/03lavage/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is the same strength as adrenaline 1 in 1000 choose one answer from the following",
+            "content": "which of the following is the same strength as adrenaline 1 in 1000 choose one answer from the following a 1 mgml",
+            "url": "https://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch05/02calculations/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of these is not necessary when examining the jugular venous pulse",
+            "content": "which of these is not necessary when examining the jugular venous pulse a patients neck muscles should be relaxed b timing the pulsation with the radial",
+            "url": "http://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch04/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is true regarding reflexes",
+            "content": "which of the following is true regarding reflexes a a positive babinski reflex is the same as a normal flexor response in the assessment of the plantar reflex",
+            "url": "http://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch10/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which one of the following statements is true with regard to intravenous drug administration",
+            "content": "question 1 which one of the following statements is true with regard to intravenous drug administration a iv administration of a drug will delay its action",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch05/09intravenous/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in general the higher the intensity of exercise the greater the proportional contribution of",
+            "content": "in general the higher the intensity of exercise the greater the proportional contribution of a aerobic energy production",
+            "url": "https://www.examveda.com/in-general-the-higher-the-intensity-of-exercise-the-greater-the-proportional-contribution-of-195629/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true of hypothyroidism",
+            "content": "thyrotoxicosis than a smaller goitre question 5 which of the following is true of hypothyroidism a weight loss b pretibial myxoedema c a raised tsh",
+            "url": "http://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch12/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "approximately how many kj of energy are expended if an athletes steadyrate oxygen uptake averages 30 lmin for 5 minutes of exercise",
+            "content": "54 approximately how many kj of energy are expended if an athletes steadyrate oxygen uptake averages 30 lmin for 5 minutes of exercise a 60 kj",
+            "url": "https://www.gkseries.com/mcq-on-biochemical-basis-of-sports-performance/short-questions-and-answers-on-biochemical-basis-of-sports-performance",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in what situation are closed pouches applied",
+            "content": "in what situation are closed pouches applied a the patient has a semiformed or liquid output b the patient has a colostomy c in the immediate post",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch10/06stoma/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true about the assessment of arm reflexes",
+            "content": "which of the following is true about the assessment of arm reflexes a the root value of the biceps reflex is c5 c6 b if no reflex is elicited when you",
+            "url": "http://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch08/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is an urgent reason for catheterizing a patient",
+            "content": "what is an urgent reason for catheterizing a patient a acute urinary retention b urinary tract infection c incontinence d because they asked",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch09/01insertion/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of these is most likely to cause deviation of the trachea",
+            "content": "which of these is most likely to cause deviation of the trachea a a left basal pneumonia b a small right pleural effusion c previous tuberculosis of the",
+            "url": "http://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch05/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of these combinations of clinical features is most suggestive of mixed mitral valve disease with a predominance of mitral regurgitation",
+            "content": "which of these combinations of clinical features is most suggestive of mixed mitral valve disease with a predominance of mitral regurgitation a displaced",
+            "url": "http://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch04/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true of calcium metabolism",
+            "content": "which of the following is true of calcium metabolism a calcitonin causes a rise in plasma calcium b primary hyperparathyroidism is usually asymptomatic c",
+            "url": "http://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch12/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the risk if water is used for bladder washout in secondary care",
+            "content": "question 7 what is the risk if water is used for bladder washout in secondary care a fluid may bypass when the washout is carried out b bladder washout",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch09/03lavage/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true of haematemesis",
+            "content": "which of the following is true of haematemesis a a low blood pressure 90mmhg systolic and a tachycardia 100min are worrying features b a pulse",
+            "url": "http://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch06/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the patients selfreport of pain is important because health care staff",
+            "content": "the patients selfreport of pain is important because health care staff a can overestimate the intensity of the patients pain b underestimate the",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch08/04pain/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "most of the free fatty acids are transported in the blood",
+            "content": "22 fatty acid transport after fatty acids are released into circulation they are transported in the blood bound to serum albumin a protein with high",
+            "url": "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/fatty-acid-transport",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true of the assessment of power in the arms",
+            "content": "which of the following is true of the assessment of power in the arms a grade 35 mrc scale represents movement of the arm only when",
+            "url": "https://www.medicaltalk.net/t/which-of-the-following-is-true-of-the-assessment-of-power-in-the-arms/24894",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which one of the following manoeuvres is not a central painful stimulus",
+            "content": "question 1 which one of the following manoeuvres is not a central painful stimulus a supraorbital ridge pressure b pressure on the little finger pulp",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch08/01conscious/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "blood clots are responsible for repeatedly blocking a catheter what should you do",
+            "content": "question 4 blood clots are responsible for repeatedly blocking a catheter what should you do a call for help",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch09/03lavage/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following is not a true statement",
+            "content": "which of the following is not a true statement a butterfly valves are used for modulating flow and can be throttled b globe valves can be straight flow or",
+            "url": "https://www.mcq.marinesite.info/2021/06/2043.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true about addisons disease",
+            "content": "which of the following is true about addisons disease a it is due to a deficiency of prolactin hormone b",
+            "url": "http://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch14/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "two of the following are evident pain at iv site erythema and swelling what stage on the phlebitis scale is this and what should you do",
+            "content": "two of the following are evident pain at iv site erythema and swelling what stage on the phlebitis scale is this and what should you do a stage 1",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch06/11intravenous/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "two of the following are evident pain at iv site erythema and swelling what stage on the phlebitis scale is this and what should you do",
+            "content": "two of the following are evident pain at iv site erythema swelling 2 early stage of phlebitis resite cannula all of the following signs are evident",
+            "url": "https://media.starship.org.nz/phlebitis-score/phlebitis_score1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a palpable left parasternal impulse suggests which abnormality",
+            "content": "question 2 a palpable left parasternal impulse suggests which abnormality a right ventricular hypertrophy",
+            "url": "http://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch04/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a palpable left parasternal impulse suggests which abnormality",
+            "content": "q a palpable left parasternal impulse suggests which abnormality comment abcd below with medicalquiz omnicuris doctors quiztime",
+            "url": "https://www.facebook.com/photo.php?fbid=703380456823869&id=148448188983768&set=a.170939550067965",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a palpable left parasternal impulse suggests which abnormality",
+            "content": "q a palpable left parasternal impulse suggests which abnormality comment abcd below with medicalquiz omnicuris doctors quiztime",
+            "url": "https://www.facebook.com/omnicuris/posts/q-a-palpable-left-parasternal-impulse-suggests-which-abnormalitycomment-abcd-bel/703380733490508/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when developing a plan of care relating to the management of a persons pain attention should be given to the following needs",
+            "content": "question 6 when developing a plan of care relating to the management of a persons pain attention should be given to the following needs",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch08/04pain/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the ph of water",
+            "content": "water has a ph of 7 which is at the exact center of the ph scale particles in the water can change the ph of the water and most water for use has a ph of",
+            "url": "https://www.medicalnewstoday.com/articles/327185",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why should careful consideration be given to providing people aged over 65 with information sources that are internet based",
+            "content": "why should careful consideration be given to providing people aged over 65 with information sources that are internet based a they may have difficulty",
+            "url": "https://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch03/03discharge/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following are indicative signs and symptoms of circulatory overload",
+            "content": "which of the following are indicative signs and symptoms of circulatory overload a hypothermia hypotension and bradycardia b hypotension oliguria",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch06/08transfusions/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is not an amino acid",
+            "content": "amino acid contains both amino group and carboxylic group benzidine is not a amino acid while glycine alanine and histidine are amino acid",
+            "url": "https://tardigrade.in/question/which-of-the-following-is-not-an-amino-acid-b4ajdefh",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true about rectal bleeding",
+            "content": "question 4 which of the following is true about rectal bleeding a a painful digital examination suggests an anal fissure",
+            "url": "https://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch07/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true in peripheral neuropathy",
+            "content": "which of the following is true in peripheral neuropathy a sensory loss is demonstrated in a stocking distribution b the tone is increased bilaterally in",
+            "url": "http://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch10/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is not an abnormal breathing pattern seen in head injury and altered conscious level",
+            "content": "which of the following is not an abnormal breathing pattern seen in head injury and altered conscious level a cheynestokes respiration b anaerobic",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch08/01conscious/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following tools is the first choice for cleaning the mouth",
+            "content": "which of the following tools is the first choice for cleaning the mouth a small soft toothbrush b gloved finger wrapped in gauze c forceps wrapped in",
+            "url": "https://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch04/04mouth/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true of headache",
+            "content": "question 1 which of the following is true of headache when associated with neck stiffness is always due to meningitis question 2 which of the following is",
+            "url": "http://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch11/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "dopamine is prescribed at a rate of 4 microgramskgmin for a 65 kg person how many milligrams will they receive in an hour",
+            "content": "dopamine is prescribed at a rate of 4 microgramskgmin for a 65 kg person how many milligrams will they receive in an hour a 156",
+            "url": "https://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch05/02calculations/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which potential complication of iv therapy is described thus leakage of vesicant irritant medication or fluid into surrounding tissues causing tissue damage",
+            "content": "vesicant irritant medication or fluid into surrounding tissues causing tissue damage a extravasation b phlebitis c inflammation d infiltration",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch05/09intravenous/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following releases most energy when completely oxidised in the body",
+            "content": "which of the following releases most energy when completely oxidised in the body a one gram of glucose b one gram of palmitic acid c one",
+            "url": "https://www.examveda.com/which-of-the-following-releases-most-energy-when-completely-oxidised-in-the-body-195633/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when recording peak flow results within how many litresminute should the three readings be",
+            "content": "when recording peak flow results within how many litresminute should the three readings be a 10 litres per minute of each other b 20 litres per minute of",
+            "url": "https://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch07/03pefr/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of these options is not recognized as a cause of chronic cough",
+            "content": "which of these options is not recognized as a cause of chronic cough a gastrooesophageal reflux disease b angiotensin converting enzyme ace inhibitors",
+            "url": "http://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch05/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the normal respiratory rate for an adult male is",
+            "content": "the normal respiratory rate for healthy adults is between 1220 breaths per minute at this breathing rate the carbon dioxide exits the lungs at the same rate",
+            "url": "https://www.medicalnewstoday.com/articles/324409",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the normal respiratory rate for an adult male is",
+            "content": "the normal respiratory rate of adults falls within the range of 12 to 20 breaths per minute for children a normal respiratory rate will depend on their age",
+            "url": "https://www.healthline.com/health/normal-respiratory-rate",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "under what circumstances would you use antibiotics prior to catheterization",
+            "content": "under what circumstances would you use antibiotics prior to catheterization a if the patient has had a catheter in situ for a week b if the patient does",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch09/01insertion/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a person is prescribed ropinirole 15 mg divided into three doses how many micrograms is each dose choose one answer from the following",
+            "content": "question 1 a person is prescribed ropinirole 15 mg divided into three doses how many micrograms is each dose choose one answer from the following a 5 b",
+            "url": "https://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch05/02calculations/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a person is prescribed ropinirole 15 mg divided into three doses how many micrograms is each dose choose one answer from the following",
+            "content": "a person is prescribed ropinirole 15 mg divided into three doses how many micrograms is each dose choose one answer from the following 5 50 05 500",
+            "url": "https://www.jobtestprep.co.uk/drug-calculations-test",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why are male patients advised to take their own electric razor to hospital",
+            "content": "question 1 why are male patients advised to take their own electric razor to hospital a for patient comfort b to make hospital as familiar as possible c",
+            "url": "https://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch04/02skin/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of these features suggest that a pulsation in the neck is arterial",
+            "content": "which of these features suggest that a pulsation in the neck is arterial a a waggling earlobe b positive for hepatojugular reflux c no variation with",
+            "url": "http://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch04/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the answers below best indicates the compatible blood types that can be given to a person with a blood group b rhesus negative",
+            "content": "which of the answers below best indicates the compatible blood types that can be given to a person with a blood group b rhesus negative a blood type ab",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch06/08transfusions/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what might make the nurse think a patient could not use an inhaler",
+            "content": "what might make the nurse think a patient could not use an inhaler a severe leg ulcers b previous recovery from",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch05/05inhalers/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following parameters are seen on typical neurological observation charts",
+            "content": "which of the following parameters are seen on typical neurological observation charts a urine output b temperature c central venous pressure d blood",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch08/01conscious/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the rate limiting enzyme of glycolysis is",
+            "content": "pkm2 a crucial ratelimiting enzyme of glycolysis is normally overexpressed in proliferating and tumor cells it regulates glycolysis and the warburg effect",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8651870/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the rate limiting enzyme of glycolysis is",
+            "content": "pkm2 a crucial ratelimiting enzyme of glycolysis is normally overexpressed in proliferating and tumor cells it regulates glycolysis and the warburg effect",
+            "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2021.779787/full",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a person weighs 62 kg their drug dose is 15 mgkg how many grams is their dose choose one answer from the following",
+            "content": "dose in grams choose one answer from the following a 0192 b 192 c 1920 d 096 question 3 a person weighs 62 kg their drug dose is 15 mgkg how",
+            "url": "https://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch05/02calculations/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a 67yearold man three hours posttransurethral resection of prostate with irrigation has a blocked catheter which solution should be used to complete bladder washout",
+            "content": "a 67yearold man three hours posttransurethral resection of prostate with irrigation has a blocked catheter which solution should be used to complete",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch09/03lavage/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "womens world record performances have improved rapidly in recent years mainly because",
+            "content": "womens world record performances have improved rapidly in recent years mainly because a women have evolved a greater muscle mass b women can now run",
+            "url": "https://www.gkseries.com/mcq-on-biochemical-basis-of-sports-performance/multiple-choice-questions-and-answers-on-biochemical-basis-of-sports-performance.php",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "womens world record performances have improved rapidly in recent years mainly because",
+            "content": "3 womens world record performances have improved rapidly in recent years mainly because a women have evolved a greater muscle mass b women",
+            "url": "https://www.docsity.com/en/docs/biochemistry-multiple-choice-questions-6/4157368/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true about an intention tremor",
+            "content": "which of the following is true about an intention tremor a it is worse at rest b it is caused by parkinsons disease c it is indicative of a cerebellar",
+            "url": "http://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch09/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the discharge checklist recommended by the department of health 2004 who should be involved in completing the form",
+            "content": "in the discharge checklist recommended by the department of health 2004 who should be involved in completing the form a the gp consultant and named",
+            "url": "https://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch03/03discharge/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true about haemorrhoids",
+            "content": "question 2 which of the following is true about haemorrhoids a bleeding haemorrhoids lead to melaena per rectum pr",
+            "url": "https://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch07/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true in spastic paraplegia",
+            "content": "which of the following is true in spastic paraplegia a multiple sclerosis can cause this neurological pattern b proprioceptive loss is a common feature c",
+            "url": "http://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch10/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true about jaundice",
+            "content": "which of the following is true about jaundice a pale stools and dark urine are characteristic of the jaundice of haemalytic anaemia b bilirubin is used",
+            "url": "http://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch06/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "complete the following a variation of serial peak flow readings over a two week period are considered diagnostic in",
+            "content": "complete the following a variation of serial peak flow readings over a two week period are considered diagnostic in a asthma b copd c",
+            "url": "https://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch07/03pefr/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true in ulna nerve palsy",
+            "content": "instructions question 1 which of the following is true about radial nerve palsy the radial nerve arises from the lateral cord of the brachial plexus",
+            "url": "http://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch09/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true regarding the complications of a large goitre",
+            "content": "which of the following is true regarding the complications of a large goitre a it causes stridor due to compression of the oesophagus b",
+            "url": "http://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch12/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a 1416 gauge needle is most likely to be used for",
+            "content": "a 1416 gauge needle is most likely to be used for a children b elderly patients c inserting in the back of the hand d trauma or burns patients",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch06/11intravenous/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a 1416 gauge needle is most likely to be used for",
+            "content": "needle enters it a 1416 gauge needle is most likely to be used for children elderly patients inserting in the back of the hand trauma or burns patient",
+            "url": "https://take.quiz-maker.com/QO9F7OG",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the heart has",
+            "content": "książka the heart has its reasons autorstwa houldsworth bronwyn dostępna w sklepie empikcom w cenie 10899 zł przeczytaj recenzję the heart has its",
+            "url": "https://www.empik.com/the-heart-has-its-reasons-houldsworth-bronwyn,p1179862837,ksiazka-p",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the cardiac cycle consists of the phases",
+            "content": "the cardiac cycle consists of a distinct relaxation and contraction phase which term is typically used to refer ventricular contraction while no blood is",
+            "url": "https://open.oregonstate.education/aandp/chapter/19-3-cardiac-cycle/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the cardiac cycle consists of the phases",
+            "content": "overview and definition of the cardiac cycle including phases of systole and diastole and wiggers diagram click now to learn more at kenhub",
+            "url": "https://www.kenhub.com/en/library/physiology/cardiac-cycle",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following would not be done before catheterizing",
+            "content": "which of the following would not be done before catheterizing a gain patient consent b patient to be washed c expiry dates to be checked d ring",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch09/01insertion/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "exhaustion confusion and unresponsiveness can be indicators of",
+            "content": "exhaustion confusion and unresponsiveness can be indicators of a respiratory failure b being generally unwell c renal failure d cardiac failure",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch07/01visual/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true of pagets disease",
+            "content": "which of the following is true of pagets disease a bowing of a long bone is a characteristic feature b spinal cord compression is a common complication",
+            "url": "http://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch14/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of these features suggest that a crackling sound is more likely due to a pleural friction rub than crackles",
+            "content": "which of these features suggest that a crackling sound is more likely due to a pleural friction rub than crackles a more prominent in expiration b alters",
+            "url": "http://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch05/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of these features suggest that a crackling sound is more likely due to a pleural friction rub than crackles",
+            "content": "which of these features suggest that a crackling sound is more likely due to a pleural friction rub than crackles clubbing alters with coughing more prominent",
+            "url": "https://medizzy.com/learning/mcq/question/33884231",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "between contractions of the left ventricle the blood continues to flow through the vessels because",
+            "content": "between contractions of the left ventricle the blood continues to flow through the vessels because a the atria are contracting b the vessels are contracted",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch06/02pulse/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which one of the following groups of patients should be assessed using an early warning score ews",
+            "content": "which one of the following groups of patients should be assessed using an early warning score ews a only patients over 60 years of age b only patients",
+            "url": "https://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch04/06post/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true in a sensory assessment of the arm",
+            "content": "which of the following is true in a sensory assessment of the arm a it is acceptable to test pain with a venepuncture needle b proprioception is",
+            "url": "http://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch08/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is true in a sensory assessment of the arm",
+            "content": "which of the following is true in a sensory assessment of the arm proprioception is appreciated via the same tracts as light touch it is acceptable to test",
+            "url": "https://medizzy.com/learning/mcq/question/33884306",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which one of the following represents a iiird cranial nerve palsy and is a neurosurgical emergency",
+            "content": "which one of the following represents a iiird cranial nerve palsy and is a neurosurgical emergency a unilateral constricted pupil b bilateral",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch08/01conscious/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following drugs is most commonly responsible for patients who present with acute confusion",
+            "content": "which of the following drugs is most commonly responsible for patients who present with acute confusion a heroin opiates b ecstasy",
+            "url": "https://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch08/03cognitive/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when you are taking a musculoskeletal history which of the following is true",
+            "content": "when you are taking a musculoskeletal history which of the following is true a drugs may be implicated in the causation of gout b a history of diarrhoea",
+            "url": "http://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch13/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "which of the following is true regarding reflexes",
+            "content": "which of the following is true regarding reflexes a a positive babinski reflex is the same as a normal flexor response in the assessment of the plantar reflex",
+            "url": "http://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch10/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 32,
+            "query": "which of the following statements is false",
+            "content": "q which of the following statements isare false",
+            "url": "https://byjus.com/question-answer/which-of-the-following-statements-is-false-98/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 33,
+            "query": "which of the following statements is false",
+            "content": "answer to which of the following statements is false a a",
+            "url": "https://www.chegg.com/homework-help/questions-and-answers/following-statements-false--function-q3595155",
+            "engine": "braveAPI"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "the main factors determining success in sport are",
+            "content": "the success in sports hinges on two primary factors effort and errors a competitors effort against an opponents effort",
+            "url": "https://adamalbrecht.blog/2025/01/23/the-2-key-factors-that-determine-success-in-sports-and-life/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "960 mg of the antibacterial drug cotrimoxazole is prescribed every 12 hours what is the daily dose in grams choose one answer from the following",
+            "content": "patients will be randomised in a 11 ratio to receive either oral cotrimoxazole 960 mg or an identical placebo once daily for 18 months with 6",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9513307/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "if a blood unit has been out of refrigeration for longer than the accepted time limit you should",
+            "content": "the 30minute rule states that red blood cell rbc units left out of controlled temperature storage for more than 30 minutes should not be returned to storage",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22119493/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "what is the purpose of the cuff on a tracheostomy tube",
+            "content": "tracheostomy tubes may have a cuff this is a little balloon at the end of the tube which can help to seal off the airway an inflated cuff can reduce the",
+            "url": "https://tracheostomy.org.uk/healthcare-staff/basic-care/managing-cuff-pressure",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the optimum position for performing cpr is to position the patient",
+            "content": "hand position two hands centered on the chest body position shoulders directly over hands elbows locked compression depth at least 2 inches rate of",
+            "url": "https://www.redcross.org/take-a-class/cpr/performing-cpr/cpr-steps?srsltid=AfmBOoqZD2T-N97KNFKS1_odjtDg4KzD-Mw1iifOUVXpvO4kBozkPr24",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the blood glucose concentration during 8090 minutes of intermittent high intensity exercise",
+            "content": "in type 2 diabetic subjects blood glucose increased from a preexercise level of 147 mgdl sd ± 21 to a peak 30 minutes postexercise at 169 mgdl sd ± 19",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3587394/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true about a thyroid swelling",
+            "content": "a goitre is a lump or swelling at the front of the neck caused by a swollen thyroid the thyroid is a small gland in your neck that makes hormones",
+            "url": "https://www.nhs.uk/conditions/goitre/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the chain of survival has four links put the following list in the correct order 1 early defibrillation 2 early cpr 3 recognition and call for help early 4 postresuscitation care",
+            "content": "1 immediate recognition of cardiac arrest and activation of the emergency response system 2 early cpr with an emphasis on chest compressions 3 rapid",
+            "url": "https://www.sca-aware.org/campus/the-chain-of-survival",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the atp store in muscle can only supply energy in high intensity exercise for about",
+            "content": "the first 10 to 20 seconds of highintensity physical activity is energy it can only supply a maximum of about three minutes of energy",
+            "url": "https://www.army.mil/article/254967/understanding_the_three_energy_systems_used_during_exercise",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following best describes the golgi tendon organ",
+            "content": "the golgi tendon organ is a treelike sensory ending enclosed in a spindlelike connective tissue capsule that lies near the junction of a tendon with a",
+            "url": "https://www.physio-pedia.com/Golgi_Tendon_Organ",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the carpal bones are the small bones of the wrist name them",
+            "content": "the carpal bones are the eight small bones that make up the wrist carpus that connects the hand to the forearm the terms carpus and carpal are",
+            "url": "https://en.wikipedia.org/wiki/Carpal_bones",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following is true",
+            "content": "the correct option is b b c ∈ a b c explanation for the correct option the symbol ∈ signifies that an element belongs to a set",
+            "url": "https://byjus.com/question-answer/which-of-the-following-is-true-a-a-belongs-to-set-a-b/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which organ secretes insulin",
+            "content": "the pancreas is the organ that produces insulin insulin is an essential hormone for regulating blood glucose levels problems with the pancreas and insulin",
+            "url": "https://www.medicalnewstoday.com/articles/325018",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "name the bones of the middle finger in the correct order from the hand",
+            "content": "each of your hands has three types of bones phalanges in your fingers metacarpals in your midhand and carpals in your wrist",
+            "url": "https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/anatomy-of-the-hand",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the auscultatory gap is",
+            "content": "an auscultatory gap also known as the silent gap is a period of diminished or absent korotkoff sounds during the manual measurement of blood pressure",
+            "url": "https://en.wikipedia.org/wiki/Auscultatory_gap",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what type of covalent bonds link the amino acids in a protein",
+            "content": "a peptide bond is an amide type of covalent chemical bond linking two consecutive alphaamino acids from c1 carbon number one of one alphaamino acid and n2",
+            "url": "https://en.wikipedia.org/wiki/Peptide_bond",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the complete resynthesis of phosphocreatine after very high intensity exercise normally takes",
+            "content": "the system is rapidly replenished during recovery in fact it requires about 30 seconds to replenish about 70 of the phosphagens and 3 to 5 minutes to",
+            "url": "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/phosphagen",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "one of the most common reasons for stoma formation is",
+            "content": "a stoma may also be formed to manage urinary incontinence for example patients with multiple sclerosis or an obstetric injury",
+            "url": "https://www.nursingtimes.net/gastroenterology/an-introduction-to-stomas-reasons-for-their-formation-19-07-2005/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is the commonest cause of dementia in the uk",
+            "content": "there are many types of dementia but alzheimers disease is the most common the next most common is vascular dementia what causes dementia",
+            "url": "https://www.alzheimers.org.uk/about-dementia/types-dementia/what-is-dementia",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a normal heart rate for an adult at rest is",
+            "content": "the official normal resting heart rate ranges from 60 to 100 beats per minute the range for most healthy adults is between 55 and 85 beats per minute",
+            "url": "https://www.health.harvard.edu/heart-health/what-your-heart-rate-is-telling-you",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following promotes glucose and amino acid uptake by muscle",
+            "content": "skeletal muscle is essential for metabolism both for its role in glucose uptake and its importance in exercise and metabolic disease",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8074531/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the pulse can be palpated",
+            "content": "the pulse can be palpated a every time the atria contracts b when a vein is close to the surface of the skin c every time the left ventricle contracts",
+            "url": "http://global.oup.com/uk/orc/nursing/endacott/01student/quizzes/ch06/02pulse/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the process of translation requires the presence of",
+            "content": "translation involves “decoding” a messenger rna mrna and using its information to build a polypeptide or chain of amino acids",
+            "url": "https://www.khanacademy.org/science/biology/gene-expression-central-dogma/translation-polypeptides/a/the-stages-of-translation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "who has legal responsibility for a patients care during hospital admission stay and discharge",
+            "content": "patients rights resulting from the direct application of the provisions of the constitution everyone has the right to health protection",
+            "url": "https://kocborowo.pl/en/patients-rights-and-obligations/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "when teaching a patient inhaler technique how will you ensure that a large proportion of the drug reaches the lower airways",
+            "content": "spacers provide the added advantage of improving delivery of the drug to the appropriate portion of the airway while preventing oropharyngeal deposition which",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6473469/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true of graves disease of the thyroid",
+            "content": "graves disease is an autoimmune disease that affects the thyroid gland the gland produces too much thyroid hormone a condition known as hyperthyroidism",
+            "url": "https://my.clevelandclinic.org/health/diseases/15244-graves-disease",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a keloid is",
+            "content": "keloids are firm rubbery lesions or shiny fibrous nodules and can vary from pink to the color of the persons skin or red to dark brown in color",
+            "url": "https://en.wikipedia.org/wiki/Keloid",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how many different types of microorganisms may colonize the mouth",
+            "content": "the oral cavity has the second largest and diverse microbiota after the gut harboring over 700 species of bacteria",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6503789/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which is the most reliable way to assess for clubbing",
+            "content": "the most widely known physical exam sign of clubbing is the profile sign also known as the lovibond angle the lovibond angle is the angle",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK539713/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what type of joint is the elbow",
+            "content": "the elbow is a synovial joint synovial joints have the most freedom to move theyre made of a cavity in one bone that another bone fits into",
+            "url": "https://my.clevelandclinic.org/health/body/elbow-joint",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a surgical support can be used for",
+            "content": "support for the body of the surgeon in a natural working posture a product suitable for use during both open and minimally invasive procedures",
+            "url": "https://link.springer.com/article/10.1007/s00464-007-9249-1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is true of hepatomegaly",
+            "content": "an enlarged liver medically termed hepatomegaly occurs when the liver swells beyond its normal size this condition can signify various underlying health",
+            "url": "https://www.maxhealthcare.in/our-specialities/gastroenterology/conditions-treatments/hepatomegaly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a fundamental cause of fatigue in high intensity exercise is",
+            "content": "intense activity can also result in nonmetabolic fatigue and weakness as a consequence of disruption in internal structures mediated by the high force levels",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9232550/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "removal of adhesive strips",
+            "content": "if any adhesive residue remains on the skin you can remove it with baby oil lotion or medical adhesive remover available at drugstores",
+            "url": "https://www.verywellhealth.com/how-do-i-remove-my-steri-strips-514505",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the pyruvate dehydrogenase complex",
+            "content": "pyruvate dehydrogenase complex pdc is a complex of three enzymes that converts pyruvate into acetylcoa by a process called pyruvate decarboxylation",
+            "url": "https://en.wikipedia.org/wiki/Pyruvate_dehydrogenase_complex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is coring",
+            "content": "coring happens when a heated alloy such as a cuni system cools in nonequilibrium conditions",
+            "url": "https://en.wikipedia.org/wiki/Coring",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "endurance training increases the muscles capacity to",
+            "content": "endurance traininginduced increase in muscle oxidative capacity without loss of muscle mass in younger and older resistancetrained men",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34390401/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why should a patient stand or sit as upright as possible when recording a peak flow rate",
+            "content": "stand or sit upright choose whats most comfortable for you and always do it that way then take the deepest breath you can and make sure your mouth makes a",
+            "url": "https://www.asthmaandlung.org.uk/symptoms-tests-treatments/tests/peak-flow",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "performance enhancing synthetic steroids are based on the structure of the hormone",
+            "content": "a structural understanding of steroids their metabolites and testosterone is central to developing analytical protocols for their detection",
+            "url": "https://www.cas.org/resources/cas-insights/science-behind-performance-enhancing-drugs",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "why should shampoo not be used for washing the skin when showering or bathing",
+            "content": "shampoos and shower gels tend to have higher ph levels which can upset the sensitive balance of ph on your face",
+            "url": "https://www.shakeupcosmetics.com/blogs/skincare-advice/why-you-need-to-stop-using-shower-gel-or-shampoo-on-your-face",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the term gene doping refers to",
+            "content": "gene doping is the hypothetical nontherapeutic use of gene therapy by athletes in order to improve their performance in those sporting events",
+            "url": "https://en.wikipedia.org/wiki/Gene_doping",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a hypertonic solution is",
+            "content": "a hypertonic solution is a solution that has a greater concentration of solute compared to the cell and less water",
+            "url": "https://study.com/academy/lesson/hypertonic-solution-definition-effect-example.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what size of catheter bag may be used at night",
+            "content": "daytime leg bags are discreet usually a small bag 500ml is worn on your leg during the day and at night a larger 1litre bag is added to the system",
+            "url": "https://www.esht.nhs.uk/wp-content/uploads/2017/06/0360.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is not a symptom of anaphylaxis",
+            "content": "you may get nauseous vomit have diarrhea feel dizzy and faint symptoms usually happen minutes after youve been exposed to something youre allergic to",
+            "url": "https://www.mayoclinic.org/diseases-conditions/anaphylaxis/symptoms-causes/syc-20351468",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is true about possible rectal findings",
+            "content": "it is a valuable diagnostic process in cases including but not limited to gastrointestinal bleeding inflammatory bowel disease hemorrhoids constipation",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK537356/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "if a catheter resists all attempts to unblock it and you are unable to remove it what should you do",
+            "content": "most catheter problems can be resolved by washing out or changing the catheter any other problems may require referral",
+            "url": "https://www.nbt.nhs.uk/sites/default/files/Catheter%20troubleshooting%20guide%20NBT%202019_1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true about the knee joint",
+            "content": "the knee joint is the biggest joint in your body it connects your thigh bone femur to your shin bone tibia it helps you stand move and keep your balance",
+            "url": "https://my.clevelandclinic.org/health/body/24777-knee-joint",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what must you ensure before a speaking valve is used",
+            "content": "you can clean your tracheostomy speaking valve with warm soapy water its important to let it air dry and to avoid using brushes cotton swabs",
+            "url": "https://www.healthline.com/health/tracheostomy-speaking-valve",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "an action potential arriving at the motor endplate causes release of",
+            "content": "upon depolarization an action potential travels down the axon causing voltagegated calcium channels to open resulting in an influx of calcium ions into the",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK470413/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why might a patient need a tracheostomy",
+            "content": "a tracheostomy is often needed when health problems require longterm use of a machine called a ventilator to help with breathing a",
+            "url": "https://www.mayoclinic.org/tests-procedures/tracheostomy/about/pac-20384673",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "kinase reactions",
+            "content": "in biochemistry a kinase is an enzyme that catalyzes the transfer of phosphate groups from highenergy phosphatedonating molecules to specific substrates",
+            "url": "https://en.wikipedia.org/wiki/Kinase",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true about the rectal examination",
+            "content": "you may need a rectal examination to help find out why youre having symptoms such as bleeding from your bottom pain constipation or problems with peeing",
+            "url": "https://www.nhs.uk/conditions/rectal-examination/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is the same strength as adrenaline 1 in 1000 choose one answer from the following",
+            "content": "adrenaline 1 in 1000 for nebulisation with a maximum dose of 5 mg a what dose should be prescribed for this child b how many mls of adrenaline is required",
+            "url": "https://london.hee.nhs.uk/sites/default/files/practice_drug_calculations.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "name three of the five main uses of the hand",
+            "content": "among humans the hands play an important function in body language and sign language likewise the ten digits of two hands and the twelve phalanges of four",
+            "url": "https://en.wikipedia.org/wiki/Hand",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of these is not necessary when examining the jugular venous pulse",
+            "content": "information that can be derived from an assessment of the jugular venous pulse includes determination of the mean venous pressure venous pulse contour",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK300/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "anaerobic metabolism refers to the generation of atp",
+            "content": "anaerobic metabolism which can be defined as atp production without oxygen or in the absence of oxygen occurs by direct phosphate transfer from",
+            "url": "https://www.sciencedirect.com/topics/immunology-and-microbiology/anaerobic-metabolism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what commonly causes skin excoriation",
+            "content": "dermatillomania is a condition where you compulsively pick at your skin injuries from skinpicking are often a cause of stress anxiety and",
+            "url": "https://my.clevelandclinic.org/health/diseases/22706-dermatillomania-skin-picking",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the sex of a child is dictated by the inheritance of",
+            "content": "men determine the sex of a baby depending on whether their sperm is carrying an x or y chromosome an x chromosome combines with the mothers x",
+            "url": "https://www.ncl.ac.uk/press/articles/archive/2015/08/boyorgirlitsinthefathersgenes.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "who is the publication your guide to the nhs written for",
+            "content": "this guidance is designed to help senior leaders in nhs organisations who provide services to the nhs develop a culture where",
+            "url": "https://www.england.nhs.uk/publication/the-guide-for-the-nhs-on-freedom-to-speak-up/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which one of the following statements is true with regard to intravenous drug administration",
+            "content": "intravenous and intraarterial drug administration provides the most complete drug availability with a minimal delay",
+            "url": "https://www.sciencedirect.com/topics/medicine-and-dentistry/intravenous-drug-administration",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "your patient has diabetes why is this important",
+            "content": "diabetes is a condition that happens when your blood sugar glucose is too high it develops when your pancreas doesnt make enough insulin or any at all",
+            "url": "https://my.clevelandclinic.org/health/diseases/7104-diabetes",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "in general the higher the intensity of exercise the greater the proportional contribution of",
+            "content": "both aerobic and resistance exercises increase glut4 abundance and translocation and hence blood glucose uptake by a pathway that is not dependent on insulin",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3587394/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in games like soccer the blood lactate concentration",
+            "content": "by y köklü 2016 higher heart rate and lower blood lactate concentration were found in 3aside and 4aside games compared to 2aside games this indicates particularly that 2",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5968902/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is true of hypothyroidism",
+            "content": "hypothyroidism or underactive thyroid happens when your thyroid gland doesnt make enough thyroid hormones to meet your bodys needs",
+            "url": "https://medlineplus.gov/hypothyroidism.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "an allele that is masked is referred to as",
+            "content": "the effect of the other allele the recessive allele is masked by the dominant allele typically an individual who carries two copies of a dominant allele",
+            "url": "https://www.genome.gov/genetics-glossary/Dominant-Traits-and-Alleles",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true about an abdominal mass",
+            "content": "an abdominal mass is a growth or area of swelling in your belly many abdominal masses are benign noncancerous but some are malignant cancerous",
+            "url": "https://my.clevelandclinic.org/health/diseases/abdominal-mass",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the maximum sustainable power",
+            "content": "maximum sustainable power is the ability to hold the highest percentage of your absolute power longer",
+            "url": "http://www.sirensandtitansfitness.com/jacques-blog/2017/11/30/absolute-power-vs-maximum-sustainable-power",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "approximately how many kj of energy are expended if an athletes steadyrate oxygen uptake averages 30 lmin for 5 minutes of exercise",
+            "content": "▫ absolute liters per minute lmin1 ▫ used to convert consumption to a rate of energy expenditure ▫ relative ml per kg body weight per min mlkg1min",
+            "url": "https://summitmd.com/pdf/pdf/090626_aps09_970.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in what situation are closed pouches applied",
+            "content": "closed ostomy pouches are best for individuals who experience more fully formed bowel movements or thicker output however they are also great for ostomates",
+            "url": "https://www.byramhealthcare.com/blogs/whats-the-difference-between-a-closed-ostomy-pouch-and-a-drainable-ostomy-pouch",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is true of the spine",
+            "content": "your spine is a complex structure of small bones vertebrae disks joints ligaments and muscles your spine protects your spinal cord and nerves",
+            "url": "https://my.clevelandclinic.org/health/body/10040-spine-structure-and-function",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "wound drainage is described as serous if",
+            "content": "serous drainage is a clear fluid that leaks out of wounds its normal in small amounts and is a sign that your body is healing",
+            "url": "https://my.clevelandclinic.org/health/symptoms/25033-serous-drainage",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is true about the assessment of arm reflexes",
+            "content": "deep tendon muscle stretch reflex testing evaluates afferent nerves synaptic connections within the spinal cord motor nerves and descending motor pathways",
+            "url": "https://www.msdmanuals.com/professional/neurologic-disorders/neurologic-examination/how-to-assess-reflexes",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following factors can affect enzyme activity",
+            "content": "enzyme activity is affected by a number of factors including the concentration of the enzyme the concentration of the substrate the",
+            "url": "https://bio.libretexts.org/Courses/Prince_Georges_Community_College/PGCC_Microbiology/07%3A_Microbial_Metabolism/7.01%3A_Introduction_to_Metabolism_and_Enzymes/7.1.01%3A_Factors_Affecting_Enzyme_Activity",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is meant by the term passive movements",
+            "content": "passive range of motion prom is joint movement caused by another person or a specialized device such as a continuous passive motion cpm machine the person",
+            "url": "https://hevycoach.com/glossary/passive-rom/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the second commonest hospital acquired infection",
+            "content": "5 most common hospital acquired infections hais respiratory tract infections pneumonia surgical site infections sepsisbacteraemia",
+            "url": "https://inivos.com/5-most-common-hospital-acquired-infections-hais/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "collagen fibres",
+            "content": "kolagen białko fibrylarne stanowiące główny składnik substancji międzykomórkowej organizmów zwierzęcych nadające tkankom odporność na rozciąganie",
+            "url": "https://pl.wikipedia.org/wiki/Kolagen",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "hydrogen ions are formed when",
+            "content": "hydrogen ion strictly the nucleus of a hydrogen atom separated from its accompanying electron the hydrogen nucleus is made up of a particle carrying a unit",
+            "url": "https://www.britannica.com/science/hydrogen-ion",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "hypernatraemic dehydration is",
+            "content": "hyponatremia is what happens when you have too little sodium in your body this can happen if you lose electrolytes and fluids together but only replace the",
+            "url": "https://www.webmd.com/a-to-z-guides/difference-between-hypernatremia-hyponatremia",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is not a category used to classify patients according to the glasgow coma scale",
+            "content": "the scale assesses patients according to three aspects of responsiveness eyeopening motor and verbal responses",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK513298/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "fasttwitch fibres contain",
+            "content": "from your biceps and triceps to your quads and glutes your skeletal muscles contain slowtwitch type i and fasttwitch type ii",
+            "url": "https://www.health.com/fitness/fast-twitch-muscle-fibers",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a patient has been on the operating table for four hours how long may it take for any pressure damage to be visible",
+            "content": "studies by bergstrom and braden found that in a skilled nursing facility 80 percent of pressure ulcers develop within 2 weeks of admission and 96 percent",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK2650/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what is an urgent reason for catheterizing a patient",
+            "content": "indications urinary incontinence social and hygiene reasons1 acutely ill patients requiring close urinary output measurement8",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK560748/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true of systemic sclerosis",
+            "content": "systemic sclerosis or scleroderma is a rare connective tissue disorder with an unknown and complex pathogenesis",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK430875/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "bladder washout solution should be",
+            "content": "bladder washouts are used in patients who are catheterised and have haematuria significant haematuria will lead to blocking off of the catheter and clots",
+            "url": "https://www.nbt.nhs.uk/sites/default/files/Bladder%20washout%20SOP.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of these is most likely to cause deviation of the trachea",
+            "content": "what causes tracheal deviation pneumothorax this is a collapsed lung which can increase pressure in the chest and move the trachea",
+            "url": "https://www.medicalnewstoday.com/articles/tracheal-deviation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "for very high force contractions lasting 12 seconds the initial energy source is from",
+            "content": "the first 10 to 20 seconds of highintensity physical activity is fueled by the “atpcp” also known as the phosphagen energy system once",
+            "url": "https://www.army.mil/article/254967/understanding_the_three_energy_systems_used_during_exercise",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is a tracheostomy",
+            "content": "a tracheostomy is a surgically created hole also called a stoma in your windpipe also known as your trachea this hole allows air to pass into your windpipe",
+            "url": "https://www.mayoclinic.org/tests-procedures/tracheostomy/about/pac-20384673",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "phosphocreatine in the muscle cell is found in",
+            "content": "phosphocreatine or creatine phosphate is the phosphorylated form of creatine it is primarily found endogenously in the skeletal muscles of vertebrates",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Phosphocreatine",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "glycogen breakdown in exercising muscle is activated by",
+            "content": "skeletal muscles mainly express β2adrenergic receptors and adrenaline rather than noradrenaline stimulates glycogen breakdown jensen et al 1995",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3248697/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "wound drainage should be assessed for volume and consistency",
+            "content": "the color consistency and amount of exudate drainage should be assessed and documented at every dressing change drainage from wounds is often described as",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK591822/table/ch10integumentary.T.wound_assessment/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is not associated with an increase in the work of breathing",
+            "content": "the increased oxygen demand is initially met by an increase in respiratory rate but the increased work of breathing may not be sustainable the end result",
+            "url": "https://www.sciencedirect.com/topics/nursing-and-health-professions/work-of-breathing",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of these combinations of clinical features is most suggestive of mixed mitral valve disease with a predominance of mitral regurgitation",
+            "content": "a soft first heart sound and a displaced thrusting apex beat suggest that regurgitation predominates a loud first heart sound and a tapping apex beat suggest",
+            "url": "https://medizzy.com/learning/mcq/question/33884201",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the rate of blood lactate accumulation is determined by",
+            "content": "among the best known of these are the lactate threshold lt the dmax method of determining the lt ltd and the onset of blood lactate accumulation obla",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2769631/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "eccrine and apocrine glands are both types of",
+            "content": "both eccrine and apocrine sweat glands originate from the epidermis eccrine glands begin as epithelial cellular buds that grow into the underlying mesenchyme",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK482278/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the key attribute in successful marathon running is",
+            "content": "running a marathon has a myriad of benefits physically it helps you to stay fit and sleep better as well as improves your overall health",
+            "url": "https://www.blazinpaddles.com/5-key-attributes-all-top-marathon-winners-have-in-common/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is true of calcium metabolism",
+            "content": "calcium metabolism is the movement and regulation of calcium ions ca 2 in via the gut and out via the gut and kidneys of the body and between body",
+            "url": "https://en.wikipedia.org/wiki/Calcium_metabolism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "during cpr chest compressions should be delivered at a rate of",
+            "content": "repeat these compressions at a rate of 100 to 120 times a minute until an ambulance arrives or for as long as you can cpr with rescue breaths place the heel",
+            "url": "https://www.nhs.uk/conditions/first-aid/cpr/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when using an inhaler when should a patient be asked to rinse their mouth",
+            "content": "its important to rinse your mouth out after using a steroid inhaler such as your preventer inhaler this is so that any medicine that is stuck",
+            "url": "https://www.asthmaandlung.org.uk/conditions/asthma/treatments/mistakes",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what is the risk if water is used for bladder washout in secondary care",
+            "content": "four studies reported on possible harmful effects of washout use such as blood in the washout solution changes in blood pressure and bladder spasms there",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6464626/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a change in blood pressure is detected by the",
+            "content": "baroreceptor reflex baroreceptors in the high pressure receptor zones detect changes in arterial pressure",
+            "url": "https://en.wikipedia.org/wiki/Blood_pressure",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is true of haematemesis",
+            "content": "hematemesis is defined as the vomiting of blood and indicates an upper gastrointestinal site of bleedingessentially a site proximal to the ligament of treitz",
+            "url": "https://www.sciencedirect.com/topics/nursing-and-health-professions/hematemesis",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the patients selfreport of pain is important because health care staff",
+            "content": "furthermore as the selfreporting pain board is visible to medical staff it stimulates their interest in patient pain and encourages active pain management",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3482846/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "most of the free fatty acids are transported in the blood",
+            "content": "longchain free fatty acids enter metabolizing cells ie most living cells in the body except red blood cells and neurons in the central nervous system",
+            "url": "https://en.wikipedia.org/wiki/Fatty_acid_metabolism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following groups of drugs may cause a dry mouth",
+            "content": "the medical term for dry mouth is xerostomia the most common medications that cause dry mouth are in a class of drugs called anticholinergics",
+            "url": "https://www.drugs.com/medical-answers/medications-dry-mouth-3566421/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following can act as an intracellular buffer to limit ph changes when the rate of glycolysis is high",
+            "content": "further the ph change associated with the accumulation of hydrogen ions may decrease the rate of glycolysis through its effect on the ratelimiting enzyme",
+            "url": "https://www.sciencedirect.com/topics/medicine-and-dentistry/anaerobic-glycolysis",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "prior to undergoing a painful procedure a patient should be informed about what to expect and how their pain will be controlled as this is associated with",
+            "content": "this qualitative study aims to understand patient experiences with education about perioperative pain control from preoperative expectationsetting to post",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10473844/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the enzymes of glycolysis are located in the",
+            "content": "glycolysis is the metabolic pathway that converts glucose into pyruvate and in most organisms occurs in the liquid part of cells the cytosol",
+            "url": "https://en.wikipedia.org/wiki/Glycolysis",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is true of the assessment of power in the arms",
+            "content": "flexion at the elbow is produced by the triceps muscle grade 15 power represents no movement or muscle contraction grade 35 mrc scale represents",
+            "url": "https://medizzy.com/learning/mcq/question/33884286",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true of facial nerve palsy",
+            "content": "pain behind the ear often precedes facial paresis in idiopathic facial nerve palsy patients may report a numb or heavy feeling in the face",
+            "url": "https://www.msdmanuals.com/professional/neurologic-disorders/neuro-ophthalmologic-and-cranial-nerve-disorders/facial-nerve-palsy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which one of the following manoeuvres is not a central painful stimulus",
+            "content": "central stimuli the trapezius squeeze which involves gripping and twisting a portion of the trapezius muscle in the patients shoulder mandibular pressure",
+            "url": "https://en.wikipedia.org/wiki/Pain_stimulus",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the normal range of flexion at the knee joint",
+            "content": "each joint has a normal rom range of values while each person has a different amount of ability to achieve it below are generally accepted values",
+            "url": "https://www.physio-pedia.com/Range_of_Motion_Normative_Values",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "blood clots are responsible for repeatedly blocking a catheter what should you do",
+            "content": "that said cms can reduce the build up of mineral deposits debris or blood clots which can lead to catheter blockage and therefore reduce",
+            "url": "https://www.nhstaysideadtc.scot.nhs.uk/Continence%20Formulary/Management%20of%20Blocked%20Catheters.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true of rheumatoid arthritis",
+            "content": "this chronic inflammatory disorder can affect more than just your joints it can also damage your skin eyes lungs heart and blood",
+            "url": "https://www.mayoclinic.org/diseases-conditions/rheumatoid-arthritis/symptoms-causes/syc-20353648",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how often should a cannula be flushed",
+            "content": "by mrch portal cannula should be flushed prior to infusion or at least once a shift sterile 09 sodium chloride for injection should be used to flush a catheter this",
+            "url": "https://www.rch.org.au/rchcpg/hospital_clinical_guideline_index/peripheral_intravenous_iv_device_management/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "which of the following is not a true statement",
+            "content": "the buying process for programmatic advertising is automated programmatic advertising relies on manual insertion orders and requests for proposals rfps",
+            "url": "https://en.certificationanswers.com/amazon-dsp-certification-answers/which-of-the-following-is-not-a-true-statement/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is true about addisons disease",
+            "content": "addisons disease is a rare condition that happens when the body doesnt make enough of some hormones",
+            "url": "https://www.mayoclinic.org/diseases-conditions/addisons-disease/symptoms-causes/syc-20350293",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the conversion of one molecule of glucose to two molecules of pyruvate results in the net formation of",
+            "content": "overall glycolysis converts one sixcarbon molecule of glucose into two threecarbon molecules of pyruvate the net products of this process are two molecules",
+            "url": "https://www.khanacademy.org/science/biology/cellular-respiration-and-fermentation/glycolysis/a/glycolysis",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the energy released from the breakdown of the highenergy phosphates atp and phosphocreatine can sustain maximal exertion exercise for about",
+            "content": "the muscle store of phosphocreatine pcr can be depleted almost completely during exhaustive exercise providing an equimolar amount of atp about 70 mmol per",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4213384/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "two of the following are evident pain at iv site erythema and swelling what stage on the phlebitis scale is this and what should you do",
+            "content": "score of 3 or medium stage phlebitis redness swelling and pain along the path of the iv cannula are present",
+            "url": "https://www.medicalnewstoday.com/articles/stages-of-phlebitis",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "what size of cannula would you use in a patient who needed a rapid blood transfusion as of 2020 medical knowledge",
+            "content": "the ric comes in two sizes a 5cm 7fr sheath roughly equivalent to 133 ga and a 64cm 85fr sheath4 approximately equivalent to 118 ga",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11791164/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a palpable left parasternal impulse suggests which abnormality",
+            "content": "a parasternal heave may also be felt in mitral stenosis a left ventricular heave or lift suggests the possibility of aortic stenosis",
+            "url": "https://en.wikipedia.org/wiki/Parasternal_heave",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "when developing a plan of care relating to the management of a persons pain attention should be given to the following needs",
+            "content": "care plans should allow for spiritual counselling appropriate to the beliefs of the patient and family cancer patients may experience depression fear and",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK537483/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is not a controlled drug",
+            "content": "amphetamines are class b schedule 2 drugs it is illegal to possess them without a prescription or to supply or produce them without a licence",
+            "url": "https://www.release.org.uk/law/list-controlled-drugs",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what is the ph of water",
+            "content": "ph is a measure of how acidicbasic water is the range goes from 0 to 14 with 7 being neutral phs of less than 7 indicate acidity whereas a ph of greater",
+            "url": "https://www.usgs.gov/special-topics/water-science-school/science/ph-and-water",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "why should careful consideration be given to providing people aged over 65 with information sources that are internet based",
+            "content": "the rise in online health information seeking among older adults promises significant benefits but also presents potentially serious privacy risks",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9039446/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the activity of creatine kinase is",
+            "content": "cks job is to add a phosphate group a group of natural chemicals to creatine a substance in your muscle cells that helps your muscles",
+            "url": "https://my.clevelandclinic.org/health/diagnostics/22692-creatine-kinase-ck",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why cant a patient talk if the cuff is inflated",
+            "content": "up to 87 of mechanically ventilated patients aspirate with inflated cuffs and 77 of those aspirations are silent",
+            "url": "https://www.passy-muir.com/cuff_aspiration/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following are indicative signs and symptoms of circulatory overload",
+            "content": "transfusionassociated circulatory overload taco is a common transfusion reaction which can result in the patient experiencing acute respiratory distress",
+            "url": "https://www.lifeblood.com.au/health-professionals/clinical-practice/adverse-events/TACO",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the net production of atp via substratelevel phosphorylation in glycolysis is",
+            "content": "substratelevel phosphorylation is the direct formation of atp or gtp by transferring a phosphate group from a high energy compound to an adp or gdp molecule",
+            "url": "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/substrate-level-phosphorylation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "prosthetic groups are",
+            "content": "a prosthetic group is the nonamino acid component that is part of the structure of the heteroproteins or conjugated proteins being tightly linked to the",
+            "url": "https://en.wikipedia.org/wiki/Prosthetic_group",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which hormone is primarily responsible for fluid regulation",
+            "content": "adh is an important hormone that is responsible for water osmolar and blood pressure homeostasis its function is vital in times of thirst hemorrhage the",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK526069/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is a colles fracture",
+            "content": "a colles fracture or distal fracture is a type of wrist fracture a broken wrist its a painful injury that needs treatment at the emergency department",
+            "url": "https://my.clevelandclinic.org/health/diseases/21860-colles-fracture",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in hypovolaemic shock what percentage of blood can be lost before it is reflected in changes in heart rate and blood pressure",
+            "content": "2 due to the increased sympathetic activity the early changes in vital signs seen in hypovolemic shock with the loss of 10 body volume include an increased",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK513297/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what three factors regulate stroke volume",
+            "content": "there are 3 variables affecting stroke volume contractility preload and afterload8 the definition of contractility is the force of",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK547686/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "after what period of time does maximal dynamic exercise become predominantly aerobic",
+            "content": "dynamic exercise such as jogging involves predominantly isotonic muscle activity and requires predominantly aerobic metabolism during acute dynamic",
+            "url": "https://www.sciencedirect.com/topics/medicine-and-dentistry/dynamic-exercise",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how long can a cannula remain in situ",
+            "content": "current guidelines in england are to routinely resite peripheral cannulas every 7296 hours however recent studies have challenged the need",
+            "url": "https://www.rcn.org.uk/small-changes/Success-Stories/Peripheral-cannulas",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true about the carpal tunnel syndrome",
+            "content": "carpal tunnel syndrome is when the median nerve is compressed as it passes through the carpal tunnel",
+            "url": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/carpal-tunnel-syndrome",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sodium bicarbonate ingestion improves middle distance running performance by",
+            "content": "according to recent literature sodium bicarbonate nahco3 has been proposed as a performance enhancing aid by reducing acidosis during exercise",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6544001/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the smallest increments on a mercury and aneroid sphygmomanometer measure are",
+            "content": "nhanes reported a small mean difference in systolic bp 11 mm hg in youth aged 8 to 17 years with the aneroid sphygmomanometer",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3340597/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following is not an amino acid",
+            "content": "nonessential amino acids include alanine arginine asparagine aspartic acid cysteine glutamic acid glutamine glycine proline serine",
+            "url": "https://medlineplus.gov/ency/article/002222.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the most likely cause of acute urinary retention of urine",
+            "content": "urinary retention is when your bladder doesnt empty when you pee blockages medications or nerve issues can cause it",
+            "url": "https://my.clevelandclinic.org/health/diseases/15427-urinary-retention",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is true about rectal bleeding",
+            "content": "rectal bleeding is a symptom of many different conditions including hemorrhoids anal fissures inflammatory bowel disease ibd and colorectal cancer",
+            "url": "https://my.clevelandclinic.org/health/symptoms/14612-rectal-bleeding",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is true in peripheral neuropathy",
+            "content": "peripheral neuropathy happens when the nerves that are located outside of the brain and spinal cord peripheral nerves are damaged",
+            "url": "https://www.mayoclinic.org/diseases-conditions/peripheral-neuropathy/symptoms-causes/syc-20352061",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the low intake of carbohydrate in the diet",
+            "content": "while all lowcarb approaches reduce the overall intake of carbohydrates there is no clear consensus on what defines a lowcarb diet",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK537084/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if a transfusion reaction is suspected you should",
+            "content": "as soon as you suspect a transfusion reaction stop the transfusion immediately and activate emergency procedures if required",
+            "url": "https://www.lifeblood.com.au/health-professionals/clinical-practice/adverse-events/management-of-suspected-reactions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following best describes the effects of morphine",
+            "content": "morphine can decrease heart rate blood pressure and venous return morphine can also stimulate local histaminemediated processes4 in theory the",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK526115/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "patients with the apolipoprotein e gene are at risk of which disease",
+            "content": "apoe polymorphic alleles are the main genetic determinants of alzheimer disease ad risk individuals carrying the ε4 allele are at increased risk of ad",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3726719/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a muscle fibre relaxes when",
+            "content": "the muscle fiber will repolarize which closes the gates in the sr where ca was being released",
+            "url": "https://courses.lumenlearning.com/suny-ap1/chapter/muscle-fiber-contraction-and-relaxation/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the trigger to initiate the contractile process in skeletal muscle is",
+            "content": "skeletal muscle contraction begins first at the neuromuscular junction which is the synapse between a motoneuron and a muscle fiber",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK559006/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "metabolism is determined by the",
+            "content": "your metabolism is influenced by your age gender muscletofat ratio the food you eat physical activity and hormone function",
+            "url": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/metabolism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how many co2 and atp molecules are formed during one complete turn of the tricarboxylic acid cycle krebs cycle",
+            "content": "overall one turn of the citric acid cycle releases two carbon dioxide molecules and produces three ‍ one ‍ and one ‍ or ‍ the citric acid cycle goes",
+            "url": "https://www.khanacademy.org/science/biology/cellular-respiration-and-fermentation/pyruvate-oxidation-and-the-citric-acid-cycle/a/the-citric-acid-cycle",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is not an abnormal breathing pattern seen in head injury and altered conscious level",
+            "content": "respiratory saturations respiratory rate pattern of breathing chest injury neurological signs of raised intracranial pressure unilateral or bilateral",
+            "url": "https://www.rch.org.au/clinicalguide/guideline_index/Altered_conscious_state/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the minimum time a stretch should be held for",
+            "content": "between 10 seconds to 3 minutes dynamic or active stretching uses movement to lengthen muscles and get your blood flowing",
+            "url": "https://www.healthline.com/health/how-long-to-hold-a-stretch",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following tools is the first choice for cleaning the mouth",
+            "content": "1 toothbrush floss brushing and flossing daily makes your mouth feel clean but there are other very important reason why employing these tools is so great",
+            "url": "https://marlboroughdentalcentre.com/blog/Top+4+Oral+Care+Tools+For+a+Bright+amp+Healthy+Mouth+/180",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "mutations are errors in dna that",
+            "content": "when replication errors become mutations incorrectly paired nucleotides that still remain following mismatch repair become permanent mutations after the next",
+            "url": "http://www.nature.com/scitable/topicpage/dna-replication-and-causes-of-mutation-409",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true about involuntary movements in the arm",
+            "content": "athetosis writhing movements mostly of arms and hands often slow dystonia sustained or repetitious muscular contractions often produces abnormal posture",
+            "url": "https://stanfordmedicine25.stanford.edu/the25/involuntary-movements-and-tremors.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "phophocreatine resynthesis during recovery from exercise is inhibited by",
+            "content": "instead its rate appears to be controlled by adenosine diphosphate adp levels either directly through its free cytosolic concentration or indirectly",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12238940/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "once a prescribed unit of blood product has been obtained from the blood bank and is out of refrigeration the transfusion should commence within what period of time before it starts to deteriorate as of 2020 medical knowledge",
+            "content": "the distribution of this draft document is intended to provide information on a proposed guidelines good practice guidelines for blood establishments and",
+            "url": "https://cdn.who.int/media/docs/default-source/biologicals/call-for-comments/draft_who-blood-gmp_bs-document-2024.2476.pdf?sfvrsn=716fca7e_1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is true of headache",
+            "content": "tension headaches are the most common type of headache among adults and teens they cause mild to moderate pain and come and go over time",
+            "url": "https://www.webmd.com/migraines-headaches/migraines-headaches-basics",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "dopamine is prescribed at a rate of 4 microgramskgmin for a 65 kg person how many milligrams will they receive in an hour",
+            "content": "dopamine 400 mg in 250ml ns pt weight 63 kg dose ordered x weight if weight based x volume x time have dose of drug you have",
+            "url": "https://www.upstate.edu/hr/document/med_calculations.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is not a sign of phlebitis",
+            "content": "phlebitis flebyetis means inflammation of a vein thrombophlebitis is due to one or more blood clots in a vein that cause inflammation",
+            "url": "https://www.webmd.com/dvt/phlebitis",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how many chromosomes do all human somatic cells contain",
+            "content": "humans have 23 pairs of chromosomes 46 in all 44 autosomes and 2 sex chromosomes each parent contributes one chromosome to each pair so children get half of",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK222289/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which potential complication of iv therapy is described thus leakage of vesicant irritant medication or fluid into surrounding tissues causing tissue damage",
+            "content": "a common complication of iv therapy is iv infiltration infiltration occurs when fluid leaks out of the vein into the surrounding soft",
+            "url": "https://www.ivwatch.com/2020/05/27/iv-infiltrations-and-extravasations-causes-signs-side-effects-and-treatment/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "codons are composed of",
+            "content": "a codon is a dna or rna sequence of three nucleotides a trinucleotide that forms a unit of genomic information encoding a particular amino acid",
+            "url": "https://www.genome.gov/genetics-glossary/Codon",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following releases most energy when completely oxidised in the body",
+            "content": "glucose and other food molecules are broken down by controlled stepwise oxidation to provide chemical energy in the form of atp and nadh",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK26882/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when assessing a patients breathing",
+            "content": "a focused respiratory objective assessment includes interpretation of vital signs inspection of the patients breathing pattern skin color and respiratory",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK593192/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following drugs may be used to enhance gastric motility",
+            "content": "studies in animals and man have shown that metoclopramide bethanechol and domperidone enhance the peristaltic contractions of the esophageal body",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6752968/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "when recording peak flow results within how many litresminute should the three readings be",
+            "content": "this should be repeated 3 times and the highest of the 3 measurements should be recorded as your peak flow score if youre monitoring your asthma at home",
+            "url": "https://www.nhs.uk/conditions/peak-flow-test/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of these options is not recognized as a cause of chronic cough",
+            "content": "cough may be the initial manifestation of more serious druginduced pulmonary syndromes such as interstitial lung disease acute lung injury pleural disease",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6548022/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the transcription of dna to a molecule of messenger rna occurs",
+            "content": "in the first step the information in dna is transferred to a messenger rna mrna molecule by way of a process called transcription during transcription the",
+            "url": "https://www.nature.com/scitable/topicpage/translation-dna-to-mrna-to-protein-393/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true in diplopia",
+            "content": "diplopia is the medical term for double vision or seeing double the definition of diplopia is seeing two images of a single object youre looking at",
+            "url": "https://my.clevelandclinic.org/health/diseases/22203-diplopia-double-vision",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the normal respiratory rate for an adult male is",
+            "content": "respiratory rate 1218 breaths per minute blood pressure between 9060 mmhg and 12080 mmhg temperature 978°f 365°c to",
+            "url": "https://emedicine.medscape.com/article/2172054-overview",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the synthesis of glucose from lactate glycerol or amino acids is called",
+            "content": "gluconeogenesis gng is a metabolic pathway that results in the biosynthesis of glucose from certain noncarbohydrate carbon substrates",
+            "url": "https://en.wikipedia.org/wiki/Gluconeogenesis",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the energy charge of the cell is",
+            "content": "the energy charge of most cells varies between 07 and 095 oscillations in this range are quite frequent",
+            "url": "https://en.wikipedia.org/wiki/Energy_charge",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "under what circumstances would you use antibiotics prior to catheterization",
+            "content": "the review found that people who had antibiotics before or during catheter use were less likely to have an infection and less likely to have a large number of",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7388872/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is present in saliva and has an antibacterial action",
+            "content": "saliva is crucial for defense against microbial species as it is rich in antimicrobial compounds such as hydrogen peroxide lactoferrin and lysozymes",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6855406/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "fatty acids are transported into the mitochondria bound to",
+            "content": "transportation of longchain fatty acids into the mitochondrial matrix requires three enzymes in addition to acylcoa synthetase the transport",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK556002/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "during cpr chest compressions and ventilations should be delivered in a ratio of",
+            "content": "chest compressions are to be delivered at a rate of 100 to 120 per minute the rescuer should push as hard as needed to attain a depth of each",
+            "url": "https://emedicine.medscape.com/article/1344081-overview",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "a person is prescribed ropinirole 15 mg divided into three doses how many micrograms is each dose choose one answer from the following",
+            "content": "risperidone 051 mg bid to 3 mg bid by end of first week as tolerated olanzapine 255 mg hs increase by 5 mg every week to 20 mg hs quetiapine 25 mg",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5765435/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the creatine kinase reaction is",
+            "content": "creatine kinase ck also known as creatine phosphokinase cpk this ck enzyme reaction is reversible and thus atp can be generated from pcr and adp",
+            "url": "https://en.wikipedia.org/wiki/Creatine_kinase",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "peak flow meters record",
+            "content": "a peak flow meter is a portable inexpensive handheld device used to measure how air flows from your lungs in one fast blast",
+            "url": "https://www.lung.org/lung-health-diseases/lung-disease-lookup/asthma/treatment/devices/peak-flow",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is recommended for cleaning the mouth",
+            "content": "brush your teeth at least twice a day use fluoride toothpaste and a softbristled toothbrush medium or hard bristles can damage your gums and tooth enamel",
+            "url": "https://my.clevelandclinic.org/health/treatments/16914-oral-hygiene",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "oedema is the presence of",
+            "content": "by d lentschochet 2023 the definition of edema is a swelling due to the expansion of interstitial fluid volume in tissues or an organ",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK537065/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "why are male patients advised to take their own electric razor to hospital",
+            "content": "essentially the main aim of helping a male patient to shave or do it for him is to meet his hygiene and care needs from the patients",
+            "url": "https://www.nursingtimes.net/hospital-nursing/the-significance-of-facial-shaving-as-fundamental-nursing-care-17-12-2018/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following statements is true about informal carers as of 2020",
+            "content": "¦ covid19 negatively impacted on the following aspects of the carers life social networkparticipation 787 quality of life 768 mental health",
+            "url": "https://eurocarers.org/wp-content/uploads/2021/05/EUC-Covid-study-report-2021.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following physiological characteristics is not important for success in endurance events such as the marathon race",
+            "content": "the physiology of marathons is typically associated with high demands on a marathon runners cardiovascular system and their locomotor system",
+            "url": "https://en.wikipedia.org/wiki/Physiology_of_marathons",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the sarcoplasmic reticulum in muscle cells acts as a",
+            "content": "the sarcoplasmic reticulum sr is a specialized form of the endoplasmic reticulum of muscle cells dedicated to calcium ion ca2 handling necessary for",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9026860/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of these features suggest that a pulsation in the neck is arterial",
+            "content": "the carotid pulse is characterized by a smooth relatively rapid upstroke and a smooth more gradual downstroke interrupted only briefly at the pulse peak",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK312/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the genome is",
+            "content": "the genome is the entire set of dna instructions found in a cell in humans the genome consists of 23 pairs of chromosomes located in the cells nucleus",
+            "url": "https://www.genome.gov/genetics-glossary/Genome",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the answers below best indicates the compatible blood types that can be given to a person with a blood group b rhesus negative",
+            "content": "abo is the most important blood group system transfusion with abo incompatible red cells can lead to severe and potentially fatal transfusion reactions",
+            "url": "https://www.rch.org.au/bloodtrans/about_blood_products/blood_groups_and_compatibilities/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true of psoriatic arthropathy",
+            "content": "joint pain stiffness and swelling are the main signs and symptoms of psoriatic arthritis they can affect any part of the body including your fingertips and",
+            "url": "https://www.mayoclinic.org/diseases-conditions/psoriatic-arthritis/symptoms-causes/syc-20354076",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is thought to be implicated in the development of peripheral muscle fatigue during multiple sprint activities",
+            "content": "the differences in performance regulation were probably related to the expected development of fatigue in active skeletal muscles since the number of efforts",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10464754/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "where should a stoma be sited",
+            "content": "by k gaćkowska a stoma should be located at least 4 cm from the surgical wound scars abdominal folds other skin irregularities and lesioned skin sites 15",
+            "url": "https://www.termedia.pl/The-process-and-principles-of-intestinal-stoma-siting,134,46459,1,1.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following should patients remember when taking paracetamol",
+            "content": "doses of paracetamol should be taken at least 4 hours apart dont take more than the recommended dose over a 24hour period check the directions on your",
+            "url": "https://www.healthdirect.gov.au/paracetamol",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as a general principle what is the best approach to the use of analgesic drugs following surgery",
+            "content": "postoperative pain control aims to reduce the negative consequences of acute postsurgical pain and help the patient transition smoothly back",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK544298/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why should the shortacting bronchodilator be taken first",
+            "content": "shortacting bronchodilators are used as a quick relief or rescue inhalers while longacting bronchodilators can be used every day to control asthma",
+            "url": "https://www.webmd.com/asthma/asthma_inhalers_bronchodilators",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what might make the nurse think a patient could not use an inhaler",
+            "content": "many patients misuse inhalers negatively affecting disease control quality of life healthcare utilization and costs",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7521134/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "with an increasing number of sprints the",
+            "content": "the aim of the present study was to examine the effect of number of sprint repetitions on the variation of blood lactate concentration blood la during",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4042663/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following parameters are seen on typical neurological observation charts",
+            "content": "pain assessment observations frequency any patient receiving new im sc oral opiates must have bp p resps sedation score",
+            "url": "https://cavuhb.nhs.wales/files/policies-procedures-and-guidelines/patient-safety-and-quality/p-q-patient-safety/appendix-6-neurological-observation-chart-2021-pdf/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the rate limiting enzyme of glycolysis is",
+            "content": "the transfer of phosphate from atp to fructose6phosphate is mediated by phosphofructokinase which is a ratelimiting enzyme",
+            "url": "https://tardigrade.in/question/out-of-the-following-which-is-the-rate-limiting-enzyme-in-glycolysis-0p4osrty",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "alterations in which neurotransmitters in the brain by pharmacological agents has been shown to influence fatigue development",
+            "content": "alterations in central fatigue by pharmacological manipulations of neurotransmitters in normal and high ambient temperature sports med 201040322946",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5033663/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is true of a lower motor neurone lesion in the arm",
+            "content": "in lmn lesions there is a decreased resistance to passive movement called flaccid paralysis spontaneous contraction of muscle fascicles fasciculations",
+            "url": "https://www.sciencedirect.com/topics/neuroscience/lower-motor-neuron-lesion",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a person weighs 62 kg their drug dose is 15 mgkg how many grams is their dose choose one answer from the following",
+            "content": "7 what is the total daily dose in mg when drug b is prescribed to an adult weighing 75 kg at dose of 40 microgramskgday in 3 divided doses",
+            "url": "https://london.hee.nhs.uk/sites/default/files/practice_drug_calculations.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a 67yearold man three hours posttransurethral resection of prostate with irrigation has a blocked catheter which solution should be used to complete bladder washout",
+            "content": "most men can leave hospital after transurethral resection of the prostate or even a large bladder tumour within 45 days of the operation but it is",
+            "url": "https://www.baus.org.uk/_userfiles/pages/files/Museum/Transurethral%20Resection.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "womens world record performances have improved rapidly in recent years mainly because",
+            "content": "in both ancient and modern times athletes have turned to “doping” with exogenous substances to improve their performances in ancient greece performance",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3538474/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following molecules does not form part of dna",
+            "content": "the correct answer is thyminethe four bases found in dna molecules are cytosine guanine adenine and thymine but in rna molecules the thymine base is",
+            "url": "https://www.mytutor.co.uk/answers/26054/A-Level/Biology/Which-of-these-nucleotide-bases-is-NOT-present-in-RNA-Cytosine-Thymine-Guanine-Adenine-Uracil/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following best describes nociceptive pain",
+            "content": "nociceptive pain is the most common type of physical pain its caused by potentially harmful stimuli being detected by nociceptors around the body",
+            "url": "https://www.healthline.com/health/nociceptive-pain",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is true about an intention tremor",
+            "content": "an intention tremor is usually perpendicular to the direction of movement when experiencing an intention tremor one often overshoots or undershoots ones",
+            "url": "https://en.wikipedia.org/wiki/Intention_tremor",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following processes is not used to modify protein structure after translation has occurred",
+            "content": "in molecular biology posttranslational modification ptm is the covalent process of changing proteins following protein biosynthesis",
+            "url": "https://en.wikipedia.org/wiki/Post-translational_modification",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is true about cushings syndrome",
+            "content": "cushings syndrome is a disorder that occurs when your body makes too much of the hormone cortisol over a long period of time",
+            "url": "https://www.niddk.nih.gov/health-information/endocrine-diseases/cushings-syndrome",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is hypochlorhydria",
+            "content": "hypochlorhydria means low stomach acid your stomach isnt producing enough acid to digest food properly or absorb its nutrients",
+            "url": "https://my.clevelandclinic.org/health/diseases/23392-hypochlorhydria",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in the discharge checklist recommended by the department of health 2004 who should be involved in completing the form",
+            "content": "it is recommended that the parameters of clinicalmedical stability for each individual patient are agreed with the consultant or lead clinician",
+            "url": "https://www.bipsolutions.com/docstore/pdf/8092.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is true about haemorrhoids",
+            "content": "haemorrhoids piles are enlarged blood vessels inside or around the opening of your bottom anus your anus is lined with spongy tissue and blood vessels",
+            "url": "https://www.bupa.co.uk/health-information/digestive-gut-health/haemorrhoids",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in allout exercise such as sprinting the first fibre types to fatigue are the",
+            "content": "fo fibers are useful for this type of movement because they produce more tension than so fibers but they are more fatigueresistant than fg fibers",
+            "url": "https://www.physio-pedia.com/Muscle_Fibre_Types",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "embedded in the inner membrane of the mitochondrion are",
+            "content": "there are several antiport systems embedded in the inner membrane allowing exchange of anions between the cytosol and the mitochondrial matrix",
+            "url": "https://en.wikipedia.org/wiki/Inner_mitochondrial_membrane",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is true in spastic paraplegia",
+            "content": "hereditary spastic paraplegia hsp also known as familial spastic paraparesis refers to a group of inherited disorders that involves weakness and spasticity",
+            "url": "https://www.ninds.nih.gov/health-information/disorders/hereditary-spastic-paraplegia",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "our genetic material is made up of",
+            "content": "dna is a polymer composed of two polynucleotide chains that coil around each other to form a double helix",
+            "url": "https://en.wikipedia.org/wiki/DNA",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following is true about jaundice",
+            "content": "jaundice also known as icterus is a yellowish or greenish pigmentation of the skin and sclera due to high bilirubin levels",
+            "url": "https://en.wikipedia.org/wiki/Jaundice",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the frontal lobe of the brains cortex is responsible for which of the following",
+            "content": "the frontal lobe is part of the frontal cortex it is a part of the brain that plays a role in memory attention judgment and other vital functions",
+            "url": "https://www.medicalnewstoday.com/articles/318139",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "complete the following a variation of serial peak flow readings over a two week period are considered diagnostic in",
+            "content": "a value of more than 20 variability should be regarded as a positive test consider monitoring peak flow variability for 24 weeks in adults aged 17 and over",
+            "url": "https://patient.info/doctor/peak-flow-recording",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "glucose is transported into the muscle cell",
+            "content": "glucose uptake in muscle occurs by a system of facilitated diffusion involving at least two distinct glucose transporters glut1 and glut4",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2407478/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "why would you need to carry out a bladder washout for a patient at home",
+            "content": "bladder washouts are used in patients who are catheterised and have haematuria significant haematuria will lead to blocking off of the catheter and clots",
+            "url": "https://www.nbt.nhs.uk/sites/default/files/Bladder%20washout%20SOP.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is true in ulna nerve palsy",
+            "content": "ulnar nerve palsy causes loss of sensation and muscle weakness in the hand learn about ulnar nerve palsy symptoms causes and treatment",
+            "url": "https://www.healthline.com/health/ulnar-nerve-dysfunction",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if a patient is cyanosed what might their oxygen saturation level be",
+            "content": "in contrast 6 and 17 of the observers believed definite cyanosis to be present when arterial oxygen saturations were 96 to 100 and 91 to 95 respectively",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK367/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is true regarding the complications of a large goitre",
+            "content": "complications a goiter itself usually doesnt cause complications the appearance may be troublesome or embarrassing for some people a large",
+            "url": "https://www.mayoclinic.org/diseases-conditions/goiter/symptoms-causes/syc-20351829",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "selective androgen receptor modulators sarms are",
+            "content": "sarms are a class of drugs that selectively activate the androgen receptor in specific tissues promoting muscle and bone growth",
+            "url": "https://en.wikipedia.org/wiki/Selective_androgen_receptor_modulator",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the main fate of lactate that leaves muscle and enters the circulation is",
+            "content": "in one pathway lactate is oxidized to pyruvate which enters mitochondria and is metabolized through the tricarboxylic acid cycle in the other",
+            "url": "https://www.nature.com/articles/s41392-022-01151-3",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "glycogen breakdown in muscle initially results in the formation of",
+            "content": "the formation of glycogen from glucose is known as glycogenesis and the breakdown of glycogen to form glucose is called glycogen metabolism or glycogenolysis",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK549820/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "an expected side effect of creatine supplementation is",
+            "content": "as with many supplements or medications excessive doses of creatine may cause digestive issues in a 2008 study a 5g dose taken twice daily caused diarrhea",
+            "url": "https://www.healthline.com/nutrition/creatine-safety-and-side-effects",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "muscle lactate production increases when",
+            "content": "based on experimental data and theoretical considerations it is concluded that lactate production during submaximal exercise is o2 dependent",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3049511/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "insensible loss does not come from",
+            "content": "by j mcneilmasuka 2023 insensible fluid loss is the amount of body fluid lost daily that is not easily measured from the respiratory system skin and water in the excreted stool",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK544219/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "under which circumstances would you not use a catheter valve",
+            "content": "when should a catheter be used accurate measurement of urine output in critically ill patients neurological conditions affecting sensation or control of",
+            "url": "https://www.ucc-today.com/journals/issue/launch-edition/article/catheter-valves-appropriate-use-and-reduction-of-risk-to-bladder-ucct",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "oxygen is used",
+            "content": "common industrial uses of oxygen include production of steel plastics and textiles brazing welding and cutting of steels and other metals rocket propellant",
+            "url": "https://en.wikipedia.org/wiki/Oxygen",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a 1416 gauge needle is most likely to be used for",
+            "content": "a 14gauge iv is used during surgeries and rapid blood transfusions 16 gauges similarly these wide gauges are commonly found in urgent care units icus and",
+            "url": "https://resetiv.com/blogs/news/iv-needle-sizes",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how much toothpaste is recommended for cleaning teeth",
+            "content": "adults need a peasized amount of toothpaste and young children need about the size of a rice grain make sure you brush for two minutes",
+            "url": "https://www.health.com/condition/oral-health/how-much-toothpaste-should-you-use",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "an ileostomy opening should be",
+            "content": "the ileum should be positioned such that the proximal limb is cephalad and is at 12 oclock it should also protrude approximately 5 cm above the skin before a",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK519003/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the heart has",
+            "content": "reader gets to see a bit of how the educational system is structured and also some spanish history as part of the story revolves around a spanish professor who",
+            "url": "https://www.amazon.pl/Heart-Has-Its-Reasons/dp/145166835X",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the βoxidation of a molecule of palmitic acid ch3ch214co2h",
+            "content": "the βoxidation pathway begins when two hydrogen atoms are removed from c2 and c3 of the fatty acyl coa by one of a family of acylcoa dehydrogenases to yield",
+            "url": "https://ncstate.pressbooks.pub/organicchem/chapter/catabolism-of-triacylglycerols-%CE%B2-oxidation/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the most rapid method to resynthesize atp during exercise is through",
+            "content": "however the rates of atp provision from the anaerobic sources pcr and anaerobic glycolysis are much more rapid than those from aerobic",
+            "url": "https://www.nature.com/articles/s42255-020-0251-4",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the two principal contractile proteins found in skeletal muscle are",
+            "content": "the contractile proteins are myosin the principal component of thick myofilaments and actin which is the principal component of thin myofilaments lateral",
+            "url": "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/contractile-protein",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the cardiac cycle consists of the phases",
+            "content": "the cardiac cycle involves four major stages of activity 1 isovolumic relaxation 2 inflow 3 isovolumic contraction 4 ejection",
+            "url": "https://en.wikipedia.org/wiki/Cardiac_cycle",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following would not be done before catheterizing",
+            "content": "bladder catheterization is used to do the following obtain urine for examination measure residual urine volume relieve urinary retention or incontinence",
+            "url": "https://www.msdmanuals.com/professional/genitourinary-disorders/genitourinary-tests-and-procedures/bladder-catheterization",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "exhaustion confusion and unresponsiveness can be indicators of",
+            "content": "lethargy indicates something is affecting your brain your level of consciousness and other mental functions but its also hard to tell the",
+            "url": "https://my.clevelandclinic.org/health/symptoms/25241-lethargy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "bronchial breathing is characterized by",
+            "content": "question 4 bronchial breathing is characterized by a inspiratory component louder and longer with a gap between expiration and inspiration b expiratory",
+            "url": "http://global.oup.com/uk/orc/medicine/cox/01student/mcqs/ch05/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is true of pagets disease",
+            "content": "pagets pajits disease of bone interferes with your bodys normal recycling process in which new bone tissue gradually replaces old bone tissue",
+            "url": "https://www.mayoclinic.org/diseases-conditions/pagets-disease-of-bone/symptoms-causes/syc-20350811",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "measuring the blood pressure in an arm that is above the level of the heart will",
+            "content": "the best position to take your blood pressure is seated in a chair with your feet on the floor and your arm supported so your elbow is at about heart level",
+            "url": "https://www.health.harvard.edu/heart-health/tips-to-measure-your-blood-pressure-correctly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of these features suggest that a crackling sound is more likely due to a pleural friction rub than crackles",
+            "content": "a pleural friction rub is an audible respiratory sound often likened to the creaking of leather or the squeaking of a shoe on wet surfaces",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK537118/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "lactate and hydrogen ions leave the muscle",
+            "content": "the unconsumed h one per 1 lac− causes acidosis both ions coexist and may leave the muscle fiber across monocarboxylate transporters because of the low pk",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5395467/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "between contractions of the left ventricle the blood continues to flow through the vessels because",
+            "content": "your mitral valve opens to send blood from your left atrium to your left ventricle when your left ventricle is full it squeezes which closes your mitral valve",
+            "url": "https://my.clevelandclinic.org/health/articles/17060-how-does-the-blood-flow-through-your-heart",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which one of the following groups of patients should be assessed using an early warning score ews",
+            "content": "ews systems can contribute useful knowledge about the patients physiological condition and risk of deterioration",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10107488/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which products of adp degradation increase in concentration in the blood during multiple sprint sports",
+            "content": "by ea zarębska 2019 sprinters showed a higher absolute and net increase in plasma adenosine triphosphate concentration by 60114 during exercise in consecutive",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6836270/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is true in a sensory assessment of the arm",
+            "content": "sensory evaluation is a scientific discipline used to evoke measure analyze and interpret reaction to those characteristics of food material as they are",
+            "url": "https://www.sciencedirect.com/topics/medicine-and-dentistry/sensory-evaluation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which one of the following represents a iiird cranial nerve palsy and is a neurosurgical emergency",
+            "content": "intracranial aneurysms are the most feared cause of third nerve palsy and can represent a true neurologic emergency because of the risk of subarachnoid",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5462106/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if the mean rate of oxygen consumption of a male athlete during a training session is 2 lmin then his rate of energy expenditure is approximately",
+            "content": "page 2 purpose of calculations ▫ under steadystate conditions volume of oxygen vo2 provides a measure of the energy cost of exercise ▫ the rate of",
+            "url": "https://summitmd.com/pdf/pdf/090626_aps09_970.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "creatine is synthesized from",
+            "content": "creatine synthesized in liver must be secreted into the bloodstream by an unknown mechanism da silva et al 2014a jump up to hultman e",
+            "url": "https://en.wikipedia.org/wiki/Creatine",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "pairs of electrons carried in the form fadh2 and nadhh collectively contain enough free energy to rephosphorylate",
+            "content": "nadh and fadh 2 ‍ pass their electrons to the electron transport chain turning back into nad ‍ and fad this is important because the oxidized forms of these",
+            "url": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/cellular-respiration-ap/a/oxidative-phosphorylation-etc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following drugs is most commonly responsible for patients who present with acute confusion",
+            "content": "the preferred treatment of delirium due to alcohol withdrawal is with drugs that increase the activity of the gabaergic system with clomethiazole as the drug",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3371633/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "your first action following confirmation of cardiac arrest is to",
+            "content": "call 999 or 112 for emergency help and start cpr using a defibrillator aed if available signs and symptoms if someone has a cardiac arrest they may be",
+            "url": "https://www.sja.org.uk/get-advice/first-aid-advice/heart-conditions/cardiac-arrest/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "when you are taking a musculoskeletal history which of the following is true",
+            "content": "a good history backed up by clinical examination findings will lead you to a diagnosis below we look more closely at the key questions that need to be",
+            "url": "https://versusarthritis.org/about-arthritis/healthcare-professionals/training-and-education-resources/clinical-assessment-of-patients-with-musculoskeletal-conditions/the-musculoskeletal-history/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following factors does not influence success in sport",
+            "content": "participation in physical activity is influenced by social factors such as social groupings family and friends as well as personal factors such as age gender",
+            "url": "https://www.bbc.co.uk/bitesize/guides/zy62hv4/revision/5",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "in a double stranded molecule of dna the ratio of purines pyrimidines is",
+            "content": "click herepointup2to get an answer to your question writinghandwhy in double stranded dna number of purinesequal the number of pyrimidines",
+            "url": "https://www.toppr.com/ask/question/why-in-double-stranded-dna-number-of-purinesequal-the-number-of-pyrimidines/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 34,
+            "query": "which of the following statements is false",
+            "content": "which of the followi a copper ll ion can be reduced to copper l ion by hydrochloric acid and zinc b sodium metal dissolves in water giving oxygen c nitrogen is insoluble in water",
+            "url": "https://myschool.ng/classroom/chemistry/30880",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "which of the following nucleotide bases is not found in rna",
+            "content": "the correct answer is thyminethe four bases found in dna molecules are cytosine guanine adenine and thymine but in rna molecules the thymine base is replaced",
+            "url": "https://www.mytutor.co.uk/answers/26054/A-Level/Biology/Which-of-these-nucleotide-bases-is-NOT-present-in-RNA-Cytosine-Thymine-Guanine-Adenine-Uracil/",
+            "engine": "braveAPI"
+        }
+    ]
+}

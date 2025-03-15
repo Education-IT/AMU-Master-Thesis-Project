@@ -1,0 +1,2053 @@
+{
+    "task": "mmlu_econometrics",
+    "dataset": "web_access_econometrics_final",
+    "questions": 114,
+    "noWebContextCount": 18,
+    "contaminated_queries": 93,
+    "contaminated_urls": 516,
+    "valid_urls": 96,
+    "avg_contaminated_before_valid": 6.375,
+    "contaminated_data_ratio": 0.8431372549019608,
+    "most_contaminated_urls": {
+        "www.studocu.vn": 59,
+        "www.cambridge.org": 55,
+        "www.academia.edu": 12,
+        "www.mgu.ac.in": 11,
+        "www.gdcollegebegusarai.com": 9,
+        "sde.uoc.ac.in": 5,
+        "www.transtutors.com": 5
+    },
+    "noWebContext": [
+        "Which of the following criticisms of standard (\"plain vanilla\") GARCH models can be overcome by EGARCH models?\n\ni) Estimated coefficient values from GARCH models may be negative\n\nii) GARCH models cannot account for leverage effects\n\niii) The responsiveness of future volatility to positive and negative shocks is symmetric under a GARCH formulation\n\niv) GARCH models cannot allow for a feedback from the volatility to the returns",
+        "Which of the following statements are true concerning a triangular or recursive system?\n\ni) The parameters can be validly estimated using separate applications of OLS to\n\neach equation\n\n\nii) The independent variables may be correlated with the error terms in other\n\nequations\n\n\niii) An application of 2SLS would lead to unbiased but inefficient parameter estimates\n\n\niv) The independent variables may be correlated with the error terms in the equations\n\nin which they appear as independent variables",
+        "Which of the following statements will be true if the number of replications used in a Monte Carlo study is small?\n\ni) The statistic of interest may be estimated imprecisely\n\n\nii) The results may be affected by unrepresentative combinations of random draws\n\n\niii) The standard errors on the estimated quantities may be unacceptably large\n\n\niv) Variance reduction techniques can be used to reduce the standard errors",
+        "Suppose that the value of $R^2$ for an estimated regression model is exactly zero. Which of the following are true?\n\ni) All coefficient estimates on the slopes will be zero\n\nii) The fitted line will be horizontal with respect to all of the explanatory variables\n\niii) The regression line has not explained any of the variability of y about its mean value\n\niv) The intercept coefficient estimate must be zero.",
+        "Which of the following are disadvantages of the Dickey-Fuller / Engle-Granger approach to testing for cointegration and modelling cointegrating relationships?\n\ni) Only one cointegrating relationship can be estimated\n\nii) Particularly for small samples. There is a high chance of the tests suggestingthat variables are not cointegrated when they are\n\niii) It is not possible to make inferences on the cointegrating regression\n\niv) The procedure forces the researcher to specify which is the dependent variable and which are the independent variables.",
+        "Suppose that the following regression is estimated using 27 quarterly observations:\n\n$y_t = \\beta_1 + \\beta_2 x_2 + \\beta_3 x_{3t} + u_t$\n\nWhat is the appropriate critical value for a 2-sided 5% size of test of $H_0: \\beta_3 = 1$?",
+        "Which of the following are advantages of the VAR approach to modelling the relationship between variables relative to the estimation of full structural models?\n\ni) VARs receive strong motivation from financial and economic theory\n\n\nii) VARs in their reduced forms can be used easily to produce time-series forecasts\n\n\niii) VAR models are typically highly parsimonious\n\n\niv) OLS can be applied separately to each equation in a reduced form VAR",
+        "Which of the following statements is TRUE concerning the standard regression model?",
+        "Suppose that the Durbin Watson test is applied to a regression containing two explanatory variables plus a constant with 50 data points. The test statistic takes a value of 1.53. What is the appropriate conclusion?",
+        "Under which of the following situations would bootstrapping be preferred to pure simulation?\n\ni) If it is desired that the distributional properties of the data in the experiment\n\nare the same as those of some actual data\n\n\nii) If it is desired that the distributional properties of the data in the experiment\n\nare known exactly\n\n\niii) If the distributional properties of the actual data are unknown\n\n\niv) If the sample of actual data available is very small",
+        "Which of the following statements is INCORRECT concerning a comparison of the Box-Pierce Q and the Ljung-Box Q* statistics for linear dependence in time series?",
+        "Which of the following may be consequences of one or more of the CLRM assumptions being violated?\n\ni) The coefficient estimates are not optimal\n\n\nii) The standard error estimates are not optimal\n\n\niii) The distributions assumed for the test statistics are inappropriate\n\n\niv) Conclusions regarding the strength of relationships between the dependent\n\nand independent variables may be invalid.",
+        "Which of the following statements are true concerning the standardised residuals (residuals divided by their respective conditional standard deviations) from an estimated GARCH model?\n\ni) They are assumed to be normally distributed\n\n\nii) Their squares will be related to their lagged squared values if the GARCH model is\n\nappropriate\n\n\niii) In practice, they are likely to have fat tails\n\n\niv) If the GARCH model is adequate, the standardised residuals and the raw residuals\n\nwill be identical",
+        "Which of the following statements is true concerning forecasting in econometrics?",
+        "The pacf is necessary for distinguishing between",
+        "Consider the OLS estimator for the standard error of the slope coefficient. Which of the following statement(s) is (are) true?\n\n(i) The standard error will be positively related to the residual variance\n\n(ii) The standard error will be negatively related to the dispersion of the observations on the explanatory variable about their mean value\n\n(iii) The standard error will be negatively related to the sample size\n\n(iv) The standard error gives a measure of the precision of the coefficient estimate.",
+        "If a series, y, follows a random walk with drift b, what is the optimal one-step ahead forecast of the change in y?",
+        "Which of the following statements are true concerning a comparison between ARCH(q) and GARCH(1,1) models?\n\ni) The ARCH(q) model is likely to be the more parsimonious\n\n\nii) The ARCH(q) model is the more likely to violate non-negativity constraints\n\n\niii) The ARCH(q) model can allow for an infinite number of previous lags of squared\n\nreturns to affect the current conditional variance\n\n\niv) The GARCH(1,1) model will usually be sufficient to capture all of the dependence\n\nin the conditional variance"
+    ],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "which one of the following statements is true concerning vars",
+            "content": "which one of the following statements is true concerning vars a the coefficient estimates have intuitive theoretical interpretations b the coefficient",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%206/ch06.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which one of the following statements is true concerning vars",
+            "content": "var lag length which one of the following statements is true a the choice of stiffness of penalty term will not affect the model choice english vietnam",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-dai-hoc-quoc-gia-ha-noi/economics-and-medical/test-bank-questions-chapter-6/57893370",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following statements is incorrect concerning the classical hypothesis testing framework",
+            "content": "which of the following statements is incorrect concerning the classical hypothesis testing framework a if the null hypothesis is rejected the alternative",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter12/Chapter12.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "which of the following statements is incorrect concerning the classical hypothesis testing framework",
+            "content": "which of the following statements is incorrect concerning the classical hypothesis testing framework a if the null hypothesis is rejected the alternative is",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-an-giang/kinh-te-hoc-dai-cuong/financial-econometrics/95053562",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "suppose that the value of r2 for an estimated regression model is exactly zero which of the following are true i all coefficient estimates on the slopes will be zero ii the fitted line will be horizontal with respect to all of the explanatory variables iii the regression line has not explained any of the variability of y about its mean value iv the intercept coefficient estimate must be zero",
+            "content": "suppose that the value of r2 for an estimated regression model is exactly zero 2 would have identical values of r2 if the estimated coefficient on α3 is zero",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-an-giang/kinh-te-hoc-dai-cuong/financial-econometrics/95053562",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "suppose that the value of r2 for an estimated regression model is exactly zero which of the following are true i all coefficient estimates on the slopes will be zero ii the fitted line will be horizontal with respect to all of the explanatory variables iii the regression line has not explained any of the variability of y about its mean value iv the intercept coefficient estimate must be zero",
+            "content": "15 suppose that the value of r 2 for an estimated regression model is exactly zero which of the following are true i all coefficient estimates",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-luat-ha-noi/treasury-management/ecomcqchap-3-mcq/15777078",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "suppose that 100 separate firms were tested to determine how many of them beat the market using a jensentype regression and it is found that 3 fund managers significantly do so does this suggest prima facie evidence for stock market inefficiency",
+            "content": "8 suppose that 100 separate firms were tested to determine how many of them beat the market using a jensentype regression and it is found that 3 fund",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%203/ch03.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "suppose that 100 separate firms were tested to determine how many of them beat the market using a jensentype regression and it is found that 3 fund managers significantly do so does this suggest prima facie evidence for stock market inefficiency",
+            "content": "suppose that 100 separate firms were tested to determine how many of them beat the market using a jensentype regression and it is found that 3 fund",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-luat-ha-noi/treasury-management/ecomcqchap-3-mcq/15777078",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which one of the following is the most appropriate definition of a 99 confidence interval",
+            "content": "which one of the following is the most appropriate definition of a 99 confidence interval 99 of the time in repeated samples",
+            "url": "https://x.com/AmirFuturist/status/1885868711979962399",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following statements are true concerning information criteria i adjusted rsquared is an information criterion ii if the residual sum of squares falls when an additional term is added the value of the information criterion will fall iii akaikes information criterion always leads to model orders that are at least as large as those of schwarzs information criterion iv akaikes information criterion is consistent",
+            "content": "which of the following statements are true concerning information criteria i adjusted rsquared is an information criterion ii if the residual sum of",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%205/ch05.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following statements are true concerning information criteria i adjusted rsquared is an information criterion ii if the residual sum of squares falls when an additional term is added the value of the information criterion will fall iii akaikes information criterion always leads to model orders that are at least as large as those of schwarzs information criterion iv akaikes information criterion is consistent",
+            "content": "24 which of the following statements are true concerning information criteria i adjusted rsquared is an information criterion ii if the residual sum",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-luat-ha-noi/treasury-management/ecomcqchap-5-mcq/15777081",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "note that statistical tables are not necessary to answer this question for a sample of 1000 observations the dickeyfuller test statistic values are",
+            "content": "note that statistical tables are not necessary to answer this question for a sample of 1000 observations the dickeyfuller test statistic values are a",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%207/ch07.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following are advantages of the use of panel data over pure crosssectional or pure timeseries modelling i the use of panel data can increase the number of degrees of freedom and therefore the power of tests ii the use of panel data allows the average value of the dependent variable to vary either crosssectionally or over time or both iii the use of panel data enables the researcher allows the estimated relationship between the independent and dependent variables to vary either crosssectionally or over time or both",
+            "content": "i the use of panel data can increase the number of degrees of freedom and therefore the power of tests ii the use of panel data allows the average value",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%2010%2011%20and%2012/ch10_11_12.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which one of the following statements best describes the algebraic representation of the fitted regression line",
+            "content": "which one of the following statements best describes the algebraic representation of the fitted regression line a b c d correct the fitted value for y",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter12/Chapter12.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which one of the following statements best describes the algebraic representation of the fitted regression line",
+            "content": "which one of the following statements best describes the algebraic representation of the fitted regression line i ii iii iv → the fitted value for y is",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-an-giang/kinh-te-hoc-dai-cuong/financial-econometrics/95053562",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which one of the following statements best describes the algebraic representation of the fitted regression line",
+            "content": "fitted value yhat 6 which one of the following statements best describes the algebraic representation of the fitted regression line 7 the regression",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-thanh-pho-ho-chi-minh/kinh-te-luong/fe-all-the-answers/59836653",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which one of the following statements best describes the algebraic representation of the fitted regression line",
+            "content": "which one of the following statements best describes the algebraic representation of the fitted regression line al yt afkrut b yra1kt c yraaru1",
+            "url": "http://exampapers.nust.na:8080/greenstone3/library/collection/exampape/document/HASH017ebe437eb3a7fe6d2e4f2b;jsessionid=10B0BB1889C13D102831392CC3B73CE2?ed=1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which one of the following statements best describes the algebraic representation of the fitted regression line",
+            "content": "one of the following statements best describes the algebraic representation of the fitted regression line top of form a b c d bottom of form 10 which",
+            "url": "https://www.academia.edu/12132853/Chapter_1_and_2_mcqs_econometrics",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following statements is false concerning the linear probability model",
+            "content": "which of the following statements is false a for random effects models the use of ols would result in consistent but inefficient parameter estimation",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%2010%2011%20and%2012/ch10_11_12.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "which of the following statements is false concerning the linear probability model",
+            "content": "determine which of the following statements is not true about the linear probability logistic and probit regression models for binary dependent variables",
+            "url": "https://www.soa.org/globalassets/assets/Files/Edu/2018/exam-srm-sample-questions.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how many parameters will be required to be estimated in total for all equations of a standard form unrestricted trivariate var4 ignoring the intercepts",
+            "content": "how many parameters will be required to be estimated in total for all equations of a standard form unrestricted trivariate var4 ignoring the intercepts",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%206/ch06.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "how many parameters will be required to be estimated in total for all equations of a standard form unrestricted trivariate var4 ignoring the intercepts",
+            "content": "q4 how many parameters will be required to be estimated in total for all equations of a standard form unrestricted trivariate var 4 ignoring the",
+            "url": "https://archive.mu.ac.in/arts/social_science/eco/Sample%20questions%20Ecotrics%20old.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "how many parameters will be required to be estimated in total for all equations of a standard form unrestricted trivariate var4 ignoring the intercepts",
+            "content": "how many parameters will be required to be estimated in total for all equations of a standard form unrestricted trivariate var4 ignoring the intercepts17 stron",
+            "url": "https://sde.uoc.ac.in/sites/default/files/sde_videos/Advanced%20econometrics%28New%29.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which one of the following is a disadvantage of the general to specific or lse hendry approach to building econometric models relative to the specific to general approach",
+            "content": "which one of the following is a disadvantage of the general to specific or lse hendry approach to building econometric models relative to the specific to",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-luat-ha-noi/treasury-management/ecomcqchap-4-mcq/15777080",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which one of the following is a disadvantage of the general to specific or lse hendry approach to building econometric models relative to the specific to general approach",
+            "content": "lse” “hendry” approach to building econometric models relative to the specific to general approach the final model may lack theoretical interpretation",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-thanh-pho-ho-chi-minh/kinh-te-luong/fe-all-the-answers/59836653",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "which one of the following is a disadvantage of the general to specific or lse hendry approach to building econometric models relative to the specific to general approach",
+            "content": "which one of the following is a disadvantage of the general to specific or lse hendry approach to building econometric models relative to the specific to",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/chapter%204/ch04.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is a typical characteristic of financial asset return timeseries",
+            "content": "which of the following is a typical characteristic of financial asset return timeseries a their distributions are thintailed b they are not weakly",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-luat-ha-noi/treasury-management/ecomcqchap-5-mcq/15777081",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which one of the following would be the most appropriate as a 95 twosided confidence interval for the intercept term of the model given in question 21",
+            "content": "which one of the following would be the most appropriate as a 95 twosided confidence interval for the intercept term of the model given in question 21",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter12/Chapter12.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following could result in autocorrelated residuals i slowness of response of the dependent variable to changes in the values of the independent variables ii overreactions of the dependent variable to changes in the independent variables iii omission of relevant explanatory variables that are autocorrelated iv outliers in the data",
+            "content": "which of the following could result in autocorrelated residuals i slowness of response of the dependent variable to changes in the values of the independent",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-thanh-pho-ho-chi-minh/kinh-te-luong/dap-an-chapter-5/115688043",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following could result in autocorrelated residuals i slowness of response of the dependent variable to changes in the values of the independent variables ii overreactions of the dependent variable to changes in the independent variables iii omission of relevant explanatory variables that are autocorrelated iv outliers in the data",
+            "content": "following could result in autocorrelated residuals i slowness of response of the dependent variable to changes in the values of the independent variables ii",
+            "url": "https://www.academia.edu/26343582/Practice_Multiple_Choice_Questions_and_Feedback_Chapter_4",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "which of the following could result in autocorrelated residuals i slowness of response of the dependent variable to changes in the values of the independent variables ii overreactions of the dependent variable to changes in the independent variables iii omission of relevant explanatory variables that are autocorrelated iv outliers in the data",
+            "content": "10which of the following could result in autocorrelated residuals islowness of response of the dependent variable to changes in the values",
+            "url": "https://www.docsity.com/en/economicsfryouand-not-abour/7627363",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "which of the following could result in autocorrelated residuals i slowness of response of the dependent variable to changes in the values of the independent variables ii overreactions of the dependent variable to changes in the independent variables iii omission of relevant explanatory variables that are autocorrelated iv outliers in the data",
+            "content": "which of the following could result in autocorrelated residuals i slowness of response of the dependent variable to changes in the values of the",
+            "url": "https://pdfcoffee.com/practice-multiple-choice-questions-and-f-pdf-free.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following statements concerning the regression population and sample is false",
+            "content": "which of the following statements concerning the regression population and sample is false a the population is the total collection of all items of interest",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter12/Chapter12.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following statements concerning the regression population and sample is false",
+            "content": "which of the following statements concerning the regression population and sample is false a the population is the total collection of all items of interest b",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-an-giang/kinh-te-hoc-dai-cuong/financial-econometrics/95053562",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following statements concerning the regression population and sample is false",
+            "content": "which of the following statements concerning the regression population and sample is false a the population is the total collection of all items of interest b",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-thanh-pho-ho-chi-minh/kinh-te-luong/tn-ktl-eng-multiple-choice/25070013",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following statements concerning the regression population and sample is false",
+            "content": "which of the following statements concerning the regression population and sample is false top of form a the population is the total collection of all",
+            "url": "https://www.academia.edu/12132853/Chapter_1_and_2_mcqs_econometrics",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following statements concerning the regression population and sample is false",
+            "content": "which of the following statements concerning the regression population and sample is false a the population is the total collection of all items of interest",
+            "url": "http://exampapers.nust.na:8080/greenstone3/library/collection/exampape/document/HASH5b23da09d5d91691cecc81;jsessionid=E5F35429CEB4573A8DA924F091E15F24?ed=1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following assumptions are required to show the consistency unbiasedness and efficiency of the ols estimator i eut 0 ii textvarut sigma2 iii textcovut utj 0 forall j iv ut sim n0 sigma2",
+            "content": "1 which of the following assumptions are required to show the consistency unbiasedness and efficiency of the ols estimator i eut 0 ii varut σ 27 stron",
+            "url": "https://www.gdcollegebegusarai.com/course_materials/july/eco192.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "consider again the var model of equation 16 which of the following conditions must hold for it to be said that there is bidirectional feedback",
+            "content": "which of the following conditions must hold for it to be said that there is bidirectional feedback a the b and d coefficients significant and the a and c",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%206/ch06.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "including relevant lagged values of the dependent variable on the right hand side of a regression equation could lead to which one of the following",
+            "content": "including relevant lagged values of the dependent variable on the right hand side of a regression equation could lead to which one of the following a",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/chapter%204/ch04.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "including relevant lagged values of the dependent variable on the right hand side of a regression equation could lead to which one of the following",
+            "content": "11 including relevant lagged values of the dependent variable on the right hand side of a regression equation could lead to which one of the following",
+            "url": "https://www.mgu.ac.in/inc/uploads/2020/03/econometrics-qb.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "including relevant lagged values of the dependent variable on the right hand side of a regression equation could lead to which one of the following",
+            "content": "16 including relevant lagged values of the dependent variable on the right hand side of a regression equation could lead to which one of the following d",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-luat-ha-noi/treasury-management/ecomcqchap-4-mcq/15777080",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "including relevant lagged values of the dependent variable on the right hand side of a regression equation could lead to which one of the following",
+            "content": "76 including relevant lagged values of the dependent variable on the right hand side of a regression equation could lead to which one of the following",
+            "url": "https://sde.uoc.ac.in/sites/default/files/sde_videos/Basic%20Econometrics.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the fixed effects panel model is also sometimes known as",
+            "content": "the fixed effects panel model can be estimated using dummy variables for each entity with crosssectional fixed effects or for each time period for time",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%2010%2011%20and%2012/ch10_11_12.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "suppose that two researchers using the same 3 variables and the same 250 observations on each variable estimate a var one estimates a var6 while the other estimates a var4 the determinants of the variancecovariance matrices of the residuals for each var are 00036 and 00049 respectively what is the values of the test statistic for performing a test of whether the var6 can be restricted to a var4",
+            "content": "suppose that two researchers using the same 3 variables and the same 250 observations on each variable estimate a var one estimates a var6 while the",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%206/ch06.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following statements is true concerning the population regression function prf and sample regression function srf",
+            "content": "which of the following statements is true concerning the population regression function prf and sample regression function srf a the prf is the",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter12/Chapter12.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following statements is true concerning the population regression function prf and sample regression function srf",
+            "content": "which of the following statements are true concerning the population regression function prf and sample regression function srf a the prf is the",
+            "url": "https://wuolah.com/apuntes/applied-econometrics-for-international-business-and-economics/aeco-review-questions-aeco-review-lesson-2-pdf-10550125",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following statements is true concerning the population regression function prf and sample regression function srf",
+            "content": "8 which of the following statements is true concerning the population regression function prf and sample regression function srf a the prf is the",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-thanh-pho-ho-chi-minh/kinh-te-luong/tn-ktl-eng-multiple-choice/25070013",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "consider a series that follows an ma1 with zero mean and a moving average coefficient of 04 what is the value of the autocovariance at lag 1",
+            "content": "consider a series that follows an ma1 with zero mean and a moving average coefficient of 04 what is the value of the autocovariance at lag 1 a 04 b 1",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%205/ch05.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "consider a series that follows an ma1 with zero mean and a moving average coefficient of 04 what is the value of the autocovariance at lag 1",
+            "content": "ma1 with zero mean and a moving average coefficient of 04 what is the value of the autocovariance at lag 1 a 04 b 1 c 034 d it",
+            "url": "https://www.transtutors.com/questions/consider-a-series-that-follows-an-ma-1-with-zero-mean-and-a-moving-average-coefficie-855283.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "consider a series that follows an ma1 with zero mean and a moving average coefficient of 04 what is the value of the autocovariance at lag 1",
+            "content": "consider a series that follows an ma1 with zero mean and a moving average coefficient of 0 what is the value of the autocorrelation function at lag 1 a",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-dai-hoc-quoc-gia-ha-noi/economics-and-medical/test-bank-questions-chapter-5/57893359",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which of the following are characteristics of a stationary process i it crosses its mean value frequently ii it has constant mean and variance iii it contains no trend component iv it will be stationary in first difference form",
+            "content": "câu hỏi 14 which of the following are characteristics of a stationary process i it crosses its mean value frequently ii it has constant mean and variance",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-thanh-pho-ho-chi-minh/kinh-te-luong/de-midterm-ktl-de-midterm-ktl/97907916",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is a disadvantage of using pure timeseries models relative to structural models",
+            "content": "which of the following is a disadvantage of using pure timeseries models relative to structural models a they are not theoretically motivated b they",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-luat-ha-noi/treasury-management/ecomcqchap-5-mcq/15777081",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the characteristic roots of the ma process yt 3ut1 ut2 ut are",
+            "content": "the characteristic roots of the ma process y t 3 u t 1 u t 2 u t are a 1 and 2 b 1 and 05 c 2 and 05 d 1 and 3",
+            "url": "https://www.transtutors.com/questions/the-characteristic-roots-of-the-ma-process-y-t-3-u-t-1-u-t-2-u-t-are-a-1-and-2-b-1-a-3197060.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following statements is true concerning ols estimation",
+            "content": "which of the following statements is true concerning ols estimation a ols minimises the sum of the vertical distances from the points to the line b ols",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter12/Chapter12.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which of the following statements is true concerning ols estimation",
+            "content": "which of the following statements is true concerning ols estimation a ols minimizes the sum of the vertical distances from the points to the line b ols",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-an-giang/kinh-te-hoc-dai-cuong/financial-econometrics/95053562",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following could be used as a test for autocorrelation up to third order",
+            "content": "check your answer 9 which of the following could be used as a test for autocorrelation up to third order a the durbin watson test b whites test c",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/chapter%204/ch04.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if there were a leverage effect in practice what would be the shape of the news impact curve for as model that accounted for that leverage",
+            "content": "if there were a leverage effect in practice what would be the shape of the news impact curve for as model that accounted for that leverage a it would",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter8and9/ch089.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "consider an identical situation to that of question 21 except that now a 2sided alternative is used what would now be the appropriate conclusion",
+            "content": "consider an identical situation to that of question 21 except that now a 2sided alternative is used what would now be the appropriate conclusion a h0",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter12/Chapter12.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "consider an identical situation to that of question 21 except that now a 2sided alternative is used what would now be the appropriate conclusion",
+            "content": "17 consider an identical situation to that of question 16 except that now a 2sided alternative is used what would now be the appropriate conclusion",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-thanh-pho-ho-chi-minh/kinh-te-luong/tn-ktl-eng-multiple-choice/25070013",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "consider an identical situation to that of question 21 except that now a 2sided alternative is used what would now be the appropriate conclusion",
+            "content": "consider an identical situation to that of question 21 except that now a 2sided alternative is used what would now be the appropriate conclusion top of",
+            "url": "https://www.academia.edu/12132853/Chapter_1_and_2_mcqs_econometrics",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "consider an identical situation to that of question 21 except that now a 2sided alternative is used what would now be the appropriate conclusion",
+            "content": "consider an identical situation to that of question 16 except that now a 2sided alternative is used what would now be the appropriate conclusion i h0",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-thanh-pho-ho-chi-minh/kinh-te-luong-tai-chinh/tai-lieu-khong-co-tieu-de/89632184",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "consider an identical situation to that of question 21 except that now a 2sided alternative is used what would now be the appropriate conclusion",
+            "content": "2sided test while the question specifies a 5 significance level consider an identical situation to that of question 21 except that now a 2sided",
+            "url": "https://fr.scribd.com/document/476251163/Practice-Multiple-Choice-Questions-and-Feedback-Chapters-1-and-2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "suppose that we are interested in testing the null hypothesis that a garch22 model can be restricted to a process with a constant conditional variance using the likelihood ratio test approach which of the following statements are true",
+            "content": "suppose that we are interested in testing the null hypothesis that a garch22 model can be restricted to a process with a constant conditional variance using",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter8and9/ch089.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "suppose that we are interested in testing the null hypothesis that a garch22 model can be restricted to a process with a constant conditional variance using the likelihood ratio test approach which of the following statements are true",
+            "content": "garch22 model can be restricted to a process with a constant conditional variance using the likelihood ratio test approach which of the following",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-thanh-pho-ho-chi-minh/kinh-te-luong-tai-chinh/ktltcnc-test-bank-bai-kiem-tra/78175105",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a dependent variable whose values are not observable outside a certain range but where the corresponding values of the independent variables are still available would be most accurately described as what kind of variable",
+            "content": "corresponding values of the independent variables are still available would be most accurately described as what kind of variable 10 you plan to go",
+            "url": "https://www.hss.iitb.ac.in/sites/default/files/2023-06/Economics_1_0.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is an equivalent expression for saying that the explanatory variable is nonstochastic",
+            "content": "which of the following is an equivalent expression for saying that the explanatory variable is nonstochastic a the explanatory variable is partly random",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter12/Chapter12.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following is an equivalent expression for saying that the explanatory variable is nonstochastic",
+            "content": "which of the following is an equivalent expression for saying that the explanatory variable is “nonstochastic” the explanatory variable is fixed in repeated",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-thanh-pho-ho-chi-minh/kinh-te-luong/fe-all-the-answers/59836653",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the price of a house is best described as what type of number",
+            "content": "the price of a house is best described as what type of number a discrete b cardinal c ordinal d nominal correct the price of a house is not a",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter12/Chapter12.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "suppose that we have estimated a garch model for daily equity returns and we are interested in producing a 10day forecast of the volatility measured by the standard deviation of returns for use in a value at risk model how could such a forecast most validly be calculated",
+            "content": "suppose that we have estimated a garch model for daily equity returns and we are interested in producing a 10day forecast of the volatility measured by",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter8and9/ch089.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "suppose that we have estimated a garch model for daily equity returns and we are interested in producing a 10day forecast of the volatility measured by the standard deviation of returns for use in a value at risk model how could such a forecast most validly be calculated",
+            "content": "10 suppose that we have estimated a garch model for daily equity returns and we are interested in producing a 10day forecast of the volatility measured",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-thanh-pho-ho-chi-minh/kinh-te-luong-tai-chinh/ktltcnc-test-bank-bai-kiem-tra/78175105",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following statements is true concerning the standard regression model",
+            "content": "which of the following statements is true concerning the standard regression model a y has a probability distribution b x has a probability distribution",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter12/Chapter12.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following statements is true concerning the standard regression model",
+            "content": "which of the following statements is true concerning the standard regression model a y has a probability distribution b x has a probability distribution",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-an-giang/kinh-te-hoc-dai-cuong/financial-econometrics/95053562",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which of the following statements is true concerning the standard regression model",
+            "content": "6 which of the following statements is true concerning the standard regression model a y has a probability distribution b x has a",
+            "url": "http://gauss.stat.su.se/exp/tentor/Ekonometrics/EKONOMETRI%201/VT22%20Ek1%20220530.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "which of the following statements is true concerning the standard regression model",
+            "content": "following statements is true concerning the standard regression model top of form a y has a probability distribution b x has a probability distribution c",
+            "url": "https://www.academia.edu/12132853/Chapter_1_and_2_mcqs_econometrics",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "suppose that the durbin watson test is applied to a regression containing two explanatory variables plus a constant with 50 data points the test statistic takes a value of 153 what is the appropriate conclusion",
+            "content": "the test statistic takes a value of 153 what is the appropriate conclusion a residuals appear to be positively autocorrelated",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/chapter%204/ch04.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "suppose that the durbin watson test is applied to a regression containing two explanatory variables plus a constant with 50 data points the test statistic takes a value of 153 what is the appropriate conclusion",
+            "content": "suppose that the durbin watson test is applied to a regression containing two explanatory variables plus a constant e equation 2 above with 50 data points",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-luat-ha-noi/treasury-management/ecomcqchap-4-mcq/15777080",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which one of the following is not a plausible remedy for near multicollinearity",
+            "content": "which one of the following is not a plausible remedy for near multicollinearity a use principal components analysis b drop one of the collinear variables",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/chapter%204/ch04.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which one of the following is not a plausible remedy for near multicollinearity",
+            "content": "q which one of the following is not a plausible remedy for near multicollinearity a use principal components analysis b drop one of the",
+            "url": "https://mcqmate.com/discussion/122462/which-one-of-the-following-is-not-a-plausible-remedy-for-near-multicollinearity",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which one of the following is not a plausible remedy for near multicollinearity",
+            "content": "1 which one of the following is not a plausible remedy for near multicollinearity take logarithms of each of the variable drop one of the collinear",
+            "url": "https://gmstat.com/tag/mcqs-multicollinearity/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which one of the following is not a plausible remedy for near multicollinearity",
+            "content": "12 which one of the following is not a plausible remedy for near multicollinearity ause principal components analysis bdrop one of the collinear variables",
+            "url": "https://www.mgu.ac.in/inc/uploads/2020/03/econometrics-qb.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "which one of the following is not a plausible remedy for near multicollinearity",
+            "content": "12 which one of the following is not a plausible remedy for near multicollinearity ause principal components analysis bdrop one of the collinear variables",
+            "url": "https://www.gdcollegebegusarai.com/course_materials/july/eco192.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if the standard tools for timeseries analysis such as estimation of the acf pacf and spectral analysis find no evidence of structure in the data this implies that the data are which of the following",
+            "content": "2 if the standard tools for timeseries analysis such as estimation of the acf pacf and spectral analysis find no evidence of structure in the data",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter8and9/ch089.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "if the standard tools for timeseries analysis such as estimation of the acf pacf and spectral analysis find no evidence of structure in the data this implies that the data are which of the following",
+            "content": "if the standard tools for timeseries analysis such as estimation of the acf pacf and spectral analysis find no evidence of structure in the data this",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-thanh-pho-ho-chi-minh/kinh-te-luong-tai-chinh/ktltcnc-test-bank-bai-kiem-tra/78175105",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "if the standard tools for timeseries analysis such as estimation of the acf pacf and spectral analysis find no evidence of structure in the data this implies that the data are which of the following",
+            "content": "if the standard tools for timeseries analysis such as estimation of the acf pacf and spectral analysis find no evidence of structure in the data this",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-thanh-pho-ho-chi-minh/kinh-te-luong/chapter-9-kinh-te-luong-tai-chinh/105124798",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following features of financial asset return timeseries could be captured using a standard garch11 model i fat tails in the return distribution ii leverage effects iii volatility clustering iv volatility affecting returns",
+            "content": "following features of financial asset return timeseries could be captured using a standard garch11 model i fat tails in the return distribution ii",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-thanh-pho-ho-chi-minh/kinh-te-luong/chapter-9-kinh-te-luong-tai-chinh/105124798",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which one of the following factors is likely to lead to a relatively high degree of outofsample forecast accuracy",
+            "content": "which one of the following factors is likely to lead to a relatively high degree of outof sample forecast accuracy a a model that is based on financial",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-luat-ha-noi/treasury-management/ecomcqchap-5-mcq/15777081",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a parsimonious model is one that",
+            "content": "a parsimonious model is a model that achieves a desired level of goodness of fit using as few explanatory variables as possible",
+            "url": "https://www.statology.org/parsimonious-model/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "consider the estimation of a garchm model if the data employed were a timeseries of daily corporate bond percentage returns which of the following would you expect the value of the garchinmean parameter estimate to be",
+            "content": "if the data employed were a timeseries of daily corporate bond percentage returns which of the following would you expect the value of the garchinmean",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter8and9/ch089.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "consider the estimation of a garchm model if the data employed were a timeseries of daily corporate bond percentage returns which of the following would you expect the value of the garchinmean parameter estimate to be",
+            "content": "timeseries of daily corporate bond percentage returns which of the following would you expect the value of the garchinmean parameter estimate to be may",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-thanh-pho-ho-chi-minh/kinh-te-luong-tai-chinh/ktltcnc-test-bank-bai-kiem-tra/78175105",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is correct concerning logit and probit models",
+            "content": "response a is correct since the logit and probit models are similar in spirit they both use a transformation of the model so that the estimated probabilities",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%2010%2011%20and%2012/ch10_11_12.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which one of the following is not an example of misspecification of functional form",
+            "content": "which one of the following is not an example of misspecification of functional form a using a linear specification when y scales as a function of the",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/chapter%204/ch04.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which one of the following is not an example of misspecification of functional form",
+            "content": "14 which one of the following is not an example of mis specification of functional form a using a linear specification when y scales as a function of the",
+            "url": "https://www.mgu.ac.in/inc/uploads/2020/03/econometrics-qb.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which one of the following is not an example of misspecification of functional form",
+            "content": "d none of the above 62 which one of the following is not an example of misspecification of functional form a using a linear specification",
+            "url": "https://sde.uoc.ac.in/sites/default/files/sde_videos/Basic%20Econometrics.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which one of the following is not an example of misspecification of functional form",
+            "content": "14 which one of the following is not an example of mis specification of functional form a using a linear specification when y scales as a function of the",
+            "url": "https://www.gdcollegebegusarai.com/course_materials/july/eco192.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "which one of the following is not an example of misspecification of functional form",
+            "content": "q10 which one of the following is not an example of misspecification of functional form a using a linear specification when a double logarithmic model would",
+            "url": "https://library.bits-pilani.ac.in/backend-media/papers/ECON%20F241/2023/Second/1155_ECON_F241_20230601113040_Comprehensive_Exam_Question_Paper.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "suppose that we wished to evaluate the factors that affected the probability that an investor would choose an equity fund rather than a bond fund or a cash investment which class of model would be most appropriate",
+            "content": "would choose an equity fund rather than a bond fund or a cash investment which class of model would be most appropriate a a logit model b a multinomial",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%2010%2011%20and%2012/ch10_11_12.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following statements is incorrect concerning a comparison of the boxpierce q and the ljungbox q statistics for linear dependence in time series",
+            "content": "which of the following statements is incorrect concerning a comparison of the boxpierce q and the ljungbox q statistics for linear dependence in time series",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%205/ch05.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following statements is incorrect concerning a comparison of the boxpierce q and the ljungbox q statistics for linear dependence in time series",
+            "content": "which of the following statements is incorrect concerning a comparison of the boxpierce q and the ljungbox q statistics for linear dependence in time series",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-luat-ha-noi/treasury-management/ecomcqchap-5-mcq/15777081",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which one of the following statements is true concerning alternative forecast accuracy measures",
+            "content": "which one of the following statements is true concerning alternative forecast accuracy measures a mean squared error is usually highly correlated with",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%205/ch05.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following may be consequences of one or more of the clrm assumptions being violated i the coefficient estimates are not optimal ii the standard error estimates are not optimal iii the distributions assumed for the test statistics are inappropriate iv conclusions regarding the strength of relationships between the dependent and independent variables may be invalid",
+            "content": "which of the following may be consequences of one or more of the clrm assumptions being violated i the coefficient estimates are not optimal ii the standard",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-luat-ha-noi/treasury-management/ecomcqchap-4-mcq/15777080",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following may be consequences of one or more of the clrm assumptions being violated i the coefficient estimates are not optimal ii the standard error estimates are not optimal iii the distributions assumed for the test statistics are inappropriate iv conclusions regarding the strength of relationships between the dependent and independent variables may be invalid",
+            "content": "following may be consequences of one or more of the clrm assumptions being violated relationships between the dependent and independent variables may",
+            "url": "https://www.academia.edu/26343582/Practice_Multiple_Choice_Questions_and_Feedback_Chapter_4",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following may be consequences of one or more of the clrm assumptions being violated i the coefficient estimates are not optimal ii the standard error estimates are not optimal iii the distributions assumed for the test statistics are inappropriate iv conclusions regarding the strength of relationships between the dependent and independent variables may be invalid",
+            "content": "2 which of the following may be consequences of one or more of the clrm assumptions being violated i the coefficient estimates are not optimal ii the",
+            "url": "https://www.gdcollegebegusarai.com/course_materials/july/eco192.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if a relevant variable is omitted from a regression equation the consequences would be that i the standard errors would be biased ii if the excluded variable is uncorrelated with all of the included variables all of the slope coefficients will be inconsistent iii if the excluded variable is uncorrelated with all of the included variables the intercept coefficient will be inconsistent iv if the excluded variable is uncorrelated with all of the included variables all of the slope and intercept coefficients will be consistent and unbiased but inefficient",
+            "content": "ii if the excluded variable is uncorrelated with all of the included variables all of the slope coefficients will be inconsistent iii if the excluded",
+            "url": "https://www.mgu.ac.in/inc/uploads/2020/03/econometrics-qb.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following conditions are necessary for a series to be classifiable as a weakly stationary process i it must have a constant mean ii it must have a constant variance iii it must have constant autocovariances for given lags iv it must have a constant probability distribution",
+            "content": "3 which of the following conditions are necessary for a series to be classifiable as a weakly stationary process i it must have a constant mean ii it",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%205/ch05.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following conditions are necessary for a series to be classifiable as a weakly stationary process i it must have a constant mean ii it must have a constant variance iii it must have constant autocovariances for given lags iv it must have a constant probability distribution",
+            "content": "which of the following conditions are necessary for a series to be classifiable as a weakly stationary process i it must have a constant mean",
+            "url": "https://www.transtutors.com/questions/which-of-the-following-conditions-are-necessary-for-a-series-to-be-classifiable-as-a-855268.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which of the following conditions are necessary for a series to be classifiable as a weakly stationary process i it must have a constant mean ii it must have a constant variance iii it must have constant autocovariances for given lags iv it must have a constant probability distribution",
+            "content": "which of the following conditions are necessary for a series to be classifiable as a weakly stationary process i it must have a constant mean ii it must",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-luat-ha-noi/treasury-management/ecomcqchap-5-mcq/15777081",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "which of the following conditions are necessary for a series to be classifiable as a weakly stationary process i it must have a constant mean ii it must have a constant variance iii it must have constant autocovariances for given lags iv it must have a constant probability distribution",
+            "content": "which of the following conditions are necessary for a series to be classifiable as a weakly stationary process i it must have a constant mean ii it must",
+            "url": "https://www.shahandanchor.com/extc/wp-content/uploads/Sample-Question-Paper_R19_EXTC_V_ECC504_RSA_QP.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following statements is true concerning forecasting in econometrics",
+            "content": "which of the following statements is true concerning forecasting in econometrics a forecasts can only be made for timeseries data b misspecified models",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%205/ch05.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following are plausible approaches to dealing with residual autocorrelation i take logarithms of each of the variables ii add lagged values of the variables to the regression equation iii use dummy variables to remove outlying observations iv try a model in first differenced form rather than in levels",
+            "content": "14 which of the following are plausible approaches to dealing with residual autocorrelation i take logarithms of each of the variables ii add lagged values",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-luat-ha-noi/treasury-management/ecomcqchap-4-mcq/15777080",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following are plausible approaches to dealing with residual autocorrelation i take logarithms of each of the variables ii add lagged values of the variables to the regression equation iii use dummy variables to remove outlying observations iv try a model in first differenced form rather than in levels",
+            "content": "atake logarithms of each of the variables badd lagged values of the variables to the regression equation c use dummy variables to remove outlying",
+            "url": "https://www.mgu.ac.in/inc/uploads/2020/03/econometrics-qb.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the purpose of augmenting the dickeyfuller test regression is to",
+            "content": "thus the purpose of augmenting the test regression is to soak up any autocorrelation that may be present in the dependent variable so that the residuals are",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%207/ch07.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the residual from a standard regression model is defined as",
+            "content": "the residual from a standard regression model is defined as a the difference between the actual value y and the mean ybar b the difference between the",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter12/Chapter12.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the pacf is necessary for distinguishing between",
+            "content": "4 the pacf partial autocorrelation function is necessary for distinguishing between a an ar and ma model issolution false b an ar and an arma",
+            "url": "https://www.gkseries.com/multiple-choice-questions-and-answers-on-time-series-analysis/questions-on-time-series.php",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the pacf is necessary for distinguishing between",
+            "content": "32 the pacf partial autocorrelation function is necessary for distinguishing between 33 second differencing in time series can",
+            "url": "https://www.analyticsvidhya.com/blog/2017/04/40-questions-on-time-series-solution-skillpower-time-series-datafest-2017/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "the pacf is necessary for distinguishing between",
+            "content": "the partial autocorrelation function pacf is a crucial tool in time series analysis for distinguishing between different types of models",
+            "url": "https://studyx.ai/questions/4lf8ccg/question-48-the-pact-partial-autocorrelation-function-is-necessary-for-distinguishing",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following are alternative names for the independent variable usually denoted by x in linear regression analysis i the regressor ii the regressand iii the causal variable iv the effect variable",
+            "content": "which of the following are alternative names for the independent variable usually denoted by x in linear regression analysis i the regressor ii the",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-thanh-pho-ho-chi-minh/tai-chinh-doanh-nghiep/econometrics/12472772",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following are alternative names for the independent variable usually denoted by x in linear regression analysis i the regressor ii the regressand iii the causal variable iv the effect variable",
+            "content": "usually denoted by x in linear regression analysis i the regressor ii the regressand iii the causal variable iv the effect variable a ii and",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-an-giang/kinh-te-hoc-dai-cuong/financial-econometrics/95053562",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following are alternative names for the independent variable usually denoted by x in linear regression analysis i the regressor ii the regressand iii the causal variable iv the effect variable",
+            "content": "which of the following are alternative names for the independent variable usually denoted by 5 x in linear regression analysis i the regressor ii the",
+            "url": "https://fr.scribd.com/document/476251163/Practice-Multiple-Choice-Questions-and-Feedback-Chapters-1-and-2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following are plausible approaches to dealing with a model that exhibits heteroscedasticity i take logarithms of each of the variables ii use suitably modified standard errors iii use a generalised least squares procedure iv add lagged values of the variables to the regression equation",
+            "content": "approaches to dealing with a model that exhibits heteroscedasticity squares procedure iv add lagged values of the variables to the regression equation",
+            "url": "https://www.academia.edu/26343582/Practice_Multiple_Choice_Questions_and_Feedback_Chapter_4",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following are plausible approaches to dealing with a model that exhibits heteroscedasticity i take logarithms of each of the variables ii use suitably modified standard errors iii use a generalised least squares procedure iv add lagged values of the variables to the regression equation",
+            "content": "atake logarithms of each of the variables badd lagged values of the variables to the regression equation c use dummy variables to remove outlying 16 stron",
+            "url": "https://www.mgu.ac.in/inc/uploads/2020/03/econometrics-qb.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following statements are true concerning the boxjenkins approach to diagnostic testing for arma models i the tests will show whether the identified model is either too large or too small ii the tests involve checking the model residuals for autocorrelation heteroscedasticity and nonnormality iii if the model suggested at the identification stage is appropriate the acf and pacf for the residuals should show no additional structure iv if the model suggested at the identification stage is appropriate the coefficients on the additional variables under the overfitting approach will be statistically insignificant",
+            "content": "true concerning the boxjenkins approach to diagnostic testing for arma models i the tests will show whether the identified model is either too large or too",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-luat-ha-noi/treasury-management/ecomcqchap-5-mcq/15777081",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following statements are true concerning the boxjenkins approach to diagnostic testing for arma models i the tests will show whether the identified model is either too large or too small ii the tests involve checking the model residuals for autocorrelation heteroscedasticity and nonnormality iii if the model suggested at the identification stage is appropriate the acf and pacf for the residuals should show no additional structure iv if the model suggested at the identification stage is appropriate the coefficients on the additional variables under the overfitting approach will be statistically insignificant",
+            "content": "which of the following statements are true concerning the boxjenkins approach to diagnostic testing for arma models i the tests will show whether the",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%205/ch05.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "negative residual autocorrelation is indicated by which one of the following",
+            "content": "7negative residual autocorrelation is indicated by which one of the following aa cyclical pattern in the residual ban alternating pattern in the residuals",
+            "url": "https://www.mgu.ac.in/inc/uploads/2020/03/econometrics-qb.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "negative residual autocorrelation is indicated by which one of the following",
+            "content": "7negative residual autocorrelation is indicated by which one of the following aa cyclical pattern in the residual ban alternating pattern in the residuals",
+            "url": "https://www.gdcollegebegusarai.com/course_materials/july/eco192.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "consider the ols estimator for the standard error of the slope coefficient which of the following statements is are true i the standard error will be positively related to the residual variance ii the standard error will be negatively related to the dispersion of the observations on the explanatory variable about their mean value iii the standard error will be negatively related to the sample size iv the standard error gives a measure of the precision of the coefficient estimate",
+            "content": "which of the following statements is are true i the standard error will be positively related to the residual variance ii the standard error will be",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter12/Chapter12.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which one of the following would be a plausible response to a finding of residual nonnormality",
+            "content": "which one of the following would be a plausible response to a finding of residual nonnormality a use a logarithmic functional form instead of a linear one",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/chapter%204/ch04.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "if a series y follows a random walk with drift b what is the optimal onestep ahead forecast of the change in y",
+            "content": "if a series y follows a random walk with drift b what is the optimal onestep ahead forecast of the change in y a the current value of y b zero c",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%205/ch05.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "if a series y follows a random walk with drift b what is the optimal onestep ahead forecast of the change in y",
+            "content": "if a series y follows a random walk with drift b what is the optimal onestep ahead forecast of the change in y a the current value of y b zero c one",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-luat-ha-noi/treasury-management/ecomcqchap-5-mcq/15777081",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following statements are correct concerning the use of antithetic variates as part of a monte carlo experiment i antithetic variates work by reducing the number of replications required to cover the whole probability space ii antithetic variates involve employing a similar variable to that used in the simulation but whose properties are known analytically iii antithetic variates involve using the negative of each of the random draws and repeating the experiment using those values as the draws iv antithetic variates involve taking one over each of the random draws and repeating the experiment using those values as the draws",
+            "content": "i antithetic variates work by reducing the number of replications required to cover the whole probability space ii antithetic variates involve employing a",
+            "url": "https://www.studeersnel.nl/nl/document/vrije-universiteit-amsterdam/empirical-finance/ef-exercises-solutions/883910",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following statements are true concerning a comparison between archq and garch11 models i the archq model is likely to be the more parsimonious ii the archq model is the more likely to violate nonnegativity constraints iii the archq model can allow for an infinite number of previous lags of squared returns to affect the current conditional variance iv the garch11 model will usually be sufficient to capture all of the dependence in the conditional variance",
+            "content": "which of the following statements are true concerning a comparison between archq and garch11 models i the archq model is likely to be the more",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-thanh-pho-ho-chi-minh/kinh-te-luong/chapter-9-kinh-te-luong-tai-chinh/105124798",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which of the following statements are true concerning a comparison between archq and garch11 models i the archq model is likely to be the more parsimonious ii the archq model is the more likely to violate nonnegativity constraints iii the archq model can allow for an infinite number of previous lags of squared returns to affect the current conditional variance iv the garch11 model will usually be sufficient to capture all of the dependence in the conditional variance",
+            "content": "garch11 models i the archq model is likely to be the more parsimonious ii the archq model is the more likely to violate nonnegativity constraints",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-thanh-pho-ho-chi-minh/kinh-te-luong-tai-chinh/ktltcnc-test-bank-bai-kiem-tra/78175105",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "which of the following statements is false concerning the linear probability model",
+            "content": "which of the following statements is false for random effects models the use of ols would result in consistent but inefficient parameter estimation random effects estimation will not be appropriate if the composite error term is correlated with one or more of the explanatory variables in the model which of the following statements is true concerning",
+            "url": "http://www.examgeneral.com/public/images/data/12577_7087.xml",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "suppose that the value of r2 for an estimated regression model is exactly zero which of the following are true i all coefficient estimates on the slopes will be zero ii the fitted line will be horizontal with respect to all of the explanatory variables iii the regression line has not explained any of the variability of y about its mean value iv the intercept coefficient estimate must be zero",
+            "content": "suppose that the value of r2 for an estimated regression model is exactly zero 2 would have identical values of r2 if the estimated coefficient on α3 is zero",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-an-giang/kinh-te-hoc-dai-cuong/financial-econometrics/95053562",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "suppose that the value of r2 for an estimated regression model is exactly zero which of the following are true i all coefficient estimates on the slopes will be zero ii the fitted line will be horizontal with respect to all of the explanatory variables iii the regression line has not explained any of the variability of y about its mean value iv the intercept coefficient estimate must be zero",
+            "content": "15 suppose that the value of r 2 for an estimated regression model is exactly zero which of the following are true i all coefficient estimates",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-luat-ha-noi/treasury-management/ecomcqchap-3-mcq/15777078",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "which of the following could result in autocorrelated residuals i slowness of response of the dependent variable to changes in the values of the independent variables ii overreactions of the dependent variable to changes in the independent variables iii omission of relevant explanatory variables that are autocorrelated iv outliers in the data",
+            "content": "which of the following could result in autocorrelated residuals i slowness of response of the dependent variable to changes in the values of the independent",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-thanh-pho-ho-chi-minh/kinh-te-luong/dap-an-chapter-5/115688043",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "which of the following could result in autocorrelated residuals i slowness of response of the dependent variable to changes in the values of the independent variables ii overreactions of the dependent variable to changes in the independent variables iii omission of relevant explanatory variables that are autocorrelated iv outliers in the data",
+            "content": "following could result in autocorrelated residuals i slowness of response of the dependent variable to changes in the values of the independent variables ii",
+            "url": "https://www.academia.edu/26343582/Practice_Multiple_Choice_Questions_and_Feedback_Chapter_4",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "which of the following could result in autocorrelated residuals i slowness of response of the dependent variable to changes in the values of the independent variables ii overreactions of the dependent variable to changes in the independent variables iii omission of relevant explanatory variables that are autocorrelated iv outliers in the data",
+            "content": "10which of the following could result in autocorrelated residuals islowness of response of the dependent variable to changes in the values",
+            "url": "https://www.docsity.com/en/economicsfryouand-not-abour/7627363",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "which of the following could result in autocorrelated residuals i slowness of response of the dependent variable to changes in the values of the independent variables ii overreactions of the dependent variable to changes in the independent variables iii omission of relevant explanatory variables that are autocorrelated iv outliers in the data",
+            "content": "which of the following could result in autocorrelated residuals i slowness of response of the dependent variable to changes in the values of the",
+            "url": "https://pdfcoffee.com/practice-multiple-choice-questions-and-f-pdf-free.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "which of the following statements concerning the regression population and sample is false",
+            "content": "which of the following statements concerning the regression population and sample is false a the population is the total collection of all items of interest",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter12/Chapter12.htm",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "which of the following statements concerning the regression population and sample is false",
+            "content": "which of the following statements concerning the regression population and sample is false a the population is the total collection of all items of interest b",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-an-giang/kinh-te-hoc-dai-cuong/financial-econometrics/95053562",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "which of the following statements concerning the regression population and sample is false",
+            "content": "which of the following statements concerning the regression population and sample is false a the population is the total collection of all items of interest b",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-thanh-pho-ho-chi-minh/kinh-te-luong/tn-ktl-eng-multiple-choice/25070013",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "which of the following statements concerning the regression population and sample is false",
+            "content": "which of the following statements concerning the regression population and sample is false top of form a the population is the total collection of all",
+            "url": "https://www.academia.edu/12132853/Chapter_1_and_2_mcqs_econometrics",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "which of the following statements concerning the regression population and sample is false",
+            "content": "which of the following statements concerning the regression population and sample is false a the population is the total collection of all items of interest",
+            "url": "http://exampapers.nust.na:8080/greenstone3/library/collection/exampape/document/HASH5b23da09d5d91691cecc81;jsessionid=E5F35429CEB4573A8DA924F091E15F24?ed=1",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "which of the following assumptions are required to show the consistency unbiasedness and efficiency of the ols estimator i eut 0 ii textvarut sigma2 iii textcovut utj 0 forall j iv ut sim n0 sigma2",
+            "content": "1 which of the following assumptions are required to show the consistency unbiasedness and efficiency of the ols estimator i eut 0 ii varut σ 27 stron",
+            "url": "https://www.gdcollegebegusarai.com/course_materials/july/eco192.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "including relevant lagged values of the dependent variable on the right hand side of a regression equation could lead to which one of the following",
+            "content": "including relevant lagged values of the dependent variable on the right hand side of a regression equation could lead to which one of the following a",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/chapter%204/ch04.htm",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "including relevant lagged values of the dependent variable on the right hand side of a regression equation could lead to which one of the following",
+            "content": "11 including relevant lagged values of the dependent variable on the right hand side of a regression equation could lead to which one of the following",
+            "url": "https://www.mgu.ac.in/inc/uploads/2020/03/econometrics-qb.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "including relevant lagged values of the dependent variable on the right hand side of a regression equation could lead to which one of the following",
+            "content": "16 including relevant lagged values of the dependent variable on the right hand side of a regression equation could lead to which one of the following d",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-luat-ha-noi/treasury-management/ecomcqchap-4-mcq/15777080",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "including relevant lagged values of the dependent variable on the right hand side of a regression equation could lead to which one of the following",
+            "content": "76 including relevant lagged values of the dependent variable on the right hand side of a regression equation could lead to which one of the following",
+            "url": "https://sde.uoc.ac.in/sites/default/files/sde_videos/Basic%20Econometrics.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "which of the following are characteristics of a stationary process i it crosses its mean value frequently ii it has constant mean and variance iii it contains no trend component iv it will be stationary in first difference form",
+            "content": "câu hỏi 14 which of the following are characteristics of a stationary process i it crosses its mean value frequently ii it has constant mean and variance",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-thanh-pho-ho-chi-minh/kinh-te-luong/de-midterm-ktl-de-midterm-ktl/97907916",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "which of the following is a disadvantage of using pure timeseries models relative to structural models",
+            "content": "which of the following is a disadvantage of using pure timeseries models relative to structural models a they are not theoretically motivated b they",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-luat-ha-noi/treasury-management/ecomcqchap-5-mcq/15777081",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "which of the following statements is true concerning the standard regression model",
+            "content": "which of the following statements is true concerning the standard regression model a y has a probability distribution b x has a probability distribution",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter12/Chapter12.htm",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "which of the following statements is true concerning the standard regression model",
+            "content": "which of the following statements is true concerning the standard regression model a y has a probability distribution b x has a probability distribution",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-an-giang/kinh-te-hoc-dai-cuong/financial-econometrics/95053562",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "which of the following statements is true concerning the standard regression model",
+            "content": "6 which of the following statements is true concerning the standard regression model a y has a probability distribution b x has a",
+            "url": "http://gauss.stat.su.se/exp/tentor/Ekonometrics/EKONOMETRI%201/VT22%20Ek1%20220530.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "which of the following statements is true concerning the standard regression model",
+            "content": "following statements is true concerning the standard regression model top of form a y has a probability distribution b x has a probability distribution c",
+            "url": "https://www.academia.edu/12132853/Chapter_1_and_2_mcqs_econometrics",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "suppose that the durbin watson test is applied to a regression containing two explanatory variables plus a constant with 50 data points the test statistic takes a value of 153 what is the appropriate conclusion",
+            "content": "the test statistic takes a value of 153 what is the appropriate conclusion a residuals appear to be positively autocorrelated",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/chapter%204/ch04.htm",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "suppose that the durbin watson test is applied to a regression containing two explanatory variables plus a constant with 50 data points the test statistic takes a value of 153 what is the appropriate conclusion",
+            "content": "suppose that the durbin watson test is applied to a regression containing two explanatory variables plus a constant e equation 2 above with 50 data points",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-luat-ha-noi/treasury-management/ecomcqchap-4-mcq/15777080",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "which one of the following is not a plausible remedy for near multicollinearity",
+            "content": "which one of the following is not a plausible remedy for near multicollinearity a use principal components analysis b drop one of the collinear variables",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/chapter%204/ch04.htm",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "which one of the following is not a plausible remedy for near multicollinearity",
+            "content": "q which one of the following is not a plausible remedy for near multicollinearity a use principal components analysis b drop one of the",
+            "url": "https://mcqmate.com/discussion/122462/which-one-of-the-following-is-not-a-plausible-remedy-for-near-multicollinearity",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "which one of the following is not a plausible remedy for near multicollinearity",
+            "content": "1 which one of the following is not a plausible remedy for near multicollinearity take logarithms of each of the variable drop one of the collinear",
+            "url": "https://gmstat.com/tag/mcqs-multicollinearity/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "which one of the following is not a plausible remedy for near multicollinearity",
+            "content": "12 which one of the following is not a plausible remedy for near multicollinearity ause principal components analysis bdrop one of the collinear variables",
+            "url": "https://www.mgu.ac.in/inc/uploads/2020/03/econometrics-qb.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "which one of the following is not a plausible remedy for near multicollinearity",
+            "content": "12 which one of the following is not a plausible remedy for near multicollinearity ause principal components analysis bdrop one of the collinear variables",
+            "url": "https://www.gdcollegebegusarai.com/course_materials/july/eco192.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "which of the following features of financial asset return timeseries could be captured using a standard garch11 model i fat tails in the return distribution ii leverage effects iii volatility clustering iv volatility affecting returns",
+            "content": "following features of financial asset return timeseries could be captured using a standard garch11 model i fat tails in the return distribution ii",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-thanh-pho-ho-chi-minh/kinh-te-luong/chapter-9-kinh-te-luong-tai-chinh/105124798",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "which one of the following is not an example of misspecification of functional form",
+            "content": "which one of the following is not an example of misspecification of functional form a using a linear specification when y scales as a function of the",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/chapter%204/ch04.htm",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "which one of the following is not an example of misspecification of functional form",
+            "content": "14 which one of the following is not an example of mis specification of functional form a using a linear specification when y scales as a function of the",
+            "url": "https://www.mgu.ac.in/inc/uploads/2020/03/econometrics-qb.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "which one of the following is not an example of misspecification of functional form",
+            "content": "d none of the above 62 which one of the following is not an example of misspecification of functional form a using a linear specification",
+            "url": "https://sde.uoc.ac.in/sites/default/files/sde_videos/Basic%20Econometrics.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "which one of the following is not an example of misspecification of functional form",
+            "content": "14 which one of the following is not an example of mis specification of functional form a using a linear specification when y scales as a function of the",
+            "url": "https://www.gdcollegebegusarai.com/course_materials/july/eco192.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "which one of the following is not an example of misspecification of functional form",
+            "content": "q10 which one of the following is not an example of misspecification of functional form a using a linear specification when a double logarithmic model would",
+            "url": "https://library.bits-pilani.ac.in/backend-media/papers/ECON%20F241/2023/Second/1155_ECON_F241_20230601113040_Comprehensive_Exam_Question_Paper.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "which of the following statements is incorrect concerning a comparison of the boxpierce q and the ljungbox q statistics for linear dependence in time series",
+            "content": "which of the following statements is incorrect concerning a comparison of the boxpierce q and the ljungbox q statistics for linear dependence in time series",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%205/ch05.htm",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "which of the following statements is incorrect concerning a comparison of the boxpierce q and the ljungbox q statistics for linear dependence in time series",
+            "content": "which of the following statements is incorrect concerning a comparison of the boxpierce q and the ljungbox q statistics for linear dependence in time series",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-luat-ha-noi/treasury-management/ecomcqchap-5-mcq/15777081",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "which of the following may be consequences of one or more of the clrm assumptions being violated i the coefficient estimates are not optimal ii the standard error estimates are not optimal iii the distributions assumed for the test statistics are inappropriate iv conclusions regarding the strength of relationships between the dependent and independent variables may be invalid",
+            "content": "which of the following may be consequences of one or more of the clrm assumptions being violated i the coefficient estimates are not optimal ii the standard",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-luat-ha-noi/treasury-management/ecomcqchap-4-mcq/15777080",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "which of the following may be consequences of one or more of the clrm assumptions being violated i the coefficient estimates are not optimal ii the standard error estimates are not optimal iii the distributions assumed for the test statistics are inappropriate iv conclusions regarding the strength of relationships between the dependent and independent variables may be invalid",
+            "content": "following may be consequences of one or more of the clrm assumptions being violated relationships between the dependent and independent variables may",
+            "url": "https://www.academia.edu/26343582/Practice_Multiple_Choice_Questions_and_Feedback_Chapter_4",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "which of the following may be consequences of one or more of the clrm assumptions being violated i the coefficient estimates are not optimal ii the standard error estimates are not optimal iii the distributions assumed for the test statistics are inappropriate iv conclusions regarding the strength of relationships between the dependent and independent variables may be invalid",
+            "content": "2 which of the following may be consequences of one or more of the clrm assumptions being violated i the coefficient estimates are not optimal ii the",
+            "url": "https://www.gdcollegebegusarai.com/course_materials/july/eco192.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "which of the following conditions are necessary for a series to be classifiable as a weakly stationary process i it must have a constant mean ii it must have a constant variance iii it must have constant autocovariances for given lags iv it must have a constant probability distribution",
+            "content": "3 which of the following conditions are necessary for a series to be classifiable as a weakly stationary process i it must have a constant mean ii it",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%205/ch05.htm",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "which of the following conditions are necessary for a series to be classifiable as a weakly stationary process i it must have a constant mean ii it must have a constant variance iii it must have constant autocovariances for given lags iv it must have a constant probability distribution",
+            "content": "which of the following conditions are necessary for a series to be classifiable as a weakly stationary process i it must have a constant mean",
+            "url": "https://www.transtutors.com/questions/which-of-the-following-conditions-are-necessary-for-a-series-to-be-classifiable-as-a-855268.htm",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "which of the following conditions are necessary for a series to be classifiable as a weakly stationary process i it must have a constant mean ii it must have a constant variance iii it must have constant autocovariances for given lags iv it must have a constant probability distribution",
+            "content": "which of the following conditions are necessary for a series to be classifiable as a weakly stationary process i it must have a constant mean ii it must",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-luat-ha-noi/treasury-management/ecomcqchap-5-mcq/15777081",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "which of the following conditions are necessary for a series to be classifiable as a weakly stationary process i it must have a constant mean ii it must have a constant variance iii it must have constant autocovariances for given lags iv it must have a constant probability distribution",
+            "content": "which of the following conditions are necessary for a series to be classifiable as a weakly stationary process i it must have a constant mean ii it must",
+            "url": "https://www.shahandanchor.com/extc/wp-content/uploads/Sample-Question-Paper_R19_EXTC_V_ECC504_RSA_QP.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "which of the following statements is true concerning forecasting in econometrics",
+            "content": "which of the following statements is true concerning forecasting in econometrics a forecasts can only be made for timeseries data b misspecified models",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%205/ch05.htm",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "the pacf is necessary for distinguishing between",
+            "content": "4 the pacf partial autocorrelation function is necessary for distinguishing between a an ar and ma model issolution false b an ar and an arma",
+            "url": "https://www.gkseries.com/multiple-choice-questions-and-answers-on-time-series-analysis/questions-on-time-series.php",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "the pacf is necessary for distinguishing between",
+            "content": "32 the pacf partial autocorrelation function is necessary for distinguishing between 33 second differencing in time series can",
+            "url": "https://www.analyticsvidhya.com/blog/2017/04/40-questions-on-time-series-solution-skillpower-time-series-datafest-2017/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "the pacf is necessary for distinguishing between",
+            "content": "the partial autocorrelation function pacf is a crucial tool in time series analysis for distinguishing between different types of models",
+            "url": "https://studyx.ai/questions/4lf8ccg/question-48-the-pact-partial-autocorrelation-function-is-necessary-for-distinguishing",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "which of the following are plausible approaches to dealing with a model that exhibits heteroscedasticity i take logarithms of each of the variables ii use suitably modified standard errors iii use a generalised least squares procedure iv add lagged values of the variables to the regression equation",
+            "content": "approaches to dealing with a model that exhibits heteroscedasticity squares procedure iv add lagged values of the variables to the regression equation",
+            "url": "https://www.academia.edu/26343582/Practice_Multiple_Choice_Questions_and_Feedback_Chapter_4",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "which of the following are plausible approaches to dealing with a model that exhibits heteroscedasticity i take logarithms of each of the variables ii use suitably modified standard errors iii use a generalised least squares procedure iv add lagged values of the variables to the regression equation",
+            "content": "atake logarithms of each of the variables badd lagged values of the variables to the regression equation c use dummy variables to remove outlying 16 stron",
+            "url": "https://www.mgu.ac.in/inc/uploads/2020/03/econometrics-qb.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "consider the ols estimator for the standard error of the slope coefficient which of the following statements is are true i the standard error will be positively related to the residual variance ii the standard error will be negatively related to the dispersion of the observations on the explanatory variable about their mean value iii the standard error will be negatively related to the sample size iv the standard error gives a measure of the precision of the coefficient estimate",
+            "content": "which of the following statements is are true i the standard error will be positively related to the residual variance ii the standard error will be",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter12/Chapter12.htm",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "if a series y follows a random walk with drift b what is the optimal onestep ahead forecast of the change in y",
+            "content": "if a series y follows a random walk with drift b what is the optimal onestep ahead forecast of the change in y a the current value of y b zero c",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%205/ch05.htm",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "if a series y follows a random walk with drift b what is the optimal onestep ahead forecast of the change in y",
+            "content": "if a series y follows a random walk with drift b what is the optimal onestep ahead forecast of the change in y a the current value of y b zero c one",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-luat-ha-noi/treasury-management/ecomcqchap-5-mcq/15777081",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "which of the following statements are true concerning a comparison between archq and garch11 models i the archq model is likely to be the more parsimonious ii the archq model is the more likely to violate nonnegativity constraints iii the archq model can allow for an infinite number of previous lags of squared returns to affect the current conditional variance iv the garch11 model will usually be sufficient to capture all of the dependence in the conditional variance",
+            "content": "which of the following statements are true concerning a comparison between archq and garch11 models i the archq model is likely to be the more",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-thanh-pho-ho-chi-minh/kinh-te-luong/chapter-9-kinh-te-luong-tai-chinh/105124798",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "which of the following statements are true concerning a comparison between archq and garch11 models i the archq model is likely to be the more parsimonious ii the archq model is the more likely to violate nonnegativity constraints iii the archq model can allow for an infinite number of previous lags of squared returns to affect the current conditional variance iv the garch11 model will usually be sufficient to capture all of the dependence in the conditional variance",
+            "content": "garch11 models i the archq model is likely to be the more parsimonious ii the archq model is the more likely to violate nonnegativity constraints",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-thanh-pho-ho-chi-minh/kinh-te-luong-tai-chinh/ktltcnc-test-bank-bai-kiem-tra/78175105",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "if ols is used in the presence of autocorrelation which of the following will be likely consequences i coefficient estimates may be misleading ii hypothesis tests could reach the wrong conclusions iii forecasts made from the model could be biased iv standard errors may inappropriate",
+            "content": "solution for if ols is used in the presence of autocorrelation which of the following will be likely consequences i coefficient estimates may be misleading…",
+            "url": "https://www.bartleby.com/questions-and-answers/if-ols-is-used-in-the-presence-of-autocorrelation-which-of-the-following-will-be-likely-consequences/a4b4dd6e-f775-448e-911e-52561a389610",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 22,
+            "query": "if ols is used in the presence of autocorrelation which of the following will be likely consequences i coefficient estimates may be misleading ii hypothesis tests could reach the wrong conclusions iii forecasts made from the model could be biased iv standard errors may inappropriate",
+            "content": "solution for 20 if ols is used in the presence of autocorrelation which of the following will be likely consequences i coefficient estimates may be…",
+            "url": "https://www.bartleby.com/questions-and-answers/20-if-ols-is-used-in-the-presence-of-autocorrelation-which-of-the-following-will-be-likely-consequen/e318beb7-7252-4e94-8d5a-7bcefb4abd91",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "which of the following conditions are necessary for a series to be classifiable as a weakly stationary process i it must have a constant mean ii it must have a constant variance iii it must have constant autocovariances for given lags iv it must have a constant probability distribution",
+            "content": "which of the following conditions are necessary for a series to be classifiable as a weakly stationary process i it must have a constant mean ii it must have a constant variance iii it must have constant autocovariances for given lags iv it",
+            "url": "https://www.transtutors.com/questions/which-of-the-following-conditions-are-necessary-for-a-series-to-be-classifiable-as-a-855268.htm",
+            "engine": "braveAPI"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 8,
+            "query": "which one of the following statements is true concerning vars",
+            "content": "in the question which of the following statements are true regarding output variables below option is given as incorrect",
+            "url": "https://kodekloud.com/community/t/mcq-which-of-the-following-statements-are-true-regarding-output-variables/365597",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is a disadvantage of the random effects approach to estimating a panel model",
+            "content": "the number of parameters to estimate may be large resulting in a loss of degrees of freedom 4 the fixed effect approach can only capture cross sectional",
+            "url": "https://archive.mu.ac.in/arts/social_science/eco/Sample%20questions%20Ecotrics%20old.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "if a durbin watson statistic takes a value close to zero what will be the value of the first order autocorrelation coefficient",
+            "content": "the dw statistic ranges from zero to four with a value of 20 indicating zero autocorrelation values below 20 mean there is positive autocorrelation and",
+            "url": "https://www.investopedia.com/terms/d/durbin-watson-statistic.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "suppose that 100 separate firms were tested to determine how many of them beat the market using a jensentype regression and it is found that 3 fund managers significantly do so does this suggest prima facie evidence for stock market inefficiency",
+            "content": "in practice that is extremely unlikely to be the case 8 suppose that 100 separate firms were tested to determine how many of them “beat the market” using a",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-an-giang/kinh-te-hoc-dai-cuong/financial-econometrics/95053562",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which one of the following is the most appropriate definition of a 99 confidence interval",
+            "content": "a confidence interval refers to the probability that a population parameter will fall between a set of values for a certain proportion of times",
+            "url": "https://www.investopedia.com/terms/c/confidenceinterval.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "which of the following statements are true concerning information criteria i adjusted rsquared is an information criterion ii if the residual sum of squares falls when an additional term is added the value of the information criterion will fall iii akaikes information criterion always leads to model orders that are at least as large as those of schwarzs information criterion iv akaikes information criterion is consistent",
+            "content": "in this paper we survey the model selection criteria discussed in statistical literature we are mainly concerned with those used in regression analysis and",
+            "url": "https://projecteuclid.org/ebooks/institute-of-mathematical-statistics-lecture-notes-monograph-series/Model-selection/chapter/On-model-selection/10.1214/lnms/1215540960.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a white noise process will have i a zero mean ii a constant variance iii autocovariances that are constant iv autocovariances that are zero except at lag zero",
+            "content": "correct ii and iv are correct a white noise process must have a constant mean a constant variance and no autocovariance structure except at lag zero",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%205/ch05.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "note that statistical tables are not necessary to answer this question for a sample of 1000 observations the dickeyfuller test statistic values are",
+            "content": "table 12 contains the observed values of the four test statistics fnd adfnd fd and adfd the pvalue for each test statistic has been estimated using",
+            "url": "https://scispace.com/pdf/four-contributions-to-statistical-inference-in-econometrics-1qpfdc2csv.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following are advantages of the use of panel data over pure crosssectional or pure timeseries modelling i the use of panel data can increase the number of degrees of freedom and therefore the power of tests ii the use of panel data allows the average value of the dependent variable to vary either crosssectionally or over time or both iii the use of panel data enables the researcher allows the estimated relationship between the independent and dependent variables to vary either crosssectionally or over time or both",
+            "content": "panel data combines both crosssectional and timeseries observations resulting in a larger sample size and more degrees of freedom compared to pure cross",
+            "url": "https://info.daviscollege.edu/question-answers/which-of-the-following-are-advantages-of-the-use-of-panel-da-gifo",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which one of the following statements best describes the algebraic representation of the fitted regression line",
+            "content": "the regression equation is an algebraic representation of the regression line the regression equation for the linear model takes the following form y b 0",
+            "url": "https://support.minitab.com/en-us/minitab/help-and-how-to/statistical-modeling/regression/how-to/fitted-line-plot/interpret-the-results/key-results/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "under the null hypothesis of a berajarque test the distribution has",
+            "content": "the null hypothesis is a joint hypothesis of the skewness being zero and the excess kurtosis being zero samples from a normal distribution have an expected",
+            "url": "https://en.wikipedia.org/wiki/Jarque%E2%80%93Bera_test",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "suppose that a hypothesis test is conducted using a 5 significance level which of the following statements are correct i the significance level is equal to the size of the test ii the significance level is equal to the power of the test iii 25 of the total distribution will be in each tail rejection region for a 2sided test iv 5 of the total distribution will be in each tail rejection region for a 2sided test",
+            "content": "what is the conclusion of the test using a 5 significance level value using a randomization distribution for testing a difference in two population means",
+            "url": "https://pages.stat.wisc.edu/~larget/stat302/sol05.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "an armapq p q are integers bigger than zero model will have",
+            "content": "your answer has been saved correct for an armapq the ar part will dominate the acf in the sense that it will decline geometrically and will not be zero",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%205/ch05.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "if the englegranger test is applied to the residuals of a potentially cointegrating regression what would be the interpretation of the null hypothesis",
+            "content": "therefore the englegranger test considers the null hypothesis that there is no cointegration as the englegranger test statistic decreases",
+            "url": "https://www.aptech.com/blog/how-to-interpret-cointegration-test-results/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if an estimator is said to be consistent it is implied that",
+            "content": "when we replace convergence in probability with almost sure convergence then the estimator is said to be strongly consistent consistency is related to bias",
+            "url": "https://en.wikipedia.org/wiki/Consistent_estimator",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "how many parameters will be required to be estimated in total for all equations of a standard form unrestricted trivariate var4 ignoring the intercepts",
+            "content": "d holtzeakin 1988 cytowane przez 6057 specifically we estimated a var with constant parameters and three lags of wages and hours measuring all variables as deviations from time means in",
+            "url": "https://www.jstor.org/stable/1913103",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "which one of the following is a disadvantage of the general to specific or lse hendry approach to building econometric models relative to the specific to general approach",
+            "content": "spanoss framework is closely tied to the lse or hendrys mod eling strategy and addresses various common criticisms of empirical modeling in the",
+            "url": "https://www.federalreserve.gov/pubs/ifdp/2005/838/ifdp838.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "if two variables xt and yt are said to be cointegrated which of the following statements are true i xt and yt must both be stationary ii only one linear combination of xt and yt will be stationary iii the cointegrating equation for xt and yt describes the shortrun relationship between the two series iv the residuals of a regression of yt on xt must be stationary",
+            "content": "cointegration tests reveal a longrun relationship between gdp money supply and eight spending items moreover granger causality tests results show evidence",
+            "url": "https://www.academia.edu/30394923/Deficits_Money_Growth_and_Inflation_in_Italy_1875_1994",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following statements are true concerning the autocorrelation function acf and partial autocorrelation function pacf i the acf and pacf will always be identical at lag one whatever the model ii the pacf for an maq model will in general be nonzero beyond lag q iii the pacf for an arp model will be zero beyond lag p iv the acf and pacf will be the same at lag two for an ma1 model",
+            "content": "1 but at lag 1 there are no intermediate lags to remove therefore the acf and pacf will be identical at lag 1 whatever the model hence",
+            "url": "https://www.transtutors.com/questions/which-of-the-following-statements-are-true-concerning-the-autocorrelation-function-a-855295.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what are the dimensions of hatut hatu",
+            "content": "first i create a stacked dot arrangement talldot merely to have something the vertical height of the desired hat and which will change",
+            "url": "https://tex.stackexchange.com/questions/121937/hat-and-widehat-look-terrible-fixing-width-and-better-positioning",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is a typical characteristic of financial asset return timeseries",
+            "content": "financial asset return time series are fat tailed and they do not have any trend so the correct answer is d",
+            "url": "https://www.transtutors.com/questions/which-of-the-following-is-a-typical-characteristic-of-financial-asset-return-time-se-855265.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which one of the following would be the most appropriate as a 95 twosided confidence interval for the intercept term of the model given in question 21",
+            "content": "to obtain say a 95 confidence interval we will find the middle 95 of the sample means for this find the means at the 25 and 975 percentiles the 25",
+            "url": "https://www.sciencedirect.com/topics/mathematics/bootstrap-confidence-interval",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "consider again the var model of equation 16 which of the following conditions must hold for it to be said that there is bidirectional feedback",
+            "content": "vector autoregression var modeling allows probing bidirectional relationships in gendersex development and may support hypothesis testing following multi",
+            "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2020.01507/full",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the fixed effects panel model is also sometimes known as",
+            "content": "in panel data analysis the term fixed effects estimator also known as the within estimator is used to refer to an estimator for the coefficients in the",
+            "url": "https://en.wikipedia.org/wiki/Fixed_effects_model",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is a disadvantage of the fixed effects approach to estimating a panel model",
+            "content": "the number of parameters to estimate may be large resulting in a loss of degrees of freedom 4 the fixed effect approach can only capture cross sectional",
+            "url": "https://archive.mu.ac.in/arts/social_science/eco/Sample%20questions%20Ecotrics%20old.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "suppose that two researchers using the same 3 variables and the same 250 observations on each variable estimate a var one estimates a var6 while the other estimates a var4 the determinants of the variancecovariance matrices of the residuals for each var are 00036 and 00049 respectively what is the values of the test statistic for performing a test of whether the var6 can be restricted to a var4",
+            "content": "abstract we propose a new method for multivariate forecasting which combines dynamic factor and multivariate garch models we call the model dynamic factor",
+            "url": "https://dipot.ulb.ac.be/dspace/bitstream/2013/54117/1/RePEc_eca_wpaper_2009_005.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a hausman test would be used for",
+            "content": "the hausman test is a statistical test used in econometrics to determine whether the fixed effects fe or random effects re estimator should be used in a",
+            "url": "https://www.sciencedirect.com/topics/social-sciences/hausman-test",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the main difference between the dickey fuller df and phillipsperron pp approaches to unit root testing",
+            "content": "the phillipsperron pp unit root tests differ from the adf tests mainly in how they deal with serial correlation and heteroskedasticity in the errors in",
+            "url": "https://ocw.metu.edu.tr/mod/resource/view.php?id=2703",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which of the following statements is true concerning the population regression function prf and sample regression function srf",
+            "content": "11 prf and sample regression function srf d the prf is a description of the process thought to be generating the data correct the prf is the true",
+            "url": "https://fr.scribd.com/document/476251163/Practice-Multiple-Choice-Questions-and-Feedback-Chapters-1-and-2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "consider a series that follows an ma1 with zero mean and a moving average coefficient of 04 what is the value of the autocovariance at lag 1",
+            "content": "let w t ∼ i i d n 0 σ w 2 meaning that the wt are identically independently distributed each with a normal distribution having mean 0 and the same",
+            "url": "https://online.stat.psu.edu/stat510/lesson/2/2.1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "consider the following ar2 process yt 15 yt1 05 yt2 ut this is a",
+            "content": "consider the following ar2 process y t 15 y t 1 05 y t 2 u t this is a a stationary process b unit root process c explosive",
+            "url": "https://www.transtutors.com/questions/consider-the-following-ar-2-process-y-t-1-5-y-t-1-0-5-y-t-2-u-t-this-is-a-a-stationa-855287.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the characteristic roots of the ma process yt 3ut1 ut2 ut are",
+            "content": "incorrect the roots of the characteristic equation are found for an ma process by first using the lag operator notation and gathering all of the terms in u",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%205/ch05.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the within transform involves",
+            "content": "the within transform provides a way to estimate panel models without resorting to the use of dummy variables the first stage would be to subtract the mean of",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%2010%2011%20and%2012/ch10_11_12.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "which of the following statements is true concerning ols estimation",
+            "content": "if ols is applied separately to each equation that is part of a simultaneous system the resulting estimates will be both biased and inconsistent",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%206/ch06.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following are alternative names for the dependent variable usually denoted by y in linear regression analysis i the regressand ii the regressor iii the explained variable iv the explanatory variable",
+            "content": "the regressand and effect variable are alternative names for y your answer has been saved",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter12/Chapter12.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "which of the following could be used as a test for autocorrelation up to third order",
+            "content": "the first one that comes to mind is based on linear regression you can regress the consecutive residuals against each other and test for a significant slope",
+            "url": "https://stats.stackexchange.com/questions/14914/how-to-test-the-autocorrelation-of-the-residuals",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "if there were a leverage effect in practice what would be the shape of the news impact curve for as model that accounted for that leverage",
+            "content": "the egarch model is particularly useful for measuring the asymmetric effects of news and the consequent leverage if it exists both these volatility models are",
+            "url": "https://www.mdpi.com/1911-8074/14/7/314",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "consider an identical situation to that of question 21 except that now a 2sided alternative is used what would now be the appropriate conclusion",
+            "content": "in hypothesis testing the guidance is to use a onesided test alternative greater or lesser if we dont care about errors in one of the directions",
+            "url": "https://stats.stackexchange.com/questions/452296/two-one-sided-hypothesis-tests-instead-of-a-two-sided-test",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "suppose that we are interested in testing the null hypothesis that a garch22 model can be restricted to a process with a constant conditional variance using the likelihood ratio test approach which of the following statements are true",
+            "content": "three test procedures the three general forms of test procedure used are the lr test as described above the wald test w and lagrange multiplier lm",
+            "url": "https://www.le.ac.uk/ec/sh222/2.Maximum%20Likelihood%20Estimation.PDF",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a dependent variable whose values are not observable outside a certain range but where the corresponding values of the independent variables are still available would be most accurately described as what kind of variable",
+            "content": "we will first examine a simple and obvious but unfortunately flawed method for dealing with binary dependent variables known as the linear probability model",
+            "url": "https://rpubs.com/cliex159/LimitedDependentVariableModels",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following is an equivalent expression for saying that the explanatory variable is nonstochastic",
+            "content": "nonstochastic means nonrandom one of the classical linear regression model assumptions is that the explanatory variable x is nonstochastic or fixed in",
+            "url": "https://fr.scribd.com/document/476251163/Practice-Multiple-Choice-Questions-and-Feedback-Chapters-1-and-2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the price of a house is best described as what type of number",
+            "content": "real estate is defined as the land and any permanent structures like a home or improvements attached to the land whether natural or manmade",
+            "url": "https://www.investopedia.com/terms/r/realestate.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "suppose that we have estimated a garch model for daily equity returns and we are interested in producing a 10day forecast of the volatility measured by the standard deviation of returns for use in a value at risk model how could such a forecast most validly be calculated",
+            "content": "in this article we attempt to assess the volatility of gold returns modeling gold returns can provide valuable insights that help understand",
+            "url": "https://www.wir.ue.wroc.pl/docstore/download/UEWRc7dc011e59e44b3e95072039c6600313/Krezolek_Piontek_Volatility_and_models_based.pdf?entityType=article&entityId=UEWRe6f2e2d56b96430eb68c731fde04ad27",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is not a feature of continuously compounded returns ie logreturns",
+            "content": "logreturns can indeed be interpreted as continuously compounded changes in the price or index value over time this is useful since it",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-thanh-pho-ho-chi-minh/kinh-te-luong-tai-chinh/bt-tn/92706126",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which one of the following criticisms of the dickeyfullerenglegranger approach to dealing with cointegrated variables is overcome by the engleyoo ey procedure",
+            "content": "which of the following are disadvantages of the dickeyfuller englegranger approach to testing for cointegration and modelling cointegrating relationships i",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%207/ch07.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "if a johansen trace test for a null hypothesis of 2 cointegrating vectors is applied to a system containing 4 variables is conducted which eigenvalues would be used in the test",
+            "content": "the maximal eigenvalue test follows exactly the same testing sequence with the same null hypothesis as for the trace test but the max test only considers one",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/Answers%20to%20end%20of%20chapter%20questions/Chapter7_solutions.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "consider the following equation and determine the class of model that it best represents yit alpha betait mui nuit",
+            "content": "we saw that the chapmankolmogorov equation can be concisely stated as a rule about matrix multiplication in general many statements about markov chains can",
+            "url": "https://dec41.user.srcf.net/notes/IB_M/markov_chains.tex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following statements is true concerning variance decomposition analysis of vars i variance decompositions measure the impact of a unit shock to each of the variables on the var ii variance decompositions can be thought of as measuring the proportion of the forecast error variance that is attributable to each variable iii the ordering of the variables is important for calculating impulse responses but not variance decompositions iv it is usual that most of the forecast error variance for a given variable is attributable to shocks to that variable",
+            "content": "this chapter finds and identifies the presence of a significant overesti mation bias of the effects of macroeconomic variables on housing price variations in a",
+            "url": "https://eprints.soton.ac.uk/433267/1/Electronic_Final_Version.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "if the standard tools for timeseries analysis such as estimation of the acf pacf and spectral analysis find no evidence of structure in the data this implies that the data are which of the following",
+            "content": "the goals of this book are to develop an appreciation for the richness and versatility of modern time series analysis as a tool for analyzing data and still",
+            "url": "https://www.mimuw.edu.pl/~noble/courses/TimeSeries/RESOURCES/ShumwayStofferTimeSeries.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which one of the following factors is likely to lead to a relatively high degree of outofsample forecast accuracy",
+            "content": "forecast accuracy improves with the level of aggregation for the same reasons forecast accuracy is usually significantly higher when measured monthly or",
+            "url": "https://www.relexsolutions.com/resources/measuring-forecast-accuracy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "if ols is applied separately to each equation that is part of a simultaneous system the resulting estimates will be",
+            "content": "if ols were applied separately to each of equations 697 and 698 the result would be biased and inconsistent parameter estimates",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/Answers%20to%20end%20of%20chapter%20questions/Chapter6_solutions.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "a parsimonious model is one that",
+            "content": "so our goal is to find what we call a parsimonious model which aims to strike a balance between overfitting and underfitting the model to the training dataset",
+            "url": "https://exploration.stat.illinois.edu/learn/Feature-Selection/Finding-a-Parsimonious-Model/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following statements are true concerning maximum likelihood ml estimation in the context of garch models i maximum likelihood estimation selects the parameter values that maximise the probability that we would have actually observed the values of the series y that we actually did ii garch models can only be estimated by ml and not by ols iii for estimation of a standard linear model with no garch the ols and ml estimates for the slope and intercept parameters will be identical but the estimator for the variance of the disturbances is slightly different iv most computer packages use numerical procedures to estimate garch models rather than a set of analytical formulae",
+            "content": "chapter 9 which of the following features of financial asset return timeseries could be captured using a standard garch11 model",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-thanh-pho-ho-chi-minh/kinh-te-luong/chapter-9-kinh-te-luong-tai-chinh/105124798",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which one of the following statements best describes a type ii error",
+            "content": "a type ii error is defined as the probability of incorrectly failing to reject the null hypothesis when in fact it is not applicable to the entire population",
+            "url": "https://www.investopedia.com/terms/t/type-ii-error.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "consider the estimation of a garchm model if the data employed were a timeseries of daily corporate bond percentage returns which of the following would you expect the value of the garchinmean parameter estimate to be",
+            "content": "worry about summing or weighing squared deviations from the mean as in general the definition of variance would require 9 page 10 just caused by the",
+            "url": "https://didattica.unibocconi.it/mypage/dwload.php?nomefile=Lecture_4_-_GARCH_models20150414025702.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following is correct concerning logit and probit models",
+            "content": "the logistic and probit distributions are very close to each other and differ appreciably only in the very far tails unless you are working on",
+            "url": "https://www.statalist.org/forums/forum/general-stata-discussion/general/1487013-probit-vs-logit-model",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "what will be the properties of the ols estimator in the presence of multicollinearity",
+            "content": "multicollinearity reduces the precision of the estimated coefficients which weakens the statistical power of your regression model you might not be able to",
+            "url": "https://statisticsbyjim.com/regression/multicollinearity-in-regression-analysis/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following estimation techniques are available for the estimation of overidentified systems of simultaneous equations i ols ii ils iii 2sls iv iv",
+            "content": "this method for the consistent estimation of parameters is available only for exactly identified equations if equations are exactly identifiable then 1 30 stron",
+            "url": "https://home.iitk.ac.in/~shalab/econometrics/Chapter17-Econometrics-SimultaneousEquationsModels.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the most important disadvantage of the diagonal vech approach to building multivariate garch models that is overcome by the bekk formulation",
+            "content": "a the diagonal vech model is hard to interpret intuitively b the diagonal vech model contains too many parameters c the diagonal vech model does not",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter8and9/ch089.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "suppose that we wished to evaluate the factors that affected the probability that an investor would choose an equity fund rather than a bond fund or a cash investment which class of model would be most appropriate",
+            "content": "in our example the investor would require 106 in the future to defer the 100 of consumption during an inflationary period a 6 percent nominal riskfree1",
+            "url": "https://prawo.uni.wroc.pl/sites/default/files/students-resources/Frank%20K.%20Reilly%2C%20Keith%20C.%20Brown-Investment%20analysis%20and%20portfolio%20management%2C%207_e-South-Western_Thomson%20Learning%20%282002%29.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which one of the following statements is true concerning alternative forecast accuracy measures",
+            "content": "the correct answer is c mean absolute percentage error is a useful measure for evaluating asset return forecasts explanation c mean absolute percentage",
+            "url": "https://www.transtutors.com/questions/which-one-of-the-following-statements-is-true-concerning-alternative-forecast-accura-855322.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "if a relevant variable is omitted from a regression equation the consequences would be that i the standard errors would be biased ii if the excluded variable is uncorrelated with all of the included variables all of the slope coefficients will be inconsistent iii if the excluded variable is uncorrelated with all of the included variables the intercept coefficient will be inconsistent iv if the excluded variable is uncorrelated with all of the included variables all of the slope and intercept coefficients will be consistent and unbiased but inefficient",
+            "content": "the hermes macroeconomic model has been used extensively for over 25 years to carry out mediumterm forecasting and scenario analysis of the irish economy most",
+            "url": "https://www.academia.edu/61602619/Aggregate_Supply_Aggregate_Demand_and_Income_Distribution_in_Ireland_A_Macrosectoral_Analysis",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which one of the following would not be a consequence of using nonstationary data in levels form",
+            "content": "if nonstationary data are used in levels form a phenomenon known as spurious regression may result this will not cause the coefficients to be estimated",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%207/ch07.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following statements are true concerning the acf and pacf i the acf and pacf are often hard to interpret in practice ii the acf and pacf can be difficult to calculate for some data sets iii information criteria represent an alternative approach to model order determination iv if applied correctly the acf and pacf will always deliver unique model selections",
+            "content": "therefore since at lag 1 there are no intermediate lags to remove the acf and pacf will always be identical at lag 1 whatever the model so i is correct",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%205/ch05.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which of the following are plausible approaches to dealing with residual autocorrelation i take logarithms of each of the variables ii add lagged values of the variables to the regression equation iii use dummy variables to remove outlying observations iv try a model in first differenced form rather than in levels",
+            "content": "ols minimizes the sum of the squares of the horizontal distances from the points to the line → ols minimizes the sum of the squares of the vertical distances",
+            "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-an-giang/kinh-te-hoc-dai-cuong/financial-econometrics/95053562",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which one of the following is examined by looking at a goodness of fit statistic",
+            "content": "the chisquare goodness of fit test tells you how well a statistical model fits a set of observations its often used to analyze genetic crosses",
+            "url": "https://www.scribbr.com/statistics/chi-square-goodness-of-fit/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if a series y follows a random walk what is the optimal onestep ahead forecast of y",
+            "content": "correct if y follows a random walk the optimal guess of the next value of y will be the most recently available value the random walk for y can be written",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter%205/ch05.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "the purpose of augmenting the dickeyfuller test regression is to",
+            "content": "again the number of augmenting lags p is determined by minimizing the your regression model to correct for the variables deterministic trend notice",
+            "url": "https://s2.smu.edu/tfomby/eco6375/BJ%20Notes/ADF%20Notes.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the residual from a standard regression model is defined as",
+            "content": "the residual standard deviation describes the difference in standard deviations of observed values vs predicted values in a regression analysis",
+            "url": "https://www.investopedia.com/terms/r/residual-standard-deviation.asp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following are alternative names for the independent variable usually denoted by x in linear regression analysis i the regressor ii the regressand iii the causal variable iv the effect variable",
+            "content": "independent variables some alternative names for the y and x variables y x dependent variable independent variables regressand regressors effect variable",
+            "url": "https://moodle2.units.it/pluginfile.php/259624/mod_resource/content/0/Chap3.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "consider the following sample autocorrelation estimates obtained using 250 data points 1 lag 1 2 3 2 coefficient 02 015 01 3 assuming that the coefficients are approximately normally distributed which of the coefficients are statistically significant at the 5 level",
+            "content": "069 051 031 015 009 008 ar1 x x x 0 0 0 ar2 008 016 010 002 001 014 ar2 0 x 0 0 0 0 ar3 034 015 006 001 003 013 ar3 x",
+            "url": "https://publications.bof.fi/bitstream/handle/10024/45680/111499.pdf?sequence=1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the order condition is",
+            "content": "we use the rank and order conditions to identify whether a simultaneous equation model is underidentified exactly identified or overidentified",
+            "url": "https://spureconomics.com/identification-rank-and-order-conditions/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following statements are true concerning the boxjenkins approach to diagnostic testing for arma models i the tests will show whether the identified model is either too large or too small ii the tests involve checking the model residuals for autocorrelation heteroscedasticity and nonnormality iii if the model suggested at the identification stage is appropriate the acf and pacf for the residuals should show no additional structure iv if the model suggested at the identification stage is appropriate the coefficients on the additional variables under the overfitting approach will be statistically insignificant",
+            "content": "section4 discusses some ofthe practical issues and discusses a straightforward estimation procedure section 5 provides a detailed example ofthe procedure",
+            "url": "https://dr.lib.iastate.edu/server/api/core/bitstreams/ce33b7b6-4041-433a-a600-ddeb998b3dbf/content",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "negative residual autocorrelation is indicated by which one of the following",
+            "content": "negative autocorrelation describes a pattern in time series data where a positive residual is likely to be followed by a negative residual and vice versa",
+            "url": "https://studyx.ai/questions/4ljtnio/which-of-the-following-specifies-the-negative-residual-autocorrelation-a-cyclical-pattern",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which one of the following would be a plausible response to a finding of residual nonnormality",
+            "content": "in those cases one can use theilsen regression regression theilsen is certainly more robust than ols for nonnormal residuals eg cauchy",
+            "url": "https://stats.stackexchange.com/questions/29731/regression-when-the-ols-residuals-are-not-normally-distributed",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if an estimator is said to have minimum variance which of the following statements is not implied",
+            "content": "an estimator that has minimum variance would also be defined as efficient and best these terms are equivalent to one another a minimum variance estimator",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/Chapter12/Chapter12.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following statements are correct concerning the use of antithetic variates as part of a monte carlo experiment i antithetic variates work by reducing the number of replications required to cover the whole probability space ii antithetic variates involve employing a similar variable to that used in the simulation but whose properties are known analytically iii antithetic variates involve using the negative of each of the random draws and repeating the experiment using those values as the draws iv antithetic variates involve taking one over each of the random draws and repeating the experiment using those values as the draws",
+            "content": "we establish convergence result for this method and employ the idea of using antithetic variates a well known method to reduce the variance of the",
+            "url": "https://portal.research.lu.se/files/3214141/1227796.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "for an autoregressive process to be considered stationary",
+            "content": "unlike the movingaverage ma model the autoregressive model is not always stationary because it may contain a unit root large language models are called",
+            "url": "https://en.wikipedia.org/wiki/Autoregressive_model",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "under the matrix notation for the classical linear regression model y x beta u what are the dimensions of u",
+            "content": "in the usual matrix notation comprising all n observations this can be formulated as y x β u in the general linear model it is typically assumed that the",
+            "url": "https://cran.r-project.org/web/packages/sandwich/vignettes/sandwich.Rnw",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is the meaning of the term heteroscedasticity",
+            "content": "the complementary notion is called heteroscedasticity also known as heterogeneity of variance the spellings homoskedasticity and heteroskedasticity are also",
+            "url": "https://en.wikipedia.org/wiki/Homoscedasticity_and_heteroscedasticity",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "which of the following statements is incorrect concerning the classical hypothesis testing framework",
+            "content": "siam front page news the weak form is stronger than you think 2024 rudy horne memorial",
+            "url": "https://www.colorado.edu/amath/sites/default/files/attached-files/lesson9_hyptests.pdf",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "which of the following statements is false concerning the linear probability model",
+            "content": "master linear regression with 30 essential questions on models coefficients and intercepts to ace your next data science interview",
+            "url": "https://www.analyticsvidhya.com/blog/2017/07/30-questions-to-test-a-data-scientist-on-linear-regression/",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "which of the following could result in autocorrelated residuals i slowness of response of the dependent variable to changes in the values of the independent variables ii overreactions of the dependent variable to changes in the independent variables iii omission of relevant explanatory variables that are autocorrelated iv outliers in the data",
+            "content": "share free summaries lecture notes exam prep and more",
+            "url": "https://www.studocu.com/en-us/document/boston-college/econometrics/econometrics-qb-question-answer/21443824",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "which of the following statements concerning the regression population and sample is false",
+            "content": "master linear regression with 30 essential questions on models coefficients and intercepts to ace your next data science interview",
+            "url": "https://www.analyticsvidhya.com/blog/2017/07/30-questions-to-test-a-data-scientist-on-linear-regression/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "which of the following assumptions are required to show the consistency unbiasedness and efficiency of the ols estimator i eut 0 ii textvarut sigma2 iii textcovut utj 0 forall j iv ut sim n0 sigma2",
+            "content": "can someone briefly explain for me why each of the six assumptions is needed in order to compute the ols estimator i found only about multicollinearitythat if it exists we cannot invert x",
+            "url": "https://stats.stackexchange.com/questions/149110/assumptions-to-derive-ols-estimator",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "including relevant lagged values of the dependent variable on the right hand side of a regression equation could lead to which one of the following",
+            "content": "ix27m very confused about if itx27s legitimate to include a lagged dependent variable into a regression model basically i think if this model focuses on the relationship between the change in y and ot",
+            "url": "https://stats.stackexchange.com/questions/52458/inclusion-of-lagged-dependent-variable-in-regression",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "a researcher tests for structural stability in the following regression model yt beta1 beta2 x2t beta3 x3t ut the total sample of 200 observations is split exactly in half for the subsample regressions which would be the unrestricted residual sum of squares",
+            "content": "index of hseltman309book",
+            "url": "https://www.stat.cmu.edu/~hseltman/309/Book/chapter9.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "which of the following are characteristics of a stationary process i it crosses its mean value frequently ii it has constant mean and variance iii it contains no trend component iv it will be stationary in first difference form",
+            "content": "in mathematics and statistics a stationary process also called a strictstrictly stationary process or strongstrongly stationary process is a stochastic process whose statistical properties such as mean and variance do not change over time more formally the joint probability distribution",
+            "url": "https://en.wikipedia.org/wiki/Stationary_process",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "which of the following is a disadvantage of using pure timeseries models relative to structural models",
+            "content": "review questions to test your knowledge for the final exam since it is mostly multiple choice ii and only chapter ii and iv correct is correct to",
+            "url": "https://www.studocu.com/en-au/document/macquarie-university/financial-econometrics/practice-multiple-choice-questions-and-feedback-chapter-5/17024841",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "which one of the following is not a plausible remedy for near multicollinearity",
+            "content": "mcqmate copyright © 2024 mcqmatecom is an educational platform which is developed by students for students the main objective of our platform is to assist fellow students in preparing for exams and in their studies throughout their academic career",
+            "url": "https://mcqmate.com/discussion/122462/which-one-of-the-following-is-not-a-plausible-remedy-for-near-multicollinearity",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "consider the following model for yt yt mu lambda t ut which one of the following most accurately describes the process for yt",
+            "content": "in mathematical logic and computer science the lambdamu calculus is an extension of the lambda calculus introduced by michel parigot it introduces two new operators the μ operator which is completely different both from the μ operator found in computability theory and from the μ operator",
+            "url": "https://en.wikipedia.org/wiki/Lambda-mu_calculus",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 23,
+            "query": "if ols is used in the presence of autocorrelation which of the following will be likely consequences i coefficient estimates may be misleading ii hypothesis tests could reach the wrong conclusions iii forecasts made from the model could be biased iv standard errors may inappropriate",
+            "content": "autocorrelation can lead to an underestimation of the standard errors of the ols estimator resulting in biased and inefficient estimators also the estimated coefficients will be biased leading to incorrect predictions and conclusions from the data autocorrelation can also inflate the type",
+            "url": "https://www.rhayden.us/regression-models/consequences-of-using-ols-in-the-presence-of-autocorrelation.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "which of the following features of financial asset return timeseries could be captured using a standard garch11 model i fat tails in the return distribution ii leverage effects iii volatility clustering iv volatility affecting returns",
+            "content": "generalized autoregressive conditional heteroskedasticity garch is a statistical model used to estimate the volatility of stock returns in finance",
+            "url": "https://www.investopedia.com/terms/g/garch.asp",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "which one of the following is not an example of misspecification of functional form",
+            "content": "learn about misspecified models discover the consequences of model misspecification through numerous examples",
+            "url": "https://www.statlect.com/glossary/model-misspecification",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 22,
+            "query": "which of the following conditions are necessary for a series to be classifiable as a weakly stationary process i it must have a constant mean ii it must have a constant variance iii it must have constant autocovariances for given lags iv it must have a constant probability distribution",
+            "content": "ask any question and get an answer from our subject experts in as little as 2 hours",
+            "url": "https://www.chegg.com/homework-help/questions-and-answers/following-conditions-necessary-time-series-classifiable-weakly-stationary-process-1-must-c-q83641039",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "which of the following are plausible approaches to dealing with a model that exhibits heteroscedasticity i take logarithms of each of the variables ii use suitably modified standard errors iii use a generalised least squares procedure iv add lagged values of the variables to the regression equation",
+            "content": "which of the following assumptions are required to show the consistency unbiasedness and efficiency of the ols estimator i eut 0 ii varut σ2 iii covut utj 0 ∀ j iv utn0 σ2",
+            "url": "https://www.cambridge.org/features/economics/brooks/downloads/mcq/chapter%204/ch04.htm",
+            "engine": "braveAPI"
+        }
+    ]
+}

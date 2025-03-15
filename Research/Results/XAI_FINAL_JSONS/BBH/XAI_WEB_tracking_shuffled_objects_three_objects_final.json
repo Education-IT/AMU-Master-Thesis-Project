@@ -1,0 +1,990 @@
+{
+    "task": "bbh_zeroshot_tracking_shuffled_objects_three_objects",
+    "dataset": "web_access_tracking_shuffled_objects_three_objects_final",
+    "questions": 250,
+    "noWebContextCount": 144,
+    "contaminated_queries": 250,
+    "contaminated_urls": 628,
+    "valid_urls": 106,
+    "avg_contaminated_before_valid": 6.9245283018867925,
+    "contaminated_data_ratio": 0.8555858310626703,
+    "most_contaminated_urls": {
+        "assets.amazon.science": 9
+    },
+    "noWebContext": [
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a yellow present, Bob has a orange ball, and Claire has a green present.\nAs the event progresses, pairs of people swap gifts. First, Claire and Bob swap their gifts. Then, Alice and Claire swap their gifts. Finally, Bob and Alice swap their gifts. At the end of the event, Alice has the\nOptions:\n(A) yellow present\n(B) orange ball\n(C) green present",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a pink ball, Bob has a brown ball, and Claire has a orange ball.\nAs the game progresses, pairs of players trade balls. First, Claire and Alice swap balls. Then, Alice and Bob swap balls. Finally, Bob and Claire swap balls. At the end of the game, Claire has the\nOptions:\n(A) pink ball\n(B) brown ball\n(C) orange ball",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a yellow ball, Bob has a orange ball, and Claire has a white ball.\nAs the game progresses, pairs of players trade balls. First, Claire and Alice swap balls. Then, Bob and Alice swap balls. Finally, Bob and Claire swap balls. At the end of the game, Bob has the\nOptions:\n(A) yellow ball\n(B) orange ball\n(C) white ball",
+        "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing fullback, Bob is playing goalkeeper, and Claire is playing left midfielder.\nAs the game progresses, pairs of players occasionally swap positions. First, Claire and Alice trade positions. Then, Bob and Claire trade positions. Finally, Alice and Claire trade positions. At the end of the match, Alice is playing\nOptions:\n(A) fullback\n(B) goalkeeper\n(C) left midfielder",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a pink ball, Bob has a white present, and Claire has a orange ball.\nAs the event progresses, pairs of people swap gifts. First, Bob and Alice swap their gifts. Then, Claire and Bob swap their gifts. Finally, Alice and Claire swap their gifts. At the end of the event, Claire has the\nOptions:\n(A) pink ball\n(B) white present\n(C) orange ball",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a purple ball, Bob has a yellow ball, and Claire has a orange ball.\nAs the game progresses, pairs of players trade balls. First, Claire and Bob swap balls. Then, Bob and Alice swap balls. Finally, Claire and Bob swap balls. At the end of the game, Alice has the\nOptions:\n(A) purple ball\n(B) yellow ball\n(C) orange ball",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Jamie, Bob is dancing with Patrick, and Claire is dancing with Melissa.\nThroughout the song, the dancers often trade partners. First, Claire and Bob switch partners. Then, Bob and Alice switch partners. Finally, Alice and Claire switch partners. At the end of the dance, Claire is dancing with\nOptions:\n(A) Jamie\n(B) Patrick\n(C) Melissa",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Melissa, Bob is dancing with Karl, and Claire is dancing with Patrick.\nThroughout the song, the dancers often trade partners. First, Alice and Bob switch partners. Then, Claire and Alice switch partners. Finally, Alice and Bob switch partners. At the end of the dance, Claire is dancing with\nOptions:\n(A) Melissa\n(B) Karl\n(C) Patrick",
+        "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing right midfielder, Bob is playing goalkeeper, and Claire is playing left winger.\nAs the game progresses, pairs of players occasionally swap positions. First, Claire and Alice trade positions. Then, Bob and Claire trade positions. Finally, Alice and Claire trade positions. At the end of the match, Bob is playing\nOptions:\n(A) right midfielder\n(B) goalkeeper\n(C) left winger",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Karl, Bob is dancing with Rodrigo, and Claire is dancing with Helga.\nThroughout the song, the dancers often trade partners. First, Bob and Alice switch partners. Then, Alice and Claire switch partners. Finally, Alice and Bob switch partners. At the end of the dance, Alice is dancing with\nOptions:\n(A) Karl\n(B) Rodrigo\n(C) Helga",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a black ball, Bob has a brown ball, and Claire has a blue ball.\nAs the game progresses, pairs of players trade balls. First, Bob and Claire swap balls. Then, Alice and Bob swap balls. Finally, Claire and Bob swap balls. At the end of the game, Claire has the\nOptions:\n(A) black ball\n(B) brown ball\n(C) blue ball",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Ophelia, Bob is dancing with Jamie, and Claire is dancing with Melissa.\nThroughout the song, the dancers often trade partners. First, Alice and Claire switch partners. Then, Bob and Alice switch partners. Finally, Claire and Bob switch partners. At the end of the dance, Claire is dancing with\nOptions:\n(A) Ophelia\n(B) Jamie\n(C) Melissa",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Rodrigo, Bob is dancing with Sam, and Claire is dancing with Lola.\nThroughout the song, the dancers often trade partners. First, Claire and Bob switch partners. Then, Bob and Alice switch partners. Finally, Claire and Alice switch partners. At the end of the dance, Claire is dancing with\nOptions:\n(A) Rodrigo\n(B) Sam\n(C) Lola",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a yellow ball, Bob has a purple ball, and Claire has a blue ball.\nAs the game progresses, pairs of players trade balls. First, Alice and Claire swap balls. Then, Bob and Claire swap balls. Finally, Alice and Claire swap balls. At the end of the game, Bob has the\nOptions:\n(A) yellow ball\n(B) purple ball\n(C) blue ball",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a black ball, Bob has a purple present, and Claire has a blue present.\nAs the event progresses, pairs of people swap gifts. First, Claire and Alice swap their gifts. Then, Bob and Claire swap their gifts. Finally, Alice and Bob swap their gifts. At the end of the event, Bob has the\nOptions:\n(A) black ball\n(B) purple present\n(C) blue present",
+        "Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets The Great Gatsby, Bob gets The Odyssey, and Claire gets Lolita.\nAs the semester proceeds, they start trading around the new books. First, Alice and Bob swap books. Then, Alice and Claire swap books. Finally, Bob and Claire swap books. At the end of the semester, Bob has\nOptions:\n(A) The Great Gatsby\n(B) The Odyssey\n(C) Lolita",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a red present, Bob has a black ball, and Claire has a white present.\nAs the event progresses, pairs of people swap gifts. First, Bob and Alice swap their gifts. Then, Claire and Bob swap their gifts. Finally, Alice and Claire swap their gifts. At the end of the event, Bob has the\nOptions:\n(A) red present\n(B) black ball\n(C) white present",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a brown ball, Bob has a blue ball, and Claire has a purple ball.\nAs the game progresses, pairs of players trade balls. First, Bob and Alice swap balls. Then, Claire and Alice swap balls. Finally, Bob and Claire swap balls. At the end of the game, Alice has the\nOptions:\n(A) brown ball\n(B) blue ball\n(C) purple ball",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a yellow present, Bob has a white present, and Claire has a purple present.\nAs the event progresses, pairs of people swap gifts. First, Alice and Bob swap their gifts. Then, Bob and Claire swap their gifts. Finally, Bob and Alice swap their gifts. At the end of the event, Bob has the\nOptions:\n(A) yellow present\n(B) white present\n(C) purple present",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a pink ball, Bob has a orange ball, and Claire has a white ball.\nAs the game progresses, pairs of players trade balls. First, Bob and Claire swap balls. Then, Claire and Alice swap balls. Finally, Alice and Bob swap balls. At the end of the game, Bob has the\nOptions:\n(A) pink ball\n(B) orange ball\n(C) white ball",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a orange ball, Bob has a purple present, and Claire has a red present.\nAs the event progresses, pairs of people swap gifts. First, Claire and Bob swap their gifts. Then, Alice and Bob swap their gifts. Finally, Claire and Alice swap their gifts. At the end of the event, Alice has the\nOptions:\n(A) orange ball\n(B) purple present\n(C) red present",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a white present, Bob has a pink ball, and Claire has a black ball.\nAs the event progresses, pairs of people swap gifts. First, Alice and Claire swap their gifts. Then, Alice and Bob swap their gifts. Finally, Claire and Alice swap their gifts. At the end of the event, Claire has the\nOptions:\n(A) white present\n(B) pink ball\n(C) black ball",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a black ball, Bob has a purple present, and Claire has a blue present.\nAs the event progresses, pairs of people swap gifts. First, Claire and Alice swap their gifts. Then, Bob and Claire swap their gifts. Finally, Alice and Bob swap their gifts. At the end of the event, Alice has the\nOptions:\n(A) black ball\n(B) purple present\n(C) blue present",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Helga, Bob is dancing with Patrick, and Claire is dancing with Sam.\nThroughout the song, the dancers often trade partners. First, Claire and Alice switch partners. Then, Claire and Bob switch partners. Finally, Alice and Bob switch partners. At the end of the dance, Bob is dancing with\nOptions:\n(A) Helga\n(B) Patrick\n(C) Sam",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a orange ball, Bob has a purple present, and Claire has a red present.\nAs the event progresses, pairs of people swap gifts. First, Claire and Bob swap their gifts. Then, Alice and Bob swap their gifts. Finally, Claire and Alice swap their gifts. At the end of the event, Claire has the\nOptions:\n(A) orange ball\n(B) purple present\n(C) red present",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Ophelia, Bob is dancing with Rodrigo, and Claire is dancing with Karl.\nThroughout the song, the dancers often trade partners. First, Bob and Claire switch partners. Then, Alice and Bob switch partners. Finally, Bob and Claire switch partners. At the end of the dance, Alice is dancing with\nOptions:\n(A) Ophelia\n(B) Rodrigo\n(C) Karl",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a blue ball, Bob has a white ball, and Claire has a red ball.\nAs the game progresses, pairs of players trade balls. First, Claire and Bob swap balls. Then, Alice and Bob swap balls. Finally, Claire and Bob swap balls. At the end of the game, Claire has the\nOptions:\n(A) blue ball\n(B) white ball\n(C) red ball",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Rodrigo, Bob is dancing with Jamie, and Claire is dancing with Lola.\nThroughout the song, the dancers often trade partners. First, Claire and Alice switch partners. Then, Bob and Claire switch partners. Finally, Claire and Alice switch partners. At the end of the dance, Claire is dancing with\nOptions:\n(A) Rodrigo\n(B) Jamie\n(C) Lola",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a blue ball, Bob has a black ball, and Claire has a pink ball.\nAs the game progresses, pairs of players trade balls. First, Claire and Bob swap balls. Then, Bob and Alice swap balls. Finally, Claire and Alice swap balls. At the end of the game, Alice has the\nOptions:\n(A) blue ball\n(B) black ball\n(C) pink ball",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a blue ball, Bob has a red ball, and Claire has a yellow ball.\nAs the game progresses, pairs of players trade balls. First, Claire and Bob swap balls. Then, Claire and Alice swap balls. Finally, Bob and Claire swap balls. At the end of the game, Claire has the\nOptions:\n(A) blue ball\n(B) red ball\n(C) yellow ball",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Sam, Bob is dancing with Karl, and Claire is dancing with Helga.\nThroughout the song, the dancers often trade partners. First, Alice and Claire switch partners. Then, Alice and Bob switch partners. Finally, Claire and Bob switch partners. At the end of the dance, Alice is dancing with\nOptions:\n(A) Sam\n(B) Karl\n(C) Helga",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a green ball, Bob has a blue ball, and Claire has a brown ball.\nAs the game progresses, pairs of players trade balls. First, Claire and Bob swap balls. Then, Alice and Claire swap balls. Finally, Alice and Bob swap balls. At the end of the game, Bob has the\nOptions:\n(A) green ball\n(B) blue ball\n(C) brown ball",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Melissa, Bob is dancing with Lola, and Claire is dancing with Patrick.\nThroughout the song, the dancers often trade partners. First, Bob and Claire switch partners. Then, Claire and Alice switch partners. Finally, Bob and Alice switch partners. At the end of the dance, Alice is dancing with\nOptions:\n(A) Melissa\n(B) Lola\n(C) Patrick",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a blue present, Bob has a red present, and Claire has a green present.\nAs the event progresses, pairs of people swap gifts. First, Alice and Bob swap their gifts. Then, Claire and Bob swap their gifts. Finally, Alice and Claire swap their gifts. At the end of the event, Alice has the\nOptions:\n(A) blue present\n(B) red present\n(C) green present",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a yellow ball, Bob has a purple ball, and Claire has a blue ball.\nAs the game progresses, pairs of players trade balls. First, Alice and Claire swap balls. Then, Bob and Claire swap balls. Finally, Alice and Claire swap balls. At the end of the game, Alice has the\nOptions:\n(A) yellow ball\n(B) purple ball\n(C) blue ball",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a pink ball, Bob has a yellow present, and Claire has a orange ball.\nAs the event progresses, pairs of people swap gifts. First, Bob and Claire swap their gifts. Then, Alice and Claire swap their gifts. Finally, Bob and Claire swap their gifts. At the end of the event, Bob has the\nOptions:\n(A) pink ball\n(B) yellow present\n(C) orange ball",
+        "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing goalkeeper, Bob is playing left midfielder, and Claire is playing striker.\nAs the game progresses, pairs of players occasionally swap positions. First, Bob and Claire trade positions. Then, Bob and Alice trade positions. Finally, Claire and Alice trade positions. At the end of the match, Bob is playing\nOptions:\n(A) goalkeeper\n(B) left midfielder\n(C) striker",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a yellow ball, Bob has a green ball, and Claire has a blue ball.\nAs the game progresses, pairs of players trade balls. First, Alice and Bob swap balls. Then, Alice and Claire swap balls. Finally, Claire and Bob swap balls. At the end of the game, Alice has the\nOptions:\n(A) yellow ball\n(B) green ball\n(C) blue ball",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Lola, Bob is dancing with Rodrigo, and Claire is dancing with Patrick.\nThroughout the song, the dancers often trade partners. First, Alice and Bob switch partners. Then, Claire and Bob switch partners. Finally, Bob and Alice switch partners. At the end of the dance, Claire is dancing with\nOptions:\n(A) Lola\n(B) Rodrigo\n(C) Patrick",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Ophelia, Bob is dancing with Jamie, and Claire is dancing with Rodrigo.\nThroughout the song, the dancers often trade partners. First, Bob and Claire switch partners. Then, Alice and Bob switch partners. Finally, Bob and Claire switch partners. At the end of the dance, Bob is dancing with\nOptions:\n(A) Ophelia\n(B) Jamie\n(C) Rodrigo",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a black ball, Bob has a brown ball, and Claire has a blue ball.\nAs the game progresses, pairs of players trade balls. First, Bob and Claire swap balls. Then, Alice and Bob swap balls. Finally, Claire and Alice swap balls. At the end of the game, Claire has the\nOptions:\n(A) black ball\n(B) brown ball\n(C) blue ball",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a blue ball, Bob has a black ball, and Claire has a pink ball.\nAs the game progresses, pairs of players trade balls. First, Bob and Claire swap balls. Then, Bob and Alice swap balls. Finally, Alice and Claire swap balls. At the end of the game, Claire has the\nOptions:\n(A) blue ball\n(B) black ball\n(C) pink ball",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a black ball, Bob has a orange ball, and Claire has a white present.\nAs the event progresses, pairs of people swap gifts. First, Claire and Bob swap their gifts. Then, Bob and Alice swap their gifts. Finally, Bob and Claire swap their gifts. At the end of the event, Claire has the\nOptions:\n(A) black ball\n(B) orange ball\n(C) white present",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a pink ball, Bob has a yellow present, and Claire has a orange ball.\nAs the event progresses, pairs of people swap gifts. First, Bob and Claire swap their gifts. Then, Alice and Claire swap their gifts. Finally, Bob and Claire swap their gifts. At the end of the event, Claire has the\nOptions:\n(A) pink ball\n(B) yellow present\n(C) orange ball",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a green present, Bob has a blue present, and Claire has a brown present.\nAs the event progresses, pairs of people swap gifts. First, Claire and Alice swap their gifts. Then, Claire and Bob swap their gifts. Finally, Alice and Claire swap their gifts. At the end of the event, Claire has the\nOptions:\n(A) green present\n(B) blue present\n(C) brown present",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a orange ball, Bob has a red ball, and Claire has a black ball.\nAs the game progresses, pairs of players trade balls. First, Alice and Bob swap balls. Then, Claire and Bob swap balls. Finally, Alice and Claire swap balls. At the end of the game, Claire has the\nOptions:\n(A) orange ball\n(B) red ball\n(C) black ball",
+        "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing goalkeeper, Bob is playing left winger, and Claire is playing left midfielder.\nAs the game progresses, pairs of players occasionally swap positions. First, Alice and Claire trade positions. Then, Alice and Bob trade positions. Finally, Claire and Alice trade positions. At the end of the match, Bob is playing\nOptions:\n(A) goalkeeper\n(B) left winger\n(C) left midfielder",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a yellow present, Bob has a brown present, and Claire has a blue present.\nAs the event progresses, pairs of people swap gifts. First, Bob and Alice swap their gifts. Then, Claire and Alice swap their gifts. Finally, Bob and Alice swap their gifts. At the end of the event, Bob has the\nOptions:\n(A) yellow present\n(B) brown present\n(C) blue present",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a yellow ball, Bob has a blue ball, and Claire has a pink ball.\nAs the game progresses, pairs of players trade balls. First, Claire and Alice swap balls. Then, Alice and Bob swap balls. Finally, Claire and Bob swap balls. At the end of the game, Alice has the\nOptions:\n(A) yellow ball\n(B) blue ball\n(C) pink ball",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Ophelia, Bob is dancing with Rodrigo, and Claire is dancing with Patrick.\nThroughout the song, the dancers often trade partners. First, Bob and Alice switch partners. Then, Claire and Bob switch partners. Finally, Claire and Alice switch partners. At the end of the dance, Alice is dancing with\nOptions:\n(A) Ophelia\n(B) Rodrigo\n(C) Patrick",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Rodrigo, Bob is dancing with Jamie, and Claire is dancing with Lola.\nThroughout the song, the dancers often trade partners. First, Claire and Alice switch partners. Then, Bob and Claire switch partners. Finally, Claire and Alice switch partners. At the end of the dance, Bob is dancing with\nOptions:\n(A) Rodrigo\n(B) Jamie\n(C) Lola",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Lola, Bob is dancing with Patrick, and Claire is dancing with Melissa.\nThroughout the song, the dancers often trade partners. First, Alice and Claire switch partners. Then, Bob and Claire switch partners. Finally, Claire and Alice switch partners. At the end of the dance, Bob is dancing with\nOptions:\n(A) Lola\n(B) Patrick\n(C) Melissa",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a pink ball, Bob has a brown ball, and Claire has a orange ball.\nAs the game progresses, pairs of players trade balls. First, Claire and Alice swap balls. Then, Alice and Bob swap balls. Finally, Bob and Claire swap balls. At the end of the game, Bob has the\nOptions:\n(A) pink ball\n(B) brown ball\n(C) orange ball",
+        "Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets Catch-22, Bob gets Lolita, and Claire gets Hound of the Baskervilles.\nAs the semester proceeds, they start trading around the new books. First, Bob and Alice swap books. Then, Bob and Claire swap books. Finally, Alice and Claire swap books. At the end of the semester, Alice has\nOptions:\n(A) Catch-22\n(B) Lolita\n(C) Hound of the Baskervilles",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a red ball, Bob has a orange ball, and Claire has a black ball.\nAs the game progresses, pairs of players trade balls. First, Alice and Bob swap balls. Then, Alice and Claire swap balls. Finally, Claire and Bob swap balls. At the end of the game, Bob has the\nOptions:\n(A) red ball\n(B) orange ball\n(C) black ball",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a red present, Bob has a blue present, and Claire has a yellow present.\nAs the event progresses, pairs of people swap gifts. First, Alice and Claire swap their gifts. Then, Bob and Claire swap their gifts. Finally, Claire and Alice swap their gifts. At the end of the event, Bob has the\nOptions:\n(A) red present\n(B) blue present\n(C) yellow present",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a pink ball, Bob has a green ball, and Claire has a white ball.\nAs the game progresses, pairs of players trade balls. First, Claire and Alice swap balls. Then, Alice and Bob swap balls. Finally, Bob and Claire swap balls. At the end of the game, Claire has the\nOptions:\n(A) pink ball\n(B) green ball\n(C) white ball",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Sam, Bob is dancing with Jamie, and Claire is dancing with Melissa.\nThroughout the song, the dancers often trade partners. First, Alice and Claire switch partners. Then, Claire and Bob switch partners. Finally, Alice and Bob switch partners. At the end of the dance, Alice is dancing with\nOptions:\n(A) Sam\n(B) Jamie\n(C) Melissa",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Jamie, Bob is dancing with Sam, and Claire is dancing with Izzi.\nThroughout the song, the dancers often trade partners. First, Bob and Claire switch partners. Then, Claire and Alice switch partners. Finally, Claire and Bob switch partners. At the end of the dance, Claire is dancing with\nOptions:\n(A) Jamie\n(B) Sam\n(C) Izzi",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a orange ball, Bob has a purple present, and Claire has a blue present.\nAs the event progresses, pairs of people swap gifts. First, Claire and Bob swap their gifts. Then, Claire and Alice swap their gifts. Finally, Bob and Alice swap their gifts. At the end of the event, Alice has the\nOptions:\n(A) orange ball\n(B) purple present\n(C) blue present",
+        "Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets The Odyssey, Bob gets Lolita, and Claire gets The Great Gatsby.\nAs the semester proceeds, they start trading around the new books. First, Bob and Alice swap books. Then, Alice and Claire swap books. Finally, Bob and Alice swap books. At the end of the semester, Alice has\nOptions:\n(A) The Odyssey\n(B) Lolita\n(C) The Great Gatsby",
+        "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing left midfielder, Bob is playing goalkeeper, and Claire is playing right winger.\nAs the game progresses, pairs of players occasionally swap positions. First, Claire and Bob trade positions. Then, Claire and Alice trade positions. Finally, Alice and Bob trade positions. At the end of the match, Bob is playing\nOptions:\n(A) left midfielder\n(B) goalkeeper\n(C) right winger",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a purple ball, Bob has a red ball, and Claire has a green ball.\nAs the game progresses, pairs of players trade balls. First, Alice and Claire swap balls. Then, Alice and Bob swap balls. Finally, Claire and Alice swap balls. At the end of the game, Alice has the\nOptions:\n(A) purple ball\n(B) red ball\n(C) green ball",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Rodrigo, Bob is dancing with Jamie, and Claire is dancing with Lola.\nThroughout the song, the dancers often trade partners. First, Claire and Alice switch partners. Then, Bob and Claire switch partners. Finally, Claire and Alice switch partners. At the end of the dance, Alice is dancing with\nOptions:\n(A) Rodrigo\n(B) Jamie\n(C) Lola",
+        "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing left midfielder, Bob is playing right midfielder, and Claire is playing goalkeeper.\nAs the game progresses, pairs of players occasionally swap positions. First, Bob and Alice trade positions. Then, Alice and Claire trade positions. Finally, Bob and Alice trade positions. At the end of the match, Bob is playing\nOptions:\n(A) left midfielder\n(B) right midfielder\n(C) goalkeeper",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Sam, Bob is dancing with Helga, and Claire is dancing with Karl.\nThroughout the song, the dancers often trade partners. First, Claire and Alice switch partners. Then, Bob and Alice switch partners. Finally, Claire and Bob switch partners. At the end of the dance, Alice is dancing with\nOptions:\n(A) Sam\n(B) Helga\n(C) Karl",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a white ball, Bob has a purple ball, and Claire has a pink ball.\nAs the game progresses, pairs of players trade balls. First, Bob and Alice swap balls. Then, Bob and Claire swap balls. Finally, Bob and Alice swap balls. At the end of the game, Bob has the\nOptions:\n(A) white ball\n(B) purple ball\n(C) pink ball",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a white present, Bob has a blue present, and Claire has a pink ball.\nAs the event progresses, pairs of people swap gifts. First, Alice and Claire swap their gifts. Then, Claire and Bob swap their gifts. Finally, Bob and Alice swap their gifts. At the end of the event, Claire has the\nOptions:\n(A) white present\n(B) blue present\n(C) pink ball",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a pink ball, Bob has a yellow ball, and Claire has a white ball.\nAs the game progresses, pairs of players trade balls. First, Claire and Bob swap balls. Then, Alice and Bob swap balls. Finally, Claire and Bob swap balls. At the end of the game, Alice has the\nOptions:\n(A) pink ball\n(B) yellow ball\n(C) white ball",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Helga, Bob is dancing with Ophelia, and Claire is dancing with Sam.\nThroughout the song, the dancers often trade partners. First, Bob and Alice switch partners. Then, Claire and Bob switch partners. Finally, Claire and Alice switch partners. At the end of the dance, Claire is dancing with\nOptions:\n(A) Helga\n(B) Ophelia\n(C) Sam",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Melissa, Bob is dancing with Sam, and Claire is dancing with Karl.\nThroughout the song, the dancers often trade partners. First, Bob and Alice switch partners. Then, Claire and Alice switch partners. Finally, Bob and Alice switch partners. At the end of the dance, Alice is dancing with\nOptions:\n(A) Melissa\n(B) Sam\n(C) Karl",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a pink ball, Bob has a brown ball, and Claire has a white ball.\nAs the game progresses, pairs of players trade balls. First, Alice and Claire swap balls. Then, Bob and Claire swap balls. Finally, Claire and Alice swap balls. At the end of the game, Alice has the\nOptions:\n(A) pink ball\n(B) brown ball\n(C) white ball",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Jamie, Bob is dancing with Patrick, and Claire is dancing with Melissa.\nThroughout the song, the dancers often trade partners. First, Claire and Bob switch partners. Then, Bob and Alice switch partners. Finally, Alice and Claire switch partners. At the end of the dance, Bob is dancing with\nOptions:\n(A) Jamie\n(B) Patrick\n(C) Melissa",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Rodrigo, Bob is dancing with Jamie, and Claire is dancing with Sam.\nThroughout the song, the dancers often trade partners. First, Bob and Alice switch partners. Then, Bob and Claire switch partners. Finally, Alice and Claire switch partners. At the end of the dance, Claire is dancing with\nOptions:\n(A) Rodrigo\n(B) Jamie\n(C) Sam",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Sam, Bob is dancing with Jamie, and Claire is dancing with Melissa.\nThroughout the song, the dancers often trade partners. First, Alice and Claire switch partners. Then, Claire and Bob switch partners. Finally, Alice and Bob switch partners. At the end of the dance, Claire is dancing with\nOptions:\n(A) Sam\n(B) Jamie\n(C) Melissa",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a pink ball, Bob has a brown ball, and Claire has a orange ball.\nAs the game progresses, pairs of players trade balls. First, Claire and Alice swap balls. Then, Alice and Bob swap balls. Finally, Bob and Claire swap balls. At the end of the game, Alice has the\nOptions:\n(A) pink ball\n(B) brown ball\n(C) orange ball",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a pink ball, Bob has a red ball, and Claire has a green ball.\nAs the game progresses, pairs of players trade balls. First, Claire and Bob swap balls. Then, Alice and Claire swap balls. Finally, Claire and Bob swap balls. At the end of the game, Bob has the\nOptions:\n(A) pink ball\n(B) red ball\n(C) green ball",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a orange ball, Bob has a red ball, and Claire has a pink ball.\nAs the game progresses, pairs of players trade balls. First, Bob and Claire swap balls. Then, Alice and Bob swap balls. Finally, Claire and Bob swap balls. At the end of the game, Claire has the\nOptions:\n(A) orange ball\n(B) red ball\n(C) pink ball",
+        "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing goalkeeper, Bob is playing left midfielder, and Claire is playing striker.\nAs the game progresses, pairs of players occasionally swap positions. First, Claire and Alice trade positions. Then, Alice and Bob trade positions. Finally, Bob and Claire trade positions. At the end of the match, Alice is playing\nOptions:\n(A) goalkeeper\n(B) left midfielder\n(C) striker",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Sam, Bob is dancing with Lola, and Claire is dancing with Karl.\nThroughout the song, the dancers often trade partners. First, Bob and Alice switch partners. Then, Bob and Claire switch partners. Finally, Alice and Bob switch partners. At the end of the dance, Claire is dancing with\nOptions:\n(A) Sam\n(B) Lola\n(C) Karl",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a white present, Bob has a blue present, and Claire has a yellow present.\nAs the event progresses, pairs of people swap gifts. First, Alice and Bob swap their gifts. Then, Claire and Alice swap their gifts. Finally, Bob and Alice swap their gifts. At the end of the event, Bob has the\nOptions:\n(A) white present\n(B) blue present\n(C) yellow present",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a pink ball, Bob has a yellow ball, and Claire has a white ball.\nAs the game progresses, pairs of players trade balls. First, Claire and Bob swap balls. Then, Alice and Bob swap balls. Finally, Claire and Bob swap balls. At the end of the game, Bob has the\nOptions:\n(A) pink ball\n(B) yellow ball\n(C) white ball",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a red present, Bob has a blue present, and Claire has a yellow present.\nAs the event progresses, pairs of people swap gifts. First, Alice and Claire swap their gifts. Then, Bob and Claire swap their gifts. Finally, Claire and Alice swap their gifts. At the end of the event, Claire has the\nOptions:\n(A) red present\n(B) blue present\n(C) yellow present",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a blue present, Bob has a red present, and Claire has a green present.\nAs the event progresses, pairs of people swap gifts. First, Alice and Bob swap their gifts. Then, Claire and Bob swap their gifts. Finally, Alice and Claire swap their gifts. At the end of the event, Claire has the\nOptions:\n(A) blue present\n(B) red present\n(C) green present",
+        "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing left winger, Bob is playing fullback, and Claire is playing right winger.\nAs the game progresses, pairs of players occasionally swap positions. First, Alice and Claire trade positions. Then, Alice and Bob trade positions. Finally, Claire and Alice trade positions. At the end of the match, Bob is playing\nOptions:\n(A) left winger\n(B) fullback\n(C) right winger",
+        "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing right midfielder, Bob is playing goalkeeper, and Claire is playing left winger.\nAs the game progresses, pairs of players occasionally swap positions. First, Claire and Alice trade positions. Then, Bob and Claire trade positions. Finally, Alice and Claire trade positions. At the end of the match, Claire is playing\nOptions:\n(A) right midfielder\n(B) goalkeeper\n(C) left winger",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Helga, Bob is dancing with Patrick, and Claire is dancing with Sam.\nThroughout the song, the dancers often trade partners. First, Claire and Alice switch partners. Then, Claire and Bob switch partners. Finally, Alice and Bob switch partners. At the end of the dance, Alice is dancing with\nOptions:\n(A) Helga\n(B) Patrick\n(C) Sam",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a orange ball, Bob has a white ball, and Claire has a blue ball.\nAs the game progresses, pairs of players trade balls. First, Alice and Bob swap balls. Then, Bob and Claire swap balls. Finally, Alice and Bob swap balls. At the end of the game, Claire has the\nOptions:\n(A) orange ball\n(B) white ball\n(C) blue ball",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a orange ball, Bob has a green present, and Claire has a red present.\nAs the event progresses, pairs of people swap gifts. First, Bob and Alice swap their gifts. Then, Bob and Claire swap their gifts. Finally, Alice and Claire swap their gifts. At the end of the event, Alice has the\nOptions:\n(A) orange ball\n(B) green present\n(C) red present",
+        "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing fullback, Bob is playing goalkeeper, and Claire is playing right winger.\nAs the game progresses, pairs of players occasionally swap positions. First, Claire and Bob trade positions. Then, Alice and Claire trade positions. Finally, Alice and Bob trade positions. At the end of the match, Claire is playing\nOptions:\n(A) fullback\n(B) goalkeeper\n(C) right winger",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a red ball, Bob has a orange ball, and Claire has a black ball.\nAs the game progresses, pairs of players trade balls. First, Alice and Bob swap balls. Then, Alice and Claire swap balls. Finally, Claire and Bob swap balls. At the end of the game, Claire has the\nOptions:\n(A) red ball\n(B) orange ball\n(C) black ball",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a purple ball, Bob has a yellow ball, and Claire has a orange ball.\nAs the game progresses, pairs of players trade balls. First, Claire and Bob swap balls. Then, Bob and Alice swap balls. Finally, Claire and Bob swap balls. At the end of the game, Claire has the\nOptions:\n(A) purple ball\n(B) yellow ball\n(C) orange ball",
+        "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing goalkeeper, Bob is playing left midfielder, and Claire is playing fullback.\nAs the game progresses, pairs of players occasionally swap positions. First, Claire and Alice trade positions. Then, Alice and Bob trade positions. Finally, Bob and Claire trade positions. At the end of the match, Claire is playing\nOptions:\n(A) goalkeeper\n(B) left midfielder\n(C) fullback",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Helga, Bob is dancing with Sam, and Claire is dancing with Jamie.\nThroughout the song, the dancers often trade partners. First, Bob and Alice switch partners. Then, Bob and Claire switch partners. Finally, Alice and Claire switch partners. At the end of the dance, Bob is dancing with\nOptions:\n(A) Helga\n(B) Sam\n(C) Jamie",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a blue present, Bob has a brown present, and Claire has a white present.\nAs the event progresses, pairs of people swap gifts. First, Claire and Alice swap their gifts. Then, Bob and Claire swap their gifts. Finally, Alice and Bob swap their gifts. At the end of the event, Claire has the\nOptions:\n(A) blue present\n(B) brown present\n(C) white present",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a orange ball, Bob has a black ball, and Claire has a green present.\nAs the event progresses, pairs of people swap gifts. First, Claire and Bob swap their gifts. Then, Bob and Alice swap their gifts. Finally, Bob and Claire swap their gifts. At the end of the event, Bob has the\nOptions:\n(A) orange ball\n(B) black ball\n(C) green present",
+        "Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets Lolita, Bob gets The Great Gatsby, and Claire gets The Odyssey.\nAs the semester proceeds, they start trading around the new books. First, Claire and Alice swap books. Then, Bob and Alice swap books. Finally, Claire and Alice swap books. At the end of the semester, Alice has\nOptions:\n(A) Lolita\n(B) The Great Gatsby\n(C) The Odyssey",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Rodrigo, Bob is dancing with Jamie, and Claire is dancing with Izzi.\nThroughout the song, the dancers often trade partners. First, Bob and Alice switch partners. Then, Claire and Alice switch partners. Finally, Bob and Claire switch partners. At the end of the dance, Claire is dancing with\nOptions:\n(A) Rodrigo\n(B) Jamie\n(C) Izzi",
+        "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing left winger, Bob is playing fullback, and Claire is playing right winger.\nAs the game progresses, pairs of players occasionally swap positions. First, Alice and Claire trade positions. Then, Alice and Bob trade positions. Finally, Claire and Alice trade positions. At the end of the match, Claire is playing\nOptions:\n(A) left winger\n(B) fullback\n(C) right winger",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a orange ball, Bob has a white ball, and Claire has a purple ball.\nAs the game progresses, pairs of players trade balls. First, Bob and Claire swap balls. Then, Alice and Bob swap balls. Finally, Claire and Bob swap balls. At the end of the game, Claire has the\nOptions:\n(A) orange ball\n(B) white ball\n(C) purple ball",
+        "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing goalkeeper, Bob is playing left midfielder, and Claire is playing fullback.\nAs the game progresses, pairs of players occasionally swap positions. First, Claire and Alice trade positions. Then, Alice and Bob trade positions. Finally, Bob and Claire trade positions. At the end of the match, Bob is playing\nOptions:\n(A) goalkeeper\n(B) left midfielder\n(C) fullback",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a green ball, Bob has a purple ball, and Claire has a blue ball.\nAs the game progresses, pairs of players trade balls. First, Bob and Alice swap balls. Then, Claire and Bob swap balls. Finally, Bob and Alice swap balls. At the end of the game, Bob has the\nOptions:\n(A) green ball\n(B) purple ball\n(C) blue ball",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Helga, Bob is dancing with Lola, and Claire is dancing with Ophelia.\nThroughout the song, the dancers often trade partners. First, Alice and Bob switch partners. Then, Bob and Claire switch partners. Finally, Alice and Bob switch partners. At the end of the dance, Alice is dancing with\nOptions:\n(A) Helga\n(B) Lola\n(C) Ophelia",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a yellow ball, Bob has a green ball, and Claire has a blue ball.\nAs the game progresses, pairs of players trade balls. First, Alice and Bob swap balls. Then, Alice and Claire swap balls. Finally, Claire and Bob swap balls. At the end of the game, Bob has the\nOptions:\n(A) yellow ball\n(B) green ball\n(C) blue ball",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a pink ball, Bob has a orange ball, and Claire has a white ball.\nAs the game progresses, pairs of players trade balls. First, Bob and Claire swap balls. Then, Claire and Alice swap balls. Finally, Alice and Bob swap balls. At the end of the game, Alice has the\nOptions:\n(A) pink ball\n(B) orange ball\n(C) white ball",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a yellow present, Bob has a white present, and Claire has a purple present.\nAs the event progresses, pairs of people swap gifts. First, Alice and Bob swap their gifts. Then, Bob and Claire swap their gifts. Finally, Bob and Alice swap their gifts. At the end of the event, Alice has the\nOptions:\n(A) yellow present\n(B) white present\n(C) purple present",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a red ball, Bob has a orange ball, and Claire has a green ball.\nAs the game progresses, pairs of players trade balls. First, Alice and Bob swap balls. Then, Bob and Claire swap balls. Finally, Alice and Bob swap balls. At the end of the game, Claire has the\nOptions:\n(A) red ball\n(B) orange ball\n(C) green ball",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a orange ball, Bob has a purple present, and Claire has a blue present.\nAs the event progresses, pairs of people swap gifts. First, Claire and Alice swap their gifts. Then, Alice and Bob swap their gifts. Finally, Bob and Claire swap their gifts. At the end of the event, Alice has the\nOptions:\n(A) orange ball\n(B) purple present\n(C) blue present",
+        "Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets Catch-22, Bob gets Lolita, and Claire gets Hound of the Baskervilles.\nAs the semester proceeds, they start trading around the new books. First, Bob and Alice swap books. Then, Bob and Claire swap books. Finally, Alice and Claire swap books. At the end of the semester, Bob has\nOptions:\n(A) Catch-22\n(B) Lolita\n(C) Hound of the Baskervilles",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Melissa, Bob is dancing with Karl, and Claire is dancing with Patrick.\nThroughout the song, the dancers often trade partners. First, Alice and Bob switch partners. Then, Claire and Alice switch partners. Finally, Alice and Bob switch partners. At the end of the dance, Bob is dancing with\nOptions:\n(A) Melissa\n(B) Karl\n(C) Patrick",
+        "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing goalkeeper, Bob is playing fullback, and Claire is playing left winger.\nAs the game progresses, pairs of players occasionally swap positions. First, Claire and Bob trade positions. Then, Bob and Alice trade positions. Finally, Bob and Claire trade positions. At the end of the match, Claire is playing\nOptions:\n(A) goalkeeper\n(B) fullback\n(C) left winger",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a yellow present, Bob has a red present, and Claire has a white present.\nAs the event progresses, pairs of people swap gifts. First, Alice and Claire swap their gifts. Then, Alice and Bob swap their gifts. Finally, Alice and Claire swap their gifts. At the end of the event, Claire has the\nOptions:\n(A) yellow present\n(B) red present\n(C) white present",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a pink ball, Bob has a orange ball, and Claire has a white present.\nAs the event progresses, pairs of people swap gifts. First, Bob and Claire swap their gifts. Then, Alice and Claire swap their gifts. Finally, Bob and Claire swap their gifts. At the end of the event, Bob has the\nOptions:\n(A) pink ball\n(B) orange ball\n(C) white present",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a purple ball, Bob has a blue ball, and Claire has a black ball.\nAs the game progresses, pairs of players trade balls. First, Claire and Bob swap balls. Then, Bob and Alice swap balls. Finally, Claire and Alice swap balls. At the end of the game, Alice has the\nOptions:\n(A) purple ball\n(B) blue ball\n(C) black ball",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a blue ball, Bob has a white ball, and Claire has a red ball.\nAs the game progresses, pairs of players trade balls. First, Claire and Bob swap balls. Then, Alice and Bob swap balls. Finally, Claire and Bob swap balls. At the end of the game, Alice has the\nOptions:\n(A) blue ball\n(B) white ball\n(C) red ball",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a blue ball, Bob has a black ball, and Claire has a brown ball.\nAs the game progresses, pairs of players trade balls. First, Alice and Claire swap balls. Then, Claire and Bob swap balls. Finally, Alice and Claire swap balls. At the end of the game, Claire has the\nOptions:\n(A) blue ball\n(B) black ball\n(C) brown ball",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a black ball, Bob has a purple present, and Claire has a blue present.\nAs the event progresses, pairs of people swap gifts. First, Claire and Alice swap their gifts. Then, Bob and Claire swap their gifts. Finally, Alice and Bob swap their gifts. At the end of the event, Claire has the\nOptions:\n(A) black ball\n(B) purple present\n(C) blue present",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a yellow ball, Bob has a brown ball, and Claire has a green ball.\nAs the game progresses, pairs of players trade balls. First, Bob and Claire swap balls. Then, Bob and Alice swap balls. Finally, Bob and Claire swap balls. At the end of the game, Alice has the\nOptions:\n(A) yellow ball\n(B) brown ball\n(C) green ball",
+        "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing goalkeeper, Bob is playing left midfielder, and Claire is playing striker.\nAs the game progresses, pairs of players occasionally swap positions. First, Bob and Claire trade positions. Then, Bob and Alice trade positions. Finally, Claire and Alice trade positions. At the end of the match, Alice is playing\nOptions:\n(A) goalkeeper\n(B) left midfielder\n(C) striker",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a black ball, Bob has a white present, and Claire has a pink ball.\nAs the event progresses, pairs of people swap gifts. First, Alice and Bob swap their gifts. Then, Bob and Claire swap their gifts. Finally, Alice and Bob swap their gifts. At the end of the event, Bob has the\nOptions:\n(A) black ball\n(B) white present\n(C) pink ball",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a purple ball, Bob has a yellow ball, and Claire has a orange ball.\nAs the game progresses, pairs of players trade balls. First, Claire and Bob swap balls. Then, Bob and Alice swap balls. Finally, Claire and Bob swap balls. At the end of the game, Bob has the\nOptions:\n(A) purple ball\n(B) yellow ball\n(C) orange ball",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a pink ball, Bob has a white present, and Claire has a blue present.\nAs the event progresses, pairs of people swap gifts. First, Bob and Claire swap their gifts. Then, Claire and Alice swap their gifts. Finally, Claire and Bob swap their gifts. At the end of the event, Alice has the\nOptions:\n(A) pink ball\n(B) white present\n(C) blue present",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a yellow present, Bob has a brown present, and Claire has a blue present.\nAs the event progresses, pairs of people swap gifts. First, Bob and Alice swap their gifts. Then, Claire and Alice swap their gifts. Finally, Bob and Alice swap their gifts. At the end of the event, Claire has the\nOptions:\n(A) yellow present\n(B) brown present\n(C) blue present",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a yellow present, Bob has a green present, and Claire has a purple present.\nAs the event progresses, pairs of people swap gifts. First, Bob and Alice swap their gifts. Then, Claire and Alice swap their gifts. Finally, Alice and Bob swap their gifts. At the end of the event, Alice has the\nOptions:\n(A) yellow present\n(B) green present\n(C) purple present",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a white present, Bob has a blue present, and Claire has a pink ball.\nAs the event progresses, pairs of people swap gifts. First, Alice and Claire swap their gifts. Then, Claire and Bob swap their gifts. Finally, Bob and Alice swap their gifts. At the end of the event, Bob has the\nOptions:\n(A) white present\n(B) blue present\n(C) pink ball",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a pink ball, Bob has a blue present, and Claire has a brown present.\nAs the event progresses, pairs of people swap gifts. First, Claire and Alice swap their gifts. Then, Bob and Alice swap their gifts. Finally, Alice and Claire swap their gifts. At the end of the event, Bob has the\nOptions:\n(A) pink ball\n(B) blue present\n(C) brown present",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a blue present, Bob has a red present, and Claire has a black ball.\nAs the event progresses, pairs of people swap gifts. First, Claire and Bob swap their gifts. Then, Bob and Alice swap their gifts. Finally, Claire and Bob swap their gifts. At the end of the event, Bob has the\nOptions:\n(A) blue present\n(B) red present\n(C) black ball",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a orange ball, Bob has a black ball, and Claire has a brown present.\nAs the event progresses, pairs of people swap gifts. First, Alice and Claire swap their gifts. Then, Bob and Claire swap their gifts. Finally, Claire and Alice swap their gifts. At the end of the event, Alice has the\nOptions:\n(A) orange ball\n(B) black ball\n(C) brown present",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a pink ball, Bob has a blue present, and Claire has a brown present.\nAs the event progresses, pairs of people swap gifts. First, Claire and Alice swap their gifts. Then, Bob and Alice swap their gifts. Finally, Alice and Claire swap their gifts. At the end of the event, Alice has the\nOptions:\n(A) pink ball\n(B) blue present\n(C) brown present",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a yellow present, Bob has a green present, and Claire has a purple present.\nAs the event progresses, pairs of people swap gifts. First, Bob and Alice swap their gifts. Then, Claire and Alice swap their gifts. Finally, Alice and Bob swap their gifts. At the end of the event, Claire has the\nOptions:\n(A) yellow present\n(B) green present\n(C) purple present",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a yellow present, Bob has a purple present, and Claire has a green present.\nAs the event progresses, pairs of people swap gifts. First, Claire and Alice swap their gifts. Then, Bob and Claire swap their gifts. Finally, Alice and Bob swap their gifts. At the end of the event, Claire has the\nOptions:\n(A) yellow present\n(B) purple present\n(C) green present",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Helga, Bob is dancing with Ophelia, and Claire is dancing with Sam.\nThroughout the song, the dancers often trade partners. First, Bob and Alice switch partners. Then, Claire and Bob switch partners. Finally, Claire and Alice switch partners. At the end of the dance, Bob is dancing with\nOptions:\n(A) Helga\n(B) Ophelia\n(C) Sam",
+        "Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets The Great Gatsby, Bob gets The Odyssey, and Claire gets Lolita.\nAs the semester proceeds, they start trading around the new books. First, Alice and Bob swap books. Then, Alice and Claire swap books. Finally, Bob and Claire swap books. At the end of the semester, Claire has\nOptions:\n(A) The Great Gatsby\n(B) The Odyssey\n(C) Lolita",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a red ball, Bob has a pink ball, and Claire has a black ball.\nAs the game progresses, pairs of players trade balls. First, Claire and Alice swap balls. Then, Alice and Bob swap balls. Finally, Alice and Claire swap balls. At the end of the game, Claire has the\nOptions:\n(A) red ball\n(B) pink ball\n(C) black ball",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Karl, Bob is dancing with Rodrigo, and Claire is dancing with Patrick.\nThroughout the song, the dancers often trade partners. First, Claire and Alice switch partners. Then, Bob and Alice switch partners. Finally, Alice and Claire switch partners. At the end of the dance, Claire is dancing with\nOptions:\n(A) Karl\n(B) Rodrigo\n(C) Patrick",
+        "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing right midfielder, Bob is playing goalkeeper, and Claire is playing left winger.\nAs the game progresses, pairs of players occasionally swap positions. First, Claire and Alice trade positions. Then, Bob and Claire trade positions. Finally, Alice and Claire trade positions. At the end of the match, Alice is playing\nOptions:\n(A) right midfielder\n(B) goalkeeper\n(C) left winger",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a brown ball, Bob has a pink ball, and Claire has a blue ball.\nAs the game progresses, pairs of players trade balls. First, Claire and Bob swap balls. Then, Claire and Alice swap balls. Finally, Bob and Claire swap balls. At the end of the game, Claire has the\nOptions:\n(A) brown ball\n(B) pink ball\n(C) blue ball",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a green present, Bob has a blue present, and Claire has a brown present.\nAs the event progresses, pairs of people swap gifts. First, Claire and Alice swap their gifts. Then, Claire and Bob swap their gifts. Finally, Alice and Claire swap their gifts. At the end of the event, Alice has the\nOptions:\n(A) green present\n(B) blue present\n(C) brown present",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Lola, Bob is dancing with Patrick, and Claire is dancing with Melissa.\nThroughout the song, the dancers often trade partners. First, Alice and Claire switch partners. Then, Bob and Claire switch partners. Finally, Claire and Alice switch partners. At the end of the dance, Alice is dancing with\nOptions:\n(A) Lola\n(B) Patrick\n(C) Melissa",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a brown ball, Bob has a red ball, and Claire has a white ball.\nAs the game progresses, pairs of players trade balls. First, Claire and Bob swap balls. Then, Bob and Alice swap balls. Finally, Claire and Alice swap balls. At the end of the game, Bob has the\nOptions:\n(A) brown ball\n(B) red ball\n(C) white ball",
+        "Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing left midfielder, Bob is playing right midfielder, and Claire is playing goalkeeper.\nAs the game progresses, pairs of players occasionally swap positions. First, Bob and Alice trade positions. Then, Alice and Claire trade positions. Finally, Bob and Alice trade positions. At the end of the match, Claire is playing\nOptions:\n(A) left midfielder\n(B) right midfielder\n(C) goalkeeper",
+        "Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a green ball, Bob has a black ball, and Claire has a blue ball.\nAs the game progresses, pairs of players trade balls. First, Bob and Alice swap balls. Then, Claire and Alice swap balls. Finally, Alice and Bob swap balls. At the end of the game, Bob has the\nOptions:\n(A) green ball\n(B) black ball\n(C) blue ball",
+        "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a blue present, Bob has a red present, and Claire has a orange ball.\nAs the event progresses, pairs of people swap gifts. First, Claire and Bob swap their gifts. Then, Alice and Claire swap their gifts. Finally, Bob and Alice swap their gifts. At the end of the event, Claire has the\nOptions:\n(A) blue present\n(B) red present\n(C) orange ball",
+        "Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Rodrigo, Bob is dancing with Jamie, and Claire is dancing with Sam.\nThroughout the song, the dancers often trade partners. First, Bob and Alice switch partners. Then, Bob and Claire switch partners. Finally, Alice and Claire switch partners. At the end of the dance, Alice is dancing with\nOptions:\n(A) Rodrigo\n(B) Jamie\n(C) Sam"
+    ],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 6,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets frankenstein bob gets moby dick and claire gets the fellowship of the ring as the semester proceeds they start trading around the new books first alice and bob swap books then claire and alice swap books finally bob and claire swap books at the end of the semester claire has options a frankenstein b moby dick c the fellowship of the ring",
+            "content": "readers who occasionally trade books at the start of the semester they each buy one new book alice gets lolita bob gets frankenstein claire gets moby",
+            "url": "https://assets.amazon.science/cf/27/8c23d669491e832a72ba0fc4b57d/the-empirical-impact-of-data-sanitization-on-language-models.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets frankenstein bob gets moby dick and claire gets the fellowship of the ring as the semester proceeds they start trading around the new books first alice and bob swap books then claire and alice swap books finally bob and claire swap books at the end of the semester alice has options a frankenstein b moby dick c the fellowship of the ring",
+            "content": "readers who occasionally trade books at the start of the semester they each buy one new book alice gets lolita bob gets frankenstein claire gets moby",
+            "url": "https://assets.amazon.science/cf/27/8c23d669491e832a72ba0fc4b57d/the-empirical-impact-of-data-sanitization-on-language-models.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets hound of the baskervilles bob gets frankenstein and claire gets the odyssey as the semester proceeds they start trading around the new books first bob and claire swap books then alice and bob swap books finally alice and claire swap books at the end of the semester alice has options a hound of the baskervilles b frankenstein c the odyssey",
+            "content": "readers who occasionally trade books at the start of the semester they each buy one new book alice gets lolita bob gets frankenstein claire gets moby 13 stron",
+            "url": "https://assets.amazon.science/cf/27/8c23d669491e832a72ba0fc4b57d/the-empirical-impact-of-data-sanitization-on-language-models.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets frankenstein bob gets moby dick and claire gets the fellowship of the ring as the semester proceeds they start trading around the new books first alice and bob swap books then claire and alice swap books finally bob and claire swap books at the end of the semester bob has options a frankenstein b moby dick c the fellowship of the ring",
+            "content": "readers who occasionally trade books at the start of the semester they each buy one new book alice gets lolita bob gets frankenstein claire gets moby",
+            "url": "https://assets.amazon.science/cf/27/8c23d669491e832a72ba0fc4b57d/the-empirical-impact-of-data-sanitization-on-language-models.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "alice bob and claire are playing a game at the start of the game they are each holding a ball alice has a yellow ball bob has a blue ball and claire has a pink ball as the game progresses pairs of players trade balls first claire and alice swap balls then alice and bob swap balls finally claire and bob swap balls at the end of the game alice has the options a yellow ball b blue ball c pink ball",
+            "content": "at the start of the game they are each holding a ball alice 1 claire and alice swap balls alice pink bob blue claire yellow",
+            "url": "http://www.diva-portal.org/smash/get/diva2:1872915/FULLTEXT01.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets hound of the baskervilles bob gets the pearl and claire gets the odyssey as the semester proceeds they start trading around the new books first bob and claire swap books then claire and alice swap books finally bob and alice swap books at the end of the semester claire has options a hound of the baskervilles b the pearl c the odyssey",
+            "content": "readers who occasionally trade books at the start of the semester they each buy one new book alice gets lolita bob gets frankenstein claire gets moby",
+            "url": "https://assets.amazon.science/cf/27/8c23d669491e832a72ba0fc4b57d/the-empirical-impact-of-data-sanitization-on-language-models.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets ulysses bob gets the fellowship of the ring and claire gets the pearl as the semester proceeds they start trading around the new books first alice and claire swap books then bob and claire swap books finally alice and bob swap books at the end of the semester bob has options a ulysses b the fellowship of the ring c the pearl",
+            "content": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets ulysses",
+            "url": "https://gist.github.com/av/18cc8138a0acbe1b30f51e8bb19add90",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets frankenstein bob gets the pearl and claire gets the fellowship of the ring as the semester proceeds they start trading around the new books first bob and claire swap books then bob and alice swap books finally claire and alice swap books at the end of the semester bob has options a frankenstein b the pearl c the fellowship of the ring",
+            "content": "readers who occasionally trade books at the start of the semester they each buy one new book alice gets lolita bob gets frankenstein claire gets moby",
+            "url": "https://assets.amazon.science/cf/27/8c23d669491e832a72ba0fc4b57d/the-empirical-impact-of-data-sanitization-on-language-models.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets hound of the baskervilles bob gets the pearl and claire gets the odyssey as the semester proceeds they start trading around the new books first bob and claire swap books then claire and alice swap books finally bob and alice swap books at the end of the semester alice has options a hound of the baskervilles b the pearl c the odyssey",
+            "content": "readers who occasionally trade books at the start of the semester they each buy one new book alice gets lolita bob gets frankenstein claire gets moby",
+            "url": "https://assets.amazon.science/cf/27/8c23d669491e832a72ba0fc4b57d/the-empirical-impact-of-data-sanitization-on-language-models.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets frankenstein bob gets the pearl and claire gets the fellowship of the ring as the semester proceeds they start trading around the new books first bob and claire swap books then bob and alice swap books finally claire and alice swap books at the end of the semester claire has options a frankenstein b the pearl c the fellowship of the ring",
+            "content": "readers who occasionally trade books at the start of the semester they each buy one new book alice gets lolita bob gets frankenstein claire gets moby",
+            "url": "https://assets.amazon.science/cf/27/8c23d669491e832a72ba0fc4b57d/the-empirical-impact-of-data-sanitization-on-language-models.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets lolita bob gets hound of the baskervilles and claire gets the fellowship of the ring as the semester proceeds they start trading around the new books first claire and bob swap books then alice and bob swap books finally claire and bob swap books at the end of the semester claire has options a lolita b hound of the baskervilles c the fellowship of the ring",
+            "content": "readers who occasionally trade books at the start of the semester they each buy one new book alice gets lolita bob gets frankenstein claire gets moby",
+            "url": "https://assets.amazon.science/cf/27/8c23d669491e832a72ba0fc4b57d/the-empirical-impact-of-data-sanitization-on-language-models.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "alice bob and claire are playing a game at the start of the game they are each holding a ball alice has a yellow ball bob has a blue ball and claire has a pink ball as the game progresses pairs of players trade balls first claire and alice swap balls then alice and bob swap balls finally claire and bob swap balls at the end of the game alice has the options a yellow ball b blue ball c pink ball",
+            "content": "at the start of the game they are each holding a ball alice 1 claire and alice swap balls alice pink bob blue claire yellow",
+            "url": "http://www.diva-portal.org/smash/get/diva2:1872915/FULLTEXT01.pdf",
+            "engine": "ddg"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 5,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets the odyssey bob gets frankenstein and claire gets the pearl as the semester proceeds they start trading around the new books first bob and alice swap books then alice and claire swap books finally bob and alice swap books at the end of the semester claire has options a the odyssey b frankenstein c the pearl",
+            "content": "“you are about to begin reading italo calvinos new novel if on a winters night a traveler” italo calvino if on a winters night a traveler 1979",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "alice bob and claire are dancers at a square dance at the start of a song they each have a partner alice is dancing with patrick bob is dancing with izzi and claire is dancing with karl throughout the song the dancers often trade partners first claire and bob switch partners then alice and bob switch partners finally bob and claire switch partners at the end of the dance bob is dancing with options a patrick b izzi c karl",
+            "content": "claire 05 nf en 2852 53366 53 lg 101 facts about parakeets barnes dancing in the wings allen debbie 05 f en 1676 44750 47 mg dancing",
+            "url": "https://www.stjosephupland.org/wp-content/uploads/2015/04/AR_Tests_March2015.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets ulysses bob gets moby dick and claire gets frankenstein as the semester proceeds they start trading around the new books first bob and alice swap books then bob and claire swap books finally alice and bob swap books at the end of the semester alice has options a ulysses b moby dick c frankenstein",
+            "content": "“you are about to begin reading italo calvinos new novel if on a winters night a traveler” italo calvino if on a winters night a traveler 1979",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing striker bob is playing right midfielder and claire is playing goalkeeper as the game progresses pairs of players occasionally swap positions first claire and bob trade positions then claire and alice trade positions finally bob and claire trade positions at the end of the match bob is playing options a striker b right midfielder c goalkeeper",
+            "content": "in this thesis we demonstrate that the habit of driving search using such function leads to evaluation bottleneck ie information rich process of candidate",
+            "url": "http://www.cs.put.poznan.pl/pliskowski/pub/phdthesis.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets the fellowship of the ring bob gets frankenstein and claire gets the great gatsby as the semester proceeds they start trading around the new books first alice and claire swap books then alice and bob swap books finally claire and bob swap books at the end of the semester alice has options a the fellowship of the ring b frankenstein c the great gatsby",
+            "content": "read the great gatsby and then discuss in class the conflict in the novel they present a dream world in which alice meets strange creatures and has many",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets frankenstein bob gets the pearl and claire gets the odyssey as the semester proceeds they start trading around the new books first bob and alice swap books then bob and claire swap books finally bob and alice swap books at the end of the semester bob has options a frankenstein b the pearl c the odyssey",
+            "content": "“you are about to begin reading italo calvinos new novel if on a winters night a traveler” italo calvino if on a winters night a traveler 1979",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are holding a white elephant gift exchange at the start of the event they are each holding a present of a different color alice has a green present bob has a black ball and claire has a blue present as the event progresses pairs of people swap gifts first alice and claire swap their gifts then claire and bob swap their gifts finally alice and bob swap their gifts at the end of the event claire has the options a green present b black ball c blue present",
+            "content": "this book provides presentation and practice of all the key grammar vocabulary and lexicogrammatical areas required for all main cl and c2 exams eg cambridge",
+            "url": "https://garysenglishmethod.com/wp-content/uploads/2020/11/Destination-C1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing cheerleader bob is playing right winger and claire is playing goalkeeper as the game progresses pairs of players occasionally swap positions first alice and claire trade positions then bob and alice trade positions finally claire and bob trade positions at the end of the match claire is playing options a cheerleader b right winger c goalkeeper",
+            "content": "this book consists of writings which focus on the role of physical educators in the growth development and evolution of competitive basketball",
+            "url": "https://scispace.com/pdf/a-century-of-women-s-basketball-from-frailty-to-final-four-11tb6rds0n.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are dancers at a square dance at the start of a song they each have a partner alice is dancing with helga bob is dancing with patrick and claire is dancing with izzi throughout the song the dancers often trade partners first alice and bob switch partners then claire and alice switch partners finally alice and bob switch partners at the end of the dance bob is dancing with options a helga b patrick c izzi",
+            "content": "pts 17352 en 100 unforgettable moments in pro basketball italia bob 65 1 17354 en 100 unforgettable moments in pro golf italia bob",
+            "url": "https://www.mylakelibrary.org/virtual_library/arlistdocs/4_bytitle.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing right winger bob is playing left midfielder and claire is playing center midfielder as the game progresses pairs of players occasionally swap positions first claire and alice trade positions then bob and alice trade positions finally claire and bob trade positions at the end of the match alice is playing options a right winger b left midfielder c center midfielder",
+            "content": "in this thesis we demonstrate that the habit of driving search using such function leads to evaluation bottleneck ie information rich process of candidate",
+            "url": "http://www.cs.put.poznan.pl/pliskowski/pub/phdthesis.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing striker bob is playing left winger and claire is playing benchwarmer as the game progresses pairs of players occasionally swap positions first claire and alice trade positions then alice and bob trade positions finally claire and alice trade positions at the end of the match alice is playing options a striker b left winger c benchwarmer",
+            "content": "based on frank millers graphic novel the action follows king leonidas and his brave group of 300 spartan soldiers as they prepare to defend their native",
+            "url": "https://brill.com/display/book/9789460910227/BP000005.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing fullback bob is playing cheerleader and claire is playing left winger as the game progresses pairs of players occasionally swap positions first alice and claire trade positions then bob and alice trade positions finally bob and claire trade positions at the end of the match bob is playing options a fullback b cheerleader c left winger",
+            "content": "lively stereo top left joe ballard leads the tiger band during halftime at the tulaneclemson football game",
+            "url": "https://core.ac.uk/download/pdf/268663353.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets frankenstein bob gets the odyssey and claire gets ulysses as the semester proceeds they start trading around the new books first claire and alice swap books then claire and bob swap books finally bob and alice swap books at the end of the semester bob has options a frankenstein b the odyssey c ulysses",
+            "content": "“you are about to begin reading italo calvinos new novel if on a winters night a traveler” italo calvino if on a winters night a traveler 1979",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets frankenstein bob gets moby dick and claire gets the fellowship of the ring as the semester proceeds they start trading around the new books first alice and bob swap books then claire and alice swap books finally bob and claire swap books at the end of the semester claire has options a frankenstein b moby dick c the fellowship of the ring",
+            "content": "novel by herman melville moby dick provides a lot of information about whaling they present a dream world in which alice meets strange creatures and has",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets the odyssey bob gets the fellowship of the ring and claire gets the pearl as the semester proceeds they start trading around the new books first bob and claire swap books then claire and alice swap books finally bob and claire swap books at the end of the semester claire has options a the odyssey b the fellowship of the ring c the pearl",
+            "content": "i am most grateful to the following friends and colleagues who made close helpful encouraging and often indispensable comments on various aspects in this",
+            "url": "https://www.furkatingcollege.edu.in/wp-content/uploads/2024/06/Andrew-Sanders-The-Short-Oxford-History-1994.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets frankenstein bob gets moby dick and claire gets the fellowship of the ring as the semester proceeds they start trading around the new books first alice and bob swap books then claire and alice swap books finally bob and claire swap books at the end of the semester alice has options a frankenstein b moby dick c the fellowship of the ring",
+            "content": "novel by herman melville moby dick provides a lot of information about whaling they present a dream world in which alice meets strange creatures and has",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing cheerleader bob is playing right winger and claire is playing fullback as the game progresses pairs of players occasionally swap positions first claire and alice trade positions then bob and claire trade positions finally claire and alice trade positions at the end of the match alice is playing options a cheerleader b right winger c fullback",
+            "content": "defensive line coach bill shannon signed three outstanding players for the 71 season they are dave freer another first team allstate",
+            "url": "https://encompass.eku.edu/cgi/viewcontent.cgi?article=1029&context=progress_1970-71",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing benchwarmer bob is playing fullback and claire is playing goalkeeper as the game progresses pairs of players occasionally swap positions first claire and bob trade positions then alice and claire trade positions finally bob and alice trade positions at the end of the match alice is playing options a benchwarmer b fullback c goalkeeper",
+            "content": "i would like to thank those players collectively that enabled us to play each week it was good to see most players hang around and enjoy a drink and a chat",
+            "url": "https://www.melvillehockey.com/wp-content/uploads/2022/04/MCHC-Yearbook-2009.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets ulysses bob gets frankenstein and claire gets catch22 as the semester proceeds they start trading around the new books first bob and claire swap books then claire and alice swap books finally alice and bob swap books at the end of the semester alice has options a ulysses b frankenstein c catch22",
+            "content": "if you have received these materials as examination copies free of charge holt rinehart and winston retains title to the materials and they may not be resold",
+            "url": "https://psv4.userapi.com/s/v1/d/dpPBgS3Go-RpYc0D3bjUQnYvxGJiZq07OZg2qcIZodA78rGS8mzmWcxjlpPkcZIu0TKjNFko5zPtpLynhv5CvwzR-ywKKiKRALNzONluRnuY0oF6/Guided_Practice_in_Grammar_Usage_and_Mechanics_Fifth_Course.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing center midfielder bob is playing benchwarmer and claire is playing fullback as the game progresses pairs of players occasionally swap positions first alice and claire trade positions then alice and bob trade positions finally alice and claire trade positions at the end of the match bob is playing options a center midfielder b benchwarmer c fullback",
+            "content": "our four years in high school are important stepping stones in our journey through life with a realization of the necessity for education and for human",
+            "url": "https://www.eopl.org/download/Syllabus1951.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "alice bob and claire are dancers at a square dance at the start of a song they each have a partner alice is dancing with izzi bob is dancing with jamie and claire is dancing with rodrigo throughout the song the dancers often trade partners first bob and alice switch partners then alice and claire switch partners finally claire and bob switch partners at the end of the dance alice is dancing with options a izzi b jamie c rodrigo",
+            "content": "start timellistblockblock sdosetvarlstart timelblock s alicealiceapossaliciaaliciaapossalienalienapossalienate",
+            "url": "https://snap.berkeley.edu/project/11166188",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets the fellowship of the ring bob gets the odyssey and claire gets the great gatsby as the semester proceeds they start trading around the new books first alice and claire swap books then alice and bob swap books finally claire and alice swap books at the end of the semester alice has options a the fellowship of the ring b the odyssey c the great gatsby",
+            "content": "read the great gatsby and then discuss in class the conflict in the novel they present a dream world in which alice meets strange creatures and has many",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets hound of the baskervilles bob gets frankenstein and claire gets the odyssey as the semester proceeds they start trading around the new books first bob and claire swap books then alice and bob swap books finally alice and claire swap books at the end of the semester alice has options a hound of the baskervilles b frankenstein c the odyssey",
+            "content": "it is sufficient to make you a very proficient reader dementsprechend syntopical reading is for many books analytical reading is for one book so 9 stron",
+            "url": "http://lukoilmarine.com/ckfinder/userfiles/files/28719406465.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "alice bob and claire are holding a white elephant gift exchange at the start of the event they are each holding a present of a different color alice has a pink ball bob has a black ball and claire has a purple present as the event progresses pairs of people swap gifts first bob and claire swap their gifts then alice and claire swap their gifts finally claire and bob swap their gifts at the end of the event alice has the options a pink ball b black ball c purple present",
+            "content": "the oxford english grammar course advanced level is for people who have a good knowledge of english but who want to speak or write more correctly perhaps",
+            "url": "https://zabanafzar.ir/files/Oxford%20English%20Grammar%20Course/3/3-Oxford_English_Grammar_Course-Advanced.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "alice bob and claire are playing a game at the start of the game they are each holding a ball alice has a green ball bob has a black ball and claire has a purple ball as the game progresses pairs of players trade balls first bob and alice swap balls then claire and alice swap balls finally bob and alice swap balls at the end of the game alice has the options a green ball b black ball c purple ball",
+            "content": "by t kojima scaling up the size of language models has been key ingredients of recent revolutions in natural language processing nlp vaswani et al 2017 devlin et al",
+            "url": "https://machelreid.github.io/resources/kojima2022zeroshotcot.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets catch22 bob gets moby dick and claire gets the fellowship of the ring as the semester proceeds they start trading around the new books first claire and alice swap books then bob and alice swap books finally claire and bob swap books at the end of the semester claire has options a catch22 b moby dick c the fellowship of the ring",
+            "content": "novel by herman melville moby dick provides a lot of information about whaling they present a dream world in which alice meets strange creatures and has",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets the fellowship of the ring bob gets catch22 and claire gets moby dick as the semester proceeds they start trading around the new books first bob and alice swap books then alice and claire swap books finally bob and claire swap books at the end of the semester claire has options a the fellowship of the ring b catch22 c moby dick",
+            "content": "preface 6 how to use this book 7 acknowledgements 7 1 a general introduction to literature 9 11 what is literature literariness",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "alice bob and claire are playing a game at the start of the game they are each holding a ball alice has a green ball bob has a black ball and claire has a purple ball as the game progresses pairs of players trade balls first bob and alice swap balls then claire and alice swap balls finally bob and alice swap balls at the end of the game bob has the options a green ball b black ball c purple ball",
+            "content": "by t kojima scaling up the size of language models has been key ingredients of recent revolutions in natural language processing nlp vaswani et al 2017 devlin et al",
+            "url": "https://machelreid.github.io/resources/kojima2022zeroshotcot.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets the fellowship of the ring bob gets the odyssey and claire gets the great gatsby as the semester proceeds they start trading around the new books first alice and claire swap books then alice and bob swap books finally claire and alice swap books at the end of the semester claire has options a the fellowship of the ring b the odyssey c the great gatsby",
+            "content": "read the great gatsby and then discuss in class the conflict in the novel they present a dream world in which alice meets strange creatures and has many",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing center midfielder bob is playing right midfielder and claire is playing goalkeeper as the game progresses pairs of players occasionally swap positions first claire and bob trade positions then claire and alice trade positions finally bob and claire trade positions at the end of the match alice is playing options a center midfielder b right midfielder c goalkeeper",
+            "content": "we investigate the possibility of broadening the bottleneck of scalar evaluation by making evolutionary search algorithms betterinformed about the outcomes of",
+            "url": "http://www.cs.put.poznan.pl/pliskowski/pub/phdthesis.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are holding a white elephant gift exchange at the start of the event they are each holding a present of a different color alice has a green present bob has a white present and claire has a black ball as the event progresses pairs of people swap gifts first alice and bob swap their gifts then claire and bob swap their gifts finally bob and alice swap their gifts at the end of the event bob has the options a green present b white present c black ball",
+            "content": "this book provides presentation and practice of all the key grammar vocabulary and lexicogrammatical areas required for all main cl and c2 exams eg cambridge",
+            "url": "https://garysenglishmethod.com/wp-content/uploads/2020/11/Destination-C1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "alice bob and claire are dancers at a square dance at the start of a song they each have a partner alice is dancing with patrick bob is dancing with izzi and claire is dancing with karl throughout the song the dancers often trade partners first claire and bob switch partners then alice and bob switch partners finally bob and claire switch partners at the end of the dance alice is dancing with options a patrick b izzi c karl",
+            "content": "claire 05 nf en 2852 53366 53 lg 101 facts about parakeets barnes dancing in the wings allen debbie 05 f en 1676 44750 47 mg dancing",
+            "url": "https://www.stjosephupland.org/wp-content/uploads/2015/04/AR_Tests_March2015.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing right winger bob is playing right midfielder and claire is playing fullback as the game progresses pairs of players occasionally swap positions first bob and alice trade positions then alice and claire trade positions finally bob and claire trade positions at the end of the match claire is playing options a right winger b right midfielder c fullback",
+            "content": "we present for your participation the 59th di bradini cup aka the 80th under21 world cup",
+            "url": "https://forum.nationstates.net/viewtopic.php?f=7&t=559029",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets the great gatsby bob gets moby dick and claire gets the fellowship of the ring as the semester proceeds they start trading around the new books first claire and alice swap books then bob and claire swap books finally alice and claire swap books at the end of the semester bob has options a the great gatsby b moby dick c the fellowship of the ring",
+            "content": "preface 6 how to use this book 7 acknowledgements 7 1 a general introduction to literature 9 11 what is literature literariness",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets frankenstein bob gets moby dick and claire gets the fellowship of the ring as the semester proceeds they start trading around the new books first alice and bob swap books then claire and alice swap books finally bob and claire swap books at the end of the semester bob has options a frankenstein b moby dick c the fellowship of the ring",
+            "content": "novel by herman melville moby dick provides a lot of information about whaling they present a dream world in which alice meets strange creatures and has",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing striker bob is playing benchwarmer and claire is playing center midfielder as the game progresses pairs of players occasionally swap positions first alice and bob trade positions then alice and claire trade positions finally claire and bob trade positions at the end of the match claire is playing options a striker b benchwarmer c center midfielder",
+            "content": "calvinball is a game which we see characters play but whose rules we dont know in some instances the rules may even be unclear to the players",
+            "url": "https://tvtropes.org/pmwiki/pmwiki.php/Main/Calvinball",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets frankenstein bob gets the odyssey and claire gets the great gatsby as the semester proceeds they start trading around the new books first alice and claire swap books then alice and bob swap books finally alice and claire swap books at the end of the semester alice has options a frankenstein b the odyssey c the great gatsby",
+            "content": "“you are about to begin reading italo calvinos new novel if on a winters night a traveler” italo calvino if on a winters night a traveler 1979",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets the odyssey bob gets the pearl and claire gets frankenstein as the semester proceeds they start trading around the new books first claire and bob swap books then claire and alice swap books finally bob and claire swap books at the end of the semester bob has options a the odyssey b the pearl c frankenstein",
+            "content": "“you are about to begin reading italo calvinos new novel if on a winters night a traveler” italo calvino if on a winters night a traveler 1979",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "alice bob and claire are dancers at a square dance at the start of a song they each have a partner alice is dancing with patrick bob is dancing with karl and claire is dancing with izzi throughout the song the dancers often trade partners first bob and claire switch partners then claire and alice switch partners finally claire and bob switch partners at the end of the dance bob is dancing with options a patrick b karl c izzi",
+            "content": "betsy ross and the american flag olson kay melchisedech 37 05 820 en betsy ross designer of our flag weil ann 38 30 459 en betsys busy summer",
+            "url": "https://www.washington.k12.pa.us/cms/lib/PA50010844/Centricity/Domain/219/UpdatedQuizList-2012.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets the odyssey bob gets the fellowship of the ring and claire gets hound of the baskervilles as the semester proceeds they start trading around the new books first bob and alice swap books then claire and bob swap books finally alice and claire swap books at the end of the semester bob has options a the odyssey b the fellowship of the ring c hound of the baskervilles",
+            "content": "they present a dream world in which alice meets strange creatures and has many interesting adventures carrolls tales about alice prepared the ground for",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing striker bob is playing right midfielder and claire is playing goalkeeper as the game progresses pairs of players occasionally swap positions first claire and bob trade positions then claire and alice trade positions finally bob and claire trade positions at the end of the match claire is playing options a striker b right midfielder c goalkeeper",
+            "content": "in this thesis we demonstrate that the habit of driving search using such function leads to evaluation bottleneck ie information rich process of candidate",
+            "url": "http://www.cs.put.poznan.pl/pliskowski/pub/phdthesis.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing goalkeeper bob is playing left winger and claire is playing center midfielder as the game progresses pairs of players occasionally swap positions first claire and bob trade positions then alice and bob trade positions finally claire and alice trade positions at the end of the match alice is playing options a goalkeeper b left winger c center midfielder",
+            "content": "in this thesis we demonstrate that the habit of driving search using such function leads to evaluation bottleneck ie information rich process of candidate",
+            "url": "http://www.cs.put.poznan.pl/pliskowski/pub/phdthesis.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets frankenstein bob gets the pearl and claire gets the odyssey as the semester proceeds they start trading around the new books first bob and alice swap books then bob and claire swap books finally bob and alice swap books at the end of the semester alice has options a frankenstein b the pearl c the odyssey",
+            "content": "“you are about to begin reading italo calvinos new novel if on a winters night a traveler” italo calvino if on a winters night a traveler 1979",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing right winger bob is playing striker and claire is playing fullback as the game progresses pairs of players occasionally swap positions first bob and alice trade positions then alice and claire trade positions finally claire and bob trade positions at the end of the match claire is playing options a right winger b striker c fullback",
+            "content": "the location of the serve for the first point of each game was always directed to the same location a total of 12 service games consisting of 96 points",
+            "url": "https://www.science.gov/topicpages/p/player+contributions+vary",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets hound of the baskervilles bob gets the pearl and claire gets the odyssey as the semester proceeds they start trading around the new books first bob and claire swap books then claire and alice swap books finally bob and alice swap books at the end of the semester claire has options a hound of the baskervilles b the pearl c the odyssey",
+            "content": "“you are about to begin reading italo calvinos new novel if on a winters night a traveler” italo calvino if on a winters night a traveler 1979",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets catch22 bob gets moby dick and claire gets the great gatsby as the semester proceeds they start trading around the new books first claire and bob swap books then claire and alice swap books finally bob and claire swap books at the end of the semester bob has options a catch22 b moby dick c the great gatsby",
+            "content": "novel by herman melville moby dick provides a lot of information about whaling they present a dream world in which alice meets strange creatures and has",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing cheerleader bob is playing right winger and claire is playing benchwarmer as the game progresses pairs of players occasionally swap positions first alice and claire trade positions then bob and claire trade positions finally alice and bob trade positions at the end of the match alice is playing options a cheerleader b right winger c benchwarmer",
+            "content": "based on frank millers graphic novel the action follows king leonidas and his brave group of 300 spartan soldiers as they prepare to defend their native",
+            "url": "https://brill.com/display/book/9789460910227/BP000005.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets hound of the baskervilles bob gets frankenstein and claire gets lolita as the semester proceeds they start trading around the new books first bob and claire swap books then alice and claire swap books finally claire and bob swap books at the end of the semester bob has options a hound of the baskervilles b frankenstein c lolita",
+            "content": "“you are about to begin reading italo calvinos new novel if on a winters night a traveler” italo calvino if on a winters night a traveler 1979",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing goalkeeper bob is playing center midfielder and claire is playing benchwarmer as the game progresses pairs of players occasionally swap positions first claire and bob trade positions then alice and bob trade positions finally bob and claire trade positions at the end of the match bob is playing options a goalkeeper b center midfielder c benchwarmer",
+            "content": "its the biggest job the babysitters club has ever had but theyll work together to make sure kristys big day is a success isbn 9781338067613 series the",
+            "url": "https://online.education.nsw.gov.au/prc/booklist/listBooksByTitle.html?letter=B&levelId=3",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "alice bob and claire are dancers at a square dance at the start of a song they each have a partner alice is dancing with melissa bob is dancing with lola and claire is dancing with izzi throughout the song the dancers often trade partners first alice and bob switch partners then alice and claire switch partners finally bob and alice switch partners at the end of the dance claire is dancing with options a melissa b lola c izzi",
+            "content": "betsy ross and the american flag olson kay melchisedech 37 05 820 en betsy ross designer of our flag weil ann 38 30 459 en betsys busy summer",
+            "url": "https://www.washington.k12.pa.us/cms/lib/PA50010844/Centricity/Domain/219/UpdatedQuizList-2012.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets the great gatsby bob gets frankenstein and claire gets ulysses as the semester proceeds they start trading around the new books first alice and claire swap books then bob and claire swap books finally claire and alice swap books at the end of the semester alice has options a the great gatsby b frankenstein c ulysses",
+            "content": "if you have received these materials as examination copies free of charge holt rinehart and winston retains title to the materials and they may not be resold",
+            "url": "https://psv4.userapi.com/s/v1/d/NSz2-Vs_KwRzPSAHYNpaAiDslHe8rifZ_qtf4HrPbb5OV2mSpnsyFcV1j2thnmSBstE326QyHx9Tt8nn3tK8HWf3hmdiJ4VHjegUfzailORlgfsE/Guided_Practice_in_Grammar_Usage_and_Mechanics_Fifth_Course.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "alice bob and claire are holding a white elephant gift exchange at the start of the event they are each holding a present of a different color alice has a black ball bob has a green present and claire has a brown present as the event progresses pairs of people swap gifts first alice and bob swap their gifts then claire and bob swap their gifts finally alice and claire swap their gifts at the end of the event bob has the options a black ball b green present c brown present",
+            "content": "this book provides presentation and practice of all the key grammar vocabulary and lexicogrammatical areas required for all main cl and c2 exams eg cambridge",
+            "url": "https://garysenglishmethod.com/wp-content/uploads/2020/11/Destination-C1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing right winger bob is playing cheerleader and claire is playing striker as the game progresses pairs of players occasionally swap positions first alice and claire trade positions then claire and bob trade positions finally bob and alice trade positions at the end of the match alice is playing options a right winger b cheerleader c striker",
+            "content": "do vyouwethey play does hesheit play helpful hints 2 yes the match is on tv now but we",
+            "url": "https://garysenglishmethod.com/wp-content/uploads/2020/11/Destination-B1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are dancers at a square dance at the start of a song they each have a partner alice is dancing with ophelia bob is dancing with lola and claire is dancing with izzi throughout the song the dancers often trade partners first bob and claire switch partners then claire and alice switch partners finally alice and bob switch partners at the end of the dance alice is dancing with options a ophelia b lola c izzi",
+            "content": "pts 17352 en 100 unforgettable moments in pro basketball italia bob 65 1 17354 en 100 unforgettable moments in pro golf italia bob",
+            "url": "https://www.mylakelibrary.org/virtual_library/arlistdocs/4_bytitle.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets lolita bob gets catch22 and claire gets the great gatsby as the semester proceeds they start trading around the new books first alice and claire swap books then bob and alice swap books finally claire and alice swap books at the end of the semester bob has options a lolita b catch22 c the great gatsby",
+            "content": "read the great gatsby and then discuss in class the conflict in the novel they present a dream world in which alice meets strange creatures and has many",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "alice bob and claire are holding a white elephant gift exchange at the start of the event they are each holding a present of a different color alice has a black ball bob has a green present and claire has a brown present as the event progresses pairs of people swap gifts first alice and bob swap their gifts then claire and bob swap their gifts finally alice and claire swap their gifts at the end of the event claire has the options a black ball b green present c brown present",
+            "content": "this book provides presentation and practice of all the key grammar vocabulary and lexicogrammatical areas required for all main cl and c2 exams eg cambridge",
+            "url": "https://garysenglishmethod.com/wp-content/uploads/2020/11/Destination-C1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing center midfielder bob is playing right midfielder and claire is playing goalkeeper as the game progresses pairs of players occasionally swap positions first claire and bob trade positions then claire and alice trade positions finally bob and claire trade positions at the end of the match claire is playing options a center midfielder b right midfielder c goalkeeper",
+            "content": "we investigate the possibility of broadening the bottleneck of scalar evaluation by making evolutionary search algorithms betterinformed about the outcomes of",
+            "url": "http://www.cs.put.poznan.pl/pliskowski/pub/phdthesis.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing right winger bob is playing cheerleader and claire is playing striker as the game progresses pairs of players occasionally swap positions first alice and claire trade positions then claire and bob trade positions finally bob and alice trade positions at the end of the match claire is playing options a right winger b cheerleader c striker",
+            "content": "do vyouwethey play does hesheit play helpful hints 2 yes the match is on tv now but we",
+            "url": "https://garysenglishmethod.com/wp-content/uploads/2020/11/Destination-B1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing right midfielder bob is playing center midfielder and claire is playing striker as the game progresses pairs of players occasionally swap positions first alice and bob trade positions then alice and claire trade positions finally bob and claire trade positions at the end of the match claire is playing options a right midfielder b center midfielder c striker",
+            "content": "we investigate the possibility of broadening the bottleneck of scalar evaluation by making evolutionary search algorithms betterinformed about the outcomes of",
+            "url": "http://www.cs.put.poznan.pl/pliskowski/pub/phdthesis.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets ulysses bob gets the fellowship of the ring and claire gets the pearl as the semester proceeds they start trading around the new books first alice and claire swap books then bob and claire swap books finally alice and bob swap books at the end of the semester bob has options a ulysses b the fellowship of the ring c the pearl",
+            "content": "this title is available as an ebook isbn13 9781414437194 isbn10 1414437196",
+            "url": "https://literaturecurry.com/uploads/pdfnotes/f3f750ea-f858-40a5-a46d-10bd90d36828_LITERARY%20MOVEMENTS%20FOR%20STUDENTS.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are dancers at a square dance at the start of a song they each have a partner alice is dancing with izzi bob is dancing with patrick and claire is dancing with ophelia throughout the song the dancers often trade partners first bob and alice switch partners then claire and bob switch partners finally claire and alice switch partners at the end of the dance alice is dancing with options a izzi b patrick c ophelia",
+            "content": "this book is intended as an introduction to critical discussion of some of the best fiction for young adults a selected bibliography of secondary sources",
+            "url": "https://cdn.oujdalibrary.com/books/513/513-thematic-guide-to-young-adult-literature-(www.tawcer.com).pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets ulysses bob gets frankenstein and claire gets lolita as the semester proceeds they start trading around the new books first claire and bob swap books then bob and alice swap books finally claire and bob swap books at the end of the semester bob has options a ulysses b frankenstein c lolita",
+            "content": "3 claire and bob swap books alice frankenstein bob lolita claire ulysses at the end of the semester bob has lolita so the answer is",
+            "url": "https://simg.baai.ac.cn/paperfile/fc2138ce-cadb-4a36-b9f7-c4000dea3369.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets the great gatsby bob gets the pearl and claire gets the odyssey as the semester proceeds they start trading around the new books first alice and claire swap books then bob and alice swap books finally alice and claire swap books at the end of the semester bob has options a the great gatsby b the pearl c the odyssey",
+            "content": "it was the 1930s and radios were the exciting new thing on everyones minds but it wasnt just radios cleaning out the garage after he died i found a",
+            "url": "https://scispace.com/pdf/on-the-thr-eshold-breadwinning-capitalism-and-the-absent-1j8gwde6qb.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing striker bob is playing right winger and claire is playing goalkeeper as the game progresses pairs of players occasionally swap positions first claire and bob trade positions then bob and alice trade positions finally alice and claire trade positions at the end of the match alice is playing options a striker b right winger c goalkeeper",
+            "content": "in listening part 4 there are seven questions and you choose one answer from three possible options you hear the recording twice exam information leisure",
+            "url": "https://dl.avasshop.ir/FCE/complete/second/1complete_first_workbook_with_answers.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing left midfielder bob is playing center midfielder and claire is playing benchwarmer as the game progresses pairs of players occasionally swap positions first alice and bob trade positions then alice and claire trade positions finally alice and bob trade positions at the end of the match claire is playing options a left midfielder b center midfielder c benchwarmer",
+            "content": "calvinball is a game which we see characters play but whose rules we dont know in some instances the rules may even be unclear to the players",
+            "url": "https://tvtropes.org/pmwiki/pmwiki.php/Main/Calvinball",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "alice bob and claire are holding a white elephant gift exchange at the start of the event they are each holding a present of a different color alice has a pink ball bob has a brown present and claire has a yellow present as the event progresses pairs of people swap gifts first bob and claire swap their gifts then bob and alice swap their gifts finally claire and alice swap their gifts at the end of the event claire has the options a pink ball b brown present c yellow present",
+            "content": "they have a pretty daughter and bob soon loves her and he wants to marry her when he comes back bob promises the girl to send a present from every port bobs",
+            "url": "https://eduteach.es/worksheets-grammar.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing goalkeeper bob is playing left winger and claire is playing right midfielder as the game progresses pairs of players occasionally swap positions first claire and alice trade positions then bob and claire trade positions finally alice and bob trade positions at the end of the match claire is playing options a goalkeeper b left winger c right midfielder",
+            "content": "in this thesis we demonstrate that the habit of driving search using such function leads to evaluation bottleneck ie information rich process of candidate",
+            "url": "http://www.cs.put.poznan.pl/pliskowski/pub/phdthesis.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets hound of the baskervilles bob gets the odyssey and claire gets catch22 as the semester proceeds they start trading around the new books first claire and alice swap books then bob and claire swap books finally alice and bob swap books at the end of the semester alice has options a hound of the baskervilles b the odyssey c catch22",
+            "content": "they present a dream world in which alice meets strange creatures and has many interesting adventures carrolls tales about alice prepared the ground for",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing center midfielder bob is playing left midfielder and claire is playing left winger as the game progresses pairs of players occasionally swap positions first alice and claire trade positions then claire and bob trade positions finally bob and alice trade positions at the end of the match claire is playing options a center midfielder b left midfielder c left winger",
+            "content": "in this thesis we demonstrate that the habit of driving search using such function leads to evaluation bottleneck ie information rich process of candidate",
+            "url": "http://www.cs.put.poznan.pl/pliskowski/pub/phdthesis.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing center midfielder bob is playing right midfielder and claire is playing right winger as the game progresses pairs of players occasionally swap positions first claire and alice trade positions then alice and bob trade positions finally claire and bob trade positions at the end of the match claire is playing options a center midfielder b right midfielder c right winger",
+            "content": "in this thesis we demonstrate that the habit of driving search using such function leads to evaluation bottleneck ie information rich process of candidate",
+            "url": "http://www.cs.put.poznan.pl/pliskowski/pub/phdthesis.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "alice bob and claire are dancers at a square dance at the start of a song they each have a partner alice is dancing with melissa bob is dancing with lola and claire is dancing with izzi throughout the song the dancers often trade partners first alice and bob switch partners then alice and claire switch partners finally bob and alice switch partners at the end of the dance alice is dancing with options a melissa b lola c izzi",
+            "content": "betsy ross and the american flag olson kay melchisedech 37 05 820 en betsy ross designer of our flag weil ann 38 30 459 en betsys busy summer",
+            "url": "https://www.washington.k12.pa.us/cms/lib/PA50010844/Centricity/Domain/219/UpdatedQuizList-2012.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing right midfielder bob is playing center midfielder and claire is playing striker as the game progresses pairs of players occasionally swap positions first alice and bob trade positions then alice and claire trade positions finally bob and claire trade positions at the end of the match bob is playing options a right midfielder b center midfielder c striker",
+            "content": "we investigate the possibility of broadening the bottleneck of scalar evaluation by making evolutionary search algorithms betterinformed about the outcomes of",
+            "url": "http://www.cs.put.poznan.pl/pliskowski/pub/phdthesis.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets frankenstein bob gets catch22 and claire gets ulysses as the semester proceeds they start trading around the new books first bob and alice swap books then alice and claire swap books finally claire and bob swap books at the end of the semester alice has options a frankenstein b catch22 c ulysses",
+            "content": "if you have received these materials as examination copies free of charge holt rinehart and winston retains title to the materials and they may not be resold",
+            "url": "https://psv4.userapi.com/s/v1/d/dpPBgS3Go-RpYc0D3bjUQnYvxGJiZq07OZg2qcIZodA78rGS8mzmWcxjlpPkcZIu0TKjNFko5zPtpLynhv5CvwzR-ywKKiKRALNzONluRnuY0oF6/Guided_Practice_in_Grammar_Usage_and_Mechanics_Fifth_Course.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing cheerleader bob is playing benchwarmer and claire is playing left winger as the game progresses pairs of players occasionally swap positions first claire and bob trade positions then claire and alice trade positions finally claire and bob trade positions at the end of the match claire is playing options a cheerleader b benchwarmer c left winger",
+            "content": "the aim of the founder o this institution has from the very beginning been to establish and carry on a conservatory of music",
+            "url": "https://core.ac.uk/download/pdf/227561386.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "alice bob and claire are dancers at a square dance at the start of a song they each have a partner alice is dancing with patrick bob is dancing with karl and claire is dancing with izzi throughout the song the dancers often trade partners first bob and claire switch partners then claire and alice switch partners finally claire and bob switch partners at the end of the dance alice is dancing with options a patrick b karl c izzi",
+            "content": "betsy ross and the american flag olson kay melchisedech 37 05 820 en betsy ross designer of our flag weil ann 38 30 459 en betsys busy summer",
+            "url": "https://www.washington.k12.pa.us/cms/lib/PA50010844/Centricity/Domain/219/UpdatedQuizList-2012.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing striker bob is playing right winger and claire is playing right midfielder as the game progresses pairs of players occasionally swap positions first alice and claire trade positions then bob and alice trade positions finally alice and claire trade positions at the end of the match bob is playing options a striker b right winger c right midfielder",
+            "content": "in this thesis we demonstrate that the habit of driving search using such function leads to evaluation bottleneck ie information rich process of candidate",
+            "url": "http://www.cs.put.poznan.pl/pliskowski/pub/phdthesis.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets frankenstein bob gets the great gatsby and claire gets ulysses as the semester proceeds they start trading around the new books first alice and bob swap books then claire and bob swap books finally bob and alice swap books at the end of the semester alice has options a frankenstein b the great gatsby c ulysses",
+            "content": "if you have received these materials as examination copies free of charge holt rinehart and winston retains title to the materials and they may not be resold",
+            "url": "https://psv4.userapi.com/s/v1/d/NSz2-Vs_KwRzPSAHYNpaAiDslHe8rifZ_qtf4HrPbb5OV2mSpnsyFcV1j2thnmSBstE326QyHx9Tt8nn3tK8HWf3hmdiJ4VHjegUfzailORlgfsE/Guided_Practice_in_Grammar_Usage_and_Mechanics_Fifth_Course.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing fullback bob is playing cheerleader and claire is playing left winger as the game progresses pairs of players occasionally swap positions first alice and claire trade positions then bob and alice trade positions finally bob and claire trade positions at the end of the match claire is playing options a fullback b cheerleader c left winger",
+            "content": "lively stereo top left joe ballard leads the tiger band during halftime at the tulaneclemson football game",
+            "url": "https://core.ac.uk/download/pdf/268663353.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing right winger bob is playing benchwarmer and claire is playing striker as the game progresses pairs of players occasionally swap positions first bob and alice trade positions then bob and claire trade positions finally claire and alice trade positions at the end of the match claire is playing options a right winger b benchwarmer c striker",
+            "content": "based on frank millers graphic novel the action follows king leonidas and his brave group of 300 spartan soldiers as they prepare to defend their native",
+            "url": "https://brill.com/display/book/9789460910227/BP000005.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are dancers at a square dance at the start of a song they each have a partner alice is dancing with izzi bob is dancing with patrick and claire is dancing with ophelia throughout the song the dancers often trade partners first bob and alice switch partners then claire and bob switch partners finally claire and alice switch partners at the end of the dance bob is dancing with options a izzi b patrick c ophelia",
+            "content": "this book is intended as an introduction to critical discussion of some of the best fiction for young adults a selected bibliography of secondary sources",
+            "url": "https://cdn.oujdalibrary.com/books/513/513-thematic-guide-to-young-adult-literature-(www.tawcer.com).pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets frankenstein bob gets the pearl and claire gets the fellowship of the ring as the semester proceeds they start trading around the new books first bob and claire swap books then bob and alice swap books finally claire and alice swap books at the end of the semester bob has options a frankenstein b the pearl c the fellowship of the ring",
+            "content": "“you are about to begin reading italo calvinos new novel if on a winters night a traveler” italo calvino if on a winters night a traveler 1979",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets lolita bob gets moby dick and claire gets the odyssey as the semester proceeds they start trading around the new books first bob and alice swap books then alice and claire swap books finally claire and bob swap books at the end of the semester bob has options a lolita b moby dick c the odyssey",
+            "content": "“you are about to begin reading italo calvinos new novel if on a winters night a traveler” italo calvino if on a winters night a traveler 1979",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets frankenstein bob gets the odyssey and claire gets lolita as the semester proceeds they start trading around the new books first alice and claire swap books then bob and alice swap books finally claire and bob swap books at the end of the semester bob has options a frankenstein b the odyssey c lolita",
+            "content": "“you are about to begin reading italo calvinos new novel if on a winters night a traveler” italo calvino if on a winters night a traveler 1979",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets catch22 bob gets moby dick and claire gets the great gatsby as the semester proceeds they start trading around the new books first claire and bob swap books then claire and alice swap books finally bob and claire swap books at the end of the semester claire has options a catch22 b moby dick c the great gatsby",
+            "content": "novel by herman melville moby dick provides a lot of information about whaling they present a dream world in which alice meets strange creatures and has",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets catch22 bob gets moby dick and claire gets the fellowship of the ring as the semester proceeds they start trading around the new books first claire and alice swap books then bob and alice swap books finally claire and bob swap books at the end of the semester alice has options a catch22 b moby dick c the fellowship of the ring",
+            "content": "novel by herman melville moby dick provides a lot of information about whaling they present a dream world in which alice meets strange creatures and has",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing cheerleader bob is playing right winger and claire is playing goalkeeper as the game progresses pairs of players occasionally swap positions first alice and claire trade positions then bob and alice trade positions finally claire and bob trade positions at the end of the match alice is playing options a cheerleader b right winger c goalkeeper",
+            "content": "this book consists of writings which focus on the role of physical educators in the growth development and evolution of competitive basketball",
+            "url": "https://scispace.com/pdf/a-century-of-women-s-basketball-from-frailty-to-final-four-11tb6rds0n.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "alice bob and claire are holding a white elephant gift exchange at the start of the event they are each holding a present of a different color alice has a white present bob has a pink ball and claire has a black ball as the event progresses pairs of people swap gifts first alice and claire swap their gifts then alice and bob swap their gifts finally claire and alice swap their gifts at the end of the event alice has the options a white present b pink ball c black ball",
+            "content": "he drinks a litre of milk every day 2 milk contains a lot of vitamins 3 he is getting stronger 4 she has just passed her exams 5 she is having a party",
+            "url": "https://zabanafzar.ir/files/New%20Round%20Up/New%20Round%20Up%20Level%205/New_Round-Up_Level_5-SB.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets hound of the baskervilles bob gets the pearl and claire gets the odyssey as the semester proceeds they start trading around the new books first bob and claire swap books then claire and alice swap books finally bob and alice swap books at the end of the semester alice has options a hound of the baskervilles b the pearl c the odyssey",
+            "content": "“you are about to begin reading italo calvinos new novel if on a winters night a traveler” italo calvino if on a winters night a traveler 1979",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets catch22 bob gets moby dick and claire gets the great gatsby as the semester proceeds they start trading around the new books first claire and bob swap books then claire and alice swap books finally bob and claire swap books at the end of the semester alice has options a catch22 b moby dick c the great gatsby",
+            "content": "novel by herman melville moby dick provides a lot of information about whaling they present a dream world in which alice meets strange creatures and has",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets ulysses bob gets frankenstein and claire gets catch22 as the semester proceeds they start trading around the new books first bob and claire swap books then claire and alice swap books finally alice and bob swap books at the end of the semester bob has options a ulysses b frankenstein c catch22",
+            "content": "this title is available as an ebook isbn13 9781414437194 isbn10 1414437196",
+            "url": "https://literaturecurry.com/uploads/pdfnotes/f3f750ea-f858-40a5-a46d-10bd90d36828_LITERARY%20MOVEMENTS%20FOR%20STUDENTS.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets frankenstein bob gets the pearl and claire gets the fellowship of the ring as the semester proceeds they start trading around the new books first bob and claire swap books then bob and alice swap books finally claire and alice swap books at the end of the semester claire has options a frankenstein b the pearl c the fellowship of the ring",
+            "content": "“you are about to begin reading italo calvinos new novel if on a winters night a traveler” italo calvino if on a winters night a traveler 1979",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing striker bob is playing benchwarmer and claire is playing center midfielder as the game progresses pairs of players occasionally swap positions first alice and bob trade positions then alice and claire trade positions finally claire and bob trade positions at the end of the match bob is playing options a striker b benchwarmer c center midfielder",
+            "content": "calvinball is a game which we see characters play but whose rules we dont know in some instances the rules may even be unclear to the players",
+            "url": "https://tvtropes.org/pmwiki/pmwiki.php/Main/Calvinball",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets ulysses bob gets moby dick and claire gets frankenstein as the semester proceeds they start trading around the new books first bob and alice swap books then bob and claire swap books finally alice and bob swap books at the end of the semester claire has options a ulysses b moby dick c frankenstein",
+            "content": "“you are about to begin reading italo calvinos new novel if on a winters night a traveler” italo calvino if on a winters night a traveler 1979",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets lolita bob gets catch22 and claire gets moby dick as the semester proceeds they start trading around the new books first claire and alice swap books then bob and claire swap books finally claire and alice swap books at the end of the semester claire has options a lolita b catch22 c moby dick",
+            "content": "preface 6 how to use this book 7 acknowledgements 7 1 a general introduction to literature 9 11 what is literature literariness",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "alice bob and claire are dancers at a square dance at the start of a song they each have a partner alice is dancing with izzi bob is dancing with melissa and claire is dancing with lola throughout the song the dancers often trade partners first claire and alice switch partners then bob and claire switch partners finally alice and bob switch partners at the end of the dance alice is dancing with options a izzi b melissa c lola",
+            "content": "claire 05 nf en 2852 53366 53 lg 101 facts about parakeets barnes dancing in the wings allen debbie 05 f en 1676 44750 47 mg dancing",
+            "url": "https://www.stjosephupland.org/wp-content/uploads/2015/04/AR_Tests_March2015.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets frankenstein bob gets the odyssey and claire gets ulysses as the semester proceeds they start trading around the new books first claire and alice swap books then claire and bob swap books finally bob and alice swap books at the end of the semester claire has options a frankenstein b the odyssey c ulysses",
+            "content": "“you are about to begin reading italo calvinos new novel if on a winters night a traveler” italo calvino if on a winters night a traveler 1979",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets frankenstein bob gets the great gatsby and claire gets ulysses as the semester proceeds they start trading around the new books first alice and bob swap books then claire and bob swap books finally bob and alice swap books at the end of the semester claire has options a frankenstein b the great gatsby c ulysses",
+            "content": "if you have received these materials as examination copies free of charge holt rinehart and winston retains title to the materials and they may not be resold",
+            "url": "https://psv4.userapi.com/s/v1/d/NSz2-Vs_KwRzPSAHYNpaAiDslHe8rifZ_qtf4HrPbb5OV2mSpnsyFcV1j2thnmSBstE326QyHx9Tt8nn3tK8HWf3hmdiJ4VHjegUfzailORlgfsE/Guided_Practice_in_Grammar_Usage_and_Mechanics_Fifth_Course.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets frankenstein bob gets catch22 and claire gets ulysses as the semester proceeds they start trading around the new books first bob and alice swap books then alice and claire swap books finally claire and bob swap books at the end of the semester claire has options a frankenstein b catch22 c ulysses",
+            "content": "if you have received these materials as examination copies free of charge holt rinehart and winston retains title to the materials and they may not be resold",
+            "url": "https://psv4.userapi.com/s/v1/d/dpPBgS3Go-RpYc0D3bjUQnYvxGJiZq07OZg2qcIZodA78rGS8mzmWcxjlpPkcZIu0TKjNFko5zPtpLynhv5CvwzR-ywKKiKRALNzONluRnuY0oF6/Guided_Practice_in_Grammar_Usage_and_Mechanics_Fifth_Course.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets frankenstein bob gets the odyssey and claire gets the great gatsby as the semester proceeds they start trading around the new books first alice and claire swap books then alice and bob swap books finally alice and claire swap books at the end of the semester claire has options a frankenstein b the odyssey c the great gatsby",
+            "content": "“you are about to begin reading italo calvinos new novel if on a winters night a traveler” italo calvino if on a winters night a traveler 1979",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "alice bob and claire are holding a white elephant gift exchange at the start of the event they are each holding a present of a different color alice has a black ball bob has a green present and claire has a brown present as the event progresses pairs of people swap gifts first alice and bob swap their gifts then claire and bob swap their gifts finally alice and claire swap their gifts at the end of the event alice has the options a black ball b green present c brown present",
+            "content": "this book provides presentation and practice of all the key grammar vocabulary and lexicogrammatical areas required for all main cl and c2 exams eg cambridge",
+            "url": "https://garysenglishmethod.com/wp-content/uploads/2020/11/Destination-C1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are friends and avid readers who occasionally trade books at the start of the semester they each buy one new book alice gets lolita bob gets hound of the baskervilles and claire gets the fellowship of the ring as the semester proceeds they start trading around the new books first claire and bob swap books then alice and bob swap books finally claire and bob swap books at the end of the semester claire has options a lolita b hound of the baskervilles c the fellowship of the ring",
+            "content": "they present a dream world in which alice meets strange creatures and has many interesting adventures carrolls tales about alice prepared the ground for",
+            "url": "https://pracownik.kul.pl/files/10791/public/Intr_to_Stud_of_Lit_and_Film_updated_e-book_2019.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing striker bob is playing right winger and claire is playing goalkeeper as the game progresses pairs of players occasionally swap positions first claire and bob trade positions then bob and alice trade positions finally alice and claire trade positions at the end of the match bob is playing options a striker b right winger c goalkeeper",
+            "content": "in listening part 4 there are seven questions and you choose one answer from three possible options you hear the recording twice exam information leisure",
+            "url": "https://dl.avasshop.ir/FCE/complete/second/1complete_first_workbook_with_answers.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing cheerleader bob is playing right winger and claire is playing fullback as the game progresses pairs of players occasionally swap positions first claire and alice trade positions then bob and claire trade positions finally claire and alice trade positions at the end of the match claire is playing options a cheerleader b right winger c fullback",
+            "content": "defensive line coach bill shannon signed three outstanding players for the 71 season they are dave freer another first team allstate",
+            "url": "https://encompass.eku.edu/cgi/viewcontent.cgi?article=1029&context=progress_1970-71",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "alice bob and claire are on the same team in a soccer match at the start of the match they are each assigned to a position alice is playing right midfielder bob is playing center midfielder and claire is playing striker as the game progresses pairs of players occasionally swap positions first alice and bob trade positions then alice and claire trade positions finally bob and claire trade positions at the end of the match alice is playing options a right midfielder b center midfielder c striker",
+            "content": "we investigate the possibility of broadening the bottleneck of scalar evaluation by making evolutionary search algorithms betterinformed about the outcomes of",
+            "url": "http://www.cs.put.poznan.pl/pliskowski/pub/phdthesis.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "alice bob and claire are holding a white elephant gift exchange at the start of the event they are each holding a present of a different color alice has a pink ball bob has a black ball and claire has a purple present as the event progresses pairs of people swap gifts first bob and claire swap their gifts then alice and claire swap their gifts finally claire and bob swap their gifts at the end of the event claire has the options a pink ball b black ball c purple present",
+            "content": "the oxford english grammar course advanced level is for people who have a good knowledge of english but who want to speak or write more correctly perhaps",
+            "url": "https://zabanafzar.ir/files/Oxford%20English%20Grammar%20Course/3/3-Oxford_English_Grammar_Course-Advanced.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "alice bob and claire are dancers at a square dance at the start of a song they each have a partner alice is dancing with izzi bob is dancing with jamie and claire is dancing with rodrigo throughout the song the dancers often trade partners first bob and alice switch partners then alice and claire switch partners finally claire and bob switch partners at the end of the dance claire is dancing with options a izzi b jamie c rodrigo",
+            "content": "start timellistblockblock sdosetvarlstart timelblock s alicealiceapossaliciaaliciaapossalienalienapossalienate",
+            "url": "https://snap.berkeley.edu/project/11166188",
+            "engine": "ddg"
+        }
+    ]
+}

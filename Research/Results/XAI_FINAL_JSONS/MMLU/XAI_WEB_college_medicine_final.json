@@ -1,0 +1,1663 @@
+{
+    "task": "mmlu_college_medicine",
+    "dataset": "web_access_college_medicine_final",
+    "questions": 173,
+    "noWebContextCount": 10,
+    "contaminated_queries": 84,
+    "contaminated_urls": 284,
+    "valid_urls": 163,
+    "avg_contaminated_before_valid": 2.7423312883435584,
+    "contaminated_data_ratio": 0.6353467561521253,
+    "most_contaminated_urls": {
+        "blog.blueprintprep.com": 29,
+        "www.examtopics.com": 15,
+        "free-braindumps.com": 9
+    },
+    "noWebContext": [
+        "In response to period of extreme psychological trauma, a patient begins experiencing a feeling of detachment. He says, “I felt like it wasn’t real while it was happening. I was just watching myself do it without any control. I mean, you know, I knew it was happening but I didn’t feel like it was.” The patient is describing:",
+        "What is the most likely outcome of this modification?\n﻿\nAn RNA strand that normally produces a transmembrane protein that facilitates potassium entry into muscle cells is modified to produce a different strand. The original strand is as follows:\n\n GAAUAGAUGGGAAGCGCCAGAUACAGUAACAGA… \n\nThe modified sequence is as follows:\n\n GAAUAGAUGGGAAGCGCCAGAUACAGUACCAGA…",
+        "In a fit of passion, the spectator of a political debate exclaims that “welfare recipients are all lazy.” The spectator’s thought process is an example of:",
+        "Sauna use, sometimes referred to as \"sauna bathing,\" is characterized by short-term passive exposure to extreme heat. This exposure elicits mild hyperthermia – an increase in the body's core temperature – that induces a thermoregulatory response involving neuroendocrine, cardiovascular, and cytoprotective mechanisms that work together to restore homeostasis and condition the body for future heat stressors… In recent decades, sauna bathing has emerged as a means to increase lifespan and improve overall health, based on compelling data from observational, interventional, and mechanistic studies. Of particular interest are the findings from studies of participants in the Kuopio Ischemic Heart Disease Risk Factor (KIHD) Study, an ongoing prospective population-based cohort study of health outcomes in more than 2,300 middle-aged men from eastern Finland, which identified strong links between sauna use and reduced death and disease… The KIHD findings showed that men who used the sauna two to three times per week were 27 percent less likely to die from cardiovascular-related causes than men who didn't use the sauna.[2] Furthermore, the benefits they experienced were found to be dose-dependent: Men who used the sauna roughly twice as often, about four to seven times per week, experienced roughly twice the benefits – and were 50 percent less likely to die from cardiovascular-related causes.[2] In addition, frequent sauna users were found to be 40 percent less likely to die from all causes of premature death. These findings held true even when considering age, activity levels, and lifestyle factors that might have influenced the men's health.[2]... The KIHD also revealed that frequent sauna use reduced the risk of developing dementia and Alzheimer's disease in a dose-dependent manner. Men who used the sauna two to three times per week had a 66 percent lower risk of developing dementia and a 65 percent lower risk of developing Alzheimer's disease, compared to men who used the sauna only one time per week… The health benefits associated with sauna use extended to other aspects of mental health, as well. Men participating in the KIHD study who used the sauna four to seven times per week were 77 percent less likely to develop psychotic disorders, regardless of the men's dietary habits, socioeconomic status, physical activity, and inflammatory status (as measured by C-reactive protein)…Exposure to high temperature stresses the body, eliciting a rapid, robust response. The skin and core body temperatures increase markedly, and sweating ensues. The skin heats first, rising to 40°C (104°F), and then changes in core body temperature occur, rising slowly from 37°C (98.6°F, or normal) to 38°C (100.4°F) and then rapidly increasing to 39°C (102.2°F)…  Cardiac output, a measure of the amount of work the heart performs in response to the body's need for oxygen, increases by 60 to 70 percent, while the heart rate (the number of beats per minute) increases and the stroke volume (the amount of blood pumped) remains unchanged.[5] During this time, approximately 50 to 70 percent of the body's blood flow is redistributed from the core to the skin to facilitate sweating. The average person loses approximately 0.5 kg of sweat while sauna bathing.[11] Acute heat exposure also induces a transient increase in overall plasma volume to mitigate the decrease in core blood volume. This increase in plasma volume not only provides a reserve source of fluid for sweating, but it also acts like the water in a car's radiator, cooling the body to prevent rapid increases in core body temperature and promoting heat tolerance… Repeated sauna use acclimates the body to heat and optimizes the body's response to future exposures, likely due to a biological phenomenon known as hormesis, a compensatory defense response following exposure to a mild stressor that is disproportionate to the magnitude of the stressor. Hormesis triggers a vast array of protective mechanisms that not only repair cell damage but also provide protection from subsequent exposures to more devastating stressors… The physiological responses to sauna use are remarkably similar to those experienced during moderate- to vigorous-intensity exercise. In fact, sauna use has been proposed as an alternative to exercise for people who are unable to engage in physical activity due to chronic disease or physical limitations.[13]\n\nBased on the article, what would be an important thing for a person to do after sauna use?",
+        "Which of the following are steroid-based molecules?\nI. Testosterone\nII. Triglycerides\nIII. Progesterone\nIV. DNA",
+        "Which of the following nucleotide bases is not found in RNA?",
+        "Sauna use, sometimes referred to as \"sauna bathing,\" is characterized by short-term passive exposure to extreme heat. This exposure elicits mild hyperthermia – an increase in the body's core temperature – that induces a thermoregulatory response involving neuroendocrine, cardiovascular, and cytoprotective mechanisms that work together to restore homeostasis and condition the body for future heat stressors… In recent decades, sauna bathing has emerged as a means to increase lifespan and improve overall health, based on compelling data from observational, interventional, and mechanistic studies. Of particular interest are the findings from studies of participants in the Kuopio Ischemic Heart Disease Risk Factor (KIHD) Study, an ongoing prospective population-based cohort study of health outcomes in more than 2,300 middle-aged men from eastern Finland, which identified strong links between sauna use and reduced death and disease… The KIHD findings showed that men who used the sauna two to three times per week were 27 percent less likely to die from cardiovascular-related causes than men who didn't use the sauna.[2] Furthermore, the benefits they experienced were found to be dose-dependent: Men who used the sauna roughly twice as often, about four to seven times per week, experienced roughly twice the benefits – and were 50 percent less likely to die from cardiovascular-related causes.[2] In addition, frequent sauna users were found to be 40 percent less likely to die from all causes of premature death. These findings held true even when considering age, activity levels, and lifestyle factors that might have influenced the men's health.[2]... The KIHD also revealed that frequent sauna use reduced the risk of developing dementia and Alzheimer's disease in a dose-dependent manner. Men who used the sauna two to three times per week had a 66 percent lower risk of developing dementia and a 65 percent lower risk of developing Alzheimer's disease, compared to men who used the sauna only one time per week… The health benefits associated with sauna use extended to other aspects of mental health, as well. Men participating in the KIHD study who used the sauna four to seven times per week were 77 percent less likely to develop psychotic disorders, regardless of the men's dietary habits, socioeconomic status, physical activity, and inflammatory status (as measured by C-reactive protein)…Exposure to high temperature stresses the body, eliciting a rapid, robust response. The skin and core body temperatures increase markedly, and sweating ensues. The skin heats first, rising to 40°C (104°F), and then changes in core body temperature occur, rising slowly from 37°C (98.6°F, or normal) to 38°C (100.4°F) and then rapidly increasing to 39°C (102.2°F)…  Cardiac output, a measure of the amount of work the heart performs in response to the body's need for oxygen, increases by 60 to 70 percent, while the heart rate (the number of beats per minute) increases and the stroke volume (the amount of blood pumped) remains unchanged.[5] During this time, approximately 50 to 70 percent of the body's blood flow is redistributed from the core to the skin to facilitate sweating. The average person loses approximately 0.5 kg of sweat while sauna bathing.[11] Acute heat exposure also induces a transient increase in overall plasma volume to mitigate the decrease in core blood volume. This increase in plasma volume not only provides a reserve source of fluid for sweating, but it also acts like the water in a car's radiator, cooling the body to prevent rapid increases in core body temperature and promoting heat tolerance… Repeated sauna use acclimates the body to heat and optimizes the body's response to future exposures, likely due to a biological phenomenon known as hormesis, a compensatory defense response following exposure to a mild stressor that is disproportionate to the magnitude of the stressor. Hormesis triggers a vast array of protective mechanisms that not only repair cell damage but also provide protection from subsequent exposures to more devastating stressors… The physiological responses to sauna use are remarkably similar to those experienced during moderate- to vigorous-intensity exercise. In fact, sauna use has been proposed as an alternative to exercise for people who are unable to engage in physical activity due to chronic disease or physical limitations.[13]\n\nThe review article sources a lot of data from Finland population studies, where the incidence of sauna use is substantially higher than most countries. Using the data, which of the following is something that is more plausible in Finland than elsewhere?",
+        "Sauna use, sometimes referred to as \"sauna bathing,\" is characterized by short-term passive exposure to extreme heat. This exposure elicits mild hyperthermia – an increase in the body's core temperature – that induces a thermoregulatory response involving neuroendocrine, cardiovascular, and cytoprotective mechanisms that work together to restore homeostasis and condition the body for future heat stressors… In recent decades, sauna bathing has emerged as a means to increase lifespan and improve overall health, based on compelling data from observational, interventional, and mechanistic studies. Of particular interest are the findings from studies of participants in the Kuopio Ischemic Heart Disease Risk Factor (KIHD) Study, an ongoing prospective population-based cohort study of health outcomes in more than 2,300 middle-aged men from eastern Finland, which identified strong links between sauna use and reduced death and disease… The KIHD findings showed that men who used the sauna two to three times per week were 27 percent less likely to die from cardiovascular-related causes than men who didn't use the sauna.[2] Furthermore, the benefits they experienced were found to be dose-dependent: Men who used the sauna roughly twice as often, about four to seven times per week, experienced roughly twice the benefits – and were 50 percent less likely to die from cardiovascular-related causes.[2] In addition, frequent sauna users were found to be 40 percent less likely to die from all causes of premature death. These findings held true even when considering age, activity levels, and lifestyle factors that might have influenced the men's health.[2]... The KIHD also revealed that frequent sauna use reduced the risk of developing dementia and Alzheimer's disease in a dose-dependent manner. Men who used the sauna two to three times per week had a 66 percent lower risk of developing dementia and a 65 percent lower risk of developing Alzheimer's disease, compared to men who used the sauna only one time per week… The health benefits associated with sauna use extended to other aspects of mental health, as well. Men participating in the KIHD study who used the sauna four to seven times per week were 77 percent less likely to develop psychotic disorders, regardless of the men's dietary habits, socioeconomic status, physical activity, and inflammatory status (as measured by C-reactive protein)…Exposure to high temperature stresses the body, eliciting a rapid, robust response. The skin and core body temperatures increase markedly, and sweating ensues. The skin heats first, rising to 40°C (104°F), and then changes in core body temperature occur, rising slowly from 37°C (98.6°F, or normal) to 38°C (100.4°F) and then rapidly increasing to 39°C (102.2°F)…  Cardiac output, a measure of the amount of work the heart performs in response to the body's need for oxygen, increases by 60 to 70 percent, while the heart rate (the number of beats per minute) increases and the stroke volume (the amount of blood pumped) remains unchanged.[5] During this time, approximately 50 to 70 percent of the body's blood flow is redistributed from the core to the skin to facilitate sweating. The average person loses approximately 0.5 kg of sweat while sauna bathing.[11] Acute heat exposure also induces a transient increase in overall plasma volume to mitigate the decrease in core blood volume. This increase in plasma volume not only provides a reserve source of fluid for sweating, but it also acts like the water in a car's radiator, cooling the body to prevent rapid increases in core body temperature and promoting heat tolerance… Repeated sauna use acclimates the body to heat and optimizes the body's response to future exposures, likely due to a biological phenomenon known as hormesis, a compensatory defense response following exposure to a mild stressor that is disproportionate to the magnitude of the stressor. Hormesis triggers a vast array of protective mechanisms that not only repair cell damage but also provide protection from subsequent exposures to more devastating stressors… The physiological responses to sauna use are remarkably similar to those experienced during moderate- to vigorous-intensity exercise. In fact, sauna use has been proposed as an alternative to exercise for people who are unable to engage in physical activity due to chronic disease or physical limitations.[13]\n\nBased on the article, which of the following statements is the author likely to agree with?",
+        "Sauna use, sometimes referred to as \"sauna bathing,\" is characterized by short-term passive exposure to extreme heat. This exposure elicits mild hyperthermia – an increase in the body's core temperature – that induces a thermoregulatory response involving neuroendocrine, cardiovascular, and cytoprotective mechanisms that work together to restore homeostasis and condition the body for future heat stressors… In recent decades, sauna bathing has emerged as a means to increase lifespan and improve overall health, based on compelling data from observational, interventional, and mechanistic studies. Of particular interest are the findings from studies of participants in the Kuopio Ischemic Heart Disease Risk Factor (KIHD) Study, an ongoing prospective population-based cohort study of health outcomes in more than 2,300 middle-aged men from eastern Finland, which identified strong links between sauna use and reduced death and disease… The KIHD findings showed that men who used the sauna two to three times per week were 27 percent less likely to die from cardiovascular-related causes than men who didn't use the sauna.[2] Furthermore, the benefits they experienced were found to be dose-dependent: Men who used the sauna roughly twice as often, about four to seven times per week, experienced roughly twice the benefits – and were 50 percent less likely to die from cardiovascular-related causes.[2] In addition, frequent sauna users were found to be 40 percent less likely to die from all causes of premature death. These findings held true even when considering age, activity levels, and lifestyle factors that might have influenced the men's health.[2]... The KIHD also revealed that frequent sauna use reduced the risk of developing dementia and Alzheimer's disease in a dose-dependent manner. Men who used the sauna two to three times per week had a 66 percent lower risk of developing dementia and a 65 percent lower risk of developing Alzheimer's disease, compared to men who used the sauna only one time per week… The health benefits associated with sauna use extended to other aspects of mental health, as well. Men participating in the KIHD study who used the sauna four to seven times per week were 77 percent less likely to develop psychotic disorders, regardless of the men's dietary habits, socioeconomic status, physical activity, and inflammatory status (as measured by C-reactive protein)…Exposure to high temperature stresses the body, eliciting a rapid, robust response. The skin and core body temperatures increase markedly, and sweating ensues. The skin heats first, rising to 40°C (104°F), and then changes in core body temperature occur, rising slowly from 37°C (98.6°F, or normal) to 38°C (100.4°F) and then rapidly increasing to 39°C (102.2°F)…  Cardiac output, a measure of the amount of work the heart performs in response to the body's need for oxygen, increases by 60 to 70 percent, while the heart rate (the number of beats per minute) increases and the stroke volume (the amount of blood pumped) remains unchanged.[5] During this time, approximately 50 to 70 percent of the body's blood flow is redistributed from the core to the skin to facilitate sweating. The average person loses approximately 0.5 kg of sweat while sauna bathing.[11] Acute heat exposure also induces a transient increase in overall plasma volume to mitigate the decrease in core blood volume. This increase in plasma volume not only provides a reserve source of fluid for sweating, but it also acts like the water in a car's radiator, cooling the body to prevent rapid increases in core body temperature and promoting heat tolerance… Repeated sauna use acclimates the body to heat and optimizes the body's response to future exposures, likely due to a biological phenomenon known as hormesis, a compensatory defense response following exposure to a mild stressor that is disproportionate to the magnitude of the stressor. Hormesis triggers a vast array of protective mechanisms that not only repair cell damage but also provide protection from subsequent exposures to more devastating stressors… The physiological responses to sauna use are remarkably similar to those experienced during moderate- to vigorous-intensity exercise. In fact, sauna use has been proposed as an alternative to exercise for people who are unable to engage in physical activity due to chronic disease or physical limitations.[13]\n\nWhich of the following is a likely paragraph that follows this excerpt in the article?",
+        "Sauna use, sometimes referred to as \"sauna bathing,\" is characterized by short-term passive exposure to extreme heat. This exposure elicits mild hyperthermia – an increase in the body's core temperature – that induces a thermoregulatory response involving neuroendocrine, cardiovascular, and cytoprotective mechanisms that work together to restore homeostasis and condition the body for future heat stressors… In recent decades, sauna bathing has emerged as a means to increase lifespan and improve overall health, based on compelling data from observational, interventional, and mechanistic studies. Of particular interest are the findings from studies of participants in the Kuopio Ischemic Heart Disease Risk Factor (KIHD) Study, an ongoing prospective population-based cohort study of health outcomes in more than 2,300 middle-aged men from eastern Finland, which identified strong links between sauna use and reduced death and disease… The KIHD findings showed that men who used the sauna two to three times per week were 27 percent less likely to die from cardiovascular-related causes than men who didn't use the sauna.[2] Furthermore, the benefits they experienced were found to be dose-dependent: Men who used the sauna roughly twice as often, about four to seven times per week, experienced roughly twice the benefits – and were 50 percent less likely to die from cardiovascular-related causes.[2] In addition, frequent sauna users were found to be 40 percent less likely to die from all causes of premature death. These findings held true even when considering age, activity levels, and lifestyle factors that might have influenced the men's health.[2]... The KIHD also revealed that frequent sauna use reduced the risk of developing dementia and Alzheimer's disease in a dose-dependent manner. Men who used the sauna two to three times per week had a 66 percent lower risk of developing dementia and a 65 percent lower risk of developing Alzheimer's disease, compared to men who used the sauna only one time per week… The health benefits associated with sauna use extended to other aspects of mental health, as well. Men participating in the KIHD study who used the sauna four to seven times per week were 77 percent less likely to develop psychotic disorders, regardless of the men's dietary habits, socioeconomic status, physical activity, and inflammatory status (as measured by C-reactive protein)…Exposure to high temperature stresses the body, eliciting a rapid, robust response. The skin and core body temperatures increase markedly, and sweating ensues. The skin heats first, rising to 40°C (104°F), and then changes in core body temperature occur, rising slowly from 37°C (98.6°F, or normal) to 38°C (100.4°F) and then rapidly increasing to 39°C (102.2°F)…  Cardiac output, a measure of the amount of work the heart performs in response to the body's need for oxygen, increases by 60 to 70 percent, while the heart rate (the number of beats per minute) increases and the stroke volume (the amount of blood pumped) remains unchanged.[5] During this time, approximately 50 to 70 percent of the body's blood flow is redistributed from the core to the skin to facilitate sweating. The average person loses approximately 0.5 kg of sweat while sauna bathing.[11] Acute heat exposure also induces a transient increase in overall plasma volume to mitigate the decrease in core blood volume. This increase in plasma volume not only provides a reserve source of fluid for sweating, but it also acts like the water in a car's radiator, cooling the body to prevent rapid increases in core body temperature and promoting heat tolerance… Repeated sauna use acclimates the body to heat and optimizes the body's response to future exposures, likely due to a biological phenomenon known as hormesis, a compensatory defense response following exposure to a mild stressor that is disproportionate to the magnitude of the stressor. Hormesis triggers a vast array of protective mechanisms that not only repair cell damage but also provide protection from subsequent exposures to more devastating stressors… The physiological responses to sauna use are remarkably similar to those experienced during moderate- to vigorous-intensity exercise. In fact, sauna use has been proposed as an alternative to exercise for people who are unable to engage in physical activity due to chronic disease or physical limitations.[13]\n\nAccording to the article, which of the following is NOT a benefit of sauna use?"
+    ],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "triacylglycerides consist of i a ribose backbone ii a glycerol backbone iii three phosphodiester linkages iv three ester linkages",
+            "content": "triacylglycerides consist of i a ribose backbone ii a glycerol backbone iii three phosphodiester linkages iv three ester linkages",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-organic-question-triacylglycerides/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in response to period of extreme psychological trauma a patient begins experiencing a feeling of detachment he says “i felt like it wasn’t real while it was happening i was just watching myself do it without any control i mean you know i knew it was happening but i didn’t feel like it was” the patient is describing",
+            "content": "in response to period of extreme psychological trauma a patient begins experiencing a feeling of detachment he says “i felt like it",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-psychology-question-dissociative-disorder/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in response to period of extreme psychological trauma a patient begins experiencing a feeling of detachment he says “i felt like it wasn’t real while it was happening i was just watching myself do it without any control i mean you know i knew it was happening but i didn’t feel like it was” the patient is describing",
+            "content": "in response to period of extreme psychological trauma a patient begins experiencing a feeling of detachment he says i felt like it wasnt real while it",
+            "url": "https://free-braindumps.com/test-prep/free-mcat-test-braindumps.html?p=110",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "in response to period of extreme psychological trauma a patient begins experiencing a feeling of detachment he says “i felt like it wasn’t real while it was happening i was just watching myself do it without any control i mean you know i knew it was happening but i didn’t feel like it was” the patient is describing",
+            "content": "in response to period of extreme psychological trauma a patient begins experiencing a feeling of detachment he says i felt like it wasnt real while it",
+            "url": "https://free-braindumps.com/test-prep/free-mcat-test-braindumps/page-110",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "in response to period of extreme psychological trauma a patient begins experiencing a feeling of detachment he says “i felt like it wasn’t real while it was happening i was just watching myself do it without any control i mean you know i knew it was happening but i didn’t feel like it was” the patient is describing",
+            "content": "in response to period of extreme psychological trauma a patient begins experiencing a feeling of detachment he says i felt like it wasnt real while it",
+            "url": "https://www.examtopics.com/exams/test-prep/mcat-test/view/44/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "in response to period of extreme psychological trauma a patient begins experiencing a feeling of detachment he says “i felt like it wasn’t real while it was happening i was just watching myself do it without any control i mean you know i knew it was happening but i didn’t feel like it was” the patient is describing",
+            "content": "mcat psychology question dissociative disorder in response to period of extreme psychological trauma a patient begins experiencing a feeling of detachment",
+            "url": "https://blog.blueprintprep.com/author/allison-chae/page/31/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "mgoh2 is slowly dissolved in 500 ml of 25 oc water until the solution becomes fully saturated which of the following occurs when 100 ml of 01 m hcl is added",
+            "content": "mgoh2 is slowly dissolved in 500 ml of 25oc water until the solution becomes fully saturated which of the following occurs when 100 ml",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-chemistry-question-solutions/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "mgoh2 is slowly dissolved in 500 ml of 25 oc water until the solution becomes fully saturated which of the following occurs when 100 ml of 01 m hcl is added",
+            "content": "oh2 is slowly dissolved in 500 ml of 25oc water until the solution becomes fully saturated which of the following occurs when 100 ml of 01 m hcl is added",
+            "url": "https://hunter.listserv.cuny.edu/Scripts/wa-hc.exe?A2=PREMEDINFO-L;390ce0c5.2012A&FT=&P=T&H=&S=",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "mgoh2 is slowly dissolved in 500 ml of 25 oc water until the solution becomes fully saturated which of the following occurs when 100 ml of 01 m hcl is added",
+            "content": "mgoh2 is slowly dissolved in 500 ml of 25oc water until the solution becomes fully saturated which of the following occurs when 100 ml of 01 m hcl is added",
+            "url": "https://hunter.listserv.cuny.edu/Scripts/wa-hc.exe?A2=ind2012A&L=PREMEDINFO-L&D=0&H=N&P=44035",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "mgoh2 is slowly dissolved in 500 ml of 25 oc water until the solution becomes fully saturated which of the following occurs when 100 ml of 01 m hcl is added",
+            "content": "mgoh2 is slowly dissolved in 500 ml of 25oc water until the solution becomes fully saturated which of the following occurs when 100 ml of 01 m hcl is added",
+            "url": "https://blog.blueprintprep.com/mcat/page/43/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "myoclonic epilepsy and raggedred fiber merrf is an extremely rare disorder that affects neuromuscular systems merrf results from a mutation in mitochondrial dna mtdna that impairs protein synthesis oxygen consumption and energy production when an affected male and a normal female reproduce which of the following best predicts the expected phenotypic ratios of the offspring",
+            "content": "merrf results from a mutation in mitochondrial dna mtdna that impairs protein synthesis oxygen consumption and energy production when an",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-biology-question-phenotypes/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "as a result of substance abuse throughout adolescence a young adult suffers from a number of psychological symptoms reflecting diminished executive functioning which of the following are likely true of this patient i pathological changes to the prefrontal cortex ii increased susceptibility to auditory hallucinations iii reduced behavioral impulse control",
+            "content": "as a result of substance abuse throughout adolescence a young adult pathological changes to the prefrontal cortex ii increased",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-psychology-executive-function/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "as a result of substance abuse throughout adolescence a young adult suffers from a number of psychological symptoms reflecting diminished executive functioning which of the following are likely true of this patient i pathological changes to the prefrontal cortex ii increased susceptibility to auditory hallucinations iii reduced behavioral impulse control",
+            "content": "as a result of substance abuse throughout adolescence a young adult suffers from a number of psychological symptoms reflecting diminished executive functioning",
+            "url": "https://www.examtopics.com/exams/test-prep/mcat-test/view/44/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "as a result of substance abuse throughout adolescence a young adult suffers from a number of psychological symptoms reflecting diminished executive functioning which of the following are likely true of this patient i pathological changes to the prefrontal cortex ii increased susceptibility to auditory hallucinations iii reduced behavioral impulse control",
+            "content": "as a result of substance abuse throughout adolescence a young adult suffers pathological changes to the prefrontal cortex ii increased",
+            "url": "https://free-braindumps.com/test-prep/free-mcat-test-braindumps/page-109",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "according to attachment theory which of the following children is most likely to attach to a male psychologist previously unknown to the child in the course of a psychological study",
+            "content": "according to attachment theory which of the following children is most likely to attach to a male psychologist previously unknown to the",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-psychology-question-attachment-theory/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "according to attachment theory which of the following children is most likely to attach to a male psychologist previously unknown to the child in the course of a psychological study",
+            "content": "according to attachment theory which of the following children is most likely to attach unknown to the child in the course of a psychological study male",
+            "url": "https://free-braindumps.com/test-prep/free-mcat-test-braindumps.html?p=110",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "according to attachment theory which of the following children is most likely to attach to a male psychologist previously unknown to the child in the course of a psychological study",
+            "content": "according to attachment theory which of the following children is most likely to attach unknown to the child in the course of a psychological study male",
+            "url": "https://free-braindumps.com/test-prep/free-mcat-test-braindumps/page-110",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "according to attachment theory which of the following children is most likely to attach to a male psychologist previously unknown to the child in the course of a psychological study",
+            "content": "according to attachment theory which of the following children is most likely to attach unknown to the child in the course of a psychological study",
+            "url": "https://blog.blueprintprep.com/mcat/page/53/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the rate limiting enzyme of glycolysis is",
+            "content": "pkm2 a crucial ratelimiting enzyme of glycolysis is normally overexpressed in proliferating and tumor cells it regulates glycolysis and the warburg effect",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8651870/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the rate limiting enzyme of glycolysis is",
+            "content": "pkm2 a crucial ratelimiting enzyme of glycolysis is normally overexpressed in proliferating and tumor cells it regulates glycolysis and the warburg effect",
+            "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2021.779787/full",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "each of the following are aspects of the mcdonaldization of society except",
+            "content": "each of the following are aspects of the mcdonaldization of society except a rationalization of decisions into costbenefit analysis",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-psychology-question-mcdonaldization-of-society/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "each of the following are aspects of the mcdonaldization of society except",
+            "content": "each of the following are aspects of the mcdonaldization of society except a rationalization of decisions into costbenefit analysis structures and away",
+            "url": "https://www.examtopics.com/exams/test-prep/mcat-test/view/80/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following releases most energy when completely oxidised in the body",
+            "content": "which of the following releases most energy when completely oxidised in the body a one gram of glucose b one gram of palmitic acid c one",
+            "url": "https://www.examveda.com/which-of-the-following-releases-most-energy-when-completely-oxidised-in-the-body-195633/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a local politician starts a task force to reduce prejudice and hate crimes and the task force provides recommendations for increased access to education paid community improvement projects open to people from different possibly conflicted groups and stricter antihate ordinances to be passed at the local level these recommendations are based on i selfesteem hypothesis ii contact hypothesis iii hypothesis iv legal hypothesis",
+            "content": "a local politician starts a task force to reduce prejudice and hate crimes and the task force provides recommendations for increased access to education",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-psychology-question-social-control/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a local politician starts a task force to reduce prejudice and hate crimes and the task force provides recommendations for increased access to education paid community improvement projects open to people from different possibly conflicted groups and stricter antihate ordinances to be passed at the local level these recommendations are based on i selfesteem hypothesis ii contact hypothesis iii hypothesis iv legal hypothesis",
+            "content": "question 797 topic 1 a local politician starts a task force to reduce prejudice and hate crimes and",
+            "url": "https://www.examtopics.com/exams/test-prep/mcat-test/view/80/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a local politician starts a task force to reduce prejudice and hate crimes and the task force provides recommendations for increased access to education paid community improvement projects open to people from different possibly conflicted groups and stricter antihate ordinances to be passed at the local level these recommendations are based on i selfesteem hypothesis ii contact hypothesis iii hypothesis iv legal hypothesis",
+            "content": "a local politician starts a task force to reduce prejudice and hate crimes and the task force provides recommendations for increased access to education paid",
+            "url": "https://blog.blueprintprep.com/mcat/page/50/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in a fit of passion the spectator of a political debate exclaims that “welfare recipients are all lazy” the spectator’s thought process is an example of",
+            "content": "in a fit of passion the spectator of a political debate exclaims that “welfare recipients are all lazy” the spectators thought process is an example of",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-psychology-question-thought-process/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in a fit of passion the spectator of a political debate exclaims that “welfare recipients are all lazy” the spectator’s thought process is an example of",
+            "content": "in a fit of passion the spectator of a political debate exclaims that welfare recipients are all lazy the spectators thought process is an example of",
+            "url": "https://www.examtopics.com/exams/test-prep/mcat-test/view/79/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "in a fit of passion the spectator of a political debate exclaims that “welfare recipients are all lazy” the spectator’s thought process is an example of",
+            "content": "in a fit of passion the spectator of a political debate exclaims that “welfare recipients are all lazy thought process mcat psychology question social",
+            "url": "https://blog.blueprintprep.com/mcat/page/50/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a psychologist conducts an experiment in which subjects are asked to learn a series of “facts” which are actually statements that have been fabricated by the research team the subjects consist of undergraduate students at the university where the experiment is being conducted the subjects are randomly assigned to groups that are compensated either 10 or 20 for their participation are given either 15 minutes or 30 minutes to learn the facts and are asked to recall the facts either in the same room in which they learned the facts or in a very different unfamiliar setting which of the following are dependent variables in this experiment i the amount the subjects were compensated ii the room in which the subjects were asked to recall facts iii the number of facts the subjects can recall iv the time the subjects were given to learn the facts",
+            "content": "a psychologist conducts an experiment in which subjects are asked to learn a series of “facts” which are actually statements that have been",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-psychology-experimental-design/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a psychologist conducts an experiment in which subjects are asked to learn a series of “facts” which are actually statements that have been fabricated by the research team the subjects consist of undergraduate students at the university where the experiment is being conducted the subjects are randomly assigned to groups that are compensated either 10 or 20 for their participation are given either 15 minutes or 30 minutes to learn the facts and are asked to recall the facts either in the same room in which they learned the facts or in a very different unfamiliar setting which of the following are dependent variables in this experiment i the amount the subjects were compensated ii the room in which the subjects were asked to recall facts iii the number of facts the subjects can recall iv the time the subjects were given to learn the facts",
+            "content": "a psychologist conducts an experiment in which subjects are asked to learn a series of facts which are actually statements that have been fabricated by the",
+            "url": "https://www.examtopics.com/exams/test-prep/mcat-test/view/79/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if a gas occupies 01l at 200atm what will its volume be at 1atm",
+            "content": "if a gas occupies 01 l at 200 atm what will its volume be at 1 atm a slightly less than 20 l b 20 l c slightly more than 20 l d 2000 l reveal",
+            "url": "https://www.examtopics.com/exams/test-prep/mcat-test/view/75/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a teacher sets up a reward system for her elementary school students at the end of each day she gives a sticker to each student who showed up on time that morning at the end of each week she gives a sticker to any student who got above a 90 on three quizzes in a row after months of this regimen she finds that performance on the quizzes has increased significantly but that tardiness has only decreased slightly which of the following best explains the teacher’s observation",
+            "content": "a teacher sets up a reward system for her elementary school students at the end of each day she gives a sticker to each student who showed up on time that",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-psychology-reinforcement/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a police officer carries out hundreds of traffic stops every year when his supervisor is reviewing the officer’s records for the past year he notices that the officer is equally likely to stop people of various genders ages and races however he is significantly more likely to write tickets for middleaged white males with dark hair and eyes when confronted with this fact the officer truthfully states that he has no idea why that is and that it must simply be a coincidence unbeknownst to the officer this behavior is tied to the fact that these men look like his father with whom he had an abusive relationship as a child what psychological framework would directly address the unconscious bias in his behavior",
+            "content": "a police officer carries out hundreds of traffic stops every year when his supervisor is reviewing the officers records for the past year he notices that",
+            "url": "https://www.examtopics.com/exams/test-prep/mcat-test/view/80/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "a police officer carries out hundreds of traffic stops every year when his supervisor is reviewing the officer’s records for the past year he notices that the officer is equally likely to stop people of various genders ages and races however he is significantly more likely to write tickets for middleaged white males with dark hair and eyes when confronted with this fact the officer truthfully states that he has no idea why that is and that it must simply be a coincidence unbeknownst to the officer this behavior is tied to the fact that these men look like his father with whom he had an abusive relationship as a child what psychological framework would directly address the unconscious bias in his behavior",
+            "content": "a police officer carries out hundreds of traffic stops every year when his supervisor is reviewing the officers records for the past year he notices that",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-psychology-personalities-242015/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following are steroidbased molecules i testosterone ii triglycerides iii progesterone iv dna",
+            "content": "which of the following are steroidbased molecules i testosterone ii triglycerides iii progesterone iv dna a based on mcat practice tests while",
+            "url": "https://blog.blueprintprep.com/mcat/page/35/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is not an amino acid",
+            "content": "amino acid contains both amino group and carboxylic group benzidine is not a amino acid while glycine alanine and histidine are amino acid",
+            "url": "https://tardigrade.in/question/which-of-the-following-is-not-an-amino-acid-b4ajdefh",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "most of the free fatty acids are transported in the blood",
+            "content": "free fatty acids are transported through the blood after intestinal absorption or mobilization from endogenous stores by the use of albumin as a carrier",
+            "url": "https://www.sciencedirect.com/topics/neuroscience/fatty-acid-transport",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "most of the free fatty acids are transported in the blood",
+            "content": "22 fatty acid transport after fatty acids are released into circulation they are transported in the blood bound to serum albumin a protein with high",
+            "url": "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/fatty-acid-transport",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "approximately how many kj of energy are expended if an athletes steadyrate oxygen uptake averages 30 lmin for 5 minutes of exercise",
+            "content": "54 approximately how many kj of energy are expended if an athletes steadyrate oxygen uptake averages 30 lmin for 5 minutes of exercise a 60 kj",
+            "url": "https://www.gkseries.com/mcq-on-biochemical-basis-of-sports-performance/short-questions-and-answers-on-biochemical-basis-of-sports-performance",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "each of the following is an example of the transmission of knowledge through symbolic culture except i a young macaque monkey learning to rinse off food in the ocean from an older monkey even when the food is not covered in dirt or sand ii a child learning the rules of baseball from a parent iii a new group of inductees in a military organization experiencing hazing rituals from older students which they then later carry out on new recruits",
+            "content": "i a young macaque monkey learning to rinse off food in the ocean from an older monkey even when the food is not covered in dirt or sand ii a child learning",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-physics-impulse-and-determination-2/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "each of the following is an example of the transmission of knowledge through symbolic culture except i a young macaque monkey learning to rinse off food in the ocean from an older monkey even when the food is not covered in dirt or sand ii a child learning the rules of baseball from a parent iii a new group of inductees in a military organization experiencing hazing rituals from older students which they then later carry out on new recruits",
+            "content": "ii following is an example of the transmission of knowledge through symbolic culture except i a young macaque monkey learning to rinse off food in the",
+            "url": "https://free-braindumps.com/test-prep/free-mcat-test-braindumps/page-110",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "each of the following is an example of the transmission of knowledge through symbolic culture except i a young macaque monkey learning to rinse off food in the ocean from an older monkey even when the food is not covered in dirt or sand ii a child learning the rules of baseball from a parent iii a new group of inductees in a military organization experiencing hazing rituals from older students which they then later carry out on new recruits",
+            "content": "ii following is an example of the transmission of knowledge through symbolic culture except i a young macaque monkey learning to rinse off food in the",
+            "url": "https://free-braindumps.com/test-prep/free-mcat-test-braindumps.html?p=110",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "each of the following is an example of the transmission of knowledge through symbolic culture except i a young macaque monkey learning to rinse off food in the ocean from an older monkey even when the food is not covered in dirt or sand ii a child learning the rules of baseball from a parent iii a new group of inductees in a military organization experiencing hazing rituals from older students which they then later carry out on new recruits",
+            "content": "each of the following is an example of the transmission of knowledge through symbolic culture except i a young macaque monkey learning to rinse off food in",
+            "url": "https://www.examtopics.com/exams/test-prep/mcat-test/view/44/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "walking down a street late at night an adult male pedestrian notices a young female on the ground not moving the female is on the opposite side of the street crossing the street the pedestrian notices that the young woman appears both much wealthier than he is and is of a different ethnicity seeing no one else present the pedestrian renders aid according to the bystander effect which of the following would change how the pedestrian reacts",
+            "content": "walking down a street late at night an adult male pedestrian notices a young female on the ground not moving the female is on the opposite side of the street",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-psychology-bystander-effect/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "walking down a street late at night an adult male pedestrian notices a young female on the ground not moving the female is on the opposite side of the street crossing the street the pedestrian notices that the young woman appears both much wealthier than he is and is of a different ethnicity seeing no one else present the pedestrian renders aid according to the bystander effect which of the following would change how the pedestrian reacts",
+            "content": "walking down a street late at night an adult male pedestrian notices a young female on the ground not moving the female is on the opposite side of the street",
+            "url": "https://www.examtopics.com/exams/test-prep/mcat-test/view/80/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when preparing for the mcat exam a student begins studying electrochemical cells he learns the basic information needed by actively relating it to previous information he has learned about redox reactions he then builds from that knowledge to learn the advanced concepts needed the student’s process is best characterized as",
+            "content": "when preparing for the mcat exam a student begins studying electrochemical cells he learns the basic information needed by actively",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-psychology-learning-process/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "when preparing for the mcat exam a student begins studying electrochemical cells he learns the basic information needed by actively relating it to previous information he has learned about redox reactions he then builds from that knowledge to learn the advanced concepts needed the student’s process is best characterized as",
+            "content": "he learns the basic information needed by actively relating it to previous information he has learned about redox reactions he then builds from that",
+            "url": "https://www.examtopics.com/exams/test-prep/mcat-test/view/79/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in nerve cells microtubuleassociated proteins maps most notably map2 and map tau act to stabilize microtubules in a mouse model a mutant is developed that vastly reduced function across all families of maps leading to increased microtubule degradation which cellular activity would likely be most affected",
+            "content": "in a mouse model a mutant is developed that vastly reduced function across all families of maps leading to increased microtubule degradation",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-biology-question-cellular-activity/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how many electrons does gold au possess that have a quantum number l 2",
+            "content": "how many electrons does gold au possess that have a quantum number l 2 a 10 b 23 c 30 d 79 explanation",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-chemistry-question-gold-electrons/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a study examined admissions to exceptionally selective colleges when examining the correlates of admission acceptance two obvious factors that strongly correlated with admissions were gpa and standardized test scores with correlation values of 041 and 055 respectively however the study also demonstrated that those students who had social networks that overlapped with the alumni networks of the selective colleges were even more likely to be admitted with a correlation between social network and alumni network of 061 this correlation demonstrates",
+            "content": "when examining the correlates of admission acceptance two obvious factors that strongly correlated with admissions were gpa and standardized test scores with",
+            "url": "https://www.examtopics.com/exams/test-prep/mcat-test/view/80/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a hedonic teenager of wayward morals in one night sequentially i has consensual sexual intercourse with his sister ii leaves no tip at the bar iii has noncensual sexual relations with an unknown woman and iv vomits on the steps to the door of a local church the teenager has violated society’s norms sequentially to the greatest degree on the order of",
+            "content": "a hedonic teenager of wayward morals in one night sequentially i has consensual sexual intercourse with his sister ii leaves no tip at the bar iii has",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-psychlogy-question-societal-norms/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a hedonic teenager of wayward morals in one night sequentially i has consensual sexual intercourse with his sister ii leaves no tip at the bar iii has noncensual sexual relations with an unknown woman and iv vomits on the steps to the door of a local church the teenager has violated society’s norms sequentially to the greatest degree on the order of",
+            "content": "a hedonic teenager of wayward morals in one night sequentially i has consensual sexual intercourse with his sister ii leaves no tip at the bar iii has",
+            "url": "https://www.examtopics.com/exams/test-prep/mcat-test/view/80/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "womens world record performances have improved rapidly in recent years mainly because",
+            "content": "womens world record performances have improved rapidly in recent years mainly because a women have evolved a greater muscle mass b women can now run",
+            "url": "https://www.gkseries.com/mcq-on-biochemical-basis-of-sports-performance/multiple-choice-questions-and-answers-on-biochemical-basis-of-sports-performance.php",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "womens world record performances have improved rapidly in recent years mainly because",
+            "content": "3 womens world record performances have improved rapidly in recent years mainly because a women have evolved a greater muscle mass b women",
+            "url": "https://www.docsity.com/en/docs/biochemistry-multiple-choice-questions-6/4157368/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following promotes glucose and amino acid uptake by muscle",
+            "content": "which of the following promotes glucose and amino acid uptake by muscle a adrenaline b insulin c glucagon d cortisol answer option b",
+            "url": "https://www.examveda.com/which-of-the-following-promotes-glucose-and-amino-acid-uptake-by-muscle-195622/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "all of the following are true regarding the function of neurons except",
+            "content": "all of the following are true regarding lower motor neurons lmn except a alpha lmns synapse with skeletal muscle fibers b lmn syndrome is characterized",
+            "url": "https://www.snacc.org/wp-content/uploads/2018/09/Quiz-42-Understanding-Motor-Systems-1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a patient comes into the er looking extremely agitated they are acting aggressive and claiming they need medication or “bad things will happen” what is the likely state of this patient’s dopamine system",
+            "content": "they are acting aggressive and claiming they need medication or “bad things will happen” what is the likely state of this patients dopamine",
+            "url": "https://www.test-guide.com/free-mcat-practice-tests.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following is true",
+            "content": "which of is usually followed by a plural noun but the following is never pluralized in form the following remains the same for both singular and plural",
+            "url": "https://forum.wordreference.com/threads/which-of-the-following-followings-is-true.3130263/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "in response to period of extreme psychological trauma a patient begins experiencing a feeling of detachment he says “i felt like it wasn’t real while it was happening i was just watching myself do it without any control i mean you know i knew it was happening but i didn’t feel like it was” the patient is describing",
+            "content": "in response to period of extreme psychological trauma a patient begins experiencing a feeling of detachment he says “i felt like it",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-psychology-question-dissociative-disorder/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "in response to period of extreme psychological trauma a patient begins experiencing a feeling of detachment he says “i felt like it wasn’t real while it was happening i was just watching myself do it without any control i mean you know i knew it was happening but i didn’t feel like it was” the patient is describing",
+            "content": "in response to period of extreme psychological trauma a patient begins experiencing a feeling of detachment he says i felt like it wasnt real while it",
+            "url": "https://free-braindumps.com/test-prep/free-mcat-test-braindumps.html?p=110",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "in response to period of extreme psychological trauma a patient begins experiencing a feeling of detachment he says “i felt like it wasn’t real while it was happening i was just watching myself do it without any control i mean you know i knew it was happening but i didn’t feel like it was” the patient is describing",
+            "content": "in response to period of extreme psychological trauma a patient begins experiencing a feeling of detachment he says i felt like it wasnt real while it",
+            "url": "https://free-braindumps.com/test-prep/free-mcat-test-braindumps/page-110",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "in response to period of extreme psychological trauma a patient begins experiencing a feeling of detachment he says “i felt like it wasn’t real while it was happening i was just watching myself do it without any control i mean you know i knew it was happening but i didn’t feel like it was” the patient is describing",
+            "content": "in response to period of extreme psychological trauma a patient begins experiencing a feeling of detachment he says i felt like it wasnt real while it",
+            "url": "https://www.examtopics.com/exams/test-prep/mcat-test/view/44/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "in response to period of extreme psychological trauma a patient begins experiencing a feeling of detachment he says “i felt like it wasn’t real while it was happening i was just watching myself do it without any control i mean you know i knew it was happening but i didn’t feel like it was” the patient is describing",
+            "content": "mcat psychology question dissociative disorder in response to period of extreme psychological trauma a patient begins experiencing a feeling of detachment",
+            "url": "https://blog.blueprintprep.com/author/allison-chae/page/31/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "in a fit of passion the spectator of a political debate exclaims that “welfare recipients are all lazy” the spectator’s thought process is an example of",
+            "content": "in a fit of passion the spectator of a political debate exclaims that “welfare recipients are all lazy” the spectators thought process is an example of",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-psychology-question-thought-process/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "in a fit of passion the spectator of a political debate exclaims that “welfare recipients are all lazy” the spectator’s thought process is an example of",
+            "content": "in a fit of passion the spectator of a political debate exclaims that welfare recipients are all lazy the spectators thought process is an example of",
+            "url": "https://www.examtopics.com/exams/test-prep/mcat-test/view/79/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "in a fit of passion the spectator of a political debate exclaims that “welfare recipients are all lazy” the spectator’s thought process is an example of",
+            "content": "in a fit of passion the spectator of a political debate exclaims that “welfare recipients are all lazy thought process mcat psychology question social",
+            "url": "https://blog.blueprintprep.com/mcat/page/50/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following are steroidbased molecules i testosterone ii triglycerides iii progesterone iv dna",
+            "content": "which of the following are steroidbased molecules i testosterone ii triglycerides iii progesterone iv dna a based on mcat practice tests while",
+            "url": "https://blog.blueprintprep.com/mcat/page/35/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 32,
+            "query": "which of the following statements is false",
+            "content": "q which of the following statements isare false",
+            "url": "https://byjus.com/question-answer/which-of-the-following-statements-is-false-98/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 33,
+            "query": "which of the following statements is false",
+            "content": "answer to which of the following statements is false a a",
+            "url": "https://www.chegg.com/homework-help/questions-and-answers/following-statements-false--function-q3595155",
+            "engine": "braveAPI"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "dna polymerase creates new dna by adding complimentary nucleotides to a template strand from the original doublestranded dna if a section of the template strand had a ration of 32 of at bases what is the ration of at in the newly synthesized complimentary strand of dna",
+            "content": "if the template strand has an at ratio of 32 then the complimentary strand must have an at ratio of 23 in order to match the complimentary",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-biology-question-dna-polymerase/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "triacylglycerides consist of i a ribose backbone ii a glycerol backbone iii three phosphodiester linkages iv three ester linkages",
+            "content": "figure triacylglycerols triacylglycerol is formed by the joining of three fatty acids to a glycerol backbone in a dehydration reaction",
+            "url": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(Boundless)/02%3A_Chemistry/2.05%3A_Organic_Compounds/2.5.02%3A_Lipid_Molecules",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "mutations are errors in dna that",
+            "content": "when replication errors become mutations incorrectly paired nucleotides that still remain following mismatch repair become permanent mutations after the next",
+            "url": "http://www.nature.com/scitable/topicpage/dna-replication-and-causes-of-mutation-409",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the main fate of lactate that leaves muscle and enters the circulation is",
+            "content": "in one pathway lactate is oxidized to pyruvate which enters mitochondria and is metabolized through the tricarboxylic acid cycle in the other",
+            "url": "https://www.nature.com/articles/s41392-022-01151-3",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the transcription of dna to a molecule of messenger rna occurs",
+            "content": "in the first step the information in dna is transferred to a messenger rna mrna molecule by way of a process called transcription during transcription the",
+            "url": "https://www.nature.com/scitable/topicpage/translation-dna-to-mrna-to-protein-393/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "muscle lactate production increases when",
+            "content": "based on experimental data and theoretical considerations it is concluded that lactate production during submaximal exercise is o2 dependent",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3049511/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the electron transport chain which is embedded in the mitochondrial membrane exists primarily to generate new molecules of atp for use by the cell this is accomplished by a positive gradient of h ions that are formed outside the membrane which then pass back through a specialized channel known as atp synthase the energy created from this phosphorylates an atp to an atp known as oxidative phosphorylation the mechanism by which h returns to the inside of the mitochondria is known as what",
+            "content": "the enzymes of the respiratory chain are embedded in the inner mitochondrial membrane and they are essential to the process of oxidative phosphorylation",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK26894/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the sex of a child is dictated by the inheritance of",
+            "content": "men determine the sex of a baby depending on whether their sperm is carrying an x or y chromosome an x chromosome combines with the mothers x",
+            "url": "https://www.ncl.ac.uk/press/articles/archive/2015/08/boyorgirlitsinthefathersgenes.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how many co2 and atp molecules are formed during one complete turn of the tricarboxylic acid cycle krebs cycle",
+            "content": "overall one turn of the citric acid cycle releases two carbon dioxide molecules and produces three ‍ one ‍ and one ‍ or ‍ the citric acid cycle goes",
+            "url": "https://www.khanacademy.org/science/biology/cellular-respiration-and-fermentation/pyruvate-oxidation-and-the-citric-acid-cycle/a/the-citric-acid-cycle",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "mgoh2 is slowly dissolved in 500 ml of 25 oc water until the solution becomes fully saturated which of the following occurs when 100 ml of 01 m hcl is added",
+            "content": "calculate the ksp for bioh3 if 11 x 108 moles of bioh3 dissolve in 10 liter of water to form a saturated solution the equilibrium reaction is bioh3",
+            "url": "https://genchem1.chem.okstate.edu/APPrepSessions/Ksp%20Ans.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the enzymes of glycolysis are located in the",
+            "content": "glycolysis is the metabolic pathway that converts glucose into pyruvate and in most organisms occurs in the liquid part of cells the cytosol",
+            "url": "https://en.wikipedia.org/wiki/Glycolysis",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the atp store in muscle can only supply energy in high intensity exercise for about",
+            "content": "the first 10 to 20 seconds of highintensity physical activity is energy it can only supply a maximum of about three minutes of energy",
+            "url": "https://www.army.mil/article/254967/understanding_the_three_energy_systems_used_during_exercise",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following statements identifies a chemically based sensory system i gustatory system ii auditory system iii olfactory system",
+            "content": "olfactory stimulation is the only sensory information that directly reaches the cerebral cortex whereas other sensations are relayed through the thalamus",
+            "url": "https://opentextbc.ca/biology/chapter/17-3-taste-and-smell/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the activity of creatine kinase is",
+            "content": "cks job is to add a phosphate group a group of natural chemicals to creatine a substance in your muscle cells that helps your muscles",
+            "url": "https://my.clevelandclinic.org/health/diagnostics/22692-creatine-kinase-ck",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "myoclonic epilepsy and raggedred fiber merrf is an extremely rare disorder that affects neuromuscular systems merrf results from a mutation in mitochondrial dna mtdna that impairs protein synthesis oxygen consumption and energy production when an affected male and a normal female reproduce which of the following best predicts the expected phenotypic ratios of the offspring",
+            "content": "mitochondrial protein synthesis point mutations the a8344g missense mutation in the mt trnalys gene accounts for 80 of myoclonic epilepsy with raggedred",
+            "url": "https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/mitochondrial-dna-disorder",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following molecules will stop being produced first when oxygen is no longer supplied to the cell",
+            "content": "if oxygen isnt there to accept electrons for instance because a person is not breathing in enough oxygen the electron transport chain will stop running",
+            "url": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/cellular-respiration-ap/a/oxidative-phosphorylation-etc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the blood glucose concentration during 8090 minutes of intermittent high intensity exercise",
+            "content": "in type 2 diabetic subjects blood glucose increased from a preexercise level of 147 mgdl sd ± 21 to a peak 30 minutes postexercise at 169 mgdl sd ± 19",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3587394/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "two scientists at a conference on evolution take to the stage on day 3 to argue their theories against one other each is a devout student of their own philosophy the first scientist contends that organisms evolved via the increase of organs that were used the most during their time they would then pass these on to subsequent generations the second scientist however believed that advantages each organism possessed were absent for a long time randomly occurred and when they were beneficial that organism would rapidly populate the population over a short period of time evolutionarily speaking which of the following statements would strengthen the second scientist’s argument",
+            "content": "arguments against evolution have become widespread and include objections to evolutions evidence methodology plausibility morality and scientific",
+            "url": "https://en.wikipedia.org/wiki/Objections_to_evolution",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the trigger to initiate the contractile process in skeletal muscle is",
+            "content": "skeletal muscle contraction begins first at the neuromuscular junction which is the synapse between a motoneuron and a muscle fiber",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK559006/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "rational choice theory is premised on the concept that actions are chosen based on the benefit to the individual the three main assumptions of rational theory are completeness transitivity and independence of variables this is most accurately described as what kind of system",
+            "content": "although rational choice models use an economic metaphor they are theoretically generalized to explain not only economic behavior but also the behavior studied",
+            "url": "https://sk.sagepub.com/books/download/rational-choice-theory-and-organizational-theory/n6.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "glycogen breakdown in exercising muscle is activated by",
+            "content": "skeletal muscles mainly express β2adrenergic receptors and adrenaline rather than noradrenaline stimulates glycogen breakdown jensen et al 1995",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3248697/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a new enzyme is found in a transgenic mice that participates in synthesis of an unknown product using two reactants when using radiolabeled compounds to study the enzyme it is found that the enzyme catalyzes a process that switches a nitrogen group on one reactant to the other reactant which of the following categories would this new enzyme fall under",
+            "content": "echinomycin is an nrp isolated from an assortment of bacteria including s lasaliensis 15 it belongs to the large family of quinomycin antibiotics",
+            "url": "https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/mecysteine",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "endurance training increases the muscles capacity to",
+            "content": "endurance traininginduced increase in muscle oxidative capacity without loss of muscle mass in younger and older resistancetrained men",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34390401/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "as a result of substance abuse throughout adolescence a young adult suffers from a number of psychological symptoms reflecting diminished executive functioning which of the following are likely true of this patient i pathological changes to the prefrontal cortex ii increased susceptibility to auditory hallucinations iii reduced behavioral impulse control",
+            "content": "use thus normal baseline and agerelated rd and ad values should be taken into consideration when investigating pathological conditions in this age group",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7918703/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a young child is brought to a psychologist for evaluation of their home situation the child is placed in the middle of the floor with the mother on one side and the psychologist on the other the mother then leaves for a short while and then returns which of the following would be a concerning sign during this evaluation",
+            "content": "the test is called the strange situation technique because it is conducted in a context that is unfamiliar to the child and therefore likely to heighten the",
+            "url": "https://courses.lumenlearning.com/suny-lifespandevelopment/chapter/mary-ainsworth-and-the-strange-situation-technique/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which products of adp degradation increase in concentration in the blood during multiple sprint sports",
+            "content": "by ea zarębska 2019 sprinters showed a higher absolute and net increase in plasma adenosine triphosphate concentration by 60114 during exercise in consecutive",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6836270/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "according to attachment theory which of the following children is most likely to attach to a male psychologist previously unknown to the child in the course of a psychological study",
+            "content": "attachment theory is a psychological and evolutionary framework concerning the relationships between humans particularly the importance of early bonds",
+            "url": "https://en.wikipedia.org/wiki/Attachment_theory",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the complete resynthesis of phosphocreatine after very high intensity exercise normally takes",
+            "content": "by r klepochová 2024 it has been shown that a heavy workout highintensity exercise leads to an immediate postexercise increase of acetylcarnitine concentrations",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10853526/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "metabolism is determined by the",
+            "content": "your metabolism is influenced by your age gender muscletofat ratio the food you eat physical activity and hormone function",
+            "url": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/metabolism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a muscle fibre relaxes when",
+            "content": "the muscle fiber will repolarize which closes the gates in the sr where ca was being released",
+            "url": "https://courses.lumenlearning.com/suny-ap1/chapter/muscle-fiber-contraction-and-relaxation/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "glycogen breakdown in muscle initially results in the formation of",
+            "content": "the formation of glycogen from glucose is known as glycogenesis and the breakdown of glycogen to form glucose is called glycogen metabolism or glycogenolysis",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK549820/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "during dna replication mistakes are coded into the leading strand about once every 1000001 million copies this dna is subject to proofreading by several mechanisms if a mistake is noted and the incorrect base is removed shortly following the time rna primer is removed this would most likely be the work of which repair mechanism",
+            "content": "this student companion accompanies fundamentals of biochemistry fourth edition by donald voet judith g voet and charlotte w pratt it is designed to help",
+            "url": "http://ndl.ethernet.edu.et/bitstream/123456789/54517/1/48.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the energy charge of the cell is",
+            "content": "the energy charge of most cells varies between 07 and 095 oscillations in this range are quite frequent",
+            "url": "https://en.wikipedia.org/wiki/Energy_charge",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the rate limiting enzyme of glycolysis is",
+            "content": "in glycolysis rate limiting steps are 13 and last learned from multiple sources but kaplan says its only 3 in the qpack",
+            "url": "https://www.reddit.com/r/Mcat/comments/mrnspq/rate_limiting_steps_in_glycolysis/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "creatine is synthesized from",
+            "content": "creatine synthesized in liver must be secreted into the bloodstream by an unknown mechanism da silva et al 2014a jump up to hultman e",
+            "url": "https://en.wikipedia.org/wiki/Creatine",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "for a very weak base the pkb of a solution would likely be",
+            "content": "for example the ka constant for acetic acid ch3cooh is 00000158 1048 but the pka constant is 48 which is a simpler expression in",
+            "url": "https://www.umed.wroc.pl/sites/default/files/immchem/files/Optional_courses_Part_4_Calculating_the_pH_of_a_solutions.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "oxygen is used",
+            "content": "common industrial uses of oxygen include production of steel plastics and textiles brazing welding and cutting of steels and other metals rocket propellant",
+            "url": "https://en.wikipedia.org/wiki/Oxygen",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a wrestler attempting to lose weight for a match in december commits himself to dropping 30lbs over 2 months which of the following is not a good method to restrict his caloric intake",
+            "content": "suggestion moderate your calorie intake and exercise meatbag dont try to rush it as it might cause other problems when trying to enlist",
+            "url": "https://www.reddit.com/r/army/comments/1097zsi/need_to_lose_20_pounds_in_order_enlist_do_yall/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "noncompetitive inhibition differs from uncompetitive inhibition in that a noncompetitive inhibitor binds to an allosteric site on the enzyme and prevents it from catalyzing a reaction whereas uncompetitive inhibitors bind to the enzymesubstrate complex and prevent catalysis increasing the substrate concentration would have which of the following effects",
+            "content": "noncompetitive inhibition a type of allosteric regulation is a specific type of enzyme inhibition characterized by an inhibitor binding to an allosteric site",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK545242/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a fundamental cause of fatigue in high intensity exercise is",
+            "content": "intense activity can also result in nonmetabolic fatigue and weakness as a consequence of disruption in internal structures mediated by the high force levels",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9232550/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the hypothalamus controls the stress response of the body by releasing crf which leads to eventual release of cortisol the body’s stress hormone systemically this trigger is eventually suppressed by which mechanism",
+            "content": "stressors cause release of crh into the hypophysial portal vessels which transport peptide to the anterior pituitary to enable access to corticotrophs",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4867107/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a race car attempting to jump a series of 8 buses is set up on a flat track with a ramp at the end engineers assigned to the project have determined that in order to jump the buses the car must reach a velocity of 130 kmh if the distance of the track is 50m at what rate must the car accelerate to reach this velocity",
+            "content": "neglect air resistance solution to illustrate the problem consider the following figure the projectile path of the daredevil from the ramp",
+            "url": "https://www.engineering-math.org/2020/06/08/college-physics-3-28-a-daredevil-attempting-to-jump-his-motorcycle/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a common heart defect in humans is a ventricular septal defect in which there is a hole in the septum between the right and left ventricles if a patient were to have this defect which of the following statements is correct",
+            "content": "a ventricular septal defect vsd is a hole in the heart its a common heart problem present at birth congenital heart defect",
+            "url": "https://www.mayoclinic.org/diseases-conditions/ventricular-septal-defect/symptoms-causes/syc-20353495",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "alterations in which neurotransmitters in the brain by pharmacological agents has been shown to influence fatigue development",
+            "content": "alterations in central fatigue by pharmacological manipulations of neurotransmitters in normal and high ambient temperature sports med 201040322946",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5033663/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in an sdspage procedure the sds serves as a detergent why are the proteins treated with a detergent before being run through the electrophoresis gel",
+            "content": "sds is a detergent which denatures the tertiary and secondary structure of a protein it also coats the protein with a very large negative charge",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-organic-question-sds-page-procedure/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "each of the following are aspects of the mcdonaldization of society except",
+            "content": "ritzer identifies four main principles of mcdonaldization predictability calculability efficiency and control these are all characteristics of mcdonalds",
+            "url": "https://study.com/learn/lesson/george-ritzer-mcdonaldization-society-principles-examples.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following releases most energy when completely oxidised in the body",
+            "content": "glucose and other food molecules are broken down by controlled stepwise oxidation to provide chemical energy in the form of atp and nadh",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK26882/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "all of the following are example of sensory or neural adaptation except",
+            "content": "all five senses except for vision experience sensory adaptation when a new stimulus is encountered by one of the sensory organs such as the nose or ears",
+            "url": "https://study.com/academy/lesson/sensory-adaptation-definition-examples-quiz.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the rate of blood lactate accumulation is determined by",
+            "content": "among the best known of these are the lactate threshold lt the dmax method of determining the lt ltd and the onset of blood lactate accumulation obla",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2769631/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a local politician starts a task force to reduce prejudice and hate crimes and the task force provides recommendations for increased access to education paid community improvement projects open to people from different possibly conflicted groups and stricter antihate ordinances to be passed at the local level these recommendations are based on i selfesteem hypothesis ii contact hypothesis iii hypothesis iv legal hypothesis",
+            "content": "ideas and strategies for teaching against prejudice and provides access to curriculum and other materials offered by the center page 163 appendix e books",
+            "url": "https://feminist.org/wp-content/uploads/2020/06/harassment.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the most rapid method to resynthesize atp during exercise is through",
+            "content": "however the rates of atp provision from the anaerobic sources pcr and anaerobic glycolysis are much more rapid than those from aerobic",
+            "url": "https://www.nature.com/articles/s42255-020-0251-4",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the key attribute in successful marathon running is",
+            "content": "running a marathon has a myriad of benefits physically it helps you to stay fit and sleep better as well as improves your overall health",
+            "url": "https://www.blazinpaddles.com/5-key-attributes-all-top-marathon-winners-have-in-common/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the pyruvate dehydrogenase complex",
+            "content": "pyruvate dehydrogenase complex pdc is a complex of three enzymes that converts pyruvate into acetylcoa by a process called pyruvate decarboxylation",
+            "url": "https://en.wikipedia.org/wiki/Pyruvate_dehydrogenase_complex",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "for very high force contractions lasting 12 seconds the initial energy source is from",
+            "content": "the first 10 to 20 seconds of highintensity physical activity is fueled by the “atpcp” also known as the phosphagen energy system once",
+            "url": "https://www.army.mil/article/254967/understanding_the_three_energy_systems_used_during_exercise",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the descending loop of henle of the nephron of the kidney is permeable to which of the following substances",
+            "content": "the thin descending limb has low permeability to ions and urea while being highly permeable to water the loop has a sharp bend in the renal medulla going from",
+            "url": "https://en.wikipedia.org/wiki/Loop_of_Henle",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a psychologist conducts an experiment in which subjects are asked to learn a series of “facts” which are actually statements that have been fabricated by the research team the subjects consist of undergraduate students at the university where the experiment is being conducted the subjects are randomly assigned to groups that are compensated either 10 or 20 for their participation are given either 15 minutes or 30 minutes to learn the facts and are asked to recall the facts either in the same room in which they learned the facts or in a very different unfamiliar setting which of the following are dependent variables in this experiment i the amount the subjects were compensated ii the room in which the subjects were asked to recall facts iii the number of facts the subjects can recall iv the time the subjects were given to learn the facts",
+            "content": "primary sources are more authentic because the facts have not been overdone primary source can be less authentic if the source hides information or alters",
+            "url": "https://www.tmu.ac.in/other_websites/cdoe.tmu.ac.in/study-material/28-08-2024/MA_ECONOMICS/SEM_2/MAECCC204_RESEARCH_METHODOLOGY_2_SLM.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "type i muscle fibres have the following characteristics",
+            "content": "type i fibers so these fibers have a rich capillary supply numerous mitochondria and aerobic respiratory enzymes and a high concentration of myoglobin",
+            "url": "https://www.physio-pedia.com/Muscle_Fibre_Types",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the energy for all forms of muscle contraction is provided by",
+            "content": "muscles need energy to produce contractions fig 6 the energy is derived from adenosine triphosphate atp present in muscles",
+            "url": "https://www.fsps.muni.cz/emuni/data/reader/book-4/04.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "who set the world record for the mile race in 1886",
+            "content": "in one of those races on 23 august 1886 he set a mile record which was not surpassed for almost 30 years walter george the champion of champions",
+            "url": "https://en.wikipedia.org/wiki/Walter_George_(athlete)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a source emits a sound from one medium with a certain velocity intensity frequency and wavelength when the sound exits the first medium and enters a denser medium all of the following changes except",
+            "content": "this question is testing your understanding of the properties of sound as waves travel from one medium to another",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-physics-sound-wave-behavior/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "karen is a college student working on developing a stronger sense of selfesteem and selfefficacy with her therapist she has noticed a great change in her ability to handle situations after 3 months of therapy which of the following would not be a strategy that her therapist would ask her to employ to raise her sense of selfefficacy",
+            "content": "this article reviews the literature on terminology empirical findings and features to enhance collaboration in multicultural therapy",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3641707/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a thin layer chromatography is performed on both the reactants and products of a reaction it is found that the products have an rf value that is significantly higher than the reactants which of the following could adequately describe this reaction",
+            "content": "in a typical tlc a high rf value indicates a nonpolar molecule that moves with the solvent and a low rf value indicates a polar molecule that",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-organic-chemistry-question-chromatography/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following factors does not influence success in sport",
+            "content": "knowledge of cognitive stage of learning characteristics of cognitive stage include inconsistent performance success is not guaranteed performing the",
+            "url": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-75821-W-MS-NOV20.PDF",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "neonatal respiratory distress syndrome nrds is a serious complication seen in infants born prematurely who have a compromised ability to facilitate oxygen diffusion across their alveolar membranes this is caused by inadequate surfactant production what role does surfactant play in facilitating oxygen diffusion",
+            "content": "neonatal respiratory distress syndrome or rds is a common cause of respiratory distress in a newborn presenting within hours after birth",
+            "url": "https://www.physio-pedia.com/Neonatal_Respiratory_Distress_Syndrome",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a dentist that is performing procedures in his clinic is brought out to the front desk one day to handle a dispute between one of his patients and the clerk the patient is a middleaged businessman who is irate and creating a scene because he was told he would have to see the dental hygienist instead of the dentist the patient loudly rants that he makes too much money to be subjected to treatment by a halftrained associate the clerk explains to the dentist that the patient was 40 minutes late to his appointment and the only opening now was with the hygienist the patient snaps back that his time is worth more than any of the people in the office what personality disorder is this patient likely exhibiting",
+            "content": "eg the sudden appearance of the new disease left scientists groping for a cure",
+            "url": "https://learningclub.egis.com.pl/zasoby/56f64eb2/1_upstream_proficiency_companion.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "if a gas occupies 01l at 200atm what will its volume be at 1atm",
+            "content": "as you state the ideal gas law makes the assumption that a gas molecules volume is negligible when compared to the space it can occupy this",
+            "url": "https://forums.studentdoctor.net/threads/ideal-gas-law-question.1213368/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "how can several different proteins be produced from the same gene",
+            "content": "so in short yes it is possible to make multiple proteins from one gene by choosing which parts are removed spliced from the mrna strand",
+            "url": "https://www.reddit.com/r/biology/comments/h0ivgb/does_one_gene_always_only_code_for_one_protein_is/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the genome is",
+            "content": "the genome is the entire set of dna instructions found in a cell in humans the genome consists of 23 pairs of chromosomes located in the cells nucleus",
+            "url": "https://www.genome.gov/genetics-glossary/Genome",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a teacher sets up a reward system for her elementary school students at the end of each day she gives a sticker to each student who showed up on time that morning at the end of each week she gives a sticker to any student who got above a 90 on three quizzes in a row after months of this regimen she finds that performance on the quizzes has increased significantly but that tardiness has only decreased slightly which of the following best explains the teacher’s observation",
+            "content": "research shows us that the quickest and most effective way to promote the display of appropriate behaviors is to reward them",
+            "url": "https://www.behavioradvisor.com/CatchGood.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a scientist using electrodes is stimulating a group of neurons in the hypothalamus and recording their membrane potential changes she observes a sharp rise in membrane potential when she first stimulates them the the difference of 100mv when she tries another stimulation immediately after the first there is no response however when she increase the amount of voltage she supplies to the second shock she observes a similar response to the first what time period of stimulation would the second shock be characterized in regards to membrane potential",
+            "content": "this article reviews the history of neural engineering and the materials innovation at the interface between neural tissue and synthetic sensors",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6707077/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the lining of the digestive tract and the respiratory tract develops from which germ layer i endoderm ii mesoderm iii ectoderm",
+            "content": "cells derived from the endoderm eventually form many of the internal linings of the body including the lining of most of the gastrointestinal",
+            "url": "https://www.britannica.com/science/germ-layer",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "using this formula if a reaction was provided with 84g of ethane and unlimited oxygen how many grams of carbon dioxide would result carbon atomic weight 12amu hydrogen atomic weight 1amu oxygen atomic weight 16amu ﻿ the unbalanced reaction of ethane gas to carbon dioxide and water is as follows c2h4 o2 co2 h2o",
+            "content": "the present course provides eight modules and a laboratory manual a student appearing for senior secondary examination is expected to offer all the eight",
+            "url": "https://www.teachmint.com/tfile/studymaterial/class-12th/chemistry/masterchemistry/0c009dd3-3e5a-449f-9a64-fe66ecf51d6d",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "vygotsky’s sociocultural development theory attempts to describe the interaction between the mental function children are born with and how they develop those into what they possess as adults one of the important components of this is the zone of proximal development which of the following statements accurately describes an individual in the zone of proximal development",
+            "content": "by s mcleod internalization is a central concept in vygotskys theory bridging the gap between social interaction and individual cognitive development",
+            "url": "https://www.simplypsychology.org/vygotsky.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "assuming the circulatory system in humans obeys bernoulli’s principle of fluid dynamics which of the statements most accurately compares the blood pressure in a capillary of the neck to a capillary with an equal crosssectional area in the right knee",
+            "content": "since hneck is greater than the hknee the pressure in the neck is lower than the pressure in the knee thus the correct answer is choice c",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-physics-question-fluid-dynamics/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "phosphocreatine in the muscle cell is found in",
+            "content": "phosphocreatine or creatine phosphate is the phosphorylated form of creatine it is primarily found endogenously in the skeletal muscles of vertebrates",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Phosphocreatine",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "a police officer carries out hundreds of traffic stops every year when his supervisor is reviewing the officer’s records for the past year he notices that the officer is equally likely to stop people of various genders ages and races however he is significantly more likely to write tickets for middleaged white males with dark hair and eyes when confronted with this fact the officer truthfully states that he has no idea why that is and that it must simply be a coincidence unbeknownst to the officer this behavior is tied to the fact that these men look like his father with whom he had an abusive relationship as a child what psychological framework would directly address the unconscious bias in his behavior",
+            "content": "by p quinton this is the fourth report produced from a programme of research on stops and searches carried out by the home offices policing and reducing crime unit",
+            "url": "http://www.cedus.it/documents/PoliziaLocale/Gestione/Tecniche_di_controllo_del_territorio/PoliceStopsDecisionmakingAndPractice.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "hydrogen ions are formed when",
+            "content": "hydrogen ion strictly the nucleus of a hydrogen atom separated from its accompanying electron the hydrogen nucleus is made up of a particle carrying a unit",
+            "url": "https://www.britannica.com/science/hydrogen-ion",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a transmembrane protein being isolated in the laboratory is found to be composed of four different amino acids in varying quantity they are in order of frequency glycine tyrosine arginine and isoleucine of these amino acids which is most likely to be inside the transmembrane domain",
+            "content": "polar amino acids typically occur frequently on the protein surface with aspartic acid and lysine being the most prevalent membrane proteins mps n 13",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0022283624003267",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "glycolysis is the name given to the pathway involving the conversion of",
+            "content": "glycolysis is the metabolic pathway that converts glucose into pyruvate and in most organisms occurs in the liquid part of cells the cytosol",
+            "url": "https://en.wikipedia.org/wiki/Glycolysis",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sodium bicarbonate ingestion improves middle distance running performance by",
+            "content": "according to recent literature sodium bicarbonate nahco3 has been proposed as a performance enhancing aid by reducing acidosis during exercise",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6544001/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a scientist using mouse models to determine the response of blood hormones to large levels of glucose in the body discovers a new hormone not previously described according to his data this hormone is found both inside and out of cells when carrying out its function increase the amount of nucleic acid in the cell while functioning and are derived from a structure containing four hydroxycarbon rings this will likely be categorized as which type of hormone",
+            "content": "calorierestricted fatdepleted goat −− mice develop profound hypoglycemia resulting from lack of ghrelinmediated growth hormone release",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3365699/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if the mean rate of oxygen consumption of a male athlete during a training session is 2 lmin then his rate of energy expenditure is approximately",
+            "content": "page 2 purpose of calculations ▫ under steadystate conditions volume of oxygen vo2 provides a measure of the energy cost of exercise ▫ the rate of",
+            "url": "https://summitmd.com/pdf/pdf/090626_aps09_970.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following best accounts for the negative slope of the liquidsolid equilibrium line in the phase diagram for water",
+            "content": "so increasing pressure favors the liquid instead of the solid explanation because water tends to form hydrogen bonds its ordinary solid",
+            "url": "https://socratic.org/questions/why-does-the-phase-diagram-of-water-have-a-negative-slope-1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "diisopropylfluorophosphate dfp binds to the active site of acetylcholinesterase ace in the synapses of neurons when dfp binds to ace the ace enzyme is rendered permanently inactive this makes dfp a potent toxin with lethal amounts at less than 100 mg the interaction between dfp and ace can best be characterized as",
+            "content": "the binding described involves the inhibitor binding to the enzyme and rendering the enzyme permanently inactive thats the definition of",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-biology-question-dfp/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following is not an amino acid",
+            "content": "nonessential amino acids include alanine arginine asparagine aspartic acid cysteine glutamic acid glutamine glycine proline serine",
+            "url": "https://medlineplus.gov/ency/article/002222.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the sarcoplasmic reticulum in muscle cells acts as a",
+            "content": "the sarcoplasmic reticulum sr is a specialized form of the endoplasmic reticulum of muscle cells dedicated to calcium ion ca2 handling necessary for",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9026860/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "an individual presents to the clinic for initial evaluation and establishment of care the patient was born 46 xy but identifies as a female her preferred pronouns are sheher additionally she is sexually active with females only what would describe the gender and orientation of this individual",
+            "content": "genderaffirming care supports tgd people across the lifespanfrom the very first signs of gender incongruence in childhood through adulthood and into older age",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9553112/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the coding sequences of genes are called",
+            "content": "the coding region of a gene also known as the coding dna sequence cds is the portion of a genes dna or rna that codes for a protein",
+            "url": "https://en.wikipedia.org/wiki/Coding_region",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "most of the free fatty acids are transported in the blood",
+            "content": "longchain free fatty acids enter metabolizing cells ie most living cells in the body except red blood cells and neurons in the central nervous system",
+            "url": "https://en.wikipedia.org/wiki/Fatty_acid_metabolism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "our genetic material is made up of",
+            "content": "dna is a polymer composed of two polynucleotide chains that coil around each other to form a double helix",
+            "url": "https://en.wikipedia.org/wiki/DNA",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "fasttwitch fibres contain",
+            "content": "from your biceps and triceps to your quads and glutes your skeletal muscles contain slowtwitch type i and fasttwitch type ii",
+            "url": "https://www.health.com/fitness/fast-twitch-muscle-fibers",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "approximately how many kj of energy are expended if an athletes steadyrate oxygen uptake averages 30 lmin for 5 minutes of exercise",
+            "content": "purpose this study aimed to assess the impact of four distinct training programs on maximal oxygen uptake vo 2 max and cardiovascular health markers",
+            "url": "https://hummov.awf.wroc.pl/Effects-of-polarised-sprint-interval-high-intensity-interval-and-low-intensity-training,186688,0,2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "after what period of time does maximal dynamic exercise become predominantly aerobic",
+            "content": "dynamic exercise such as jogging involves predominantly isotonic muscle activity and requires predominantly aerobic metabolism during acute dynamic",
+            "url": "https://www.sciencedirect.com/topics/medicine-and-dentistry/dynamic-exercise",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following can act as an intracellular buffer to limit ph changes when the rate of glycolysis is high",
+            "content": "further the ph change associated with the accumulation of hydrogen ions may decrease the rate of glycolysis through its effect on the ratelimiting enzyme",
+            "url": "https://www.sciencedirect.com/topics/medicine-and-dentistry/anaerobic-glycolysis",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "each of the following is an example of the transmission of knowledge through symbolic culture except i a young macaque monkey learning to rinse off food in the ocean from an older monkey even when the food is not covered in dirt or sand ii a child learning the rules of baseball from a parent iii a new group of inductees in a military organization experiencing hazing rituals from older students which they then later carry out on new recruits",
+            "content": "macaques macaca fuscata animal behaviour 79 117126 loy j 1970 behavioral responses of freeranging rhesus monkeys to food shortage american",
+            "url": "https://www.cambridge.org/core/books/monkeys-of-stormy-mountain/cultural-behaviour-social-interactions-and-ecology/B87113BCAA458432C546139A045E4B63",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following factors can affect enzyme activity",
+            "content": "enzyme activity is affected by a number of factors including the concentration of the enzyme the concentration of the substrate the",
+            "url": "https://bio.libretexts.org/Courses/Prince_Georges_Community_College/PGCC_Microbiology/07%3A_Microbial_Metabolism/7.01%3A_Introduction_to_Metabolism_and_Enzymes/7.1.01%3A_Factors_Affecting_Enzyme_Activity",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the βoxidation of a molecule of palmitic acid ch3ch214co2h",
+            "content": "the βoxidation pathway begins when two hydrogen atoms are removed from c2 and c3 of the fatty acyl coa by one of a family of acylcoa dehydrogenases to yield",
+            "url": "https://ncstate.pressbooks.pub/organicchem/chapter/catabolism-of-triacylglycerols-%CE%B2-oxidation/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the conversion of one molecule of glucose to two molecules of pyruvate results in the net formation of",
+            "content": "overall glycolysis converts one sixcarbon molecule of glucose into two threecarbon molecules of pyruvate the net products of this process are two molecules",
+            "url": "https://www.khanacademy.org/science/biology/cellular-respiration-and-fermentation/glycolysis/a/glycolysis",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the process of translation requires the presence of",
+            "content": "translation involves “decoding” a messenger rna mrna and using its information to build a polypeptide or chain of amino acids",
+            "url": "https://www.khanacademy.org/science/biology/gene-expression-central-dogma/translation-polypeptides/a/the-stages-of-translation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "an individual is born with a mutation causing her to partially retain a form of fetal hemoglobin into adulthood compared to a normal individual this person would exhibit",
+            "content": "thus it binds and holds oxygen more tightly an individual with fetal hemoglobin would show increased oxygen binding to hemoglobin as a result",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-biology-question-fetal-hemoglobin/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "what type of covalent bonds link the amino acids in a protein",
+            "content": "a peptide bond is an amide type of covalent chemical bond linking two consecutive alphaamino acids from c1 carbon number one of one alphaamino acid and n2",
+            "url": "https://en.wikipedia.org/wiki/Peptide_bond",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a team of engineers constructing signal lights for airplanes that they can use to guide them to runways are attempting to determine the brightness needed for the pilot to be able to detect the tower at 1 mile away they set the light to a test brightness and establish communication with an inbound pilot when the pilot is 1 mile away from the tower he says he cannot see the light in terms of signal detection theory what would this be called",
+            "content": "the federal aviation administration faa recommends the guidance and specifications in this advisory circular for design and installation",
+            "url": "https://www.faa.gov/documentLibrary/media/Advisory_Circular/150_5340_30e.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "one of the many reasons that the eukaryotic cell can possess so much information in its dna is the ability to condense coding regions when they are not being expressed when acting on dna which of the following processes will usually lead to a decrease in gene expression",
+            "content": "this review discusses recent insights into the regulatory roles of the untranslated gene regions and noncoding rnas in the control of complex gene expression",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3474909/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the body compensates for increased environmental temperature by",
+            "content": "cellular thermogenesis compensates environmental temperature fluctuations for maintaining intracellular temperature sciencedirect",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0006291X20317162",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "acute myeloid leukemia is a malignant cancer in which myeloid progenitor cells become rapidly dividing and retain their semistem cell state under normal circumstances which of the following cell types would arise from this stem cell",
+            "content": "brca1 and brca2 are tumor suppressors that are part of the dna damage response and regulate nonhomologous end joining and homologydirected repair following",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3433102/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "performance enhancing synthetic steroids are based on the structure of the hormone",
+            "content": "a structural understanding of steroids their metabolites and testosterone is central to developing analytical protocols for their detection",
+            "url": "https://www.cas.org/resources/cas-insights/science-behind-performance-enhancing-drugs",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the low intake of carbohydrate in the diet",
+            "content": "while all lowcarb approaches reduce the overall intake of carbohydrates there is no clear consensus on what defines a lowcarb diet",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK537084/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "walking down a street late at night an adult male pedestrian notices a young female on the ground not moving the female is on the opposite side of the street crossing the street the pedestrian notices that the young woman appears both much wealthier than he is and is of a different ethnicity seeing no one else present the pedestrian renders aid according to the bystander effect which of the following would change how the pedestrian reacts",
+            "content": "study mbe questions flashcards from abby schwarzs class online or in brainscapes iphone or android app ✓ learn faster with spaced repetition",
+            "url": "https://www.brainscape.com/flashcards/mbe-questions-13573977/packs/21432508",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "new york city is home to over 7 million inhabitants from a diverse range of backgrounds although the city itself has characteristics there are several smaller areas usually congregations of people from the same nationality who adhere to customs from their prior country of inhabitance for example in little italy a small town in the city it is still customary to greet people with cheek kisses this is an example of what kind of phenomenon",
+            "content": "the economic policy review is published by the research and statistics group of the federal reserve bank of new york articles undergo a comprehensive",
+            "url": "https://www.newyorkfed.org/medialibrary/media/research/epr/2005/EPRvol11no2.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "anaerobic metabolism refers to the generation of atp",
+            "content": "anaerobic metabolism which can be defined as atp production without oxygen or in the absence of oxygen occurs by direct phosphate transfer from",
+            "url": "https://www.sciencedirect.com/topics/immunology-and-microbiology/anaerobic-metabolism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "living cells require constant interaction with the outside environment in order to attain the materials they need for survival as well as to rid themselves of waste of the following processes which uses only the gradient of material to control the direction in which the material moves across the cell membrane",
+            "content": "all cells are enclosed in a plasma membrane across which nutrients and waste materials must pass a living cell can exist with fewer than 500 genes summary",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK21054/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "phophocreatine resynthesis during recovery from exercise is inhibited by",
+            "content": "instead its rate appears to be controlled by adenosine diphosphate adp levels either directly through its free cytosolic concentration or indirectly",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12238940/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "lactate and hydrogen ions leave the muscle",
+            "content": "the unconsumed h one per 1 lac− causes acidosis both ions coexist and may leave the muscle fiber across monocarboxylate transporters because of the low pk",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5395467/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "perchloric acid hclo4 is considered one of the stronger acids in existence which of the following statements corresponds most accurately with strong acids",
+            "content": "which is a strong acid hcl h2so4 hno3 or hclo4 hydrochloric acid sulphuric acid and perchloric acid are all strong acids all four are strong acids",
+            "url": "https://www.echemi.com/community/which-is-a-strong-acid-hcl-h2so4-hno3-or-hclo4_mjart22040916081_634.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "when preparing for the mcat exam a student begins studying electrochemical cells he learns the basic information needed by actively relating it to previous information he has learned about redox reactions he then builds from that knowledge to learn the advanced concepts needed the student’s process is best characterized as",
+            "content": "this discussion will help you gain a better understanding of how your scientific knowledgebase works to make an mcat passage intelligible",
+            "url": "https://forums.studentdoctor.net/threads/how-to-read-an-mcat-science-passage.1451400/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "prosthetic groups are",
+            "content": "a prosthetic group is the nonamino acid component that is part of the structure of the heteroproteins or conjugated proteins being tightly linked to the",
+            "url": "https://en.wikipedia.org/wiki/Prosthetic_group",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following molecules does not form part of dna",
+            "content": "the correct answer is thyminethe four bases found in dna molecules are cytosine guanine adenine and thymine but in rna molecules the thymine base is",
+            "url": "https://www.mytutor.co.uk/answers/26054/A-Level/Biology/Which-of-these-nucleotide-bases-is-NOT-present-in-RNA-Cytosine-Thymine-Guanine-Adenine-Uracil/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "fatty acids are transported into the mitochondria bound to",
+            "content": "transportation of longchain fatty acids into the mitochondrial matrix requires three enzymes in addition to acylcoa synthetase the transport",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK556002/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "there are five stages of mitosis that must be carried out correctly for a cell to properly divide match the stage of mitosis with its proper component prophase dissolution of nucleoli",
+            "content": "skipping s phase the cell enters prophase and metaphase of meiosis ii with low sk and low ep activity exactly as if it were a mitotic division",
+            "url": "https://www.cell.com/current-biology/fulltext/S0960-9822(08)00863-4",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a descript amount of 2bromobutane is placed into a strong solution of ethanol and allowed to complete a reaction the result of this reaction produces a major product of 2butene and a minor product of 1butene which of the following descriptions of the starting compound explains why 2butene is the major product",
+            "content": "chapters 132 133 replace propane by butane in chapter 133 2bromobutane is the major product because a 2butyl radical is more stable longer living",
+            "url": "https://application.wiley-vch.de/books/sample/352735056X_WorkingQuestions.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following processes is not used to modify protein structure after translation has occurred",
+            "content": "in molecular biology posttranslational modification ptm is the covalent process of changing proteins following protein biosynthesis",
+            "url": "https://en.wikipedia.org/wiki/Post-translational_modification",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in nerve cells microtubuleassociated proteins maps most notably map2 and map tau act to stabilize microtubules in a mouse model a mutant is developed that vastly reduced function across all families of maps leading to increased microtubule degradation which cellular activity would likely be most affected",
+            "content": "overexpression of mutant app in tau knockout mice elicits the extensive formation of axonal spheroids and more severe cognitive deficits 109 tau ko mice",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7604284/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "codons are composed of",
+            "content": "a codon is a dna or rna sequence of three nucleotides a trinucleotide that forms a unit of genomic information encoding a particular amino acid",
+            "url": "https://www.genome.gov/genetics-glossary/Codon",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "how many electrons does gold au possess that have a quantum number l 2",
+            "content": "a gold au atom has how many electrons with the quantum numbers n 4 ml 3 are orbitals with n 3",
+            "url": "https://www.wizeprep.com/practice-questions/8798",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "embedded in the inner membrane of the mitochondrion are",
+            "content": "there are several antiport systems embedded in the inner membrane allowing exchange of anions between the cytosol and the mitochondrial matrix",
+            "url": "https://en.wikipedia.org/wiki/Inner_mitochondrial_membrane",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the son of a bricklayer goes to college and i becomes a teacher at a medical school ii gets promoted to tenured professor and iii moves across the country for a new tenured professor position at a different school sequentially this man has experienced",
+            "content": "intragenerational mobility also called career mobility describes a change in an individuals social standing during the course of an individuals lifetime",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-psychology-question-social-mobility/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "tyler is a high school student who is planning on becoming an engineer in his calculus ii class sophomore year he receives an f on his first test which of the following responses to this event would indicate that tyler has a higher likelihood of improving in subsequent exams",
+            "content": "he was so distraught that he would likely not pass his first year of high school that he fell into a depression as his mother it was aweful to witness",
+            "url": "https://pl.khanacademy.org/stories",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a study examined admissions to exceptionally selective colleges when examining the correlates of admission acceptance two obvious factors that strongly correlated with admissions were gpa and standardized test scores with correlation values of 041 and 055 respectively however the study also demonstrated that those students who had social networks that overlapped with the alumni networks of the selective colleges were even more likely to be admitted with a correlation between social network and alumni network of 061 this correlation demonstrates",
+            "content": "in this case having a high gpa thereby gaining admissions to a college when ones parents did not go to college would be an example of cultural",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-psychology-social-capital/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "a hedonic teenager of wayward morals in one night sequentially i has consensual sexual intercourse with his sister ii leaves no tip at the bar iii has noncensual sexual relations with an unknown woman and iv vomits on the steps to the door of a local church the teenager has violated society’s norms sequentially to the greatest degree on the order of",
+            "content": "in contemporary philosophical discussion in the englishspeaking world there is a broad consensus on the outlines and the history of a liberal political",
+            "url": "https://blogs.baruch.cuny.edu/authenticityandastonishment2/files/2013/03/Kwame-Anthony-Appiah-The-Ethics-of-Identity.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "womens world record performances have improved rapidly in recent years mainly because",
+            "content": "in both ancient and modern times athletes have turned to “doping” with exogenous substances to improve their performances in ancient greece performance",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3538474/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in games like soccer the blood lactate concentration",
+            "content": "by pr santossilva 2017 this response is evident through the blood lactate levels which can exceed 12 mmoll1 during a competitive soccer game",
+            "url": "https://www.scielo.br/j/medical/a/p8WVPhpqrwBqbTvvwn9hSvB/?lang=en",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the energy released from the breakdown of the highenergy phosphates atp and phosphocreatine can sustain maximal exertion exercise for about",
+            "content": "the muscle store of phosphocreatine pcr can be depleted almost completely during exhaustive exercise providing an equimolar amount of atp about 70 mmol per",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4213384/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a segment of dna from a lab mouse is determined to be 5’ ggatcctcatg 3’ which of the following dna segments would be the result of this original dna sequence experiencing both a point mutation and a deletion",
+            "content": "the question asks us to look for an answer choice that has had both a point mutation and a deletion only choice c matches these requirements",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-biology-questions-dna-mutation-and-deletion/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the net production of atp via substratelevel phosphorylation in glycolysis is",
+            "content": "substratelevel phosphorylation is the direct formation of atp or gtp by transferring a phosphate group from a high energy compound to an adp or gdp molecule",
+            "url": "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/substrate-level-phosphorylation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a young man working with a therapist on becoming more productive is expressing many of his desires throughout growing up and how he feels that it has affected him through discernment the therapist states that he believes the young man’s development is stuck in a stage that reflects itself by his inability to keep his house clean according to freud’s theory of psychosexual development what stage would this young man be fixated in",
+            "content": "explore the psychology of adolescence in inside out 2 as we examine the complexities of teenage emotions like anxiety envy",
+            "url": "https://www.psychiatrypodcast.com/psychiatry-psychotherapy-podcast/episode-225-inside-out-2-adolescent-emotions-psychology-analysis",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "a patient comes into the hospital after being bit by a dog who he stated was “acting crazy” the wound is open and bleeding animal control captured the dog and said that it was foaming at the mouth and extremely aggressive suspecting a rabies infection the patient is given a serum that contains rabies antibodies that were grown inside a horse this is an example of what kind of immunity",
+            "content": "corticosteroids used in penetrating spinal trauma have not been shown to be useful in the patient with head trauma has now started acting “crazy” with",
+            "url": "https://issuu.com/rosanarosa2/docs/first_aid_emergency_medicine",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the maximum sustainable power",
+            "content": "maximum sustainable power is the ability to hold the highest percentage of your absolute power longer",
+            "url": "http://www.sirensandtitansfitness.com/jacques-blog/2017/11/30/absolute-power-vs-maximum-sustainable-power",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following promotes glucose and amino acid uptake by muscle",
+            "content": "leucine a branchedchain amino acid has been shown to promote glucose uptake and increase insulin sensitivity in skeletal muscle but the exact mechanism",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24806638/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the synthesis of glucose from lactate glycerol or amino acids is called",
+            "content": "gluconeogenesis gng is a metabolic pathway that results in the biosynthesis of glucose from certain noncarbohydrate carbon substrates",
+            "url": "https://en.wikipedia.org/wiki/Gluconeogenesis",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "all of the following are true regarding the function of neurons except",
+            "content": "neurons are the basic functional units of the nervous system and they generate electrical signals called action potentials which allow them to quickly",
+            "url": "https://www.khanacademy.org/science/biology/human-biology/neuron-nervous-system/a/overview-of-neuron-structure-and-function",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "with an increasing number of sprints the",
+            "content": "the aim of the present study was to examine the effect of number of sprint repetitions on the variation of blood lactate concentration blood la during",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4042663/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "while working on a scene for an action movie a sound technician is given the task of changing the frequency of a gunshot to more accurately reflect the normal speed of sound the gunshot came from an actor inside a car traveling 108 kmh and it was recorded by a camera on a platform 200 meters away traveling at 72 kmh in the same direction if the frequency of the gunshot is normally 800hz what is the perceived frequency which the camera picks up the gunshot at",
+            "content": "enquiries concerning the use of the book should be directed to intech rights and permissions department permissionsintechopencom",
+            "url": "https://scispace.com/pdf/virtual-reality-and-environments-2zo3mbncr7.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "pregnancy tests are extremely sensitive and function by detecting levels of bhcg or human chorionic gonadotropin in urine this hormone is secreted by what tissue and what is its function",
+            "content": "human chorionic gonadotropin hcg is a hormone for the maternal recognition of pregnancy produced by trophoblast cells that are surrounding a growing embryo",
+            "url": "https://en.wikipedia.org/wiki/Human_chorionic_gonadotropin",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "selective androgen receptor modulators sarms are",
+            "content": "sarms are a class of drugs that selectively activate the androgen receptor in specific tissues promoting muscle and bone growth",
+            "url": "https://en.wikipedia.org/wiki/Selective_androgen_receptor_modulator",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the world systems theory divides the world as a unit into three subcategories core countries periphery countries and semiperiphery countries which of the following answers correlates best with semiperiphery countries",
+            "content": "the worldsystem refers to the interregional and transnational division of labor which divides the world into core countries semiperiphery countries and",
+            "url": "https://en.wikipedia.org/wiki/World-systems_theory",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a patient comes into the er looking extremely agitated they are acting aggressive and claiming they need medication or “bad things will happen” what is the likely state of this patient’s dopamine system",
+            "content": "there is no reason to expect bad things will happen to them this is important as one study showed over 90 of patients in an inpatient",
+            "url": "https://link.springer.com/10.1007/978-3-030-42825-9_5-1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "when branched chain amino acids are deaminated in muscle the ammonia produced is mostly",
+            "content": "2 glutamate deamination yields αketoglutarate and ammonia 3 during exercise amp is generated from atp degradation in the skeletal muscle the muscle",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8329528/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "an action potential arriving at the motor endplate causes release of",
+            "content": "upon depolarization an action potential travels down the axon causing voltagegated calcium channels to open resulting in an influx of calcium ions into the",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK470413/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "which of the following is true",
+            "content": "the correct option is b b c ∈ a b c explanation for the correct option the symbol ∈ signifies that an element belongs to a set",
+            "url": "https://byjus.com/question-answer/which-of-the-following-is-true-a-a-belongs-to-set-a-b/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "fire hoses always have a nozzle on the end of the hose which in part works by decreasing the area of the water exiting the fire hydrant to create a more forceful stream if the starting velocity of water from a fire hydrant is 2 ms pressure is kept constant and the end of the nozzle is 13 the area of the start of the hose what is the final velocity of water as it exits",
+            "content": "by w tarełko we welcome submissions from these fields in the following technical topics ship hydrodynamics buoyancy and stability ship resistance and",
+            "url": "http://www.bg.pg.gda.pl/pmr/pdf/PMRes_2023_4.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "an object rests on a plane with an angle of incline an acceleration due to gravity g and a coefficient of friction µ between the object and the plane which of the following gives the acceleration of the object",
+            "content": "the force of gravity down the plane is given by fg mg sin θ the frictional force is given by ff μ mg cos θ thus choice d is the right answer",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-physics-question-object-acceleration/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "david is a nationally ranked cellist who recently accepted a scholarship to a major college to perform in the orchestra over the summer he has been given a packet of sheet music to be proficient in by fall semester david is a perfectionist when it comes to his craft he always compares himself to better players and is very hard on himself when he cannot master a section of one of his pieces which of the following answers best describes david",
+            "content": "music he started his artistic career composing sec ular pieces at the age of 14 he composed his first string quartet and a piece for cello and orchestra",
+            "url": "https://dbc.wroc.pl/Content/73614/Musical_Analysis_Vol.5.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "kinase reactions",
+            "content": "in biochemistry a kinase is an enzyme that catalyzes the transfer of phosphate groups from highenergy phosphatedonating molecules to specific substrates",
+            "url": "https://en.wikipedia.org/wiki/Kinase",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "a scientist carrying out experiments on hearing aids fits 30 mice that were genetically modified to lose their hearing with the latest technology and were tested to press a lever when they heard a bell this was set to varying levels of power at 80 power 20 mice pressed the lever at 70 power 15 mice pressed the lever at 60 power 10 mice pressed the lever which of the following power levels corresponds to the absolute threshold for hearing the decibels produced by the bell",
+            "content": "we designed a custom headrestrained leverbased behavioral training paradigm where mice push a lever and hear closedloop sounds a customdesigned lever",
+            "url": "https://www.cell.com/current-biology/fulltext/S0960-9822(22)01606-2?dgcid=raven_jbs_etoc_email",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "during muscular contraction interactions between myosin and actin allow for shortening of each sarcomere in addition to the power stroke what other process of muscle contraction requires atp",
+            "content": "once the myosinbinding sites are exposed and if sufficient atp is present myosin binds to actin to begin crossbridge cycling then the sarcomere shortens",
+            "url": "https://www.nature.com/scitable/topicpage/the-sliding-filament-theory-of-muscle-contraction-14567666/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is thought to be implicated in the development of peripheral muscle fatigue during multiple sprint activities",
+            "content": "the differences in performance regulation were probably related to the expected development of fatigue in active skeletal muscles since the number of efforts",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10464754/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "which of the following statements is false",
+            "content": "the correct option is b a labelled rooted binary tree can be unique constructed given its postorder and preorder traversal results a labelled rooted binary",
+            "url": "https://byjus.com/question-answer/n-1031/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "pairs of electrons carried in the form fadh2 and nadhh collectively contain enough free energy to rephosphorylate",
+            "content": "nadh and fadh 2 ‍ pass their electrons to the electron transport chain turning back into nad ‍ and fad this is important because the oxidized forms of these",
+            "url": "https://www.khanacademy.org/science/ap-biology/cellular-energetics/cellular-respiration-ap/a/oxidative-phosphorylation-etc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a certain molecule acts by binding to cytochrome oxidase a3 the final enzyme in the electron transport chain administration of a large dose of this substance to a human would likely",
+            "content": "administration of a large dose of this substance to a human would likely a lead to death due to an inability of the cell to pass electrons to",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-biology-question-electron-transport-chain/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "in order to determine the doppler shift in perceived sound frequency the following variables must be known i speed of sound in medium ii time of interaction between sound source and detector iii distance between source and detector iv frequency of emitted sound",
+            "content": "check out our blog post mcat physics question doppler shift from the blueprint mcat blog learn more today",
+            "url": "https://blog.blueprintprep.com/mcat/mcat-physics-question-doppler-shift/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 34,
+            "query": "which of the following statements is false",
+            "content": "which of the followi a copper ll ion can be reduced to copper l ion by hydrochloric acid and zinc b sodium metal dissolves in water giving oxygen c nitrogen is insoluble in water",
+            "url": "https://myschool.ng/classroom/chemistry/30880",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following phases are common to cells undergoing meiosis and mitosis i g0 ii phase g2 iii phase s phase",
+            "content": "we cannot provide a description for this page right now",
+            "url": "https://www.khanacademy.org/science/ap-biology/heredity/meiosis-and-genetic-diversity/a/phases-of-meiosis",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "in a double stranded molecule of dna the ratio of purines pyrimidines is",
+            "content": "click herepointup2to get an answer to your question writinghandwhy in double stranded dna number of purinesequal the number of pyrimidines",
+            "url": "https://www.toppr.com/ask/question/why-in-double-stranded-dna-number-of-purinesequal-the-number-of-pyrimidines/",
+            "engine": "braveAPI"
+        }
+    ]
+}

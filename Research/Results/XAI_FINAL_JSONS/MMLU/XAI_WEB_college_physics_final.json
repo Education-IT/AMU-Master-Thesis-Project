@@ -1,0 +1,1677 @@
+{
+    "task": "mmlu_college_physics",
+    "dataset": "web_access_college_physics_final",
+    "questions": 102,
+    "noWebContextCount": 17,
+    "contaminated_queries": 86,
+    "contaminated_urls": 384,
+    "valid_urls": 85,
+    "avg_contaminated_before_valid": 5.517647058823529,
+    "contaminated_data_ratio": 0.8187633262260128,
+    "most_contaminated_urls": {
+        "nate9389.tistory.com": 39,
+        "physics-problems-solutions.blogspot.com": 20,
+        "www.physicsforums.com": 9,
+        "media.physics.hmc.edu": 7,
+        "www.ets.org": 7,
+        "edurev.in": 6,
+        "kestrel.nmt.edu": 5,
+        "www.physicsbyfiziks.com": 5,
+        "www-vantage-prod-publish.ets.org": 5,
+        "nta.ac.in": 5
+    },
+    "noWebContext": [
+        "Two students perform an experiment in which they drop a ball from rest from a known height above the ground and measure the speed of the ball just before it strikes the ground. From repeated measurement, the students estimate the uncertainty in the measured speed of the ball to be 10 percent. Which of the following gives the uncertainty in the kinetic energy of the ball? (Assume the uncertainty in the ball’s mass is negligibly small.)",
+        "At 20°C, a pipe open at both ends resonates at a frequency of 440 hertz. At what frequency does the same pipe resonate on a particularly cold day when the speed of sound is 3 percent lower than it would be at 20°C ?",
+        "A uniform solid disk starts from rest and rolls down an inclined plane without slipping. After some time, what fraction of the disk’s total kinetic energy is rotational kinetic energy?",
+        "The driver of a police car hears an echo of the car’s siren from a wall toward which the car is moving with a speed of 3.5 m/s. If the speed of sound is 350 m/s and the frequency of the siren is 600 Hz, the driver hears the echo at a frequency nearest to which of the following?",
+        "A net force F_A acts on object A, and a net force F_B acts on object B. The mass of object B is twice the mass of object A, and the acceleration of object B is twice that of object A. Which of the following is true of forces F_A and F_B?",
+        "Which of the following is true about any system that undergoes a reversible thermodynamic process?",
+        "Under certain conditions, a beam of electrons impinging on a crystal surface will diffract and a scattering pattern of the beam can be obtained. What is the approximate kinetic energy of the electrons needed in order to see the pattern? (Assume the lattice spacing of the crystal to be 0.4 nm.)",
+        "A uniform solid disk starts from rest and rolls down an inclined plane without slipping. After some time, what fraction of the disk’s total kinetic energy is rotational kinetic energy?",
+        "A grating spectrometer can just barely resolve two wavelengths of 500 nm and 502 nm, respectively. Which of the following gives the resolving power of the spectrometer?",
+        "A 10 kg box slides horizontally without friction at a speed of 1 m/s. At one point, a constant force is applied to the box in the direction of its motion. The box travels 5 m with the constant force applied. The force is then removed, leaving the box with a speed of 2 m/s. Which of the following gives the magnitude of the applied force?",
+        "The emission spectrum of the doubly ionized lithium atom Li++ (Z = 3, A = 7) is identical to that of a hydrogen atom in which all the wavelengths are",
+        "Under certain conditions, a beam of electrons impinging on a crystal surface will diffract and a scattering pattern of the beam can be obtained. What is the approximate kinetic energy of the electrons needed in order to see the pattern? (Assume the lattice spacing of the crystal to be 0.4 nm.)",
+        "A 10 kg box slides horizontally without friction at a speed of 1 m/s. At one point, a constant force is applied to the box in the direction of its motion. The box travels 5 m with the constant force applied. The force is then removed, leaving the box with a speed of 2 m/s. Which of the following gives the magnitude of the applied force?",
+        "If the absolute temperature of a blackbody is increased by a factor of 3, the energy radiated per second per unit area does which of the following?",
+        "Consider an electron in the n = 4, l = 1 state in hydrogen. Which of the following final states can NOT be reached by an allowed transition?",
+        "The driver of a police car hears an echo of the car’s siren from a wall toward which the car is moving with a speed of 3.5 m/s. If the speed of sound is 350 m/s and the frequency of the siren is 600 Hz, the driver hears the echo at a frequency nearest to which of the following?",
+        "The emission spectrum of the doubly ionized lithium atom Li++ (Z = 3, A = 7) is identical to that of a hydrogen atom in which all the wavelengths are"
+    ],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 6,
+            "query": "protons used in cancer therapy are typically accelerated to about 06c how much work must be done on a particle of mass m in order for it to reach this speed assuming it starts at rest",
+            "content": "65 protons used in cancer therapy are typically accelerated to about 06c how much work must be done on a particle of mass m in order for it",
+            "url": "https://nate9389.tistory.com/2373",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a heat pump is to extract heat from an outdoor environment at 7°c and heat the environment indoors to 27°c for each 15000 j of heat delivered indoors the smallest amount of work that must be supplied to the heat pump is approximately",
+            "content": "for each 15000 j of heat delivered indoors the smallest amount of work that must be supplied to the heat pump is approximately a500 j b1000 j",
+            "url": "https://physicsgre.com/viewtopic.php?t=4232",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "an airplane drops a payload while traveling due north parallel to the ground at a constant speed of 100 ms if air resistance is neglected what is the velocity of the payload relative to the plane 40 s after it is released",
+            "content": "if air resistance is neglected what is the velocity of the payload relative to the plane 40 s after it is released ⑴ answer b ⑵ horizontal",
+            "url": "https://nate9389.tistory.com/2281",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "an airplane drops a payload while traveling due north parallel to the ground at a constant speed of 100 ms if air resistance is neglected what is the velocity of the payload relative to the plane 40 s after it is released",
+            "content": "if air resistance is neglected what it the velocity of the payload relative to the plane 40s after it is released a0 b40ms down c80ms",
+            "url": "https://www.slideshare.net/slideshow/class4-physics/120376945",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "two students perform an experiment in which they drop a ball from rest from a known height above the ground and measure the speed of the ball just before it strikes the ground from repeated measurement the students estimate the uncertainty in the measured speed of the ball to be 10 percent which of the following gives the uncertainty in the kinetic energy of the ball assume the uncertainty in the ball’s mass is negligibly small",
+            "content": "from repeated measurement the students estimate the uncertainty in the measured speed of the ball to be 10 percent which of the following",
+            "url": "https://nate9389.tistory.com/2279",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "two students perform an experiment in which they drop a ball from rest from a known height above the ground and measure the speed of the ball just before it strikes the ground from repeated measurement the students estimate the uncertainty in the measured speed of the ball to be 10 percent which of the following gives the uncertainty in the kinetic energy of the ball assume the uncertainty in the ball’s mass is negligibly small",
+            "content": "from repeated measurements the students estimate the uncertainty in the measured speed of the ball to be 10 percent which of the following",
+            "url": "https://www.reddit.com/r/PhysicsGRE/comments/1fr267p/uncertainty_in_pgre_practice_test/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "two students perform an experiment in which they drop a ball from rest from a known height above the ground and measure the speed of the ball just before it strikes the ground from repeated measurement the students estimate the uncertainty in the measured speed of the ball to be 10 percent which of the following gives the uncertainty in the kinetic energy of the ball assume the uncertainty in the ball’s mass is negligibly small",
+            "content": "from repeated measurements the students estimate the uncertainty in the measured speed of the ball to be 10 percent which of the following",
+            "url": "https://www.reddit.com/user/Substantial-Lie-8307/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "two students perform an experiment in which they drop a ball from rest from a known height above the ground and measure the speed of the ball just before it strikes the ground from repeated measurement the students estimate the uncertainty in the measured speed of the ball to be 10 percent which of the following gives the uncertainty in the kinetic energy of the ball assume the uncertainty in the ball’s mass is negligibly small",
+            "content": "from repeated measurement the students estimate the uncertainty in the measured speed of the ball to be 10 percent which of the following gives the",
+            "url": "https://media.physics.hmc.edu/media/docs/gre1777.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "two students perform an experiment in which they drop a ball from rest from a known height above the ground and measure the speed of the ball just before it strikes the ground from repeated measurement the students estimate the uncertainty in the measured speed of the ball to be 10 percent which of the following gives the uncertainty in the kinetic energy of the ball assume the uncertainty in the ball’s mass is negligibly small",
+            "content": "from repeated measurement the students estimate the uncertainty in the measured speed of the ball to be 10 percent which of the following",
+            "url": "https://nate9389.tistory.com/2372",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the quantum efficiency of a photon detector is 01 if 100 photons are sent into the detector one after the other the detector will detect photons",
+            "content": "41 the quantum efficiency of a photon detector is 01 if 100 photons are sent into the detector one after the other the detector will detect photons",
+            "url": "https://nate9389.tistory.com/2279",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the quantum efficiency of a photon detector is 01 if 100 photons are sent into the detector one after the other the detector will detect photons",
+            "content": "the quantum efficiency of a photon detector is 01 other the detector will detect photons if 100 photons are sent into the detector one after the a 10",
+            "url": "https://www.studypool.com/documents/10785394/practice-book-physics-31-45",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a particle is constrained to move in a circle with a 10meter radius at one instant the particle’s speed is 10 meters per second and is increasing at a rate of 10 meters per second squared the angle between the particle’s velocity and acceleration vectors is",
+            "content": "a particle constrained to move in a circle with 10meter radius at one instant the particles speed is 10 meters per second and is increasing at a rate of 10",
+            "url": "https://physics-problems-solutions.blogspot.com/2014/03/classical-mechanics-non-uniform.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "at 20°c a pipe open at both ends resonates at a frequency of 440 hertz at what frequency does the same pipe resonate on a particularly cold day when the speed of sound is 3 percent lower than it would be at 20°c",
+            "content": "at what frequency does the same pipe resonate on a particularly cold day when the speed of sound is 3 percents lower than it would be at 20oc a 414 hz b 427",
+            "url": "https://physics-problems-solutions.blogspot.com/2014/03/sound-and-wave-frequency.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "at 20°c a pipe open at both ends resonates at a frequency of 440 hertz at what frequency does the same pipe resonate on a particularly cold day when the speed of sound is 3 percent lower than it would be at 20°c",
+            "content": "at what frequency does the same pipe resonate on a cold day when the speed of sounds is 3 percent lower than it would be at 20°ccorrect answer is 4268 can",
+            "url": "https://edurev.in/question/1587189/At-20degC--a-pipe-open-at-both-ends-resonates-at-a",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "at 20°c a pipe open at both ends resonates at a frequency of 440 hertz at what frequency does the same pipe resonate on a particularly cold day when the speed of sound is 3 percent lower than it would be at 20°c",
+            "content": "at what frequency does the same pipe resonate on a particularly cold day when the speed of sound is 3 percent lower than it would be at 20",
+            "url": "https://www.jeefirst.com/a-collection-of-problems-on-standing-waves/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "at 20°c a pipe open at both ends resonates at a frequency of 440 hertz at what frequency does the same pipe resonate on a particularly cold day when the speed of sound is 3 percent lower than it would be at 20°c",
+            "content": "question 3 at 20circ rm c a pipe open at both ends resonates at a frequency of 440 hz at",
+            "url": "https://www.jeefirst.com/2022/04/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "at 20°c a pipe open at both ends resonates at a frequency of 440 hertz at what frequency does the same pipe resonate on a particularly cold day when the speed of sound is 3 percent lower than it would be at 20°c",
+            "content": "at what frequency does the same pipe resonate on a particularly cold day when the speed of sound is 3 percent lower than it would be at 20∞c a 414 hz b",
+            "url": "http://kestrel.nmt.edu/~mce/third_practicegre.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a tube of water is traveling at 12 c relative to the lab frame when a beam of light traveling in the same direction as the tube enters it what is the speed of light in the water relative to the lab frame the index of refraction of water is 43",
+            "content": "a tube of water is traveling at ½c relative to the lab frame when a beam of light traveling in the same direction as the tube enters it what is the speed of",
+            "url": "https://physics-problems-solutions.blogspot.com/2014/03/special-relativity-lorentz.html?m=1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a tube of water is traveling at 12 c relative to the lab frame when a beam of light traveling in the same direction as the tube enters it what is the speed of light in the water relative to the lab frame the index of refraction of water is 43",
+            "content": "therefore the speed of light in water relative to the lab frame is 1333 times the speed of light in vacuum final answer the speed of light in water relative",
+            "url": "https://edurev.in/question/1549470/A-tube-of-water-is-travelling-at-c2relative-to-the-lab-frame-when-a-beam-of-light-travelling-in-the-",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "positronium is an atom formed by an electron and a positron antielectron it is similar to the hydrogen atom with the positron replacing the proton if a positronium atom makes a transition from the state with n3 to a state with n1 the energy of the photon emitted in this transition is closest to",
+            "content": "positronium is an atom formed by an electron and a positron antielectron it is similar to the hydrogen atom with the positron replacing the proton",
+            "url": "https://physics-problems-solutions.blogspot.com/2014/03/nuclear-particle-physics-positronium.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the quantum efficiency of a photon detector is 01 if 100 photons are sent into the detector one after the other the detector will detect photons",
+            "content": "41 the quantum efficiency of a photon detector is 01 if 100 photons are sent into the detector one after the other the detector will detect photons",
+            "url": "https://nate9389.tistory.com/2279",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the quantum efficiency of a photon detector is 01 if 100 photons are sent into the detector one after the other the detector will detect photons",
+            "content": "the quantum efficiency of a photon detector is 01 other the detector will detect photons if 100 photons are sent into the detector one after the a 10",
+            "url": "https://www.studypool.com/documents/10785394/practice-book-physics-31-45",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "in the diamond structure of elemental carbon the nearest neighbors of each c atom lie at the corners of a",
+            "content": "in the diamond structure of elemental carbon the nearest neighbours of each c atom lie at the corners of a tetrahedron square hexagon cube",
+            "url": "https://studyx.ai/homework/102007777-in-the-diamond-structure-of-elemental-carbon-the-nearest-neighbours-of-each-c-atom-lie-at",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a threedimensional harmonic oscillator is in thermal equilibrium with a temperature reservoir at temperature t the average total energy of the oscillator is",
+            "content": "a threedimensional harmonic oscillator is in thermal equilibrium with a temperature reservoir at temperature t the average total energy of oscillator is",
+            "url": "https://physics-problems-solutions.blogspot.com/2014/03/thermal-physics-equipartition-law_27.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "a uniform solid disk starts from rest and rolls down an inclined plane without slipping after some time what fraction of the disk’s total kinetic energy is rotational kinetic energy",
+            "content": "after some time what fraction of the disks total kinetic energy is rotational kinetic energy ⑴ answer b ⑵ total kinetic energy",
+            "url": "https://nate9389.tistory.com/2373",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a student makes 10 onesecond measurements of the disintegration of a sample of a longlived radioactive isotope and obtains the following values 3 0 2 1 2 4 0 1 2 5 how long should the student count to establish the rate to an uncertainty of 1 percent",
+            "content": "a student makes 10 onesecond measurement of the disintegration of a sample of a long lived radioactive isotope and obtains a following values 3 0 2 1 2 4",
+            "url": "https://physics-problems-solutions.blogspot.com/2014/03/lab-methods-uncertainty.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a student makes 10 onesecond measurements of the disintegration of a sample of a longlived radioactive isotope and obtains the following values 3 0 2 1 2 4 0 1 2 5 how long should the student count to establish the rate to an uncertainty of 1 percent",
+            "content": "a student makes 10 onesecond measurements of the disintegration of a sample of longlived radioactive isotope and obtains the following values",
+            "url": "https://www.physicsforums.com/threads/uncertainty-in-measurement-gre-question.515713/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a student makes 10 onesecond measurements of the disintegration of a sample of a longlived radioactive isotope and obtains the following values 3 0 2 1 2 4 0 1 2 5 how long should the student count to establish the rate to an uncertainty of 1 percent",
+            "content": "3021240125 how long should the student count to establish the rate to an uncertainty of 1 percent the answer is 5000 s i",
+            "url": "https://www.physicsforums.com/threads/isotopes-uncertainty-in-measurement.49844/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "a student makes 10 onesecond measurements of the disintegration of a sample of a longlived radioactive isotope and obtains the following values 3 0 2 1 2 4 0 1 2 5 how long should the student count to establish the rate to an uncertainty of 1 percent",
+            "content": "a student makes 10 onesecond measurements of the disintegration of a sample of a long lived radioactive isotope and obtains the following values 3 0 2",
+            "url": "https://www.physicsbyfiziks.com/freedownload/previous_year_question_paper/gre/grepdf/1.GRE%20Sample%20Paper%201.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "a student makes 10 onesecond measurements of the disintegration of a sample of a longlived radioactive isotope and obtains the following values 3 0 2 1 2 4 0 1 2 5 how long should the student count to establish the rate to an uncertainty of 1 percent",
+            "content": "a student makes 10 onesecond measurements of the disintegration of a sample of a longlived radioactive isotope and obtains the following values 3 0 2",
+            "url": "http://kestrel.nmt.edu/~mce/third_practicegre.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a rod measures 100 m in its rest system how fast must an observer move parallel to the rod to measure its length to be 080 m",
+            "content": "how fast must an observer move parallel to the rod to measure its length to be 080 m ⑴ answer b ⑵ length contraction",
+            "url": "https://nate9389.tistory.com/2278",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "a rod measures 100 m in its rest system how fast must an observer move parallel to the rod to measure its length to be 080 m",
+            "content": "a rod measures 100 m in its rest system how fast must an observer move parallel to the rod to measure its length to be 080 m a 050c b 060c c",
+            "url": "https://media.physics.hmc.edu/media/docs/gre1777.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if the total energy of a particle of mass m is equal to twice its rest energy then the magnitude of the particle’s relativistic momentum is",
+            "content": "if the total energy of a particle of mass m is equal to twice its rest energy then the magnitude of the particles relativistic momentum is a mc2 b mc",
+            "url": "https://physics-problems-solutions.blogspot.com/2014/03/special-relativity-relativistic-momentum.html?m=1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "if the total energy of a particle of mass m is equal to twice its rest energy then the magnitude of the particle’s relativistic momentum is",
+            "content": "the total energy of a particle of mass m is equal to twice its rest energy then the magnitude of the particles relativistic mechanism is",
+            "url": "https://scoop.eduncle.com/t-the-total-energy-of-a-particle-of-mass-m-is-equal-to-twice-its-rest-energy-then-the-magnitude-of-the",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "by definition the electric displacement current through a surface s is proportional to the",
+            "content": "the electric displacement current through a surface area s is proportional to the amagnetic flux through s brate of change of magnetic flux through s c",
+            "url": "https://www.embibe.com/questions/The-electric-displacement-current-through-a-surface-area-S-is-proportional-to-the/EM8850584",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following statements about bosons andor fermions is true",
+            "content": "which of the following statements about bosons andor fermions is true a bosons have symmetric wave functions and obey the pauli exclusion principle b",
+            "url": "https://www.unishivaji.ac.in/uploads/admission/2024/November/PhD-entrance/14-nov/PD-36%20%2058795_Physics.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a satellite of mass m orbits a planet of mass m in a circular orbit of radius r the time required for one revolution is",
+            "content": "a satellite of mass m orbits a planet of mass m in a circular orbit of radius r the time required for one revolution is t 4π2r3 gm12 t ∝ r32",
+            "url": "https://physics-problems-solutions.blogspot.com/2014/03/classical-mechanics-uniform-circular.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "by definition the electric displacement current through a surface s is proportional to the",
+            "content": "the electric displacement current through a surface area s is proportional to the amagnetic flux through s brate of change of magnetic flux through s c",
+            "url": "https://www.embibe.com/questions/The-electric-displacement-current-through-a-surface-area-S-is-proportional-to-the/EM8850584",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the energy required to remove both electrons from the helium atom in its ground state is 790 ev how much energy is required to ionize helium ie to remove one electron",
+            "content": "the energy required to remove both electrons from he in its ground state leaving behind he ion 79 ev thus the energy required to remove one electron 79 −",
+            "url": "https://physics-problems-solutions.blogspot.com/2014/03/nuclear-particle-physics-helium_26.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the driver of a police car hears an echo of the car’s siren from a wall toward which the car is moving with a speed of 35 ms if the speed of sound is 350 ms and the frequency of the siren is 600 hz the driver hears the echo at a frequency nearest to which of the following",
+            "content": "if the speed of sound is 350 ms and the frequency of the siren is 600 hz the driver hears the echo at a frequency nearest to which of the following a 588",
+            "url": "https://www-vantage-prod-publish.ets.org/pdfs/gre/practice-book-physics.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the driver of a police car hears an echo of the car’s siren from a wall toward which the car is moving with a speed of 35 ms if the speed of sound is 350 ms and the frequency of the siren is 600 hz the driver hears the echo at a frequency nearest to which of the following",
+            "content": "if the speed of sound is 350 ms and the frequency of the siren is 600 hz the driver hears the echo at a frequency nearest to which of the",
+            "url": "https://nate9389.tistory.com/2372",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "the driver of a police car hears an echo of the car’s siren from a wall toward which the car is moving with a speed of 35 ms if the speed of sound is 350 ms and the frequency of the siren is 600 hz the driver hears the echo at a frequency nearest to which of the following",
+            "content": "if the speed of sound is 350 ms and the frequency of the siren is 600 hz the driver hears the echo at a frequency nearest to which of the following a 588",
+            "url": "https://www.ets.org/content/dam/ets-india/pdfs/gre/practice-book-physics.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "white light is normally incident on a puddle of water index of refraction 133 a thin 500 nm layer of oil index of refraction 15 floats on the surface of the puddle of the following the most strongly reflected wavelength is",
+            "content": "white light is normally incident on a puddle of water index of refraction 133 a thin 500 nm layer of oil index of refraction 15 floats",
+            "url": "https://nate9389.tistory.com/2281",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "an organ pipe closed at one end and open at the other is designed to have a fundamental frequency of c 131 hz what is the frequency of the next higher harmonic for this pipe",
+            "content": "have a fundamental frequency of c 131 hz what is the frequency of the next higher harmonic for this pipe correct answer is 393 can you explain this",
+            "url": "https://edurev.in/question/1587186/An-organ-pipe--closed-at-one-and-open-at-the-other--is-designed-to-have-a-fundamental-frequency-of-c",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "under ideal conditions the electric and magnetic fields inside a superconductor are zero maxwell’s equations imply that which of the following must be true just outside the surface of the superconductor",
+            "content": "77 under ideal conditions the electric and magnetic fields inside a superconductor are zero maxwells equations imply that which of the",
+            "url": "https://nate9389.tistory.com/2280",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the mean kinetic energy of the conduction electrons in metals is ordinarily much higher than kt because",
+            "content": "the mean kinetic energy of the conduction electrons in metals is ordinarily much higher than kt because 1 electrons have many nore degrees",
+            "url": "https://scoop.eduncle.com/the-mean-kinetic-energy-of-the-conduction-electrons-in-metals-is-ordinarily-much-higher-than-kt-because",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the mean kinetic energy of the conduction electrons in metals is ordinarily much higher than kt because",
+            "content": "the mean kinetic energy of the conduction electrons in metals is ordinarily much higher than kt because a electrons have more degrees of",
+            "url": "http://wonka.physics.ncsu.edu/~blondin/py203/finalb.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the mean kinetic energy of the conduction electrons in metals is ordinarily much higher than kt because",
+            "content": "the mean kinetic energy of the conduction electrons in metals is ordinarily much higher than kt because a electrons have many more degrees of freedom than",
+            "url": "https://www.asc.ohio-state.edu/mathur.16/GREstatmech.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the mean kinetic energy of the conduction electrons in metals is ordinarily much higher than kt because",
+            "content": "the mean kinetic energy of the conduction electrons in metals is ordinarily much higher than kt because a electrons have many more degrees of freedom than",
+            "url": "https://www.physicsbyfiziks.com/freedownload/previous_year_question_paper/gre/grepdf/1.GRE%20Sample%20Paper%201.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a 3microfarad capacitor is connected in series with a 6microfarad capacitor when a 300volt potential difference is applied across this combination the total energy stored in the two capacitors is",
+            "content": "when a 300volt potential difference is applied across this combination the total energy stored in the two capacitor is a 009 j b 018 j c 027 j d",
+            "url": "https://physics-problems-solutions.blogspot.com/2014/03/electromagnetism-capacitor.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the negative muon mu has properties most similar to which of the following",
+            "content": "the negative muon mu has properties most similar to which of the following which of the a electron b meson c photon d boson",
+            "url": "https://acalytica.com/qna/42129/negative-properties-similar-following-following-explain",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "at the present time the temperature of the universe ie the microwave radiation background is about 3 k when the temperature was 12 k typical objects in the universe such as galaxies were",
+            "content": "at the present time the temperature of the universe ie the microwave radiation background is about 3k when the temperature was 12k typical objects",
+            "url": "https://nta.ac.in/Download/ExamPaper/Paper_20200701111547.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the surface of the sun has a temperature close to 6000 k and it emits a blackbody planck spectrum that reaches a maximum near 500 nm for a body with a surface temperature close to 300 k at what wavelength would the thermal spectrum reach a maximum",
+            "content": "the surface of the sun has a temperature close to 6000 k and it emits a blackbody planck spectrum that reaches a maximum near 500 nm for a body with a",
+            "url": "https://www.topperlearning.com/doubts-solutions/the-surface-of-the-sun-has-a-temperature-close-to-6-000-k-and-it-emits-a-blackbody-planck-spectrum-that-reaches-a-maximum-near-500-nm-for-a-body-with--7241",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the first five harmonics produced by an organ pipe open at both ends are 50 hz 100 hz 150 hz 200 hz and 250 hz which of the harmonics if any will survive once the pipe is closed at one end",
+            "content": "the first five harmonics produced by an organ pipe open at both ends are 50 hz 100 hz 150 hz 200 hz and 250 hz which of the",
+            "url": "https://www.qna.acalytica.com/42142/first-harmonics-produced-mathrm-mathrm-mathrm-mathrm-mathrm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the first five harmonics produced by an organ pipe open at both ends are 50 hz 100 hz 150 hz 200 hz and 250 hz which of the harmonics if any will survive once the pipe is closed at one end",
+            "content": "the first five harmonics produced by an organ pipe open at both ends are 50 hz 100 hz 150 hz 200 hz and 250 hz which of the harmonics",
+            "url": "https://nate9389.tistory.com/2372",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "under certain conditions a beam of electrons impinging on a crystal surface will diffract and a scattering pattern of the beam can be obtained what is the approximate kinetic energy of the electrons needed in order to see the pattern assume the lattice spacing of the crystal to be 04 nm",
+            "content": "what is the approximate kinetic energy of the electrons needed in order to the see the pattern assume the lattice spacing of the crystal to be",
+            "url": "https://www.physicsforums.com/threads/electrons-impinging-on-a-crystal.991183/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "under certain conditions a beam of electrons impinging on a crystal surface will diffract and a scattering pattern of the beam can be obtained what is the approximate kinetic energy of the electrons needed in order to see the pattern assume the lattice spacing of the crystal to be 04 nm",
+            "content": "answer the approximate kinetic energy of the electrons needed in order to see the pattern from the crystal is 23 ⋅ 1 0 − 18 j 23cdot 1018",
+            "url": "https://assignmentexpert.com/homework-answers/physics/atomic-and-nuclear-physics/question-109176",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "under certain conditions a beam of electrons impinging on a crystal surface will diffract and a scattering pattern of the beam can be obtained what is the approximate kinetic energy of the electrons needed in order to see the pattern assume the lattice spacing of the crystal to be 04 nm",
+            "content": "what is the approximate kinetic energy of the electrons needed in order to see the pattern assume the lattice spacing of the crystal tobe 04 nm question",
+            "url": "https://nta.ac.in/Download/ExamPaper/Paper_20200701111407.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "under certain conditions a beam of electrons impinging on a crystal surface will diffract and a scattering pattern of the beam can be obtained what is the approximate kinetic energy of the electrons needed in order to see the pattern assume the lattice spacing of the crystal to be 04 nm",
+            "content": "what is the approximate kinetic energy of the electrons needed in order to see the pattern assume the lattice spacing of the crystal to be 04",
+            "url": "https://nate9389.tistory.com/2280",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the coefficient of static friction between a small coin and the surface of a turntable is 030 the turntable rotates at 333 revolutions per minute what is the maximum distance from the center of the turntable at which the coin will not slide",
+            "content": "the turntable rotates at 333 revolutions per minute what is the maximum distance from the center of the turntable at which the coin will not slide a 0024 m",
+            "url": "https://physics-problems-solutions.blogspot.com/2014/03/classical-mechanics-circular-motion.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "a uniform solid disk starts from rest and rolls down an inclined plane without slipping after some time what fraction of the disk’s total kinetic energy is rotational kinetic energy",
+            "content": "after some time what fraction of the disks total kinetic energy is rotational kinetic energy ⑴ answer b ⑵ total kinetic energy",
+            "url": "https://nate9389.tistory.com/2373",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a rod measures 100 m in its rest system how fast must an observer move parallel to the rod to measure its length to be 080 m",
+            "content": "how fast must an observer move parallel to the rod to measure its length to be 080 m ⑴ answer b ⑵ length contraction",
+            "url": "https://nate9389.tistory.com/2278",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "a rod measures 100 m in its rest system how fast must an observer move parallel to the rod to measure its length to be 080 m",
+            "content": "a rod measures 100 m in its rest system how fast must an observer move parallel to the rod to measure its length to be 080 m a 050c b 060c c",
+            "url": "https://media.physics.hmc.edu/media/docs/gre1777.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a grating spectrometer can just barely resolve two wavelengths of 500 nm and 502 nm respectively which of the following gives the resolving power of the spectrometer",
+            "content": "which of the following gives the resolving power of the spectrometer ⑴ answer b ⑵ spectral resolution",
+            "url": "https://nate9389.tistory.com/2279",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "a grating spectrometer can just barely resolve two wavelengths of 500 nm and 502 nm respectively which of the following gives the resolving power of the spectrometer",
+            "content": "which of the following gives the resolving power of the spectrometer ⑴ answer b ⑵ 500 502",
+            "url": "https://nate9389.tistory.com/2373",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "a grating spectrometer can just barely resolve two wavelengths of 500 nm and 502 nm respectively which of the following gives the resolving power of the spectrometer",
+            "content": "which of the following gives the resolving power of the spectrometer a 2 b 250 c 5000 d 10000",
+            "url": "https://www.ets.org/content/dam/ets-india/pdfs/gre/practice-book-physics.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "a grating spectrometer can just barely resolve two wavelengths of 500 nm and 502 nm respectively which of the following gives the resolving power of the spectrometer",
+            "content": "which of the following gives the resolving power of the spectrometer a 2 b 250 c 5000 d 10000",
+            "url": "https://media.physics.hmc.edu/media/docs/gre1777.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "protons used in cancer therapy are typically accelerated to about 06c how much work must be done on a particle of mass m in order for it to reach this speed assuming it starts at rest",
+            "content": "65 protons used in cancer therapy are typically accelerated to about 06c how much work must be done on a particle of mass m in order for it",
+            "url": "https://nate9389.tistory.com/2373",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "a 10 kg box slides horizontally without friction at a speed of 1 ms at one point a constant force is applied to the box in the direction of its motion the box travels 5 m with the constant force applied the force is then removed leaving the box with a speed of 2 ms which of the following gives the magnitude of the applied force",
+            "content": "the box travels 5 m with the constant force applied the force is then removed leaving the box with a speed of 2 ms which of the following",
+            "url": "https://nate9389.tistory.com/2371",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a proton moves in the zdirection after being accelerated from rest through a potential difference v the proton then passes through a region with a uniform electric field e in the xdirection and a uniform magnetic field b in the ydirection but the proton’s trajectory is not affected if the experiment were repeated using a potential difference of 2v the proton would then be",
+            "content": "a proton moves in the z direction after being accelerated from rest through a potential difference v the proton then passes through a region with a uniform",
+            "url": "https://physics-problems-solutions.blogspot.com/2014/03/electromagnetism-lorentz-force.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a proton moves in the zdirection after being accelerated from rest through a potential difference v the proton then passes through a region with a uniform electric field e in the xdirection and a uniform magnetic field b in the ydirection but the proton’s trajectory is not affected if the experiment were repeated using a potential difference of 2v the proton would then be",
+            "content": "q a proton moves in the positive zdirection after being accelerated from rest through a potential difference v the proton then passes",
+            "url": "https://tardigrade.in/question/a-proton-moves-in-the-positive-z-direction-after-being-accelerated-p8qbgfac",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "under certain conditions a beam of electrons impinging on a crystal surface will diffract and a scattering pattern of the beam can be obtained what is the approximate kinetic energy of the electrons needed in order to see the pattern assume the lattice spacing of the crystal to be 04 nm",
+            "content": "what is the approximate kinetic energy of the electrons needed in order to the see the pattern assume the lattice spacing of the crystal to be",
+            "url": "https://www.physicsforums.com/threads/electrons-impinging-on-a-crystal.991183/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "under certain conditions a beam of electrons impinging on a crystal surface will diffract and a scattering pattern of the beam can be obtained what is the approximate kinetic energy of the electrons needed in order to see the pattern assume the lattice spacing of the crystal to be 04 nm",
+            "content": "answer the approximate kinetic energy of the electrons needed in order to see the pattern from the crystal is 23 ⋅ 1 0 − 18 j 23cdot 1018",
+            "url": "https://assignmentexpert.com/homework-answers/physics/atomic-and-nuclear-physics/question-109176",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "under certain conditions a beam of electrons impinging on a crystal surface will diffract and a scattering pattern of the beam can be obtained what is the approximate kinetic energy of the electrons needed in order to see the pattern assume the lattice spacing of the crystal to be 04 nm",
+            "content": "what is the approximate kinetic energy of the electrons needed in order to see the pattern assume the lattice spacing of the crystal tobe 04 nm question",
+            "url": "https://nta.ac.in/Download/ExamPaper/Paper_20200701111407.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "under certain conditions a beam of electrons impinging on a crystal surface will diffract and a scattering pattern of the beam can be obtained what is the approximate kinetic energy of the electrons needed in order to see the pattern assume the lattice spacing of the crystal to be 04 nm",
+            "content": "what is the approximate kinetic energy of the electrons needed in order to see the pattern assume the lattice spacing of the crystal to be 04",
+            "url": "https://nate9389.tistory.com/2280",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "an object is thrown horizontally from the open window of a building if the initial speed of the object is 20 ms and it hits the ground 20 s later from what height was it thrown neglect air resistance and assume the ground is level",
+            "content": "if the initial speed of the object is 20 ms and it hits the ground 20 s later from what height was it thrown neglect air resistance and",
+            "url": "https://www.askiitians.com/forums/Modern-Physics/an-object-is-thrown-horizontally-from-the-open-win_96277.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "an observer o at rest midway between two sources of light at x 0 and x 10 m observes the two sources to flash simultaneously according to a second observer o moving at a constant speed parallel to the xaxis one source of light flashes 13 ns before the other which of the following gives the speed of o relative to o",
+            "content": "an observer o at rest midway between 2 sources of light at x 0 and x 10m observes the 2 sources to flash simultaneously according to a second observer",
+            "url": "https://edurev.in/question/1549474/An-observerOat-rest-midway-between-2-sources-of-li",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the primary source of the sun’s energy is a series of thermonuclear reactions in which the energy produced is c2 times the mass difference between",
+            "content": "the primary source of the suns energy is a series of thermonuclear reactions in which the energy produces is c2 times the mass difference between a two",
+            "url": "https://physics-problems-solutions.blogspot.com/2014/03/nuclear-particle-physics-helium.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the primary source of the sun’s energy is a series of thermonuclear reactions in which the energy produced is c2 times the mass difference between",
+            "content": "the primary source of suns energy is a series of thermo nuclear reactions in which the energy produced is c2 times the mass difference between a 3 helium",
+            "url": "https://edurev.in/question/1642401/The-primary-source-of-sunrsquos-energy-is-a-series-of-thermo-nuclear-reactions-in-which-the-energy-p",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "a 10 kg box slides horizontally without friction at a speed of 1 ms at one point a constant force is applied to the box in the direction of its motion the box travels 5 m with the constant force applied the force is then removed leaving the box with a speed of 2 ms which of the following gives the magnitude of the applied force",
+            "content": "the box travels 5 m with the constant force applied the force is then removed leaving the box with a speed of 2 ms which of the following",
+            "url": "https://nate9389.tistory.com/2371",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in a nonrelativistic onedimensional collision a particle of mass 2m collides with a particle of mass m at rest if the particles stick together after the collision what fraction of the initial kinetic energy is lost in the collision",
+            "content": "if the particles stick together after the collision what fraction of the initial kinetic energy is lost in the collision a 0 b 14 c 13 d 12 e 2",
+            "url": "https://physics-problems-solutions.blogspot.com/2014/03/classical-mechanics-conservation-of_27.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in a nonrelativistic onedimensional collision a particle of mass 2m collides with a particle of mass m at rest if the particles stick together after the collision what fraction of the initial kinetic energy is lost in the collision",
+            "content": "if the particles stick together after the collision what fraction of the initial kinetic energy is lost in the collision a 14 loader no",
+            "url": "https://byjus.com/question-answer/in-a-one-dimensional-collision-a-particle-of-mass-2m-collides-with-a-particle-of/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "in a nonrelativistic onedimensional collision a particle of mass 2m collides with a particle of mass m at rest if the particles stick together after the collision what fraction of the initial kinetic energy is lost in the collision",
+            "content": "if the particles stick together after the collision what fraction of the initial kinetic energy is lost in the collision a 0 b 13 c 1",
+            "url": "https://www.sarthaks.com/565033/in-a-one-dimensional-collision-particle-of-mass-2m-collides-with-a-particle-of-mass-at-rest",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "in a nonrelativistic onedimensional collision a particle of mass 2m collides with a particle of mass m at rest if the particles stick together after the collision what fraction of the initial kinetic energy is lost in the collision",
+            "content": "if the particles stick together after the collision what fraction of the initial kinetic energy is lost in the collision a 0 b 4 1 c 3 1 d 2",
+            "url": "https://www.physicsbyfiziks.com/freedownload/previous_year_question_paper/gre/grepdf/1.GRE%20Sample%20Paper%201.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the eigenvalues of a hermitian operator are always",
+            "content": "theorem let h be a hilbert space let a∈bh be a hermitian operator then all eigenvalues of a are real",
+            "url": "https://proofwiki.org/wiki/Eigenvalues_of_Hermitian_Operator_are_Real",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "white light is normally incident on a puddle of water index of refraction 133 a thin 500 nm layer of oil index of refraction 15 floats on the surface of the puddle of the following the most strongly reflected wavelength is",
+            "content": "white light is normally incident on a puddle of water index of refraction 133 a thin 500 nm layer of oil index of refraction 15 floats",
+            "url": "https://nate9389.tistory.com/2281",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "one end of a horizontal massless spring is attached to a wall a mass of 030 kg is attached to the other end of the spring and rests on a table the mass is displaced 0030 m from its equilibrium position and released it has a speed of 0040 ms as it passes through its equilibrium position in the absence of friction what is the total mechanical energy of the system",
+            "content": "a mass of 030 kg is attached to the other end of the spring and rests on a table the mass is displaced 0030 m from its equilibrium position",
+            "url": "https://nate9389.tistory.com/2281",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if the absolute temperature of a blackbody is increased by a factor of 3 the energy radiated per second per unit area does which of the following",
+            "content": "if the absolute temperature of a blackbody is increased by a factor 3 the energy radiated by it per unit time per unit area will increase by a",
+            "url": "https://www.sarthaks.com/2364312/if-the-absolute-temperature-blackbody-increased-factor-the-energy-radiated-by-it-per-unit",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "if the absolute temperature of a blackbody is increased by a factor of 3 the energy radiated per second per unit area does which of the following",
+            "content": "if the absolute temperature of a blackbody is increased by a factor of 3 the energy radiated per second per unit area does which of the following",
+            "url": "https://physics-problems-solutions.blogspot.com/2014/03/thermal-physics-blackbody-radiation_24.html?m=1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a magnetic field is directed perpendicular to the plane of a circular coil of area 02 m2 and 250 turns if the magnetic field is increased from 001 t to 006 t during a time interval of 025 s the average induced emf in the coil is",
+            "content": "a circular coil of area 0 2 m 2 250 turns and resistance 5 ω is placed in a magnetic field the magnetic field is directed perpendicular to the plane",
+            "url": "https://www.embibe.com/questions/A-circular-coil-of-area-0.2%C2%A0m2%2C%C2%A0250-turns-and-resistance%2C-5%C2%A0%CE%A9-is-placed-in-a-magnetic-field.-The-magnetic-field-is-directed-perpendicular-to-the-plane-of-coil%2C-and-it-is-increased-from-0.01%C2%A0T-to-0.06%C2%A0T-during-a-time-interval-of-0.25%C2%A0s%2C-the-average-induced-current-in-the-coil-is%2C-/EM8855951",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a magnetic field is directed perpendicular to the plane of a circular coil of area 02 m2 and 250 turns if the magnetic field is increased from 001 t to 006 t during a time interval of 025 s the average induced emf in the coil is",
+            "content": "a circular coil of area 0 2 m 2 250 turns and resistance 5 ω is placed in a magnetic field the magnetic field is directed perpendicular to the plane",
+            "url": "https://www.embibe.com/questions/A-circular-coil-of-area-0.2%C2%A0m2%2C%C2%A0250-turns-and-resistance%2C-5%C2%A0%CE%A9-is-placed-in-a-magnetic-field.-The-magnetic-field-is-directed-perpendicular-to-the-plane-of-coil%2C-and-it-is-increased-from-0.01%C2%A0T-to-0.06%C2%A0T-during-a-time-interval-of-0.25%C2%A0s%2C-the-average-induced-current-in-the-coil-is%2C-/EM8855951",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the driver of a police car hears an echo of the car’s siren from a wall toward which the car is moving with a speed of 35 ms if the speed of sound is 350 ms and the frequency of the siren is 600 hz the driver hears the echo at a frequency nearest to which of the following",
+            "content": "if the speed of sound is 350 ms and the frequency of the siren is 600 hz the driver hears the echo at a frequency nearest to which of the following a 588",
+            "url": "https://www-vantage-prod-publish.ets.org/pdfs/gre/practice-book-physics.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the driver of a police car hears an echo of the car’s siren from a wall toward which the car is moving with a speed of 35 ms if the speed of sound is 350 ms and the frequency of the siren is 600 hz the driver hears the echo at a frequency nearest to which of the following",
+            "content": "if the speed of sound is 350 ms and the frequency of the siren is 600 hz the driver hears the echo at a frequency nearest to which of the",
+            "url": "https://nate9389.tistory.com/2372",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "the driver of a police car hears an echo of the car’s siren from a wall toward which the car is moving with a speed of 35 ms if the speed of sound is 350 ms and the frequency of the siren is 600 hz the driver hears the echo at a frequency nearest to which of the following",
+            "content": "if the speed of sound is 350 ms and the frequency of the siren is 600 hz the driver hears the echo at a frequency nearest to which of the following a 588",
+            "url": "https://www.ets.org/content/dam/ets-india/pdfs/gre/practice-book-physics.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "two simple pendulums a and b consist of identical masses suspended from strings of length la and lb respectively the two pendulums oscillate in equal gravitational fields if the period of pendulum b is twice the period of pendulum a which of the following is true of the lengths of the two pendulums",
+            "content": "the two pendulums oscillate in equal gravitational fields if the period of pendulum b is twice the period of pendulum a which of the following is true of the",
+            "url": "https://www-vantage-prod-publish.ets.org/pdfs/gre/practice-book-physics.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "two simple pendulums a and b consist of identical masses suspended from strings of length la and lb respectively the two pendulums oscillate in equal gravitational fields if the period of pendulum b is twice the period of pendulum a which of the following is true of the lengths of the two pendulums",
+            "content": "the two pendulums oscillate in equal gravitational fields if the period of pendulum b is twice the period of pendulum a which of the following is true of the",
+            "url": "https://media.physics.hmc.edu/media/docs/gre1777.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "two simple pendulums a and b consist of identical masses suspended from strings of length la and lb respectively the two pendulums oscillate in equal gravitational fields if the period of pendulum b is twice the period of pendulum a which of the following is true of the lengths of the two pendulums",
+            "content": "the two pendulums oscillate in equal gravitational fields if the period of pendulum b is twice the period of pendulum a which of the following is true of the",
+            "url": "https://www.ets.org/content/dam/ets-india/pdfs/gre/practice-book-physics.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a nonrelativistic particle with a charge twice that of an electron moves through a uniform magnetic field the field has a strength of π4 tesla and is perpendicular to the velocity of the particle what is the particle’s mass if it has a cyclotron frequency of 1600 hertz",
+            "content": "a nonrelativistic particle with a charge twice that of an electron moves through a uniform magnetic field the field has a strength of π4 tesla",
+            "url": "https://physics-problems-solutions.blogspot.com/2014/03/electromagnetism-cyclotron.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a nonrelativistic particle with a charge twice that of an electron moves through a uniform magnetic field the field has a strength of π4 tesla and is perpendicular to the velocity of the particle what is the particle’s mass if it has a cyclotron frequency of 1600 hertz",
+            "content": "a nonrelativistic particle with a charge twice that of an electron moves through a uniform magnetic field the field has a strength of 4 p tesla and is",
+            "url": "http://kestrel.nmt.edu/~mce/third_practicegre.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "a nonrelativistic particle with a charge twice that of an electron moves through a uniform magnetic field the field has a strength of π4 tesla and is perpendicular to the velocity of the particle what is the particle’s mass if it has a cyclotron frequency of 1600 hertz",
+            "content": "a nonrelativistic particle with a charge twice that of an electron moves through a uniform magnetic field the field has a strength of 4 π tesla and is",
+            "url": "https://www.physicsbyfiziks.com/freedownload/previous_year_question_paper/gre/grepdf/1.GRE%20Sample%20Paper%201.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "protons used in cancer therapy are typically accelerated to about 06c how much work must be done on a particle of mass m in order for it to reach this speed assuming it starts at rest",
+            "content": "65 protons used in cancer therapy are typically accelerated to about 06c how much work must be done on a particle of mass m in order for it",
+            "url": "https://nate9389.tistory.com/2373",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "an airplane drops a payload while traveling due north parallel to the ground at a constant speed of 100 ms if air resistance is neglected what is the velocity of the payload relative to the plane 40 s after it is released",
+            "content": "if air resistance is neglected what is the velocity of the payload relative to the plane 40 s after it is released ⑴ answer b ⑵ horizontal",
+            "url": "https://nate9389.tistory.com/2281",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "an airplane drops a payload while traveling due north parallel to the ground at a constant speed of 100 ms if air resistance is neglected what is the velocity of the payload relative to the plane 40 s after it is released",
+            "content": "if air resistance is neglected what it the velocity of the payload relative to the plane 40s after it is released a0 b40ms down c80ms",
+            "url": "https://www.slideshare.net/slideshow/class4-physics/120376945",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "two students perform an experiment in which they drop a ball from rest from a known height above the ground and measure the speed of the ball just before it strikes the ground from repeated measurement the students estimate the uncertainty in the measured speed of the ball to be 10 percent which of the following gives the uncertainty in the kinetic energy of the ball assume the uncertainty in the ball’s mass is negligibly small",
+            "content": "from repeated measurement the students estimate the uncertainty in the measured speed of the ball to be 10 percent which of the following",
+            "url": "https://nate9389.tistory.com/2279",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "two students perform an experiment in which they drop a ball from rest from a known height above the ground and measure the speed of the ball just before it strikes the ground from repeated measurement the students estimate the uncertainty in the measured speed of the ball to be 10 percent which of the following gives the uncertainty in the kinetic energy of the ball assume the uncertainty in the ball’s mass is negligibly small",
+            "content": "from repeated measurements the students estimate the uncertainty in the measured speed of the ball to be 10 percent which of the following",
+            "url": "https://www.reddit.com/r/PhysicsGRE/comments/1fr267p/uncertainty_in_pgre_practice_test/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "two students perform an experiment in which they drop a ball from rest from a known height above the ground and measure the speed of the ball just before it strikes the ground from repeated measurement the students estimate the uncertainty in the measured speed of the ball to be 10 percent which of the following gives the uncertainty in the kinetic energy of the ball assume the uncertainty in the ball’s mass is negligibly small",
+            "content": "from repeated measurements the students estimate the uncertainty in the measured speed of the ball to be 10 percent which of the following",
+            "url": "https://www.reddit.com/user/Substantial-Lie-8307/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "two students perform an experiment in which they drop a ball from rest from a known height above the ground and measure the speed of the ball just before it strikes the ground from repeated measurement the students estimate the uncertainty in the measured speed of the ball to be 10 percent which of the following gives the uncertainty in the kinetic energy of the ball assume the uncertainty in the ball’s mass is negligibly small",
+            "content": "from repeated measurement the students estimate the uncertainty in the measured speed of the ball to be 10 percent which of the following gives the",
+            "url": "https://media.physics.hmc.edu/media/docs/gre1777.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "two students perform an experiment in which they drop a ball from rest from a known height above the ground and measure the speed of the ball just before it strikes the ground from repeated measurement the students estimate the uncertainty in the measured speed of the ball to be 10 percent which of the following gives the uncertainty in the kinetic energy of the ball assume the uncertainty in the ball’s mass is negligibly small",
+            "content": "from repeated measurement the students estimate the uncertainty in the measured speed of the ball to be 10 percent which of the following",
+            "url": "https://nate9389.tistory.com/2372",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "at 20°c a pipe open at both ends resonates at a frequency of 440 hertz at what frequency does the same pipe resonate on a particularly cold day when the speed of sound is 3 percent lower than it would be at 20°c",
+            "content": "at what frequency does the same pipe resonate on a particularly cold day when the speed of sound is 3 percents lower than it would be at 20oc a 414 hz b 427",
+            "url": "https://physics-problems-solutions.blogspot.com/2014/03/sound-and-wave-frequency.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "at 20°c a pipe open at both ends resonates at a frequency of 440 hertz at what frequency does the same pipe resonate on a particularly cold day when the speed of sound is 3 percent lower than it would be at 20°c",
+            "content": "at what frequency does the same pipe resonate on a cold day when the speed of sounds is 3 percent lower than it would be at 20°ccorrect answer is 4268 can",
+            "url": "https://edurev.in/question/1587189/At-20degC--a-pipe-open-at-both-ends-resonates-at-a",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "at 20°c a pipe open at both ends resonates at a frequency of 440 hertz at what frequency does the same pipe resonate on a particularly cold day when the speed of sound is 3 percent lower than it would be at 20°c",
+            "content": "at what frequency does the same pipe resonate on a particularly cold day when the speed of sound is 3 percent lower than it would be at 20",
+            "url": "https://www.jeefirst.com/a-collection-of-problems-on-standing-waves/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "at 20°c a pipe open at both ends resonates at a frequency of 440 hertz at what frequency does the same pipe resonate on a particularly cold day when the speed of sound is 3 percent lower than it would be at 20°c",
+            "content": "question 3 at 20circ rm c a pipe open at both ends resonates at a frequency of 440 hz at",
+            "url": "https://www.jeefirst.com/2022/04/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "at 20°c a pipe open at both ends resonates at a frequency of 440 hertz at what frequency does the same pipe resonate on a particularly cold day when the speed of sound is 3 percent lower than it would be at 20°c",
+            "content": "at what frequency does the same pipe resonate on a particularly cold day when the speed of sound is 3 percent lower than it would be at 20∞c a 414 hz b",
+            "url": "http://kestrel.nmt.edu/~mce/third_practicegre.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "a uniform solid disk starts from rest and rolls down an inclined plane without slipping after some time what fraction of the disk’s total kinetic energy is rotational kinetic energy",
+            "content": "after some time what fraction of the disks total kinetic energy is rotational kinetic energy ⑴ answer b ⑵ total kinetic energy",
+            "url": "https://nate9389.tistory.com/2373",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "a student makes 10 onesecond measurements of the disintegration of a sample of a longlived radioactive isotope and obtains the following values 3 0 2 1 2 4 0 1 2 5 how long should the student count to establish the rate to an uncertainty of 1 percent",
+            "content": "a student makes 10 onesecond measurement of the disintegration of a sample of a long lived radioactive isotope and obtains a following values 3 0 2 1 2 4",
+            "url": "https://physics-problems-solutions.blogspot.com/2014/03/lab-methods-uncertainty.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "a student makes 10 onesecond measurements of the disintegration of a sample of a longlived radioactive isotope and obtains the following values 3 0 2 1 2 4 0 1 2 5 how long should the student count to establish the rate to an uncertainty of 1 percent",
+            "content": "a student makes 10 onesecond measurements of the disintegration of a sample of longlived radioactive isotope and obtains the following values",
+            "url": "https://www.physicsforums.com/threads/uncertainty-in-measurement-gre-question.515713/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "a student makes 10 onesecond measurements of the disintegration of a sample of a longlived radioactive isotope and obtains the following values 3 0 2 1 2 4 0 1 2 5 how long should the student count to establish the rate to an uncertainty of 1 percent",
+            "content": "3021240125 how long should the student count to establish the rate to an uncertainty of 1 percent the answer is 5000 s i",
+            "url": "https://www.physicsforums.com/threads/isotopes-uncertainty-in-measurement.49844/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "a student makes 10 onesecond measurements of the disintegration of a sample of a longlived radioactive isotope and obtains the following values 3 0 2 1 2 4 0 1 2 5 how long should the student count to establish the rate to an uncertainty of 1 percent",
+            "content": "a student makes 10 onesecond measurements of the disintegration of a sample of a long lived radioactive isotope and obtains the following values 3 0 2",
+            "url": "https://www.physicsbyfiziks.com/freedownload/previous_year_question_paper/gre/grepdf/1.GRE%20Sample%20Paper%201.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "a student makes 10 onesecond measurements of the disintegration of a sample of a longlived radioactive isotope and obtains the following values 3 0 2 1 2 4 0 1 2 5 how long should the student count to establish the rate to an uncertainty of 1 percent",
+            "content": "a student makes 10 onesecond measurements of the disintegration of a sample of a longlived radioactive isotope and obtains the following values 3 0 2",
+            "url": "http://kestrel.nmt.edu/~mce/third_practicegre.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "a satellite of mass m orbits a planet of mass m in a circular orbit of radius r the time required for one revolution is",
+            "content": "a satellite of mass m orbits a planet of mass m in a circular orbit of radius r the time required for one revolution is t 4π2r3 gm12 t ∝ r32",
+            "url": "https://physics-problems-solutions.blogspot.com/2014/03/classical-mechanics-uniform-circular.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "the driver of a police car hears an echo of the car’s siren from a wall toward which the car is moving with a speed of 35 ms if the speed of sound is 350 ms and the frequency of the siren is 600 hz the driver hears the echo at a frequency nearest to which of the following",
+            "content": "if the speed of sound is 350 ms and the frequency of the siren is 600 hz the driver hears the echo at a frequency nearest to which of the following a 588",
+            "url": "https://www-vantage-prod-publish.ets.org/pdfs/gre/practice-book-physics.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "the driver of a police car hears an echo of the car’s siren from a wall toward which the car is moving with a speed of 35 ms if the speed of sound is 350 ms and the frequency of the siren is 600 hz the driver hears the echo at a frequency nearest to which of the following",
+            "content": "if the speed of sound is 350 ms and the frequency of the siren is 600 hz the driver hears the echo at a frequency nearest to which of the",
+            "url": "https://nate9389.tistory.com/2372",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "the driver of a police car hears an echo of the car’s siren from a wall toward which the car is moving with a speed of 35 ms if the speed of sound is 350 ms and the frequency of the siren is 600 hz the driver hears the echo at a frequency nearest to which of the following",
+            "content": "if the speed of sound is 350 ms and the frequency of the siren is 600 hz the driver hears the echo at a frequency nearest to which of the following a 588",
+            "url": "https://www.ets.org/content/dam/ets-india/pdfs/gre/practice-book-physics.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "under certain conditions a beam of electrons impinging on a crystal surface will diffract and a scattering pattern of the beam can be obtained what is the approximate kinetic energy of the electrons needed in order to see the pattern assume the lattice spacing of the crystal to be 04 nm",
+            "content": "what is the approximate kinetic energy of the electrons needed in order to the see the pattern assume the lattice spacing of the crystal to be",
+            "url": "https://www.physicsforums.com/threads/electrons-impinging-on-a-crystal.991183/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "under certain conditions a beam of electrons impinging on a crystal surface will diffract and a scattering pattern of the beam can be obtained what is the approximate kinetic energy of the electrons needed in order to see the pattern assume the lattice spacing of the crystal to be 04 nm",
+            "content": "answer the approximate kinetic energy of the electrons needed in order to see the pattern from the crystal is 23 ⋅ 1 0 − 18 j 23cdot 1018",
+            "url": "https://assignmentexpert.com/homework-answers/physics/atomic-and-nuclear-physics/question-109176",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "under certain conditions a beam of electrons impinging on a crystal surface will diffract and a scattering pattern of the beam can be obtained what is the approximate kinetic energy of the electrons needed in order to see the pattern assume the lattice spacing of the crystal to be 04 nm",
+            "content": "what is the approximate kinetic energy of the electrons needed in order to see the pattern assume the lattice spacing of the crystal tobe 04 nm question",
+            "url": "https://nta.ac.in/Download/ExamPaper/Paper_20200701111407.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "under certain conditions a beam of electrons impinging on a crystal surface will diffract and a scattering pattern of the beam can be obtained what is the approximate kinetic energy of the electrons needed in order to see the pattern assume the lattice spacing of the crystal to be 04 nm",
+            "content": "what is the approximate kinetic energy of the electrons needed in order to see the pattern assume the lattice spacing of the crystal to be 04",
+            "url": "https://nate9389.tistory.com/2280",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "a uniform solid disk starts from rest and rolls down an inclined plane without slipping after some time what fraction of the disk’s total kinetic energy is rotational kinetic energy",
+            "content": "after some time what fraction of the disks total kinetic energy is rotational kinetic energy ⑴ answer b ⑵ total kinetic energy",
+            "url": "https://nate9389.tistory.com/2373",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "a grating spectrometer can just barely resolve two wavelengths of 500 nm and 502 nm respectively which of the following gives the resolving power of the spectrometer",
+            "content": "which of the following gives the resolving power of the spectrometer ⑴ answer b ⑵ spectral resolution",
+            "url": "https://nate9389.tistory.com/2279",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "a grating spectrometer can just barely resolve two wavelengths of 500 nm and 502 nm respectively which of the following gives the resolving power of the spectrometer",
+            "content": "which of the following gives the resolving power of the spectrometer ⑴ answer b ⑵ 500 502",
+            "url": "https://nate9389.tistory.com/2373",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "a grating spectrometer can just barely resolve two wavelengths of 500 nm and 502 nm respectively which of the following gives the resolving power of the spectrometer",
+            "content": "which of the following gives the resolving power of the spectrometer a 2 b 250 c 5000 d 10000",
+            "url": "https://www.ets.org/content/dam/ets-india/pdfs/gre/practice-book-physics.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "a grating spectrometer can just barely resolve two wavelengths of 500 nm and 502 nm respectively which of the following gives the resolving power of the spectrometer",
+            "content": "which of the following gives the resolving power of the spectrometer a 2 b 250 c 5000 d 10000",
+            "url": "https://media.physics.hmc.edu/media/docs/gre1777.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "protons used in cancer therapy are typically accelerated to about 06c how much work must be done on a particle of mass m in order for it to reach this speed assuming it starts at rest",
+            "content": "65 protons used in cancer therapy are typically accelerated to about 06c how much work must be done on a particle of mass m in order for it",
+            "url": "https://nate9389.tistory.com/2373",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "a 10 kg box slides horizontally without friction at a speed of 1 ms at one point a constant force is applied to the box in the direction of its motion the box travels 5 m with the constant force applied the force is then removed leaving the box with a speed of 2 ms which of the following gives the magnitude of the applied force",
+            "content": "the box travels 5 m with the constant force applied the force is then removed leaving the box with a speed of 2 ms which of the following",
+            "url": "https://nate9389.tistory.com/2371",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "under certain conditions a beam of electrons impinging on a crystal surface will diffract and a scattering pattern of the beam can be obtained what is the approximate kinetic energy of the electrons needed in order to see the pattern assume the lattice spacing of the crystal to be 04 nm",
+            "content": "what is the approximate kinetic energy of the electrons needed in order to the see the pattern assume the lattice spacing of the crystal to be",
+            "url": "https://www.physicsforums.com/threads/electrons-impinging-on-a-crystal.991183/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "under certain conditions a beam of electrons impinging on a crystal surface will diffract and a scattering pattern of the beam can be obtained what is the approximate kinetic energy of the electrons needed in order to see the pattern assume the lattice spacing of the crystal to be 04 nm",
+            "content": "answer the approximate kinetic energy of the electrons needed in order to see the pattern from the crystal is 23 ⋅ 1 0 − 18 j 23cdot 1018",
+            "url": "https://assignmentexpert.com/homework-answers/physics/atomic-and-nuclear-physics/question-109176",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "under certain conditions a beam of electrons impinging on a crystal surface will diffract and a scattering pattern of the beam can be obtained what is the approximate kinetic energy of the electrons needed in order to see the pattern assume the lattice spacing of the crystal to be 04 nm",
+            "content": "what is the approximate kinetic energy of the electrons needed in order to see the pattern assume the lattice spacing of the crystal tobe 04 nm question",
+            "url": "https://nta.ac.in/Download/ExamPaper/Paper_20200701111407.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "under certain conditions a beam of electrons impinging on a crystal surface will diffract and a scattering pattern of the beam can be obtained what is the approximate kinetic energy of the electrons needed in order to see the pattern assume the lattice spacing of the crystal to be 04 nm",
+            "content": "what is the approximate kinetic energy of the electrons needed in order to see the pattern assume the lattice spacing of the crystal to be 04",
+            "url": "https://nate9389.tistory.com/2280",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "a 10 kg box slides horizontally without friction at a speed of 1 ms at one point a constant force is applied to the box in the direction of its motion the box travels 5 m with the constant force applied the force is then removed leaving the box with a speed of 2 ms which of the following gives the magnitude of the applied force",
+            "content": "the box travels 5 m with the constant force applied the force is then removed leaving the box with a speed of 2 ms which of the following",
+            "url": "https://nate9389.tistory.com/2371",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "if the absolute temperature of a blackbody is increased by a factor of 3 the energy radiated per second per unit area does which of the following",
+            "content": "if the absolute temperature of a blackbody is increased by a factor 3 the energy radiated by it per unit time per unit area will increase by a",
+            "url": "https://www.sarthaks.com/2364312/if-the-absolute-temperature-blackbody-increased-factor-the-energy-radiated-by-it-per-unit",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "if the absolute temperature of a blackbody is increased by a factor of 3 the energy radiated per second per unit area does which of the following",
+            "content": "if the absolute temperature of a blackbody is increased by a factor of 3 the energy radiated per second per unit area does which of the following",
+            "url": "https://physics-problems-solutions.blogspot.com/2014/03/thermal-physics-blackbody-radiation_24.html?m=1",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "the driver of a police car hears an echo of the car’s siren from a wall toward which the car is moving with a speed of 35 ms if the speed of sound is 350 ms and the frequency of the siren is 600 hz the driver hears the echo at a frequency nearest to which of the following",
+            "content": "if the speed of sound is 350 ms and the frequency of the siren is 600 hz the driver hears the echo at a frequency nearest to which of the following a 588",
+            "url": "https://www-vantage-prod-publish.ets.org/pdfs/gre/practice-book-physics.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "the driver of a police car hears an echo of the car’s siren from a wall toward which the car is moving with a speed of 35 ms if the speed of sound is 350 ms and the frequency of the siren is 600 hz the driver hears the echo at a frequency nearest to which of the following",
+            "content": "if the speed of sound is 350 ms and the frequency of the siren is 600 hz the driver hears the echo at a frequency nearest to which of the",
+            "url": "https://nate9389.tistory.com/2372",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "the driver of a police car hears an echo of the car’s siren from a wall toward which the car is moving with a speed of 35 ms if the speed of sound is 350 ms and the frequency of the siren is 600 hz the driver hears the echo at a frequency nearest to which of the following",
+            "content": "if the speed of sound is 350 ms and the frequency of the siren is 600 hz the driver hears the echo at a frequency nearest to which of the following a 588",
+            "url": "https://www.ets.org/content/dam/ets-india/pdfs/gre/practice-book-physics.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "a student makes 10 onesecond measurements of the disintegration of a sample of a longlived radioactive isotope and obtains the following values 3 0 2 1 2 4 0 1 2 5 how long should the student count to establish the rate to an uncertainty of 1 percent",
+            "content": "hi can someone help with a problem on the gre a student makes 10 onesecond measurements of the disintegration of a sample of a longlived radioactive isotope and obtains the following values 3021240125 how long should the student count to establish the rate to an",
+            "url": "https://www.physicsforums.com/threads/isotopes-uncertainty-in-measurement.49844/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "a satellite of mass m orbits a planet of mass m in a circular orbit of radius r the time required for one revolution is",
+            "content": "a satellite of mass m revolving in a circular orbit of radius r around the earth of mass m has magnitude of total energy e then its angular momentum will be",
+            "url": "https://byjus.com/question-answer/a-satellite-of-mass-m-revolving-in-a-circular-orbit-of-radius-r-around-the/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "a satellite of mass m orbits a planet of mass m in a circular orbit of radius r the time required for one revolution is",
+            "content": "two satellite of mass m and 9m are orbiting a planet in orbits of radius r their periods of revolution will be in the ratio of two satellites of masses m and 4m are orbiting the earth in a circular orbit of radius r",
+            "url": "https://www.doubtnut.com/qna/608069174",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "a satellite of mass m orbits a planet of mass m in a circular orbit of radius r the time required for one revolution is",
+            "content": "a satellite of mass m orbits a planet of mass m in a circular orbit of radius r what is the work that must be done on the satellite to increase its orbital",
+            "url": "https://www.youtube.com/watch?v=xbqgQG3mvsQ",
+            "engine": "braveAPI"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 6,
+            "query": "a gas cell with an optical path length of 10 cm is placed in one arm of a michelson interferometer if the light source for the interferometer is a laser with wavelength 6322 nm then 100 fringes are counted as the gas cell is evacuated what is the index of refraction of the original gas",
+            "content": "after inserting the gas cell the number of wavelengths becomes n 2l2dlambda2dnlambda now subtract these two numbers to get nn",
+            "url": "http://grephysics.net/ans/9277/96",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "if the sun were suddenly replaced by a black hole of the same mass it would have a schwarzschild radius of 3000 m what effect if any would this change have on the orbits of the planets",
+            "content": "it would be exactly the same atleast in newtionian picture no gravitational fields outside planets radius would change",
+            "url": "https://physics.stackexchange.com/questions/7732/if-the-sun-were-to-suddenly-become-a-black-hole-of-the-same-mass-what-would-the",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a heat pump is to extract heat from an outdoor environment at 7°c and heat the environment indoors to 27°c for each 15000 j of heat delivered indoors the smallest amount of work that must be supplied to the heat pump is approximately",
+            "content": "the minimum amount of work is the difference between the heat delivered and the heat extracted since the heat delivered is 15000",
+            "url": "https://www.qna.acalytica.com/42146/extract-outdoor-environment-mathrm-environment-indoors-mathrm?show=42147",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "characteristic x rays appearing as sharp lines on a continuous background are produced when highenergy electrons bombard a metal target which of the following processes results in the characteristic x rays",
+            "content": "characteristic xrays are produced when an element is bombarded with highenergy particles which can be photons electrons or ions such as protons when",
+            "url": "https://en.wikipedia.org/wiki/Characteristic_X-ray",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "the quantum efficiency of a photon detector is 01 if 100 photons are sent into the detector one after the other the detector will detect photons",
+            "content": "if a detector has a quantum efficiency of 60 and 100 photons are impinging on its surface then the detector will count on average 60 electrons",
+            "url": "https://ibsen.com/resources/detector-resources/calculating-quantum-efficiency/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a particle is constrained to move in a circle with a 10meter radius at one instant the particle’s speed is 10 meters per second and is increasing at a rate of 10 meters per second squared the angle between the particle’s velocity and acceleration vectors is",
+            "content": "we thus have avcosθαrv we know →α×→r10ms2 v10ms and r10m for this combination of values→a10√2 and →α1",
+            "url": "https://physics.stackexchange.com/questions/64079/angle-between-acceleration-and-velocity",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "de broglie hypothesized that the linear momentum and wavelength of a free massive particle are related by which of the following constants",
+            "content": "de broglie suggested that the momentum p of a particle and its associated wavelength λ are related by the equation lambda space equals",
+            "url": "https://www.savemyexams.com/dp/physics/ib/23/hl/revision-notes/nuclear-and-quantum-physics/quantum-physics/the-de-broglie-wavelength/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "two spaceships approach earth with equal speeds as measured by an observer on earth but from opposite directions a meterstick on one spaceship is measured to be 60 cm long by an occupant of the other spaceship what is the speed of each spaceship as measured by the observer on earth",
+            "content": "correct answer is 05 can you explain this answer solutions for two space ships approach earth with equal speeds as measured by an observer on earth but",
+            "url": "https://edurev.in/question/1549471/Two-space-ships-approach-Earth-with-equal-speeds-a",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "a tube of water is traveling at 12 c relative to the lab frame when a beam of light traveling in the same direction as the tube enters it what is the speed of light in the water relative to the lab frame the index of refraction of water is 43",
+            "content": "since the speed of light is the same in both frames it follows that the ∆t is larger than ∆t0 the moving clock runs slow",
+            "url": "https://phas.ubc.ca/~mcmillan/rqpdfs/1_relativity.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "positronium is an atom formed by an electron and a positron antielectron it is similar to the hydrogen atom with the positron replacing the proton if a positronium atom makes a transition from the state with n3 to a state with n1 the energy of the photon emitted in this transition is closest to",
+            "content": "like the hydrogen atom positronium can undergo transitions between different energy levels resulting in the emission or absorption of photons transition from",
+            "url": "https://edurev.in/question/1833933/Positronium-is-an-atom-formed-by-an-electron-and-a-positron--anti-electron---it-is-similar-to-the-hy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "an atom has filled n 1 and n 2 levels how many electrons does the atom have",
+            "content": "number of electrons innthorbit is given by 2n2∴total electrons is 212 222 2 8 10the correct answer is 10",
+            "url": "https://edurev.in/question/1695448/An-atom-hasn-1andn-2levels-filled--How-many-electrons-does-the-atom-have-a-2b-10c-8d-6Correct-answer",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "the quantum efficiency of a photon detector is 01 if 100 photons are sent into the detector one after the other the detector will detect photons",
+            "content": "if a detector has a quantum efficiency of 60 and 100 photons are impinging on its surface then the detector will count on average 60 electrons",
+            "url": "https://ibsen.com/resources/detector-resources/calculating-quantum-efficiency/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "according to the bcs theory the attraction between cooper pairs in a superconductor is due to",
+            "content": "the electrons are bound into cooper pairs and these pairs are correlated due to the pauli exclusion principle for the electrons from which they are",
+            "url": "https://en.wikipedia.org/wiki/BCS_theory",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "unpolarized light is incident on a pair of ideal linear polarizers whose transmission axes make an angle of 45q with each other the transmitted light intensity through both polarizers is what percentage of the incident intensity",
+            "content": "where i0 is the intensity after the first polarizer and α is the angle between the transmission axes of both polarizers see figure 12",
+            "url": "https://www.tuhh.de/ti3/paper/jansson/QITLecturenNotes.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "in the diamond structure of elemental carbon the nearest neighbors of each c atom lie at the corners of a",
+            "content": "the nearest neighbor of an as atom is a ga atom and vice versa consider fig 14c in pierret sdf this is the sub‐cube top cornershown in the dotted 6 stron",
+            "url": "https://nanohub.org/groups/ece305lundstrom/File:Week1HW_S15_Solutionsb.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "electromagnetic radiation emitted from a nucleus is most likely to be in the form of",
+            "content": "alpha particles α are positively charged and made up of two protons and two neutrons from the atoms nucleus alpha particles come from the",
+            "url": "https://www.epa.gov/radiation/radiation-basics",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a threedimensional harmonic oscillator is in thermal equilibrium with a temperature reservoir at temperature t the average total energy of the oscillator is",
+            "content": "the average total energy of the oscillator is abktc3ktdcorrect answer is option a can you explain this answer solutions for a three dimensional",
+            "url": "https://edurev.in/question/1652993/A-three-dimensional-harmonic-oscillator-is-in-thermal-equilibrium-with-a-temperature-reservoir-at-te",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a singleelectron atom has the electron in the l 2 state the number of allowed values of the quantum number ml is",
+            "content": "thus since i 2 the magnetic quantum number can take on the values of − 2 − 1 0 1 2 for a total of 5 values",
+            "url": "https://acalytica.com/qna/42113/single-electron-electron-allowed-quantum-following-explain",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the best type of laser with which to do spectroscopy over a range of visible wavelengths is",
+            "content": "the most commonly used laser wavelength in raman spectroscopy is 785 nm which offers low fluorescence whilst retaining relatively high raman intensity",
+            "url": "https://www.edinst.com/resource/how-to-choose-your-lasers-for-raman-spectroscopy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "consider three identical ideal capacitors the first capacitor is charged to a voltage and then disconnected from the battery the other two capacitors initially uncharged and connected in series are then connected across the first capacitor what is the final voltage on the first capacitor",
+            "content": "the question you asked has a straightforward answer the potential difference across the two capacitors must be equal so the charges distribute in inverse",
+            "url": "https://physics.stackexchange.com/questions/318175/how-does-charge-redistribute-when-a-charged-capacitor-is-connected-to-an-uncharg",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the suspension cable of a 1000 kg elevator snaps sending the elevator moving downward through its shaft the emergency brakes of the elevator stop the elevator shortly before it reaches the bottom of the shaft if the elevator fell a distance of 100 m starting from rest the heat that the brakes must dissipate to bring the elevator safely to rest is",
+            "content": "answer option e 1000000 j explanation given mass of the suspension cable m 1000 kg distance h 100 m now from the work energy theorem",
+            "url": "https://indextestingapp.uonbi.ac.ke/preguntia/13160912",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sound waves moving at 350 ms diffract out of a speaker enclosure with an opening that is a long rectangular slit 014 m across at about what frequency will the sound first disappear at an angle of 45q from the normal to the speaker face",
+            "content": "at approximately 3535 hz the sound will first disappear at an angle of 45 degrees when passing through the rectangular slit",
+            "url": "https://edurev.in/question/1587187/Sound-wave-moving-at-350-ms-difference-out-of-a-speaker-enclosure-with-an-opening-that-is-a-long-rec",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the sign of the charge carriers in a doped semiconductor can be deduced by measuring which of the following properties",
+            "content": "the positive constants mc and mv are usually called the effective masses of respectively electrons and holes in a typical semiconductor",
+            "url": "https://phys.libretexts.org/Bookshelves/Thermodynamics_and_Statistical_Mechanics/Essential_Graduate_Physics_-_Statistical_Mechanics_(Likharev)/06%3A_Elements_of_Kinetics/6.04%3A_Charge_carriers_in_semiconductors_-_Statics_and_kinetics",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the energy from electromagnetic waves in equilibrium in a cavity is used to melt ice if the kelvin temperature of the cavity is increased by a factor of two the mass of ice that can be melted in a fixed amount of time is increased by a factor of",
+            "content": "since the energy required to melt a given mass of ice is directly proportional to the energy of the electromagnetic waves in the cavity and the energy",
+            "url": "https://edurev.in/question/1875377/The-energy-from-electromagnetic-waves-in-equilibrium-in-a-cavity-is-used-to-melt-ice--If-the-tempera",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "a rod measures 100 m in its rest system how fast must an observer move parallel to the rod to measure its length to be 080 m",
+            "content": "given here are solutions to 24 problems in special relativity the solutions were used as a learningtool for students in the introductory undergraduate",
+            "url": "https://phas.ubc.ca/~mcmillan/rqpdfs/1_relativity.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "light from a laser falls on a pair of very narrow slits separated by 05 micrometer and bright fringes separated by 10 millimeter are observed on a distant screen if the frequency of the laser light is doubled what will be the separation of the bright fringes",
+            "content": "if the frequency of the laser light is doubled what will be the separation of bright fringes a 025 mm b 05 mm c 10 mm d 20 mm e 25 mm",
+            "url": "https://physics-problems-solutions.blogspot.com/2014/03/optics-interference.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a singleelectron atom has the electron in the l 2 state the number of allowed values of the quantum number ml is",
+            "content": "thus since i 2 the magnetic quantum number can take on the values of − 2 − 1 0 1 2 for a total of 5 values",
+            "url": "https://acalytica.com/qna/42113/single-electron-electron-allowed-quantum-following-explain",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "if the total energy of a particle of mass m is equal to twice its rest energy then the magnitude of the particle’s relativistic momentum is",
+            "content": "the equation e2 pc2 mc22 relates the relativistic total energy e and the relativistic momentum p",
+            "url": "https://courses.lumenlearning.com/suny-physics/chapter/28-6-relativistic-energy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the rest mass of a particle with total energy 50 gev and momentum 49 gevc is approximately",
+            "content": "a particle leaving a cyclotron has a total relativistic energy of 10 gev and a relativistic momentum of 8 gevc what is the rest mass of this particle",
+            "url": "https://physics-problems-solutions.blogspot.com/2014/03/special-relativity-rest-mass.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the best type of laser with which to do spectroscopy over a range of visible wavelengths is",
+            "content": "the most commonly used laser wavelength in raman spectroscopy is 785 nm which offers low fluorescence whilst retaining relatively high raman intensity",
+            "url": "https://www.edinst.com/resource/how-to-choose-your-lasers-for-raman-spectroscopy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a photon strikes an electron of mass m that is initially at rest creating an electronpositron pair the photon is destroyed and the positron and two electrons move off at equal speeds along the initial direction of the photon the energy of the photon was",
+            "content": "after collision 3 particles 2 electrons and a positron move off at equal speed thus each has p3 momentum electron and positron has the same mass thus",
+            "url": "https://physics-problems-solutions.blogspot.com/2014/02/special-relativity-relativistic-energy.html?m=1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "assume that the solar flux at earth’s surface is 1000 wm2 and that the sunlight is normal to a completely reflecting surface with an area of 3 m2 what is the total radiation force exerted on the surface",
+            "content": "as mentioned the energy flux density is only 8001000 wm2 therefore it is necessary to concentrate light to obtain higher solar collecting temperatures the",
+            "url": "https://www.sciencedirect.com/topics/engineering/solar-concentration",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "by definition the electric displacement current through a surface s is proportional to the",
+            "content": "they relate the electric and magnetic fields to total charge and total current including the complicated charges and currents in materials at the atomic scale",
+            "url": "https://en.wikipedia.org/wiki/Maxwell%27s_equations",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following statements about bosons andor fermions is true",
+            "content": "two electrons can be in the same identical space wavefunction provided that their spins point in opposite ways",
+            "url": "https://phys.libretexts.org/Bookshelves/Quantum_Mechanics/Quantum_Mechanics_(Fowler)/05%3A_Interlude_-_The_Nature_of_Electrons/5.01%3A_Bosons_and_Fermions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the sign of the charge carriers in a doped semiconductor can be deduced by measuring which of the following properties",
+            "content": "the positive constants mc and mv are usually called the effective masses of respectively electrons and holes in a typical semiconductor",
+            "url": "https://phys.libretexts.org/Bookshelves/Thermodynamics_and_Statistical_Mechanics/Essential_Graduate_Physics_-_Statistical_Mechanics_(Likharev)/06%3A_Elements_of_Kinetics/6.04%3A_Charge_carriers_in_semiconductors_-_Statics_and_kinetics",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the suspension cable of a 1000 kg elevator snaps sending the elevator moving downward through its shaft the emergency brakes of the elevator stop the elevator shortly before it reaches the bottom of the shaft if the elevator fell a distance of 100 m starting from rest the heat that the brakes must dissipate to bring the elevator safely to rest is",
+            "content": "answer option e 1000000 j explanation given mass of the suspension cable m 1000 kg distance h 100 m now from the work energy theorem",
+            "url": "https://indextestingapp.uonbi.ac.ke/preguntia/13160912",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "by definition the electric displacement current through a surface s is proportional to the",
+            "content": "they relate the electric and magnetic fields to total charge and total current including the complicated charges and currents in materials at the atomic scale",
+            "url": "https://en.wikipedia.org/wiki/Maxwell%27s_equations",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the energy required to remove both electrons from the helium atom in its ground state is 790 ev how much energy is required to ionize helium ie to remove one electron",
+            "content": "the energy required to ionize helium ie remove a single electron is 544 ev therefore option d 246 ev is not the correct answer",
+            "url": "https://edurev.in/question/1742375/The-energy-required-to-remove-both-electrons-from-the-helium-atom-in-its-ground-state-is-79-0eV--How",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "white light is normally incident on a puddle of water index of refraction 133 a thin 500 nm layer of oil index of refraction 15 floats on the surface of the puddle of the following the most strongly reflected wavelength is",
+            "content": "transmitted light will be strongest when the transmitted waves are in phase neither of the transmitted waves undergo inversion on reflection",
+            "url": "https://faculty.tru.ca/rtaylor/phys1150/phys1150_quiz4_soln.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "an organ pipe closed at one end and open at the other is designed to have a fundamental frequency of c 131 hz what is the frequency of the next higher harmonic for this pipe",
+            "content": "learn how to calculate a higher harmonic frequency for a pipe with one closed end and see examples that walk through sample problems stepbystep for you to",
+            "url": "https://study.com/skill/learn/calculating-a-higher-harmonic-frequency-for-a-pipe-with-one-closed-end-explanation.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "excited states of the helium atom can be characterized as para antiparallel electron spins and ortho parallel electron spins the observation that an ortho state has lower energy than the corresponding para state can be understood in terms of which of the following",
+            "content": "in the para state the electrons have opposite spins in the ortho state the electrons have the same spin since the spins are a type of",
+            "url": "https://acalytica.com/qna/42127/characterized-antiparallel-observation-orthostate-corresponding?show=42128",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "under ideal conditions the electric and magnetic fields inside a superconductor are zero maxwell’s equations imply that which of the following must be true just outside the surface of the superconductor",
+            "content": "it is true that for a superconductor we must have b≈0 due to the meissner effect and for many but definitely not all media b0 implies h0",
+            "url": "https://physics.stackexchange.com/questions/683821/how-why-do-the-fields-mathbfe-2-mathbfh-2-mathbfd-2-and-math",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following ions cannot be used as a dopant in germanium to make an ntype semiconductor",
+            "content": "common ntype dopants include group v elements such as antimony phosphorus and arsenic these elements have an extra electron because they",
+            "url": "https://www.waferworld.com/post/the-complete-guide-to-doping-in-semiconductors-what-is-it-and-why-is-it-necessary",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the mean kinetic energy of the conduction electrons in metals is ordinarily much higher than kt because",
+            "content": "the mean kinetic energy of electrons in metals at room temperature is usually many times the thermal energy kt due to paulis exclusion principle",
+            "url": "https://physics-problems-solutions.blogspot.com/2014/04/thermal-physics-conduction-electrons.html?m=1",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "a 3microfarad capacitor is connected in series with a 6microfarad capacitor when a 300volt potential difference is applied across this combination the total energy stored in the two capacitors is",
+            "content": "the energy stored in a capacitor is given by the formula e 12 c v2 where c is the capacitance and v is the voltage across the",
+            "url": "https://studyx.ai/questions/4lfcf0f/a-3-microfarad-capacitor-is-connected-in-series-with-a-6-microfarad-capacitor-when-a-300",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the negative muon mu has properties most similar to which of the following",
+            "content": "which of the following is the right choice explain your answer a electron b meson c photon d boson proton electron",
+            "url": "https://www.qna.acalytica.com/42129/negative-properties-similar-following-following-explain",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "at the present time the temperature of the universe ie the microwave radiation background is about 3 k when the temperature was 12 k typical objects in the universe such as galaxies were",
+            "content": "the present temperature of the universe is 2725 k based on measurements of the cmbr the temperature of the universe in the big bang theory is inversely",
+            "url": "https://sites.ualberta.ca/~pogosyan/teaching/ASTRO_122/lect31/lecture31.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the surface of the sun has a temperature close to 6000 k and it emits a blackbody planck spectrum that reaches a maximum near 500 nm for a body with a surface temperature close to 300 k at what wavelength would the thermal spectrum reach a maximum",
+            "content": "with this wiens law calculator you can easily estimate the temperature of an object based on the peak wavelength or frequency of its thermal emission",
+            "url": "https://www.omnicalculator.com/physics/wiens-law",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "an astronomer observes a very small moon orbiting a planet and measures the moon’s minimum and maximum distances from the planet’s center and the moon’s maximum orbital speed which of the following cannot be calculated from these measurements",
+            "content": "which of the following cannot be calculated from these measurements a mass of the moon b mass of the planet c minimum speed of the moon d period of the",
+            "url": "https://physics-problems-solutions.blogspot.com/2014/03/classical-mechanics-satellite.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the speed of light inside of a nonmagnetic dielectric material with a dielectric constant of 40 is",
+            "content": "it is usually written that the speed of light in a dielectric medium is v c ϵ r where c is the speed of light in vacuum and ϵ r is the",
+            "url": "https://www.physicsforums.com/threads/speed-of-light-in-lossy-dielectric-medium.668509/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "the first five harmonics produced by an organ pipe open at both ends are 50 hz 100 hz 150 hz 200 hz and 250 hz which of the harmonics if any will survive once the pipe is closed at one end",
+            "content": "for a pipe thats open at one end and closed at the other youll want to use for the first harmonic for the second harmonic and for the",
+            "url": "https://www.physicsforums.com/threads/what-are-the-frequencies-of-the-lowest-three-harmonics-in-a-1-70-m-organ-pipe.200843/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the coefficient of static friction between a small coin and the surface of a turntable is 030 the turntable rotates at 333 revolutions per minute what is the maximum distance from the center of the turntable at which the coin will not slide",
+            "content": "what is maximum distance from the centre of the turntable at which the coin will not slide a 75 m b 15 m c 015 m d 075 m class12",
+            "url": "https://www.sarthaks.com/1828112/coefficient-static-friction-between-small-surface-turntable-turntable-rotates-what-maxi",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "light of variable frequency shines on the metal surface of a photoelectric tube einstein’s theory of the photoelectric effect predicts that the",
+            "content": "when light shines on a metal electrons can be ejected from the surface of the metal in a phenomenon known as the photoelectric effect this process is also",
+            "url": "https://www.khanacademy.org/science/chemistry/atomic-structure-and-properties/bohr-model-hydrogen/a/photoelectric-effect",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "a rod measures 100 m in its rest system how fast must an observer move parallel to the rod to measure its length to be 080 m",
+            "content": "given here are solutions to 24 problems in special relativity the solutions were used as a learningtool for students in the introductory undergraduate",
+            "url": "https://phas.ubc.ca/~mcmillan/rqpdfs/1_relativity.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a resistor in a circuit dissipates energy at a rate of 1 w if the voltage across the resistor is doubled what will be the new rate of energy dissipation",
+            "content": "new rate wont be 2 that would be wrong in this case we need to use the relationship of energy voltage and resistance which is pv²",
+            "url": "https://www.askiitians.com/forums/Modern-Physics/a-resistor-in-a-circuit-dissipates-energy-at-a-rat_96278.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "two identical satellites a and b are in circular orbits around earth the orbital radius of a is twice that of b which of the following gives the ratio of the angular momentum of a to the angular momentum of b",
+            "content": "which of the following statements is true regarding satellites in circular orbits about a planet a the period depends on the mass of the satellite b",
+            "url": "http://www-hep.uta.edu/~yu/teaching/fall04-1443-003/fall04-term2-exercise.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a spring of force constant k is stretched a certain distance it takes twice as much work to stretch a second spring by half this distance the force constant of the second spring is",
+            "content": "what is the force constant of the second spring in units of kcorrect answer is 8",
+            "url": "https://edurev.in/question/1619060/A-spring-of-force-constant-k-is-stretched-a-certain-distance--It-takes-twice-as-much-work-to-stretch",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the speed of light inside of a nonmagnetic dielectric material with a dielectric constant of 40 is",
+            "content": "it is usually written that the speed of light in a dielectric medium is v c ϵ r where c is the speed of light in vacuum and ϵ r is the",
+            "url": "https://www.physicsforums.com/threads/speed-of-light-in-lossy-dielectric-medium.668509/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "a particle decays in 20 ms in its rest frame if the same particle moves at v060c in the lab frame how far will it travel in the lab before decaying",
+            "content": "its mean lifetime at rest is 220 μs 220 x 10 s b how far does a muon travel in the labora tory on average before decaying approach if an",
+            "url": "https://physics15.weebly.com/uploads/3/0/2/7/30272185/736giancoliphysics6th0762p736.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "a proton moves in the zdirection after being accelerated from rest through a potential difference v the proton then passes through a region with a uniform electric field e in the xdirection and a uniform magnetic field b in the ydirection but the proton’s trajectory is not affected if the experiment were repeated using a potential difference of 2v the proton would then be",
+            "content": "explore all lorentz force related practice questions with solutions important points to remember 3d videos popular books",
+            "url": "https://www.embibe.com/subjects/Physics/Electricity-and-Magnetism/Magnetic-Effect-of-Electric-Current/Lorentz-Force/kve763445",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "an object is thrown horizontally from the open window of a building if the initial speed of the object is 20 ms and it hits the ground 20 s later from what height was it thrown neglect air resistance and assume the ground is level",
+            "content": "what is the horizontal velocity of the ball just before it reaches the ground neglect air resistance a 981 ms b 200 ms c 343 ms",
+            "url": "https://www.arlingtonschools.org/cms/lib/NY02215626/Centricity/Domain/5167/20151116091549138.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a meter stick with a speed of 08c moves past an observer in the observer’s reference frame how long does it take the stick to pass the observer",
+            "content": "original length lo 1 m speed 08 c in observers frame the length of the meterstick will be contracted hence time taken by the stick",
+            "url": "https://www.sarthaks.com/371654/meter-stick-speed-moves-past-observer-observers-reference-frame-long-stick-pass-observer",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "blue light of wavelength 480 nanometers is most strongly reflected off a thin film of oil on a glass slide when viewed near normal incidence assuming that the index of refraction of the oil is 12 and that of the glass is 16 what is the minimum thickness of the oil film other than zero",
+            "content": "since we were in oil dont forget to use the new wavelength given by wavelength in air divided by the index of refraction of oil this gives 48012 400",
+            "url": "https://physics-problems-solutions.blogspot.com/2014/03/optics-thin-film.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "an observer o at rest midway between two sources of light at x 0 and x 10 m observes the two sources to flash simultaneously according to a second observer o moving at a constant speed parallel to the xaxis one source of light flashes 13 ns before the other which of the following gives the speed of o relative to o",
+            "content": "the time dilation formula you are thinking of t′γt accounts for the time interval between two events your flashes of light which occur",
+            "url": "https://physics.stackexchange.com/questions/632331/how-to-get-velocity-of-observer-special-relativity",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the primary source of the sun’s energy is a series of thermonuclear reactions in which the energy produced is c2 times the mass difference between",
+            "content": "the suns energy is produced by nuclear fusion see figure 1 thermonuclear power is the name given to the use of controlled nuclear fusion as an energy source",
+            "url": "https://courses.lumenlearning.com/suny-physics/chapter/32-5-fusion/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "in a nonrelativistic onedimensional collision a particle of mass 2m collides with a particle of mass m at rest if the particles stick together after the collision what fraction of the initial kinetic energy is lost in the collision",
+            "content": "details of the calculation ε v2v1 v1 is the velocity component of the particle toward the floor before collision and v2 is the velocity component of",
+            "url": "http://electron6.phys.utk.edu/PhysicsProblems/Mechanics/3-Impulsive%20forces/Colissions/inelastic.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "excited states of the helium atom can be characterized as para antiparallel electron spins and ortho parallel electron spins the observation that an ortho state has lower energy than the corresponding para state can be understood in terms of which of the following",
+            "content": "in the para state the electrons have opposite spins in the ortho state the electrons have the same spin since the spins are a type of",
+            "url": "https://acalytica.com/qna/42127/characterized-antiparallel-observation-orthostate-corresponding?show=42128",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the hydrogen lines observed in the spectrum of the quasar 3c9 are shifted so far into the red that their wavelengths are three times as long as those observed in the light from hydrogen atoms at rest in a laboratory on earth if it is assumed that the shift is entirely due to the relative motion of 3c9 and earth the relative speed of the quasar is",
+            "content": "problem 4213 rhk in the spectrum of quasar 3c9 some of the familiar hydrogen lines appear but they are shifted so far toward the red that their",
+            "url": "http://www.learningphysics.org/optics/opt0028.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the eigenvalues of a hermitian operator are always",
+            "content": "its well known that it isnt true here is a counterexample 1101 this is not hermitian but it has two real eigenvalues 11",
+            "url": "https://physics.stackexchange.com/questions/16678/if-all-the-eigenvalues-of-an-operator-are-real-is-the-operator-hermitian",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "white light is normally incident on a puddle of water index of refraction 133 a thin 500 nm layer of oil index of refraction 15 floats on the surface of the puddle of the following the most strongly reflected wavelength is",
+            "content": "transmitted light will be strongest when the transmitted waves are in phase neither of the transmitted waves undergo inversion on reflection",
+            "url": "https://faculty.tru.ca/rtaylor/phys1150/phys1150_quiz4_soln.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "one end of a horizontal massless spring is attached to a wall a mass of 030 kg is attached to the other end of the spring and rests on a table the mass is displaced 0030 m from its equilibrium position and released it has a speed of 0040 ms as it passes through its equilibrium position in the absence of friction what is the total mechanical energy of the system",
+            "content": "13kilogram mass is connected to one end of a massless spring which has a spring constant of 100 newtons per meter the other end of the spring is fixed",
+            "url": "https://web.mit.edu/~yczeng/Public/WORKBOOK%201%20FULL.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "a magnetic field is directed perpendicular to the plane of a circular coil of area 02 m2 and 250 turns if the magnetic field is increased from 001 t to 006 t during a time interval of 025 s the average induced emf in the coil is",
+            "content": "a circular coil of area 02 mathrmm2 250 mathrmtums and resistance 5 omega is placed in magnetic field the magnetic field is directed",
+            "url": "https://studyx.ai/homework/104096953-6-a-circular-coil-of-area-0-2-m-2-250-tums-and-resistance-5-is-placed-in-magnetic-field",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "a magnetic field is directed perpendicular to the plane of a circular coil of area 02 m2 and 250 turns if the magnetic field is increased from 001 t to 006 t during a time interval of 025 s the average induced emf in the coil is",
+            "content": "a circular coil of area 02 mathrmm2 250 mathrmtums and resistance 5 omega is placed in magnetic field the magnetic field is directed",
+            "url": "https://studyx.ai/homework/104096953-6-a-circular-coil-of-area-0-2-m-2-250-tums-and-resistance-5-is-placed-in-magnetic-field",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following lasers utilizes transitions that involve the energy levels of free atoms",
+            "content": "freeelectron lasers unlike gas liquid or solidstate lasers which rely on bound atomic or molecular states fels use a relativistic electron beam as the",
+            "url": "https://en.wikipedia.org/wiki/Laser",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "which of the following gives the total spin quantum number of the electrons in the ground state of neutral nitrogen z 7",
+            "content": "ground state of a neutral carbon atom does indeed contain two unpaired electrons when we get to nitrogen z 7 with seven electrons",
+            "url": "https://chem.libretexts.org/Courses/University_of_Florida/CHM2047%3A_One-Semester_General_Chemistry_(Kleiman)/03%3A__Atoms_Orbitals_and_Electronic_Configurations/3.05%3A_Electron_Configurations",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "electromagnetic radiation provides a means to probe aspects of the physical universe which of the following statements regarding radiation spectra is not correct",
+            "content": "em spectrum can be used to determine the elements that compose the object not the nuclear structure",
+            "url": "https://www.sarthaks.com/2640018/electromagnetic-radiation-physical-universe-following-statements-regarding-radiation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "two simple pendulums a and b consist of identical masses suspended from strings of length la and lb respectively the two pendulums oscillate in equal gravitational fields if the period of pendulum b is twice the period of pendulum a which of the following is true of the lengths of the two pendulums",
+            "content": "in simple harmonic motion the frequency is the reciprocal of the period which in turn is independent of the amplitude c true this is the condition for",
+            "url": "https://www.nhvweb.net/nhhs/science/rquinn/files/2013/12/Ch14-Homework-Solutions.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "a nonrelativistic particle with a charge twice that of an electron moves through a uniform magnetic field the field has a strength of π4 tesla and is perpendicular to the velocity of the particle what is the particle’s mass if it has a cyclotron frequency of 1600 hertz",
+            "content": "in this part the basic concepts of electric and magnetic fields energy and in terms of e as for the equations 1033",
+            "url": "https://www.tpscollegepatna.org/book/Electromagnetism_%20Maxwell%20Equations,%20Wave%20Propagation%20and%20Emission%20(%20PDFDrive%20).pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "light of variable frequency shines on the metal surface of a photoelectric tube einstein’s theory of the photoelectric effect predicts that the",
+            "content": "when light shines on a metal electrons can be ejected from the surface of the metal in a phenomenon known as the photoelectric effect this process is also",
+            "url": "https://www.khanacademy.org/science/chemistry/atomic-structure-and-properties/bohr-model-hydrogen/a/photoelectric-effect",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "protons used in cancer therapy are typically accelerated to about 06c how much work must be done on a particle of mass m in order for it to reach this speed assuming it starts at rest",
+            "content": "ask any question and get an answer from our subject experts in as little as 2 hours",
+            "url": "https://www.chegg.com/homework-help/questions-and-answers/protons-used-cancer-therapy-typically-accelerated-06c-much-work-must-done-particle-mass-m--q23501044",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "an airplane drops a payload while traveling due north parallel to the ground at a constant speed of 100 ms if air resistance is neglected what is the velocity of the payload relative to the plane 40 s after it is released",
+            "content": "33 projectile motion the biggest thrill in baseball is a home run the motion of the ball on its curving path into the stands is a common type of twodimensional motion called “projectile motion” a good description of such motion can often be obtained with the assumption that air",
+            "url": "https://www.webassign.net/ebooks/cj6demo/xlinks/c03-sec1-0009.htm",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 22,
+            "query": "a student makes 10 onesecond measurements of the disintegration of a sample of a longlived radioactive isotope and obtains the following values 3 0 2 1 2 4 0 1 2 5 how long should the student count to establish the rate to an uncertainty of 1 percent",
+            "content": "ask any question and get an answer from our subject experts in as little as 2 hours",
+            "url": "https://www.chegg.com/homework-help/questions-and-answers/student-makes-10-one-second-measurements-disintegration-sample-long-lived-radioactive-isot-q16466815",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "which of the following is true about any system that undergoes a reversible thermodynamic process",
+            "content": "in thermodynamics a reversible process is a process involving a system and its surroundings whose direction can be reversed by infinitesimal changes in some properties of the surroundings such as pressure or temperature throughout an entire reversible process the system is in thermodynamic",
+            "url": "https://en.wikipedia.org/wiki/Reversible_process_(thermodynamics)",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "a satellite of mass m orbits a planet of mass m in a circular orbit of radius r the time required for one revolution is",
+            "content": "q an artificial satellite is revolving around a planet of mass m and radius r in a circular orbit or radius r from keplers third law about the period of revolution t is proportional to the cube of the radius of the orbit r",
+            "url": "https://byjus.com/question-answer/an-artificial-satellite-is-revolving-around-a-planet-of-mass-m-and-radius-r-in-1/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "protons used in cancer therapy are typically accelerated to about 06c how much work must be done on a particle of mass m in order for it to reach this speed assuming it starts at rest",
+            "content": "ask any question and get an answer from our subject experts in as little as 2 hours",
+            "url": "https://www.chegg.com/homework-help/questions-and-answers/protons-used-cancer-therapy-typically-accelerated-06c-much-work-must-done-particle-mass-m--q23501044",
+            "engine": "braveAPI"
+        }
+    ]
+}

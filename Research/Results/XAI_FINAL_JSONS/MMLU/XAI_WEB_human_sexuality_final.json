@@ -1,0 +1,1188 @@
+{
+    "task": "mmlu_human_sexuality",
+    "dataset": "web_access_human_sexuality_final",
+    "questions": 131,
+    "noWebContextCount": 0,
+    "contaminated_queries": 43,
+    "contaminated_urls": 146,
+    "valid_urls": 131,
+    "avg_contaminated_before_valid": 2.114503816793893,
+    "contaminated_data_ratio": 0.5270758122743683,
+    "most_contaminated_urls": {
+        "www.psy.vanderbilt.edu": 10
+    },
+    "noWebContext": [],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 1,
+            "query": "kenny fell off a ladder while trying to change a lightbulb he suffered an injury his upper back transecting his spinal cord and leaving him quadraplegic which of the following are probably impaired in kenny",
+            "content": "29 kenny fell off a ladder while trying to change a lightbulb he suffered an injury his upper back transecting his spinal cord and leaving him quadraplegic",
+            "url": "http://www.psy.vanderbilt.edu/courses/psy252/test2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "occurs when the fertilized egg implants somewhere other than the uterus",
+            "content": "in an ectopic pregnancy the egg implants somewhere other than the uterus often in the fallopian tubes",
+            "url": "https://kidshealth.org/en/parents/ectopic.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "occurs when the fertilized egg implants somewhere other than the uterus",
+            "content": "ectopic pregnancy this is when a fertilized egg implants somewhere other than your uterus placenta previa or placental abruption these are conditions that",
+            "url": "https://my.clevelandclinic.org/health/symptoms/24536-implantation-bleeding",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "occurs when the fertilized egg implants somewhere other than the uterus",
+            "content": "in an ectopic pregnancy the fertilized egg implants and starts growing somewhere other than your uterus",
+            "url": "https://www.obgynassociatesmarietta.com/blog/what-is-an-ectopic-pregnancy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "bill is a successful ad executive for a computer company he is 32 married and the father of two children when bills wife is not home he puts on her satin stockings garter belt bra skirt blouse and red stilettos while dressing he becomes sexually excited and proceeds to masturbate which of the following descriptions best fits bill",
+            "content": "bill is a successful ad executive for a computer company he is 32 married and the father of two children when bills wife is not home he puts on her satin",
+            "url": "http://www.psy.vanderbilt.edu/courses/psy252/test2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "sociobiologists believe that there are more males than females with paraphilias because",
+            "content": "sociobiologists believe that there are more males than females with paraphilias because chapter 16 p 412 a paraphilias guarantee survival of the species",
+            "url": "http://www.psy.vanderbilt.edu/courses/psy252/finalexam.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "sociobiologists believe that there are more males than females with paraphilias because",
+            "content": "sociobiologists believe that there are more males than females with paraphilias because a paraphilias guarantee survival of the species b evolutionary",
+            "url": "http://www.psy.vanderbilt.edu/courses/psy252/test2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "xena has been able to conceive but has repeatedly miscarried early in her pregnancies which of the following would be her best option for having a child",
+            "content": "which of the following would be her best option for having a child a artificial insemination b in vitro fertilization c zygote intrafallopian transfer d",
+            "url": "http://www.psy.vanderbilt.edu/courses/psy252/test2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "stan is out having a few beers with some friends which of the following will be decreased if stan only consumes 1 beer",
+            "content": "33 stan is out having a few beers with some friends which of the following will be decreased if stan only consumes 1 beer a arousal",
+            "url": "http://www.psy.vanderbilt.edu/courses/psy252/test2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "darla and janice are two moms raising a son timmy which of the following most likely characterizes timmy",
+            "content": "darla and janice are two moms raising a sontimmywhich of the following most likely characterizes timmy multiple choice 485 37 question 50",
+            "url": "https://examlex.com/exams/60318-exam-14-variations-in-sexual-behavi/3/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "darla and janice are two moms raising a son timmy which of the following most likely characterizes timmy",
+            "content": "darla and janice are two moms raising a sontimmywhich of the following most likely characterizes timmy multiple choice 475 28 question 87",
+            "url": "https://examlex.com/exams/60298-exam-14-sexual-orientation-and-identity-gay-lesbian-bi-straight-or-asexu/5/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following isare true of gonorrhea",
+            "content": "which of the following statements isare true about gonorrhea choose one the highest rates of gonorrhea infection occur in the elderly",
+            "url": "https://www.mdedge.com/obgynnews/quiz/1178/gynecology/diagnosis-treatment-gonorrhea",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following isare true of gonorrhea",
+            "content": "which of the following statements isare true about gonorrhea choose one the highest rates of gonorrhea infection occur in the elderly",
+            "url": "https://www.mdedge.com/obgyn/quiz/1178/gynecology/diagnosis-treatment-gonorrhea",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the state has no business in the bedrooms of the nation is a famous quote by this former canadian prime minister",
+            "content": "the state has no business in the bedrooms of the nation he said in rapid succession trudeau legalized abortion funded the arts and",
+            "url": "https://www.nytimes.com/2015/12/13/magazine/trudeaus-canada-again.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the state has no business in the bedrooms of the nation is a famous quote by this former canadian prime minister",
+            "content": "the state has no business in the bedrooms of the nation pierre trudeau john turner former prime minister of canada lester b pearson former prime",
+            "url": "https://www.azquotes.com/quote/297258",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the state has no business in the bedrooms of the nation is a famous quote by this former canadian prime minister",
+            "content": "it appears trudeau also said the state has no business in the bedrooms of the nation at some point perhaps during a different interview since thats",
+            "url": "https://www.cbc.ca/news2/indepth/words/misquotes.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the state has no business in the bedrooms of the nation is a famous quote by this former canadian prime minister",
+            "content": "the state has no business in the bedrooms of the nation pierre elliott trudeau add this quote to my quote book category political quotes",
+            "url": "http://www.saidwhat.co.uk/quotes/political/pierre_elliott_trudeau/the_state_has_no_business_in_20325",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the state has no business in the bedrooms of the nation is a famous quote by this former canadian prime minister",
+            "content": "the exception to the rule is former prime minister pierre elliot the quotation the state has no business in the bedrooms of the nation",
+            "url": "https://gmatclub.com/forum/unlike-the-united-states-with-its-generalissimo-politicians-washingt-108575.html?srsltid=AfmBOorCW3I-i392J6K-PtPGsxg5sCmiPBROr7I62z0_fmVrSyHlwnZk",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "the state has no business in the bedrooms of the nation is a famous quote by this former canadian prime minister",
+            "content": "finally pierre trudeaus most famous quote on his thoughts of the lgbtq community “the state has no business in the bedrooms of the nation",
+            "url": "https://hub.edubirdie.com/examples/trudeaus-vision-of-a-just-society/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "the state has no business in the bedrooms of the nation is a famous quote by this former canadian prime minister",
+            "content": "presented in former canadian prime minister pierre elliott trudeaus famous quote that “the state has no business in the bedrooms of the nation” while",
+            "url": "http://www.sfu.ca/repec-econ/sfu/sfudps/dp07-05.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "the state has no business in the bedrooms of the nation is a famous quote by this former canadian prime minister",
+            "content": "the state has no business in the bedrooms of the nation which the member has so eloquently called forward from the past yet the very motion and debate",
+            "url": "https://www.ourcommons.ca/DocumentViewer/en/36-1/house/sitting-240/hansard",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "keith is really anxious about a big presentation he has to give at work tomorrow as a result tonight he is having trouble getting an erection which of the following best explains why keith might be having this problem",
+            "content": "34 keith is really anxious about a big presentation he has to give at work tomorrow as a result tonight he is having trouble getting an erection which",
+            "url": "http://www.psy.vanderbilt.edu/courses/psy252/test2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "keith is really anxious about a big presentation he has to give at work tomorrow as a result tonight he is having trouble getting an erection which of the following best explains why keith might be having this problem",
+            "content": "keith is really anxious about a big presentation he has to give at work tomorrow as a result tonight he is having trouble getting an erection which of",
+            "url": "http://www.psy.vanderbilt.edu/courses/psy252/finalexam.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "sociobiologists assume that the central function of sex is",
+            "content": "sociobiologist assume that the central function of sex is reproduction but this is not true today evolutionary psychology evolutionary psychology the",
+            "url": "https://www.worldsupporter.org/en/summary/theoretical-perspectives-sexuality-summary-chapter-2-understanding-human-sexuality-hyde-and",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "sociobiologists assume that the central function of sex is",
+            "content": "sociobiologist assume that the central function of sex is reproduction but this is not true today evolutionary psychology evolutionary psychology the",
+            "url": "https://www.worldsupporter.org/en/tip/what-are-stages-development-according-freud-67953",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "danny and sandy are coworkers sandy sees danny in the break room and says hey stud nice buns wanna do it this would be considered harrassment if",
+            "content": "danny and sandy are coworkers sandy sees danny in the break room and says hey stud nice buns wanna do it this would be considered harrassment if a",
+            "url": "http://www.psy.vanderbilt.edu/courses/psy252/test2.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "the state has no business in the bedrooms of the nation is a famous quote by this former canadian prime minister",
+            "content": "the state has no business in the bedrooms of the nation he said in rapid succession trudeau legalized abortion funded the arts and",
+            "url": "https://www.nytimes.com/2015/12/13/magazine/trudeaus-canada-again.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "the state has no business in the bedrooms of the nation is a famous quote by this former canadian prime minister",
+            "content": "the state has no business in the bedrooms of the nation pierre trudeau john turner former prime minister of canada lester b pearson former prime",
+            "url": "https://www.azquotes.com/quote/297258",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "the state has no business in the bedrooms of the nation is a famous quote by this former canadian prime minister",
+            "content": "it appears trudeau also said the state has no business in the bedrooms of the nation at some point perhaps during a different interview since thats",
+            "url": "https://www.cbc.ca/news2/indepth/words/misquotes.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "the state has no business in the bedrooms of the nation is a famous quote by this former canadian prime minister",
+            "content": "the state has no business in the bedrooms of the nation pierre elliott trudeau add this quote to my quote book category political quotes",
+            "url": "http://www.saidwhat.co.uk/quotes/political/pierre_elliott_trudeau/the_state_has_no_business_in_20325",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 16,
+            "query": "the state has no business in the bedrooms of the nation is a famous quote by this former canadian prime minister",
+            "content": "the exception to the rule is former prime minister pierre elliot the quotation the state has no business in the bedrooms of the nation",
+            "url": "https://gmatclub.com/forum/unlike-the-united-states-with-its-generalissimo-politicians-washingt-108575.html?srsltid=AfmBOorxWIV7rKTJ2wNwkAkUUh4PWEcu1UnMLhavdYeBKD1HivTlyUws",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "the state has no business in the bedrooms of the nation is a famous quote by this former canadian prime minister",
+            "content": "finally pierre trudeaus most famous quote on his thoughts of the lgbtq community “the state has no business in the bedrooms of the nation",
+            "url": "https://hub.edubirdie.com/examples/trudeaus-vision-of-a-just-society/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "the state has no business in the bedrooms of the nation is a famous quote by this former canadian prime minister",
+            "content": "presented in former canadian prime minister pierre elliott trudeaus famous quote that “the state has no business in the bedrooms of the nation” while",
+            "url": "http://www.sfu.ca/repec-econ/sfu/sfudps/dp07-05.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "the state has no business in the bedrooms of the nation is a famous quote by this former canadian prime minister",
+            "content": "the state has no business in the bedrooms of the nation which the member has so eloquently called forward from the past yet the very motion and debate",
+            "url": "https://www.ourcommons.ca/DocumentViewer/en/36-1/house/sitting-240/hansard",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "danny and sandy are coworkers sandy sees danny in the break room and says hey stud nice buns wanna do it this would be considered harrassment if",
+            "content": "danny and sandy are coworkers sandy sees danny in the break room and says hey stud nice buns wanna do it this would be considered harrassment if a",
+            "url": "http://www.psy.vanderbilt.edu/courses/psy252/test2.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "the state has no business in the bedrooms of the nation is a famous quote by this former canadian prime minister",
+            "content": "the state has no business in the bedrooms of the nation in the quotes from pierre trudeau quotthe state has no business in the bedrooms of the nationquot he eloquently captures the essence of personal freedom and privacy this statement emphasizes the belief that the government should not",
+            "url": "https://www.socratic-method.com/quote-meanings-interpretations/pierre-trudeau-the-state-has-no-business-in-the-bedrooms-of-the-nation/",
+            "engine": "braveAPI"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 2,
+            "query": "the two principles that deal with questions of values are",
+            "content": "there are two types of moral principles absolute and relative learn examples of morals for each as well as how to become a moral example",
+            "url": "https://www.verywellmind.com/what-are-moral-principles-5198602",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "approximately how many sperm are in the typical ejaculate",
+            "content": "when a man ejaculates he generally produces between 2 and 5 millilitres of sperm about the same volume as a large teaspoon would hold a pig routinely manages",
+            "url": "https://www.open.edu/openlearn/nature-environment/natural-history/sperm-counts",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what are the three dimensions of intimacy in romantic relationships that outline closeness and sharing",
+            "content": "by e myers love consists of three components intimacy emotional closeness and connectedness passion romantic and physical attraction and commitment decision to",
+            "url": "https://www.simplypsychology.org/types-of-love-we-experience.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following theories uses terms such as modelling and imitation to explain the effects of exposure to erotica on a persons behaviour",
+            "content": "although girards theory of imitation is born from reflection on lit unfortunately for virtue ethics modelling ones own virtue on a virtuous person",
+            "url": "http://cejsh.icm.edu.pl/cejsh/element/bwmeta1.element.ojs-doi-10_5604_01_3001_0053_9071/c/articles-36799752.pdf.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "kenny fell off a ladder while trying to change a lightbulb he suffered an injury his upper back transecting his spinal cord and leaving him quadraplegic which of the following are probably impaired in kenny",
+            "content": "its just got to be significant that strange attractors those structures which describe the chaotic or seemingly randomized behavior of dynamical systems",
+            "url": "https://scispace.com/pdf/a-look-to-burst-the-brightest-neon-hearts-attempts-1olrz5nxgs.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "in all of her relationships helen is typically uncomfortable feeling close to another person or having that person feel close to her according to attachment theory helen would best be described as",
+            "content": "there are four main attachment styles secure anxious avoidant or dismissive and anxiousavoidant",
+            "url": "https://helenavdh.com/attachment-styles-in-relationships-what-they-are-and-how-theyre-affecting-your-love-life%EF%BF%BC/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "over the past several decades attitudes toward premarital sex have attitudes toward extramarital sex have",
+            "content": "the attitudes toward premarital sex and extramarital sex have an inverse relationship the more we tolerate sexual activity before marriage and people “",
+            "url": "https://www.facebook.com/esther.perel/posts/the-attitudes-toward-premarital-sex-and-extramarital-sex-have-an-inverse-relatio/10151930957751711/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "studies conducted by bailey and pillard 1991 have shown that",
+            "content": "homosexual male probands with monozygotic cotwins dizygotic cotwins or adoptive brothers were recruited using homophile publications",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1845227/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "mike and carol have been married for 5 years recently mike has found that although he wants to have sex with carol he has trouble getting aroused however he does not have trouble getting aroused when he sees his secretary at work which of the following describes mikes dysfunction",
+            "content": "my husband told me that allen had been unhappy for a while because carol had stopped having sex with him when i talked to carol she didnt deny",
+            "url": "https://www.reddit.com/r/AmITheDevil/comments/pkg3rh/am_i_a_hypocrite_for_making_husband_cut_out_a/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following methods of detecting breast cancer involves exposure to radiation",
+            "content": "early detection of breast cancer with screening mammography means radiation exposure mammograms require very small doses of radiation",
+            "url": "https://www.cancer.gov/types/breast/mammograms-fact-sheet",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "an adult feels himself becoming aroused when looking at a child and realizes that the response is totally inappropriate as a result he feels anxiety rather than arousal this is an example of according to walen and roths cognitive model of the sexual response",
+            "content": "by ef paceschott 2019 the role of peripheral physiology in the experience of emotion has been debated since the 19th century fol",
+            "url": "https://boris.unibe.ch/133453/2/1-s2.0-S0149763418308674-main.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "persons with liberal attitudes about premarital sex are likely to",
+            "content": "the majority of unmarried youth 638 held liberal attitudes toward premarital sex and about half held liberal attitudes toward any form of sexual activity",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3729422/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "before the masters and johnson research it was thought that vaginal lubrication was due to secretions of",
+            "content": "this results in part from fluid from the uterus and mucous secretion from the cervix as well as fluid from the vaginal wall the cervical fluid varies in",
+            "url": "https://www.sciencedirect.com/topics/immunology-and-microbiology/vaginal-lubrication",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the official condemnation by the catholic church of artificial birth control is set forth in encyclical called humanae vitae",
+            "content": "humanae vitae encyclical letter of his holiness paul vi on the regulation of birth 25 july 1968",
+            "url": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_25071968_humanae-vitae.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "occurs when the fertilized egg implants somewhere other than the uterus",
+            "content": "an ectopic pregnancy occurs when fetal tissue implants outside of the uterus or attaches to an abnormal or scarred portion of the uterus",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK539860/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "men on the average begin engaging in sexual intercourse approximately two years later than men do",
+            "content": "the refractory period is usually the recovery phase after orgasm during which it is physiologically impossible for males to have additional orgasms",
+            "url": "https://en.wikipedia.org/wiki/Refractory_period_(sex)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the feedback loop in men which regulates the production of sex hormones includes all but which of the following",
+            "content": "a negative feedback system occurs in the male with rising levels of testosterone acting on the hypothalamus and anterior pituitary to inhibit the release of",
+            "url": "https://opentextbc.ca/biology/chapter/24-4-hormonal-control-of-human-reproduction/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "according to byrnes law of attraction and his formula we are attracted to people who",
+            "content": "byrne argues that expressing gratitude for what you have and what you desire creates a powerful vibrational frequency that attracts more positive experiences",
+            "url": "https://www.facebook.com/groups/jentareads/posts/9190456330967116/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the capacity of a spinalcord injured man to have erections depends on",
+            "content": "most men with spinal cord injury sci are infertile due to a combination of erectile dysfunction ejaculatory dysfunction and abnormal semen quality",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5340507/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a pimp can be best described as",
+            "content": "a movie actress who pimped everybody she ever met as she clawed her way to the top recent examples on the web noun dressed as the aforementioned pimp",
+            "url": "https://www.merriam-webster.com/dictionary/pimp",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "you are a homosexual male last night you were tempted by lusty swarthy jacques the king of fraternity row to join him at the local dairy bar for a tall cool glass of milk you also briefly considered studying for this test but jacques won out in freudian terms which of the following was dominant",
+            "content": "the most obvious miracles wont convince them then theyre truly hopeless and stupid the second explanation seems to be the common sense account of the",
+            "url": "https://oldmis.kp.ac.rw/admin/admin_panel/kp_lms/files/digital/Core%20Books/Theology/1-%20Plotz%20-%20Good%20Book.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the old testament presents the view that sexuality is",
+            "content": "the bible teaches that sex is only for procreation and that masturbation abortion and contraception are wrong when actually the bible is silent on each of",
+            "url": "https://reflections.yale.edu/article/sex-and-church/sexuality-and-scripture-what-else-does-bible-have-say",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "heterosexual fantasies about sexual activity never involve someone and gay and lesbian fantasies never involve persons of",
+            "content": "heteroflexibility is a form of a sexual orientation or situational sexual behavior characterized by minimal homosexual activity in an otherwise primarily",
+            "url": "https://en.wikipedia.org/wiki/Heteroflexibility",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the environment for sperm passage is most hospitable just at",
+            "content": "this environment is much more hospitable to spermatozoa than the acidic ph of the vagina cervical mucus cervical mucus is continuously secreted through",
+            "url": "https://www.glowm.com/section-view/heading/Sperm%20Transport%20and%20Capacitation/item/315",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "its 300 am you are male you awaken to urinate standing at the commode you are in extreme agony your penis feels as if it is on fire you notice a yellowish discharge coming out of your penis after you finish urinating your moans have awakened your significant other she comes running into the bathroom and asks you what is wrong you tell her you probably have",
+            "content": "1 how do you feel when you talk to your doctor or nurse in the hospital 2 do you sometimes hesitate to ask questions about your situation",
+            "url": "https://meslek.meb.gov.tr/upload/dersmateryali/pdf/HAY2024MING111213_1.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "menstruation is triggered by",
+            "content": "the menstrual cycle is characterized by the rise and fall of hormones menstruation is triggered by falling progesterone levels and is a sign that",
+            "url": "https://en.wikipedia.org/wiki/Menstruation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in the scientific community womens capacity for multiple orgasms was originally discovered by",
+            "content": "william masters and virginia johnson became famous in the 1960s for their research into the physiology of human sexuality in masters of sex",
+            "url": "https://www.wbur.org/npr/228906644/pioneering-masters-of-sex-brought-science-to-the-bedroom",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "castration in adulthood",
+            "content": "castration is any action surgical chemical or otherwise by which a male loses use of the testicles the male gonad",
+            "url": "https://en.wikipedia.org/wiki/Castration",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following events initiates puberty",
+            "content": "the major landmark of puberty for females is menarche the onset of menstruation which occurs on average around age 12½ for males first ejaculation",
+            "url": "https://en.wikipedia.org/wiki/Puberty",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "research on the effects of sexually explicit material using material that the viewer finds acceptable has shown that",
+            "content": "by lv nguyen in regards to age puberty and sexual experience some investigations have found a close association between these variables with the degree of exposure to seim",
+            "url": "https://hpr.termedia.pl/pdf-126977-73960?filename=73960.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "bill is a successful ad executive for a computer company he is 32 married and the father of two children when bills wife is not home he puts on her satin stockings garter belt bra skirt blouse and red stilettos while dressing he becomes sexually excited and proceeds to masturbate which of the following descriptions best fits bill",
+            "content": "pf9 77 at the first hint of trouble they turn totally black and thus prevent you from seeing anything that might alarm",
+            "url": "https://dspace.cuni.cz/bitstream/handle/20.500.11956/175134/120410810.pdf?sequence=4&isAllowed=y",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following concerning selfdisclosure in relationships is supported by research",
+            "content": "most support for the concept of selfdisclosure comes from correlational research while there is undoubtedly a link between selfdisclosure and",
+            "url": "https://www.tutor2u.net/psychology/reference/relationships-self-disclosure-as-a-factor-affecting-attraction-in-romantic-relationships",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "sociobiologists believe that there are more males than females with paraphilias because",
+            "content": "men have higher rates of fetishistic thoughts and behaviour and they are more interested in sexual behaviour and also have more intrusive",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6495465/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "xena has been able to conceive but has repeatedly miscarried early in her pregnancies which of the following would be her best option for having a child",
+            "content": "it was during her pregnancy that a significant event happened xena traveled with her army to china she there hoped to build an alliance with the powerful",
+            "url": "https://hercules-xena.fandom.com/wiki/Xena",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "shaggy has a fantasy about digging up a recently buried woman and having sex with her he told his friends this and they encouraged him to get therapy as part of the treatment he masturbates to his fantasy and at the last moment before orgasm he switches to a fantasy about having sex with a living woman this procedure is part of the process of",
+            "content": "mainstream scientific journals gave hubbards theories a thorough drubbing culminating in public humiliation when he held a demonstration in",
+            "url": "https://www.eruditorumpress.com/blog/the-cuddled-little-vice-sandman",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following restrictions existed in at least one culture no sex",
+            "content": "these cultures are currently changing for example greece recently legalized gay marriage taking a huge step for an orthodox country",
+            "url": "https://en.wikipedia.org/wiki/Sexuality_and_gender_identity-based_cultures",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "stan is out having a few beers with some friends which of the following will be decreased if stan only consumes 1 beer",
+            "content": "this is so foreign to me ill have a drink at a party or something but ive never been drunk i couldnt imagine drinking so much every day",
+            "url": "https://www.reddit.com/r/southpark/comments/1ae9xas/is_stan_alcoholic_this_scene_was_kinda_sad/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "attachment to a caregiver begins",
+            "content": "the bonding and early life attachment between the infant and caregiver is a dynamic bidirectional process involving caregiver nurturing of the infant",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3223373/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following is true of the duration of the refractory period experienced by men",
+            "content": "the refractory period refers to a period of time typically lasting 12 hours after the recovery from an episode of exerciseinduced asthma eia",
+            "url": "https://www.sciencedirect.com/topics/neuroscience/refractory-period",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is typically associated with having a vasectomy",
+            "content": "after a vasectomy youll likely have some bruising swelling and pain these symptoms usually get better within a few days a member of your",
+            "url": "https://www.mayoclinic.org/tests-procedures/vasectomy/about/pac-20384580",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "fetishism typically develops at the age of",
+            "content": "fetishism usually becomes evident during puberty but may develop prior to that no single cause for fetishism has been conclusively established",
+            "url": "https://en.wikipedia.org/wiki/Sexual_fetishism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "romulo is on a crowded bus and he sees a woman near the door feeling a little saucy romulo proceeds to rub up against the woman and is immediately aroused romulos inappropriate behavior would be characterized as",
+            "content": "a downtrodden roman housewife turns her life around in this 1940s tale of female empowerment from first time director paola cortellesi",
+            "url": "https://filmuforia.com/tag/reviews/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "female sterilization inhibits production",
+            "content": "female sterilization is a permanent procedure to prevent pregnancy it works by surgically or nonsurgically blocking the fallopian tubes",
+            "url": "https://www.healthline.com/health/birth-control-female-sterilization",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the regions of the body that when touched are sexually exciting",
+            "content": "erogenous zones are points on the body that you can touch to stimulate pleasure some of these may be obvious but others might surprise you or your partners",
+            "url": "https://www.healthline.com/health/healthy-sex/erogenous-zones",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "buffy and willow were discussing their sexual fantasies buffy revealed that she sometimes fantasizes about sex with other women even though she normally finds herself attracted to men she also fantasizes about group sex which of the following statements can be inferred from buffys fantasies",
+            "content": "i honestly feel like theres a big difference with souled spike and think anyone who doesnt notice it gets tripped up by comparing him to angel",
+            "url": "https://www.reddit.com/r/buffy/comments/1h7xq7u/people_feeling_like_spike_isnt_that_different/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "darla and janice are two moms raising a son timmy which of the following most likely characterizes timmy",
+            "content": "as in chapter 30 index tables are provided to assist commentors in finding the responses to their own comments or to others comments including those of the",
+            "url": "https://www.energy.gov/sites/default/files/2022-08/Chapter%204.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "alexander the great was probably",
+            "content": "alexander iii of macedon most commonly known as alexander the great was a king of the ancient greek kingdom of macedon he succeeded his father philip ii",
+            "url": "https://en.wikipedia.org/wiki/Alexander_the_Great",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "hillary just found out that she is pregnant but she suspects that her husband has been fooling around it is important that she be tested for chlamydia because chlamydia can cause which of the following complications",
+            "content": "because gonorrhea chlamydia and among the 176 women who had been pregnant at least once 80 reported a previous unplanned pregnancy and 45 had an abortion",
+            "url": "https://www.jstor.org/stable/pdf/48512318.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the follicular phase is to the as the luteal phase is to the secretory phase",
+            "content": "generally the ovarian follicular phase corresponds to the menstrual and proliferative phases of the endometrium while the luteal phase of the",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK500020/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "another term for sexual selfstimulation is",
+            "content": "masturbation is a form of autoeroticism in which a person sexually stimulates their own genitals for sexual arousal or other sexual pleasure",
+            "url": "https://en.wikipedia.org/wiki/Masturbation",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following characteristics are generally consistent with date rape",
+            "content": "the most common element in most but not all acquaintance rape is excessive alcohol consumption by the victim or the assailant or both",
+            "url": "https://www.nicholls.edu/police/cleary-act/policies/sexual-assault/general-characteristics-of-rape/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "we are attracted to a person who is similar to us in attitudes because",
+            "content": "consensual validation meeting people who share our attitudes makes us feel more confident in our own attitudes about the world cognitive",
+            "url": "https://www.psychologytoday.com/intl/blog/close-encounters/201812/why-do-we-people-who-are-similar-us",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "vasocongestion is a process of",
+            "content": "pelvic vasocongestion results in lubrication a clear viscuous fluid from the circumvaginal vasculature and any malfunction in this area results in disorder",
+            "url": "https://www.sciencedirect.com/topics/veterinary-science-and-veterinary-medicine/vasocongestion",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "roman catholicism takes the position that it is sinful to",
+            "content": "2 catholicism today permits catholics to read the bible but teaches that it is sinful to put any interpretation on the bible that is contrary to catholic",
+            "url": "https://www.cbcg.org/false-doctrine/roman-catholicism-vs-biblical-christianity.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "for purposes of conception the best position for intercourse is",
+            "content": "research shows that you can get pregnant by having sex in almost any position this includes positions thought to be gravitydefying like a cowgirl position",
+            "url": "https://www.webmd.com/baby/fertility-sexual-positions",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "you have been asked to write a response paper to levays research on brain differences between heterosexuals and homosexuals which are plausible criticisms of levays work",
+            "content": "this study shows that sexual orientation is reflected in brain structure characteristics and that these differ between the sexes",
+            "url": "https://www.nature.com/articles/s41598-021-84496-z",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following isare true of gonorrhea",
+            "content": "gonorrhea is a sexually transmitted infection also called a sexually transmitted disease caused by bacteria",
+            "url": "https://www.mayoclinic.org/diseases-conditions/gonorrhea/symptoms-causes/syc-20351774",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "at about months after conception the gender of the fetus is clear from the appearance of external genitals",
+            "content": "when a childs gender is not clear at birth the child has atypical genitalia ambiguous genitalia this means that the genitals dont seem to be clearly male",
+            "url": "https://www.urmc.rochester.edu/encyclopedia/content?ContentTypeID=90&ContentID=P03079",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following are reflexes",
+            "content": "what reflexes should be present in a newborn rooting reflex suck reflex moro reflex tonic neck reflex grasp reflex stepping reflex supporing each",
+            "url": "https://www.stanfordchildrens.org/en/topic/default?id=newborn-reflexes-90-P02630",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is the most common method of birth control for married couples in the us",
+            "content": "among contraceptive users aged 1549 in 2018 female permanent contraception was the most common method used 28 followed by pills 21",
+            "url": "https://www.guttmacher.org/fact-sheet/contraceptive-method-use-united-states",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of these statements is accurate concerning the norms of swinging",
+            "content": "we have comprehensive factual statements about an educated swing action to own people as opposed to irons for those whod need to learn more",
+            "url": "https://www.bursztyn.net.pl/swing-action-rules-the-fundamentals-you-have-to-know/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "about of adolescent males have homosexual experiences during their teenage years",
+            "content": "in their tabulations 30 of males reported a homosexual experience to orgasm for the male or his partner of this group 25 had the experiences as",
+            "url": "https://kinseyinstitute.org/research/publications/historical-report-diversity-of-sexual-orientation.php",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "according to john money refers to a persons private internal sense of maleness or femaleness",
+            "content": "gender identity is defined as a personal and internal sense of oneself as male female or other",
+            "url": "https://emedicine.medscape.com/article/917990-overview",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is a shedding of the inner lining of the uterus",
+            "content": "if the egg does not become fertilized the lining of the uterus endometrium is shed during menstruation the average menstrual cycle lasts 28 days the cycle",
+            "url": "https://www.stanfordchildrens.org/en/topic/default?id=menstrual-cycle-an-overview-85-P00553",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the endometrium grows and thickens during",
+            "content": "endometrial thickness can change throughout a persons life such as during pregnancy or menopause learn what is typical and how to measure",
+            "url": "https://www.medicalnewstoday.com/articles/327036",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "joe wants desperately to get close to helen helen appears to be put off by joes desperate advances this is typical of joes relationships with women according to attachment theory joe would best be described as",
+            "content": "by zn hurston “ships at a distance have every mans wish on board” so begins zora neale hurstons brilliant novel about a womans search for her authentic",
+            "url": "https://www.cardozohigh.com/ourpages/auto/2016/6/3/56546832/Title%20-%20Their%20Eyes%20Were%20Watching%20God.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "the theory of is used by sociobiologists specifically to explain the evolution of gender differences",
+            "content": "patriarchal ideology explains and rationalizes patriarchy by attributing gender inequality to inherent natural differences between men and women divine",
+            "url": "https://en.wikipedia.org/wiki/Patriarchy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "benny is the head of a successful corporation after a hard day at work during which he is under incredible pressure to perform well he goes home to his wife who proceeds to spank him tie him to their four poster bed and tease him until he begs for intercourse according to psychological theory what is the most likely reason benny finds this alluring",
+            "content": "my brother had brought home a ghost as his fiancee i knew fikayo she was my sex partner that i killed 3 years ago i was born with a",
+            "url": "https://www.facebook.com/groups/977510256791128/posts/1251098229432328/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "hormones are secreted",
+            "content": "the endocrine system uses hormones to control and coordinate your bodys internal metabolism or homeostasis energy level reproduction growth and",
+            "url": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/hormones-and-the-endocrine-system",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the average male genital size is approximately",
+            "content": "scientists do not really know the average length of a penis but they believe it is probably around 51 to 55 inches this is smaller than most people think",
+            "url": "https://www.medicalnewstoday.com/articles/271647",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "when a woman thinks that she probably is a lesbian she is at the",
+            "content": "here 10 lesbian bisexual and pansexual women explain how they know if someones potentially into them",
+            "url": "https://www.cosmopolitan.com/uk/love-sex/relationships/a19083647/how-to-know-if-a-woman-is-lesbian-bisexual/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following sexual variations is probably the most dangerous",
+            "content": "harmful sexual behaviour hsb is a term used to describe sexual actions that are outside what is safe for a young persons stage of development",
+            "url": "https://www.lucyfaithfull.org.uk/advice/concerned-about-a-child-or-young-persons-sexual-behaviour/what-is-harmful-sexual-behaviour/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "experimental work on the introduction of the birth control pill was done with",
+            "content": "the basic research for the pill became possible when russell marker discovered that generations of mexican women had been eating a certain wild yam the",
+            "url": "https://www.plannedparenthood.org/files/1514/3518/7100/Pill_History_FactSheet.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jd unwins book sex and culture argues what two things are linked",
+            "content": "unwin examines the data from 86 societies and civilizations to see if there is a relationship between sexual freedom and the flourishing of cultures",
+            "url": "https://www.kirkdurston.com/blog/unwin",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "by 28 days after conception the embryo is about centimetres long",
+            "content": "the average 17 week fetus is 8 inches 204 cm long and weighs 64 ounces 181 grams the pseudoglandular stage of lung development ends at about 17 weeks",
+            "url": "https://perinatology.com/Reference/Fetal%20development.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "people who cannot reach orgasm without touching a womans shoe would certainly be considered sexually abnormal or deviant by which of the following definitions",
+            "content": "for some people sexual arousal is strongly associated with unusual activities and targets such as inanimate objects sexual contact with children exhibiting",
+            "url": "https://www.studeersnel.nl/nl/document/erasmus-universiteit-rotterdam/psychologie/oltmanns-emery-abnormal-psychology-by-thomas-f-oltmannsrobert-e-emery-paraphilias/25391973",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following stds can be passed from mother to child through the placenta",
+            "content": "besides affecting the mother syphilis can be transmitted to the unborn baby during pregnancy and result in congenital syphilis",
+            "url": "https://www.clinicbarcelona.org/en/assistance/diseases/sexually-transmitted-infections/stis-and-pregnancy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following isare secondary sex characteristics in males and females",
+            "content": "enlargement of breasts and erection of nipples growth of body hair most prominently underarm and pubic hair widening of hips lower waist to hip ratio than",
+            "url": "https://en.wikipedia.org/wiki/Secondary_sex_characteristic",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "bruce is a homosexual man his friend chuck is a heterosexual man if we could have observed bruce and chuck as children we might have expected which of the following",
+            "content": "hence when you point out the obvious gay undertones they get really defensive because they couldnt possibly like a gay thing after all like",
+            "url": "https://www.reddit.com/r/SapphoAndHerFriend/comments/pjkx9e/whats_your_favourite_obviously_gay_thing_straight/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following teenagers have the highest pregnancy rates",
+            "content": "the country of niger tops the list at 203604 births per 100000 teenage women going on down the line following niger are mali1754438",
+            "url": "https://www.changecarefoundation.org/2021/08/20/highest-teen-pregnancy-rates-worldwide/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "erection in the male and vaginal lubrication in the female mark the stage of sexual response",
+            "content": "reproductive responses tumescence vaginal lubrication conversely the sympathetic nervous system sns increases metabolism to mobilize energy",
+            "url": "https://apps.dtic.mil/sti/tr/pdf/AD1013961.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what is cocaine abuse during pregnancy related to",
+            "content": "we identified risks to the pregnancy and baby in women abusing cocaine during pregnancy these include preterm birth placentaassociated syndromes",
+            "url": "https://www.jogc.com/article/S1701-2163(15)30543-0/fulltext",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "secretions of cowpers gland fluid at the tip of the penis are first evident",
+            "content": "the bulbourethral glands are responsible for producing a preejaculate fluid called cowpers fluid known colloquially as precum which is secreted during",
+            "url": "https://en.wikipedia.org/wiki/Bulbourethral_gland",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following isare likely to cause coital pain for both men and women",
+            "content": "dyspareunia is pain just before during or after sex medical conditions often cause it treatment with medications or lubricants can help",
+            "url": "https://my.clevelandclinic.org/health/diseases/12325-dyspareunia-painful-intercourse",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "judaism regards sexuality as",
+            "content": "traditionally judaism has seen homosexual male intercourse as contrary to judaism not homosexuality inandofitself",
+            "url": "https://en.wikipedia.org/wiki/Jewish_views_on_homosexuality",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following have menstrual cycles",
+            "content": "the four phases of the menstrual cycle are menstruation the follicular phase ovulation and the luteal phase understanding your menstrual cycle will help you",
+            "url": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/menstrual-cycle",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the placenta does all of the following except",
+            "content": "the placenta does not function as digestive gland the placenta acts as lung as it facilitates the supply of oxygen and also removal of carbon dioxide",
+            "url": "https://infinitylearn.com/question-answer/the-placenta-functions-as-all-of-the-following-exc-628f595e9aea8d8256e0ed7b",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "keith is really anxious about a big presentation he has to give at work tomorrow as a result tonight he is having trouble getting an erection which of the following best explains why keith might be having this problem",
+            "content": "this thesis explores the disclosure of erectile dysfunction to healthcare professionals by asking men with erectile dysfunction their partners",
+            "url": "https://orca.cardiff.ac.uk/id/eprint/92370/12/2016dunncphd%20DEC%20Page%20Removed.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "if a woman or man repeatedly experiences pain during intercourse she will probably want to have intercourse infrequently or not all in this situation would likely classify the pain as a punishment",
+            "content": "women with dyspareunia did report more deficits in sexual function lower frequencies of intercourse and masturbation less desire and arousal and fewer",
+            "url": "https://digitalscholarship.unlv.edu/cgi/viewcontent.cgi?article=2386&context=thesesdissertations",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what are the experiences when a sexual addict has completed the sexual act",
+            "content": "sex addiction also known as hypersexuality or compulsive sexual behavior causes a person to lose control over their sexual thoughts and urges",
+            "url": "https://www.webmd.com/mental-health/addiction/signs-sex-addict",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "freud said that the penis first becomes the major focus of pleasureseeking at",
+            "content": "psychosexual development is a central element of the sexual drive theory according to freud personality develops through a series of childhood stages",
+            "url": "https://en.wikipedia.org/wiki/Psychosexual_development",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what sexual act is prohibited in most societies",
+            "content": "most countries prohibit female genital mutilation including while many sodomy laws are concerned with sexual acts as opposed to sexual",
+            "url": "https://en.wikipedia.org/wiki/Sex_and_the_law",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is the most common menstrual problem",
+            "content": "what are the most common menstrual problems painful periods dysmenorrhea heavy periods menorrhagia irregular periods oligomenorrhea",
+            "url": "https://www.medicalnewstoday.com/articles/menstrual-problems",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a person with a rating of 4 on the kinsey scale would be classified as",
+            "content": "ratings 15 are for those who report varying levels of attraction or sexual activity with either sex in the original kinsey report studies the x category",
+            "url": "https://kinseyinstitute.org/research/publications/kinsey-scale.php",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "according to a study by sprecher barbee and schwartz 1995 women were more likely than men to have following their first act of intercourse",
+            "content": "women are also much more likely than men to have a first intercourse experience that is unwanted or forced laumann gagnon michael michaels 1994",
+            "url": "https://www.jstor.org/stable/25701778",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which is true with regard to voyeurs",
+            "content": "voyeurism is the sexual interest in or practice of watching other people engaged in intimate behaviors such as undressing sexual activity or other actions",
+            "url": "https://en.wikipedia.org/wiki/Voyeurism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what makes a relationships last according to sternberg",
+            "content": "the three components of love according to the triangular theory are an intimacy component a passion component and a commitment component",
+            "url": "https://en.wikipedia.org/wiki/Triangular_theory_of_love",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is removed when a male is circumcised",
+            "content": "circumcision is a surgery to remove the skin that covers the tip of the penis also called the foreskin",
+            "url": "https://www.mayoclinic.org/tests-procedures/circumcision/about/pac-20393550",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following approaches to psychotherapy focuses only the problem behaviour and how to modify it",
+            "content": "psychoanalysis and psychodynamic therapies this approach focuses on changing problematic behaviors feelings and thoughts by discovering their unconscious",
+            "url": "https://www.apa.org/topics/psychotherapy/approaches",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "the refractory period occurs in males during the stage",
+            "content": "the orgasm phase masters and johnson note a typically greater refractory period in men such that they are incapable of achieving an immediately successive",
+            "url": "https://scholar.valpo.edu/cgi/viewcontent.cgi?article=1061&context=psych_fac_pub",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "what seems to be the case when the folk saying opposites attract ie dissimilar attitudes tend to cause liking when it is considered in light of current research",
+            "content": "another folk saying captures this perspective “opposites attract” the distinctiveness model argues that inquisitiveness initially motivates people to",
+            "url": "https://srcd.onlinelibrary.wiley.com/doi/am-pdf/10.1111/cdep.12246",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "what day of a typical 28day menstrual cycle is a woman likely to ovulate",
+            "content": "on average a woman with a regular 28day cycle ovulates on about the 14th day of each cycle if a womans cycle is longer or shorter than 28 days the",
+            "url": "https://www.stanfordchildrens.org/en/topic/default?id=ovulation-date-calculator-41-OvulationCalc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "sociobiologists assume that the central function of sex is",
+            "content": "adaptationist means that sociobiologists usually assume that complex social phenomena such as mating preferences offspring sex ratios discriminative",
+            "url": "https://www.sciencedirect.com/topics/social-sciences/sociobiology",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the position that abortion is murder is held by certain people in which religion",
+            "content": "abortion is perceived as murder by many religious conservatives antiabortion advocates believe that legalized abortion is a threat to social moral and",
+            "url": "https://en.wikipedia.org/wiki/Religion_and_abortion",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the onset the very beginning of labor is first triggered by",
+            "content": "the start of labour is called the latent phase this is when your cervix becomes soft and thin and starts opening for your baby to be born",
+            "url": "https://www.nhs.uk/pregnancy/labour-and-birth/signs-of-labour/signs-that-labour-has-begun/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how many centimetres must the cervix dilute to before a baby can be born",
+            "content": "there are 3 stages of labor active labor begins at about 56 cm of dilation you need to be 10 cm dilated to deliver vaginally",
+            "url": "https://www.healthline.com/health/pregnancy/cervix-dilation-chart",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the zona pellucida is",
+            "content": "the zona pellucida is an extracellular matrix that surrounds eggs and early embryos playing a crucial role in initial gamete recognition preventing",
+            "url": "https://www.sciencedirect.com/topics/neuroscience/zona-pellucida",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is not part of the internal structure of a females breast",
+            "content": "the lobes lobules and bulbs are all linked by thin tubes called ducts these ducts lead to the nipple in the center of a dark area of skin called the areola",
+            "url": "https://www.hopkinsmedicine.org/health/wellness-and-prevention/anatomy-of-the-breasts",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the egg can be fertilized until about after ovulation",
+            "content": "implantation of a fertilized egg normally takes place 24 days after ovulation 6 each women is born with millions of immature eggs that are awaiting ovulation",
+            "url": "https://www.ur.edu.pl/files/ur/import/private/137/E-dydaktyka/Materialy-dydaktyczne/Angielski/KNM/Poloznictwo/Mgr-Magdalena-Plonka/menstrual-cycle-mgr-Magdalena-Plonka.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "according to the ethnocultural communities facing aids study single men are more likely than single to report having had more than one sexual partner in the previous year",
+            "content": "because several researchers have argued that communication about hiv aids and safer sex may mediate the effects of power on sexual practices campbell and",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2943679/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "orders of monks and nuns found both in eastern religions and in christianity who affirm celibacy virginity and poverty follow the ethical system of",
+            "content": "a monk is a man who is a member of a religious order and lives in a monastery a monk usually lives his life in prayer and contemplation",
+            "url": "https://en.wikipedia.org/wiki/Monk",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "staphylococcus aureus is",
+            "content": "gronkowiec złocisty czyli staphylococcus aureus to bakteria gramdodatnia która jest głównym bakteryjnym patogenem człowieka",
+            "url": "https://www.doz.pl/czytelnia/a15653-Gronkowiec_zlocisty_Staphylococcus_aureus__objawy_i_leczenie_zakazenia_gronkowcem",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how do girls most frequently learn about masturbation",
+            "content": "solo sex expert ellen kate friedrichs a health and sexuality educator in brooklyn ny breaks down how to masturbate",
+            "url": "https://www.seventeen.com/love/a40490/things-every-girl-needs-to-know-about-masturbation/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in men gonorrhea and chlamydia most often infect the",
+            "content": "signs of chlamydia in males chlamydia bacteria most often infect your urethra causing symptoms that are similar to nongonococcal urethritis you may notice",
+            "url": "https://my.clevelandclinic.org/health/diseases/4023-chlamydia",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "after releasing an egg the follicle under stimulation of luteinizing hormone turns into a a glandular mass of cells called the",
+            "content": "graafian follicles grow to about 1525 mm in diameter under the influence of follicle stimulating hormone lew 2019 the ovum is a haploid ootid with 23",
+            "url": "https://www.sciencedirect.com/topics/medicine-and-dentistry/ovary-cell",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following is homologous to the glans of the penis",
+            "content": "list genital tubercle glans clitoridis glans penis genital tubercle corpus clitoridis corpus penis crus clitoral crura penile crura bulb clitoral",
+            "url": "https://en.wikipedia.org/wiki/List_of_related_male_and_female_reproductive_organs",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "menstrual cramps may be caused in part by",
+            "content": "menstrual cramps can be caused by endometriosis tissue that acts similar to the lining of the uterus grows outside of the uterus most commonly on fallopian",
+            "url": "https://www.mayoclinic.org/diseases-conditions/menstrual-cramps/symptoms-causes/syc-20374938",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "ovaries and testes",
+            "content": "this seventh article of an eightpart series examines the anatomy and physiology of the testes and ovaries as well as their role in producing a variety of",
+            "url": "https://www.nursingtimes.net/primary-care/endocrine-system-7-ovaries-and-testes-placenta-pregnancy-25-10-2021/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "jeffrey dahmers behaviour might best fit into the category of",
+            "content": "lionel dahmer further stated that it may have been jeffrey dahmers strong sexual drive which led him to sexually assault dismember and cannibalize his",
+            "url": "https://epublications.regis.edu/cgi/viewcontent.cgi?article=1240&context=theses",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "avalon had a wild time during spring break unfortunately the guy she hooked up with in palm beach had genital herpes which of the following is true about genital herpes",
+            "content": "orally 6 times a day dosing appropriate for treatment of herpes zoster or 200 mg given orally 6 times a day dosing appropriate for treatment of genital",
+            "url": "https://archive.wislgbthistory.com/media/print/q-voice/issues/QV-v02-08.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which method of abortion is most costly and carries the greatest risk of complications",
+            "content": "however surgical abortions are likely associated with a higher risk of infection while medical abortions may cause more bleeding over a longer",
+            "url": "https://www.healthline.com/health/types-of-abortion",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "how is endometriosis generally treated",
+            "content": "treatment for endometriosis often involves medicine or surgery the approach you and your health care team choose will depend on how serious",
+            "url": "https://www.mayoclinic.org/diseases-conditions/endometriosis/diagnosis-treatment/drc-20354661",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "penile or clitoral erection occurs because of activation of the system",
+            "content": "clitoral erection is the result of a complex interaction of psychological neural vascular and endocrine factors and is usually though not exclusively",
+            "url": "https://en.wikipedia.org/wiki/Clitoral_erection",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "from 1988 to 1990 among heterosexuals in the us the number of unmarried adults aged 20 to 45 who report having multiple partners has",
+            "content": "this proportion was 115 for those born in 1970 to 1979 117 for those born in 1980 to 1989 and 152 for those born in 1990 to 1994",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7293001/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "simon levay studied the brains of heterosexuals and homosexuals he found differences in",
+            "content": "this finding indicates that inah is dimorphic with sexual orientation at least in men and suggests that sexual orientation has a biological substrate",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1887219/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "one of the first models of the physiology of the human sexual response was provided by",
+            "content": "this physiological response model was first formulated by william h masters and virginia e johnson in their 1966 book human sexual response",
+            "url": "https://en.wikipedia.org/wiki/Human_sexual_response_cycle",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "minipills contain",
+            "content": "this oral contraceptive sometimes called the minipill contains only the hormone progestin and no estrogen",
+            "url": "https://www.mayoclinic.org/tests-procedures/minipill/about/pac-20388306",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "miss jones has been concerned about her health lately she has noticed some itching and skin irritation around her genitals given her promiscuous sexual history she suspects that she has contracted",
+            "content": "i explore perceptions and social representations of stis and how these influence lived experiences of genitourinary symptoms and helpseeking",
+            "url": "https://researchonline.lshtm.ac.uk/4652295/1/2018_PHP_PhD_Mapp_FL.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "an anatomical difference between males and females is",
+            "content": "each cell in your body carries a pair of sex chromosomes including your brain cells females have two x chromosomes and males have one x and",
+            "url": "https://www.nih.gov/news-events/nih-research-matters/sex-differences-brain-anatomy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 22,
+            "query": "the state has no business in the bedrooms of the nation is a famous quote by this former canadian prime minister",
+            "content": "with support from president obama and the legacy of his father on his side justin trudeau sets out to redefine what it means to be canadian",
+            "url": "https://www.nytimes.com/2015/12/13/magazine/trudeaus-canada-again.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "danny and sandy are coworkers sandy sees danny in the break room and says hey stud nice buns wanna do it this would be considered harrassment if",
+            "content": "danny whatx27s the matter with me baby whatx27s the matter with you sandy what happened to the danny zuko i met at the beach danny well i do not know maybe therex27s two of us why donx27t you take out a missing personx27s ad or try the yellow pages i donx27t know",
+            "url": "https://www.imdb.com/title/tt0077631/characters/nm0000556",
+            "engine": "braveAPI"
+        }
+    ]
+}

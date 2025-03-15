@@ -1,0 +1,2030 @@
+{
+    "task": "bbh_zeroshot_sports_understanding",
+    "dataset": "web_access_sports_understanding_final",
+    "questions": 250,
+    "noWebContextCount": 0,
+    "contaminated_queries": 224,
+    "contaminated_urls": 980,
+    "valid_urls": 250,
+    "avg_contaminated_before_valid": 4.92,
+    "contaminated_data_ratio": 0.7967479674796748,
+    "most_contaminated_urls": {
+        "www.greaterwrong.com": 8,
+        "kyle-cox.com": 6,
+        "medium.com": 5
+    },
+    "noWebContext": [],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 4,
+            "query": "is the following sentence plausible jonas valanciunas beat the buzzer",
+            "content": "so the answer is no q is the following sentence plausible “jonas valanciunas beat the buzzer” a jonas valanciunas is a basketball player",
+            "url": "https://medium.com/@elbakiank/a-primer-for-chain-of-thought-prompt-engineering-9f9e4c45e720",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible nathan mackinnon bricked the three pointer in the eastern conference finals",
+            "content": "is the following sentence plausible nathan mackinnon bricked the three pointer in the eastern conference finals question 1 the sentence mentions",
+            "url": "https://dev.datascienceassn.org/sites/default/files/pdf_files/LogicPro%20Improving%20Complex%20Logical%20Reasoning%20via%20Program-Guided%20Learning.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible robin lehner launched the desperation heave",
+            "content": "by y xie evaluation q is the following sentence plausible “robin lehner launched the desperation heave” a robin lehner is a hockey player is the above step of",
+            "url": "https://www.comp.nus.edu.sg/~kanmy/papers/_Camera_Ready__Self_Eval_Guided_Decoding__NeurIPS23_Submission_.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible pedro struck out the side",
+            "content": "pedro struck out the side 18 times in his 2131 ip and has struck out 10 or more batters 54 times in his career 27 times as a red sox pedro martinez",
+            "url": "https://www.govinfo.gov/content/pkg/CRECB-1999-pt21/html/CRECB-1999-pt21-issue-1999-11-17.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "is the following sentence plausible jonas valanciunas beat the buzzer",
+            "content": "so the answer is no q is the following sentence plausible “jonas valanciunas beat the buzzer” a jonas valanciunas is a basketball player",
+            "url": "https://medium.com/@elbakiank/a-primer-for-chain-of-thought-prompt-engineering-9f9e4c45e720",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible drew brees went for it on fourth down",
+            "content": "for instance by replacing the input sportsunderstandingdrew brees went for it on fourth down with sportfordrew brees we could use the prompt of",
+            "url": "https://www.collegesidekick.com/study-docs/22007521",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "is the following sentence plausible malcolm brogdon banked the shot in",
+            "content": "“malcolm brogdon banked the shot in” a malcolm brogdon is a basketball player banking the shot in is part of basketball so the answer is yes",
+            "url": "https://medium.com/@elbakiank/a-primer-for-chain-of-thought-prompt-engineering-9f9e4c45e720",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "is the following sentence plausible malcolm brogdon banked the shot in",
+            "content": "q is the following sentence plausible “malcolm brogdon banked the shot in” a malcolm brogdon is a basketball player banking the shot in is part of",
+            "url": "https://patents.google.com/patent/US20230244938A1/en",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "is the following sentence plausible malcolm brogdon banked the shot in",
+            "content": "q is the following sentence plausible “malcolm brogdon banked the shot in” a malcolm brogdon is a basketball player banking the shot in is part of",
+            "url": "https://download.arxiv.org/pdf/2201.11903v5",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible frederik andersen crossed the blue line in the stanley cup",
+            "content": "q is the following sentence plausible “frederik andersen crossed the blue line in the stanley cup” a frederik andersen is a hockey player crossing the",
+            "url": "https://www.greaterwrong.com/posts/ScyXz74hughga2ncZ/post-hoc-reasoning-in-chain-of-thought",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "is the following sentence plausible frederik andersen crossed the blue line in the stanley cup",
+            "content": "“frederik andersen crossed the blue line in the stanley cup” a frederik andersen is a hockey player crossing the blue line is a hockey term",
+            "url": "https://kyle-cox.com/2024/12/26/cot-interp/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible deaaron fox scored a bicycle kick",
+            "content": "q is the following sentence plausible “deaaron fox scored a bicycle kick” a deaaron fox is a basketball player scoring a bicycle kick is a common goal in",
+            "url": "https://www.greaterwrong.com/posts/ScyXz74hughga2ncZ/post-hoc-reasoning-in-chain-of-thought",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "is the following sentence plausible deaaron fox scored a bicycle kick",
+            "content": "q is the following sentence plausible “deaaron fox scored a bicycle kick” a deaaron fox is a basketball player scoring a bicycle kick is",
+            "url": "https://kyle-cox.com/2024/12/26/cot-interp/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "is the following sentence plausible nazem kadri was out at home",
+            "content": "by j wei “nazem kadri was out at home” model answer incorrect nazem kadri is a hockey player being out at home is part of hockey so the answer is yes",
+            "url": "https://webdocs.cs.ualberta.ca/~dale/papers/neurips22a.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "is the following sentence plausible nazem kadri was out at home",
+            "content": "question is the following sentence plausible “nazem kadri was out at home” model answer incorrect nazem kadri is a hockey player being out at home is",
+            "url": "https://download.arxiv.org/pdf/2201.11903v5",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "is the following sentence plausible draymond green threw a touchdown",
+            "content": "so the answer is no q is the following sentence plausible “draymond green threw a touchdown” a draymond green is a basketball player",
+            "url": "https://medium.com/@elbakiank/a-primer-for-chain-of-thought-prompt-engineering-9f9e4c45e720",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible wayne rooney threw a touchdown in the superbowl",
+            "content": "q is the following sentence plausible “wayne rooney threw a touchdown in the superbowl” a wayne rooney is a soccer player touchdowns are scored in american",
+            "url": "https://www.greaterwrong.com/posts/ScyXz74hughga2ncZ/post-hoc-reasoning-in-chain-of-thought",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "is the following sentence plausible wayne rooney threw a touchdown in the superbowl",
+            "content": "q is the following sentence plausible “wayne rooney threw a touchdown in the superbowl” a wayne rooney is a soccer player touchdowns are",
+            "url": "https://kyle-cox.com/2024/12/26/cot-interp/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible adam thielen got on base",
+            "content": "q is the following sentence plausible “adam thielen got on base” a adam thielen is a football player getting on base is a common action in football so the",
+            "url": "https://www.greaterwrong.com/posts/ScyXz74hughga2ncZ/post-hoc-reasoning-in-chain-of-thought",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible amari cooper scored a penalty kick",
+            "content": "q is the following sentence plausible “amari cooper scored a penalty kick” a amari cooper is a football player penalty kicks are part of soccer so the",
+            "url": "https://www.greaterwrong.com/posts/ScyXz74hughga2ncZ/post-hoc-reasoning-in-chain-of-thought",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "is the following sentence plausible joao moutinho was out at third",
+            "content": "by j wei “joao moutinho was out at third” model answer correct joao moutinho is a soccer player being out at third is part of baseball not soccer so the",
+            "url": "https://webdocs.cs.ualberta.ca/~dale/papers/neurips22a.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible nathan mackinnon bricked the three pointer in the eastern conference finals",
+            "content": "is the following sentence plausible nathan mackinnon bricked the three pointer in the eastern conference finals question 1 the sentence mentions",
+            "url": "https://dev.datascienceassn.org/sites/default/files/pdf_files/LogicPro%20Improving%20Complex%20Logical%20Reasoning%20via%20Program-Guided%20Learning.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "is the following sentence plausible robin lehner launched the desperation heave",
+            "content": "by y xie evaluation q is the following sentence plausible “robin lehner launched the desperation heave” a robin lehner is a hockey player is the above step of",
+            "url": "https://www.comp.nus.edu.sg/~kanmy/papers/_Camera_Ready__Self_Eval_Guided_Decoding__NeurIPS23_Submission_.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "is the following sentence plausible pedro struck out the side",
+            "content": "pedro struck out the side 18 times in his 2131 ip and has struck out 10 or more batters 54 times in his career 27 times as a red sox pedro martinez",
+            "url": "https://www.govinfo.gov/content/pkg/CRECB-1999-pt21/html/CRECB-1999-pt21-issue-1999-11-17.htm",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "is the following sentence plausible drew brees went for it on fourth down",
+            "content": "for instance by replacing the input sportsunderstandingdrew brees went for it on fourth down with sportfordrew brees we could use the prompt of",
+            "url": "https://www.collegesidekick.com/study-docs/22007521",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "is the following sentence plausible malcolm brogdon banked the shot in",
+            "content": "“malcolm brogdon banked the shot in” a malcolm brogdon is a basketball player banking the shot in is part of basketball so the answer is yes",
+            "url": "https://medium.com/@elbakiank/a-primer-for-chain-of-thought-prompt-engineering-9f9e4c45e720",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "is the following sentence plausible malcolm brogdon banked the shot in",
+            "content": "q is the following sentence plausible “malcolm brogdon banked the shot in” a malcolm brogdon is a basketball player banking the shot in is part of",
+            "url": "https://patents.google.com/patent/US20230244938A1/en",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "is the following sentence plausible malcolm brogdon banked the shot in",
+            "content": "q is the following sentence plausible “malcolm brogdon banked the shot in” a malcolm brogdon is a basketball player banking the shot in is part of",
+            "url": "https://download.arxiv.org/pdf/2201.11903v5",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible frederik andersen crossed the blue line in the stanley cup",
+            "content": "q is the following sentence plausible “frederik andersen crossed the blue line in the stanley cup” a frederik andersen is a hockey player crossing the",
+            "url": "https://www.greaterwrong.com/posts/ScyXz74hughga2ncZ/post-hoc-reasoning-in-chain-of-thought",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "is the following sentence plausible frederik andersen crossed the blue line in the stanley cup",
+            "content": "“frederik andersen crossed the blue line in the stanley cup” a frederik andersen is a hockey player crossing the blue line is a hockey term",
+            "url": "https://kyle-cox.com/2024/12/26/cot-interp/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible deaaron fox scored a bicycle kick",
+            "content": "q is the following sentence plausible “deaaron fox scored a bicycle kick” a deaaron fox is a basketball player scoring a bicycle kick is a common goal in",
+            "url": "https://www.greaterwrong.com/posts/ScyXz74hughga2ncZ/post-hoc-reasoning-in-chain-of-thought",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "is the following sentence plausible deaaron fox scored a bicycle kick",
+            "content": "q is the following sentence plausible “deaaron fox scored a bicycle kick” a deaaron fox is a basketball player scoring a bicycle kick is",
+            "url": "https://kyle-cox.com/2024/12/26/cot-interp/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "is the following sentence plausible nazem kadri was out at home",
+            "content": "by j wei “nazem kadri was out at home” model answer incorrect nazem kadri is a hockey player being out at home is part of hockey so the answer is yes",
+            "url": "https://webdocs.cs.ualberta.ca/~dale/papers/neurips22a.pdf",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "is the following sentence plausible nazem kadri was out at home",
+            "content": "question is the following sentence plausible “nazem kadri was out at home” model answer incorrect nazem kadri is a hockey player being out at home is",
+            "url": "https://download.arxiv.org/pdf/2201.11903v5",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible wayne rooney threw a touchdown in the superbowl",
+            "content": "q is the following sentence plausible “wayne rooney threw a touchdown in the superbowl” a wayne rooney is a soccer player touchdowns are scored in american",
+            "url": "https://www.greaterwrong.com/posts/ScyXz74hughga2ncZ/post-hoc-reasoning-in-chain-of-thought",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "is the following sentence plausible wayne rooney threw a touchdown in the superbowl",
+            "content": "q is the following sentence plausible “wayne rooney threw a touchdown in the superbowl” a wayne rooney is a soccer player touchdowns are",
+            "url": "https://kyle-cox.com/2024/12/26/cot-interp/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "is the following sentence plausible joao moutinho was out at third",
+            "content": "by j wei “joao moutinho was out at third” model answer correct joao moutinho is a soccer player being out at third is part of baseball not soccer so the",
+            "url": "https://webdocs.cs.ualberta.ca/~dale/papers/neurips22a.pdf",
+            "engine": "ddg"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 6,
+            "query": "is the following sentence plausible thomas muller hit a triple",
+            "content": "thomas müller and tomasz placek 1 page 5 oup ♢ corrected proof 3 oxford are the following is the theory intended to be reductive with respect to",
+            "url": "https://academic.oup.com/book/43508/book-pdf/53430491/9780190884321_web.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible james karinchak worked a full count",
+            "content": "were still talking about a premium fastball here though one that plays in a similar fashion to james karinchaks and nick andersons heaters",
+            "url": "https://blogs.fangraphs.com/top-65-prospects-texas-rangers/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "is the following sentence plausible jonas valanciunas beat the buzzer",
+            "content": "jonas valanciunas beat the buzzer” saycan translation of human input into a sequence of robot actions such as “im hungry can you bring me",
+            "url": "https://pakhapoomsarapat.medium.com/think-step-by-step-with-a-chain-of-thought-df813a0113d2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible zach lavine shot the puck",
+            "content": "from the lows of the last three games the cubs winning all three was extremely unlikely",
+            "url": "https://www.bleachernation.com/cubs/2017/04/22/the-cubs-pulled-off-their-third-straight-improbable-comeback-a-1-in-6500-feat/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "is the following sentence plausible jonas valanciunas beat the buzzer",
+            "content": "jonas valanciunas beat the buzzer” saycan translation of human input into a sequence of robot actions such as “im hungry can you bring me",
+            "url": "https://pakhapoomsarapat.medium.com/think-step-by-step-with-a-chain-of-thought-df813a0113d2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "is the following sentence plausible michael thomas took the snap",
+            "content": "item was taken from mwaled a less known meaning of clear was used an ex ample sentence the plane took off as soon as it was cleared in one of the",
+            "url": "https://repozytorium.amu.edu.pl/bitstreams/a14f345c-66a4-4dd0-8c09-69ffb641d70f/download",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible blake snell hit a single",
+            "content": "blake snell threw a nohitter the white sox are working on a nowinner and something has to give in los angeles this week",
+            "url": "https://www.nytimes.com/athletic/5681805/2024/08/05/blake-snell-no-hitter-white-sox-losing-streak-the-windup/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible mike williams fumbled the ball in the superbowl",
+            "content": "however the defense forced a punt from the end zone and six plays later a wilson moon ball to the newlyacquired mike williams put the",
+            "url": "https://www.behindthesteelcurtain.com/2024/11/10/24293027/the-pittsburgh-steelers-are-legitimate-super-bowl-contenders-russell-wilson-jaylen-warren-nfl",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible pepe converted the first down",
+            "content": "petitioners assert that “like the first downconversion module the second downconversion module green mixer 11 down converts the received",
+            "url": "https://www.supremecourt.gov/DocketPDF/24/24A208/323253/20240823123939058_Ex.%20A%20-%20IPR2021-00985%20-%20Paper%2044%20-%20Final%20Written%20Decision%20835%20patent%20-%2011-17-22.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "is the following sentence plausible allen robinson gained five yards",
+            "content": "mon inheritance of the science and for the others i have read some work or works from everystate in the union in order that the book may show all",
+            "url": "https://scispace.com/pdf/a-comprehensive-grammar-of-the-english-language-1bky2kjofz.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible draymond green threw a touchdown",
+            "content": "task sports understanding input statement draymond green threw a touchdown plausibleimplausible task emoji movie input what movie does this emoji",
+            "url": "https://www.research.ed.ac.uk/files/472000513/OzturklerEtalACL2023ThinkSumProbabilisticReasoning.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "is the following sentence plausible ryan oreilly hit the wheel route",
+            "content": "2 work in groups which of the things below have you experienced personally describe what happened and what you found interesting about the experience",
+            "url": "https://dl.sadeghi-hariri.com/140002/Cutting%20Edge/Cutting-Edge-Advanced.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "is the following sentence plausible adam thielen got on base",
+            "content": "“adam thielen got on base” a adam thielen is a football player getting on base is a common action in football so the best answer is b yes",
+            "url": "https://kyle-cox.com/2024/12/26/cot-interp/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "is the following sentence plausible amari cooper scored a penalty kick",
+            "content": "“amari cooper scored a penalty kick” a amari cooper is a football player penalty kicks are part of soccer so the best answer is a yes",
+            "url": "https://kyle-cox.com/2024/12/26/cot-interp/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible corbin burnes earned an indirect kick",
+            "content": "corbin brian burnes born october 22 1994 is an american professional baseball pitcher for the arizona diamondbacks of major league baseball mlb he has previously played in mlb for the milwaukee brewers and baltimore orioles burnes was selected by the brewers in the fourth round of the",
+            "url": "https://en.wikipedia.org/wiki/Corbin_Burnes",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "is the following sentence plausible tuukka rask killed the powerplay",
+            "content": "tuukka mikael rask born 10 march 1987 is a finnish former professional ice hockey goaltender rask was drafted 21st overall in the 2005 nhl entry draft by the toronto maple leafs before being traded to the boston bruins in 2006 where he played his entire 15 season nhl career",
+            "url": "https://en.wikipedia.org/wiki/Tuukka_Rask",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible kendrick nunn took a charge",
+            "content": "illinois fighting illini basketball player kendrick nunn was arrested and charged with domestic battery thursday after allegedly quots triking a woman in her apartment wednesday eveningquot according to the newsgazette x27s mary schenk",
+            "url": "https://bleacherreport.com/articles/2625652-kendrick-nunn-charged-with-domestic-battery-latest-details-and-comments",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible jayson tatum was called for the goal tend",
+            "content": "jayson tatum doesnx27t seem to be a big fan of quotthe anomalyquot nickname preferring one of his older nicknames instead",
+            "url": "https://www.boston.com/sports/boston-celtics/2025/03/09/jayson-tatum-nickname-the-anomaly-player-a-big-deuce/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible mathew barzal called for the screen",
+            "content": "barzal kneecap was transferred to longterm injured reserve wednesday stefen rosner of nhlcom reports analysis this is simply a procedural move for the islanders as they needed to free up cap space to activate noah dobson lower body from longterm injured reserve",
+            "url": "https://www.rotowire.com/hockey/player/mathew-barzal-4778",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible john tavares earned a trip to the penalty box in the stanley cup",
+            "content": "checkout the latest stats of john tavares get info about his position age height weight trade draft and more on hockeyreferencecom",
+            "url": "https://www.hockey-reference.com/players/t/tavarjo01.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible edinson cavani caught the screen pass",
+            "content": "uruguayx27s superstar edinson cavani was so enraged with var after the south american sides clash with ghana he lashed out at the var monitor after the heated ending to the game",
+            "url": "https://www.dailystar.co.uk/sport/football/edinson-cavani-var-world-cup-28643492",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "is the following sentence plausible courtland sutton hit a triple",
+            "content": "courtland jaleel sutton born october 10 1995 is an american professional football wide receiver for the denver broncos of the national football league nfl he played college football at smu and was selected by the broncos in the second round of the 2018 nfl draft",
+            "url": "https://en.wikipedia.org/wiki/Courtland_Sutton",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible max scherzer was safe at first",
+            "content": "max scherzer stats age position height weight fantasy amp news",
+            "url": "https://www.mlb.com/player/max-scherzer-453286",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible andrei svechnikov took ball four",
+            "content": "andrei igorevich svechnikov russian андрей игоревич свечников ipa ɐnˈdrʲej ˈiɡərʲɪvʲɪtɕ ˈsvʲetɕnʲɪkəf born 26 march 2000 is a russian professional ice hockey winger for the carolina hurricanes of the national hockey league nhl",
+            "url": "https://en.wikipedia.org/wiki/Andrei_Svechnikov",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible brandon lowe took a left footed shot",
+            "content": "click herepointup2to get an answer to your question writinghandcombine the following pair of sentences by using a participlethe hunter took up his gun",
+            "url": "https://www.toppr.com/ask/en-in/question/combine-the-following-pair-of-sentences-by-using-a-participlethe-hunter-took-up-his-gun/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible lamelo ball launched the half court shot in the western conference finals",
+            "content": "as a 15yearold sophomore thenchino hills guard lamelo ball went viral on social media for pointing the halfcourt line and connecting the longdistanced shot",
+            "url": "https://thesportsrush.com/lamelo-ball-really-pointed-at-the-half-court-line-and-knocked-down-the-shot-when-the-hornets-roy-went-viral-on-social-media-for-hitting-a-half-court-shot-as-a-15-year-old/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "is the following sentence plausible juan soto shot from beyond the arc",
+            "content": "shot from beyond the arc find potential answers to this crossword clue at crosswordnexuscom",
+            "url": "https://www.crosswordnexus.com/clue/shot-from-beyond-the-arc",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible cooper kupp scored in the third period in the stanley cup",
+            "content": "cooper douglas kupp born june 15 1993 is an american professional football wide receiver who is a free agent he played college football at eastern washington where he won the walter payton award as a junior and was selected by the rams in the third round of the 2017 nfl draft",
+            "url": "https://en.wikipedia.org/wiki/Cooper_Kupp",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible carson wentz caught the screen pass",
+            "content": "70 votes 35 comments 25m members in the nfl community this is a subreddit for the nfl community",
+            "url": "https://www.reddit.com/r/nfl/comments/e12rgy/kleiman_highlights_carson_wentz_overthrows_a/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible kailer yamamoto caught the back shoulder fade",
+            "content": "if you watched last nightx27s game between the edmonton oilers and stlouis blues you are likely wellaware that the referees were favouriting the blues throughout the entire game and even called back the oilers game winning goal in overtime",
+            "url": "https://www.oilersdaily.com/Kailer-Yamamoto-Caught-on-Arena-Mic-Cussing-Out-Referee-188008",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "is the following sentence plausible david silva took a throw in",
+            "content": "sf killer admits to 4 more slayings convict demands death sentence in return for",
+            "url": "https://www.sfgate.com/news/article/s-f-killer-admits-to-4-more-slayings-convict-2625563.php",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible dj chark caught the back shoulder fade in the nfc divisional round",
+            "content": "get the latest nfl news on dj chark jr stay up to date with nfl player news rumors updates analysis social feeds and more at fox sports",
+            "url": "https://www.foxsports.com/nfl/dj-chark-player",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible mark stone spent time in the penalty box in the stanley cup",
+            "content": "forward recovered from back surgeries x27makes plays that other guys canx27tx27",
+            "url": "https://www.nhl.com/news/mark-stone-doing-it-all-for-vegas-golden-knights-in-playoffs-following-injuries/c-344489578",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible eden hazard hit the buzzer beater",
+            "content": "in timed sports a buzzer beater is a successful shot that upon completion leaves zero seconds on the game clock a buzzer sounds whenever a game clock expires hence the name quotbuzzer beaterquot in basketball the concept normally applies to baskets that beat an endofquarter2ndhalfovertime",
+            "url": "https://en.wikipedia.org/wiki/Buzzer_beater",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible trae young got into the endzone",
+            "content": "x27end zonex27 in a sentence bleachers will run along the width of the north end zone",
+            "url": "https://www.merriam-webster.com/sentences/end%20zone",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible caris levert scored a reverse dunk",
+            "content": "caris coleman levert ˈkɛərɪs ləˈvɜːrt kairiss ləvurt born august 25 1994 is an american professional basketball player for the atlanta hawks of the national basketball association nba he played college basketball for the michigan wolverines",
+            "url": "https://en.wikipedia.org/wiki/Caris_LeVert",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible jordan binnington scored in the third period",
+            "content": "jordan binnington born july 11 1993 is a canadian professional ice hockey goaltender for the st louis blues of the national hockey league nhl binnington was raised in richmond hill and toronto ontario he played major junior hockey for the owen sound attack of the ontario hockey league",
+            "url": "https://en.wikipedia.org/wiki/Jordan_Binnington",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "is the following sentence plausible sean couturier passed the puck in the stanley cup",
+            "content": "sean gerald couturier kuːˈtʊərieɪ kootooreeay born december 7 1992 is an americanborn canadian professional ice hockey player and captain of the philadelphia flyers of the national hockey league nhl the flyers selected him in the first round eighth overall in the 2011 nhl",
+            "url": "https://en.wikipedia.org/wiki/Sean_Couturier",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible bryce harper fumbled the ball",
+            "content": "hi i donx27t understand this expression in the following sentence i thought he would do well as my successor but he fumbled the ball i found",
+            "url": "https://forum.wordreference.com/threads/he-fumbled-the-ball.184715/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible patrice bergeron took a backhand shot",
+            "content": "boston bruins captain patrice bergeron tied the game at 1609 with a nifty backhander against the visiting carolina hurricanes",
+            "url": "https://nesn.com/2022/05/how-did-patrice-bergeron-find-angle-for-this-nifty-game-tying-backhand/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible jerry jeudy killed the powerplay",
+            "content": "new article from theathleticcom makes bad owner look ever worse",
+            "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-woody-johnson-killed-trade-for-jerry-jeudy-over-his-madden-rating",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "is the following sentence plausible bryce harper hit the back shoulder fade",
+            "content": "when you’re one of the blessedly coiffed you show it off",
+            "url": "https://www.thegoodphight.com/2024/2/16/24051097/the-many-spring-hairstyles-of-bryce-harper",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible petr cech bricked the three pointer",
+            "content": "petr čech czech pronunciation pɛtr̩ ˈtʃɛx ⓘ born 20 may 1982 is a czech former professional footballer who played as a goalkeeper and current ice hockey player who plays as a goaltender for oxford city stars he has been described as one of the greatest goalkeepers of all time",
+            "url": "https://en.wikipedia.org/wiki/Petr_%C4%8Cech",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible dejounte murray took a sidestep three",
+            "content": "the new orleans pelicans debut of point guard dejounte murray had its shining moments he nearly recorded a tripledouble scoring 14 points with 10 assists and",
+            "url": "https://www.si.com/nba/pelicans/news/3-new-orleans-pelicans-players-who-need-to-step-up-in-dejounte-murray-absence",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "is the following sentence plausible neal pionk shot from the six yard line",
+            "content": "after recording a goal and an assist in a twogame series against the umass lowell river hawks pionk began the 201617 season as the nchc defenseman of the week for the week ending october 10 he received the award again on december 12 after recording three points six blocked shots and a",
+            "url": "https://en.wikipedia.org/wiki/Neal_Pionk",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "is the following sentence plausible nathan mackinnon bricked the three pointer in the eastern conference finals",
+            "content": "nathan raymond mackinnon born september 1 1995 is a canadian professional ice hockey centre and alternate captain for the colorado avalanche of the national hockey league nhl mackinnon was selected first overall by the avalanche in the 2013 nhl entry draft",
+            "url": "https://en.wikipedia.org/wiki/Nathan_MacKinnon",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible emmanuel sanders got a base hit",
+            "content": "91 votes 64 comments 11m subscribers in the nfl community the place to discuss all nfl related things",
+            "url": "https://www.reddit.com/r/nfl/comments/qjjsli/one_of_the_biggest_hits_ive_ever_seen_emmanuel/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible malcolm brogdon drove into the restricted area in the eastern conference finals",
+            "content": "on january 14 2023 brogdon scored a seasonhigh 30 points on 11of17 shooting from the field and 4of6 from threepoint range against the charlotte hornets on april 20 he was named the nba sixth man of the year during the eastern conference finals versus the miami heat brogdon played",
+            "url": "https://en.wikipedia.org/wiki/Malcolm_Brogdon",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible sterling shepard hit a walkoff homer",
+            "content": "27k votes 211 comments yesterday the white sox lost a walkoff to the twins when pitcher juan minaya hit max kepler with the bases loaded and two…",
+            "url": "https://www.reddit.com/r/baseball/comments/6xf8k1/proposal_a_game_ending_in_a_walkoff_hitbypitch/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible keenan allen beat the buzzer in the western conference finals",
+            "content": "the 2001 nba finals was the championship series of the national basketball associationx27s nba 200001 season and the conclusion of the seasonx27s playoffs the defending nba champion and western conference champion los angeles lakers took on the eastern conference champion philadelphia 76ers",
+            "url": "https://en.wikipedia.org/wiki/2001_NBA_Finals",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "is the following sentence plausible collin sexton hit the buzzer beater",
+            "content": "on november 25 2017 he scored 40 points while playing shorthanded 3on5 during most of the second half in a loss to the university of minnesota in the opening game of the sec tournament collin sexton scored 27 points against texas aampm including the game winning buzzerbeater then 31",
+            "url": "https://en.wikipedia.org/wiki/Collin_Sexton",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible stephen curry scored a reverse layup",
+            "content": "steph curry made a fantastic layup during wednesdayx27s game",
+            "url": "https://www.si.com/fannation/nba/fastbreak/news/steph-curry-reverse-layup-went-viral-in-clippers-warriors-game-nba-wednesday",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible carles puyol did a maradona on the defender",
+            "content": "carles puyol saforcada catalan ˈkaɾləs puˈjɔl səfuɾˈkaðə spanish ˈkaɾles puˈʝol safoɾˈkaða born 13 april 1978 is a spanish former professional footballer who played his entire career for barcelona considered one of the greatest football defenders ever and one of",
+            "url": "https://en.wikipedia.org/wiki/Carles_Puyol",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible michael porter jr called for the screen",
+            "content": "checkout the latest stats of michael porter jr get info about his position age height weight draft status shoots school and more on basketballreferencecom",
+            "url": "https://www.basketball-reference.com/players/p/portemi01.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible ty hilton drew a flag on the play",
+            "content": "colts wide receiver ty hilton shared a short video on saturday afternoon to let everyone know that his 4yearold son is the best athlete in the family from the hashtags it looks like his sonx27s nickname is little ghost and you can see why hiltonx27s tiny child sent a much taller child",
+            "url": "https://www.usatoday.com/story/sports/ftw/2017/04/29/ty-hiltons-4yearold-is-the-single-greatest-flag-football-player-ever/101079782/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible mike trout eurostepped to the basket",
+            "content": "michael nelson trout born august 7 1991 is an american professional baseball outfielder for the los angeles angels of major league baseball mlb trout is an 11time allstar threetime american league al most valuable player mvp winning the award in 2014 2016 and 2019 while finishing",
+            "url": "https://en.wikipedia.org/wiki/Mike_Trout",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible nick castellanos hit the wheel route",
+            "content": "quota drive into deep left field by castellanosquot is a phrase spoken by thom brennaman a playbyplay announcer for the cincinnati reds during a baseball game against the kansas city royals on august 19 2020 brennaman had been replaced in the middle of the broadcast for a hot mic gaffe in which",
+            "url": "https://en.wikipedia.org/wiki/A_drive_into_deep_left_field_by_Castellanos",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "is the following sentence plausible aj green scored in the third period",
+            "content": "transformative artificially intelligent tools such as chatgpt designed to generate sophisticated text indistinguishable from that produced by a huma…",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0268401223000233",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "is the following sentence plausible robert woods killed the powerplay",
+            "content": "a sentence of death words that killed a president hardcover",
+            "url": "https://loiaconoliteraryagency.com/a-sentence-of-death-words-that-killed-a-president/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible nazem kadri took a charge in the nba championship",
+            "content": "nazem kadri born october 6 1990 is a canadian professional ice hockey player and alternate captain for the calgary flames of the national hockey league nhl kadri won the stanley cup with the colorado avalanche in 2022 becoming the first muslim player to hoist the trophy",
+            "url": "https://en.wikipedia.org/wiki/Nazem_Kadri",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible didier drogba got into the endzone",
+            "content": "didier yves drogba tébily french pronunciation didje iv dʁɔɡba tebili born 11 march 1978 is an ivorian former professional footballer who played as a striker he is the alltime top scorer and former captain of the ivory coast national team he is known for his career at chelsea",
+            "url": "https://en.wikipedia.org/wiki/Didier_Drogba",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible jesus luzardo was called for slashing",
+            "content": "following a saturday night bullpen implosion against the yankees athletics lefty jesús luzardo set a club record as the first reliever to give up a homer in 5 straight appearances luzardo was the…",
+            "url": "https://maxsportingstudio.com/level-of-concern-jesus-luzardos-struggles/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible marcell ozuna scored a touchdown",
+            "content": "the marlins as bad as they are have an entertainingly wanton disregard of service time considerations for their top prospects marcell ozuna is one example of this philosophy or lack thereof",
+            "url": "https://fantasy.fangraphs.com/an-attempt-to-solve-the-mystery-of-marcell-ozuna/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible stephan el shaarawy shot with the left foot",
+            "content": "since his breakthrough season el shaarawy was considered to be an upandcoming potentially worldclass player and one of the most promising and talented young italian players a versatile and hardworking forward he primarily plays as a left winger a position which allows him to cut into the centre onto his stronger right foot and either attempt a shot",
+            "url": "https://en.wikipedia.org/wiki/Stephan_El_Shaarawy",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible mikal bridges scored a windmill dunk",
+            "content": "mikal bridges mɪˈkɛl mihkel born august 30 1996 is an american professional basketball player for the new york knicks of the national basketball association nba he played college basketball for the villanova wildcats winning national championships in 2016 and 2018",
+            "url": "https://en.wikipedia.org/wiki/Mikal_Bridges",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "is the following sentence plausible robin lehner launched the desperation heave",
+            "content": "robin lehner tweeted some very scary and dark posts just the other day and today he broke his silence by texting a close friend about the situation in",
+            "url": "https://www.yardbarker.com/nhl/articles/robin_lehner_breaks_his_silence_following_his_dark_and_scary_social_media_posts/s1_17448_41459714",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible robert lewandowski threw a touchdown",
+            "content": "robert lewandowski polish pronunciation ˈrɔbɛrt lɛvanˈdɔfskʲi ⓘ born 21 august 1988 is a polish professional footballer who plays as a striker for la liga club barcelona and captains the poland national team regarded as one of the best strikers of all time he is one of the",
+            "url": "https://en.wikipedia.org/wiki/Robert_Lewandowski",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible josh allen hit the screen pass",
+            "content": "buffalo bills quarterback josh allen stands in the pocket on play action as he floats a 22yard pass to tight end jason croom",
+            "url": "https://www.buffalobills.com/video/josh-allen-takes-hit-and-completes-22-yard-pass-to-jason-croom",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible tom brady was safe at first",
+            "content": "thomas edward patrick brady jr born august 3 1977 is an american former professional football quarterback and current sports broadcaster who played in the national football league nfl for 23 seasons he spent his first 20 seasons with the new england patriots and was a central contributor",
+            "url": "https://en.wikipedia.org/wiki/Tom_Brady",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible elias lindholm took the snap",
+            "content": "elias viktor zebulon lindholm born 2 december 1994 is a swedish professional ice hockey player for the boston bruins of the national hockey league nhl he was selected by the carolina hurricanes in the first round 5th overall of the 2013 nhl entry draft and spent his first five nhl seasons",
+            "url": "https://en.wikipedia.org/wiki/Elias_Lindholm",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible jonathan marchessault went five hole",
+            "content": "jonathan marchessault gets alex pietrangelox27s pass and fires a wrister between the goaliex27s legs to make it 21 early in the 2nd period recap stars at golden knights 5324",
+            "url": "https://www.nhl.com/video/marchessault-goes-five-hole/c-15884163",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "is the following sentence plausible delon wright went for it on fourth down",
+            "content": "delon reginald wright born april 26 1992 is an american professional basketball player for the new york knicks of the national basketball association nba he played college basketball for the cc of san francisco rams and the utah utes being a firstteam allconference player in the pac12",
+            "url": "https://en.wikipedia.org/wiki/Delon_Wright",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible mike hoffman launched the half court shot in the western conference finals",
+            "content": "a halfcourt shot is a shot taken from beyond the 3pointer line as defined by a semicircular line before the 2pointer zone anything beyond the halfcourt line and on the side of the court a team or player is defending is considered a fullcourt shot it is most commonly used as a buzzer",
+            "url": "https://en.wikipedia.org/wiki/Half-court_shot",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible keenan allen drew a flag on the play in the nfc championship",
+            "content": "keenan alexander allen born april 27 1992 is an american professional football wide receiver for the chicago bears of the national football league nfl he played college football for the california golden bears before leaving after his junior year he was selected by the san diego chargers",
+            "url": "https://en.wikipedia.org/wiki/Keenan_Allen",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible brandon woodruff set the hard screen in the eastern conference finals",
+            "content": "woodruff shoulder will pitch in sundayx27s cactus league game against the guardians adam mccalvy of mlbcom reports analysis woodruff was able to pitch in a minorleague game tuesday his first taste of game action since undergoing surgery on his shoulder in october 2023",
+            "url": "https://www.rotowire.com/baseball/player/brandon-woodruff-14525",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible nick foles lost control of the puck",
+            "content": "nicholas edward foles born january 20 1989 is an american former professional football quarterback who played in the national football league nfl for 11 seasons a member of six teams he achieved his greatest success with the philadelphia eagles leading the franchise to their first super",
+            "url": "https://en.wikipedia.org/wiki/Nick_Foles",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "is the following sentence plausible dylan larkin walked on ball four",
+            "content": "dylan larkin tallied team usax27s gamewinning goal in their win over canada and did so right in front of the section his parents were sitting in",
+            "url": "https://www.outkick.com/sports/dylan-larkin-game-winner-usa-canada-four-nations-parents",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible ryan fitzpatrick scored a touchdown",
+            "content": "making his first start for the browns fitzpatrick threw for 179 yards two touchdowns and an interception in the 3110 victory in the next game against the indianapolis colts on monday night football he threw for 244 yards two touchdowns and an interception as the jets won on the road by a score of 207 the following week against",
+            "url": "https://en.wikipedia.org/wiki/Ryan_Fitzpatrick",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "is the following sentence plausible carson wentz took to the ice",
+            "content": "carson james wentz born december 30 1992 is an american professional football quarterback for the kansas city chiefs of the national football league nfl he played college football for the north dakota state bison where he won two consecutive ncaa fcs national championships as the starter",
+            "url": "https://en.wikipedia.org/wiki/Carson_Wentz",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible philip rivers launched a hail mary",
+            "content": "buffalo bills deny philip riversx27 hail mary heave to secure first playoff win since 1995",
+            "url": "https://www.nfl.com/videos/bills-deny-rivers-hail-mary-heave-to-secure-first-playoff-win-since-1995",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "is the following sentence plausible yaya toure scored a freekick",
+            "content": "877 votes 88 comments 66m subscribers in the soccer community the football subreddit news results and discussion about the beautiful game",
+            "url": "https://www.reddit.com/r/soccer/comments/1tecry/yaya_toure_freekick_goal_vs_fulham/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible sergio ramos hit nothing but net",
+            "content": "sergio ramos garcía spanish pronunciation ˈseɾxjo ˈramos ɣaɾˈθia born 30 march 1986 is a spanish professional footballer who plays as a centreback for and captains liga mx club monterrey regarded as one of the greatest defenders of all time ramos is known for his tackling",
+            "url": "https://en.wikipedia.org/wiki/Sergio_Ramos",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible fred vanvleet passed the puck",
+            "content": "fredderick edmond vanvleet is the son of susan vanvleet and stepfather joe danforth he was born in 1994 in rockford illinois where he played four years of high school ball at auburn high school after his senior year he was named a 2012 allstate first team member by both the chicago suntimes",
+            "url": "https://www.rotowire.com/basketball/player/fred-vanvleet-3935",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible tristan jarry dunked the ball",
+            "content": "325 sentence examples audio how to make use write and learn quotdunkedquot in a sentence the word quotdunkedquot in 325 sentence examples",
+            "url": "https://www.translateen.com/sentence/dunked-in-sentence-examples/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "is the following sentence plausible pedro struck out the side",
+            "content": "answers 1 on a question fill in the blank with the spanish word that best completes the following sentence pedro le da a claudio su esquiar pescar campeonato juguete",
+            "url": "https://ihomeworkhelpers.com/english/question19839470",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible jamal murray walked on ball four",
+            "content": "jamal murray born february 23 1997 is a canadian professional basketball player for the denver nuggets of the national basketball association nba he also represents the canadian national team and played one season of college basketball for the kentucky wildcats",
+            "url": "https://en.wikipedia.org/wiki/Jamal_Murray",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible ryan nugenthopkins killed the powerplay",
+            "content": "oilers power play much improved over last season can it last",
+            "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/ryan-nugent-hopkins-and-jordan-eberle-are-killing-it-on-the-power-play/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible jaylen brown comitted a three second violation",
+            "content": "1k votes 95 comments 74m subscribers in the nba community a subreddit dedicated to nba news and discussion",
+            "url": "https://www.reddit.com/r/nba/comments/13ijvbk/nba_official_the_following_was_announced_by_the/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible kwadwo asamoah was flagged on the play",
+            "content": "kwadwo asamoah kwəˈdʒoʊ æsəˈmoʊɑː kwəjoh assəmohah born 9 december 1988 is a ghanaian former professional footballer mainly a left midfielder or leftback he was also occasionally deployed as a central midfielder asamoah began his professional career with italian club",
+            "url": "https://en.wikipedia.org/wiki/Kwadwo_Asamoah",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "is the following sentence plausible drew brees went for it on fourth down",
+            "content": "drew brees thought hex27d done all he could to make the chargers his team turns out he thought wrong",
+            "url": "https://www.espn.com/espnmag/story/_/id/3673275",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible sean couturier maradonad the defender",
+            "content": "diego armando maradona franco spanish ˈdjeɣo maɾaˈðona 30 october 1960 25 november 2020 was an argentine professional football player and manager widely regarded as one of the greatest players in the history of the sport he was one of the two joint winners of the fifa player",
+            "url": "https://en.wikipedia.org/wiki/Diego_Maradona",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible khyri thomas changed direction in the backfield in the nfc championship",
+            "content": "khyri jaquan thomas born may 8 1996 is an american professional basketball player who last played for petkim spor of the basketbol süper ligi bsl he played college basketball for the creighton bluejays he was drafted 38th overall by the philadelphia 76ers in the 2018 nba draft and then",
+            "url": "https://en.wikipedia.org/wiki/Khyri_Thomas",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible frederik andersen converted the first down",
+            "content": "frederik andersen born 2 october 1989 is a danish professional ice hockey goaltender for the carolina hurricanes of the national hockey league nhl he previously played for the anaheim ducks and toronto maple leafs representing denmark andersen competed in the 2010 iihf world championship",
+            "url": "https://en.wikipedia.org/wiki/Frederik_Andersen",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible wayne rooney watched the pitch go by",
+            "content": "following a week where the england captain faced intense scrutiny off the pitch wayne rooney appeared calm and relaxed as he shared a joke with teammates at training",
+            "url": "https://www.dailymail.co.uk/sport/football/article-3964296/amp/Wayne-Rooney-plays-joker-Manchester-United-training.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible fernando tatis jr earned a red card",
+            "content": "fernando tatis jr rookie card guide includes a full fernando tatis jr rookie cards checklist images parallels analysis and more",
+            "url": "https://www.beckett.com/news/fernando-tatis-jr-rookie-card-guide/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible toni kroos performed a give and go",
+            "content": "this is the latest accepted revision reviewed on 2 march 2025 toni kroos born 4 january 1990 is a german former professional footballer who played as a midfielder regarded as one of the greatest midfielders of all time he was known for his vision passing crossing and setpiece ability",
+            "url": "https://en.wikipedia.org/wiki/Toni_Kroos",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible nerlens noel was out at home",
+            "content": "nerlens noel born april 10 1994 is an american professional basketball player who last played for the brooklyn nets of the national basketball association nba his collegiate basketball career ended in his first season with a tear of his anterior cruciate ligament acl at the university",
+            "url": "https://en.wikipedia.org/wiki/Nerlens_Noel",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible kyle connor eurostepped to the basket in the western conference finals",
+            "content": "letx27s get really dumb and relax a bit before the 4 nations faceoff final between canada and the us",
+            "url": "https://www.nytimes.com/athletic/6142659/2025/02/19/nhl-connor-mcdavid-best-name-players/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible kenta maeda caught the screen pass",
+            "content": "twins righthander kenta maeda is hoping for a september return following last yearx27s tommy john surgery read more at mlb trade rumors",
+            "url": "https://www.mlbtraderumors.com/2022/01/twins-rumors-kenta-maeda-september-return-tommy-john-surgery.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible jack flaherty walked to first base in the national league championship series",
+            "content": "flaherty was named the national league pitcher of the month for august after going 51 with a 071 era and he again won the award in september with a 082 era over 44 innings he ended the 2019 regular season with an 118 record and a 275 era over 33 starts striking out 231 over 196 1⁄3 innings becoming the thirdyoungest pitcher in baseball history to strike out at least 230 and walk 55 or fewer with a 275 era or lower following",
+            "url": "https://en.wikipedia.org/wiki/Jack_Flaherty",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible kevin durant hit a walkoff homer",
+            "content": "this question is a hypothetical based on the last play of game 5 of the 2014 nlcs san francisco batting in the bottom of the 9th score tied 33 runners arias at second and belt at first one ou",
+            "url": "https://sports.stackexchange.com/questions/6946/walkoff-homer-decisive-run-scores-but-following-runner-leaves-base-path",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible mitchell marner nutmegged the defender",
+            "content": "view the profile of toronto maple leafs right wing mitch marner on espn get the latest news live stats and game highlights",
+            "url": "https://www.espn.com/nhl/player/_/id/3899937/mitch-marner",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "is the following sentence plausible leon draisaitl grounded out to second base in the national league championship series",
+            "content": "leon tim draisaitl german ˈleːɔn ˈdʁaɪ̯ˌzaɪ̯tl̩ ⓘ born 27 october 1995 is a german professional ice hockey centre and alternate captain for the edmonton oilers of the national hockey league nhl in 2020 draisaitl became the first german player to win the art ross trophy",
+            "url": "https://en.wikipedia.org/wiki/Leon_Draisaitl",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible javier mascherano took a left footed shot",
+            "content": "javier alejandro mascherano spanish xaˈβjeɾ aleˈxandɾo mastʃeˈɾano born 8 june 1984 is an argentine football manager and former player who is the current head coach of major league soccer club inter miami",
+            "url": "https://en.wikipedia.org/wiki/Javier_Mascherano",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible tom wilson scored a penalty kick",
+            "content": "the tom wilson incident where he caught a sizeable piece of maple leafs’ goaltender jack campbell while skating past the net on thursday was an example of the nhlx27s version of plausible deniability justin bourne takes us inside the play",
+            "url": "https://www.sportsnet.ca/nhl/article/tom-wilson-brad-marchand-and-the-art-of-establishing-plausible-deniability/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible evander kane hit the slant pass in the afc divisional round",
+            "content": "evander frank kane born august 2 1991 is a canadian professional ice hockey winger for the edmonton oilers of the national hockey league nhl he played for the atlanta thrashers winnipeg jets buffalo sabres and san jose sharks kane was selected fourth overall by the thrashers in the",
+            "url": "https://en.wikipedia.org/wiki/Evander_Kane",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible mitchell trubisky caught the screen pass",
+            "content": "in week 7 in a loss to the new white be caught one yard short of the end zone trubisky threw for 333 yards two touchdowns and two interceptions while also rushing for 81 yards and a touchdown on the touchdown run from the patriotsx27 eightyard line he faced pressure that forced him to retreat horizontally across the field before running forward for the score while it is officially an eightyard touchdown run he ran a distance of 7191 yards on the play the following week he hit",
+            "url": "https://en.wikipedia.org/wiki/Mitchell_Trubisky",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible paulinho earned an indirect kick in the fa cup",
+            "content": "a free kick is a method of restarting play in association football it is awarded after an infringement of the laws by the opposing team free kicks may be either direct or indirect distinguished as follows an attacking goal may be scored directly from a direct free kick but not from an",
+            "url": "https://en.m.wikipedia.org/wiki/Free_kick_(association_football)",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible luka modric went in studs up in the fa cup",
+            "content": "this is the latest accepted revision reviewed on 13 march 2025 luka modrić pronounced lûːka mǒːdritɕ born 9 september 1985 is a croatian professional footballer who plays as a midfielder and captains both la liga club real madrid and the croatia national team",
+            "url": "https://en.wikipedia.org/wiki/Luka_Modri%C4%87",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible chris godwin crossed the blue line in the stanley cup",
+            "content": "checkout the latest stats for chris godwin get info about his position age height weight college draft and more on profootballreferencecom",
+            "url": "https://www.pro-football-reference.com/players/G/GodwCh00.htm",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "is the following sentence plausible jayson tatum nutmegged the defender",
+            "content": "tools and resources used by real general managers moderators bisme37 dirk kingdavid cupcakesnake bwgood77 zimpy27 infinite11285 domejandro ken6199",
+            "url": "https://forums.realgm.com/boards/viewtopic.php?t=2186979",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible santi cazorla earned a red card in the champions league final",
+            "content": "established in the main squad in the 200405 campaign cazorla scored four goals in a run to the quarterfinals of the seasonx27s uefa cup on 1 may 2005 given an opportunity due to juan román riquelmex27s suspension he scored his first league goal in a 40 win over getafe at el madrigal and followed it a week later with a strike in a 20 victory at málaga after contributing to an eventual fourthplace finish he also made two goalless appearances in the following seasonx27s uefa champions",
+            "url": "https://en.wikipedia.org/wiki/Santi_Cazorla",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible calvin ridley skated behind the net",
+            "content": "after announcing midway through that ridley would be suspended indefinitely through at least the conclusion of the 2022 season for violating the leaguex27s gambling policy while suspended he was traded to the jacksonville jaguars and was reinstated the following year calvin orin ridley",
+            "url": "https://en.wikipedia.org/wiki/Calvin_Ridley",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible bastian schweinsteiger scored in added time",
+            "content": "he is germanyx27s fourthmostcapped caps and scored 24 goals he was selected in their squads for four european championships and three world cups including their victory at the 2014 fifa world cup when he was widely regarded as one of the most important contributors in germanyx27s campaign playing an especially important role in defending lionel messi in the final following philipp lahmx27s international retirement on 2 september 2014 schweinsteiger was named",
+            "url": "https://en.wikipedia.org/wiki/Bastian_Schweinsteiger",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible mike trout hit a walkoff homer",
+            "content": "27k votes 211 comments yesterday the white sox lost a walkoff to the twins when pitcher juan minaya hit max kepler with the bases loaded and two…",
+            "url": "https://www.reddit.com/r/baseball/comments/6xf8k1/proposal_a_game_ending_in_a_walkoff_hitbypitch/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible deshaun watson took a corner kick",
+            "content": "an any given sunday moment could have happened last sunday",
+            "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/after-being-kicked-in-the-face-deshaun-watson-thought-his-eyeball-had-fallen-out",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible michael conforto comitted a three second violation",
+            "content": "michael thomas conforto born march 1 1993 nicknamed quotscooterquot is an american professional baseball outfielder for the los angeles dodgers of major league baseball mlb he has previously played in mlb for the new york mets and san francisco giants after conforto played college baseball",
+            "url": "https://en.wikipedia.org/wiki/Michael_Conforto",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible igor shesterkin launched a hail mary",
+            "content": "quota thrilling space adventure that combines science humanity and humor andy weir has done it againquot",
+            "url": "https://lifesuccessjournal.com/project-hail-mary/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible sergio busquets got on base",
+            "content": "on 7 october 2020 busquets captained the spanish for the first time in a goalless friendly draw away to portugal as sergio ramos was on the bench the following may he was included in luis enriquex27s 24man squad for uefa euro 2020 in the absence of ramos he was named captain",
+            "url": "https://en.wikipedia.org/wiki/Sergio_Busquets",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible klaas jan huntelaar shot the puck",
+            "content": "dirk jan klaas huntelaar born 12 august 1983 known professionally as klaasjan huntelaar dutch pronunciation ˌklaːˈɕjɑn ˈɦʏntəlaːr ⓘ is a dutch former professional footballer who played as a striker huntelaar played for psv de graafschap agovv apeldoorn heerenveen",
+            "url": "https://en.wikipedia.org/wiki/Klaas-Jan_Huntelaar",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible dani alves took the snap",
+            "content": "on 10 september 2021 alvesx27 representatives communicated to são paulo that he would no longer return to training and subsequently play for the club following a dispute over unpaid image rights his contract was terminated six days later são paulo fcx27s footballing director carlos belmonte stated daniel",
+            "url": "https://en.wikipedia.org/wiki/Dani_Alves",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible justin herbert maradonad the defender",
+            "content": "diego armando maradona franco spanish ˈdjeɣo maɾaˈðona 30 october 1960 25 november 2020 was an argentine professional football player and manager widely regarded as one of the greatest players in the history of the sport he was one of the two joint winners of the fifa player",
+            "url": "https://en.wikipedia.org/wiki/Diego_Maradona",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible dougie hamilton hit the buzzer beater",
+            "content": "in timed sports a buzzer beater is a successful shot that upon completion leaves zero seconds on the game clock a buzzer sounds whenever a game clock expires hence the name quotbuzzer beaterquot in basketball the concept normally applies to baskets that beat an endofquarter2ndhalfovertime",
+            "url": "https://en.wikipedia.org/wiki/Buzzer_beater",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible ryan tannehill hit a triple",
+            "content": "ryan timothy tannehill iii born july 27 1988 is an american professional football quarterback he played college football for the texas aampm aggies playing wide receiver until his junior year and was selected eighth overall by the miami dolphins in the 2012 nfl draft",
+            "url": "https://en.wikipedia.org/wiki/Ryan_Tannehill",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "is the following sentence plausible walker buehler earned a trip to the penalty box",
+            "content": "walker anthony buehler born july 28 1994 is an american professional baseball pitcher for the boston red sox of major league baseball mlb he has previously played in mlb for the los angeles dodgers buehler played college baseball for the vanderbilt commodores and was a member of their",
+            "url": "https://en.wikipedia.org/wiki/Walker_Buehler",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible aaron nola converted the first down",
+            "content": "aaron michael nola born june 4 1993 is an american professional baseball pitcher for the philadelphia phillies of major league baseball mlb nola was born in baton rouge louisiana and played baseball alongside his older brother austin his father a j served as nolax27s little league",
+            "url": "https://en.wikipedia.org/wiki/Aaron_Nola",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible pete alonso hit a triple in the world series",
+            "content": "205 votes 32 comments 28m subscribers in the baseball community the best subreddit for americax27s pastime baseball the focus is mainly on mlb…",
+            "url": "https://www.reddit.com/r/baseball/comments/15fw922/pete_alonso_gets_hit_in_the_face_attempting_to/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible mookie betts scored on the power play",
+            "content": "markus lynn quotmookiequot betts born october 7 1992 is an american professional baseball outfielder shortstop and second baseman for the los angeles dodgers of major league baseball mlb he has previously played in mlb for the boston red sox he is an eighttime allstar a seventime silver",
+            "url": "https://en.wikipedia.org/wiki/Mookie_Betts",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "is the following sentence plausible malcolm brogdon banked the shot in",
+            "content": "x27i really believe we have the talent i think we have the coachingx27 said brogdon",
+            "url": "https://money.yahoo.com/malcolm-brogdon-think-really-good-194042782.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "is the following sentence plausible gerrit cole committed a handball in the european cup",
+            "content": "check out the latest stats height weight position rookie status amp more of gerrit cole get info about his position age height weight draft status bats throws school and more on baseballreferencecom",
+            "url": "https://www.baseball-reference.com/players/c/colege01.shtml",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible domantas sabonis gained five yards in the afc championship",
+            "content": "this is the latest accepted revision reviewed on 10 march 2025 domantas sabonis lithuanian pronunciation ˈdoːmɐntɐs sɐˈboːnʲɪs born may 3 1996 is a lithuanianamerican professional basketball player for the sacramento kings of the national basketball association nba and",
+            "url": "https://en.wikipedia.org/wiki/Domantas_Sabonis",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible david pastrnak skated backwards",
+            "content": "the bruins have enough horsepower throughout their lineup to advance without pastrnak at full tilt but they still need more from him",
+            "url": "https://www.nytimes.com/athletic/4456941/2023/04/26/bruins-panthers-david-pastrnak-playoffs/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible russell westbrook scored on the power play",
+            "content": "westbrook played for the thunder leading scorer he appeared in the nba finals as a member of the thunder in 2012 losing to the miami heat in 2019 westbrook was traded to the houston rockets playing one season for the organization before being traded again to the washington wizards in 2020 after a season in washington he was traded to the los angeles lakers in 2021 following two relatively",
+            "url": "https://en.wikipedia.org/wiki/Russell_Westbrook",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "is the following sentence plausible frederik andersen crossed the blue line in the stanley cup",
+            "content": "following the trade of thenbackup goaltender viktor fasth to the edmonton oilers on 4 march 2014 andersen became the teamx27s new fulltime backup goaltender to hiller after spending the majority of the season playing for anaheimx27s american hockey league ahl affiliate the norfolk admirals on 16 april 2014 andersen won his stanley cup",
+            "url": "https://en.wikipedia.org/wiki/Frederik_Andersen",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible gleyber torres got a base hit",
+            "content": "after an uneven tenure in the bronx the second baseman will try to bolster his value on a oneyear deal with the tigers",
+            "url": "https://blogs.fangraphs.com/gleyber-torres-will-make-a-pit-stop-in-detroit/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible carlos tevez skated backwards",
+            "content": "carlos alberto tevez latin american spanish ˈkaɾlos ˈteβes né martínez born 5 february 1984 is an argentine professional football manager and former player a dynamic forward in his prime tevez was capable of playing as a striker as a winger as a supporting forward or as an",
+            "url": "https://en.wikipedia.org/wiki/Carlos_Tevez",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible ketel marte got into the endzone",
+            "content": "ketel ricardo marte valdez born october 12 1993 is a dominican professional baseball second baseman for the arizona diamondbacks of major league baseball mlb he previously played for the seattle mariners marte made his mlb debut with the mariners in 2015 and was traded to the diamondbacks",
+            "url": "https://en.wikipedia.org/wiki/Ketel_Marte",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible anthony rizzo skated backwards in the stanley cup",
+            "content": "rizzo knows the current environment is not kind to veteran players quotit’s what happens to the older guys they kind of get squeezedquot",
+            "url": "https://www.nytimes.com/athletic/6152452/2025/02/21/anthony-rizzo-world-series-game-5-free-agency/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible tuukka rask hit a double",
+            "content": "well the secret is finally out tuukka rask played through a torn hip labrum rask believes he suffered the injury in the teamx27s first round series with the hurricanes in 2020 when he felt on a pop in his hip on a quick stretch the bruins and rask attempted to manage the injury throughout the 2",
+            "url": "https://985thesportshub.com/2021/06/14/the-tuukka-rask-double-standard-has-never-been-worse/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible jakub vrana hit a walkoff homer",
+            "content": "27k votes 211 comments yesterday the white sox lost a walkoff to the twins when pitcher juan minaya hit max kepler with the bases loaded and two…",
+            "url": "https://www.reddit.com/r/baseball/comments/6xf8k1/proposal_a_game_ending_in_a_walkoff_hitbypitch/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "is the following sentence plausible philip rivers drove into the restricted area",
+            "content": "we cannot provide a description for this page right now",
+            "url": "https://www.ode.state.or.us/wma/teachlearn/commoncore/ela-appendix-b.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "is the following sentence plausible deaaron fox scored a bicycle kick",
+            "content": "dex27aaron martez fox born december 20 1997 is an american professional basketball player for the san antonio spurs of the national basketball association nba he played college basketball for the kentucky wildcats before being selected fifth overall by the sacramento kings in the 2017 nba draft",
+            "url": "https://en.wikipedia.org/wiki/De'Aaron_Fox",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible joe burrow caught the back shoulder fade in the superbowl",
+            "content": "a potentially unstoppable play thatx27s all about timing and placement is becoming commonplace for the bengalsx27 quarterback",
+            "url": "https://www.nytimes.com/athletic/4003309/2022/12/15/joe-burrow-bengals-back-shoulder/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible mark stone hit a triple",
+            "content": "138 votes 25 comments 62k subscribers in the dallasstars community the subreddit dedicated to the dallas stars and its minor league affiliates",
+            "url": "https://www.reddit.com/r/DallasStars/comments/1idszjw/the_discourse_the_real_reason_mark_stones_hit_on/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible darius slayton ran out of bounds in the afc championship",
+            "content": "darius slayton might be able to stretch the field for the giants with the combination of his 6foot1 size leaping ability and blazing speed",
+            "url": "https://www.nj.com/giants/2019/04/nfl-draft-2019-giants-pick-auburn-wr-darius-slayton-ran-a-439-in-40-yard-dash-hs-sprint-state-champion.html?outputType=amp",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible freddie freeman watched the pitch go by",
+            "content": "answer 1 of 10 i’m not sure we have the truth yet gottlieb alleged that close withheld information from freeman which then led to freeman signing with the dodgers and when freeman found out during his trip to atlanta he summarily fired close ok that story seems plausible except that i",
+            "url": "https://www.quora.com/Is-Los-Angeles-Dodger-Freddie-Freemans-agent-the-most-at-fault-for-not-making-sure-Freeman-stayed-with-the-Atlanta-Braves-or-is-Freeman-making-him-the-scapegoat-for-a-choice-Freddie-now-regrets",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "is the following sentence plausible kawhi leonard took a turnaround jumper",
+            "content": "13k votes 160 comments 93m subscribers in the nba community a community for nba discussion",
+            "url": "https://www.reddit.com/r/nba/comments/1927br8/highlight_kawhi_leonard_hits_the_turnaround/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible ben simmons was called for the goal tend",
+            "content": "benjamin david simmons born 20 july 1996 is an australian professional basketball player who plays for the los angeles clippers of the national basketball association nba he played college basketball for one season with the lsu tigers after which he was named a consensus firstteam",
+            "url": "https://en.wikipedia.org/wiki/Ben_Simmons",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible travis konecny did a maradona on the defender",
+            "content": "travis konecny koʊˈnɛkniː kohneknee born march 11 1997 is a canadian professional ice hockey forward and alternate captain for the philadelphia flyers of the national hockey league nhl the flyers selected him in the first round 24th overall of the 2015 nhl entry draft",
+            "url": "https://en.wikipedia.org/wiki/Travis_Konecny",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible francisco lindor walked on ball four",
+            "content": "lindor has a strong case for finishing as the best shortstop of his generation",
+            "url": "https://blogs.fangraphs.com/francisco-lindor-is-already-a-plausible-hall-of-famer/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible toni kroos took a throw in in the champions leage semifinal",
+            "content": "after ending his germany career in 2021 toni kroos continues to pull the strings in a starstudded real madrid side",
+            "url": "https://www.uefa.com/uefachampionsleague/news/026b-12a8f739f75d-f30140a35fa6-1000--how-brilliant-is-toni-kroos/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "is the following sentence plausible aleksander barkov passed the puck",
+            "content": "aleksander aleksandrovich quotsashaquot barkov russian александр александрович барков romanized aleksandr aleksandrovich barkov born 2 september 1995 is a finnishrussian professional ice hockey centre and captain of the florida panthers of the national hockey league",
+            "url": "https://en.wikipedia.org/wiki/Aleksander_Barkov",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "is the following sentence plausible norman powell committed a blocking foul",
+            "content": "norman wc powell is the son of norman sr and sharon powell and has two older sisters he was born in san diego california in 1993 where he played high school ball at lincoln high he led the school to consecutive california interscholastic federation cif san diego section 2a championships",
+            "url": "https://www.rotowire.com/basketball/player/norman-powell-3726",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible james harden shot from outside the eighteen",
+            "content": "james edward harden jr born august 26 1989 is an american professional basketball player for the los angeles clippers of the national basketball association nba he is widely regarded as one of the greatest scorers and shooting guards in nba history in 2021 harden was honored as one",
+            "url": "https://en.wikipedia.org/wiki/James_Harden",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible sergio aguero maradonad the defender",
+            "content": "maradona was aguerox27s former fatherinlaw following his marriage to gianinna his youngest daughter and was grandfather to the manchester city strikerx27s 11yearold son benjamin",
+            "url": "https://www.dailymail.co.uk/sport/sportsnews/article-8993585/amp/Pep-Guardiola-admits-Sergio-Aguero-struggling-play-Diego-Maradona-death.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible teuvo teravainen shot the puck",
+            "content": "teuvo henri matias teräväinen finnish pronunciation ˈteu̯ʋo ˈteræʋæi̯nen born 11 september 1994 is a finnish professional ice hockey forward for the chicago blackhawks of the national hockey league nhl he was selected in the first round 18th overall of the 2012 nhl entry",
+            "url": "https://en.wikipedia.org/wiki/Teuvo_Teräväinen",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible nicklas backstrom earned a trip to the penalty box",
+            "content": "the columbus blue jackets won their fourth straight game sunday but not it was not without controversy captain nick foligno drew a highsticking penalty from nicklas backstrom with 134 left in the game alexander wennberg would score the tiebreaking and gamewinning goal on the resulting",
+            "url": "https://russianmachineneverbreaks.com/2016/11/20/nicklas-backstroms-high-stick-penalty-that-led-to-blue-jackets-gwg-wasnt-actually-a-penalty/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible adam thielen scored in added time",
+            "content": "in week 8 thielen scored his first touchdown of the season against the cleveland browns at twickenham stadium london from quarterback case keenum during week 10 against the redskins thielen finished with 166 receiving yards and a touchdown as the vikings won 3830 the following week against",
+            "url": "https://en.wikipedia.org/wiki/Adam_Thielen",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible brandin cooks went for it on fourth down",
+            "content": "dallas cowboys wide receiver brandin cooksx27 first catch as a cowboy moves the chains on fourth down",
+            "url": "https://www.nfl.com/videos/brandin-cooks-first-catch-as-a-cowboy-moves-the-chains-on-fourth-down",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible marvin jones lost control of the puck",
+            "content": "jones and his wife jazmyn made a brief appearance at the stadium for the emotional moment standing together on the field with their children",
+            "url": "https://people.com/sports/detroit-lions-moment-of-silence-marvin-jones-son-marlo/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible pierreluc dubois skated backwards",
+            "content": "pierreluc dubois born june 24 1998 is a canadian professional ice hockey centre for the washington capitals of the national hockey league nhl dubois was born in sainteagathedesmonts quebec but grew up in rimouski he was drafted third overall in the 2016 nhl entry draft by the columbus",
+            "url": "https://en.wikipedia.org/wiki/Pierre-Luc_Dubois",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "is the following sentence plausible klaas jan huntelaar scored the easy layup",
+            "content": "dirk jan klaas huntelaar born 12 august 1983 known professionally as klaasjan huntelaar dutch pronunciation ˌklaːˈɕjɑn ˈɦʏntəlaːr ⓘ is a dutch former professional footballer who played as a striker huntelaar played for psv de graafschap agovv apeldoorn heerenveen",
+            "url": "https://en.wikipedia.org/wiki/Klaas-Jan_Huntelaar",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible malik beasley comitted a three second violation",
+            "content": "malik jonmikal beasley məˈliːk məleek born november 26 1996 is an american professional basketball player for the detroit pistons of the national basketball association nba he attended saint francis school in alpharetta georgia where he was a fourstar recruit",
+            "url": "https://en.wikipedia.org/wiki/Malik_Beasley",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "is the following sentence plausible nazem kadri was out at home",
+            "content": "nazem kadri born october 6 1990 is a canadian professional ice hockey player and alternate captain for the calgary flames of the national hockey league nhl kadri won the stanley cup with the colorado avalanche in 2022 becoming the first muslim player to hoist the trophy",
+            "url": "https://en.wikipedia.org/wiki/Nazem_Kadri",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible patrick kane backhanded a shot in the stanley cup",
+            "content": "did you see patrick kanex27s cupwinning goal go in he says he did",
+            "url": "https://www.nytimes.com/athletic/1211549/2020/06/09/oral-history-of-patrick-kanes-stanley-cup-winning-goal/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible gerrit cole set the hard screen",
+            "content": "ask any question and get an answer from our subject experts in as little as 2 hours",
+            "url": "https://www.chegg.com/homework-help/questions-and-answers/following-sentences-makes-plausible-statement-novel-s-theme-select-apply-gregor-s-metamorp-q153530628",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible john brown went for it on fourth down in the nfc championship",
+            "content": "thomas brown became the bearsx27 interim head coach when matt eberflus was fired following disastrous game management decisions at the end of a chicago loss",
+            "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/thomas-brown-defends-late-fourth-down-decisions-i-wasnt-confused-just-changed-my-mind",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible tom brady converted the first down",
+            "content": "a decision that sealed the win for the bears will come under major scrutiny",
+            "url": "https://www.sbnation.com/nfl/2020/10/9/21509108/tom-brady-4th-down-bucs-bears-nfl",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible clint capela got into the endzone",
+            "content": "x27end zonex27 in a sentence bleachers will run along the width of the north end zone",
+            "url": "https://www.merriam-webster.com/sentences/end%20zone",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "is the following sentence plausible brad hand hit the wheel route",
+            "content": "epinephrine a hormone that causes excitement including an accelerated heartbeat shaking and fast breathing was injected into a group of 184 male participants",
+            "url": "https://plataforma.unitepc.edu.bo/answers/2346920-brad-was-almost-hit-by-a-speeding",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible ryan oreilly wristed a shot",
+            "content": "posted by ustelladanielson1977 12 votes and 17 comments",
+            "url": "https://www.reddit.com/r/ozshow/comments/hxxl4j/i_liked_how_dino_ortolani_shot_ryan_oreilly_too/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "is the following sentence plausible stefon diggs hit the slant pass",
+            "content": "453 votes 48 comments 96m subscribers in the nfl community the place to discuss all nfl related things",
+            "url": "https://www.reddit.com/r/nfl/comments/1eun2tg/highlight_stefon_diggs_gets_his_first_target_and/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible sterling shepard converted the first down",
+            "content": "sterling clay shepard born february 10 1993 is an american professional football wide receiver for the tampa bay buccaneers of the national football league nfl he played college football for the oklahoma sooners shepard was selected by the new york giants in the second round of the 2016",
+            "url": "https://en.wikipedia.org/wiki/Sterling_Shepard",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "is the following sentence plausible malcolm brogdon eurostepped to the basket in the nba championship",
+            "content": "malcolm moses adams brogdon born december 11 1992 is an american professional basketball player for the washington wizards of the national basketball association nba he played college basketball for the university of virginia cavaliers under tony bennett",
+            "url": "https://en.wikipedia.org/wiki/Malcolm_Brogdon",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible cj mccollum shot from the six yard line",
+            "content": "on december 23 in a game against the warriors mccollum moved past damon stoudamire 717 into fifth on the blazersx27 career list for 3pointers on december 30 he broke out of a sixgame funk by hitting 13 of 18 shots in a 35point performance as the trail blazers defeated the philadelphia",
+            "url": "https://en.m.wikipedia.org/wiki/CJ_McCollum",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible kwadwo asamoah beat the shot clock in the eastern conference finals",
+            "content": "kwadwo asamoah kwəˈdʒoʊ æsəˈmoʊɑː kwəjoh assəmohah born 9 december 1988 is a ghanaian former professional footballer mainly a left midfielder or leftback he was also occasionally deployed as a central midfielder asamoah began his professional career with italian club",
+            "url": "https://en.wikipedia.org/wiki/Kwadwo_Asamoah",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible kenta maeda threw to first base in the american league championship series",
+            "content": "kenta maeda league championship series stats by baseball almanac",
+            "url": "https://www.baseball-almanac.com/players/playerpost.php?p=maedake01&ps=lcs",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible timo meier nutmegged the defender in the fa cup",
+            "content": "22 votes 47 comments im a defender and i feel like i do pretty well on normal defending but i keep getting nutmegged how can i stop this",
+            "url": "https://www.reddit.com/r/football/comments/10yddi3/how_do_i_stop_getting_nut_megged_as_a_defender/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "is the following sentence plausible giorgio chiellini committed a handball in the fa cup",
+            "content": "his change in style saw him make him to commit fewer fouls he described his new style as being quotmore reflective less impulsivequot a popular figure with fans chiellini was also known for his dedication and vocal leadership on the pitch and was juventusx27s longtime vice captain behind gianluigi buffon following buffonx27s departure",
+            "url": "https://en.wikipedia.org/wiki/Giorgio_Chiellini",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible javier zanetti watched the pitch go by in the national league championship series",
+            "content": "zanetti remained a regular footballer javier mascherano took over as captain at maradonax27s request zanettix27s place in the starting line up was taken by jonás gutiérrez who had spent the previous season playing on the wing for newcastle united in englandx27s secondtier football league championship",
+            "url": "https://en.wikipedia.org/wiki/Javier_Zanetti",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible aleksander barkov bricked the three pointer",
+            "content": "aleksander aleksandrovich quotsashaquot barkov russian александр александрович барков romanized aleksandr aleksandrovich barkov born 2 september 1995 is a finnishrussian professional ice hockey centre and captain of the florida panthers of the national hockey league",
+            "url": "https://en.wikipedia.org/wiki/Aleksander_Barkov",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible miro heiskanen earned a trip to the penalty box",
+            "content": "the dallas stars did not use miro heiskanenx27s injury as an excuse for their 72 loss to the seattle kraken in game 3 of the western conference second round at climate pledge arena on sunday",
+            "url": "https://www.nhl.com/web/news/stars-unravel-following-miro-heiskanen-injury/c-344230474",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible diego forlan did a maradona on the defender",
+            "content": "diego forlán corazo born 19 may 1979 is a uruguayan professional tennis player football manager and former football player who played as a striker regarded as one of the best forwards of his generation forlán is a twotime winner of both the pichichi trophy and the european golden shoe",
+            "url": "https://en.wikipedia.org/wiki/Diego_Forl%C3%A1n",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible mario gomez scored a reverse layup",
+            "content": "mario gómez garcía german pronunciation ˈmaːʁi̯oː ˈɡɔmɛs born 10 july 1985 is a german former professional footballer who played as a striker he represented the germany national team over a period of 11 years between 2007 and 2018 gómez began his professional career with",
+            "url": "https://en.wikipedia.org/wiki/Mario_G%C3%B3mez",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible ty hilton threw a touchdown in the afc divisional round",
+            "content": "letx27s preview the divisional roundx27s four matchups how can each team win next weekend and advance herex27s what to know",
+            "url": "https://www.espn.com/nfl/story/_/id/43386930/2024-nfl-playoffs-bracket-reset-divisional-round-schedule-afc-nfc",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible mario gomez scored a reverse layup",
+            "content": "mario gómez garcía german pronunciation ˈmaːʁi̯oː ˈɡɔmɛs born 10 july 1985 is a german former professional footballer who played as a striker he represented the germany national team over a period of 11 years between 2007 and 2018 gómez began his professional career with",
+            "url": "https://en.wikipedia.org/wiki/Mario_G%C3%B3mez",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible james karinchak crossed the blue line",
+            "content": "james stephen karinchak born september 22 1995 is an american professional baseball pitcher in the chicago white sox organization he has previously played in major league baseball mlb for the cleveland indians guardians he played college baseball at bryant university and was drafted",
+            "url": "https://en.wikipedia.org/wiki/James_Karinchak",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible kyle tucker took a left footed shot",
+            "content": "kyle howard rittenhouse born january 3 2003 is an american man who gained national attention at age 17 for shooting three men in kenosha wisconsintwo fatallyin august 2020 amid protests following the police shooting of jacob blake he had traveled to kenosha during the unrest and",
+            "url": "https://en.wikipedia.org/wiki/Kyle_Rittenhouse",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible kyle tucker stepped on first base",
+            "content": "kyle daniel tucker born january 17 1997 is an american professional baseball right fielder for the chicago cubs of major league baseball mlb he has previously played in mlb for the houston astros a native of tampa florida tucker won floridax27s gatorade player of the year award while",
+            "url": "https://en.wikipedia.org/wiki/Kyle_Tucker",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible tyreek hill caught the screen pass",
+            "content": "58k votes 331 comments 12m subscribers in the nfl community the place to discuss all nfl related things",
+            "url": "https://www.reddit.com/r/nfl/comments/1d1af2b/highlight_tyreek_hill_catches_a_td_pass_but/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "is the following sentence plausible wayne rooney threw a touchdown in the superbowl",
+            "content": "744 votes 476 comments 61m subscribers in the soccer community the football subreddit news results and discussion about the beautiful game",
+            "url": "https://www.reddit.com/r/soccer/comments/pcho2/wayne_rooney_on_the_super_bowl/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible josh allen caught the screen pass",
+            "content": "buffalo bills tight end dawson knox says itx27s unfair for josh allen to shoulder the blame for the teamx27s offensive struggles following two straight losses",
+            "url": "https://apnews.com/article/bills-josh-allen-mcdermott-knox-d6f7ff960a52720c270f8522dd9b9305",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible angel di maria scored in extra time",
+            "content": "ángel fabián di maría spanish pronunciation ˈaŋxel faˈβjan di maˈɾia born 14 february 1988 is an argentine professional footballer who plays as a right winger or attacking midfielder for primeira liga club benfica considered one of the best players of his generation and one",
+            "url": "https://en.wikipedia.org/wiki/Ángel_Di_María",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible george springer committed a blocking foul",
+            "content": "technical foul excessive timeouts delayofgame number of players basket ring backboard or support conduct fighting fouls fines personal fouls types by dribbler by screening flagrant foul free throw penalty situations double fouls offensive fouls loose ball fouls punching fouls awayfromtheplay",
+            "url": "https://official.nba.com/rule-no-12-fouls-and-penalties/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible juan mata caught the screen pass",
+            "content": "this is the latest accepted revision reviewed on 2 march 2025 juan manuel mata garcía born 28 april 1988 is a spanish professional footballer who plays for aleague men club western sydney wanderers he primarily plays as an attacking midfielder but can also play as a winger",
+            "url": "https://en.wikipedia.org/wiki/Juan_Mata",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible robert woods converted the first down",
+            "content": "english poem stopping by woods on a snowy evening by robert frost answer the following questions",
+            "url": "https://www.brainkart.com/article/Answer-the-following-questions_42108/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "is the following sentence plausible andres iniesta performed a give and go",
+            "content": "following the news that former barcelona and spain midfielder andres iniesta has retired at 40 adam bate pays tribute to a genius and tries to explain why he left such a lasting impression on those who played with coached him and watched him play…",
+            "url": "https://www.skysports.com/football/news/11095/13230114/andres-iniesta-retires-barcelona-and-spain-legend-was-a-genius-whose-ability-was-about-more-than-trophies-and-stats",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible joe burrow gained five yards",
+            "content": "burrow played in lsux27s 7overtime a win over ucf in the fiesta bowl and a no 6 ranking in the final ap poll burrow finished the season with 2894 yards passing 16 touchdowns and five interceptions",
+            "url": "https://en.wikipedia.org/wiki/Joe_Burrow",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible jakub vrana skated backwards",
+            "content": "jakub vrána born 28 february 1996 is a czech professional ice hockey forward for the nashville predators of the national hockey league nhl vrána was selected by the washington capitals in the first round 13th overall of the 2014 nhl entry draft and has also played in the nhl for the",
+            "url": "https://en.wikipedia.org/wiki/Jakub_Vr%C3%A1na",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible neymar did a maradona on the defender in the champions leage semifinal",
+            "content": "neymarx27s return to santos at 33 was met with a lot of skepticism many experts figured his best days were behind him that he wouldnx27t be able to recapture his former bri",
+            "url": "https://www.marca.com/en/football/2025/03/03/67c6171e22601d15188b45a1.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible marcell ozuna hit into a double play",
+            "content": "the marlins as bad as they are have an entertainingly wanton disregard of service time considerations for their top prospects marcell ozuna is one example of this philosophy or lack thereof",
+            "url": "https://fantasy.fangraphs.com/an-attempt-to-solve-the-mystery-of-marcell-ozuna/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible frederik andersen took a three",
+            "content": "frederik andersen born 2 october 1989 is a danish professional ice hockey goaltender for the carolina hurricanes of the national hockey league nhl he previously played for the anaheim ducks and toronto maple leafs representing denmark andersen competed in the 2010 iihf world championship",
+            "url": "https://en.wikipedia.org/wiki/Frederik_Andersen",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible tyler boyd hit the screen pass in the nfc divisional round",
+            "content": "there was no outlook written for tyler boyd in 2025 check out the latest news below for more on his current fantasy value boyd foot has been ruled out for sundayx27s game against the texans jim wyatt of the titansx27 official site reports analysis signed to a oneyear 24 million deal",
+            "url": "https://www.rotowire.com/football/player/tyler-boyd-10822",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible connor mcdavid threw a touchdown in the nfc divisional round",
+            "content": "get all the latest stats news videos and more on connor mcdavid",
+            "url": "https://www.nhl.com/oilers/player/connor-mcdavid-8478402",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible sam darnold scored on the power play in the stanley cup",
+            "content": "samuel richard darnold born june 5 1997 is an american professional football quarterback for the minnesota vikings of the national football league nfl he played college football for the usc trojans winning the archie griffin award in 2016 and was selected third overall by the new york",
+            "url": "https://en.wikipedia.org/wiki/Sam_Darnold",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible arjen robben crossed the blue line in the stanley cup",
+            "content": "arjen robben dutch pronunciation ˈɑrjən ˈrɔbən ⓘ born 23 january 1984 is a dutch former professional footballer who played as a winger known for his dribbling skills speed ball control and longrange shots he is regarded as one of the best players of his generation and",
+            "url": "https://en.wikipedia.org/wiki/Arjen_Robben",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible jamison crowder drew a flag on the play",
+            "content": "jamison crowder born june 17 1993 is an american professional football wide receiver and punt returner for the washington commanders of the national football league nfl he played college football for the duke blue devils and was drafted by washington in the fourth round of the 2015 nfl draft",
+            "url": "https://en.wikipedia.org/wiki/Jamison_Crowder",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "is the following sentence plausible elias lindholm beat the buzzer",
+            "content": "following being drafted by the hurricanes lindholm made the opening roster for the 201314 nhl season he scored his first nhl goal in his fourth ever nhl game against braden holtby of the washington capitals on 10 october 2013 by scoring his first nhl goal at 18 years and 311 days lindholm became the youngest swedishborn nhl player to score a goal beating",
+            "url": "https://en.wikipedia.org/wiki/Elias_Lindholm",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible julian edelman fumbled the ball",
+            "content": "most people with eyes agree that julian edelman didn’t touch the ball when the chiefs punted to him in the fourth quarter of the afc championship the officials amazingly got one right",
+            "url": "https://www.audacy.com/weei/blogs/alex-reimer/jerry-jones-thinks-julian-edelman-fumbled-the-punt-during-afc-championship",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "is the following sentence plausible mookie betts skated behind the net",
+            "content": "markus lynn quotmookiequot betts born october 7 1992 is an american professional baseball outfielder shortstop and second baseman for the los angeles dodgers of major league baseball mlb he has previously played in mlb for the boston red sox he is an eighttime allstar a seventime silver",
+            "url": "https://en.wikipedia.org/wiki/Mookie_Betts",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible drew brees was flagged on the play",
+            "content": "new orleans saints quarterback drew brees said wednesday during an interview with yahoo finance that he quotwill never agree with anybody disrespecting the flag of the united states of america or our countryquot comments he would come under intense criticism",
+            "url": "https://www.nfl.com/news/drew-brees-facing-intense-criticism-for-comments-on-flag-disrespect",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible steven stamkos hit the slant pass",
+            "content": "but rarely does a rumor reach to the levels of mythology like this one appears headed for today’s myth steven stamkos is being courted by the montréal canadiens with a giant payday he is considering going there because of martin st louis confirmed busted plausible",
+            "url": "https://www.hockeybuzz.com/blog/Eklund/Today-on-MythBusters-Steven-Stamkos-and-the-Canadiens-Plausible/1/125530",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible deshaun watson was flagged on the play",
+            "content": "browns quarterback deshaun watson got away with shoving an official during monday nightx27s game",
+            "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/deshaun-watson-shoved-an-official-wasnt-ejected-or-flagged",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible mookie betts took a sidestep three",
+            "content": "markus lynn quotmookiequot betts born october 7 1992 is an american professional baseball outfielder shortstop and second baseman for the los angeles dodgers of major league baseball mlb he has previously played in mlb for the boston red sox he is an eighttime allstar a seventime silver",
+            "url": "https://en.wikipedia.org/wiki/Mookie_Betts",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "is the following sentence plausible marouane fellaini scored in extra time",
+            "content": "after rejecting the advances of manchester united and following reported interest from aston villa real madrid tottenham hotspur and bayern munich fellaini signed for everton in september 2008 on a fiveyear deal from standard liège for an initial transfer fee of £15 million at the time a record for a belgian player and club record for everton he made his everton debut in a 32 away victory at stoke city on 14 september 2008 and scored",
+            "url": "https://en.wikipedia.org/wiki/Marouane_Fellaini",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible gleyber torres scored a bicycle kick",
+            "content": "today’s wonder of the day features one of the most awesome moves you’ll ever see on the soccer pitch",
+            "url": "https://wonderopolis.org/wonder/what-is-a-bicycle-kick",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible mitchell robinson airballed the shot",
+            "content": "in basketball an air ball is an unblocked shot that misses the basket rim and backboard entirely the oxford english dictionary cites earliest printed use of quotair ballquot in a 29 january 1967 article from the hayward calif daily review which reads quotcal state four times lofting air balls",
+            "url": "https://en.wikipedia.org/wiki/Air_ball",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible mike williams scored a bicycle kick in the fa cup",
+            "content": "brazilx27s richarlisonx27s second goal was a stunning bicycle kick against serbia which will enter the list of great goals scored by those who have donned the famed canarinho",
+            "url": "https://indianexpress.com/article/sports/football/a-bicycle-kick-is-a-crown-of-inheritance-from-pele-to-socrates-ronaldo-to-ronaldinho-neymar-and-now-to-richarlison-8290033/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "is the following sentence plausible john carlson scored in the third period",
+            "content": "washington capitals forward tom wilson scored the first goal of the capitals first round series with the florida panthers on tuesday night unfortunatelywilson would skate just three shifts for a total of 131 of ice time before leaving the game with a lowerbody injury",
+            "url": "https://novacapsfans.com/2022/05/04/john-carlson-leaves-game-following-high-hit-from-sam-bennett-late-in-the-third-period-of-game-1/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "is the following sentence plausible neymar took a backhand shot in the stanley cup",
+            "content": "the 2024 stanley cup finals was the championship series of the national hockey leaguex27s nhl 202324 season and the culmination of the 2024 stanley cup playoffs the eastern conference champion florida panthers defeated the western conference champion edmonton oilers four games to three",
+            "url": "https://en.wikipedia.org/wiki/2024_Stanley_Cup_Finals",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible ramires scored a header goal",
+            "content": "he started in chelseax27s 20 win first goal on 29 december 2010 ramires started in chelseax27s 10 win over bolton wanderers where his performance was praised and was known to have his best game with chelsea to date where he made several runs forward and strong tackles winning the ball several times in the midfield on chelseax27s return fixture at bolton ramires scored his first",
+            "url": "https://en.wikipedia.org/wiki/Ramires",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible john carlson entered the attacking zone in the stanley cup",
+            "content": "carlson could rank among the alltime great blueliners including some former caps by the time his career ends",
+            "url": "https://www.nhl.com/capitals/news/carlson-s-climb-continues",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible tyler glasnow watched the pitch go by",
+            "content": "check out the latest stats height weight position rookie status amp more of tyler glasnow get info about his position age height weight draft status bats throws school and more on baseballreferencecom",
+            "url": "https://www.baseball-reference.com/players/g/glasnty01.shtml",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible sonny gray was out at second",
+            "content": "an injury interrupted sonny grayx27s first spring with the cardinals the second time around hex27s got a different game plan",
+            "url": "https://www.stltoday.com/sports/column/lynn-worthy/article_a0b05fdc-fe8c-11ef-a497-436889b76867.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible caris levert scored a reverse layup",
+            "content": "caris coleman levert ˈkɛərɪs ləˈvɜːrt kairiss ləvurt born august 25 1994 is an american professional basketball player for the atlanta hawks of the national basketball association nba he played college basketball for the michigan wolverines",
+            "url": "https://en.wikipedia.org/wiki/Caris_LeVert",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible gerard pique scored a corner kick",
+            "content": "his first domestic goal for the club followed two months later on 29 january 2009 in a copa del rey match against local rivals espanyol the goal which came from a corner kick in the 57th minute turned out to be the game winner in a 32 victory for barcelona on 2 may piqué scored",
+            "url": "https://en.wikipedia.org/wiki/Gerard_Piqu%C3%A9",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "is the following sentence plausible joao moutinho was out at third",
+            "content": "on 12 december the following year he was sent off for a second yellow card in a 01 home loss to west midlands neighbours aston villa it was his first red card in 859 career matches he scored his first goal at molineux and the third of his wolves career from 30 yards against arsenal in a 21 win on 2 february 2021 as his team did the double over the north london side in that season for the first time since 197879 moutinho",
+            "url": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Moutinho",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible mario balotelli took a left footed shot in the champions league final",
+            "content": "balotelli started his professional football career in 2005 at lumezzane before joining inter milan in 2007 he won the treble serie a coppa italia and champions league in 2010 balotelli reunited with internazionale manager roberto mancini at manchester city in 2010 helping them win a",
+            "url": "https://en.wikipedia.org/wiki/Mario_Balotelli",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible tyler glasnow scored a penalty kick",
+            "content": "fulltime offers you an easy way to manage your football leagues online enables clubs and referees to administer their day to day activities",
+            "url": "https://www.thefa.com/football-rules-governance/lawsandrules/laws/football-11-11/law-14---the-penalty-kick",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible gabriel landeskog launched the desperation heave",
+            "content": "a new fivepart docuseries is set to debut this sunday starring avalanche captain gabriel landeskog and his recovery from knee surgery",
+            "url": "https://denvergazette.com/sports/colorado-avalanche/landeskog-avalanche-tv-docuseries-tnt/article_7d2773a0-f9de-11ef-9035-a302282a6ad5.html",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible petr cech was safe at first",
+            "content": "pat davison meets petr cech to discuss the harrowing time 10 years ago when his life hung in the balance following a head injury in a match at reading and the fortunate circumstances that mean hes here to tell the tale",
+            "url": "https://www.skysports.com/football/news/11095/10635543/petr-cech-on-brush-with-death-at-reading-it-was-a-very-close-call",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "is the following sentence plausible marcelo got on the end of a through ball",
+            "content": "marcelo vieira da silva júnior born 12 may 1988 known as marcelo is a brazilian former professional footballer who played as a leftback widely regarded as one of the greatest leftbacks of all time he is known for his attacking capabilities he spent most of his career with la liga",
+            "url": "https://en.wikipedia.org/wiki/Marcelo_(footballer,_born_1988)",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible jonathan marchessault scored on the power play in the stanley cup",
+            "content": "get all the latest stats news videos and more on jonathan marchessault",
+            "url": "https://www.nhl.com/predators/player/jonathan-marchessault-8476539",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible luis robert was out at second",
+            "content": "luis robert exits the game in the bottom of the 2nd inning with lightheadedness and is replaced by adam engel",
+            "url": "https://www.mlb.com/video/luis-robert-exits-in-the-2nd",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible patrice bergeron converted the first down",
+            "content": "patrice bergeroncleary born july 24 1985 is a canadian former professional ice hockey centre who played 19 seasons in the national hockey league all with the boston bruins he served as team captain from 2021 until his retirement in 2023 bergeron played junior hockey with the",
+            "url": "https://en.wikipedia.org/wiki/Patrice_Bergeron",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible juan soto took ball four",
+            "content": "sotox27s former teammate bryce harper making soto only the 6th player in the liveball era to have led his league in walks by a margin of 40 or more he led the major leagues in walk percentage at 222 and intentional walks with 23 he had the best walkstrikeout ratio in the majors at 156 he swung at the lowest percentage of pitches of all major leaguers at 350 following the season",
+            "url": "https://en.wikipedia.org/wiki/Juan_Soto",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible juan soto did a double stepover",
+            "content": "457 votes 40 comments 372k subscribers in the nyyankees community subreddit for the new york yankees",
+            "url": "https://www.reddit.com/r/NYYankees/comments/1ey5g34/juan_soto_clears_the_bases_with_a_double_to_make/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "is the following sentence plausible kailer yamamoto performed a slide tackle in the european cup",
+            "content": "how many areas can yamamoto help the oilers in their pursuit of a stanely cup title turns out the answer is several",
+            "url": "https://www.nytimes.com/athletic/1902873/2020/07/02/lowetide-how-oilers-winger-kailer-yamamoto-can-increase-his-value/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible vincent kompany comitted a three second violation",
+            "content": "vincent jean mpoy kompany born 10 april 1986 is a belgian professional football manager and former player who is the head coach of bundesliga club bayern munich a centreback during his playing career kompany spent eleven seasons at manchester city eight of which he served as captain",
+            "url": "https://en.wikipedia.org/wiki/Vincent_Kompany",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible willian killed the powerplay",
+            "content": "former chelsea and arsenal midfielder willian quit corinthians on friday following the braziliansx27 copa libertadores elimination against domestic rivals flamengo after claiming he and his family received death threats on social media",
+            "url": "https://www.besoccer.com/new/willian-leaves-corinthians-following-death-threats-1172324",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible devante parker was called for icing",
+            "content": "devante parker born january 20 1993 is an american former professional football player who was a wide receiver for nine seasons in the national football league nfl he played college football for the louisville cardinals and was selected by the miami dolphins in the first round of the",
+            "url": "https://en.wikipedia.org/wiki/DeVante_Parker",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible vincent kompany scored a bicycle kick",
+            "content": "vincent jean mpoy kompany born 10 april 1986 is a belgian professional football manager and former player who is the head coach of bundesliga club bayern munich a centreback during his playing career kompany spent eleven seasons at manchester city eight of which he served as captain",
+            "url": "https://en.wikipedia.org/wiki/Vincent_Kompany",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "is the following sentence plausible jayson tatum took a sidestep three in the nba championship",
+            "content": "it could make the difference for the celtics against the miami heat in the eastern conference finals",
+            "url": "https://www.gq.com/story/jayson-tatum-boston-celtics-step-back-three",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "is the following sentence plausible deshaun watson was called for the goal tend in the eastern conference finals",
+            "content": "derrick deshaun watson born september 14 1995 is an american professional football quarterback for the cleveland browns of the national football league nfl he played college football for the clemson tigers leading the team to a national championship in 2016",
+            "url": "https://en.wikipedia.org/wiki/Deshaun_Watson",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible fred vanvleet scored a freekick in the champions league final",
+            "content": "fredderick edmund vanvleet sr born february 25 1994 is an american professional basketball player for the houston rockets of the national basketball association nba a point guard vanvleet played college basketball for wichita state university before beginning his nba career",
+            "url": "https://en.wikipedia.org/wiki/Fred_VanVleet",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible matthew stafford launched a hail mary",
+            "content": "read 942k reviews from the world’s largest community for readers ryland grace is the sole survivor on a desperate lastchance missionand if he fails h…",
+            "url": "https://www.goodreads.com/book/show/54493401-project-hail-mary",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible luke voit was out at first",
+            "content": "40 votes 42 comments i was looking through my fantasy baseball history and noticed his name pop up in 2020 and totally forgot he was arguably the…",
+            "url": "https://www.reddit.com/r/baseball/comments/15rym0j/whatever_happened_to_luke_voit/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible anthony davis beat the buzzer",
+            "content": "welcome to the world of red bull find the latest news and stories about our energy drinks athletes artists content events livestreams and more",
+            "url": "https://www.redbull.com/us-en/anthony-davis-beats-the-buzzer",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "is the following sentence plausible juan mata scored a bicycle kick in the champions league final",
+            "content": "he next scored in a premier league match with a beautiful free kick against manchester united chelsea however lost the match 32 after a late controversial goal from javier hernández mata went on to win the premier league player of the month award for october after scoring three league goals after manager roberto di matteo was sacked following a 30 defeat to juventus in the champions",
+            "url": "https://en.wikipedia.org/wiki/Juan_Mata",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "is the following sentence plausible santi cazorla called for the screen",
+            "content": "on 7 july 2006 newly promoted recreativo de huelva signed cazorla for €600000 on a fouryear deal with a clause in his contract whereby he could return to villarreal for €12 million going on to score in his official debut a 11 home draw with mallorca on 27 august the following 22 april he dedicated a goal to his father josé manuel who had died recently in a 42 home win against racing de santander",
+            "url": "https://en.wikipedia.org/wiki/Santi_Cazorla",
+            "engine": "braveAPI"
+        }
+    ]
+}

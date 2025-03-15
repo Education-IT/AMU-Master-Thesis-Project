@@ -1,0 +1,1338 @@
+{
+    "task": "mmlu_logical_fallacies",
+    "dataset": "web_access_logical_fallacies_final",
+    "questions": 163,
+    "noWebContextCount": 4,
+    "contaminated_queries": 67,
+    "contaminated_urls": 204,
+    "valid_urls": 159,
+    "avg_contaminated_before_valid": 2.2830188679245285,
+    "contaminated_data_ratio": 0.5619834710743802,
+    "most_contaminated_urls": {},
+    "noWebContext": [
+        "\" _Ad antiquitatem_ \" is a specific kind of",
+        "\"Misuse of statistics,\" \"questionable statistics,\" and \"questionable use of statistics\" are all other names for the fallacy of",
+        "Polonius in William Shakespeare's Hamlet: \"Your noble son is mad: Mad call I it, for to define true madness, What is't but to be nothing else but mad?\"",
+        "Notice from the Hyatt Regency Hotel in New Orleans: We are pleased to confirm your reservation. It will be held on a space-available basis."
+    ],
+    "contaminated_WebContext": [
+        {
+            "snippetIndex": 3,
+            "query": "the minor premise must affirm the antecedent or deny the consequent is a validity requirement of which type of argument",
+            "content": "the minor premise must affirm the antecedent or deny the consequent if the minor premise affirms the antecedent the conclusion must affirm the consequent",
+            "url": "https://www.academia.edu/40914742/Argumentation_and_Debate_Critical_Thinking_for_Reasoned_Decision_Making",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the minor premise must affirm the antecedent or deny the consequent is a validity requirement of which type of argument",
+            "content": "the minor premise denies the consequent hence the argument is valid according to the rule “the minor premise must affirm the antecedent or deny the consequent",
+            "url": "https://www.gutenberg.org/ebooks/57912.html.images",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "john stuart mill each persons happiness is a good to that person and the general happiness therefore a good to the aggregate of all persons",
+            "content": "mill claims that each persons happiness is a good to that person and the general happiness therefore a good to the aggregate of all persons",
+            "url": "https://philosophy.stackexchange.com/questions/40143/mills-proof-of-utilitarianism-moving-from-the-individual-to-the-aggregate",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following describes the fallacy of evading the issue",
+            "content": "avoiding the question the fallacy of avoiding the question is a type of fallacy of avoiding the issue that occurs when the issue is how to answer some question",
+            "url": "https://iep.utm.edu/fallacy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the minor premise must affirm the antecedent or deny the consequent is a way to determine the validity of which type of argument",
+            "content": "the minor premise must affirm the antecedent or deny the consequent if the minor premise affirms the antecedent the conclusion must affirm the consequent",
+            "url": "https://www.academia.edu/40914742/Argumentation_and_Debate_Critical_Thinking_for_Reasoned_Decision_Making",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "moses maimonides the guide of the perplexed god may he be exalted existed alone and nothing else afterwards through his will and his volition he brought into existence out of nothing all the beings as they are time itself being one of the created things for time is consequent upon motion and motion is an accident of what is moved furthermore what is movedis itself created in time",
+            "content": "“translators introduction the philosophical sources of the guide of the perplexed” in moses maimonides the guide of the perplexed tr s",
+            "url": "https://plato.stanford.edu/entries/maimonides-islamic/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "john s knight detroit free press 3 july 1970 capitalism is the economic system in which the means of production and distribution are privately owned and operated for profit the alternative system is called socialism the theory of the ownership and operation of the means of production by society with all members sharing in the work and the products",
+            "content": "3 john s knight detroit free press july 3 1970 capitalism is the economic system in which the means of production and distribution are privately",
+            "url": "http://www.csun.edu/~hcphi003/PHIL100/Exercises/Ex7_fallacies.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "polonius in william shakespeares hamlet your noble son is mad mad call i it for to define true madness what ist but to be nothing else but mad",
+            "content": "your noble son is mad mad call i it for to define true madness what is t but to be nothing else but mad 100 but let that go polonius thats a good",
+            "url": "https://www.litcharts.com/shakescleare/shakespeare-translations/hamlet/act-2-scene-2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "polonius in william shakespeares hamlet your noble son is mad mad call i it for to define true madness what ist but to be nothing else but mad",
+            "content": "polonius says “your noble son is madmad call i it for to define true madnesswhat ist but to be nothing else but mad” act two verse two since",
+            "url": "https://www.cloverautrey.com/2021/05/hamlet-insane-or-pretending.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "polonius in william shakespeares hamlet your noble son is mad mad call i it for to define true madness what ist but to be nothing else but mad",
+            "content": "i will be brief your noble son is mad mad call i it for to define true madness what ist but to be nothing else but mad but let that go genius",
+            "url": "https://genius.com/annotations/3179249/standalone_embed?dark=1&",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "polonius in william shakespeares hamlet your noble son is mad mad call i it for to define true madness what ist but to be nothing else but mad",
+            "content": "i will be brief your noble son is mad “mad” call i it for to define true madness what is t but to be nothing else but mad but let that go” states",
+            "url": "https://www.123helpme.com/essay/Is-Hamlet-Mad-195102",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "polonius in william shakespeares hamlet your noble son is mad mad call i it for to define true madness what ist but to be nothing else but mad",
+            "content": "your noble son is mad mad call i it for to define true madness what ist but to be nothing else but mad but later on when polonius is talking to",
+            "url": "https://www.ipl.org/essay/Why-Is-Hamlet-Mad-118C4D9872CB7D14",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "polonius in william shakespeares hamlet your noble son is mad mad call i it for to define true madness what ist but to be nothing else but mad",
+            "content": "he affirms “your noble son is madmad call i it for to define true madnesswhat ist but to be nothing else but mad” 229294 everyone believes",
+            "url": "https://www.cloverautrey.com/2021/06/hamlet-depression-unchecked-leads-to.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "polonius in william shakespeares hamlet your noble son is mad mad call i it for to define true madness what ist but to be nothing else but mad",
+            "content": "your noble son is mad mad call i it for to define true madness what ist but to be nothing else but mad but let that go queen more matter with less",
+            "url": "https://www.26reads.com/library/36645-hamlet/3/2",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "polonius in william shakespeares hamlet your noble son is mad mad call i it for to define true madness what ist but to be nothing else but mad",
+            "content": "polonius as a question your noble son is mad mad call i it for to define true madness what ist but to be nothing else but mad iiii924",
+            "url": "https://www.enotes.com/topics/hamlet/criticism/hamlet-vol-35/madness/duncan-salkeld-essay-date",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "polonius in william shakespeares hamlet your noble son is mad mad call i it for to define true madness what ist but to be nothing else but mad",
+            "content": "your noble son is mad mad call i it for to define true madness what is t but to be nothing else but mad but let that go polonius from hamlet",
+            "url": "https://m.facebook.com/story.php/?story_fbid=1674788195916605&id=286588754736563",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "notice from the hyatt regency hotel in new orleans we are pleased to confirm your reservation it will be held on a spaceavailable basis",
+            "content": "notice from the hyatt regency hotel in new orleans “we are pleased to confirm your reservation it will be held on a spaceavailable basis” a",
+            "url": "https://www.brainscape.com/flashcards/chap-3-4588524/packs/6795795",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "circulus in probando is another name for",
+            "content": "the meaning of circulus in probando is a circle in proof",
+            "url": "https://www.merriam-webster.com/dictionary/circulus%20in%20probando",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "ad lazarum is a specific kind of",
+            "content": "definition of argumentum ad lazarum in the definitionsnet dictionary meaning of argumentum ad lazarum what does argumentum ad lazarum mean information and translations of argumentum ad lazarum in the most comprehensive dictionary definitions resource on the web",
+            "url": "https://www.definitions.net/definition/argumentum+ad+lazarum",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "polonius in william shakespeares hamlet your noble son is mad mad call i it for to define true madness what ist but to be nothing else but mad",
+            "content": "your noble son is mad mad call i it for to define true madness what is t but to be nothing else but mad 100 but let that go polonius thats a good",
+            "url": "https://www.litcharts.com/shakescleare/shakespeare-translations/hamlet/act-2-scene-2",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 12,
+            "query": "polonius in william shakespeares hamlet your noble son is mad mad call i it for to define true madness what ist but to be nothing else but mad",
+            "content": "polonius says “your noble son is madmad call i it for to define true madnesswhat ist but to be nothing else but mad” act two verse two since",
+            "url": "https://www.cloverautrey.com/2021/05/hamlet-insane-or-pretending.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 13,
+            "query": "polonius in william shakespeares hamlet your noble son is mad mad call i it for to define true madness what ist but to be nothing else but mad",
+            "content": "polonius your noble son is mad mad call i it for to define true madness what ist but to be nothing else but mad but let that go",
+            "url": "https://m.facebook.com/WilliamShakespeareAuthor/photos/poloniusyour-noble-son-is-madmad-call-i-it-for-to-define-true-madnesswhat-ist-bu/602830619779040/",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 14,
+            "query": "polonius in william shakespeares hamlet your noble son is mad mad call i it for to define true madness what ist but to be nothing else but mad",
+            "content": "i will be brief your noble son is mad mad call i it for to define true madness what ist but to be nothing else but mad but let that go genius",
+            "url": "https://genius.com/annotations/3179249/standalone_embed?dark=1&",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 15,
+            "query": "polonius in william shakespeares hamlet your noble son is mad mad call i it for to define true madness what ist but to be nothing else but mad",
+            "content": "i will be brief your noble son is mad “mad” call i it for to define true madness what is t but to be nothing else but mad but let that go” states",
+            "url": "https://www.123helpme.com/essay/Is-Hamlet-Mad-195102",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "polonius in william shakespeares hamlet your noble son is mad mad call i it for to define true madness what ist but to be nothing else but mad",
+            "content": "your noble son is mad mad call i it for to define true madness what ist but to be nothing else but mad but later on when polonius is talking to",
+            "url": "https://www.ipl.org/essay/Why-Is-Hamlet-Mad-118C4D9872CB7D14",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 18,
+            "query": "polonius in william shakespeares hamlet your noble son is mad mad call i it for to define true madness what ist but to be nothing else but mad",
+            "content": "he affirms “your noble son is madmad call i it for to define true madnesswhat ist but to be nothing else but mad” 229294 everyone believes",
+            "url": "https://www.cloverautrey.com/2021/06/hamlet-depression-unchecked-leads-to.html",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 19,
+            "query": "polonius in william shakespeares hamlet your noble son is mad mad call i it for to define true madness what ist but to be nothing else but mad",
+            "content": "your noble son is mad mad call i it for to define true madness what ist but to be nothing else but mad but let that go queen more matter with less",
+            "url": "https://www.26reads.com/library/36645-hamlet/3/2",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 20,
+            "query": "polonius in william shakespeares hamlet your noble son is mad mad call i it for to define true madness what ist but to be nothing else but mad",
+            "content": "polonius as a question your noble son is mad mad call i it for to define true madness what ist but to be nothing else but mad iiii924",
+            "url": "https://www.enotes.com/topics/hamlet/criticism/hamlet-vol-35/madness/duncan-salkeld-essay-date",
+            "engine": "ddg"
+        },
+        {
+            "snippetIndex": 17,
+            "query": "notice from the hyatt regency hotel in new orleans we are pleased to confirm your reservation it will be held on a spaceavailable basis",
+            "content": "notice from the hyatt regency hotel in new orleans “we are pleased to confirm your reservation it will be held on a spaceavailable basis” a",
+            "url": "https://www.brainscape.com/flashcards/chap-3-4588524/packs/6795795",
+            "engine": "ddg"
+        }
+    ],
+    "valid_WebContext": [
+        {
+            "snippetIndex": 2,
+            "query": "referring to an act committed by an opponent in negative terms while referring to the same act committed by the arguer or supporters in favorable terms describes which of the following fallacies",
+            "content": "fallacies are fake or deceptive arguments junk cognition that is arguments that seem irrefutable but prove nothing fallacies often seem superficially",
+            "url": "https://utminers.utep.edu/omwilliamson/engl1311/fallacies.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when someone tries to support a proposition with information that really has nothing to do with the claim being made that person has probably committed which of the following fallacies",
+            "content": "a red herring fallacy one of the main subtypes of fallacies of relevance is an error in logic where a proposition is or is intended to be misleading in",
+            "url": "https://en.wikipedia.org/wiki/List_of_fallacies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "a slipperyslope pattern of argument is fallacious when",
+            "content": "in a slippery slope argument a course of action is rejected because the slippery slope advocate believes it will lead to a chain reaction resulting in an",
+            "url": "https://en.wikipedia.org/wiki/Slippery_slope",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "arguing that a claim must be true merely because a substantial number of people believe it is called the fallacy of",
+            "content": "a fallacy is the use of invalid or otherwise faulty reasoning in the construction of an argument all forms of human communication can contain fallacies",
+            "url": "https://en.wikipedia.org/wiki/List_of_fallacies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "arguing that a claim must be true because there is no evidence that it is false is which of the following fallacies",
+            "content": "argument from ignorance appeal to ignorance argumentum ad ignorantiam assuming that a claim is true because it has not been or cannot be proven false or",
+            "url": "https://en.wikipedia.org/wiki/List_of_fallacies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following fallacies happens when someone attributes the cause of an event to a simple cause when the cause is actually more complicated",
+            "content": "a false cause fallacy occurs when someone incorrectly assumes that a causal relation exists between two things or events",
+            "url": "https://www.scribbr.com/fallacies/false-cause-fallacy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following explanations best fits the fallacy of ignorance of refutation",
+            "content": "an appeal to ignorance also known as an argument from ignorance occurs when someone argues for or against an idea because there is no evidence to refute",
+            "url": "https://study.com/learn/lesson/logical-fallacies-ignorance-emotion-popularity.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "applying irrelevant standards to the subject of the argument is the fallacy of",
+            "content": "a fallacy is the use of invalid or otherwise faulty reasoning in the construction of an argument all forms of human communication can contain fallacies",
+            "url": "https://en.wikipedia.org/wiki/List_of_fallacies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the universe like a watch must have a maker",
+            "content": "the watchmaker analogy or watchmaker argument is a teleological argument an argument for the existence of god",
+            "url": "https://en.wikipedia.org/wiki/Watchmaker_analogy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following best describes the fallacy of special pleading",
+            "content": "special pleading is often a result of strong emotional beliefs that interfere with reason logical form if x then y but not when it hurts my position",
+            "url": "https://www.logicallyfallacious.com/logicalfallacies/Special-Pleading",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following fallacies is a way of suppressing evidence that eliminates a source of evidence from consideration by claiming the source is flawed when there is no true relationship between the alleged flaw and the reliability of the source",
+            "content": "3 the fallacies of illegitimate presumption include begging the question false dilemma no true scotsman complex question and suppressed evidence the",
+            "url": "https://iep.utm.edu/fallacy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "if you say an opposing arguer has taken a position that you can easily defeat when he or she has not taken that position then you go on to defeat that position and claim to have done significant damage to that arguers overall argument you are probably guilty of which of the following fallacies",
+            "content": "these fallacies pathological arguments demonstrate the lengths to which people will go to win an argument even if they cannot prove their point fallacies",
+            "url": "https://www.dbu.edu/naugle/courses/_documents/phil-2302/handouts/informal-fallacies/relevance-part-i.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 10,
+            "query": "at the end of the course professor jones told us that we were the best class he had ever had thats why im sure that the 00 the appeared on my grade report is a mistake surely if we were as good a class as professor jones said we were none of us deserved to fail",
+            "content": "so when i went to ask if i could make up my grades they were all awesome about it my english teacher made me do a report on beowulf my",
+            "url": "https://www.reddit.com/r/AskReddit/comments/2j0u5x/what_is_the_coolest_thing_a_teacher_or_professor/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is another name for the fallacy of amphiboly",
+            "content": "the material fallacies are also known as fallacies of presumption because the premises “presume” too muchthey either covertly assume the",
+            "url": "https://www.britannica.com/topic/amphiboly",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "another name for the fallacy of false dilemma is",
+            "content": "false dilemma fallacy is also known as false dichotomy false binary and “eitheror” fallacy it is the fallacy of presenting only two choices",
+            "url": "https://www.scribbr.com/frequently-asked-questions/what-is-another-name-for-false-dilemma-fallacy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the following statements is not true",
+            "content": "its recommended to never write nottrue prefer not true the former makes it look like a function call while not is an operator not a function",
+            "url": "https://stackoverflow.com/questions/31421379/why-does-nottrue-in-false-true-return-false",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the natural law fallacy is a specific type of",
+            "content": "the naturalistic fallacy is the claim that it is possible to define good in terms of merely described entities properties or processes such as pleasant",
+            "url": "https://en.wikipedia.org/wiki/Naturalistic_fallacy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "whether someone is hypocritical regarding her claims is",
+            "content": "when is pointing out a persons hypocrisy not considered to be a logical fallacy 1 perhaps you misunderstand what fallacies are you cant",
+            "url": "https://philosophy.stackexchange.com/questions/64515/when-is-pointing-out-a-persons-hypocrisy-not-considered-to-be-a-logical-fallacy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "ad populum is another name for which fallacy",
+            "content": "in argumentation theory an argumentum ad populum is a fallacious argument which is based on claiming a truth or affirming something is good or correct",
+            "url": "https://en.wikipedia.org/wiki/Argumentum_ad_populum",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following describes the fallacy of appeal to common practice",
+            "content": "ad populum fallacy is arguing that a claim is true simply because thats what a large number of people believe",
+            "url": "https://www.scribbr.com/fallacies/ad-populum-fallacy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "the minor premise must affirm the antecedent or deny the consequent is a validity requirement of which type of argument",
+            "content": "argument is valid according to the rule “the minor premise must affirm the antecedent or deny the consequent” the student should note that the consequent",
+            "url": "https://www.gutenberg.org/ebooks/57912.epub.noimages",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "tan ah tiat fortynine years old a native of kuala lumpar malaysia was charged with possession of opium arguing for acquittal he told the judge that his opium habit did no harm as he was too old to work anyway asked how he lived he replied that he lived on the earnings of his grandmother",
+            "content": "one of the merits of this seminar is to take into account the wide variety of experiences whichall have their impact on the economic development",
+            "url": "https://horizon.documentation.ird.fr/exl-doc/pleins_textes/divers09-03/41563.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "another name for the fallacy of reducing to an absurdity is",
+            "content": "in logic reductio ad absurdum also known as argumentum ad absurdum or apagogical argument is the form of argument that attempts to establish a claim by",
+            "url": "https://en.wikipedia.org/wiki/Reductio_ad_absurdum",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "if someone says if you do something it will lead to extreme consequences but doesnt provide you with any evidence of a cause and effect relationship between your act and those consequences that person has probably committed which of the following fallacies",
+            "content": "a slippery slope fallacy is a type of false cause which assumes that taking a first step will lead to subsequent events that cannot be prevented the childrens",
+            "url": "https://cod.pressbooks.pub/communication/chapter/20-4-logical-fallacies/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a valid disjunctive syllogism has a major premise that",
+            "content": "in classical logic disjunctive syllogism is a valid argument form which is a syllogism having a disjunctive statement for one of its premises",
+            "url": "https://en.wikipedia.org/wiki/Disjunctive_syllogism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is another name for evading the issue",
+            "content": "escape avoid evade elude shun eschew mean to get away or keep away from something escape stresses the fact of getting away or being",
+            "url": "https://www.merriam-webster.com/dictionary/evade",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following best describes the fallacy of equivocation",
+            "content": "the equivocation fallacy is using an ambiguous word or phrase in more than one sense within the same argument",
+            "url": "https://www.scribbr.com/fallacies/equivocation-fallacy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following best describes the fallacy of selfevident truths",
+            "content": "ipse dixit bare assertion fallacy a claim that is presented as true without support as selfevidently true or as dogmatically true this fallacy relies on",
+            "url": "https://en.wikipedia.org/wiki/List_of_fallacies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "another name for the fallacy of complex question is",
+            "content": "plurium interrogationum also known as many questions fallacy fallacy of presupposition loaded question trick question false question",
+            "url": "https://www.logicallyfallacious.com/logicalfallacies/Complex-Question-Fallacy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in a hypothetical syllogism when the minor premise affirms the antecedent",
+            "content": "the first way to get a valid conclusion from a hypothetical or conditional premise is to affirm the antecedent which in latin is called modus ponens lit way",
+            "url": "https://www3.dbu.edu/naugle/pdf/2302_handouts/hypothetical_syllogisms.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "men are better drivers than women are the proof of this is that men are more capable than women of managing cars on the road",
+            "content": "the studies reveal men are more likely to pass their driving test overall and have a higher firsttime pass rate",
+            "url": "https://www.rivervaleleasing.co.uk/blog/posts/who-are-better-drivers-men-or-women",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the concomitant variation fallacy is",
+            "content": "also known as concomitant variation this causal fallacy is a special case of pot hoc in that the two events are said to occur simultaneously for example",
+            "url": "https://scientificmethod.fandom.com/wiki/Causal_Fallacies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in a valid disjunctive syllogism the minor premise must",
+            "content": "in classical logic disjunctive syllogism is a valid argument form which is a syllogism having a disjunctive statement for one of its premises",
+            "url": "https://en.wikipedia.org/wiki/Disjunctive_syllogism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "i dont understand why everyone thinks they belong in college after all everyone knows that when you are intelligent youll succeed but so many people that elect to attend college dont have even the most basic intelligence how do they expect to get anywhere here",
+            "content": "a college degree doesnt have any correlation to your intelligence except to say that you arent severely mentally handicapped",
+            "url": "https://www.reddit.com/r/intj/comments/p034xu/college_degrees_a_measure_of_intelligence/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "appeal to compassion is",
+            "content": "attempting to move us to do something purely by evoking a feeling of compassion towards the recipients of the suggested act or beleif or a feeling of guilt",
+            "url": "https://inquiresabound.wordpress.com/2020/11/15/appeal-to-compassion/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the appeal to joy fallacy involves",
+            "content": "an informal fallacy characterized by the manipulation of the recipients emotions in order to win an argument especially in the absence of factual evidence",
+            "url": "https://en.wikipedia.org/wiki/Appeal_to_emotion",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if you argued something is flawed because it fails to do something when it was never intended to do that you may have committed which of the following fallacies",
+            "content": "a fallacy is the use of invalid or otherwise faulty reasoning in the construction of an argument all forms of human communication can contain fallacies",
+            "url": "https://en.wikipedia.org/wiki/List_of_fallacies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "in a faulty analogy the things being compared are",
+            "content": "faulty analogy this fallacy consists in assuming that because two things are alike in one or more respects they are necessarily alike in some other respect",
+            "url": "https://www.txst.edu/philosophy/resources/fallacy-definitions/faulty-analogy.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following best describes the fallacy of style over substance",
+            "content": "description when the arguer embellishes the argument with compelling language or rhetoric andor visual aesthetics this comes in many forms as described",
+            "url": "https://www.logicallyfallacious.com/logicalfallacies/Style-Over-Substance",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "when someone treats an imaginary concept as if it was something tangible that person might commit the fallacy of",
+            "content": "argumentum ad personam a species of ad hominem is usually thought to be a fallacy because it attacks the persons character instead of the",
+            "url": "https://www.cambridge.org/core/books/practice-of-argumentation/fallacies/6F0F53743C5D3CBCDD7E4B890BD72FB6",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "were perfectly entitled to believe there is a god after all every effort by atheists to prove otherwise has failed",
+            "content": "justifying atheism by saying theres no evidence of god is logically fallacious and i challenge you to provide reasoning for your position",
+            "url": "https://www.reddit.com/r/DebateAnAtheist/comments/18knken/justifying_atheism_by_saying_theres_no_evidence/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "which of the following best describes the snob appeal fallacy",
+            "content": "pricing courses course finder live learning graduate courses custom courses great books novare science",
+            "url": "https://classicalu.com/courses/essential-logic-the-logical-fallacies/lessons/logical-fallacies-lesson-8/quizzes/quiz-lesson-8-snob-appeal/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following describes the tu quoque fallacy",
+            "content": "tu quoque is a discussion technique that intends to discredit the opponents argument by attacking the opponents own personal behavior and actions as being",
+            "url": "https://en.wikipedia.org/wiki/Tu_quoque",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "rejecting a claim by criticizing the person who makes it rather than the claim itself is known as the fallacy of",
+            "content": "ad hominem latin for to the person short for argumentum ad hominem refers to several types of arguments that are usually fallacious",
+            "url": "https://en.wikipedia.org/wiki/Ad_hominem",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following describes the fallacy of appeal to spite",
+            "content": "appeal to spite generating bitterness or hostility in the listener toward an opponent in an argument judgmental language using insulting or pejorative",
+            "url": "https://en.wikipedia.org/wiki/List_of_fallacies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "another name for hasty generalization is",
+            "content": "“ the fallacy of secundum quid is otherwise known as the hasty generalization whenever a generalization is reached on the basis of a very few",
+            "url": "https://www.logicallyfallacious.com/cgi-bin/uy/qa.cgi?ns_questions+9P7BM4gM",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the fallacy of appeal to emotions consists of",
+            "content": "an informal fallacy characterized by the manipulation of the recipients emotions in order to win an argument especially in the absence of factual evidence",
+            "url": "https://en.wikipedia.org/wiki/Appeal_to_emotion",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when someone makes an argument and the only evidence he or she uses to support the claim is the testimony that an authority figure believes the claim the arguer has committed which fallacy",
+            "content": "appeal to authority fallacy occurs when we accept a claim merely because someone tells us that an authority figure supports that claim",
+            "url": "https://www.scribbr.com/fallacies/appeal-to-authority-fallacy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "another name for the fallacy of accident is",
+            "content": "the material fallacies are also known as fallacies of presumption because the premises “presume” too muchthey either covertly assume the",
+            "url": "https://www.britannica.com/topic/fallacy-of-accident",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "john stuart mill each persons happiness is a good to that person and the general happiness therefore a good to the aggregate of all persons",
+            "content": "the utilitarian doctrine is that happiness is desirable and the only thing desirable as an end all other things being only desirable as means to that end",
+            "url": "https://www.utilitarianism.com/mill4.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "responding to charges of wrongdoing by saying the accuser or others do the same thing describes which of the following fallacies",
+            "content": "tu quoque is a type of ad hominem argument in which an accused person turns an allegation back on his or her accuser thus creating a logical fallacy",
+            "url": "https://www.thoughtco.com/tu-quoque-logical-fallacy-1692568",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following best describes the fallacy of amphiboly",
+            "content": "ambiguity any fallacy that turns on ambiguity see the fallacies of amphiboly accent and equivocation amphiboly is ambiguity of syntax",
+            "url": "https://iep.utm.edu/fallacy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "ad hominem is another name for the fallacy of",
+            "content": "ad hominem latin for to the person short for argumentum ad hominem refers to several types of arguments that are usually fallacious",
+            "url": "https://en.wikipedia.org/wiki/Ad_hominem",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "an arguer who threatens another to gain agreement commits the fallacy of",
+            "content": "the ad hominem argument also personal attack poisoning the well the fallacy of attempting to refute an argument by attacking the oppositions",
+            "url": "https://utminers.utep.edu/omwilliamson/engl1311/fallacies.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "arguing in favor of a claim based only on the evidence that some regular people believe the claim is one way to commit which of the following fallacies",
+            "content": "a fallacy is the use of invalid or otherwise faulty reasoning in the construction of an argument all forms of human communication can contain fallacies",
+            "url": "https://en.wikipedia.org/wiki/List_of_fallacies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "arguing that someone couldnt have done something good because she holds a particular position commits the fallacy of",
+            "content": "the emotion fallacy presents a perspective intended to be superior to reason and i think thats exactly what is happening in this case now",
+            "url": "https://philosophy.stackexchange.com/questions/15864/but-im-a-good-person-what-logical-fallacy-is-this-and-how-to-argue-agains",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when someone changes the meaning of a word or phrase from one part of the argument to another that person may have committed which of the following fallacies",
+            "content": "fallacy of accent changing the meaning of a statement by not specifying on which word emphasis falls persuasive definition purporting to use the true or",
+            "url": "https://en.wikipedia.org/wiki/List_of_fallacies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following describes the fallacy of evading the issue",
+            "content": "a fallacy is the use of invalid or otherwise faulty reasoning in the construction of an argument all forms of human communication can contain fallacies",
+            "url": "https://en.wikipedia.org/wiki/List_of_fallacies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "another name for the bandwagon appeal is",
+            "content": "the bandwagon fallacy also known as the appeal to the masses or appeal to common belief fallacy is the logical fallacy of claiming that something is true",
+            "url": "https://www.grammarly.com/blog/rhetorical-devices/bandwagon-fallacy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the fallacy that involves reasoning that determines the conclusion one wants first then accepts only evidence supporting that conclusion or interprets all evidence as support for that conclusion is known as",
+            "content": "a fallacy of induction happens when a conclusion is drawn from premises that only lightly support it",
+            "url": "https://en.wikipedia.org/wiki/List_of_fallacies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "when someone uses grammar or punctuation in a way that makes a statement have more than one possible interpretation that person may have committed which of the following fallacies",
+            "content": "an equivocation is a statement crafted to mislead or confuse readers or listeners by using multiple meanings or interpretations of a word or",
+            "url": "https://www.grammarly.com/blog/rhetorical-devices/logical-fallacies/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the fallacy of appeal to the person is rejecting a claim by",
+            "content": "appeal to the stone argumentum ad lapidem dismissing a claim as absurd without demonstrating proof for its absurdity invincible ignorance argument by",
+            "url": "https://en.wikipedia.org/wiki/List_of_fallacies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "the minor premise must affirm the antecedent or deny the consequent is a way to determine the validity of which type of argument",
+            "content": "the minor premise must affirm the antecedent or deny the consequent mp if the prime rate goes down then more houses will be purchased mp the prime rate",
+            "url": "https://www.rationalresponders.com/part_7_the_structure_of_reasoning",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when someone uses highly emotionally charged terms during an argument without giving any reasons why those terms fit the subject that person may have committed which of the following fallacies",
+            "content": "a fallacy is the use of invalid or otherwise faulty reasoning in the construction of an argument all forms of human communication can contain fallacies",
+            "url": "https://en.wikipedia.org/wiki/List_of_fallacies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "another name for the fallacy of accident is",
+            "content": "the material fallacies are also known as fallacies of presumption because the premises “presume” too muchthey either covertly assume the",
+            "url": "https://www.britannica.com/topic/fallacy-of-accident",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "including more than one claim in a proposition may lead to which of the following fallacies",
+            "content": "a fallacy is the use of invalid or otherwise faulty reasoning in the construction of an argument all forms of human communication can contain fallacies",
+            "url": "https://en.wikipedia.org/wiki/List_of_fallacies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a valid disjunctive syllogism has which of the following characteristics",
+            "content": "in disjunctive syllogism the first premise establishes two options the second takes one away so the conclusion states that the remaining one must be true it",
+            "url": "https://en.wikipedia.org/wiki/List_of_valid_argument_forms",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the genetic fallacy consists of",
+            "content": "the genetic fallacy is a fallacy of irrelevance in which arguments or information are dismissed or validated based solely on their source of origin rather",
+            "url": "https://en.wikipedia.org/wiki/Genetic_fallacy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "telling people that they havent been harmed because there is something they should be thankful for commits which of the following fallacies",
+            "content": "the bandwagon fallacy also argument from common sense argumentum ad populum the fallacy of arguing that because everyone the people or the majority",
+            "url": "https://utminers.utep.edu/omwilliamson/engl1311/fallacies.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "another name for hasty conclusion is",
+            "content": "come to hasty conclusion dogmatize err misapprehend misconceive mistake prejudge presume presuppose stumble suppose underrate weak",
+            "url": "https://www.thesaurus.com/browse/come-to-hasty-conclusion",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which type of syllogisms major premise takes the form all as are b",
+            "content": "major premise is all as are b figure 64 categorical syllogism the socalled categories or classes are men things that are mortal and socrates",
+            "url": "https://usq.pressbooks.pub/criticalthinkingandscientificreasoning/chapter/chapter-6-constructing-and-appraising-arguments-part-a/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following fallacies happens when someone concludes that someone couldnt have done something bad because he or she has good qualities",
+            "content": "the emotion fallacy presents a perspective intended to be superior to reason and i think thats exactly what is happening in this case now",
+            "url": "https://philosophy.stackexchange.com/questions/15864/but-im-a-good-person-what-logical-fallacy-is-this-and-how-to-argue-agains",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "moses maimonides the guide of the perplexed god may he be exalted existed alone and nothing else afterwards through his will and his volition he brought into existence out of nothing all the beings as they are time itself being one of the created things for time is consequent upon motion and motion is an accident of what is moved furthermore what is movedis itself created in time",
+            "content": "in the guide of the perplexed maimonides argues that the eternity of the world is not demonstrable he undertook a detailed analysis of the reasoning in",
+            "url": "https://iep.utm.edu/maimonid/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "another name for the fallacy of begging the question is",
+            "content": "the formal name for this logical fallacy is petitio principii following are two classic examples reasonable men are those who think and reason",
+            "url": "https://en.wikipedia.org/wiki/Begging_the_question",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "john s knight detroit free press 3 july 1970 capitalism is the economic system in which the means of production and distribution are privately owned and operated for profit the alternative system is called socialism the theory of the ownership and operation of the means of production by society with all members sharing in the work and the products",
+            "content": "capital limits itself to examining those which govern the capitalist mode of production capital is therefore not pure economic theory at all for marx",
+            "url": "https://fenix.ics.ulisboa.pt/downloadFile/844553779150890/Capital%20Volume%201%20A%20Critique%20of%20Political%20Economy%20by%20Karl%20Marx,%20Ben%20Fowkes,%20Ernest%20Mandel.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following fallacies happens when someone argues that a choice must be made among a certain set of alternatives when there are really other alternatives to choose from",
+            "content": "a fallacy is the use of invalid or otherwise faulty reasoning in the construction of an argument all forms of human communication can contain fallacies",
+            "url": "https://en.wikipedia.org/wiki/List_of_fallacies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the fallacy of guilt by association is a specific type of",
+            "content": "guilt by association can sometimes also be a type of ad hominem if the argument attacks a person because of the similarity between the views of someone",
+            "url": "https://en.wikipedia.org/wiki/Association_fallacy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the false cause fallacy is",
+            "content": "it is a fallacy of reaching a conclusion that one thing caused another simply because they are regularly associated",
+            "url": "https://en.wikipedia.org/wiki/Questionable_cause",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "arguing that what is true of an entire object is also true of each part of that object is the fallacy of",
+            "content": "fallacy of division assuming that something true of a composite thing must also be true of all or some of its parts false attribution appealing to an",
+            "url": "https://en.wikipedia.org/wiki/List_of_fallacies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following describes the fallacy of appeal to popularity",
+            "content": "the popular appeal fallacy is demonstrated by the mistaken belief that conclusions can be drawn from claims that state everyone or almost everyone agrees with",
+            "url": "https://study.com/academy/lesson/appeal-to-popularity-fallacy-definition-examples.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following describes the fallacy of appeal to loyalty",
+            "content": "appeal to loyalty description when one is either implicitly or explicitly encouraged to consider loyalty when evaluating the argument when the truth of the",
+            "url": "https://www.logicallyfallacious.com/logicalfallacies/appeal-to-loyalty.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the fallacy of ignoratio elenchi is also known as",
+            "content": "an irrelevant conclusion also known as ignoratio elenchi latin for ignoring refutation or missing the point is the informal fallacy of presenting",
+            "url": "https://en.wikipedia.org/wiki/Irrelevant_conclusion",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the fallacy of composition is",
+            "content": "the fallacy of composition is an informal fallacy that arises when one infers that something is true of the whole from the fact that it is true of some part",
+            "url": "https://en.wikipedia.org/wiki/Fallacy_of_composition",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if you think that someones argument is strong based on their compelling use of language and confident delivery youve probably committed which fallacy",
+            "content": "the fallacies of argumentation can be classified as either formal or informal a formal fallacy can be detected by examining the logical form of the reasoning",
+            "url": "https://iep.utm.edu/fallacy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following fallacies happens when someone concludes that someone couldnt have done something good because he or she has negative qualities",
+            "content": "the bandwagon fallacy also argument from common sense argumentum ad populum the fallacy of arguing that because everyone the people or the majority",
+            "url": "https://utminers.utep.edu/omwilliamson/engl1311/fallacies.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "arguing that someone should do something because other people are doing it is a description of which of the following fallacies",
+            "content": "a fallacy is the use of invalid or otherwise faulty reasoning in the construction of an argument all forms of human communication can contain fallacies",
+            "url": "https://en.wikipedia.org/wiki/List_of_fallacies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which fallacy happens because of a failure to recognize the alternatives presented are not mutually exclusive",
+            "content": "maskedman fallacy illicit substitution of identicals the substitution of identical designators in a true statement can lead to a false one",
+            "url": "https://en.wikipedia.org/wiki/List_of_fallacies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "appeal to ignorance is a fallacy that involves",
+            "content": "the appeal to ignorance fallacy is the logical fallacy of claiming that a statement must be true because theres no evidence against it",
+            "url": "https://www.grammarly.com/blog/rhetorical-devices/appeal-to-ignorance-fallacy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "william safire in american heritage magazine december 1987 the greatness of lincoln was his purposefulness he saw something that few others saw that the democratic experiment centered on the union and that majority rule was everything the minute you allowed secession you made democracy an absurditybecause what would happen would be continued subdivision",
+            "content": "a new novel about lincoln examines questions about civil liberties in wartime staff loyalties and disloyalties and especially lincolns priorities",
+            "url": "https://www.americanheritage.com/lincoln-fiction-fact",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "ad crumenam is a specific kind of",
+            "content": "ad crumenami will lay twenty guineas to a single crownpiece which will serve to give away to obadiah when he gets back that this",
+            "url": "https://www.gutenberg.org/ebooks/1079.txt.utf-8",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following describes the fallacy of appeal to indignation",
+            "content": "your reasoning contains this fallacy if you make an irrelevant attack on the arguer and suggest that this attack undermines the argument itself “ad hominem”",
+            "url": "https://iep.utm.edu/fallacy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "evading burden of proof is another name for the fallacy of",
+            "content": "this article is about burden of proof as a philosophical concept for other uses see burden of proof the burden of proof latin onus probandi shortened from",
+            "url": "https://en.wikipedia.org/wiki/Burden_of_proof_(philosophy)",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following describes the fallacy of false consolation",
+            "content": "the argument appeals to the emotion rather than to reason false comparison faulty analogy this fallacy consists in assuming that because two things are",
+            "url": "https://www.mdc.edu/kendall/collegeprep/documents2/COMMON%20FALLACIESrev.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following describes the horse laugh fallacy",
+            "content": "appeal to ridicule also called appeal to mockery ad absurdo or the horse laugh is an informal fallacy which presents an opponents argument as absurd",
+            "url": "https://en.wikipedia.org/wiki/Appeal_to_ridicule",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the post hoc fallacy is",
+            "content": "the post hoc fallacy is the assumption that because one event preceded another event they must be causally related",
+            "url": "https://www.scribbr.com/fallacies/post-hoc-fallacy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when a claim is supported only by asserting that unidentified experts accept the claim the arguer has committed which of the following fallacies",
+            "content": "false attribution appealing to an irrelevant unqualified unidentified biased or fabricated source in support of an argument",
+            "url": "https://en.wikipedia.org/wiki/List_of_fallacies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "so how long have you been beating your wife",
+            "content": "the traditional example is the question have you stopped beating your wife and which is often an implicit restatement of the proposition",
+            "url": "https://en.wikipedia.org/wiki/Loaded_question",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the ad nauseam fallacy is",
+            "content": "an argumentum ad nauseam also known as an argument by repetition is the logical fallacy that something becomes true if it is repeated often enough",
+            "url": "https://rationalwiki.org/wiki/Argumentum_ad_nauseam",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a syllogism that is formally invalid",
+            "content": "the vast majority of the 256 possible forms of syllogism are invalid the conclusion does not follow logically from the premises the table below shows the",
+            "url": "https://en.wikipedia.org/wiki/Syllogism",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "its silly to pass laws against discrimination since it is obvious that we cant live without it we discriminate between pleasant and unpleasant tastes in selecting our food between pleasant and unpleasant sounds in selecting our music between harmonious and unharmonious colors in decorating our homes between interesting and uninteresting people in choosing our friends and so on we cant live without discriminating",
+            "content": "so is he saying that justice is doing good to friends and bad to enemies i think so when it comes to disease and health who is most capable of doing good to",
+            "url": "https://www.platonicfoundation.org/translation/republic/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following fallacies happens when someone concludes that a legitimate generalization necessarily applies to a particular case",
+            "content": "accident an exception to a generalization is ignored cherry picking false analogy hasty generalization argument from anecdote inductive fallacy",
+            "url": "https://en.wikipedia.org/wiki/List_of_fallacies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "arguing that a lack of evidence proves something is the fallacy of",
+            "content": "an informal fallacy where something is claimed to be true or false because of a lack of evidence to the contrary",
+            "url": "https://en.wikipedia.org/wiki/Argument_from_ignorance",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "in a conditional syllogism when the minor premise denies the antecedent",
+            "content": "as the consequent is necessary for the antecedent in premise one once the consequent is denied as it is with the second premise the antecedent can then be",
+            "url": "https://amateurlogician.com/conditional-propositions-syllogisms/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the blackorwhite fallacy is another name for",
+            "content": "also known as the false dilemma this insidious tactic has the appearance of forming a logical argument but under closer scrutiny it becomes evident that there",
+            "url": "https://yourlogicalfallacyis.com/black-or-white",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "if someone uses an emotionally charged restatement of a claim in place of support for the claim that person may have committed which of the following fallacies",
+            "content": "the fallacy of ad hominem is committed when an argument attacks an opponent eg a person or group with a different view rather than the opponents evidence",
+            "url": "https://people.uncw.edu/kozloffm/fallacies.doc",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 6,
+            "query": "which of the following fallacies happens when someone draws a conclusion that is simply a restatement of one of the premises",
+            "content": "the last examples conclusion is simply a restatement of the premises using slightly different wording the gamblers fallacy involves erroneous reasoning about",
+            "url": "https://learn.saylor.org/mod/book/view.php?id=65013&chapterid=57517",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the appeal to fear involves",
+            "content": "an appeal to fear is a fallacy in which a person attempts to create support for an idea by attempting to increase fear towards an alternative an appeal to",
+            "url": "https://en.wikipedia.org/wiki/Appeal_to_fear",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following best describes the fallacy of poisoning the well",
+            "content": "poisoning the well is a type of informal fallacy where adverse information about a target is preemptively presented to an audience with the intention of",
+            "url": "https://en.wikipedia.org/wiki/Poisoning_the_well",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the argument against the person consists of",
+            "content": "ad hominem latin for to the person short for argumentum ad hominem refers to several types of arguments that are usually fallacious",
+            "url": "https://en.wikipedia.org/wiki/Ad_hominem",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the false sign fallacy is",
+            "content": "a false cause fallacy occurs when someone incorrectly assumes that a causal relation exists between two things or events",
+            "url": "https://www.scribbr.com/fallacies/false-cause-fallacy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "ef schumacher famous economist in an article in the atlantic april 1979 fifteen months after i had advised that rural india should have a technology intermediate between the hoe and the tractor an allindia conference on intermediate technology was arranged they still didnt like the term intermediate so they called it appropriate technology thats all right when i come to india and somebody says oh mr schumacher i dont believe in appropriate technology i just look him straight in the face and say oh thats splendid do you believe in inappropriate technology",
+            "content": "how can we create a knowledge network that assists in taking these technological innovations from concept to market and which protects intellectual property",
+            "url": "https://scispace.com/pdf/re-fitting-the-task-to-man-activating-open-source-3vn7d7v9it.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the false analogy fallacy is",
+            "content": "this fallacy consists in assuming that because two things are alike in one or more respects they are necessarily alike in some other respect examples",
+            "url": "https://www.txst.edu/philosophy/resources/fallacy-definitions/faulty-analogy.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following describes the straw person fallacy",
+            "content": "straw man fallacy is the distortion of someone elses argument instead of addressing the actual argument to make it easier to attack",
+            "url": "https://www.scribbr.com/fallacies/straw-man-fallacy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 8,
+            "query": "which of the following fallacies happens when someone concludes that someone must be honest because the people he hangs around with are honest",
+            "content": "the bandwagon fallacy also argument from common sense argumentum ad populum the fallacy of arguing that because everyone the people or the majority",
+            "url": "https://utminers.utep.edu/omwilliamson/engl1311/fallacies.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the appeal to anonymous authority fallacy consists of",
+            "content": "appeals to anonymous sources are more often than not a way to fabricate exaggerate or misrepresent facts in order to deceive others into accepting your claim",
+            "url": "https://www.logicallyfallacious.com/logicalfallacies/Anonymous-Authority",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the fallacy of laudatory personality is a specific type of",
+            "content": "bentham distinguishes four main categories of fallacies fallacies of authority of danger of delay of confusion",
+            "url": "https://icar.cnrs.fr/dicoplantin/political-arguments-eng/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "we must assume that he is a communist because he says that he is not and we know that communists are taught always to deny party membership",
+            "content": "the communists say they are building a communist state and assure us that we must make these hands work for us and not have responsible communists",
+            "url": "https://www.marxists.org/archive/lenin/works/1922/mar/27.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 7,
+            "query": "i dont know what the answer is to number 8 but heather hasnt made the third option into the correct answer for a while and even then only once so im guessing that this is the fallacy of composition",
+            "content": "when not writing or teaching she enjoys traveling playing chess teaching chess to eightyearolds walking reading novels watch ing shakespeare plays and",
+            "url": "https://home.iitk.ac.in/~avrs/PH142/Books/Frances_Howard-Snyder,_Daniel_Howard-Snyder,_Ryan_Wasserman_The_Power_of_Logic_4th_Edition____2009.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "fallacies can be psychologically persuasive even though they are",
+            "content": "fallacious reasoning should not be persuasive but it too often is the vast majority of the commonly identified fallacies involve arguments although some",
+            "url": "https://iep.utm.edu/fallacy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "ad crumenam is",
+            "content": "ad crumenami will lay twenty guineas to a single crownpiece which will serve to give away to obadiah when he gets back that this",
+            "url": "https://www.gutenberg.org/ebooks/1079.txt.utf-8",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is another name for appeal to the people",
+            "content": "alternative names appeal to common belief appeal to popularity appeal to the majority appeal to the masses argument from consensus authority of the many",
+            "url": "https://en.wikipedia.org/wiki/Argumentum_ad_populum",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "asking a question that includes an unproven assumption may lead to which of the following fallacies",
+            "content": "fallacy of many questions complex question fallacy of presuppositions loaded question plurium interrogationum someone asks a question that presupposes",
+            "url": "https://en.wikipedia.org/wiki/List_of_fallacies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "the fallacy of reprehensible personality is a specific type of",
+            "content": "in this case a person attempts to justify incorrect stupid or criminal behavior by whining thats what i was told to do or “i was just following orders",
+            "url": "https://utminers.utep.edu/omwilliamson/engl1311/fallacies.htm",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "if someone argues that something should be done in a certain way because thats the way its always been done that person has committed which of the following fallacies",
+            "content": "ad hominem attacking the arguer instead of the argument appeal to authority argument from authority argumentum ad verecundiam an assertion is deemed",
+            "url": "https://en.wikipedia.org/wiki/List_of_fallacies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 4,
+            "query": "which of the following is a test of the validity of a conditional syllogism",
+            "content": "if a syllogism is valid then if a term is distributed in the conclusion it must be distributed in a premise",
+            "url": "https://sites.oxy.edu/traiger/logic/primer/chapter8/testing-syllogisms-validity-rules.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "when someone argues that making a change will have no significant effect but there is no evidence that the effect will not be significant that person has committed which of the following fallacies",
+            "content": "one widely accepted definition defines a fallacious argument as one that either is deductively invalid or is inductively very weak or contains an unjustified",
+            "url": "https://iep.utm.edu/fallacy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "arguing that someone couldnt have done something good because he is incapable of doing good commits the fallacy of",
+            "content": "i believe this to be an improper appeal to authority in this case what i mean by authority is more akin to reputation",
+            "url": "https://philosophy.stackexchange.com/questions/15864/but-im-a-good-person-what-logical-fallacy-is-this-and-how-to-argue-agains",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "appeal to beliefs is another name for which of the following fallacies",
+            "content": "relevance fallacies appeal to the stone argumentum ad lapidem dismissing a claim as absurd without demonstrating proof for its absurdity invincible",
+            "url": "https://en.wikipedia.org/wiki/List_of_fallacies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following describes the fallacy of appeal to tradition",
+            "content": "but is fallacious when it confuses a long tradition of careful testing with the mere tendency to hold on to ideas because they are old",
+            "url": "https://en.wikipedia.org/wiki/Appeal_to_tradition",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a hasty generalization is a fallacy of",
+            "content": "hasty generalization fallacy is a claim made on the basis of insufficient evidence eg using a small unrepresentative sample",
+            "url": "https://www.scribbr.com/fallacies/hasty-generalization-fallacy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the hasty conclusion fallacy is",
+            "content": "the hasty generalization fallacy also known as the overgeneralization fallacy is the logical fallacy of making a claim based on a sample size",
+            "url": "https://www.grammarly.com/blog/rhetorical-devices/hasty-generalization-fallacy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "false analogy is another name for which fallacy",
+            "content": "this fallacy consists in assuming that because two things are alike in one or more respects they are necessarily alike in some other respect examples",
+            "url": "https://www.txst.edu/philosophy/resources/fallacy-definitions/faulty-analogy.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following best describes the fallacy of question begging epithets",
+            "content": "with the questionbegging epithet the arguer uses biased often emotional language to persuade people rather than using logic",
+            "url": "https://answersingenesis.org/logic/the-fallacy-of-the-question-begging-epithet/?srsltid=AfmBOoo89BMJ9zZbnsOCCF8Mhm0Y6pjOMsezEwpcMt1Y8kfDWTuybkma",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "anecdotal evidence is a specific kind of",
+            "content": "anecdotal evidence or anecdata 1 is evidence based on descriptions and reports of individual personal experiences or observations",
+            "url": "https://en.wikipedia.org/wiki/Anecdotal_evidence",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following is the best explanation of the fallacy of loaded language",
+            "content": "loaded words and phrases have significant emotional implications and involve strongly positive or negative reactions beyond their literal meaning",
+            "url": "https://en.wikipedia.org/wiki/Loaded_language",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following best describes the fallacy of figure of speech",
+            "content": "pathetic fallacy is the attribution of human emotion to inanimate objects nature or animals writers use the fallacy to evoke a feeling",
+            "url": "https://www.scribbr.com/language-rules/pathetic-fallacy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "circulus in probando is another name for",
+            "content": "circulus in probando lat for circle in proving in logic a phrase used to describe a form of argument in which the very fact which one seeks to",
+            "url": "https://theodora.com/encyclopedia/c2/circulus_in_probando.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "which of the following fallacies happen if someone argues that you are a reasonable and intelligent person so of course you understand his claim is true",
+            "content": "a charge of fallacious reasoning always needs to be justified the burden of proof is on your shoulders when you claim that someones reasoning is fallacious",
+            "url": "https://iep.utm.edu/fallacy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which of the following describes he fallacy of appeal to pride",
+            "content": "one widely accepted definition defines a fallacious argument as one that either is deductively invalid or is inductively very weak or contains an unjustified",
+            "url": "https://iep.utm.edu/fallacy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the complex proposition fallacy involves",
+            "content": "the presupposition is a proposition that is presumed to be acceptable to the respondent when the question is asked",
+            "url": "https://en.wikipedia.org/wiki/Complex_question",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "automatically rejecting a claim just because its traditional is",
+            "content": "appeal to tradition arguing that a claim must be true or good just because its part of a tradition appeal to emotion the use of emotions as premises",
+            "url": "https://learninglink.oup.com/protected/files/content/file/1551193048852-MacDonaldVaughn_SSG_Chapter5.pdf",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the natural law fallacy is",
+            "content": "the naturalistic fallacy is an informal logical fallacy which argues that if something is natural it must be good it is closely related",
+            "url": "https://ethics.org.au/ethics-explainer-naturalistic-fallacy/",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "a priori is a fallacy that involves",
+            "content": "it isnt a logical fallacy its a cognitive bias which can but does not always lead to cognitive error",
+            "url": "https://philosophy.stackexchange.com/questions/106339/a-priori-argument-fallacy",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "arguing that an idea should be accepted or rejected only because of the source of the idea commits which of the following fallacies",
+            "content": "a fallacy is the use of invalid or otherwise faulty reasoning in the construction of an argument all forms of human communication can contain fallacies",
+            "url": "https://en.wikipedia.org/wiki/List_of_fallacies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "which fallacy happens when someone argues in favor of a two part proposition only supports one part of the proposition then asserts that the entire proposition has been supported",
+            "content": "ad hominem attacking the arguer instead of the argument appeal to authority argument from authority argumentum ad verecundiam an assertion is deemed",
+            "url": "https://en.wikipedia.org/wiki/List_of_fallacies",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 1,
+            "query": "the fallacy of extension consists of",
+            "content": "the logical fallacy of extension occurs when an exaggeration of a position is claimed to be the actual position this is a type of straw man argument",
+            "url": "https://www.seekfind.net/Logical_Fallacy_of_Extension.html",
+            "engine": "google"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "each term must be used twice no more and no less is a test of validity for which type of syllogism",
+            "content": "categorical syllogism venn diagrams for validity major term minor term middle term major premise and minor premise a categorical syllogism is a two premised deductive argument whose every claim is a categorical claim and in which exactly three terms appear in the argument each term occurs exactly twice",
+            "url": "https://faculty.fiu.edu/~harrisk/Notes/Critical Thinking/Categorical Syllogisms, Venn Diagrams and Rules for Testing.htm",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "ad novitatem is",
+            "content": "the appeal to novelty also called appeal to modernity or argumentum ad novitatem is a logical fallacy in which one prematurely claims that an idea or proposal is correct or superior exclusively because it is new and modern in a controversy between status quo and new inventions an appeal",
+            "url": "https://en.wikipedia.org/wiki/Appeal_to_novelty",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 2,
+            "query": "given the following major premise which of the following minor premises could lead to a valid conclusion either im going to do well on this test or im going to be mad",
+            "content": "a premise is a proposition on which an argument is based or from which a conclusion is drawn the concept appears in philosophy writing and science",
+            "url": "https://www.thoughtco.com/premise-argument-1691662",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "ad lazarum is a specific kind of",
+            "content": "argumentum ad lazarum or appeal to poverty is the informal fallacy of thinking a conclusion is correct solely because the speaker is poor or it is incorrect because the speaker is rich",
+            "url": "https://en.wikipedia.org/wiki/Argumentum_ad_lazarum",
+            "engine": "brave"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "ad novitatem is a specific kind of fallacy of",
+            "content": "if you suggest that someone’s and go where we go and don’t think too much about the reasons the latin term for this fallacy of appeal to novelty is argumentum ad novitatem",
+            "url": "https://iep.utm.edu/fallacy/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 9,
+            "query": "when someone responds to your argument with a sarcastic statement such as yeah right like thats ever going to happen that person may have committed which fallacy",
+            "content": "what this handout is about this handout discusses common logical fallacies that you may encounter in your own writing or the writing of others the handout provides definitions examples and tips on avoiding these fallacies arguments most academic writing tasks … read more",
+            "url": "https://writingcenter.unc.edu/tips-and-tools/fallacies/",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "to be valid the minor premise must either agree with the antecedent or disagree with the consequent is a requirement for",
+            "content": "affirming the antecedent modus ponens and denying the consequent modus tollens are valid affirming the consequent and denying the antecedent are invalid one way to demonstrate the invalidity of this argument form is with a counterexample with true premises but an obviously false",
+            "url": "https://en.wikipedia.org/wiki/Affirming_the_consequent",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "each term must be used twice no more and no less is a requirement for",
+            "content": "for example quotrabbit rabbitquot is a phrase to be uttered first thing in the morning on the first day of the month for good luck all month long the origin of the phrase has to do with rabbits bringin",
+            "url": "https://english.stackexchange.com/questions/403847/what-is-the-term-for-repeating-the-same-word-twice-or-more-to-create-a-new-meani",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 11,
+            "query": "the dean was showing a visitor around the campus the visitor asked about how many students do you have here after a moment of reflection the dean replied oh id guess about one in a hundred",
+            "content": "we cannot provide a description for this page right now",
+            "url": "https://www.learning-center.uha.fr/sebinaBO/repository/images/UHA3/Anglais/Advanced_Grammar_in_Use/AGU_101_110_et_corriges.pdf",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "which of the statements below is correct about the following argument if the sky is blue there wont be rain the sky is blue today therefore there wont be rain",
+            "content": "answer 1 of 16 ix27ll use logic and not common sense i will give you a reasoning path that will work regardless of the words in you premises we have the following known facts if a then b b these are our premises logic dictates that if a then b doesnx27t mean that if b then a it means",
+            "url": "https://www.quora.com/First-statement-If-it-is-raining-then-the-ground-is-wet-Second-statement-The-ground-is-wet-Third-statement-It-is-raining-If-the-first-two-statements-are-true-is-the-third-statement-true-false-or-uncertain",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 3,
+            "query": "ad lazarum is",
+            "content": "argumentum ad lazarum or appeal to poverty is the informal fallacy of thinking a conclusion is correct solely because the speaker is poor or it is incorrect because the speaker is rich it is named after lazarus a beggar in a new testament parable who receives his reward in the afterlife",
+            "url": "https://en.wikipedia.org/wiki/Argumentum_ad_lazarum",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 5,
+            "query": "ad antiquitatem is",
+            "content": "appeal to tradition also known as argumentum ad antiquitatem or argumentum ad antiquitam appeal to antiquity or appeal to common practice is a claim in which a thesis is deemed correct on the basis of correlation with past or present tradition the appeal takes the form of quotthis is right",
+            "url": "https://en.wikipedia.org/wiki/Appeal_to_tradition",
+            "engine": "braveAPI"
+        },
+        {
+            "snippetIndex": 21,
+            "query": "all things that are spoiled are inedible timothy is spoiled so timothy is inedible",
+            "content": "timothy or timothy of ephesus greek τιμόθεος timótheos meaning quothonouring godquot or quothonoured by godquot was an early christian evangelist and the first christian bishop of ephesus who the acts of timothy relates died around the year ad 97 timothy was from the lycaonian city of lystra",
+            "url": "https://en.wikipedia.org/wiki/Saint_Timothy",
+            "engine": "braveAPI"
+        }
+    ]
+}
