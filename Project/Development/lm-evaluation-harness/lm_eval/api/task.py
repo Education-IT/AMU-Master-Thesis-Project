@@ -987,18 +987,21 @@ class ConfigurableTask(Task):
                 loop = asyncio.new_event_loop()
                 asyncio.set_event_loop(loop)
                 
-                self.ds = "test"
+                self.ds = "test"#
                 if not self.has_test_docs():
-                    if self.TASK_NAME == 'mnli':
-                        self.ds = 'validation_matched' 
-                    elif self.TASK_NAME == 'plmoab':
-                        self.ds = 'train'    
-                    else:
-                        self.ds = 'validation' 
+                    self.ds = 'validation' 
+                
+                # only for mnli (subtask for GLUE)
+                if self.TASK_NAME == 'mnli':
+                    self.ds = 'validation_matched' 
+                # only for PLMoAB
+                if self.TASK_NAME == 'plmoab':
+                    self.ds = 'train'     
 
                 self.dataset[self.ds] = loop.run_until_complete(web.process_all(self, self.ds))
                 loop.close()
                 
+                # # ONLY FOR GRUNDCOCOA
                 # self.dataset = DatasetDict({
                 #     k: Dataset.from_list([x for x in v])
                 #     for k, v in self.dataset.items()
@@ -1047,6 +1050,16 @@ class ConfigurableTask(Task):
         with open(exDomainsFilePath, "w", encoding="utf-8") as file:
             json.dump(sorted_data, file, indent=4, ensure_ascii=False)
 
+
+        # DO REFACTORINGU #===============================================
+        lenGoodUrls = len(web.GoodUrls)
+        validSnippetIndexSum = web.validSnippetIndexSum
+        if lenGoodUrls == 0:
+            lenGoodUrls = 1
+        if validSnippetIndexSum == 0:
+            validSnippetIndexSum = 1
+        # DO REFACTORINGU #===============================================
+
         metrics = {
             "task": self.TASK_NAME,
             "dataset": f"web_access_{self.DATASET_NAME}_{self.file_sufix}",
@@ -1055,15 +1068,15 @@ class ConfigurableTask(Task):
             "contaminated_queries": web.contaminatedQueries,
             "contaminated_urls": web.contaminatedWebContext,
             "valid_urls": len(web.GoodUrls),
-            "avg_contaminated_before_valid": web.validSnippetIndexSum / len(web.GoodUrls),
-            "contaminated_data_ratio": web.contaminatedWebContext / web.validSnippetIndexSum,
+            "avg_contaminated_before_valid": web.validSnippetIndexSum / lenGoodUrls,
+            "contaminated_data_ratio": web.contaminatedWebContext / validSnippetIndexSum,
             "most_contaminated_urls": sortedUrlCounter,
             "noWebContext": web.questionWithoutContext,
             "contaminated_WebContext": web.contaminatedUrls,
             "valid_WebContext": web.GoodUrls
         }      
 
-        with open(mainPath + f"XAI_WEB_{self.DATASET_NAME}_"+ self.TASK_NAME+"_"+ self.file_sufix + ".json", "w", encoding="utf-8") as f:
+        with open(mainPath + f"XAI_WEB_{self.DATASET_NAME}_" + self.file_sufix + ".json", "w", encoding="utf-8") as f:
             json.dump(metrics, f, ensure_ascii=False, indent=4)
     
 

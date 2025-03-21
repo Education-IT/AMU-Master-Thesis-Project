@@ -1,10 +1,9 @@
 import json
 
-with open('data.json', 'r') as file:
+with open('RawExDomains.json', 'r') as file:
     data = json.load(file)
 
-tasks_to_remove = [
-    "llmzszl"]
+tasks_to_remove = ["bbh_zeroshot_formal_fallacies","bbh_zeroshot_penguins_in_a_table","bbh_zeroshot_tracking_shuffled_objects_three_objects","polemo2_in","polemo2_out"]
 
 def remove_tasks(data, tasks_to_remove):
     for domain, tasks in data.items():
