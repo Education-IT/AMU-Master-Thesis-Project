@@ -1,4 +1,4 @@
-# R&D Project {AMU-Master-Thesis }
+# R&D Project {AMU-Master-Thesis}
 
 ### Title: "Evaluation of Large Language Models Integrated with External Knowledge."
 
