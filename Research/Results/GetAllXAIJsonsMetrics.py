@@ -35,7 +35,7 @@ def scan_dic(base_folder):
     return results
 
 def main():
-    base_folder = "./"
+    base_folder = "./XAI_FINAL_JSONS"
     extracted_data = scan_dic(base_folder)
     
     df = pd.DataFrame(extracted_data)

@@ -1,6 +1,6 @@
 {
     "huggingface.co": {
-        "count": 13318,
+        "count": 29717,
         "arc_challenge": 154,
         "arc_easy": 26,
         "headqa_en": 8,
@@ -75,11 +75,54 @@
         "gpqa_diamond_cot_zeroshot": 149,
         "gpqa_extended_cot_zeroshot": 213,
         "gpqa_main_cot_zeroshot": 208,
+        "agieval_sat_math": 86,
+        "agieval_sat_en_without_passage": 55,
+        "agieval_math": 859,
+        "agieval_lsat_rc": 19,
+        "agieval_lsat_lr": 24,
+        "agieval_lsat_ar": 110,
+        "agieval_logiqa_en": 119,
+        "agieval_gaokao_english": 121,
+        "agieval_aqua_rat": 271,
         "toxigen": 41,
         "arithmetic_4da": 1,
         "arithmetic_5ds": 13,
         "arithmetic_5da": 9,
         "triviaqa": 1292,
+        "bbh_cot_fewshot_word_sorting": 424,
+        "bbh_cot_fewshot_web_of_lies": 999,
+        "bbh_cot_fewshot_tracking_shuffled_objects_three_objects": 1541,
+        "bbh_cot_fewshot_tracking_shuffled_objects_seven_objects": 1052,
+        "bbh_cot_fewshot_tracking_shuffled_objects_five_objects": 1270,
+        "bbh_cot_fewshot_temporal_sequences": 42,
+        "bbh_cot_fewshot_sports_understanding": 1408,
+        "bbh_cot_fewshot_snarks": 29,
+        "bbh_cot_fewshot_salient_translation_error_detection": 500,
+        "polemo2_out": 43,
+        "polemo2_in": 121,
+        "bbh_zeroshot_word_sorting": 210,
+        "bbh_zeroshot_web_of_lies": 501,
+        "bbh_zeroshot_tracking_shuffled_objects_three_objects": 778,
+        "bbh_zeroshot_tracking_shuffled_objects_seven_objects": 526,
+        "bbh_zeroshot_tracking_shuffled_objects_five_objects": 634,
+        "bbh_zeroshot_temporal_sequences": 21,
+        "bbh_zeroshot_sports_understanding": 705,
+        "bbh_zeroshot_snarks": 39,
+        "bbh_zeroshot_salient_translation_error_detection": 500,
+        "bbh_zeroshot_reasoning_about_colored_objects": 200,
+        "bbh_zeroshot_penguins_in_a_table": 496,
+        "bbh_zeroshot_object_counting": 1,
+        "bbh_zeroshot_navigate": 23,
+        "bbh_zeroshot_movie_recommendation": 111,
+        "bbh_zeroshot_logical_deduction_three_objects": 596,
+        "bbh_zeroshot_logical_deduction_seven_objects": 550,
+        "bbh_zeroshot_logical_deduction_five_objects": 558,
+        "bbh_zeroshot_hyperbaton": 29,
+        "bbh_zeroshot_geometric_shapes": 15,
+        "bbh_zeroshot_formal_fallacies": 556,
+        "bbh_zeroshot_disambiguation_qa": 30,
+        "bbh_zeroshot_date_understanding": 20,
+        "bbh_zeroshot_causal_judgement": 207,
         "wnli": 78,
         "sst2": 991,
         "polish_dyk_multiple_choice": 4,
@@ -92,7 +135,7 @@
         "plmoab": 44
     },
     "www.quora.com": {
-        "count": 11834,
+        "count": 13572,
         "arc_challenge": 423,
         "arc_easy": 711,
         "headqa_en": 50,
@@ -163,6 +206,12 @@
         "gpqa_diamond_cot_zeroshot": 14,
         "gpqa_extended_cot_zeroshot": 33,
         "gpqa_main_cot_zeroshot": 28,
+        "agieval_sat_math": 13,
+        "agieval_math": 414,
+        "agieval_lsat_lr": 4,
+        "agieval_logiqa_en": 111,
+        "agieval_gaokao_english": 71,
+        "agieval_aqua_rat": 117,
         "toxigen": 647,
         "arithmetic_3da": 85,
         "arithmetic_3ds": 89,
@@ -175,6 +224,27 @@
         "arithmetic_2dm": 85,
         "arithmetic_2da": 109,
         "triviaqa": 1277,
+        "bbh_cot_fewshot_word_sorting": 6,
+        "bbh_cot_fewshot_tracking_shuffled_objects_three_objects": 9,
+        "bbh_cot_fewshot_temporal_sequences": 83,
+        "bbh_cot_fewshot_sports_understanding": 4,
+        "bbh_cot_fewshot_snarks": 108,
+        "bbh_zeroshot_word_sorting": 3,
+        "bbh_zeroshot_tracking_shuffled_objects_three_objects": 2,
+        "bbh_zeroshot_temporal_sequences": 49,
+        "bbh_zeroshot_sports_understanding": 2,
+        "bbh_zeroshot_snarks": 55,
+        "bbh_zeroshot_ruin_names": 4,
+        "bbh_zeroshot_reasoning_about_colored_objects": 4,
+        "bbh_zeroshot_object_counting": 219,
+        "bbh_zeroshot_navigate": 58,
+        "bbh_zeroshot_movie_recommendation": 325,
+        "bbh_zeroshot_hyperbaton": 5,
+        "bbh_zeroshot_formal_fallacies": 1,
+        "bbh_zeroshot_disambiguation_qa": 16,
+        "bbh_zeroshot_date_understanding": 1,
+        "bbh_zeroshot_causal_judgement": 22,
+        "bbh_zeroshot_boolean_expressions": 32,
         "wnli": 29,
         "sst2": 193,
         "cola": 453,
@@ -193,7 +263,7 @@
         "llmzszl": 10756
     },
     "quizlet.com": {
-        "count": 10256,
+        "count": 10445,
         "arc_challenge": 776,
         "arc_easy": 1178,
         "headqa_en": 120,
@@ -264,12 +334,33 @@
         "gpqa_main_zeroshot": 4,
         "gpqa_extended_cot_zeroshot": 5,
         "gpqa_main_cot_zeroshot": 4,
+        "agieval_sat_math": 26,
+        "agieval_sat_en": 4,
+        "agieval_sat_en_without_passage": 19,
+        "agieval_math": 9,
+        "agieval_lsat_rc": 8,
+        "agieval_lsat_lr": 25,
+        "agieval_lsat_ar": 37,
+        "agieval_logiqa_en": 3,
+        "agieval_gaokao_english": 8,
+        "agieval_aqua_rat": 5,
         "toxigen": 2,
         "arithmetic_3da": 9,
         "arithmetic_3ds": 1,
         "arithmetic_4da": 3,
         "arithmetic_5da": 1,
         "triviaqa": 72,
+        "bbh_cot_fewshot_word_sorting": 2,
+        "bbh_cot_fewshot_sports_understanding": 2,
+        "bbh_zeroshot_word_sorting": 1,
+        "bbh_zeroshot_sports_understanding": 1,
+        "bbh_zeroshot_snarks": 1,
+        "bbh_zeroshot_ruin_names": 6,
+        "bbh_zeroshot_reasoning_about_colored_objects": 3,
+        "bbh_zeroshot_object_counting": 1,
+        "bbh_zeroshot_logical_deduction_five_objects": 3,
+        "bbh_zeroshot_hyperbaton": 1,
+        "bbh_zeroshot_disambiguation_qa": 24,
         "wnli": 2,
         "sst2": 5,
         "cola": 7,
@@ -283,7 +374,7 @@
         "llmzszl": 9619
     },
     "brainly.com": {
-        "count": 6625,
+        "count": 7177,
         "arc_challenge": 561,
         "arc_easy": 1027,
         "headqa_en": 104,
@@ -357,6 +448,13 @@
         "gpqa_diamond_cot_zeroshot": 2,
         "gpqa_extended_cot_zeroshot": 2,
         "gpqa_main_cot_zeroshot": 3,
+        "agieval_sat_math": 79,
+        "agieval_sat_en": 8,
+        "agieval_sat_en_without_passage": 22,
+        "agieval_math": 342,
+        "agieval_lsat_lr": 2,
+        "agieval_lsat_ar": 6,
+        "agieval_aqua_rat": 3,
         "toxigen": 2,
         "arithmetic_3da": 99,
         "arithmetic_3ds": 222,
@@ -369,6 +467,20 @@
         "arithmetic_2dm": 461,
         "arithmetic_2da": 56,
         "triviaqa": 116,
+        "bbh_cot_fewshot_word_sorting": 3,
+        "bbh_cot_fewshot_snarks": 10,
+        "bbh_cot_fewshot_sports_understanding": 1,
+        "bbh_zeroshot_word_sorting": 2,
+        "bbh_zeroshot_sports_understanding": 1,
+        "bbh_zeroshot_snarks": 9,
+        "bbh_zeroshot_ruin_names": 6,
+        "bbh_zeroshot_reasoning_about_colored_objects": 3,
+        "bbh_zeroshot_object_counting": 7,
+        "bbh_zeroshot_navigate": 1,
+        "bbh_zeroshot_multistep_arithmetic_two": 2,
+        "bbh_zeroshot_hyperbaton": 14,
+        "bbh_zeroshot_disambiguation_qa": 30,
+        "bbh_zeroshot_date_understanding": 1,
         "wnli": 2,
         "cola": 21,
         "qnli": 14,
@@ -376,7 +488,7 @@
         "llmzszl": 1
     },
     "github.com": {
-        "count": 3297,
+        "count": 7165,
         "arc_challenge": 30,
         "arc_easy": 13,
         "mmlu_moral_scenarios": 163,
@@ -416,6 +528,12 @@
         "gpqa_diamond_cot_zeroshot": 9,
         "gpqa_extended_cot_zeroshot": 11,
         "gpqa_main_cot_zeroshot": 11,
+        "agieval_sat_math": 16,
+        "agieval_sat_en_without_passage": 1,
+        "agieval_math": 111,
+        "agieval_lsat_lr": 2,
+        "agieval_logiqa_en": 248,
+        "agieval_aqua_rat": 263,
         "toxigen": 4,
         "arithmetic_3da": 3,
         "arithmetic_3ds": 1,
@@ -424,6 +542,34 @@
         "arithmetic_5da": 26,
         "arithmetic_4ds": 5,
         "triviaqa": 64,
+        "bbh_cot_fewshot_word_sorting": 149,
+        "bbh_cot_fewshot_web_of_lies": 72,
+        "bbh_cot_fewshot_tracking_shuffled_objects_three_objects": 962,
+        "bbh_cot_fewshot_tracking_shuffled_objects_five_objects": 540,
+        "bbh_cot_fewshot_temporal_sequences": 21,
+        "bbh_cot_fewshot_sports_understanding": 20,
+        "bbh_cot_fewshot_tracking_shuffled_objects_seven_objects": 1,
+        "bbh_zeroshot_word_sorting": 73,
+        "bbh_zeroshot_web_of_lies": 35,
+        "bbh_zeroshot_tracking_shuffled_objects_three_objects": 483,
+        "bbh_zeroshot_tracking_shuffled_objects_seven_objects": 1,
+        "bbh_zeroshot_tracking_shuffled_objects_five_objects": 269,
+        "bbh_zeroshot_temporal_sequences": 11,
+        "bbh_zeroshot_sports_understanding": 10,
+        "bbh_zeroshot_snarks": 1,
+        "bbh_zeroshot_reasoning_about_colored_objects": 8,
+        "bbh_zeroshot_penguins_in_a_table": 292,
+        "bbh_zeroshot_object_counting": 14,
+        "bbh_zeroshot_navigate": 2,
+        "bbh_zeroshot_movie_recommendation": 9,
+        "bbh_zeroshot_logical_deduction_three_objects": 42,
+        "bbh_zeroshot_logical_deduction_seven_objects": 5,
+        "bbh_zeroshot_logical_deduction_five_objects": 4,
+        "bbh_zeroshot_hyperbaton": 1,
+        "bbh_zeroshot_geometric_shapes": 1,
+        "bbh_zeroshot_formal_fallacies": 5,
+        "bbh_zeroshot_date_understanding": 13,
+        "bbh_zeroshot_causal_judgement": 183,
         "wnli": 67,
         "sst2": 1018,
         "cola": 46,
@@ -436,7 +582,7 @@
         "llmzszl": 4
     },
     "www.reddit.com": {
-        "count": 6111,
+        "count": 7153,
         "mmlu_professional_law": 28,
         "mmlu_professional_accounting": 22,
         "mmlu_nutrition": 12,
@@ -455,6 +601,14 @@
         "gpqa_diamond_cot_zeroshot": 1,
         "gpqa_extended_cot_zeroshot": 6,
         "gpqa_main_cot_zeroshot": 4,
+        "agieval_sat_math": 3,
+        "agieval_sat_en_without_passage": 6,
+        "agieval_math": 15,
+        "agieval_lsat_lr": 2,
+        "agieval_lsat_ar": 17,
+        "agieval_logiqa_en": 21,
+        "agieval_gaokao_english": 37,
+        "agieval_aqua_rat": 4,
         "toxigen": 532,
         "arithmetic_3da": 92,
         "arithmetic_3ds": 42,
@@ -467,6 +621,26 @@
         "arithmetic_2dm": 36,
         "arithmetic_2da": 15,
         "triviaqa": 463,
+        "bbh_cot_fewshot_word_sorting": 2,
+        "bbh_cot_fewshot_tracking_shuffled_objects_three_objects": 4,
+        "bbh_cot_fewshot_temporal_sequences": 5,
+        "bbh_cot_fewshot_snarks": 150,
+        "polemo2_out": 2,
+        "polemo2_in": 3,
+        "bbh_cot_fewshot_sports_understanding": 1,
+        "bbh_zeroshot_tracking_shuffled_objects_three_objects": 2,
+        "bbh_zeroshot_temporal_sequences": 2,
+        "bbh_zeroshot_sports_understanding": 1,
+        "bbh_zeroshot_snarks": 63,
+        "bbh_zeroshot_ruin_names": 24,
+        "bbh_zeroshot_reasoning_about_colored_objects": 9,
+        "bbh_zeroshot_object_counting": 100,
+        "bbh_zeroshot_navigate": 13,
+        "bbh_zeroshot_movie_recommendation": 511,
+        "bbh_zeroshot_hyperbaton": 22,
+        "bbh_zeroshot_date_understanding": 1,
+        "bbh_zeroshot_causal_judgement": 4,
+        "bbh_zeroshot_boolean_expressions": 18,
         "wnli": 32,
         "sst2": 390,
         "polish_dyk_multiple_choice": 15,
@@ -481,7 +655,7 @@
         "llmzszl": 68
     },
     "arxiv.org": {
-        "count": 803,
+        "count": 5470,
         "arc_challenge": 8,
         "arc_easy": 7,
         "mmlu_moral_scenarios": 32,
@@ -514,6 +688,10 @@
         "gpqa_diamond_cot_zeroshot": 5,
         "gpqa_extended_cot_zeroshot": 25,
         "gpqa_main_cot_zeroshot": 18,
+        "agieval_math": 29,
+        "agieval_lsat_lr": 2,
+        "agieval_logiqa_en": 15,
+        "agieval_aqua_rat": 48,
         "toxigen": 2,
         "arithmetic_3da": 8,
         "arithmetic_3ds": 3,
@@ -522,6 +700,35 @@
         "arithmetic_5da": 3,
         "arithmetic_4ds": 96,
         "triviaqa": 71,
+        "bbh_cot_fewshot_word_sorting": 32,
+        "bbh_cot_fewshot_web_of_lies": 169,
+        "bbh_cot_fewshot_tracking_shuffled_objects_three_objects": 943,
+        "bbh_cot_fewshot_tracking_shuffled_objects_seven_objects": 369,
+        "bbh_cot_fewshot_tracking_shuffled_objects_five_objects": 547,
+        "bbh_cot_fewshot_temporal_sequences": 8,
+        "bbh_cot_fewshot_sports_understanding": 186,
+        "bbh_cot_fewshot_snarks": 5,
+        "bbh_zeroshot_word_sorting": 16,
+        "bbh_zeroshot_web_of_lies": 82,
+        "bbh_zeroshot_tracking_shuffled_objects_three_objects": 475,
+        "bbh_zeroshot_tracking_shuffled_objects_seven_objects": 186,
+        "bbh_zeroshot_tracking_shuffled_objects_five_objects": 273,
+        "bbh_zeroshot_temporal_sequences": 6,
+        "bbh_zeroshot_sports_understanding": 93,
+        "bbh_zeroshot_snarks": 3,
+        "bbh_zeroshot_ruin_names": 4,
+        "bbh_zeroshot_reasoning_about_colored_objects": 4,
+        "bbh_zeroshot_penguins_in_a_table": 584,
+        "bbh_zeroshot_object_counting": 7,
+        "bbh_zeroshot_movie_recommendation": 3,
+        "bbh_zeroshot_logical_deduction_three_objects": 229,
+        "bbh_zeroshot_logical_deduction_seven_objects": 115,
+        "bbh_zeroshot_logical_deduction_five_objects": 186,
+        "bbh_zeroshot_hyperbaton": 2,
+        "bbh_zeroshot_formal_fallacies": 4,
+        "bbh_zeroshot_disambiguation_qa": 1,
+        "bbh_zeroshot_date_understanding": 13,
+        "bbh_zeroshot_causal_judgement": 28,
         "wnli": 6,
         "sst2": 114,
         "cola": 3,
@@ -532,7 +739,7 @@
         "plmoab": 21
     },
     "www.researchgate.net": {
-        "count": 1076,
+        "count": 4990,
         "arc_challenge_mt_pl": 9,
         "mmlu_jurisprudence": 2,
         "mmlu_moral_disputes": 6,
@@ -591,11 +798,44 @@
         "gpqa_diamond_cot_zeroshot": 15,
         "gpqa_extended_cot_zeroshot": 41,
         "gpqa_main_cot_zeroshot": 31,
+        "agieval_sat_math": 2,
+        "agieval_sat_en_without_passage": 4,
+        "agieval_math": 5,
+        "agieval_lsat_lr": 10,
+        "agieval_lsat_ar": 27,
+        "agieval_logiqa_en": 79,
+        "agieval_gaokao_english": 8,
+        "agieval_aqua_rat": 13,
         "toxigen": 6,
         "arithmetic_5ds": 3,
         "arithmetic_5da": 7,
         "arithmetic_4ds": 1,
         "triviaqa": 30,
+        "bbh_cot_fewshot_word_sorting": 12,
+        "bbh_cot_fewshot_web_of_lies": 67,
+        "bbh_cot_fewshot_tracking_shuffled_objects_three_objects": 650,
+        "bbh_cot_fewshot_tracking_shuffled_objects_seven_objects": 640,
+        "bbh_cot_fewshot_tracking_shuffled_objects_five_objects": 574,
+        "bbh_cot_fewshot_temporal_sequences": 30,
+        "bbh_cot_fewshot_sports_understanding": 54,
+        "polemo2_in": 4,
+        "bbh_zeroshot_word_sorting": 6,
+        "bbh_zeroshot_web_of_lies": 34,
+        "bbh_zeroshot_tracking_shuffled_objects_three_objects": 326,
+        "bbh_zeroshot_tracking_shuffled_objects_seven_objects": 321,
+        "bbh_zeroshot_tracking_shuffled_objects_five_objects": 282,
+        "bbh_zeroshot_temporal_sequences": 20,
+        "bbh_zeroshot_sports_understanding": 27,
+        "bbh_zeroshot_reasoning_about_colored_objects": 2,
+        "bbh_zeroshot_penguins_in_a_table": 292,
+        "bbh_zeroshot_object_counting": 3,
+        "bbh_zeroshot_logical_deduction_three_objects": 132,
+        "bbh_zeroshot_logical_deduction_seven_objects": 80,
+        "bbh_zeroshot_logical_deduction_five_objects": 154,
+        "bbh_zeroshot_hyperbaton": 1,
+        "bbh_zeroshot_formal_fallacies": 8,
+        "bbh_zeroshot_disambiguation_qa": 5,
+        "bbh_zeroshot_causal_judgement": 42,
         "wnli": 1,
         "sst2": 30,
         "polish_dyk_multiple_choice": 4,
@@ -608,7 +848,7 @@
         "llmzszl": 59
     },
     "www.chegg.com": {
-        "count": 3902,
+        "count": 3987,
         "arc_challenge": 51,
         "arc_easy": 58,
         "headqa_en": 64,
@@ -679,6 +919,10 @@
         "gpqa_diamond_cot_zeroshot": 17,
         "gpqa_extended_cot_zeroshot": 62,
         "gpqa_main_cot_zeroshot": 57,
+        "agieval_sat_math": 35,
+        "agieval_math": 43,
+        "agieval_lsat_lr": 1,
+        "agieval_aqua_rat": 5,
         "toxigen": 1,
         "arithmetic_3da": 10,
         "arithmetic_3ds": 31,
@@ -690,6 +934,7 @@
         "arithmetic_2dm": 172,
         "arithmetic_2da": 1,
         "triviaqa": 5,
+        "bbh_zeroshot_causal_judgement": 1,
         "wnli": 5,
         "sst2": 3,
         "cola": 16,
@@ -701,7 +946,7 @@
         "llmzszl": 3559
     },
     "www.coursehero.com": {
-        "count": 3083,
+        "count": 3508,
         "arc_challenge": 72,
         "arc_easy": 80,
         "headqa_en": 3,
@@ -775,15 +1020,40 @@
         "gpqa_diamond_cot_zeroshot": 3,
         "gpqa_extended_cot_zeroshot": 3,
         "gpqa_main_cot_zeroshot": 3,
+        "agieval_sat_math": 14,
+        "agieval_sat_en_without_passage": 118,
+        "agieval_math": 16,
+        "agieval_lsat_rc": 26,
+        "agieval_lsat_lr": 22,
+        "agieval_lsat_ar": 56,
+        "agieval_logiqa_en": 1,
+        "agieval_gaokao_english": 8,
+        "agieval_aqua_rat": 17,
         "toxigen": 1,
         "arithmetic_5ds": 1,
         "arithmetic_5da": 4,
+        "bbh_cot_fewshot_tracking_shuffled_objects_three_objects": 6,
+        "bbh_cot_fewshot_temporal_sequences": 2,
+        "bbh_cot_fewshot_sports_understanding": 4,
+        "bbh_cot_fewshot_snarks": 1,
+        "bbh_zeroshot_tracking_shuffled_objects_three_objects": 1,
+        "bbh_zeroshot_temporal_sequences": 1,
+        "bbh_zeroshot_sports_understanding": 2,
+        "bbh_zeroshot_snarks": 2,
+        "bbh_zeroshot_reasoning_about_colored_objects": 4,
+        "bbh_zeroshot_logical_deduction_three_objects": 14,
+        "bbh_zeroshot_logical_deduction_seven_objects": 48,
+        "bbh_zeroshot_logical_deduction_five_objects": 33,
+        "bbh_zeroshot_hyperbaton": 1,
+        "bbh_zeroshot_formal_fallacies": 1,
+        "bbh_zeroshot_disambiguation_qa": 20,
+        "bbh_zeroshot_causal_judgement": 7,
         "sst2": 2,
         "cola": 30,
         "mnli": 276
     },
     "openreview.net": {
-        "count": 275,
+        "count": 3407,
         "arc_challenge": 16,
         "arc_easy": 2,
         "mmlu_moral_disputes": 1,
@@ -806,7 +1076,42 @@
         "gpqa_diamond_cot_zeroshot": 5,
         "gpqa_extended_cot_zeroshot": 10,
         "gpqa_main_cot_zeroshot": 7,
+        "agieval_math": 6,
+        "agieval_lsat_lr": 4,
+        "agieval_lsat_ar": 14,
+        "agieval_logiqa_en": 12,
+        "agieval_aqua_rat": 25,
         "triviaqa": 27,
+        "bbh_cot_fewshot_word_sorting": 12,
+        "bbh_cot_fewshot_web_of_lies": 141,
+        "bbh_cot_fewshot_tracking_shuffled_objects_three_objects": 692,
+        "bbh_cot_fewshot_tracking_shuffled_objects_seven_objects": 196,
+        "bbh_cot_fewshot_tracking_shuffled_objects_five_objects": 333,
+        "bbh_cot_fewshot_temporal_sequences": 24,
+        "bbh_cot_fewshot_sports_understanding": 57,
+        "bbh_cot_fewshot_snarks": 4,
+        "bbh_zeroshot_word_sorting": 6,
+        "bbh_zeroshot_web_of_lies": 70,
+        "bbh_zeroshot_tracking_shuffled_objects_three_objects": 345,
+        "bbh_zeroshot_tracking_shuffled_objects_seven_objects": 100,
+        "bbh_zeroshot_tracking_shuffled_objects_five_objects": 166,
+        "bbh_zeroshot_temporal_sequences": 16,
+        "bbh_zeroshot_sports_understanding": 28,
+        "bbh_zeroshot_snarks": 2,
+        "bbh_zeroshot_ruin_names": 2,
+        "bbh_zeroshot_reasoning_about_colored_objects": 13,
+        "bbh_zeroshot_penguins_in_a_table": 380,
+        "bbh_zeroshot_object_counting": 3,
+        "bbh_zeroshot_navigate": 2,
+        "bbh_zeroshot_movie_recommendation": 5,
+        "bbh_zeroshot_logical_deduction_three_objects": 149,
+        "bbh_zeroshot_logical_deduction_seven_objects": 108,
+        "bbh_zeroshot_logical_deduction_five_objects": 114,
+        "bbh_zeroshot_hyperbaton": 1,
+        "bbh_zeroshot_formal_fallacies": 60,
+        "bbh_zeroshot_disambiguation_qa": 3,
+        "bbh_zeroshot_date_understanding": 15,
+        "bbh_zeroshot_causal_judgement": 24,
         "wnli": 4,
         "sst2": 46,
         "rte": 4,
@@ -815,7 +1120,7 @@
         "plmoab": 1
     },
     "brainly.in": {
-        "count": 3034,
+        "count": 3140,
         "arc_challenge": 58,
         "arc_easy": 125,
         "headqa_en": 18,
@@ -873,6 +1178,11 @@
         "gpqa_main_zeroshot": 1,
         "gpqa_extended_cot_zeroshot": 2,
         "gpqa_main_cot_zeroshot": 2,
+        "agieval_sat_math": 4,
+        "agieval_math": 39,
+        "agieval_lsat_ar": 6,
+        "agieval_gaokao_english": 2,
+        "agieval_aqua_rat": 11,
         "arithmetic_3da": 438,
         "arithmetic_3ds": 131,
         "arithmetic_4da": 45,
@@ -884,13 +1194,18 @@
         "arithmetic_2dm": 267,
         "arithmetic_2da": 330,
         "triviaqa": 53,
+        "bbh_cot_fewshot_word_sorting": 1,
+        "bbh_zeroshot_word_sorting": 1,
+        "bbh_zeroshot_object_counting": 5,
+        "bbh_zeroshot_navigate": 22,
+        "bbh_zeroshot_hyperbaton": 15,
         "cola": 58,
         "qnli": 3,
         "rte": 1,
         "mnli": 43
     },
     "www.gauthmath.com": {
-        "count": 2658,
+        "count": 2946,
         "arc_challenge": 426,
         "arc_easy": 539,
         "mmlu_jurisprudence": 4,
@@ -943,6 +1258,12 @@
         "mmlu_college_chemistry": 18,
         "mmlu_high_school_computer_science": 83,
         "mmlu_astronomy": 7,
+        "agieval_sat_math": 112,
+        "agieval_sat_en": 2,
+        "agieval_sat_en_without_passage": 41,
+        "agieval_math": 106,
+        "agieval_lsat_lr": 1,
+        "agieval_aqua_rat": 6,
         "arithmetic_3da": 22,
         "arithmetic_3ds": 69,
         "arithmetic_4da": 4,
@@ -954,6 +1275,11 @@
         "arithmetic_2dm": 69,
         "arithmetic_2da": 1,
         "triviaqa": 4,
+        "bbh_zeroshot_reasoning_about_colored_objects": 1,
+        "bbh_zeroshot_object_counting": 11,
+        "bbh_zeroshot_navigate": 4,
+        "bbh_zeroshot_hyperbaton": 3,
+        "bbh_zeroshot_date_understanding": 1,
         "wnli": 2,
         "cola": 5,
         "qnli": 8,
@@ -981,7 +1307,7 @@
         "mmlu_high_school_physics": 268
     },
     "aclanthology.org": {
-        "count": 325,
+        "count": 2569,
         "mmlu_moral_scenarios": 8,
         "mmlu_formal_logic": 2,
         "mmlu_professional_accounting": 1,
@@ -990,8 +1316,35 @@
         "mmlu_professional_medicine": 2,
         "mmlu_abstract_algebra": 1,
         "mmlu_high_school_mathematics": 2,
+        "agieval_math": 2,
+        "agieval_logiqa_en": 2,
+        "agieval_aqua_rat": 14,
         "toxigen": 1,
         "triviaqa": 24,
+        "bbh_cot_fewshot_word_sorting": 8,
+        "bbh_cot_fewshot_web_of_lies": 129,
+        "bbh_cot_fewshot_tracking_shuffled_objects_three_objects": 781,
+        "bbh_cot_fewshot_tracking_shuffled_objects_five_objects": 155,
+        "bbh_cot_fewshot_temporal_sequences": 64,
+        "bbh_cot_fewshot_sports_understanding": 32,
+        "bbh_cot_fewshot_snarks": 2,
+        "bbh_zeroshot_word_sorting": 4,
+        "bbh_zeroshot_web_of_lies": 64,
+        "bbh_zeroshot_tracking_shuffled_objects_three_objects": 395,
+        "bbh_zeroshot_tracking_shuffled_objects_five_objects": 78,
+        "bbh_zeroshot_temporal_sequences": 41,
+        "bbh_zeroshot_sports_understanding": 16,
+        "bbh_zeroshot_snarks": 3,
+        "bbh_zeroshot_reasoning_about_colored_objects": 1,
+        "bbh_zeroshot_penguins_in_a_table": 204,
+        "bbh_zeroshot_object_counting": 2,
+        "bbh_zeroshot_movie_recommendation": 2,
+        "bbh_zeroshot_logical_deduction_three_objects": 104,
+        "bbh_zeroshot_logical_deduction_seven_objects": 58,
+        "bbh_zeroshot_logical_deduction_five_objects": 65,
+        "bbh_zeroshot_hyperbaton": 3,
+        "bbh_zeroshot_disambiguation_qa": 5,
+        "bbh_zeroshot_date_understanding": 10,
         "wnli": 9,
         "sst2": 114,
         "cola": 1,
@@ -1002,15 +1355,36 @@
         "plmoab": 3
     },
     "proceedings.neurips.cc": {
-        "count": 10,
+        "count": 2329,
+        "agieval_math": 1,
         "arithmetic_5ds": 1,
         "arithmetic_5da": 1,
+        "bbh_cot_fewshot_word_sorting": 4,
+        "bbh_cot_fewshot_web_of_lies": 38,
+        "bbh_cot_fewshot_tracking_shuffled_objects_three_objects": 520,
+        "bbh_cot_fewshot_tracking_shuffled_objects_seven_objects": 423,
+        "bbh_cot_fewshot_tracking_shuffled_objects_five_objects": 452,
+        "bbh_cot_fewshot_temporal_sequences": 6,
+        "bbh_cot_fewshot_sports_understanding": 24,
+        "bbh_zeroshot_word_sorting": 2,
+        "bbh_zeroshot_web_of_lies": 19,
+        "bbh_zeroshot_tracking_shuffled_objects_three_objects": 264,
+        "bbh_zeroshot_tracking_shuffled_objects_seven_objects": 212,
+        "bbh_zeroshot_tracking_shuffled_objects_five_objects": 224,
+        "bbh_zeroshot_temporal_sequences": 2,
+        "bbh_zeroshot_sports_understanding": 12,
+        "bbh_zeroshot_reasoning_about_colored_objects": 1,
+        "bbh_zeroshot_logical_deduction_three_objects": 55,
+        "bbh_zeroshot_logical_deduction_seven_objects": 23,
+        "bbh_zeroshot_logical_deduction_five_objects": 35,
+        "bbh_zeroshot_hyperbaton": 1,
+        "bbh_zeroshot_formal_fallacies": 1,
         "cola": 1,
         "mnli": 6,
         "plmoab": 1
     },
     "www.toppr.com": {
-        "count": 1586,
+        "count": 1817,
         "arc_challenge": 58,
         "arc_easy": 110,
         "headqa_en": 76,
@@ -1069,6 +1443,10 @@
         "gpqa_diamond_cot_zeroshot": 16,
         "gpqa_extended_cot_zeroshot": 29,
         "gpqa_main_cot_zeroshot": 25,
+        "agieval_sat_math": 33,
+        "agieval_sat_en_without_passage": 7,
+        "agieval_math": 156,
+        "agieval_aqua_rat": 34,
         "toxigen": 1,
         "arithmetic_3da": 7,
         "arithmetic_3ds": 58,
@@ -1078,6 +1456,7 @@
         "arithmetic_2dm": 25,
         "arithmetic_2da": 4,
         "triviaqa": 151,
+        "bbh_zeroshot_object_counting": 1,
         "cola": 8,
         "qnli": 1
     },
@@ -1086,7 +1465,7 @@
         "llmzszl": 1728
     },
     "www.scribd.com": {
-        "count": 1124,
+        "count": 1613,
         "arc_challenge": 19,
         "arc_easy": 27,
         "headqa_en": 6,
@@ -1150,6 +1529,13 @@
         "gpqa_main_zeroshot": 3,
         "gpqa_extended_cot_zeroshot": 4,
         "gpqa_main_cot_zeroshot": 3,
+        "agieval_sat_math": 17,
+        "agieval_sat_en_without_passage": 51,
+        "agieval_math": 12,
+        "agieval_lsat_lr": 7,
+        "agieval_logiqa_en": 3,
+        "agieval_gaokao_english": 14,
+        "agieval_aqua_rat": 71,
         "toxigen": 1,
         "arithmetic_3da": 3,
         "arithmetic_3ds": 1,
@@ -1157,6 +1543,30 @@
         "arithmetic_5da": 1,
         "arithmetic_4ds": 7,
         "triviaqa": 29,
+        "bbh_cot_fewshot_word_sorting": 12,
+        "bbh_cot_fewshot_web_of_lies": 2,
+        "bbh_cot_fewshot_tracking_shuffled_objects_three_objects": 4,
+        "bbh_cot_fewshot_tracking_shuffled_objects_seven_objects": 19,
+        "bbh_cot_fewshot_tracking_shuffled_objects_five_objects": 9,
+        "bbh_cot_fewshot_temporal_sequences": 31,
+        "bbh_cot_fewshot_sports_understanding": 4,
+        "polemo2_in": 8,
+        "bbh_zeroshot_word_sorting": 6,
+        "bbh_zeroshot_web_of_lies": 1,
+        "bbh_zeroshot_tracking_shuffled_objects_three_objects": 2,
+        "bbh_zeroshot_tracking_shuffled_objects_seven_objects": 8,
+        "bbh_zeroshot_tracking_shuffled_objects_five_objects": 5,
+        "bbh_zeroshot_temporal_sequences": 17,
+        "bbh_zeroshot_sports_understanding": 2,
+        "bbh_zeroshot_reasoning_about_colored_objects": 2,
+        "bbh_zeroshot_object_counting": 5,
+        "bbh_zeroshot_logical_deduction_three_objects": 67,
+        "bbh_zeroshot_logical_deduction_seven_objects": 59,
+        "bbh_zeroshot_logical_deduction_five_objects": 28,
+        "bbh_zeroshot_hyperbaton": 2,
+        "bbh_zeroshot_formal_fallacies": 7,
+        "bbh_zeroshot_disambiguation_qa": 13,
+        "bbh_zeroshot_date_understanding": 1,
         "wnli": 1,
         "sst2": 6,
         "cola": 6,
@@ -1181,7 +1591,7 @@
         "qnli": 4
     },
     "homework.study.com": {
-        "count": 1470,
+        "count": 1490,
         "arc_challenge": 43,
         "arc_easy": 55,
         "headqa_en": 20,
@@ -1238,6 +1648,8 @@
         "gpqa_diamond_cot_zeroshot": 5,
         "gpqa_extended_cot_zeroshot": 5,
         "gpqa_main_cot_zeroshot": 5,
+        "agieval_sat_math": 2,
+        "agieval_math": 18,
         "arithmetic_3da": 2,
         "arithmetic_3ds": 2,
         "arithmetic_2ds": 2,
@@ -1249,7 +1661,7 @@
         "qnli": 1
     },
     "testbook.com": {
-        "count": 1302,
+        "count": 1468,
         "arc_challenge": 25,
         "arc_easy": 55,
         "headqa_en": 33,
@@ -1308,6 +1720,9 @@
         "gpqa_main_generative_n_shot": 1,
         "gpqa_extended_zeroshot": 5,
         "gpqa_extended_cot_zeroshot": 4,
+        "agieval_sat_math": 20,
+        "agieval_math": 67,
+        "agieval_aqua_rat": 50,
         "arithmetic_3ds": 13,
         "arithmetic_2ds": 5,
         "arithmetic_5ds": 1,
@@ -1316,13 +1731,17 @@
         "arithmetic_4ds": 34,
         "arithmetic_2dm": 369,
         "triviaqa": 66,
+        "bbh_cot_fewshot_sports_understanding": 3,
+        "bbh_zeroshot_sports_understanding": 3,
+        "bbh_zeroshot_multistep_arithmetic_two": 2,
+        "bbh_zeroshot_date_understanding": 21,
         "cola": 2,
         "qnli": 3,
         "mrpc": 1,
         "webqs": 1
     },
     "nlp.stanford.edu": {
-        "count": 1366,
+        "count": 1449,
         "mmlu_jurisprudence": 12,
         "mmlu_moral_disputes": 6,
         "mmlu_moral_scenarios": 118,
@@ -1378,6 +1797,9 @@
         "mmlu_college_chemistry": 79,
         "mmlu_high_school_computer_science": 4,
         "mmlu_astronomy": 3,
+        "agieval_math": 80,
+        "bbh_zeroshot_word_sorting": 1,
+        "bbh_zeroshot_formal_fallacies": 2,
         "sst2": 1,
         "rte": 35
     },
@@ -1391,7 +1813,7 @@
         "llmzszl": 1174
     },
     "www.numerade.com": {
-        "count": 1077,
+        "count": 1119,
         "arc_challenge": 56,
         "arc_easy": 67,
         "mmlu_jurisprudence": 1,
@@ -1448,6 +1870,9 @@
         "gpqa_diamond_cot_zeroshot": 2,
         "gpqa_extended_cot_zeroshot": 5,
         "gpqa_main_cot_zeroshot": 5,
+        "agieval_sat_math": 18,
+        "agieval_sat_en_without_passage": 2,
+        "agieval_math": 22,
         "arithmetic_3da": 1,
         "arithmetic_3ds": 3,
         "arithmetic_2ds": 2,
@@ -1462,8 +1887,19 @@
         "llmzszl": 703
     },
     "www.imdb.com": {
-        "count": 727,
+        "count": 1060,
         "triviaqa": 440,
+        "bbh_cot_fewshot_web_of_lies": 5,
+        "bbh_cot_fewshot_tracking_shuffled_objects_three_objects": 17,
+        "bbh_cot_fewshot_tracking_shuffled_objects_seven_objects": 76,
+        "bbh_cot_fewshot_tracking_shuffled_objects_five_objects": 101,
+        "bbh_zeroshot_web_of_lies": 3,
+        "bbh_zeroshot_tracking_shuffled_objects_three_objects": 10,
+        "bbh_zeroshot_tracking_shuffled_objects_seven_objects": 44,
+        "bbh_zeroshot_tracking_shuffled_objects_five_objects": 50,
+        "bbh_zeroshot_ruin_names": 1,
+        "bbh_zeroshot_movie_recommendation": 25,
+        "bbh_zeroshot_formal_fallacies": 1,
         "sst2": 86,
         "cola": 3,
         "qnli": 11,
@@ -1472,9 +1908,10 @@
         "webqs": 76
     },
     "www.facebook.com": {
-        "count": 747,
+        "count": 1009,
         "mmlu_professional_medicine": 22,
         "mmlu_anatomy": 11,
+        "agieval_aqua_rat": 3,
         "toxigen": 22,
         "arithmetic_3da": 3,
         "arithmetic_3ds": 2,
@@ -1483,6 +1920,19 @@
         "arithmetic_1dc": 5,
         "arithmetic_4ds": 2,
         "triviaqa": 154,
+        "bbh_cot_fewshot_web_of_lies": 46,
+        "bbh_cot_fewshot_tracking_shuffled_objects_five_objects": 4,
+        "bbh_cot_fewshot_temporal_sequences": 94,
+        "bbh_cot_fewshot_sports_understanding": 1,
+        "bbh_cot_fewshot_snarks": 5,
+        "polemo2_in": 2,
+        "bbh_zeroshot_web_of_lies": 23,
+        "bbh_zeroshot_temporal_sequences": 54,
+        "bbh_zeroshot_object_counting": 4,
+        "bbh_zeroshot_navigate": 1,
+        "bbh_zeroshot_movie_recommendation": 17,
+        "bbh_zeroshot_logical_deduction_five_objects": 7,
+        "bbh_zeroshot_formal_fallacies": 1,
         "wnli": 5,
         "sst2": 16,
         "polish_dyk_multiple_choice": 16,
@@ -1495,7 +1945,7 @@
         "llmzszl": 29
     },
     "www.studocu.com": {
-        "count": 887,
+        "count": 962,
         "arc_challenge": 7,
         "arc_easy": 16,
         "headqa_en": 11,
@@ -1557,6 +2007,11 @@
         "gpqa_main_zeroshot": 1,
         "gpqa_extended_cot_zeroshot": 1,
         "gpqa_main_cot_zeroshot": 1,
+        "agieval_sat_math": 2,
+        "agieval_sat_en": 8,
+        "agieval_sat_en_without_passage": 34,
+        "agieval_lsat_lr": 6,
+        "agieval_lsat_ar": 23,
         "arithmetic_3da": 4,
         "arithmetic_3ds": 11,
         "arithmetic_4da": 2,
@@ -1565,6 +2020,7 @@
         "arithmetic_4ds": 1,
         "arithmetic_2dm": 2,
         "triviaqa": 4,
+        "polemo2_out": 2,
         "cola": 4,
         "qnli": 3,
         "polish_polqa_closed_book": 43,
@@ -1588,7 +2044,7 @@
         "triviaqa": 927
     },
     "www.doubtnut.com": {
-        "count": 688,
+        "count": 879,
         "arc_easy": 6,
         "headqa_en": 42,
         "mmlu_moral_disputes": 1,
@@ -1639,6 +2095,11 @@
         "gpqa_diamond_cot_zeroshot": 4,
         "gpqa_extended_cot_zeroshot": 13,
         "gpqa_main_cot_zeroshot": 11,
+        "agieval_sat_math": 80,
+        "agieval_sat_en": 16,
+        "agieval_sat_en_without_passage": 10,
+        "agieval_math": 67,
+        "agieval_aqua_rat": 18,
         "arithmetic_3ds": 13,
         "arithmetic_4da": 1,
         "arithmetic_2ds": 5,
@@ -1655,7 +2116,7 @@
         "mnli": 859
     },
     "askfilo.com": {
-        "count": 672,
+        "count": 780,
         "arc_challenge": 34,
         "arc_easy": 63,
         "headqa_en": 15,
@@ -1706,6 +2167,10 @@
         "gpqa_diamond_cot_zeroshot": 1,
         "gpqa_extended_cot_zeroshot": 2,
         "gpqa_main_cot_zeroshot": 2,
+        "agieval_sat_math": 86,
+        "agieval_sat_en_without_passage": 1,
+        "agieval_math": 18,
+        "agieval_aqua_rat": 3,
         "arithmetic_3da": 4,
         "arithmetic_3ds": 38,
         "arithmetic_2ds": 23,
@@ -1718,8 +2183,26 @@
         "qnli": 4,
         "mnli": 1
     },
+    "easyllm.site": {
+        "count": 721,
+        "bbh_cot_fewshot_temporal_sequences": 303,
+        "bbh_cot_fewshot_word_sorting": 3,
+        "bbh_cot_fewshot_web_of_lies": 4,
+        "bbh_cot_fewshot_sports_understanding": 2,
+        "bbh_zeroshot_word_sorting": 2,
+        "bbh_zeroshot_web_of_lies": 4,
+        "bbh_zeroshot_temporal_sequences": 206,
+        "bbh_zeroshot_sports_understanding": 2,
+        "bbh_zeroshot_ruin_names": 12,
+        "bbh_zeroshot_object_counting": 4,
+        "bbh_zeroshot_hyperbaton": 18,
+        "bbh_zeroshot_geometric_shapes": 6,
+        "bbh_zeroshot_disambiguation_qa": 128,
+        "bbh_zeroshot_date_understanding": 21,
+        "bbh_zeroshot_causal_judgement": 6
+    },
     "brainly.ph": {
-        "count": 707,
+        "count": 717,
         "arc_challenge": 33,
         "arc_easy": 75,
         "headqa_en": 2,
@@ -1748,6 +2231,7 @@
         "mmlu_conceptual_physics": 7,
         "mmlu_college_chemistry": 1,
         "mmlu_astronomy": 2,
+        "agieval_math": 3,
         "arithmetic_3da": 35,
         "arithmetic_3ds": 180,
         "arithmetic_4da": 2,
@@ -1758,6 +2242,9 @@
         "arithmetic_2dm": 28,
         "arithmetic_2da": 52,
         "triviaqa": 6,
+        "bbh_cot_fewshot_sports_understanding": 1,
+        "bbh_zeroshot_sports_understanding": 1,
+        "bbh_zeroshot_navigate": 5,
         "cola": 1,
         "mnli": 3
     },
@@ -1775,30 +2262,46 @@
         "mnli": 669
     },
     "raw.githubusercontent.com": {
-        "count": 156,
+        "count": 632,
         "mmlu_professional_law": 19,
+        "agieval_math": 1,
+        "agieval_logiqa_en": 33,
         "triviaqa": 3,
+        "bbh_cot_fewshot_tracking_shuffled_objects_three_objects": 23,
+        "bbh_cot_fewshot_tracking_shuffled_objects_seven_objects": 95,
+        "bbh_cot_fewshot_tracking_shuffled_objects_five_objects": 168,
+        "bbh_cot_fewshot_temporal_sequences": 2,
+        "bbh_zeroshot_word_sorting": 1,
+        "bbh_zeroshot_tracking_shuffled_objects_three_objects": 15,
+        "bbh_zeroshot_tracking_shuffled_objects_seven_objects": 48,
+        "bbh_zeroshot_tracking_shuffled_objects_five_objects": 87,
+        "bbh_zeroshot_temporal_sequences": 2,
+        "bbh_zeroshot_movie_recommendation": 1,
         "sst2": 93,
         "qnli": 7,
         "mnli": 34
     },
     "web2.0calc.com": {
-        "count": 174,
+        "count": 603,
         "mmlu_high_school_mathematics": 110,
+        "agieval_sat_math": 2,
+        "agieval_math": 423,
         "arithmetic_3da": 12,
         "arithmetic_3ds": 6,
         "arithmetic_2ds": 8,
         "arithmetic_1dc": 12,
         "arithmetic_4ds": 7,
         "arithmetic_2dm": 14,
-        "arithmetic_2da": 5
+        "arithmetic_2da": 5,
+        "bbh_zeroshot_reasoning_about_colored_objects": 1,
+        "bbh_zeroshot_multistep_arithmetic_two": 3
     },
     "zawodowe.edu.pl": {
         "count": 583,
         "llmzszl": 583
     },
     "quizizz.com": {
-        "count": 571,
+        "count": 581,
         "arc_challenge": 169,
         "arc_easy": 229,
         "mmlu_professional_law": 2,
@@ -1812,13 +2315,18 @@
         "mmlu_conceptual_physics": 2,
         "mmlu_college_chemistry": 2,
         "mmlu_high_school_computer_science": 37,
+        "agieval_sat_math": 4,
+        "agieval_sat_en_without_passage": 6,
         "arithmetic_3ds": 1,
         "triviaqa": 2,
         "llmzszl": 73
     },
     "www.instagram.com": {
-        "count": 551,
+        "count": 571,
         "triviaqa": 16,
+        "bbh_cot_fewshot_temporal_sequences": 11,
+        "bbh_cot_fewshot_snarks": 3,
+        "bbh_zeroshot_temporal_sequences": 6,
         "wnli": 2,
         "sst2": 18,
         "cola": 39,
@@ -1830,13 +2338,20 @@
         "llmzszl": 1
     },
     "platinum-bench.csail.mit.edu": {
-        "count": 115,
+        "count": 552,
         "mmlu_high_school_mathematics": 95,
+        "agieval_math": 5,
+        "bbh_zeroshot_object_counting": 189,
+        "bbh_zeroshot_navigate": 6,
+        "bbh_zeroshot_logical_deduction_three_objects": 237,
         "wnli": 18,
         "qnli": 2
     },
     "gist.github.com": {
-        "count": 11,
+        "count": 535,
+        "bbh_zeroshot_logical_deduction_three_objects": 183,
+        "bbh_zeroshot_logical_deduction_seven_objects": 178,
+        "bbh_zeroshot_logical_deduction_five_objects": 163,
         "sst2": 6,
         "mrpc": 2,
         "mnli": 3
@@ -1850,7 +2365,7 @@
         "llmzszl": 470
     },
     "www.cliffsnotes.com": {
-        "count": 390,
+        "count": 468,
         "arc_challenge": 6,
         "arc_easy": 4,
         "headqa_en": 1,
@@ -1902,16 +2417,26 @@
         "gpqa_main_zeroshot": 1,
         "gpqa_extended_cot_zeroshot": 1,
         "gpqa_main_cot_zeroshot": 1,
+        "agieval_sat_math": 25,
+        "agieval_sat_en_without_passage": 22,
+        "agieval_math": 10,
+        "agieval_lsat_ar": 16,
+        "agieval_aqua_rat": 4,
         "arithmetic_3da": 2,
         "triviaqa": 10,
+        "bbh_zeroshot_reasoning_about_colored_objects": 1,
         "cola": 1,
         "mrpc": 1,
         "mnli": 6
     },
     "math.stackexchange.com": {
-        "count": 151,
+        "count": 430,
         "mmlu_high_school_mathematics": 10,
         "mmlu_college_mathematics": 34,
+        "agieval_sat_math": 4,
+        "agieval_math": 265,
+        "agieval_logiqa_en": 2,
+        "agieval_aqua_rat": 1,
         "arithmetic_3ds": 2,
         "arithmetic_2ds": 6,
         "arithmetic_5ds": 1,
@@ -1921,6 +2446,9 @@
         "arithmetic_2dm": 22,
         "arithmetic_2da": 1,
         "triviaqa": 8,
+        "bbh_zeroshot_object_counting": 1,
+        "bbh_zeroshot_navigate": 3,
+        "bbh_zeroshot_multistep_arithmetic_two": 3,
         "cola": 5,
         "qnli": 21
     },
@@ -1942,12 +2470,18 @@
         "arithmetic_2da": 381
     },
     "proceedings.mlr.press": {
-        "count": 7,
+        "count": 409,
+        "bbh_cot_fewshot_tracking_shuffled_objects_seven_objects": 96,
+        "bbh_cot_fewshot_tracking_shuffled_objects_five_objects": 128,
+        "bbh_zeroshot_tracking_shuffled_objects_seven_objects": 48,
+        "bbh_zeroshot_tracking_shuffled_objects_five_objects": 64,
+        "bbh_zeroshot_logical_deduction_three_objects": 53,
+        "bbh_zeroshot_logical_deduction_five_objects": 13,
         "cola": 4,
         "mnli": 3
     },
     "www.vaia.com": {
-        "count": 399,
+        "count": 406,
         "arc_easy": 5,
         "headqa_en": 19,
         "mmlu_public_relations": 1,
@@ -1989,6 +2523,8 @@
         "gpqa_diamond_cot_zeroshot": 5,
         "gpqa_extended_cot_zeroshot": 7,
         "gpqa_main_cot_zeroshot": 7,
+        "agieval_math": 6,
+        "agieval_aqua_rat": 1,
         "arithmetic_3ds": 29,
         "arithmetic_2ds": 2,
         "arithmetic_4ds": 3,
@@ -2006,6 +2542,19 @@
         "count": 381,
         "polish_polqa_closed_book": 15,
         "llmzszl": 366
+    },
+    "web.eecs.umich.edu": {
+        "count": 377,
+        "bbh_cot_fewshot_tracking_shuffled_objects_three_objects": 248,
+        "bbh_zeroshot_tracking_shuffled_objects_three_objects": 129
+    },
+    "www.pasteurscube.com": {
+        "count": 369,
+        "bbh_cot_fewshot_tracking_shuffled_objects_three_objects": 111,
+        "bbh_cot_fewshot_tracking_shuffled_objects_five_objects": 76,
+        "bbh_zeroshot_tracking_shuffled_objects_three_objects": 56,
+        "bbh_zeroshot_tracking_shuffled_objects_five_objects": 38,
+        "bbh_zeroshot_penguins_in_a_table": 88
     },
     "odrabiamy.pl": {
         "count": 362,
@@ -2029,10 +2578,14 @@
         "triviaqa": 315
     },
     "www.kaggle.com": {
-        "count": 289,
+        "count": 314,
         "mmlu_elementary_mathematics": 1,
+        "agieval_math": 19,
+        "agieval_aqua_rat": 2,
         "toxigen": 1,
         "triviaqa": 22,
+        "bbh_cot_fewshot_temporal_sequences": 3,
+        "bbh_zeroshot_temporal_sequences": 1,
         "sst2": 63,
         "cola": 3,
         "mrpc": 28,
@@ -2048,7 +2601,7 @@
         "webqs": 140
     },
     "www.coursesidekick.com": {
-        "count": 281,
+        "count": 309,
         "arc_challenge": 6,
         "arc_easy": 2,
         "headqa_en": 1,
@@ -2076,8 +2629,12 @@
         "mmlu_elementary_mathematics": 2,
         "mmlu_high_school_physics": 3,
         "mmlu_high_school_computer_science": 9,
+        "agieval_sat_en_without_passage": 21,
+        "agieval_math": 1,
+        "agieval_aqua_rat": 3,
         "arithmetic_4da": 1,
         "triviaqa": 4,
+        "bbh_zeroshot_causal_judgement": 3,
         "mnli": 2
     },
     "www.doorsteptutor.com": {
@@ -2096,24 +2653,48 @@
         "mnli": 305
     },
     "artofproblemsolving.com": {
-        "count": 16,
+        "count": 297,
         "mmlu_high_school_mathematics": 12,
+        "agieval_sat_math": 9,
+        "agieval_math": 271,
+        "agieval_aqua_rat": 1,
         "mnli": 4
     },
+    "drchrislevy.github.io": {
+        "count": 292,
+        "bbh_zeroshot_penguins_in_a_table": 292
+    },
+    "www.aimspress.com": {
+        "count": 292,
+        "bbh_zeroshot_penguins_in_a_table": 292
+    },
     "7sage.com": {
-        "count": 13,
-        "mmlu_professional_law": 13
+        "count": 290,
+        "mmlu_professional_law": 13,
+        "agieval_lsat_rc": 16,
+        "agieval_lsat_lr": 19,
+        "agieval_lsat_ar": 241,
+        "agieval_logiqa_en": 1
     },
     "cocalc.com": {
         "count": 284,
         "mnli": 284
     },
     "typeset.io": {
-        "count": 2,
+        "count": 271,
+        "bbh_cot_fewshot_tracking_shuffled_objects_three_objects": 146,
+        "bbh_cot_fewshot_web_of_lies": 1,
+        "bbh_cot_fewshot_sports_understanding": 8,
+        "bbh_zeroshot_web_of_lies": 1,
+        "bbh_zeroshot_tracking_shuffled_objects_three_objects": 76,
+        "bbh_zeroshot_sports_understanding": 8,
+        "bbh_zeroshot_logical_deduction_three_objects": 15,
+        "bbh_zeroshot_logical_deduction_seven_objects": 8,
+        "bbh_zeroshot_logical_deduction_five_objects": 6,
         "mrpc": 2
     },
     "www.academia.edu": {
-        "count": 170,
+        "count": 269,
         "mmlu_econometrics": 12,
         "gpqa_diamond_cot_n_shot": 3,
         "gpqa_main_cot_n_shot": 4,
@@ -2130,7 +2711,24 @@
         "gpqa_diamond_cot_zeroshot": 3,
         "gpqa_extended_cot_zeroshot": 4,
         "gpqa_main_cot_zeroshot": 4,
+        "agieval_sat_math": 2,
+        "agieval_sat_en_without_passage": 15,
+        "agieval_lsat_rc": 8,
+        "agieval_lsat_lr": 1,
+        "agieval_lsat_ar": 10,
+        "agieval_logiqa_en": 4,
+        "agieval_aqua_rat": 3,
         "triviaqa": 15,
+        "polemo2_out": 2,
+        "polemo2_in": 7,
+        "bbh_zeroshot_object_counting": 1,
+        "bbh_zeroshot_logical_deduction_three_objects": 5,
+        "bbh_zeroshot_logical_deduction_seven_objects": 5,
+        "bbh_zeroshot_hyperbaton": 1,
+        "bbh_zeroshot_formal_fallacies": 1,
+        "bbh_zeroshot_disambiguation_qa": 5,
+        "bbh_zeroshot_date_understanding": 2,
+        "bbh_zeroshot_causal_judgement": 27,
         "sst2": 7,
         "cola": 4,
         "rte": 3,
@@ -2155,20 +2753,28 @@
         "llmzszl": 251
     },
     "opentextbc.ca": {
-        "count": 244,
+        "count": 250,
+        "agieval_sat_math": 1,
+        "agieval_sat_en_without_passage": 1,
+        "agieval_math": 1,
         "arithmetic_3ds": 232,
         "arithmetic_2ds": 2,
         "triviaqa": 2,
+        "bbh_cot_fewshot_snarks": 1,
+        "bbh_zeroshot_snarks": 1,
+        "bbh_zeroshot_navigate": 1,
         "sst2": 1,
         "qnli": 1,
         "mnli": 6
     },
     "www.ceneo.pl": {
-        "count": 3,
+        "count": 246,
+        "polemo2_out": 243,
         "mnli": 3
     },
     "www.jstor.org": {
-        "count": 227,
+        "count": 238,
+        "bbh_zeroshot_causal_judgement": 11,
         "wnli": 2,
         "sst2": 13,
         "cola": 38,
@@ -2178,7 +2784,7 @@
         "mnli": 152
     },
     "www.bartleby.com": {
-        "count": 232,
+        "count": 237,
         "arc_challenge": 11,
         "arc_easy": 9,
         "headqa_en": 1,
@@ -2209,6 +2815,8 @@
         "mmlu_conceptual_physics": 41,
         "mmlu_high_school_physics": 2,
         "mmlu_high_school_computer_science": 5,
+        "agieval_sat_math": 2,
+        "agieval_math": 3,
         "arithmetic_3da": 1,
         "arithmetic_3ds": 1,
         "triviaqa": 4,
@@ -2217,7 +2825,10 @@
         "mnli": 65
     },
     "gmatclub.com": {
-        "count": 14,
+        "count": 233,
+        "agieval_lsat_rc": 147,
+        "agieval_lsat_lr": 59,
+        "agieval_aqua_rat": 13,
         "arithmetic_3da": 1,
         "arithmetic_3ds": 4,
         "arithmetic_1dc": 1,
@@ -2230,12 +2841,39 @@
         "triviaqa": 230
     },
     "neurips.cc": {
-        "count": 1,
+        "count": 230,
+        "bbh_cot_fewshot_tracking_shuffled_objects_three_objects": 34,
+        "bbh_cot_fewshot_tracking_shuffled_objects_seven_objects": 52,
+        "bbh_cot_fewshot_tracking_shuffled_objects_five_objects": 64,
+        "bbh_cot_fewshot_sports_understanding": 2,
+        "bbh_zeroshot_tracking_shuffled_objects_three_objects": 18,
+        "bbh_zeroshot_tracking_shuffled_objects_seven_objects": 26,
+        "bbh_zeroshot_tracking_shuffled_objects_five_objects": 31,
+        "bbh_zeroshot_sports_understanding": 2,
         "plmoab": 1
     },
     "issuu.com": {
-        "count": 117,
+        "count": 217,
         "triviaqa": 15,
+        "bbh_cot_fewshot_web_of_lies": 1,
+        "bbh_cot_fewshot_tracking_shuffled_objects_three_objects": 2,
+        "bbh_cot_fewshot_tracking_shuffled_objects_five_objects": 14,
+        "bbh_cot_fewshot_temporal_sequences": 16,
+        "bbh_cot_fewshot_sports_understanding": 4,
+        "polemo2_out": 4,
+        "polemo2_in": 16,
+        "bbh_zeroshot_web_of_lies": 1,
+        "bbh_zeroshot_tracking_shuffled_objects_three_objects": 1,
+        "bbh_zeroshot_tracking_shuffled_objects_seven_objects": 1,
+        "bbh_zeroshot_tracking_shuffled_objects_five_objects": 7,
+        "bbh_zeroshot_temporal_sequences": 13,
+        "bbh_zeroshot_sports_understanding": 2,
+        "bbh_zeroshot_reasoning_about_colored_objects": 8,
+        "bbh_zeroshot_object_counting": 1,
+        "bbh_zeroshot_movie_recommendation": 1,
+        "bbh_zeroshot_logical_deduction_five_objects": 2,
+        "bbh_zeroshot_hyperbaton": 2,
+        "bbh_zeroshot_formal_fallacies": 4,
         "cola": 1,
         "mrpc": 2,
         "mnli": 42,
@@ -2250,15 +2888,25 @@
         "llmzszl": 208
     },
     "m.facebook.com": {
-        "count": 127,
+        "count": 205,
         "triviaqa": 16,
+        "bbh_cot_fewshot_web_of_lies": 6,
+        "bbh_cot_fewshot_temporal_sequences": 24,
+        "polemo2_in": 1,
+        "bbh_zeroshot_web_of_lies": 2,
+        "bbh_zeroshot_temporal_sequences": 12,
+        "bbh_zeroshot_object_counting": 3,
+        "bbh_zeroshot_movie_recommendation": 5,
+        "bbh_zeroshot_logical_deduction_three_objects": 18,
+        "bbh_zeroshot_logical_deduction_five_objects": 7,
         "sst2": 5,
         "cola": 13,
         "mnli": 91,
         "llmzszl": 2
     },
     "www.tripadvisor.com": {
-        "count": 164,
+        "count": 198,
+        "polemo2_in": 34,
         "sst2": 4,
         "cola": 3,
         "qnli": 2,
@@ -2291,7 +2939,7 @@
         "mnli": 171
     },
     "www.vedantu.com": {
-        "count": 164,
+        "count": 179,
         "arc_easy": 5,
         "headqa_en": 14,
         "mmlu_prehistory": 1,
@@ -2313,6 +2961,9 @@
         "mmlu_high_school_physics": 7,
         "mmlu_college_chemistry": 7,
         "mmlu_astronomy": 3,
+        "agieval_sat_math": 3,
+        "agieval_math": 10,
+        "agieval_aqua_rat": 2,
         "arithmetic_4da": 1,
         "arithmetic_2ds": 1,
         "arithmetic_1dc": 2,
@@ -2343,12 +2994,19 @@
         "mnli": 76
     },
     "www.geeksforgeeks.org": {
-        "count": 43,
+        "count": 163,
         "mmlu_college_computer_science": 15,
+        "agieval_math": 5,
+        "agieval_logiqa_en": 1,
+        "agieval_aqua_rat": 2,
         "arithmetic_3ds": 3,
         "arithmetic_1dc": 3,
         "arithmetic_2dm": 2,
         "triviaqa": 1,
+        "bbh_cot_fewshot_tracking_shuffled_objects_five_objects": 16,
+        "bbh_zeroshot_tracking_shuffled_objects_five_objects": 8,
+        "bbh_zeroshot_navigate": 1,
+        "bbh_zeroshot_dyck_languages": 87,
         "cola": 2,
         "qnli": 12,
         "rte": 1,
@@ -2364,7 +3022,7 @@
         "arithmetic_2ds": 160
     },
     "www.studocu.vn": {
-        "count": 130,
+        "count": 158,
         "mmlu_public_relations": 46,
         "mmlu_econometrics": 59,
         "mmlu_business_ethics": 13,
@@ -2373,8 +3031,12 @@
         "gpqa_main_zeroshot": 1,
         "gpqa_extended_cot_zeroshot": 1,
         "gpqa_main_cot_zeroshot": 1,
+        "agieval_sat_math": 2,
+        "agieval_sat_en_without_passage": 20,
         "arithmetic_3ds": 2,
         "triviaqa": 2,
+        "bbh_cot_fewshot_word_sorting": 4,
+        "bbh_zeroshot_word_sorting": 2,
         "sst2": 2,
         "rte": 1
     },
@@ -2388,8 +3050,16 @@
         "llmzszl": 147
     },
     "dokumen.pub": {
-        "count": 73,
+        "count": 156,
+        "agieval_lsat_ar": 68,
         "triviaqa": 20,
+        "polemo2_in": 1,
+        "bbh_zeroshot_movie_recommendation": 2,
+        "bbh_zeroshot_logical_deduction_three_objects": 4,
+        "bbh_zeroshot_logical_deduction_seven_objects": 2,
+        "bbh_zeroshot_logical_deduction_five_objects": 4,
+        "bbh_zeroshot_formal_fallacies": 1,
+        "bbh_zeroshot_disambiguation_qa": 1,
         "wnli": 1,
         "sst2": 2,
         "rte": 4,
@@ -2417,8 +3087,10 @@
         "sst2": 147
     },
     "www.amazon.com": {
-        "count": 138,
+        "count": 146,
         "triviaqa": 11,
+        "bbh_zeroshot_ruin_names": 4,
+        "bbh_zeroshot_reasoning_about_colored_objects": 4,
         "sst2": 14,
         "cola": 24,
         "qnli": 4,
@@ -2435,20 +3107,34 @@
         "count": 142,
         "triviaqa": 142
     },
+    "focusonlearningcenter.com": {
+        "count": 139,
+        "agieval_sat_math": 20,
+        "agieval_sat_en": 12,
+        "agieval_sat_en_without_passage": 107
+    },
     "www.matemaks.pl": {
         "count": 139,
         "llmzszl": 139
     },
     "colab.research.google.com": {
-        "count": 100,
+        "count": 138,
+        "bbh_cot_fewshot_sports_understanding": 20,
+        "bbh_cot_fewshot_temporal_sequences": 1,
+        "bbh_zeroshot_temporal_sequences": 1,
+        "bbh_zeroshot_sports_understanding": 10,
+        "bbh_zeroshot_object_counting": 2,
+        "bbh_zeroshot_movie_recommendation": 3,
+        "bbh_zeroshot_formal_fallacies": 1,
         "sst2": 88,
         "cola": 6,
         "mrpc": 2,
         "mnli": 4
     },
     "www.goodreads.com": {
-        "count": 137,
+        "count": 138,
         "triviaqa": 34,
+        "bbh_zeroshot_object_counting": 1,
         "sst2": 7,
         "cola": 16,
         "mnli": 79,
@@ -2459,12 +3145,17 @@
         "mnli": 134
     },
     "ar5iv.labs.arxiv.org": {
-        "count": 19,
+        "count": 133,
+        "bbh_cot_fewshot_tracking_shuffled_objects_three_objects": 62,
+        "bbh_cot_fewshot_sports_understanding": 4,
+        "bbh_zeroshot_tracking_shuffled_objects_three_objects": 32,
+        "bbh_zeroshot_sports_understanding": 4,
+        "bbh_zeroshot_logical_deduction_three_objects": 12,
         "sst2": 4,
         "mnli": 15
     },
     "sidecu.culturameta.gov.co": {
-        "count": 128,
+        "count": 131,
         "arc_challenge": 16,
         "arc_easy": 38,
         "mmlu_jurisprudence": 2,
@@ -2487,6 +3178,8 @@
         "mmlu_high_school_physics": 2,
         "mmlu_high_school_computer_science": 13,
         "mmlu_astronomy": 1,
+        "agieval_sat_math": 2,
+        "agieval_math": 1,
         "arithmetic_2ds": 1,
         "arithmetic_4ds": 1
     },
@@ -2522,8 +3215,18 @@
         "triviaqa": 8
     },
     "www.slideshare.net": {
-        "count": 99,
+        "count": 126,
         "triviaqa": 10,
+        "bbh_cot_fewshot_word_sorting": 6,
+        "bbh_cot_fewshot_tracking_shuffled_objects_three_objects": 5,
+        "bbh_cot_fewshot_temporal_sequences": 2,
+        "polemo2_in": 1,
+        "bbh_zeroshot_word_sorting": 3,
+        "bbh_zeroshot_tracking_shuffled_objects_three_objects": 2,
+        "bbh_zeroshot_temporal_sequences": 1,
+        "bbh_zeroshot_object_counting": 2,
+        "bbh_zeroshot_logical_deduction_three_objects": 4,
+        "bbh_zeroshot_formal_fallacies": 1,
         "sst2": 1,
         "qnli": 2,
         "rte": 1,
@@ -2541,16 +3244,23 @@
         "arithmetic_2da": 62,
         "triviaqa": 16
     },
+    "polwro.com": {
+        "count": 120,
+        "polemo2_out": 120
+    },
     "www.slate.com": {
         "count": 120,
         "mnli": 120
     },
     "forum.powerscore.com": {
-        "count": 1,
+        "count": 119,
+        "agieval_lsat_lr": 89,
+        "agieval_lsat_ar": 29,
         "arithmetic_4da": 1
     },
     "stackoverflow.com": {
-        "count": 65,
+        "count": 118,
+        "bbh_zeroshot_boolean_expressions": 53,
         "cola": 4,
         "qnli": 19,
         "mnli": 41,
@@ -2574,7 +3284,8 @@
         "llmzszl": 114
     },
     "www.mp.pl": {
-        "count": 101,
+        "count": 113,
+        "polemo2_in": 12,
         "polish_polqa_closed_book": 59,
         "mnli": 3,
         "llmzszl": 39
@@ -2584,7 +3295,11 @@
         "llmzszl": 113
     },
     "edurev.in": {
-        "count": 32,
+        "count": 111,
+        "agieval_sat_math": 18,
+        "agieval_sat_en": 12,
+        "agieval_sat_en_without_passage": 39,
+        "agieval_lsat_rc": 10,
         "arithmetic_3da": 3,
         "arithmetic_3ds": 4,
         "arithmetic_2ds": 1,
@@ -2593,17 +3308,30 @@
         "arithmetic_2dm": 16
     },
     "www.cambridge.org": {
-        "count": 101,
+        "count": 111,
         "mmlu_econometrics": 55,
+        "agieval_sat_math": 2,
+        "agieval_math": 6,
         "arithmetic_3da": 8,
         "arithmetic_3ds": 1,
         "arithmetic_5ds": 1,
         "arithmetic_5da": 1,
         "triviaqa": 5,
+        "bbh_cot_fewshot_web_of_lies": 1,
+        "bbh_zeroshot_disambiguation_qa": 1,
         "sst2": 1,
         "cola": 2,
         "qnli": 4,
         "mnli": 23
+    },
+    "www.preprints.org": {
+        "count": 111,
+        "bbh_cot_fewshot_tracking_shuffled_objects_three_objects": 44,
+        "bbh_cot_fewshot_tracking_shuffled_objects_seven_objects": 22,
+        "bbh_cot_fewshot_tracking_shuffled_objects_five_objects": 6,
+        "bbh_zeroshot_tracking_shuffled_objects_three_objects": 22,
+        "bbh_zeroshot_tracking_shuffled_objects_seven_objects": 11,
+        "bbh_zeroshot_tracking_shuffled_objects_five_objects": 6
     },
     "d240jkaxprjasr.cloudfront.net": {
         "count": 109,
@@ -2614,16 +3342,31 @@
         "sst2": 108
     },
     "studyx.ai": {
-        "count": 74,
+        "count": 105,
+        "agieval_sat_math": 20,
         "arithmetic_3da": 25,
         "arithmetic_3ds": 30,
         "arithmetic_4da": 1,
         "arithmetic_2ds": 1,
         "arithmetic_4ds": 6,
         "arithmetic_2da": 1,
+        "bbh_zeroshot_snarks": 2,
+        "bbh_zeroshot_multistep_arithmetic_two": 4,
+        "bbh_zeroshot_hyperbaton": 5,
         "wnli": 2,
         "cola": 6,
         "llmzszl": 2
+    },
+    "img.cracklsat.net": {
+        "count": 103,
+        "agieval_lsat_rc": 10,
+        "agieval_lsat_lr": 20,
+        "agieval_lsat_ar": 73
+    },
+    "hub.zenoml.com": {
+        "count": 101,
+        "bbh_cot_fewshot_tracking_shuffled_objects_three_objects": 67,
+        "bbh_zeroshot_tracking_shuffled_objects_three_objects": 34
     },
     "www.oxen.ai": {
         "count": 97,
@@ -2638,17 +3381,25 @@
         "mnli": 96
     },
     "resources.finalsite.net": {
-        "count": 76,
+        "count": 95,
         "arc_easy": 9,
         "mmlu_high_school_world_history": 16,
         "mmlu_marketing": 1,
         "mmlu_high_school_statistics": 4,
         "mmlu_high_school_mathematics": 4,
         "mmlu_elementary_mathematics": 33,
+        "agieval_math": 1,
         "arithmetic_3ds": 3,
         "arithmetic_5ds": 1,
         "arithmetic_5da": 1,
         "arithmetic_4ds": 1,
+        "bbh_cot_fewshot_tracking_shuffled_objects_three_objects": 4,
+        "bbh_cot_fewshot_tracking_shuffled_objects_seven_objects": 2,
+        "bbh_cot_fewshot_tracking_shuffled_objects_five_objects": 5,
+        "bbh_zeroshot_tracking_shuffled_objects_three_objects": 2,
+        "bbh_zeroshot_tracking_shuffled_objects_seven_objects": 1,
+        "bbh_zeroshot_tracking_shuffled_objects_five_objects": 3,
+        "bbh_zeroshot_reasoning_about_colored_objects": 1,
         "mnli": 3
     },
     "www.wug.gov.pl": {
@@ -2688,9 +3439,12 @@
         "gpqa_main_cot_zeroshot": 1
     },
     "www.examtopics.com": {
-        "count": 65,
+        "count": 88,
         "mmlu_college_medicine": 15,
         "mmlu_professional_medicine": 35,
+        "agieval_sat_math": 2,
+        "agieval_sat_en_without_passage": 1,
+        "agieval_lsat_rc": 20,
         "arithmetic_3da": 14,
         "arithmetic_3ds": 1
     },
@@ -2700,7 +3454,7 @@
         "llmzszl": 71
     },
     "studylib.net": {
-        "count": 61,
+        "count": 86,
         "arc_challenge": 7,
         "arc_easy": 15,
         "mmlu_professional_law": 2,
@@ -2715,6 +3469,7 @@
         "mmlu_conceptual_physics": 5,
         "mmlu_high_school_physics": 1,
         "mmlu_high_school_computer_science": 12,
+        "agieval_sat_en_without_passage": 25,
         "triviaqa": 2,
         "cola": 2
     },
@@ -2723,10 +3478,11 @@
         "arithmetic_2dm": 85
     },
     "www.bissoy.com": {
-        "count": 80,
+        "count": 84,
         "mmlu_high_school_psychology": 45,
         "mmlu_high_school_microeconomics": 14,
-        "mmlu_high_school_chemistry": 21
+        "mmlu_high_school_chemistry": 21,
+        "agieval_aqua_rat": 4
     },
     "watch.plex.tv": {
         "count": 83,
@@ -2740,6 +3496,10 @@
     "www.easynotecards.com": {
         "count": 80,
         "mmlu_high_school_biology": 80
+    },
+    "m.book118.com": {
+        "count": 80,
+        "agieval_gaokao_english": 80
     },
     "athome.fandango.com": {
         "count": 80,
@@ -2777,7 +3537,7 @@
         "mmlu_elementary_mathematics": 38
     },
     "www.proprofs.com": {
-        "count": 70,
+        "count": 75,
         "arc_challenge": 9,
         "arc_easy": 9,
         "mmlu_professional_law": 2,
@@ -2788,6 +3548,7 @@
         "mmlu_anatomy": 2,
         "mmlu_elementary_mathematics": 17,
         "mmlu_college_computer_science": 2,
+        "agieval_aqua_rat": 5,
         "arithmetic_3ds": 1,
         "arithmetic_2dm": 1,
         "triviaqa": 2
@@ -2802,10 +3563,12 @@
         "llmzszl": 3
     },
     "openstax.org": {
-        "count": 67,
+        "count": 73,
+        "agieval_math": 4,
         "arithmetic_3da": 7,
         "arithmetic_3ds": 4,
         "arithmetic_4ds": 1,
+        "polemo2_out": 2,
         "polish_polqa_closed_book": 15,
         "mnli": 3,
         "llmzszl": 37
@@ -2820,7 +3583,9 @@
         "wnli": 72
     },
     "lsathacks.com": {
-        "count": 1,
+        "count": 72,
+        "agieval_lsat_lr": 17,
+        "agieval_lsat_ar": 54,
         "cola": 1
     },
     "hackernoon.com": {
@@ -2876,6 +3641,10 @@
         "count": 64,
         "mmlu_professional_accounting": 64
     },
+    "debatelab.github.io": {
+        "count": 64,
+        "bbh_zeroshot_formal_fallacies": 64
+    },
     "www.prc.gov": {
         "count": 64,
         "mnli": 64
@@ -2901,7 +3670,7 @@
         "llmzszl": 63
     },
     "oldsite.nnu.edu": {
-        "count": 46,
+        "count": 62,
         "arc_easy": 7,
         "mmlu_professional_law": 8,
         "mmlu_philosophy": 1,
@@ -2914,10 +3683,13 @@
         "mmlu_high_school_biology": 1,
         "mmlu_high_school_chemistry": 1,
         "mmlu_elementary_mathematics": 3,
-        "mmlu_high_school_computer_science": 2
+        "mmlu_high_school_computer_science": 2,
+        "agieval_sat_en_without_passage": 3,
+        "agieval_math": 12,
+        "agieval_aqua_rat": 1
     },
     "slideplayer.com": {
-        "count": 53,
+        "count": 61,
         "arc_challenge": 22,
         "arc_easy": 10,
         "mmlu_moral_disputes": 2,
@@ -2929,11 +3701,23 @@
         "mmlu_high_school_microeconomics": 1,
         "mmlu_high_school_statistics": 2,
         "mmlu_elementary_mathematics": 4,
-        "mmlu_college_mathematics": 1
+        "mmlu_college_mathematics": 1,
+        "agieval_math": 5,
+        "agieval_gaokao_english": 3
     },
     "archive.nyu.edu": {
         "count": 61,
         "cola": 61
+    },
+    "www.affordablecollegesolutions.com": {
+        "count": 59,
+        "agieval_sat_math": 18,
+        "agieval_sat_en_without_passage": 41
+    },
+    "zhidao.baidu.com": {
+        "count": 59,
+        "agieval_gaokao_english": 16,
+        "bbh_zeroshot_multistep_arithmetic_two": 43
     },
     "samequizy.pl": {
         "count": 59,
@@ -2946,7 +3730,7 @@
         "llmzszl": 33
     },
     "es.scribd.com": {
-        "count": 46,
+        "count": 57,
         "mmlu_elementary_mathematics": 10,
         "gpqa_diamond_cot_n_shot": 2,
         "gpqa_main_cot_n_shot": 1,
@@ -2963,6 +3747,8 @@
         "gpqa_diamond_cot_zeroshot": 2,
         "gpqa_extended_cot_zeroshot": 2,
         "gpqa_main_cot_zeroshot": 2,
+        "agieval_sat_en_without_passage": 4,
+        "agieval_aqua_rat": 7,
         "arithmetic_4ds": 3,
         "sst2": 2,
         "cola": 1,
@@ -2981,11 +3767,17 @@
         "arc_easy": 43
     },
     "doe.louisiana.gov": {
-        "count": 27,
+        "count": 56,
         "mmlu_elementary_mathematics": 20,
+        "agieval_sat_math": 5,
+        "agieval_math": 13,
+        "agieval_logiqa_en": 2,
+        "agieval_gaokao_english": 4,
+        "agieval_aqua_rat": 4,
         "arithmetic_3da": 3,
         "arithmetic_3ds": 3,
-        "arithmetic_4ds": 1
+        "arithmetic_4ds": 1,
+        "bbh_zeroshot_reasoning_about_colored_objects": 1
     },
     "nces.ed.gov": {
         "count": 56,
@@ -2999,6 +3791,14 @@
         "qnli": 1,
         "mrpc": 1,
         "mnli": 4
+    },
+    "www.etutorworld.com": {
+        "count": 55,
+        "agieval_sat_en_without_passage": 55
+    },
+    "yamol.tw": {
+        "count": 55,
+        "agieval_gaokao_english": 55
     },
     "booksbybit.com": {
         "count": 55,
@@ -3019,16 +3819,23 @@
         "triviaqa": 7
     },
     "www.transtutors.com": {
-        "count": 49,
+        "count": 51,
         "mmlu_public_relations": 14,
         "mmlu_high_school_psychology": 11,
         "mmlu_professional_accounting": 12,
-        "mmlu_high_school_statistics": 12
+        "mmlu_high_school_statistics": 12,
+        "agieval_sat_math": 1,
+        "agieval_math": 1
+    },
+    "www.jyeoo.com": {
+        "count": 51,
+        "agieval_gaokao_english": 51
     },
     "s3-eu-west-1.amazonaws.com": {
-        "count": 50,
+        "count": 51,
         "mmlu_public_relations": 17,
         "mmlu_human_aging": 27,
+        "agieval_math": 1,
         "triviaqa": 2,
         "mnli": 3,
         "llmzszl": 1
@@ -3042,13 +3849,22 @@
         "mnli": 51
     },
     "core-docs.s3.amazonaws.com": {
-        "count": 22,
+        "count": 50,
         "arc_easy": 5,
         "mmlu_elementary_mathematics": 6,
+        "agieval_aqua_rat": 1,
         "arithmetic_3da": 2,
         "arithmetic_3ds": 2,
         "arithmetic_5da": 5,
-        "arithmetic_4ds": 2
+        "arithmetic_4ds": 2,
+        "bbh_cot_fewshot_web_of_lies": 2,
+        "bbh_cot_fewshot_tracking_shuffled_objects_five_objects": 6,
+        "bbh_cot_fewshot_tracking_shuffled_objects_seven_objects": 2,
+        "bbh_zeroshot_web_of_lies": 2,
+        "bbh_zeroshot_tracking_shuffled_objects_seven_objects": 2,
+        "bbh_zeroshot_tracking_shuffled_objects_five_objects": 3,
+        "bbh_zeroshot_reasoning_about_colored_objects": 2,
+        "bbh_zeroshot_logical_deduction_three_objects": 8
     },
     "www.cram.com": {
         "count": 50,
@@ -3062,21 +3878,28 @@
         "mmlu_high_school_biology": 2,
         "mmlu_astronomy": 4
     },
+    "blog.sina.com.cn": {
+        "count": 50,
+        "agieval_gaokao_english": 50
+    },
     "www.forum9.com": {
         "count": 50,
         "triviaqa": 50
     },
     "zhuanlan.zhihu.com": {
-        "count": 1,
+        "count": 50,
+        "agieval_gaokao_english": 47,
+        "bbh_zeroshot_date_understanding": 2,
         "sst2": 1
     },
     "www.baamboozle.com": {
-        "count": 48,
+        "count": 50,
         "arc_challenge": 6,
         "arc_easy": 12,
         "mmlu_nutrition": 1,
         "mmlu_elementary_mathematics": 21,
         "arithmetic_3da": 1,
+        "bbh_zeroshot_object_counting": 2,
         "wnli": 1,
         "llmzszl": 6
     },
@@ -3090,12 +3913,17 @@
         "count": 49,
         "mmlu_professional_medicine": 49
     },
+    "www.360doc.com": {
+        "count": 49,
+        "agieval_gaokao_english": 49
+    },
     "www.slideserve.com": {
-        "count": 47,
+        "count": 49,
         "arc_challenge": 8,
         "arc_easy": 5,
         "mmlu_elementary_mathematics": 1,
         "mmlu_conceptual_physics": 1,
+        "agieval_math": 2,
         "arithmetic_3da": 1,
         "polish_polqa_closed_book": 30,
         "llmzszl": 1
@@ -3134,14 +3962,26 @@
         "polish_polqa_closed_book": 30,
         "llmzszl": 17
     },
+    "naukawpolsce.pl": {
+        "count": 46,
+        "polemo2_in": 46
+    },
     "praxis.ets.org": {
         "count": 46,
         "mmlu_miscellaneous": 46
+    },
+    "www.hrexam.com": {
+        "count": 46,
+        "agieval_gaokao_english": 46
     },
     "sjp.pwn.pl": {
         "count": 46,
         "polish_polqa_closed_book": 36,
         "llmzszl": 10
+    },
+    "cdn2.hubspot.net": {
+        "count": 45,
+        "agieval_sat_en_without_passage": 45
     },
     "allegro.pl": {
         "count": 45,
@@ -3153,10 +3993,12 @@
         "llmzszl": 45
     },
     "www.turito.com": {
-        "count": 9,
+        "count": 44,
         "arc_easy": 5,
         "mmlu_high_school_geography": 1,
         "mmlu_elementary_mathematics": 2,
+        "agieval_sat_math": 34,
+        "agieval_aqua_rat": 1,
         "arithmetic_3da": 1
     },
     "www.sporcle.com": {
@@ -3164,13 +4006,14 @@
         "triviaqa": 44
     },
     "www.cs.cmu.edu": {
-        "count": 42,
+        "count": 44,
         "mmlu_machine_learning": 24,
         "arithmetic_4da": 2,
         "arithmetic_5ds": 3,
         "arithmetic_5da": 2,
         "arithmetic_4ds": 4,
         "triviaqa": 5,
+        "bbh_zeroshot_object_counting": 2,
         "sst2": 2
     },
     "matzadanie.pl": {
@@ -3185,17 +4028,22 @@
         "count": 44,
         "llmzszl": 44
     },
+    "nos.netease.com": {
+        "count": 43,
+        "agieval_gaokao_english": 43
+    },
     "www.1z10.fora.pl": {
         "count": 43,
         "polish_polqa_closed_book": 43
     },
     "osf.io": {
-        "count": 9,
+        "count": 43,
+        "bbh_zeroshot_causal_judgement": 34,
         "qnli": 1,
         "mnli": 8
     },
     "www.pearson.com": {
-        "count": 37,
+        "count": 42,
         "mmlu_high_school_biology": 17,
         "gpqa_diamond_cot_n_shot": 1,
         "gpqa_main_cot_n_shot": 1,
@@ -3212,9 +4060,12 @@
         "gpqa_diamond_cot_zeroshot": 1,
         "gpqa_extended_cot_zeroshot": 1,
         "gpqa_main_cot_zeroshot": 1,
+        "agieval_sat_math": 2,
+        "agieval_math": 1,
         "arithmetic_3da": 3,
         "arithmetic_4ds": 1,
-        "arithmetic_2dm": 1
+        "arithmetic_2dm": 1,
+        "bbh_zeroshot_object_counting": 2
     },
     "www.cracksat.net": {
         "count": 42,
@@ -3231,14 +4082,23 @@
         "llmzszl": 41
     },
     "gateoverflow.in": {
-        "count": 39,
+        "count": 40,
         "mmlu_college_computer_science": 38,
+        "agieval_math": 1,
         "arithmetic_2dm": 1
     },
     "nnhsrasetti.pbworks.com": {
         "count": 40,
         "arc_challenge": 25,
         "arc_easy": 15
+    },
+    "www.yygrammar.com": {
+        "count": 40,
+        "agieval_gaokao_english": 40
+    },
+    "m.51jiaoxi.com": {
+        "count": 40,
+        "agieval_gaokao_english": 40
     },
     "web.stanford.edu": {
         "count": 40,
@@ -3249,7 +4109,8 @@
         "mnli": 3
     },
     "m.zhangyue.com": {
-        "count": 6,
+        "count": 40,
+        "agieval_gaokao_english": 34,
         "mnli": 6
     },
     "pl.bab.la": {
@@ -3261,11 +4122,17 @@
         "count": 39,
         "mmlu_elementary_mathematics": 39
     },
+    "m.kekenet.com": {
+        "count": 39,
+        "agieval_gaokao_english": 39
+    },
     "www.nysedregents.org": {
-        "count": 36,
+        "count": 39,
         "arc_challenge": 9,
         "arc_easy": 11,
-        "mmlu_elementary_mathematics": 16
+        "mmlu_elementary_mathematics": 16,
+        "bbh_cot_fewshot_sports_understanding": 2,
+        "bbh_zeroshot_sports_understanding": 1
     },
     "cogcomp.seas.upenn.edu": {
         "count": 39,
@@ -3334,9 +4201,19 @@
         "arc_easy": 23,
         "mmlu_professional_accounting": 2
     },
+    "m.kaobei173.com": {
+        "count": 37,
+        "agieval_gaokao_english": 37
+    },
+    "gaokao.eol.cn": {
+        "count": 37,
+        "agieval_gaokao_english": 37
+    },
     "www.varsitytutors.com": {
-        "count": 34,
+        "count": 37,
         "mmlu_professional_accounting": 24,
+        "agieval_sat_math": 1,
+        "agieval_math": 2,
         "arithmetic_3da": 1,
         "arithmetic_3ds": 1,
         "arithmetic_5ds": 1,
@@ -3348,7 +4225,7 @@
         "sst2": 37
     },
     "www.physicsforums.com": {
-        "count": 35,
+        "count": 37,
         "mmlu_high_school_physics": 11,
         "gpqa_diamond_cot_n_shot": 1,
         "gpqa_main_cot_n_shot": 1,
@@ -3365,6 +4242,7 @@
         "gpqa_diamond_cot_zeroshot": 1,
         "gpqa_extended_cot_zeroshot": 1,
         "gpqa_main_cot_zeroshot": 1,
+        "agieval_math": 2,
         "toxigen": 1,
         "triviaqa": 2,
         "cola": 3,
@@ -3376,14 +4254,24 @@
         "mnli": 37
     },
     "www.sarthaks.com": {
-        "count": 32,
+        "count": 36,
         "mmlu_computer_security": 26,
         "gpqa_extended_cot_n_shot": 1,
         "gpqa_extended_n_shot": 1,
         "gpqa_extended_generative_n_shot": 1,
         "gpqa_extended_zeroshot": 1,
         "gpqa_extended_cot_zeroshot": 1,
+        "agieval_math": 4,
         "arithmetic_2dm": 1
+    },
+    "file.koolearn.com": {
+        "count": 36,
+        "agieval_gaokao_english": 36
+    },
+    "lmql.ai": {
+        "count": 36,
+        "bbh_cot_fewshot_tracking_shuffled_objects_three_objects": 24,
+        "bbh_zeroshot_tracking_shuffled_objects_three_objects": 12
     },
     "www.poetryfoundation.org": {
         "count": 36,
@@ -3406,10 +4294,19 @@
         "count": 35,
         "mmlu_elementary_mathematics": 35
     },
+    "launchpadeducation.com": {
+        "count": 35,
+        "agieval_sat_en_without_passage": 35
+    },
     "s3.amazonaws.com": {
-        "count": 15,
+        "count": 35,
         "mmlu_high_school_psychology": 13,
-        "arithmetic_5da": 2
+        "agieval_sat_math": 2,
+        "agieval_sat_en_without_passage": 7,
+        "agieval_math": 2,
+        "arithmetic_5da": 2,
+        "bbh_cot_fewshot_tracking_shuffled_objects_three_objects": 2,
+        "bbh_zeroshot_reasoning_about_colored_objects": 7
     },
     "www.inforlex.pl": {
         "count": 35,
@@ -3420,7 +4317,9 @@
         "llmzszl": 35
     },
     "courses.lumenlearning.com": {
-        "count": 28,
+        "count": 34,
+        "agieval_sat_math": 1,
+        "agieval_math": 5,
         "arithmetic_3ds": 3,
         "triviaqa": 4,
         "sst2": 1,
@@ -3453,6 +4352,10 @@
         "count": 33,
         "mmlu_high_school_psychology": 33
     },
+    "www.gkqgykt.com": {
+        "count": 33,
+        "agieval_gaokao_english": 33
+    },
     "cms-v1-files.superszkolna.pl": {
         "count": 33,
         "llmzszl": 33
@@ -3468,6 +4371,10 @@
     "khsapstats.weebly.com": {
         "count": 32,
         "mmlu_high_school_statistics": 32
+    },
+    "www.cnenedu.com": {
+        "count": 32,
+        "agieval_gaokao_english": 32
     },
     "www.triviabug.com": {
         "count": 32,
@@ -3498,14 +4405,16 @@
         "mrpc": 7
     },
     "id.scribd.com": {
-        "count": 30,
+        "count": 31,
         "mmlu_professional_law": 26,
+        "agieval_lsat_lr": 1,
         "arithmetic_4ds": 1,
         "triviaqa": 2,
         "llmzszl": 1
     },
     "laboratoria.net": {
-        "count": 2,
+        "count": 31,
+        "polemo2_in": 29,
         "llmzszl": 2
     },
     "downloads.regulations.gov": {
@@ -3527,6 +4436,15 @@
         "mmlu_marketing": 19,
         "mmlu_business_ethics": 11
     },
+    "dfiles.jiajiaoban.com": {
+        "count": 30,
+        "agieval_gaokao_english": 30
+    },
+    "microsoft.github.io": {
+        "count": 30,
+        "bbh_cot_fewshot_sports_understanding": 20,
+        "bbh_zeroshot_sports_understanding": 10
+    },
     "nlp.ipipan.waw.pl": {
         "count": 30,
         "polish_polqa_closed_book": 30
@@ -3545,14 +4463,17 @@
         "llmzszl": 5
     },
     "collegedunia.com": {
-        "count": 10,
+        "count": 29,
+        "agieval_lsat_rc": 19,
         "arithmetic_3da": 1,
         "arithmetic_1dc": 9
     },
     "facrea.urosario.edu.co": {
-        "count": 14,
+        "count": 29,
         "mmlu_professional_law": 13,
-        "arithmetic_5da": 1
+        "agieval_math": 14,
+        "arithmetic_5da": 1,
+        "bbh_zeroshot_disambiguation_qa": 1
     },
     "blog.blueprintprep.com": {
         "count": 29,
@@ -3562,14 +4483,23 @@
         "count": 29,
         "mmlu_electrical_engineering": 29
     },
+    "wk.baidu.com": {
+        "count": 29,
+        "agieval_gaokao_english": 29
+    },
     "www.triviacountry.com": {
         "count": 29,
         "triviaqa": 29
     },
+    "www.rynekzdrowia.pl": {
+        "count": 29,
+        "polemo2_in": 29
+    },
     "www.k5learning.com": {
-        "count": 28,
+        "count": 29,
         "mmlu_elementary_mathematics": 26,
         "arithmetic_3ds": 1,
+        "bbh_zeroshot_hyperbaton": 1,
         "cola": 1
     },
     "en.wikinews.org": {
@@ -3600,6 +4530,14 @@
     "compsciedu.com": {
         "count": 28,
         "mmlu_computer_security": 28
+    },
+    "jhcee.cn": {
+        "count": 28,
+        "agieval_gaokao_english": 28
+    },
+    "21zujuan.21cnjy.com": {
+        "count": 28,
+        "agieval_gaokao_english": 28
     },
     "www.playfactile.com": {
         "count": 28,
@@ -3639,9 +4577,14 @@
         "count": 27,
         "llmzszl": 27
     },
+    "www.nmet168.com": {
+        "count": 26,
+        "agieval_gaokao_english": 26
+    },
     "m4maths.com": {
-        "count": 13,
+        "count": 26,
         "mmlu_college_mathematics": 11,
+        "agieval_aqua_rat": 13,
         "arithmetic_3ds": 1,
         "arithmetic_4ds": 1
     },
@@ -3718,6 +4661,22 @@
         "count": 24,
         "mmlu_elementary_mathematics": 24
     },
+    "ultimatetestprep.com": {
+        "count": 24,
+        "agieval_sat_en_without_passage": 24
+    },
+    "101.201.118.170": {
+        "count": 24,
+        "agieval_gaokao_english": 24
+    },
+    "www.xiangpi.com": {
+        "count": 24,
+        "agieval_gaokao_english": 24
+    },
+    "download.s21i.co99.net": {
+        "count": 24,
+        "agieval_gaokao_english": 24
+    },
     "www.quiz-zone.co.uk": {
         "count": 24,
         "triviaqa": 24
@@ -3784,17 +4743,25 @@
         "llmzszl": 1
     },
     "mrkt.nnu.edu": {
-        "count": 10,
-        "mmlu_professional_law": 10
+        "count": 22,
+        "mmlu_professional_law": 10,
+        "agieval_sat_en_without_passage": 2,
+        "agieval_math": 9,
+        "agieval_aqua_rat": 1
     },
     "www.examveda.com": {
-        "count": 21,
+        "count": 22,
         "mmlu_marketing": 19,
+        "agieval_aqua_rat": 1,
         "triviaqa": 2
     },
     "forum.another71.com": {
         "count": 22,
         "mmlu_professional_accounting": 22
+    },
+    "www.powerfulprep.com": {
+        "count": 22,
+        "agieval_sat_en_without_passage": 22
     },
     "aikan.qq.com": {
         "count": 22,
@@ -3808,6 +4775,22 @@
     "www.mslaw.edu": {
         "count": 21,
         "mmlu_professional_law": 21
+    },
+    "gotouniv.s3.ap-south-1.amazonaws.com": {
+        "count": 21,
+        "agieval_sat_en_without_passage": 21
+    },
+    "mzujuan.xkw.com": {
+        "count": 21,
+        "agieval_gaokao_english": 21
+    },
+    "imgs.app.gaokaozhitongche.com": {
+        "count": 21,
+        "agieval_gaokao_english": 21
+    },
+    "www.znanylekarz.pl": {
+        "count": 21,
+        "polemo2_in": 21
     },
     "qz.com": {
         "count": 21,
@@ -3840,6 +4823,22 @@
     "physics-problems-solutions.blogspot.com": {
         "count": 20,
         "mmlu_college_physics": 20
+    },
+    "danstestprep.com": {
+        "count": 20,
+        "agieval_sat_en_without_passage": 20
+    },
+    "www.matermiddlehigh.org": {
+        "count": 20,
+        "agieval_sat_en_without_passage": 20
+    },
+    "www.testbest.com": {
+        "count": 20,
+        "agieval_lsat_ar": 20
+    },
+    "philarchive.org": {
+        "count": 20,
+        "bbh_zeroshot_causal_judgement": 20
     },
     "przedszkole-montessori.com.pl": {
         "count": 20,
@@ -3931,6 +4930,14 @@
         "count": 18,
         "mmlu_astronomy": 18
     },
+    "xiangpi.com": {
+        "count": 18,
+        "agieval_gaokao_english": 18
+    },
+    "sciyard.com": {
+        "count": 18,
+        "agieval_gaokao_english": 18
+    },
     "www.cymath.com": {
         "count": 18,
         "arithmetic_1dc": 18
@@ -3944,10 +4951,11 @@
         "triviaqa": 18
     },
     "core-docs.s3.us-east-1.amazonaws.com": {
-        "count": 15,
+        "count": 18,
         "mmlu_elementary_mathematics": 10,
         "arithmetic_5ds": 1,
-        "arithmetic_5da": 4
+        "arithmetic_5da": 4,
+        "bbh_cot_fewshot_tracking_shuffled_objects_seven_objects": 3
     },
     "gitlab.liu.se": {
         "count": 18,
@@ -3990,6 +4998,14 @@
     "jcesom.marshall.edu": {
         "count": 17,
         "mmlu_professional_medicine": 17
+    },
+    "cdn.kastatic.org": {
+        "count": 17,
+        "agieval_sat_en_without_passage": 17
+    },
+    "mtiku.21cnjy.com": {
+        "count": 17,
+        "agieval_gaokao_english": 17
     },
     "specialties.bayt.com": {
         "count": 17,
@@ -4056,6 +5072,50 @@
         "count": 16,
         "mmlu_college_mathematics": 16
     },
+    "ks3-cn-guangzhou.ksyun.com": {
+        "count": 16,
+        "agieval_gaokao_english": 16
+    },
+    "edu.newdu.com": {
+        "count": 16,
+        "agieval_gaokao_english": 16
+    },
+    "free.eol.cn": {
+        "count": 16,
+        "agieval_gaokao_english": 16
+    },
+    "ft.huijiaoyun.com": {
+        "count": 16,
+        "agieval_gaokao_english": 16
+    },
+    "www.cpsenglish.com": {
+        "count": 16,
+        "agieval_gaokao_english": 16
+    },
+    "qhgjzx.jnjy.net.cn": {
+        "count": 16,
+        "agieval_gaokao_english": 16
+    },
+    "www.sciyard.com": {
+        "count": 16,
+        "agieval_gaokao_english": 16
+    },
+    "basic.ah.smartedu.cn": {
+        "count": 16,
+        "agieval_gaokao_english": 16
+    },
+    "www.ahedu.cn": {
+        "count": 16,
+        "agieval_gaokao_english": 16
+    },
+    "qisu.qisuen.cn": {
+        "count": 16,
+        "agieval_gaokao_english": 16
+    },
+    "bbs.bigear.cn": {
+        "count": 16,
+        "agieval_gaokao_english": 16
+    },
     "mastermindclub1978.com": {
         "count": 16,
         "triviaqa": 16
@@ -4063,6 +5123,10 @@
     "www.sfquiz.org.uk": {
         "count": 16,
         "triviaqa": 16
+    },
+    "dev.datascienceassn.org": {
+        "count": 16,
+        "bbh_zeroshot_logical_deduction_three_objects": 16
     },
     "en.wiktionary.org": {
         "count": 16,
@@ -4096,11 +5160,12 @@
         "llmzszl": 4
     },
     "flexbooks.ck12.org": {
-        "count": 13,
+        "count": 15,
         "arc_easy": 6,
         "mmlu_high_school_psychology": 1,
         "mmlu_college_biology": 2,
         "mmlu_elementary_mathematics": 3,
+        "agieval_math": 2,
         "qnli": 1
     },
     "mcqtimes.com": {
@@ -4195,6 +5260,14 @@
         "count": 14,
         "mmlu_elementary_mathematics": 14
     },
+    "1.tiku.cn": {
+        "count": 14,
+        "agieval_gaokao_english": 14
+    },
+    "m.inf.qq.com": {
+        "count": 14,
+        "agieval_gaokao_english": 14
+    },
     "www.inyourarea.co.uk": {
         "count": 14,
         "triviaqa": 14
@@ -4276,6 +5349,10 @@
         "count": 13,
         "mmlu_high_school_computer_science": 13
     },
+    "www.tutelaprep.com": {
+        "count": 13,
+        "agieval_sat_en_without_passage": 13
+    },
     "www.thefreelibrary.com": {
         "count": 13,
         "triviaqa": 13
@@ -4308,6 +5385,10 @@
         "count": 13,
         "llmzszl": 13
     },
+    "forums.spacebattles.com": {
+        "count": 12,
+        "agieval_lsat_ar": 12
+    },
     "pfannenstielhistory.weebly.com": {
         "count": 12,
         "mmlu_high_school_world_history": 12
@@ -4328,6 +5409,30 @@
         "count": 12,
         "mmlu_elementary_mathematics": 12
     },
+    "rhsdashboard.weebly.com": {
+        "count": 12,
+        "agieval_sat_en": 12
+    },
+    "www.cheenta.com": {
+        "count": 12,
+        "agieval_math": 12
+    },
+    "lsatblog.blogspot.com": {
+        "count": 12,
+        "agieval_lsat_ar": 12
+    },
+    "www.qxwxw.com": {
+        "count": 12,
+        "agieval_gaokao_english": 12
+    },
+    "html.study.yanxiu.jsyxsq.com": {
+        "count": 12,
+        "agieval_gaokao_english": 12
+    },
+    "www.sfbroad.com": {
+        "count": 12,
+        "agieval_gaokao_english": 12
+    },
     "d3pbdxdl8c65wb.cloudfront.net": {
         "count": 12,
         "triviaqa": 12
@@ -4339,6 +5444,10 @@
     "freequizdatabase.weebly.com": {
         "count": 12,
         "triviaqa": 12
+    },
+    "philsci-archive.pitt.edu": {
+        "count": 12,
+        "bbh_zeroshot_causal_judgement": 12
     },
     "www.cinafilm.com": {
         "count": 12,
@@ -4477,6 +5586,14 @@
         "count": 11,
         "mmlu_college_biology": 11
     },
+    "www.thinkinglsat.com": {
+        "count": 11,
+        "agieval_lsat_ar": 11
+    },
+    "m.ht88.com": {
+        "count": 11,
+        "agieval_gaokao_english": 11
+    },
     "quiz-zone.co.uk": {
         "count": 11,
         "triviaqa": 11
@@ -4492,6 +5609,14 @@
     "www.jpost.com": {
         "count": 11,
         "triviaqa": 11
+    },
+    "pages.github.khoury.northeastern.edu": {
+        "count": 11,
+        "bbh_zeroshot_reasoning_about_colored_objects": 11
+    },
+    "www.cs.utexas.edu": {
+        "count": 11,
+        "bbh_zeroshot_causal_judgement": 11
     },
     "wandb.ai": {
         "count": 11,
@@ -4610,6 +5735,34 @@
     "apclassroom.collegeboard.org": {
         "count": 10,
         "mmlu_high_school_computer_science": 10
+    },
+    "cdn.revolutionprep.com": {
+        "count": 10,
+        "agieval_sat_en_without_passage": 10
+    },
+    "www.secexams.com": {
+        "count": 10,
+        "agieval_lsat_rc": 10
+    },
+    "player.uacdn.net": {
+        "count": 10,
+        "agieval_lsat_rc": 10
+    },
+    "image.sunedu.com": {
+        "count": 10,
+        "agieval_gaokao_english": 10
+    },
+    "www.newsday.com": {
+        "count": 10,
+        "agieval_gaokao_english": 10
+    },
+    "placement.freshersworld.com": {
+        "count": 10,
+        "agieval_aqua_rat": 10
+    },
+    "campuspress.yale.edu": {
+        "count": 10,
+        "bbh_zeroshot_causal_judgement": 10
     },
     "mubi.com": {
         "count": 10,
