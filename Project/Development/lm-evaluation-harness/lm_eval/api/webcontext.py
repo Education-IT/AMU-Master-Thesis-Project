@@ -32,35 +32,31 @@ class webcontext():
 
 
 
-    def clearText(self,text):
+    def clear_text(self, text):
         text = text.lower()
         patterns = [
-            r'^[A-Za-z]{3} \d{1,2}, \d{4} —\s*',  # np. "Oct 7, 2024 — "
-            r'^\d{1,2} [\w]+ \d{4} —\s*',  # np. "25 paź 2024 —"
-            r'^by [A-Za-z ]+ · \d{4} · cited by \d+ —\s*',  # np. "by John Doe · 2024 · Cited by 10 —"
-            r'^[A-Za-z ]+ · \d{4} · cytowane przez \d+ —\s*',  # np. "Broda· 1967 · Cytowane przez 832 —"
-            r'^[A-Za-z ]+ cytowane przez \d+\s*',  # np. "e blacksher cytowane przez 6"
-            r'^[A-Za-z ]+ cited by \d+\s*',  # np. "e blacksher cited by 6"
-            r'^[A-Za-z ]+ · \d{4} —\s*',  # np. "John Doe · 2024 —"
-            r'by [A-Za-z ]+ —\s*',  # np. "by John Doe —"
-            r'\d{1,2} [\w]+ ago —\s*',  # np. "1 day ago —"
-            r'\d+ (pages|page)\s*',  # np. "7 pages", "113 pages"
-            r'\d+ (strona|strony)\s*',  # np. "1 strona", "2 strony"
-            r'\d+ days ago —\s*',  # np. "4 days ago —"
-            r'\d+ dni temu —\s*',  # np. "4 days ago —"
-            r'cited by \d+ —\s*',  # np. "cited by 12 — "
-            r'(?:by\s*)?[\w\s]+ \d{4} cited by \d+\s*', # np. "by John Doe 2024 cited by 10"
-            r'by [A-Z][A-Za-z]+ [A-Z][A-Za-z]+ cited by \d+ years? ago'
-
+            r'^[A-Za-z ]+ cited by \d+\s*',                   # e blacksher cited by 6
+            r'^[A-Za-z ]+ · \d{4} —\s*',                      # John Doe · 2024 —
+            r'by [A-Za-z ]+ —\s*',                            # by John Doe —
+            r'\d{1,2} [\w]+ ago —\s*',                        # 1 day ago —
+            r'\d+ (pages|page)\s*',                           # 1 page, 113 pages
+            r'\d+ (strona|strony)\s*',                        # 1 strona, 2 strony
+            r'\d+ days ago —\s*',                             # x days ago —
+            r'\d+ dni temu —\s*',                             # x dni temu —
+            r'cited by \d+ —\s*',                             # cited by 12 — 
+            r'^\d{1,2} [\w]+ \d{4} —\s*',                     # 25 paź 2024 —
+            r'^[A-Za-z]{3} \d{1,2}, \d{4} —\s*',              # Oct 7, 2024 — 
+            r'^by [A-Za-z ]+ · \d{4} · cited by \d+ —\s*',    # by John Doe · 2024 · Cited by 10 —
+            r'^[A-Za-z ]+ · \d{4} · cytowane przez \d+ —\s*', # Broda· 1967 · Cytowane przez 832 —
+            r'^[A-Za-z ]+ cytowane przez \d+\s*',             # e blacksher cytowane przez 6
+            r'(?:by\s*)?[\w\s]+ \d{4} cited by \d+\s*',       # by John Doe 2024 cited by 10
         ]
         for pattern in patterns:
             text = re.sub(pattern, '', text)
 
         text = text.translate(str.maketrans('', '', string.punctuation + "–_—·•"))
-        text = re.sub(r'\u200b', '', text)
         text = re.sub(r'\s+', ' ', text)
         return text.strip()
-
 
 
     def getNgrams(self, text, n=2):
@@ -69,8 +65,6 @@ class webcontext():
             return []
         
         return [words[i:i+n] for i in range(len(words) - n + 1)]
-
-
 
 
     def getSimilarNgramsNum(self, question, webText):
@@ -86,24 +80,24 @@ class webcontext():
         bc = "bc"
         cd = "cd"
 
-        id_ab = 0
-        id_bc = 0
-        id_cd = 0
+        i_ab = 0
+        i_bc = 0
+        i_cd = 0
         
         for onegram in webGrams:
-            if onegram == ab[id_ab]:
-                id_ab += 1
-                if id_ab == 2:
+            if onegram == ab[i_ab]:
+                i_ab += 1
+                if i_ab == 2:
                     return True
                 
-            elif onegram == bc[id_bc]:
-                id_bc += 1
-                if id_bc == 2:
+            elif onegram == bc[i_bc]:
+                i_bc += 1
+                if i_bc == 2:
                     return True
                 
-            elif onegram == cd[id_cd]:    
-                id_cd += 1                   
-                if id_cd == 2:
+            elif onegram == cd[i_cd]:    
+                i_cd += 1                   
+                if i_cd == 2:
                     return True
                 
         return False

@@ -14,8 +14,8 @@ def extract_data_from_json(json_path):
             "contaminated_queries": data.get("contaminated_queries", -1),
             "contaminated_urls": data.get("contaminated_urls", -1),
             "valid_urls": data.get("valid_urls", -1),
-            "avg_contaminated_before_valid": data.get("avg_contaminated_before_valid", -1.0),
-            "contaminated_data_ratio": data.get("contaminated_data_ratio", -1.0)
+            "avg_contaminated_before_valid": round(data.get("avg_contaminated_before_valid", -1.0),2),
+            "contaminated_data_ratio": round(data.get("contaminated_data_ratio", -1.0),2)
         }
     except (json.JSONDecodeError, FileNotFoundError) as e:
         print(f"Error: {json_path}: {e}")
